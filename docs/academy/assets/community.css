@@ -93,7 +93,7 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-offer{display:flex;flex-direction:column;min-height:212px}
 .co-offer p{flex:1}
 .co-offer .co-action-btn{width:100%;margin-top:16px;font-size:12px}
-.co-site-footer{gap:7px;text-align:left}
+.co-site-footer{width:100%;gap:7px;text-align:left}
 .co-site-footer>div{display:grid;grid-template-columns:minmax(0,.43fr) minmax(0,.57fr);gap:14px;align-items:start}
 .co-site-footer>div+div{grid-template-columns:minmax(0,.53fr) minmax(0,.47fr)}
 .co-site-footer small{display:block}
