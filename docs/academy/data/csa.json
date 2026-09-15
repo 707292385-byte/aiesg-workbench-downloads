@@ -260,7 +260,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-01.json"
         },
         {
           "id": "CSA-GOV-02",
@@ -314,7 +315,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-02.json"
         },
         {
           "id": "CSA-GOV-03",
@@ -375,7 +377,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-03.json"
         },
         {
           "id": "CSA-GOV-04",
@@ -429,7 +432,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-04.json"
         },
         {
           "id": "CSA-GOV-05",
@@ -457,7 +461,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-05.json"
         },
         {
           "id": "CSA-GOV-06",
@@ -484,7 +489,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-06.json"
         },
         {
           "id": "CSA-GOV-07",
@@ -534,7 +540,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-07.json"
         },
         {
           "id": "CSA-GOV-08",
@@ -586,7 +593,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-08.json"
         },
         {
           "id": "CSA-GOV-09",
@@ -613,7 +621,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-09.json"
         },
         {
           "id": "CSA-GOV-10",
@@ -639,7 +648,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-10.json"
         },
         {
           "id": "CSA-GOV-11",
@@ -680,7 +690,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-11.json"
         },
         {
           "id": "CSA-GOV-12",
@@ -753,7 +764,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-GOV-12.json"
         }
       ]
     },
@@ -897,7 +909,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-01.json"
         },
         {
           "id": "CSA-ENV-02",
@@ -1009,7 +1022,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-02.json"
         },
         {
           "id": "CSA-ENV-03",
@@ -1165,7 +1179,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-03.json"
         },
         {
           "id": "CSA-ENV-04",
@@ -1272,7 +1287,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-04.json"
         },
         {
           "id": "CSA-ENV-05",
@@ -1351,7 +1367,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-05.json"
         },
         {
           "id": "CSA-ENV-06",
@@ -1424,7 +1441,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-06.json"
         },
         {
           "id": "CSA-ENV-07",
@@ -1596,7 +1614,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-07.json"
         },
         {
           "id": "CSA-ENV-08",
@@ -1702,7 +1721,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-08.json"
         },
         {
           "id": "CSA-ENV-09",
@@ -1735,7 +1755,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-09.json"
         },
         {
           "id": "CSA-ENV-10",
@@ -1754,7 +1775,8 @@
           "outline": [],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-ENV-10.json"
         }
       ]
     },
@@ -1850,7 +1872,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-01.json"
         },
         {
           "id": "CSA-SOC-02",
@@ -1958,7 +1981,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-02.json"
         },
         {
           "id": "CSA-SOC-03",
@@ -1987,7 +2011,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-03.json"
         },
         {
           "id": "CSA-SOC-04",
@@ -2026,7 +2051,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-04.json"
         },
         {
           "id": "CSA-SOC-05",
@@ -2088,7 +2114,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-05.json"
         },
         {
           "id": "CSA-SOC-06",
@@ -2196,7 +2223,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-06.json"
         },
         {
           "id": "CSA-SOC-07",
@@ -2224,7 +2252,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-07.json"
         },
         {
           "id": "CSA-SOC-08",
@@ -2271,7 +2300,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-08.json"
         },
         {
           "id": "CSA-SOC-09",
@@ -2290,7 +2320,8 @@
           "outline": [],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-09.json"
         },
         {
           "id": "CSA-SOC-10",
@@ -2309,7 +2340,8 @@
           "outline": [],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-10.json"
         },
         {
           "id": "CSA-SOC-11",
@@ -2328,7 +2360,8 @@
           "outline": [],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-11.json"
         },
         {
           "id": "CSA-SOC-12",
@@ -2354,7 +2387,8 @@
           ],
           "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
           "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
-          "officialUrl": "https://www.spglobal.com/esg/csa/"
+          "officialUrl": "https://www.spglobal.com/esg/csa/",
+          "detailFile": "data/csa/CSA-SOC-12.json"
         }
       ]
     }

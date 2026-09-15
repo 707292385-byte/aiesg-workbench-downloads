@@ -1,0 +1,58 @@
+{
+  "id": "CSA-ENV-01",
+  "title": "气候战略",
+  "titleEn": "Climate Strategy",
+  "eyebrow": "环境",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "环境",
+    "通用标准",
+    "平均权重 10.1%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "气候战略属于环境维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：10.1%",
+        "问题索引：53项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "直接温室气体排放（范围1）",
+        "间接温室气体排放（范围3）",
+        "温室气体排放的具体数据要求：",
+        "甲烷排放",
+        "全氟化碳排放",
+        "六氟化硫（SF6 ）排放",
+        "气候相关管理激励措施",
+        "气候变化的金融风险",
+        "物理气候风险适应",
+        "内部碳定价",
+        "车队温室气体排放强度",
+        "脱碳战略",
+        "范围3融资绝对排放量"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

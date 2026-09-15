@@ -1,0 +1,66 @@
+{
+  "id": "CSA-ENV-03",
+  "title": "废弃物与污染物",
+  "titleEn": "Waste & Pollutants",
+  "eyebrow": "环境",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "环境",
+    "通用标准",
+    "平均权重 4%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "废弃物与污染物属于环境维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：4%",
+        "问题索引：31项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "废弃物与污染物",
+        "建筑垃圾管理",
+        "废弃物处理",
+        "危险废弃物",
+        "危险废弃物的具体数据要求",
+        "灰烬和石膏废料",
+        "矿物废料",
+        "矿物废料的具体数据要求",
+        "酸性岩石排水管理",
+        "食物损失与浪费的影响",
+        "化学需氧量",
+        "碳氢化合物泄漏",
+        "油气泄漏的具体数据要求",
+        "NOX 排放",
+        "客运行业的特定氮氧化物排放",
+        "货物运输的特定氮氧化物排放",
+        "硫氧化物排放",
+        "直接汞排放",
+        "粉尘排放",
+        "挥发性有机化合物排放",
+        "可吸收有机卤素"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

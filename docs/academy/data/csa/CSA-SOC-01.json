@@ -1,0 +1,55 @@
+{
+  "id": "CSA-SOC-01",
+  "title": "人力资本管理",
+  "titleEn": "Human Capital Management",
+  "eyebrow": "社会",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "社会",
+    "通用标准",
+    "平均权重 9.9%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "人力资本管理属于社会维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：9.9%",
+        "问题索引：20项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "员工构成：性别",
+        "员工构成：种族/民族与国籍",
+        "人力资本管理",
+        "招聘",
+        "数据细分",
+        "员工流失率",
+        "数据细分：",
+        "员工长期激励措施",
+        "员工幸福感趋势",
+        "地方能力建设"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

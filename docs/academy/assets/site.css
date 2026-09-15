@@ -280,14 +280,10 @@ body[data-page=msci-topic]>.site-main{min-height:100vh}
 .knowledge-card .topic-icon{width:34px;height:34px;border-radius:9px}
 .knowledge-card .topic-icon svg{width:17px;height:17px}
 .knowledge-card-label{font-size:11px;font-weight:650;color:#4c7058}
-.knowledge-card-status{align-self:flex-start;margin-bottom:12px;padding:3px 8px;border-radius:5px;background:#f1f5f2;color:#67796c;font-size:10px}
 .knowledge-card h3{font-size:18px}
 .knowledge-card p{min-height:0;margin-bottom:15px}
 .knowledge-card .card-meta{flex-wrap:wrap}
 .knowledge-card .card-bottom{gap:12px}
-.knowledge-card-featured{grid-column:span 2;min-height:244px;border-color:#c9dfd0;background:radial-gradient(circle at 90% 15%,#e2f2e7,transparent 40%),linear-gradient(110deg,#fff,#f7fbf8)}
-.knowledge-card-featured h3{font-size:24px}
-.knowledge-card-featured p{max-width:570px;font-size:14px}
-.knowledge-card-featured .knowledge-card-status{background:#dceee2;color:#246344}
+.reading-paper p,.reading-paper li,.concept-card p,.topic-dark-hero p{overflow-wrap:anywhere;word-break:break-word}
 @media(max-width:850px){.knowledge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.knowledge-home{padding-bottom:30px}.knowledge-library-head{align-items:flex-start;flex-direction:column}.knowledge-grid{grid-template-columns:1fr}.knowledge-card-featured{grid-column:auto}.knowledge-card{min-height:0}.knowledge-card-featured h3{font-size:21px}}
+@media(max-width:600px){.knowledge-home{padding-bottom:30px}.knowledge-library-head{align-items:flex-start;flex-direction:column}.knowledge-grid{grid-template-columns:1fr}.knowledge-card{min-height:0}}

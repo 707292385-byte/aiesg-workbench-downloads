@@ -1,0 +1,57 @@
+{
+  "id": "CSA-SOC-02",
+  "title": "职业健康与安全",
+  "titleEn": "Occupational Health & Safety",
+  "eyebrow": "社会",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "社会",
+    "通用标准",
+    "平均权重 5.8%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "职业健康与安全属于社会维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：5.8%",
+        "问题索引：28项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "职业健康与安全",
+        "缺勤率",
+        "死亡人数",
+        "损失工时工伤率（LTIFR ）- 承包商",
+        "承包商可记录总伤害频率（TRIFR ）",
+        "过程安全事件– 一级",
+        "健康与营养",
+        "健康与营养收入",
+        "交通安全",
+        "系统性酒精和药物测试：",
+        "事故率",
+        "社会医疗保健贡献"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

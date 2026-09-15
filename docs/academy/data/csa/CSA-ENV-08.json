@@ -1,0 +1,58 @@
+{
+  "id": "CSA-ENV-08",
+  "title": "可持续原材料",
+  "titleEn": "Sustainable Raw Materials",
+  "eyebrow": "环境",
+  "summary": "行业特定标准，按行业配置权重与评估问题。",
+  "tags": [
+    "环境",
+    "行业特定标准",
+    "平均权重 3.4%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "可持续原材料属于环境维度。该标准只在部分行业适用。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：3.4%",
+        "问题索引：21项",
+        "适用性：行业特定"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "可持续原材料",
+        "农作物认证",
+        "暴露：",
+        "动物产品认证",
+        "其他认可认证与标准列表：",
+        "植物与动物源纺织材料",
+        "塑料原材料",
+        "金属原材料",
+        "再生建筑材料",
+        "包装产品原材料",
+        "小森林所有者",
+        "森林经营认证",
+        "监管链认证"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

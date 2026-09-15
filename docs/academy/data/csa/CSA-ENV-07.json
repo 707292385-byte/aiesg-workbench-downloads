@@ -1,0 +1,68 @@
+{
+  "id": "CSA-ENV-07",
+  "title": "能源",
+  "titleEn": "Energy",
+  "eyebrow": "环境",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "环境",
+    "通用标准",
+    "平均权重 2%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "能源属于环境维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：2%",
+        "问题索引：37项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "能源",
+        "能源消耗",
+        "购买或获得的电力、蒸汽、热量、冷却：",
+        "能源密度",
+        "数据中心效率",
+        "数据中心可再生能源占比",
+        "现场能源生成",
+        "输配电损耗",
+        "输配电可靠性",
+        "气体泄漏率",
+        "售电总发电量",
+        "CDP 2025 – 1.16.1",
+        "发电效率",
+        "电厂可用系数",
+        "碳氢化合物生产的碳强度",
+        "可再生能源生产",
+        "客运燃油消耗率",
+        "货物运输的单位燃料消耗量",
+        "车辆效能与排放的治理检查",
+        "电动汽车（EV）电池退化",
+        "电动汽车效率",
+        "替代传动系统",
+        "协同处置率"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

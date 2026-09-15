@@ -1,0 +1,58 @@
+{
+  "id": "CSA-SOC-06",
+  "title": "社区关系",
+  "titleEn": "Community Relations",
+  "eyebrow": "社会",
+  "summary": "行业特定标准，按行业配置权重与评估问题。",
+  "tags": [
+    "社会",
+    "行业特定标准",
+    "平均权重 5.3%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "社区关系属于社会维度。该标准只在部分行业适用。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：5.3%",
+        "问题索引：23项",
+        "适用性：行业特定"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "社区关系",
+        "社会矿山关闭计划",
+        "矿山关闭规划",
+        "社区积极参与",
+        "搬迁计划",
+        "安保力量",
+        "本地就业",
+        "手工小规模采矿",
+        "社会融合项目",
+        "通过支持社会企业、小企业和创造当地就业机会来促进当地经济发展：",
+        "提供申诉机制",
+        "当地利益相关方的能力建设，以确保他们能够与公司沟",
+        "定期调查/审查当地利益相关方对参与策略的看法"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

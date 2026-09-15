@@ -1,0 +1,65 @@
+{
+  "id": "CSA-GOV-01",
+  "title": "公司治理",
+  "titleEn": "Corporate Governance",
+  "eyebrow": "治理与经济",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "治理与经济",
+    "通用标准",
+    "平均权重 8%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "公司治理属于治理与经济维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：8%",
+        "问题索引：36项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "董事会独立性",
+        "家族企业",
+        "非执行主席/首席董事",
+        "董事会多样性政策",
+        "董事会性别多样性",
+        "董事会责任",
+        "董事会平均任期",
+        "董事会行业经验",
+        "首席执行官薪酬——成功指标",
+        "首席执行官薪酬——长期绩效挂钩",
+        "首席执行官与员工薪酬比率",
+        "所有权管理",
+        "管理层持股要求",
+        "政府所有权",
+        "家族所有权",
+        "ESG 治理监督",
+        "最大贡献与支出",
+        "评估流程",
+        "董事会监督",
+        "性别薪酬指标"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "CSA-ENV-05",
+  "title": "水资源",
+  "titleEn": "Water",
+  "eyebrow": "环境",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "环境",
+    "通用标准",
+    "平均权重 2.6%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "水资源属于环境维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：2.6%",
+        "问题索引：14项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "水",
+        "用水量",
+        "水资源紧缺地区的用水量",
+        "超纯水使用",
+        "建筑中的节水方案",
+        "房地产投资组合的节水计划",
+        "水风险管理计划",
+        "供应商面临的水风险",
+        "供应商的水风险管理"
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}

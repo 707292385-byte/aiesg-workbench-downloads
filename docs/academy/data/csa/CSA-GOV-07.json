@@ -1,0 +1,49 @@
+{
+  "id": "CSA-GOV-07",
+  "title": "重要性",
+  "titleEn": "Materiality",
+  "eyebrow": "治理与经济",
+  "summary": "通用标准，按行业配置权重与评估问题。",
+  "tags": [
+    "治理与经济",
+    "通用标准",
+    "平均权重 2.1%"
+  ],
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "officialUrl": "https://www.spglobal.com/esg/csa/",
+  "sections": [
+    {
+      "title": "标准定位",
+      "paragraphs": [
+        "重要性属于治理与经济维度。该标准属于跨行业通用评估范围。"
+      ],
+      "points": []
+    },
+    {
+      "title": "评估结构",
+      "paragraphs": [],
+      "points": [
+        "平均权重：2.1%",
+        "问题索引：5项",
+        "适用性：通用标准"
+      ]
+    },
+    {
+      "title": "关注主题",
+      "paragraphs": [],
+      "points": [
+        "重要性",
+        "外部利益相关方的重要议题",
+        "外部利益相关方的重要性指标",
+        "影响指标："
+      ]
+    },
+    {
+      "title": "使用提示",
+      "paragraphs": [
+        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+      ],
+      "points": []
+    }
+  ]
+}
