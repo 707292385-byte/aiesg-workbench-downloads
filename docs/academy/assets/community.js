@@ -2,8 +2,7 @@
   'use strict';
 
   const communityForms = {
-    question: 'https://my.feishu.cn/share/base/shrcnnchBl28MlLU22mTkhafOQg',
-    service: 'https://my.feishu.cn/share/base/shrcnUKzCwW2jbt1Vi9asLGutEh'
+    contact: 'https://my.feishu.cn/share/base/shrcnUKzCwW2jbt1Vi9asLGutEh'
   };
   const iconPaths = {
     methods: '<path d="M4 5.5c2.7-1.2 5.1-1.2 8 0v13c-2.9-1.2-5.3-1.2-8 0z"/><path d="M12 5.5c2.9-1.2 5.3-1.2 8 0v13c-2.7-1.2-5.1-1.2-8 0z"/><path d="M12 5.5v13"/>',
@@ -35,9 +34,15 @@
   ];
   const socialProfiles = [
     { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
-    { name: '微信公众号', image: '', crop: 'placeholder' },
+    { name: '微信公众号', image: 'assets/community/qr-wechat-official.jpg', crop: 'official' },
     { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' },
     { name: '微信号', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' }
+  ];
+  const contactOffers = [
+    { icon: 'cooperate', title: '项目合作', description: '围绕ESG报告、评级、披露与项目推进，一起梳理可落地的合作方式。' },
+    { icon: 'support', title: '咨询辅导', description: '就标准理解、工作方法和实际难题，获得针对性的交流与建议。' },
+    { icon: 'ai', title: 'AI实践带练', description: '从真实工作场景出发，练习让AI辅助资料整理、分析和复核。' },
+    { icon: 'cooperate', title: '商务合作', description: '欢迎内容共创、培训合作、产品试用与其它商务沟通。' }
   ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
@@ -95,6 +100,11 @@
       + '</div></section>';
   }
 
+  function renderOffers() {
+    return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer"><i>' + svgIcon(item.icon) + '</i><h3>' + item.title + '</h3><p>' + item.description + '</p></article>').join('') + '</div>'
+      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>请选择联系类别，说明想交流的内容，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
+  }
+
   function render(publicData) {
     const root = document.getElementById('community-page');
     if (!root) return;
@@ -108,10 +118,10 @@
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>跟进 ESG 方法更新、行业动态与实践问题，关注变化对实际工作的影响。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><button type="button" data-community-news-more>更多观察　→</button></div><div class="co-items co-items--news"><article class="co-item"><small>方法更新</small><strong>方法论更新如何影响使用？</strong><span>看来源、版本和主要变化</span></article><article class="co-item"><small>实践观察</small><strong>ESG 工作中的新问题</strong><span>把工作难题拆成可讨论的问题</span></article><article class="co-item"><small>开发动态</small><strong>工作台开发手记</strong><span>功能变化与真实使用反馈</span></article><article class="co-item" data-community-news-extra hidden><small>资料核对</small><strong>先找到可信的原件</strong><span>来源核验与内容解读分开</span></article></div></div></article></section>'
       + '<section class="co-section" id="co-community"><div class="co-section-head"><b>02</b><h2>共创社区</h2><p>感谢伙伴，整理大家关心的问题</p></div>'
       + renderMap(publicData)
-      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
+      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact" data-service-label="问题反馈">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
       + questions.map(renderQuestion).join('')
       + '</div></div></section>'
-      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="专业支持">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实践辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="AI实践辅导">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="商务合作">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article></div></div>'
+      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业交流与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button></div></section>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，或者请作者喝杯续命咖啡。</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr" aria-label="支持二维码位置">▦</div><small>支持二维码位置</small><button type="button" data-close-support>关闭</button></dialog>'
@@ -132,7 +142,7 @@
     });
     notifyHost('community.html');
     if (new URLSearchParams(location.search).get('open-form') === 'question') {
-      document.querySelector('[data-open-community-form="question"]')?.click();
+      document.querySelector('[data-open-community-form="contact"]')?.click();
     }
   }
 
@@ -149,10 +159,10 @@
       const frame = dialog?.querySelector('[data-community-form-frame]');
       if (!dialog || !frame || !communityForms[kind]) return;
       const service = formTrigger.dataset.serviceLabel || '';
-      dialog.querySelector('#co-form-title').textContent = kind === 'question' ? '向 Xiao〇 提一个问题' : service + ' · 联系 Xiao〇';
-      dialog.querySelector('[data-form-intro]').textContent = kind === 'question'
-        ? '说说你在工作台、ESG 工作或 AI 实践中遇到的问题。Xiao〇 整理后才会展示。'
-        : '在表单里选“' + service + '”，写下想聊的问题，并留下微信号、电话或邮箱中的一种。';
+      dialog.querySelector('#co-form-title').textContent = '联系 Xiao〇';
+      dialog.querySelector('[data-form-intro]').textContent = service
+        ? '请在表单中选择“' + service + '”，再填写想交流的内容和联系方式。'
+        : '请在表单中选择联系类别，填写想交流的内容，并留下微信号、电话或邮箱中的一种。';
       dialog.querySelector('[data-form-loading]').classList.remove('loaded');
       dialog.showModal();
       frame.src = communityForms[kind];
