@@ -254,8 +254,10 @@ body[data-page=msci-topic]>.site-main{min-height:100vh}
 .reader-end-nav a:hover,.reader-end-nav button:hover{border-color:#84b695;background:#f1f8f3}
 .reader-end-nav .reader-next{margin-left:auto;border-color:#2b8156;background:#2b8156;color:#fff}
 .reader-end-nav .reader-next:hover{background:#176b4b;color:#fff}
-.reader-float{position:fixed;right:17px;top:48%;z-index:20;max-width:160px}
-.reader-float a{display:flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid #c7dfce;border-radius:22px;background:rgba(255,255,255,.94);box-shadow:0 5px 20px rgba(20,69,42,.12);color:#2b7150;text-decoration:none;font-size:11px;backdrop-filter:blur(8px)}
+.reader-float{position:fixed;right:0;top:48%;z-index:20}
+.reader-float a{display:flex;align-items:center;justify-content:center;gap:7px;width:38px;height:38px;padding:0;overflow:hidden;border:1px solid #c7dfce;border-right:0;border-radius:12px 0 0 12px;background:rgba(255,255,255,.94);box-shadow:0 5px 20px rgba(20,69,42,.12);color:#2b7150;text-decoration:none;font-size:11px;backdrop-filter:blur(8px);transition:width .18s}
 .reader-float a:hover{border-color:#81b996;background:#f4faf6}
-.reader-float b{font-weight:650}
-@media(max-width:700px){.reader-end-nav{margin-inline:14px;padding-inline:0}.reader-end-nav .reader-next{margin-left:0}.reader-float{right:7px;top:auto;bottom:76px}.reader-float a{width:38px;height:38px;justify-content:center;padding:0}.reader-float b{display:none}}
+.reader-float b{display:none;font-weight:650;white-space:nowrap}
+.reader-float a:hover,.reader-float a:focus-visible{width:148px;justify-content:flex-start;padding:0 11px}
+.reader-float a:hover b,.reader-float a:focus-visible b{display:inline}
+@media(max-width:700px){.reader-end-nav{margin-inline:14px;padding-inline:0}.reader-end-nav .reader-next{margin-left:0}.reader-float{top:auto;bottom:76px}.reader-float a,.reader-float a:hover,.reader-float a:focus-visible{width:38px;height:38px;justify-content:center;padding:0}.reader-float b,.reader-float a:hover b,.reader-float a:focus-visible b{display:none}}

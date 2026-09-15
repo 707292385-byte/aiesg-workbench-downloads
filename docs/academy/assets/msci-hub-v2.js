@@ -149,7 +149,7 @@
           }).join('')}</div>
         </section>`).join('')}
         <section class="mp-section" id="sources">${sectionHead(chapters.length + 2, '版本与参考', '方法论更新时核对现行原件')}
-          <div class="mh-source mp-card"><p>依据 MSCI ${id === 'process' ? 'ESG Ratings Process' : 'ESG Ratings Methodology'}（2026 年 3 月）整理。方法论及流程可能调整，请核对 MSCI 官网现行文件。</p><p>中文为辅助翻译，段落后的 EN 可查看对应英文。</p></div>
+          <div class="mh-source mh-source-pair mp-card"><div><small>参考资料</small><p>依据 MSCI ${id === 'process' ? 'ESG Ratings Process' : 'ESG Ratings Methodology'}（2026 年 3 月）整理。方法论及流程可能调整，请核对 MSCI 官网现行文件。</p></div><div><small>阅读说明</small><p>中文为辅助翻译，段落后的 EN 可查看对应英文。</p></div></div>
         </section>
       </main>${footer()}
     </div>`;
@@ -175,7 +175,7 @@
           <div class="mh-materiality mp-card"><div class="materiality-toolbar"><label>选择板块<select id="industry-sector">${detail.rows.filter(row => row.level === 'Sector').map(row => `<option value="${esc(row.gics_code)}">${esc(row.industry_cn || row.industry)} · ${esc(row.gics_code)}</option>`).join('')}</select></label><label>显示层级<select id="industry-level"><option value="all">板块与子行业</option><option value="Sector">仅板块</option><option value="Sub-industry">仅子行业</option></select></label><label>查找<input id="industry-search" type="search" placeholder="名称或 GICS 编码"></label><span id="industry-count"></span></div><p id="industry-path" class="mh-industry-path"></p><div id="materiality-table"></div></div>
         </section>
         <section class="mp-section" id="sources">${sectionHead(3, '版本与参考', '权重更新时重新核对映射数据')}
-          <div class="mh-source mp-card"><p>数据来源：MSCI 官网行业权重资料；行业层级按 GICS 板块与子行业呈现。</p><p>行业分类和议题权重可能更新，实际使用前请核对 MSCI 现行资料。</p></div>
+          <div class="mh-source mh-source-pair mp-card"><div><small>数据来源</small><p>MSCI 官网行业权重资料；行业层级按 GICS 板块与子行业呈现。</p></div><div><small>更新提醒</small><p>行业分类和议题权重可能更新，实际使用前请核对 MSCI 现行资料。</p></div></div>
         </section>
       </main>${footer()}
     </div>`;
