@@ -7,7 +7,7 @@ const originalPage = document.body.dataset.page;
 const root = document.querySelector('[data-page-root]');
 const header = document.querySelector('[data-site-header]');
 const footer = document.querySelector('[data-site-footer]');
-const dataVersion = '20260915-6';
+const dataVersion = '20260915-7';
 if (embedded) document.body.classList.add('embed-mode');
 
 const icons = {
