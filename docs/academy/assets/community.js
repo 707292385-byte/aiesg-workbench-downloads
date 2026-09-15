@@ -30,6 +30,11 @@
     { category: 'ESG工作难题', title: '理解披露标准时，哪些概念最容易混淆？', summary: '围绕标准原文、定义、关联关系和使用边界。', detail: '一个要求在不同标准中表述不同，应该怎样识别适用边界？' },
     { category: 'AI实践问题', title: 'AI 在资料整理中，怎样保证结果可以核对？', summary: '围绕来源追踪、人工复核与实际工作场景。', detail: '如何让 AI 整理的要点逐条对应到可查证的来源？' }
   ];
+  const socialProfiles = [
+    { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
+    { name: '微信', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' },
+    { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' }
+  ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -78,6 +83,12 @@
       + '</article>';
   }
 
+  function renderSocial() {
+    return '<section class="co-social-area" aria-label="Xiao〇的平台二维码"><div class="co-social-heading"><span>FIND ME</span><h3>在这些平台找到 Xiao〇</h3><p>扫描二维码，继续交流 ESG、AI 与工作台的开发。</p></div><div class="co-social-grid">'
+      + socialProfiles.map(item => '<article class="co-social-card"><div class="co-qr-window co-qr-window--' + item.crop + '"><img src="' + item.image + '" alt="' + item.name + '二维码" loading="lazy"></div><strong>' + item.name + '</strong></article>').join('')
+      + '</div></section>';
+  }
+
   function render(publicData) {
     const root = document.getElementById('community-page');
     if (!root) return;
@@ -94,7 +105,10 @@
       + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><a href="' + feedbackUrl + '" target="_blank" rel="noopener noreferrer">提出一个问题　↗</a></div><div class="co-question-grid">'
       + questions.map(renderQuestion).join('')
       + '</div></div></section>'
-      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar">' + svgIcon('person') + '</div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <span aria-hidden="true">↗</span></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实战辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p></article></div></div><div class="co-socials" aria-label="Xiao〇的内容平台"><span>小红书</span><span>微信公众号</span><span>微信视频号</span><span>抖音</span></div></section>'
+      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar">' + svgIcon('person') + '</div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <span aria-hidden="true">↗</span></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实战辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p></article></div></div>'
+      + renderSocial()
+      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button></div></section>'
+      + '<dialog class="co-support-dialog" id="co-support-dialog"><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它。</p><div class="co-support-qr" aria-label="支持二维码位置">▦</div><small>支持二维码位置</small><button type="button" data-close-support>关闭</button></dialog>'
       + '</div>';
   }
 
@@ -104,6 +118,24 @@
   }
 
   document.addEventListener('click', event => {
+    const like = event.target.closest('#community-page [data-author-like]');
+    if (like) {
+      const liked = like.getAttribute('aria-pressed') === 'true';
+      like.setAttribute('aria-pressed', String(!liked));
+      like.textContent = liked ? '♡ 给作者点赞' : '♥ 已点赞';
+      return;
+    }
+    const support = event.target.closest('#community-page [data-open-support]');
+    if (support) {
+      document.getElementById('co-support-dialog')?.showModal();
+      return;
+    }
+    const close = event.target.closest('#community-page [data-close-support]');
+    if (close) {
+      document.getElementById('co-support-dialog')?.close();
+      return;
+    }
+    if (event.target.id === 'co-support-dialog') { event.target.close(); return; }
     const news = event.target.closest('#community-page [data-community-news-more]');
     if (news) {
       const extra = document.querySelector('#community-page [data-community-news-extra]');

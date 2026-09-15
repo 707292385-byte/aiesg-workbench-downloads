@@ -52,6 +52,30 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-socials span{font-size:13px}
 @media(max-width:520px){.co-item{min-height:0}.co-map-header{align-items:flex-start}}
 
+/* 三个平台使用同一张卡片版式；只在窗口中显示原图的二维码区域。 */
+.co-social-area{margin-top:22px;padding:28px clamp(18px,3vw,36px);border:1px solid #dce9e2;border-radius:18px;background:linear-gradient(160deg,#fff 35%,#f1f8f3);box-shadow:0 8px 24px rgba(24,70,45,.06)}
+.co-social-heading{text-align:center}.co-social-heading span{color:#4b9168;font-size:11px;font-weight:800;letter-spacing:.18em}.co-social-heading h3{margin:7px 0 4px;color:#274338;font-size:23px}.co-social-heading p{margin:0;color:#7d9282;font-size:13px;line-height:1.6}
+.co-social-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:930px;margin:24px auto 0}
+.co-social-card{display:flex;align-items:center;flex-direction:column;gap:13px;min-width:0;padding:23px 17px 19px;border:1px solid #e1eae3;border-radius:15px;background:#fff;text-align:center;box-shadow:0 5px 15px rgba(30,70,45,.04)}
+.co-social-card strong{color:#32684d;font-size:16px;letter-spacing:.04em}
+.co-qr-window{position:relative;overflow:hidden;width:min(100%,220px);aspect-ratio:1;border:1px solid #e5eee7;border-radius:10px;background:#fff}
+.co-qr-window img{position:absolute;display:block;max-width:none;height:auto}
+.co-qr-window--xhs img{width:142%;left:-21%;top:-19%}
+.co-qr-window--wechat img{width:148%;left:-24%;top:-52%}
+.co-qr-window--douyin img{width:146%;left:-23%;top:-33%}
+.co-author-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:24px}
+.co-author-actions button{min-width:142px;padding:11px 17px;border:1px solid #cfe2d4;border-radius:10px;background:#fff;color:#317654;font-size:14px;font-weight:700;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.co-author-actions button:hover,.co-author-actions button:focus-visible{transform:translateY(-1px);box-shadow:0 6px 16px rgba(20,70,40,.13)}
+.co-author-actions button[aria-pressed=true]{background:#edf7ef;color:#225e40}
+.co-author-actions .co-author-actions--primary{border-color:#34805b;background:#34805b;color:#fff}
+.co-support-dialog{width:min(420px,calc(100vw - 32px));padding:30px;border:1px solid #dce9e0;border-radius:17px;background:#fff;box-shadow:0 25px 70px rgba(14,48,32,.3);color:#294638;text-align:center}
+.co-support-dialog::backdrop{background:rgba(17,48,31,.62)}
+.co-support-dialog h3{margin:0;font-size:23px}.co-support-dialog p{margin:10px 0 20px;color:#718c7a;font-size:14px;line-height:1.7}
+.co-support-qr{display:grid;place-items:center;width:160px;height:160px;margin:auto;border:1px dashed #aacbb5;border-radius:12px;background:repeating-linear-gradient(45deg,#f3f8f4 0 6px,#fff 6px 12px);color:#739781;font-size:48px}
+.co-support-dialog small{display:block;margin-top:10px;color:#82988b;font-size:12px}.co-support-dialog button{margin-top:24px;padding:10px 20px;border:1px solid #d3e4d9;border-radius:9px;background:#f4faf6;color:#347a55;font-size:13px;font-weight:700;cursor:pointer}
+@media(max-width:700px){.co-social-grid{gap:10px}.co-social-card{padding:15px 10px}.co-qr-window{width:min(100%,165px)}}
+@media(max-width:520px){.co-social-area{padding:22px 15px}.co-social-heading h3{font-size:20px}.co-social-grid{grid-template-columns:1fr;max-width:270px}.co-social-card{padding:18px}.co-qr-window{width:205px}}
+
 .co-profile-page{max-width:1100px;margin:auto;padding:30px clamp(20px,4vw,48px) 65px;color:#203b2f}
 .co-profile-back{display:inline-block;margin-bottom:18px;color:#347b5b;text-decoration:none;font-size:14px;font-weight:700}
 .co-profile-back:hover{text-decoration:underline}
