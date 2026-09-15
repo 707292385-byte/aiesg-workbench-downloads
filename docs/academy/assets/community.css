@@ -71,6 +71,10 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-author-actions button:hover,.co-author-actions button:focus-visible{transform:translateY(-1px);box-shadow:0 6px 16px rgba(20,70,40,.13)}
 .co-author-actions button[aria-pressed=true]{background:#edf7ef;color:#225e40}
 .co-author-actions .co-author-actions--primary{border-color:#34805b;background:#34805b;color:#fff}
+.co-view-count{display:inline-flex;align-items:center;gap:6px;margin-top:16px;padding:5px 10px;border:1px solid rgba(218,244,226,.25);border-radius:999px;background:rgba(255,255,255,.08);color:#d8ede0;font-size:11px;font-weight:650;letter-spacing:.02em}
+.co-author-actions [data-author-like]:disabled{cursor:default;opacity:.82;transform:none;box-shadow:none}
+.co-like-count{display:inline-flex;align-items:center;min-height:40px;color:#728c7a;font-size:12px}
+.co-count-status{flex-basis:100%;min-height:16px;color:#8c6d55;font-size:11px;text-align:center}
 .co-support-dialog{width:min(420px,calc(100vw - 32px));padding:30px;border:1px solid #dce9e0;border-radius:17px;background:#fff;box-shadow:0 25px 70px rgba(14,48,32,.3);color:#294638;text-align:center}
 .co-support-dialog::backdrop{background:rgba(17,48,31,.62)}
 .co-support-dialog h3{margin:0;font-size:23px}.co-support-dialog p{margin:10px 0 20px;color:#718c7a;font-size:14px;line-height:1.7}
