@@ -11,6 +11,7 @@
   let viewPending = false;
   let likedInMemory = false;
   let likePending = false;
+  let knownLikes = null;
   const iconPaths = {
     methods: '<path d="M4 5.5c2.7-1.2 5.1-1.2 8 0v13c-2.9-1.2-5.3-1.2-8 0z"/><path d="M12 5.5c2.9-1.2 5.3-1.2 8 0v13c-2.7-1.2-5.1-1.2-8 0z"/><path d="M12 5.5v13"/>',
     news: '<path d="M4 17.5h16"/><path d="m5 13 4-4 3 2 6-6"/><path d="M15 5h3v3"/>',
@@ -87,10 +88,16 @@
     }
   }
   function showLiked(button) {
+    likedInMemory = true;
+    renderLikeButton(button);
+  }
+  function renderLikeButton(button) {
     if (!button) return;
-    button.setAttribute('aria-pressed', 'true');
-    button.textContent = '♥ 已点赞';
-    button.disabled = true;
+    const label = likedInMemory ? '♥ 已点赞' : '♡ 给作者点赞';
+    const count = knownLikes == null ? '' : '<small>' + knownLikes + ' 次</small>';
+    button.innerHTML = label + count;
+    button.setAttribute('aria-pressed', String(likedInMemory));
+    button.disabled = likedInMemory;
   }
   async function recordView() {
     if (viewSubmitted || viewPending || stored('sessionStorage', viewKey)) return;
@@ -101,7 +108,7 @@
       if (data.metric !== 'view' || total == null) throw new Error('浏览计数结果无效');
       viewSubmitted = true;
       remember('sessionStorage', viewKey);
-      countText('[data-community-views]', '浏览 ', total);
+      countText('[data-community-views]', '页面浏览 ', total);
     } catch (_) {
       countStatus('本次浏览暂未记录，稍后刷新可重试。');
     } finally {
@@ -119,11 +126,12 @@
       const views = validCounter(data.views);
       const likes = validCounter(data.likes);
       if (views == null || likes == null) throw new Error('统计数据无效');
-      countText('[data-community-views]', '浏览 ', views);
-      countText('[data-community-likes]', '已有 ', likes);
+      countText('[data-community-views]', '页面浏览 ', views);
+      knownLikes = likes;
+      renderLikeButton(button);
     } catch (_) {
-      countText('[data-community-views]', '浏览次数', null);
-      countText('[data-community-likes]', '点赞次数', null);
+      countText('[data-community-views]', '页面浏览次数', null);
+      renderLikeButton(button);
       countStatus('统计暂不可用，仍可阅读社区内容。');
     }
     await recordView();
@@ -138,10 +146,10 @@
       const data = await counterRequest('/v1/community/like', 'POST');
       const total = validCounter(data.total);
       if (data.metric !== 'like' || total == null) throw new Error('点赞计数结果无效');
+      knownLikes = total;
       likedInMemory = true;
       remember('localStorage', likeKey);
       showLiked(button);
-      countText('[data-community-likes]', '已有 ', total);
     } catch (_) {
       button.disabled = false;
       button.textContent = '♡ 给作者点赞';
@@ -211,7 +219,7 @@
     if (!root) return;
     const questions = Array.isArray(publicData.questions) && publicData.questions.length ? publicData.questions : starterQuestions;
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge">学习知识</a><a href="#co-community">共创社区</a><a href="#co-about">关于 Xiaoyuan</a></nav><span class="co-view-count" data-community-views aria-live="polite">浏览次数读取中…</span></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge">学习知识</a><a href="#co-community">共创社区</a><a href="#co-about">关于 Xiaoyuan</a></nav><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
       + '<section class="co-section" id="co-knowledge"><div class="co-section-head"><b>01</b><h2>学习知识</h2><p>方法拆解与资讯观察</p></div>'
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>标准、评级与披露方法的拆解和关联。把复杂原始资料整理成更容易理解和使用的结构。</p></div><div class="co-band-content"><div class="co-band-head"><strong>热门知识目录</strong><a class="co-more" href="' + pageHref('index.html') + '">更多知识　→</a></div><div class="co-items">'
       + standards.map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
@@ -224,7 +232,7 @@
       + '</div></div></section>'
       + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业交流与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
-      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><span class="co-like-count" data-community-likes aria-live="polite">点赞次数读取中…</span><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
+      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
       + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
       + '<footer class="co-site-footer" aria-label="社区说明"><div><small>社区内容在线更新 · © 2026 Xiao〇</small><small><strong>版权声明：</strong>原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small><strong>信息与隐私：</strong>内容按公开资料整理，以官方现行文件为准；浏览和作者点赞只上传计数事件，不上传工作台资料；联系表单用于回复。</small><small><strong>免责声明：</strong>个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
