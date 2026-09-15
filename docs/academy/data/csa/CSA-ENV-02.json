@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "产品监管属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "产品监管属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：4.9%"
+          "content_cn": "平均权重：4.9%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：27项"
+          "content_cn": "问题索引：27项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,55 +47,68 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "产品设计标准议题"
+          "content_cn": "产品设计标准议题",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "生命周期评估"
+          "content_cn": "生命周期评估",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "接触有害物质"
+          "content_cn": "接触有害物质",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "产品再利用和回收指标"
+          "content_cn": "产品再利用和回收指标",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "漏损率"
+          "content_cn": "漏损率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "不可接受的木材认证"
+          "content_cn": "不可接受的木材认证",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "循环时尚指标"
+          "content_cn": "循环时尚指标",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可持续收入"
+          "content_cn": "可持续收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "节能建筑收入"
+          "content_cn": "节能建筑收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "来自认证建筑的收入"
+          "content_cn": "来自认证建筑的收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可持续建筑材料收入"
+          "content_cn": "可持续建筑材料收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可持续木材和纸张收入"
+          "content_cn": "可持续木材和纸张收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "有机产品占比"
+          "content_cn": "有机产品占比",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -100,7 +117,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

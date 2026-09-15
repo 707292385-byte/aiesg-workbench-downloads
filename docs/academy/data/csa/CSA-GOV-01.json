@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "公司治理属于治理与经济维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "公司治理属于治理与经济维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：8%"
+          "content_cn": "平均权重：8%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：36项"
+          "content_cn": "问题索引：36项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,83 +47,103 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "董事会独立性"
+          "content_cn": "董事会独立性",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "家族企业"
+          "content_cn": "家族企业",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "非执行主席/首席董事"
+          "content_cn": "非执行主席/首席董事",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会多样性政策"
+          "content_cn": "董事会多样性政策",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会性别多样性"
+          "content_cn": "董事会性别多样性",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会责任"
+          "content_cn": "董事会责任",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会平均任期"
+          "content_cn": "董事会平均任期",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会行业经验"
+          "content_cn": "董事会行业经验",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "首席执行官薪酬——成功指标"
+          "content_cn": "首席执行官薪酬——成功指标",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "首席执行官薪酬——长期绩效挂钩"
+          "content_cn": "首席执行官薪酬——长期绩效挂钩",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "首席执行官与员工薪酬比率"
+          "content_cn": "首席执行官与员工薪酬比率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "所有权管理"
+          "content_cn": "所有权管理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "管理层持股要求"
+          "content_cn": "管理层持股要求",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "政府所有权"
+          "content_cn": "政府所有权",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "家族所有权"
+          "content_cn": "家族所有权",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "ESG 治理监督"
+          "content_cn": "ESG 治理监督",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "最大贡献与支出"
+          "content_cn": "最大贡献与支出",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "评估流程"
+          "content_cn": "评估流程",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会监督"
+          "content_cn": "董事会监督",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "性别薪酬指标"
+          "content_cn": "性别薪酬指标",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -128,7 +152,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

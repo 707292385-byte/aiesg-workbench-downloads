@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "供应链管理属于治理与经济维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "供应链管理属于治理与经济维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：4.8%"
+          "content_cn": "平均权重：4.8%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：11项"
+          "content_cn": "问题索引：11项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,23 +47,28 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "供应链管理"
+          "content_cn": "供应链管理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "供应商评估与发展关键绩效指标（KPIs ）"
+          "content_cn": "供应商评估与发展关键绩效指标（KPIs ）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第三方验证"
+          "content_cn": "第三方验证",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "冲突矿产指标"
+          "content_cn": "冲突矿产指标",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "风险地区矿产的产品所占总营收的百分比"
+          "content_cn": "风险地区矿产的产品所占总营收的百分比",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -68,7 +77,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

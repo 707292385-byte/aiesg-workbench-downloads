@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "社区关系属于社会维度。该标准只在部分行业适用。"
+          "content_cn": "社区关系属于社会维度。该标准只在部分行业适用。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：5.3%"
+          "content_cn": "平均权重：5.3%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：23项"
+          "content_cn": "问题索引：23项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：行业特定"
+          "content_cn": "适用性：行业特定",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,55 +47,68 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "社区关系"
+          "content_cn": "社区关系",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "社会矿山关闭计划"
+          "content_cn": "社会矿山关闭计划",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "矿山关闭规划"
+          "content_cn": "矿山关闭规划",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "社区积极参与"
+          "content_cn": "社区积极参与",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "搬迁计划"
+          "content_cn": "搬迁计划",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "安保力量"
+          "content_cn": "安保力量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "本地就业"
+          "content_cn": "本地就业",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "手工小规模采矿"
+          "content_cn": "手工小规模采矿",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "社会融合项目"
+          "content_cn": "社会融合项目",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "通过支持社会企业、小企业和创造当地就业机会来促进当地经济发展："
+          "content_cn": "通过支持社会企业、小企业和创造当地就业机会来促进当地经济发展：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "提供申诉机制"
+          "content_cn": "提供申诉机制",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "当地利益相关方的能力建设，以确保他们能够与公司沟"
+          "content_cn": "当地利益相关方的能力建设，以确保他们能够与公司沟",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "定期调查/审查当地利益相关方对参与策略的看法"
+          "content_cn": "定期调查/审查当地利益相关方对参与策略的看法",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -100,7 +117,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

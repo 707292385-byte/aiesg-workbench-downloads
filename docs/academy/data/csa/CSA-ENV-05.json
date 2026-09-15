@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "水资源属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "水资源属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：2.6%"
+          "content_cn": "平均权重：2.6%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：14项"
+          "content_cn": "问题索引：14项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,39 +47,48 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "水"
+          "content_cn": "水",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "用水量"
+          "content_cn": "用水量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "水资源紧缺地区的用水量"
+          "content_cn": "水资源紧缺地区的用水量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "超纯水使用"
+          "content_cn": "超纯水使用",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "建筑中的节水方案"
+          "content_cn": "建筑中的节水方案",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "房地产投资组合的节水计划"
+          "content_cn": "房地产投资组合的节水计划",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "水风险管理计划"
+          "content_cn": "水风险管理计划",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "供应商面临的水风险"
+          "content_cn": "供应商面临的水风险",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "供应商的水风险管理"
+          "content_cn": "供应商的水风险管理",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -84,7 +97,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

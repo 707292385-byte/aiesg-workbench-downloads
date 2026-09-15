@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "可持续金融属于治理与经济维度。该标准只在部分行业适用。"
+          "content_cn": "可持续金融属于治理与经济维度。该标准只在部分行业适用。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：9%"
+          "content_cn": "平均权重：9%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：23项"
+          "content_cn": "问题索引：23项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：行业特定"
+          "content_cn": "适用性：行业特定",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,27 +47,33 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "可持续金融"
+          "content_cn": "可持续金融",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "指数授权"
+          "content_cn": "指数授权",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "举措"
+          "content_cn": "举措",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "产品类别描述"
+          "content_cn": "产品类别描述",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "ESG 非寿险/非健康保险产品示例："
+          "content_cn": "ESG 非寿险/非健康保险产品示例：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可持续数据与分析产品与服务"
+          "content_cn": "可持续数据与分析产品与服务",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -72,7 +82,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

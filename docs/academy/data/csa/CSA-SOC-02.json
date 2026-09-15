@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "职业健康与安全属于社会维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "职业健康与安全属于社会维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：5.8%"
+          "content_cn": "平均权重：5.8%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：28项"
+          "content_cn": "问题索引：28项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,51 +47,63 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "职业健康与安全"
+          "content_cn": "职业健康与安全",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "缺勤率"
+          "content_cn": "缺勤率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "死亡人数"
+          "content_cn": "死亡人数",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "损失工时工伤率（LTIFR ）- 承包商"
+          "content_cn": "损失工时工伤率（LTIFR ）- 承包商",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "承包商可记录总伤害频率（TRIFR ）"
+          "content_cn": "承包商可记录总伤害频率（TRIFR ）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "过程安全事件– 一级"
+          "content_cn": "过程安全事件– 一级",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "健康与营养"
+          "content_cn": "健康与营养",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "健康与营养收入"
+          "content_cn": "健康与营养收入",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "交通安全"
+          "content_cn": "交通安全",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "系统性酒精和药物测试："
+          "content_cn": "系统性酒精和药物测试：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "事故率"
+          "content_cn": "事故率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "社会医疗保健贡献"
+          "content_cn": "社会医疗保健贡献",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -96,7 +112,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

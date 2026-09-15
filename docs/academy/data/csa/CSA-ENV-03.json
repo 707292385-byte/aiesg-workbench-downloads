@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "废弃物与污染物属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "废弃物与污染物属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：4%"
+          "content_cn": "平均权重：4%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：31项"
+          "content_cn": "问题索引：31项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,87 +47,108 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "废弃物与污染物"
+          "content_cn": "废弃物与污染物",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "建筑垃圾管理"
+          "content_cn": "建筑垃圾管理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "废弃物处理"
+          "content_cn": "废弃物处理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "危险废弃物"
+          "content_cn": "危险废弃物",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "危险废弃物的具体数据要求"
+          "content_cn": "危险废弃物的具体数据要求",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "灰烬和石膏废料"
+          "content_cn": "灰烬和石膏废料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "矿物废料"
+          "content_cn": "矿物废料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "矿物废料的具体数据要求"
+          "content_cn": "矿物废料的具体数据要求",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "酸性岩石排水管理"
+          "content_cn": "酸性岩石排水管理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "食物损失与浪费的影响"
+          "content_cn": "食物损失与浪费的影响",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "化学需氧量"
+          "content_cn": "化学需氧量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "碳氢化合物泄漏"
+          "content_cn": "碳氢化合物泄漏",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "油气泄漏的具体数据要求"
+          "content_cn": "油气泄漏的具体数据要求",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "NOX 排放"
+          "content_cn": "NOX 排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客运行业的特定氮氧化物排放"
+          "content_cn": "客运行业的特定氮氧化物排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "货物运输的特定氮氧化物排放"
+          "content_cn": "货物运输的特定氮氧化物排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "硫氧化物排放"
+          "content_cn": "硫氧化物排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "直接汞排放"
+          "content_cn": "直接汞排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "粉尘排放"
+          "content_cn": "粉尘排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "挥发性有机化合物排放"
+          "content_cn": "挥发性有机化合物排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可吸收有机卤素"
+          "content_cn": "可吸收有机卤素",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -132,7 +157,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

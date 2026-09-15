@@ -16,99 +16,123 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "重要性 Materiality"
+          "content_cn": "重要性 Materiality",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "披露对投资者和持份者有重要影响的ESG事宜"
+          "content_cn": "披露对投资者和持份者有重要影响的ESG事宜",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "董事会厘定重要性"
+          "content_cn": "董事会厘定重要性",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "持续安排持份者参与"
+          "content_cn": "持续安排持份者参与",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "气候：影响短中长期现金流/融资/资本成本"
+          "content_cn": "气候：影响短中长期现金流/融资/资本成本",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "文档化评估过程和依据"
+          "content_cn": "文档化评估过程和依据",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "量化 Quantitative"
+          "content_cn": "量化 Quantitative",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "关键绩效指标须可予计量"
+          "content_cn": "关键绩效指标须可予计量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "设定减少影响的目标（数字或方向性声明）"
+          "content_cn": "设定减少影响的目标（数字或方向性声明）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "量化资料附带说明目的及影响"
+          "content_cn": "量化资料附带说明目的及影响",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适当情况下提供比较数据"
+          "content_cn": "适当情况下提供比较数据",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "说明数据来源和计算方法"
+          "content_cn": "说明数据来源和计算方法",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "平衡 Balance"
+          "content_cn": "平衡 Balance",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "不偏不倚地呈报发行人的表现"
+          "content_cn": "不偏不倚地呈报发行人的表现",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "避免不恰当地影响读者决策"
+          "content_cn": "避免不恰当地影响读者决策",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "不回避负面信息"
+          "content_cn": "不回避负面信息",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "正面和负面表现均应披露"
+          "content_cn": "正面和负面表现均应披露",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客观陈述，不夸大成绩"
+          "content_cn": "客观陈述，不夸大成绩",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "一致性 Consistency"
+          "content_cn": "一致性 Consistency",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "使用一致的披露统计方法"
+          "content_cn": "使用一致的披露统计方法",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "ESG数据可作有意义的比较"
+          "content_cn": "ESG数据可作有意义的比较",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "变更统计方法须说明原因和影响"
+          "content_cn": "变更统计方法须说明原因和影响",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "保持口径和范围一致"
+          "content_cn": "保持口径和范围一致",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "便于年度间趋势分析"
+          "content_cn": "便于年度间趋势分析",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -117,11 +141,13 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "重要性评估应文档化，保留评估过程和依据。目标设定应遵循SMART原则。变更统计方法时须说明原因和影响，确保数据可比较。"
+          "content_cn": "重要性评估应文档化，保留评估过程和依据。目标设定应遵循SMART原则。变更统计方法时须说明原因和影响，确保数据可比较。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "重要性评估应文档化，保留评估过程和依据。目标设定应遵循SMART原则。变更统计方法时须说明原因和影响，确保数据可比较。"
+          "content_cn": "重要性评估应文档化，保留评估过程和依据。目标设定应遵循SMART原则。变更统计方法时须说明原因和影响，确保数据可比较。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -130,19 +156,23 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "重要性｜披露有重要影响的事宜｜评估标准不清晰、持份者参与不足｜制定明确评估准则、覆盖关键群体"
+          "content_cn": "重要性｜披露有重要影响的事宜｜评估标准不清晰、持份者参与不足｜制定明确评估准则、覆盖关键群体",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "量化｜KPI可计量、设目标｜数据不可比、缺基线数据｜建立数据收集体系、设定基线"
+          "content_cn": "量化｜KPI可计量、设目标｜数据不可比、缺基线数据｜建立数据收集体系、设定基线",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "平衡｜不偏不倚呈报表现｜报喜不报忧、回避负面信息｜建立负面信息披露机制、客观陈述"
+          "content_cn": "平衡｜不偏不倚呈报表现｜报喜不报忧、回避负面信息｜建立负面信息披露机制、客观陈述",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "一致性｜使用一致统计方法｜方法频繁变更、口径不统一｜文档化方法、变更时说明影响"
+          "content_cn": "一致性｜使用一致统计方法｜方法频繁变更、口径不统一｜文档化方法、变更时说明影响",
+          "provenance": "knowledge_note"
         }
       ]
     }

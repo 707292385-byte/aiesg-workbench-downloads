@@ -16,15 +16,18 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "重要性评估是ESG报告编备的 核心环节 ，决定哪些ESG议题需要在报告中披露。"
+          "content_cn": "重要性评估是ESG报告编备的 核心环节 ，决定哪些ESG议题需要在报告中披露。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "text",
-          "content_cn": "评估需从 两个维度 进行：内部重要性（对发行人业务的影响）和外部重要性（对持份者的影响）。两个维度的评估结果整合为 重要性矩阵 ，确定披露优先级。"
+          "content_cn": "评估需从 两个维度 进行：内部重要性（对发行人业务的影响）和外部重要性（对持份者的影响）。两个维度的评估结果整合为 重要性矩阵 ，确定披露优先级。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "text",
-          "content_cn": "重要性评估应 文档化 ，保留评估过程和依据，并至少每年重新评估一次，关注新兴议题和行业趋势。"
+          "content_cn": "重要性评估应 文档化 ，保留评估过程和依据，并至少每年重新评估一次，关注新兴议题和行业趋势。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -41,87 +44,108 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "持份者识别"
+          "content_cn": "持份者识别",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "列出所有相关持份者群体"
+          "content_cn": "列出所有相关持份者群体",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "投资者和股东"
+          "content_cn": "投资者和股东",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "员工（含工会）"
+          "content_cn": "员工（含工会）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客户和供应商"
+          "content_cn": "客户和供应商",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "监管机构和政府"
+          "content_cn": "监管机构和政府",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "社区和非政府组织"
+          "content_cn": "社区和非政府组织",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "行业协会"
+          "content_cn": "行业协会",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "参与方式"
+          "content_cn": "参与方式",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "根据持份者特点选择参与方式"
+          "content_cn": "根据持份者特点选择参与方式",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问卷调查（大规模群体）"
+          "content_cn": "问卷调查（大规模群体）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "深度访谈（关键持份者）"
+          "content_cn": "深度访谈（关键持份者）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "座谈会/研讨会（多方对话）"
+          "content_cn": "座谈会/研讨会（多方对话）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "公开咨询（广泛征求意见）"
+          "content_cn": "公开咨询（广泛征求意见）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "年度股东大会（投资者）"
+          "content_cn": "年度股东大会（投资者）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "影响力评估"
+          "content_cn": "影响力评估",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "评估各群体的影响力和受影响程度"
+          "content_cn": "评估各群体的影响力和受影响程度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "对企业决策的影响力"
+          "content_cn": "对企业决策的影响力",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "受企业运营的影响程度"
+          "content_cn": "受企业运营的影响程度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "紧急程度和关切强度"
+          "content_cn": "紧急程度和关切强度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "合法性和代表性"
+          "content_cn": "合法性和代表性",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -130,11 +154,13 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "评估标准不清晰：应制定明确的评估准则和评分标准。持份者参与不足：应覆盖关键群体，采用多种参与方式。评估结果不更新：应至少每年重新评估一次。忽略新兴议题：应关注行业趋势和监管变化。"
+          "content_cn": "评估标准不清晰：应制定明确的评估准则和评分标准。持份者参与不足：应覆盖关键群体，采用多种参与方式。评估结果不更新：应至少每年重新评估一次。忽略新兴议题：应关注行业趋势和监管变化。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "评估标准不清晰：应制定明确的评估准则和评分标准。持份者参与不足：应覆盖关键群体，采用多种参与方式。评估结果不更新：应至少每年重新评估一次。忽略新兴议题：应关注行业趋势和监管变化。"
+          "content_cn": "评估标准不清晰：应制定明确的评估准则和评分标准。持份者参与不足：应覆盖关键群体，采用多种参与方式。评估结果不更新：应至少每年重新评估一次。忽略新兴议题：应关注行业趋势和监管变化。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -143,23 +169,28 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "评估方法论｜评估标准、评分方法、参与方式｜确保评估过程可追溯"
+          "content_cn": "评估方法论｜评估标准、评分方法、参与方式｜确保评估过程可追溯",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "持份者清单｜持份者群体、影响力评估、参与记录｜证明持份者参与的充分性"
+          "content_cn": "持份者清单｜持份者群体、影响力评估、参与记录｜证明持份者参与的充分性",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "议题清单｜所有候选ESG议题、评估结果｜确保议题覆盖全面"
+          "content_cn": "议题清单｜所有候选ESG议题、评估结果｜确保议题覆盖全面",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "重要性矩阵｜各议题在矩阵中的位置、优先级排序｜确定披露优先级的依据"
+          "content_cn": "重要性矩阵｜各议题在矩阵中的位置、优先级排序｜确定披露优先级的依据",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "评估报告｜评估过程、结果、应用建议｜向董事会和管理层汇报"
+          "content_cn": "评估报告｜评估过程、结果、应用建议｜向董事会和管理层汇报",
+          "provenance": "knowledge_note"
         }
       ]
     }

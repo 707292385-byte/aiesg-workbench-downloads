@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "客户关系属于社会维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "客户关系属于社会维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：4.4%"
+          "content_cn": "平均权重：4.4%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：17项"
+          "content_cn": "问题索引：17项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,23 +47,28 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "ELC 和 MUW："
+          "content_cn": "ELC 和 MUW：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客户关系"
+          "content_cn": "客户关系",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "线上策略与线上客户"
+          "content_cn": "线上策略与线上客户",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客户满意度"
+          "content_cn": "客户满意度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "公用设施指南（ELC 、MUW、GAS ）"
+          "content_cn": "公用设施指南（ELC 、MUW、GAS ）",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -68,7 +77,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

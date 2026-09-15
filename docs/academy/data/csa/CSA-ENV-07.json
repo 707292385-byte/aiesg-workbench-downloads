@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "能源属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "能源属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：2%"
+          "content_cn": "平均权重：2%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：37项"
+          "content_cn": "问题索引：37项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,95 +47,118 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "能源"
+          "content_cn": "能源",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "能源消耗"
+          "content_cn": "能源消耗",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "购买或获得的电力、蒸汽、热量、冷却："
+          "content_cn": "购买或获得的电力、蒸汽、热量、冷却：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "能源密度"
+          "content_cn": "能源密度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "数据中心效率"
+          "content_cn": "数据中心效率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "数据中心可再生能源占比"
+          "content_cn": "数据中心可再生能源占比",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "现场能源生成"
+          "content_cn": "现场能源生成",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "输配电损耗"
+          "content_cn": "输配电损耗",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "输配电可靠性"
+          "content_cn": "输配电可靠性",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "气体泄漏率"
+          "content_cn": "气体泄漏率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "售电总发电量"
+          "content_cn": "售电总发电量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "CDP 2025 – 1.16.1"
+          "content_cn": "CDP 2025 – 1.16.1",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "发电效率"
+          "content_cn": "发电效率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "电厂可用系数"
+          "content_cn": "电厂可用系数",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "碳氢化合物生产的碳强度"
+          "content_cn": "碳氢化合物生产的碳强度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可再生能源生产"
+          "content_cn": "可再生能源生产",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "客运燃油消耗率"
+          "content_cn": "客运燃油消耗率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "货物运输的单位燃料消耗量"
+          "content_cn": "货物运输的单位燃料消耗量",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "车辆效能与排放的治理检查"
+          "content_cn": "车辆效能与排放的治理检查",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "电动汽车（EV）电池退化"
+          "content_cn": "电动汽车（EV）电池退化",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "电动汽车效率"
+          "content_cn": "电动汽车效率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "替代传动系统"
+          "content_cn": "替代传动系统",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "协同处置率"
+          "content_cn": "协同处置率",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -140,7 +167,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

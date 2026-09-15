@@ -16,15 +16,18 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "港交所《环境、社会及管治汇报指南》为发行人提供了系统化的ESG报告编备流程，分为 六个步骤 。"
+          "content_cn": "港交所《环境、社会及管治汇报指南》为发行人提供了系统化的ESG报告编备流程，分为 六个步骤 。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "text",
-          "content_cn": "这六个步骤形成一个完整的闭环：从组织架构搭建，到了解规定、界定范围、评估重要性、设定目标，最终撰写报告。每个步骤都有明确的输入、输出和关键活动。"
+          "content_cn": "这六个步骤形成一个完整的闭环：从组织架构搭建，到了解规定、界定范围、评估重要性、设定目标，最终撰写报告。每个步骤都有明确的输入、输出和关键活动。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "text",
-          "content_cn": "编备过程需要 高层支持 和 跨部门协作 ，建议提前规划时间节点，与年报和其他披露协调一致。"
+          "content_cn": "编备过程需要 高层支持 和 跨部门协作 ，建议提前规划时间节点，与年报和其他披露协调一致。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -37,11 +40,13 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "高层支持和跨部门协作是编备成功的关键。建议提前6-9个月启动编备工作，建立数据收集体系，与年报和其他披露协调一致。"
+          "content_cn": "高层支持和跨部门协作是编备成功的关键。建议提前6-9个月启动编备工作，建立数据收集体系，与年报和其他披露协调一致。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "高层支持和跨部门协作是编备成功的关键。建议提前6-9个月启动编备工作，建立数据收集体系，与年报和其他披露协调一致。"
+          "content_cn": "高层支持和跨部门协作是编备成功的关键。建议提前6-9个月启动编备工作，建立数据收集体系，与年报和其他披露协调一致。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -50,27 +55,33 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "第一步：组织架构｜报告期开始前｜ESG工作小组成立、职责分工｜董事会/管理层"
+          "content_cn": "第一步：组织架构｜报告期开始前｜ESG工作小组成立、职责分工｜董事会/管理层",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第二步：了解规定｜报告期开始前｜披露要求清单、资料缺漏清单｜ESG工作小组"
+          "content_cn": "第二步：了解规定｜报告期开始前｜披露要求清单、资料缺漏清单｜ESG工作小组",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第三步：汇报范围｜报告期第1-2月｜汇报范围界定说明｜ESG工作小组/财务"
+          "content_cn": "第三步：汇报范围｜报告期第1-2月｜汇报范围界定说明｜ESG工作小组/财务",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第四步：重要性评估｜报告期第2-4月｜重要性评估报告、议题清单｜ESG工作小组/各部门"
+          "content_cn": "第四步：重要性评估｜报告期第2-4月｜重要性评估报告、议题清单｜ESG工作小组/各部门",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第五步：订立目标｜报告期第3-5月｜ESG目标和基线数据｜管理层/各部门"
+          "content_cn": "第五步：订立目标｜报告期第3-5月｜ESG目标和基线数据｜管理层/各部门",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第六步：撰写报告｜报告期结束后2-3月｜ESG报告终稿｜ESG工作小组/董事会"
+          "content_cn": "第六步：撰写报告｜报告期结束后2-3月｜ESG报告终稿｜ESG工作小组/董事会",
+          "provenance": "knowledge_note"
         }
       ]
     }

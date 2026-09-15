@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "可持续原材料属于环境维度。该标准只在部分行业适用。"
+          "content_cn": "可持续原材料属于环境维度。该标准只在部分行业适用。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：3.4%"
+          "content_cn": "平均权重：3.4%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：21项"
+          "content_cn": "问题索引：21项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：行业特定"
+          "content_cn": "适用性：行业特定",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,55 +47,68 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "可持续原材料"
+          "content_cn": "可持续原材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "农作物认证"
+          "content_cn": "农作物认证",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "暴露："
+          "content_cn": "暴露：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "动物产品认证"
+          "content_cn": "动物产品认证",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "其他认可认证与标准列表："
+          "content_cn": "其他认可认证与标准列表：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "植物与动物源纺织材料"
+          "content_cn": "植物与动物源纺织材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "塑料原材料"
+          "content_cn": "塑料原材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "金属原材料"
+          "content_cn": "金属原材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "再生建筑材料"
+          "content_cn": "再生建筑材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "包装产品原材料"
+          "content_cn": "包装产品原材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "小森林所有者"
+          "content_cn": "小森林所有者",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "森林经营认证"
+          "content_cn": "森林经营认证",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "监管链认证"
+          "content_cn": "监管链认证",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -100,7 +117,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

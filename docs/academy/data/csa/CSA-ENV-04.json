@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "环境政策与管理属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "环境政策与管理属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：3.4%"
+          "content_cn": "平均权重：3.4%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：22项"
+          "content_cn": "问题索引：22项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,55 +47,68 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "环境政策与管理专业"
+          "content_cn": "环境政策与管理专业",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "政策范围"
+          "content_cn": "政策范围",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "环境投资回报"
+          "content_cn": "环境投资回报",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "废弃物具体数据要求"
+          "content_cn": "废弃物具体数据要求",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "行业特定指南"
+          "content_cn": "行业特定指南",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "风险管理"
+          "content_cn": "风险管理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "范围"
+          "content_cn": "范围",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "承诺范围"
+          "content_cn": "承诺范围",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "行业特定指南："
+          "content_cn": "行业特定指南：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "车辆燃油与碳效率"
+          "content_cn": "车辆燃油与碳效率",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "可再生原材料"
+          "content_cn": "可再生原材料",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "示例 1："
+          "content_cn": "示例 1：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "所有行业须知："
+          "content_cn": "所有行业须知：",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -100,7 +117,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

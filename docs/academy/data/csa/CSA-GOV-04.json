@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "风险与危机管理属于治理与经济维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "风险与危机管理属于治理与经济维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：4%"
+          "content_cn": "平均权重：4%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：9项"
+          "content_cn": "问题索引：9项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,19 +47,23 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "风险治理"
+          "content_cn": "风险治理",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "风险管理流程"
+          "content_cn": "风险管理流程",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "审计"
+          "content_cn": "审计",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "新兴风险"
+          "content_cn": "新兴风险",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -64,7 +72,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }

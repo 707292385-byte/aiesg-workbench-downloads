@@ -16,11 +16,13 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "ESG管治架构是ESG管理的顶层设计，明确 董事会 和 管理层 在ESG事务中的角色和职责。"
+          "content_cn": "ESG管治架构是ESG管理的顶层设计，明确 董事会 和 管理层 在ESG事务中的角色和职责。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "text",
-          "content_cn": "董事会承担ESG事务的 最终监督责任 ，管理层负责具体执行和日常管理。良好的管治架构应确保ESG因素融入企业战略和决策流程。"
+          "content_cn": "董事会承担ESG事务的 最终监督责任 ，管理层负责具体执行和日常管理。良好的管治架构应确保ESG因素融入企业战略和决策流程。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -33,35 +35,43 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "ESG及气候报告范围"
+          "content_cn": "ESG及气候报告范围",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "第15段：说明报告涵盖的实体及选择过程"
+          "content_cn": "第15段：说明报告涵盖的实体及选择过程",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "气候信息的报告实体应与相关财务报表一致"
+          "content_cn": "气候信息的报告实体应与相关财务报表一致",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "价值链中重要的风险和机遇可能需要额外披露"
+          "content_cn": "价值链中重要的风险和机遇可能需要额外披露",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "温室气体核算组织边界"
+          "content_cn": "温室气体核算组织边界",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "GHG Protocol采用股权比例或控制权合并法"
+          "content_cn": "GHG Protocol采用股权比例或控制权合并法",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "控制权法包括财务控制或运营控制"
+          "content_cn": "控制权法包括财务控制或运营控制",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "属于排放核算方法，不能代替报告实体及报告范围的判断"
+          "content_cn": "属于排放核算方法，不能代替报告实体及报告范围的判断",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -70,11 +80,13 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "分别说明报告涵盖实体、纳入报告的过程，以及排放核算采用的组织边界方法。气候相关披露的报告实体与相关财务报表一致，并按要求考虑价值链信息。"
+          "content_cn": "分别说明报告涵盖实体、纳入报告的过程，以及排放核算采用的组织边界方法。气候相关披露的报告实体与相关财务报表一致，并按要求考虑价值链信息。",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "分别说明报告涵盖实体、纳入报告的过程，以及排放核算采用的组织边界方法。气候相关披露的报告实体与相关财务报表一致，并按要求考虑价值链信息。"
+          "content_cn": "分别说明报告涵盖实体、纳入报告的过程，以及排放核算采用的组织边界方法。气候相关披露的报告实体与相关财务报表一致，并按要求考虑价值链信息。",
+          "provenance": "knowledge_note"
         }
       ]
     }

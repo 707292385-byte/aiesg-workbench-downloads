@@ -17,7 +17,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "气候战略属于环境维度。该标准属于跨行业通用评估范围。"
+          "content_cn": "气候战略属于环境维度。该标准属于跨行业通用评估范围。",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -26,15 +27,18 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "平均权重：10.1%"
+          "content_cn": "平均权重：10.1%",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "问题索引：53项"
+          "content_cn": "问题索引：53项",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "适用性：通用标准"
+          "content_cn": "适用性：通用标准",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -43,55 +47,68 @@
       "blocks": [
         {
           "type": "point",
-          "content_cn": "直接温室气体排放（范围1）"
+          "content_cn": "直接温室气体排放（范围1）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "间接温室气体排放（范围3）"
+          "content_cn": "间接温室气体排放（范围3）",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "温室气体排放的具体数据要求："
+          "content_cn": "温室气体排放的具体数据要求：",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "甲烷排放"
+          "content_cn": "甲烷排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "全氟化碳排放"
+          "content_cn": "全氟化碳排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "六氟化硫（SF6 ）排放"
+          "content_cn": "六氟化硫（SF6 ）排放",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "气候相关管理激励措施"
+          "content_cn": "气候相关管理激励措施",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "气候变化的金融风险"
+          "content_cn": "气候变化的金融风险",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "物理气候风险适应"
+          "content_cn": "物理气候风险适应",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "内部碳定价"
+          "content_cn": "内部碳定价",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "车队温室气体排放强度"
+          "content_cn": "车队温室气体排放强度",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "脱碳战略"
+          "content_cn": "脱碳战略",
+          "provenance": "knowledge_note"
         },
         {
           "type": "point",
-          "content_cn": "范围3融资绝对排放量"
+          "content_cn": "范围3融资绝对排放量",
+          "provenance": "knowledge_note"
         }
       ]
     },
@@ -100,7 +117,8 @@
       "blocks": [
         {
           "type": "text",
-          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
+          "provenance": "knowledge_note"
         }
       ]
     }
