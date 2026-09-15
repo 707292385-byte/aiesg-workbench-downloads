@@ -1,7 +1,10 @@
 (function () {
   'use strict';
 
-  const feedbackUrl = 'https://my.feishu.cn/share/base/shrcnmnxIc5jaB4pRHVtNjDdbQe';
+  const communityForms = {
+    question: 'https://my.feishu.cn/share/base/shrcnnchBl28MlLU22mTkhafOQg',
+    service: 'https://my.feishu.cn/share/base/shrcnUKzCwW2jbt1Vi9asLGutEh'
+  };
   const iconPaths = {
     methods: '<path d="M4 5.5c2.7-1.2 5.1-1.2 8 0v13c-2.9-1.2-5.3-1.2-8 0z"/><path d="M12 5.5c2.9-1.2 5.3-1.2 8 0v13c-2.7-1.2-5.1-1.2-8 0z"/><path d="M12 5.5v13"/>',
     news: '<path d="M4 17.5h16"/><path d="m5 13 4-4 3 2 6-6"/><path d="M15 5h3v3"/>',
@@ -105,23 +108,59 @@
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>跟进 ESG 方法更新、行业动态与实践问题，关注变化对实际工作的影响。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><button type="button" data-community-news-more>更多观察　→</button></div><div class="co-items co-items--news"><article class="co-item"><small>方法更新</small><strong>方法论更新如何影响使用？</strong><span>看来源、版本和主要变化</span></article><article class="co-item"><small>实践观察</small><strong>ESG 工作中的新问题</strong><span>把工作难题拆成可讨论的问题</span></article><article class="co-item"><small>开发动态</small><strong>工作台开发手记</strong><span>功能变化与真实使用反馈</span></article><article class="co-item" data-community-news-extra hidden><small>资料核对</small><strong>先找到可信的原件</strong><span>来源核验与内容解读分开</span></article></div></div></article></section>'
       + '<section class="co-section" id="co-community"><div class="co-section-head"><b>02</b><h2>共创社区</h2><p>感谢伙伴，整理大家关心的问题</p></div>'
       + renderMap(publicData)
-      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><a href="' + feedbackUrl + '" target="_blank" rel="noopener noreferrer">提出一个问题　↗</a></div><div class="co-question-grid">'
+      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
       + questions.map(renderQuestion).join('')
       + '</div></div></section>'
-      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar">' + svgIcon('person') + '</div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <span aria-hidden="true">↗</span></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实战辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p></article></div></div>'
+      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="专业支持">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实践辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="AI实践辅导">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p><button type="button" class="co-action-btn" data-open-community-form="service" data-service-label="商务合作">联系 Xiao〇 <b aria-hidden="true">↗</b></button></article></div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button></div></section>'
-      + '<dialog class="co-support-dialog" id="co-support-dialog"><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它。</p><div class="co-support-qr" aria-label="支持二维码位置">▦</div><small>支持二维码位置</small><button type="button" data-close-support>关闭</button></dialog>'
-      + '<footer class="co-site-footer" aria-label="社区说明"><small>社区内容在线更新 · © 2026 Xiao〇</small><small><strong>版权声明：</strong>原创解读与页面设计由 Xiao〇 制作；引用资料归原作者。</small><small><strong>信息声明：</strong>内容根据公开资料整理，方法和标准可能更新，请以官方现行文件为准。</small><small><strong>免责声明：</strong>这是个人开发的测试项目，功能和内容可能有未知问题。建议用非工作电脑、非真实或脱敏资料体验；重要工作判断请自行核对。</small></footer>'
+      + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，或者请作者喝杯续命咖啡。</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr" aria-label="支持二维码位置">▦</div><small>支持二维码位置</small><button type="button" data-close-support>关闭</button></dialog>'
+      + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
+      + '<footer class="co-site-footer" aria-label="社区说明"><div><small>社区内容在线更新 · © 2026 Xiao〇</small><small><strong>版权声明：</strong>原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small><strong>信息声明：</strong>内容按公开资料整理，以官方现行文件为准；联系方式仅用于回复。</small><small><strong>免责声明：</strong>个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
       + '</div>';
+  }
+
+  function notifyHost(page) {
+    if (embedded && window.parent !== window) window.parent.postMessage({ type: 'aiesg-community-navigation', page }, '*');
   }
 
   async function mount() {
     const data = await loadPublicData();
     render(data);
+    document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
+      document.querySelector('[data-form-loading]')?.classList.add('loaded');
+    });
+    notifyHost('community.html');
+    if (new URLSearchParams(location.search).get('open-form') === 'question') {
+      document.querySelector('[data-open-community-form="question"]')?.click();
+    }
   }
 
   document.addEventListener('click', event => {
+    const internalLink = event.target.closest('#community-page a[href]');
+    if (internalLink) {
+      const destination = new URL(internalLink.href, location.href);
+      if (destination.origin === location.origin && /\.html$/.test(destination.pathname)) notifyHost(destination.pathname.split('/').pop());
+    }
+    const formTrigger = event.target.closest('#community-page [data-open-community-form]');
+    if (formTrigger) {
+      const kind = formTrigger.dataset.openCommunityForm;
+      const dialog = document.getElementById('co-form-dialog');
+      const frame = dialog?.querySelector('[data-community-form-frame]');
+      if (!dialog || !frame || !communityForms[kind]) return;
+      const service = formTrigger.dataset.serviceLabel || '';
+      dialog.querySelector('#co-form-title').textContent = kind === 'question' ? '向 Xiao〇 提一个问题' : service + ' · 联系 Xiao〇';
+      dialog.querySelector('[data-form-intro]').textContent = kind === 'question'
+        ? '说说你在工作台、ESG 工作或 AI 实践中遇到的问题。Xiao〇 整理后才会展示。'
+        : '在表单里选“' + service + '”，写下想聊的问题，并留下微信号、电话或邮箱中的一种。';
+      dialog.querySelector('[data-form-loading]').classList.remove('loaded');
+      dialog.showModal();
+      frame.src = communityForms[kind];
+      return;
+    }
+    const formClose = event.target.closest('#community-page [data-close-community-form]');
+    if (formClose) { document.getElementById('co-form-dialog')?.close(); return; }
+    if (event.target.id === 'co-form-dialog') { event.target.close(); return; }
     const like = event.target.closest('#community-page [data-author-like]');
     if (like) {
       const liked = like.getAttribute('aria-pressed') === 'true';
@@ -149,5 +188,5 @@
   });
 
   document.addEventListener('DOMContentLoaded', mount);
-  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion };
+  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms };
 })();
