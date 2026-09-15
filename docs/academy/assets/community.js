@@ -2,6 +2,16 @@
   'use strict';
 
   const feedbackUrl = 'https://my.feishu.cn/share/base/shrcnmnxIc5jaB4pRHVtNjDdbQe';
+  const iconPaths = {
+    methods: '<path d="M4 5.5c2.7-1.2 5.1-1.2 8 0v13c-2.9-1.2-5.3-1.2-8 0z"/><path d="M12 5.5c2.9-1.2 5.3-1.2 8 0v13c-2.7-1.2-5.1-1.2-8 0z"/><path d="M12 5.5v13"/>',
+    news: '<path d="M4 17.5h16"/><path d="m5 13 4-4 3 2 6-6"/><path d="M15 5h3v3"/>',
+    map: '<path d="m3.5 6 5.7-2.2 5.6 2.2 5.7-2.2v14.4l-5.7 2.2-5.6-2.2-5.7 2.2z"/><path d="M9.2 3.8v14.4M14.8 6v14.4"/>',
+    person: '<circle cx="12" cy="8" r="3.2"/><path d="M5.3 20c.6-3.5 3-5.2 6.7-5.2s6.1 1.7 6.7 5.2"/>',
+    support: '<path d="M12 3 20 6v6c0 4.8-3 7.9-8 9-5-1.1-8-4.2-8-9V6z"/><path d="m8.5 12 2.4 2.4 4.8-4.8"/>',
+    ai: '<path d="m12 3 1.5 5.5L19 10l-5.5 1.5L12 17l-1.5-5.5L5 10l5.5-1.5z"/><path d="m19 17 .6 1.4L21 19l-1.4.6L19 21l-.6-1.4L17 19l1.4-.6z"/>',
+    cooperate: '<path d="M3 9.5 7 6l4.2 2.1 3.4-1.5L21 9.5l-6.8 7.2a2 2 0 0 1-2.8.1l-4.7-4.1"/><path d="m9.5 10.2 2.9-2.6"/><path d="m5.7 13.2-2.4-2.5"/><path d="m18.3 13.2 2.4-2.5"/>'
+  };
+  const svgIcon = name => '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + iconPaths[name] + '</svg>';
   const embedded = new URLSearchParams(location.search).get('embed') === '1';
   function pageHref(page, values = {}) {
     const url = new URL(page, location.href);
@@ -46,7 +56,7 @@
     const source = mapImage ? '<span class="co-map-source">标准地图 ' + escapeHtml(map.approval_no) + '</span>' : '';
     const regionsHtml = regions.map(item => '<span>' + escapeHtml(item.name) + ' · ' + safeCount(item.count) + '</span>').join('');
     const partnersHtml = partners.map(item => '<span>' + escapeHtml(item.alias) + '</span>').join('');
-    return '<div class="co-map-panel"><div class="co-map-stage"><div><h3>共创伙伴地区分布</h3><p>只展示伙伴愿意公开的地区汇总。</p></div>' + visual + source + '</div>'
+    return '<div class="co-map-panel"><div class="co-map-stage"><div class="co-map-header"><div class="co-map-icon">' + svgIcon('map') + '</div><div><h3>共创伙伴地区分布</h3><p>只展示伙伴愿意公开的地区汇总。</p></div></div>' + visual + source + '</div>'
       + '<div class="co-map-copy"><span class="co-kicker">THANK YOU · CO-CREATORS</span><h3>感谢一起测试的共创伙伴</h3><p>从真实工作出发，一起试用、提出问题、完善体验。每一份反馈都让工作台更接近使用者的需要。</p>'
       + (regionsHtml ? '<div class="co-region-list" aria-label="公开地区分布">' + regionsHtml + '</div>' : '')
       + (partnersHtml ? '<div class="co-region-list" aria-label="公开共创代称">' + partnersHtml + '</div>' : '')
@@ -75,16 +85,16 @@
     root.innerHTML = '<div class="co-home">'
       + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge">学习知识</a><a href="#co-community">共创社区</a><a href="#co-about">关于 Xiaoyuan</a></nav></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
       + '<section class="co-section" id="co-knowledge"><div class="co-section-head"><b>01</b><h2>学习知识</h2><p>方法拆解与资讯观察</p></div>'
-      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">▤</div><h3>方法与知识</h3><p>标准、评级与披露方法的拆解和关联。把复杂原始资料整理成更容易理解和使用的结构。</p></div><div class="co-band-content"><div class="co-band-head"><strong>热门知识目录</strong><a class="co-more" href="' + pageHref('index.html') + '">更多知识　→</a></div><div class="co-items">'
+      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>标准、评级与披露方法的拆解和关联。把复杂原始资料整理成更容易理解和使用的结构。</p></div><div class="co-band-content"><div class="co-band-head"><strong>热门知识目录</strong><a class="co-more" href="' + pageHref('index.html') + '">更多知识　→</a></div><div class="co-items">'
       + standards.map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">⌁</div><h3>资讯与观察</h3><p>跟进 ESG 方法更新、行业动态与实践问题，关注变化对实际工作的影响。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><button type="button" data-community-news-more>更多观察　→</button></div><div class="co-items co-items--news"><article class="co-item"><small>方法更新</small><strong>方法论更新如何影响使用？</strong><span>看来源、版本和主要变化</span></article><article class="co-item"><small>实践观察</small><strong>ESG 工作中的新问题</strong><span>把工作难题拆成可讨论的问题</span></article><article class="co-item"><small>开发动态</small><strong>工作台开发手记</strong><span>功能变化与真实使用反馈</span></article><article class="co-item" data-community-news-extra hidden><small>资料核对</small><strong>先找到可信的原件</strong><span>来源核验与内容解读分开</span></article></div></div></article></section>'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>跟进 ESG 方法更新、行业动态与实践问题，关注变化对实际工作的影响。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><button type="button" data-community-news-more>更多观察　→</button></div><div class="co-items co-items--news"><article class="co-item"><small>方法更新</small><strong>方法论更新如何影响使用？</strong><span>看来源、版本和主要变化</span></article><article class="co-item"><small>实践观察</small><strong>ESG 工作中的新问题</strong><span>把工作难题拆成可讨论的问题</span></article><article class="co-item"><small>开发动态</small><strong>工作台开发手记</strong><span>功能变化与真实使用反馈</span></article><article class="co-item" data-community-news-extra hidden><small>资料核对</small><strong>先找到可信的原件</strong><span>来源核验与内容解读分开</span></article></div></div></article></section>'
       + '<section class="co-section" id="co-community"><div class="co-section-head"><b>02</b><h2>共创社区</h2><p>感谢伙伴，整理大家关心的问题</p></div>'
       + renderMap(publicData)
       + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><a href="' + feedbackUrl + '" target="_blank" rel="noopener noreferrer">提出一个问题　↗</a></div><div class="co-question-grid">'
       + questions.map(renderQuestion).join('')
       + '</div></div></section>'
-      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar">〇</div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><span>专业视角 × AI 实践 × 持续共创</span></article><div class="co-offers"><article class="co-offer"><i>◇</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p></article><article class="co-offer"><i>✧</i><h3>AI实战辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p></article><article class="co-offer"><i>↗</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p></article></div></div><div class="co-socials" aria-label="Xiao〇的内容平台"><span>小红书</span><span>微信公众号</span><span>微信视频号</span><span>抖音</span></div></section>'
+      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业服务与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar">' + svgIcon('person') + '</div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <span aria-hidden="true">↗</span></a></article><div class="co-offers"><article class="co-offer"><i>' + svgIcon('support') + '</i><h3>专业支持</h3><p>方法论解读、工作台使用与实际问题梳理。</p></article><article class="co-offer"><i>' + svgIcon('ai') + '</i><h3>AI实战辅导</h3><p>围绕 ESG 咨询场景，练习如何把 AI 用到工作里。</p></article><article class="co-offer"><i>' + svgIcon('cooperate') + '</i><h3>商务合作</h3><p>内容共创、专业交流、项目合作与赞助讨论。</p></article></div></div><div class="co-socials" aria-label="Xiao〇的内容平台"><span>小红书</span><span>微信公众号</span><span>微信视频号</span><span>抖音</span></div></section>'
       + '</div>';
   }
 
