@@ -1,0 +1,61 @@
+(function(){
+  'use strict';
+  const params=new URLSearchParams(location.search);
+  const embedded=params.get('embed')==='1';
+  const dataVersion='20260914-1';
+  if(embedded)document.body.classList.add('embedded');
+  const root=document.querySelector('[data-page-root]');
+  const header=document.querySelector('[data-site-header]');
+  const footer=document.querySelector('[data-site-footer]');
+  const page=document.body.dataset.page;
+
+  function esc(value){return String(value==null?'':value).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
+  function href(name,values={}){const next=new URLSearchParams(values);if(embedded)next.set('embed','1');return `${name}${next.toString()?`?${next}`:''}`}
+  function safeUrl(value){try{const url=new URL(value);return ['https:','http:'].includes(url.protocol)?url.href:''}catch(_){return ''}}
+  async function json(file){const response=await fetch(`${file}?v=${dataVersion}`,{cache:'no-store'});if(!response.ok)throw new Error(`无法加载 ${file}`);return response.json()}
+  function setTheme(accent){document.documentElement.style.setProperty('--accent',accent||'#16755a');document.documentElement.style.setProperty('--tint',`color-mix(in srgb,${accent||'#16755a'} 8%,white)`)}
+  function renderChrome(title){
+    if(header)header.innerHTML=`<div class="header-inner"><a class="brand" href="${href('index.html')}"><span class="brand-mark">AI</span><span>知识学堂</span></a><span class="header-path">${esc(title||'ESG标准与方法论')}</span><span class="header-spacer"></span><a class="header-link" href="${href('index.html')}">全部主题</a></div>`;
+    if(footer)footer.innerHTML='<div class="footer-inner"><span>个人整理的学习页面 · 正式工作请核对机构与交易所现行原文</span><span>页面自身不设置登录、表单或跟踪脚本</span></div>';
+  }
+  function errorState(message){root.innerHTML=`<section class="empty-state"><strong>页面暂时无法显示</strong><p>${esc(message)}</p><a class="button primary" href="${href('index.html')}">返回知识学堂</a></section>`}
+  function metaText(standard){return [standard.issuer,standard.version&&`版本 ${standard.version}`,standard.updated&&`更新 ${standard.updated}`].filter(Boolean)}
+  function cardHtml(standard){return `<a class="standard-card" style="--card-accent:${esc(standard.accent)}" href="${href('standard.html',{id:standard.id})}"><span class="card-eyebrow">${esc(standard.eyebrow)}</span><h2>${esc(standard.title)}</h2><span class="en">${esc(standard.titleEn)}</span><p>${esc(standard.description)}</p><div class="card-meta"><span>${standard.topics||0}个学习主题</span><span class="card-action">进入学习 →</span></div></a>`}
+
+  async function renderHome(){
+    const manifest=await json('data/manifest.json');renderChrome('ESG标准与方法论');
+    root.innerHTML=`<section class="home-hero"><div><span class="kicker">AI × ESG Knowledge Academy</span><h1>把复杂标准，整理成可走的学习路径。</h1><p>从主题卡片进入，先看框架和关系，再按目录阅读。第一期开放MSCI、A股、港交所与CSA四套学习页面。</p></div><div class="hero-note">内容会持续更新。页面提供个人整理的结构和摘要，正式工作请回到对应机构的最新原文核对。</div></section><div class="section-head"><h2>第一期学习主题</h2><p>四套页面 · 同一版式 · 独立主题色</p></div><section class="standard-grid">${manifest.standards.map(cardHtml).join('')}</section>`;
+  }
+
+  function processHtml(items){if(!items||!items.length)return'';return `<section class="article-section"><h2>先理解这条学习主线</h2><div class="process-strip">${items.map((item,index)=>`<article class="process-card"><b>${String(index+1).padStart(2,'0')}　${esc(item.title)}</b>${item.titleEn?`<small>${esc(item.titleEn)}</small>`:''}<p>${esc(item.description)}</p></article>`).join('')}</div></section>`}
+  function standardTopicCard(item,standard){return `<a class="topic-card" data-search="${esc([item.title,item.titleEn,item.eyebrow,...(item.tags||[])].join(' '))}" href="${href('topic.html',{standard:standard.id,id:item.id})}"><span class="card-eyebrow">${esc(item.eyebrow||'学习主题')}</span><h3>${esc(item.title)}</h3>${item.titleEn?`<span class="en">${esc(item.titleEn)}</span>`:''}<p>${esc(item.summary||'查看主题结构、关联关系与来源说明。')}</p><span class="card-action">查看内容 →</span></a>`}
+
+  async function loadStandard(){const id=params.get('standard')||params.get('id');if(!/^(msci|ashare|hkex|csa)$/.test(id||''))throw new Error('未找到这个学习主题');return json(`data/${id}.json`)}
+  async function renderStandard(){
+    const standard=await loadStandard();setTheme(standard.accent);renderChrome(standard.title);document.title=`${standard.title}｜知识学堂`;
+    const topics=standard.groups.reduce((n,g)=>n+g.items.length,0);
+    root.innerHTML=`<section class="standard-hero" style="--hero-accent:${esc(standard.accent)}"><div class="hero-breadcrumb"><a href="${href('index.html')}">知识学堂</a><span>/</span><span>${esc(standard.title)}</span></div><span class="kicker" style="color:rgba(255,255,255,.72)">${esc(standard.eyebrow)}</span><h1>${esc(standard.title)}</h1><div class="hero-en">${esc(standard.titleEn)}</div><p>${esc(standard.description)}</p><div class="hero-meta">${metaText(standard).map(text=>`<span>${esc(text)}</span>`).join('')}<span>${topics}个主题</span></div></section><div class="notice">${esc(standard.notice)}</div><section class="goals">${(standard.goals||[]).map((goal,index)=>`<article class="goal-card"><span>学习目标 ${String(index+1).padStart(2,'0')}</span><p>${esc(goal)}</p></article>`).join('')}</section>${processHtml(standard.process)}<div class="toolbar"><input class="search-box" type="search" placeholder="搜索这套学习路径" aria-label="搜索学习主题"><span class="result-count">共${topics}个主题</span></div>${standard.groups.map((group,index)=>`<section class="learning-group" id="group-${index+1}"><div class="group-title"><span>${String(index+1).padStart(2,'0')}</span><h2>${esc(group.title)}</h2></div><div class="topic-grid">${group.items.map(item=>standardTopicCard(item,standard)).join('')}</div></section>`).join('')}`;
+    const input=root.querySelector('.search-box'),cards=[...root.querySelectorAll('.topic-card')],count=root.querySelector('.result-count');
+    input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();let visible=0;cards.forEach(card=>{const show=!q||card.dataset.search.toLowerCase().includes(q);card.classList.toggle('hidden',!show);if(show)visible++});root.querySelectorAll('.learning-group').forEach(group=>group.classList.toggle('hidden',!group.querySelector('.topic-card:not(.hidden)')));count.textContent=`显示${visible}个主题`});
+  }
+
+  function findTopic(standard,id){for(const group of standard.groups||[]){const index=(group.items||[]).findIndex(item=>item.id===id);if(index>=0)return{item:group.items[index],group,index}}return null}
+  function summarySection(item){return `<section class="article-section" id="overview"><h2>主题概览</h2><div class="summary-card"><h3>${esc(item.title)}</h3><p>${esc(item.summary||'本页整理该主题在整体框架中的位置、学习结构和来源。')}</p></div></section>`}
+  function metaSection(item){const values=(item.meta||[]).filter(Boolean);if(!values.length&&!item.tags?.length)return'';return `<section class="article-section" id="position"><h2>在体系中的位置</h2><div class="meta-grid">${values.map((value,index)=>`<div class="meta-card"><small>定位 ${String(index+1).padStart(2,'0')}</small><strong>${esc(value)}</strong></div>`).join('')}</div>${item.tags?.length?`<div class="tag-row" style="margin-top:12px">${item.tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join('')}</div>`:''}</section>`}
+  function relationshipsSection(item){if(!item.relationshipGroups?.length&&!item.relations?.length)return'';let html='';if(item.relationshipGroups?.length){html=item.relationshipGroups.map(group=>`<div class="relationship-group"><div class="summary-card"><h3>${esc(group.parent)}</h3><p>${esc(group.description)}</p></div><div class="relationship-connector"><span>${esc(group.label)}</span></div><div class="relation-card-grid">${group.children.map(child=>`<article class="relation-card"><small>关联指标</small><h3>${esc(child.title)}</h3><p>${esc(child.description)}</p></article>`).join('')}</div></div>`).join('')}else{html=`<div class="relation-card-grid">${item.relations.map(title=>`<article class="relation-card"><small>关联内容</small><h3>${esc(title)}</h3></article>`).join('')}</div>`}return `<section class="article-section" id="relations"><h2>关联关系</h2>${html}</section>`}
+  function outlineSection(item){const outline=(item.outline||[]).filter(section=>section.title||section.items?.length);if(!outline.length)return'';return `<section class="article-section" id="outline"><h2>学习内容</h2>${outline.map((section,index)=>`<div class="outline-group" id="outline-${index+1}"><h3>${String(index+1).padStart(2,'0')}　${esc(section.title||'学习要点')}</h3>${section.titleEn?`<div class="en" style="margin:-6px 0 12px;color:#98a29e;font-size:10px">${esc(section.titleEn)}</div>`:''}${section.items?.length?`<div class="outline-grid">${section.items.map(text=>`<div class="outline-card">${esc(text)}</div>`).join('')}</div>`:'<div class="outline-empty">该节用于定位原资料中的对应内容。</div>'}</div>`).join('')}</section>`}
+  function sourceSection(item,standard){const url=safeUrl(item.officialUrl);return `<section class="article-section" id="source"><h2>来源与使用说明</h2><div class="source-card"><p>${esc(item.sourceNote||standard.sourceNote||'请以发布机构现行资料为准。')}</p>${item.status?`<p>当前整理状态：${esc(item.status)}</p>`:''}${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">前往官方资料入口 ↗</a>`:''}<p>${esc(standard.notice)}</p></div></section>`}
+  function tocHtml(item){const links=[['overview','主题概览'],['position','体系位置']];if(item.relationshipGroups?.length||item.relations?.length)links.push(['relations','关联关系']);if(item.outline?.length)links.push(['outline','学习内容']);links.push(['source','来源说明']);return `<aside class="toc-dock"><div class="toc-panel"><button class="toc-trigger" type="button" aria-expanded="false">目录</button><nav class="toc-links" aria-label="本页目录">${links.map(([id,title])=>`<a class="toc-link" href="#${id}">${title}</a>`).join('')}</nav></div></aside>`}
+  function nextItem(standard,group,itemIndex,direction){const all=standard.groups.flatMap(g=>g.items);const item=group.items[itemIndex];const at=all.findIndex(x=>x.id===item.id)+direction;return at>=0&&at<all.length?all[at]:null}
+
+  async function renderTopic(){
+    const standard=await loadStandard(),id=params.get('id'),found=findTopic(standard,id);if(!found)throw new Error('未找到这个知识主题');const {item,group,index}=found;setTheme(standard.accent);renderChrome(`${standard.title} / ${item.title}`);document.title=`${item.title}｜${standard.title}`;
+    const previous=nextItem(standard,group,index,-1),next=nextItem(standard,group,index,1);
+    root.innerHTML=`<section class="topic-hero" style="--hero-accent:${esc(standard.accent)}"><div class="hero-breadcrumb"><a href="${href('index.html')}">知识学堂</a><span>/</span><a href="${href('standard.html',{id:standard.id})}">${esc(standard.title)}</a><span>/</span><span>${esc(item.title)}</span></div><span class="kicker" style="color:rgba(255,255,255,.72)">${esc(item.eyebrow||group.title)}</span><h1>${esc(item.title)}</h1>${item.titleEn?`<div class="hero-en">${esc(item.titleEn)}</div>`:''}<p>${esc(item.summary||standard.description)}</p><div class="hero-meta">${(item.tags||[]).map(tag=>`<span>${esc(tag)}</span>`).join('')}</div></section><div class="topic-layout"><article class="article">${summarySection(item)}${metaSection(item)}${relationshipsSection(item)}${outlineSection(item)}${sourceSection(item,standard)}<nav class="article-nav">${previous?`<a class="button" href="${href('topic.html',{standard:standard.id,id:previous.id})}">← ${esc(previous.title)}</a>`:'<span></span>'}${next?`<a class="button primary" href="${href('topic.html',{standard:standard.id,id:next.id})}">${esc(next.title)} →</a>`:`<a class="button primary" href="${href('standard.html',{id:standard.id})}">返回学习路径</a>`}</nav></article>${tocHtml(item)}</div>`;
+    const dock=root.querySelector('.toc-dock'),trigger=root.querySelector('.toc-trigger');trigger.addEventListener('click',()=>{const open=dock.classList.toggle('open');trigger.setAttribute('aria-expanded',String(open))});root.querySelectorAll('.toc-link').forEach(link=>link.addEventListener('click',()=>{dock.classList.remove('open');trigger.setAttribute('aria-expanded','false')}));
+  }
+
+  renderChrome('ESG标准与方法论');
+  const run=page==='home'?renderHome:page==='standard'?renderStandard:page==='topic'?renderTopic:null;
+  if(run)run().catch(error=>errorState(error.message));else errorState('页面类型无效');
+})();

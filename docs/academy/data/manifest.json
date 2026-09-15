@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-09-14T03:46:42.774Z",
+  "standards": [
+    {
+      "id": "msci",
+      "title": "MSCI ESG评级方法论",
+      "titleEn": "MSCI ESG Ratings Methodology",
+      "eyebrow": "ESG评级方法论",
+      "accent": "#6d3fd1",
+      "description": "从评级框架、关键议题到行业权重，理解MSCI ESG评级的基本逻辑。",
+      "issuer": "MSCI Inc.",
+      "version": "1.4.0",
+      "updated": "2026-09-12",
+      "groups": 3,
+      "topics": 33,
+      "data": "data/msci.json"
+    },
+    {
+      "id": "ashare",
+      "title": "A股上市公司可持续发展报告指引",
+      "titleEn": "A-share Sustainability Reporting Guidelines",
+      "eyebrow": "境内交易所披露规则",
+      "accent": "#0c8b69",
+      "description": "按沪、深、北三所版本查看披露框架、专题议题和条款定位。",
+      "issuer": "上海证券交易所、深圳证券交易所、北京证券交易所",
+      "version": "2026.09.13.2",
+      "updated": "按交易所及版本分别记录",
+      "groups": 4,
+      "topics": 25,
+      "data": "data/ashare.json"
+    },
+    {
+      "id": "hkex",
+      "title": "港交所ESG披露体系",
+      "titleEn": "HKEX ESG Reporting Framework",
+      "eyebrow": "香港上市规则与实施指引",
+      "accent": "#126da0",
+      "description": "从ESG报告守则到气候信息披露，按模块学习责任、流程、KPI与实施方法。",
+      "issuer": "香港交易所",
+      "version": "1.1.0",
+      "updated": "2026-09-14",
+      "groups": 9,
+      "topics": 26,
+      "data": "data/hkex.json"
+    },
+    {
+      "id": "csa",
+      "title": "标普全球CSA企业可持续发展评估",
+      "titleEn": "S&P Global Corporate Sustainability Assessment (CSA)",
+      "eyebrow": "企业可持续发展评估",
+      "accent": "#1e56a0",
+      "description": "标普全球企业可持续发展评估（CSA）是衡量企业可持续发展绩效的深度评估框架，始于1999年，覆盖约13,000家公司，采用62个行业特定问卷，围绕34个可持续发展标准，基于财务重要性与双重重要性进行评估。",
+      "issuer": "S&P Global Sustainable1",
+      "version": "4.0-criteria",
+      "updated": "2026年9月",
+      "groups": 3,
+      "topics": 34,
+      "data": "data/csa.json"
+    }
+  ]
+}

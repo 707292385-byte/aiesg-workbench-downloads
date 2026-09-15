@@ -1,0 +1,2362 @@
+{
+  "id": "csa",
+  "title": "标普全球CSA企业可持续发展评估",
+  "titleEn": "S&P Global Corporate Sustainability Assessment (CSA)",
+  "eyebrow": "企业可持续发展评估",
+  "accent": "#1e56a0",
+  "description": "标普全球企业可持续发展评估（CSA）是衡量企业可持续发展绩效的深度评估框架，始于1999年，覆盖约13,000家公司，采用62个行业特定问卷，围绕34个可持续发展标准，基于财务重要性与双重重要性进行评估。",
+  "issuer": "S&P Global Sustainable1",
+  "version": "4.0-criteria",
+  "updated": "2026年9月",
+  "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+  "notice": "本页为个人整理的学习索引与方法摘要，不是S&P Global官方产品。问卷、权重和方法会更新，正式评估请以官方当期材料为准。",
+  "goals": [
+    "理解CSA的行业问卷和评分流程",
+    "掌握维度、标准、问题三级结构",
+    "按行业回到当期官方问卷核对要求"
+  ],
+  "process": [
+    {
+      "title": "行业特定问卷设计",
+      "titleEn": "Industry-Specific Questionnaire Design",
+      "description": "CSA采用62个行业特定问卷，每个问卷包含100-130个问题，聚焦与该行业财务相关的经济、环境和社会标准。"
+    },
+    {
+      "title": "数据收集与证据审核",
+      "titleEn": "Data Collection & Evidence Review",
+      "description": "受邀公司通过CSA门户提交深入数据和支持性证据，包括内部文件、公开报告和第三方验证。未受邀公司也可申请评估。"
+    },
+    {
+      "title": "数据标准化",
+      "titleEn": "Data Normalization",
+      "description": "对跨问题和标准的定量数据进行行业内标准化，如直接温室气体排放（范围1）。标准化因子衡量业务规模，提供运营背景，便于具有类似风险、机遇和影响的公司之间比较。"
+    },
+    {
+      "title": "问题级评分",
+      "titleEn": "Question-Level Scoring",
+      "description": "每个问题答案获得0-100分，通过评分算法转换为分数。评分框架同时奖励公司在可持续发展议题上的透明度和绩效表现。对于未参与公司，使用统计模型估算问题级分数。"
+    },
+    {
+      "title": "维度加权汇总",
+      "titleEn": "Dimension Weighted Aggregation",
+      "description": "问题级分数按预定义的问题权重和标准权重逐级汇总，最终形成三维度分数和总ESG分数。权重基于行业自下而上的基本面分析，不同行业同一标准的权重可能差异很大。"
+    },
+    {
+      "title": "MSA争议调整",
+      "titleEn": "MSA Controversy Adjustment",
+      "description": "媒体与利益相关方分析（MSA）持续监控企业争议事件，基于公司责任、重要性和时间性确定是否开启MSA案例。评估影响评级和公司响应评级后，应用MSA乘数向下调整受影响标准的分数。"
+    },
+    {
+      "title": "最终评分发布",
+      "titleEn": "Final Score Publication",
+      "description": "最终ESG评分为0-100分，不可跨行业比较。披露分析提供额外深度，分析公司信息可用性对ESG评分的影响。评分每年发布，可通过S&P Global网站免费查询数千家公司。"
+    }
+  ],
+  "overview": [
+    {
+      "title": "CSA是什么",
+      "description": "标普全球企业可持续发展评估（CSA）是衡量企业可持续发展绩效的年度评估框架，始于1999年。截至2026年3月，S&P Global为约13,000家公司生成了2025年ESG评分。这些公司基于市场相关性被选择进行评估，以确保覆盖范围的一致性。"
+    },
+    {
+      "title": "核心设计理念：双重重要性",
+      "description": "S&P Global Sustainable1认为双重重要性是分析的组成部分。随着时间推移，对社会和环境的外部影响会转化为对公司自身的内部影响，包括其财务价值驱动因素。这些影响可能是正面或负面的、直接或间接的，包括通过价值链上游或下游的涟漪效应。"
+    },
+    {
+      "title": "评估范围",
+      "description": "CSA采用62个行业特定问卷，每个问卷约100-130个问题，聚焦与该行业财务相关的经济、环境和社会标准。评估关注对公司长期价值创造有影响的可持续发展行动。所有研究宇宙中的公司都被邀请参与，未受邀公司也可申请评估。"
+    },
+    {
+      "title": "评分方法",
+      "description": "每个问题答案获得0-100分，通过评分算法转换为分数。评分框架同时奖励透明度和绩效表现。问题级分数按预定义的问题权重和标准权重逐级汇总，最终形成三维度分数和总ESG分数。计算公式：CSA Score = Σ(问题得分 × 问题权重 × 标准权重)。"
+    },
+    {
+      "title": "MSA争议分析",
+      "description": "媒体与利益相关方分析（MSA）是CSA的组成部分，持续监控企业争议事件。基于公司责任、重要性和时间性确定是否开启MSA案例，评估影响评级和公司响应评级后，应用MSA乘数向下调整受影响标准的分数。MSA覆盖20,000+公司。"
+    },
+    {
+      "title": "方法论治理",
+      "description": "CSA方法论由可持续发展研究与方法论团队负责整体结构和实施，由模型和方法论治理委员会监督。问卷每年审查更新，以反映新兴可持续发展议题。所有新方法论和现有方法论的重大变更都由独立方法论治理委员会审查和批准。"
+    },
+    {
+      "title": "2026年方法学更新",
+      "description": "2026年3月更新：更新争议部分（MSA），描述S&P Global新的专有争议筛选流程；新增方法论局限性部分；更新附录II和III，标注示例以解释评分计算。2026年9月更新：删除描述评分继承的附录IV；新增非上市实体相关脚注。"
+    },
+    {
+      "title": "与其他评级的关系",
+      "description": "CSA是S&P Global ESG评分的基础框架。ESG评分结合了公司披露、媒体和利益相关方分析、建模方法和通过CSA的深入公司互动。自2023年起，ESG评分在问题级分数层面整合了建模方法，提高了未参与公司的评分质量。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "csa-1",
+      "title": "治理与经济",
+      "items": [
+        {
+          "id": "CSA-GOV-01",
+          "title": "公司治理",
+          "titleEn": "Corporate Governance",
+          "summary": "通用标准，平均权重8%，当前整理36个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 8%",
+            "36个问题"
+          ],
+          "outline": [
+            {
+              "title": "董事会独立性",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "目标比例"
+              ]
+            },
+            {
+              "title": "家族企业",
+              "items": [
+                "国有企业",
+                "董事会类型",
+                "两层制（设有监事会的公司）",
+                "国有企业"
+              ]
+            },
+            {
+              "title": "非执行主席/首席董事",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "董事会多样性政策",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "董事会性别多样性",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "董事会责任",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "董事会平均任期",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "董事会行业经验",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "• 公用事业"
+              ]
+            },
+            {
+              "title": "首席执行官薪酬——成功指标",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "首席执行官薪酬——长期绩效挂钩",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "首席执行官与员工薪酬比率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "所有权管理",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "管理层持股要求",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "政府所有权",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "政府机构的黄金股",
+                "政府所有权要求："
+              ]
+            },
+            {
+              "title": "家族所有权",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "非上市公司的具体数据要求"
+              ]
+            },
+            {
+              "title": "ESG 治理监督",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "6. 由第三方鉴证提供商验证的重要性评估流程：",
+              "items": [
+                "董事会或高级管理层签署的重要性评估指标："
+              ]
+            },
+            {
+              "title": "4. 高管薪酬：",
+              "items": [
+                "不可接受："
+              ]
+            },
+            {
+              "title": "最大贡献与支出",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "问题和主题",
+              "items": [
+                "其他大额支出",
+                "政策/计划的范围"
+              ]
+            },
+            {
+              "title": "评估流程",
+              "items": [
+                "开发流程",
+                "行业特定特殊案例："
+              ]
+            },
+            {
+              "title": "董事会监督",
+              "items": [
+                "管理职责",
+                "TCFD （气候相关财务披露工作组）披露"
+              ]
+            },
+            {
+              "title": "性别薪酬指标",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "劳动力工会与集体谈判覆盖范围"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-02",
+          "title": "商业道德",
+          "titleEn": "Business Ethics",
+          "summary": "通用标准，平均权重6.4%，当前整理14个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 6.4%",
+            "14个问题"
+          ],
+          "outline": [
+            {
+              "title": "商业道德",
+              "items": [
+                "联合国全球契约（UNGC ）成员",
+                "行为准则"
+              ]
+            },
+            {
+              "title": "反垄断/反竞争行为",
+              "items": [
+                "环境、健康与安全",
+                "犯罪预防：商业政策/程序",
+                "反贿赂与反腐败政策"
+              ]
+            },
+            {
+              "title": "政策涵盖方面",
+              "items": [
+                "政策背书",
+                "举报机制",
+                "政策背书",
+                "政策背书",
+                "2. 最高管理层的背书",
+                "职业健康安全（OHS ）计划"
+              ]
+            },
+            {
+              "title": "5. 对报复行为采取零容忍政策",
+              "items": [
+                "6. 提供关于报告渠道使用的培训",
+                "数据泄露报告",
+                "争议武器"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-03",
+          "title": "供应链管理",
+          "titleEn": "Supply Chain Management",
+          "summary": "通用标准，平均权重4.8%，当前整理11个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4.8%",
+            "11个问题"
+          ],
+          "outline": [
+            {
+              "title": "供应链管理",
+              "items": [
+                "供应商行为准则",
+                "行业特定特殊案例：",
+                "供应商ESG 计划",
+                "行业特定特殊情况：",
+                "供应商筛选",
+                "行业特定特殊情况："
+              ]
+            },
+            {
+              "title": "供应商评估与发展关键绩效指标（KPIs ）",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "第三方验证",
+              "items": [
+                "不适用- 一般规则"
+              ]
+            },
+            {
+              "title": "6. 设有可追溯系统以确定原产国",
+              "items": [
+                "8. 调查除冲突矿产以外的替代来源"
+              ]
+            },
+            {
+              "title": "冲突矿产指标",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "风险地区矿产的产品所占总营收的百分比",
+              "items": [
+                "我们的期望："
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-04",
+          "title": "风险与危机管理",
+          "titleEn": "Risk & Crisis Management",
+          "summary": "通用标准，平均权重4%，当前整理9个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4%",
+            "9个问题"
+          ],
+          "outline": [
+            {
+              "title": "3. 商业策略",
+              "items": [
+                "不可接受：",
+                "企业价值创造的重要性指标"
+              ]
+            },
+            {
+              "title": "风险治理",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "运营管理职能（三道防线模型）"
+              ]
+            },
+            {
+              "title": "风险管理流程",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市"
+              ]
+            },
+            {
+              "title": "审计",
+              "items": [
+                "风险文化"
+              ]
+            },
+            {
+              "title": "新兴风险",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "不可接受的风险",
+                "全球系统重要性银行"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-05",
+          "title": "信息安全",
+          "titleEn": "Information Security",
+          "summary": "通用标准，平均权重2.9%，当前整理3个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2.9%",
+            "3个问题"
+          ],
+          "outline": [
+            {
+              "title": "信息安全",
+              "items": [
+                "信息安全治理",
+                "信息安全政策",
+                "信息安全管理计划"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-06",
+          "title": "政策影响",
+          "titleEn": "Policy Influence",
+          "summary": "通用标准，平均权重2.3%，当前整理2个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2.3%",
+            "2个问题"
+          ],
+          "outline": [
+            {
+              "title": "政策影响",
+              "items": [
+                "捐款及其他支出",
+                "部分公开问题的披露要求："
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-07",
+          "title": "重要性",
+          "titleEn": "Materiality",
+          "summary": "通用标准，平均权重2.1%，当前整理5个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2.1%",
+            "5个问题"
+          ],
+          "outline": [
+            {
+              "title": "重要性",
+              "items": [
+                "重要性分析"
+              ]
+            },
+            {
+              "title": "6. 由第三方鉴证提供商验证的重要性评估流程：",
+              "items": [
+                "企业价值创造的重要议题"
+              ]
+            },
+            {
+              "title": "外部利益相关方的重要议题",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "外部利益相关方的重要性指标",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "影响指标：",
+              "items": [
+                "不可接受的影响指标："
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-08",
+          "title": "税务策略",
+          "titleEn": "Tax Strategy",
+          "summary": "通用标准，平均权重2.1%，当前整理17个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2.1%",
+            "17个问题"
+          ],
+          "outline": [
+            {
+              "title": "税务策略",
+              "items": [
+                "税收战略与治理"
+              ]
+            },
+            {
+              "title": "承诺方面",
+              "items": [
+                "承诺背书",
+                "税务报告",
+                "承诺范围",
+                "尾矿管理",
+                "尾矿风险潜力",
+                "国家标准中后果分类的推荐翻译方案",
+                "承诺范围",
+                "承诺范围",
+                "尊重人权：",
+                "人权尽职调查流程",
+                "□ 自有员工□ 女性□ 孩子们□ 土著居民□ 农民工□ 第三方员工□ 当地社区□ 其他",
+                "承诺背书",
+                "普惠金融产品与服务",
+                "普惠金融——非金融支持"
+              ]
+            },
+            {
+              "title": "有效税率",
+              "items": [
+                "灵活：信息公开要求取决于公司是否上市",
+                "需缴纳伊斯兰税（zakat ）的公司的特别说明"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-09",
+          "title": "透明度与报告",
+          "titleEn": "Transparency & Reporting",
+          "summary": "通用标准，平均权重1%，当前整理2个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 1%",
+            "2个问题"
+          ],
+          "outline": [
+            {
+              "title": "透明度与报告",
+              "items": [
+                "可持续报告边界",
+                "可持续发展报告鉴证"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-10",
+          "title": "负责任人工智能",
+          "titleEn": "Responsible Artificial Intelligence",
+          "summary": "通用标准，平均权重1%，当前整理1个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 1%",
+            "1个问题"
+          ],
+          "outline": [
+            {
+              "title": "负责任的人工智能",
+              "items": [
+                "负责任的人工智能政策"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-11",
+          "title": "产品质量与召回管理",
+          "titleEn": "Product Quality & Recall Management",
+          "summary": "行业特定标准，平均权重3%，当前整理6个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 3%",
+            "6个问题"
+          ],
+          "outline": [
+            {
+              "title": "产品质量与召回管理",
+              "items": [
+                "产品质量计划",
+                "保修条款"
+              ]
+            },
+            {
+              "title": "产品召回",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "产品召回（医疗保健）"
+              ]
+            },
+            {
+              "title": "召回数据库：",
+              "items": [
+                "遵守监管标准",
+                "483 表观察结果和 FDA 警告信"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-GOV-12",
+          "title": "可持续金融",
+          "titleEn": "Sustainable Finance",
+          "summary": "行业特定标准，平均权重9%，当前整理23个问题索引。",
+          "eyebrow": "治理与经济",
+          "tags": [
+            "治理与经济",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 9%",
+            "23个问题"
+          ],
+          "outline": [
+            {
+              "title": "可持续金融",
+              "items": [
+                "行业活动"
+              ]
+            },
+            {
+              "title": "指数授权",
+              "items": [
+                "财务数据与分析",
+                "可持续投资政策",
+                "可持续受托管理",
+                "第二部分：投票",
+                "可持续融资政策",
+                "第二部分：消费金融",
+                "可持续项目融资政策",
+                "透明度：",
+                "可持续咨询政策",
+                "第二部分：证券化",
+                "可持续保险承保政策",
+                "可持续交易所项目"
+              ]
+            },
+            {
+              "title": "举措",
+              "items": [
+                "细分板块",
+                "可持续投资产品与服务",
+                "产品类别描述",
+                "可持续金融产品与服务",
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "可持续保险承保产品与服务"
+              ]
+            },
+            {
+              "title": "产品类别描述",
+              "items": [
+                "保险承保总价值"
+              ]
+            },
+            {
+              "title": "ESG 非寿险/非健康保险产品示例：",
+              "items": [
+                "不在本问题范围内的非寿险/非健康险产品示例："
+              ]
+            },
+            {
+              "title": "可持续数据与分析产品与服务",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "可持续指数"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        }
+      ]
+    },
+    {
+      "id": "csa-2",
+      "title": "环境",
+      "items": [
+        {
+          "id": "CSA-ENV-01",
+          "title": "气候战略",
+          "titleEn": "Climate Strategy",
+          "summary": "通用标准，平均权重10.1%，当前整理53个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 10.1%",
+            "53个问题"
+          ],
+          "outline": [
+            {
+              "title": "直接温室气体排放（范围1）",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "《京都议定书》涵盖的温室气体：",
+                "通用数据要求",
+                "间接温室气体排放（范围2）",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "间接温室气体排放（范围3）",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "温室气体排放的具体数据要求：",
+              "items": [
+                "一般数据要求"
+              ]
+            },
+            {
+              "title": "甲烷排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "全氟化碳排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "一般数据要求"
+              ]
+            },
+            {
+              "title": "六氟化硫（SF6 ）排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求",
+                "气候治理"
+              ]
+            },
+            {
+              "title": "气候相关管理激励措施",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "气候风险管理"
+              ]
+            },
+            {
+              "title": "气候变化的金融风险",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "气候相关情景分析",
+                "其他列出的过渡场景："
+              ]
+            },
+            {
+              "title": "物理气候风险适应",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "减排目标"
+              ]
+            },
+            {
+              "title": "内部碳定价",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "内部碳定价类型：",
+                "部分公开问题的披露要求：",
+                "零排放承诺",
+                "行业特定指导："
+              ]
+            },
+            {
+              "title": "车队温室气体排放强度",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "货物温室气体排放强度比（千克二氧化碳当量/吨-公",
+                "海上舰队脱碳",
+                "铁路车队脱碳",
+                "电动铁路车队的占比",
+                "道路车队脱碳",
+                "航空机队脱碳",
+                "车队年限"
+              ]
+            },
+            {
+              "title": "脱碳战略",
+              "items": [
+                "资助排放的净零目标",
+                "第二部分：中期减排目标",
+                "• 每年报告这些目标的进展情况"
+              ]
+            },
+            {
+              "title": "范围3融资绝对排放量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "煤炭融资政策",
+                "第二部分：煤炭融资政策",
+                "这个问题需要公开证据。",
+                "煤炭投资政策",
+                "第二部分：煤炭投资政策",
+                "这个问题需要公开证据。",
+                "煤炭再保险/保险承保政策",
+                "第二部分：煤炭再保险/保险承保政策",
+                "这个问题需要公开证据。",
+                "非常规油气融资政策",
+                "第二部分：非常规油气融资政策",
+                "非常规油气投资政策",
+                "第二部分：非常规油气投资政策",
+                "这个问题需要公开证据。",
+                "第二部分：非常规油气再保险/保险承保政策"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-02",
+          "title": "产品监管",
+          "titleEn": "Product Stewardship",
+          "summary": "通用标准，平均权重4.9%，当前整理27个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4.9%",
+            "27个问题"
+          ],
+          "outline": [
+            {
+              "title": "产品设计标准议题",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "生命周期评估",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "接触有害物质",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "风险评估",
+                "有害物质承诺"
+              ]
+            },
+            {
+              "title": "产品再利用和回收指标",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "电子垃圾的生命周期末期",
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "漏损率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "建筑材料的属性",
+                "认证标准"
+              ]
+            },
+            {
+              "title": "不可接受的木材认证",
+              "items": [
+                "房地产行业公司（REI 、REM ）须知：",
+                "循环时尚承诺",
+                "循环时尚项目"
+              ]
+            },
+            {
+              "title": "循环时尚指标",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "面向终端用户的可持续公用事业服务"
+              ]
+            },
+            {
+              "title": "可持续收入",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "节能建筑收入",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "来自认证建筑的收入",
+              "items": [
+                "可持续收入占比"
+              ]
+            },
+            {
+              "title": "可持续建筑材料收入",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "可持续建筑所需的其他建筑设备：",
+                "墨西哥分类学："
+              ]
+            },
+            {
+              "title": "可持续木材和纸张收入",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "示例 2（针对“其他可持续产品或服务”）：",
+                "可持续产品计划"
+              ]
+            },
+            {
+              "title": "有机产品占比",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-03",
+          "title": "废弃物与污染物",
+          "titleEn": "Waste & Pollutants",
+          "summary": "通用标准，平均权重4%，当前整理31个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4%",
+            "31个问题"
+          ],
+          "outline": [
+            {
+              "title": "废弃物与污染物",
+              "items": [
+                "废弃物管理计划"
+              ]
+            },
+            {
+              "title": "建筑垃圾管理",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "废弃物处理",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "危险废弃物",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "危险废弃物的具体数据要求",
+              "items": [
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "灰烬和石膏废料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "矿物废料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "矿物废料的具体数据要求",
+              "items": [
+                "一般数据要求",
+                "尾矿处理承诺"
+              ]
+            },
+            {
+              "title": "酸性岩石排水管理",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求："
+              ]
+            },
+            {
+              "title": "食物损失与浪费的影响",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "化学需氧量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "碳氢化合物泄漏",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "油气泄漏的具体数据要求",
+              "items": [
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "NOX 排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "客运行业的特定氮氧化物排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "货物运输的特定氮氧化物排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "硫氧化物排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "直接汞排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "粉尘排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "挥发性有机化合物排放",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "可吸收有机卤素",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-04",
+          "title": "环境政策与管理",
+          "titleEn": "Environmental Policy & Management",
+          "summary": "通用标准，平均权重3.4%，当前整理22个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 3.4%",
+            "22个问题"
+          ],
+          "outline": [
+            {
+              "title": "环境政策与管理专业",
+              "items": [
+                "环境政策"
+              ]
+            },
+            {
+              "title": "政策范围",
+              "items": [
+                "政策背书",
+                "环境管理体系认证",
+                "房地产投资组合的环境项目",
+                "政策背书"
+              ]
+            },
+            {
+              "title": "环境投资回报",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "环境违法行为",
+                "正在进行的法律诉讼/指控："
+              ]
+            },
+            {
+              "title": "废弃物具体数据要求",
+              "items": [
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "行业特定指南",
+              "items": [
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "风险管理",
+              "items": [
+                "指标与目标"
+              ]
+            },
+            {
+              "title": "范围",
+              "items": [
+                "已识别风险"
+              ]
+            },
+            {
+              "title": "承诺范围",
+              "items": [
+                "政策背书",
+                "主题"
+              ]
+            },
+            {
+              "title": "行业特定指南：",
+              "items": [
+                "房地产（REI 和 REM ）：",
+                "生物多样性缓解措施"
+              ]
+            },
+            {
+              "title": "车辆燃油与碳效率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "可再生原材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "示例 1：",
+              "items": [
+                "示例 2：",
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "所有行业须知：",
+              "items": [
+                "部分：其他可持续产品或服务",
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-05",
+          "title": "水资源",
+          "titleEn": "Water",
+          "summary": "通用标准，平均权重2.6%，当前整理14个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2.6%",
+            "14个问题"
+          ],
+          "outline": [
+            {
+              "title": "水",
+              "items": [
+                "水资源效率管理计划"
+              ]
+            },
+            {
+              "title": "用水量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "水资源紧缺地区的用水量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "超纯水使用",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "建筑中的节水方案",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "房地产投资组合的节水计划",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求",
+                "暴露于水资源紧缺地区"
+              ]
+            },
+            {
+              "title": "水风险管理计划",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "风险评估范围",
+                "ELC 和 MUW："
+              ]
+            },
+            {
+              "title": "供应商面临的水风险",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "供应商的水风险管理",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-06",
+          "title": "生物多样性",
+          "titleEn": "Biodiversity",
+          "summary": "通用标准，平均权重3.3%，当前整理13个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 3.3%",
+            "13个问题"
+          ],
+          "outline": [
+            {
+              "title": "生物多样性风险评估",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "生物多样性风险评估的范围",
+              "items": [
+                "风险识别"
+              ]
+            },
+            {
+              "title": "非必需消费品（CNO、REX 、TRT ）",
+              "items": [
+                "工业（ICS ）",
+                "工业类（ICS ）",
+                "工业类（ICS ）",
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "范围",
+              "items": [
+                "生物多样性承诺"
+              ]
+            },
+            {
+              "title": "跨部门生物多样性倡议（CSBI ）指南：",
+              "items": [
+                "2020 年后全球生物多样性框架：",
+                "无砍伐森林承诺"
+              ]
+            },
+            {
+              "title": "承诺程度",
+              "items": [
+                "承诺范围",
+                "承诺背书"
+              ]
+            },
+            {
+              "title": "房地产（REI & REM ）",
+              "items": [
+                "非必需消费品（CNO, TRT ）"
+              ]
+            },
+            {
+              "title": "公用设施指南（ELC 、MUW、GAS ）",
+              "items": [
+                "房地产管理与开发及股权型房地产投资信托基金指南"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-07",
+          "title": "能源",
+          "titleEn": "Energy",
+          "summary": "通用标准，平均权重2%，当前整理37个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 2%",
+            "37个问题"
+          ],
+          "outline": [
+            {
+              "title": "能源",
+              "items": [
+                "能源管理计划"
+              ]
+            },
+            {
+              "title": "能源消耗",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "购买或获得的电力、蒸汽、热量、冷却：",
+              "items": [
+                "单位与转换："
+              ]
+            },
+            {
+              "title": "能源密度",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "数据中心效率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "数据中心可再生能源占比",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "现场能源生成",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "输配电损耗",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "输配电可靠性",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "气体泄漏率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "发电结构"
+              ]
+            },
+            {
+              "title": "售电总发电量",
+              "items": [
+                "碳强度"
+              ]
+            },
+            {
+              "title": "CDP 2025 – 1.16.1",
+              "items": [
+                "电力结构",
+                "可再生能源总装机容量"
+              ]
+            },
+            {
+              "title": "发电效率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "电厂可用系数",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "碳氢化合物生产的碳强度",
+              "items": [
+                "开发和生产类型",
+                "石油和天然气储量",
+                "资源类型"
+              ]
+            },
+            {
+              "title": "可再生能源生产",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "保本价格"
+              ]
+            },
+            {
+              "title": "客运燃油消耗率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "货物运输的单位燃料消耗量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性",
+                "提高燃油效率的措施",
+                "航空业参与",
+                "车队/机队暴露"
+              ]
+            },
+            {
+              "title": "车辆效能与排放的治理检查",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "电动汽车（EV）电池退化",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "□ 这些数据是公开的。"
+              ]
+            },
+            {
+              "title": "电动汽车效率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "替代传动系统",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "协同处置率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-08",
+          "title": "可持续原材料",
+          "titleEn": "Sustainable Raw Materials",
+          "summary": "行业特定标准，平均权重3.4%，当前整理21个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 3.4%",
+            "21个问题"
+          ],
+          "outline": [
+            {
+              "title": "可持续原材料",
+              "items": [
+                "可持续农业承诺"
+              ]
+            },
+            {
+              "title": "农作物认证",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "暴露：",
+              "items": [
+                "行业特定指导",
+                "动物福利政策",
+                "动物福利信息披露"
+              ]
+            },
+            {
+              "title": "动物产品认证",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "其他认可认证与标准列表：",
+              "items": [
+                "行业特定指导",
+                "原材料政策",
+                "政策背书",
+                "原材料计划"
+              ]
+            },
+            {
+              "title": "植物与动物源纺织材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "对于该问题不适用："
+              ]
+            },
+            {
+              "title": "塑料原材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "金属原材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "全球报告倡议组织："
+              ]
+            },
+            {
+              "title": "再生建筑材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "包装产品原材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "小森林所有者",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "森林经营认证",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "监管链认证",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "来自第三方认证森林的原材料百分比"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-09",
+          "title": "包装",
+          "titleEn": "Packaging",
+          "summary": "行业特定标准，平均权重3.8%，当前整理3个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 3.8%",
+            "3个问题"
+          ],
+          "outline": [
+            {
+              "title": "包装",
+              "items": [
+                "包装承诺"
+              ]
+            },
+            {
+              "title": "包装材料",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "塑料包装"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-ENV-10",
+          "title": "脱碳战略",
+          "titleEn": "Decarbonization Strategy",
+          "summary": "行业特定标准，平均权重7.7%，当前整理0个问题索引。",
+          "eyebrow": "环境",
+          "tags": [
+            "环境",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 7.7%",
+            "0个问题"
+          ],
+          "outline": [],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        }
+      ]
+    },
+    {
+      "id": "csa-3",
+      "title": "社会",
+      "items": [
+        {
+          "id": "CSA-SOC-01",
+          "title": "人力资本管理",
+          "titleEn": "Human Capital Management",
+          "summary": "通用标准，平均权重9.9%，当前整理20个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 9.9%",
+            "20个问题"
+          ],
+          "outline": [
+            {
+              "title": "员工构成：性别",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "员工构成：种族/民族与国籍",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "人力资本管理",
+              "items": [
+                "培训与发展投入",
+                "数据细分：",
+                "员工发展计划",
+                "请注意：",
+                "人力资本投资回报率"
+              ]
+            },
+            {
+              "title": "招聘",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "数据细分",
+              "items": [
+                "请注意："
+              ]
+            },
+            {
+              "title": "员工流失率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "数据细分：",
+              "items": [
+                "请注意：",
+                "绩效评估类型",
+                "• 某类绩效评估的频率"
+              ]
+            },
+            {
+              "title": "员工长期激励措施",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "员工支持计划",
+                "2. 在家工作安排"
+              ]
+            },
+            {
+              "title": "员工幸福感趋势",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "请注意："
+              ]
+            },
+            {
+              "title": "地方能力建设",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "能力建设："
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-02",
+          "title": "职业健康与安全",
+          "titleEn": "Occupational Health & Safety",
+          "summary": "通用标准，平均权重5.8%，当前整理28个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 5.8%",
+            "28个问题"
+          ],
+          "outline": [
+            {
+              "title": "职业健康与安全",
+              "items": [
+                "职业健康安全政策"
+              ]
+            },
+            {
+              "title": "缺勤率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "死亡人数",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "损失工时工伤率（LTIFR ）- 员工",
+                "o 替代指标",
+                "损失工时工伤率（LTIR ）",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "损失工时工伤率（LTIFR ）- 承包商",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "o 替代指标",
+                "损失工时工伤率（LTIR ）",
+                "数据一致性",
+                "可记录总伤害频率（TRIFR ）——员工",
+                "o 替代指标",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "承包商可记录总伤害频率（TRIFR ）",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "o 替代指标",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "过程安全事件– 一级",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "数据一致性"
+              ]
+            },
+            {
+              "title": "健康与营养",
+              "items": [
+                "健康与营养政策",
+                "健康与营养计划"
+              ]
+            },
+            {
+              "title": "健康与营养收入",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "交通安全",
+              "items": [
+                "安全管理系统"
+              ]
+            },
+            {
+              "title": "系统性酒精和药物测试：",
+              "items": [
+                "追踪安全事故数量："
+              ]
+            },
+            {
+              "title": "事故率",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "乘客死亡人数"
+              ]
+            },
+            {
+              "title": "社会医疗保健贡献",
+              "items": [
+                "医疗保健项目（产品与药物）可及性"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-03",
+          "title": "劳工实践",
+          "titleEn": "Labor Practices",
+          "summary": "通用标准，平均权重5.3%，当前整理4个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 5.3%",
+            "4个问题"
+          ],
+          "outline": [
+            {
+              "title": "劳工实践",
+              "items": [
+                "劳动实践承诺",
+                "承诺范围",
+                "劳动实践项目",
+                "歧视与骚扰"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-04",
+          "title": "人权",
+          "titleEn": "Human Rights",
+          "summary": "通用标准，平均权重4.3%，当前整理4个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4.3%",
+            "4个问题"
+          ],
+          "outline": [
+            {
+              "title": "人权",
+              "items": [
+                "人权承诺"
+              ]
+            },
+            {
+              "title": "人权评估",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "人权缓解与补救"
+              ]
+            },
+            {
+              "title": "缓解措施：",
+              "items": [
+                "补救措施："
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-05",
+          "title": "客户关系",
+          "titleEn": "Customer Relations",
+          "summary": "通用标准，平均权重4.4%，当前整理17个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 4.4%",
+            "17个问题"
+          ],
+          "outline": [
+            {
+              "title": "ELC 和 MUW：",
+              "items": [
+                "通用数据要求",
+                "通用数据要求"
+              ]
+            },
+            {
+              "title": "客户关系",
+              "items": [
+                "租户健康与福利计划",
+                "租户健康与福利措施"
+              ]
+            },
+            {
+              "title": "线上策略与线上客户",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "客户关系管理"
+              ]
+            },
+            {
+              "title": "客户满意度",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "公用设施指南（ELC 、MUW、GAS ）",
+              "items": [
+                "道德营销承诺",
+                "直接面向消费者",
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "广告伦理准则",
+                "政策背书",
+                "道德营销与广告",
+                "内容审核政策",
+                "编辑政策",
+                "政策背书",
+                "儿童保护"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-06",
+          "title": "社区关系",
+          "titleEn": "Community Relations",
+          "summary": "行业特定标准，平均权重5.3%，当前整理23个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 5.3%",
+            "23个问题"
+          ],
+          "outline": [
+            {
+              "title": "社区关系",
+              "items": [
+                "可负担性与可获取性"
+              ]
+            },
+            {
+              "title": "社会矿山关闭计划",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "矿山关闭规划",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "社区积极参与",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "搬迁计划",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求",
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求"
+              ]
+            },
+            {
+              "title": "安保力量",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "本地就业",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "部分公开问题的披露要求："
+              ]
+            },
+            {
+              "title": "手工小规模采矿",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "社会融合项目",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数"
+              ]
+            },
+            {
+              "title": "通过支持社会企业、小企业和创造当地就业机会来促进当地经济发展：",
+              "items": [
+                "促进健康的生活条件，支持社区福祉，包括为残疾人提供特别措施：",
+                "利益相关方参与政策"
+              ]
+            },
+            {
+              "title": "提供申诉机制",
+              "items": [
+                "高层管理层的背书",
+                "利益相关方参与计划"
+              ]
+            },
+            {
+              "title": "当地利益相关方的能力建设，以确保他们能够与公司沟",
+              "items": [
+                "对当地利益相关方对参与策略的看法进行定期调查/审"
+              ]
+            },
+            {
+              "title": "定期调查/审查当地利益相关方对参与策略的看法",
+              "items": [
+                "申诉跟踪"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-07",
+          "title": "隐私保护",
+          "titleEn": "Privacy Protection",
+          "summary": "通用标准，平均权重3.2%，当前整理3个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "通用标准"
+          ],
+          "meta": [
+            "平均权重 3.2%",
+            "3个问题"
+          ],
+          "outline": [
+            {
+              "title": "隐私保护",
+              "items": [
+                "隐私政策：系统/程序",
+                "客户隐私信息",
+                "客户数据的使用"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-08",
+          "title": "医疗贡献",
+          "titleEn": "Contribution to Societal Healthcare",
+          "summary": "行业特定标准，平均权重9.5%，当前整理7个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 9.5%",
+            "7个问题"
+          ],
+          "outline": [
+            {
+              "title": "地方能力建设",
+              "items": [
+                "医疗保健可及性伙伴关系",
+                "医疗保健可及性项目"
+              ]
+            },
+            {
+              "title": "医疗保健可及性的影响",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "医疗保健项目可及性（产品）"
+              ]
+            },
+            {
+              "title": "公平定价",
+              "items": [
+                "部分公开：对于相关的公开证据将给予额外的分数",
+                "科研可及性与透明度"
+              ]
+            },
+            {
+              "title": "普惠金融",
+              "items": [
+                "普惠金融承诺"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-09",
+          "title": "普惠金融",
+          "titleEn": "Financial Inclusion",
+          "summary": "行业特定标准，平均权重5.3%，当前整理0个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 5.3%",
+            "0个问题"
+          ],
+          "outline": [],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-10",
+          "title": "健康与营养",
+          "titleEn": "Health & Nutrition",
+          "summary": "行业特定标准，平均权重5.3%，当前整理0个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 5.3%",
+            "0个问题"
+          ],
+          "outline": [],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-11",
+          "title": "运输安全",
+          "titleEn": "Transportation Safety",
+          "summary": "行业特定标准，平均权重5.5%，当前整理0个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 5.5%",
+            "0个问题"
+          ],
+          "outline": [],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        },
+        {
+          "id": "CSA-SOC-12",
+          "title": "低风险烟草产品",
+          "titleEn": "Reduced Risk Tobacco Products",
+          "summary": "行业特定标准，平均权重2%，当前整理1个问题索引。",
+          "eyebrow": "社会",
+          "tags": [
+            "社会",
+            "行业特定"
+          ],
+          "meta": [
+            "平均权重 2%",
+            "1个问题"
+          ],
+          "outline": [
+            {
+              "title": "低风险烟草产品",
+              "items": [
+                "烟草替代品与低风险产品"
+              ]
+            }
+          ],
+          "sourceNote": "官方中文版CSA方法学手册 + ESG Scores Methodology + MSA Methodology Guidebook + Measuring Sustainability Performance + CSA Weights",
+          "status": "题目名称与结构索引；详细问卷说明在本地工作台查看",
+          "officialUrl": "https://www.spglobal.com/esg/csa/"
+        }
+      ]
+    }
+  ]
+}

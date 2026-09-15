@@ -1,0 +1,5363 @@
+{
+  "id": "msci",
+  "title": "MSCI ESG评级方法论",
+  "titleEn": "MSCI ESG Ratings Methodology",
+  "eyebrow": "ESG评级方法论",
+  "accent": "#6d3fd1",
+  "description": "从评级框架、关键议题到行业权重，理解MSCI ESG评级的基本逻辑。",
+  "issuer": "MSCI Inc.",
+  "version": "1.4.0",
+  "updated": "2026-09-12",
+  "sourceNote": "依据MSCI官方英文方法论及流程资料整理，中文为辅助翻译；2026-09-11仅修正已核实错误与缺失内容，未完成全文逐条审校。总方法论参考March2026，模型历史参考June2026。",
+  "notice": "本页为个人整理的学习索引与摘要，不是MSCI官方产品，不提供或转载完整方法论原文。正式工作请以MSCI官网现行文件为准。",
+  "goals": [
+    "理解评级框架与关键议题层级",
+    "识别环境、社会和治理三大支柱",
+    "按行业和议题定位需要继续核对的官方资料"
+  ],
+  "process": [
+    {
+      "title": "获取ESG数据",
+      "titleEn": "Data Collection",
+      "description": "分析师评估33个关键议题的数千个数据点，公司报告+外部公共数据源"
+    },
+    {
+      "title": "实体选择与数据映射",
+      "titleEn": "Entity Selection & Mapping",
+      "description": "确定参考实体，映射ESG和财务特征，建立行业-公司数据关联"
+    },
+    {
+      "title": "持续更新与分析师审核",
+      "titleEn": "Ongoing Updates",
+      "description": "数据与评分持续更新，分析师定期审核"
+    },
+    {
+      "title": "质量保证",
+      "titleEn": "Quality Assurance",
+      "description": "质量审核流程，确保评级准确性与一致性"
+    },
+    {
+      "title": "与发行人沟通",
+      "titleEn": "Issuer Engagement",
+      "description": "向发行人披露评级方法、数据与初步结果，接收反馈"
+    },
+    {
+      "title": "覆盖变更与公司行动",
+      "titleEn": "Coverage Changes",
+      "description": "新增/移除覆盖公司、资产分拆、并购、GICS子行业分类变更、名称变更"
+    },
+    {
+      "title": "方法论治理",
+      "titleEn": "Methodology Governance",
+      "description": "方法论修订、年度磋商、特殊情况处理"
+    }
+  ],
+  "groups": [
+    {
+      "id": "msci-group-1",
+      "title": "环境支柱",
+      "titleEn": "Environmental Pillar",
+      "items": [
+        {
+          "id": "MSCI-ENV-01",
+          "title": "碳排放",
+          "titleEn": "Carbon Emissions",
+          "summary": "评估公司运营的碳强度及其管理气候相关风险与机遇的能力；适用性与权重取决于行业和公司风险敞口。",
+          "eyebrow": "气候变化",
+          "tags": [
+            "气候变化",
+            "风险类"
+          ],
+          "meta": [
+            "气候变化",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "碳排放关键议题得分",
+              "titleEn": "Carbon Emissions Key Issue score",
+              "items": []
+            },
+            {
+              "title": "碳排放管理框架",
+              "titleEn": "Carbon Emissions Management framework",
+              "items": []
+            },
+            {
+              "title": "碳排放管理得分",
+              "titleEn": "Carbon Emissions Management score",
+              "items": []
+            },
+            {
+              "title": "碳排放减缓得分",
+              "titleEn": "Carbon Emissions Mitigation score",
+              "items": []
+            },
+            {
+              "title": "• 使用更清洁的能源",
+              "titleEn": "• Use of cleaner sources of energy.",
+              "items": []
+            },
+            {
+              "title": "• 捕集温室气体排放的措施",
+              "titleEn": "• Efforts to capture GHG emissions.",
+              "items": []
+            },
+            {
+              "title": "• 能源消耗管理与运营效率",
+              "titleEn": "• Energy Consumption Management & Operational Efficiency",
+              "items": []
+            },
+            {
+              "title": "• 减少客户能源消耗的措施（需求侧管理）",
+              "titleEn": "• Efforts to reduce customer energy consumption (demand-side management)",
+              "items": []
+            },
+            {
+              "title": "• 其他减少碳排放的措施",
+              "titleEn": "• Other efforts to reduce carbon emissions.",
+              "items": []
+            },
+            {
+              "title": "碳排放目标得分",
+              "titleEn": "Carbon Emissions Targets score",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的全面性",
+              "titleEn": "• Carbon emissions target comprehensiveness",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的足迹覆盖率（%）",
+              "titleEn": "• Carbon emissions target footprint coverage (%)",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的相关范围得分",
+              "titleEn": "• Carbon emissions target relevant scope score",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的进展",
+              "titleEn": "• Carbon emissions target progress",
+              "items": []
+            },
+            {
+              "title": "• 进行中的碳排放目标进展",
+              "titleEn": "• Carbon emissions ongoing target progress",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的历史完成记录",
+              "titleEn": "• Carbon emissions target track record",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的验证",
+              "titleEn": "• Carbon emissions target verification",
+              "items": []
+            },
+            {
+              "title": "• 科学碳目标倡议（SBTi）长期目标状态",
+              "titleEn": "• SBTi long-term target status",
+              "items": []
+            },
+            {
+              "title": "• 科学碳目标倡议（SBTi）近期目标状态",
+              "titleEn": "• SBTi near-term target status",
+              "items": []
+            },
+            {
+              "title": "碳排放绩效得分",
+              "titleEn": "Carbon Emissions Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的碳排放绩效",
+              "titleEn": "• Carbon emissions performance relative to peers.",
+              "items": []
+            },
+            {
+              "title": "◦ 碳排放强度的行业相对得分",
+              "titleEn": "◦ Carbon emissions intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均碳排放强度（按销售额计算）",
+              "titleEn": "• Three-year average carbon emissions intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 三年平均碳排放强度（按产量计算）",
+              "titleEn": "• Three-year average carbon emissions intensity (production based)",
+              "items": []
+            },
+            {
+              "title": "◦ 碳排放强度的行业相对趋势得分",
+              "titleEn": "◦ Carbon emissions intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "三年平均碳排放强度同比变化趋势（按销售额计算）",
+              "titleEn": "Three-year average year-over-year carbon emissions intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "三年平均碳排放强度同比变化趋势（按产量计算）",
+              "titleEn": "Three-year average year-over-year carbon emissions intensity trend (production based)",
+              "items": []
+            },
+            {
+              "title": "碳排放敞口得分",
+              "titleEn": "Carbon Emissions Exposure score",
+              "items": []
+            },
+            {
+              "title": "其中：",
+              "titleEn": "Where:",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "其中",
+              "titleEn": "Where",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Carbon Emissions Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/carbon-emissions-key-issue.pdf",
+          "relationshipGroups": [
+            {
+              "parent": "碳排放减缓得分",
+              "description": "观察企业是否通过能源效率、清洁能源、碳捕集、需求侧管理等措施主动降低排放。",
+              "label": "由以下5项管理指标共同构成",
+              "children": [
+                {
+                  "title": "使用更清洁的能源",
+                  "description": "关注清洁能源替代及低碳能源使用。"
+                },
+                {
+                  "title": "捕集温室气体排放的措施",
+                  "description": "关注运营排放的捕集、利用或封存安排。"
+                },
+                {
+                  "title": "能源消耗管理与运营效率",
+                  "description": "关注能源管理制度与能效改善。"
+                },
+                {
+                  "title": "减少客户能源消耗的措施",
+                  "description": "关注面向客户的节能和需求响应项目。"
+                },
+                {
+                  "title": "其他减少碳排放的措施",
+                  "description": "关注上述类别之外的行业适用减排手段。"
+                }
+              ]
+            },
+            {
+              "parent": "碳排放目标得分",
+              "description": "观察减排目标是否覆盖关键排放、是否得到验证，以及目标执行的实际进展。",
+              "label": "由以下9项目标指标共同构成",
+              "children": [
+                {
+                  "title": "目标的全面性",
+                  "description": "判断目标范围、期限和覆盖面的完整程度。"
+                },
+                {
+                  "title": "排放足迹覆盖率",
+                  "description": "判断目标覆盖已报告排放的比例。"
+                },
+                {
+                  "title": "相关范围得分",
+                  "description": "判断目标是否覆盖具有财务重要性的排放范围。"
+                },
+                {
+                  "title": "目标进展",
+                  "description": "综合观察当前进度和历史兑现情况。"
+                },
+                {
+                  "title": "进行中的目标进展",
+                  "description": "观察当前目标是否按计划推进。"
+                },
+                {
+                  "title": "历史完成记录",
+                  "description": "观察过去目标的兑现情况。"
+                },
+                {
+                  "title": "目标验证",
+                  "description": "观察目标是否获得适用的独立验证。"
+                },
+                {
+                  "title": "SBTi长期目标状态",
+                  "description": "观察长期或净零目标在SBTi中的状态。"
+                },
+                {
+                  "title": "SBTi近期目标状态",
+                  "description": "观察近期减排目标在SBTi中的状态。"
+                }
+              ]
+            },
+            {
+              "parent": "碳排放绩效得分",
+              "description": "观察企业的排放强度及变化趋势相对于同行的表现。",
+              "label": "由以下7项绩效指标和数据点构成",
+              "children": [
+                {
+                  "title": "相对于同业的碳排放绩效",
+                  "description": "综合比较排放强度与趋势。"
+                },
+                {
+                  "title": "排放强度行业相对得分",
+                  "description": "比较归一化排放强度的同行位置。"
+                },
+                {
+                  "title": "按销售额计算的三年平均强度",
+                  "description": "以销售额归一化观察三年平均排放。"
+                },
+                {
+                  "title": "按产量计算的三年平均强度",
+                  "description": "以行业产量单位归一化观察排放。"
+                },
+                {
+                  "title": "排放强度行业相对趋势",
+                  "description": "比较三年平均同比变化趋势。"
+                },
+                {
+                  "title": "按销售额计算的同比趋势",
+                  "description": "观察销售额口径下的强度变化。"
+                },
+                {
+                  "title": "按产量计算的同比趋势",
+                  "description": "观察产量口径下的强度变化。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "MSCI-ENV-02",
+          "title": "产品碳足迹",
+          "titleEn": "Product Carbon Footprint",
+          "summary": "评估公司产品的全生命周期碳排放（含价值链上下游排放）及管理措施，适用于高排放制造业。",
+          "eyebrow": "气候变化",
+          "tags": [
+            "气候变化",
+            "风险类"
+          ],
+          "meta": [
+            "气候变化",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹关键议题得分",
+              "titleEn": "Product Carbon Footprint Key Issue score",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹管理框架",
+              "titleEn": "Product Carbon Footprint Management framework",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹管理得分",
+              "titleEn": "Product Carbon Footprint Management score",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹实践得分",
+              "titleEn": "Product Carbon Footprint Practices score",
+              "items": []
+            },
+            {
+              "title": "• 对供应商能源消耗和／或碳排放的评估",
+              "titleEn": "• Assessment of energy consumption and/or carbon emissions of suppliers",
+              "items": []
+            },
+            {
+              "title": "• 产品碳足迹评估的开展程度",
+              "titleEn": "• Extent of product carbon footprint assessments",
+              "items": []
+            },
+            {
+              "title": "• 减少范围3上游碳排放的目标",
+              "titleEn": "• Targets to reduce Scope 3 upstream carbon emissions",
+              "items": []
+            },
+            {
+              "title": "• 对配送及门店运营的能源消耗或碳排放的评估",
+              "titleEn": "• Energy consumption or carbon emissions assessment of distribution and store operations",
+              "items": []
+            },
+            {
+              "title": "• 对制造运营（包括供应商）的能源消耗或碳排放的评估",
+              "titleEn": "• Energy consumption or carbon emissions assessment of manufacturing operations (including suppliers",
+              "items": []
+            },
+            {
+              "title": "• 对原材料采购的能源消耗或碳排放的评估",
+              "titleEn": "• Energy consumption or carbon emissions assessment of raw materials sourcing",
+              "items": []
+            },
+            {
+              "title": "• 对运输及物流的能源消耗或碳排放的评估",
+              "titleEn": "• Energy consumption or carbon emissions assessment of transportation and logistics",
+              "items": []
+            },
+            {
+              "title": "• 配送中心或门店运营中降低能源消耗或碳排放项目的实施程度",
+              "titleEn": "• Extent of energy consumption or carbon emissions reduction programs in distribution centers or sto",
+              "items": []
+            },
+            {
+              "title": "• 制造运营（包括供应商）中降低能源消耗或碳排放项目的实施程度",
+              "titleEn": "• Extent of energy consumption or carbon emissions reduction programs in manufacturing operations (i",
+              "items": []
+            },
+            {
+              "title": "• 原材料采购中降低能源消耗或碳排放项目的实施程度",
+              "titleEn": "• Extent of energy consumption or carbon emissions reduction programs in raw materials sourcing",
+              "items": []
+            },
+            {
+              "title": "• 运输及物流中降低能源消耗或碳排放项目的实施程度",
+              "titleEn": "• Extent of energy consumption or carbon emissions reduction programs in transportation and logistic",
+              "items": []
+            },
+            {
+              "title": "对于汽车和摩托车制造业：",
+              "titleEn": "For the automobile and motorcycle manufacturing industry:",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹绩效得分",
+              "titleEn": "Product Carbon Footprint Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的车队尾气排放绩效",
+              "titleEn": "• Tailpipe fleet emission performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 产品碳足迹的行业相对得分",
+              "titleEn": "◦ Product Carbon Footprint industry relative score",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹目标得分",
+              "titleEn": "Product Carbon Footprint Targets score",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的全面性",
+              "titleEn": "• Carbon emissions target comprehensiveness",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的进展",
+              "titleEn": "• Carbon emissions target progress",
+              "items": []
+            },
+            {
+              "title": "• 碳排放目标的验证",
+              "titleEn": "• Carbon emissions target verification",
+              "items": []
+            },
+            {
+              "title": "产品碳足迹风险敞口得分",
+              "titleEn": "Product Carbon Footprint Exposure score",
+              "items": []
+            },
+            {
+              "title": "图表2：汽车和摩托车制造业以外所有行业的风险敞口得分组成部分",
+              "titleEn": "Exhibit 2: Exposure score components for all industries except the automobile and motorcycle manufac",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "对于汽车和摩托车制造业以外的行业：",
+              "titleEn": "For industries except automobile and motorcycle manufacturing industry:",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "对于汽车和摩托车制造业以外的行业：",
+              "titleEn": "For industries except automobile and motorcycle manufacturing industry:",
+              "items": []
+            },
+            {
+              "title": "对于汽车和摩托车制造业：",
+              "titleEn": "For the automobile and motorcycle manufacturing industry:",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "对于汽车和摩托车制造业：",
+              "titleEn": "For the automobile and motorcycle manufacturing industry:",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Product Carbon Footprint Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/product-carbon-footprint-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-03",
+          "title": "气候变化脆弱性",
+          "titleEn": "Climate Change Vulnerability",
+          "summary": "评估气候变化对保险资产或被保险个体可能构成的实体风险，主要适用于保险公司。",
+          "eyebrow": "气候变化",
+          "tags": [
+            "气候变化",
+            "风险类"
+          ],
+          "meta": [
+            "气候变化",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性关键议题得分",
+              "titleEn": "Climate Change Vulnerability Key Issue score",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性管理框架",
+              "titleEn": "Climate Change Vulnerability Management framework",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性管理得分",
+              "titleEn": "Climate Change Vulnerability Management score",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性实践得分",
+              "titleEn": "Climate Change Vulnerability Practices score",
+              "items": []
+            },
+            {
+              "title": "• 认识到气候变化的物理风险可能增加承保风险",
+              "titleEn": "• Recognition that physical risk of climate change may increase underwriting risks",
+              "items": []
+            },
+            {
+              "title": "• 量化物理风险对保险承保影响的研究或测算",
+              "titleEn": "• Research or exercise to quantify the impact of physical risk on insurance underwriting",
+              "items": []
+            },
+            {
+              "title": "• 使用气候变化模型的证据",
+              "titleEn": "• Evidence of using climate change models",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性绩效得分",
+              "titleEn": "Climate Change Vulnerability Performance score",
+              "items": []
+            },
+            {
+              "title": "• 基于综合成本率的承保绩效",
+              "titleEn": "• Underwriting performance based on combined ratio",
+              "items": []
+            },
+            {
+              "title": "气候变化脆弱性风险敞口得分",
+              "titleEn": "Climate Change Vulnerability Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Climate Change Vulnerability Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/climate-change-vulnerability-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-04",
+          "title": "影响环境的融资",
+          "titleEn": "Financing Environmental Impact",
+          "summary": "评估金融机构融资活动对环境的影响及其管理能力，适用于银行、多元化金融等。",
+          "eyebrow": "气候变化",
+          "tags": [
+            "气候变化",
+            "风险类"
+          ],
+          "meta": [
+            "气候变化",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资关键议题得分",
+              "titleEn": "Financing Environmental Impact Key Issue score",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资管理框架",
+              "titleEn": "Financing Environmental Impact Management framework",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资管理得分",
+              "titleEn": "Financing Environmental Impact Management score",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资管理体系得分",
+              "titleEn": "Financing Environmental Impact Systems score",
+              "items": []
+            },
+            {
+              "title": "• 评估融资活动中ESG风险的正式管理体系",
+              "titleEn": "• Formal management systems to assess ESG risks in financing activities",
+              "items": []
+            },
+            {
+              "title": "• 评估融资活动中ESG风险的管理体系覆盖范围",
+              "titleEn": "• Scope of management system to assess ESG risks in financing activities",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资整合得分",
+              "titleEn": "Financing Environmental Impact Integration score",
+              "items": []
+            },
+            {
+              "title": "• 集团信贷风险管理部门参与ESG尽职调查的情况",
+              "titleEn": "• Involvement of group credit risk in ESG due diligence",
+              "items": []
+            },
+            {
+              "title": "• 明确界定ESG尽职调查触发条件及风险升级报告流程",
+              "titleEn": "• ESG due diligence triggers and risk-escalation process clearly defined",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资监督得分",
+              "titleEn": "Financing Environmental Impact Oversight score",
+              "items": []
+            },
+            {
+              "title": "• 对融资活动中ESG风险管理的监督",
+              "titleEn": "• Oversight of ESG risk management in financing activities",
+              "items": []
+            },
+            {
+              "title": "• 开展气候相关风险分析",
+              "titleEn": "• Conducts climate-related risk analysis",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资政策得分",
+              "titleEn": "Financing Environmental Impact Policy score",
+              "items": []
+            },
+            {
+              "title": "• 环境信贷政策得分",
+              "titleEn": "• Environmental credit policy score",
+              "items": []
+            },
+            {
+              "title": "◦ 农业相关信贷政策",
+              "titleEn": "◦ Credit policy related to agriculture",
+              "items": []
+            },
+            {
+              "title": "◦ 电力公用事业相关信贷政策",
+              "titleEn": "◦ Credit policy related to power utilities",
+              "items": []
+            },
+            {
+              "title": "◦ 采矿相关信贷政策",
+              "titleEn": "◦ Credit policy related to mining",
+              "items": []
+            },
+            {
+              "title": "◦ 石油和天然气相关信贷政策",
+              "titleEn": "◦ Credit policy related to oil and gas",
+              "items": []
+            },
+            {
+              "title": "◦ 生物多样性相关信贷政策",
+              "titleEn": "◦ Credit policy related to biodiversity",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资机遇得分",
+              "titleEn": "Financing Environmental Impact Opportunities score",
+              "items": []
+            },
+            {
+              "title": "• 参与绿色融资和绿色证券的情况",
+              "titleEn": "• Involvement in green financing and securities",
+              "items": []
+            },
+            {
+              "title": "• 可持续发展相关金融产品开发",
+              "titleEn": "• Sustainability-related financial product development",
+              "items": []
+            },
+            {
+              "title": "担保债券发行人的处理方式",
+              "titleEn": "Treatment of covered bonds issuers",
+              "items": []
+            },
+            {
+              "title": "• 担保债券发行人的影响环境的融资实践得分",
+              "titleEn": "• Financing environmental impact practices score for covered bonds issuers",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "影响环境的融资风险敞口得分",
+              "titleEn": "Financing Environmental Impact Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Financing Environmental Impact Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/financing-environmental-impact-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-05",
+          "title": "水资源压力",
+          "titleEn": "Water Stress",
+          "summary": "评估公司运营的水强度、运营区域的水压力水平及管理能力。",
+          "eyebrow": "自然资本",
+          "tags": [
+            "自然资本",
+            "风险类"
+          ],
+          "meta": [
+            "自然资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "水资源压力关键议题得分",
+              "titleEn": "Water Stress Key Issue score",
+              "items": []
+            },
+            {
+              "title": "水资源压力管理框架",
+              "titleEn": "Water Stress Management framework",
+              "items": []
+            },
+            {
+              "title": "水资源压力管理得分",
+              "titleEn": "Water Stress Management score",
+              "items": []
+            },
+            {
+              "title": "水资源压力治理与战略得分",
+              "titleEn": "Water Stress Governance & Strategy score",
+              "items": []
+            },
+            {
+              "title": "• 使用替代水源",
+              "titleEn": "• Use of alternative water",
+              "items": []
+            },
+            {
+              "title": "◦ 使用替代水源的证据",
+              "titleEn": "◦ Evidence of using alternative water sources",
+              "items": []
+            },
+            {
+              "title": "• 自有运营节水项目的覆盖范围",
+              "titleEn": "• Scope of water reduction programs at own operations",
+              "items": []
+            },
+            {
+              "title": "• 减少价值链用水的项目",
+              "titleEn": "• Programs to reduce water use in value chains",
+              "items": []
+            },
+            {
+              "title": "• 水循环利用率得分",
+              "titleEn": "• Water recycling rate score",
+              "items": []
+            },
+            {
+              "title": "◦ 水循环利用率",
+              "titleEn": "◦ Water recycling rate",
+              "items": []
+            },
+            {
+              "title": "• 负责水资源管理战略及绩效的执行机构",
+              "titleEn": "• Executive body responsible for water management strategy and performance",
+              "items": []
+            },
+            {
+              "title": "◦ 首席执行官负责水资源管理战略及绩效",
+              "titleEn": "◦ CEO is responsible for water management strategy and performance",
+              "items": []
+            },
+            {
+              "title": "◦ 企业社会责任或可持续发展委员会负责水资源管理战略及绩效",
+              "titleEn": "◦ CSR or sustainability committee is responsible for water management strategy and performance",
+              "items": []
+            },
+            {
+              "title": "非高级管理层或非委员会层级的工作组负责水资源管理战略及绩效",
+              "titleEn": "Non-executive- or non-committee-level task force is responsible for water management strategy and pe",
+              "items": []
+            },
+            {
+              "title": "◦ 高级管理人员或执行委员会负责水资源管理战略及绩效",
+              "titleEn": "◦ Senior executive or executive committee is responsible for water management strategy and performan",
+              "items": []
+            },
+            {
+              "title": "水资源压力目标得分",
+              "titleEn": "Water Stress Targets score",
+              "items": []
+            },
+            {
+              "title": "• 水资源压力目标全面性",
+              "titleEn": "• Water stress target comprehensiveness",
+              "items": []
+            },
+            {
+              "title": "◦ 存在进行中的水资源压力目标的证据",
+              "titleEn": "◦ Evidence of ongoing Water Stress target",
+              "items": []
+            },
+            {
+              "title": "◦ 进行中的水资源压力目标范围",
+              "titleEn": "◦ Scope of ongoing Water Stress target",
+              "items": []
+            },
+            {
+              "title": "• 水资源压力目标进展",
+              "titleEn": "• Water stress target progress",
+              "items": []
+            },
+            {
+              "title": "◦ 进行中的水资源压力目标状态",
+              "titleEn": "◦ Status of ongoing Water Stress target",
+              "items": []
+            },
+            {
+              "title": "◦ 过往水资源压力目标状态",
+              "titleEn": "◦ Status of historical Water Stress target",
+              "items": []
+            },
+            {
+              "title": "水资源压力绩效得分",
+              "titleEn": "Water Stress Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的淡水消耗绩效",
+              "titleEn": "• Freshwater consumption performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 淡水消耗强度的行业相对得分",
+              "titleEn": "◦ Freshwater consumption intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均淡水消耗强度（按销售额计算）",
+              "titleEn": "• Three-year average freshwater consumption intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 三年平均产品耗水强度（按产品计算）",
+              "titleEn": "• Three-year average product water-consumption intensity (product based)",
+              "items": []
+            },
+            {
+              "title": "◦ 淡水消耗强度的行业相对趋势得分",
+              "titleEn": "◦ Freshwater consumption intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "淡水消耗强度同比变化趋势的三年平均值（按销售额计）",
+              "titleEn": "Three-year average year-over-year freshwater consumption intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的淡水取用绩效",
+              "titleEn": "• Freshwater withdrawal performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 淡水取水强度行业相对得分",
+              "titleEn": "◦ Freshwater withdrawal intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均淡水取水强度（按销售额计）",
+              "titleEn": "• Three-year average freshwater withdrawal intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 三年平均淡水取水强度（按产品计）",
+              "titleEn": "• Three-year average freshwater withdrawal intensity (product based)",
+              "items": []
+            },
+            {
+              "title": "◦ 淡水取水强度趋势行业相对得分",
+              "titleEn": "◦ Freshwater withdrawal intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "淡水取水强度同比变化趋势的三年平均值（按销售额计）",
+              "titleEn": "Three-year average year-over-year freshwater withdrawal intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "淡水取水强度同比变化趋势的三年平均值（按产品计）",
+              "titleEn": "Three-year average year-over-year freshwater withdrawal intensity trend (product based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的漏损水绩效",
+              "titleEn": "• Water leakage performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 水漏损率行业相对得分",
+              "titleEn": "◦ Water leakage industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均水漏损率",
+              "titleEn": "• Three-year average water-leakage rate",
+              "items": []
+            },
+            {
+              "title": "◦ 水漏损率趋势行业相对得分",
+              "titleEn": "◦ Water leakage industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 水漏损率同比变化趋势的三年平均值",
+              "titleEn": "• Three-year average year-over-year water leakage rate trend",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 水资源冲突争议。",
+              "titleEn": "• Water conflicts controversies.",
+              "items": []
+            },
+            {
+              "title": "水资源压力风险敞口得分",
+              "titleEn": "Water Stress Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "其中：",
+              "titleEn": "Where:",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Water Stress Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/water-stress-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-06",
+          "title": "生物多样性与土地利用",
+          "titleEn": "Biodiversity & Land Use",
+          "summary": "评估公司运营对生物多样性和土地的影响，包括破坏、修复承诺与绩效。",
+          "eyebrow": "自然资本",
+          "tags": [
+            "自然资本",
+            "风险类"
+          ],
+          "meta": [
+            "自然资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用关键议题得分",
+              "titleEn": "Biodiversity & Land Use Key Issue score",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用管理框架",
+              "titleEn": "Biodiversity & Land Use Management framework",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用管理得分",
+              "titleEn": "Biodiversity & Land Use Management score",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用政策与披露得分",
+              "titleEn": "Biodiversity & Land Use Policy & Disclosure score",
+              "items": []
+            },
+            {
+              "title": "• 尽量减少对生物多样性扰动的承诺",
+              "titleEn": "• Commitment to minimize disturbances on biodiversity",
+              "items": []
+            },
+            {
+              "title": "• 修复受扰动土地生境的承诺",
+              "titleEn": "• Commitment to reclaim habitat on disturbed land",
+              "items": []
+            },
+            {
+              "title": "• 生物多样性与土地复垦政策的覆盖范围",
+              "titleEn": "• Scope of biodiversity and land reclamation policy",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用计划与组织架构得分",
+              "titleEn": "Biodiversity & Land Use Programs & Structures score",
+              "items": []
+            },
+            {
+              "title": "• 生态系统保护计划的覆盖程度",
+              "titleEn": "• Extent of programs to protect ecosystems",
+              "items": []
+            },
+            {
+              "title": "• 开展生物多样性影响评估",
+              "titleEn": "• Conducts biodiversity impact assessments",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用绩效得分",
+              "titleEn": "Biodiversity & Land Use Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的溢油表现",
+              "titleEn": "• Oil spills performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 溢油强度行业相对得分",
+              "titleEn": "◦ Oil spill intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均溢油强度（按销售额计）",
+              "titleEn": "• Three-year average oil spill intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "◦ 溢油强度趋势行业相对得分",
+              "titleEn": "◦ Oil spill intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 溢油强度同比变化趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average year-over-year oil spill intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "生物多样性与土地利用风险敞口得分",
+              "titleEn": "Biodiversity & Land Use Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Biodiversity & Land Use Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/biodiversity-and-land-use-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-07",
+          "title": "原材料采购",
+          "titleEn": "Raw Material Sourcing",
+          "summary": "评估公司原材料采购的环境和社会风险，包括可持续采购政策与可追溯性。",
+          "eyebrow": "自然资本",
+          "tags": [
+            "自然资本",
+            "风险类"
+          ],
+          "meta": [
+            "自然资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "原材料采购关键议题得分",
+              "titleEn": "Raw Material Sourcing Key Issue score",
+              "items": []
+            },
+            {
+              "title": "原材料采购管理框架",
+              "titleEn": "Raw Material Sourcing Management framework",
+              "items": []
+            },
+            {
+              "title": "原材料采购管理得分",
+              "titleEn": "Raw Material Sourcing Management score",
+              "items": []
+            },
+            {
+              "title": "原材料采购牛肉与乳制品政策得分",
+              "titleEn": "Raw Material Sourcing Beef & Dairy Policy score",
+              "items": []
+            },
+            {
+              "title": "• 牛肉和／或乳制品按最严格可持续性准则认证的程度。",
+              "titleEn": "• Extent of beef and/or dairy certification against the most stringent sustainable criteria.",
+              "items": []
+            },
+            {
+              "title": "• 牛肉和／或乳制品追溯至原产地的程度",
+              "titleEn": "• Extent of beef and/or dairy traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对牛肉和／或乳制品生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of beef and/or dairy production.",
+              "items": []
+            },
+            {
+              "title": "• 牛肉和／或乳制品采购的未来目标",
+              "titleEn": "• Future targets for beef and/or dairy sourcing.",
+              "items": []
+            },
+            {
+              "title": "原材料采购棉花政策得分",
+              "titleEn": "Raw Material Sourcing Cotton Policy score",
+              "items": []
+            },
+            {
+              "title": "• 经第三方环境标准认证的棉花比例。",
+              "titleEn": "• Percentage of cotton third-party certified to an environmental standard.",
+              "items": []
+            },
+            {
+              "title": "• 棉花追溯至原产地的程度",
+              "titleEn": "• Extent of cotton traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对棉花生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of cotton production.",
+              "items": []
+            },
+            {
+              "title": "• 棉花采购的未来目标",
+              "titleEn": "• Future targets for cotton sourcing.",
+              "items": []
+            },
+            {
+              "title": "原材料采购皮革政策得分",
+              "titleEn": "Raw Material Sourcing Leather Policy score",
+              "items": []
+            },
+            {
+              "title": "• 负责任采购皮革的承诺",
+              "titleEn": "• Commitments towards responsible leather sourcing.",
+              "items": []
+            },
+            {
+              "title": "• 经第三方环境可持续性标准认证的皮革比例。",
+              "titleEn": "• Percentage of leather third-party certified to an environmental sustainability standard.",
+              "items": []
+            },
+            {
+              "title": "• 皮革按最严格可持续性准则认证的程度。",
+              "titleEn": "• Extent of leather certification against the most stringent sustainable criteria.",
+              "items": []
+            },
+            {
+              "title": "• 皮革追溯至原产地的程度",
+              "titleEn": "• Extent of leather traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对皮革生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of leather production.",
+              "items": []
+            },
+            {
+              "title": "• 皮革采购的未来目标",
+              "titleEn": "• Future targets for leather sourcing.",
+              "items": []
+            },
+            {
+              "title": "原材料采购棕榈油政策得分",
+              "titleEn": "Raw Material Sourcing Palm Oil Policy score",
+              "items": []
+            },
+            {
+              "title": "• 负责任采购棕榈油的承诺",
+              "titleEn": "• Commitments towards responsible palm oil sourcing.",
+              "items": []
+            },
+            {
+              "title": "• 经第三方环境可持续性标准认证的棕榈油比例。",
+              "titleEn": "• Percentage of palm oil third-party certified to an environmental sustainability standard.",
+              "items": []
+            },
+            {
+              "title": "• 棕榈油按最严格可持续性准则认证的程度。",
+              "titleEn": "• Extent of palm oil certification against the most stringent sustainable criteria.",
+              "items": []
+            },
+            {
+              "title": "• 棕榈油追溯至原产地的程度",
+              "titleEn": "• Extent of palm oil traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对棕榈油生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of palm oil production.",
+              "items": []
+            },
+            {
+              "title": "• 棕榈油采购的未来目标",
+              "titleEn": "• Future targets for palm oil sourcing.",
+              "items": []
+            },
+            {
+              "title": "原材料采购海产品政策得分",
+              "titleEn": "Raw Material Sourcing Seafood Policy score",
+              "items": []
+            },
+            {
+              "title": "• 负责任采购海产品的承诺",
+              "titleEn": "• Commitments towards responsible seafood sourcing.",
+              "items": []
+            },
+            {
+              "title": "• 经第三方环境可持续性标准认证的海产品比例。",
+              "titleEn": "• Percentage of seafood third-party certified to an environmental sustainability standard.",
+              "items": []
+            },
+            {
+              "title": "• 海产品按最严格可持续性准则认证的程度。",
+              "titleEn": "• Extent of seafood certification against the most stringent sustainable criteria.",
+              "items": []
+            },
+            {
+              "title": "• 海产品追溯至原产地的程度",
+              "titleEn": "• Extent of seafood traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对海产品生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of seafood production.",
+              "items": []
+            },
+            {
+              "title": "• 海产品采购的未来目标",
+              "titleEn": "• Future targets for seafood sourcing.",
+              "items": []
+            },
+            {
+              "title": "原材料采购木材政策得分",
+              "titleEn": "Raw Material Sourcing Timber Policy score",
+              "items": []
+            },
+            {
+              "title": "• 负责任采购木材和／或纸张的承诺",
+              "titleEn": "• Commitments towards responsible timber and/or paper sourcing.",
+              "items": []
+            },
+            {
+              "title": "• 木材按最严格可持续性准则认证的程度。",
+              "titleEn": "• Extent of timber certification against the most stringent sustainable criteria.",
+              "items": []
+            },
+            {
+              "title": "• 木材和／或纸张追溯至原产地的程度",
+              "titleEn": "• Extent of timber and/or paper traceability to place of origin.",
+              "items": []
+            },
+            {
+              "title": "• 应对木材和／或纸张生产影响的供应链举措覆盖程度。",
+              "titleEn": "• Extent of supply chain initiatives to address impacts of timber and/or paper production.",
+              "items": []
+            },
+            {
+              "title": "• 木材和／或纸张采购的未来目标",
+              "titleEn": "• Future targets for timber and/or paper sourcing.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "原材料采购风险敞口得分",
+              "titleEn": "Raw Material Sourcing Exposure score",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Raw Material Sourcing Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/raw-materials-sourcing-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-08",
+          "title": "有毒排放与废弃物",
+          "titleEn": "Toxic Emissions & Waste",
+          "summary": "评估公司有毒物质排放与废弃物管理绩效，包括减排计划与有害废弃物强度。",
+          "eyebrow": "污染与废弃物",
+          "tags": [
+            "污染与废弃物",
+            "风险类"
+          ],
+          "meta": [
+            "污染与废弃物",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物关键议题得分",
+              "titleEn": "Toxic Emissions & Waste Key Issue score",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物管理框架",
+              "titleEn": "Toxic Emissions & Waste Management framework",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物管理得分",
+              "titleEn": "Toxic Emissions & Waste Management score",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物治理与战略得分",
+              "titleEn": "Toxic Emissions & Waste Governance and Strategy score",
+              "items": []
+            },
+            {
+              "title": "• 环境影响审计的范围与频率",
+              "titleEn": "• Scope and frequency of environmental impact audits",
+              "items": []
+            },
+            {
+              "title": "◦ 开展环境影响审计的证据",
+              "titleEn": "o Evidence of environmental impact audits",
+              "items": []
+            },
+            {
+              "title": "◦ 审计覆盖全部运营地点的证据",
+              "titleEn": "◦ Evidence of audits across all locations of operations",
+              "items": []
+            },
+            {
+              "title": "◦ 每年开展环境影响审计的证据",
+              "titleEn": "◦ Evidence of annual environmental impact audits",
+              "items": []
+            },
+            {
+              "title": "• 是否建立环境管理体系",
+              "titleEn": "• Existence of environmental management system",
+              "items": []
+            },
+            {
+              "title": "• 减少供应链有毒排放计划的覆盖程度",
+              "titleEn": "• Extent of programs to reduce toxic emissions of supply chain",
+              "items": []
+            },
+            {
+              "title": "• 应对环境影响的政策覆盖范围",
+              "titleEn": "• Scope of policies to address environmental impacts",
+              "items": []
+            },
+            {
+              "title": "• 经认证环境体系得分",
+              "titleEn": "• Certified environmental system score",
+              "items": []
+            },
+            {
+              "title": "◦ 环境管理体系取得 ISO 14001 或危险废弃物作业与应急响应（HAZWOPER）认证的运营比例",
+              "titleEn": "◦ Percentage of operations with an environmental management system certified to ISO 14001 or HAZWOPE",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物目标得分",
+              "titleEn": "Toxic Emissions & Waste Targets score",
+              "items": []
+            },
+            {
+              "title": "• 有毒排放与废弃物目标全面性",
+              "titleEn": "• Toxic emissions & waste target comprehensiveness",
+              "items": []
+            },
+            {
+              "title": "◦ 存在进行中的有毒排放与废弃物目标的证据",
+              "titleEn": "◦ Evidence of ongoing Toxic Emissions & Waste target",
+              "items": []
+            },
+            {
+              "title": "◦ 进行中的有毒排放与废弃物目标范围",
+              "titleEn": "◦ Scope of ongoing Toxic Emissions & Waste target",
+              "items": []
+            },
+            {
+              "title": "• 有毒排放与废弃物目标进展",
+              "titleEn": "• Toxic emissions & waste target progress",
+              "items": []
+            },
+            {
+              "title": "◦ 进行中的有毒排放与废弃物目标状态",
+              "titleEn": "◦ Status of ongoing Toxic Emissions & Waste target",
+              "items": []
+            },
+            {
+              "title": "◦ 过往有毒排放与废弃物目标状态",
+              "titleEn": "◦ Status of historical Toxic Emissions & Waste target",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物绩效得分",
+              "titleEn": "Toxic Emissions & Waste Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的氮氧化物排放表现",
+              "titleEn": "• NOx emissions performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 氮氧化物排放强度行业相对得分",
+              "titleEn": "◦ NOx emissions intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均氮氧化物排放强度（按销售额计）",
+              "titleEn": "• Three-year average NOx emissions intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 三年平均氮氧化物排放强度（按产量计）",
+              "titleEn": "• Three-year average NOx emissions intensity (production based)",
+              "items": []
+            },
+            {
+              "title": "◦ 氮氧化物排放强度趋势行业相对得分",
+              "titleEn": "◦ NOx emissions intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 氮氧化物排放强度趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average NOx emissions intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 氮氧化物排放强度趋势的三年平均值（按产量计）",
+              "titleEn": "• Three-year average NOx emissions intensity trend (production based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的硫氧化物排放表现",
+              "titleEn": "• SOx emissions performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 硫氧化物排放强度行业相对得分",
+              "titleEn": "◦ SOx emissions intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均硫氧化物排放强度（按销售额计）",
+              "titleEn": "• Three-year average SOx emissions intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 三年平均硫氧化物排放强度（按产量计）",
+              "titleEn": "• Three-year average SOx emissions intensity (production based)",
+              "items": []
+            },
+            {
+              "title": "◦ 硫氧化物排放强度趋势行业相对得分",
+              "titleEn": "◦ SOx emissions intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 硫氧化物排放强度趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average SOx emissions intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 硫氧化物排放强度趋势的三年平均值（按产量计）",
+              "titleEn": "• Three-year average SOx emissions intensity trend (production based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的挥发性有机物排放表现",
+              "titleEn": "• VOC emissions performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 挥发性有机物排放强度行业相对得分",
+              "titleEn": "◦ VOC emissions intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均挥发性有机物排放强度（按销售额计）",
+              "titleEn": "• Three-year average VOC emissions intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "◦ 挥发性有机物排放强度趋势行业相对得分（按销售额计）",
+              "titleEn": "◦ VOC emissions intensity (sales based) industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 挥发性有机物排放强度趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average VOC emissions intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的颗粒物排放表现",
+              "titleEn": "• Particulate matter emissions performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 颗粒物排放强度行业相对得分",
+              "titleEn": "◦ Particulate matter emissions intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均颗粒物排放强度（按销售额计）",
+              "titleEn": "• Three-year average particulate matter emissions intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "◦ 颗粒物排放强度趋势行业相对得分",
+              "titleEn": "◦ Particulate matter emissions intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 颗粒物排放强度趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average particulate matter emissions intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的危险废弃物表现",
+              "titleEn": "• Hazardous waste performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 危险废弃物强度行业相对得分",
+              "titleEn": "◦ Hazardous waste intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均危险废弃物强度（按销售额计）",
+              "titleEn": "• Three-year average hazardous waste intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "◦ 危险废弃物强度趋势行业相对得分",
+              "titleEn": "◦ Hazardous waste intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 危险废弃物强度趋势的三年平均值（按销售额计）",
+              "titleEn": "• Three-year average hazardous waste intensity trend (sales based)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的无害废弃物表现",
+              "titleEn": "• Non-hazardous waste performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 无害废弃物强度行业相对得分",
+              "titleEn": "◦ Non-hazardous waste intensity industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均无害废弃物强度（按销售额计）",
+              "titleEn": "• Three-year average non-hazardous waste intensity (sales based)",
+              "items": []
+            },
+            {
+              "title": "◦ 无害废弃物强度趋势行业相对得分",
+              "titleEn": "◦ Non-hazardous waste intensity industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "有毒排放与废弃物风险敞口得分",
+              "titleEn": "Toxic Emissions & Waste Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Toxic Emissions & Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/toxic-emissions-and-waste-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-09",
+          "title": "包装材料与废弃物",
+          "titleEn": "Packaging Material & Waste",
+          "summary": "评估公司包装减量化、可回收材料使用及包装废弃物管理绩效。",
+          "eyebrow": "污染与废弃物",
+          "tags": [
+            "污染与废弃物",
+            "风险类"
+          ],
+          "meta": [
+            "污染与废弃物",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物关键议题得分",
+              "titleEn": "Packaging Material & Waste Key Issue score",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物管理框架",
+              "titleEn": "Packaging Material & Waste Management framework",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物管理得分",
+              "titleEn": "Packaging Material & Waste Management score",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物实践得分",
+              "titleEn": "Packaging Material & Waste Practices score",
+              "items": []
+            },
+            {
+              "title": "• 包装材料构成披露",
+              "titleEn": "• Disclosure of packaging material mix",
+              "items": []
+            },
+            {
+              "title": "• 面向消费者的减废计划覆盖范围",
+              "titleEn": "• Scope of consumer programs to reduce waste",
+              "items": []
+            },
+            {
+              "title": "• 减少包装环境影响的战略",
+              "titleEn": "• Strategy to reduce the environmental impact of packaging",
+              "items": []
+            },
+            {
+              "title": "• 包装成分相关目标",
+              "titleEn": "• Targets related to packaging content",
+              "items": []
+            },
+            {
+              "title": "◦ 提高包装再生材料含量目标的覆盖范围",
+              "titleEn": "◦ Scope of targets to increase recycled material content of packaging",
+              "items": []
+            },
+            {
+              "title": "◦ 提高包装再生或可再生材料含量的目标",
+              "titleEn": "◦ Targets to increase recycled or renewable material content of packaging",
+              "items": []
+            },
+            {
+              "title": "• 包装材料循环利用或废弃物消除相关目标",
+              "titleEn": "• Targets related to packaging material circularity or waste elimination",
+              "items": []
+            },
+            {
+              "title": "◦ 包装材料循环利用或废弃物消除目标的覆盖范围",
+              "titleEn": "◦ Scope of targets for packaging material circularity or waste elimination",
+              "items": []
+            },
+            {
+              "title": "◦ 包装材料循环利用或废弃物消除目标",
+              "titleEn": "◦ Targets for packaging material circularity or waste elimination",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物绩效得分",
+              "titleEn": "Packaging Material & Waste Performance score",
+              "items": []
+            },
+            {
+              "title": "• 包装环境改善的覆盖范围",
+              "titleEn": "• Scope of environmental improvements in packaging",
+              "items": []
+            },
+            {
+              "title": "• 产品或包装回收的覆盖范围",
+              "titleEn": "• Scope of product or packaging recovery",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 包装废弃物争议。",
+              "titleEn": "• Packaging waste controversies.",
+              "items": []
+            },
+            {
+              "title": "包装材料与废弃物风险敞口得分",
+              "titleEn": "Packaging Material & Waste Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Packaging Material & Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/packaging-material-and-waste-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-10",
+          "title": "电子废弃物",
+          "titleEn": "Electronic Waste",
+          "summary": "评估公司电子废弃物回收与处理管理，适用于电子制造、IT设备相关行业。",
+          "eyebrow": "污染与废弃物",
+          "tags": [
+            "污染与废弃物",
+            "风险类"
+          ],
+          "meta": [
+            "污染与废弃物",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "电子废弃物关键议题得分",
+              "titleEn": "Electronic Waste Key Issue score",
+              "items": []
+            },
+            {
+              "title": "电子废弃物管理框架",
+              "titleEn": "Electronic Waste Management framework",
+              "items": []
+            },
+            {
+              "title": "电子废弃物管理得分",
+              "titleEn": "Electronic Waste Management score",
+              "items": []
+            },
+            {
+              "title": "电子废弃物实践得分",
+              "titleEn": "Electronic Waste Practices score",
+              "items": []
+            },
+            {
+              "title": "• 电子废弃物回收计划的产品类型覆盖范围",
+              "titleEn": "• Scope of the electronic waste take-back program by product type",
+              "items": []
+            },
+            {
+              "title": "• 电子废弃物回收计划的地域覆盖范围",
+              "titleEn": "• Scope of the electronic waste take-back program by location",
+              "items": []
+            },
+            {
+              "title": "• 电子废弃物回收计划的覆盖范围",
+              "titleEn": "• Scope of electronic waste take-back programs",
+              "items": []
+            },
+            {
+              "title": "◦ 电子废弃物回收计划包含报废产品送交渠道",
+              "titleEn": "◦ Electronic waste take-back programs include drop-off of end-of-life products",
+              "items": []
+            },
+            {
+              "title": "◦ 电子废弃物回收计划包含报废产品上门收取渠道",
+              "titleEn": "◦ Electronic waste take-back programs include pick-up of end-of-life products",
+              "items": []
+            },
+            {
+              "title": "◦ 存在电子废弃物回收计划但未提供详情",
+              "titleEn": "◦ Electronic waste take-back program exists but no details given",
+              "items": []
+            },
+            {
+              "title": "• 对收集的电子产品进行再循环处理的设施",
+              "titleEn": "• Facilities that handle recycling of collected electronics",
+              "items": []
+            },
+            {
+              "title": "◦ 公司自行运营的电子废弃物再循环设施",
+              "titleEn": "◦ Company-operated electronic waste recycling facilities",
+              "items": []
+            },
+            {
+              "title": "◦ 参与电子废弃物再循环计划",
+              "titleEn": "◦ Participation in electronic waste recycling programs",
+              "items": []
+            },
+            {
+              "title": "◦ 服务商运营的电子废弃物再循环设施",
+              "titleEn": "◦ Vendor-operated electronic waste recycling facilities",
+              "items": []
+            },
+            {
+              "title": "◦ 未具体说明的电子废弃物再循环活动",
+              "titleEn": "◦ Unspecified electronic waste recycling activities",
+              "items": []
+            },
+            {
+              "title": "• 明确禁止向非经合组织国家出口电子废弃物",
+              "titleEn": "• Explicit ban on electronic waste exports to non-OECD countries",
+              "items": []
+            },
+            {
+              "title": "电子废弃物绩效得分",
+              "titleEn": "Electronic Waste Performance score",
+              "items": []
+            },
+            {
+              "title": "• 报废电子废弃物再循环利用",
+              "titleEn": "• End of life electronic waste recycling",
+              "items": []
+            },
+            {
+              "title": "◦ 电子废弃物再循环比例——公司报告值",
+              "titleEn": "◦ Percentage of electronic waste recycled – Reported",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 电子废弃物争议事件。",
+              "titleEn": "• Electronic waste controversies.",
+              "items": []
+            },
+            {
+              "title": "电子废弃物风险敞口得分",
+              "titleEn": "Electronic Waste Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Electronic Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/electronic-waste-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-11",
+          "title": "清洁技术机遇",
+          "titleEn": "Opportunities in Clean Tech",
+          "summary": "评估公司通过清洁技术满足市场需求的能力，包括专利、研发与收入占比。",
+          "eyebrow": "环境机遇",
+          "tags": [
+            "环境机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "环境机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇关键议题得分",
+              "titleEn": "Opportunities in Clean Tech Key Issue score",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇管理框架",
+              "titleEn": "Opportunities in Clean Tech Management framework",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇管理得分",
+              "titleEn": "Opportunities in Clean Tech Management score",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇战略得分",
+              "titleEn": "Opportunities in Clean Tech Strategy score",
+              "items": []
+            },
+            {
+              "title": "• 增加清洁技术投资的目标",
+              "titleEn": "• Targets to increase investment in clean tech",
+              "items": []
+            },
+            {
+              "title": "• 对清洁技术开发的战略重视程度",
+              "titleEn": "• Strategic focus on clean technology development",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇项目与举措得分",
+              "titleEn": "Opportunities in Clean Tech Programs & Initiatives score",
+              "items": []
+            },
+            {
+              "title": "◦ 研发强度行业相对得分（占销售额的百分比）",
+              "titleEn": "◦ R&D intensity(% of sales) industry relative score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均研发强度（占销售额的百分比）",
+              "titleEn": "• Three-year average R&D intensity(% of sales)",
+              "items": []
+            },
+            {
+              "title": "◦ 研发强度趋势行业相对得分（占销售额的百分比）",
+              "titleEn": "◦ R&D intensity (% of sales) industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 研发强度趋势的三年平均值（占销售额的百分比）",
+              "titleEn": "• Three-year average R&D intensity trend (% of sales)",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇绩效得分",
+              "titleEn": "Opportunities in Clean Tech Performance score",
+              "items": []
+            },
+            {
+              "title": "• 清洁技术收入得分",
+              "titleEn": "• Clean tech revenue score",
+              "items": []
+            },
+            {
+              "title": "清洁技术机遇风险敞口得分",
+              "titleEn": "Opportunities in Clean Tech Exposure score",
+              "items": []
+            },
+            {
+              "title": "图表2：敞口得分组成部分",
+              "titleEn": "Exhibit 2: Exposure score components",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Opportunities in Clean Tech Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-clean-tech-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-12",
+          "title": "绿色建筑机遇",
+          "titleEn": "Opportunities in Green Building",
+          "summary": "评估公司在绿色建筑领域的认证、能效解决方案与可持续材料应用。",
+          "eyebrow": "环境机遇",
+          "tags": [
+            "环境机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "环境机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇关键议题得分",
+              "titleEn": "Opportunities in Green Building Key Issue score",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇管理框架",
+              "titleEn": "Opportunities in Green Building Management framework",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇管理得分",
+              "titleEn": "Opportunities in Green Building Management score",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇实践得分",
+              "titleEn": "Opportunities in Green Building Practices score",
+              "items": []
+            },
+            {
+              "title": "• 物业组合或待开发项目中绿色建筑认证承诺的覆盖程度",
+              "titleEn": "• Extent of green building certification commitments in portfolio or development pipeline",
+              "items": []
+            },
+            {
+              "title": "• 改善或维持物业环境表现的商业安排覆盖程度",
+              "titleEn": "• Extent of commercial arrangements to improve or maintain property environmental performance",
+              "items": []
+            },
+            {
+              "title": "• 使用绿色租约或三重净租约",
+              "titleEn": "• Use of green or triple-net leases",
+              "items": []
+            },
+            {
+              "title": "• 新建项目的绿色认证承诺",
+              "titleEn": "• Green certification commitments related to greenfield developments",
+              "items": []
+            },
+            {
+              "title": "• 物业组合中灵活使用或混合用途物业的证据",
+              "titleEn": "• Evidence of flexible or mixed-use properties in portfolio",
+              "items": []
+            },
+            {
+              "title": "• 城市更新开发项目的证据",
+              "titleEn": "• Evidence of urban revitalization developments",
+              "items": []
+            },
+            {
+              "title": "• 绿色建筑承诺覆盖物业组合中的现有建筑（除新建筑之外）",
+              "titleEn": "• Green building commitment extends to existing buildings in portfolio (in addition to new buildings",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇绩效得分",
+              "titleEn": "Opportunities in Green Building Performance score",
+              "items": []
+            },
+            {
+              "title": "• 绿色建筑认证得分",
+              "titleEn": "• Green building certification score",
+              "items": []
+            },
+            {
+              "title": "◦ 绿色认证建筑占建筑总量比例得分",
+              "titleEn": "◦ Score of green certified buildings as % of total",
+              "items": []
+            },
+            {
+              "title": "◦ 绿色认证面积占总面积比例得分",
+              "titleEn": "◦ Score of green certified space as % of total",
+              "items": []
+            },
+            {
+              "title": "◦ 房地产组合中绿色认证建筑的证据",
+              "titleEn": "◦ Evidence of green certified buildings in real estate portfolio",
+              "items": []
+            },
+            {
+              "title": "• 相对于同业的碳排放绩效",
+              "titleEn": "• Carbon emissions performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "绿色建筑机遇风险敞口得分",
+              "titleEn": "Opportunities in Green Building Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Opportunities in Green Building Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-green-building-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-ENV-13",
+          "title": "可再生能源机遇",
+          "titleEn": "Opportunities in Renewable Energy",
+          "summary": "评估公司在可再生能源领域的装机容量、发电量占比与技术研发。",
+          "eyebrow": "环境机遇",
+          "tags": [
+            "环境机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "环境机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇关键议题得分",
+              "titleEn": "Opportunities in Renewable Energy Key Issue score",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇管理框架",
+              "titleEn": "Opportunities in Renewable Energy Management Framework",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇管理得分",
+              "titleEn": "Opportunities in Renewable Energy Management score",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇战略得分",
+              "titleEn": "Opportunities in Renewable Energy Strategy score",
+              "items": []
+            },
+            {
+              "title": "• 增加可再生能源装机容量的目标",
+              "titleEn": "• Targets to increase renewable capacity",
+              "items": []
+            },
+            {
+              "title": "• 开发可再生能源装机容量的内部组织架构",
+              "titleEn": "• Internal structures to develop renewable capacity",
+              "items": []
+            },
+            {
+              "title": "• 增加可再生电力并网的投资",
+              "titleEn": "• Investments to increase connection of renewable power to electric grid",
+              "items": []
+            },
+            {
+              "title": "• 计划新增可再生能源发电量相对于当前总装机容量的得分",
+              "titleEn": "• Score of planned additional renewable electricity generation relative to current total capacity",
+              "items": []
+            },
+            {
+              "title": "◦ 当前总装机容量（兆瓦）",
+              "titleEn": "◦ Current Total Installed Capacity (MW)",
+              "items": []
+            },
+            {
+              "title": "◦ 新增可再生能源装机容量（兆瓦）",
+              "titleEn": "◦ Additional renewable capacity (MW)",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇项目与举措得分",
+              "titleEn": "Opportunities in Renewable Energy Programs & Initiatives score",
+              "items": []
+            },
+            {
+              "title": "• 可再生能源发电设备商业化",
+              "titleEn": "• Commercializes renewable power equipment",
+              "items": []
+            },
+            {
+              "title": "• 向客户提供绿色电力选项",
+              "titleEn": "• Offers customers a green power option",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇绩效得分",
+              "titleEn": "Opportunities in Renewable Energy Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的可再生能源装机容量表现",
+              "titleEn": "• Renewable power capacity performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "◦ 可再生能源装机容量得分（占总装机容量的百分比）",
+              "titleEn": "◦ Renewable power capacity (% of total installed capacity) score",
+              "items": []
+            },
+            {
+              "title": "• 三年平均可再生能源装机容量（占总装机容量的百分比）",
+              "titleEn": "• Three-year average renewable power capacity (% of total installed capacity)",
+              "items": []
+            },
+            {
+              "title": "◦ 可再生能源装机容量趋势行业相对得分（占总装机容量的百分比）",
+              "titleEn": "◦ Renewable power capacity (% of total installed capacity) industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 可再生能源装机容量趋势的三年平均值（占总装机容量的百分比）",
+              "titleEn": "• Three-year average renewable power capacity trend (% of total installed capacity)",
+              "items": []
+            },
+            {
+              "title": "可再生能源机遇风险敞口得分",
+              "titleEn": "Opportunities in Renewable Energy Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Opportunities in Renewable Energy Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-renewable-energy-key-issue.pdf"
+        }
+      ]
+    },
+    {
+      "id": "msci-group-2",
+      "title": "治理支柱",
+      "titleEn": "Governance Pillar",
+      "items": [
+        {
+          "id": "MSCI-GOV-01",
+          "title": "会计",
+          "titleEn": "Accounting",
+          "summary": "评估公司外部审计机构任命、审计报告发现及会计事件的潜在会计风险。",
+          "eyebrow": "公司治理",
+          "tags": [
+            "公司治理",
+            "治理类"
+          ],
+          "meta": [
+            "公司治理",
+            "治理类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "会计关键议题得分",
+              "titleEn": "Accounting Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "会计调查关键指标——定义",
+              "titleEn": "Accounting Investigations Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "审计报告疑虑关键指标——定义",
+              "titleEn": "Auditor Report Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "内部控制关键指标——定义",
+              "titleEn": "Internal Controls Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "财务重述或特别费用关键指标——定义",
+              "titleEn": "Restatements or Special Charges Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "延迟申报关键指标——定义",
+              "titleEn": "Late Filings Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计师独立性关键指标——定义",
+              "titleEn": "Auditor Independence Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "若是，则作出标记。",
+              "titleEn": "Flagged if yes.",
+              "items": []
+            },
+            {
+              "title": "审计师任期关键指标——定义",
+              "titleEn": "Auditor Tenure Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "修订历史",
+              "titleEn": "Revision History",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Accounting Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/accounting-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-GOV-02",
+          "title": "董事会",
+          "titleEn": "Board",
+          "summary": "评估公司董事会独立性、多元性、监督能力与运作质量。",
+          "eyebrow": "公司治理",
+          "tags": [
+            "公司治理",
+            "治理类"
+          ],
+          "meta": [
+            "公司治理",
+            "治理类",
+            "资料版本：June 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "董事会关键议题得分",
+              "titleEn": "Board Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "独立董事长关键指标——定义",
+              "titleEn": "Independent Chair Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官兼任董事长关键指标——定义",
+              "titleEn": "Combined CEO/Chair Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "领导层疑虑关键指标——定义",
+              "titleEn": "Leadership Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事长不独立且无独立首席董事关键指标——定义",
+              "titleEn": "Chair Not Independent & No Independent Lead Director Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会多数成员独立于管理层关键指标——定义",
+              "titleEn": "Board Majority Independent of Management Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会多数成员独立于其他利益关键指标——定义",
+              "titleEn": "Board Majority Independent of Other Interest Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会中的高管关键指标——定义",
+              "titleEn": "Executives on Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "无独立董事关键指标——定义",
+              "titleEn": "No Independent Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "关联方交易关键指标——定义",
+              "titleEn": "Related-Party Transactions Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会中的被标记董事关键指标——定义",
+              "titleEn": "Flagged Directors on Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "非执行董事过度兼任关键指标——定义",
+              "titleEn": "Overboarded Non-Exec Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "执行董事过度兼任关键指标——定义",
+              "titleEn": "Overboarded Exec Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事遭显著反对票关键指标——定义",
+              "titleEn": "Significant Votes Against Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "若是，则作出标记。",
+              "titleEn": "Flagged if yes.",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "董事会规模过大关键指标——定义",
+              "titleEn": "Oversized Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会规模过小关键指标——定义",
+              "titleEn": "Undersized Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事出席不足关键指标——定义",
+              "titleEn": "Board Attendance Failures Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "董事会固化关键指标——定义",
+              "titleEn": "Entrenched Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事会中的其他公司首席执行官关键指标——定义",
+              "titleEn": "CEOs on Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "无女性董事关键指标——定义",
+              "titleEn": "No Female Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "女性董事不足 30% 关键指标——定义",
+              "titleEn": "Not 30% Female Directors Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "风险管理专长关键指标——定义",
+              "titleEn": "Risk Management Expertise Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计委员会／审计监督机构独立性关键指标——定义",
+              "titleEn": "Audit Board/Committee Independence Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计委员会／审计监督机构中的高管关键指标——定义",
+              "titleEn": "Executives on Audit Board/Committee Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计委员会财务专家关键指标——定义",
+              "titleEn": "Audit Committee Financial Expert Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计委员会行业专家关键指标——定义",
+              "titleEn": "Audit Committee Industry Expert Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "审计委员会成员过度兼任关键指标——定义",
+              "titleEn": "Overboarded Audit Committee Members Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬委员会独立性关键指标——定义",
+              "titleEn": "Pay Committee Independence Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬委员会中的高管关键指标——定义",
+              "titleEn": "Executives on Pay Committee Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "未设薪酬委员会且高管进入董事会关键指标——定义",
+              "titleEn": "No Pay Committee & Execs on Board Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬委员会疑虑关键指标——定义",
+              "titleEn": "Pay Committee Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "未设提名委员会关键指标——定义",
+              "titleEn": "No Nomination Committee Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "提名委员会主席独立性关键指标——定义",
+              "titleEn": "Nomination Committee Chair Independence Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "提名委员会独立性关键指标——定义",
+              "titleEn": "Nomination Committee Independence Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "破产或清算关键指标——定义",
+              "titleEn": "Bankruptcy or Liquidation Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "债务契约疑虑关键指标——定义",
+              "titleEn": "Debt Covenant Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "融资困难关键指标——定义",
+              "titleEn": "Financing Difficulties Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "资本管理疑虑关键指标——定义",
+              "titleEn": "Capital Management Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "证券违规关键指标——定义",
+              "titleEn": "Securities Violations Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "退市威胁关键指标——定义",
+              "titleEn": "Threat of Delisting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "高管不当行为关键指标——定义",
+              "titleEn": "Executive Misconduct Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "其他高影响治理事件关键指标——定义",
+              "titleEn": "Other High-Impact Governance Events Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "独立性",
+              "titleEn": "Independence",
+              "items": []
+            },
+            {
+              "title": "独立于管理层",
+              "titleEn": "Independent of Management",
+              "items": []
+            },
+            {
+              "title": "独立于其他利益",
+              "titleEn": "Independent of Other Interests",
+              "items": []
+            },
+            {
+              "title": "董事会任职",
+              "titleEn": "Board Positions",
+              "items": []
+            },
+            {
+              "title": "被标记董事",
+              "titleEn": "Flagged Directors",
+              "items": []
+            },
+            {
+              "title": "专业经验",
+              "titleEn": "Expertise",
+              "items": []
+            },
+            {
+              "title": "关联方交易",
+              "titleEn": "Related-Party Transactions",
+              "items": []
+            },
+            {
+              "title": "模型更新历史",
+              "titleEn": "Model Update History",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Board Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/board-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-GOV-03",
+          "title": "商业道德",
+          "titleEn": "Business Ethics",
+          "summary": "评估公司反腐败、反贿赂、举报机制与商业道德管理体系。",
+          "eyebrow": "企业行为",
+          "tags": [
+            "企业行为",
+            "治理类"
+          ],
+          "meta": [
+            "企业行为",
+            "治理类",
+            "资料版本：June 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "商业道德关键议题得分",
+              "titleEn": "Business Ethics Key Issue score",
+              "items": []
+            },
+            {
+              "title": "道德问题监督关键指标——定义",
+              "titleEn": "Oversight of Ethics Issues Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "反贿赂与反腐败政策关键指标——定义",
+              "titleEn": "Bribery and Anti-corruption Policy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "供应商反腐败政策关键指标——定义",
+              "titleEn": "Anti-Corruption Policy for Suppliers Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "举报人保护关键指标——定义",
+              "titleEn": "Whistleblower Protection Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "员工道德标准培训关键指标——定义",
+              "titleEn": "Employee Training on Ethical Standards Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "定期道德标准审计关键指标——定义",
+              "titleEn": "Regular Audits of Ethical Standards Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "反洗钱政策关键指标——定义",
+              "titleEn": "Anti-Money Laundering (AML) Policy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "腐败风险敞口与争议关键指标——定义",
+              "titleEn": "Corruption Risk Exposure & Controversies Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "商业道德争议关键指标——定义",
+              "titleEn": "Business Ethics Controversies Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "腐败风险敞口扣分对照表",
+              "titleEn": "Corruption Risk Exposure deduction key",
+              "items": []
+            },
+            {
+              "title": "企业行为争议扣分对照表",
+              "titleEn": "Corporate Behavior controversy deduction key",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Business Ethics Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/business-ethics-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-GOV-04",
+          "title": "所有权与控制权",
+          "titleEn": "Ownership & Control",
+          "summary": "评估公司股权结构、控制权安排及中小股东保护机制。",
+          "eyebrow": "公司治理",
+          "tags": [
+            "公司治理",
+            "治理类"
+          ],
+          "meta": [
+            "公司治理",
+            "治理类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "所有权与控制权关键议题得分",
+              "titleEn": "Ownership & Control Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "控股股东关键指标——定义",
+              "titleEn": "Controlling Shareholder Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "控股股东疑虑关键指标——定义",
+              "titleEn": "Controlling Shareholder Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "所有权分散疑虑关键指标——定义",
+              "titleEn": "Dispersed Ownership Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "交叉持股关键指标——定义",
+              "titleEn": "Cross-Shareholdings Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "追踪股票关键指标——定义",
+              "titleEn": "Tracking Stock Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "可变利益实体关键指标——定义",
+              "titleEn": "Variable Interest Entities Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "类别：一股一票",
+              "titleEn": "Category: One Share, One Vote",
+              "items": []
+            },
+            {
+              "title": "不同投票权的多类别股份关键指标——定义",
+              "titleEn": "Multiple Equity Classes with Different Voting Rights Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "若是，则作出标记。",
+              "titleEn": "Flagged if yes.",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "同一股份类别不同投票权关键指标——定义",
+              "titleEn": "Single Equity Class with Different Voting Rights Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "按持股数量限制投票权关键指标——定义",
+              "titleEn": "Voting Rights Limits Shares Held Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "按居民身份限制投票权关键指标——定义",
+              "titleEn": "Voting Rights Limits Residency Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "政府干预疑虑关键指标——定义",
+              "titleEn": "Government Intervention Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "类别：控制机制",
+              "titleEn": "Category: Control Mechanisms",
+              "items": []
+            },
+            {
+              "title": "毒丸计划关键指标——定义",
+              "titleEn": "Poison Pill Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "章程细则修订关键指标——定义",
+              "titleEn": "Bylaws Amendments Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "股东召集会议权关键指标——定义",
+              "titleEn": "Shareholder Rights to Convene Meeting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "股东权利疑虑关键指标——定义",
+              "titleEn": "Shareholder Rights Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬表决政策关键指标——定义",
+              "titleEn": "Say-on-Pay Policy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "保密投票关键指标——定义",
+              "titleEn": "Confidential Voting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "若是，则作出标记。",
+              "titleEn": "Flagged if yes.",
+              "items": []
+            },
+            {
+              "title": "股东提名纳入委托投票材料权关键指标——定义",
+              "titleEn": "Proxy Access Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事年度选举关键指标——定义",
+              "titleEn": "Annual Director Elections Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "强化分类董事会组合关键指标——定义",
+              "titleEn": "Strong Classified Board Combination Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "多数票选举关键指标——定义",
+              "titleEn": "Majority Voting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "累积投票关键指标——定义",
+              "titleEn": "Cumulative Voting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "无因罢免董事关键指标——定义",
+              "titleEn": "Director Removal Without Cause Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "利益相关方条款关键指标——定义",
+              "titleEn": "Constituency Provision Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "企业合并条款关键指标——定义",
+              "titleEn": "Business Combination Provision Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "公平要约待遇条款关键指标——定义",
+              "titleEn": "Fair Bid Treatment Provisions Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "所有权结构评估",
+              "titleEn": "Ownership Structure Assessment",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Ownership & Control Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/ownership-and-control-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-GOV-05",
+          "title": "薪酬",
+          "titleEn": "Pay",
+          "summary": "评估公司高管薪酬与长期业绩的挂钩程度、薪酬披露透明度与股东话语权。",
+          "eyebrow": "公司治理",
+          "tags": [
+            "公司治理",
+            "治理类"
+          ],
+          "meta": [
+            "公司治理",
+            "治理类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "薪酬关键议题得分",
+              "titleEn": "Pay Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "首席执行官股权政策关键指标——定义",
+              "titleEn": "CEO Equity Policy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官持股变化关键指标——定义",
+              "titleEn": "CEO Equity Changes Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "长期薪酬与绩效关键指标——定义",
+              "titleEn": "Long-Term Pay Performance Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "长期薪酬与同业相对绩效关键指标——定义",
+              "titleEn": "Long-Term Pay Performance Versus Peers Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "短期薪酬与绩效关键指标——定义",
+              "titleEn": "Short-Term Pay Performance Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬与可持续发展挂钩关键指标——定义",
+              "titleEn": "Pay Linked to Sustainability Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬追回与扣减关键指标——定义",
+              "titleEn": "Clawbacks & Malus Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "高额入职奖励关键指标——定义",
+              "titleEn": "Golden Hellos Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬争议关键指标——定义",
+              "titleEn": "Pay Controversy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "薪酬实践遭显著反对票关键指标——定义",
+              "titleEn": "Significant Vote Against Pay Practices Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "高管薪酬披露关键指标——定义",
+              "titleEn": "Executive Pay Disclosure Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：所有发行人",
+              "titleEn": "Scope: All issuers",
+              "items": []
+            },
+            {
+              "title": "首席执行官实际实现薪酬总额关键指标——定义",
+              "titleEn": "CEO Pay Total Realized Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官获授薪酬总额关键指标——定义",
+              "titleEn": "CEO Pay Total Awarded Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官固定薪酬总额关键指标——定义",
+              "titleEn": "CEO Pay Total Fixed Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官额外福利与其他薪酬关键指标——定义",
+              "titleEn": "CEO Pay Perks & Other Pay Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "指标定义：CEO Pay NQDC",
+              "titleEn": "CEO Pay NQDC Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "首席执行官养老金关键指标——定义",
+              "titleEn": "CEO Pay Pension Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "内部薪酬公平性关键指标——定义",
+              "titleEn": "Internal Pay Equity Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "金色降落伞关键指标——定义",
+              "titleEn": "Golden Parachutes Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "离职时股权归属关键指标——定义",
+              "titleEn": "Severance Vesting Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "类别：股权计划稀释",
+              "titleEn": "Category: Equity Plan Dilution",
+              "items": []
+            },
+            {
+              "title": "股权稀释疑虑关键指标——定义",
+              "titleEn": "Dilution Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "若是，则作出标记。",
+              "titleEn": "Flagged if yes.",
+              "items": []
+            },
+            {
+              "title": "股权授予率疑虑关键指标——定义",
+              "titleEn": "Run Rate Concerns Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "董事股权政策关键指标——定义",
+              "titleEn": "Director Equity Policy Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "适用范围：股权发行人",
+              "titleEn": "Scope: Equity issuers",
+              "items": []
+            },
+            {
+              "title": "薪酬总额组成",
+              "titleEn": "Total Pay Components",
+              "items": []
+            },
+            {
+              "title": "薪酬同业组",
+              "titleEn": "Pay Peer Groups",
+              "items": []
+            },
+            {
+              "title": "薪酬同业组划分",
+              "titleEn": "Determining Pay Peer Group Allocation",
+              "items": []
+            },
+            {
+              "title": "行业",
+              "titleEn": "Industry",
+              "items": []
+            },
+            {
+              "title": "市值",
+              "titleEn": "Market Capitalization",
+              "items": []
+            },
+            {
+              "title": "区域同业",
+              "titleEn": "Regional Peers",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Pay Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/pay-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-GOV-06",
+          "title": "税务透明度",
+          "titleEn": "Tax Transparency",
+          "summary": "评估公司税务策略透明度、避税风险与国别报告披露水平。",
+          "eyebrow": "企业行为",
+          "tags": [
+            "企业行为",
+            "治理类"
+          ],
+          "meta": [
+            "企业行为",
+            "治理类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "税务透明度关键议题得分",
+              "titleEn": "Tax Transparency Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "类别：争议",
+              "titleEn": "Category: Controversies",
+              "items": []
+            },
+            {
+              "title": "税务争议关键指标——定义",
+              "titleEn": "Tax Controversies Key Metric — Definition",
+              "items": []
+            },
+            {
+              "title": "税务争议扣分对照表",
+              "titleEn": "Tax Controversy Deduction Key",
+              "items": []
+            },
+            {
+              "title": "估算税负差额",
+              "titleEn": "Estimated Tax Gap",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Tax Transparency Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/tax-transparency-key-issue.pdf"
+        }
+      ]
+    },
+    {
+      "id": "msci-group-3",
+      "title": "社会支柱",
+      "titleEn": "Social Pillar",
+      "items": [
+        {
+          "id": "MSCI-SOC-01",
+          "title": "劳工管理",
+          "titleEn": "Labor Management",
+          "summary": "评估公司劳动关系管理的质量，包括员工满意度、流动率、薪酬公平及劳动力管理政策。",
+          "eyebrow": "人力资本",
+          "tags": [
+            "人力资本",
+            "风险类"
+          ],
+          "meta": [
+            "人力资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "劳工管理关键议题得分",
+              "titleEn": "Labor Management Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "劳工管理管理得分",
+              "titleEn": "Labor Management Management Score",
+              "items": []
+            },
+            {
+              "title": "• 员工股权计划。",
+              "titleEn": "• Employee equity programs.",
+              "items": []
+            },
+            {
+              "title": "• 有资格享受非薪酬福利的员工。",
+              "titleEn": "• Workforce eligible for non-pay benefits.",
+              "items": []
+            },
+            {
+              "title": "• 有资格获得绩效浮动薪酬的员工覆盖范围。",
+              "titleEn": "- Scope of workforce eligibility for variable performance-based component to pay.",
+              "items": []
+            },
+            {
+              "title": "• 员工满意度调查频率。",
+              "titleEn": "• Employee satisfaction survey frequency.",
+              "items": []
+            },
+            {
+              "title": "• 重组政策与计划。",
+              "titleEn": "• Restructuring policies and programs.",
+              "items": []
+            },
+            {
+              "title": "• 技能与知识发展培训的覆盖范围。",
+              "titleEn": "- Scope of skills and knowledge development training.",
+              "items": []
+            },
+            {
+              "title": "• 支持员工攻读学位或取得认证。",
+              "titleEn": "• Support for degree programs or certifications for employees.",
+              "items": []
+            },
+            {
+              "title": "管理得分类别：绩效得分",
+              "titleEn": "Management Score category: Performance Score",
+              "items": []
+            },
+            {
+              "title": "代表性绩效指标：",
+              "titleEn": "Representative performance metrics:",
+              "items": []
+            },
+            {
+              "title": "劳工管理风险敞口得分",
+              "titleEn": "Labor Management Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure Score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Labor Management Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/labor-management-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-02",
+          "title": "健康与安全",
+          "titleEn": "Health & Safety",
+          "summary": "评估公司工作场所健康安全管理，包括工伤事故率、安全培训与职业健康风险。",
+          "eyebrow": "人力资本",
+          "tags": [
+            "人力资本",
+            "风险类"
+          ],
+          "meta": [
+            "人力资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "健康与安全关键议题得分",
+              "titleEn": "Health & Safety Key Issue score",
+              "items": []
+            },
+            {
+              "title": "健康与安全管理框架",
+              "titleEn": "Health & Safety Management framework",
+              "items": []
+            },
+            {
+              "title": "健康与安全管理得分",
+              "titleEn": "Health & Safety Management score",
+              "items": []
+            },
+            {
+              "title": "健康与安全治理与战略得分",
+              "titleEn": "Health & Safety Governance & Strategy score",
+              "items": []
+            },
+            {
+              "title": "健康与安全政策的覆盖范围",
+              "titleEn": "- Scope of health and safety policy",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全政策对承包商的适用性",
+              "titleEn": "• Applicability of health and safety policy to contractors",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全政策及实践接受审计",
+              "titleEn": "• Health and safety policy and practices are audited",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全绩效纳入首席执行官薪酬考量",
+              "titleEn": "• Health and safety performance is a factor in CEO compensation",
+              "items": []
+            },
+            {
+              "title": "• 负责健康与安全战略及绩效的机构",
+              "titleEn": "• Body responsible for health & safety strategy and performance",
+              "items": []
+            },
+            {
+              "title": "• 首席执行官负责健康与安全战略",
+              "titleEn": "- CEO is responsible for health and safety strategy",
+              "items": []
+            },
+            {
+              "title": "• 高级管理人员或执行委员会负责健康与安全战略。",
+              "titleEn": "- Senior executive or executive committee are responsible for health and safety strategy.",
+              "items": []
+            },
+            {
+              "title": "• 企业社会责任或可持续发展委员会负责健康与安全战略及绩效",
+              "titleEn": "- CSR or sustainability committees are responsible for health and safety strategy and performance",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全认证评估",
+              "titleEn": "• Evaluation of health & safety certification",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全管理体系取得认可标准认证的证据",
+              "titleEn": "- Evidence of health and safety management system certified to recognized standard",
+              "items": []
+            },
+            {
+              "title": "• 健康与安全管理体系取得认可标准认证的运营比例",
+              "titleEn": "- Percentage of operations having health and safety management systems certified to recognized stand",
+              "items": []
+            },
+            {
+              "title": "• 披露的健康与安全指标包含承包商",
+              "titleEn": "• Contractors included in disclosed health and safety metrics",
+              "items": []
+            },
+            {
+              "title": "健康与安全目标得分",
+              "titleEn": "Health & Safety Targets score",
+              "items": []
+            },
+            {
+              "title": "• 改善健康与安全绩效的目标",
+              "titleEn": "• Target to improve health and safety performance",
+              "items": []
+            },
+            {
+              "title": "健康与安全绩效得分",
+              "titleEn": "Health & Safety Performance score",
+              "items": []
+            },
+            {
+              "title": "相对于同行的损失工时事故率表现",
+              "titleEn": "- Lost time incident rate performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "• 损失工时事故率行业相对得分（每百万工时）",
+              "titleEn": "- Lost time incident rate (per million hours worked) industry relative score",
+              "items": []
+            },
+            {
+              "title": "■ 三年平均损失工时事故率（每百万工时）",
+              "titleEn": "■ Three-year average Lost time incident rate (per million hours worked)",
+              "items": []
+            },
+            {
+              "title": "• 损失工时事故率趋势行业相对得分（每百万工时）",
+              "titleEn": "- Lost time incident rate (per million hours worked) industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "■ 损失工时事故率趋势的三年平均值（每百万工时）",
+              "titleEn": "■ Three-year average Lost time incident rate trend (per million hours worked)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的可记录工伤总发生率表现",
+              "titleEn": "• Total recordable injury rate performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "• 可记录工伤总发生率行业相对得分（每百万工时）",
+              "titleEn": "- Total recordable injury rate (per million hours worked) industry relative score",
+              "items": []
+            },
+            {
+              "title": "■ 三年平均可记录工伤总发生率（每百万工时）",
+              "titleEn": "■ Three-year average Total recordable injury rate (per million hours worked)",
+              "items": []
+            },
+            {
+              "title": "• 可记录工伤总发生率趋势行业相对得分（每百万工时）",
+              "titleEn": "- Total recordable injury rate (per million hours worked) industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "• 可记录工伤总发生率趋势的三年平均值（每百万工时）",
+              "titleEn": "- Three-year average Total recordable injury rate trend (per million hours worked)",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的死亡事故强度表现",
+              "titleEn": "• Fatality intensity performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "• 死亡事故行业相对得分",
+              "titleEn": "- Fatalities industry relative score",
+              "items": []
+            },
+            {
+              "title": "■ 三年平均死亡人数（每 100,000 名员工）",
+              "titleEn": "■ Three-year average fatalities (per 100,000 employees)",
+              "items": []
+            },
+            {
+              "title": "■ 每百万美元销售额死亡人数的三年平均值",
+              "titleEn": "■ Three-year average fatalities per million USD in sales",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "健康与安全风险敞口得分",
+              "titleEn": "Health & Safety Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Health & Safety Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/health-and-safety-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-03",
+          "title": "人力资本发展",
+          "titleEn": "Human Capital Development",
+          "summary": "评估公司人才培养、技能发展与职业晋升体系，以及人才储备的可持续性。",
+          "eyebrow": "人力资本",
+          "tags": [
+            "人力资本",
+            "风险类"
+          ],
+          "meta": [
+            "人力资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "人力资本发展关键议题得分",
+              "titleEn": "Human Capital Development Key Issue score",
+              "items": []
+            },
+            {
+              "title": "人力资本发展管理框架",
+              "titleEn": "Human Capital Development Management framework",
+              "items": []
+            },
+            {
+              "title": "人力资本发展管理得分",
+              "titleEn": "Human Capital Development Management score",
+              "items": []
+            },
+            {
+              "title": "人力资本发展战略得分",
+              "titleEn": "Human Capital Development Strategy score",
+              "items": []
+            },
+            {
+              "title": "人力资源相关申诉报告或升级处理程序的覆盖程度",
+              "titleEn": "- Extent of human resource-related grievance reporting or escalation procedures",
+              "items": []
+            },
+            {
+              "title": "• 员工满意度调查频率。",
+              "titleEn": "• Employee satisfaction survey frequency",
+              "items": []
+            },
+            {
+              "title": "正式人才梯队发展战略",
+              "titleEn": "- Formal talent pipeline development strategy",
+              "items": []
+            },
+            {
+              "title": "人力资本发展项目与举措得分",
+              "titleEn": "Human Capital Development Programs & Initiatives score",
+              "items": []
+            },
+            {
+              "title": "• 员工股权计划。",
+              "titleEn": "• Employee equity programs",
+              "items": []
+            },
+            {
+              "title": "• 基于绩效的浮动薪酬组成部分",
+              "titleEn": "• Variable performance-based component to pay",
+              "items": []
+            },
+            {
+              "title": "• 符合带薪育儿假政策条件的员工范围",
+              "titleEn": "• Workforce eligible for paid parental leave policy",
+              "items": []
+            },
+            {
+              "title": "定期绩效评估与反馈流程",
+              "titleEn": "- Regular performance appraisals and feedback processes",
+              "items": []
+            },
+            {
+              "title": "• 技能与知识发展培训",
+              "titleEn": "• Skills and knowledge development training",
+              "items": []
+            },
+            {
+              "title": "人力资本发展绩效得分",
+              "titleEn": "Human Capital Development Performance score",
+              "items": []
+            },
+            {
+              "title": "• 相对于同行的员工流动率表现",
+              "titleEn": "• Employee turnover rate performance relative to peers",
+              "items": []
+            },
+            {
+              "title": "○ 员工流动率行业相对得分",
+              "titleEn": "○ Employee turnover rate industry relative score",
+              "items": []
+            },
+            {
+              "title": "■ 三年平均员工流动率",
+              "titleEn": "■ Three-year average employee turnover rate",
+              "items": []
+            },
+            {
+              "title": "○ 员工流动率趋势行业相对得分",
+              "titleEn": "○ Employee turnover rate industry relative trend score",
+              "items": []
+            },
+            {
+              "title": "■ 员工流动率趋势的三年平均值",
+              "titleEn": "■ Three-year average employee turnover rate trend",
+              "items": []
+            },
+            {
+              "title": "• 过去三年获选理想雇主的外部认可",
+              "titleEn": "• External recognition as employer of choice (last three years)",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "人力资本发展风险敞口得分",
+              "titleEn": "Human Capital Development Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Human Capital Development Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/human-capital-development-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-04",
+          "title": "供应链劳工标准",
+          "titleEn": "Supply Chain Labor Standards",
+          "summary": "评估公司供应链中的劳工标准管理，包括供应商审核、童工/强迫劳动防控与追溯。",
+          "eyebrow": "人力资本",
+          "tags": [
+            "人力资本",
+            "风险类"
+          ],
+          "meta": [
+            "人力资本",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "供应链劳工标准关键议题得分",
+              "titleEn": "Supply Chain Labor Standards Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "供应链劳工标准管理得分",
+              "titleEn": "Supply Chain Labor Standards Management Score",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖反歧视。",
+              "titleEn": "• Supply chain code of conduct covers anti-discrimination.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖童工。",
+              "titleEn": "• Supply chain code of conduct covers child labor.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖强迫劳动。",
+              "titleEn": "• Supply chain code of conduct covers forced labor.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖结社自由。",
+              "titleEn": "• Supply chain code of conduct covers freedom of association.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖健康与安全。",
+              "titleEn": "• Supply chain code of conduct covers health and safety.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖最低工资。",
+              "titleEn": "• Supply chain code of conduct covers minimum wage.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖加班报酬。",
+              "titleEn": "• Supply chain code of conduct covers paid overtime.",
+              "items": []
+            },
+            {
+              "title": "• 供应链行为准则涵盖工作时长。",
+              "titleEn": "• Supply chain code of conduct covers working hours.",
+              "items": []
+            },
+            {
+              "title": "• 供应商劳工相关社会议题培训。",
+              "titleEn": "• Training of suppliers on labor-related social issues.",
+              "items": []
+            },
+            {
+              "title": "• 根据劳工管理表现选择供应商。",
+              "titleEn": "• Supplier selection based on labor management performance.",
+              "items": []
+            },
+            {
+              "title": "• 供应商审计的覆盖范围。",
+              "titleEn": "- Scope of supplier audits.",
+              "items": []
+            },
+            {
+              "title": "• 应对供应商不当行为的行动。",
+              "titleEn": "• Action taken to address supplier misconduct.",
+              "items": []
+            },
+            {
+              "title": "• 供应商不当行为事件披露程度。",
+              "titleEn": "- Extent of disclosure on instances of supplier misconduct.",
+              "items": []
+            },
+            {
+              "title": "• 一级供应商审计（直接供应商）。",
+              "titleEn": "• Tier 1 supplier audits (direct suppliers).",
+              "items": []
+            },
+            {
+              "title": "• 二级供应商审计（零部件）。",
+              "titleEn": "• Tier 2 suppliers audits (components).",
+              "items": []
+            },
+            {
+              "title": "• 三级供应商审计（原材料）。",
+              "titleEn": "• Tier 3 suppliers audits (raw materials).",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "供应链劳工标准风险敞口得分",
+              "titleEn": "Supply Chain Labor Standards Exposure Score",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Supply Chain Labor Standards Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/supply-chain-labor-standards-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-05",
+          "title": "产品安全与质量",
+          "titleEn": "Product Safety & Quality",
+          "summary": "评估公司产品质量与安全管理，包括召回事件、质量投诉及质量管理体系。",
+          "eyebrow": "产品责任",
+          "tags": [
+            "产品责任",
+            "风险类"
+          ],
+          "meta": [
+            "产品责任",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "产品安全与质量关键议题得分",
+              "titleEn": "Product Safety & Quality Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "产品安全与质量管理得分",
+              "titleEn": "Product Safety & Quality Management Score",
+              "items": []
+            },
+            {
+              "title": "管理得分类别：制造与处理得分",
+              "titleEn": "Management Score category: Manufacturing and Handling Score",
+              "items": []
+            },
+            {
+              "title": "• 获得广泛认可的产品安全或质量标准认证的程度。",
+              "titleEn": "- Extent of certification to a widely accepted product safety/quality standard.",
+              "items": []
+            },
+            {
+              "title": "• 获得内部开发产品安全或质量标准认证的程度。",
+              "titleEn": "- Extent of certification to an internally developed product safety/quality standard.",
+              "items": []
+            },
+            {
+              "title": "• 员工产品质量培训的覆盖范围。",
+              "titleEn": "- Scope of employee training on product quality.",
+              "items": []
+            },
+            {
+              "title": "• 产品测试能力的程度。",
+              "titleEn": "• Extent of product testing capacity.",
+              "items": []
+            },
+            {
+              "title": "• 负责任营销的审计或控制程序。",
+              "titleEn": "• Audit/control procedures on responsible marketing.",
+              "items": []
+            },
+            {
+              "title": "• 参与获得认可的全行业供应链风险评估与缓解合作机制。",
+              "titleEn": "- Membership in recognized industry-wide partnership(s) on supply chain risk evaluation and mitigati",
+              "items": []
+            },
+            {
+              "title": "• 关于供应商质量程序认证的一般性声明。",
+              "titleEn": "- General statement on supplier certification of quality procedures.",
+              "items": []
+            },
+            {
+              "title": "• 一级：直接供应商设施及流程由公司员工或第三方审计人员认证。",
+              "titleEn": "- Tier 1 - Direct supplier facilities and processes certified by company employees or third-party au",
+              "items": []
+            },
+            {
+              "title": "• 二级：间接或次级供应商设施及流程由公司员工或第三方审计人员认证。",
+              "titleEn": "- Tier 2 - Indirect/sub supplier facilities and processes certified by company employees or third-pa",
+              "items": []
+            },
+            {
+              "title": "• 三级：定期检查成分或原材料质量。",
+              "titleEn": "- Tier 3 - Ingredients/raw materials checked for quality on a regular basis.",
+              "items": []
+            },
+            {
+              "title": "• 供应商质量标准培训的覆盖范围。",
+              "titleEn": "- Scope of supplier training on quality standards.",
+              "items": []
+            },
+            {
+              "title": "代表性绩效指标：",
+              "titleEn": "Representative performance metrics:",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "产品安全与质量风险敞口得分",
+              "titleEn": "Product Safety & Quality Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            },
+            {
+              "title": "模型更新历史",
+              "titleEn": "Model Update History",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Product Safety & Quality Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/product-safety-and-quality-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-06",
+          "title": "化学品安全",
+          "titleEn": "Chemical Safety",
+          "summary": "评估公司化学品安全管理，包括产品成分合规、监管处罚与安全风险评估。",
+          "eyebrow": "产品责任",
+          "tags": [
+            "产品责任",
+            "风险类"
+          ],
+          "meta": [
+            "产品责任",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "化学品安全关键议题得分",
+              "titleEn": "Chemical Safety Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "化学品安全管理得分",
+              "titleEn": "Chemical Safety Management Score",
+              "items": []
+            },
+            {
+              "title": "• 化学品淘汰计划的覆盖范围。",
+              "titleEn": "- Scope of chemical phase-out plan.",
+              "items": []
+            },
+            {
+              "title": "• 识别物质监管风险的工作程度。",
+              "titleEn": "• Level of efforts to identify substances for regulatory risk.",
+              "items": []
+            },
+            {
+              "title": "• 受监管物质注册与使用披露的覆盖范围。",
+              "titleEn": "- Scope of disclosure of registration and use of regulated substances.",
+              "items": []
+            },
+            {
+              "title": "• 新产品设计中的环境与健康标准。",
+              "titleEn": "• Environmental and health standards in new product design.",
+              "items": []
+            },
+            {
+              "title": "• 已有减少依赖受关注物质的实绩。",
+              "titleEn": "- Demonstrated track record of reducing reliance on substances of concern.",
+              "items": []
+            },
+            {
+              "title": "• 已有减少依赖受关注物质的实绩。",
+              "titleEn": "- Demonstrated track record of reducing reliance on substances of concern.",
+              "items": []
+            },
+            {
+              "title": "• 提高消费者对产品化学成分认知的举措。",
+              "titleEn": "- Initiatives to improve consumer awareness on product chemical content.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 化学品安全争议事件。",
+              "titleEn": "• Chemical safety controversies.",
+              "items": []
+            },
+            {
+              "title": "化学品安全风险敞口得分",
+              "titleEn": "Chemical Safety Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure Score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Chemical Safety Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/chemical-safety-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-07",
+          "title": "消费者金融保护",
+          "titleEn": "Consumer Financial Protection",
+          "summary": "评估金融机构对消费者的保护水平，包括产品透明度、合规销售与客户投诉。",
+          "eyebrow": "产品责任",
+          "tags": [
+            "产品责任",
+            "风险类"
+          ],
+          "meta": [
+            "产品责任",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "消费者金融保护关键议题得分",
+              "titleEn": "Consumer Financial Protection Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "消费者金融保护管理得分",
+              "titleEn": "Consumer Financial Protection Management Score",
+              "items": []
+            },
+            {
+              "title": "• 债务催收政策。",
+              "titleEn": "- Debt collection policy.",
+              "items": []
+            },
+            {
+              "title": "• 员工消费者金融保护培训。",
+              "titleEn": "• Employee training on consumer financial protection.",
+              "items": []
+            },
+            {
+              "title": "• 金融教育举措及利益相关方外展。",
+              "titleEn": "• Financial education initiatives and stakeholder outreach.",
+              "items": []
+            },
+            {
+              "title": "• 公司提供贷款条款调整选项。",
+              "titleEn": "• Company offers loan modification options.",
+              "items": []
+            },
+            {
+              "title": "• 投诉解决流程监督。",
+              "titleEn": "• Oversight of complaint resolution process.",
+              "items": []
+            },
+            {
+              "title": "• 金融产品投诉处理流程。",
+              "titleEn": "• Financial product complaint handling process.",
+              "items": []
+            },
+            {
+              "title": "• 金融产品或服务审查监督。",
+              "titleEn": "• Oversight of financial product or service reviews.",
+              "items": []
+            },
+            {
+              "title": "代表性绩效指标：",
+              "titleEn": "Representative performance metrics:",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 产品安全争议",
+              "titleEn": "• Product safety controversies",
+              "items": []
+            },
+            {
+              "title": "消费者金融保护风险敞口得分",
+              "titleEn": "Consumer Financial Protection Exposure Score",
+              "items": []
+            },
+            {
+              "title": "模型更新历史",
+              "titleEn": "Model Update History",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Consumer Financial Protection Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/consumer-financial-protection-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-08",
+          "title": "隐私与数据安全",
+          "titleEn": "Privacy & Data Security",
+          "summary": "评估公司用户隐私与数据安全管理，包括数据泄露事件、安全体系与合规。",
+          "eyebrow": "产品责任",
+          "tags": [
+            "产品责任",
+            "风险类"
+          ],
+          "meta": [
+            "产品责任",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "隐私与数据安全关键议题得分",
+              "titleEn": "Privacy & Data Security Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "隐私与数据安全管理得分",
+              "titleEn": "Privacy & Data Security Management Score",
+              "items": []
+            },
+            {
+              "title": "• 信息安全管理体系认证的覆盖范围。",
+              "titleEn": "- Scope of information security management system certifications.",
+              "items": []
+            },
+            {
+              "title": "• 信息安全管理体系认证类型。",
+              "titleEn": "- Type of information security management system certification.",
+              "items": []
+            },
+            {
+              "title": "• 员工隐私与数据安全培训的覆盖范围。",
+              "titleEn": "- Scope of employee training on privacy and data security.",
+              "items": []
+            },
+            {
+              "title": "• 隐私与数据安全责任。",
+              "titleEn": "- Responsibility for privacy and data security.",
+              "items": []
+            },
+            {
+              "title": "• 应对数据泄露的措施。",
+              "titleEn": "• Measures to address data breaches.",
+              "items": []
+            },
+            {
+              "title": "• 信息安全体系审计频率。",
+              "titleEn": "• Frequency of audits of information security system.",
+              "items": []
+            },
+            {
+              "title": "• 客户信息的收集、使用和保留。",
+              "titleEn": "• Collection, usage and retention of customer information.",
+              "items": []
+            },
+            {
+              "title": "• 消费者数据用于次级目的的同意政策。",
+              "titleEn": "- Consent policy for use of consumer data for secondary purposes.",
+              "items": []
+            },
+            {
+              "title": "• 赋予消费者控制自身数据的权利。",
+              "titleEn": "- Rights provided to consumers regarding the control of their data.",
+              "items": []
+            },
+            {
+              "title": "• 数据保护政策的覆盖范围。",
+              "titleEn": "- Scope of data protection policy.",
+              "items": []
+            },
+            {
+              "title": "• 覆盖供应商和业务伙伴的数据保护计划。",
+              "titleEn": "• Data protection programs covering suppliers and business partners.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "隐私与数据安全风险敞口得分",
+              "titleEn": "Privacy & Data Security Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure Score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Privacy & Data Security Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/privacy-and-data-security-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-09",
+          "title": "负责任投资",
+          "titleEn": "Responsible Investment",
+          "summary": "评估金融机构将ESG因素纳入投资决策的程度，包括ESG整合、排除与尽责管理。",
+          "eyebrow": "产品责任",
+          "tags": [
+            "产品责任",
+            "风险类"
+          ],
+          "meta": [
+            "产品责任",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "负责任投资关键议题得分",
+              "titleEn": "Responsible Investment Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "负责任投资管理得分",
+              "titleEn": "Responsible Investment Management Score",
+              "items": []
+            },
+            {
+              "title": "• 专职 ESG 分析师负责分析投资过程中的 ESG 问题。",
+              "titleEn": "• Dedicated ESG analysts responsible for analyzing ESG issues in investment process.",
+              "items": []
+            },
+            {
+              "title": "• 纳入 ESG 考量的负责任投资政策。",
+              "titleEn": "- Responsible investment policy to incorporate ESG considerations.",
+              "items": []
+            },
+            {
+              "title": "• 参与负责任投资倡议",
+              "titleEn": "• Participation in responsible investment initiatives",
+              "items": []
+            },
+            {
+              "title": "• 相关资产类别的 ESG 整合程度",
+              "titleEn": "• Extent of ESG integration into relevant asset classes",
+              "items": []
+            },
+            {
+              "title": "• 专职人员负责 ESG 尽责沟通。",
+              "titleEn": "• Dedicated staff responsible for ESG engagement.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "负责任投资风险敞口得分",
+              "titleEn": "Responsible Investment Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Responsible Investment Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/responsible-investment-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-10",
+          "title": "社区关系",
+          "titleEn": "Community Relations",
+          "summary": "评估公司与运营所在社区的关系管理，包括社区影响、许可与社会冲突。",
+          "eyebrow": "利益相关方反对",
+          "tags": [
+            "利益相关方反对",
+            "风险类"
+          ],
+          "meta": [
+            "利益相关方反对",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "社区关系关键议题得分",
+              "titleEn": "Community Relations Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "社区关系管理得分",
+              "titleEn": "Community Relations Management Score",
+              "items": []
+            },
+            {
+              "title": "• 承诺不在保护区运营。",
+              "titleEn": "• Commitment to refrain from operating in protected areas.",
+              "items": []
+            },
+            {
+              "title": "• 公司在进入新地区前开展社区影响评估。",
+              "titleEn": "- Company conducts community impact assessment prior to settling in new areas.",
+              "items": []
+            },
+            {
+              "title": "• 原住民政策。",
+              "titleEn": "• Indigenous peoples policy.",
+              "items": []
+            },
+            {
+              "title": "• 当地社区沟通方式。",
+              "titleEn": "- Local community engagement approach.",
+              "items": []
+            },
+            {
+              "title": "• 公司监测人权政策的有效性。",
+              "titleEn": "• Company monitors the effectiveness of its human rights policy.",
+              "items": []
+            },
+            {
+              "title": "• 员工人权保护培训。",
+              "titleEn": "• Employee training on human rights protection.",
+              "items": []
+            },
+            {
+              "title": "• 道德行为政策覆盖外包安保服务商。",
+              "titleEn": "• Ethical conduct policy covers contract security providers.",
+              "items": []
+            },
+            {
+              "title": "• 人权政策。",
+              "titleEn": "• Human rights policy.",
+              "items": []
+            },
+            {
+              "title": "• 暴力与冲突政策。",
+              "titleEn": "• Violence and conflict policy.",
+              "items": []
+            },
+            {
+              "title": "• 本地采购政策。",
+              "titleEn": "- Local procurement policy.",
+              "items": []
+            },
+            {
+              "title": "• 支持当地社区的计划。",
+              "titleEn": "• Programs to support local communities.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "社区关系风险敞口得分",
+              "titleEn": "Community Relations Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure Score",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Community Relations Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/community-relations-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-11",
+          "title": "争议性采购",
+          "titleEn": "Controversial Sourcing",
+          "summary": "评估公司采购中涉及争议性来源（如冲突矿产）的风险与尽职管理。",
+          "eyebrow": "利益相关方反对",
+          "tags": [
+            "利益相关方反对",
+            "风险类"
+          ],
+          "meta": [
+            "利益相关方反对",
+            "风险类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的风险",
+              "titleEn": "Risks associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "争议性采购关键议题得分",
+              "titleEn": "Controversial Sourcing Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "争议性采购管理得分",
+              "titleEn": "Controversial Sourcing Management Score",
+              "items": []
+            },
+            {
+              "title": "管理得分类别：采购政策与承诺得分",
+              "titleEn": "Management Score category: Sourcing Policy & Commitments Score",
+              "items": []
+            },
+            {
+              "title": "• 确保遵守争议材料采购政策的目标。",
+              "titleEn": "- Targets for ensuring compliance with controversial materials sourcing policy.",
+              "items": []
+            },
+            {
+              "title": "• 外部机构按最严格准则对供应商或材料进行无冲突认证的程度。",
+              "titleEn": "- Extent of supplier/material certification as conflict-free by external agencies using the most str",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "• 争议性采购争议事件。",
+              "titleEn": "• Controversial sourcing controversies",
+              "items": []
+            },
+            {
+              "title": "争议性采购风险敞口得分",
+              "titleEn": "Controversial Sourcing Exposure Score",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure Score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Controversial Sourcing Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/controversial-sourcing-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-12",
+          "title": "金融服务可及性",
+          "titleEn": "Access to Finance",
+          "summary": "评估金融机构服务低收入群体、小微企业与普惠金融的机遇与覆盖面。",
+          "eyebrow": "社会机遇",
+          "tags": [
+            "社会机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "社会机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "金融服务可及性关键议题得分",
+              "titleEn": "Access to Finance Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "金融服务可及性管理得分",
+              "titleEn": "Access to Finance Management Score",
+              "items": []
+            },
+            {
+              "title": "• 参与小额信贷或小额保险的程度。",
+              "titleEn": "• Extent of involvement in microfinance/microinsurance.",
+              "items": []
+            },
+            {
+              "title": "• 金融服务移动或线上分销渠道创新。",
+              "titleEn": "- Innovation in mobile/online distribution channels for financial services.",
+              "items": []
+            },
+            {
+              "title": "• 金融服务其他替代性无网点分销渠道创新。",
+              "titleEn": "- Innovation in other alternative branchless distribution channels for financial services.",
+              "items": []
+            },
+            {
+              "title": "代表性绩效指标：",
+              "titleEn": "Representative performance metrics:",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "金融服务可及性风险敞口得分",
+              "titleEn": "Access to Finance Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure Score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Access to Finance Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-finance-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-13",
+          "title": "医疗可及性",
+          "titleEn": "Access to Health Care",
+          "summary": "评估医疗健康公司提升医疗服务可及性（价格、渠道、创新）的机遇。",
+          "eyebrow": "社会机遇",
+          "tags": [
+            "社会机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "社会机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "医疗可及性关键议题得分",
+              "titleEn": "Access to Health Care Key Issue score",
+              "items": []
+            },
+            {
+              "title": "医疗可及性管理框架",
+              "titleEn": "Access to Health Care Management framework",
+              "items": []
+            },
+            {
+              "title": "医疗可及性管理得分",
+              "titleEn": "Access to Health Care Management score",
+              "items": []
+            },
+            {
+              "title": "医疗可及性实践得分",
+              "titleEn": "Access to Health Care Practices score",
+              "items": []
+            },
+            {
+              "title": "公司已商业化产品覆盖的相关疾病数量",
+              "titleEn": "- Number of relevant diseases addressed by the company's commercialized products",
+              "items": []
+            },
+            {
+              "title": "公司研发覆盖的相关疾病数量",
+              "titleEn": "- Number of relevant diseases addressed by the company's research and development",
+              "items": []
+            },
+            {
+              "title": "向低收入及中等收入国家扩张计划的覆盖范围",
+              "titleEn": "- Scope of expansion plans to low-income and middle-income countries",
+              "items": []
+            },
+            {
+              "title": "帮助低收入及中等收入国家本地制造商达到国际药品制造质量标准",
+              "titleEn": "- Assistance to local manufacturers to achieve international drug manufacturing quality standards in",
+              "items": []
+            },
+            {
+              "title": "• 支持低收入及中等收入国家的药物警戒",
+              "titleEn": "• Supports pharmacovigilance in low- and middle-income countries",
+              "items": []
+            },
+            {
+              "title": "培训低收入及中等收入国家的当地医护人员",
+              "titleEn": "- Trains local healthcare workers in low- and middle-income countries",
+              "items": []
+            },
+            {
+              "title": "通过低收入及中等收入国家的药品供应链举措改善患者产品可获得性",
+              "titleEn": "- Improves availability of products to patients through pharmaceutical supply chain initiatives in l",
+              "items": []
+            },
+            {
+              "title": "参与提升低收入及中等收入国家本地研发能力的公私合作",
+              "titleEn": "- Involvement in public-private partnerships for improving local research and development capacity i",
+              "items": []
+            },
+            {
+              "title": "建设低收入及中等收入国家公共卫生基础设施、信息或健康计划能力",
+              "titleEn": "- Capacity building of public health infrastructure, information, or health programs in low- and mid",
+              "items": []
+            },
+            {
+              "title": "• 发出或取得的非独占自愿许可数量",
+              "titleEn": "• Number of non-exclusive voluntary licenses issued or received",
+              "items": []
+            },
+            {
+              "title": "• 基于可负担性的定价政策程度",
+              "titleEn": "• Extent of pricing policies based on affordability",
+              "items": []
+            },
+            {
+              "title": "发达及发展中市场的定价透明度",
+              "titleEn": "- Pricing transparency in developed and developing markets",
+              "items": []
+            },
+            {
+              "title": "公司是否开展应对抗生素耐药性的研发，例如内部研发或合作？",
+              "titleEn": "- Is the company conducting R&D to address antibiotic resistance (e.g., in-house R&D, partnerships)?",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "医疗可及性风险敞口得分",
+              "titleEn": "Access to Health Care Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure score",
+              "items": []
+            },
+            {
+              "title": "业务分部风险敞口得分",
+              "titleEn": "Business Segment Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure scores",
+              "items": []
+            },
+            {
+              "title": "公司特定敞口得分",
+              "titleEn": "Company-Specific Exposure score",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Access to Health Care Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-health-care-key-issue.pdf"
+        },
+        {
+          "id": "MSCI-SOC-14",
+          "title": "营养与健康机遇",
+          "titleEn": "Opportunities in Nutrition & Health",
+          "summary": "评估食品公司通过健康营养产品满足市场需求的能力与产品组合。",
+          "eyebrow": "社会机遇",
+          "tags": [
+            "社会机遇",
+            "机遇类"
+          ],
+          "meta": [
+            "社会机遇",
+            "机遇类",
+            "资料版本：March 2026"
+          ],
+          "outline": [
+            {
+              "title": "引言",
+              "titleEn": "Introduction",
+              "items": []
+            },
+            {
+              "title": "与本关键议题相关的机遇",
+              "titleEn": "Opportunities associated with this Key Issue",
+              "items": []
+            },
+            {
+              "title": "营养与健康机遇关键议题得分",
+              "titleEn": "Opportunities in Nutrition & Health Key Issue Score",
+              "items": []
+            },
+            {
+              "title": "营养与健康机遇管理得分",
+              "titleEn": "Opportunities in Nutrition & Health Management Score",
+              "items": []
+            },
+            {
+              "title": "• 开发更健康产品的内部创新能力。",
+              "titleEn": "• In-house innovation capacity to develop healthier products.",
+              "items": []
+            },
+            {
+              "title": "• 开发天然及健康产品的战略。",
+              "titleEn": "• Strategy to develop natural and healthy products.",
+              "items": []
+            },
+            {
+              "title": "• 减少食品人工成分计划的覆盖程度。",
+              "titleEn": "- Extent of programs to reduce artificial ingredients in food products.",
+              "items": []
+            },
+            {
+              "title": "• 缩小份量计划的覆盖程度。",
+              "titleEn": "- Extent of programs to reduce portion size.",
+              "items": []
+            },
+            {
+              "title": "• 减少食品糖含量计划的覆盖程度。",
+              "titleEn": "- Extent of programs to reduce sugar in food products.",
+              "items": []
+            },
+            {
+              "title": "争议事件",
+              "titleEn": "Controversies",
+              "items": []
+            },
+            {
+              "title": "营养与健康机遇风险敞口得分",
+              "titleEn": "Opportunities in Nutrition & Health Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务敞口得分",
+              "titleEn": "Business Exposure Score",
+              "items": []
+            },
+            {
+              "title": "业务板块敞口得分",
+              "titleEn": "Business Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "地理敞口得分",
+              "titleEn": "Geographic Exposure Score",
+              "items": []
+            },
+            {
+              "title": "地理分区敞口得分",
+              "titleEn": "Geographic Segment Exposure Scores",
+              "items": []
+            },
+            {
+              "title": "数据来源",
+              "titleEn": "Data Sources",
+              "items": []
+            }
+          ],
+          "sourceNote": "MSCI Opportunities in Nutrition & Health Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+          "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/opportunities-in-nutrition-and-health-key-issue.pdf"
+        }
+      ]
+    }
+  ]
+}
