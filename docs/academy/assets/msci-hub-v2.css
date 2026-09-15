@@ -28,3 +28,40 @@ body[data-page=msci-standard],body[data-page=msci-module]{margin:0;background:#f
 @media(max-width:980px){.mh-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mh-chapter-map{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:850px){.mh-hero-grid{grid-template-columns:1fr}.mh-hero .mp-hero-side{max-width:460px}.mh-module-grid{grid-template-columns:1fr}.mh-chapter-map{grid-template-columns:repeat(2,minmax(0,1fr))}.mh-source{grid-template-columns:1fr}.msci-hub-page .mp-topbar nav{display:none}}
 @media(max-width:600px){.mh-hero h1{font-size:30px}.mh-hero-inner{padding-inline:16px}.mh-page{padding-inline:14px}.mh-pillar-jump,.mh-topic-grid,.mh-chapter-map{grid-template-columns:1fr}.mh-pillar>header{align-items:flex-start}.mh-theme{padding-inline:13px}.mh-accordion-body{padding-left:18px}.mh-topic-card{min-height:128px}}
+
+/* Structural diagrams are visually distinct from navigable content cards. */
+.mh-structure,.mh-hierarchy-guide,.mh-process-flow{display:flex;align-items:stretch;gap:10px}
+.mh-structure{padding:16px 18px;border-left:3px solid #6aa886;border-radius:9px;background:#eaf3ed;color:#2b5440;font-size:13px;font-weight:650}
+.mh-structure span{flex:1;text-align:center}.mh-structure i{font-style:normal;color:#89aa98}
+.mh-process-flow{align-items:center;gap:6px}
+.mh-process-flow a{display:flex;flex:1;min-width:0;min-height:130px;flex-direction:column;justify-content:center;padding:15px;border:1px solid #d5e6db;border-radius:10px;background:#fff;transition:border-color .18s,transform .18s}
+.mh-process-flow a:hover{transform:translateY(-2px);border-color:#6caf88}
+.mh-process-flow a small{color:#478261;font-size:10px}.mh-process-flow a strong{margin:7px 0;color:#254334;font-size:15px;line-height:1.35}.mh-process-flow a span{color:#698676;font-size:10px}
+.mh-process-flow i{font-style:normal;color:#7da88e;font-size:16px}
+.mh-process-note{margin:12px 0 0!important;padding:11px 15px;border-radius:8px;background:#e9f2ed;color:#466252!important;font-size:12px!important;line-height:1.75!important}
+.mh-stage-detail{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:12px;border:1px solid #dce8df;border-radius:9px;background:#f3f9f5}
+.mh-stage-detail>div{display:flex;flex:1;min-height:66px;flex-direction:column;padding:8px 12px;border-radius:6px;background:#fff}
+.mh-stage-detail small{color:#708d78;font-size:10px}.mh-stage-detail strong{color:#345b43;font-size:12px;line-height:1.45}
+.mh-stage-detail i{color:#93ae9b;font-style:normal}
+.mh-hierarchy-guide{align-items:center;padding:14px;border:1px solid #dce9e1;border-radius:10px;background:#f7fbf8}
+.mh-hierarchy-guide>div{display:flex;flex:1;min-height:102px;flex-direction:column;padding:10px 12px;border-left:3px solid #86b798;background:#fff;border-radius:5px}
+.mh-hierarchy-guide small{color:#648c72;font-size:10px}.mh-hierarchy-guide strong{color:#264a36;font-size:16px}.mh-hierarchy-guide span{color:#77897d;font-size:10px}.mh-hierarchy-guide i{color:#799987;font-size:11px;font-style:normal;white-space:nowrap}
+.mh-usage-note{margin:12px 0 0!important;padding:10px 14px;border-left:2px solid #94ba9f;color:#6a796e!important;background:#f7f9f7;font-size:11px!important}
+.mh-materiality .materiality-toolbar{display:flex;align-items:end;flex-wrap:wrap;gap:12px}
+.mh-materiality .materiality-toolbar label{display:flex;min-width:165px;flex-direction:column;gap:5px;color:#5b7262;font-size:11px}
+.mh-materiality .materiality-toolbar label select,.mh-materiality .materiality-toolbar label input{height:38px;margin:0}
+.mh-industry-path{margin:12px 0!important;padding:9px 12px;border-radius:7px;color:#285e40!important;background:#ebf6ef;font-size:11px!important;font-weight:650}
+.mh-materiality .materiality-table .mh-sector-row th{background:#e0f0e5;color:#285d3f}
+.mh-materiality .materiality-table .mh-child-row th{padding-left:22px;background:#fafcfb;color:#506a58}
+.mh-materiality .materiality-table th small{display:block;color:#829487;font-size:9px;font-weight:400}
+.msci-prototype-page .mp-indicator-detail .bilingual,
+.msci-prototype-page .mp-indicator-detail .bilingual>.cn-content,
+.msci-prototype-page .mp-indicator-detail .bilingual>.cn-content>p{display:block!important;max-width:100%;min-width:0;white-space:normal!important;overflow-wrap:anywhere}
+.msci-prototype-page .mp-indicator-detail .bilingual>.en-trigger{display:inline-grid;margin:7px 0 0!important;position:relative;inset:auto}
+.msci-prototype-page .mp-indicator-detail .bilingual>.en-popover{position:absolute;left:0;top:calc(100% + 5px);width:min(560px,100%)}
+.mp-formula-legend{margin-top:12px;border-top:1px solid #e0ebe3;color:#557060}
+.mp-formula-legend>summary{padding:9px 0 2px;font-size:10px;font-weight:650}
+.mp-formula-legend>div{padding:8px 12px;border-radius:7px;background:#f7faf8}
+.mp-formula-legend .knowledge-block{margin:0 0 7px!important}
+.mp-formula-legend .knowledge-block p{font-size:10px!important;line-height:1.7!important}
+@media(max-width:850px){.mh-process-flow,.mh-hierarchy-guide,.mh-structure,.mh-stage-detail{flex-direction:column}.mh-process-flow i,.mh-hierarchy-guide i,.mh-structure i,.mh-stage-detail i{align-self:center;transform:rotate(90deg)}.mh-process-flow a{min-height:82px;width:100%}.mh-hierarchy-guide>div,.mh-stage-detail>div{width:100%;min-height:75px}}

@@ -7,7 +7,7 @@ const originalPage = document.body.dataset.page;
 const root = document.querySelector('[data-page-root]');
 const header = document.querySelector('[data-site-header]');
 const footer = document.querySelector('[data-site-footer]');
-const dataVersion = '20260915-8';
+const dataVersion = '20260915-9';
 if (embedded) document.body.classList.add('embed-mode');
 
 const icons = {
@@ -51,7 +51,7 @@ function sectionHtml(section,index,mode='article'){const title=String(section.ti
 function topicDashboard(detail,sections){const blocks=sections.reduce((sum,section)=>sum+(section.blocks||[]).length,0),formulas=sections.reduce((sum,section)=>sum+(section.blocks||[]).filter(block=>block.type==='formula').length,0),tables=sections.reduce((sum,section)=>sum+(section.blocks||[]).filter(block=>block.type==='table'||/<table\b/i.test(block.content_cn||block.content||'')).length,0),primary=sections.map((section,index)=>({section,index,title:String(section.title_cn||section.title_en||'').replace(/^[•◦]\s*/,'')})).filter(item=>!/^[•◦]/.test(item.section.title_cn||'')).slice(0,6);return `<section class="topic-dashboard"><div class="dashboard-heading"><span>议题速览</span><h2>${esc(detail.title)}的方法结构</h2><p>${esc(detail.summary||'')}</p></div><div class="dashboard-facts"><article><small>所属支柱</small><strong>${esc(detail.pillar||'—')}</strong></article><article><small>所属主题</small><strong>${esc(detail.theme||'—')}</strong></article><article><small>内容结构</small><strong>${sections.length} 节 · ${blocks} 块</strong></article><article><small>结构化内容</small><strong>${formulas} 公式 · ${tables} 表格</strong></article></div><div class="dashboard-route">${primary.map((item,index)=>`<a href="#section-${item.index}"><span>${String(index+1).padStart(2,'0')}</span><strong>${esc(item.title)}</strong></a>`).join('')}</div></section>`;}
 function scoreMap(detail,sections){const find=pattern=>sections.findIndex(section=>pattern.test(String(section.title_cn||section.title_en||''))),rootIndex=find(/关键议题得分|总得分|最终得分/),exposureIndex=find(/敞口得分/),managementIndex=find(/管理得分/);if(rootIndex<0||exposureIndex<0||managementIndex<0)return'';const title=index=>String(sections[index].title_cn||sections[index].title_en||'').replace(/^[•◦]\s*/,'');return `<section class="carbon-map topic-score-map"><div class="map-intro"><span>评分结构</span><h2>先看懂${esc(detail.title)}如何计算</h2><p>从关键议题总分进入，分别查看风险敞口和管理能力的评价方法。</p></div><div class="score-map"><a class="score-root" href="#section-${rootIndex}"><small>综合结果</small><strong>${esc(title(rootIndex))}</strong><span>Key Issue Score</span></a><div class="map-relation">综合计算</div><div class="score-branches"><a class="score-branch exposure" href="#section-${exposureIndex}"><small>风险有多大</small><strong>${esc(title(exposureIndex))}</strong><span>业务敞口 · 地理敞口</span></a><a class="score-branch management" href="#section-${managementIndex}"><small>应对得怎样</small><strong>${esc(title(managementIndex))}</strong><span>政策 · 措施 · 目标 · 绩效</span></a></div></div></section>`;}
 function structuredSections(sections){let html='';for(let index=0;index<sections.length;index++){const title=String(sections[index].title_cn||sections[index].title_en||''),isChild=/^[•◦]/.test(title);if(isChild){html+=sectionHtml(sections[index],index,'card');continue;}let end=index+1;while(end<sections.length&&/^[•◦]/.test(String(sections[end].title_cn||sections[end].title_en||'')))end++;if(end>index+1){html+=`<section class="concept-group structured-relation">${sectionHtml(sections[index],index,'summary')}<div class="concept-connector"><span>${end-index-1} 项关联指标</span></div><div class="concept-card-grid">${sections.slice(index+1,end).map((section,offset)=>sectionHtml(section,index+1+offset,'card')).join('')}</div></section>`;index=end-1;continue;}html+=sectionHtml(sections[index],index);}return html;}
-function bindEnglish(){root.querySelectorAll('.bilingual').forEach(parent=>{const button=parent.querySelector(':scope > .en-trigger'),popover=parent.querySelector(':scope > .en-popover'),lastParagraph=parent.querySelector('.cn-content p:last-of-type');if(button&&popover&&lastParagraph&&!lastParagraph.contains(button)){lastParagraph.append(document.createTextNode(' '),button,popover);}if(button)button.addEventListener('click',()=>{const open=parent.classList.toggle('show-original');button.setAttribute('aria-expanded',String(open));});});}
+function bindEnglish(){root.querySelectorAll('.bilingual').forEach(parent=>{const button=parent.querySelector(':scope > .en-trigger'),popover=parent.querySelector(':scope > .en-popover'),lastParagraph=parent.querySelector('.cn-content p:last-of-type'),indicator=Boolean(parent.closest('.mp-indicator-detail'));if(button&&popover&&lastParagraph&&!indicator&&!lastParagraph.contains(button)){lastParagraph.append(document.createTextNode(' '),button,popover);}if(button)button.addEventListener('click',()=>{const open=parent.classList.toggle('show-original');button.setAttribute('aria-expanded',String(open));});});}
 const msciTitle=section=>String(section?.title_cn||section?.title_en||'').replace(/^[•◦■]\s*/, '').trim();
 const msciIsChild=section=>/^[•◦■]/.test(String(section?.title_cn||''));
 const msciPlain=value=>String(value||'').replace(/<[^>]+>/g,' ').replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/\s+/g,' ').trim();
@@ -72,7 +72,7 @@ async function renderSummaryTopic(){const standardId=params.get('standard'),id=p
 
 function narrativeModule(detail,standard,id){const sections=detail.sections||[],items=sections.map((section,index)=>[`module-${index}`,section.title||`第${index+1}节`,/^\d+\.\d+/.test(section.title||'')]);return `<div class="page">${crumb(`<a href="${href('standard.html',{id:'msci'})}">${esc(standard.title)}</a><span>/</span>${esc(detail.title)}`)}${darkHero(detail.title,id==='overview'?'梳理评级定位、评分层级、权重和评级计算。':'拆解数据获取、分析审核、发行人沟通和方法论治理流程。',[`${sections.length} 节完整内容`,standard.version&&`内容版本 ${standard.version}`],id==='overview'?'方法论总览':'评级流程')}<div class="reading-layout"><article class="reading-content reading-paper">${sections.map((section,index)=>`<section class="block msci-section" id="module-${index}"><h3>${esc(section.title||`第${index+1}节`)}</h3><div class="knowledge-block">${bilingual(`<div class="cn-content-body">${rich(section.content_cn||section.content||'')}</div>`,section.content_en||'')}</div></section>`).join('')}<details class="sample-source"><summary>来源与语言说明</summary><p>${esc(detail.sourceNote||'')}</p><p>${esc(detail.languageAlignmentNote||'')}</p></details></article>${toc(items)}</div></div>`;}
 function materialityMarkup(detail,standard){const issues=detail.issues||[],rows=detail.rows||[];return `<div class="page">${crumb(`<a href="${href('standard.html',{id:'msci'})}">${esc(standard.title)}</a><span>/</span>${esc(detail.title)}`)}${darkHero(detail.title,'按GICS板块与子行业查看关键议题权重，识别不同行业的重点风险与机会。',[`${rows.filter(row=>row.level==='Sector').length} 个板块`,`${rows.filter(row=>row.level==='Sub-industry').length} 个子行业`,`${issues.length} 类权重`],'行业权重映射')}<section class="block"><div class="materiality-toolbar"><input id="industry-search" type="search" placeholder="搜索行业名称或 GICS 编码"><select id="industry-level"><option value="Sector">先看板块</option><option value="Sub-industry">查看全部子行业</option><option value="all">板块与子行业</option></select><span id="industry-count"></span></div><div id="materiality-table"></div></section><details class="sample-source"><summary>来源与说明</summary><p>${esc(detail.sourceNote||'')}</p></details></div>`;}
-function materialityTable(rows,issues){return `<div class="materiality-wrap"><table class="materiality-table"><thead><tr><th>行业 / GICS</th>${issues.map(issue=>`<th>${esc(issue)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr><th><b>${esc(row.industry_cn||row.industry)}</b><small>${esc(row.level)} · ${esc(row.gics_code)}</small></th>${issues.map(issue=>{const value=(row.weights||{})[issue];return `<td class="${value>=.2?'weight-high':value>=.05?'weight-mid':value>0?'weight-low':''}">${value==null?'—':`${(value*100).toFixed(1)}%`}</td>`;}).join('')}</tr>`).join('')}</tbody></table></div>`;}
+function materialityTable(rows,issues){return `<div class="materiality-wrap"><table class="materiality-table"><thead><tr><th>行业层级 / GICS</th>${issues.map(issue=>`<th>${esc(issue)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr class="${row.level==='Sector'?'mh-sector-row':'mh-child-row'}"><th><b>${row.level==='Sector'?'▣ ':'└ '}${esc(row.industry_cn||row.industry)}</b><small>${row.level==='Sector'?'板块 · 两位代码':'子行业 · 八位代码'} · ${esc(row.gics_code)}</small></th>${issues.map(issue=>{const value=(row.weights||{})[issue];return `<td class="${value>=.2?'weight-high':value>=.05?'weight-mid':value>0?'weight-low':''}">${value==null?'—':`${(value*100).toFixed(1)}%`}</td>`;}).join('')}</tr>`).join('')}</tbody></table></div>`;}
 async function renderModule(){
   const id=params.get('id');
   if(!/^(overview|process|materiality)$/.test(id||''))throw new Error('未找到这个方法论模块');
@@ -91,15 +91,18 @@ async function renderModule(){
     bindEnglish();
     return;
   }
-  const rows=detail.rows||[],issues=detail.issues||[],search=root.querySelector('#industry-search'),level=root.querySelector('#industry-level'),count=root.querySelector('#industry-count'),host=root.querySelector('#materiality-table');
+  const rows=detail.rows||[],issues=detail.issues||[],search=root.querySelector('#industry-search'),level=root.querySelector('#industry-level'),sector=root.querySelector('#industry-sector'),path=root.querySelector('#industry-path'),count=root.querySelector('#industry-count'),host=root.querySelector('#materiality-table');
   function update(){
-    const query=search.value.trim().toLowerCase(),selected=level.value;
-    const filtered=rows.filter(row=>(selected==='all'||row.level===selected)&&(!query||`${row.industry_cn||''} ${row.industry||''} ${row.gics_code||''}`.toLowerCase().includes(query)));
-    count.textContent=`显示 ${filtered.length} 行`;
+    const query=search.value.trim().toLowerCase(),selected=level.value,sectorCode=sector?.value||'';
+    const sectorRow=rows.find(row=>row.level==='Sector'&&row.gics_code===sectorCode);
+    const filtered=rows.filter(row=>row.gics_code.startsWith(sectorCode)&&(selected==='all'||row.level===selected)&&(!query||`${row.industry_cn||''} ${row.industry||''} ${row.gics_code||''}`.toLowerCase().includes(query)));
+    if(path)path.textContent=`${sectorRow?.industry_cn||sectorRow?.industry||'板块'}（${sectorCode}） → ${rows.filter(row=>row.level==='Sub-industry'&&row.gics_code.startsWith(sectorCode)).length} 个子行业 → 关键议题权重`;
+    count.textContent=`当前显示 ${filtered.length} 行`;
     host.innerHTML=materialityTable(filtered,issues);
   }
   search.addEventListener('input',update);
   level.addEventListener('change',update);
+  sector?.addEventListener('change',update);
   update();
 }
 
@@ -107,7 +110,46 @@ async function renderNews(){renderChrome('news','知识资讯');root.innerHTML=`
 async function renderArticle(){renderChrome('news','知识资讯 / 内容导读');root.innerHTML=`<div class="page">${crumb(`<a href="${href('news.html')}">知识资讯</a><span>/</span>内容导读`)}<div class="reading-layout"><article class="reading-content reading-paper"><div class="article-heading"><span class="eyeline">内容导读</span><h1>一项方法论更新，应该怎么看？</h1><p class="article-deck">把“变了什么”“影响哪里”和“依据是什么”分开，才能判断是否需要调整已有知识和实际工作。</p></div><section class="block msci-section" id="article-1"><h3>先确认更新身份</h3><p>核对发布机构、文件名称、版本日期和适用范围，区分正式版本、征求意见稿、说明材料和历史文件。</p></section><section class="block msci-section" id="article-2"><h3>再定位具体变化</h3><p>记录新增、删除和修改的章节，关联到公式、指标、行业权重或披露要求，避免只记录“版本已更新”。</p></section><section class="block msci-section" id="article-3"><h3>最后更新知识关系</h3><p>判断哪些方法论页面、知识卡片和项目模板受到影响，保留旧版本记录并标明重新核对的范围。</p></section></article>${toc([['article-1','确认更新身份'],['article-2','定位具体变化'],['article-3','更新知识关系']])}</div></div>`;bindToc();}
 async function renderUpdates(){const manifest=await json('data/manifest.json');renderChrome('updates','版本与来源');root.innerHTML=`<div class="page">${crumb('版本与来源')}<div class="doc-heading"><div><span class="eyeline">内容维护</span><h1>版本与参考资料</h1><p>查看各套方法论页面采用的版本、更新时间和发布机构。</p></div></div><div class="records-content"><section class="block"><div class="block-title"><h2>当前内容版本</h2></div><div class="data-table"><table class="version-table"><thead><tr><th>内容</th><th>发布机构</th><th>版本</th><th>更新时间</th><th>入口</th></tr></thead><tbody>${manifest.standards.map(item=>`<tr><th>${esc(item.title)}</th><td>${esc(item.issuer||'')}</td><td>${esc(item.version||'')}</td><td>${esc(item.updated||'')}</td><td><a href="${href('standard.html',{id:item.id})}">查看拆解 →</a></td></tr>`).join('')}</tbody></table></div></section></div></div>`;}
 
+async function attachReaderNavigation(){
+  const page=originalPage,standardId=params.get('standard'),id=params.get('id');
+  let parent=null,next=null;
+  if(page==='standard'){
+    parent=['知识学堂',href('index.html')];
+    const methodId=id||'msci';
+    if(methodId==='msci')next=['方法论总览',href('module.html',{standard:'msci',id:'overview'})];
+    else{
+      const method=await json(`data/${methodId}.json`);
+      const first=method.groups?.flatMap(group=>group.items||[])[0];
+      if(first)next=[first.title,href('topic.html',{standard:methodId,id:first.id})];
+    }
+  }
+  else if(page==='module'){parent=['MSCI 方法论',href('standard.html',{id:'msci'})];const order=['overview','process','materiality'];const index=order.indexOf(id);next=index<2?[["评级流程","行业权重映射"][index],href('module.html',{standard:'msci',id:order[index+1]})]:['首个关键议题',href('topic.html',{standard:'msci',id:'MSCI-ENV-01'})];}
+  else if(page==='topic'){
+    parent=[standardId==='msci'?'MSCI 方法论':'方法论目录',href('standard.html',{id:standardId||'msci'})];
+    if(/^(msci|ashare|hkex|csa)$/.test(standardId||'')){
+      const standard=await json(`data/${standardId}.json`);
+      const ordered=standard.groups.flatMap(group=>group.items||[]);
+      const current=ordered.findIndex(item=>item.id===id);
+      const following=ordered[current+1];
+      if(following)next=[following.title,href('topic.html',{standard:standardId,id:following.id})];
+      else if(standardId==='msci')next=['方法论总览',href('module.html',{standard:'msci',id:'overview'})];
+      else next=['返回方法论目录',href('standard.html',{id:standardId})];
+    }
+  }else if(page==='home'){next=['MSCI 方法论',href('standard.html',{id:'msci'})];}
+  else if(page==='news'){parent=['知识学堂',href('index.html')];next=['一项更新应该怎么看',href('article.html',{id:'how-to-read-updates'})];}
+  else if(page==='article'){parent=['知识资讯',href('news.html')];next=['版本与参考资料',href('updates.html')];}
+  else if(page==='updates'){parent=['知识学堂',href('index.html')];next=['MSCI 方法论',href('standard.html',{id:'msci'})];}
+  const back=parent?`<a href="${parent[1]}">← 返回${esc(parent[0])}</a>`:'';
+  const forward=next?`<a class="reader-next" href="${next[1]}">继续下一知识点：${esc(next[0])} →</a>`:'';
+  const endNav=`<nav class="reader-end-nav" aria-label="阅读导航"><button type="button" data-reader-top>↑ 返回顶部</button>${back}${forward}</nav>`;
+  const ownFooter=root.querySelector('.mp-footer');
+  if(ownFooter)ownFooter.insertAdjacentHTML('beforebegin',endNav);
+  else root.insertAdjacentHTML('beforeend',endNav);
+  if(parent)root.insertAdjacentHTML('beforeend',`<aside class="reader-float"><a href="${parent[1]}" aria-label="返回${esc(parent[0])}"><span>↩</span><b>返回${esc(parent[0])}</b></a></aside>`);
+  root.querySelector('[data-reader-top]')?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+}
+
 const handlers={home:renderHome,standard:renderStandard,topic:renderTopic,module:renderModule,news:renderNews,article:renderArticle,updates:renderUpdates};
 renderChrome();
-(handlers[originalPage]||(()=>Promise.reject(new Error('页面类型无效'))))().catch(error=>errorState(error.message));
+(handlers[originalPage]||(()=>Promise.reject(new Error('页面类型无效'))))().then(attachReaderNavigation).catch(error=>errorState(error.message));
 })();

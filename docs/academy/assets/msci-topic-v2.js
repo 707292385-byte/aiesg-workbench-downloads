@@ -114,7 +114,7 @@
       </section>`;
   }
 
-  function formulaSection(sections, renderLatex, esc, number) {
+  function formulaSection(sections, renderLatex, renderBlock, esc, number) {
     const items = sections
       .map((section, index) => ({ section, index, formula: (section.blocks || []).find(block => block.type === 'formula') }))
       .filter(item => item.formula)
@@ -124,7 +124,12 @@
       <section class="mp-section" id="formulas">
         <div class="mp-section-head"><div class="mp-section-title"><span>${sectionNumber(number)}</span><h2>关键计算方法</h2></div><p>先看计算关系，完整变量说明保留在核心内容中</p></div>
         <div class="mp-formula-grid">${items.map(item => `
-          <article class="mp-formula-card mp-card"><header><h3>${esc(cleanTitle(item.section))}</h3><span>计算关系</span></header><div class="mp-formula">${renderLatex(item.formula.content)}</div><p>${esc(short(firstText(item.section), 190))}</p></article>`).join('')}
+          <article class="mp-formula-card mp-card"><header><h3>${esc(cleanTitle(item.section))}</h3><span>计算关系</span></header><div class="mp-formula">${renderLatex(item.formula.content)}</div><p>${esc(short(firstText(item.section), 190))}</p>${(() => {
+            const blocks = item.section.blocks || [];
+            const formulaIndex = blocks.indexOf(item.formula);
+            const explanation = blocks.slice(formulaIndex + 1).filter(block => ['text', 'list'].includes(block.type) && !/^(其中[：:]?\s*)?$/.test(String(block.content_cn || '').trim())).slice(0, 5);
+            return explanation.length ? `<details class="mp-formula-legend"><summary>查看符号与变量说明</summary><div>${explanation.map((block, index) => renderBlock(block, `formula-note-${item.index}-${index}`)).join('')}</div></details>` : '';
+          })()}</article>`).join('')}
         </div>
       </section>`;
   }
@@ -150,7 +155,7 @@
     return `
       <section class="mp-section" id="sources">
         <div class="mp-section-head"><div class="mp-section-title"><span>${sectionNumber(number)}</span><h2>来源与使用说明</h2></div><p>正式工作请回到发布机构现行文件核对</p></div>
-        <div class="mp-source-grid">${cards}<article class="mp-source-card mp-card"><h3>内容说明</h3><p>${esc(detail.sourceNote || '')}</p><p>${esc(detail.status || '')}</p></article></div>
+        <div class="mp-source-grid">${cards}<article class="mp-source-card mp-card"><h3>版本与参考</h3><p>${esc(detail.titleEn || detail.title)}：参考 MSCI 官网 ${/June\s*2026/i.test(detail.sourceNote || '') ? '2026 年 6 月' : '2026 年 3 月'}资料。方法论可能更新，请以 MSCI 现行文件为准。</p></article></div>
         <p class="mp-translation-note">由AI翻译，仅供参考。段落后的 EN 可查看对应英文。</p>
       </section>`;
   }
@@ -189,7 +194,7 @@
     if (hasScore) bodySections.push(scoreSection(sections, renderLatex, esc, number++, score));
     if (hasRisk) bodySections.push(riskSection(sections, esc, number++));
     if (hasFramework) bodySections.push(frameworkSection(sections, groups, esc, number++));
-    if (hasFormulas) bodySections.push(formulaSection(sections, renderLatex, esc, number++));
+    if (hasFormulas) bodySections.push(formulaSection(sections, renderLatex, renderBlock, esc, number++));
     if (hasIndicators) bodySections.push(indicatorSection(sections, groups, renderBlock, esc, number++));
     bodySections.push(sourceSection(detail, sections, sourceIndices, renderBlock, esc, number));
 
