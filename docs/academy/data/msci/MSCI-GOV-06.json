@@ -1,0 +1,200 @@
+{
+  "id": "MSCI-GOV-06",
+  "title": "税务透明度",
+  "titleEn": "Tax Transparency",
+  "summary": "评估公司税务策略透明度、避税风险与国别报告披露水平。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "企业行为",
+  "themeEn": "Corporate Behavior",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Tax Transparency Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Tax Transparency is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on their estimated corporate tax gap (see below), revenue-reporting transparency and their involvement in tax-related controversies.",
+          "content_cn": "本文件介绍税务透明度关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。税务透明度属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖估算企业税负差额（见下文）、收入报告透明度，以及涉及税务相关争议的情况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A company's estimated tax gap will only affect its 0-10 Corporate Behavior Theme Score and its 0-10 Governance Pillar Score when it is involved in an ongoing tax-related controversy. Because the estimated tax gap is an approximation and does not consider the unique circumstances of a company's tax structure, ongoing tax controversies are used to improve the level of conviction in an estimated negative tax gap.",
+          "content_cn": "公司的估算税负差额，仅在涉及持续中的税务相关争议时，才影响其 0—10 分的企业行为主题得分和 0—10 分的治理支柱得分。由于估算税负差额是近似值，未考虑公司税务结构的独特情况，因此使用持续税务争议，提高对负税负差额估算结果的确信程度。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Tax Transparency Key Issue Score",
+      "title_cn": "税务透明度关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the following Key Metric using the methodology described in Section 3.5.4, Calculating Governance Scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》第 3.5.4 节“治理得分计算”所述方法，基于以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "该关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Category: Controversies",
+      "title_cn": "类别：争议",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tax Controversies Key Metric",
+          "content_cn": "税务争议关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Tax Controversies Key Metric — Definition",
+      "title_cn": "税务争议关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the company's involvement in ongoing tax-related controversies.",
+          "content_cn": "表明公司涉及持续中的税务相关争议的情况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on controversy type and assessment.",
+          "content_cn": "典型计分贡献：根据争议类型及评估结果变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0 to -2.0",
+          "content_cn": "范围：0 至 -2.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refer to the Tax Controversy Deduction Key, below.",
+          "content_cn": "参见下文“税务争议扣分对照表”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Tax Controversy Deduction Key",
+      "title_cn": "税务争议扣分对照表",
+      "blocks": [
+        {
+          "type": "table",
+          "content": "<table><tr><th>Involvement in tax controversies</th><th>Estimated tax gap</th><th>Tax gap assessment</th><th>Deduction</th><th>Tax Transparency score</th></tr><tr><td>Yes</td><td>5% or below</td><td>Low</td><td>-0.8</td><td>6</td></tr><tr><td>Yes</td><td>5–10%</td><td>Medium</td><td>-1.4</td><td>3</td></tr><tr><td>Yes</td><td>Above 10%</td><td>High</td><td>-2</td><td>0</td></tr><tr><td>No</td><td>5% or below</td><td>Low</td><td>0</td><td>10</td></tr><tr><td>No</td><td>5–10%</td><td>Medium</td><td>0</td><td>10</td></tr><tr><td>No</td><td>Above 10%</td><td>High</td><td>0</td><td>10</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-TAX-TRANSPARENCY",
+            "pages": [
+              5
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>是否涉及税务争议</th><th>估算税负差额</th><th>税负差额评估</th><th>扣分</th><th>税务透明度得分</th></tr><tr><td>是</td><td>5% 或以下</td><td>低</td><td>-0.8</td><td>6</td></tr><tr><td>是</td><td>5–10%</td><td>中</td><td>-1.4</td><td>3</td></tr><tr><td>是</td><td>高于 10%</td><td>高</td><td>-2</td><td>0</td></tr><tr><td>否</td><td>5% 或以下</td><td>低</td><td>0</td><td>10</td></tr><tr><td>否</td><td>5–10%</td><td>中</td><td>0</td><td>10</td></tr><tr><td>否</td><td>高于 10%</td><td>高</td><td>0</td><td>10</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Estimated Tax Gap",
+      "title_cn": "估算税负差额",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The estimated tax gap is calculated as the difference between:",
+          "content_cn": "估算税负差额计算为以下两者之差：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "Estimated effective tax rate: the estimated rate of taxes actually paid, based on the five-year annual average effective tax rate.",
+          "content_cn": "估计有效税率：基于五年年度平均有效税率，估计公司实际缴纳税款对应的税率。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-TAX-TRANSPARENCY",
+            "pages": [
+              5
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "Estimated statutory tax rate: the estimated total rate payable based on the countries and regions from which the company derives revenue.",
+          "content_cn": "估计法定税率：根据公司收入来源国家和地区，估计公司应缴税款对应的总税率。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-TAX-TRANSPARENCY",
+            "pages": [
+              5
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Tax Transparency Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/tax-transparency-key-issue.pdf",
+    "current_official_sha256": "f5fd41d4c4c470ffaf513f6166bdf5ad088dcdbb9be96699602800a4fb6c55f5",
+    "legacy_extraction_version": "July 2023",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

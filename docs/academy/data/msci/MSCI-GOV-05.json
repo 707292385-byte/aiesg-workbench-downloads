@@ -1,0 +1,1136 @@
+{
+  "id": "MSCI-GOV-05",
+  "title": "薪酬",
+  "titleEn": "Pay",
+  "summary": "评估公司高管薪酬与长期业绩的挂钩程度、薪酬披露透明度与股东话语权。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "公司治理",
+  "themeEn": "Corporate Governance",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Pay Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Pay is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on CEO and other executive-pay practices, including specific pay figures, where disclosed. Pay is scored primarily based on levels of pay relative to peers, as well as specific features of the pay program design.",
+          "content_cn": "本文件介绍薪酬关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。薪酬属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖首席执行官及其他高管的薪酬实践，包括已披露的具体薪酬金额。评分主要依据相对于同行的薪酬水平，以及薪酬计划设计的具体特征。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Key Issue Score",
+      "title_cn": "薪酬关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the aggregation of the following Key Metrics using the methodology described in Section 3.5.4, Calculating Governance Scores, of “ESG Ratings Methodology.”",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》第 3.5.4 节“治理得分计算”所述方法，汇总以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Each Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "每项关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some Key Metrics are relevant only to companies with specific governance characteristics stemming from ownership type, management structure or other factors. Companies are distinguished by the type of issuer, indicated by the scope of each Key Metric below.",
+          "content_cn": "部分关键指标仅适用于因所有权类型、管理结构或其他因素而具有特定治理特征的公司。公司按发行人类型区分，各关键指标的适用范围如下所示。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Equity Policy Key Metric — Definition",
+      "title_cn": "首席执行官股权政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "If the CEO does not hold a significant number of shares, has the company failed to adopt effective stock ownership guidelines or an equity retention policy for the CEO?",
+          "content_cn": "若首席执行官未持有大量股份，公司是否未为其制定有效持股指引或股权保留政策？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A significant number of shares is defined as either shares worth at least 5x base salary or USD 5 million or shares representing 1% of outstanding shares.",
+          "content_cn": "大量股份定义为：价值至少等于基本工资 5 倍或 500 万美元的股份，或占流通股份 1% 的股份。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Effective stock ownership guidelines include requirements to hold shares worth at least 5x base salary. Effective equity retention requirements include requirements to hold at least 50% of vested equity.",
+          "content_cn": "有效持股指引包括要求持有价值至少为基本工资 5 倍的股份。有效股权保留要求包括保留至少 50% 的已归属股权。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Equity Changes Key Metric — Definition",
+      "title_cn": "首席执行官持股变化关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the number of shares held by the CEO (after adjustment for any corporate actions) decreased year over year by 10% or more?",
+          "content_cn": "首席执行官持股数量在调整公司行动影响后，是否同比减少 10% 或以上？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric excludes CEOs with less than two years' tenure.",
+          "content_cn": "该指标不包括任期不足两年的首席执行官。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Long-Term Pay Performance Key Metric — Definition",
+      "title_cn": "长期薪酬与绩效关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the CEO's equity pay fail to reflect the company's total shareholder return (TSR) performance over the last three and five years?",
+          "content_cn": "首席执行官的股权薪酬是否未能反映公司过去三年及五年的股东总回报表现？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This is flagged if any vested stock and option gains reported for the company's CEO are greater than zero during a year when the company is showing negative 3-year and 5-year TSR.",
+          "content_cn": "若公司三年和五年股东总回报均为负值的年度中，报告的首席执行官已归属股票及期权收益仍大于零，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Long-Term Pay Performance Versus Peers Key Metric — Definition",
+      "title_cn": "长期薪酬与同业相对绩效关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the CEO's equity pay fail to reflect the company's TSR performance over the last three and five years relative to its Pay Peer Group?",
+          "content_cn": "首席执行官的股权薪酬是否未能反映公司过去三年及五年相对于薪酬同业组的股东总回报表现？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This is flagged if any vested stock and option gains reported for the company's CEO are greater than zero during a year when the company's 3-year and 5-year TSR fall below the median for its Pay Peer Group (see Pay Peer Groups, below).",
+          "content_cn": "若公司三年和五年股东总回报均低于薪酬同业组中位数的年度中，报告的首席执行官已归属股票及期权收益仍大于零，则作出标记，参见下文“薪酬同业组”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Short-Term Pay Performance Key Metric — Definition",
+      "title_cn": "短期薪酬与绩效关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Did the CEO's annual incentives fail to rise or fall in line with annual performance for the last reported period?",
+          "content_cn": "最近报告期内，首席执行官年度激励是否未随年度业绩相应升降？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The four test metrics used are net income, basic normalized earnings per share (EPS), total revenue and total assets. This metric is flagged if:",
+          "content_cn": "采用的四项测试指标为净利润、标准化基本每股收益、总收入和总资产。以下情况触发标记：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- CEO's reported total short-term incentives are greater than zero and two or more of the four test metrics listed above have decreased year-on-year; or",
+          "content_cn": "• 报告的首席执行官短期激励总额大于零，且上述四项指标中至少两项同比下降；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Total short-term incentives increased and only one metric increased year-on-year; or",
+          "content_cn": "• 短期激励总额增加，但仅有一项指标同比增加；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Total short-term incentives increased year-on-year and all four metrics decrease; or",
+          "content_cn": "• 短期激励总额同比增加，且四项指标全部下降；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Total short-term incentives remain the same (for non-zero amounts) and two or three metrics decreased year-on-year.",
+          "content_cn": "• 短期激励总额保持不变且不为零，而两项或三项指标同比下降。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\"Total short-term incentives\" for the purpose of this Key Metric include any bonus (in the U.S. including \"Non-Equity Incentive Compensation\"), whether delivered in the form of cash, shares, shares subject to a holding period prior to release, bonus waived into pension or other form of delivery.",
+          "content_cn": "本关键指标中的“短期激励总额”包括任何奖金，在美国包括“非股权激励薪酬”，不论以现金、股份、需持有一段时间后释放的股份、转入养老金的奖金或其他形式交付。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Linked to Sustainability Key Metric — Definition",
+      "title_cn": "薪酬与可持续发展挂钩关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to incorporate links to sustainability performance in its current executive pay policies?",
+          "content_cn": "公司现行高管薪酬政策是否未与可持续发展绩效挂钩？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is based entirely on the company's own reporting. It considers whether one or more sustainability metrics are used to determine annual and/or long-term incentive pay policy and does not consider the effectiveness of those metrics. This metric is evaluated for the CEO and/or other executive directors. Companies that do not issue any incentive pay will also be flagged under this Key Metric.",
+          "content_cn": "该指标完全依据公司自身报告，考察是否使用一项或多项可持续发展指标确定年度和／或长期激励薪酬政策，不评估这些指标的有效性。评估对象为首席执行官和／或其他执行董事。完全不发放激励薪酬的公司也会被标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers other than externally managed companies. $^{1}$",
+          "content_cn": "适用范围：除外部管理公司之外的所有发行人。$^{1}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Clawbacks & Malus Key Metric — Definition",
+      "title_cn": "薪酬追回与扣减关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Where the company offers variable or incentive pay, has the company failed to adopt a clawback policy, applicable to both the annual and long-term incentives, that would recoup incentive pay based on accounts that were restated at a later date?",
+          "content_cn": "若公司提供浮动或激励薪酬，是否未制定同时适用于年度和长期激励的追回政策，以收回依据后来被重述的财务报表授予的激励薪酬？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The absence of a formal clawback policy may weaken the board's legal standing in cases where senior executives have been granted incentive awards on the basis of fraudulent or simply erroneous data.",
+          "content_cn": "当高管依据欺诈或错误数据获得激励奖励时，缺少正式追回政策可能削弱董事会的法律地位。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Golden Hellos Key Metric — Definition",
+      "title_cn": "高额入职奖励关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has there been public criticism from stakeholders of golden hellos provided by the company to its CEO or other senior executives?",
+          "content_cn": "公司向首席执行官或其他高管提供的高额入职奖励，是否受到利益相关方公开批评？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A golden hello is considered to be any first-year pay award for external hires in excess of one year's total remuneration in normal circumstances, regardless of form.",
+          "content_cn": "高额入职奖励指向外部新聘人员授予的、超过正常情况下全年总薪酬的首年薪酬奖励，不论形式。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The scope of this Key Metric extends to any CEO; any member of the management board in a two-tier board structure; any executive member of the board of directors in a unitary board structure or where a board of directors/board of auditors structure is in place; or any of the top five executives (U.S. – named executive officers).",
+          "content_cn": "该指标涵盖任何首席执行官；双层董事会结构中的任何管理董事会成员；单层董事会结构或董事会／审计监督机构结构中的任何执行董事；或前五名高管，在美国指列名高管。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Controversy Key Metric — Definition",
+      "title_cn": "薪酬争议关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Have the company's pay policies or practices attracted adverse public comment from stakeholders (including shareholders, government, regulators, etc.)?",
+          "content_cn": "公司的薪酬政策或实践是否引发利益相关方的负面公开评论，包括股东、政府和监管机构等？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.5，严重 1.0，极严重 2.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Significant Vote Against Pay Practices Key Metric — Definition",
+      "title_cn": "薪酬实践遭显著反对票关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "For the most recently reported period, did the company receive a negative vote in excess of 10% on its pay policies and practices, or were relevant proposals withdrawn or adjourned?",
+          "content_cn": "最近报告期内，公司薪酬政策与实践是否获得超过 10% 的反对性票数，或相关议案是否被撤回或延期？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is intended to measure shareholder dissatisfaction with the company's executive pay practices. A “negative vote” includes any of against, withhold or abstain votes.",
+          "content_cn": "该指标旨在衡量股东对公司高管薪酬实践的不满。“反对性票数”包括反对、保留支持及弃权票。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on resolution outcome, vote data and consecutive years:",
+          "content_cn": "典型计分贡献：根据决议结果、投票数据及连续年度情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.05 to 0.5",
+          "content_cn": "范围：0.05 至 0.5",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.158",
+          "content_cn": "平均值：0.158",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Executive Pay Disclosure Key Metric — Definition",
+      "title_cn": "高管薪酬披露关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to disclose specific pay totals for its top executives, including the CEO? Flagged if yes.",
+          "content_cn": "公司是否未披露包括首席执行官在内的最高层高管的具体薪酬总额？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This is the most basic test in this area, and as such, carries considerable weight when invoked, as it must serve in the place of several of the other metrics normally applied in this area.",
+          "content_cn": "这是该领域最基本的测试，因此触发时权重较大，因为它必须替代通常在该领域采用的若干其他指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Disclosure must include, at minimum, pay for all executive members of the board of directors (or management board for companies with a two-tier board structure) on an individualized basis or in cases where there are no executive members, the CEO. The individualized disclosure should include separate information on the amount of each of the following (where such a component is provided): salary, short-term incentives, long-term incentives, pensions, benefits, one-off payments (such as recruitment or retention awards).",
+          "content_cn": "披露至少须逐人列出董事会所有执行成员的薪酬，双层结构公司则为管理董事会成员；若无执行成员，则披露首席执行官薪酬。逐人披露应分别列明以下各项金额（如提供）：工资、短期激励、长期激励、养老金、福利及一次性付款，例如招聘或留任奖励。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on executive pay disclosure: CEO pay not disclosed 1.2; CEO pay disclosed, other executive pay not disclosed 0.1",
+          "content_cn": "典型计分贡献：根据高管薪酬披露情况变化：未披露首席执行官薪酬为 1.2；已披露首席执行官薪酬但未披露其他高管薪酬为 0.1。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay Total Realized Key Metric — Definition",
+      "title_cn": "首席执行官实际实现薪酬总额关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the most recently reported total realized CEO pay figure fall into an extreme range relative to the company's pay peer group? $^{2}$",
+          "content_cn": "最近报告的首席执行官实际实现薪酬总额，相对于公司薪酬同业组是否处于极端区间？$^{2}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if CEO total actual pay falls within the top decile of CEO realized pay values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+          "content_cn": "若首席执行官实际薪酬总额位于公司薪酬同业组首席执行官实际实现薪酬的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay Total Awarded Key Metric — Definition",
+      "title_cn": "首席执行官获授薪酬总额关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the most recently reported total awarded CEO pay figure fall into an extreme range relative to the company's pay peer group?",
+          "content_cn": "最近报告的首席执行官获授薪酬总额，相对于公司薪酬同业组是否处于极端区间？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if CEO total awarded pay falls within the top decile of CEO total awarded pay values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+          "content_cn": "若首席执行官获授薪酬总额位于公司薪酬同业组相应金额的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay Total Fixed Key Metric — Definition",
+      "title_cn": "首席执行官固定薪酬总额关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the most recently reported total fixed CEO pay figure fall into an extreme range relative to the company's pay peer group?",
+          "content_cn": "最近报告的首席执行官固定薪酬总额，相对于公司薪酬同业组是否处于极端区间？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if CEO total fixed pay falls within the top decile of CEO total fixed pay values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+          "content_cn": "若首席执行官固定薪酬总额位于公司薪酬同业组相应金额的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay Perks & Other Pay Key Metric — Definition",
+      "title_cn": "首席执行官额外福利与其他薪酬关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the most recently reported CEO perquisites (perks) and other pay figure exceed the stated MSCI ESG Research thresholds?",
+          "content_cn": "最近报告的首席执行官额外福利与其他薪酬金额，是否超过 MSCI ESG 研究规定的门槛？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if the perks reported exceed:",
+          "content_cn": "若报告的额外福利超过以下门槛，则作出标记：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• USD 200k for companies with market cap exceeding USD 100 billion.",
+          "content_cn": "• 市值超过 1,000 亿美元的公司：200,000 美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• USD 150k for companies with market cap between USD 10 billion and 100 billion.",
+          "content_cn": "• 市值介于 100 亿至 1,000 亿美元的公司：150,000 美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• USD 120k for companies with market cap between USD 4 billion and 10 billion.",
+          "content_cn": "• 市值介于 40 亿至 100 亿美元的公司：120,000 美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• USD 90k for companies with market cap between USD 340 million and 4 billion.",
+          "content_cn": "• 市值介于 3.4 亿至 40 亿美元的公司：90,000 美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• USD 75k for companies with market cap below USD 340 million.",
+          "content_cn": "• 市值低于 3.4 亿美元的公司：75,000 美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay NQDC Key Metric — Definition",
+      "title_cn": "指标定义：CEO Pay NQDC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the pension contribution rate (defined contribution amount [CEO NQDC] divided by salary) made by the company on behalf of the CEO excessive relative to the company's pay peer group?",
+          "content_cn": "公司为首席执行官缴纳的养老金缴费率，即确定缴费金额［首席执行官非合格递延薪酬（NQDC）］除以工资，相对于薪酬同业组是否过高？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if the CEO's pension contribution rate falls within the top decile of all such values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+          "content_cn": "若首席执行官养老金缴费率位于公司薪酬同业组相应数值的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEO Pay Pension Key Metric — Definition",
+      "title_cn": "首席执行官养老金关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the most recently reported CEO accumulated pension figure (divided by the number of years of pensionable service) excessive relative to the company's pay peer group?",
+          "content_cn": "最近报告的首席执行官累计养老金金额除以可计养老金服务年数，相对于公司薪酬同业组是否过高？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if the CEO's (total accumulated pension/years served) figure falls within the top decile of all such values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.",
+          "content_cn": "若首席执行官累计养老金总额除以服务年数的数值，位于公司薪酬同业组相应数值的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Internal Pay Equity Key Metric — Definition",
+      "title_cn": "内部薪酬公平性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the CEO's total awarded pay for the last reported period exceed the median pay for the other named executive officers by more than 3x?",
+          "content_cn": "最近报告期内，首席执行官获授薪酬总额是否超过其他列名高管薪酬中位数的 3 倍？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Another coarse measure of pay alignment and effectiveness, this metric is used to identify any anomalies in overall executive pay practices that might favor the CEO over the rest of the company's senior management team.",
+          "content_cn": "这是薪酬匹配度和有效性的另一项粗略衡量指标，用于识别整体高管薪酬实践中可能偏向首席执行官、而非其他高管团队成员的异常情况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Golden Parachutes Key Metric — Definition",
+      "title_cn": "金色降落伞关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the CEO's potential cash severance pay exceed five times their annual pay?",
+          "content_cn": "首席执行官潜在现金离职补偿是否超过其年度薪酬的五倍？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.3",
+          "content_cn": "典型计分贡献：0.3",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Severance Vesting Key Metric — Definition",
+      "title_cn": "离职时股权归属关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are unvested equity awards still eligible for vesting when the CEO's employment is terminated? Flagged if yes.",
+          "content_cn": "首席执行官雇佣关系终止时，尚未归属的股权奖励是否仍有资格归属？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is designed to help in evaluating the board's effectiveness in aligning the interests of the CEO and other senior executives with those of the company's investors.",
+          "content_cn": "该指标旨在帮助评估董事会使首席执行官及其他高管利益与公司投资者利益保持一致的有效性。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Category: Equity Plan Dilution",
+      "title_cn": "类别：股权计划稀释",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Dilution Concerns Key Metric",
+          "content_cn": "股权稀释疑虑关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Dilution Concerns Key Metric — Definition",
+      "title_cn": "股权稀释疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the potential dilution in the company's traded shares $10\\%$ or greater?",
+          "content_cn": "公司交易股份的潜在稀释是否达到或超过 $10\\%$？",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged if yes.",
+      "title_cn": "若是，则作出标记。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Dilution is defined as the percentage of company shares the board has set aside for use in granting incentive awards. The 10% dilution threshold is used regardless of company size.",
+          "content_cn": "稀释定义为董事会预留用于授予激励奖励的公司股份比例。不论公司规模，均采用 10% 的稀释门槛。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Run Rate Concerns Key Metric — Definition",
+      "title_cn": "股权授予率疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company's current run rate $2 \\%$ or more?",
+          "content_cn": "公司当前股权授予率是否达到或超过 $2 \\%$？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Run rate is defined as the percentage of company shares actually granted as incentive awards during the most recently reported period. The 2% run rate threshold is used regardless of company size.",
+          "content_cn": "股权授予率定义为最近报告期内实际作为激励奖励授予的公司股份比例。不论公司规模，均采用 2% 的门槛。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Director Equity Policy Key Metric — Definition",
+      "title_cn": "董事股权政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to adopt specific stock ownership guidelines for non-executive directors? Flagged if yes.",
+          "content_cn": "公司是否未为非执行董事制定具体持股指引？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Another relatively coarse but effective indicator, this metric does not evaluate the effectiveness of such standards, but simply whether the company has formally announced a policy in this area.",
+          "content_cn": "这也是一项相对粗略但有效的指标，不评估相关标准的有效性，仅考察公司是否正式公布了该领域的政策。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: Equity issuers",
+      "title_cn": "适用范围：股权发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Total Pay Components",
+      "title_cn": "薪酬总额组成",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Exhibit 2: Total pay components",
+          "content_cn": "图表 2：薪酬总额组成",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td></td><td>Component</td><td>Total Fixed</td><td>Total Annual</td><td>Total Awarded (&quot;Summary&quot;)</td><td>Total Realized</td></tr><tr><td rowspan=\"4\">Fixed Pay</td><td>Salary (in respect of employment/executive role)</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>Fees (in respect of directorship)</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>Pension</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>All Other Compensation</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td rowspan=\"4\">Variable Pay</td><td>Short-term Incentives:Cash Bonus &amp; Other Non-Equity Incentive Plan</td><td>✕</td><td>√</td><td>√</td><td>√</td></tr><tr><td>Long-term Incentives</td><td colspan=\"4\"></td></tr><tr><td>Stock Options granted, Shares Awards granted, Cash Long-term Incentive Plans granted</td><td>✕</td><td>✕</td><td>√</td><td>✕</td></tr><tr><td>Stock Options exercised, Share Awards vested, Cash Long-term Incentive Plans vested</td><td>✕</td><td>✕</td><td>✕</td><td>√</td></tr></table>",
+          "content_cn": "<table><tr><td></td><td>组成部分</td><td>固定薪酬总额</td><td>年度薪酬总额</td><td>获授薪酬总额（汇总口径）</td><td>实际实现薪酬总额</td></tr><tr><td rowspan=\"4\">固定薪酬</td><td>工资（基于雇佣或高管职务）</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>报酬（基于董事职务）</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>养老金</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td>所有其他薪酬</td><td>√</td><td>√</td><td>√</td><td>√</td></tr><tr><td rowspan=\"4\">浮动薪酬</td><td>短期激励：现金奖金及其他非股权激励计划</td><td>✕</td><td>√</td><td>√</td><td>√</td></tr><tr><td>长期激励</td><td colspan=\"4\"></td></tr><tr><td>获授股票期权、获授股份奖励、获授现金长期激励计划</td><td>✕</td><td>✕</td><td>√</td><td>✕</td></tr><tr><td>已行权股票期权、已归属股份奖励、已归属现金长期激励计划</td><td>✕</td><td>✕</td><td>✕</td><td>√</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Peer Groups",
+      "title_cn": "薪酬同业组",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The pay peer groups are used in the Key Metrics for comparative and benchmarking purposes.",
+          "content_cn": "薪酬同业组用于关键指标的比较和基准对照。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Determining Pay Peer Group Allocation",
+      "title_cn": "薪酬同业组划分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Companies are assigned pay peer groups based on three criteria:",
+          "content_cn": "公司按三项标准分配至薪酬同业组：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Industry;",
+          "content_cn": "• 行业；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Size (based on market capitalization); and",
+          "content_cn": "• 规模（按市值）；以及",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Regional peers.",
+          "content_cn": "• 区域同业。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Industry",
+      "title_cn": "行业",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This is based on the Global Industry Classification Standard (GICS®). $^{3}$",
+          "content_cn": "以全球行业分类标准（GICS®）为基础。$^{3}$",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Market Capitalization",
+      "title_cn": "市值",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This is based on the following size references:",
+          "content_cn": "依据以下规模标准：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 3: Size by market capitalization",
+          "content_cn": "图表 3：按市值划分规模",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td></td><td>Developed Markets</td><td>Emerging Markets</td></tr><tr><td>Large-Cap</td><td>≥USD 10.901 billion</td><td>≥USD 5.45 billion</td></tr><tr><td>Mid-Cap</td><td>≥USD 4.04 billion and &lt;USD 10.901 billion</td><td>≥USD 2.02 billion and &lt;USD 5.45 billion</td></tr><tr><td>Small-Cap</td><td>≥USD 342 million and &lt;USD 4.04 billion</td><td>≥USD 171 million and &lt;USD 2.02 billion</td></tr><tr><td>Micro-Cap</td><td>&lt;USD 342 million</td><td>&lt;USD 171 million</td></tr></table>",
+          "content_cn": "<table><tr><td></td><td>发达市场</td><td>新兴市场</td></tr><tr><td>大盘股</td><td>≥109.01 亿美元</td><td>≥54.5 亿美元</td></tr><tr><td>中盘股</td><td>≥40.4 亿美元且 &lt;109.01 亿美元</td><td>≥20.2 亿美元且 &lt;54.5 亿美元</td></tr><tr><td>小盘股</td><td>≥3.42 亿美元且 &lt;40.4 亿美元</td><td>≥1.71 亿美元且 &lt;20.2 亿美元</td></tr><tr><td>微盘股</td><td>&lt;3.42 亿美元</td><td>&lt;1.71 亿美元</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Regional Peers",
+      "title_cn": "区域同业",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This divides companies into regional peers identified based on a company's Home Market.",
+          "content_cn": "根据公司本土市场将其划分为区域同业。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Developed Americas;",
+          "content_cn": "• 美洲发达市场；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Other developed markets; and",
+          "content_cn": "• 其他发达市场；以及",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Emerging markets.",
+          "content_cn": "新兴市场。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Home Market allocation is set out in Appendix 6: Home-Market selection of “ESG Ratings Methodology.”",
+          "content_cn": "本土市场划分见《ESG 评级方法论》附录 6“本土市场选择”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Contact us",
+          "content_cn": "联系我们",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "msci.com/contact-us",
+          "content_cn": "MSCI 联系入口：msci.com/contact-us",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Pay Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/pay-key-issue.pdf",
+    "current_official_sha256": "19c3c46f48842c7cdfa2a52ff8ae49663f732508ebbcbb6d3f5d112c3f3e00fd",
+    "legacy_extraction_version": "December 2024",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

@@ -15,6 +15,26 @@
     "识别环境、社会和治理三大支柱",
     "按行业和议题定位需要继续核对的官方资料"
   ],
+  "modules": [
+    {
+      "id": "overview",
+      "title": "方法论总览",
+      "description": "评级定位、评分层级、主题与关键议题得分、权重及评级计算。",
+      "count": "100节"
+    },
+    {
+      "id": "process",
+      "title": "评级流程",
+      "description": "从数据获取、分析审核到沟通与方法论治理的完整流程。",
+      "count": "26节"
+    },
+    {
+      "id": "materiality",
+      "title": "行业权重映射",
+      "description": "按GICS板块和子行业查看关键议题及治理权重。",
+      "count": "174行"
+    }
+  ],
   "process": [
     {
       "title": "获取ESG数据",
@@ -263,6 +283,7 @@
           "sourceNote": "MSCI Carbon Emissions Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
           "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/carbon-emissions-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-01.json",
           "relationshipGroups": [
             {
               "parent": "碳排放减缓得分",
@@ -565,7 +586,8 @@
           ],
           "sourceNote": "MSCI Product Carbon Footprint Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/product-carbon-footprint-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/product-carbon-footprint-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-02.json"
         },
         {
           "id": "MSCI-ENV-03",
@@ -676,7 +698,8 @@
           ],
           "sourceNote": "MSCI Climate Change Vulnerability Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/climate-change-vulnerability-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/climate-change-vulnerability-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-03.json"
         },
         {
           "id": "MSCI-ENV-04",
@@ -857,7 +880,8 @@
           ],
           "sourceNote": "MSCI Financing Environmental Impact Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/financing-environmental-impact-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/financing-environmental-impact-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-04.json"
         },
         {
           "id": "MSCI-ENV-05",
@@ -1138,7 +1162,8 @@
           ],
           "sourceNote": "MSCI Water Stress Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/water-stress-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/water-stress-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-05.json"
         },
         {
           "id": "MSCI-ENV-06",
@@ -1284,7 +1309,8 @@
           ],
           "sourceNote": "MSCI Biodiversity & Land Use Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/biodiversity-and-land-use-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/biodiversity-and-land-use-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-06.json"
         },
         {
           "id": "MSCI-ENV-07",
@@ -1535,7 +1561,8 @@
           ],
           "sourceNote": "MSCI Raw Material Sourcing Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/raw-materials-sourcing-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/raw-materials-sourcing-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-07.json"
         },
         {
           "id": "MSCI-ENV-08",
@@ -1861,7 +1888,8 @@
           ],
           "sourceNote": "MSCI Toxic Emissions & Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/toxic-emissions-and-waste-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/toxic-emissions-and-waste-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-08.json"
         },
         {
           "id": "MSCI-ENV-09",
@@ -2012,7 +2040,8 @@
           ],
           "sourceNote": "MSCI Packaging Material & Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/packaging-material-and-waste-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/packaging-material-and-waste-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-09.json"
         },
         {
           "id": "MSCI-ENV-10",
@@ -2178,7 +2207,8 @@
           ],
           "sourceNote": "MSCI Electronic Waste Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/electronic-waste-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/electronic-waste-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-10.json"
         },
         {
           "id": "MSCI-ENV-11",
@@ -2299,7 +2329,8 @@
           ],
           "sourceNote": "MSCI Opportunities in Clean Tech Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-clean-tech-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-clean-tech-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-11.json"
         },
         {
           "id": "MSCI-ENV-12",
@@ -2445,7 +2476,8 @@
           ],
           "sourceNote": "MSCI Opportunities in Green Building Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-green-building-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-green-building-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-12.json"
         },
         {
           "id": "MSCI-ENV-13",
@@ -2601,7 +2633,8 @@
           ],
           "sourceNote": "MSCI Opportunities in Renewable Energy Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-renewable-energy-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/opportunities-in-renewable-energy-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-ENV-13.json"
         }
       ]
     },
@@ -2699,7 +2732,8 @@
           ],
           "sourceNote": "MSCI Accounting Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/accounting-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/accounting-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-01.json"
         },
         {
           "id": "MSCI-GOV-02",
@@ -3015,7 +3049,8 @@
           ],
           "sourceNote": "MSCI Board Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/board-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/board-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-02.json"
         },
         {
           "id": "MSCI-GOV-03",
@@ -3101,7 +3136,8 @@
           ],
           "sourceNote": "MSCI Business Ethics Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/business-ethics-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/business-ethics-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-03.json"
         },
         {
           "id": "MSCI-GOV-04",
@@ -3302,7 +3338,8 @@
           ],
           "sourceNote": "MSCI Ownership & Control Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/ownership-and-control-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/ownership-and-control-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-04.json"
         },
         {
           "id": "MSCI-GOV-05",
@@ -3498,7 +3535,8 @@
           ],
           "sourceNote": "MSCI Pay Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/pay-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/pay-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-05.json"
         },
         {
           "id": "MSCI-GOV-06",
@@ -3549,7 +3587,8 @@
           ],
           "sourceNote": "MSCI Tax Transparency Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/tax-transparency-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/tax-transparency-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-GOV-06.json"
         }
       ]
     },
@@ -3677,7 +3716,8 @@
           ],
           "sourceNote": "MSCI Labor Management Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/labor-management-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/labor-management-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-01.json"
         },
         {
           "id": "MSCI-SOC-02",
@@ -3908,7 +3948,8 @@
           ],
           "sourceNote": "MSCI Health & Safety Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/health-and-safety-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/health-and-safety-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-02.json"
         },
         {
           "id": "MSCI-SOC-03",
@@ -4069,7 +4110,8 @@
           ],
           "sourceNote": "MSCI Human Capital Development Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/human-capital-development-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/human-capital-development-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-03.json"
         },
         {
           "id": "MSCI-SOC-04",
@@ -4210,7 +4252,8 @@
           ],
           "sourceNote": "MSCI Supply Chain Labor Standards Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/supply-chain-labor-standards-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/supply-chain-labor-standards-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-04.json"
         },
         {
           "id": "MSCI-SOC-05",
@@ -4346,7 +4389,8 @@
           ],
           "sourceNote": "MSCI Product Safety & Quality Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/product-safety-and-quality-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/product-safety-and-quality-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-05.json"
         },
         {
           "id": "MSCI-SOC-06",
@@ -4462,7 +4506,8 @@
           ],
           "sourceNote": "MSCI Chemical Safety Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/chemical-safety-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/chemical-safety-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-06.json"
         },
         {
           "id": "MSCI-SOC-07",
@@ -4563,7 +4608,8 @@
           ],
           "sourceNote": "MSCI Consumer Financial Protection Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/consumer-financial-protection-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/consumer-financial-protection-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-07.json"
         },
         {
           "id": "MSCI-SOC-08",
@@ -4699,7 +4745,8 @@
           ],
           "sourceNote": "MSCI Privacy & Data Security Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/privacy-and-data-security-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/privacy-and-data-security-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-08.json"
         },
         {
           "id": "MSCI-SOC-09",
@@ -4795,7 +4842,8 @@
           ],
           "sourceNote": "MSCI Responsible Investment Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/responsible-investment-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/responsible-investment-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-09.json"
         },
         {
           "id": "MSCI-SOC-10",
@@ -4921,7 +4969,8 @@
           ],
           "sourceNote": "MSCI Community Relations Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/community-relations-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/community-relations-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-10.json"
         },
         {
           "id": "MSCI-SOC-11",
@@ -5002,7 +5051,8 @@
           ],
           "sourceNote": "MSCI Controversial Sourcing Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/controversial-sourcing-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/controversial-sourcing-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-11.json"
         },
         {
           "id": "MSCI-SOC-12",
@@ -5098,7 +5148,8 @@
           ],
           "sourceNote": "MSCI Access to Finance Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-finance-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-finance-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-12.json"
         },
         {
           "id": "MSCI-SOC-13",
@@ -5254,7 +5305,8 @@
           ],
           "sourceNote": "MSCI Access to Health Care Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-health-care-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/access-to-health-care-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-13.json"
         },
         {
           "id": "MSCI-SOC-14",
@@ -5355,7 +5407,8 @@
           ],
           "sourceNote": "MSCI Opportunities in Nutrition & Health Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
           "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
-          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/opportunities-in-nutrition-and-health-key-issue.pdf"
+          "officialUrl": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/opportunities-in-nutrition-and-health-key-issue.pdf",
+          "detailFile": "data/msci/MSCI-SOC-14.json"
         }
       ]
     }

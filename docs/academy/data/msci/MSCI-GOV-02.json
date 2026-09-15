@@ -1,0 +1,2204 @@
+{
+  "id": "MSCI-GOV-02",
+  "title": "董事会",
+  "titleEn": "Board",
+  "summary": "评估公司董事会独立性、多元性、监督能力与运作质量。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "公司治理",
+  "themeEn": "Corporate Governance",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Board Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Board is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on the board's independence from management and/or other interests, and on various measures of board experience and effectiveness such as director attendance and director overboarding, where individual board members may compromise their effectiveness by serving on too many boards.",
+          "content_cn": "本文件介绍董事会关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。董事会属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖董事会相对于管理层和／或其他利益的独立性，以及董事会经验与有效性的各项衡量指标，例如董事出席率和过度兼任董事职务；个别董事可能因任职董事会过多而影响履职有效性。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Negative governance-related events such as bankruptcies; securities violations or regulatory investigations; and delisting threats are included in this section. These event metrics, when flagged, may have a significant impact on a company's overall governance score.",
+          "content_cn": "本节包括破产、证券违规或监管调查，以及退市威胁等负面治理事件。这些事件指标被标记时，可能显著影响公司的总体治理得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Board Key Issue Score",
+      "title_cn": "董事会关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the aggregation of the following Key Metrics using the methodology described in Section 3.5.4, Calculating Governance Scores, of “ESG Ratings Methodology.”",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》第 3.5.4 节“治理得分计算”所述方法，汇总以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Each Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "每项关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some Key Metrics are relevant only to companies with specific governance characteristics stemming from ownership type, management structure or other factors. Companies are distinguished by the type of issuer, indicated by the scope of each Key Metric below.",
+          "content_cn": "部分关键指标仅适用于因所有权类型、管理结构或其他因素而具有特定治理特征的公司。公司按发行人类型区分，各关键指标的适用范围如下所示。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Independent Chair Key Metric — Definition",
+      "title_cn": "独立董事长关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the chair classified as not independent of management or not independent of other interests (links to employees, government or major owners), based on MSCI ESG Research criteria?",
+          "content_cn": "根据 MSCI ESG 研究的标准，董事长是否被归类为不独立于管理层，或不独立于其他利益（与员工、政府或主要所有者存在联系）？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+          "content_cn": "该指标涉及董事会，或双层董事会结构中的监事会。独立性评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Combined CEO/Chair Key Metric — Definition",
+      "title_cn": "首席执行官兼任董事长关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company have a combined CEO/chair?",
+          "content_cn": "公司是否由同一人兼任首席执行官和董事长？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "While the practice of combining the CEO and chairman positions on the board of directors is common enough to minimize its significance as a standalone metric, when combined with other key indicators this practice may be an indicator of potential governance weakness.",
+          "content_cn": "由同一人兼任首席执行官和董事长的做法较为普遍，因此作为单独指标时意义有限；但与其他关键指标结合时，这种做法可能反映潜在治理缺陷。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Leadership Concerns Key Metric — Definition",
+      "title_cn": "领导层疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are there concerns that there is a leader with excessive influence, including, but not limited to, instances such as:",
+          "content_cn": "是否存在领导者影响力过大的疑虑，包括但不限于以下情况：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• An executive chair is serving alongside a CEO.",
+          "content_cn": "• 执行董事长与首席执行官同时任职。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- A former CEO remaining on the board as a non-executive director.",
+          "content_cn": "• 前首席执行官继续作为非执行董事留在董事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• The non-executive chair is a former CFO.",
+          "content_cn": "• 非执行董事长曾任首席财务官。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- An executive chair at one group company serves as a non-executive director at another group company.",
+          "content_cn": "• 一家集团公司的执行董事长兼任另一家集团公司的非执行董事。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- A founder or cofounder remains on the board but not as chair or CEO.",
+          "content_cn": "• 创始人或联合创始人继续留在董事会，但不担任董事长或首席执行官。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Unregistered directors providing leadership direction.",
+          "content_cn": "• 未登记的董事提供领导方向。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Chair Not Independent & No Independent Lead Director Key Metric — Definition",
+      "title_cn": "董事长不独立且无独立首席董事关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "For companies with a non-independent chair, has the company failed to designate an individually named non-executive lead director or independent deputy chairman who is classified as both independent of management and independent of other interests (links to employees, government or major owners), based on MSCI ESG Research criteria?",
+          "content_cn": "对于董事长不独立的公司，公司是否未明确指定一名非执行首席董事或独立副董事长，且该人须按 MSCI ESG 研究标准同时独立于管理层及其他利益（与员工、政府或主要所有者的联系）？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+          "content_cn": "该指标涉及董事会，或双层董事会结构中的监事会。独立性评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For purposes of evaluating this metric, MSCI ESG Research excludes any lead directors who have not been individually designated as such by the company. This standard explicitly excludes lead director assignments based on rotating committee chair assignments or similar practices that may weaken the role and effectively counter its intended purpose.",
+          "content_cn": "评估该指标时，MSCI ESG 研究不纳入公司未明确具名指定的首席董事。该标准明确排除基于委员会主席轮值或类似做法的首席董事安排，因为这些做法可能削弱该角色并抵消其原定作用。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Board Majority Independent of Management Key Metric — Definition",
+      "title_cn": "董事会多数成员独立于管理层关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are less than a majority of directors independent of management, as defined by MSCI ESG Research? Flagged if yes.",
+          "content_cn": "按 MSCI ESG 研究的定义，独立于管理层的董事是否未占多数？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric flags issuers when less than 51% of the board is independent of management. See the section Evaluating Directors, below, for our definition of independence from management.",
+          "content_cn": "当董事会中独立于管理层的董事比例低于 51% 时，该指标对发行人作出标记。有关独立于管理层的定义，参见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For issuers with a two-tier board structure, this Key Metric assesses the supervisory board.",
+          "content_cn": "对于采用双层董事会结构的发行人，该关键指标评估监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of independent (of management) directors and whether company is controlled:",
+          "content_cn": "典型计分贡献：根据独立于管理层的董事比例及公司是否受控制而变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 1.0",
+          "content_cn": "范围：0.2 至 1.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.442",
+          "content_cn": "平均值：0.442",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Board Majority Independent of Other Interest Key Metric — Definition",
+      "title_cn": "董事会多数成员独立于其他利益关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are less than a majority of directors independent of other interests, as defined by MSCI ESG Research?",
+          "content_cn": "按 MSCI ESG 研究的定义，独立于其他利益的董事是否未占多数？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric assesses what percentage of directors are affiliated with interests (other than those of management) that may diverge from the interests of minority investors. Issuers are flagged when less than 51% of the board is independent of other interests. See the section Evaluating Directors, below, for our definition of independence from other interests.",
+          "content_cn": "该指标评估与管理层之外、可能偏离少数投资者利益的其他利益存在关联的董事比例。当董事会中独立于其他利益的董事比例低于 51% 时，对发行人作出标记。有关独立于其他利益的定义，参见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For issuers with a two-tier board structure, this Key Metric assesses the supervisory board.",
+          "content_cn": "对于采用双层董事会结构的发行人，该关键指标评估监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of independent (of other interests) directors:",
+          "content_cn": "典型计分贡献：根据独立于其他利益的董事比例变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.3 to 1.0.",
+          "content_cn": "范围：0.3 至 1.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.366",
+          "content_cn": "平均值：0.366",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Executives on Board Key Metric — Definition",
+      "title_cn": "董事会中的高管关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does 30% or more of the board of directors comprise executive directors or does the management board include eight or more executive directors?",
+          "content_cn": "执行董事是否占董事会成员的 30% 或以上，或者管理董事会是否包含八名或以上执行董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "All board member bios are reviewed to determine current titles and positions.",
+          "content_cn": "审阅所有董事会成员的履历，以确定其当前头衔和职务。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of executive directors (or number of executives on a management board):",
+          "content_cn": "典型计分贡献：根据执行董事比例（或管理董事会中的高管人数）变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 0.5.",
+          "content_cn": "范围：0.2 至 0.5。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.241",
+          "content_cn": "平均值：0.241",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "No Independent Directors Key Metric — Definition",
+      "title_cn": "无独立董事关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the board composed entirely of directors who do not meet the MSCI ESG Research criteria for independence from management?",
+          "content_cn": "董事会是否全部由不符合 MSCI ESG 研究管理层独立性标准的董事组成？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric tests for those extreme cases where there is not a single member of the board of directors or supervisory board who can be considered independent of management. See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+          "content_cn": "该指标识别极端情况，即董事会或监事会中没有任何成员可以被视为独立于管理层。独立性评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Related-Party Transactions Key Metric — Definition",
+      "title_cn": "关联方交易关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Have there been any disclosed related-party transactions (RPTs) in either of the two most recently reported financial years?",
+          "content_cn": "在最近两个已报告财年中的任一年度，是否披露过关联方交易？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Related-Party Transactions, below.",
+          "content_cn": "参见下文“关联方交易”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on transaction size, type of related-party and (for higher-risk cases) qualitative criteria.",
+          "content_cn": "典型计分贡献：根据交易规模、关联方类型，以及较高风险案例的定性标准变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Partial disclosure: 0.5 or (if controlled) 1.0",
+          "content_cn": "部分披露：0.5；若公司受控制，则为 1.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "If non-disclosure market & no company disclosure: 1.0 (scored but not flagged)",
+          "content_cn": "若所在市场无披露要求且公司未披露：1.0（计分但不作标记）。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.05 to 3.4",
+          "content_cn": "范围：0.05 至 3.4",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.753",
+          "content_cn": "平均值：0.753",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged Directors on Board Key Metric — Definition",
+      "title_cn": "董事会中的被标记董事关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are any of the board members Flagged Directors, as defined by MSCI ESG Research? Flagged if yes.",
+          "content_cn": "是否有董事会成员属于 MSCI ESG 研究定义的被标记董事？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For issuers with two-tier board structures, members of either the supervisory board or the management board may be flagged.",
+          "content_cn": "对于采用双层董事会结构的发行人，监事会或管理董事会成员均可能被标记。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on number of flagged directors on the board and number of flagged-director instances for each director.",
+          "content_cn": "典型计分贡献：根据董事会中被标记董事的人数，以及每名董事涉及的被标记事件数量变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 1.0",
+          "content_cn": "范围：0.2 至 1.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.288",
+          "content_cn": "平均值：0.288",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Overboarded Non-Exec Directors Key Metric — Definition",
+      "title_cn": "非执行董事过度兼任关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do any of the company's non-executive board members serve on the boards of three or more additional issuers (i.e., four total boards, including the rated company) in MSCI ESG Research's corporate governance research universe (whether included as an equity or debt issuer)?",
+          "content_cn": "公司的非执行董事是否有人同时在 MSCI ESG 研究公司治理研究范围内的另外三家或以上发行人董事会任职，即计入受评公司后合计四家董事会，不论这些发行人因股权还是债务发行被纳入研究？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Board membership counts reference the board of directors or (in a two-tier board structure) the supervisory board and the management board.",
+          "content_cn": "董事会任职数量包括董事会，或双层董事会结构中的监事会与管理董事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Overboarded Exec Directors Key Metric — Definition",
+      "title_cn": "执行董事过度兼任关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do any of the company's executive board members serve on the boards of two or more additional issuers (i.e., three total boards, including the rated company) in MSCI ESG Research's corporate governance research universe (whether included as an equity or debt issuer)?",
+          "content_cn": "公司的执行董事是否有人同时在 MSCI ESG 研究公司治理研究范围内的另外两家或以上发行人董事会任职，即计入受评公司后合计三家董事会，不论这些发行人因股权还是债务发行被纳入研究？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This is of particular significance in the case of the company's CEO. Board membership counts reference the board of directors or (in a two-tier board structure) the supervisory board and the management board. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "这一情况对公司首席执行官尤其重要。董事会任职数量包括董事会，或双层董事会结构中的监事会与管理董事会。评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Significant Votes Against Directors Key Metric — Definition",
+      "title_cn": "董事遭显著反对票关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are there one or more directors on the board who received a negative or withheld shareholder vote in excess of 10% in the most recently reported election?",
+          "content_cn": "在最近报告的选举中，董事会是否有一名或多名董事获得超过 10% 的股东反对票或保留支持票？",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged if yes.",
+      "title_cn": "若是，则作出标记。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board and the management board.",
+          "content_cn": "该指标涉及董事会，或双层董事会结构中的监事会与管理董事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Even a negative vote of 5% indicates an unusually high vote against a particular individual director at most companies. This metric is triggered by a negative vote of over 10% against any directors in the most recently reported election (or in certain markets on the discharge of the directors). A “negative vote” includes any against, withhold or abstain votes.",
+          "content_cn": "在多数公司中，即使 5% 的反对票也表明对某位董事的反对程度异常偏高。最近报告的选举中（或某些市场关于免除董事责任的表决中），任何董事的反对性票数超过 10%，即触发该指标。“反对性票数”包括反对、保留支持及弃权票。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on number of directors, the size of against/abstain/withhold votes and whether there is a controlling shareholder.",
+          "content_cn": "典型计分贡献：根据董事人数、反对／弃权／保留支持票的比例，以及是否存在控股股东而变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.25 to 2.0",
+          "content_cn": "范围：0.25 至 2.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.436",
+          "content_cn": "平均值：0.436",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Oversized Board Key Metric — Definition",
+      "title_cn": "董事会规模过大关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the board of directors or the supervisory board include a high number of directors that suggests obstacles to effective oversight and decision-making?",
+          "content_cn": "董事会或监事会的董事人数是否较多，以至于可能妨碍有效监督和决策？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This is currently set at 20 directors and refers to either the board of directors or supervisory board. Boards comprising so many individuals may find it harder to discuss issues in the necessary detail or take decisions in a timely manner.",
+          "content_cn": "目前该门槛设为 20 名董事，适用于董事会或监事会。成员过多的董事会可能更难充分深入讨论问题或及时作出决策。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Undersized Board Key Metric — Definition",
+      "title_cn": "董事会规模过小关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are there four or fewer directors on the board of directors or supervisory board?",
+          "content_cn": "董事会或监事会是否仅有四名或更少董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Boards comprising so few individuals may lack the diversity of view and experience needed to provide effective oversight over most public companies, particularly when it comes to assigning resources to the board's standing committees.",
+          "content_cn": "成员过少的董事会可能缺乏有效监督多数公众公司所需的观点和经验多样性，尤其是在为董事会常设委员会分配资源时。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric refers to either the board of directors or supervisory board.",
+          "content_cn": "该指标适用于董事会或监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 1.0",
+          "content_cn": "典型计分贡献：1.0",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Board Attendance Failures Key Metric — Definition",
+      "title_cn": "董事出席不足关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Did any members of the board fail to attend at least 75% of all board and committee meetings held during the last reported period?",
+          "content_cn": "在最近报告期内，是否有董事会成员未达到董事会及委员会全部会议至少 75% 的出席率？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric refers to the board of directors or (in a two-tier board structure) to the supervisory board and the management board.",
+          "content_cn": "该指标涉及董事会，或双层董事会结构中的监事会与管理董事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Excessive board attendance failures have been linked to other, less visible board problems or weaknesses.",
+          "content_cn": "过多的董事缺席与其他较不易察觉的董事会问题或缺陷存在关联。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Entrenched Board Key Metric — Definition",
+      "title_cn": "董事会固化关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the percentage of long-tenured, aging directors suggest a problem with board entrenchment? Flagged if yes.",
+          "content_cn": "长期任职且年长的董事比例是否表明董事会存在固化问题？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is based on an assessment of multiple factors, including director age and tenure in the following combinations:",
+          "content_cn": "该指标基于多项因素评估，包括董事年龄和任期的以下组合：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• More than 35% of the board has a tenure of 15 years or greater;",
+          "content_cn": "• 任期达到或超过 15 年的董事占董事会比例超过 35%；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- More than 22% of the board has a tenure of 15 years or greater and more than 15% of the directors are aged 70 or over;",
+          "content_cn": "• 任期达到或超过 15 年的董事比例超过 22%，且年龄达到或超过 70 岁的董事比例超过 15%；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• There are more than four directors who have a tenure of 15 years or greater; or",
+          "content_cn": "• 任期达到或超过 15 年的董事超过四名；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• There are more than four directors who are aged 70 or over.",
+          "content_cn": "• 年龄达到或超过 70 岁的董事超过四名。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric extends to the board of directors and supervisory board.",
+          "content_cn": "该指标涵盖董事会和监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The strength of this metric as an indicator of potential governance problems is greatly increased at companies whose recent performance has consistently lagged their peers.",
+          "content_cn": "对于近期业绩持续落后于同行的公司，该指标识别潜在治理问题的指示力显著增强。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on CEO tenure & board refreshment rate.",
+          "content_cn": "典型计分贡献：根据首席执行官任期和董事会更新率变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.6 to 1.5",
+          "content_cn": "范围：0.6 至 1.5",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.884",
+          "content_cn": "平均值：0.884",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "CEOs on Board Key Metric — Definition",
+      "title_cn": "董事会中的其他公司首席执行官关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is more than 30% of the board composed of currently active corporate CEOs from other companies?",
+          "content_cn": "董事会中来自其他公司的现任首席执行官是否超过 30%？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric extends to the board of directors and supervisory board.",
+          "content_cn": "该指标涵盖董事会和监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "To be included in this category, the individual must be a currently active CEO at another publicly traded corporation; the CEO of the company being rated is excluded. Based on information contained in each individual's bio or on his or her designation as a current company CEO in the MSCI ESG Governance Metrics director database.",
+          "content_cn": "纳入此类别的个人必须是另一家上市公司的现任首席执行官；不包括受评公司的首席执行官。判断依据为个人履历信息，或 MSCI ESG 治理指标董事数据库中关于其担任现任公司首席执行官的记录。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "No Female Directors Key Metric — Definition",
+      "title_cn": "无女性董事关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the composition of the board fail to include any female directors?",
+          "content_cn": "董事会组成中是否没有任何女性董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric extends to the board of directors and supervisory board.",
+          "content_cn": "该指标涵盖董事会和监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Not 30% Female Directors Key Metric",
+          "content_cn": "女性董事不足 30% 关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Not 30% Female Directors Key Metric — Definition",
+      "title_cn": "女性董事不足 30% 关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the composition of the board fail to include at least 30% female directors?",
+          "content_cn": "董事会组成中女性董事是否未达到至少 30%？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric extends to the board of directors and supervisory board.",
+          "content_cn": "该指标涵盖董事会和监事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Risk Management Expertise Key Metric — Definition",
+      "title_cn": "风险管理专长关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the board lack at least one non-executive member of the board who has general expertise in risk management, based on MSCI ESG Research standards?",
+          "content_cn": "根据 MSCI ESG 研究标准，董事会是否缺少至少一名具备风险管理一般专长的非执行董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric extends to the board of directors and supervisory board. See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "该指标涵盖董事会和监事会。评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Audit Board/Committee Independence Key Metric — Definition",
+      "title_cn": "审计委员会／审计监督机构独立性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to establish an audit committee or audit board comprising only directors who are independent of management based on MSCI ESG Research's criteria?",
+          "content_cn": "公司是否未设立一个全部由按 MSCI ESG 研究标准独立于管理层的董事组成的审计委员会或审计监督机构？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+          "content_cn": "独立性评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on whether committee exists & percentage of independent members.",
+          "content_cn": "典型计分贡献：根据是否存在委员会及独立成员比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.8",
+          "content_cn": "范围：0.1 至 0.8",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.145",
+          "content_cn": "平均值：0.145",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Executives on Audit Board/Committee Key Metric — Definition",
+      "title_cn": "审计委员会／审计监督机构中的高管关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are there company executives serving on the audit committee or audit board?",
+          "content_cn": "是否有公司高管在审计委员会或审计监督机构任职？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of executive members.",
+          "content_cn": "典型计分贡献：根据高管成员比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 0.5",
+          "content_cn": "范围：0.2 至 0.5",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.208",
+          "content_cn": "平均值：0.208",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Audit Committee Financial Expert Key Metric — Definition",
+      "title_cn": "审计委员会财务专家关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the audit committee or audit board lack at least one non-executive member with general expertise in accounting or financial management, based on the MSCI ESG Research criteria? Flagged if yes.",
+          "content_cn": "根据 MSCI ESG 研究标准，审计委员会或审计监督机构是否缺少至少一名具备会计或财务管理一般专长的非执行成员？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Audit Committee Industry Expert Key Metric — Definition",
+      "title_cn": "审计委员会行业专家关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the audit committee or audit board lack at least one non-executive member who has substantial industry knowledge, based on the MSCI ESG Research criteria?",
+          "content_cn": "根据 MSCI ESG 研究标准，审计委员会或审计监督机构是否缺少至少一名具备丰富行业知识的非执行成员？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the evaluation criteria.",
+          "content_cn": "评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Overboarded Audit Committee Members Key Metric — Definition",
+      "title_cn": "审计委员会成员过度兼任关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do any of the independent members of the audit committee serve on the boards of three or more additional companies (i.e., four total boards, including the rated company) in MSCI ESG Research's corporate governance research universe (whether included as an equity or debt issuer)? Or do any of the non-independent members of the audit committee serve on the boards of two or more additional companies?",
+          "content_cn": "审计委员会的独立成员是否有人同时在 MSCI ESG 研究公司治理研究范围内的另外三家或以上公司董事会任职，即计入受评公司后合计四家董事会，不论这些公司因股权还是债务发行被纳入研究？或者，非独立审计委员会成员是否有人同时在另外两家或以上公司董事会任职？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric further emphasizes the link between overboarding and board effectiveness by testing for its presence on this committee.",
+          "content_cn": "该指标通过考察审计委员会中是否存在过度兼任，进一步强调过度兼任与董事会有效性的联系。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Committee Independence Key Metric — Definition",
+      "title_cn": "薪酬委员会独立性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Where the company has established a pay committee, are there directors serving on the committee who are not independent of management based on MSCI ESG Research's criteria?",
+          "content_cn": "若公司设有薪酬委员会，是否存在按 MSCI ESG 研究标准不独立于管理层的董事在该委员会任职？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "See the section Evaluating Directors, below, for details of the independence evaluation criteria.",
+          "content_cn": "独立性评估标准详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of independent members.",
+          "content_cn": "典型计分贡献：根据独立成员比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.3",
+          "content_cn": "范围：0.1 至 0.3",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.126",
+          "content_cn": "平均值：0.126",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Executives on Pay Committee Key Metric — Definition",
+      "title_cn": "薪酬委员会中的高管关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are there company executives serving on the pay committee?",
+          "content_cn": "是否有公司高管在薪酬委员会任职？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In addition to evaluating the independence of its non-executive members, MSCI ESG Research also takes into consideration the presence of current company executives on this standing committee.",
+          "content_cn": "除评估非执行成员的独立性外，MSCI ESG 研究还考虑该常设委员会中是否有公司现任高管。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of executive members.",
+          "content_cn": "典型计分贡献：根据高管成员比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.2",
+          "content_cn": "范围：0.1 至 0.2",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.103",
+          "content_cn": "平均值：0.103",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "No Pay Committee & Execs on Board Key Metric — Definition",
+      "title_cn": "未设薪酬委员会且高管进入董事会关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company lack a standing pay committee, and are current company executives serving on its board?",
+          "content_cn": "公司是否未设常设薪酬委员会，且有现任公司高管在董事会任职？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is flagged for boards that lack a formally named pay committee yet include among its members one or more current company executives, including the CEO.",
+          "content_cn": "若董事会未正式设立具名薪酬委员会，但成员中包含一名或多名现任公司高管（包括首席执行官），则标记该指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.6",
+          "content_cn": "典型计分贡献：0.6",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Pay Committee Concerns Key Metric — Definition",
+      "title_cn": "薪酬委员会疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the composition of the pay committee raise concerns about the presence of active CEOs on the committee or in relation to the past record of the pay committee chair?",
+          "content_cn": "薪酬委员会组成是否因现任首席执行官参与其中，或因委员会主席的过往记录而引发疑虑？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is triggered by the majority of pay committee or the committee chair being active CEOs, where the pay committee chair also chairs other pay committees and the latest annual say-on-pay vote was defeated, or where the pay committee chair is a former listed-company CEO and during his CEO tenure the say-on-pay vote was defeated.",
+          "content_cn": "以下情况触发该指标：薪酬委员会多数成员或委员会主席为现任首席执行官；委员会主席同时主持其他薪酬委员会，且最近一次年度薪酬表决未获通过；或者委员会主席曾任上市公司首席执行官，且在其任期内薪酬表决未获通过。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.3 (if one test is met)",
+          "content_cn": "典型计分贡献：0.3（满足一项条件时）",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "0.5 (if Pay Committee is 100% active CEOs)",
+          "content_cn": "0.5（薪酬委员会成员100%为现任首席执行官时）",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "0.6 (if two or more tests are met)",
+          "content_cn": "0.6（满足两项或以上条件时）",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "No Nomination Committee Key Metric — Definition",
+      "title_cn": "未设提名委员会关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company lack a standing nomination committee?",
+          "content_cn": "公司是否未设常设提名委员会？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric flags issuers that have not disclosed a formal nomination committee. A committee with the responsibility to nominate directors for election to the board will generally be considered a nomination committee, regardless of its name or other roles.",
+          "content_cn": "该指标标记未披露正式提名委员会的发行人。只要委员会负责提名董事候选人供选举进入董事会，通常就视为提名委员会，无论其名称或其他职责为何。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.3",
+          "content_cn": "典型计分贡献：0.3",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Nomination Committee Chair Independence Key Metric — Definition",
+      "title_cn": "提名委员会主席独立性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the nomination committee chair not independent of management or other interests, as defined by MSCI ESG Research?",
+          "content_cn": "按 MSCI ESG 研究的定义，提名委员会主席是否不独立于管理层或其他利益？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "We consider it a best practice for key committees to be led by members who are independent of management, and, in some markets, nomination committees may include a high proportion of stakeholder representatives whose interests may diverge from those of minority investors. Therefore, this metric assesses the committee chair's independence from both management and other interests. See the section Evaluating Directors, below, for our definitions of independence.",
+          "content_cn": "MSCI ESG 研究认为，关键委员会由独立于管理层的成员领导属于最佳实践。在某些市场，提名委员会可能包含较高比例的利益相关方代表，其利益可能偏离少数投资者利益。因此，该指标同时评估委员会主席相对于管理层及其他利益的独立性。独立性定义详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is not evaluated for companies that lack a nomination committee.",
+          "content_cn": "对于未设提名委员会的公司，不评估该指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Nomination Committee Independence Key Metric — Definition",
+      "title_cn": "提名委员会独立性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are less than a majority of nomination committee members independent of management and other interests, as defined by MSCI ESG Research?",
+          "content_cn": "按 MSCI ESG 研究的定义，同时独立于管理层和其他利益的提名委员会成员是否未占多数？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "We consider it a best practice for key committees to be independent of management, and, in some markets, nomination committees may include a high proportion of stakeholder representatives whose interests may diverge from those of minority investors. Therefore, this metric assesses what percentage of the committee is independent of both management and other interests. See the section Evaluating Directors, below, for our definitions of independence.",
+          "content_cn": "MSCI ESG 研究认为，关键委员会独立于管理层属于最佳实践。在某些市场，提名委员会可能包含较高比例的利益相关方代表，其利益可能偏离少数投资者利益。因此，该指标评估同时独立于管理层和其他利益的委员会成员比例。独立性定义详见下文“董事评估”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is not evaluated for companies that lack a nomination committee.",
+          "content_cn": "对于未设提名委员会的公司，不评估该指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Bankruptcy or Liquidation Key Metric — Definition",
+      "title_cn": "破产或清算关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company, or a material subsidiary, currently in receivership, under bankruptcy protection, or facing liquidation?",
+          "content_cn": "公司或其重要子公司当前是否处于接管、破产保护之下，或面临清算？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+          "content_cn": "若是，则作出标记。案件被评估为已结束后移除标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This Key Metric focuses on negative credit events including bankruptcy protection, administration, receivership, curatorship and liquidation.",
+          "content_cn": "该关键指标关注负面信用事件，包括破产保护、破产管理、接管、财产监管和清算。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.8, Severe 1.5, Very Severe 3.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.8，严重 1.5，极严重 3.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Debt Covenant Concerns Key Metric — Definition",
+      "title_cn": "债务契约疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company, or a material subsidiary, recently breached the terms of its debt covenants, had a test of its debt covenant terms deferred or waived, or been reported to be in danger of breaching its debt covenants?",
+          "content_cn": "公司或其重要子公司近期是否违反债务契约条款、获准推迟或豁免债务契约条款测试，或被报道存在违反债务契约的危险？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+          "content_cn": "若是，则作出标记。案件被评估为已结束后移除标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This Key Metric focuses on negative credit events including failure to repay (or defer paying) capital or interest on the debt, breaching terms (or waiving or deferring the testing) of the debt covenants such as exceeding borrowing limits or breaches of technical provisions.",
+          "content_cn": "该关键指标关注负面信用事件，包括未能偿还（或推迟支付）债务本金或利息，以及违反债务契约条款（或豁免、推迟相关测试），例如超出借款限额或违反技术性条款。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Financing Difficulties Key Metric — Definition",
+      "title_cn": "融资困难关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Have concerns been identified by the board or been reported in the press in relation to the going-concern assumption, or is there other evidence that the company, or a material subsidiary, may be facing financing difficulties?",
+          "content_cn": "董事会是否识别出或媒体是否报道过持续经营假设相关疑虑，或者是否有其他证据表明公司或其重要子公司可能面临融资困难？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+          "content_cn": "若是，则作出标记。案件被评估为已结束后移除标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This Key Metric seeks to identify where there is a risk of a negative credit event. A successful outcome, such as an equity-raising or renegotiated credit terms, may resolve this concern, and forms part of the severity assessment criteria.",
+          "content_cn": "该关键指标旨在识别存在负面信用事件风险的情形。成功结果，例如股权融资或重新商定信贷条款，可能消除该疑虑，并构成严重程度评估标准的一部分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Capital Management Concerns Key Metric — Definition",
+      "title_cn": "资本管理疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Have concerns been raised as to the treatment of security holders in relation to the raising and/or return of capital?",
+          "content_cn": "是否有人对资本筹集和／或返还过程中证券持有人的待遇提出疑虑？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Circumstances that may be flagged include where investors face high potential equity dilution through the new issue of shares, where there has been unfair treatment of existing investors in capital-raisings, or where there are concerns about share buyback activity.",
+          "content_cn": "可能被标记的情况包括：新股发行使投资者面临较大的潜在股权稀释、融资过程中现有投资者受到不公平待遇，或股份回购活动引发疑虑。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Securities Violations Key Metric — Definition",
+      "title_cn": "证券违规关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company faced allegations that investors have not been given access to certain basic facts about the company, whether in the process of issuing new securities or following issuance? Or has the company faced substantive allegations of breaches of investor protection requirements (including in relation to offers it makes for third parties)?",
+          "content_cn": "公司是否被指控在新证券发行过程中或发行后，未向投资者提供有关公司的某些基本事实？或者，公司是否面临违反投资者保护要求的实质性指控，包括与其向第三方发出要约有关的要求？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Note: Items that relate specifically to Accounting and Audit issues are covered in the Accounting Key Metrics.",
+          "content_cn": "注：专门涉及会计和审计问题的事项，由会计关键指标覆盖。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: $^{1}$ Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：$^{1}$ 根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Threat of Delisting Key Metric — Definition",
+      "title_cn": "退市威胁关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the issuer currently in breach of its continuing obligations that apply to the listing of its securities, which may threaten the continued listing or trading of those securities?",
+          "content_cn": "发行人当前是否违反其证券上市所适用的持续义务，从而可能威胁这些证券继续上市或交易？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+          "content_cn": "若是，则作出标记。案件被评估为已结束后移除标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Executive Misconduct Key Metric — Definition",
+      "title_cn": "高管不当行为关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has a current or recent member of the board or a senior executive of the company (and while serving at this company) allegedly failed to act with honesty and integrity, engaged in actions contrary to the interests of the company and its shareholders, breached trust or confidence, engaged in criminal actions or engaged in actions that caused damage to the company's reputation?",
+          "content_cn": "公司现任或近期离任的董事或高级管理人员，是否被指在该公司任职期间未诚实诚信行事、采取违背公司及股东利益的行动、违背信任或保密义务、从事犯罪行为，或作出损害公司声誉的行为？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric refers to current or former members of the board of directors, management board (in a two-tier structure) and executive committee.",
+          "content_cn": "该指标涉及现任或前任董事会、管理董事会（双层结构中）及执行委员会成员。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: $^{2}$ Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：$^{2}$ 根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Other High-Impact Governance Events Key Metric — Definition",
+      "title_cn": "其他高影响治理事件关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company faced situations that may distract the board from focusing on business operations and strategic matters; have major questions been raised as to the quality of past board decisions; or is there evidence of governance failures at the company?",
+          "content_cn": "公司是否面临可能使董事会无法专注于业务运营和战略事项的情况；过往董事会决策质量是否受到重大质疑；或是否有证据表明公司存在治理失效？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.5, Severe 1.0, Very Severe 2.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.5，严重 1.0，极严重 2.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Independence",
+      "title_cn": "独立性",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Director independence is assessed along two dimensions — independence from management and independence from other interests (employees, major owners, government).",
+          "content_cn": "董事独立性从两个维度评估：独立于管理层，以及独立于其他利益（员工、主要所有者、政府）。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Board Leadership Key Metrics require independence from both management and other interests, however, assessments of the board as a whole and of the various board committees are based on the independent of management criteria only.",
+          "content_cn": "董事会领导层关键指标要求同时独立于管理层和其他利益；但对董事会整体及各董事会委员会的评估，仅以独立于管理层的标准为基础。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Lengthy tenure is not evaluated as part of the independence assessments but forms part of the Entrenched Board Key Metric evaluation criteria.",
+          "content_cn": "长期任职不纳入独立性评估，而是董事会固化关键指标评估标准的一部分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Independent of Management",
+      "title_cn": "独立于管理层",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Per MSCI ESG Research's definition of independence from management, a director will be considered not independent of management if they meet one or more of the following criteria in Exhibit 2.",
+          "content_cn": "根据 MSCI ESG 研究对管理层独立性的定义，若董事符合图表 2 中一项或多项标准，则被视为不独立于管理层。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 2: Not Independent of Management $^{3}$",
+          "content_cn": "图表 2：不独立于管理层 $^{3}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Reason</td><td>Definition</td></tr><tr><td rowspan=\"2\">Current Executive or Employee</td><td>A current paid executive or employee of the company or group.</td></tr><tr><td>Current non-executive employee, or lower-level executive who is not a member of the executive board, management board or other top-level executive body.Exception: Is holding the board position due to being an employee or union representative.</td></tr><tr><td rowspan=\"3\">Past Executive or Employee</td><td>A past executive or employee of the company or group; no matter how long ago the employment was terminated.Exception: Interim CEOs who were independent prior to becoming CEO (provided the interim service period is six months or fewer).</td></tr><tr><td>Within the last five years, has been an employee of a predecessor company that represented more than 50% of the company's sales or assets when it became part of the company, or an employee of a business acquired by the company.</td></tr><tr><td>Within the last five years, has been an employee or other representative of a former parent company following a spin-off or divestment, regardless of the parent's current interest.</td></tr><tr><td>Links to Controlling Owner</td><td>A director who is a controlling owner or executive of an entity that has effective majority control (30% or more of the total voting rights) of the company in question.</td></tr><tr><td>Company Founder</td><td>Company founder(s), regardless of their current employment status with the company, current share ownership, and/or current economic interest in the company.</td></tr><tr><td rowspan=\"2\">Links to Executives</td><td>A director with a family or close personal relationship with an executive of the company.</td></tr><tr><td>A director who is an employee of a company owned or run by a member of management or by a non-independent director.</td></tr><tr><td rowspan=\"2\">Professional or personal services</td><td>Anyone providing personal/professional services to the company or to a member of the company's senior management for a fee of at least USD 120,000 per year or for an amount more than 50% of their annual director fee;*</td></tr><tr><td>Within the last three years has been an owner, partner, employee or paid adviser to a professional services firm (e.g., law firm, accounting firm, insurer, underwriting firm, commercial bank, information technologyconsultant, management consultant) that has provided services of at least USD 120,000 (or for an amount more than 50% of their annual director fee)* per year to the company or to a member of the company's senior management;</td></tr><tr><td rowspan=\"2\">Sale of goods or services</td><td>Owner, partner, employee, paid adviser or director of a publicly traded firm that within the preceding or current fiscal year has sold goods or services to the corporation for a fee representing more than 1% of the sales of the supplier or the corporation.*</td></tr><tr><td>Owner, partner, employee, paid adviser or director of a private firm that has sold goods or services to the corporation for a fee of more than USD 250,000 (or for an amount more than 100% of their annual director fee)* to the corporation.</td></tr><tr><td>Charitable contributions</td><td>Employees, directors or trustees (as opposed to general members) of a non-profit organization to which the company made charitable contributions of USD 100,000 or more (or for an amount more than 50% of their annual director fee)* in the last fiscal or calendar year.</td></tr><tr><td>Fees received</td><td>A non-executive chair whose annual cash compensation is equal to or greater than 50% of the total cash compensation (salary plus bonus) of any of the named executive officers or is more than five times that of other non-executive directors (whichever is greater).</td></tr><tr><td>Interlocked directors</td><td>A non-executive of the evaluated company serves as an executive at a second company and an executive of the evaluated company serves as the non-executive of the second company (\"interlocked directors\"). Once the interlock ends, if the non-executive remains on the board, the non-executive continues to be assessed as not independent of management for a three-year period.</td></tr><tr><td>Company assessment</td><td>Any individual classified as not independent by the company itself. Exceptions: If the reason(s) identified following a review of biographical and other information are limited to the following: Tenure,** and/or One or more of the criteria in Designated Director/ Independence of Other Interests; and/or Due to holding the role of non-executive chair (in the U.K.).</td></tr><tr><td>Insufficient biographical information</td><td>If a company does not disclose enough information regarding its directors to properly judge independence (e.g., by not disclosing director biographies).</td></tr><tr><td>Other scenarios</td><td>We may also review other situations not explicitly covered above and will use our best judgment to determine if a director's relationship with the company warrants classification as non-independent.</td></tr></table>",
+          "content_cn": "<table><tr><td>原因</td><td>定义</td></tr><tr><td rowspan=\"2\">现任高管或员工</td><td>公司或集团当前领取报酬的高管或员工。</td></tr><tr><td>现任非高管员工，或不属于执行董事会、管理董事会及其他最高层执行机构的较低层级高管。例外：因担任员工或工会代表而获得董事席位者。</td></tr><tr><td rowspan=\"3\">前任高管或员工</td><td>公司或集团的前任高管或员工，无论雇佣关系终止多久。例外：在担任首席执行官之前独立的临时首席执行官，且临时任职不超过六个月。</td></tr><tr><td>过去五年内，曾受雇于并入时销售额或资产占公司超过 50% 的前身公司，或曾受雇于公司收购的业务。</td></tr><tr><td>过去五年内，在分拆或剥离后曾任原母公司的员工或其他代表，无论母公司当前持有何种权益。</td></tr><tr><td>与控制所有者的联系</td><td>董事是对受评公司具有实际多数控制权（总投票权达到或超过 30%）的实体的控制所有者或高管。</td></tr><tr><td>公司创始人</td><td>公司创始人，无论其当前在公司的任职状态、持股情况和／或经济利益如何。</td></tr><tr><td rowspan=\"2\">与高管的联系</td><td>与公司高管存在家庭或密切私人关系的董事。</td></tr><tr><td>董事受雇于由管理层成员或非独立董事拥有或经营的公司。</td></tr><tr><td rowspan=\"2\">专业或个人服务</td><td>向公司或其高级管理人员提供个人／专业服务，且年度收费至少为 120,000 美元，或超过其年度董事报酬 50% 的任何人；*</td></tr><tr><td>过去三年内，曾任专业服务机构的所有者、合伙人、员工或付费顾问，且该机构每年向公司或其高级管理人员提供至少 120,000 美元、或超过该董事年度报酬 50% 的服务。专业服务机构例如律师事务所、会计师事务所、保险机构、承销机构、商业银行、信息技术顾问或管理顾问；*</td></tr><tr><td rowspan=\"2\">商品或服务销售</td><td>上市公司的所有者、合伙人、员工、付费顾问或董事，该上市公司在上一财年或本财年向受评公司销售商品或服务，收费超过供应商或受评公司销售额的 1%。*</td></tr><tr><td>非上市公司的所有者、合伙人、员工、付费顾问或董事，该非上市公司向受评公司销售商品或服务，收费超过 250,000 美元，或超过该董事年度报酬的 100%。*</td></tr><tr><td>慈善捐赠</td><td>非营利组织的员工、董事或受托人（不包括普通成员），且受评公司在上一财年或日历年度向该组织作出至少 100,000 美元、或超过该董事年度报酬 50% 的慈善捐赠。*</td></tr><tr><td>收取的报酬</td><td>非执行董事长的年度现金薪酬，达到或超过任何一名列名高管总现金薪酬（工资加奖金）的 50%，或超过其他非执行董事薪酬的五倍，以两项门槛中的较高者为准。</td></tr><tr><td>交叉任职董事</td><td>受评公司的非执行董事在第二家公司担任高管，同时受评公司的高管在第二家公司担任非执行董事，即“交叉任职董事”。交叉任职结束后，若该非执行董事仍留在董事会，则继续被评估为不独立于管理层，为期三年。</td></tr><tr><td>公司自身评估</td><td>被公司自身归类为非独立的任何个人。例外：审阅履历及其他信息后，所识别原因仅限于任期**，和／或“指定董事／其他利益独立性”中的一项或多项标准，和／或在英国因担任非执行董事长而被归类为非独立。</td></tr><tr><td>履历信息不足</td><td>公司未披露足够的董事信息以便适当判断独立性，例如未披露董事履历。</td></tr><tr><td>其他情况</td><td>MSCI ESG 研究也可审查上文未明确覆盖的其他情况，并运用专业判断，确定董事与公司的关系是否应归类为非独立。</td></tr></table>",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\*If the monetary value of goods or services sold to the corporation is not disclosed, the director will be classified as non-independent. Exception: If the company confirms that the relevant amount falls below a regulatory threshold that is itself at or below the threshold applied by MSCI ESG Research.",
+          "content_cn": "* 若未披露向公司销售商品或服务的金额，董事将被归类为非独立。例外：公司确认相关金额低于某项监管门槛，且该监管门槛本身不高于 MSCI ESG 研究采用的门槛。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\*\\*See above for the definition of the Entrenched Board Key Metric, which incorporates director tenure into the assessment.",
+          "content_cn": "** 董事会固化关键指标将董事任期纳入评估，其定义见上文。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Independent of Other Interests",
+      "title_cn": "独立于其他利益",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Per MSCI ESG Research's definition of “independent of other interests” a director will be considered not independent of other (non-management) interests if they meet one or more of the following criteria: in Exhibit 3.",
+          "content_cn": "根据 MSCI ESG 研究对“独立于其他利益”的定义，若董事符合图表 3 中一项或多项标准，则被视为不独立于其他非管理层利益。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 3: Not Independent of Other Interests $^{4}$",
+          "content_cn": "图表 3：不独立于其他利益 $^{4}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Reason</td><td>Definition</td></tr><tr><td>Employee Representative</td><td>The director's role on the board is formally recognized as representing employees or is elected by employees or is nominated by employees for election by shareholders.</td></tr><tr><td>Employee Shareholder Representative</td><td>The director's role on the board is formally recognized as representing employee shareholders or is elected by employee shareholders or is nominated by employee shareholders for election by shareholders (most instances are in France).</td></tr><tr><td>Union Representative</td><td>The director's role on the board is formally recognized as representing employee unions or is a full-time union official (e.g., “full-time shop steward” or similar).</td></tr><tr><td>Links to Major Owner</td><td>A director who is an owner or executive of an entity that has at least 10% of the voting rights of the company in question (note that if the percentage of voting rights exceeds 30%, the director is also considered not independent of management, per above).</td></tr><tr><td>Links to Family</td><td>The director is either:specifically designated as representing a family owner or owner group under a formal agreement or governing document provision; oris a member of the family that historically has been involved at the firm, even where the family no longer holds more than 10% of the total voting power.</td></tr><tr><td>Links to Founder</td><td>The director is either:specifically designated as representing the founder under a formal agreement or governing document provision; oris closely associated with the founder, even where the founder no longer holds more than 10% of the voting power.</td></tr><tr><td>Special Shareholder Representative</td><td>The director has either:been specifically designated under a formal Shareholders' Agreement signed by the issuer and a shareholder (regardless of the size of the shareholding); orthe director's biographical information or other relevant disclosure provides clear evidence of the designation, and the shareholder holds less than 10% of the voting power.</td></tr><tr><td>Share-Class Designated</td><td>The director has been specifically designated as representing the interests of shareholders of a specific class or where the director's biographical information or other relevant disclosure provides clear evidence of the designation.Note: Merely being elected by a specific share class is insufficient to meet this standard.</td></tr><tr><td>Government Representative</td><td>The director's role on the board is to represent the government, including where the government is a shareholder or the holder of a golden share. This representation may be:formally recognized or designated; orthe director is a currently serving government minister or a senior government official.</td></tr><tr><td>Other</td><td>We may also review other situations not explicitly covered above and will use our best judgment to determine if a director's relationship with the company warrants classification as designated.</td></tr></table>",
+          "content_cn": "<table><tr><td>原因</td><td>定义</td></tr><tr><td>员工代表</td><td>董事在董事会中的角色被正式认定为代表员工，或由员工选举，或由员工提名后交股东选举。</td></tr><tr><td>员工股东代表</td><td>董事在董事会中的角色被正式认定为代表员工股东，或由员工股东选举，或由员工股东提名后交股东选举，多数案例位于法国。</td></tr><tr><td>工会代表</td><td>董事在董事会中的角色被正式认定为代表员工工会，或其本人为专职工会工作人员，例如专职工会代表或类似人员。</td></tr><tr><td>与主要所有者的联系</td><td>董事是持有受评公司至少 10% 投票权的实体的所有者或高管。注意：若投票权比例超过 30%，按照上文标准，该董事也被视为不独立于管理层。</td></tr><tr><td>与家族的联系</td><td>董事符合以下任一情形：依正式协议或治理文件条款被明确指定代表家族所有者或所有者群体；或属于历史上参与该公司的家族，即使该家族当前持有的总投票权已不超过 10%。</td></tr><tr><td>与创始人的联系</td><td>董事符合以下任一情形：依正式协议或治理文件条款被明确指定代表创始人；或与创始人关系密切，即使创始人当前持有的投票权已不超过 10%。</td></tr><tr><td>特定股东代表</td><td>董事符合以下任一情形：由发行人与某股东签署的正式股东协议明确指定，不论持股规模；或董事履历及其他相关披露清楚证明其被指定，且该股东持有的投票权低于 10%。</td></tr><tr><td>特定股份类别指定董事</td><td>董事被明确指定代表某一类别股份的股东利益，或其履历及其他相关披露清楚证明该指定。注：仅由某类股份选举产生，不足以满足该标准。</td></tr><tr><td>政府代表</td><td>董事在董事会中的角色是代表政府，包括政府作为股东或黄金股持有人的情形。该代表身份可能获正式承认或指定，或该董事是现任政府部长或高级政府官员。</td></tr><tr><td>其他</td><td>MSCI ESG 研究也可审查上文未明确覆盖的其他情况，并运用专业判断，确定董事与公司的关系是否应归类为指定代表。</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Board Positions",
+      "title_cn": "董事会任职",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Board counts reference companies included in the MSCI ESG Research's corporate governance coverage universe, including both equity and debt issuers. When counting membership of boards at dual-listed companies, this is counted as one role, even if technically these are two separate companies.",
+          "content_cn": "董事会任职数量参照 MSCI ESG 研究公司治理覆盖范围内的公司，包括股权和债务发行人。计算双重上市公司的董事会任职时，即使法律上属于两家独立公司，也计为一个职务。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged Directors",
+      "title_cn": "被标记董事",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "An individual is considered a Flagged Director if, during their tenure as a director of an issuer:",
+          "content_cn": "若个人在某发行人担任董事期间出现以下情况，则被视为被标记董事：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- the issuer (or a subsidiary) entered liquidation proceedings or bankruptcy protection resulting in a significant loss of investor value;",
+          "content_cn": "• 发行人或其子公司进入清算程序或破产保护，造成投资者价值重大损失；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- the issuer experienced a significant loss of investor value that may be linked to a failure of board oversight; or",
+          "content_cn": "• 发行人发生可能与董事会监督失效有关的投资者价值重大损失；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- the individual was subject to a legal or regulatory censure or sanction relating to their behavior as a director or executive.",
+          "content_cn": "• 该个人因其作为董事或高管的行为受到法律或监管谴责或制裁。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In assessing Flagged Director status, we consider an individual's entire career as a corporate director, including but not limited to their tenure at the issuer under assessment. For bankruptcies, liquidations or other events resulting in significant losses of investor value, individuals are flagged only if their tenure on the relevant board began at least one year prior to the event.",
+          "content_cn": "评估被标记董事身份时，考察个人担任公司董事的整个职业经历，包括但不限于在受评发行人的任期。对于破产、清算或其他造成投资者价值重大损失的事件，仅在其相关董事会任期至少始于事件发生前一年时才作标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged Director status does not expire, and multiple flagged instances may be identified for a particular director.",
+          "content_cn": "被标记董事身份不会到期失效，同一董事可能被识别出多次被标记事件。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Expertise",
+      "title_cn": "专业经验",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Biographies are reviewed on an individual basis to determine whether the evaluation criteria for the expertise designations set out in Exhibit 4 are met.",
+          "content_cn": "逐人审阅履历，以确定是否符合图表 4 所列专业经验认定标准。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 4: Director Expertise Evaluation Criteria",
+          "content_cn": "图表 4：董事专业经验评估标准",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Expertise Type</td><td>Evaluation Criteria</td></tr><tr><td>Financial</td><td>Evidence of financial or accounting expertise, including a close review of previous or current titles or positions. Includes:Professional experience such as audit firm partner/executive, CFO/Finance Director of a public firm or subsidiary/division of such firm, etc.Professional designations such as FCA, CPA, etc.For markets with strict financial expertise rules, the company's own designations regarding financial expertise are generally accepted as such.General statements such as “financial literacy” are not accepted as evidence of financial expertise.</td></tr><tr><td>Industry</td><td>Evidence that a director has served as an executive at a company in the same industry as the board on which they serve.Directors are tagged with up to two Global Industry Classification Standard (GICS®)5 industries, these being the GICS industries of companies where they currently hold or previously held executive roles. Equivalent evaluations are undertaken where the executive post is/was with a private firm.</td></tr><tr><td>Risk Management</td><td>Evidence of previous executive-level experience at one or more companies where the biography includes a specific reference to risk management. Includes experience as: ·A risk officer/manager at divisional/subsidiary or group level of a public or private company. ·An executive tasked with specific risk management duties. ·Membership of an executive-level (not board-level) risk committee. ·An insurance company CEO. ·A risk consultant (principal, executive or partner) in a risk consulting firm or practice. ·A public sector risk management executive or expert. ·An academic focused on the subject of risk.General statements such as “risk management expertise” are not accepted as evidence of risk management expertise.</td></tr></table>",
+          "content_cn": "<table><tr><td>专业经验类型</td><td>评估标准</td></tr><tr><td>财务</td><td>需有财务或会计专长的证据，包括仔细审阅过去或当前头衔及职务。包括：审计机构合伙人或高管、上市公司及其子公司或部门的首席财务官或财务总监等职业经历；资深特许会计师（FCA）、注册会计师（CPA）等专业资格。在财务专长规则严格的市场，通常接受公司自行作出的财务专家认定。“具备财务知识”等笼统表述不被接受为财务专长证据。</td></tr><tr><td>行业</td><td>需有证据表明董事曾在与其任职董事会公司处于同一行业的公司担任高管。董事最多被标注两个全球行业分类标准（GICS®）⁵ 行业，依据其当前或过往担任高管的公司所属行业确定。若高管职务位于非上市公司，则进行等效评估。</td></tr><tr><td>风险管理</td><td>需有在一家或多家公司担任高管的既往经验，且履历明确提及风险管理。包括以下经历：上市或非上市公司部门、子公司或集团层面的风险负责人或经理；承担具体风险管理职责的高管；高管层面而非董事会层面风险委员会成员；保险公司首席执行官；风险咨询机构或业务部门的风险顾问（负责人、高管或合伙人）；公共部门风险管理高管或专家；专注风险研究的学者。“具备风险管理专长”等笼统表述不被接受为风险管理专长证据。</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Related-Party Transactions",
+      "title_cn": "关联方交易",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Related-Party Transaction (RPT) Key Metric is assessed using a common framework across the entire issuer universe. This framework was developed by MSCI ESG Research based on a review of research published by the OECD $^{6,7,8}$ and with reference to the International Financial Reporting Standards. $^{9}$",
+          "content_cn": "关联方交易关键指标采用覆盖全部发行人的统一框架进行评估。该框架由 MSCI ESG 研究在审阅经合组织发布的研究 $^{6,7,8}$ 并参考国际财务报告准则 $^{9}$ 的基础上制定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Related parties may include:",
+          "content_cn": "关联方可能包括：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Directors and officers, and their family members;",
+          "content_cn": "• 董事、高级职员及其家庭成员；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Any entities that control or are under common control with the company, including executives of such entities and members of their families;",
+          "content_cn": "• 控制公司或与公司受共同控制的任何实体，包括这些实体的高管及其家庭成员；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Significant shareholders (10% or more), including members of their families; and",
+          "content_cn": "• 重要股东（持股达到或超过 10%），包括其家庭成员；以及",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Management companies, managing partners and other entities to whom the management or operations of the company have been delegated.",
+          "content_cn": "• 受托管理或运营公司的管理公司、管理合伙人及其他实体。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Non-wholly owned subsidiaries may be considered related parties if another shareholder in the subsidiary is one of the parties noted in the list above.",
+          "content_cn": "如果非全资子公司的另一股东属于上述任何一类主体，该子公司可能被视为关联方。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Related-party transactions can vary widely by type, reflecting the variety of transactions generally undertaken by companies, and may be either one-off or recurring in nature.",
+          "content_cn": "关联方交易类型差异很大，反映公司通常开展交易的多样性，性质可以是一次性或经常性。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Transaction types may include:",
+          "content_cn": "交易类型可能包括：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Revenue;",
+          "content_cn": "• 收入；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Expense;",
+          "content_cn": "• 费用；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Sale or purchase of assets;",
+          "content_cn": "• 资产出售或购买；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Loan to/from company; and",
+          "content_cn": "• 向公司提供贷款或从公司取得贷款；以及",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Loan guarantee.",
+          "content_cn": "• 贷款担保。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Any loans to executive directors, other senior executives, company founders or their family members will be regarded as related-party transactions in all cases.",
+          "content_cn": "向执行董事、其他高级管理人员、公司创始人或其家庭成员提供的任何贷款，在所有情况下均被视为关联方交易。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Loans to other non-executive directors by companies will be regarded as related-party transactions, except in cases where the company is operating in the financial sector in the normal course of business.",
+          "content_cn": "公司向其他非执行董事提供的贷款将被视为关联方交易，但公司在金融行业正常业务过程中开展该交易的情形除外。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "If a non-executive director is flagged as not independent of management due to transactions with the company that exceed the stated thresholds, these will also be regarded as related-party transactions for the company.",
+          "content_cn": "如果非执行董事因与公司的交易超过规定门槛而被标记为不独立于管理层，这些交易也将被视为公司的关联方交易。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "We generally do not consider the following to be related-party transactions, unless exceptional circumstances apply:",
+          "content_cn": "除非存在特殊情况，通常不将以下事项视为关联方交易：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Generally available government grants and subsidies;",
+          "content_cn": "• 普遍可获得的政府拨款和补贴；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Investments in government bonds and other government-issued securities;",
+          "content_cn": "• 对政府债券及其他政府发行证券的投资；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Dividends paid to all shareholders generally;",
+          "content_cn": "• 一般向所有股东支付的股息；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Directors & officers insurance and indemnification provisions provided to all directors;",
+          "content_cn": "• 向所有董事提供的董事及高级职员责任保险和赔偿条款；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Remuneration paid to directors and executives; and",
+          "content_cn": "• 向董事和高管支付的薪酬；以及",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Employment of family members, provided the family member's pay falls within an appropriate range for the seniority of the role and the experience of the individual.",
+          "content_cn": "• 雇用家庭成员，前提是该成员薪酬处于与职位级别和个人经验相适应的合理范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The size of the related-party transactions is assessed based on the percentage of revenue or recurring revenue, expenses or recurring expenses and (for asset transfers, loans or loan guarantees) total assets.",
+          "content_cn": "关联方交易规模根据其占收入或经常性收入、费用或经常性费用，以及资产转让、贷款或贷款担保情形下总资产的比例评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Related-party transactions are identified as higher-risk where:",
+          "content_cn": "以下情况下，关联方交易被识别为较高风险：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- The Controlling Shareholder Concerns Key Metric is flagged AND there are RPTs with the controlling shareholder;",
+          "content_cn": "• 控股股东疑虑关键指标被标记，且存在与控股股东的关联方交易；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• There are RPTs with the CEO and/or his family members;",
+          "content_cn": "• 存在与首席执行官和／或其家庭成员的关联方交易；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Family firm = Yes and there are RPTs with family members;",
+          "content_cn": "• 公司为家族企业，且存在与家族成员的关联方交易；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Founder firm = Yes and there are RPTs with the founder;",
+          "content_cn": "• 公司为创始人企业，且存在与创始人的关联方交易；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• State Owned Enterprise (SOE) = Yes and there are one-off RPTs with the State; or",
+          "content_cn": "• 公司为国有企业，且存在与国家的一次性关联方交易；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• The No Independent Directors Key Metric is flagged.",
+          "content_cn": "• 无独立董事关键指标被标记。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Model Update History",
+      "title_cn": "模型更新历史",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In June 2022, the Board Key Issue was updated to capture additional governance risks posed by directors with other outside interests and boards that lack an independent nomination committee.",
+          "content_cn": "2022 年 6 月，董事会关键议题进行了更新，以识别董事存在其他外部利益以及董事会缺少独立提名委员会所带来的额外治理风险。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In December 2024, the Board Key Issue was updated to clarify the circumstances in which the Leadership Concerns Key Metric is flagged.",
+          "content_cn": "2024 年 12 月，董事会关键议题进行了更新，明确领导层疑虑关键指标被标记的具体情形。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Contact us",
+          "content_cn": "联系我们",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "msci.com/contact-us",
+          "content_cn": "MSCI 联系入口：msci.com/contact-us",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Board Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "June 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/board-key-issue.pdf",
+    "current_official_sha256": "5bd61d86144ed51e286dcc6200296d08a784e6f097ec640f8807656a11952bdc",
+    "legacy_extraction_version": "December 2024",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

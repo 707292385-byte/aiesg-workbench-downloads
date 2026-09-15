@@ -1,0 +1,1126 @@
+{
+  "id": "MSCI-ENV-01",
+  "title": "碳排放",
+  "titleEn": "Carbon Emissions",
+  "summary": "评估公司运营的碳强度及其管理气候相关风险与机遇的能力；适用性与权重取决于行业和公司风险敞口。",
+  "pillar": "环境支柱",
+  "pillarEn": "Environmental Pillar",
+  "theme": "气候变化",
+  "themeEn": "Climate Change",
+  "type": "风险类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Carbon Emissions Key Issue to enable users of ESG Ratings to understand how MSCI Sustainability & Climate’s (MSCI S&C’s)1 outputs are determined. Carbon Emissions is a Key Issue in the Environmental Pillar of the MSCI ESG Ratings model. Companies are evaluated on the carbon intensity of their operations and their efforts to manage climate-related risks and opportunities.",
+          "content_cn": "本文档提供碳排放关键议题组成部分的基本信息，帮助ESG评级用户理解MSCI可持续与气候（MSCI S&C）¹研究输出的确定方式。碳排放是MSCI ESG评级模型中环境支柱下的一个关键议题。公司评估内容包括其运营的碳强度以及管理气候相关风险和机遇的努力。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to the Data, ratings and scores section of “ESG Ratings Methodology.”",
+          "content_cn": "关于MSCI ESG评级模型的更多细节，请参阅《ESG评级方法论》中\"数据、评级和分数\"部分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy\n<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Risks associated with this Key Issue",
+      "title_cn": "与本关键议题相关的风险",
+      "blocks": [
+        {
+          "type": "list",
+          "content": "• Increased costs linked to carbon pricing or trading.",
+          "content_cn": "• 与碳定价或碳交易相关的成本上升。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Facility retrofit costs or operational disruptions due to regulatory caps.",
+          "content_cn": "• 因监管上限导致的设施改造费用或运营中断。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Key Issue score",
+      "title_cn": "碳排放关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Key Issue score evaluates the company’s level of exposure to, and management of risks on this Key Issue. The Key Issue score is based on the Exposure score and the Management score using the formula below. The Exposure score and the Management score are combined such that a higher level of exposure requires a higher level of demonstrated management capability in order to achieve the same overall Key Issue score.",
+          "content_cn": "碳排放关键议题得分评估公司对该关键议题风险的敞口程度以及风险管理质量。关键议题得分由敞口得分和管理得分通过下述公式综合得出。敞口得分与管理得分的结合方式为：敞口水平越高，需要展示的管理能力也越高，才能获得相同的总体关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nK I _ { i } = 7 - ( \\operatorname* { m a x } { ( E X P _ { i } , 2 ) } - M G M T _ { i } )\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$K I _ { i }$ is the Key Issue score for company i.",
+          "content_cn": "$K I _ { i }$ 是公司i的关键议题得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              4
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$E X P _ { i }$ is the Exposure score for company i.",
+          "content_cn": "$E X P _ { i }$ 是公司i的敞口得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              4
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$MGMT_i$ is the Management score for company i.",
+          "content_cn": "• $MGMT_i$ 是公司i的管理得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              4
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Management framework",
+      "title_cn": "碳排放管理框架",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The table below outlines the indicators mapped to their respective components that inform the Carbon Emissions Management score, excluding controversies. MSCI S&C assigns each indicator a default weight. Indicator weights may be adjusted at the company level to reflect the relevance of the indicator to the company’s business activities. If a company has no exposure to the business activities covered by an indicator, the indicator is assigned a weight of zero.",
+          "content_cn": "下表列示了构成碳排放管理得分（不含争议事件）的各指标及其对应组成部分。MSCI S&C为每个指标设定默认权重。指标权重可在公司层面调整，以反映该指标与公司业务活动的相关性。如果公司对某指标涵盖的业务活动没有敞口，则该指标权重设为零。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Component</td><td>Sustainability Indicator</td></tr><tr><td rowspan=\"5\">Carbon Emissions Mitigation score</td><td>Use of cleaner sources of energy</td></tr><tr><td>Efforts to capture GHG emissions</td></tr><tr><td>Efforts to reduce customer energy consumption (demand-side management)</td></tr><tr><td>Energy Consumption Management &amp; Operational Efficiency</td></tr><tr><td>Other efforts to reduce carbon emissions</td></tr><tr><td rowspan=\"3\">Carbon Emissions Targets score</td><td>Carbon emissions target comprehensiveness</td></tr><tr><td>Carbon emissions target progress</td></tr><tr><td>Carbon emissions target verification</td></tr><tr><td>Carbon Emissions Performance score</td><td>Carbon emissions performance relative to peers</td></tr></table>",
+          "content_cn": "<table><tr><td>组成部分</td><td>可持续发展指标</td></tr><tr><td rowspan=\"5\">碳排放减缓得分</td><td>使用更清洁的能源</td></tr><tr><td>捕集温室气体排放的措施</td></tr><tr><td>减少客户能源消耗的措施（需求侧管理）</td></tr><tr><td>能源消耗管理与运营效率</td></tr><tr><td>其他减少碳排放的措施</td></tr><tr><td rowspan=\"3\">碳排放目标得分</td><td>碳排放目标的全面性</td></tr><tr><td>碳排放目标的进展</td></tr><tr><td>碳排放目标的验证</td></tr><tr><td>碳排放绩效得分</td><td>相对于同业的碳排放绩效</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Management score",
+      "title_cn": "碳排放管理得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Management score evaluates the company’s ability to manage its exposure to risks on this Key Issue. It is based on weighted average of the scores associated with each of the relevant indicator, modified by controversies.",
+          "content_cn": "碳排放管理得分评估公司管理该关键议题风险敞口的能力。它基于各相关指标得分的加权平均值计算，并经争议事件调整。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This score is derived from indicators that are scored on a 0-10 scale, with 10 corresponding to best practice. Refer to the Analyzing risk management section of “ESG Ratings Methodology” for additional details. Sources are company disclosures except where otherwise indicated.",
+          "content_cn": "该得分来源于按0-10分制评分的指标，10分对应最佳实践。更多细节请参阅《ESG评级方法论》中\"风险管理分析\"部分。除特别注明外，数据来源为公司披露。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The following formula is used to calculate the Carbon Emissions Management score - Excluding Controversies:",
+          "content_cn": "碳排放管理得分（不含争议事件）按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$M G M T _ { i }$ is the Management score - Excluding Controversies for company i.",
+          "content_cn": "$M G M T _ { i }$ 是公司i的管理得分（不含争议事件）。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              5
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$Indicator\\_Score_{j,i}$ is the score of indicator j for company i.",
+          "content_cn": "• $Indicator\\_Score_{j,i}$ 是公司i在指标j上的得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              5,
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$Indicator\\_Weight_{j,i}$ is the weight of indicator j for company i.",
+          "content_cn": "• $Indicator\\_Weight_{j,i}$ 是公司i在指标j上的权重。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              5,
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The following formula is used to calculate the scores for the components",
+          "content_cn": "各组成部分得分按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$C O M P _ { c , i }$ is the component score for component $c _ { \\prime }$ for company i.",
+          "content_cn": "$C O M P _ { c , i }$ 是组成部分 $c _ { \\prime }$ 在公司 i 的得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$Indicator\\_Score_{j,i}$ is the score of indicator j for company i.",
+          "content_cn": "• $Indicator\\_Score_{j,i}$ 是公司i在指标j上的得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              5,
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$Indicator\\_Weight\\_Scaled_{j,i}$ is the scaled weight of indicator j for company i.",
+          "content_cn": "• $Indicator\\_Weight\\_Scaled_{j,i}$ 是公司i在指标j上的缩放后权重。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$j \\in c$ indicates that the summation is over all indicators belonging to component",
+          "content_cn": "$j \\in c$ 表示对所有属于组成部分c的指标求和。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The following formula is used to calculate the weights for the components",
+          "content_cn": "各组成部分权重按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$C O M P \\_ W e i g h t _ { c , i }$ is the component weight for component for company i.",
+          "content_cn": "$C O M P \\_ W e i g h t _ { c , i }$ 是公司i在组成部分c上的权重。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "$Indicator\\_Weight_{j,i}$ is the weight of indicator j for company i.",
+          "content_cn": "• $Indicator\\_Weight_{j,i}$ 是公司i在指标j上的权重。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              5,
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$j \\in c$ indicates that the summation is over all indicators belonging to component .",
+          "content_cn": "$j \\in c$ 表示对所有属于组成部分c的指标求和。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The definitions of the data points in each component are given below:",
+          "content_cn": "各组成部分中数据点的定义如下：",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Mitigation score",
+      "title_cn": "碳排放减缓得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Mitigation score evaluates the company’s ability to manage and reduce carbon emissions through mitigation measures, including energy efficiency, cleaner energy use, carbon capture, demand-side management and other reduction efforts. Highest performance reflects aggressive, comprehensive programs across operations and value chain. It is expressed as a 0–10 score, where 10 indicates strong initiatives.",
+          "content_cn": "碳排放减缓得分评估公司通过减缓措施管理和减少碳排放的能力，包括能源效率、清洁能源使用、碳捕集、需求侧管理及其他减排努力。最高表现反映在运营和价值链中采取积极、全面的方案。该得分以0-10分表示，10分表示强有力的举措。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Use of cleaner sources of energy.",
+      "title_cn": "• 使用更清洁的能源",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses how aggressively the company has sought to mitigate its carbon emissions through the use of cleaner sources of energy such as solar, wind, geothermal, co-generation, or natural gas in place of oil or coal.",
+          "content_cn": "定义：评估公司通过使用更清洁的能源来源（如太阳能、风能、地热能、热电联产，或用天然气替代石油或煤炭）积极减缓碳排放的程度。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Efforts to capture GHG emissions.",
+      "title_cn": "• 捕集温室气体排放的措施",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the aggressiveness of a company’s efforts to use greenhouse gas (GHG) capture and storage/sequestration of its operational emissions.",
+          "content_cn": "定义：评估公司对运营排放采用温室气体（GHG）捕集和封存/固存的积极程度。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Energy Consumption Management & Operational Efficiency",
+      "title_cn": "• 能源消耗管理与运营效率",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: This data point indicates our assessment of how aggressively the company has sought to mitigate its carbon emissions by managing energy consumption and improving the energy efficiency of its operations. Possible values are: 'Aggressive efforts' (best); 'Some efforts'; 'Limited efforts/information'; 'No efforts' (worst)",
+          "content_cn": "定义：该数据点反映我们对公司通过管理能源消耗和提高运营能效来积极减缓碳排放的评估。可能取值为：'积极努力'（最佳）；'部分努力'；'有限努力/信息不足'；'没有努力'（最差）。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Efforts to reduce customer energy consumption (demand-side management)",
+      "title_cn": "• 减少客户能源消耗的措施（需求侧管理）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates MSCI ESG Research's assessment of the aggressiveness of a company's efforts to reduce future energy consumption through energy efficiency or demand response programs. This indicator is specifically relevant for energy companies and utilities.",
+          "content_cn": "定义：反映MSCI ESG研究对公司通过能效或需求响应项目减少未来能源消耗的努力程度的评估。该指标对能源公司和公用事业公司特别相关。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Other efforts to reduce carbon emissions.",
+      "title_cn": "• 其他减少碳排放的措施",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses how aggressively the company has sought to mitigate its operational and/or value chain carbon emissions through other efforts (including purchasing carbon offsets, but excluding energy efficiency, clean energy use, carbon capture or demand-side management). The assessment is based on industry-specific criteria.",
+          "content_cn": "定义：评估公司通过其他方式（包括购买碳抵消，但不包括能效、清洁能源使用、碳捕集或需求侧管理）积极减缓运营和/或价值链碳排放的程度。评估基于行业特定标准。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Targets score",
+      "title_cn": "碳排放目标得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Targets score evaluates the company’s initiatives to set, pursue, and verify carbon emissions targets. Highest initiatives reflect comprehensive, independently verified targets with strong progress toward achievement. It is expressed as a 0–10 score, where 10 indicates strong initiatives.",
+          "content_cn": "碳排放目标得分评估公司设定、推进并验证碳减排目标的举措。最高举措反映为全面、经独立验证且取得良好进展的目标。该得分以0-10分表示，10分表示强有力的举措。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target comprehensiveness",
+      "title_cn": "• 碳排放目标的全面性",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the extent to which the company has established quantitative climate targets that are comprehensive in scope and complete in coverage. Expressed as a 0-10 score, with 10 indicating comprehensive targets.",
+          "content_cn": "定义：评估公司建立的量化气候目标在范围和覆盖面上的全面程度。以0-10分表示，10分表示目标全面。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target footprint coverage (%)",
+      "title_cn": "• 碳排放目标的足迹覆盖率（%）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the extent to which the company’s emission reduction targets cover its total reported emissions. Expressed as a 0–10 score, where 10 indicates that the targets comprehensively cover all relevant emissions.",
+          "content_cn": "定义：评估公司减排目标覆盖其总报告排放量的程度。以0-10分表示，10分表示目标全面覆盖所有相关排放。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target relevant scope score",
+      "title_cn": "• 碳排放目标的相关范围得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses whether the company’s emission reduction targets include all financially material scopes. Expressed as a 0–10 score, where 10 indicates full coverage of financially material emission scopes.",
+          "content_cn": "定义：评估公司减排目标是否涵盖所有财务重要范围的排放。以0-10分表示，10分表示完全覆盖财务重要排放范围。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target progress",
+      "title_cn": "• 碳排放目标的进展",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company’s progress toward active environmental targets, as well as its historical track record in meeting previously stated targets. Expressed as a 0-10 score, with 10 indicating strong progress towards targets",
+          "content_cn": "定义：评估公司实现现行环境目标的进展，以及其达成先前设定目标的历史记录。以0-10分表示，10分表示向目标取得良好进展。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions ongoing target progress",
+      "title_cn": "• 进行中的碳排放目标进展",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company’s progress toward achieving its emission reduction targets based on current performance. Expressed as a 0–10 score, where 10 all its targets are on track to meet stated targets.",
+          "content_cn": "定义：基于当前表现评估公司实现减排目标的进展。以0-10分表示，10分表示所有目标均在按计划实现。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target track record",
+      "title_cn": "• 碳排放目标的历史完成记录",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company’s historical performance in achieving or maintaining sustainability or environmental targets. Expressed as a 0–10 score, where 10 indicates strong performance.",
+          "content_cn": "定义：评估公司在实现或维持可持续发展/环境目标方面的历史表现。以0-10分表示，10分表示表现强劲。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions target verification",
+      "title_cn": "• 碳排放目标的验证",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses whether the company’s disclosed targets are supported by the Science Based Targets initiative (SBTi), where applicable. Expressed as either NULL or 10 score, with 10 indicating presence of verification.",
+          "content_cn": "定义：评估公司披露的目标是否得到科学碳目标倡议（SBTi）（如适用）的支持。取值为NULL或10分，10分表示已获验证。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• SBTi long-term target status",
+      "title_cn": "• 科学碳目标倡议（SBTi）长期目标状态",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates the status of the company’s Science Based Targets initiative (SBTi) long-term target, aligned with net-zero or long-term decarbonization goals.",
+          "content_cn": "定义：反映公司科学碳目标倡议（SBTi）长期目标的状态，该目标与净零或长期脱碳目标保持一致。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• SBTi near-term target status",
+      "title_cn": "• 科学碳目标倡议（SBTi）近期目标状态",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates the status of the company’s Science Based Targets initiative (SBTi) near-term target, aligned with short- to medium-term emissions reduction goals.",
+          "content_cn": "定义：反映公司科学碳目标倡议（SBTi）近期目标的状态，该目标与短期至中期减排目标保持一致。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Performance score",
+      "title_cn": "碳排放绩效得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Performance score evaluates the company's performance on carbon emissions metrics (including greenhouse gas emissions intensity), relative to its peers. It is expressed as a 0–10 score, where 10 indicates strong performance.",
+          "content_cn": "碳排放绩效得分评估公司在碳排放指标（包括温室气体排放强度）上相对于同行的表现。以0-10分表示，10分表示表现强劲。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Carbon emissions performance relative to peers.",
+      "title_cn": "• 相对于同业的碳排放绩效",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company's performance on greenhouse gas [GHG] emissions intensity (normalized by sales or by units of production), and trend in GHG emissions intensity, relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+          "content_cn": "定义：评估公司在温室气体（GHG）排放强度（按销售额或产量归一化）及其趋势方面相对于同行的表现。以0-10分表示，10分表示表现强劲。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "◦ Carbon emissions intensity industry relative score",
+      "title_cn": "◦ 碳排放强度的行业相对得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company's performance on greenhouse gas [GHG] emissions intensity (normalized by sales or by units of production), relative to its peers. Expressed as a 0-10 score, where 10 indicates strong performance.",
+          "content_cn": "定义：评估公司在温室气体（GHG）排放强度（按销售额或产量归一化）方面相对于同行的表现。以0-10分表示，10分表示表现强劲。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Three-year average carbon emissions intensity (sales based)",
+      "title_cn": "• 三年平均碳排放强度（按销售额计算）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Measures the company’s three-year average greenhouse-gas emissions per unit of sales over the defined period.",
+          "content_cn": "定义：衡量公司在定义期间内每单位销售额的三年平均温室气体排放量。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Three-year average carbon emissions intensity (production based)",
+      "title_cn": "• 三年平均碳排放强度（按产量计算）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Measures the company’s three-year average greenhouse-gas emissions per unit production (megawatt-hour generated, or ton cement produced or revenue passenger kilometer, based on industry).",
+          "content_cn": "定义：衡量公司每单位产量的三年平均温室气体排放量（按行业不同，可为每兆瓦时发电量、每吨水泥产量或每收入客公里）。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "◦ Carbon emissions intensity industry relative trend score",
+      "title_cn": "◦ 碳排放强度的行业相对趋势得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Assesses the company’s performance on the three-year average of year-over-year carbon-emissions intensity trend (normalized by sales or by units of production), relative to its peers. Expressed as a 0–10 score, where 10 indicates strong performance.",
+          "content_cn": "定义：评估公司三年平均温室气体排放强度同比变化趋势（按销售额或产量归一化）相对于同行的表现。以0-10分表示，10分表示表现强劲。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Three-year average year-over-year carbon emissions intensity trend (sales based)",
+      "title_cn": "三年平均碳排放强度同比变化趋势（按销售额计算）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Measures the company’s three-year average of year-over-year greenhouse-gas emissions (per unit of sales) trend.",
+          "content_cn": "定义：衡量公司每单位销售额温室气体排放的三年平均同比变化趋势。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Three-year average year-over-year carbon emissions intensity trend (production based)",
+      "title_cn": "三年平均碳排放强度同比变化趋势（按产量计算）",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Measures the company’s three-year average year-over-year greenhousegas emissions per unit production (megawatt-hour generated, or ton cement produced or revenue passenger kilometer based on industry) trend.",
+          "content_cn": "定义：衡量公司每单位产量温室气体排放（按行业不同，可为每兆瓦时发电量、每吨水泥产量或每收入客公里）的三年平均同比变化趋势。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Sources: Company disclosures, CDP",
+          "content_cn": "数据来源：公司披露、CDP（碳披露项目）",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Carbon Emissions Exposure score",
+      "title_cn": "碳排放敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Carbon Emissions Exposure score evaluates the company’s exposure to risks on this Key Issue. It is based on the Business and Geographic Exposure scores. The Geographic Exposure score functions as a multiplier on the Business Exposure score, with an impact ranging from -50% to +50%. The Business and Geographic Exposure scores are scored on a 0-10 scale, with 10 corresponding to the highest risk and 0 corresponding to the lowest risk. Refer to Section 3.2, Analyzing risk exposure, of “ESG Ratings Methodology” for additional details. The following formula is used in the Exposure score calculation:",
+          "content_cn": "碳排放敞口得分评估公司对该关键议题风险的敞口程度。它基于业务敞口得分和地理敞口得分计算。地理敞口得分作为业务敞口得分的乘数，影响范围为-50%至+50%。业务敞口得分和地理敞口得分均按0-10分制评分，10分对应最高风险，0分对应最低风险。更多细节请参阅《ESG评级方法论》第3.2节\"风险敞口分析\"。敞口得分按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nE X P _ { C B N , i } = B U S _ { C B N , i } ( 1 + 0 . 1 \\big ( G E O _ { C B N , i } - 5 \\big ) )\n$$"
+        }
+      ]
+    },
+    {
+      "title_en": "Where:",
+      "title_cn": "其中：",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "$E X P _ { C B N , i }$ is the Carbon Emissions Exposure score of company i.",
+          "content_cn": "$E X P _ { C B N , i }$ 是公司i的碳排放敞口得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              9
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$B U S _ { C B N , i }$ is the Business Exposure score of company i.",
+          "content_cn": "$B U S _ { C B N , i }$ 是公司i的业务敞口得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              9
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$G E O _ { C B N , i }$ is the Geographic Exposure score of company i.",
+          "content_cn": "$G E O _ { C B N , i }$ 是公司i的地理敞口得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              10
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 2: Exposure score components",
+          "content_cn": "图表2：敞口得分组成部分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Carbon Emissions Exposure score",
+          "content_cn": "碳排放敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Business Exposure score",
+          "content_cn": "业务敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Business Segment Exposure scores",
+          "content_cn": "业务板块敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "GHG Emissions Intensity",
+          "content_cn": "温室气体排放强度",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Geographic Exposure score",
+          "content_cn": "地理敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Geographic Segment Exposure scores",
+          "content_cn": "地理分区敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Annual Reduction in Carbon \nEmissions to Meet Emission \nTargets, Net Zero targets, Fossil Fuel Subsidies, Carbon Pricing",
+          "content_cn": "年度碳减排量\n为实现排放目标而减少的排放量\n目标、净零目标、化石燃料补贴、碳定价",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Exposure score",
+      "title_cn": "业务敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Business Exposure score is a weighted average of the Business Segment Exposure scores of a company’s business segments. Scores are weighted by the proportion of a company’s total assets in each business segment,2 using the following formula to calculate the Business Exposure score:",
+          "content_cn": "业务敞口得分是公司各业务板块业务敞口得分的加权平均值。权重按各业务板块占公司总资产的比例确定²，业务敞口得分按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nB U S _ { C B N , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { A s s e t , i , j } B S E _ { C B N , j }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$B S E _ { C B N , j }$ is the Business Segment Exposure score for the business segment j.",
+          "content_cn": "$B S E _ { C B N , j }$ 是业务板块j的业务板块敞口得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              10
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$w _ { A s s e t , i , j }$ is the weight of business segment j for company i based on the contribution to total company assets.",
+          "content_cn": "$w _ { A s s e t , i , j }$ 是公司i业务板块j基于其对总资产贡献的权重。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              11
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$n _ { i }$ is the number of business segments of company i.",
+          "content_cn": "$n _ { i }$ 是公司i的业务板块数量。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              11
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Segment Exposure scores",
+      "title_cn": "业务板块敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Business Segment Exposure score of a business segment is based on a mapping of the business segment as disclosed by the company to a corresponding business activity. MSCI S&C uses the Standard Industrial Classification (SIC) system along with industry-specific adjustments to define business activities. The score associated with a business activity is used to calculate a Business Segment Exposure score. Each business activity score is determined by aggregating normalized Scope 1 and Scope 2 GHG emissions intensities to a business activity level.",
+          "content_cn": "业务板块敞口得分基于公司披露的业务板块与相应业务活动的映射确定。MSCI S&C使用标准行业分类（SIC）体系并结合行业特定调整来定义业务活动。与业务活动相关的得分用于计算业务板块敞口得分。每项业务活动得分通过将归一化的范围1和范围2温室气体排放强度汇总到业务活动层面确定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nB S E _ { C B N , j } = \\ E I _ { j , S 1 + S 2 }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$E I _ { j , S 1 + S 2 }$ is the Emissions Intensity score for the business activity j aggregated from companylevel data assessed by MSCI.",
+          "content_cn": "$E I _ { j , S 1 + S 2 }$ 是业务活动j的排放强度得分，由MSCI评估的公司层面数据汇总得出。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              11
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Emissions Intensity score indicates the baseline risk faced by a business segment. For each SIC code, this score is calculated by considering the reported company level scopes 1 and 2 emissions.",
+          "content_cn": "排放强度得分反映业务板块面临的基线风险。对于每个SIC代码，该得分通过考虑公司报告的范围1和范围2排放计算得出。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "To calculate the score:",
+          "content_cn": "计算方法：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "1. For each SIC code, the median emissions intensity is computed using data from companies that have majority of their assets value from activities mapped to that SIC code.",
+          "content_cn": "1. 对于每个SIC代码，使用主要资产价值来自映射到该SIC代码业务活动的公司数据计算排放强度中位数。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Emissions intensity is expressed as metric tons of $\\mathsf { C O } _ { 2 }$ equivalent $( \\mathsf { m t C O } _ { 2 } { \\mathsf { e } } )$ per million USD in sales.",
+          "content_cn": "排放强度以每百万美元销售额对应的 $\\mathsf { C O } _ { 2 }$ 当量公吨数 $( \\mathsf { m t C O } _ { 2 } { \\mathsf { e } } )$ 表示。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "2. If no company derives more than 50% of its revenue from the activities mapped to a specific SIC code, the calculation defaults to the next broader level in the SIC code hierarchy.",
+          "content_cn": "2. 如果没有公司超过50%的收入来自映射到特定SIC代码的业务活动，则计算回退到SIC代码层级中下一个更宽的层级。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "3. The resulting emissions intensity per business segment is then log-transformed and scaled to a 0–10 range, where higher scores indicate greater emissions intensity and baseline carbon emissions exposure.",
+          "content_cn": "3. 每个业务板块的排放强度经对数变换后缩放到0-10范围，分数越高表示排放强度越大、基线碳排放敞口越高。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For business activities related to electricity transmission and distribution (T&D) and power generation, the Business Segment Exposure score is derived by aggregating the emissions intensities of pure-play T&D companies as assessed by MSCI.",
+          "content_cn": "对于与输电和配电（T&D）以及发电相关的业务活动，业务板块敞口得分通过汇总MSCI评估的纯T&D公司的排放强度得出。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nB S E _ { C B N , j } = E I _ { j , M S C I }\n$$"
+        }
+      ]
+    },
+    {
+      "title_en": "Geographic Exposure score",
+      "title_cn": "地理敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Geographic Exposure score is a weighted average of the Geographic Segment Exposure scores of the countries, markets and regions in which a company operates. scores are weighted by the proportion of a company’s total assets in each geographic segment using the following equation:",
+          "content_cn": "地理敞口得分是公司经营所在国家、市场和地区地理板块敞口得分的加权平均值。权重按公司各地理板块占总资产的比例确定，地理敞口得分按以下公式计算：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nG E O _ { C B N , i } = \\sum _ { r = 1 } ^ { n _ { i } } w _ { A s s e t , i , r } G S E _ { C B N , r }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$G S E _ { C B N , r }$ is the Geographic Segment Exposure score in region .",
+          "content_cn": "$G S E _ { C B N , r }$ 是地区r的地理板块敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$w _ { A s s e t , i , r }$ is the weight of total assets in region r for company i.",
+          "content_cn": "$w _ { A s s e t , i , r }$ 是公司i在地区r的总资产权重。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              12
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$n _ { i }$ is the number of geographic segments for company i.",
+          "content_cn": "$n _ { i }$ 是公司i的地理板块数量。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              12
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For geographic segments reported as regions (example: Asia Pacific), a nominal GDP-weighted country or market aggregation is used to calculate region-level scores, using the following equation:",
+          "content_cn": "对于按地区（例如亚太）报告的地理板块，使用按名义GDP加权的国家或市场汇总来计算地区级得分，公式如下：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nG S E _ { C B N , r } = \\sum _ { c = 1 } ^ { n _ { r } } w _ { G D P , r , c } G S E _ { C B N , c }\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$G S E _ { C B N , c }$ is the Geographic Segment Exposure score of country or market .",
+          "content_cn": "$G S E _ { C B N , c }$ 是国家或市场c的地理板块敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$w _ { G D P , r , c }$ is the specific weight of country or market within region .",
+          "content_cn": "$w _ { G D P , r , c }$ 是国家或市场c在地区r内的特定权重。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Geographic Segment Exposure scores",
+      "title_cn": "地理分区敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Geographic Segment Exposure score for a country is determined by looking at the annual reduction in greenhouse gas emissions required to meet its publicly disclosed greenhouse gas emission targets.",
+          "content_cn": "一个国家的地理板块敞口得分通过考察其为达成公开披露的温室气体排放目标所需的年度温室气体减排量来确定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nG S E _ { C B N , c } = A v g ( N T A _ { c } , L T A _ { c } , G M M _ { c } )\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$N T A _ { c } ,$ is the near-term ambition score of country or market .",
+          "content_cn": "$N T A _ { c } ,$ 是国家或市场c的近期目标雄心得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$L T A _ { c }$ is the long-term ambition score of country or market .",
+          "content_cn": "$L T A _ { c }$ 是国家或市场c的长期目标雄心得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "$G M M _ { c }$ is the government and market mechanisms score of country or market .",
+          "content_cn": "$G M M _ { c }$ 是国家或市场c的政府与市场机制得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The near-term ambition of a country is assessed by considering the annual emissions reduction rate needed to meet their publicly disclosed near-term climate targets. Countries or markets with aggressive near-term targets have high emissions reduction rates and therefore a higher policy pressure segment score.",
+          "content_cn": "国家的近期目标雄心通过考察实现其公开披露的近期气候目标所需的年度减排率来评估。具有积极近期目标的国家或市场减排率高，因此政策压力板块得分更高。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A country or market’s long-term ambition indicates the strength and credibility of its long-term climate targets such as net-zero commitments. Long term targets could signal the direction of future policy and regulatory developments, even in the near term.",
+          "content_cn": "国家或市场的长期目标雄心反映其长期气候目标（如净零承诺）的强度和可信度。长期目标即使在近期也可能预示未来政策和监管发展的方向。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The government and market mechanisms score indicates the current strength of policy and marketbased mechanisms signaling a government’s commitment to driving the energy transition.",
+          "content_cn": "政府与市场机制得分反映当前政策与市场化机制的力度，表明政府推动能源转型的决心。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This score is calculated as the average of carbon pricing score and fossil fuel subsidies score.",
+          "content_cn": "该得分计算为碳定价得分和化石燃料补贴得分的平均值。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nG M M _ { c } = A v g \\left( \\mathit { C P M } , \\mathit { F F S } \\right)\n$$"
+        }
+      ]
+    },
+    {
+      "title_en": "Where",
+      "title_cn": "其中",
+      "blocks": [
+        {
+          "type": "list",
+          "content": "Carbon Pricing Mechanisms score",
+          "content_cn": "• 其中，? 是碳定价机制得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              13
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "Fossil Fuel Subsidies score.",
+          "content_cn": "• ? 是化石燃料补贴得分。",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CARBON-EMISSIONS",
+            "pages": [
+              13
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Carbon pricing mechanisms score indicates mechanisms such as carbon taxes or emissions trading systems that exert policy pressure on companies by assigning a direct cost to carbon emissions.",
+          "content_cn": "碳定价机制得分反映碳税或排放交易体系等机制，通过为碳排放设定直接成本对公司施加政策压力。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The fossil fuel subsidies score indicates the degree of financial support for fossil fuel consumption. Lower subsidies (higher scores) increase transition pressure by removing cost advantages, whereas high subsidies (lower scores) signal continued alignment with fossil fuel-based economic structures, thus reducing policy pressure",
+          "content_cn": "化石燃料补贴得分反映对化石燃料消费的财政支持程度。较低的补贴（较高的得分）通过消除成本优势增加转型压力，而较高的补贴（较低的得分）表明继续与基于化石燃料的经济结构保持一致，从而降低政策压力。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In the absence of evidence from data sources indicating that a country has near- or long-term emissions reduction targets or carbon pricing mechanisms in place, a score of 0 is assigned. In the absence of a country’s fossil fuel subsidy information, a score of 5 is assigned.",
+          "content_cn": "如果数据来源没有证据表明某国家制定了近期或长期减排目标或实施了碳定价机制，则分配0分。如果缺少某国家的化石燃料补贴信息，则分配5分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Data sources",
+      "title_cn": "数据来源",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The following sources are used to determine the Carbon Emissions Exposure score:",
+          "content_cn": "用于确定碳排放敞口得分的来源包括：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refinitiv; IMF Implied Mitigation Targets, Net Zero Tracker, Carbon Pricing Dashboard, IMF Fossil Fuel Subsidies Data, International Energy Agency (2020), Projected Costs of Generating Electricity 2020;; GHG emissions intensities compiled by MSCI S&C; company disclosures.",
+          "content_cn": "Refinitiv；IMF隐含减缓目标、净零追踪器、碳定价仪表板、IMF化石燃料补贴数据；国际能源署（2020）《2020年发电成本预测》；MSCI S&C编制的温室气体排放强度数据；公司披露。",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Carbon Emissions Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/environmental-pillar/carbon-emissions-key-issue.pdf",
+    "current_official_sha256": "57e5b3ceb3bc08e954664f44900439a863f1ac39727a6d36c03fe81f157e55d4",
+    "legacy_extraction_version": "原解析版本未标明",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

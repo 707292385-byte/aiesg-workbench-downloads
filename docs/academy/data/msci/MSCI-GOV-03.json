@@ -1,0 +1,476 @@
+{
+  "id": "MSCI-GOV-03",
+  "title": "商业道德",
+  "titleEn": "Business Ethics",
+  "summary": "评估公司反腐败、反贿赂、举报机制与商业道德管理体系。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "企业行为",
+  "themeEn": "Corporate Behavior",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Business Ethics Key Issue to enable users of ESG Ratings to understand how MSCI Sustainability & Climate's (MSCI S&C's) $^{1}$ outputs are determined. Business Ethics is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on their oversight and management of business ethics issues such as fraud, executive misconduct, corrupt practices, money laundering, or antitrust violations.",
+          "content_cn": "本文件介绍商业道德关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解 MSCI 可持续发展与气候团队（MSCI S&C）$^{1}$ 如何形成评估结果。商业道德属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖其对欺诈、高管不当行为、腐败行为、洗钱及反垄断违规等商业道德问题的监督和管理。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to the Data, ratings and scores section of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》的“数据、评级与得分”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Ethics Key Issue score",
+      "title_cn": "商业道德关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the aggregation of the following Key Metrics using the methodology described in the Calculating Governance Scores section of “ESG Ratings Methodology.”",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》“治理得分计算”章节所述方法，汇总以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Each Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "每项关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some Key Metrics are relevant only to companies with specific governance characteristics stemming from ownership type, management structure or other factors.",
+          "content_cn": "部分关键指标仅适用于因所有权类型、管理结构或其他因素而具有特定治理特征的公司。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Oversight of Ethics Issues Key Metric — Definition",
+      "title_cn": "道德问题监督关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the company's governance body (e.g., board-level committee, C-suite or executive committee, or special task force or risk officer) responsible for oversight of business ethics and corruption issues.",
+          "content_cn": "表明公司负责监督商业道德与腐败问题的治理机构，例如董事会层面的委员会、高管层或执行委员会、专项工作组或风险负责人。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Board level committee, C-suite or executive committee: 0.0.",
+          "content_cn": "董事会层面的委员会、高管层或执行委员会：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Special task force, or risk officer, or Corporate Social Responsibility / Sustainability team: -0.7.",
+          "content_cn": "专项工作组、风险负责人或企业社会责任／可持续发展团队：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "No evidence: -1.4.",
+          "content_cn": "无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Bribery and Anti-corruption Policy Key Metric — Definition",
+      "title_cn": "反贿赂与反腐败政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates if the company has a policy on bribery and anti-corruption in place and the scope of that policy.",
+          "content_cn": "表明公司是否制定反贿赂与反腐败政策，以及该政策的覆盖范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Detailed formal policy on bribery and anti-corruption: 0.0.",
+          "content_cn": "详细、正式的反贿赂与反腐败政策：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "General statements of commitment to address bribery and corruption: -0.7.",
+          "content_cn": "仅有应对贿赂与腐败的一般性承诺声明：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "No evidence: -1.4.",
+          "content_cn": "无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Anti-Corruption Policy for Suppliers Key Metric — Definition",
+      "title_cn": "供应商反腐败政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the scope of the bribery and anti-corruption policy in place for suppliers.",
+          "content_cn": "表明针对供应商制定的反贿赂与反腐败政策覆盖范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "All suppliers are required to have anti-corruption policies and programs to verify compliance: 0.0.",
+          "content_cn": "要求所有供应商制定反腐败政策，并设有核验遵守情况的计划：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "All suppliers are required to have anti-corruption policies: -0.7.",
+          "content_cn": "要求所有供应商制定反腐败政策：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Policy covers selected suppliers: -1.0.",
+          "content_cn": "政策覆盖选定供应商：-1.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "No evidence: -1.4.",
+          "content_cn": "无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Whistleblower Protection Key Metric — Definition",
+      "title_cn": "举报人保护关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates whether the company has disclosed a whistleblower policy that provides whistleblowers with protection from retaliation.",
+          "content_cn": "表明公司是否披露了保护举报人免受报复的举报政策。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Policy provides whistleblowers with protection from retaliation: 0.0.",
+          "content_cn": "政策保护举报人免受报复：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "No evidence: -1.4.",
+          "content_cn": "无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Employee Training on Ethical Standards Key Metric — Definition",
+      "title_cn": "员工道德标准培训关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the scope of employee training on anti-corruption and business ethics standards.",
+          "content_cn": "表明员工反腐败与商业道德标准培训的覆盖范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Programs covering all employees (including part-time) and contractors: 0.0.",
+          "content_cn": "计划覆盖所有员工（包括兼职员工）及承包商：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Programs covering all permanent employees (excluding part-time and contractors): -0.7.",
+          "content_cn": "计划覆盖所有正式员工，不包括兼职员工及承包商：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "General statements on employee training on ethical standards: -1.0.",
+          "content_cn": "仅有员工道德标准培训的一般性声明：-1.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "No evidence: -1.4.",
+          "content_cn": "无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Regular Audits of Ethical Standards Key Metric — Definition",
+      "title_cn": "定期道德标准审计关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the frequency and scope of audits related to anti-corruption and business ethics.",
+          "content_cn": "表明反腐败与商业道德相关审计的频率和覆盖范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Audits of all operations at least once every three years: 0.0.",
+          "content_cn": "至少每三年对全部运营开展一次审计：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Audits of selected operations at least once every three years: -0.7.",
+          "content_cn": "至少每三年对选定运营开展一次审计：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Evidence of audits but no specific details / audits conducted but not on a regular schedule: -0.7.\nNo evidence: -1.4.",
+          "content_cn": "有审计证据但无具体详情，或开展审计但无固定周期：-0.7。\n无证据：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Anti-Money Laundering (AML) Policy Key Metric — Definition",
+      "title_cn": "反洗钱政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the scope of a company's policy on anti-money laundering and know your customer.",
+          "content_cn": "表明公司反洗钱和了解客户政策的覆盖范围。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on disclosure of management practice:",
+          "content_cn": "典型扣分：根据管理实践披露情况变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Policy and implementation strategy articulated: 0.0.",
+          "content_cn": "明确说明政策及实施战略：0.0。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Evidence of policy but no disclosure of implementation: -0.7.",
+          "content_cn": "有政策证据但未披露实施情况：-0.7。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Not disclosed: -1.4.",
+          "content_cn": "未披露：-1.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Corruption Risk Exposure & Controversies Key Metric — Definition",
+      "title_cn": "腐败风险敞口与争议关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the company's exposure to business activities or geographies facing a higher incidence of corruption and involvement in ongoing corruption-related controversies.",
+          "content_cn": "表明公司对腐败发生率较高业务活动或地域的风险敞口，以及其涉及持续腐败相关争议的情况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring deduction: Variable, based on percentage of operations in medium- and high-risk geographies, high-risk business segments, government ownership (percentage) and controversy type & assessment.",
+          "content_cn": "典型扣分：根据中高风险地域运营占比、高风险业务分部占比、政府持股比例，以及争议类型和评估结果变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0 to -7.0",
+          "content_cn": "范围：0 至 -7.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refer to the Corruption Risk Exposure Deduction Key, below, for details on corruption risk exposure deduction.",
+          "content_cn": "腐败风险敞口扣分详情参见下文“腐败风险敞口扣分对照表”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refer to the Corporate Behavior Controversy Deduction Key, below, for details on corruption-related controversy deduction.",
+          "content_cn": "腐败相关争议扣分详情参见下文“企业行为争议扣分对照表”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Ethics Controversies Key Metric — Definition",
+      "title_cn": "商业道德争议关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Indicates the company's involvement in anticompetitive and business ethics controversies.",
+          "content_cn": "表明公司涉及反竞争及商业道德争议的情况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Cases related to the two Board Key Issue-related Key Metrics Securities Violations and Executive Misconduct (See the \"MSCI ESG Ratings Methodology: Board Key Issue\" document for details) will be taken into consideration in the assessment of the Business Ethics Controversies Key Metric.",
+          "content_cn": "商业道德争议关键指标评估将考虑董事会关键议题下“证券违规”和“高管不当行为”两项关键指标相关案例，详见《MSCI ESG 评级方法论：董事会关键议题》。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical scoring deduction: Variable, based on Severity, Status (Ongoing, Partially Concluded, or Concluded), and the company's Role (Direct vs. Indirect Involvement) in the controversy. $^{3}$",
+          "content_cn": "典型扣分：根据争议严重程度、状态（持续中、部分结束或已结束），以及公司角色（直接或间接参与）变化。$^{3}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0 to -7.0",
+          "content_cn": "范围：0 至 -7.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refer to the Corporate Behavior Controversy Deduction Key, below.",
+          "content_cn": "参见下文“企业行为争议扣分对照表”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Corruption Risk Exposure deduction key",
+      "title_cn": "腐败风险敞口扣分对照表",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Exhibit 2: Corruption Risk Exposure Deduction Key",
+          "content_cn": "图表 2：腐败风险敞口扣分对照表",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>% of operations in medium- and high-risk geographies</td><td>% of operations in high-risk business segments</td><td>≥20% government ownership</td><td>&lt;20% government ownership</td><td>No evidence of government ownership</td></tr><tr><td rowspan=\"2\">20% or more</td><td>50% or more</td><td>-4.00</td><td>-2.60</td><td>-2.00</td></tr><tr><td>Less than 50%</td><td>-1.20</td><td>-1.20</td><td>-1.20</td></tr><tr><td rowspan=\"2\">Less than 20%</td><td>50% or more</td><td>-0.60</td><td>-0.60</td><td>-0.60</td></tr><tr><td>Less than 50%</td><td>0.00</td><td>0.00</td><td>0.00</td></tr></table>",
+          "content_cn": "<table><tr><td>中高风险地域的运营占比</td><td>高风险业务分部的运营占比</td><td>政府持股 ≥20%</td><td>政府持股 &lt;20%</td><td>无政府持股证据</td></tr><tr><td rowspan=\"2\">20% 或以上</td><td>50% 或以上</td><td>-4.00</td><td>-2.60</td><td>-2.00</td></tr><tr><td>低于 50%</td><td>-1.20</td><td>-1.20</td><td>-1.20</td></tr><tr><td rowspan=\"2\">低于 20%</td><td>50% 或以上</td><td>-0.60</td><td>-0.60</td><td>-0.60</td></tr><tr><td>低于 50%</td><td>0.00</td><td>0.00</td><td>0.00</td></tr></table>",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\*The Corruption Risk Exposure Deduction is based on the maximum of deductions from the Corruption Risk Exposure & Controversies Key Metric, above.",
+          "content_cn": "* 腐败风险敞口扣分以此前“腐败风险敞口与争议”关键指标各扣分中的最大值为基础。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Corporate Behavior controversy deduction key",
+      "title_cn": "企业行为争议扣分对照表",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The deduction considers the Severity, company Role and Status of Controversy cases. The Severity takes into consideration the Nature of Harm, Scale of Impact, and Exacerbating and Extenuating circumstances. The company Role takes into consideration the level of control the company have in preventing or mitigating harm. The Status of a case takes into consideration whether or not the company has addressed the stakeholders' concerns. Please refer to the \"MSCI Controversies and Global Norms Methodology\" document for further details.",
+          "content_cn": "扣分考虑争议案例的严重程度、公司角色和状态。严重程度考虑损害性质、影响规模，以及加重和减轻情节。公司角色考虑公司在预防或减轻损害方面的控制程度。案例状态考虑公司是否已回应利益相关方的关切。详情参见《MSCI 争议与全球规范方法论》。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 3: Corporate Behavior Controversy Deduction Key",
+          "content_cn": "图表 3：企业行为争议扣分对照表",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td colspan=\"2\"></td><td colspan=\"3\">Controversy Case Status</td></tr><tr><td>Severity</td><td>Company Role</td><td>Ongoing</td><td>Partially Concluded</td><td>Concluded</td></tr><tr><td>Very Severe</td><td>Direct</td><td>-7.0</td><td>-5.6</td><td>-4.2</td></tr><tr><td>Very Severe</td><td>Indirect</td><td>-4.2</td><td>-4</td><td>-3.6</td></tr><tr><td>Severe</td><td>Direct</td><td>-3.6</td><td>-2.8</td><td>-2.4</td></tr><tr><td>Severe</td><td>Indirect</td><td>-2.4</td><td>-2.2</td><td>-1.8</td></tr><tr><td>Moderate</td><td>Direct</td><td>-1.8</td><td>-1.6</td><td>-1.2</td></tr><tr><td>Moderate</td><td>Indirect</td><td>-1.2</td><td>-1</td><td>-0.6</td></tr><tr><td>Minor</td><td>Direct</td><td>-0.6</td><td>-0.2</td><td>0.0</td></tr><tr><td>Minor</td><td>Indirect</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></table>",
+          "content_cn": "<table><tr><td colspan=\"2\"></td><td colspan=\"3\">争议案例状态</td></tr><tr><td>严重程度</td><td>公司角色</td><td>持续中</td><td>部分结束</td><td>已结束</td></tr><tr><td>极严重</td><td>直接参与</td><td>-7.0</td><td>-5.6</td><td>-4.2</td></tr><tr><td>极严重</td><td>间接参与</td><td>-4.2</td><td>-4</td><td>-3.6</td></tr><tr><td>严重</td><td>直接参与</td><td>-3.6</td><td>-2.8</td><td>-2.4</td></tr><tr><td>严重</td><td>间接参与</td><td>-2.4</td><td>-2.2</td><td>-1.8</td></tr><tr><td>中等</td><td>直接参与</td><td>-1.8</td><td>-1.6</td><td>-1.2</td></tr><tr><td>中等</td><td>间接参与</td><td>-1.2</td><td>-1</td><td>-0.6</td></tr><tr><td>轻微</td><td>直接参与</td><td>-0.6</td><td>-0.2</td><td>0.0</td></tr><tr><td>轻微</td><td>间接参与</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Business Ethics Key Issue；现行官网参考：June 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "June 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/business-ethics-key-issue.pdf",
+    "current_official_sha256": "b36400d640716b934559c2893df324eabb2f8425152cf894936d8c63e6479915",
+    "legacy_extraction_version": "原解析版本未标明",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

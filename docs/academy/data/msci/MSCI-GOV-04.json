@@ -1,0 +1,1334 @@
+{
+  "id": "MSCI-GOV-04",
+  "title": "所有权与控制权",
+  "titleEn": "Ownership & Control",
+  "summary": "评估公司股权结构、控制权安排及中小股东保护机制。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "公司治理",
+  "themeEn": "Corporate Governance",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Ownership & Control Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Ownership & Control is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on the ownership structure, the proportionality between the economic exposure and voting power of the largest owner (“control skew”) and other capital or ownership factors that may affect governance risk.",
+          "content_cn": "本文件介绍所有权与控制权关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。所有权与控制权属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖所有权结构、最大所有者经济敞口与投票权之间的比例关系（“控制权偏离”），以及其他可能影响治理风险的资本或所有权因素。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Companies are also evaluated on investor protection, in particular the rights of shareholders and the effectiveness of the framework to hold boards to account and the regulatory and company-specific provisions that support (or restrict) shareholders' ability to determine the company's future.",
+          "content_cn": "公司也接受投资者保护方面的评估，尤其关注股东权利、问责董事会框架的有效性，以及支持或限制股东决定公司未来能力的监管规定和公司特定条款。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Ownership & Control Key Issue Score",
+      "title_cn": "所有权与控制权关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the aggregation of the following Key Metrics using the methodology described in Section 3.5.4, Calculating Governance Scores, of “ESG Ratings Methodology.”",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》第 3.5.4 节“治理得分计算”所述方法，汇总以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Each Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "每项关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some Key Metrics are relevant only to companies with specific governance characteristics stemming from ownership type, management structure or other factors. Companies are distinguished by the type of issuer, indicated by the scope of each Key Metric below.",
+          "content_cn": "部分关键指标仅适用于因所有权类型、管理结构或其他因素而具有特定治理特征的公司。公司按发行人类型区分，各关键指标的适用范围如下所示。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controlling Shareholder Key Metric — Definition",
+      "title_cn": "控股股东关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does any shareholder or shareholder bloc control more than $30\\%$ of the voting shares, or is able to elect more than $50\\%$ of the company's board?",
+          "content_cn": "是否有任何股东或股东集团控制超过 $30\\%$ 的有投票权股份，或能够选举公司超过 $50\\%$ 的董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Where the Governance Reference Entity is not an equity issuer, this evaluation is based on the ultimate owner.",
+          "content_cn": "若治理参考实体不是股权发行人，则根据最终所有者进行评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: $0^{1}$",
+          "content_cn": "典型计分贡献：$0^{1}$",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controlling Shareholder Concerns Key Metric — Definition",
+      "title_cn": "控股股东疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company's ownership structure or governance arrangements indicate special concerns for minority public shareholders?",
+          "content_cn": "公司的所有权结构或治理安排是否表明公众少数股东面临特殊问题？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This can be triggered by the presence of one or more criteria, including where:",
+          "content_cn": "存在一项或多项标准即可触发，包括以下情况：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Any of the following Key Metrics are also flagged:",
+          "content_cn": "• 以下任何关键指标也被标记：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- No Independent Directors; Leadership Concerns; Undersized Board; Cross Shareholdings; or Poison Pill.",
+          "content_cn": "• 无独立董事、领导层疑虑、董事会规模过小、交叉持股或毒丸计划。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Or any of the following apply:",
+          "content_cn": "• 或者，出现以下任何情形：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "■ The issuer has issued golden shares;",
+          "content_cn": "■ 发行人发行了黄金股；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "■ The issuer is controlled via a stock pyramid;",
+          "content_cn": "■ 发行人通过金字塔持股结构受到控制；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "■ The issuer is incorporated as a Partnership Limited by Shares; or",
+          "content_cn": "■ 发行人以股份有限合伙形式注册；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "■ The largest shareholder holds more than 75% of the total voting rights.",
+          "content_cn": "■ 最大股东持有超过 75% 的总投票权。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 1.0",
+          "content_cn": "典型计分贡献：1.0",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Dispersed Ownership Concerns Key Metric — Definition",
+      "title_cn": "所有权分散疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company so widely held that there are no principal shareholders or other large-bloc holders? Flagged if yes.",
+          "content_cn": "公司持股是否极为分散，以至于没有主要股东或其他大宗持有人？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This test eliminates family or founder firms, companies with a 10% or greater principal shareholder, and companies where the aggregate 5%+ holdings exceed 30%.",
+          "content_cn": "该测试排除家族或创始人企业、有持股达到或超过 10% 主要股东的公司，以及各项 5% 以上持股合计超过 30% 的公司。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is intended to capture companies where there is a disconnect between ownership and management. In the absence of the constraining influence of informed and involved bloc holders, there is a greater risk of the CEO and board asserting a degree of power and authority more commonly associated with controlled companies.",
+          "content_cn": "该指标旨在识别所有权与管理权脱节的公司。缺乏知情且积极参与的大宗持有人约束时，首席执行官和董事会更可能获得通常见于受控制公司的权力与权威。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Cross-Shareholdings Key Metric — Definition",
+      "title_cn": "交叉持股关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company involved in a series of cross-shareholdings with other (related or unrelated) companies?",
+          "content_cn": "公司是否与其他关联或非关联公司存在一系列交叉持股？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is intended to capture cross-shareholdings intended for non-investment purposes. Cross-shareholdings for the purpose of this Key Metric include direct, indirect (via subsidiary companies), circular or more complex cross-shareholding networks.",
+          "content_cn": "该指标旨在识别非投资目的的交叉持股。其范围包括直接、通过子公司间接、循环及更复杂的交叉持股网络。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on size of cross-shareholdings:",
+          "content_cn": "典型计分贡献：根据交叉持股规模变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 3.2",
+          "content_cn": "范围：0.2 至 3.2",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.628",
+          "content_cn": "平均值：0.628",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Tracking Stock Key Metric — Definition",
+      "title_cn": "追踪股票关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company being traded as a tracking stock or similar trading-based entity? Flagged if yes.",
+          "content_cn": "公司是否以追踪股票或类似基于交易安排的实体形式交易？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Tracking stocks are treated as an indicator of potential governance weakness.",
+          "content_cn": "追踪股票被视为潜在治理缺陷的指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Variable Interest Entities Key Metric — Definition",
+      "title_cn": "可变利益实体关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does at least 5% of the group's revenue come from VIEs where the company holds less than 10% voting rights?",
+          "content_cn": "集团是否至少有 5% 的收入来自公司持有投票权低于 10% 的可变利益实体？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A variable interest entity (VIE) is a special purpose vehicle in which the issuer holds a controlling interest in an operating company that is not based on a majority of the voting rights. Via structured contracts, the issuer is typically the primary beneficiary of the VIE.",
+          "content_cn": "可变利益实体（VIE）是一种特殊目的载体，发行人对运营公司的控制权益并非基于多数投票权。通过结构化合同，发行人通常成为该可变利益实体的主要受益人。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Category: One Share, One Vote",
+      "title_cn": "类别：一股一票",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Multiple Equity Classes with Different Voting Rights Key Metric",
+          "content_cn": "不同投票权的多类别股份关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Multiple Equity Classes with Different Voting Rights Key Metric — Definition",
+      "title_cn": "不同投票权的多类别股份关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company issued more than one class of equity shares and do these classes carry unequal voting rights?",
+          "content_cn": "公司是否发行了多个权益股份类别，且这些类别享有不平等投票权？",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged if yes.",
+      "title_cn": "若是，则作出标记。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The inequality in the voting rights may be manifested via different votes per share, different votes per unit of nominal value or through the ability to vote only on certain matters, or on the election of certain directors, or grant special rights (such as the exclusive right of nominating directors).",
+          "content_cn": "投票权不平等可能体现为每股票数不同、每单位面值票数不同、仅能对某些事项或某些董事选举投票，或享有特殊权利，例如独家董事提名权。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "When a share class termed as “preference,” “preferred” or similar, is classified in the annual accounts under accounting standards as an equity security rather than a liability, then it will be considered as an equity class for the purposes of this metric.",
+          "content_cn": "若被称为“优先股”或类似名称的股份类别，在年度财务报表中依据会计准则被归类为权益证券而非负债，则在本指标中视为一个权益股份类别。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Share classes that do not carry special rights but have unequal voting rights may not be flagged if the number issued is not significant.",
+          "content_cn": "若不享有特殊权利但投票权不平等的股份类别发行数量不重大，可能不作标记。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on size of voting rights differential & percentage of votes held by largest owner:",
+          "content_cn": "典型计分贡献：根据投票权差异大小及最大所有者持有的投票权比例变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 0.6",
+          "content_cn": "范围：0.2 至 0.6",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.483",
+          "content_cn": "平均值：0.483",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Single Equity Class with Different Voting Rights Key Metric — Definition",
+      "title_cn": "同一股份类别不同投票权关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the capital structure include a single share class where the voting rights vary based on the duration of ownership (or extra voting rights are granted via “loyalty shares”)?",
+          "content_cn": "资本结构是否包含单一股份类别，且投票权随持有期限变化，或通过“忠诚股”赋予额外投票权？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In some literature these may also be referred to as tenured voting shares.",
+          "content_cn": "部分文献也将其称为按持有期限赋权的股份。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on length of required holding period and percentage of votes held by largest owner.",
+          "content_cn": "典型计分贡献：根据所需持有期限及最大所有者持有的投票权比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.2 to 0.55",
+          "content_cn": "范围：0.2 至 0.55",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.397",
+          "content_cn": "平均值：0.397",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Voting Rights Limits Shares Held Key Metric — Definition",
+      "title_cn": "按持股数量限制投票权关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are voting rights capped at a certain percentage, no matter how many shares the investor owns? Flagged if yes.",
+          "content_cn": "无论投资者持有多少股份，其投票权是否均被限制在某一比例以内？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This may refer to either an “ownership ceiling” or a “voting rights ceiling,” in which ownership and/or voting rights limits are applied to some or all shareholders.",
+          "content_cn": "这可能指“持股上限”或“投票权上限”，即对部分或所有股东设置持股和／或投票权限制。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is derived from a company's corporate charter and bylaws, or on the basis of applicable corporate regulation.",
+          "content_cn": "该指标源自公司组织章程及细则，或依据适用公司监管规定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on ownership or voting-limit percentage.",
+          "content_cn": "典型计分贡献：根据持股或投票权限制比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.3",
+          "content_cn": "范围：0.1 至 0.3",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.246",
+          "content_cn": "平均值：0.246",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Voting Rights Limits Residency Key Metric — Definition",
+      "title_cn": "按居民身份限制投票权关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are voting rights different for foreign or non-resident shareholders?",
+          "content_cn": "外国或非居民股东的投票权是否不同？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This provision sets limits on the ability of foreign or non-resident parties to vote on corporate matters, regardless of the number or type of shares held, and includes cases in which foreign shareholders are prohibited from voting. This may refer either to an aggregate limit on shares or voting rights held by shareholders of a stated nationality or to a limit on holdings of one shareholder based on that shareholder's nationality.",
+          "content_cn": "该条款限制外国或非居民主体对公司事项投票的能力，不论其持股数量或类型，并包括禁止外国股东投票的情况。限制可能针对某一国籍股东的合计持股或投票权，也可能基于个别股东国籍限制其持股。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is derived from a company's corporate charter and bylaws, or on the basis of applicable corporate regulation.",
+          "content_cn": "该指标源自公司组织章程及细则，或依据适用公司监管规定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on ownership or voting-limit percentage.",
+          "content_cn": "典型计分贡献：根据持股或投票权限制比例变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.15 to 0.3",
+          "content_cn": "范围：0.15 至 0.3",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.181",
+          "content_cn": "平均值：0.181",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Government Intervention Concerns Key Metric — Definition",
+      "title_cn": "政府干预疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do the company's capital and ownership structures include a \"golden share\" provision, are there equivalent provisions in national or state laws, or is there a government representative on the board? Flagged if yes.",
+          "content_cn": "公司的资本及所有权结构是否包含“黄金股”条款，国家或州法律中是否存在等效条款，或董事会中是否有政府代表？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A “golden share” provision allows a single shareholder, usually a national government, to override all other shareholder voting rights on certain decisions.",
+          "content_cn": "“黄金股”条款允许单一股东（通常为国家政府）在某些决策上凌驾于所有其他股东的投票权之上。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Category: Control Mechanisms",
+      "title_cn": "类别：控制机制",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Poison Pill Key Metric",
+          "content_cn": "毒丸计划关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Poison Pill Key Metric — Definition",
+      "title_cn": "毒丸计划关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company adopted a takeover defense such as a poison pill, shareholder rights plan, or equivalent provision?",
+          "content_cn": "公司是否采用毒丸计划、股东权利计划或等效条款等反收购措施？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A takeover defense may shield management and the board from accountability (board entrenchment). Takeover defenses may include a formal shareholder's rights plan, poison pill, protective preference shares or equivalent provision.",
+          "content_cn": "反收购措施可能使管理层和董事会免于问责，导致董事会固化。这些措施可包括正式股东权利计划、毒丸计划、保护性优先股或等效条款。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.5",
+          "content_cn": "典型计分贡献：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Bylaws Amendments Key Metric — Definition",
+      "title_cn": "章程细则修订关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the board have the unilateral right to amend the company's bylaws / Articles of Association without shareholder approval?",
+          "content_cn": "董事会是否有权未经股东批准单方面修改公司章程细则或组织章程？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Most U.S. companies grant the board unilateral control over the bylaws, so most U.S. companies are flagged for this metric, but in other regions this remains a helpful indicator of governance strength. This metric is derived from a company's corporate charter and bylaws, or on the basis of applicable corporate regulation.",
+          "content_cn": "多数美国公司赋予董事会单方面控制章程细则的权力，因此多数美国公司会被此指标标记；但在其他地区，该指标仍有助于判断治理健全程度。该指标源自公司组织章程及细则，或依据适用公司监管规定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Shareholder Rights to Convene Meeting Key Metric — Definition",
+      "title_cn": "股东召集会议权关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do shareholders lack the right to requisition an extraordinary general meeting (EGM) or does the threshold required to request an EGM exceed 10% of the voting rights?",
+          "content_cn": "股东是否无权要求召开临时股东大会，或申请召开该会议所需投票权门槛是否超过 10%？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some companies may apply a different threshold to append a resolution to the agenda of an existing meeting – see Shareholder Rights Concerns Key Metric.",
+          "content_cn": "部分公司可能对将议案加入现有会议议程设置不同门槛，参见“股东权利疑虑”关键指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on voting-rights threshold required to requisition a meeting.",
+          "content_cn": "典型计分贡献：根据要求召开会议所需的投票权门槛变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.3",
+          "content_cn": "范围：0.1 至 0.3",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.251",
+          "content_cn": "平均值：0.251",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Shareholder Rights Concerns Key Metric — Definition",
+      "title_cn": "股东权利疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Are shareholders limited in their ability to make changes at the company due to the nature of provisions in the governing documents?",
+          "content_cn": "治理文件中的条款性质是否限制股东推动公司变革的能力？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Does a change to the governing documents require a vote in favor from more than 67% of the total capital or from more than 75% of the votes cast? Are shareholders both unable to act by written consent in a majority vote AND does the threshold required to request inclusion of a shareholder proposal at the annual general meeting (AGM) exceed 1% (or is not permitted)?",
+          "content_cn": "修改治理文件是否需要超过总资本 67% 或所投票数 75% 的赞成票？股东是否既不能以多数票书面同意方式采取行动，又面临超过 1% 的年度股东大会提案纳入门槛，或根本不允许纳入股东提案？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Say-on-Pay Policy Key Metric — Definition",
+      "title_cn": "薪酬表决政策关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to implement regular say-on-pay votes?",
+          "content_cn": "公司是否未定期开展股东薪酬表决？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Shareholders should be granted a vote on either the policies themselves, the amounts paid pursuant to these policies, or on the report of the pay committee that sets out these items, i.e., this should be a broad-based vote on policy or total pay, and not just a vote on the policy or total amount of one component of pay. The scope of the say-on-pay vote must include any executive directors on the board of directors, or the most senior executive, if there is no executive director on the board. The vote may be in respect of all the executive directors collectively or by separate votes for each executive director individually. Votes should be held on a regular basis, at intervals of no more than three years.",
+          "content_cn": "股东应有权就薪酬政策本身、依据政策支付的金额，或列明这些事项的薪酬委员会报告进行表决。表决应广泛覆盖政策或薪酬总额，而非仅针对单一薪酬组成部分的政策或金额。表决范围必须包括董事会中的所有执行董事；若无执行董事，则包括最高级别高管。可对全体执行董事集体表决，也可逐人单独表决。表决应定期举行，间隔不得超过三年。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Key Metric will not be flagged if there are no executives (e.g., for investment trusts).",
+          "content_cn": "若不存在高管，例如某些投资信托，则不标记该关键指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Confidential Voting Key Metric — Definition",
+      "title_cn": "保密投票关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to implement confidential voting, barring reasonable exceptions?",
+          "content_cn": "除合理例外外，公司是否未实施保密投票？",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged if yes.",
+      "title_cn": "若是，则作出标记。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Confidential voting is intended to protect the anonymity of shareholders who wish to vote against management, or against a particular director, but who may be concerned about the possibility of redress. This metric is derived from a company's corporate charter and bylaws, or on the basis of applicable corporate regulation.",
+          "content_cn": "保密投票旨在保护希望反对管理层或某位董事、但担心受到不利对待的股东匿名性。该指标源自公司组织章程及细则，或依据适用公司监管规定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For the U.S. and Canada, this metric is flagged unless the required evidence is identified to confirm confidential voting is in place. For other markets, this metric is only flagged if specific evidence is identified to indicate the absence of confidential voting.",
+          "content_cn": "在美国和加拿大，除非取得证据确认已实施保密投票，否则标记该指标。在其他市场，仅在发现明确证据表明未实施保密投票时才作标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Proxy Access Key Metric — Definition",
+      "title_cn": "股东提名纳入委托投票材料权关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company not allow qualified shareholders to nominate directors for election at the annual general meeting, such nominees to be included in the meeting agenda circulated by the company to its shareholders?",
+          "content_cn": "公司是否不允许合资格股东提名董事参加年度股东大会选举，并将这些候选人纳入公司向股东发送的会议议程？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Proxy access is a measure of the shareholder's ability to influence the composition of the company's board. This metric is derived from a company's corporate charter and bylaws, or on the basis of applicable corporate regulation.",
+          "content_cn": "股东提名纳入委托投票材料权衡量股东影响董事会组成的能力。该指标源自公司组织章程及细则，或依据适用公司监管规定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Annual Director Elections Key Metric — Definition",
+      "title_cn": "董事年度选举关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do any shareholder-elected directors stand for re-election at intervals greater than one year? Flagged if yes.",
+          "content_cn": "是否有由股东选举产生的董事，其重新选举间隔超过一年？若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric captures both classified boards, where director re-election is staggered, and boards where all directors stand simultaneously for re-election albeit less often than annually. Boards undergoing declassification over an extended period are treated as classified until this process has been completed – i.e., until all the board members are being re-elected annually. The metric does not refer to employee-appointed directors, being specifically focused on shareholder-elected directors.",
+          "content_cn": "该指标既涵盖董事分期改选的分类董事会，也涵盖全体董事同时改选但频率低于每年一次的董事会。逐步取消分类安排的董事会，在全部董事均每年改选之前，仍按分类董事会处理。该指标专门关注股东选举产生的董事，不涉及员工任命的董事。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on percentage of board subject to re-election and frequency of reelection:",
+          "content_cn": "典型计分贡献：根据需重新选举的董事会成员比例及改选频率变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.2",
+          "content_cn": "范围：0.1 至 0.2",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.108",
+          "content_cn": "平均值：0.108",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Strong Classified Board Combination Key Metric — Definition",
+      "title_cn": "强化分类董事会组合关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company have a classified or staggered board in combination with other limitations on shareholder rights that further limit shareholders ability to affect the make-up of the board?",
+          "content_cn": "公司是否具有分类或交错任期董事会，并同时设置其他股东权利限制，进一步限制股东影响董事会组成的能力？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A company has a strong classified board combination if, in addition to having a Classified Board, any of the following are true:",
+          "content_cn": "公司除具有分类董事会外，还符合以下任何情况，则被视为具有强化分类董事会组合：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Director Removal for Cause Only is Yes, and Shareholder Can Fill Board Vacancies is No and the Bylaw Vote Percent is = 0% or > 51%;",
+          "content_cn": "• 仅允许有因罢免董事，股东不能填补董事空缺，且章程细则表决比例为 0% 或大于 51%；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Director Removal for Cause Only is Yes, and Shareholder Can Fill Board Vacancies is No and the Effective Classified Board is Yes;",
+          "content_cn": "• 仅允许有因罢免董事，股东不能填补董事空缺，且存在有效分类董事会；",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Director Removal without Cause Vote % > 51%, and Shareholder Can Fill Board Vacancies is No and Bylaw Vote Percent is = 0% or > 51%; or",
+          "content_cn": "• 无因罢免董事所需票数比例大于 51%，股东不能填补董事空缺，且章程细则表决比例为 0% 或大于 51%；或",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Director Removal Without Cause Vote % > 51%, and Shareholder Can Fill Board Vacancies is No, and Effective Classified Board is Yes.",
+          "content_cn": "• 无因罢免董事所需票数比例大于 51%，股东不能填补董事空缺，且存在有效分类董事会。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.2",
+          "content_cn": "典型计分贡献：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Majority Voting Key Metric — Definition",
+      "title_cn": "多数票选举关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company failed to use or adopt binding majority voting in the election of directors (with immediate resignation, if the director does not receive a majority of the votes cast)?",
+          "content_cn": "公司是否未在董事选举中使用或采纳具有约束力的多数票制，即董事未获得所投票数多数支持时须立即辞任？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "MSCI ESG Research uses a strict majority standard for this metric, flagging plurality, plurality plus resignation and majority plus resignation standards. Where a director fails to achieve a majority of the votes cast, this standard requires the director to immediately depart (unless the company would have below the legal minimum number of directors, in which case they remain only briefly pending a new appointment). Implementation of majority voting is a measure of the shareholder's ability to influence the composition of the board.",
+          "content_cn": "MSCI ESG 研究对该指标采用严格多数票标准，对相对多数票制、相对多数票加辞任制度，以及多数票加辞任制度作出标记。董事未获得所投票数多数支持时，严格标准要求其立即离任；仅当公司董事人数会低于法定最低人数时，可短暂留任等待新任命。多数票制的实施衡量股东影响董事会组成的能力。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on voting standard and whether director vote is binding.",
+          "content_cn": "典型计分贡献：根据投票标准及董事选举是否具有约束力变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.1 to 0.3",
+          "content_cn": "范围：0.1 至 0.3",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.181",
+          "content_cn": "平均值：0.181",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Cumulative Voting Key Metric",
+          "content_cn": "累积投票关键指标",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Cumulative Voting Key Metric — Definition",
+      "title_cn": "累积投票关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company with a controlling shareholder use a plurality vote standard for director elections, yet does not allow cumulative voting (whether as the default election standard or at the request of shareholders)?",
+          "content_cn": "存在控股股东的公司，是否采用相对多数票制选举董事，却既不将累积投票作为默认选举方式，也不允许股东要求采用累积投票？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Cumulative voting is a method of election of the board of directors whereby a stockholder may cast as many votes for directors as he or she has shares of stock, multiplied by the number of directors to be elected. The purpose of cumulative voting is to facilitate the representation of minority stockholders on the board. The stockholder may cast all his or her votes for one or more, but not all, of the directors on the ballot, which therefore promotes representation of small shareholders.",
+          "content_cn": "累积投票是一种董事选举方式：股东拥有的票数等于持股数量乘以待选董事人数。其目的是促进少数股东在董事会获得代表。股东可将全部票数投给一名或多名而非全部候选董事，从而促进小股东代表性。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Director Removal Without Cause Key Metric — Definition",
+      "title_cn": "无因罢免董事关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Do shareholders lack the right to remove individual directors without cause?",
+          "content_cn": "股东是否无权在没有特定事由时罢免个别董事？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "If director removal without cause is permitted, a bidder that is hostile to current management may seek to remove existing directors and replace them with the bidder's nominees.",
+          "content_cn": "若允许无因罢免董事，对现任管理层采取敌意收购的竞购方可能寻求罢免现有董事，并以其提名人替代。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Where there is no evidence of this right, from either national or stock exchange regulation or from the company's documents, the Key Metric will be flagged.",
+          "content_cn": "若国家或证券交易所规定及公司文件均未提供该权利的证据，则标记该关键指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Constituency Provision Key Metric — Definition",
+      "title_cn": "利益相关方条款关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company have a constituency provision or is it subject to constituency protection under applicable law?",
+          "content_cn": "公司是否设有利益相关方条款，或受适用法律中的利益相关方保护规定约束？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Constituency provisions allow a board to take into account interests other than those of shareholders in making corporate decisions, including decisions about changes of control. Typical other constituencies would include employees, communities, customers, suppliers and the environment.",
+          "content_cn": "利益相关方条款允许董事会在作出公司决策（包括控制权变更决策）时，考虑股东之外的利益。典型的其他利益相关方包括员工、社区、客户、供应商及环境。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Key Metric will be flagged where there is explicit evidence of this provision from either national or stock exchange regulation or from the company's constitutional documents.",
+          "content_cn": "若国家或证券交易所规定及公司组织文件中有该条款的明确证据，则标记该关键指标。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Combination Provision Key Metric — Definition",
+      "title_cn": "企业合并条款关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company have a business combination provision in place or is it subject to business combination protection under applicable law?",
+          "content_cn": "公司是否设有企业合并条款，或受适用法律中的企业合并保护规定约束？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "A business combination provision requires that a company not engage in a transaction with a shareholder holding a certain percentage (usually dubbed an “interested shareholder”) for a period of time after the shareholder went over the threshold, or that such a transaction be approved by a higher-than-usual percentage of shares. A different variation of a “business combination” may also list a higher-than-usual percentage of shares for approving a merger but not list a time period during which a merger would be prohibited.",
+          "content_cn": "企业合并条款要求：股东持股达到某一比例、成为通常所称的“利益股东”后，公司在一定期间内不得与其交易，或此类交易须经高于通常比例的股份批准。另一类条款可能仅要求合并须经较高比例股份批准，而不设禁止合并的期限。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Fair Bid Treatment Provisions Key Metric — Definition",
+      "title_cn": "公平要约待遇条款关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Does the company not have a fair price provision (with a mandatory bid requirement which does not exceed 33.3%) in place or is it not subject to fair price protection under applicable law?",
+          "content_cn": "公司是否未设公平价格条款（其中强制要约触发门槛不超过 33.3%），或不受适用法律中的公平价格保护规定约束？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "These terms generally involve all holders being entitled to receive the same price for their shares, the price being within some range of the average market price over some period of time prior to the offer, the offer remaining open for a minimum amount of time, and similar protections. In the U.S., this is generally presented as an exception to the business combination provision's prohibition or higher vote requirement that applies when an acquisition offer contains certain terms designed to ensure fairness and eliminate the possibility that shareholders will feel coerced to agree to the offer.",
+          "content_cn": "这些条款通常要求所有持有人有权获得相同股份价格、该价格处于要约前一定期间平均市场价格的某个范围内、要约保持开放至少一定时间，以及其他类似保护。在美国，这通常体现为企业合并条款禁令或较高票数要求的例外：当收购要约包含确保公平、避免股东感到被迫接受要约的特定条件时，可适用该例外。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: Equity issuers",
+          "content_cn": "适用范围：股权发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: 0.1",
+          "content_cn": "典型计分贡献：0.1",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Ownership Structure Assessment",
+      "title_cn": "所有权结构评估",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The ownership structure of a company is evaluated along three axes.",
+          "content_cn": "公司所有权结构沿三个维度进行评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The first dimension of ownership assessment is the level of control asserted by the largest owner. Principal-agent concerns are primarily applicable to widely held companies with highly dispersed ownership. For closely held companies, however, governance risk is primarily a function of the identity and degree of control wielded by a company's dominant shareholder. The ultimate owner is the focus of our assessments where stock pyramids are present and in our assessment of the ownership structure of private companies.",
+          "content_cn": "所有权评估的第一维度是最大所有者施加的控制程度。委托代理问题主要适用于持股高度分散的公众公司。对于持股集中的公司，治理风险主要取决于主导股东的身份及控制程度。存在金字塔持股结构时，以及评估非上市公司所有权结构时，关注最终所有者。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 22: Largest Owner Classification",
+          "content_cn": "图表 22：最大所有者分类",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Classification</td><td>Description</td></tr><tr><td>Controlling</td><td>Largest shareholder or shareholder group holds 30% or more of the voting rights.</td></tr><tr><td>Principal</td><td>Largest shareholder or shareholder group holds between 10% and 30% of the voting rights.</td></tr><tr><td>Widely Held</td><td>No shareholder or shareholder group holds more than 10% of the voting rights.</td></tr></table>",
+          "content_cn": "<table><tr><td>分类</td><td>说明</td></tr><tr><td>控制型</td><td>最大股东或股东集团持有 30% 或以上投票权。</td></tr><tr><td>主要股东型</td><td>最大股东或股东集团持有 10% 至 30% 的投票权。</td></tr><tr><td>分散持股型</td><td>没有股东或股东集团持有超过 10% 的投票权。</td></tr></table>",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The second dimension of the ownership assessment focuses on the background and motivations of the dominant owner, which might be a company founder or family descendants, state or corporate owner.",
+          "content_cn": "所有权评估的第二维度关注主导所有者的背景和动机，例如公司创始人或家族后代、国家或企业所有者。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 33: Key Owner Types",
+          "content_cn": "图表 33：主要所有者类型",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Classification</td><td>Description</td></tr><tr><td>Founder</td><td>The founder/s of the company play an active role in the company – e.g., serves as chair and/or CEO, is a director or senior executive, is a current shareholder (regardless of the size of their shareholding).</td></tr><tr><td>Family</td><td>Family holds 10% or more of the voting rights and maintains at least one board seat.</td></tr><tr><td>State</td><td>State directly or indirectly controls 10% or more of the voting rights. $^{2}$ The state identified in the Country of Classification of the issuer must match the state owning the shares.</td></tr><tr><td>Corporate Parent</td><td>Issuer is a subsidiary (50% or more of the voting rights) of a corporate, which itself may be listed.</td></tr></table>",
+          "content_cn": "<table><tr><td>分类</td><td>说明</td></tr><tr><td>创始人</td><td>公司创始人在公司中发挥积极作用，例如担任董事长和／或首席执行官、董事或高级管理人员，或仍是股东，不论持股规模。</td></tr><tr><td>家族</td><td>家族持有 10% 或以上投票权，并保有至少一个董事会席位。</td></tr><tr><td>国家</td><td>国家直接或间接控制 10% 或以上投票权。$^{2}$ 发行人分类国家所识别的国家，必须与持有股份的国家一致。</td></tr><tr><td>企业母公司</td><td>发行人是某企业的子公司，该企业持有 50% 或以上投票权，且本身也可能上市。</td></tr></table>",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The third dimension evaluates whether control skew is present, i.e., where the voting power of the largest owner is misaligned with its entitlement to cash flows (see Exhibit 4), which may adjust the governance risk profile.",
+          "content_cn": "第三维度评估是否存在控制权偏离，即最大所有者的投票权与其现金流享有权不匹配（见图表 4），这可能改变治理风险状况。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 44: Control Skew",
+          "content_cn": "图表 44：控制权偏离",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><td>Classification</td><td>Description</td></tr><tr><td>Stock Pyramid</td><td>Control is exercised through a chain of controlled companies – each of which is also typically listed – that ultimately results in a shareholder gaining voting power that is misaligned with its economic interest. Such a structure allows the top-level shareholder to exercise control (holding at least 30% of the total voting rights) through each level of the pyramid, and to maintain control of the issuer despite having a relatively small entitlement to cash flows.</td></tr><tr><td>Control Group Includes Cross-Shareholding</td><td>The cross-shareholding is held by parties related to a controlling shareholder group to maintain effective voting control, such as a holding by another listed entity with common control. Cross-shareholdings are where two or more entities hold at least 0.5% of shares in each other, or via a circular or more complex cross-shareholding arrangement.</td></tr><tr><td>Multiple Equity Classes with Unequal Voting Rights</td><td>Multiple equity classes with unequal voting rights typically fall into the following main types:·Different votes per share;3·Different votes per unit of nominal value; and·Different class rights in the election of directors or other special rights.</td></tr><tr><td>Single Equity Class with Unequal Voting Rights</td><td>Tenured voting shares (sometimes referred to as “loyalty shares”) are a provision that allows shareholders who have held shares throughout a qualifying holding period to acquire additional voting rights at the end of that period. The additional voting rights are available until the qualifying shares are sold. These provisions fall into two main types:·Additional voting rights apply within a single equity class; and·The use of separate “loyalty share” class without economic interest.</td></tr></table>",
+          "content_cn": "<table><tr><td>分类</td><td>说明</td></tr><tr><td>金字塔持股结构</td><td>控制通过一系列受控公司实现，这些公司通常也各自上市，最终使股东获得与其经济利益不匹配的投票权。该结构使顶层股东能够在金字塔各层维持控制，即持有至少 30% 总投票权，并在现金流享有权较小的情况下仍控制发行人。</td></tr><tr><td>控制集团包含交叉持股</td><td>交叉持股由与控股股东集团相关的主体持有，以维持有效投票控制，例如共同控制下另一上市实体持股。交叉持股指两个或更多实体相互持有至少 0.5% 的股份，或通过循环及更复杂安排形成持股。</td></tr><tr><td>投票权不平等的多类别股份</td><td>投票权不平等的多类别股份通常包括以下主要类型：每股票数不同³；每单位面值票数不同；以及董事选举中的类别权利不同或其他特殊权利。</td></tr><tr><td>投票权不平等的单一股份类别</td><td>按持有期限赋权的股份，有时称为“忠诚股”，允许在规定期间持续持股的股东于期满时获得额外投票权，直至合资格股份被出售。主要有两类：在单一股份类别内赋予额外投票权；或使用不附带经济利益的独立“忠诚股”类别。</td></tr></table>",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Contact us",
+          "content_cn": "联系我们",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "msci.com/contact-us",
+          "content_cn": "MSCI 联系入口：msci.com/contact-us",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Ownership & Control Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/ownership-and-control-key-issue.pdf",
+    "current_official_sha256": "13d8af1704280ee211d62a19d07da6108c5a11e17fbb8de631c0e3a1e1fae513",
+    "legacy_extraction_version": "December 2024",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

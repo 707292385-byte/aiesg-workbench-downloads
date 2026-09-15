@@ -1,0 +1,374 @@
+{
+  "id": "MSCI-SOC-11",
+  "title": "争议性采购",
+  "titleEn": "Controversial Sourcing",
+  "summary": "评估公司采购中涉及争议性来源（如冲突矿产）的风险与尽职管理。",
+  "pillar": "社会支柱",
+  "pillarEn": "Social Pillar",
+  "theme": "利益相关方反对",
+  "themeEn": "Stakeholder Opposition",
+  "type": "风险类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Controversial Sourcing Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Controversial Sourcing is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their dependence on, and purchasing volume of, raw materials procured from conflict areas and their efforts at traceability and certification.",
+          "content_cn": "本文件介绍争议采购关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。争议采购属于 MSCI ESG 评级模型社会支柱下的关键议题。公司评估涵盖对来自冲突地区原材料的依赖程度及采购量，以及可追溯性和认证措施。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Risks associated with this Key Issue",
+      "title_cn": "与本关键议题相关的风险",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "\\- Reputational risk and potential loss of market share as consumer awareness grows.",
+          "content_cn": "• 随着消费者认知提高，面临声誉风险及潜在市场份额损失。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Costs to comply with new regulations (e.g., U.S. Dodd-Frank Act).",
+          "content_cn": "• 遵守美国《多德—弗兰克法案》等新法规的成本。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversial Sourcing Key Issue Score",
+      "title_cn": "争议性采购关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Controversial Sourcing Key Issue Score evaluates the company's level of exposure to, and management of risks on this Key Issue. The Key Issue Score is based on the Exposure Score and the Management Score using the formula below. The Exposure Score and the Management Score are combined such that a higher level of exposure requires a higher level of demonstrated management capability in order to achieve the same overall Key Issue Score.",
+          "content_cn": "争议性采购关键议题得分评估公司在此议题上的风险敞口及风险管理水平。关键议题得分根据风险敞口得分与管理得分，按下列公式计算。两类得分的结合方式要求：风险敞口越高，公司就需要展现越强的管理能力，才能取得相同的总体关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nK I _ {i} = 7 - (\\max (E X P _ {i}, 2) - M G M T _ {i})\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $KI_{i}$ is the Key Issue Score for company $i$ .",
+          "content_cn": "• $KI_{i}$ 为公司 $i$ 的关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $EXP_{i}$ is the Exposure Score for company $i$ .",
+          "content_cn": "• $EXP_{i}$ 为公司 $i$ 的风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $MGMT_{i}$ is the Management Score for company $i$ .",
+          "content_cn": "• $MGMT_{i}$ 为公司 $i$ 的管理得分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversial Sourcing Management Score",
+      "title_cn": "争议性采购管理得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Controversial Sourcing Management score is based on the weighted average of the relevant indicator scores, modified by controversies. Default indicator weights may be adjusted for the relevance of business activities; an indicator has zero weight when the company has no exposure to the activity it covers.",
+          "content_cn": "管理得分按适用指标得分加权平均，再按争议事件调整。指标采用默认权重，并可根据公司业务活动的相关性调整；公司对某指标覆盖的业务活动没有敞口时，该指标权重为零。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$MGMT_i = \\sum_j Indicator\\_Score_{j,i} \\times Indicator\\_Weight_{j,i}$$"
+        },
+        {
+          "type": "text",
+          "content": "MGMT_i denotes the Management score excluding controversies; j denotes an applicable indicator and i denotes the company. Component scores aggregate indicator scores using weights scaled within the component.",
+          "content_cn": "MGMT_i为争议调整前的管理得分；j表示适用指标，i表示公司。组件得分按组件内重新归一化后的指标权重汇总，不应默认将各组件等权平均。",
+          "translation_origin": "ai"
+        }
+      ],
+      "source_ref": {
+        "source_id": "SRC-MSCI-CONTROVERSIAL-SOURCING",
+        "pages": [
+          5,
+          6
+        ],
+        "checked_on": "2026-09-11"
+      }
+    },
+    {
+      "title_en": "Management Score category: Sourcing Policy & Commitments Score",
+      "title_cn": "管理得分类别：采购政策与承诺得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "\\- Extent of efforts to ensure compliance with controversial materials sourcing policy.",
+          "content_cn": "• 确保遵守争议材料采购政策的工作程度。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company carries out initiatives to ensure compliance with its controversial sourcing policy, or collaborates with stakeholders to promote supply chain transparency and accountability.",
+          "content_cn": "定义：表明公司是否采取举措确保遵守争议采购政策，或与利益相关方合作促进供应链透明度及问责。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "- Targets for ensuring compliance with controversial materials sourcing policy.",
+      "title_cn": "• 确保遵守争议材料采购政策的目标。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has targets for ensuring compliance with its controversial materials sourcing policy.",
+          "content_cn": "定义：表明公司是否设定确保遵守争议材料采购政策的目标。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "- Extent of supplier/material certification as conflict-free by external agencies using the most stringent criteria.",
+      "title_cn": "• 外部机构按最严格准则对供应商或材料进行无冲突认证的程度。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: The extent of relevant products externally certified as conflict-free using the most stringent criteria, which may differ from industry to industry.",
+          "content_cn": "定义：相关产品获得外部最严格准则无冲突认证的覆盖程度，具体准则可能因行业而异。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Commitments to address controversial sourcing practices.",
+          "content_cn": "• 应对争议采购实践的承诺。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a policy to address sourcing and use of raw materials that may originate from areas associated with human rights violations, illicit trade and/or financing of violence.",
+          "content_cn": "定义：表明公司是否制定政策，应对可能来自与人权侵害、非法贸易和／或暴力融资相关地区的原材料采购及使用。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Sources: company disclosures; nongovernmental organizations including the Enough Project, GoodElectronics and makeITfair.",
+          "content_cn": "来源：公司披露；非政府组织，包括 Enough Project、良好电子产业网络及 makeITfair。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversies",
+      "title_cn": "争议事件",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A controversy deduction ranging from 0 to 5 points is subtracted from the overall Management Score, based on the severity and type of controversies facing the company on this Key Issue. The following categories of controversies are used in the assessment:",
+          "content_cn": "根据公司在此关键议题上所涉争议的严重程度及类型，从总体管理得分中扣减 0—5 分。评估采用以下争议类别：",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Controversial sourcing controversies",
+      "title_cn": "• 争议性采购争议事件。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "For more details on how controversies are included in the MSCI ESG Ratings model, refer to Section 3.3.2, Controversies cases, of \"ESG Ratings Methodology.\"",
+          "content_cn": "关于争议如何纳入 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 3.3.2 节“争议案例”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversial Sourcing Exposure Score",
+      "title_cn": "争议性采购风险敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Controversial Sourcing Exposure Score evaluates the company's exposure to risks on this Key Issue. It is based on the Company-Specific Exposure Score only. The Company-Specific Exposure Score is scored on a 0-10 scale, with 10 corresponding to the highest risk and 0 corresponding to the lowest risk. Refer to Section 3.2, Analyzing risk exposure, of “ESG Ratings Methodology” for additional details. The following data sources and methodologies are used in the Exposure Score calculation:",
+          "content_cn": "争议性采购风险敞口得分评估公司在此关键议题上的风险敞口，仅以公司特定风险敞口得分为基础。公司特定风险敞口得分采用 0—10 分制，10 分对应最高风险，0 分对应最低风险。详情参见《ESG 评级方法论》第 3.2 节“风险敞口分析”。风险敞口得分计算采用以下数据来源和方法：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nE X P _ {C O S, i} = C O M _ {C O S, i}\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $EXP_{COS,i}$ is the Controversial Sourcing Exposure Score of company $i$ .",
+          "content_cn": "• $EXP_{COS,i}$ 为公司 $i$ 的争议采购风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $COM_{COS,i}$ is the Company-Specific Exposure Score of company $i$ .",
+          "content_cn": "• $COM_{COS,i}$ 为公司 $i$ 的公司特定风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 2: Exposure Score components",
+          "content_cn": "图表2：敞口得分组成部分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Controversial Sourcing Exposure Score",
+          "content_cn": "争议性采购风险敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Company-Specific Exposure Score",
+          "content_cn": "公司特定敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Revenue Dependency and Footprint from Conflict Materials",
+          "content_cn": "冲突材料的收入依赖度与足迹",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Company-Specific Exposure Score",
+      "title_cn": "公司特定敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Company-Specific Exposure Score is determined by a simple average of the Dependency Score and the Footprint Score:",
+          "content_cn": "公司特定风险敞口得分为依赖度得分与足迹得分的简单平均值：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nC O M _ {C O S, i} = \\frac {D S _ {C O S , i} + F S _ {C O S , i}}{2}\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $DS_{COS,i}$ is the Dependency Score for company $i$ .",
+          "content_cn": "• $DS_{COS,i}$ 为公司 $i$ 的依赖度得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $MFS_{COS,i}$ is the Footprint Score for company $i$ .",
+          "content_cn": "• $MFS_{COS,i}$ 为公司 $i$ 的足迹得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Dependency Score is derived from the estimated percentage of the company's revenues that rely on the specific raw material of concern. $^{1}$",
+          "content_cn": "依赖度得分根据公司收入中依赖特定受关注原材料的估算比例确定。$^{1}$",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Footprint Score is derived from the company's total estimated revenues (three-year average, in USD million) reliant on the specific raw material of concern.",
+          "content_cn": "足迹得分根据公司依赖特定受关注原材料的估算总收入确定，采用三年平均值，单位为百万美元。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The raw materials of concern for which the sourcing is considered controversial are conflict materials as defined by regulations like the U.S. Dodd-Frank Act, including tin, tantalum and tungsten; their ores and gold.",
+          "content_cn": "采购被视为存在争议的受关注原材料，是美国《多德—弗兰克法案》等法规界定的冲突材料，包括锡、钽、钨及其矿石和黄金。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Data Sources",
+      "title_cn": "数据来源",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The following sources are used to determine the Controversial Sourcing Exposure Score:",
+          "content_cn": "确定争议性采购风险敞口得分时使用以下来源：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Refinitiv, MSCI ESG Research, company disclosures.",
+          "content_cn": "路孚特；MSCI ESG 研究；公司披露。",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Controversial Sourcing Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/controversial-sourcing-key-issue.pdf",
+    "current_official_sha256": "ded59c705c250758f26d36bc15a5b4f09db967853d50fa4738dee98feda8d442",
+    "legacy_extraction_version": "October 2023",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

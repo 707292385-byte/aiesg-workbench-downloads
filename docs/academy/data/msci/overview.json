@@ -1,0 +1,1018 @@
+{
+  "kind": "overview",
+  "title": "MSCI ESG评级方法论总览",
+  "sections": [
+    {
+      "title": "1.1 目标",
+      "content": "MSCI ESG 评级提供了公司对财务相关的 ESG 风险和机遇的管理意见。每个评级都会考虑到公司面临的潜在重大 ESG 风险，减缓潜在 ESG 风险的管理体系和治理结构的质量，以及在适用的情况下，为满足市场需求而提供对环境或社会有积极贡献的产品和服务的定位。有关评级标准定义的更多详情，请参阅此处提供的“MSCI ESG与气候符号和定义”。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "1.1.1 主要特点",
+      "content": "MSCI ESG 评级是在公司层面确定的行业相关衡量标准。评级采用全球七级制，从AAA（最高 ESG 评级）到 CCC（最低 ESG 评级）。\n\n每家公司都会根据 2 到 7 个环境和社会关键议题（共 33 个关键议题，见附表1）进行评估。与某一特定公司相关的环境和社会关键议题是根据该公司面临的潜在重大 ESG 风险来选择的，这些风险是由特定行业和特定市场因素驱动的。\n\n• 所有公司都要进行治理支柱的评估，该支柱由企业治理和企业行为主题中的六个关键议题组成。评估依据的是最佳实践与各公司治理实践之间的差距。\n\n• 在适用的情况下，ESG 评级会考虑公司为满足市场需求而提供对环境或社会有积极贡献的产品和服务的定位。\n\nMSCI ESG 评级考虑了公司相对于其总体 ESG 风险和机遇的管理措施。管理措施一般通过公司的治理结构、政策和目标、量化绩效指标以及相关争议进行评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2 数据、评级和分数",
+      "content": "MSCI ESG评级包含3大支柱、10个主题和33个关键议题。环境13项、社会14项、治理6项。\n\n<table><tr><th>三大支柱</th><th>10个主题</th><th>33个关键议题</th></tr><tr><td>环境</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>社会</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会</td><td>社会机遇</td><td>营养与健康机遇</td></tr><tr><td>治理</td><td>公司治理</td><td>会计</td></tr><tr><td>治理</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理</td><td>企业行为</td><td>税务透明度</td></tr></table>",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          6
+        ],
+        "checked_on": "2026-09-11",
+        "content_type": "校核整理"
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.1 评级与得分",
+      "content": "最上层的评估是整体的公司 ESG 评级，这是针对具体行业的字母评级，评分从 AAA到 CCC，共七个等级。这些评估不是绝对的，而是相对于本行业的，评级是为了将公司放到特定行业里进行解读。公司 ESG 评级是基于对截至上一个 ESG评级行动日期的基础数据的评估，从行业调整得分衍生而来。\n\n图 2：最终的行业调整得分对应的字母评级\n\n\n\n<table><tr><td rowspan=1 colspan=1>字母评级</td><td rowspan=1 colspan=1>领先/落后</td><td rowspan=1 colspan=1>行业调整得分（IAS）</td></tr><tr><td rowspan=1 colspan=1>AAA</td><td rowspan=1 colspan=1>领先</td><td rowspan=1 colspan=1>8.571*- 10.0</td></tr><tr><td rowspan=1 colspan=1>AA</td><td rowspan=1 colspan=1>领先</td><td rowspan=1 colspan=1>7.143 8.571</td></tr><tr><td rowspan=1 colspan=1>A</td><td rowspan=1 colspan=1>平均</td><td rowspan=1 colspan=1>5.714 - 7.143</td></tr><tr><td rowspan=1 colspan=1>BBB</td><td rowspan=1 colspan=1>平均</td><td rowspan=1 colspan=1>4.286- 5.714</td></tr><tr><td rowspan=1 colspan=1>BB</td><td rowspan=1 colspan=1>平均</td><td rowspan=1 colspan=1>2.857-4.286</td></tr><tr><td rowspan=1 colspan=1>B</td><td rowspan=1 colspan=1>落后</td><td rowspan=1 colspan=1>1.429 2.857</td></tr><tr><td rowspan=1 colspan=1>CCC</td><td rowspan=1 colspan=1>落后</td><td rowspan=1 colspan=1>0.0 –1.429</td></tr></table>\n\n\\*分数范围出现重叠是由于舍入误差造成的。从0-10的评分均分为7个部分，每个部分对应一个字母评级。\n\n行业调整得分 (Industry-Adjusted Company Score, IAS)：该分数是根据业内同行基准值设定的分数范围，将关键议题加权平均得分 (WAKIS) 进行归一化计算得出的。\n\n• 关键议题加权平均得分 (WAKIS)：各公司的得分基于以下方面获得的加权平均得分计算：\n\n<sub>­</sub> 影响公司评级的所有单项环境和社会关键议题；以及\n\n<sub>­</sub> 治理支柱得分。\n\n治理支柱得分是对公司整体治理情况的评估，使用统一适用的 0 -10 评分量表。治理支柱得分为初始得分 10 分减去企业治理（包括所有权和控制权、董事会、薪酬和会计）和企业行为（包括商业道德和税务透明度）主题包含的关键指标的扣减总分值。\n\n关键议题得分（环境和社会支柱）：各公司在各选定关键议题上获得一个评分，分值范围为 0 - 10。在环境和社会支柱方面，此评分评估公司的风险敞口或机遇以及公司管理该敞口的能力。该等评分使用关键议题敞口评分和关键议题管理得分进行计算。\n\n计算精度：评分计算全程使用未舍入的全精度数值；报告与数据输出展示时才保留一位小数。字母评级边界还须应用±0.1的评级缓冲规则。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.1.1 解读环境和社会关键议题得分",
+      "content": "图 3：基于风险的关键议题得分 (0-10)\n\n\n\n<table><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>在基于风险的ESG关键议题上得分达到10分的公司，相对于其所面临的ESG风险，具有非常强的管理措施。管理措施强的公司可能有稳健的治理结构、改进目标、在量化指标上的表现优于业内同行，而且没有争议。关键议题得分为10分的公司所面临的ESG风险不高。</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>在基于风险的 ESG 关键议题上得分达到5 分的公司，其管理措施相对于其ESG 风险敞口适中。</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>在基于风险的 ESG 关键议题上得分为0的公司，相对于其ESG 风险敞口而言，管理措施非常差。通常情况下，关键问题得分为0的公司所面临的ESG风险也非常高。</td></tr></table>\n\n图 4：基于机遇的关键议题得分 (0-10)\n\n\n\n<table><tr><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>在基于机遇的ESG关键议题上得分达到10分的公司，具有非常强的定位能力，能够满足市场需求，提供对环境或社会有积极贡献的产品和服务。</td></tr><tr><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>在基于机遇的ESG关键议题上得分达到5分的公司，在满足市场需求，提供对环境或社会有积极贡献的产品和服务上定位适中。</td></tr><tr><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>在基于机遇的ESG关键议题上得分为0的公司，在提供对环境或社会有积极贡献的产品和服务上，没有主动采取行动来满足市场需求。</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.2 补充评分",
+      "content": "我们还计算补充评分，它对整体 ESG 评级不具有直接影响，但为ESG 评级的使用者提供额外的或具体的见解。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.2.1 支柱得分",
+      "content": "环境和社会支柱的支柱得分根据每个支柱关键议题得分的加权平均值计算，并根据权重总和进行归一化处理，得到一个0-10分的评分。\n\n• 环境得分代表环境支柱所有关键议题的加权平均值。\n\n• 社会得分代表社会支柱所有关键议题的加权平均值。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.2.2 主题得分",
+      "content": "环境和社会支柱的主题得分（10 个主题中的 8 个）是根据每个主题关键议题得分的加权平均值计算，并根据权重总和进行归一化处理，得到一个0-10 分的评分。\n\n治理支柱是根据企业治理和企业行为两项主题，计算主题得分。\n\n主题得分为 0 到 10 分，分数越低，表明风险越高。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.2.3 治理支柱下的关键议题得分",
+      "content": "每项关键议题代表一个广泛的治理风险领域。公司在每项关键议题会获得一个绝对分数。关键议题得分为 0 到 10 分，分数越低，表明风险越高。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.2.4 治理支柱下的主题和关键议题百分位数",
+      "content": "为了补充 0 -10 的主题得分和关键议题得分，我们会计算并发布每个主题和关键议题的百分位等级。这些百分位数是评估一家公司相对于其他公司的表现，百分位等级范围从 0 到 100。公布的两类百分位等级：\n\n• 本土市场：百分位等级根据特定本土市场的组成成分计算； 以及\n\n• 全球：百分位等级根据全球覆盖范围计算。\n\n百分位等级可按照以下图 5所示解释，识别领先和落后公司。\n\n图5：解释百分位等级\n\n\n\n<table><tr><td rowspan=1 colspan=1>百分位等级</td><td rowspan=1 colspan=1>说明</td></tr><tr><td rowspan=1 colspan=1>96-100</td><td rowspan=1 colspan=1>同类最佳</td></tr><tr><td rowspan=1 colspan=1>76-95</td><td rowspan=1 colspan=1>优于平均</td></tr><tr><td rowspan=1 colspan=1>26-75</td><td rowspan=1 colspan=1>平均</td></tr><tr><td rowspan=1 colspan=1>6-25</td><td rowspan=1 colspan=1>低于平均</td></tr><tr><td rowspan=1 colspan=1>0-5</td><td rowspan=1 colspan=1>同类最差</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2.3 支柱、主题和关键议题权重",
+      "content": "计算关键议题加权平均得分时，针对环境和社会关键议题会使用关键议题权重。\n\n对于治理，由于权重设置是在支柱层面进行的，并且治理支柱采用基于扣分的评分模型，关键议题权重不适用。\n\n另外，我们针对三大支柱中每一个支柱发布了权重。\n\n• 环境权重代表环境支柱所有关键议题的权重总和。\n\n• 社会权重代表社会支柱所有关键议题的权重总和。\n\n• 治理权重独立计算且不低于33%。\n\n图 6：ESG 评分层级结构 \n\n<div class=\"msci-viz msci-viz-tree\"><div class=\"msci-viz-title\">ESG 评分层级结构（基于方法论整理）</div><div class=\"msci-layer-tree\"><div class=\"msci-layer-node msci-layer-root\">ESG 评级</div><div class=\"msci-layer-branch\"><div class=\"msci-layer-node msci-layer-pillar\">环境支柱<span class=\"msci-layer-tag\">权重 ≥ 0</span></div><div class=\"msci-layer-node msci-layer-pillar\">社会支柱<span class=\"msci-layer-tag\">权重 ≥ 0</span></div><div class=\"msci-layer-node msci-layer-pillar\">治理支柱<span class=\"msci-layer-tag\">权重 ≥ 33%</span></div></div><div class=\"msci-layer-branch\"><div class=\"msci-layer-node msci-layer-topic\">主题<span class=\"msci-layer-sub\">环境5 / 社会5 / 治理2</span></div><div class=\"msci-layer-node msci-layer-topic\">主题<span class=\"msci-layer-sub\">关键议题加权平均</span></div><div class=\"msci-layer-node msci-layer-topic\">主题<span class=\"msci-layer-sub\">企业治理 · 企业行为（扣分制）</span></div></div><div class=\"msci-layer-branch\"><div class=\"msci-layer-node msci-layer-ki\">关键议题<span class=\"msci-layer-sub\">环境13 / 社会14 / 治理6</span></div><div class=\"msci-layer-node msci-layer-ki\">关键议题<span class=\"msci-layer-sub\">按GICS子行业设定权重</span></div><div class=\"msci-layer-node msci-layer-ki\">关键议题<span class=\"msci-layer-sub\">董事会·薪酬·所有权·会计 / 商业道德·税务透明度</span></div></div></div><div class=\"msci-viz-note\">各支柱权重独立发布：环境、社会权重为支柱内关键议题权重总和；治理权重独立计算且不低于 33%。</div></div>\n\n原始公共数据：公司财务和可持续性披露、专门的政府和学术数据集、媒体搜索等。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.1.1 确定 ESG 关键议题",
+      "content": "研究过程从深入评估与每个行业相关的ESG 风险和机遇开始。共有 27 个环境和社会关键议题，各行业在其中选择 2 到 7 个关键议题进行评估，关键议题的选择是基于对基础数据的年度审核和分析人员的审核。下文将详细介绍这一过程。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "普遍的关键议题",
+      "content": "所有行业的所有公司均会被评估其治理支柱的关键议题，其中包括跨越两个主题的六个治理关键议题：企业治理和企业行为（参见第 3.4.5 条，确定治理得分。需注意超国家机构和开发银行的治理略微不同）。MSCI ESG研究部认为治理具有普遍重要性，无论是哪个行业，均应以综合的方式进行评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "设置行业关键议题",
+      "content": "根据全球行业分类标准 (GICS ) 定义的 163 个子行业，均会被选择 ESG 关键议题。 2环境和社会关键议题因行业而异，选择依据是各行业公司在业务活动产生大量环境或社会相关外部效应的程度。步骤如下：\n\n• 对每家公司而言，报告的业务板块都与标准业务活动相对应。MSCI ESG 研究使用标准行业分类 (SIC) 系统以及行业特定的调整来定义业务活动。\n\n每项业务活动都会根据每个 ESG 关键议题所产生的外部性水平进行评估，从而得出业务部门风险敞口得分。\n\n例如，MSCI ESG研究部根据公司业务板块易发生伤亡的程度来衡量健康与安全关键议题的外部效应。该数据是基于国际劳工组织 (ILO) 和美国职业安全与健康管理局 (OSHA) 等健康与安全机构的行业统计数据。\n\n对于经营地下煤矿的公司 (SIC代码 1222)，每 1,000 名员工的平均死亡率为0.45；对于经营露天煤矿的公司 (SIC 代码 1221)，每 1,000 名员工的平均死亡率为 0.13。根据行业强度的相对等级，这些指标将转换为 0-10 分。\n\n每家公司的总体业务风险敞口评分是公司各业务板块风险敞口分值的加权平均值，按销售额百分比、资产百分比或业务百分比加权计算。这构成了公司的业务板块风险敞口评分。\n\nMSCI ESG 研究部根据相关公司的 ESG 业务板块风险敞口平均评分，对每个关键议题涉及的所有 163 个 GICS 子行业进行排名。\n\n附录 2：行业关键议题选择示例中展示的示例阐明了各 GICS 子行业的碳强度如何决定了碳排放关键议题是否应被视为行业关键议题。\n\n通常情况下，MSCI ESG 研究部将基于以下内容提议变更行业关键议题：\n\n当外部效应的规模（基于该子行业中公司的平均业务风险敞口得分）达到或超过所有子行业的第 80 个百分位，且业务板块风险敞口平均评分大于或等于 5.0时，我们建议为该 GICS 子行业添加一个 ESG 关键议题。当外部效应的规模（基于该子行业中公司的平均业务风险敞口得分）达到或低于所有子行业的第 70 个百分位，且业务板块风险敞口平均评分低于或等于 3.3 时，基于该子行业公司的ESG 业务板块风险敞口平均评分，我们建议为 GICS 子行业移除该 ESG 关键议题。\n\n在每个日历年的第 4 季度，MSCI ESG 研究部会设立一个，在此期间我们会对行业关键议题的拟议变更征求反馈意见。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "公司特定关键议题",
+      "content": "在一些情况下，一家公司可能会面临独有的环境或社会关键议题，而这些问题并不适用于该公司所在行业内的其他公司。这可能起因于多种情况，从具有独特或多样化商业模式的公司到业内面临独特风险的公司子集（见图 7）。在这些情况下，分析中会考虑公司特定关键议题，同时其他关键议题的权重也将按比例降低。\n\n在其他情况下，一家公司可能不会面临业内其他公司面临的个别环境或社会关键议题。在这种情况下，该关键议题将从分析中移除，剩余关键议题将按比例提高权重。\n\n图 7：关于添加公司特定关键议题的指南\n\n\n\n<table><tr><td>说明</td><td>规则</td><td>关键议题添加</td><td>示例</td></tr><tr><td>公司从第二产业获得 大量收入</td><td>大于 20% 的收入或收 益来自第二业务线</td><td>涉及第二产业业 务线的最相关关 键议题</td><td>蒂芙尼（零售）大于20%的收入来自 高级珠宝，添加争议性采购关键议题</td></tr><tr><td>公司在第二产业留下 了大量足迹</td><td>与同行相比，第二产业 业务线的绝对规模较大</td><td>涉及第二产业业 务线的最相关关 键议题</td><td>迪士尼（电影和娱乐）作为世界最大 的玩具制造商之一，添加供应链劳工 标准关键议题</td></tr><tr><td>公司拥有独特的商业 模式</td><td>基于例外情况，需要获 得ESG评级方法论委员 会的批准</td><td>最相关关键议题</td><td>康宝莱（个人产品）销售减重补充 剂，受食品安全机关监管，添加产品 安全与质量关键议题</td></tr><tr><td>在非关键议题方面， 公司面临严重或非常 严重的争议</td><td>根据严重性、状态和争 议日期</td><td>该争议对应的关 键议题</td><td>西斯科公司在劳工管理方面面临严重 的争议</td></tr></table>\n\n对公司特定关键议题的分析有助于公司的整体评级，但不会影响业内同行评级，因为该特定关键议题对后者无显著影响。所有公司特定关键议题均由 ESG 评级方法论委员会审核和批准。\n\n工业集团、贸易公司和分销商、多元化支持服务、多元化消费服务、专业零售和专业房地产投资信托基金等多元化行业的公司最常受到公司特定关键议题的评估。对于这些行业，在行业研究开始时就对每家公司的商业模式进行了分析。\n\n公司特定关键议题采用率：\n\n截至 2023 年 1 月 31 日，大约 20% 的公司接受了公司特定关键议题评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.1.2 设置 ESG 关键议题权重",
+      "content": "在为 GICS 子行业选择关键议题后，MSCI ESG 研究部就会设定权重，以确定这些关键议题对总评级的贡献：\n\n• 环境和社会支柱中的各个关键议题；以及\n\n• 治理支柱。\n\n各个环境和社会关键议题通常占 ESG 总评级的 5% 至 30%。在为各 GICS 子行业确定这些关键议题的权重时，会根据该子行业对与关键议题相关的负面外部效应的影响以及关键议题出现的预期时间范围，如以下图 8 中的概念性说明。\n\n对于治理支柱，权重是在支柱层面设置的而非关键议题层面。所有子行业的治理支柱权重都是在分别对公司治理和公司行为进行\"高贡献/长期 \"和 \"中贡献/长期 \"评估的基础上确定的。 此外，治理支柱的权重下限为 33%。\n\n对于具有多元化商业模式、面临争议或基于适用于某些行业预定义规则的公司，使用公司特定的关键议题和权重是允许的，但须经方法论委员会批准。\n\n关键议题和权重在每个日历年年底进行正式审核和反馈。\n\n图 8：设置关键议题权重的框架 \n\n<div class=\"msci-viz msci-viz-matrix\"><div class=\"msci-viz-title\">设置关键议题权重的框架（重绘）</div><div class=\"msci-viz-sub\">影响程度 × 预期时间范围 → 关键议题权重高低</div><div class=\"msci-matrix\"><div class=\"msci-matrix-axis-y\">对环境或社会影响的影响程度</div><div class=\"msci-matrix-body\"><div class=\"msci-matrix-row\"><div class=\"msci-matrix-side\">行业产生重大影响</div><div class=\"msci-matrix-cell msci-matrix-hi\">最高权重</div><div class=\"msci-matrix-cell msci-matrix-mid\">较高权重</div></div><div class=\"msci-matrix-row\"><div class=\"msci-matrix-side\">行业产生较小影响</div><div class=\"msci-matrix-cell msci-matrix-mid\">较低权重</div><div class=\"msci-matrix-cell msci-matrix-lo\">最低权重</div></div></div><div class=\"msci-matrix-axis-x\"><span>短期（少于 2 年）</span><span>出现风险/机遇的预期时间范围</span><span>长期（5 年以上）</span></div></div><div class=\"msci-viz-note\">「高度影响 × 短期」的关键议题权重约为「低度影响 × 长期」关键议题权重的 3 倍。</div></div>\n\n利用该框架，定义为“高度影响”和“短期”的关键议题的权重将比定义为“低度影响”和“长期”的关键议题的权重高三倍。\n\n对环境或社会外部效应的影响程度：在上述流程中，根据MSCI ESG 研究部对相关数据（例如平均碳排放强度）的分析，各 GICS 子行业对各关键议题的影响被指定为“高度”、“中度”或“低度”。对于通过争议等事件体现主要风险的关键议题，MSCI ESG 研究部会考虑争议的严重程度，以确定对环境或社会外部效应的影响程度。例如，发生严重/非常严重的争议被视为对相关外部效应有很大的影响。相反，发生较小的争议被视为对相关外部效应有小的影响。如果观察到一个行业中有很多公司在某个领域经历了严重的争议，则影响程度视为较高。反之，如果观察到一个行业中有很多公司在某个领域经历了较小的争议或者未经历争议，则影响程度视为较低。\n\n风险/机遇的预期时间范围：各关键议题的时间范围（短期、中期、长期）根据每个关键议题给公司带来的风险或机遇的类型进行划分。\n\n1 各关键议题都被分配了一个基准时间范围（例如，取决于风险是由未决法规驱动还是由较缓慢的时间范围问题驱动，例如消费者需求转换）。\n\n在某些情况下，单个关键议题的时间范围可能因行业而异（例如，当劳工管理与一般工人生产力相关时，它被确定为中期问题；但在劳工中断和停工很常见的行业中，它被视为短期问题）。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "最终确定权重",
+      "content": "最终的关键议题集和相关权重必须得到行业团队负责人和 ESG 方法论委员会的批准。 \n权重在日历年开始时设置并适用于该一整年。\n\n请参见 ，了解有关此流程的更多信息。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.1.3 关键议题评估",
+      "content": "根据关键议题的类型，采用三种评估方法中的一种：\n\n风险关键议题：风险敞口评分和风险管理得分相结合，这意味着面临更高风险敞口的公司需要展示出更高的风险管理能力，从而获得同等的关键议题综合得分。ESG 风险敞口评分的计算基于对公司业务的细致拆分：其核心产品或业务板块、其资产或收入所在地以及外包生产依赖度等其他相关指标。参见第 3.2 条：分析风险敞口和第 3.3 条：分析风险管理。\n\n机遇关键议题：机遇敞口评分和机遇管理得分相结合，这意味着更高的机遇敞口可得出的关键议题评分范围更广，而较低的机遇敞口将会限制评分范围在 5分附近（总分为 10 分）。\n\n• 治理关键议题：公司在每项关键议题会获得一个绝对分数。关键议题得分为 0 到10 分，分数越低，表明风险越高。参见第 3.4 条：分析治理。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.2 分析风险敞口",
+      "content": "在环境和社会支柱中，每个关键议题模型都包含两个部分：风险敞口和风险管理。 4这种区分使得模型可以通过调整所要求达到的管理体系水平，以得出特定的关键议题得分：面临更高风险敞口的公司必须通过更强有力的管理实践来降低风险。\n\n相反地，如果公司面临特定风险的风险敞口较低或极低，该公司不会因为仅采用了极低限度的风险管理策略而受到模型的负面评价。\n\n区别于风险关键议题，对于机遇关键议题的敞口，MSCI ESG 研究部通过特定业务机遇与该公司的相关性进行评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.2.1 ESG 风险敞口模型",
+      "content": "MSCI ESG 研究部对风险敞口的评估可能包括三个不同的分析领域，具体情况取决于关键议题：\n\n• 业务风险敞口 — 拆分并分析公司在不同业务板块的收入、资产及运营。\n\n• 地理位置风险敞口 — 拆分并分析公司在不同地理区域的收入、资产及运营。\n\n• 公司级别风险敞口要素 — 例如员工人数、公司规模、业务是否依赖政府合约或是否依赖外包生产。\n\n业务风险敞口是公司各业务板块风险敞口得分的加权平均值，并根据各分部占总资产或收入的比例进行调整。业务板块风险敞口得分衡量的是每项业务活动所产生的外部性程度（例如，水泥生产的每一美元收入所产生的碳排放量）。MSCI ESG 研究使用标准行业分类 (SIC) 系统和特定行业调整来定义业务活动。在某些行业中，基于 SIC的行业不够细化，无法进行准确的 ESG 风险评估，，MSCI ESG 研究创建了能更准确地代表公司业务范围的业务活动（见图 9）。\n\n图 9：MSCI 的业务板块分类示例\n\n\n\n<table><tr><td rowspan=1 colspan=1>官方 SIC 分类</td><td rowspan=1 colspan=1>MSCI 添加的业务分类</td><td rowspan=1 colspan=1>理由说明</td></tr><tr><td rowspan=1 colspan=1>1021 铜矿石1031 铅锌矿1041 金矿石1044 银矿石1061 铁合金矿石1099 其他金属矿石</td><td rowspan=1 colspan=1>每个类别按露天采矿与地下采矿划分</td><td rowspan=1 colspan=1>不同的土地扰动、事故率</td></tr><tr><td rowspan=1 colspan=1>1311 原油和天然气</td><td rowspan=1 colspan=1>石油开采-陆上：常规、页岩、北极、油砂 - 采矿、油砂 - 原位开采、油砂 -沥青/合称原油(SCO)、重油；石油开采-海上：浅水、深水、北极天然气开采-陆上：常规、页岩、北极、煤层气(CSG)/煤床甲烷(CBM)；天然气开采 - 海上：浅水、深水、北极</td><td rowspan=1 colspan=1>不同的土地扰动、碳排放、用水强度、事故率</td></tr><tr><td rowspan=1 colspan=1>3674 半导体产品</td><td rowspan=1 colspan=1>有晶圆厂与无晶圆厂</td><td rowspan=1 colspan=1>不同的用水强度</td></tr><tr><td rowspan=1 colspan=1>4911 电力服务</td><td rowspan=1 colspan=1>发电：硬煤、褐煤、液体燃料、天然气、核能、水电、可再生能源；传输；配电</td><td rowspan=1 colspan=1>不同的土地扰动、碳排放、用水强度、有毒物质排放</td></tr><tr><td rowspan=1 colspan=1>6512 建筑运营商6552 土地分包与开发商6798房地产投资信托基金</td><td rowspan=1 colspan=1>各类别细分为：住宅：单户型、多户型；零售：非购物中心、购物中心；医疗保健：住院、门诊；办公室；娱乐；餐厅；食品和杂货市场；酒店及住宿护理；仓储；其他</td><td rowspan=1 colspan=1>不同的能源强度、绿色建筑激励措施和法规</td></tr></table>\n\n地理位置风险敞口是公司运营所在国家和地区的地理区域风险敞口分数的加权平均值。计算地理位置风险敞口分数的方法各不相同，且仅适用于某些关键议题。一般来说，每种方法都依赖于外部数据集和 MSCI ESG 研究评估，以根据各种因素对国家进行区分，这些因素包括：\n\n• 监管（例如：监管的严格程度、补贴的差异）。\n\n• 自然（例如：自然灾害、资源可用性）\n\n• 社会与治理（例如：对腐败的看法、员工死亡频率）\n\n对于某些关键议题，我们会用额外的因素来评估公司的风险敞口，比如员工人数、采购敏感商品的数量、来自自有品牌商品的销售比例等。\n\n请参阅各个关键议题的方法论文件，了解用于评估公司在每个关键议题上的风险敞口的一系列指标和数据来源。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.2.2 确定风险敞口评分",
+      "content": "在环境和社会支柱中，每个关键议题的风险敞口评分范围为 0 到 10 分，表示公司独特的业务和地理位置情况所带来的对特定关键议题的风险敞口。该0-10 的评分是按照以下步骤计算：\n\n1. 业务风险敞口加权平均分，每个业务线对应0-10 分的业务风险敞口评分，再按业务线的资产百分比、收入百分比或运营百分比加权；\n\n2. 如适用，结合公司特定风险敞口要素，例如，劳工规模、外包比例等；以及\n\n3. 如适用，乘以地理乘数。基于资产或收入的地理分布，风险敞口评分可最高提高或最低降低 50%。\n\n最终结果是0-10分的敞口评分，其中0 分表示对该关键议题的敞口最低，10 分表示对该关键议题的敞口最高。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.1 风险管理评估的组成部分",
+      "content": "在环境和社会支柱中，MSCI ESG研究部对于某家公司在某个关键议题方面管理其风险敞口的能力的评估一般分为三个大类：\n\n• 战略和治理\n\n• 举措和计划\n\n• 表现\n\n尽管不同关键议题的具体评估指标有所不同，但战略和治理部分通常评估的是公司应对关键风险和机遇的组织能力和管理层的承诺水平，包括对特定风险/机遇的组织责任水平和范围、政策承诺的力度和范围，以及对遵守标准的承诺的力度和范围。\n\n举措部分通常评估旨在提高关键议题表现的举措、计划和目标的力度和范围。\n\n表现部分评估公司在管理特定风险或机遇方面的绩效记录。涉及收集、标准化和对标分析一系列适用的定量指标，也包括对定性绩效指标的评估。作为评价公司ESG关键议题表现的定性指标的一部分，MSCI ESG 研究部纳入了公司所涉及的争议事件的信息。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.2 争议事件",
+      "content": "MSCI ESG 研究部拥有一支专门的分析师团队，会持续识别和评估涉及我们评级范围内公司的争议事件的严重性。\n\n争议事件被定义为公司运营和/或产品据称对环境、社会和/或治理产生负面影响的事件或持续情况。争议事件包括公司据称违反了其应遵守的现行法律和/或法规；或公司的行为或活动据称违反了普遍认同的国际规范，包括但不限于联合国 (UN) 全球契约等全球公约所代表的规范。\n\n争议事件通常是单个事件，例如泄漏、事故或监管措施，或者是一组密切相关的事件或指控，例如对同一设施的健康和安全罚款、与同一产品线相关的多项反竞争行为指控、在同一运营所在地发生的多起社区抗议活动或针对同一种歧视行为发起的多起个人诉讼指控。\n\n每个争议事件都会根据其对社会或环境影响的严重程度进行评估，并因此被评为非常严重（用于“情况最糟糕的”事件）、严重、中等或轻微。\n\n为了完成评估，每个事件均在两个维度上进行分析。\n\n• 伤害的性质——从非常严重到轻微。\n\n• 影响的规模——从极其广泛到低。\n\n下表将上述评估结合在一起，以初步确定严重性，不同的影响规模和伤害性质的多种组合情境能够产生相同的严重性评估结果。\n\n图 10：争议事件的评估 \n\n\n\n伤害的性质\n<table class=\"ag-table ag-table-official\"><thead><tr><th></th><th colspan=\"4\">伤害的性质</th></tr><tr><th>影响的规模</th><th>非常严重</th><th>严重</th><th>中度</th><th>轻微</th></tr></thead><tbody><tr><th>极其广泛</th><td>非常严重</td><td>严重</td><td>严重</td><td>中等</td></tr><tr><th>广泛</th><td>非常严重</td><td>严重</td><td>中等</td><td>中等</td></tr><tr><th>有限</th><td>严重</td><td>中等</td><td>轻微</td><td>轻微</td></tr><tr><th>低</th><td>中等</td><td>中等</td><td>轻微</td><td>轻微</td></tr></tbody></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "严重性加剧的情况：",
+      "content": "虽然最初的严重性评估由争议事件在矩阵中的位置决定，但某些情况可能需要更趋严重的最终评估。以下规则适用于此类调整。\n\nESG 争议事件对最弱势的群体产生负面影响。弱势群体的定义仅限于正在受到严重、系统且长期的人权侵犯行为影响的民族、族裔、种族和宗教群体（包括土著人民），这些侵犯行为符合国际机构和标准的定义，例如联合国《防止及惩治灭绝种族罪公约》或《联合国土著人民权利宣言》，并由国际刑事法院和/或国际人权倡导组织（如国际特赦组织和人权观察）进行调查。\n\nESG 争议事件对最脆弱的生态系统产生负面影响。MSCI ESG研究部将脆弱的生态系统定义为联合国教育、科学及文化组织 (UNESCO) 世界遗产名录中包含的生态系统。\n\n当有指控表明公司或公司代表或员工参与构成蓄意危害社会或环境的活动时，这些可能包括故意阻挠调查、试图掩盖事件或活动，或者惩罚或解雇表达担忧或参与针对公司抗议活动的员工。\n\n对于符合严重性加剧情况标准的事件，其最终评估可能比仅从影响的性质和规模得出的初始严重性评估更严重。随着事件的展开或有效信息增加，可能会根据需要重新评估给定事件的严重性。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "争议扣分：公司角色与事件状态",
+      "content": "管理得分中的争议扣分以严重性、公司直接或间接角色、持续中/部分结案/已结案状态确定，不再使用结构性与非结构性两栏的旧扣分口径。同一议题有多项争议时采用单一最高适用扣分；具体数值见“3.3.6 确定管理得分”。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          25,
+          26
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.3 标准化和对标分析",
+      "content": "分析过程的一个关键组成部分是将分析师收集的公共数据标准化，以准确衡量公司的风险管理能力。\n\n示例：ESG 数据专家收集有关健康和安全生产率的历史数据，这些数据在披露的单位或涵盖的范围方面通常不可比（例如，统计口径涵盖合同制员工或仅涵盖正式员工，或统计口径涵盖合资企业或仅涵盖全资子公司）。分析师对不同公司以不同方式报告的数据进行归一化操作，以支持行业内的对标分析。\n\n分析公司在关键议题上承诺的目标，例如，为应对因水资源短缺带来的运营风险而制定的减少耗水量目标，是分析师比较公司承诺积极性的又一个例子。\n\n对于拥有相同关键议题的不同行业的公司，分析师打分采用的是标准化的指标，这有助于就每个关键议题进行跨行业比较，但分析师在对指标进行评分时尽可能深入研究特定行业或特定地区的信息，目标是捕捉公司在每个行业中面临的风险和机遇。\n\n示例：生物多样性和土地利用关键议题指标：“公司在多大程度上减少运营造成的干扰？”\n\n在 MSCI ESG研究部的石油和天然气研究中，分析师收集有关石油泄漏总桶数和泄漏强度的数据（单位美元销售额泄漏的桶数）；他们对石油泄漏结果进行评级，然后转化为关键议题模型中该指标的 0-10 分的得分。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.4 量化可持续性指标评分",
+      "content": "量化绩效综合考虑相对于同行的当前强度和历史趋势。当前强度得分占绩效得分的75%—100%；公司当前表现已经较强时，趋势得分的贡献降低。仅有一年数据、无法计算趋势时，绩效得分完全基于行业相对强度。各议题具体指标和归一化口径以对应方法论为准。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          22,
+          23,
+          24
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.5 披露水平的差异",
+      "content": "虽然 ESG 评级模型和分析过程包括对特定行业数据和关键议题的深入分析，但MSCIESG 研究部的评级方法论也能够适应披露规范间的巨大差异，而不去过多惩罚ESG 披露信息很少或几乎没有的公司的披露不足行为，这样的企业包括市值较小的公司、在环境影响较低的行业运营的公司和/或刚刚开始关注 ESG 关键议题的地区运营的公司。\n\n根据该模型的结构，环境和社会关键议题对整体 ESG 评级的贡献有一半来自于对公司风险敞口的评估。由于 MSCI ESG研究部评估风险敞口所需的公司层面信息来自标准的财务披露，因此，通常无需修改我们的模型即可适应 ESG 披露度较低的公司。\n\n对于风险管理评估，分析更依赖公司与 ESG 相关的披露。通过测试，MSCI ESG研究部确定了一组基线指标，它们符合双重标准，一方面最常披露，另一方面最有可能在每个关键议题相关的风险管理方面将公司与业内同行区分开。\n\n如果公司没有披露属于风险管理表现类别的指标相关信息，ESG 评级分析方法论不会假定公司的表现水平为“最差”，而会给出一个低于行业平均水平的表现分。\n\n示例： 在健康与安全关键议题中，数据专家收集了大量关于伤害和死亡率的数据，可用于判断该指标表现的变化趋势。对这些数据的分析用于计算一个指标评分，即“对比业内同行，对公司关于以上指标（伤亡统计数据）的表现进行评分？”\n\n0 分表示在行业内表现最差，10 分表示在行业内表现最佳。如果因未披露伤亡率而无法进行严谨的表现分析，则该模型会给出 3 分（满分10分）。\n\n如果公司没有披露关键议题风险管理举措类别的指标，则 ESG 评级分析方法论取决于公司大部分运营业务所在的地点以及所述关键议题的风险管理举措是否常见。\n\n示例： 在生物多样性和土地利用关键议题中，分析师评估了公司为尽量减少运营干扰所做的努力。对于那些主要在高度管制的市场中运营，但缺乏关于尽量减少其运营对环境干扰的信息披露的公司，我们假设它们至少达到了基本标准，因此给予 3 分（满分10分）。\n\n对于主要在环境保护和执法有限的市场运营的公司，我们不假设公司会为了减少干扰付出努力。\n\n示例： 相比之下，如果是供应链劳工标准关键议题，我们假设没有披露明确的供应商行为准则表明公司可能没有这样的政策，从而增加了其供应链劳工标准不佳的风险，可能导致运营中断和名誉损害。\n\n如果一家公司缺乏关于特定关键议题的披露，从而导致在评估其相对于业内同行的业绩时存在不确定性，ESG 评级公司报告会明确指出评估公司业绩的这种不确定性。\n\n在某些情况下，MSCI ESG研究部在公司未披露的数据时使用估计的方法。这些估计方法通常依赖于行业平均水平、区域标准，以及从公司披露的信息中推断出更细化的数值。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.3.6 确定管理得分",
+      "content": "环境与社会议题的管理指标先转换为0—10分。各适用指标按权重汇总；权重可随业务相关性调整，无相关业务敞口的指标权重为0，不再采用类别内、类别间一律等权的旧规则。\n\n争议调整从管理得分扣除0—5分，依据严重性、公司角色以及事件状态确定。同一议题涉及多个争议时，采用单一最高适用扣分，不将全部争议扣分相加。\n\n图13：管理得分的争议扣分（按March2026原图校核）\n\n<table><tr><th>严重性</th><th>公司角色</th><th>持续中</th><th>部分结案</th><th>已结案</th></tr><tr><td>非常严重</td><td>直接</td><td>-5</td><td>-4</td><td>-3</td></tr><tr><td>非常严重</td><td>间接</td><td>-3</td><td>-2.8</td><td>-2.5</td></tr><tr><td>严重</td><td>直接</td><td>-2.5</td><td>-2.1</td><td>-1.7</td></tr><tr><td>严重</td><td>间接</td><td>-1.7</td><td>-1.5</td><td>-1.3</td></tr><tr><td>中等</td><td>直接</td><td>-1.3</td><td>-1.1</td><td>-0.8</td></tr><tr><td>中等</td><td>间接</td><td>-0.8</td><td>-0.6</td><td>-0.4</td></tr><tr><td>轻微</td><td>直接</td><td>-0.4</td><td>-0.2</td><td>0</td></tr><tr><td>轻微</td><td>间接</td><td>0</td><td>0</td><td>0</td></tr></table>",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          25,
+          26
+        ],
+        "checked_on": "2026-09-11",
+        "content_type": "校核整理"
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.4 分析治理",
+      "content": "评估企业治理支柱表现的方法不同于评估公司在环境和社会支柱方面表现的方法。环境和社会风险通常适用于特定行业（某些关键议题仅对某些类型的公司重要），并且在评估公司的风险管理策略时会考虑到其环境或社会风险敞口。\n\n相比之下，治理支柱下的两个主题——企业治理和企业行为与所有公司都相关。虽然一些治理风险普遍存在，但其他风险可能因所有权结构、主要利益相关方之间的动态情况、文化因素以及相关市场投资者保护的演变而有所不同。\n\n由于企业治理和企业行为普遍相关且紧密交织，因此通过量化企业治理实践与最佳实践之间差距，并确定其投资者面临的治理风险这一办法，对治理进行评估。\n\n评分采用扣分制模型；也就是每家公司一开始的分数是“满分 10 分”，然后根据对关键指标的评估而扣减分数。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.4.1 关键指标",
+      "content": "关键指标是企业治理得分模型的基础单元。每个治理关键指标旨在评估公司在某个特定治理风险方面的状况。关键指标可能反映出某种类型的所有权结构的存在或相关的治理风险因素，亦可能反映出公司缺乏用来减轻相关治理风险的相关政策或做法。\n\n关键指标标记是通过/未通过评估，帮助 ESG 评级的使用者了解哪些关键指标正在影响公司的主题得分或关键议题得分。在数据馈送和 MSCI 的筛选器工具中，这些标记将显示为数值 0 或 1，其中 1 表示关键指标被标记。\n\n虽然某些关键指标仅标记极少数公司，但其他关键指标将标记多家公司。这使评分模型区分领先者和落后者，并呈现整个 0-10 分范围内的分数分布。\n\n对于每个关键指标，MSCI ESG研究部还会计算一个分数值，用于计算关键议题和主题分数。关键指标的分数会被转换为得分贡献，并显示在報告上。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.4.2 争议和事件",
+      "content": "争议事件被定义为公司运营和/或产品涉嫌对环境、社会和/或治理产生负面影响的事件或持续情况。\n\n其他事件可能不会被归类为争议事件，但可能会对公司的治理风险状况产生相关见解。此类事件的例子可能包括违反或放弃债务契约、履行与证券上市相关的持续义务的能力、对过去董事会决策质量引起担忧的商誉下降。\n\n某些关键指标基于争议或事件。其中一些关键指标的扣分会根据争议评估的严重程度或事件达到的某些阈值而有所不同。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.4.3 标准化和对标分析",
+      "content": "分析过程的一个关键部分是将数据专家收集的数据标准化，目的是衡量公司的治理风险。\n\n示例：以一套全球适用的标准来评估董事独立性。虽然这些标准可能与特定市场应用的标准不同，但这种方法提供了更多的跨境可比性。\n\n以业内同行为基础的关键指标使用标准化数据，得出具规则基础的业内同行参照组，以进行比较和评估。\n\n示例：评估 CEO 薪酬时，会使用一套标准化的方法以计算总薪酬数字，并以一套标准化的规则去建立业内同行参照组，这两者都在单独的关键议题方法论文件中列出，该文件专门用于解决薪酬关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.4.4 披露差异",
+      "content": "披露实践会因公司成立或监管、证券上市的所在司法管辖区，以及其他因素而异。对于未披露的部分，MSCI ESG研究部根据该披露对评分模型的重要性以及该披露对了解企业治理风险状况的重要性来评估。尤其是：\n\n• 董事会成员：如果未披露公司的董事会成员，则不公布企业治理主题得分。这反映了董事会评估对该评级模型的重要性。\n\n• 治理政策和实践：如果公司未披露特定政策是否存在，或董事会是否采用了特定做法，MSCI ESG研究部则假设该政策不存在和/或做法未被采用。\n\n示例：如果一家公司未披露其是否采用了适用于其短期和长期激励薪酬的追回政策，将被解释为不存在追回政策。因此，该公司的激励追回政策关键指标将被标记。\n\n• 定量数据：如果公司未披露用于计算关键指标得分的定量数据，MSCI ESG研究部可能会在该关键指标的可能扣分范围之中间点计算扣分值。\n\n示例：审计师任期关键指标根据已披露的公司审计师任期评估可变分数。若该审计师的任期未披露，则采用默认的不披露扣分。该扣分值设定为审计师服务时长超过 20 年的适用扣分的 50%。\n\n• 司法管辖默认条款：一些指标是基于公司成立所在司法管辖区和/或与公司的证券上市相关的强制性规则而评分。\n\n示例：在美国以外的市场，“股东召开特别会议的权利”关键指标基于适用公司法中规定的最低标准，除非管理文件中有明确证据表明应用了更宽松的阈值。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "关键指标",
+      "content": "关键指标是治理评估的基础单元。各关键指标用以评估各种企业治理风险状况，并提供简单的通过/未通过评估结果。当指标被评估为“未通过”时，则该关键指标将被“标记”。\n\n某些关键指标仅与某些因所有权类型、管理结构或其他因素影响的治理特征相关。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "关键指标分数",
+      "content": "对于每个关键指标，MSCI ESG研究部还会计算一个分数值，用于计算关键议题和主题分数。关键指标的分数会被转换为得分贡献，并显示在报告上。得分贡献越高通常表示治理风险更显著。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "关键议题",
+      "content": "各关键指标都分属于一个类别，并被纳入特定的关键议题。每项关键议题代表一个广泛的治理风险领域。公司在每项关键议题会获得一个绝对分数。关键议题得分为 0 到10 分，分数越低，表明风险越高。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "企业治理与企业行为主题得分",
+      "content": "所有关键议题下的关键指标分数均用于计算主题得分。主题得分为 0 到 10 分，分数越低，表明风险越高。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "治理支柱得分",
+      "content": "治理支柱得分是对公司整体治理情况的绝对评估，使用统一适用的 0-10 评分表。主题得分的计算采用类似的方法，而所有主题的所有关键议题中的关键指标分数则用于计算支柱得分。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "超国家机构和开发银行",
+      "content": "对于超国家机构和开发银行，治理支柱由企业行为主题得分（权重 70%）和政府支持得分（权重 30%）组成。政府支持得分基于成员国政治治理风险因素评分的加权平均值，该平均值來自 MSCI ESG 政府评级使用的数据。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.5.1 确定环境和社会关键议题得分 – 风险",
+      "content": "对于用来评估风险的关键议题，采取风险敞口评分和风险管理得分相互结合的形式，因此敞口越高，则需要展示出的管理能力水平越高，以达到同一关键议题得分（参见图 12）。该评分模型还具有以下特征：\n\n为了避免公司仅仅因为对关键议题的暴露程度低而获得非常高的总体关键议题得分的情况，该模型需要一个最低管理阈值，以实现总体关键议题得分大于 5 分（参见图 12 中敞口评分为 0-2 分的区域）。\n\n• 此外，在风险敞口水平非常高的情况下，一家公司能够获得的最高关键议题得分低于 10 分，这表明无论一家公司采取何种行动或计划来降低风险，一定程度的风险仍然存在。\n\n图 12：结合敞口和管理 – 风险关键议题 \n\n<div class=\"msci-viz msci-viz-formula\"><div class=\"msci-viz-title\">图 12：结合敞口和管理 – 风险关键议题（重绘）</div><div class=\"msci-formula-line\"><span class=\"msci-formula-k\">关键议题得分</span><span class=\"msci-formula-op\">=</span><span class=\"msci-formula-num\">7</span><span class=\"msci-formula-op\">−</span><span class=\"msci-formula-paren\">(</span><span class=\"msci-formula-fn\">max(敞口, 2)</span><span class=\"msci-formula-op\">−</span><span class=\"msci-formula-fn\">管理</span><span class=\"msci-formula-paren\">)</span></div><div class=\"msci-viz-sub\">（限定 0-10 分，计算保留全精度，输出展示保留一位小数）</div><div class=\"msci-viz-note\">敞口评分取 2 为下限：敞口 0-2 分的公司仍需达到最低管理阈值，总得分才能超过 5 分；敞口极高时最高可得低于 10 分，表明无论采取何种行动，一定风险仍然存在。</div></div>\n\n<div class=\"msci-viz\"><div class=\"msci-viz-title\">敞口 × 管理 → 风险关键议题得分（基于方法论整理的热力图）</div><div class=\"msci-heatmap-wrap\"><div class=\"msci-heat-label-x\">管理得分 →</div><div class=\"msci-heat-grid\"><div class=\"msci-heat-head\"></div><div class=\"msci-heat-head\">0</div><div class=\"msci-heat-head\">1</div><div class=\"msci-heat-head\">2</div><div class=\"msci-heat-head\">3</div><div class=\"msci-heat-head\">4</div><div class=\"msci-heat-head\">5</div><div class=\"msci-heat-head\">6</div><div class=\"msci-heat-head\">7</div><div class=\"msci-heat-head\">8</div><div class=\"msci-heat-head\">9</div><div class=\"msci-heat-head\">10</div><div class=\"msci-heat-side\">0</div><div class=\"msci-heat-side\">1</div><div class=\"msci-heat-side\">2</div><div class=\"msci-heat-side\">3</div><div class=\"msci-heat-side\">4</div><div class=\"msci-heat-side\">5</div><div class=\"msci-heat-side\">6</div><div class=\"msci-heat-side\">7</div><div class=\"msci-heat-side\">8</div><div class=\"msci-heat-side\">9</div><div class=\"msci-heat-side\">10</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=0 敞口=0 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=1 敞口=0 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=2 敞口=0 → 得分7.0\">7.0</div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=3 敞口=0 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=4 敞口=0 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=5 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=6 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=7 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=0 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=0 敞口=1 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=1 敞口=1 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=2 敞口=1 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=3 敞口=1 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=4 敞口=1 → 得分9.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=5 敞口=1 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=6 敞口=1 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=7 敞口=1 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=1 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=1 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=1 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=0 敞口=2 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=1 敞口=2 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=2 敞口=2 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=3 敞口=2 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=4 敞口=2 → 得分9.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=5 敞口=2 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=6 敞口=2 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=7 敞口=2 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=2 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=2 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=2 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=0 敞口=3 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=1 敞口=3 → 得分5.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=2 敞口=3 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=3 敞口=3 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=4 敞口=3 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=5 敞口=3 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=6 敞口=3 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=7 敞口=3 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=3 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=3 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=3 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=0 敞口=4 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=1 敞口=4 → 得分4.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=2 敞口=4 → 得分5.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=3 敞口=4 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=4 敞口=4 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=5 敞口=4 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=6 敞口=4 → 得分9.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=7 敞口=4 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=4 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=4 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=4 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=0 敞口=5 → 得分2.0\">2.0</div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=1 敞口=5 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=2 敞口=5 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=3 敞口=5 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=4 敞口=5 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=5 敞口=5 → 得分7.0\">7.0</div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=6 敞口=5 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=7 敞口=5 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=8 敞口=5 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=5 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=5 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=0 敞口=6 → 得分1.0\">1.0</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=1 敞口=6 → 得分2.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=2 敞口=6 → 得分3.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=3 敞口=6 → 得分4.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=4 敞口=6 → 得分5.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=5 敞口=6 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=6 敞口=6 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=7 敞口=6 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=8 敞口=6 → 得分9.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=9 敞口=6 → 得分10.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=6 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=0 敞口=7 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=1 敞口=7 → 得分1.0\"></div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=2 敞口=7 → 得分2.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=3 敞口=7 → 得分3.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=4 敞口=7 → 得分4.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=7 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=6 敞口=7 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=7 敞口=7 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=8 敞口=7 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=9 敞口=7 → 得分9.0\"></div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=7 → 得分10.0\">10.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=0 敞口=8 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=1 敞口=8 → 得分0.0\"></div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=2 敞口=8 → 得分1.0\"></div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=3 敞口=8 → 得分2.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=4 敞口=8 → 得分3.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=5 敞口=8 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=6 敞口=8 → 得分5.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=7 敞口=8 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=8 敞口=8 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=9 敞口=8 → 得分8.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=10 敞口=8 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=0 敞口=9 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=1 敞口=9 → 得分0.0\"></div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=2 敞口=9 → 得分0.0\"></div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=3 敞口=9 → 得分1.0\"></div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=4 敞口=9 → 得分2.0\"></div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=5 敞口=9 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=6 敞口=9 → 得分4.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=7 敞口=9 → 得分5.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=8 敞口=9 → 得分6.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=9 敞口=9 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=10 敞口=9 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=0 敞口=10 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=1 敞口=10 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=2 敞口=10 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=3 敞口=10 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=4 敞口=10 → 得分1.0\">1.0</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=5 敞口=10 → 得分2.0\">2.0</div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=6 敞口=10 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=7 敞口=10 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=8 敞口=10 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=9 敞口=10 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=10 敞口=10 → 得分7.0\">7.0</div></div><div class=\"msci-heat-label-y\">敞口评分 ↑</div></div></div>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.5.2 确定环境和社会关键议题得分 – 机遇",
+      "content": "对于衡量机遇的关键议题（清洁技术机遇、绿色建筑机遇、可再生能源机遇、营养和健康领域的机会、融资可得性、医疗保健服务可得性），将敞口评分和管理得分相结合的模型有所不同。敞口是指从一家公司当前的业务板块和地理细分来看，某个环境与社会机遇与这家公司的相关性。低水平的敞口将会限制评分并将评分压低到接近 5 的数值，而高水平的敞口所得出的评分范围更广（参见以下图 13）。\n\n图 13：结合敞口和管理 – 机遇关键议题 \n\n<div class=\"msci-viz msci-viz-formula\"><div class=\"msci-viz-title\">图 13：结合敞口和管理 – 机遇关键议题（重绘）</div><div class=\"msci-formula-line\"><span class=\"msci-formula-k\">关键议题得分</span><span class=\"msci-formula-op\">=</span><span class=\"msci-formula-paren\">(</span><span class=\"msci-formula-num\">0.5</span><span class=\"msci-formula-op\">+</span><span class=\"msci-formula-frac\"><span class=\"msci-formula-num2\">敞口</span><span class=\"msci-formula-den\">20</span></span><span class=\"msci-formula-paren\">)</span><span class=\"msci-formula-op\">×</span><span class=\"msci-formula-fn\">管理</span><span class=\"msci-formula-op\">+</span><span class=\"msci-formula-paren\">(</span><span class=\"msci-formula-num\">0.5</span><span class=\"msci-formula-op\">−</span><span class=\"msci-formula-frac\"><span class=\"msci-formula-num2\">敞口</span><span class=\"msci-formula-den\">20</span></span><span class=\"msci-formula-paren\">)</span><span class=\"msci-formula-op\">×</span><span class=\"msci-formula-num\">5.0</span></div><div class=\"msci-viz-sub\">（限定 0-10 分，计算保留全精度，输出展示保留一位小数）</div><div class=\"msci-viz-note\">低敞口限制评分并压低到接近 5 分；高敞口下评分范围更广——公司可借市场机遇获得更高收益，但未能利用机会将在同业竞争中落后。</div></div>\n\n<div class=\"msci-viz\"><div class=\"msci-viz-title\">敞口 × 管理 → 机遇关键议题得分（基于方法论整理的热力图）</div><div class=\"msci-heatmap-wrap\"><div class=\"msci-heat-label-x\">管理得分 →</div><div class=\"msci-heat-grid\"><div class=\"msci-heat-head\"></div><div class=\"msci-heat-head\">0</div><div class=\"msci-heat-head\">1</div><div class=\"msci-heat-head\">2</div><div class=\"msci-heat-head\">3</div><div class=\"msci-heat-head\">4</div><div class=\"msci-heat-head\">5</div><div class=\"msci-heat-head\">6</div><div class=\"msci-heat-head\">7</div><div class=\"msci-heat-head\">8</div><div class=\"msci-heat-head\">9</div><div class=\"msci-heat-head\">10</div><div class=\"msci-heat-side\">0</div><div class=\"msci-heat-side\">1</div><div class=\"msci-heat-side\">2</div><div class=\"msci-heat-side\">3</div><div class=\"msci-heat-side\">4</div><div class=\"msci-heat-side\">5</div><div class=\"msci-heat-side\">6</div><div class=\"msci-heat-side\">7</div><div class=\"msci-heat-side\">8</div><div class=\"msci-heat-side\">9</div><div class=\"msci-heat-side\">10</div><div class=\"msci-heat-cell\" style=\"background:#e3823c\" title=\"管理=0 敞口=0 → 得分2.5\">2.5</div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=1 敞口=0 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#ee9e3c\" title=\"管理=2 敞口=0 → 得分3.5\">3.5</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=3 敞口=0 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#f9ba3c\" title=\"管理=4 敞口=0 → 得分4.5\">4.5</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=0 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#fbcb3f\" title=\"管理=6 敞口=0 → 得分5.5\">5.5</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=7 敞口=0 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f4d245\" title=\"管理=8 敞口=0 → 得分6.5\">6.5</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=9 敞口=0 → 得分7.0\">7.0</div><div class=\"msci-heat-cell\" style=\"background:#edd94b\" title=\"管理=10 敞口=0 → 得分7.5\">7.5</div><div class=\"msci-heat-cell\" style=\"background:#e07b3c\" title=\"管理=0 敞口=1 → 得分2.2\">2.2</div><div class=\"msci-heat-cell\" style=\"background:#e68a3c\" title=\"管理=1 敞口=1 → 得分2.8\"></div><div class=\"msci-heat-cell\" style=\"background:#ec993c\" title=\"管理=2 敞口=1 → 得分3.4\"></div><div class=\"msci-heat-cell\" style=\"background:#f2a93c\" title=\"管理=3 敞口=1 → 得分3.9\"></div><div class=\"msci-heat-cell\" style=\"background:#f8b83c\" title=\"管理=4 敞口=1 → 得分4.5\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=1 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#fbcb3f\" title=\"管理=6 敞口=1 → 得分5.6\"></div><div class=\"msci-heat-cell\" style=\"background:#f7cf42\" title=\"管理=7 敞口=1 → 得分6.1\"></div><div class=\"msci-heat-cell\" style=\"background:#f3d345\" title=\"管理=8 敞口=1 → 得分6.7\"></div><div class=\"msci-heat-cell\" style=\"background:#efd749\" title=\"管理=9 敞口=1 → 得分7.2\"></div><div class=\"msci-heat-cell\" style=\"background:#ebdb4c\" title=\"管理=10 敞口=1 → 得分7.8\">7.8</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=0 敞口=2 → 得分2.0\">2.0</div><div class=\"msci-heat-cell\" style=\"background:#e4843c\" title=\"管理=1 敞口=2 → 得分2.6\"></div><div class=\"msci-heat-cell\" style=\"background:#eb953c\" title=\"管理=2 敞口=2 → 得分3.2\"></div><div class=\"msci-heat-cell\" style=\"background:#f1a63c\" title=\"管理=3 敞口=2 → 得分3.8\"></div><div class=\"msci-heat-cell\" style=\"background:#f8b73c\" title=\"管理=4 敞口=2 → 得分4.4\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=2 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#facc3f\" title=\"管理=6 敞口=2 → 得分5.6\"></div><div class=\"msci-heat-cell\" style=\"background:#f6d043\" title=\"管理=7 敞口=2 → 得分6.2\"></div><div class=\"msci-heat-cell\" style=\"background:#f2d446\" title=\"管理=8 敞口=2 → 得分6.8\"></div><div class=\"msci-heat-cell\" style=\"background:#eed84a\" title=\"管理=9 敞口=2 → 得分7.4\"></div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=10 敞口=2 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#db6d3c\" title=\"管理=0 敞口=3 → 得分1.8\">1.8</div><div class=\"msci-heat-cell\" style=\"background:#e27f3c\" title=\"管理=1 敞口=3 → 得分2.4\"></div><div class=\"msci-heat-cell\" style=\"background:#e9913c\" title=\"管理=2 敞口=3 → 得分3.0\"></div><div class=\"msci-heat-cell\" style=\"background:#f0a33c\" title=\"管理=3 敞口=3 → 得分3.7\"></div><div class=\"msci-heat-cell\" style=\"background:#f7b53c\" title=\"管理=4 敞口=3 → 得分4.3\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=3 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#facc3f\" title=\"管理=6 敞口=3 → 得分5.7\"></div><div class=\"msci-heat-cell\" style=\"background:#f5d143\" title=\"管理=7 敞口=3 → 得分6.3\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d547\" title=\"管理=8 敞口=3 → 得分7.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ecda4b\" title=\"管理=9 敞口=3 → 得分7.6\"></div><div class=\"msci-heat-cell\" style=\"background:#e8de4f\" title=\"管理=10 敞口=3 → 得分8.2\">8.2</div><div class=\"msci-heat-cell\" style=\"background:#d8663c\" title=\"管理=0 敞口=4 → 得分1.5\">1.5</div><div class=\"msci-heat-cell\" style=\"background:#e0793c\" title=\"管理=1 敞口=4 → 得分2.2\"></div><div class=\"msci-heat-cell\" style=\"background:#e78d3c\" title=\"管理=2 敞口=4 → 得分2.9\"></div><div class=\"msci-heat-cell\" style=\"background:#efa03c\" title=\"管理=3 敞口=4 → 得分3.6\"></div><div class=\"msci-heat-cell\" style=\"background:#f7b43c\" title=\"管理=4 敞口=4 → 得分4.3\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=4 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#facc40\" title=\"管理=6 敞口=4 → 得分5.7\"></div><div class=\"msci-heat-cell\" style=\"background:#f5d144\" title=\"管理=7 敞口=4 → 得分6.4\"></div><div class=\"msci-heat-cell\" style=\"background:#f0d648\" title=\"管理=8 敞口=4 → 得分7.1\"></div><div class=\"msci-heat-cell\" style=\"background:#ebdb4c\" title=\"管理=9 敞口=4 → 得分7.8\"></div><div class=\"msci-heat-cell\" style=\"background:#e6e051\" title=\"管理=10 敞口=4 → 得分8.5\">8.5</div><div class=\"msci-heat-cell\" style=\"background:#d55f3c\" title=\"管理=0 敞口=5 → 得分1.2\">1.2</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=1 敞口=5 → 得分2.0\">2.0</div><div class=\"msci-heat-cell\" style=\"background:#e6893c\" title=\"管理=2 敞口=5 → 得分2.8\">2.8</div><div class=\"msci-heat-cell\" style=\"background:#ee9e3c\" title=\"管理=3 敞口=5 → 得分3.5\">3.5</div><div class=\"msci-heat-cell\" style=\"background:#f6b33c\" title=\"管理=4 敞口=5 → 得分4.2\">4.2</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=5 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f9cd40\" title=\"管理=6 敞口=5 → 得分5.8\">5.8</div><div class=\"msci-heat-cell\" style=\"background:#f4d245\" title=\"管理=7 敞口=5 → 得分6.5\">6.5</div><div class=\"msci-heat-cell\" style=\"background:#efd749\" title=\"管理=8 敞口=5 → 得分7.2\">7.2</div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=9 敞口=5 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#e4e252\" title=\"管理=10 敞口=5 → 得分8.8\">8.8</div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=0 敞口=6 → 得分1.0\">1.0</div><div class=\"msci-heat-cell\" style=\"background:#db6e3c\" title=\"管理=1 敞口=6 → 得分1.8\"></div><div class=\"msci-heat-cell\" style=\"background:#e4843c\" title=\"管理=2 敞口=6 → 得分2.6\"></div><div class=\"msci-heat-cell\" style=\"background:#ed9b3c\" title=\"管理=3 敞口=6 → 得分3.4\"></div><div class=\"msci-heat-cell\" style=\"background:#f6b13c\" title=\"管理=4 敞口=6 → 得分4.2\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=6 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f9cd40\" title=\"管理=6 敞口=6 → 得分5.8\"></div><div class=\"msci-heat-cell\" style=\"background:#f3d345\" title=\"管理=7 敞口=6 → 得分6.6\"></div><div class=\"msci-heat-cell\" style=\"background:#eed84a\" title=\"管理=8 敞口=6 → 得分7.4\"></div><div class=\"msci-heat-cell\" style=\"background:#e8de4f\" title=\"管理=9 敞口=6 → 得分8.2\"></div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=10 敞口=6 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#d0513c\" title=\"管理=0 敞口=7 → 得分0.8\">0.8</div><div class=\"msci-heat-cell\" style=\"background:#d9683c\" title=\"管理=1 敞口=7 → 得分1.6\"></div><div class=\"msci-heat-cell\" style=\"background:#e2803c\" title=\"管理=2 敞口=7 → 得分2.5\"></div><div class=\"msci-heat-cell\" style=\"background:#ec983c\" title=\"管理=3 敞口=7 → 得分3.3\"></div><div class=\"msci-heat-cell\" style=\"background:#f5b03c\" title=\"管理=4 敞口=7 → 得分4.2\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=7 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f9cd41\" title=\"管理=6 敞口=7 → 得分5.8\"></div><div class=\"msci-heat-cell\" style=\"background:#f3d346\" title=\"管理=7 敞口=7 → 得分6.7\"></div><div class=\"msci-heat-cell\" style=\"background:#edd94b\" title=\"管理=8 敞口=7 → 得分7.5\"></div><div class=\"msci-heat-cell\" style=\"background:#e7df50\" title=\"管理=9 敞口=7 → 得分8.4\"></div><div class=\"msci-heat-cell\" style=\"background:#e1e555\" title=\"管理=10 敞口=7 → 得分9.2\">9.2</div><div class=\"msci-heat-cell\" style=\"background:#cd4a3c\" title=\"管理=0 敞口=8 → 得分0.5\">0.5</div><div class=\"msci-heat-cell\" style=\"background:#d7633b\" title=\"管理=1 敞口=8 → 得分1.4\"></div><div class=\"msci-heat-cell\" style=\"background:#e17c3c\" title=\"管理=2 敞口=8 → 得分2.3\"></div><div class=\"msci-heat-cell\" style=\"background:#eb953c\" title=\"管理=3 敞口=8 → 得分3.2\"></div><div class=\"msci-heat-cell\" style=\"background:#f5ae3c\" title=\"管理=4 敞口=8 → 得分4.1\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=8 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8ce41\" title=\"管理=6 敞口=8 → 得分5.9\"></div><div class=\"msci-heat-cell\" style=\"background:#f2d446\" title=\"管理=7 敞口=8 → 得分6.8\"></div><div class=\"msci-heat-cell\" style=\"background:#ecda4c\" title=\"管理=8 敞口=8 → 得分7.7\"></div><div class=\"msci-heat-cell\" style=\"background:#e5e151\" title=\"管理=9 敞口=8 → 得分8.6\"></div><div class=\"msci-heat-cell\" style=\"background:#dfe757\" title=\"管理=10 敞口=8 → 得分9.5\">9.5</div><div class=\"msci-heat-cell\" style=\"background:#ca433c\" title=\"管理=0 敞口=9 → 得分0.2\">0.2</div><div class=\"msci-heat-cell\" style=\"background:#d55d3c\" title=\"管理=1 敞口=9 → 得分1.2\"></div><div class=\"msci-heat-cell\" style=\"background:#df783c\" title=\"管理=2 敞口=9 → 得分2.1\"></div><div class=\"msci-heat-cell\" style=\"background:#ea923c\" title=\"管理=3 敞口=9 → 得分3.1\"></div><div class=\"msci-heat-cell\" style=\"background:#f4ad3c\" title=\"管理=4 敞口=9 → 得分4.0\"></div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=9 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8ce41\" title=\"管理=6 敞口=9 → 得分5.9\"></div><div class=\"msci-heat-cell\" style=\"background:#f1d547\" title=\"管理=7 敞口=9 → 得分6.9\"></div><div class=\"msci-heat-cell\" style=\"background:#ebdb4d\" title=\"管理=8 敞口=9 → 得分7.8\"></div><div class=\"msci-heat-cell\" style=\"background:#e4e252\" title=\"管理=9 敞口=9 → 得分8.8\"></div><div class=\"msci-heat-cell\" style=\"background:#dde958\" title=\"管理=10 敞口=9 → 得分9.8\">9.8</div><div class=\"msci-heat-cell\" style=\"background:#c83c3c\" title=\"管理=0 敞口=10 → 得分0.0\">0.0</div><div class=\"msci-heat-cell\" style=\"background:#d3583c\" title=\"管理=1 敞口=10 → 得分1.0\">1.0</div><div class=\"msci-heat-cell\" style=\"background:#de743c\" title=\"管理=2 敞口=10 → 得分2.0\">2.0</div><div class=\"msci-heat-cell\" style=\"background:#e9903c\" title=\"管理=3 敞口=10 → 得分3.0\">3.0</div><div class=\"msci-heat-cell\" style=\"background:#f4ac3c\" title=\"管理=4 敞口=10 → 得分4.0\">4.0</div><div class=\"msci-heat-cell\" style=\"background:#ffc83c\" title=\"管理=5 敞口=10 → 得分5.0\">5.0</div><div class=\"msci-heat-cell\" style=\"background:#f8cf42\" title=\"管理=6 敞口=10 → 得分6.0\">6.0</div><div class=\"msci-heat-cell\" style=\"background:#f1d648\" title=\"管理=7 敞口=10 → 得分7.0\">7.0</div><div class=\"msci-heat-cell\" style=\"background:#eadd4e\" title=\"管理=8 敞口=10 → 得分8.0\">8.0</div><div class=\"msci-heat-cell\" style=\"background:#e3e454\" title=\"管理=9 敞口=10 → 得分9.0\">9.0</div><div class=\"msci-heat-cell\" style=\"background:#dceb5a\" title=\"管理=10 敞口=10 → 得分10.0\">10.0</div></div><div class=\"msci-heat-label-y\">敞口评分 ↑</div></div></div>原因是，在较高的风险敞口下，公司可以利用市场机遇获得更多收益，但如果他们未能利用机会，从竞争的角度来看，他们在同业竞争中落后很多。在风险敞口水平较低时，MSCI ESG 研究部判断公司眼前面临的机遇不那么重要；然而，强大的管理系统、产品创新或研发计划可能表明公司在利用未来机会和保持竞争优势方面具有更强的能力。\n\n\n\n",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.5.3 计算环境和社会主题和支柱得分",
+      "content": "环境和社会支柱的主题得分（10 个主题中的 8 个）是根据每个主题关键议题得分的加权平均值计算，并根据每个主题的权重总和进行归一化处理。如果在气候变化、自然资本和人力资本主题下有权重关键议题缺失的情况下，主题得分使用每个主题下的无权重关键议题得分填充，即使该关键议题评分未在整体 ESG 评级中考虑（有权重）。5 对于其余的环境和社会主题（污染和废弃物、环境机遇、产品责任、社会机遇和利益相关者异议），只有在对一个或多个相关关键议题有权重时，才会计算主题得分。\n\n环境和社会支柱的支柱得分是根据每个支柱的关键议题得分的加权平均值进行类似计算，并根据每个支柱的权重总和进行归一化处理。\n\n参见附录 1：ESG 评级模型层级结构，了解更多信息。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.5.4 计算治理得分",
+      "content": "每个治理支柱得分、主题得分和关键议题得分均以扣分的方法独立计算，并根据触发的关键指标，从总分 10 分中扣减。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "治理模型结构",
+      "content": "治理模型结构见以下图 14。企业治理的关键指标分为四个关键议题小组：所有权和控制权、董事会、薪酬和会计。类似地，企业行为的关键指标分为两个关键议题小组：商业道德和税务透明度。\n\n图14：治理模型结构 \n\n<div class=\"msci-viz msci-viz-tree\"><div class=\"msci-viz-title\">治理模型结构（重绘）</div><div class=\"msci-govtree\"><div class=\"msci-govtree-root\">治理支柱</div><div class=\"msci-govtree-themes\"><div class=\"msci-govtree-theme\"><div class=\"msci-govtree-theme-name\">企业治理</div><div class=\"msci-govtree-kis\"><span class=\"msci-govtree-ki\">所有权和控制权</span><span class=\"msci-govtree-ki\">董事会</span><span class=\"msci-govtree-ki\">薪酬</span><span class=\"msci-govtree-ki\">会计</span></div></div><div class=\"msci-govtree-theme\"><div class=\"msci-govtree-theme-name\">企业行为</div><div class=\"msci-govtree-kis\"><span class=\"msci-govtree-ki\">商业道德</span><span class=\"msci-govtree-ki\">税务透明度</span></div></div></div></div></div>\n\n",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "治理得分流程",
+      "content": "在企业治理主题中，MSCI ESG研究部的分析师团队持续收集和审核输入数据。虽然股东大会文件和年度报告的年度更新通常是最重要的更新，但分析师还处理全年的投票选举结果、董事变动、重大所有权变动以及治理争议和事件等数据。\n\n发布数据变更后，驱动整体评估和得分的相关关键指标将会自动更新。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "治理得分步骤",
+      "content": "1. 每个关键指标都使用一个分值进行评估，范围为从 0 到该关键指标的最大可能分值。总体主题和关键议题得分的计算基于这些分值，6 这些分值会因关键指标类型而异，具体而言：\n\na. 一些关键指标评估定量数据或一系列可能的评估结果，以确定定义范围内的适用分值。\n\nb. 一旦其他关键指标被标记，就会配置一个规定的分值——也就是说，它们会输出零或分配给该关键指标的界定分值，两者之间并无差异。\n\n2. 各关键议题的分值按该关键议题下的关键指标的分值总和计算（在应用任何类别的上限之后）。\n\n3. 主题分值按所有关键议题的分值总和计算。\n\n4. 治理支柱分值按主题的分值总和计算。\n\n5. 0-10 分的治理支柱得分是以支柱分值分数转换公式（参见以下图 15）计算。不允许出现负值；因此，如果支柱分值高于最大值，则分配 0.0 分。\n\n6. 0-10 分的主题得分通过应用针对主题分值设置的分数转换公式来计算。不允许出现负值 0-10 的评分；因此，如果主题分值高于最大值， 则分配 0.0分。\n\n7. 0-10 分的关键议题得分的计算类似但独立于 0-10 分的主题得分计算，使用关键议题分值、分数转换公式并参考各自关键议题的最大值。不允许出现负值0-10 的评分；因此，如果关键议题分值高于最大值，则分配 0.0 分。\n\n8. 将主题分和关键议题分与全球和本土市场业内同行进行比较，以计算百分位等级。\n\n9. 对于各关键指标，对照主题得分计算得分贡献。得分贡献负值越大表示治理风险越高。\n\n评分计算流程见图 15所示。\n\n<div class=\"msci-viz msci-viz-flow\"><div class=\"msci-viz-title\">治理支柱得分计算流程（基于方法论整理）</div><div class=\"msci-flow\"><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">1</span><div><strong>关键指标评分</strong><p>按 0 到该关键指标最大可能分值评估，定量数据或规定分值</p></div></div><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">2</span><div><strong>关键议题分值</strong><p>按关键议题下关键指标分值总和计算（应用类别上限后）</p></div></div><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">3</span><div><strong>主题分值</strong><p>按所有关键议题分值总和计算</p></div></div><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">4</span><div><strong>支柱分值</strong><p>按主题分值总和计算</p></div></div><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">5</span><div><strong>0-10 分转换</strong><p>支柱/主题/关键议题分别应用分数转换公式（见下方图16）</p></div></div><div class=\"msci-flow-step\"><span class=\"msci-flow-num\">6</span><div><strong>百分位等级</strong><p>与全球和本土市场业内同行比较，计算百分位等级；得分贡献负值越大，治理风险越高</p></div></div></div></div>\n\n\n\n图15：治理支柱得分计算 \n\n\n\n\n\n图 16：0-10 分转换公式\n\n\n\n<table><tr><td>0-10 分 0-10 分数转换公式</td></tr><tr><td>支柱 10-（10*（支柱分数/支柱最大值））</td></tr><tr><td>主题 10-（10*（主题分数/主题最大值））</td></tr><tr><td>关键议题 10-（10*（关键议题分数/关键议题最大值））</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "最大值",
+      "content": "上述分数转换公式中最大值的目的是提供更归一化的分数分布，并避免表现不佳公司的长尾占据 0-10 分评分量表的大部分。最大值是截至上次年度校准日期，整个研究范围内相关分值范围内的第 99.5 个百分位数。9 请参见图 17。\n\n图 17：最大值 \n\n\n\n \n关键指标得分贡献（扣分）\n\n为了帮助 ESG 评级的使用者了解每个关键指标对公司整体 0-10 分主题得分的影响，MSCI ESG研究部计算并披露每个关键指标从公司最初的满分 10 分扣分的情况。 11、\n\n各关键指标的扣分均按照计算到小数点后一位的负数表示。关键指标的扣分使用以下输入值计算：\n\n• 关键指标分数：该关键指标提供的分数数量，基于对企业治理实践的评估。\n\n• 主题分数：所有关键指标的分数总和。\n\n• 主题得分：公司 0-10 分的主题得分。\n\n使用这些输入值，归因于给定关键指标的得分贡献（扣分）的计算如下：\n\n• 企业治理：（关键指标分数/主题分数）\\*（10-主题得分）\\* -1。\n\n• 企业行为：关键指标得分扣分= -10\\*（关键指标分数/主题最大值）。\n\n以下图 18 中的实例演示了如何从企业行为主题中商业道德关键议题的监督关键指标中扣分。\n\n图 18：实例\n\n\n\n<table><tr><td rowspan=1 colspan=3>道德问题监督 分数 转换</td><td rowspan=1 colspan=1>主题得分扣分</td></tr><tr><td rowspan=1 colspan=1>最高管理层或执行委员会</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>董事会层面的委员会</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>特别工作组或风险官</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>-10 ×(3.5/50)</td><td rowspan=1 colspan=1>-0.7</td></tr><tr><td rowspan=1 colspan=1>企业社会责任/可持续性团队</td><td rowspan=1 colspan=1>3.5</td><td rowspan=1 colspan=1>-10 ×(3.5/50)</td><td rowspan=1 colspan=1>-0.7</td></tr><tr><td rowspan=1 colspan=1>根据国内行业规范预期的最低程度的做法</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>-10 × (5/50)</td><td rowspan=1 colspan=1>-1.0</td></tr><tr><td rowspan=1 colspan=1>无证据</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>-10 × (7/50)</td><td rowspan=1 colspan=1>-1.4</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "治理支柱、主题和关键议题得分之间的关系",
+      "content": "治理支柱得分并非直接源自 0-10 分的企业治理和 0-10 分的企业行为得分，而是采用分数转换公式，将治理支柱分数（即企业治理分数和企业行为分数的总和）转换为0-10 分。这种整体方法可以防止一个主题的优势抵消另一个主题的不足。\n\n因此，一家公司的治理支柱得分可能低于其企业行为或企业治理主题得分。这在主题层面也适用，企业治理主题得分可能低于所有四个相关关键议题得分（董事会、薪酬、所有权和会计）。\n\n这在图 19中得到了证明，其中假定的公司的治理支柱得分 (0.4) 低于其企业行为得分 (4.3) 和企业治理得分 (0.6)。企业行为原始得分 (28.5) 和企业治理原始得分(94) 的总和得出治理支柱原始得分 (122.5)，相对于两个主题得分与其各自最大值（分别为 50 和 100）的差距，该得分更接近最大值 (128)。\n\n图 19：治理支柱得分计算示例 \n\n\n\n\n\n\n\n<div class=\"msci-viz msci-viz-govdemo\"><div class=\"msci-viz-title\">治理支柱得分计算示例（重绘）</div><div class=\"msci-govdemo\"><div class=\"msci-govdemo-theme\"><div class=\"msci-govdemo-name\">企业行为</div><div class=\"msci-govdemo-row\"><span>分数</span><strong>28.5</strong></div><div class=\"msci-govdemo-row\"><span>主题扣分</span><strong>-5.7</strong></div><div class=\"msci-govdemo-row\"><span>主题得分</span><strong>4.3</strong></div></div><div class=\"msci-govdemo-theme\"><div class=\"msci-govdemo-name\">企业治理</div><div class=\"msci-govdemo-row\"><span>分数</span><strong>94</strong></div><div class=\"msci-govdemo-row\"><span>主题扣分</span><strong>-9.4</strong></div><div class=\"msci-govdemo-row\"><span>主题得分</span><strong>0.6</strong></div></div><div class=\"msci-govdemo-sum\"><div class=\"msci-govdemo-name\">治理支柱</div><div class=\"msci-govdemo-row\"><span>分数</span><strong>122.5</strong></div><div class=\"msci-govdemo-row\"><span>支柱扣分</span><strong>-9.6</strong></div><div class=\"msci-govdemo-row\"><span>支柱得分</span><strong>0.4</strong></div></div></div><div class=\"msci-viz-note\">治理支柱得分 (0.4) 低于企业行为得分 (4.3) 和企业治理得分 (0.6)：支柱采用整体分数转换，可防止一个主题的优势抵消另一个主题的不足。</div></div>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "百分位等级计算",
+      "content": "在计算主题或关键议题的百分位等级时，分值最低的公司将获得百分位等级 100，而分值最高的公司将获得百分位等级 0。具有相同分值的公司被分配相同的百分位等级。百分位数总是以整数表示（即四舍五入到最接近的小数位）。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6 确定最终评级",
+      "content": "要根据选定的关键议题和支柱得分得出最终的 ESG 评级，需要执行几个步骤。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.1 关键议题加权平均得分",
+      "content": "关键议题加权平均得分是由治理支柱得分和单独的环境和社会关键议题得分的加权平均得出。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.2 行业调整得分",
+      "content": "然后，将关键议题加权平均得分与 ESG评级业内同行进行归一化处理。基准业内同行参照组（包括 MSCI ESG研究部评级的 ESG 行业所有公司——请参阅附录 4：ESG 评级行业，了解业内同行参照组的详细信息）用于计算行业相对评级，以确保在业内同行参照组添加或删除其他公司时，公司相对评级不发生变化。参见附录 5：将加权平均评分与业内同行评分归一化，了解用于计算行业调整得分的归一化过程的详细信息。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.3 评级缓冲区",
+      "content": "在0—10分的行业调整得分（IAS）尺度上，各字母评级边界周围设±0.1分缓冲区。IAS进入相邻等级的缓冲区时，保留公司原有字母评级；只有越过缓冲区、进一步进入相邻等级时，字母评级才改变。适用缓冲时，IAS计算值不被改写，调整的是字母评级。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          38
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.4 委员会审核流程",
+      "content": "在预先定义的情形下，评级发布前需经过额外的内部委员会审核；必要时提交可持续发展与气候评估委员会。委员会可批准对公司行业调整得分的调整，因此最终评级可能不同于单纯模型计算结果。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          39
+        ],
+        "checked_on": "2026-09-11",
+        "content_type": "校核整理"
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.5 ESG评级",
+      "content": "各公司的最终行业调整得分对应 ESG评级最高 (AAA) 和ESG 评级最低 (CCC) 之间。 \n如上图 2 所示，公司最终行业调整得分对应字母评级。\n\n这些对公司表现的评估不是绝对的，ESG评级明确地旨在对比公司与业内同行的标准和表现，字母评级在每个 ESG 行业都是相对的。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.6.6 评级行动",
+      "content": "评级行动区分为上调、维持、下调、重新启动与首次启动。重新启动指此前已有评级，但原评级基于不同的行业同业组；首次启动指此前没有评级的公司。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          39
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "3.7 数据与方法论的假设和限制",
+      "content": "评级主要依据公开信息及标准化模型，反映最近一次评级行动时可获得的信息。MSCI实施数据质量控制，但不独立审计公司披露。GICS子行业用于行业框架；业务敞口分析将业务分部映射到SIC及相关调整，复杂或变化中的业务可能无法被完全描述。估计及代理数据存在不确定性，评级也不是对未来ESG表现或财务结果的预测。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          40
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "4 补充披露：数据、AI与适用依据",
+      "content": "部分输入数据可来自NFRD或SFDR相关披露，也可独立采集。MSCI使用大语言模型辅助数据收集，相关输出在用于评级前接受质量控制和分析监督；大语言模型不被视为权威数据来源，且不改变评级框架、议题权重和评分方法。整体评级方法并非基于某项特定科学证据，也不明确纳入巴黎协定或其他特定国际协议目标；具体输入或争议评估可参考相关科学数据、联合国全球契约和原住民权利等框架。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          41,
+          42
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "附录1—3：层级、行业议题选择与权重框架",
+      "content": "附录1的完整层级见上文“三大支柱—10个主题—33个议题”表。\n\n附录 2：行业关键议题选择示例 \n \n注：条块长度表示 GICS 子行业内的最小和最大业务板块敞口评分。图表中未显示某些 GICS 子行业（第 25 个百分位数及以下）；n = 9,868家公司；范围包括截至 2022 年 11 月 16 日的 ESG 评级范围。 \n资料来源：IERS 的综合环境数据档案（CEDA)数据-直接温室气体排放强度：欧盟统计局-按活动分类的空气排放账户：路孚特：国际能源署（IEA)(2020)，2020年预计发电成本；联合国欧洲经济委员会(UNECE)，发电方案的生命周期评估；MSCIESG研究部编制的温室气体排放强度；公司披露\n\n附录 3：权重设置框架\n<table><tr><td rowspan=1 colspan=4>风险类型/ 时间范围：机遇 短期 中期 长期</td></tr><tr><td rowspan=1 colspan=1>运营事件</td><td rowspan=1 colspan=1>突发事件风险：突发性运营事件可能会限制公司的发展能力（例如，开发新储量、扩展到新领域）、导致重大负债、扰乱关键业务板块或威胁整体商业模式</td><td rowspan=1 colspan=1>新兴事件风险：运营事件可能会威胁到发展能力或运营许可，但可能会在较长的时间范围内显现出来（例如，社区内针对某项目出现越来越多的反对意见；重大调查、和解或起诉）</td><td rowspan=1 colspan=1>长期事件风险：从长远来看，气候变化的长期物理影响可能会导致运营中断。</td></tr><tr><td rowspan=1 colspan=1>监管压力</td><td rowspan=1 colspan=1>即将发生的监管变化：关键市场的监管变化悬而未决或迫在眉睫。</td><td rowspan=1 colspan=1>新出现的监管压力：议题受到主流利益相关方越来越多的关注；监管机构承受的压力越来越大，但尚无悬而未决的监管变化。</td><td rowspan=1 colspan=1>利益相关方认知提高：议题受到专业或特定利益相关方的审核，媒体报道增加且越来越多地出现在公众视野。</td></tr><tr><td rowspan=1 colspan=1>资源稀缺/供应限制</td><td rowspan=1 colspan=1>短期供应限制：已经存在或即将发生突发的供应限制，可能会导致公司业务中断或成本显著增加。</td><td rowspan=1 colspan=1>中期供应限制：预测供应受限，可能会在2 至5年内造成业务中断或成本显著增加。</td><td rowspan=1 colspan=1>长期资源稀缺：关键资源/投入受到限制，这可能会导致未来 5 年或更长时间内成本增加或运营中断。</td></tr><tr><td rowspan=1 colspan=1>需求转移</td><td rowspan=1 colspan=1>突发需求转移：替代产品/服务之间的持续需求转移，旧产品/服务过时。</td><td rowspan=1 colspan=1>表现出需求转移：“新”领域的需求增长体现在不同的增长率和替代品之间市场份额的显著变化上。基于激励的需求转移：2至 5 年期间的需求转移将由政府的激励措施引导。</td><td rowspan=1 colspan=1>预测需求转移：随着时间的推移，潜在的社会或环境压力（例如肥胖人口、气候变化）可能会导致需求和消费者偏好发生变化。竞争对手的反应：主要行业参与者对环境或社会趋势做出战略反应，增加竞争压力。</td></tr></table>",
+      "source_ref": {
+        "source_id": "SRC-MSCI-CORE",
+        "pages": [
+          43,
+          44,
+          45,
+          46
+        ],
+        "checked_on": "2026-09-11",
+        "content_type": "校核整理"
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "业内同行设置基准值",
+      "content": "从 2020 年 11 月开始，在设定行业最高和最低基准值时采用以下标准：\n\n• 最高基准值（“行业最高分”）介于 ESG 评级行业中建模的 WAKIS 的第 95 和100 百分位之间。\n\n最低基准值（“行业最低分”）介于 ESG 评级行业中建模的 WAKIS 的第 0 和第5 百分位之间。\n\n百分位数是基于具有 ESG 评级的所有公司（10,022 家公司）计算得出的。MSCI ESG评级的覆盖范围不断扩大以涵盖新的公司。新发行人的披露水平通常较低，有时此类公司可能会拉低最低基准值，从而导致业内其他公司升级。在这种情况下，基准值会通过排除最近新增的覆盖公司（评级历史少于两年的公司）以确定 WAKIS 最低的 5个百分位范围，从而缓解问题。\n\n各基准值是在年初根据一个行业截止某一时间点的 WAKIS 分布设置的。然而，随着公司 新的ESG 披露内容和表现改善，WAKIS 在行业中的分布预计将在年内发生变化，从而导致行业评级变化的单向变动。因此，每个 ESG 评级行业的行业最高分和最低分均在上述百分位数范围内选择，以满足以下目标：\n\n1. 尽量减少 ESG 评级的单向变化。\n\n2. 确保选定的行业最低分和最高分相对于其当前行业最低分和最高分朝着相关分数分布的方向移动。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "第 95 和第 5 百分位边界的例外情况：",
+      "content": "如果遵守这些边界导致强烈的单向建模评级变化（升级/降级比率超过 0.7 至 1.3）从而违背上述目标 1 或 2，则行业最低值和最高值的范围可以分别扩展到建模 WAKIS的第 90 和第 10 百分位。然而，只有扩展后导致的单向变化比起维持最低值和最高值不变时的更少，行业最低和最高值的范围才会扩展到第10和第90 百分位数。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "行业最低和最高分数更新频率",
+      "content": "基准值至少每年更新一次。如果满足以下任一条件，它们将在一年内更新：\n\n如果 WAKI 分数的分布出现波动：自上次审核以来，WAKIS 平均值和/或任一尾部值变化 ≥0.2。\n\n如果违反了最小-最大边界中的任何一个：当前行业最高分低于第 90 百分位和/或当前行业最低分高于 WAKIS 最新分布的第 10 百分位（即超出上述范围的 5%缓冲区）。\n\n可以在每家公司 ESG 评级报告的深入分析部分了解由此产生的行业最低和最高分。\n\n调整后的分数 10 被确定为等于或高于行业最高分，调整后的分数 0 被确定为等于或低于行业最低分。其余公司的评分基于这些值使用以下公式线性插入：",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "10\\*（加权平均分-行业最低分）／（行业最高分-行业最低分）（限定0-10分，计算保留全精度，输出展示保留一位小数）",
+      "content": "MSCI ESG研究部每年重新校准这些基准值，来反映相关公司数据变更、方法论更新和业内同行组波动。\n\n加权平均评分与行业调整得分之间的关系如下图 20- 所示。例如，如果一个行业的分数分布是行业最低分和最高分分别为 2.9 和 8.1（按照 0-10 分的评分量表），则按照行业调整得分量表 (IAS) 内分别给予 0 分和 10 分。\n\n图 20：加权平均评分和 IAS 之间的关系 \n\n\n\n\n\n旨在确保字母评级提供连贯且可靠信息的其他步骤：\n\n• 分数范围较窄的行业可扩大其分数范围：\n\n如果最低基准值大于 4，则行业最小值确定为 4。这可能导致该行业内任何公司均不会获得 CCC 评级。\n\n如果最高基准值小于 6，则行业最大值确定为 6。这可能导致该行业内任何公司均不会获得 AAA 评级。\n\n• 预先对方法论变化进行建模以限制评级波动：\n\n例如，在构建 2021 年的评级范围时，在计算最小值和最大值时，模拟了使用更新后的方法论和来源的新治理支柱得分。\n\n<div class=\"msci-viz msci-viz-ias\"><div class=\"msci-viz-title\">加权平均评分和 IAS 之间的关系（重绘）</div><div class=\"msci-ias\"><svg viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:auto;background:#faf8ff;border-radius:12px\"><line x1=\"60\" y1=\"260\" x2=\"430\" y2=\"260\" stroke=\"#8b5cf6\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"60\" y2=\"260\" stroke=\"#8b5cf6\" stroke-width=\"2\"/><text x=\"420\" y=\"282\" font-size=\"13\" fill=\"#6b7280\">加权平均分（WAKIS）</text><text x=\"18\" y=\"40\" font-size=\"13\" fill=\"#6b7280\" transform=\"rotate(-90 18 40)\">行业调整得分（IAS）</text><line x1=\"60\" y1=\"260\" x2=\"430\" y2=\"30\" stroke=\"#7c3aed\" stroke-width=\"3.5\"/><circle cx=\"60\" cy=\"260\" r=\"6\" fill=\"#7c3aed\"/><text x=\"40\" y=\"278\" font-size=\"12\" fill=\"#374151\">行业最低分 2.9 → IAS 0</text><circle cx=\"430\" cy=\"30\" r=\"6\" fill=\"#7c3aed\"/><text x=\"330\" y=\"22\" font-size=\"12\" fill=\"#374151\">行业最高分 8.1 → IAS 10</text><line x1=\"60\" y1=\"145\" x2=\"245\" y2=\"145\" stroke=\"#c4b5fd\" stroke-width=\"1\" stroke-dasharray=\"4,4\"/><line x1=\"245\" y1=\"145\" x2=\"245\" y2=\"260\" stroke=\"#c4b5fd\" stroke-width=\"1\" stroke-dasharray=\"4,4\"/><text x=\"150\" y=\"138\" font-size=\"12\" fill=\"#7c3aed\">中间公司按线性插值计算得分</text></svg></div><div class=\"msci-viz-note\">行业调整得分 = 10 × (加权平均分 − 行业最低分) / (行业最高分 − 行业最低分)，限定 0-10 分，计算保留全精度，输出展示保留一位小数。</div></div>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "确定本土市场分配",
+      "content": "截至每年 10 月 1 日，如果国家/地区在治理范围内拥有 30 家或更多公司，将在下一个日历年为其分配自己的本土市场。当治理覆盖范围降至 25 家公司或经企业治理方法论委员会审核连续两年少于 30 家公司时，本土市场将被视为公司数量不足。\n\n公司数量不足的国家/地区将在下一个日历年被分配一个本土市场，该本土市场基于：\n\n• MSCI 的市场分类（发达市场、新兴市场、前沿市场）；以及\n\n• 地理区域（欧洲、中东和非洲/欧中非地区 (EMEA)、亚太地区、美洲）形成。如果对于任何市场分类和区域组合，仍然没有至少 30 家公司，则可配对结合以构成一个聚合组群，形成本土市场的最小规模标准。\n\n如果市场分类和地理区域的组合后任何配对的本土市场没有足够的公司，则将仅根据市场分类形成本土市场。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "临时覆盖范围增加",
+      "content": "对于在年度审核之外加入覆盖范围的公司，根据公司的 MSCI 国家分类，其将被分配至在覆盖范围增加时有效的本土市场之一。\n\n如果股票发行人没有 MSCI 国家分类，并且公司注册所在的国家/地区与证券第一上市的国家/地区相同，则使用该国家/地区。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "固定收益 - 治理参考实体",
+      "content": "固定收益发行人的企业治理评估以治理参考实体为基础。如果治理参考实体有股权上市，则使用该股权发行人的本土市场。如果治理参考实体没有股权上市，则为本土市场分配“不适用”。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2021 年本土市场分配",
+      "content": "在对本土市场进行年度审核后，2021 年，科威特在 MSCI 市场分类审核后被添加到欧中非地区其他新兴市场，在该 MSCI 市场分类审核中，科威特被重新划为新兴市场一类。\n\n2020 年，增加了一个本土市场，智利从其他美洲新兴市场移至智利。2019 年，新增了两个本土市场——沙特阿拉伯和波兰。沙特阿拉伯之前被分配到前沿市场，而波兰之前被分配到 欧中非地区其他新兴市场。此外，阿根廷已从前沿市场转移到其他美洲新兴市场。\n\n图 21：本土市场分类\n\n\n\n<table><tr><td rowspan=1 colspan=2>本土市场 分类</td></tr><tr><td rowspan=1 colspan=2>美洲发达市场</td></tr><tr><td rowspan=1 colspan=1>加拿大</td><td rowspan=1 colspan=1>加拿大</td></tr><tr><td rowspan=1 colspan=1>美国</td><td rowspan=1 colspan=1>美国</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>亚太地区发达市场</td></tr><tr><td rowspan=1 colspan=1>澳大利亚</td><td rowspan=1 colspan=1>澳大利亚</td></tr><tr><td rowspan=1 colspan=1>香港</td><td rowspan=1 colspan=1>香港</td></tr><tr><td rowspan=1 colspan=1>日本</td><td rowspan=1 colspan=1>日本</td></tr><tr><td rowspan=1 colspan=1>新西兰</td><td rowspan=1 colspan=1>新西兰</td></tr><tr><td rowspan=1 colspan=1>新加坡</td><td rowspan=1 colspan=1>新加坡</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>欧中非地区发达市场</td></tr><tr><td rowspan=1 colspan=1>奥地利</td><td rowspan=1 colspan=1>奥地利</td></tr><tr><td rowspan=1 colspan=1>比利时</td><td rowspan=1 colspan=1>比利时</td></tr><tr><td rowspan=1 colspan=1>丹麦</td><td rowspan=1 colspan=1>丹麦</td></tr><tr><td rowspan=1 colspan=1>芬兰</td><td rowspan=1 colspan=1>芬兰</td></tr><tr><td rowspan=1 colspan=1>法国</td><td rowspan=1 colspan=1>法国</td></tr><tr><td rowspan=1 colspan=1>德国</td><td rowspan=1 colspan=1>德国</td></tr><tr><td rowspan=1 colspan=1>以色列</td><td rowspan=1 colspan=1>以色列</td></tr><tr><td rowspan=1 colspan=1>意大利</td><td rowspan=1 colspan=1>意大利</td></tr><tr><td rowspan=1 colspan=1>荷兰</td><td rowspan=1 colspan=1>荷兰</td></tr><tr><td rowspan=1 colspan=1>挪威</td><td rowspan=1 colspan=1>挪威</td></tr><tr><td rowspan=1 colspan=1>西班牙</td><td rowspan=1 colspan=1>西班牙</td></tr><tr><td rowspan=1 colspan=1>瑞典</td><td rowspan=1 colspan=1>瑞典</td></tr><tr><td rowspan=1 colspan=1>瑞士</td><td rowspan=1 colspan=1>瑞士</td></tr><tr><td rowspan=1 colspan=1>英国</td><td rowspan=1 colspan=1>英国</td></tr><tr><td rowspan=1 colspan=1>欧中非地区其他发达市场</td><td rowspan=1 colspan=1>爱尔兰、葡萄牙</td></tr></table>\n\n<table><tr><td rowspan=1 colspan=2>本土市场 分类</td></tr><tr><td rowspan=1 colspan=2>美洲新兴市场</td></tr><tr><td rowspan=1 colspan=1>巴西</td><td rowspan=1 colspan=1>巴西</td></tr><tr><td rowspan=1 colspan=1>智利</td><td rowspan=1 colspan=1>智利</td></tr><tr><td rowspan=1 colspan=1>墨西哥</td><td rowspan=1 colspan=1>墨西哥</td></tr><tr><td rowspan=1 colspan=1>美洲其他新兴市场</td><td rowspan=1 colspan=1>阿根廷、哥伦比亚、秘鲁</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>亚太地区新兴市场</td></tr><tr><td rowspan=1 colspan=1>中国</td><td rowspan=1 colspan=1>中国</td></tr><tr><td rowspan=1 colspan=1>印度</td><td rowspan=1 colspan=1>印度</td></tr><tr><td rowspan=1 colspan=1>印度尼西亚</td><td rowspan=1 colspan=1>印度尼西亚</td></tr><tr><td rowspan=1 colspan=1>韩国</td><td rowspan=1 colspan=1>韩国</td></tr><tr><td rowspan=1 colspan=1>马来西亚</td><td rowspan=1 colspan=1>马来西亚</td></tr><tr><td rowspan=1 colspan=1>菲律宾</td><td rowspan=1 colspan=1>菲律宾</td></tr><tr><td rowspan=1 colspan=1>台湾</td><td rowspan=1 colspan=1>台湾</td></tr><tr><td rowspan=1 colspan=1>泰国</td><td rowspan=1 colspan=1>泰国</td></tr><tr><td rowspan=1 colspan=1>亚太其他新兴地区</td><td rowspan=1 colspan=1>巴基斯坦</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>欧中非地区新兴市场</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>波兰</td><td rowspan=1 colspan=1>波兰</td></tr><tr><td rowspan=1 colspan=1>俄罗斯</td><td rowspan=1 colspan=1>俄罗斯</td></tr><tr><td rowspan=1 colspan=1>沙特阿拉伯</td><td rowspan=1 colspan=1>沙特阿拉伯</td></tr><tr><td rowspan=1 colspan=1>南非</td><td rowspan=1 colspan=1>南非</td></tr><tr><td rowspan=1 colspan=1>土耳其</td><td rowspan=1 colspan=1>土耳其</td></tr><tr><td rowspan=1 colspan=1>欧中非地区其他新兴市场</td><td rowspan=1 colspan=1>捷克共和国、埃及、希腊、匈牙利、科威特、卡塔尔、阿拉伯联合酋长国</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>其他</td></tr><tr><td rowspan=1 colspan=1>前沿市场</td><td rowspan=1 colspan=1>被 MSCI 列为前沿市场的所有国家</td></tr><tr><td rowspan=1 colspan=1>不适用</td><td rowspan=1 colspan=1>不适用（固定收益）</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2007 年 1 月 1 日 – MSCI ESG 评级模型 1.0 版本",
+      "content": "MSCI ESG 评级开始日期。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2009 年 1 月 1 日 – MSCI ESG 评级模型 1.1 版本",
+      "content": "在收购 KLD 及其 Global Socrates 平台后，MSCI ESG 评级模型开始根据行业相关性对问题进行分类。行业相关性高的问题使用 MSCI ESG 评级模型进行评分，并设定为具有 80% 的综合权重。相关性较低的问题使用 GlobalSocrates 模型进行评分，并等权以填补剩余的 20%。已向给定行业内的所有公司分配了相同的议题权重。在此项更改之前，权重是因公司而异的。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2011 年 5 月 1 日 – MSCI ESG 评级模型 1.2 版本",
+      "content": "• 行业相关性高的关键议题的权重设置为模型权重的 100%。\n\n• 关键议题权重分配从使用 MSCI ESG 评级行业转为使用 GICS 子行业。\n\n• 在有限的情况下，如果分析中需要包含公司特定的关键议题，公司可以拥有与其 GICS 子行业的其他部分不同的权重。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2011 年 11 月 30 日 – MSCI ESG 评级模型 1.3 版本",
+      "content": "• 模型在至少一个环境关键议题上设定有最低 5% 的权重。\n\n• 模型在至少一个社会关键议题上设定有最低 5% 的权重。\n\n• 模型在企业治理关键议题上设定有最低 5% 的权重。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2012 年 1 月 1 日 – MSCI ESG 评级模型 2.0 版本",
+      "content": "• 对 MSCI ESG 关键议题结构的重大修订产生了十个新的 ESG 主题，包括：\n\n<sub>o</sub> 气候变化\n\n<sub>o</sub> 自然资源利用\n\n<sub>o</sub> 废弃物管理 \n<sub>o</sub> 环境机遇 \n<sub>o</sub> 人力资本 \n<sub>o</sub> 产品安全 \n<sub>o</sub> 社会机遇 \n<sub>o</sub> 企业治理 \n<sub>o</sub> 商业道德 \n<sub>o</sub> 政府与公共政策\n\n• 如果在环境支柱下没有对行业内的公司造成重大环境影响和重大风险的行业关键议题，公司将根据能源效率关键议题进行评估，该议题对最终评级的权重至少为 5%。\n\n• 企业治理关键议题得分已更新，以反映来自机构股东服务 (ISS) 的治理风险指标 (GRId) 的数据。\n\n• 对于企业治理得分低于 2 分的公司，其企业治理权重显着增加。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2012 年 4 月 1 日 – MSCI ESG 评级模型 2.1 版本",
+      "content": "• 模型层级结构更新：\n\n<sub>o</sub> 重新命名的关键议题：\n\n• 电子垃圾关键议题重新命名为电子废弃物。\n\n■ 环境技术机遇重新命名为清洁技术机遇。\n\n原材料采购 – 环境重新命名为原材料采购。\n\n• 有毒物质排放重新命名为有毒物质排放和废弃物。\n\n• 上游碳排放重新命名为产品碳足迹。\n\n• 劳工 – 运营重新命名为劳工管理。\n\n• 劳工 – 供应链重新命名为供应链劳工标准。\n\n• 健康与营养机遇重新命名为营养和健康领域的机会。\n\n• 产品安全 – 化学重新命名为化学安全性。\n\n• 产品安全 – 金融重新命名为金融产品安全。\n\n• 产品和服务质量重新命名为产品安全与质量。\n\n• 原材料采购 – 社会重新命名为争议性采购。\n\n• 负责任的投资重新命名为负责任投资。\n\n• 其他道德问题重新命名为商业道德和欺诈。\n\n影响环境的融资关键议题从自然资源利用主题转移到气候变化主题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2013 年 1 月 1 日 – MSCI ESG 评级模型 2.2 版本",
+      "content": "ESG 行业相关性地图首次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。从 2013 年开始，每年都会更新关键议题与 GICS 子行业的对应关系。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2013 年 3 月 1 日 – MSCI ESG 评级模型 2.3 版本",
+      "content": "ISS Governance QuickScore (QuickScore) 取代 GRId 成为企业治理关键议题的主要数据输入解决方案。对于 QuickScore 覆盖范围之外的公司，ESG 评级使用了 QuickScore 企业治理因素的修订版本。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2014 年 1 月 1 日 – MSCI ESG 评级模型 2.4 版本",
+      "content": "• ESG 行业相关性地图的第二次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。\n\n通过将企业治理关键议题纳入标准 ESG 评级权重设置模型，给企业治理赋予更高的权重，特别是对于面临较少实质性环境和社会问题的 GICS 子行业。由于这一变化，企业治理的平均行业权重从 6% 增加到 12%。\n\n用于计算行业调整得分的最小值和最大值基于来自 MSCI 世界指数（占最小值和最大值的三分之二）和 MSCI ACWI 指数（占三分之一）中公司的关键议题加权平均得分。基于 MSCI ACWI 指数的公司确定最小值和最大值需要 3 年过渡期，这是第一年。在该变更之前，仅使用 MSCI 世界指数确定这些数值。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2015 年 1 月 1 日 – MSCI ESG 评级模型 3.0 版本",
+      "content": "• ESG 行业相关性地图的第三次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。\n\n• ESG 关键议题结构更新：\n\n政府和公共政策主题被删除。\n\n添加了利益相关者异议主题。\n\n<sub>o</sub> 被重新命名的主题：\n\n• 自然资源利用被重新命名为自然资本。\n\n• 废弃物管理被重新命名为污染和废弃物。\n\n• 产品安全性被重新命名为产品责任。\n\n商业道德被重新命名为企业行为。\n\n<sub>o</sub> 重新命名的关键议题：\n\n• 确保气候变化风险更名为气候变化脆弱性。\n\n商业道德和欺诈关键议题被重新命名为商业道德关键议题。\n\n<sub>o</sub> 争议性采购关键议题从人力资本主题转移到利益相关者异议主题。\n\n<sub>o</sub> 金融系统不稳定性关键议题从政府和公共政策主题转移到企业行为主题。\n\n• MSCI 治理指标取代 QuickScore 成为企业治理关键议题的主要数据输入解决方案。新模型中最显著的差异包括：\n\n转变为绝对 0-10 评分，其中每家公司以 10 分的满分开始，并根据企业治理标记的存在情况扣分（以前是公司相对于同行排名的十分位评分）。\n\n<sub>o</sub> 会计关键议题取代审计关键议题。\n\n• 在权重设置模型中增加了企业治理的权重，将行业平均权重从 12% 增加到22%。\n\n用于计算行业调整得分的最小值和最大值基于来自 MSCI 世界指数（占最小值和最大值的三分之一）和 MSCI ACWI 指数（占三分之二）中公司的关键议题加权平均得分。基于 MSCI ACWI 指数的公司确定最小值和最大值需要 3 年过渡期，这是第二年。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2016 年 1 月 1 日 – MSCI ESG 评级模型 3.1 版本",
+      "content": "• ESG 关键议题结构更新：\n\n删除能源效率关键议题。\n\nESG行业相关性地图的第四次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。\n\n• 用于计算行业调整得分的最小值和最大值基于来自 MSCI ACWI 指数中公司的加权平均关键议题得分。这是三年过渡期中的第三年。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "ESG 关键议题结构更新：",
+      "content": "<sub>o</sub> 添加了税务透明度关键议题，但作为未加权的关键议题进行评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2017 年 1 月 1 日 – MSCI ESG 评级模型 3.3 版本",
+      "content": "• ESG行业相关性地图的第五次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2018 年 1 月 1 日 – MSCI ESG 评级模型 3.4 版本",
+      "content": "• ESG 行业相关性地图的第六次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2019 年 1 月 1 日 – MSCI ESG 评级模型 3.5 版本",
+      "content": "ESG 行业相关性地图的第七次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2020 年 1 月 1 日 – MSCI ESG 评级模型 3.6 版本",
+      "content": "• ESG 行业相关性地图的第八次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2020 年 11 月 9 日 – MSCI ESG 评级模型 4.0 版本",
+      "content": "• ESG 关键议题结构更新。\n\n<sub>o</sub> 添加了社区关系关键议题。\n\n删除了金融系统不稳定性关键议题。\n\n删除了腐败和不稳定性关键议题。\n\n删除了商业道德关键议题。\n\n<sub>o</sub> 删除了反竞争行为关键议题。\n\n<sub>o</sub> 重新命名的关键议题：\n\n• 金融产品安全关键议题被重新命名为消费者金融保护。\n\n企业行为主题得分方法从加权平均计算更改为以 0-10 分评分量表对公司的企业行为进行绝对评估。0-10 分的企业行为主题得分现在是根据商业道德和税务透明度关键议题中的关键指标产生的原始得分总和计算得出。\n\n治理支柱得分方法从加权平均计算更改为基于扣分的计算方法。0-10 分的治理支柱得分现在是根据企业治理主题和企业行为主题中关键指标的原始得分总和计算得出。\n\n• 在治理支柱上，将模型设定为最低 33% 的权重。\n\n• 修订了影响环境的融资关键议题，将环境风险评估从银团贷款组合扩大到银行的整个贷款账簿，并侧重于贷款实践的气候风险分析及环境机遇的参与。\n\n• 修订了消费者金融保护关键议题，以消除作为公司差异化因素的风险敞口。\n\n• 在加权关键议题中添加税务透明度。除房地产投资信托基金外，所有公司均根据关键议题进行评估。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2022 年 3 月 17 日 – MSCI ESG 评级模型 4.0.1 版本",
+      "content": "• 对下列选定的ESG 评级行业的行业最低和最高基准值进行期中更新：\n\n<sub>o</sub> 资产管理与托管银行。\n\n<sub>o</sub> 银行。\n\n<sub>o</sub> 建筑与工程。\n\n<sub>o</sub> 综合消费者服务。\n\n<sub>o</sub> 食品。\n\n<sub>o</sub> 互动媒体与服务。\n\n<sub>o</sub> 石油与天然气的炼制、营销、储存和运输。\n\n<sub>o</sub> 纸类与林业产品。\n\n<sub>o</sub> 公路与铁路运输。\n\n<sub>o</sub> 半导体产品与设备。\n\n<sub>o</sub> 电信业务。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2022 年 6 月 13 日 – MSCI ESG 评级模型 4.1 版本",
+      "content": "• ESG 行业相关性地图的第九次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。\n\n• 从会计关键议题中删除了会计关键指标，并将新的关键指标添加到董事会关键议题中。\n\n• 公司规模作为产品安全与质量关键议题的一个因素被删除。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2022 年 11 月 4 日 – MSCI ESG 评级模型 4.1.1 版本",
+      "content": "• 对下列选定的ESG 评级行业的行业最低和最高基准值进行期中更新：\n\n<sub>o</sub> 航空航天与国防。\n\n<sub>o</sub> 航空货运与物流。\n\n<sub>o</sub> 航空公司。\n\n<sub>o</sub> 赌场与赌博。\n\n<sub>o</sub> 建筑机械、农用机械与重型卡车。\n\n<sub>o</sub> 互动媒体与服务。\n\n<sub>o</sub> 海运。\n\n<sub>o</sub> 贸易公司与经销商。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2023 年 4 月 3 日 – MSCI ESG 评级模型 4.2 版本",
+      "content": "• ESG 行业相关性地图的第十次年度更新，该示意图绘制了与各 GICS 子行业相关的关键议题。\n\nESG 评级业内同行由于 GICS结构的更新而变化。\n\n• ESG 关键议题结构更新。\n\n<sub>o</sub> 删除了通讯可得性关键议题。\n\n<sub>o</sub> 删除了健康与人口结构风险关键议题。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2023 年 8 月 3 日 – MSCI ESG 评级模型 4.2.1 版本",
+      "content": "• 期中更新以下选定 ESG 评级行业的行业最低和最高基准值：\n\n<sub>o</sub> 建筑产品。\n\n<sub>o</sub> 石油和天然气勘探与生产。\n\n石油和天然气提炼、销售、运输和储存。\n\n<sub>o</sub> 零售 - 消费品。\n\no 烟草。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2023 年 10 月 11 日 – MSCI ESG 评级模型 4.2.2 版本",
+      "content": "• 期中更新以下选定 ESG 评级行业的行业最低和最高基准值：\n\n<sub>o</sub> 航空公司。\n\n<sub>o</sub> 汽车零部件。\n\n<sub>o</sub> 汽车。\n\n<sub>o</sub> 商品化工。\n\n<sub>o</sub> 建筑材料。\n\n<sub>o</sub> 容器与包装。\n\n<sub>o</sub> 医疗保健提供商与服务。\n\n<sub>o</sub> 医疗保健技术。\n\n<sub>o</sub> 家庭与个人用品。\n\n<sub>o</sub> 综合性石油与天然气企业。\n\n<sub>o</sub> 消闲用品。\n\n<sub>o</sub> 金属与采矿 - 贵重金属。\n\n<sub>o</sub> 财产与意外伤害保险。\n\n<sub>o</sub> 餐馆。\n\n<sub>o</sub> 公路与铁路运输。\n\n<sub>o</sub> 半导体产品与设备。\n\n<sub>o</sub> 特种化学制品。\n\n<sub>o</sub> 钢铁。\n\n<sub>o</sub> 电脑与外围设备。\n\n<sub>o</sub> 电信业务。\n\n<sub>o</sub> 纺织品、服装与奢侈品。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2023 年 12 月 6 日 – MSCI ESG 评级模型 4.2.3 版本",
+      "content": "• 期中更新以下选定 ESG 评级行业的行业最低和最高基准值：\n\n<sub>o</sub> 航空货运与物流。\n\n<sub>o</sub> 消费信贷。\n\n<sub>o</sub> 多种化学制品。\n\n<sub>o</sub> 电气设备。\n\n<sub>o</sub> 电子设备和仪器。\n\n<sub>o</sub> 能源设备与服务。\n\n<sub>o</sub> 工业机械。\n\n<sub>o</sub> 金属与採矿 – 非贵重金属与矿石。\n\n<sub>o</sub> 多元化保险与经纪。\n\n<sub>o</sub> 超国家机构和开发银行。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2024 年 2 月 7 日 – MSCI ESG 评级模型 4.2.4 版本",
+      "content": "• 期中更新以下选定 ESG 评级行业的行业最低和最高基准值：\n\n<sub>o</sub> 赌场与赌博。\n\n<sub>o</sub> 酒店与旅游。\n\n<sub>o</sub> 工业集团企业。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2024—2025年模型4.3系列更新",
+      "content": "补充历史：4.3系列及4.3.1—4.3.4的具体实施日期、行业名单和说明见June2026模型历史第12—14页；涉及行业基准值和模型年度更新。此处不将发布日期作为全部公司的评级行动日。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-HISTORY",
+        "pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2026年3月23日 — MSCI ESG评级模型5.0",
+      "content": "新增量化绩效的强度/趋势标准化框架、环境目标评价框架、环境社会指标级权重与标准化汇总；争议扣分纳入严重性、状态及公司角色；引入IAS评级边界±0.1缓冲区，并更新部分业务、地域和公司特定敞口及评级同业组。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-HISTORY",
+        "pages": [
+          14,
+          15,
+          16
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "2026年6月25日 — MSCI ESG评级模型5.0.1",
+      "content": "对12个评级行业的行业最低/最高基准值作期中更新：航空货运与物流、航空公司、赌场与博彩、建筑材料、多元化消费者服务、医疗保健提供商与服务、工业集团、综合油气、休闲产品、生命科学工具与服务、海运、公路与铁路运输。",
+      "source_ref": {
+        "source_id": "SRC-MSCI-HISTORY",
+        "pages": [
+          16
+        ]
+      },
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "欧洲、中东和非洲",
+      "content": "<table><tr><td>开普敦</td><td></td><td>+ 27 21 673 0100</td></tr><tr><td>法兰克福</td><td></td><td>+ 49 69 133 859 00</td></tr><tr><td>日内瓦</td><td></td><td>+ 41 22 817 9777</td></tr><tr><td>伦敦</td><td></td><td>+ 44 20 7618 2222</td></tr><tr><td>米兰</td><td></td><td>+ 39 02 5849 0415</td></tr><tr><td>巴黎</td><td></td><td>0800 91 59 17 *</td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "亚太地区",
+      "content": "<table><tr><td>华北地区 华南地区</td><td>10800 852 1032 * 10800 152 1032 *</td></tr><tr><td>香港</td><td>+ 852 2844 9333</td></tr><tr><td>孟买</td><td>+ 91 22 6784 9160</td></tr><tr><td>首尔</td><td>00798 8521 3392 *</td></tr><tr><td>新加坡</td><td>800 852 3749 *</td></tr><tr><td>悉尼</td><td>+ 61 2 9033 9333</td></tr><tr><td>台北</td><td></td></tr><tr><td></td><td>008 0112 7513 *</td></tr><tr><td>泰国</td><td>0018 0015 6207 7181 *</td></tr><tr><td>东京</td><td>+ 81 3 5290 1555</td></tr><tr><td>*=通话免费</td><td></td></tr></table>",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "关于 MSCI",
+      "content": "MSCI 是为全球投资界提供关键决策支持工具和服务的领先供应商。凭借在研究、数据和技术领域超过 50 年的专业经验，我们通过帮助客户了解和分析风险与回报的关键驱动因素，并协助客户自信地建立更有效的投资组合，从而助其作出更好的投资决策。我们创建了行业领先的研究增强型解决方案，客户可利用这些解决方案来深入了解和提高整个投资流程的透明度。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    },
+    {
+      "title": "关于 MSCI ESG 研究部产品和服务",
+      "content": "MSCI ESG 研究部的产品和服务由 MSCIESG Research LLC 提供，旨在为全球各地的公司提供环境、社会和治理相关业务实务的深入研究、评级和分析。MSCI ESGResearch LLC 提供的 ESG 评级、数据和分析也用于构建 MSCI ESG 指数。MSCIESG Research LLC 是根据《1940 年投资顾问法》注册的投资顾问，也是 MSCIInc. 的子公司。\n\n如需更多信息，请浏览 www.msci.com。",
+      "language_provenance": {
+        "zh_origin": "existing_chinese",
+        "english_alignment": "pending",
+        "note": "现有中文整理内容；对应英文逐段对齐待校核，不作为2026版官方中文。"
+      }
+    }
+  ],
+  "sourceNote": "依据MSCI官方英文方法论及流程资料整理，中文为辅助翻译；2026-09-11仅修正已核实错误与缺失内容，未完成全文逐条审校。总方法论参考March2026，模型历史参考June2026。",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "languageAlignmentNote": "议题正文、表格和图件已补充AI中文并保留英文；总览与流程的既有中文仍需与对应版本英文逐段对齐，未将其标为2026版官方中文。"
+}

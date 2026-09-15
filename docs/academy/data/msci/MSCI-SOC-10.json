@@ -1,0 +1,570 @@
+{
+  "id": "MSCI-SOC-10",
+  "title": "社区关系",
+  "titleEn": "Community Relations",
+  "summary": "评估公司与运营所在社区的关系管理，包括社区影响、许可与社会冲突。",
+  "pillar": "社会支柱",
+  "pillarEn": "Social Pillar",
+  "theme": "利益相关方反对",
+  "themeEn": "Stakeholder Opposition",
+  "type": "风险类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Community Relations Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Community Relations is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Companies are evaluated on their management of local community relations and policies on human rights.",
+          "content_cn": "本文件介绍社区关系关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。社区关系属于 MSCI ESG 评级模型社会支柱下的关键议题。公司评估涵盖当地社区关系管理及人权政策。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Risks associated with this Key Issue",
+      "title_cn": "与本关键议题相关的风险",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "\\- Operational disruptions or loss of market access due to community opposition.",
+          "content_cn": "• 因社区反对而导致运营中断或丧失市场准入。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Loss of formal and social license to operate.",
+          "content_cn": "• 丧失正式运营许可及社会认可。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Litigation by landowners and other affected parties.",
+          "content_cn": "• 土地所有者和其他受影响方提起诉讼。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Community Relations Key Issue Score",
+      "title_cn": "社区关系关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Community Relations Key Issue Score evaluates the company's level of exposure to, and management of, risks on this Key Issue. The Key Issue Score is based on the Exposure Score and the Management Score using the formula below. The Exposure Score and the Management Score are combined such that a higher level of exposure requires a higher level of demonstrated management capability in order to achieve the same overall Key Issue Score.",
+          "content_cn": "社区关系关键议题得分评估公司对该议题风险的敞口程度及管理情况。该关键议题得分根据下述公式，基于风险敞口得分和管理得分计算。两项得分的结合方式意味着：风险敞口越高，公司就需要展现越强的管理能力，才能取得相同的总体关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nK I _ {i} = 7 - (\\max (E X P _ {i}, 2) - M G M T _ {i})\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $KI_{i}$ is the Key Issue Score for company $i$ .",
+          "content_cn": "• $KI_{i}$ 为公司 $i$ 的关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $EXP_{i}$ is the Exposure Score for company $i$ .",
+          "content_cn": "• $EXP_{i}$ 为公司 $i$ 的风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $MGMT_{i}$ is the Management Score for company $i$ .",
+          "content_cn": "• $MGMT_{i}$ 为公司 $i$ 的管理得分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Community Relations Management Score",
+      "title_cn": "社区关系管理得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Community Relations Management score is based on the weighted average of the relevant indicator scores, modified by controversies. Default indicator weights may be adjusted for the relevance of business activities; an indicator has zero weight when the company has no exposure to the activity it covers.",
+          "content_cn": "管理得分按适用指标得分加权平均，再按争议事件调整。指标采用默认权重，并可根据公司业务活动的相关性调整；公司对某指标覆盖的业务活动没有敞口时，该指标权重为零。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$MGMT_i = \\sum_j Indicator\\_Score_{j,i} \\times Indicator\\_Weight_{j,i}$$"
+        },
+        {
+          "type": "text",
+          "content": "MGMT_i denotes the Management score excluding controversies; j denotes an applicable indicator and i denotes the company. Component scores aggregate indicator scores using weights scaled within the component.",
+          "content_cn": "MGMT_i为争议调整前的管理得分；j表示适用指标，i表示公司。组件得分按组件内重新归一化后的指标权重汇总，不应默认将各组件等权平均。",
+          "translation_origin": "ai"
+        }
+      ],
+      "source_ref": {
+        "source_id": "SRC-MSCI-COMMUNITY-RELATIONS",
+        "pages": [
+          5,
+          6
+        ],
+        "checked_on": "2026-09-11"
+      }
+    },
+    {
+      "title_en": "• Commitment to refrain from operating in protected areas.",
+      "title_cn": "• 承诺不在保护区运营。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company has made a commitment to avoid operating in high-conservation areas, such as World Heritage sites or areas of cultural significance.",
+          "content_cn": "定义：表明公司是否承诺避免在世界遗产地或具有文化重要性的区域等高保护价值地区运营。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "- Company conducts community impact assessment prior to settling in new areas.",
+      "title_cn": "• 公司在进入新地区前开展社区影响评估。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company conducts community impact assessments in line with the principles of Free, Prior and Informed Consent (FPIC) or whether there is any evidence of community engagement prior to developing in new areas.",
+          "content_cn": "定义：表明公司是否按照自由、事先和知情同意原则开展社区影响评估，或是否有证据显示其在新地区开发前已与社区沟通。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Indigenous peoples policy.",
+      "title_cn": "• 原住民政策。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a policy to minimize community impacts on indigenous people and their traditional way of life.",
+          "content_cn": "定义：表明公司是否制定政策，尽量减少对原住民社区及其传统生活方式的影响。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "- Local community engagement approach.",
+      "title_cn": "• 当地社区沟通方式。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company's approach to local community engagement includes proactive programs, such as grievance reporting mechanisms and formal community engagement channels.",
+          "content_cn": "定义：表明公司的当地社区沟通方式是否包含主动计划，例如申诉报告机制及正式社区沟通渠道。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Company monitors the effectiveness of its human rights policy.",
+      "title_cn": "• 公司监测人权政策的有效性。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: The extent of monitoring to measure the effectiveness of human rights policies, and whether the company commits to targets or reports progress against human rights targets.",
+          "content_cn": "定义：为衡量人权政策有效性而开展监测的程度，以及公司是否承诺人权目标或报告目标进展。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Employee training on human rights protection.",
+      "title_cn": "• 员工人权保护培训。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has employee training programs on human rights.",
+          "content_cn": "定义：表明公司是否开展员工人权培训计划。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Ethical conduct policy covers contract security providers.",
+      "title_cn": "• 道德行为政策覆盖外包安保服务商。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company has a formal business ethics policy that applies to contract security providers and whether that policy is supported by auditing to ensure compliance.",
+          "content_cn": "定义：表明公司是否制定适用于外包安保服务商的正式商业道德政策，并通过审计确保遵守。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Human rights policy.",
+      "title_cn": "• 人权政策。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company has adopted a formal human rights policy and whether that policy is aligned with the United Nations Declaration of Human Rights.",
+          "content_cn": "定义：表明公司是否制定正式人权政策，以及该政策是否与联合国《世界人权宣言》一致。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Violence and conflict policy.",
+      "title_cn": "• 暴力与冲突政策。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a formal policy or informal commitment related to violence and conflict.",
+          "content_cn": "定义：表明公司是否有与暴力及冲突相关的正式政策或非正式承诺。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "- Local procurement policy.",
+      "title_cn": "• 本地采购政策。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether a company has a policy to support local suppliers or prioritize purchases that support local communities.",
+          "content_cn": "定义：表明公司是否制定支持本地供应商或优先采用有利于当地社区采购的政策。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Programs to support local communities.",
+      "title_cn": "• 支持当地社区的计划。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: A company's investments in community projects (including local infrastructure, hospitals and education) and philanthropic programs to support local communities.",
+          "content_cn": "定义：公司对当地基础设施、医院、教育等社区项目的投资，以及支持当地社区的慈善计划。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversies",
+      "title_cn": "争议事件",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A controversy deduction ranging from 0 to 5 points is subtracted from the overall Management Score, based on the severity and type of controversies facing the company on this Key Issue. The following categories of controversies are used in the assessment:",
+          "content_cn": "根据公司在此关键议题上所涉争议的严重程度及类型，从总体管理得分中扣减 0—5 分。评估采用以下争议类别：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Human rights controversies.",
+          "content_cn": "• 人权争议。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Community impact controversies.",
+          "content_cn": "• 社区影响争议。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Indigenous peoples controversies.",
+          "content_cn": "• 原住民争议。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For more details on how controversies are included in the MSCI ESG Ratings model, refer to Section 3.3.2, Controversies cases, of “ESG Ratings Methodology.”",
+          "content_cn": "关于争议如何纳入 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 3.3.2 节“争议案例”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Community Relations Exposure Score",
+      "title_cn": "社区关系风险敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Community Relations Exposure Score evaluates the company's exposure to risks on this Key Issue. It is based on the Business Segment Exposure Score only. The Business Segment Exposure Score is scored on a 0-10 scale, with 10 corresponding to the highest risk and 0 corresponding to the lowest risk. Refer to Section 3.2, Analyzing risk exposure, of “ESG Ratings Methodology” for additional details. The following data sources and methodologies are used in the Exposure Score calculation:",
+          "content_cn": "社区关系风险敞口得分评估公司在此关键议题上的风险敞口。原文说明仅以业务分部风险敞口得分为基础，该得分采用 0—10 分制，10 分对应最高风险，0 分对应最低风险。详情参见《ESG 评级方法论》第 3.2 节“风险敞口分析”。风险敞口得分计算采用以下数据来源和方法：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nE X P _ {C R E, i} = B U S _ {C R E, i} + C O M _ {C R E, i}\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $EXP_{CRE,i}$ is the Community Relations Exposure Score of company $i$ .",
+          "content_cn": "• $EXP_{CRE,i}$ 为公司 $i$ 的社区关系风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $BUS_{CRE,i}$ is the Business Exposure Score of company $i$ .",
+          "content_cn": "• $BUS_{CRE,i}$ 为公司 $i$ 的业务风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $COM_{CRE,i}$ is the Company-Specific Exposure Score of company $i$ .",
+          "content_cn": "• $COM_{CRE,i}$ 为公司 $i$ 的公司特定风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 2: Exposure Score components",
+          "content_cn": "图表2：敞口得分组成部分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Community Relations\nExposure Score",
+          "content_cn": "社区关系\n风险敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Business Exposure Score",
+          "content_cn": "业务敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Company-Specific Exposure Score",
+          "content_cn": "公司特定敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Business Segment\nExposure Scores",
+          "content_cn": "业务分部\n风险敞口得分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Major Expansion Plans\nUnder Development",
+          "content_cn": "重大扩张计划\n开发中",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Rights Controversies, Intensity of Resource Use, Emissions",
+          "content_cn": "权利争议、资源使用强度、排放",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Exposure Score",
+      "title_cn": "业务敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Business Exposure Score is a weighted average of the Business Segment Exposure Scores of a company's business segments. Scores are weighted by the proportion of a company's total assets in each business segment, $^{1}$ using the following formula to calculate the Business Exposure Score:",
+          "content_cn": "业务风险敞口得分为公司各业务分部风险敞口得分的加权平均值。得分按各业务分部占公司总资产的比例加权，$^{1}$ 并按以下公式计算业务风险敞口得分：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nB U S _ {C R E, i} = \\sum_ {j = 1} ^ {n _ {i}} w _ {A s s e t, i, j} B S E _ {C R E, j}\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $BSE_{CRE,j}$ is the Business Segment Exposure Score for business segment $j$ .",
+          "content_cn": "• $BSE_{CRE,j}$ 为业务分部 $j$ 的业务分部风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $w_{Asset,i,j}$ is the weight of business segment j for company i based on the contribution to total company assets.",
+          "content_cn": "• $w_{Asset,i,j}$ 为公司 i 的业务分部 j 按其占公司总资产比例确定的权重。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $n_{i}$ is the number of business segments of company $i$ .",
+          "content_cn": "• $n_{i}$ 为公司 $i$ 的业务分部数量。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Business Segment Exposure Score",
+      "title_cn": "业务分部风险敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Business Segment Exposure Score of a business segment is based on a mapping of the business segment as disclosed by the company to a corresponding business activity. MSCI ESG Research uses the Standard Industrial Classification (SIC) system along with industry-specific adjustments to define business activities. The score associated with a business activity is used to calculate a Business Segment Exposure Score. Each Business Segment Exposure Score is determined as follows:",
+          "content_cn": "业务分部风险敞口得分以公司披露的业务分部与相应业务活动的映射关系为基础。MSCI ESG 研究使用标准行业分类（SIC）体系，并结合行业特定调整来界定业务活动。业务活动对应的得分用于计算业务分部风险敞口得分，各分部得分按以下方式确定：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nB S E _ {C R E, j} = \\frac {H R _ {j} + 0 . 5 (L D _ {j} + M a x (W S _ {j} , T E _ {j}))}{2}\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $HR_{j}$ is the Human Rights Controversies Score for business activity $j$ .",
+          "content_cn": "• $HR_{j}$ 为业务活动 $j$ 的人权争议得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $LD_{j}$ is the Land Disturbance Score for business activity $j$ .",
+          "content_cn": "• $LD_{j}$ 为业务活动 $j$ 的土地扰动得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $WS_{j}$ is the Water Stress Score for business activity $j$ .",
+          "content_cn": "• $WS_{j}$ 为业务活动 $j$ 的水资源压力得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $TE_{j}$ is the Toxic Emissions Score for business activity $j$ .",
+          "content_cn": "• $TE_{j}$ 为业务活动 $j$ 的有毒排放得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Human Rights Controversies Score of a business activity is determined by the percentage of companies involved in a human rights-related controversy assessed as Moderate to Very Severe among all the companies with the same primary business activity. $^{2}$ Refer to Section 3.3.2, Controversies cases, of “ESG Ratings Methodology” for details on how the severity of controversy cases is assessed.",
+          "content_cn": "业务活动的人权争议得分，由具有相同主营业务活动的所有公司中，涉及严重程度为中等至极严重的人权争议的公司比例确定。$^{2}$ 争议严重程度评估详情参见《ESG 评级方法论》第 3.3.2 节“争议案例”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Land Disturbance Score of a business activity is derived from a qualitative assessment of each business activity and its land-use implications for community relations.",
+          "content_cn": "业务活动的土地扰动得分，通过定性评估该活动及其土地利用对社区关系的影响确定。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Water Stress Score of a business activity is derived from a component of the Water Stress Key Issue Score, the Business Segment Exposure Score on that Key Issue of a business activity. For details on how that score is calculated, see the Business Segment Exposure Score section of “MSCI ESG Ratings Methodology: Water Stress Key Issue.”",
+          "content_cn": "业务活动的水资源压力得分，源自水资源压力关键议题得分的一个组成部分，即该活动在该议题上的业务分部风险敞口得分。计算详情参见《MSCI ESG 评级方法论：水资源压力关键议题》的“业务分部风险敞口得分”章节。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The Toxic Emissions Score of a business activity is derived from a component of the Toxic Emissions & Waste Key Issue Score, the Business Segment Exposure Score on that Key Issue of a business activity. For details on how that score is calculated, see the Business Segment Exposure Score section of “MSCI ESG Ratings Methodology: Toxic Emissions & Waste Key Issue.”",
+          "content_cn": "业务活动的有毒排放得分，源自有毒排放与废弃物关键议题得分的一个组成部分，即该活动在该议题上的业务分部风险敞口得分。计算详情参见《MSCI ESG 评级方法论：有毒排放与废弃物关键议题》的“业务分部风险敞口得分”章节。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Company-Specific Exposure Score",
+      "title_cn": "公司特定敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Company-Specific Exposure Score is determined by a qualitative assessment of whether a company has major expansion plans under development. If the company has major expansion plans underway, it receives a Company-Specific Exposure Score of 1, otherwise it gets a score of 0.",
+          "content_cn": "公司特定风险敞口得分通过定性评估公司是否正在开发重大扩张计划确定。有正在推进的重大扩张计划，得 1 分；否则得 0 分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Data Sources",
+      "title_cn": "数据来源",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The following sources are used to determine the Community Relations Exposure Score:",
+          "content_cn": "确定社区关系风险敞口得分时使用以下来源：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Environmental Protection Agency's (EPA's) Toxics Release Inventory, National Emissions Inventory, and Risk-Screening Environmental Indicators; U.S. Economic Census; The International Earth Rotation Service's (IERS), Comprehensive Environmental Data Archive (CEDA); water withdrawals per USD revenue compiled by MSCI ESG Research; M.M. Mekonnen and A.Y. Hoekstra, \"The green, blue and grey water footprint of crops and derived crop products,\" Hydrology and Earth System Sciences 15, no. 5 (2011): 1,577-1,600; Refinitiv; MSCI ESG Research; company disclosures; Environmental Protection Agency (EPA).",
+          "content_cn": "美国环境保护署有毒物质排放清单、国家排放清单及风险筛查环境指标；美国经济普查；国际地球自转服务的综合环境数据档案；MSCI ESG 研究汇编的每美元收入取水量；M.M. Mekonnen 与 A.Y. Hoekstra，《作物及其衍生产品的绿色、蓝色和灰色水足迹》，《水文学与地球系统科学》第 15 卷第 5 期（2011 年）：1,577—1,600 页；路孚特；MSCI ESG 研究；公司披露；美国环境保护署。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Contact us",
+          "content_cn": "联系我们",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "msci.com/contact-us",
+          "content_cn": "MSCI 联系入口：msci.com/contact-us",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Community Relations Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/community-relations-key-issue.pdf",
+    "current_official_sha256": "e456fcb86a48d3a9743159f2b405e39e3c21f24629415bc6e2ebaf19f7d60eb0",
+    "legacy_extraction_version": "March 2024",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

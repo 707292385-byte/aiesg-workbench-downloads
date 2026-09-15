@@ -1,0 +1,336 @@
+{
+  "id": "MSCI-SOC-07",
+  "title": "消费者金融保护",
+  "titleEn": "Consumer Financial Protection",
+  "summary": "评估金融机构对消费者的保护水平，包括产品透明度、合规销售与客户投诉。",
+  "pillar": "社会支柱",
+  "pillarEn": "Social Pillar",
+  "theme": "产品责任",
+  "themeEn": "Product Liability",
+  "type": "风险类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Consumer Financial Protection Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Consumer Financial Protection is a Key Issue in the Social Pillar of the MSCI ESG Ratings model. Financial institutions are evaluated on product stewardship and transparency, including efforts to mitigate potential reputational and regulatory risks arising from unethical lending practices or mis-selling financial products to consumers.",
+          "content_cn": "本文件介绍消费者金融保护关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。消费者金融保护属于 MSCI ESG 评级模型社会支柱下的关键议题。金融机构评估涵盖产品责任管理与透明度，包括减轻不道德放贷或向消费者不当销售金融产品所引发潜在声誉及监管风险的措施。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Risks associated with this Key Issue",
+      "title_cn": "与本关键议题相关的风险",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "\\- Unanticipated credit losses due to non-transparent or unsustainable products.",
+          "content_cn": "• 因产品不透明或不可持续而发生意外信用损失。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Loss of market access due to regulatory change.",
+          "content_cn": "• 因监管变化而丧失市场准入。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Increased costs from litigation, regulatory penalties.",
+          "content_cn": "• 因诉讼及监管处罚而增加成本。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Consumer Financial Protection Key Issue Score",
+      "title_cn": "消费者金融保护关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Consumer Financial Protection Key Issue Score evaluates the company's level of exposure to, and management of risks on this Key Issue. The Key Issue Score is based on the Exposure Score and the Management Score using the formula below. The Exposure Score and the Management Score are combined such that a higher level of exposure requires a higher level of demonstrated management capability in order to achieve the same overall Key Issue Score.",
+          "content_cn": "消费者金融保护关键议题得分评估公司在此议题上的风险敞口及风险管理水平。关键议题得分根据风险敞口得分与管理得分，按下列公式计算。两类得分的结合方式要求：风险敞口越高，公司就需要展现越强的管理能力，才能取得相同的总体关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$\nK I _ {i} = 7 - (\\max (E X P _ {i}, 2) - M G M T _ {i})\n$$"
+        },
+        {
+          "type": "text",
+          "content": "Where:",
+          "content_cn": "其中：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $KI_{i}$ is the Key Issue Score for company $i$ .",
+          "content_cn": "• $KI_{i}$ 为公司 $i$ 的关键议题得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $EXP_{i}$ is the Exposure Score for company $i$ .",
+          "content_cn": "• $EXP_{i}$ 为公司 $i$ 的风险敞口得分。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- $MGMT_{i}$ is the Management Score for company $i$ .",
+          "content_cn": "• $MGMT_{i}$ 为公司 $i$ 的管理得分。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Consumer Financial Protection Management Score",
+      "title_cn": "消费者金融保护管理得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Consumer Financial Protection Management score is based on the weighted average of the relevant indicator scores, modified by controversies. Default indicator weights may be adjusted for the relevance of business activities; an indicator has zero weight when the company has no exposure to the activity it covers.",
+          "content_cn": "管理得分按适用指标得分加权平均，再按争议事件调整。指标采用默认权重，并可根据公司业务活动的相关性调整；公司对某指标覆盖的业务活动没有敞口时，该指标权重为零。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "formula",
+          "content": "$$MGMT_i = \\sum_j Indicator\\_Score_{j,i} \\times Indicator\\_Weight_{j,i}$$"
+        },
+        {
+          "type": "text",
+          "content": "MGMT_i denotes the Management score excluding controversies; j denotes an applicable indicator and i denotes the company. Component scores aggregate indicator scores using weights scaled within the component.",
+          "content_cn": "MGMT_i为争议调整前的管理得分；j表示适用指标，i表示公司。组件得分按组件内重新归一化后的指标权重汇总，不应默认将各组件等权平均。",
+          "translation_origin": "ai"
+        }
+      ],
+      "source_ref": {
+        "source_id": "SRC-MSCI-CONSUMER-FINANCIAL-PROTECTION",
+        "pages": [
+          5,
+          6
+        ],
+        "checked_on": "2026-09-11"
+      }
+    },
+    {
+      "title_en": "- Debt collection policy.",
+      "title_cn": "• 债务催收政策。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a formal debt collection policy supported by training of relevant employees.",
+          "content_cn": "定义：表明公司是否制定正式债务催收政策，并对相关员工开展培训。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Employee training on consumer financial protection.",
+      "title_cn": "• 员工消费者金融保护培训。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: The scope of employee training programs related to consumer financial protection, including financial literacy and ethical selling practices.",
+          "content_cn": "定义：消费者金融保护相关员工培训计划的覆盖范围，包括金融知识及合乎道德的销售实践。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "list",
+          "content": "• Fair advertising policy.",
+          "content_cn": "• 公平广告政策。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a policy on fair marketing practices supported by an oversight committee or training of relevant employees.",
+          "content_cn": "定义：表明公司是否制定公平营销实践政策，并由监督委员会或相关员工培训提供支持。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Financial education initiatives and stakeholder outreach.",
+      "title_cn": "• 金融教育举措及利益相关方外展。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: The extent of programs to improve financial literacy, either through formal partnerships with financial education organizations, targeted initiatives for specific demographics or general outreach programs.",
+          "content_cn": "定义：提升金融知识的计划程度，包括与金融教育组织正式合作、针对特定人群的举措，或一般性外展计划。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Company offers loan modification options.",
+      "title_cn": "• 公司提供贷款条款调整选项。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Describes loan modification options available to retail customers through income-based repayment plans or access to escalation options.",
+          "content_cn": "定义：说明面向零售客户的贷款条款调整选项，例如按收入制定还款计划或提供升级处理渠道。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Oversight of complaint resolution process.",
+      "title_cn": "• 投诉解决流程监督。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether there is board-level oversight, management-level committee oversight, or a formal monitoring group for customer complaints.",
+          "content_cn": "定义：表明是否有董事会层面监督、管理层委员会监督，或正式监测小组负责客户投诉。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Financial product complaint handling process.",
+      "title_cn": "• 金融产品投诉处理流程。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether the company has a formal process to handle customer complaints through a customer ombudsman, an internal complaint review body or a complaint hotline.",
+          "content_cn": "定义：表明公司是否通过客户申诉专员、内部投诉审查机构或投诉热线，建立处理客户投诉的正式流程。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Oversight of financial product or service reviews.",
+      "title_cn": "• 金融产品或服务审查监督。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Definition: Indicates whether there is board-level oversight, management-level committee oversight or another internal review body that is responsible reviewing products and services.",
+          "content_cn": "定义：表明是否有董事会层面监督、管理层委员会监督，或其他内部审查机构负责审查产品和服务。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Representative performance metrics:",
+      "title_cn": "代表性绩效指标：",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "\\- Involvement in high-risk lending, insurance or investment products.",
+          "content_cn": "• 涉及高风险贷款、保险或投资产品。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "\\- Complaint growth.",
+          "content_cn": "• 投诉增长。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Sources: Company disclosures, U.S. Consumer Financial Protection Bureau, Australian Financial Complaint Authority, UK Financial Conduct Authority, UK Financial Ombudsman Service, Reserve Bank of India.",
+          "content_cn": "来源：公司披露；美国消费者金融保护局；澳大利亚金融投诉管理局；英国金融行为监管局；英国金融申诉专员服务机构；印度储备银行。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Controversies",
+      "title_cn": "争议事件",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A controversy deduction ranging from 0 to -5 points is subtracted from the overall Management Score, based on the severity and type of controversies facing the company on this Key Issue. The following categories of controversies are used in the assessment.",
+          "content_cn": "原文说明：根据公司在此关键议题上所涉争议的严重程度及类型，从总体管理得分中扣除范围为 0 至 -5 分的争议调整。评估采用以下争议类别。（原文负号与“扣除”表述的计算方向需校核。）",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "• Product safety controversies",
+      "title_cn": "• 产品安全争议",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "For more details on how controversies are included in the MSCI ESG Ratings model, refer to Section 3.3.2, Controversies cases, of “ESG Ratings Methodology.”",
+          "content_cn": "关于争议如何纳入 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 3.3.2 节“争议案例”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Consumer Financial Protection Exposure Score",
+      "title_cn": "消费者金融保护风险敞口得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Consumer Financial Protection Exposure Score evaluates the company's exposure to risks on this Key Issue. It is assigned by default. All companies get a default exposure score of 7 on a 0-10 scale, with 10 corresponding to the highest risk and 0 corresponding to the lowest risk. Refer to Section 3.2, Analyzing risk exposure, of \"ESG Ratings Methodology\" for additional details.",
+          "content_cn": "消费者金融保护风险敞口得分评估公司在此关键议题上的风险敞口，采用默认赋值。所有公司均在 0—10 分制中获得默认敞口得分 7，10 分对应最高风险，0 分对应最低风险。详情参见《ESG 评级方法论》第 3.2 节“风险敞口分析”。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Model Update History",
+      "title_cn": "模型更新历史",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In November 2020, the Consumer Financial Protection Key Issue was updated with new methodology to assess financial product sales practices and removal of risk exposure as a differentiating factor between companies.",
+          "content_cn": "2020 年 11 月，消费者金融保护关键议题更新，采用新方法评估金融产品销售实践，并取消风险敞口作为公司间差异化因素的作用。",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Consumer Financial Protection Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/social-pillar/consumer-financial-protection-key-issue.pdf",
+    "current_official_sha256": "f4037d1bb2db0cb56aaa2f7225090f9fc0b5201114c93c601097d75825ccc226",
+    "legacy_extraction_version": "October 2023",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}

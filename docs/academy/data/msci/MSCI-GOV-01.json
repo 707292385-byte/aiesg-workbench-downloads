@@ -1,0 +1,386 @@
+{
+  "id": "MSCI-GOV-01",
+  "title": "会计",
+  "titleEn": "Accounting",
+  "summary": "评估公司外部审计机构任命、审计报告发现及会计事件的潜在会计风险。",
+  "pillar": "治理支柱",
+  "pillarEn": "Governance Pillar",
+  "theme": "公司治理",
+  "themeEn": "Corporate Governance",
+  "type": "治理类",
+  "sections": [
+    {
+      "title_en": "Introduction",
+      "title_cn": "引言",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This document provides essential information on the components of the Accounting Key Issue to enable users of ESG Ratings to understand how our outputs are determined. Accounting is a Key Issue in the Governance Pillar of the MSCI ESG Ratings model. Companies are evaluated on the appointment of the external audit firm, the findings of its audit report, and on other accounting events as an indicator of potential accounting risk.",
+          "content_cn": "本文件介绍会计关键议题各组成部分的核心信息，帮助 ESG 评级使用者理解评估结果的形成方式。会计属于 MSCI ESG 评级模型治理支柱下的关键议题。公司评估涵盖外部审计机构的聘任、审计报告发现及其他会计事件，以识别潜在会计风险。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "For additional details on the MSCI ESG Ratings Model, refer to Section 2, Data, ratings and scores, of \"ESG Ratings Methodology.\"",
+          "content_cn": "有关 MSCI ESG 评级模型的更多信息，参见《ESG 评级方法论》第 2 节“数据、评级与得分”。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Exhibit 1: MSCI ESG Key Issue hierarchy",
+          "content_cn": "图表 1：MSCI ESG 关键议题层级体系",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "table",
+          "content": "<table><tr><th>3 Pillars</th><th>10 Themes</th><th>33 ESG Key Issues</th></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Carbon Emissions</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Product Carbon Footprint</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Climate Change Vulnerability</td></tr><tr><td>Environmental Pillar</td><td>Climate Change</td><td>Financing Environmental Impact</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Water Stress</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Biodiversity &amp; Land Use</td></tr><tr><td>Environmental Pillar</td><td>Natural Capital</td><td>Raw Material Sourcing</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Toxic Emissions &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Packaging Material &amp; Waste</td></tr><tr><td>Environmental Pillar</td><td>Pollution &amp; Waste</td><td>Electronic Waste</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Clean Tech</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Green Building</td></tr><tr><td>Environmental Pillar</td><td>Environmental Opportunities</td><td>Opportunities in Renewable Energy</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Accounting</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Board</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Business Ethics</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Ownership &amp; Control</td></tr><tr><td>Governance Pillar</td><td>Corporate Governance</td><td>Pay</td></tr><tr><td>Governance Pillar</td><td>Corporate Behavior</td><td>Tax Transparency</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Labor Management</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Health &amp; Safety</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Human Capital Development</td></tr><tr><td>Social Pillar</td><td>Human Capital</td><td>Supply Chain Labor Standards</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Product Safety &amp; Quality</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Chemical Safety</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Consumer Financial Protection</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Privacy &amp; Data Security</td></tr><tr><td>Social Pillar</td><td>Product Liability</td><td>Responsible Investment</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Community Relations</td></tr><tr><td>Social Pillar</td><td>Stakeholder Opposition</td><td>Controversial Sourcing</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Finance</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Access to Health Care</td></tr><tr><td>Social Pillar</td><td>Social Opportunities</td><td>Opportunities in Nutrition &amp; Health</td></tr></table>",
+          "source_ref": {
+            "source_id": "SRC-MSCI-CORE",
+            "pages": [
+              6
+            ],
+            "checked_on": "2026-09-11",
+            "content_type": "校核整理"
+          },
+          "content_cn": "<table><tr><th>3 大支柱</th><th>10 大主题</th><th>33 个 ESG 关键议题</th></tr><tr><td>环境支柱</td><td>气候变化</td><td>碳排放</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>产品碳足迹</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>气候变化脆弱性</td></tr><tr><td>环境支柱</td><td>气候变化</td><td>影响环境的融资</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>水资源压力</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>生物多样性与土地利用</td></tr><tr><td>环境支柱</td><td>自然资本</td><td>原材料采购</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>有毒排放与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>包装材料与废弃物</td></tr><tr><td>环境支柱</td><td>污染与废弃物</td><td>电子废弃物</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>清洁技术机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>绿色建筑机遇</td></tr><tr><td>环境支柱</td><td>环境机遇</td><td>可再生能源机遇</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>会计</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>董事会</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>商业道德</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>所有权与控制权</td></tr><tr><td>治理支柱</td><td>公司治理</td><td>薪酬</td></tr><tr><td>治理支柱</td><td>企业行为</td><td>税务透明度</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>劳工管理</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>健康与安全</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>人力资本发展</td></tr><tr><td>社会支柱</td><td>人力资本</td><td>供应链劳工标准</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>产品安全与质量</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>化学品安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>消费者金融保护</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>隐私与数据安全</td></tr><tr><td>社会支柱</td><td>产品责任</td><td>负责任投资</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>社区关系</td></tr><tr><td>社会支柱</td><td>利益相关方反对</td><td>争议性采购</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>金融服务可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>医疗可及性</td></tr><tr><td>社会支柱</td><td>社会机遇</td><td>营养与健康机遇</td></tr></table>",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Accounting Key Issue Score",
+      "title_cn": "会计关键议题得分",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Key Issue Score is based on the aggregation of the following Key Metrics using the methodology described in Section 3.5.4, Calculating Governance Scores, of “ESG Ratings Methodology.”",
+          "content_cn": "关键议题得分根据《ESG 评级方法论》第 3.5.4 节“治理得分计算”所述方法，汇总以下关键指标计算。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Each Key Metric evaluates a specific aspect of a company's governance risk profile.",
+          "content_cn": "每项关键指标评估公司治理风险状况的一个具体方面。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Some Key Metrics are relevant only to companies with specific governance characteristics stemming from ownership type, management structure or other factors. Companies are distinguished by the type of issuer, indicated by the scope of each Key Metric below.",
+          "content_cn": "部分关键指标仅适用于因所有权类型、管理结构或其他因素而具有特定治理特征的公司。公司按发行人类型区分，各关键指标的适用范围如下所示。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Accounting Investigations Key Metric — Definition",
+      "title_cn": "会计调查关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company announced an internal investigation into its accounting or come under investigation from a regulatory body, or been subject to fine, settlement or conviction for issues related to its accounting practices? Or has the company's auditor come under investigation for issues related to its work on the audit of the company?",
+          "content_cn": "公司是否宣布对其会计开展内部调查，或受到监管机构调查，或因会计实务问题受到罚款、达成和解或被定罪？或者，公司审计师是否因对该公司开展审计工作所涉问题而受到调查？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Contribution: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型计分贡献：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Auditor Report Concerns Key Metric — Definition",
+      "title_cn": "审计报告疑虑关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company's independent auditor expressed a qualified, adverse or disclaimer of opinion, expressed concerns via an emphasis of matter paragraph, have concerns been identified in respect of the auditor's ability to present an independent opinion, or has the auditor been changed in a manner that may raise concerns for investors?",
+          "content_cn": "公司独立审计师是否出具保留意见、否定意见或无法表示意见，通过强调事项段表达疑虑，是否存在影响审计师发表独立意见能力的疑虑，或审计师更换方式是否可能引起投资者担忧？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes within the past year.",
+          "content_cn": "若过去一年内出现上述情况，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "This metric is based on the report of the external auditor disclosed in the annual financial statements and highlights any qualified auditor opinion or concerns raised in an emphasis of matter inserted by the auditor. Purely informational emphasis of matter paragraphs are not flagged. This metric is also evaluated on the basis of news reports or regulatory filings, including those that relate to interim or quarterly financial statements in which the auditors have raised concerns.",
+          "content_cn": "该指标以年度财务报表披露的外部审计师报告为基础，识别任何保留审计意见或审计师在强调事项段提出的疑虑。纯信息性强调事项段不作标记。该指标也根据新闻报道或监管申报进行评估，包括审计师在中期或季度财务报表中提出疑虑的相关资料。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: Variable, based on type of auditor opinion/emphasis of matter and whether there are consecutive years of concerns.",
+          "content_cn": "典型扣分：根据审计意见或强调事项的类型，以及是否连续多年存在疑虑而变化。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Range: 0.5 to 3.0",
+          "content_cn": "范围：0.5 至 3.0",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average: 0.776",
+          "content_cn": "平均值：0.776",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Internal Controls Key Metric — Definition",
+      "title_cn": "内部控制关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has there been evidence of material weakness in the company's internal control systems?",
+          "content_cn": "是否有证据表明公司的内部控制体系存在重大缺陷？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "The event tags or categories used to create this flag include the following: material weakness in internal controls or SOX 404 violations. Outside of the U.S., this metric is evaluated based on the assessment of the audit committee in relation to the effectiveness of internal control.",
+          "content_cn": "用于生成此标记的事件标签或类别包括内部控制重大缺陷或违反《萨班斯—奥克斯利法案》第 404 条。在美国以外地区，该指标根据审计委员会对内部控制有效性的评估确定。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Scope: All issuers",
+      "title_cn": "适用范围：所有发行人",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: Variable, based on event severity: Minor 0.0, Moderate 0.1, Severe 0.2, Very Severe 0.4",
+          "content_cn": "典型扣分：根据事件严重程度变化：轻微 0.0，中等 0.1，严重 0.2，极严重 0.4。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Restatements or Special Charges Key Metric — Definition",
+      "title_cn": "财务重述或特别费用关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Has the company had to restate previously published financial statements due to fraud, error or the mis-application of accounting standards?",
+          "content_cn": "公司是否因欺诈、错误或会计准则适用不当而不得不重述此前发布的财务报表？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Or has the company announced or reported special charges or write-offs that might raise questions as to the stewardship of the company by the board?",
+          "content_cn": "或者，公司是否宣布或报告了可能引发对董事会公司管理职责质疑的特别费用或资产核销？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The duration of the flag is dependent on the severity assessment.",
+          "content_cn": "若是，则作出标记。标记持续时间取决于严重程度评估。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: Variable, based on event severity: Minor 0.0, Moderate 0.3, Severe 0.5, Very Severe 1.0",
+          "content_cn": "典型扣分：根据事件严重程度变化：轻微 0.0，中等 0.3，严重 0.5，极严重 1.0。",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Late Filings Key Metric — Definition",
+      "title_cn": "延迟申报关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is the company currently experiencing a reporting delay or is it late in the filing of its quarterly, half-year (or interim) or annual reports, or its annual proxy/notice of annual meeting of shareholders?",
+          "content_cn": "公司当前是否存在报告延迟，或未按时提交季度、半年度（或中期）、年度报告，或年度委托投票文件／年度股东大会通知？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes. The flag will be removed once the case is assessed as concluded.",
+          "content_cn": "若是，则作出标记。案件被评估为已结束后移除标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: 0.2",
+          "content_cn": "典型扣分：0.2",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Auditor Independence Key Metric — Definition",
+      "title_cn": "审计师独立性关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Did the company pay its external audit firm less for audit and audit-related services than for other services in the last fiscal year?",
+          "content_cn": "上一财年，公司支付给外部审计机构的审计及审计相关服务费用，是否低于其他服务费用？",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Flagged if yes.",
+      "title_cn": "若是，则作出标记。",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This metric uses auditor fees schedules to flag companies where such independence may have been compromised.",
+          "content_cn": "该指标利用审计师费用明细，标记审计独立性可能受到影响的公司。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: 0.5",
+          "content_cn": "典型扣分：0.5",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Auditor Tenure Key Metric — Definition",
+      "title_cn": "审计师任期关键指标——定义",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Is there evidence that the external audit firm has served in excess of 20 consecutive years?",
+          "content_cn": "是否有证据表明外部审计机构已连续服务超过 20 年？",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Flagged if yes.",
+          "content_cn": "若是，则作出标记。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Scope: All issuers",
+          "content_cn": "适用范围：所有发行人",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Typical Scoring Deduction: Variable based on tenure:",
+          "content_cn": "典型扣分：根据任期变化：",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "0.3 if $>50$ years",
+          "content_cn": "若任期 $>50$ 年，扣 0.3 分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "0.2 if $>20$ years",
+          "content_cn": "若任期 $>20$ 年，扣 0.2 分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "0.1 if not disclosed",
+          "content_cn": "若未披露，扣 0.1 分",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "Average 0.137",
+          "content_cn": "平均值：0.137",
+          "translation_origin": "ai"
+        }
+      ]
+    },
+    {
+      "title_en": "Revision History",
+      "title_cn": "修订历史",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In June 2022, three Key Metrics derived from accounting ratios (Revenue Recognition, Expense Recognition and Asset-Liability Valuation) were removed.",
+          "content_cn": "2022 年 6 月，移除了三项源自会计比率的关键指标：收入确认、费用确认和资产负债估值。",
+          "translation_origin": "ai"
+        },
+        {
+          "type": "text",
+          "content": "In June 2023, the Auditor Tenure Key Metric was revised to be more specific.",
+          "content_cn": "2023 年 6 月，修订了审计师任期关键指标，使其规定更加具体。",
+          "translation_origin": "ai"
+        }
+      ]
+    }
+  ],
+  "sourceNote": "MSCI Accounting Key Issue；现行官网参考：March 2026。2026-09-11仅增量校核已确认问题，未标为全文审校通过；中文为辅助翻译与整理。",
+  "sourceRevision": {
+    "current_official_version": "March 2026",
+    "current_official_url": "https://www.msci.com/downloads/documents/access/sustainability-and-climate-resources-and-disclosures/msci-sustainability-and-climate-methodologies/esg-ratings/esg-key-issue-methodologies/governance-pillar/accounting-key-issue.pdf",
+    "current_official_sha256": "7a0cfc7f1f0fad3998db23913c6a3c9f563d020f928e07bf5d13763902153df3",
+    "legacy_extraction_version": "July 2023",
+    "review_status": "incremental_corrections_full_review_pending",
+    "checked_on": "2026-09-11"
+  },
+  "status": "历史解析依据；当前纠错以sections与source_revision为准，非现行全文认证",
+  "languagePolicy": {
+    "official_languages": [
+      "en"
+    ],
+    "zh_origin": "ai",
+    "contains_ai_translation": true,
+    "notice": "由AI翻译，仅供参考。",
+    "translated_by": "Codex 当前会话直接翻译",
+    "external_translation_api_used": false,
+    "updated_on": "2026-09-12",
+    "official_chinese_counterpart": "本批英文版本尚未核实对应官方中文；不将旧版中文标作本版官方译文"
+  },
+  "notice": "由AI翻译，仅供参考。"
+}
