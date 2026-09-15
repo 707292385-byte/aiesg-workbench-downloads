@@ -31,9 +31,9 @@
     { category: 'AI实践问题', title: 'AI 在资料整理中，怎样保证结果可以核对？', summary: '围绕来源追踪、人工复核与实际工作场景。', detail: '如何让 AI 整理的要点逐条对应到可查证的来源？' }
   ];
   const socialProfiles = [
-    { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
+    { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' },
     { name: '微信', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' },
-    { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' }
+    { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' }
   ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
