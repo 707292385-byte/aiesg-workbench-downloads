@@ -34,7 +34,7 @@
   ];
   const socialProfiles = [
     { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
-    { name: '微信公众号', image: 'assets/community/qr-wechat-official.jpg', crop: 'official' },
+    { name: '微信公众号', image: 'assets/community/qr-wechat-official-tight.jpg', crop: 'official' },
     { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' },
     { name: '微信号', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' }
   ];

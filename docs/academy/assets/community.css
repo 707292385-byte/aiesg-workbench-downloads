@@ -146,3 +146,7 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-profile-contact p{margin:0;color:#728979;font-size:13px}
 .co-profile-contact a{flex:none;padding:11px 15px;border-radius:9px;background:#347b59;color:#fff;text-decoration:none;font-size:14px;font-weight:700}
 @media(max-width:700px){.co-profile-focus{grid-template-columns:1fr}.co-profile-contact{align-items:flex-start;flex-direction:column}.co-profile-hero{padding:34px 27px}}
+/* 公众号原图保留二维码识别留白，同时稍微放大显示以与其他入口对齐。 */
+.co-qr-window--official{width:min(100%,102px)}
+@media(max-width:700px){.co-qr-window--official{width:min(100%,92px)}}
+@media(max-width:520px){.co-qr-window--official{width:min(100%,86px)}}
