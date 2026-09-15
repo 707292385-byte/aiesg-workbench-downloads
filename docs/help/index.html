@@ -5,6 +5,7 @@
 .guide-video{max-width:760px;margin:18px 0 22px;padding:12px;background:#f7faff;border:1px solid #e2eaf7;border-radius:12px}.guide-video video{display:block;width:100%;aspect-ratio:16/9;background:#14213a;border-radius:8px}.guide-video figcaption{margin-top:10px;font-size:14px;line-height:1.55;color:#52627a}.guide-video figcaption a{margin-left:8px;white-space:nowrap}@media(max-width:700px){.guide-video{padding:8px}.guide-video figcaption{font-size:13px}}
 
 .guide-video video:fullscreen{width:100vw;height:100vh;aspect-ratio:auto;object-fit:contain;background:#000;border-radius:0}
+.guide-video figcaption button{margin-left:8px;font-weight:600}.video-expanded{overflow:hidden}.guide-video.is-expanded{position:fixed;inset:0;z-index:10;max-width:none;margin:0;padding:12px;display:flex;flex-direction:column;border:0;border-radius:0;background:#0b1323}.guide-video.is-expanded video{flex:1;min-height:0;width:100%;height:100%;aspect-ratio:auto;object-fit:contain;background:#000}.guide-video.is-expanded figcaption{color:#f1f5f9}@media(max-width:700px){.guide-video figcaption button{margin:8px 0 0}.guide-video.is-expanded{padding:8px}}
 </style></head>
 <body>
 <header class="mobile-bar"><strong>帮助文档</strong><button id="menu-toggle" aria-expanded="false" aria-controls="guide-sidebar">查看目录</button></header>
@@ -81,7 +82,7 @@
 <p>例如：“明天下午3点前，整理好项目资料。”检查日期和截止时间后，点击“添加”，这件事就进入清单。暂时没有确定时间，也可以先记下事项。</p>
 <figure class="guide-video">
   <video controls playsinline preload="none" aria-label="一句话创建待办操作演示" src="./videos/todo-create-ep01-v1.mp4"></video>
-  <figcaption>操作演示：输入一句话、核对识别出的时间，再把事项添加到清单（约41秒）。</figcaption>
+  <figcaption>操作演示：输入一句话、核对识别出的时间，再把事项添加到清单（约41秒）。<button type="button" data-video-expand aria-expanded="false">放大观看</button></figcaption>
 </figure>
 
 <p>清单帮助你查找和完成事项；看板方便查看不同状态；时间轴和日历帮助你看清安排。进入待办详情，还可以修改名称、时间、分类、紧急程度与重要性。</p>
@@ -182,7 +183,7 @@
 </ol>
 <figure class="guide-video">
   <video controls playsinline preload="none" aria-label="一句话创建待办操作演示" src="./videos/todo-create-ep01-v1.mp4"></video>
-  <figcaption>跟着视频核对输入、识别出的时间和创建结果（约41秒）。</figcaption>
+  <figcaption>跟着视频核对输入、识别出的时间和创建结果（约41秒）。<button type="button" data-video-expand aria-expanded="false">放大观看</button></figcaption>
 </figure>
 
 <p>可以从这些例子开始：</p>
@@ -621,8 +622,17 @@
   const chapters=[...document.querySelectorAll('[data-chapter]')];
   const search=document.getElementById('search');
   const menu=document.getElementById('menu-toggle');
+  function closeExpanded(){
+    document.querySelectorAll('.guide-video.is-expanded').forEach(figure=>{
+      figure.classList.remove('is-expanded');
+      const button=figure.querySelector('[data-video-expand]');
+      button.textContent='放大观看';button.setAttribute('aria-expanded','false');
+    });
+    document.body.classList.remove('video-expanded');
+  }
   function closeMenu(){document.body.classList.remove('menu-open');menu.setAttribute('aria-expanded','false');}
   function show(){
+    closeExpanded();
     let hash='';try{hash=decodeURIComponent(location.hash.slice(1));}catch{}
     let [id,anchor]=(hash||'doc-0').split('~');
     // Old feedback bookmarks now lead to the final common questions chapter.
@@ -650,7 +660,17 @@
     document.getElementById('empty').hidden=count>0;
   });
   menu.addEventListener('click',()=>{const open=document.body.classList.toggle('menu-open');menu.setAttribute('aria-expanded',String(open));});
-  document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMenu();});
+  document.addEventListener('click',event=>{
+    const button=event.target.closest?.('[data-video-expand]');
+    if(!button)return;
+    const figure=button.closest('.guide-video');
+    const expanded=figure.classList.contains('is-expanded');
+    closeExpanded();
+    if(expanded)return;
+    figure.classList.add('is-expanded');document.body.classList.add('video-expanded');
+    button.textContent='退出放大';button.setAttribute('aria-expanded','true');
+  });
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(document.body.classList.contains('video-expanded'))closeExpanded();else closeMenu();}});
   document.querySelector('nav').addEventListener('click',event=>{const link=event.target.closest('a');if(link&&link.hash===location.hash)show();});
   window.addEventListener('hashchange',show);show();
 })();
