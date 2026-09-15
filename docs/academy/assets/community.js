@@ -112,6 +112,7 @@
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button></div></section>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它。</p><div class="co-support-qr" aria-label="支持二维码位置">▦</div><small>支持二维码位置</small><button type="button" data-close-support>关闭</button></dialog>'
+      + '<footer class="co-site-footer" aria-label="社区说明"><small>社区内容在线更新 · © 2026 Xiao〇</small><small><strong>版权声明：</strong>原创解读与页面设计由 Xiao〇 制作；引用资料归原作者。</small><small><strong>信息声明：</strong>内容根据公开资料整理，方法和标准可能更新，请以官方现行文件为准。</small><small><strong>免责声明：</strong>这是个人开发的测试项目，功能和内容可能有未知问题。建议用非工作电脑、非真实或脱敏资料体验；重要工作判断请自行核对。</small></footer>'
       + '</div>';
   }
 
