@@ -31,9 +31,10 @@
     { category: 'AI实践问题', title: 'AI 在资料整理中，怎样保证结果可以核对？', summary: '围绕来源追踪、人工复核与实际工作场景。', detail: '如何让 AI 整理的要点逐条对应到可查证的来源？' }
   ];
   const socialProfiles = [
+    { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
+    { name: '微信公众号', image: '', crop: 'placeholder' },
     { name: '抖音', image: 'assets/community/qr-douyin-source.jpg', crop: 'douyin' },
-    { name: '微信', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' },
-    { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' }
+    { name: '微信号', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' }
   ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
@@ -85,7 +86,9 @@
 
   function renderSocial() {
     return '<section class="co-social-area" aria-label="Xiao〇的平台二维码"><div class="co-social-heading"><span>FIND ME</span><h3>在这些平台找到 Xiao〇</h3><p>扫描二维码，继续交流 ESG、AI 与工作台的开发。</p></div><div class="co-social-grid">'
-      + socialProfiles.map(item => '<article class="co-social-card"><div class="co-qr-window co-qr-window--' + item.crop + '"><img src="' + item.image + '" alt="' + item.name + '二维码" loading="lazy"></div><strong>' + item.name + '</strong></article>').join('')
+      + socialProfiles.map(item => '<article class="co-social-card"><div class="co-qr-window co-qr-window--' + item.crop + '">'
+        + (item.image ? '<img src="' + item.image + '" alt="' + item.name + '二维码" decoding="async">' : '<span>二维码待补充</span>')
+        + '</div><strong>' + item.name + '</strong></article>').join('')
       + '</div></section>';
   }
 
