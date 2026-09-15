@@ -39,10 +39,10 @@
     { name: '微信号', image: 'assets/community/qr-wechat-source.jpg', crop: 'wechat' }
   ];
   const contactOffers = [
-    { icon: 'cooperate', title: '项目合作', description: '围绕ESG报告、评级、披露与项目推进，一起梳理可落地的合作方式。' },
-    { icon: 'support', title: '咨询辅导', description: '就标准理解、工作方法和实际难题，获得针对性的交流与建议。' },
-    { icon: 'ai', title: 'AI实践带练', description: '从真实工作场景出发，练习让AI辅助资料整理、分析和复核。' },
-    { icon: 'cooperate', title: '商务合作', description: '欢迎内容共创、培训合作、产品试用与其它商务沟通。' }
+    { image: 'assets/community/offer-project.png', title: '项目合作', description: 'ESG报告、评级、披露与项目推进的合作支持。' },
+    { image: 'assets/community/offer-consulting.png', title: '咨询辅导', description: '围绕标准理解、工作方法与实际难题交流。' },
+    { image: 'assets/community/offer-ai-practice.png', title: 'AI实践带练', description: '从真实工作场景练习AI整理、分析与复核。' },
+    { image: 'assets/community/offer-business.png', title: '商务合作', description: '欢迎内容共创、培训合作、产品试用与沟通。' }
   ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
@@ -101,7 +101,7 @@
   }
 
   function renderOffers() {
-    return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer"><i>' + svgIcon(item.icon) + '</i><h3>' + item.title + '</h3><p>' + item.description + '</p></article>').join('') + '</div>'
+    return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer co-offer--compact"><div class="co-offer-illustration"><img src="' + item.image + '" alt="' + item.title + '服务场景插画"></div><div class="co-offer-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p></div><span class="co-offer-paid">付费</span></article>').join('') + '</div>'
       + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>请选择联系类别，说明想交流的内容，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
   }
 
