@@ -14,31 +14,44 @@
   "sections": [
     {
       "title": "标准定位",
-      "paragraphs": [
-        "健康与营养属于社会维度。该标准只在部分行业适用。"
-      ],
-      "points": []
+      "blocks": [
+        {
+          "type": "text",
+          "content_cn": "健康与营养属于社会维度。该标准只在部分行业适用。"
+        }
+      ]
     },
     {
       "title": "评估结构",
-      "paragraphs": [],
-      "points": [
-        "平均权重：5.3%",
-        "问题索引：0项",
-        "适用性：行业特定"
+      "blocks": [
+        {
+          "type": "point",
+          "content_cn": "平均权重：5.3%"
+        },
+        {
+          "type": "point",
+          "content_cn": "问题索引：0项"
+        },
+        {
+          "type": "point",
+          "content_cn": "适用性：行业特定"
+        }
       ]
     },
     {
       "title": "关注主题",
-      "paragraphs": [],
-      "points": []
+      "blocks": []
     },
     {
       "title": "使用提示",
-      "paragraphs": [
-        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
-      ],
-      "points": []
+      "blocks": [
+        {
+          "type": "text",
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+        }
+      ]
     }
-  ]
+  ],
+  "group": "社会",
+  "questionGroups": []
 }

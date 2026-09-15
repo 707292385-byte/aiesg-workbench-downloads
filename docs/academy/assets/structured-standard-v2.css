@@ -24,6 +24,7 @@ body[data-page=structured-standard]{margin:0;background:#f3f6f4;color:#17241f}
 .structured-focus article{padding:17px 18px;min-height:124px}
 .structured-focus small{color:var(--mp-green);font-size:10px;font-weight:750}
 .structured-focus p{margin:9px 0 0;color:#41544a;font-size:12px;line-height:1.65}
+.structured-process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.structured-process article{position:relative;min-height:144px;padding:17px;border:1px solid #dce8e1;border-radius:10px;background:#fff}.structured-process article:after{position:absolute;top:27px;right:-8px;z-index:2;color:var(--mp-green);font-size:14px;content:'→'}.structured-process article:last-child:after{display:none}.structured-process span{display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:var(--hub-tint);color:var(--mp-green);font-size:10px;font-weight:800}.structured-process h3{margin:14px 0 7px;color:#294434;font-size:14px;line-height:1.45}.structured-process p{margin:0;color:#64786c;font-size:11px;line-height:1.65}
 .structured-standard-page .structured-group>header{background:linear-gradient(110deg,var(--hub-tint),#fff)}
 .structured-standard-page .mh-topic-card{min-height:134px}
 .structured-standard-page .mh-topic-card small{color:var(--mp-green)}
@@ -31,5 +32,5 @@ body[data-page=structured-standard]{margin:0;background:#f3f6f4;color:#17241f}
 .structured-standard-page .mh-topic-card>div>span{background:var(--hub-tint);color:var(--mp-green)}
 .structured-standard-page .mh-topic-card>div>b{color:var(--mp-green)}
 .structured-standard-page .mh-source small{color:var(--mp-green)}
-@media(max-width:850px){.structured-flow{flex-direction:column}.structured-flow i{transform:rotate(90deg)}.structured-flow>div{min-height:68px}.structured-focus{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.structured-flow{flex-direction:column}.structured-flow i{transform:rotate(90deg)}.structured-flow>div{min-height:68px}.structured-focus,.structured-process{grid-template-columns:repeat(2,minmax(0,1fr))}.structured-process article:after{display:none}}
 @media(max-width:600px){.structured-focus{grid-template-columns:1fr}.structured-standard-page .mh-hero-grid{grid-template-columns:1fr}.structured-standard-page .mp-hero-side{grid-template-columns:repeat(2,minmax(0,1fr))}.structured-standard-page .structured-group>header{height:auto}}

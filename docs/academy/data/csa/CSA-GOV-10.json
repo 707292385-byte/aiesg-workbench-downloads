@@ -14,33 +14,61 @@
   "sections": [
     {
       "title": "标准定位",
-      "paragraphs": [
-        "负责任人工智能属于治理与经济维度。该标准属于跨行业通用评估范围。"
-      ],
-      "points": []
+      "blocks": [
+        {
+          "type": "text",
+          "content_cn": "负责任人工智能属于治理与经济维度。该标准属于跨行业通用评估范围。"
+        }
+      ]
     },
     {
       "title": "评估结构",
-      "paragraphs": [],
-      "points": [
-        "平均权重：1%",
-        "问题索引：1项",
-        "适用性：通用标准"
+      "blocks": [
+        {
+          "type": "point",
+          "content_cn": "平均权重：1%"
+        },
+        {
+          "type": "point",
+          "content_cn": "问题索引：1项"
+        },
+        {
+          "type": "point",
+          "content_cn": "适用性：通用标准"
+        }
       ]
     },
     {
       "title": "关注主题",
-      "paragraphs": [],
-      "points": [
-        "负责任的人工智能"
+      "blocks": [
+        {
+          "type": "point",
+          "content_cn": "负责任的人工智能"
+        }
       ]
     },
     {
       "title": "使用提示",
-      "paragraphs": [
-        "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
-      ],
-      "points": []
+      "blocks": [
+        {
+          "type": "text",
+          "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。"
+        }
+      ]
+    }
+  ],
+  "group": "治理与经济",
+  "questionGroups": [
+    {
+      "title": "负责任的人工智能",
+      "questions": [
+        {
+          "id": "csa-q-0098",
+          "subtopic": "负责任的人工智能",
+          "title": "负责任的人工智能政策",
+          "layout": "公司是否有关于负责任的人工智能的政策，并且该政策是否公开？\n\n是的，该公司制定了关于负责任的人工智能政策，该政策至少涵盖以下方面之一。请指出该信息在公开报告或公司网站上的具体位置。"
+        }
+      ]
     }
   ]
 }
