@@ -155,3 +155,38 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-qr-window--official{width:min(100%,102px)}
 @media(max-width:700px){.co-qr-window--official{width:min(100%,92px)}}
 @media(max-width:520px){.co-qr-window--official{width:min(100%,86px)}}
+
+
+/* 社区首页：只展示已公开内容，导航和空状态保持轻量。 */
+.co-hero-nav{gap:7px;margin-top:18px}
+.co-hero-nav a{min-height:30px;padding:6px 10px;gap:6px;border-radius:8px;font-size:11px;font-weight:650}
+.co-hero-nav a span{display:grid;place-items:center;width:15px;height:15px}
+.co-hero-nav a svg{width:15px;height:15px}
+.co-hero-meta{display:flex;align-items:center;gap:9px;margin-top:12px}
+.co-hero-meta>small{color:#b9e9cd;font-size:10px;letter-spacing:.05em}
+.co-hero-meta .co-view-count{margin-top:0}
+.co-section-head{gap:9px}
+.co-section-head b{width:28px;height:28px;border-radius:8px;font-size:10px}
+.co-section-icon{display:grid;place-items:center;width:28px;height:28px;border:1px solid #d8e8dd;border-radius:8px;background:#fff;color:#397e58}
+.co-section-icon svg{width:16px;height:16px}
+.co-section-head h2{font-size:19px}
+.co-inline-empty{margin-top:10px;padding-top:10px;border-top:1px solid #ecf1ed;color:#81948a;font-size:12px}
+.co-empty-state{display:grid;place-items:center;align-content:center;grid-column:1/-1;min-height:112px;padding:18px;border:1px dashed #ccddd1;border-radius:11px;background:#fafcfb;color:#81948a;text-align:center}
+.co-empty-state span{display:block;margin-bottom:5px;color:#6a9b7b;font-size:19px;line-height:1}
+.co-empty-state p{margin:0;font-size:12px;line-height:1.6}
+.co-question-grid>.co-empty-state{min-height:128px}
+.co-site-footer strong{font-weight:inherit}
+.co-observations-page{max-width:1100px;margin:0 auto;padding:30px clamp(18px,3vw,42px) 70px;color:#213a30}
+.co-observations-back{display:inline-flex;margin-bottom:24px;color:#397958;font-size:13px;font-weight:700;text-decoration:none}
+.co-observations-back:hover{text-decoration:underline}
+.co-observations-page>header{padding:32px clamp(24px,4vw,46px);border-radius:18px;background:linear-gradient(125deg,#153b32,#32775e 70%,#55977c);color:#fff}
+.co-observations-page>header .co-eyebrow{display:block;color:#c7ecd3}
+.co-observations-page h1{margin:10px 0 8px;color:#fff;font-size:clamp(30px,4vw,43px);line-height:1.2}
+.co-observations-page>header p{margin:0;color:#e0f1e7;font-size:14px;line-height:1.7}
+.co-observations-page section{margin-top:26px}
+.co-observations-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px}
+.co-observations-head h2{margin:0;font-size:20px}
+.co-observations-head small{color:#81948a;font-size:12px}
+.co-observations-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.co-observations-grid .co-empty-state{min-height:180px}
+@media(max-width:760px){.co-hero-meta{align-items:flex-start;flex-direction:column;gap:5px}.co-section-icon{display:none}.co-observations-grid{grid-template-columns:1fr}.co-observations-page{padding-top:20px}.co-observations-page>header{padding:28px 24px}}

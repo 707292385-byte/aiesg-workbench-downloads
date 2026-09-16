@@ -2,6 +2,7 @@
   'use strict';
 
   const communityForms = {
+    question: 'https://my.feishu.cn/share/base/shrcnnchBl28MlLU22mTkhafOQg',
     contact: 'https://my.feishu.cn/share/base/shrcnUKzCwW2jbt1Vi9asLGutEh'
   };
   const counterApi = 'https://aiesg-community-counters.aiesg-beta-feedback-worker.workers.dev';
@@ -41,16 +42,9 @@
     return url.pathname.split('/').pop() + url.search;
   }
   const standards = [
-    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
-    { id: 'ashare', type: '披露指引', title: 'A股可持续发展报告', detail: '议题结构 · 披露要求' },
-    { id: 'hkex', type: '披露要求', title: '港交所 ESG 披露', detail: '要求理解 · 使用边界' },
-    { id: 'csa', type: '评价方法', title: 'CSA 评价方法', detail: '题目结构 · 评分关系' }
+    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' }
   ];
-  const starterQuestions = [
-    { category: '工作台共创', title: '项目推进时，最需要工作台帮我看清哪一步？', summary: '围绕项目阶段、任务安排与进度提醒。', detail: '哪些节点需要提醒，哪些进度变化值得提前关注？' },
-    { category: 'ESG工作难题', title: '理解披露标准时，哪些概念最容易混淆？', summary: '围绕标准原文、定义、关联关系和使用边界。', detail: '一个要求在不同标准中表述不同，应该怎样识别适用边界？' },
-    { category: 'AI实践问题', title: 'AI 在资料整理中，怎样保证结果可以核对？', summary: '围绕来源追踪、人工复核与实际工作场景。', detail: '如何让 AI 整理的要点逐条对应到可查证的来源？' }
-  ];
+
   const socialProfiles = [
     { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
     { name: '微信公众号', image: 'assets/community/qr-wechat-official-tight.jpg', crop: 'official' },
@@ -225,29 +219,71 @@
       + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>请选择联系类别，说明想交流的内容，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
   }
 
+  function publicQuestions(publicData) {
+    return Array.isArray(publicData.questions)
+      ? publicData.questions.filter(item => item && typeof item.title === 'string' && item.title.trim())
+      : [];
+  }
+
+  function publicObservations(publicData) {
+    return (Array.isArray(publicData.observations) ? publicData.observations : [])
+      .filter(item => item && typeof item.title === 'string' && item.title.trim())
+      .slice()
+      .sort((left, right) => String(right.date || '').localeCompare(String(left.date || ''), 'zh-CN'));
+  }
+
+  function emptyState(message) {
+    return '<div class="co-empty-state"><span aria-hidden="true">·</span><p>' + escapeHtml(message) + '</p></div>';
+  }
+
+  function renderObservation(item) {
+    const category = escapeHtml(item.category || '观察');
+    const title = escapeHtml(item.title || '');
+    const summary = escapeHtml(item.summary || '');
+    const date = escapeHtml(item.date || '');
+    const meta = [category, date].filter(Boolean).join(' · ');
+    return '<article class="co-item co-observation"><small>' + meta + '</small><strong>' + title + '</strong>'
+      + (summary ? '<span>' + summary + '</span>' : '') + '</article>';
+  }
+
+  function sectionHead(number, icon, title, description) {
+    return '<div class="co-section-head"><b>' + number + '</b><span class="co-section-icon">' + svgIcon(icon) + '</span><h2>' + title + '</h2><p>' + description + '</p></div>';
+  }
+
   function render(publicData) {
     const root = document.getElementById('community-page');
     if (!root) return;
-    const questions = Array.isArray(publicData.questions) && publicData.questions.length ? publicData.questions : starterQuestions;
+    const questions = publicQuestions(publicData);
+    const observations = publicObservations(publicData);
+    const recentObservations = observations.slice(0, 4);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge">学习知识</a><a href="#co-community">共创社区</a><a href="#co-about">关于 Xiaoyuan</a></nav><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
-      + '<section class="co-section" id="co-knowledge"><div class="co-section-head"><b>01</b><h2>学习知识</h2><p>方法拆解与资讯观察</p></div>'
-      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>标准、评级与披露方法的拆解和关联。把复杂原始资料整理成更容易理解和使用的结构。</p></div><div class="co-band-content"><div class="co-band-head"><strong>热门知识目录</strong><a class="co-more" href="' + pageHref('index.html') + '">更多知识　→</a></div><div class="co-items">'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
+      + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
+      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>已发布的内容以核验完成的原始资料为依据，其他标准内容将在完成整理后陆续开放。</p></div><div class="co-band-content"><div class="co-band-head"><strong>已发布</strong></div><div class="co-items">'
       + standards.map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
-      + '</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>跟进 ESG 方法更新、行业动态与实践问题，关注变化对实际工作的影响。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><button type="button" data-community-news-more>更多观察　→</button></div><div class="co-items co-items--news"><article class="co-item"><small>方法更新</small><strong>方法论更新如何影响使用？</strong><span>看来源、版本和主要变化</span></article><article class="co-item"><small>实践观察</small><strong>ESG 工作中的新问题</strong><span>把工作难题拆成可讨论的问题</span></article><article class="co-item"><small>开发动态</small><strong>工作台开发手记</strong><span>功能变化与真实使用反馈</span></article><article class="co-item" data-community-news-extra hidden><small>资料核对</small><strong>先找到可信的原件</strong><span>来源核验与内容解读分开</span></article></div></div></article></section>'
-      + '<section class="co-section" id="co-community"><div class="co-section-head"><b>02</b><h2>共创社区</h2><p>感谢伙伴，整理大家关心的问题</p></div>'
+      + '</div><div class="co-inline-empty">其他方法与知识内容整理中。</div></div></article>'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">更多观察　→</a></div><div class="co-items co-items--news">'
+      + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
+      + '</div></div></article></section>'
+      + '<section class="co-section" id="co-community">' + sectionHead('02', 'map', '共创社区', '感谢伙伴，整理大家关心的问题')
       + renderMap(publicData)
-      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>相近提问由 Xiao〇 筛选整理后展示；按同类提问和详情阅读分别看热度。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact" data-service-label="问题反馈">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
-      + questions.map(renderQuestion).join('')
+      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>只展示完成整理、适合公开讨论的内容。</p></div><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
+      + (questions.length ? questions.map(renderQuestion).join('') : emptyState('暂未公开问题。'))
       + '</div></div></section>'
-      + '<section class="co-section" id="co-about"><div class="co-section-head"><b>03</b><h2>关于 Xiao〇</h2><p>个人介绍、专业交流与合作</p></div><div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
+      + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
       + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
-      + '<footer class="co-site-footer" aria-label="社区说明"><div><small>社区内容在线更新 · © 2026 Xiao〇</small><small><strong>版权声明：</strong>原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small><strong>信息与隐私：</strong>内容按公开资料整理，以官方现行文件为准；浏览和作者点赞只上传计数事件，不上传工作台资料；联系表单用于回复。</small><small><strong>免责声明：</strong>个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
+      + '<footer class="co-site-footer" aria-label="社区说明"><div><small>社区内容在线更新 · © 2026 Xiao〇</small><small>版权声明：原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small>信息与隐私：内容按公开资料整理，以官方现行文件为准；浏览和作者点赞只上传计数事件，不上传工作台资料；联系表单用于回复。</small><small>免责声明：个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
       + '</div>';
+  }
+
+  function renderObservationsPage(publicData) {
+    const root = document.getElementById('observations-page');
+    if (!root) return;
+    const observations = publicObservations(publicData);
+    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small>' + (observations.length ? observations.length + ' 条' : '暂无内容') + '</small></div><div class="co-observations-grid">' + (observations.length ? observations.map(renderObservation).join('') : emptyState('暂未发布观察。')) + '</div></section></main>';
   }
 
   function notifyHost(page) {
@@ -256,15 +292,20 @@
 
   async function mount() {
     const data = await loadPublicData();
-    render(data);
-    document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
-      document.querySelector('[data-form-loading]')?.classList.add('loaded');
-    });
-    notifyHost('community.html');
-    void initializeCounters();
-    if (new URLSearchParams(location.search).get('open-form') === 'question') {
-      document.querySelector('[data-open-community-form="contact"]')?.click();
+    const isCommunityHome = Boolean(document.getElementById('community-page'));
+    if (isCommunityHome) {
+      render(data);
+      document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
+        document.querySelector('[data-form-loading]')?.classList.add('loaded');
+      });
+      void initializeCounters();
+      if (new URLSearchParams(location.search).get('open-form') === 'question') {
+        document.querySelector('[data-open-community-form="contact"]')?.click();
+      }
+    } else {
+      renderObservationsPage(data);
     }
+    notifyHost(location.pathname.split('/').pop() || 'community.html');
   }
 
   document.addEventListener('click', event => {
@@ -280,10 +321,13 @@
       const frame = dialog?.querySelector('[data-community-form-frame]');
       if (!dialog || !frame || !communityForms[kind]) return;
       const service = formTrigger.dataset.serviceLabel || '';
-      dialog.querySelector('#co-form-title').textContent = '联系 Xiao〇';
-      dialog.querySelector('[data-form-intro]').textContent = service
-        ? '请在表单中选择“' + service + '”，再填写想交流的内容和联系方式。'
-        : '请在表单中选择联系类别，填写想交流的内容，并留下微信号、电话或邮箱中的一种。';
+      const isQuestion = kind === 'question';
+      dialog.querySelector('#co-form-title').textContent = isQuestion ? '提出一个问题' : '联系 Xiao〇';
+      dialog.querySelector('[data-form-intro]').textContent = isQuestion
+        ? '请填写希望讨论的问题。公开展示前会由 Xiao〇 人工筛选、脱敏和整理。'
+        : service
+          ? '请在表单中选择“' + service + '”，再填写想交流的内容和联系方式。'
+          : '请在表单中选择联系类别，填写想交流的内容，并留下微信号、电话或邮箱中的一种。';
       dialog.querySelector('[data-form-loading]').classList.remove('loaded');
       dialog.showModal();
       frame.src = communityForms[kind];
@@ -308,12 +352,6 @@
       return;
     }
     if (event.target.id === 'co-support-dialog') { event.target.close(); return; }
-    const news = event.target.closest('#community-page [data-community-news-more]');
-    if (news) {
-      const extra = document.querySelector('#community-page [data-community-news-extra]');
-      if (extra) { extra.hidden = !extra.hidden; news.textContent = extra.hidden ? '更多观察　→' : '收起观察　↑'; }
-      return;
-    }
   });
 
   document.addEventListener('DOMContentLoaded', mount);
