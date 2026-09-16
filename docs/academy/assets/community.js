@@ -23,6 +23,17 @@
   };
   const svgIcon = name => '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + iconPaths[name] + '</svg>';
   const embedded = new URLSearchParams(location.search).get('embed') === '1';
+  let lastActivitySignal = 0;
+  function notifyActivity() {
+    if (!embedded || window.parent === window || !window.parent?.postMessage) return;
+    const now = Date.now();
+    if (now - lastActivitySignal < 5000) return;
+    lastActivitySignal = now;
+    window.parent.postMessage({ type: 'aiesg:community-activity' }, '*');
+  }
+  ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(name =>
+    document.addEventListener(name, notifyActivity, { passive: true, capture: true })
+  );
   function pageHref(page, values = {}) {
     const url = new URL(page, location.href);
     Object.entries(values).forEach(([key, value]) => url.searchParams.set(key, value));
@@ -306,5 +317,5 @@
   });
 
   document.addEventListener('DOMContentLoaded', mount);
-  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms };
+  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms, notifyActivity };
 })();
