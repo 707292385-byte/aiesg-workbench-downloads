@@ -216,7 +216,7 @@
 
   function renderOffers() {
     return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer co-offer--compact"><div class="co-offer-illustration"><img src="' + item.image + '" alt="' + item.title + '服务场景插画"></div><div class="co-offer-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p></div><span class="co-offer-paid">付费</span></article>').join('') + '</div>'
-      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>请选择联系类别，说明想交流的内容，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
+      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>选择交流方向，说明想交流的问题，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
   }
 
   function publicQuestions(publicData) {
@@ -300,7 +300,7 @@
       });
       void initializeCounters();
       if (new URLSearchParams(location.search).get('open-form') === 'question') {
-        document.querySelector('[data-open-community-form="contact"]')?.click();
+        document.querySelector('[data-open-community-form="question"]')?.click();
       }
     } else {
       renderObservationsPage(data);
@@ -327,7 +327,7 @@
         ? '请填写希望讨论的问题。公开展示前会由 Xiao〇 人工筛选、脱敏和整理。'
         : service
           ? '请在表单中选择“' + service + '”，再填写想交流的内容和联系方式。'
-          : '请在表单中选择联系类别，填写想交流的内容，并留下微信号、电话或邮箱中的一种。';
+          : '请在表单中选择交流方向，填写想交流的问题，并留下微信号、电话或邮箱中的一种。';
       dialog.querySelector('[data-form-loading]').classList.remove('loaded');
       dialog.showModal();
       frame.src = communityForms[kind];
