@@ -242,8 +242,12 @@
     const summary = escapeHtml(item.summary || '');
     const date = escapeHtml(item.date || '');
     const meta = [category, date].filter(Boolean).join(' · ');
-    return '<article class="co-item co-observation"><small>' + meta + '</small><strong>' + title + '</strong>'
-      + (summary ? '<span>' + summary + '</span>' : '') + '</article>';
+    const inner = '<small>' + meta + '</small><strong>' + title + '</strong>'
+      + (summary ? '<span>' + summary + '</span>' : '');
+    if (item.id) {
+      return '<a class="co-item co-observation" href="' + pageHref('observation.html', { id: item.id }) + '">' + inner + '</a>';
+    }
+    return '<article class="co-item co-observation">' + inner + '</article>';
   }
 
   function sectionHead(number, icon, title, description) {
@@ -286,6 +290,64 @@
     root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small>' + (observations.length ? observations.length + ' 条' : '暂无内容') + '</small></div><div class="co-observations-grid">' + (observations.length ? observations.map(renderObservation).join('') : emptyState('暂未发布观察。')) + '</div></section></main>';
   }
 
+  function observationById(publicData, id) {
+    return publicObservations(publicData).find(item => item && item.id === id) || null;
+  }
+
+  function renderObservationBlocks(item) {
+    const blocks = Array.isArray(item.content) ? item.content : [];
+    return blocks.map(block => {
+      const type = block && typeof block.type === 'string' ? block.type : '';
+      switch (type) {
+        case 'lead':
+          return '<p class="co-obs-lead">' + escapeHtml(block.text) + '</p>';
+        case 'heading':
+          return '<h2 class="co-obs-heading">' + escapeHtml(block.text) + '</h2>';
+        case 'facts':
+          return '<div class="co-obs-facts">' + (Array.isArray(block.items) ? block.items.map(fact =>
+            '<div class="co-obs-fact"><span>' + escapeHtml(fact.label) + '</span><strong>' + escapeHtml(fact.value) + '</strong></div>'
+          ).join('') : '') + '</div>';
+        case 'timeline':
+          return '<ol class="co-obs-timeline">' + (Array.isArray(block.items) ? block.items.map((step, index) =>
+            '<li><span class="co-tl-date">' + escapeHtml(step.date) + '</span><span class="co-tl-line" aria-hidden="true"><i>' + (index + 1) + '</i></span><div class="co-tl-copy"><strong>' + escapeHtml(step.title) + '</strong><p>' + escapeHtml(step.detail) + '</p></div></li>'
+          ).join('') : '') + '</ol>';
+        case 'table':
+          return '<div class="co-obs-table-wrap"><table class="co-obs-table"><thead><tr>' + (Array.isArray(block.headers) ? block.headers.map(header => '<th>' + escapeHtml(header) + '</th>').join('') : '') + '</tr></thead><tbody>' + (Array.isArray(block.rows) ? block.rows.map(row =>
+            '<tr>' + (Array.isArray(row) ? row.map(cell => '<td>' + escapeHtml(cell) + '</td>').join('') : '<td></td>') + '</tr>'
+          ).join('') : '') + '</tbody></table></div>'
+            + (block.note ? '<p class="co-obs-table-note">' + escapeHtml(block.note) + '</p>' : '');
+        case 'list':
+          return '<ul class="co-obs-list">' + (Array.isArray(block.items) ? block.items.map(text => '<li>' + escapeHtml(text) + '</li>').join('') : '') + '</ul>';
+        case 'note':
+          return '<aside class="co-obs-note">' + escapeHtml(block.text) + '</aside>';
+        case 'source':
+          return '<p class="co-obs-source">' + escapeHtml(block.label || '来源') + '：<a href="' + escapeHtml(block.url || '#') + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(block.text) + '</a></p>';
+        default:
+          return '';
+      }
+    }).join('');
+  }
+
+  function renderObservationDetail(publicData) {
+    const root = document.getElementById('observation-page');
+    if (!root) return;
+    const id = new URLSearchParams(location.search).get('id') || '';
+    const item = observationById(publicData, id);
+    if (!item) {
+      root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">← 返回资讯与观察</a>' + emptyState('未找到该资讯，可能已被移除。') + '</main>';
+      return;
+    }
+    const category = escapeHtml(item.category || '观察');
+    const title = escapeHtml(item.title || '');
+    const summary = escapeHtml(item.summary || '');
+    const date = escapeHtml(item.date || '');
+    root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">← 返回资讯与观察</a>'
+      + '<header class="co-observation-hero"><span class="co-eyebrow">' + category + (date ? ' · ' + date : '') + '</span><h1>' + title + '</h1>'
+      + (summary ? '<p>' + summary + '</p>' : '') + '</header>'
+      + '<div class="co-obs-body">' + renderObservationBlocks(item) + '</div>'
+      + '<footer class="co-observation-foot"><a class="co-observation-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a></footer></main>';
+  }
+
   function notifyHost(page) {
     if (embedded && window.parent !== window) window.parent.postMessage({ type: 'aiesg-community-navigation', page }, '*');
   }
@@ -302,6 +364,8 @@
       if (new URLSearchParams(location.search).get('open-form') === 'question') {
         document.querySelector('[data-open-community-form="question"]')?.click();
       }
+    } else if (document.getElementById('observation-page')) {
+      renderObservationDetail(data);
     } else {
       renderObservationsPage(data);
     }
@@ -309,7 +373,7 @@
   }
 
   document.addEventListener('click', event => {
-    const internalLink = event.target.closest('#community-page a[href]');
+    const internalLink = event.target.closest('#community-page a[href], #observation-page a[href]');
     if (internalLink) {
       const destination = new URL(internalLink.href, location.href);
       if (destination.origin === location.origin && /\.html$/.test(destination.pathname)) notifyHost(destination.pathname.split('/').pop());
