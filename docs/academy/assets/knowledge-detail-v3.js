@@ -3,8 +3,6 @@
 const clean=v=>String(v||'').replace(/^[•◦]\s*/,'').replace(/\s+/g,' ').trim();
 const typeLabel={rule:'披露规则',topic:'披露议题',process:'工作流程',criterion:'评估标准'};
 const relationType={official:'官方引用',structure:'结构对应',concept:'概念关联',evidence:'证据复用',dependency:'前置依赖'};
-const isEvidence=t=>/指标|数据|KPI|目标|证据|资料|问题|披露|量化|绩效|排放|比例|统计/.test(t);
-const isSource=t=>/来源|参考|附录|版本|提示/.test(t);
 const make=(label,desc)=>({label,desc});
 function profile(standard,item,detail){
  const id=item.id, title=detail.title||item.title;
@@ -17,24 +15,36 @@ function profile(standard,item,detail){
  if(standard.id==='hkex')return {kind:'topic',nodes:['披露主题','适用条文','管理行动','KPI或说明','支持证据'],guide:['定位对应披露条文和遵守或解释要求。','确认管理责任与执行安排。','核对KPI、叙述说明及数据边界。','保留来源、计算和审核记录。'],relations:[make('structure','与A股同类议题形成结构对应，不能直接互换披露文本。'),make('evidence','同一治理制度或数据底稿可能复用，但需按本规则的KPI和边界复核。')]};
  return {kind:'topic',nodes:['主题','要求','证据','应用'],guide:[],relations:[]};
 }
-function blocksOf(section){return (section.blocks||[]).filter(b=>clean(b.content_cn||b.content));}
-function officialBlocks(sections){return sections.filter(s=>!isSource(s.title)).flatMap(s=>blocksOf(s).filter(b=>b.provenance==='official'||b.provenance==='official_guidance'))}
-function noteBlocks(sections){return sections.filter(s=>!isSource(s.title)).flatMap(s=>blocksOf(s).filter(b=>b.provenance!=='official'&&b.provenance!=='official_guidance'))}
-function sectionHtml(title,kicker,body){return `<section class="kd-section"><header><span>${kicker}</span><h2>${title}</h2></header>${body}</section>`}
-function renderList(blocks,renderBlock,prefix){return blocks.map((b,i)=>renderBlock(b,`${prefix}-${i}`)).join('')}
-function officialDigest(blocks,renderBlock){return `<div class="kd-official-digest"><p><b>已收录 ${blocks.length} 段官方材料摘录。</b>先用本页的关系图和解读理解结构；需要核对条文时再展开阅读。</p>${blocks.map((block,i)=>`<details><summary>官方摘录 ${String(i+1).padStart(2,'0')} <small>展开查看原文内容</small></summary><div>${renderBlock(block,`official-${i}`)}</div></details>`).join('')}</div>`}
-function notesMarkup(standard,sections,notes,renderBlock,esc){
- if(standard.id!=='csa')return `<div class="kd-notes">${renderList(notes,renderBlock,'note')}</div>`;
- const find=pattern=>sections.find(s=>pattern.test(String(s.title||'')));
- const position=blocksOf(find(/标准定位/)||{}), structure=blocksOf(find(/评估结构/)||{}), focus=blocksOf(find(/关注主题/)||{}), tips=blocksOf(find(/使用提示/)||{});
- const values=structure.map(x=>clean(x.content_cn||x.content)).filter(Boolean), tags=focus.map(x=>clean(x.content_cn||x.content)).filter(Boolean);
- return `<div class="kd-csa-notes">${position.length?`<article><span>标准定位</span>${renderList(position,renderBlock,'position')}</article>`:''}${values.length?`<article class="kd-csa-facts"><span>评估结构</span><div>${values.map(v=>`<b>${esc(v)}</b>`).join('')}</div></article>`:''}${tags.length?`<article><span>关注主题</span><div class="kd-csa-tags">${tags.map(v=>`<i>${esc(v)}</i>`).join('')}</div></article>`:''}${tips.length?`<article><span>使用提示</span>${renderList(tips,renderBlock,'tip')}</article>`:''}</div>`;
-}
-function evidenceSections(sections,renderBlock){const hits=sections.filter(s=>isEvidence(s.title)&&!isSource(s.title));if(!hits.length)return `<div class="kd-empty">当前整理材料没有可单列的指标或证据清单。请以来源区的现行官方文件和具体题目为准。</div>`;return `<div class="kd-evidence-list">${hits.map((s,i)=>`<details ${i===0?'open':''}><summary>${s.title}<small>查看相关内容</small></summary><div>${renderList(blocksOf(s),renderBlock,`evidence-${i}`)}</div></details>`).join('')}</div>`}
-function questionGroups(groups,esc,renderBlock){if(!groups?.length)return '';const total=groups.reduce((n,g)=>n+(g.questions||[]).length,0);return sectionHtml('问题与资料的对应','评估问题 · 官方材料整理',`<p class="kd-section-lead">${groups.length} 个子主题，${total} 个已整理问题。问题内容以当期适用问卷为准；展开后查看已整理的评估焦点和资料要求。</p><div class="kd-questions">${groups.map((g,i)=>`<details><summary><b>${String(i+1).padStart(2,'0')} · ${esc(g.title)}</b><small>${(g.questions||[]).length} 个问题</small></summary><div>${(g.questions||[]).map(q=>`<details class="kd-question"><summary>${esc(q.title||'问题')}</summary><div>${[['评估重点',q.focus],['问题原理',q.rationale],['数据要求',q.dataRequirements],['披露要求',q.disclosure],['定义与指引',q.guidance]].filter(([,v])=>v).map(([l,v],j)=>`<section><b>${l}</b>${renderBlock({type:'text',content_cn:v},`question-${i}-${j}`)}</section>`).join('')}</div></details>`).join('')}</div></details>`).join('')}</div>`)}
+const isEvidence=t=>/指标|数据|KPI|目标|证据|资料|问题|披露|量化|绩效|排放|比例|统计/.test(t);
+const isSource=t=>/来源|参考|附录|版本|提示/.test(t);
+function relationKind(value){if(/ISSB|IFRS|S1|S2|GRI|TCFD|SASB|CSRD|ESRS|SFDR|国际|基准/.test(value))return'国际基准映射';if(/港交所|HKEX|守则|A股|沪深|交易所|指引|CSA|标普/.test(value))return'披露体系对应';if(/双重重要性|重要性矩阵|重要性|议题|评估|矩阵/.test(value))return'方法概念关联';return'概念关联';}
+function renderBlocks(blocks,renderBlock,prefix){return (blocks||[]).map((b,i)=>renderBlock(b,`${prefix}-${i}`)).join('');}
 window.renderKnowledgeDetailV3=function({standard,item,group,detail,sections,relations,source,esc,renderBlock,href}){
- const p=profile(standard,item,detail), official=officialBlocks(sections), notes=noteBlocks(sections), type=typeLabel[p.kind]||'知识主题';
- const taggedRelations=[...p.relations,...(relations||[]).map(v=>make('concept',v))];
- return `<div class="kd-page" data-system="${esc(standard.id)}"><header class="kd-top"><a href="${href('standard.html',{id:standard.id})}">← ${esc(standard.title)}</a><span>${esc(type)}</span></header><main class="kd-main"><section class="kd-title"><div><p>${esc(group?.title||detail.eyebrow||'知识主题')} · ${esc(type)}</p><h1>${esc(detail.title||item.title)}</h1><div class="kd-summary">${esc(detail.summary||item.summary||'')}</div></div><aside><b>阅读这页</b><p>先看关系，再回到依据；页面解释帮助工作，不替代正式文件。</p><a href="#sources">查看来源与边界 ↓</a></aside></section>${sectionHtml('这一页在解决什么关系','关系图 · 先建立结构',`<div class="kd-relation-map">${p.nodes.map((n,i)=>`<span>${esc(n)}</span>${i<p.nodes.length-1?'<i>→</i>':''}`).join('')}</div><div class="kd-map-note"><b>理解方式</b><p>${esc(p.kind==='criterion'?'CSA用“行业—标准—问题—证据—评分”理解评估关系。':p.kind==='process'?'流程节点按前后依赖阅读；每一步均应留下可复核的工作记录。':'由主题进入要求与证据，再形成可核对的披露或评估工作。')}</p></div>`)}${sectionHtml('官方依据与材料','官方原文 / 官方指南',official.length?`<p class="kd-section-lead">以下内容标注为来自已核验的官方材料或官方指南；摘要不能替代现行原文。</p><div class="kd-official">${officialDigest(official,renderBlock)}</div>`:`<div class="kd-empty">本页当前保留官方来源入口与平台整理摘要；尚未将可逐段确认的原文摘录标注为“官方原文”。</div>`)}${sectionHtml('知识解读','平台整理 · 帮助理解',`<p class="kd-section-lead">此处用于解释结构与判断方式，内容不是发布机构的正式条文。</p>${notesMarkup(standard,sections,notes,renderBlock,esc)}`)}${sectionHtml('指标、证据与资料','数据和可核对材料',evidenceSections(sections,renderBlock))}${questionGroups(detail.questionGroups,esc,renderBlock)}${sectionHtml('转成工作动作','平台工作导引',`<ol class="kd-guide">${p.guide.map((x,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span><p>${esc(x)}</p></li>`).join('')}</ol>`)}${sectionHtml('跨标准关联','关系类型已标注',`<div class="kd-relations">${taggedRelations.map((r,i)=>`<article><span>${relationType[r.label]||'概念关联'}</span><b>${String(i+1).padStart(2,'0')}</b><p>${esc(r.desc)}</p></article>`).join('')}</div>`)}<section id="sources" class="kd-sources"><span>来源与使用边界</span><h2>回到发布机构文件核对版本</h2><p>${esc(source||standard.sourceNote||'')}</p><p>${esc(detail.status||item.status||standard.notice||'')}</p>${detail.officialUrl?`<a href="${esc(detail.officialUrl)}" target="_blank" rel="noreferrer">查看发布机构资料 ↗</a>`:''}<small class="kd-ai-note">本页为 AI 基于官方文件整理的解析内容（“知识解读”部分为平台整理，非发布机构正式条文）；摘要不能替代现行原文，正式工作请核对发布机构文件。</small></section></main></div>`;
+ const p=profile(standard,item,detail),type=typeLabel[p.kind]||'知识主题';
+ const official=[],evidence=[],notes=[];
+ (sections||[]).forEach((section,index)=>{
+  const blocks=(section.blocks||[]).filter(b=>clean(b.content_cn||b.content));
+  const isOfficial=blocks.some(b=>b.provenance==='official'||b.provenance==='official_guidance');
+  if(isOfficial){official.push({section,index,blocks});}
+  else if(isEvidence(section.title)&&!isSource(section.title)){evidence.push({section,index,blocks});}
+  else if(!isSource(section.title)){notes.push({section,index,blocks});}
+ });
+ const taggedRelations=[...p.relations,...(relations||[]).map(v=>make(relationKind(v),v))];
+ const mapKind=standard.id==='csa'?`<div class="kd-map-strip"><span>评估定位</span><b>${esc(group?.title||'标准')}</b><i>→</i><span>评估标准</span><i>→</i><span>问题组与证据</span><i>→</i><span>行业内评分</span></div>`:`<div class="kd-map-strip"><span>${esc(standard.title)}</span><i>→</i><span>${esc(group?.title||'议题分类')}</span><i>→</i><b>${esc(item.title)}</b></div>`;
+ const originalHtml=official.length?`<div class="kd-original">${official.map(({section,blocks,index})=>`<article><header><span>官方条文摘录</span><h3>${esc(section.title)}</h3></header><div class="kd-original-body">${renderBlocks(blocks,renderBlock,`official-${index}`)}</div></article>`).join('')}</div>`:`<div class="kd-empty"><b>官方原文入口</b><p>本页当前保留官方来源入口与平台整理摘要；原文请通过文末“官方发布文件”链接进入发布机构现行文件。</p></div>`;
+ const notesHtml=notes.length?`<div class="kd-notes">${notes.map(({section,blocks,index})=>`<article><h4>${esc(section.title)}</h4>${renderBlocks(blocks,renderBlock,`note-${index}`)}</article>`).join('')}</div>`:'';
+ const evidenceHtml=evidence.length?`<div class="kd-evidence">${evidence.map(({section,blocks,index})=>`<article><h4>${esc(section.title)}</h4>${renderBlocks(blocks,renderBlock,`evidence-${index}`)}</article>`).join('')}</div>`:'';
+ const mapHtml=taggedRelations.length?`<div class="kd-mapping">${taggedRelations.map((r,i)=>`<article><span>${relationType[r.label]||r.label||'概念关联'}</span><b>${esc(r.desc)}</b></article>`).join('')}</div>`:`<div class="kd-empty">暂未整理其它标准的映射关系；可结合文末官方来源进入发布机构文件对照。</div>`;
+ const questionHtml=standard.id==='csa'&&detail.questionGroups?.length?`<section class="kd-sec" id="questions"><header><span>问题索引</span><h2>评估问题与资料要求</h2><p>问题内容以当期适用问卷为准；此处展示已整理的评估焦点。</p></header><div class="kd-questions">${detail.questionGroups.map((g,gi)=>`<article><h4>${String(gi+1).padStart(2,'0')} · ${esc(g.title)}</h4><ul>${(g.questions||[]).map(q=>`<li><b>${esc(q.title||'问题')}</b><span>${esc(String(q.focus||q.guidance||'').slice(0,96))}</span></li>`).join('')}</ul></article>`).join('')}</div></section>`:'';
+ return `<div class="kd-page" data-system="${esc(standard.id)}"><header class="kd-top"><a href="${href('standard.html',{id:standard.id})}">← ${esc(standard.title)}</a><span>${esc(type)}</span></header><main class="kd-main">
+ <section class="kd-title"><div><p>${esc(group?.title||detail.eyebrow||'知识主题')} · ${esc(type)}</p><h1>${esc(detail.title||item.title)}</h1><div class="kd-summary">${esc(detail.summary||item.summary||'')}</div><div class="kd-tags">${(detail.tags||item.tags||[]).map(t=>`<i>${esc(t)}</i>`).join('')}</div></div><aside><b>阅读这页</b><p>按“标准位置 → 原文 → 解读 → 映射 → 行动”的顺序阅读，页面解释帮助工作，不替代正式文件。</p><a href="#sources">查看来源与边界 ↓</a></aside></section>
+ <section class="kd-locate"><header><span>标准位置</span><h2>这一页在标准体系中的位置</h2></header>${mapKind}<div class="kd-relation-map"><span>${esc(standard.title)}</span><i>→</i>${p.nodes.map((node,ni)=>`<span>${esc(node)}</span>${ni<p.nodes.length-1?'<i>→</i>':''}`).join('')}</div><p class="kd-map-note">${esc(p.kind==='criterion'?'CSA 用“行业—标准—问题—证据—评分”理解评估关系。':p.kind==='process'?'流程节点按前后依赖阅读；每一步均应留下可复核的工作记录。':'由议题进入要求与证据，再形成可核对的披露工作。')}</p></section>
+ <section class="kd-sec" id="original"><header><span>官方原文</span><h2>标准的具体要求</h2><p>以下为按官方文件整理的条文摘录；完整条款请进入来源链接核对原文。</p></header>${originalHtml}</section>
+ ${notesHtml?`<section class="kd-sec" id="notes"><header><span>知识解读</span><h2>怎么理解这条要求</h2><p>以下为 AI 基于官方文件整理的解读，非发布机构正式条文。</p></header>${notesHtml}<small class="kd-ai-tag">AI 整理 · 供学习参考</small></section>`:''}
+ ${evidenceHtml?`<section class="kd-sec" id="evidence"><header><span>指标与证据</span><h2>需要准备的数据与材料</h2></header>${evidenceHtml}</section>`:''}
+ <section class="kd-sec" id="mapping"><header><span>跨标准映射</span><h2>与其它标准的关系</h2><p>了解本议题与其它披露体系、评估框架的对应关系，避免重复造数据。</p></header>${mapHtml}</section>
+ ${questionHtml}
+ <section class="kd-sec" id="guide"><header><span>工作动作</span><h2>这一步具体做什么</h2></header><ol class="kd-guide">${p.guide.map((x,i)=>`<li><span>${String(i+1).padStart(2,'0')}</span><p>${esc(x)}</p></li>`).join('')}</ol></section>
+ <section id="sources" class="kd-sources"><span>来源与使用边界</span><h2>回到发布机构文件核对版本</h2><p>${esc(source||standard.sourceNote||'')}</p><p>${esc(detail.status||item.status||standard.notice||'')}</p>${detail.officialUrl?`<a href="${esc(detail.officialUrl)}" target="_blank" rel="noreferrer">查看发布机构资料 ↗</a>`:''}<small class="kd-ai-note">本页为 AI 基于官方文件整理的解析内容（“知识解读”部分为平台整理，非发布机构正式条文）；摘要不能替代现行原文，正式工作请核对发布机构文件。</small></section></main></div>`;
 };
 })();
