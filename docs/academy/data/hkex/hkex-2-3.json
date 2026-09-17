@@ -1,221 +1,221 @@
 {
-  "id": "hkex-2-3",
-  "title": "目标设定与报告撰写",
-  "eyebrow": "模块2 · ESG报告编备方法",
-  "summary": "设定SMART目标或方向性声明，按照报告结构撰写ESG报告，确保内容完整、数据可验证、表述平衡。",
-  "tags": [
-    "目标设定",
-    "报告撰写",
-    "SMART原则"
-  ],
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-  "sections": [
+ "id": "hkex-2-3",
+ "title": "目标设定与报告撰写",
+ "eyebrow": "模块2 · ESG报告编备方法",
+ "summary": "设定SMART目标或方向性声明，按照报告结构撰写ESG报告，确保内容完整、数据可验证、表述平衡。",
+ "tags": [
+  "目标设定",
+  "报告撰写",
+  "SMART原则"
+ ],
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+ "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+ "sections": [
+  {
+   "title": "目标设定概述",
+   "blocks": [
     {
-      "title": "目标设定概述",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "ESG目标设定是推动企业持续改进的重要机制。目标应遵循 SMART原则 ，明确具体、可衡量、可实现、相关且有时限。",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "text",
-          "content_cn": "对于难以量化的目标，可采用 方向性声明 ，描述努力方向和预期成果，并分阶段设定里程碑。",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "text",
-          "content_cn": "目标设定后须建立 跟踪机制 ，定期评估进展，在ESG报告中披露目标完成情况。",
-          "provenance": "knowledge_note"
-        }
-      ]
+     "type": "text",
+     "content_cn": "ESG目标设定是推动企业持续改进的重要机制。目标应遵循 SMART原则 ，明确具体、可衡量、可实现、相关且有时限。",
+     "provenance": "knowledge_note"
     },
     {
-      "title": "SMART目标五要素",
-      "blocks": [
-        {
-          "type": "point",
-          "content_cn": "Specific 具体的",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "明确目标内容和范围",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "明确目标涉及的业务领域",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "界定目标覆盖的范围",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "说明目标的具体内容",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "Measurable 可衡量的",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "有量化指标和基线",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "确定衡量指标",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "设定基线数据",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "明确目标值",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "Achievable 可实现的",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "基于实际能力和资源",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "评估资源和能力",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "参考行业标杆",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "分阶段设定目标",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "Relevant 相关的",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "与业务战略和重要议题相关",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "对齐企业战略",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "聚焦重要性议题",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "回应持份者关切",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "Time-bound 有时限的",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "明确完成时间和里程碑",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "设定目标完成时间",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "分阶段设定里程碑",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "建立定期跟踪机制",
-          "provenance": "knowledge_note"
-        }
-      ]
+     "type": "text",
+     "content_cn": "对于难以量化的目标，可采用 方向性声明 ，描述努力方向和预期成果，并分阶段设定里程碑。",
+     "provenance": "knowledge_note"
     },
     {
-      "title": "ESG报告撰写流程",
-      "blocks": []
-    },
-    {
-      "title": "报告结构要点",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
-          "provenance": "knowledge_note"
-        }
-      ]
-    },
-    {
-      "title": "目标披露要素清单",
-      "blocks": [
-        {
-          "type": "point",
-          "content_cn": "目标内容｜明确目标涉及的领域和具体内容｜减少范围1温室气体排放",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "基线数据｜目标设定时的基准数据｜2023年范围1排放10,000吨CO2e",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "目标值｜希望达到的具体数值｜2030年减少30%至7,000吨",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "时间框架｜目标完成的时间节点｜2024-2030年",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "责任人｜负责目标执行的部门或人员｜EHS部门 / 可持续发展总监",
-          "provenance": "knowledge_note"
-        },
-        {
-          "type": "point",
-          "content_cn": "进展情况｜定期更新目标完成进度｜2024年已减少8%，进度符合预期",
-          "provenance": "knowledge_note"
-        }
-      ]
+     "type": "text",
+     "content_cn": "目标设定后须建立 跟踪机制 ，定期评估进展，在ESG报告中披露目标完成情况。",
+     "provenance": "knowledge_note"
     }
-  ],
-  "group": "模块2 · ESG报告编备方法",
-  "titleEn": ""
+   ]
+  },
+  {
+   "title": "SMART目标五要素",
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "Specific 具体的",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "明确目标内容和范围",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "明确目标涉及的业务领域",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "界定目标覆盖的范围",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "说明目标的具体内容",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "Measurable 可衡量的",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "有量化指标和基线",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "确定衡量指标",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "设定基线数据",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "明确目标值",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "Achievable 可实现的",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "基于实际能力和资源",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "评估资源和能力",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "参考行业标杆",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "分阶段设定目标",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "Relevant 相关的",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "与业务战略和重要议题相关",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "对齐企业战略",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "聚焦重要性议题",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "回应持份者关切",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "Time-bound 有时限的",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "明确完成时间和里程碑",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "设定目标完成时间",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "分阶段设定里程碑",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "建立定期跟踪机制",
+     "provenance": "knowledge_note"
+    }
+   ]
+  },
+  {
+   "title": "ESG报告撰写流程",
+   "blocks": []
+  },
+  {
+   "title": "报告结构要点",
+   "blocks": [
+    {
+     "type": "text",
+     "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
+     "provenance": "knowledge_note"
+    }
+   ]
+  },
+  {
+   "title": "目标披露要素清单",
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "目标内容｜明确目标涉及的领域和具体内容｜减少范围1温室气体排放",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "基线数据｜目标设定时的基准数据｜2023年范围1排放10,000吨CO2e",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "目标值｜希望达到的具体数值｜2030年减少30%至7,000吨",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "时间框架｜目标完成的时间节点｜2024-2030年",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "责任人｜负责目标执行的部门或人员｜EHS部门 / 可持续发展总监",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "进展情况｜定期更新目标完成进度｜2024年已减少8%，进度符合预期",
+     "provenance": "knowledge_note"
+    }
+   ]
+  }
+ ],
+ "group": "模块2 · ESG报告编备方法",
+ "titleEn": ""
 }

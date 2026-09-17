@@ -1,48 +1,48 @@
 {
-  "id": "hkex-6-5",
-  "title": "反贪污与社区投资：商业道德与社会贡献",
-  "eyebrow": "模块4 · 社会KPI披露细节",
-  "summary": "涵盖反贪污3项KPI与社区投资2项KPI，包括贪污诉讼、防范措施、反贪培训、社区贡献范畴与资源投入",
-  "tags": [
-    "社会KPI",
-    "反贪污",
-    "社区投资",
-    "商业道德"
-  ],
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-  "sections": [
+ "id": "hkex-6-5",
+ "title": "反贪污与社区投资：商业道德与社会贡献",
+ "eyebrow": "模块4 · 社会KPI披露细节",
+ "summary": "涵盖反贪污3项KPI与社区投资2项KPI，包括贪污诉讼、防范措施、反贪培训、社区贡献范畴与资源投入",
+ "tags": [
+  "社会KPI",
+  "反贪污",
+  "社区投资",
+  "商业道德"
+ ],
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+ "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+ "sections": [
+  {
+   "title": "知识点总览",
+   "blocks": [
     {
-      "title": "知识点总览",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部5项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
-          "provenance": "knowledge_note"
-        }
-      ]
-    },
-    {
-      "title": "B7.1 对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果",
-      "blocks": []
-    },
-    {
-      "title": "B7.2 防范措施及举报程序",
-      "blocks": []
-    },
-    {
-      "title": "B7.3 反贪污培训",
-      "blocks": []
-    },
-    {
-      "title": "B8.1 专注贡献范畴",
-      "blocks": []
-    },
-    {
-      "title": "B8.2 在专注范畴所动用资源",
-      "blocks": []
+     "type": "text",
+     "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部5项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
+     "provenance": "knowledge_note"
     }
-  ],
-  "group": "模块4 · 社会KPI披露细节",
-  "titleEn": ""
+   ]
+  },
+  {
+   "title": "B7.1 对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果",
+   "blocks": []
+  },
+  {
+   "title": "B7.2 防范措施及举报程序",
+   "blocks": []
+  },
+  {
+   "title": "B7.3 反贪污培训",
+   "blocks": []
+  },
+  {
+   "title": "B8.1 专注贡献范畴",
+   "blocks": []
+  },
+  {
+   "title": "B8.2 在专注范畴所动用资源",
+   "blocks": []
+  }
+ ],
+ "group": "模块4 · 社会KPI披露细节",
+ "titleEn": ""
 }

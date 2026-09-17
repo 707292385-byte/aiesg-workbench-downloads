@@ -1,65 +1,65 @@
 {
-  "id": "hkex-6-4",
-  "title": "供应链与产品责任：从采购到消费者保护",
-  "eyebrow": "模块4 · 社会KPI披露细节",
-  "summary": "涵盖供应链管理4项KPI与产品责任5项KPI，包括供应商管理、环保采购、产品安全、知识产权、消费者隐私",
-  "tags": [
-    "社会KPI",
-    "供应链",
-    "产品责任",
-    "消费者保护",
-    "环保采购"
-  ],
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-  "sections": [
+ "id": "hkex-6-4",
+ "title": "供应链与产品责任：从采购到消费者保护",
+ "eyebrow": "模块4 · 社会KPI披露细节",
+ "summary": "涵盖供应链管理4项KPI与产品责任5项KPI，包括供应商管理、环保采购、产品安全、知识产权、消费者隐私",
+ "tags": [
+  "社会KPI",
+  "供应链",
+  "产品责任",
+  "消费者保护",
+  "环保采购"
+ ],
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+ "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+ "sections": [
+  {
+   "title": "知识点总览",
+   "blocks": [
     {
-      "title": "知识点总览",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部9项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
-          "provenance": "knowledge_note"
-        }
-      ]
-    },
-    {
-      "title": "B5.1 按地区划分的供应商数目",
-      "blocks": []
-    },
-    {
-      "title": "B5.2 聘用供应商的惯例",
-      "blocks": []
-    },
-    {
-      "title": "B5.3 识别供应链环境及社会风险的惯例",
-      "blocks": []
-    },
-    {
-      "title": "B5.4 在拣选供应商时促使多用环保产品及服务的惯例",
-      "blocks": []
-    },
-    {
-      "title": "B6.1 已售或已运送产品总数中因安全与健康理由而须回收的百分比",
-      "blocks": []
-    },
-    {
-      "title": "B6.2 接获关于产品及服务的投诉数目以及应对方法",
-      "blocks": []
-    },
-    {
-      "title": "B6.3 与维护及保障知识产权有关的惯例",
-      "blocks": []
-    },
-    {
-      "title": "B6.4 质量检定过程及产品回收程序",
-      "blocks": []
-    },
-    {
-      "title": "B6.5 消费者资料保障及私隐政策",
-      "blocks": []
+     "type": "text",
+     "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部9项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
+     "provenance": "knowledge_note"
     }
-  ],
-  "group": "模块4 · 社会KPI披露细节",
-  "titleEn": ""
+   ]
+  },
+  {
+   "title": "B5.1 按地区划分的供应商数目",
+   "blocks": []
+  },
+  {
+   "title": "B5.2 聘用供应商的惯例",
+   "blocks": []
+  },
+  {
+   "title": "B5.3 识别供应链环境及社会风险的惯例",
+   "blocks": []
+  },
+  {
+   "title": "B5.4 在拣选供应商时促使多用环保产品及服务的惯例",
+   "blocks": []
+  },
+  {
+   "title": "B6.1 已售或已运送产品总数中因安全与健康理由而须回收的百分比",
+   "blocks": []
+  },
+  {
+   "title": "B6.2 接获关于产品及服务的投诉数目以及应对方法",
+   "blocks": []
+  },
+  {
+   "title": "B6.3 与维护及保障知识产权有关的惯例",
+   "blocks": []
+  },
+  {
+   "title": "B6.4 质量检定过程及产品回收程序",
+   "blocks": []
+  },
+  {
+   "title": "B6.5 消费者资料保障及私隐政策",
+   "blocks": []
+  }
+ ],
+ "group": "模块4 · 社会KPI披露细节",
+ "titleEn": ""
 }

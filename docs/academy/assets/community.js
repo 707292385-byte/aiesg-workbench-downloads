@@ -43,7 +43,9 @@
     return url.pathname.split('/').pop() + url.search;
   }
   const standards = [
-    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' }
+    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
+    { id: 'ashare', type: '披露规则', title: 'A股可持续发展报告指引', detail: '三所指引 · 21项议题 · 编制指南' },
+    { id: 'hkex', type: '披露规则', title: '港交所ESG披露体系', detail: '报告守则 · KPI体系 · 气候披露' }
   ];
 
   const socialProfiles = [

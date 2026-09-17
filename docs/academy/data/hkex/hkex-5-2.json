@@ -1,49 +1,49 @@
 {
-  "id": "hkex-5-2",
-  "title": "A2 资源使用：能源、水与包装材料",
-  "eyebrow": "模块3 · 环境KPI披露细节",
-  "summary": "涵盖能源耗量、耗水量、能源/用水效益目标、包装材料等5项关键绩效指标的完整披露要求与计算方法",
-  "tags": [
-    "环境KPI",
-    "能源",
-    "水资源",
-    "包装材料",
-    "效益目标"
-  ],
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-  "sections": [
+ "id": "hkex-5-2",
+ "title": "A2 资源使用：能源、水与包装材料",
+ "eyebrow": "模块3 · 环境KPI披露细节",
+ "summary": "涵盖能源耗量、耗水量、能源/用水效益目标、包装材料等5项关键绩效指标的完整披露要求与计算方法",
+ "tags": [
+  "环境KPI",
+  "能源",
+  "水资源",
+  "包装材料",
+  "效益目标"
+ ],
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+ "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+ "sections": [
+  {
+   "title": "知识点总览",
+   "blocks": [
     {
-      "title": "知识点总览",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部5项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
-          "provenance": "knowledge_note"
-        }
-      ]
-    },
-    {
-      "title": "A2.1 按类型划分的能源总耗量",
-      "blocks": []
-    },
-    {
-      "title": "A2.2 总耗水量及密度",
-      "blocks": []
-    },
-    {
-      "title": "A2.3 能源使用效益目标",
-      "blocks": []
-    },
-    {
-      "title": "A2.4 用水效益目标",
-      "blocks": []
-    },
-    {
-      "title": "A2.5 包装材料总量",
-      "blocks": []
+     "type": "text",
+     "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部5项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
+     "provenance": "knowledge_note"
     }
-  ],
-  "group": "模块3 · 环境KPI披露细节",
-  "titleEn": ""
+   ]
+  },
+  {
+   "title": "A2.1 按类型划分的能源总耗量",
+   "blocks": []
+  },
+  {
+   "title": "A2.2 总耗水量及密度",
+   "blocks": []
+  },
+  {
+   "title": "A2.3 能源使用效益目标",
+   "blocks": []
+  },
+  {
+   "title": "A2.4 用水效益目标",
+   "blocks": []
+  },
+  {
+   "title": "A2.5 包装材料总量",
+   "blocks": []
+  }
+ ],
+ "group": "模块3 · 环境KPI披露细节",
+ "titleEn": ""
 }

@@ -1,35 +1,35 @@
 {
-  "id": "hkex-6-3",
-  "title": "发展与培训：雇员能力提升",
-  "eyebrow": "模块4 · 社会KPI披露细节",
-  "summary": "涵盖受训雇员百分比、平均受训时数等2项关键绩效指标，衡量企业对雇员发展的投入",
-  "tags": [
-    "社会KPI",
-    "培训",
-    "雇员发展"
-  ],
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-  "sections": [
+ "id": "hkex-6-3",
+ "title": "发展与培训：雇员能力提升",
+ "eyebrow": "模块4 · 社会KPI披露细节",
+ "summary": "涵盖受训雇员百分比、平均受训时数等2项关键绩效指标，衡量企业对雇员发展的投入",
+ "tags": [
+  "社会KPI",
+  "培训",
+  "雇员发展"
+ ],
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+ "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+ "sections": [
+  {
+   "title": "知识点总览",
+   "blocks": [
     {
-      "title": "知识点总览",
-      "blocks": [
-        {
-          "type": "text",
-          "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部2项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
-          "provenance": "knowledge_note"
-        }
-      ]
-    },
-    {
-      "title": "B3.1 按性别及雇员类别划分的受训雇员百分比",
-      "blocks": []
-    },
-    {
-      "title": "B3.2 按性别及雇员类别划分，每名雇员完成受训的平均时数",
-      "blocks": []
+     "type": "text",
+     "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部2项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
+     "provenance": "knowledge_note"
     }
-  ],
-  "group": "模块4 · 社会KPI披露细节",
-  "titleEn": ""
+   ]
+  },
+  {
+   "title": "B3.1 按性别及雇员类别划分的受训雇员百分比",
+   "blocks": []
+  },
+  {
+   "title": "B3.2 按性别及雇员类别划分，每名雇员完成受训的平均时数",
+   "blocks": []
+  }
+ ],
+ "group": "模块4 · 社会KPI披露细节",
+ "titleEn": ""
 }

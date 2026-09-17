@@ -1,1345 +1,1363 @@
 {
-  "id": "hkex",
-  "title": "港交所ESG披露体系",
-  "titleEn": "HKEX ESG Reporting Framework",
-  "eyebrow": "香港上市规则与实施指引",
-  "accent": "#126da0",
-  "description": "从ESG报告守则到气候信息披露，按模块学习责任、流程、KPI与实施方法。",
-  "issuer": "香港交易所",
-  "version": "1.1.0",
-  "updated": "2026-09-14",
-  "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
-  "notice": "本页是学习导航与整理摘要。上市规则、过渡安排及适用条件可能更新，正式披露请以港交所现行规则和官方指引为准。",
-  "goals": [
-    "区分强制披露与不遵守就解释要求",
-    "掌握ESG报告编备与KPI披露方法",
-    "按治理、策略、风险管理、指标及目标学习气候披露"
-  ],
-  "process": [
+ "id": "hkex",
+ "title": "港交所ESG披露体系",
+ "titleEn": "HKEX ESG Reporting Framework",
+ "eyebrow": "香港上市规则与实施指引",
+ "accent": "#126da0",
+ "description": "从ESG报告守则到气候信息披露，按模块学习责任、流程、KPI与实施方法。",
+ "issuer": "香港交易所",
+ "version": "1.1.0",
+ "updated": "2026-09-14",
+ "sourceNote": "香港交易所ESG Academy、附录C2及公开实施指引。",
+ "notice": "本页是学习导航与整理摘要。上市规则、过渡安排及适用条件可能更新，正式披露请以港交所现行规则和官方指引为准。",
+ "goals": [
+  "区分强制披露与不遵守就解释要求",
+  "掌握ESG报告编备与KPI披露方法",
+  "按治理、策略、风险管理、指标及目标学习气候披露"
+ ],
+ "process": [
+  {
+   "title": "判断适用范围",
+   "description": "先确认上市板块、财政年度和气候披露安排。"
+  },
+  {
+   "title": "建立治理与流程",
+   "description": "明确董事会、管理层和业务部门职责。"
+  },
+  {
+   "title": "整理指标与证据",
+   "description": "按守则和实施指引准备披露内容。"
+  },
+  {
+   "title": "回到官方原文复核",
+   "description": "在正式报告前核对最新条文和过渡规定。"
+  }
+ ],
+ "groups": [
+  {
+   "id": "hkex-1",
+   "title": "模块1 · ESG报告守则基础",
+   "items": [
     {
-      "title": "判断适用范围",
-      "description": "先确认上市板块、财政年度和气候披露安排。"
+     "id": "hkex-1-1",
+     "title": "披露责任体系：强制披露与不遵守就解释",
+     "summary": "港交所ESG报告守则确立了两层披露责任：强制披露规定和不遵守就解释条文，气候相关披露已部分升级为强制。",
+     "eyebrow": "模块1 · ESG报告守则基础",
+     "tags": [
+      "ESG报告守则",
+      "披露责任",
+      "强制披露",
+      "不遵守就解释"
+     ],
+     "meta": [
+      "模块1 · ESG报告守则基础",
+      "约15分钟"
+     ],
+     "outline": [
+      {
+       "title": "披露责任体系总览",
+       "items": []
+      },
+      {
+       "title": "守则B、C、D部分与披露责任",
+       "items": [
+        "B部分：强制披露规定",
+        "C部分：不遵守就解释",
+        "D部分：气候相关披露"
+       ]
+      },
+      {
+       "title": "强制披露 vs 不遵守就解释",
+       "items": []
+      },
+      {
+       "title": "关键要点",
+       "items": []
+      },
+      {
+       "title": "气候披露适用时间与范围",
+       "items": []
+      },
+      {
+       "title": "宽免按条款判断",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-1-1.json"
     },
     {
-      "title": "建立治理与流程",
-      "description": "明确董事会、管理层和业务部门职责。"
+     "id": "hkex-1-2",
+     "title": "四大汇报原则：重要性、量化、平衡、一致性",
+     "summary": "ESG报告编制的四项基本原则，决定了报告内容的选择、数据的呈现方式和质量标准。",
+     "eyebrow": "模块1 · ESG报告守则基础",
+     "tags": [
+      "ESG报告守则",
+      "汇报原则",
+      "重要性",
+      "量化"
+     ],
+     "meta": [
+      "模块1 · ESG报告守则基础",
+      "约12分钟"
+     ],
+     "outline": [
+      {
+       "title": "四大汇报原则",
+       "items": [
+        "重要性 Materiality",
+        "量化 Quantitative",
+        "平衡 Balance",
+        "一致性 Consistency"
+       ]
+      },
+      {
+       "title": "实践建议",
+       "items": []
+      },
+      {
+       "title": "四原则应用检查清单",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-1-2.json"
     },
     {
-      "title": "整理指标与证据",
-      "description": "按守则和实施指引准备披露内容。"
-    },
-    {
-      "title": "回到官方原文复核",
-      "description": "在正式报告前核对最新条文和过渡规定。"
+     "id": "hkex-1-3",
+     "title": "管治架构与汇报范围",
+     "summary": "ESG管治架构明确董事会和管理层的责任分工，汇报范围界定报告涵盖的实体和业务边界。",
+     "eyebrow": "模块1 · ESG报告守则基础",
+     "tags": [
+      "ESG报告守则",
+      "管治架构",
+      "汇报范围",
+      "董事会责任"
+     ],
+     "meta": [
+      "模块1 · ESG报告守则基础",
+      "约10分钟"
+     ],
+     "outline": [
+      {
+       "title": "管治架构概述",
+       "items": []
+      },
+      {
+       "title": "ESG管治架构最佳实践",
+       "items": [
+        "董事会层面",
+        "管理层层面",
+        "执行层面",
+        "监督层面"
+       ]
+      },
+      {
+       "title": "ESG报告范围与温室气体核算边界",
+       "items": []
+      },
+      {
+       "title": "注意事项",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-1-3.json"
     }
-  ],
-  "groups": [
+   ]
+  },
+  {
+   "id": "hkex-2",
+   "title": "模块2 · ESG报告编备方法",
+   "items": [
     {
-      "id": "hkex-1",
-      "title": "模块1 · ESG报告守则基础",
-      "items": [
-        {
-          "id": "hkex-1-1",
-          "title": "披露责任体系：强制披露与不遵守就解释",
-          "summary": "港交所ESG报告守则确立了两层披露责任：强制披露规定和不遵守就解释条文，气候相关披露已部分升级为强制。",
-          "eyebrow": "模块1 · ESG报告守则基础",
-          "tags": [
-            "ESG报告守则",
-            "披露责任",
-            "强制披露",
-            "不遵守就解释"
-          ],
-          "meta": [
-            "模块1 · ESG报告守则基础",
-            "约15分钟"
-          ],
-          "outline": [
-            {
-              "title": "披露责任体系总览",
-              "items": []
-            },
-            {
-              "title": "守则B、C、D部分与披露责任",
-              "items": [
-                "B部分：强制披露规定",
-                "C部分：不遵守就解释",
-                "D部分：气候相关披露"
-              ]
-            },
-            {
-              "title": "强制披露 vs 不遵守就解释",
-              "items": []
-            },
-            {
-              "title": "关键要点",
-              "items": []
-            },
-            {
-              "title": "气候披露适用时间与范围",
-              "items": []
-            },
-            {
-              "title": "宽免按条款判断",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-1-1.json"
-        },
-        {
-          "id": "hkex-1-2",
-          "title": "四大汇报原则：重要性、量化、平衡、一致性",
-          "summary": "ESG报告编制的四项基本原则，决定了报告内容的选择、数据的呈现方式和质量标准。",
-          "eyebrow": "模块1 · ESG报告守则基础",
-          "tags": [
-            "ESG报告守则",
-            "汇报原则",
-            "重要性",
-            "量化"
-          ],
-          "meta": [
-            "模块1 · ESG报告守则基础",
-            "约12分钟"
-          ],
-          "outline": [
-            {
-              "title": "四大汇报原则",
-              "items": [
-                "重要性 Materiality",
-                "量化 Quantitative",
-                "平衡 Balance",
-                "一致性 Consistency"
-              ]
-            },
-            {
-              "title": "实践建议",
-              "items": []
-            },
-            {
-              "title": "四原则应用检查清单",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-1-2.json"
-        },
-        {
-          "id": "hkex-1-3",
-          "title": "管治架构与汇报范围",
-          "summary": "ESG管治架构明确董事会和管理层的责任分工，汇报范围界定报告涵盖的实体和业务边界。",
-          "eyebrow": "模块1 · ESG报告守则基础",
-          "tags": [
-            "ESG报告守则",
-            "管治架构",
-            "汇报范围",
-            "董事会责任"
-          ],
-          "meta": [
-            "模块1 · ESG报告守则基础",
-            "约10分钟"
-          ],
-          "outline": [
-            {
-              "title": "管治架构概述",
-              "items": []
-            },
-            {
-              "title": "ESG管治架构最佳实践",
-              "items": [
-                "董事会层面",
-                "管理层层面",
-                "执行层面",
-                "监督层面"
-              ]
-            },
-            {
-              "title": "ESG报告范围与温室气体核算边界",
-              "items": []
-            },
-            {
-              "title": "注意事项",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-1-3.json"
-        }
-      ]
+     "id": "hkex-2-1",
+     "title": "编备六步法总览",
+     "summary": "港交所《环境、社会及管治汇报指南》提供的系统化编备流程，从董事会到报告发布的完整方法论。",
+     "eyebrow": "模块2 · ESG报告编备方法",
+     "tags": [
+      "ESG报告守则",
+      "编备方法",
+      "六步法",
+      "报告编制"
+     ],
+     "meta": [
+      "模块2 · ESG报告编备方法",
+      "约15分钟"
+     ],
+     "outline": [
+      {
+       "title": "六步法概述",
+       "items": []
+      },
+      {
+       "title": "编备六步法详解",
+       "items": [
+        "第一步：董事会及ESG工作小组",
+        "第二步：了解《指引》的规定",
+        "第三步：汇报范围",
+        "第四步：重要性评估",
+        "第五步：订立目标",
+        "第六步：撰写ESG报告"
+       ]
+      },
+      {
+       "title": "关键成功因素",
+       "items": []
+      },
+      {
+       "title": "六步法时间规划建议",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-2-1.json"
     },
     {
-      "id": "hkex-2",
-      "title": "模块2 · ESG报告编备方法",
-      "items": [
-        {
-          "id": "hkex-2-1",
-          "title": "编备六步法总览",
-          "summary": "港交所《环境、社会及管治汇报指南》提供的系统化编备流程，从董事会到报告发布的完整方法论。",
-          "eyebrow": "模块2 · ESG报告编备方法",
-          "tags": [
-            "ESG报告守则",
-            "编备方法",
-            "六步法",
-            "报告编制"
-          ],
-          "meta": [
-            "模块2 · ESG报告编备方法",
-            "约15分钟"
-          ],
-          "outline": [
-            {
-              "title": "六步法概述",
-              "items": []
-            },
-            {
-              "title": "编备六步法详解",
-              "items": [
-                "第一步：董事会及ESG工作小组",
-                "第二步：了解《指引》的规定",
-                "第三步：汇报范围",
-                "第四步：重要性评估",
-                "第五步：订立目标",
-                "第六步：撰写ESG报告"
-              ]
-            },
-            {
-              "title": "关键成功因素",
-              "items": []
-            },
-            {
-              "title": "六步法时间规划建议",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-2-1.json"
-        },
-        {
-          "id": "hkex-2-2",
-          "title": "重要性评估方法",
-          "summary": "ESG报告编备的核心环节，通过内部和外部重要性评估，结合重要性矩阵，确定哪些议题需要披露。",
-          "eyebrow": "模块2 · ESG报告编备方法",
-          "tags": [
-            "ESG报告守则",
-            "重要性评估",
-            "持份者参与",
-            "重要性矩阵"
-          ],
-          "meta": [
-            "模块2 · ESG报告编备方法",
-            "约20分钟"
-          ],
-          "outline": [
-            {
-              "title": "重要性评估概述",
-              "items": []
-            },
-            {
-              "title": "重要性评估四步法",
-              "items": [
-                "第一步：内部重要性评估",
-                "第二步：外部重要性评估",
-                "第三步：构建重要性矩阵",
-                "第四步：评估结果应用"
-              ]
-            },
-            {
-              "title": "重要性矩阵",
-              "items": []
-            },
-            {
-              "title": "持份者识别与参与",
-              "items": [
-                "持份者识别",
-                "参与方式",
-                "影响力评估"
-              ]
-            },
-            {
-              "title": "常见问题与改进",
-              "items": []
-            },
-            {
-              "title": "重要性评估文档化清单",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-2-2.json"
-        },
-        {
-          "id": "hkex-2-3",
-          "title": "目标设定与报告撰写",
-          "summary": "设定SMART目标或方向性声明，按照报告结构撰写ESG报告，确保内容完整、数据可验证、表述平衡。",
-          "eyebrow": "模块2 · ESG报告编备方法",
-          "tags": [
-            "ESG报告守则",
-            "目标设定",
-            "报告撰写",
-            "SMART原则"
-          ],
-          "meta": [
-            "模块2 · ESG报告编备方法",
-            "约15分钟"
-          ],
-          "outline": [
-            {
-              "title": "目标设定概述",
-              "items": []
-            },
-            {
-              "title": "SMART目标五要素",
-              "items": [
-                "Specific 具体的",
-                "Measurable 可衡量的",
-                "Achievable 可实现的",
-                "Relevant 相关的",
-                "Time-bound 有时限的"
-              ]
-            },
-            {
-              "title": "ESG报告撰写流程",
-              "items": [
-                "收集和整理数据",
-                "撰写报告初稿",
-                "内部审核",
-                "外部验证（如适用）",
-                "董事会审批和发布"
-              ]
-            },
-            {
-              "title": "报告结构要点",
-              "items": []
-            },
-            {
-              "title": "目标披露要素清单",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-2-3.json"
-        }
-      ]
+     "id": "hkex-2-2",
+     "title": "重要性评估方法",
+     "summary": "ESG报告编备的核心环节，通过内部和外部重要性评估，结合重要性矩阵，确定哪些议题需要披露。",
+     "eyebrow": "模块2 · ESG报告编备方法",
+     "tags": [
+      "ESG报告守则",
+      "重要性评估",
+      "持份者参与",
+      "重要性矩阵"
+     ],
+     "meta": [
+      "模块2 · ESG报告编备方法",
+      "约20分钟"
+     ],
+     "outline": [
+      {
+       "title": "重要性评估概述",
+       "items": []
+      },
+      {
+       "title": "重要性评估四步法",
+       "items": [
+        "第一步：内部重要性评估",
+        "第二步：外部重要性评估",
+        "第三步：构建重要性矩阵",
+        "第四步：评估结果应用"
+       ]
+      },
+      {
+       "title": "重要性矩阵",
+       "items": []
+      },
+      {
+       "title": "持份者识别与参与",
+       "items": [
+        "持份者识别",
+        "参与方式",
+        "影响力评估"
+       ]
+      },
+      {
+       "title": "常见问题与改进",
+       "items": []
+      },
+      {
+       "title": "重要性评估文档化清单",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-2-2.json"
     },
     {
-      "id": "hkex-3",
-      "title": "模块3 · 环境KPI披露细节",
-      "items": [
-        {
-          "id": "hkex-5-1",
-          "title": "A1 排放物：空气污染物与废弃物",
-          "summary": "涵盖排放物种类、有害/无害废弃物、减排目标等5项关键绩效指标的完整披露要求、计算方法与实务指引",
-          "eyebrow": "模块3 · 环境KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "环境KPI",
-            "排放物",
-            "废弃物",
-            "减排目标"
-          ],
-          "meta": [
-            "模块3 · 环境KPI披露细节",
-            "约30分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "A1.1 排放物种类及相关排放数据",
-              "items": []
-            },
-            {
-              "title": "A1.3 有害废弃物总量",
-              "items": []
-            },
-            {
-              "title": "A1.4 无害废弃物总量",
-              "items": []
-            },
-            {
-              "title": "A1.5 排放量目标及步骤",
-              "items": []
-            },
-            {
-              "title": "A1.6 废弃物处理方法及减废目标",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-5-1.json"
-        },
-        {
-          "id": "hkex-5-2",
-          "title": "A2 资源使用：能源、水与包装材料",
-          "summary": "涵盖能源耗量、耗水量、能源/用水效益目标、包装材料等5项关键绩效指标的完整披露要求与计算方法",
-          "eyebrow": "模块3 · 环境KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "环境KPI",
-            "能源",
-            "水资源",
-            "包装材料",
-            "效益目标"
-          ],
-          "meta": [
-            "模块3 · 环境KPI披露细节",
-            "约25分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "A2.1 按类型划分的能源总耗量",
-              "items": []
-            },
-            {
-              "title": "A2.2 总耗水量及密度",
-              "items": []
-            },
-            {
-              "title": "A2.3 能源使用效益目标",
-              "items": []
-            },
-            {
-              "title": "A2.4 用水效益目标",
-              "items": []
-            },
-            {
-              "title": "A2.5 包装材料总量",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-5-2.json"
-        },
-        {
-          "id": "hkex-5-3",
-          "title": "A3 环境及天然资源：业务活动影响",
-          "summary": "描述业务活动对环境及天然资源的重大影响，包括直接影响和间接影响的识别与披露方法",
-          "eyebrow": "模块3 · 环境KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "环境KPI",
-            "天然资源",
-            "环境影响"
-          ],
-          "meta": [
-            "模块3 · 环境KPI披露细节",
-            "约15分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "A3.1 业务活动对环境及天然资源的重大影响",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-5-3.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-4",
-      "title": "模块4 · 社会KPI披露细节",
-      "items": [
-        {
-          "id": "hkex-6-1",
-          "title": "雇佣与劳工准则：雇员结构与劳工保护",
-          "summary": "涵盖雇员总数、流失比率、招聘惯例检讨、违规消除步骤等4项关键绩效指标，保障雇员权益与劳工合规",
-          "eyebrow": "模块4 · 社会KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "社会KPI",
-            "雇佣",
-            "劳工准则",
-            "童工",
-            "强制劳工"
-          ],
-          "meta": [
-            "模块4 · 社会KPI披露细节",
-            "约25分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "B1.1 按性别、雇佣类型、年龄组别及地区划分的雇员总数",
-              "items": []
-            },
-            {
-              "title": "B1.2 按性别、年龄组别及地区划分的雇员流失比率",
-              "items": []
-            },
-            {
-              "title": "B4.1 检讨招聘惯例的措施以避免童工及强制劳工",
-              "items": []
-            },
-            {
-              "title": "B4.2 在发现违规情况时消除有关情况所采取的步骤",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-6-1.json"
-        },
-        {
-          "id": "hkex-6-2",
-          "title": "健康与安全：工伤统计与职业健康措施",
-          "summary": "涵盖因工死亡人数、工伤损失工作日、职业健康安全措施等3项关键绩效指标，保障工作场所安全",
-          "eyebrow": "模块4 · 社会KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "社会KPI",
-            "健康安全",
-            "工伤",
-            "职业健康"
-          ],
-          "meta": [
-            "模块4 · 社会KPI披露细节",
-            "约20分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "B2.1 过去三年因工亡故的人数及比率",
-              "items": []
-            },
-            {
-              "title": "B2.2 因工伤损失工作日数",
-              "items": []
-            },
-            {
-              "title": "B2.3 职业健康与安全措施",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-6-2.json"
-        },
-        {
-          "id": "hkex-6-3",
-          "title": "发展与培训：雇员能力提升",
-          "summary": "涵盖受训雇员百分比、平均受训时数等2项关键绩效指标，衡量企业对雇员发展的投入",
-          "eyebrow": "模块4 · 社会KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "社会KPI",
-            "培训",
-            "雇员发展"
-          ],
-          "meta": [
-            "模块4 · 社会KPI披露细节",
-            "约15分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "B3.1 按性别及雇员类别划分的受训雇员百分比",
-              "items": []
-            },
-            {
-              "title": "B3.2 按性别及雇员类别划分，每名雇员完成受训的平均时数",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-6-3.json"
-        },
-        {
-          "id": "hkex-6-4",
-          "title": "供应链与产品责任：从采购到消费者保护",
-          "summary": "涵盖供应链管理4项KPI与产品责任5项KPI，包括供应商管理、环保采购、产品安全、知识产权、消费者隐私",
-          "eyebrow": "模块4 · 社会KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "社会KPI",
-            "供应链",
-            "产品责任",
-            "消费者保护",
-            "环保采购"
-          ],
-          "meta": [
-            "模块4 · 社会KPI披露细节",
-            "约40分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "B5.1 按地区划分的供应商数目",
-              "items": []
-            },
-            {
-              "title": "B5.2 聘用供应商的惯例",
-              "items": []
-            },
-            {
-              "title": "B5.3 识别供应链环境及社会风险的惯例",
-              "items": []
-            },
-            {
-              "title": "B5.4 在拣选供应商时促使多用环保产品及服务的惯例",
-              "items": []
-            },
-            {
-              "title": "B6.1 已售或已运送产品总数中因安全与健康理由而须回收的百分比",
-              "items": []
-            },
-            {
-              "title": "B6.2 接获关于产品及服务的投诉数目以及应对方法",
-              "items": []
-            },
-            {
-              "title": "B6.3 与维护及保障知识产权有关的惯例",
-              "items": []
-            },
-            {
-              "title": "B6.4 质量检定过程及产品回收程序",
-              "items": []
-            },
-            {
-              "title": "B6.5 消费者资料保障及私隐政策",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-6-4.json"
-        },
-        {
-          "id": "hkex-6-5",
-          "title": "反贪污与社区投资：商业道德与社会贡献",
-          "summary": "涵盖反贪污3项KPI与社区投资2项KPI，包括贪污诉讼、防范措施、反贪培训、社区贡献范畴与资源投入",
-          "eyebrow": "模块4 · 社会KPI披露细节",
-          "tags": [
-            "ESG报告守则",
-            "社会KPI",
-            "反贪污",
-            "社区投资",
-            "商业道德"
-          ],
-          "meta": [
-            "模块4 · 社会KPI披露细节",
-            "约25分钟"
-          ],
-          "outline": [
-            {
-              "title": "知识点总览",
-              "items": []
-            },
-            {
-              "title": "B7.1 对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果",
-              "items": []
-            },
-            {
-              "title": "B7.2 防范措施及举报程序",
-              "items": []
-            },
-            {
-              "title": "B7.3 反贪污培训",
-              "items": []
-            },
-            {
-              "title": "B8.1 专注贡献范畴",
-              "items": []
-            },
-            {
-              "title": "B8.2 在专注范畴所动用资源",
-              "items": []
-            }
-          ],
-          "sourceNote": "香港交易所公开资料",
-          "status": "",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-6-5.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-5",
-      "title": "气候披露 · 模块1 · 核心概念与实施宽免",
-      "items": [
-        {
-          "id": "hkex-cd-1",
-          "title": "IFRS S1核心概念",
-          "summary": "编制气候相关披露的13项核心概念：资料质素、报告实体、重要性、价值链等",
-          "eyebrow": "模块1 · 核心概念与实施宽免",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块1 · 核心概念与实施宽免",
-            "第1章"
-          ],
-          "outline": [
-            {
-              "title": "i. 资料质素",
-              "items": []
-            },
-            {
-              "title": "可比性：",
-              "items": []
-            },
-            {
-              "title": "v. 重要性",
-              "items": [
-                "洞察：发行人如何评估在合理预期下，气候相关风险或机遇是否会在短期、中期或长期内影响其现金流量、融资渠道或资本成本？"
-              ]
-            },
-            {
-              "title": "vi. 价值链概念",
-              "items": []
-            },
-            {
-              "title": "viii. 判断与计量不确定性",
-              "items": []
-            },
-            {
-              "title": "ix. 与法律法规的互动",
-              "items": []
-            },
-            {
-              "title": "x. 汇总及分解",
-              "items": []
-            },
-            {
-              "title": "xi. 可比信息",
-              "items": []
-            },
-            {
-              "title": "xii.估计及差错",
-              "items": []
-            },
-            {
-              "title": "xiii.关联信息",
-              "items": []
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-1.json"
-        },
-        {
-          "id": "hkex-cd-2",
-          "title": "实施宽免",
-          "summary": "按具体条款判断合理资料、能力、商业敏感及财务影响宽免，不设统一两年宽免期",
-          "eyebrow": "模块1 · 核心概念与实施宽免",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块1 · 核心概念与实施宽免",
-            "第1章"
-          ],
-          "outline": [
-            {
-              "title": "合理资料宽免",
-              "items": []
-            },
-            {
-              "title": "能力宽免",
-              "items": []
-            },
-            {
-              "title": "商业敏感宽免",
-              "items": [
-                "实施宽免适用关系（指南表2）",
-                "重要提示"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-2.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-6",
-      "title": "气候披露 · 模块2 · 管治",
-      "items": [
-        {
-          "id": "hkex-cd-3",
-          "title": "管治架构与职责",
-          "summary": "董事会与管理层在气候相关披露中的角色、技能及能力、方式及频率、监察进度",
-          "eyebrow": "模块2 · 管治",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块2 · 管治",
-            "第2章"
-          ],
-          "outline": [
-            {
-              "title": "技能及胜任能力",
-              "items": [
-                "第19(a)(i)段 S2 6(a)(ii)",
-                "实施指引解读",
-                "第19(a)(ii)段 S2 6(a)(iii)"
-              ]
-            },
-            {
-              "title": "董事会的角色及职责",
-              "items": [
-                "第19(a)(iii)段 S2 6(a)(iv)",
-                "实施指引解读",
-                "有关董事会职责的进一步指引",
-                "第19(a)(iv)段 S2 6(a)(v)"
-              ]
-            },
-            {
-              "title": "管理层的角色及职责",
-              "items": [
-                "第19(b)段 S2 6(b)",
-                "实施指引解读",
-                "有关管理层职责的进一步指引",
-                "实际应用示例",
-                "重要提示 S2 7"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-3.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-7",
-      "title": "气候披露 · 模块3 · 策略",
-      "items": [
-        {
-          "id": "hkex-cd-4",
-          "title": "气候相关风险和机遇识别",
-          "summary": "识别重大气候相关风险和机遇的时间范围、方法及实施宽免",
-          "eyebrow": "模块3 · 策略",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块3 · 策略",
-            "第3章"
-          ],
-          "outline": [
-            {
-              "title": "气候相关风险和机遇",
-              "items": [
-                "第20段 S2 10",
-                "实施指引解读",
-                "识别重大气候相关风险的进一步指引"
-              ]
-            },
-            {
-              "title": "时间范围",
-              "items": []
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-4.json"
-        },
-        {
-          "id": "hkex-cd-5",
-          "title": "业务模式和价值链影响",
-          "summary": "气候相关风险和机遇对业务模式和价值链的影响评估",
-          "eyebrow": "模块3 · 策略",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块3 · 策略",
-            "第3章"
-          ],
-          "outline": [
-            {
-              "title": "业务模式和价值链",
-              "items": [
-                "第21段 S2 13",
-                "实施指引解读"
-              ]
-            },
-            {
-              "title": "气候相关风险的影响",
-              "items": [
-                "关于将业务与重大风险对应以及评估气候相关影响的进一步指引",
-                "实施宽免 S2 B36",
-                "气候相关风险：物理、政策法律与技术",
-                "气候相关风险：市场与声誉"
-              ]
-            },
-            {
-              "title": "气候相关机遇的影响",
-              "items": [
-                "气候相关机遇与业务模式、价值链",
-                "重要提示：发行人是否必须在每个汇报日重新评估价值链中的气候相关风险和机遇？ S2 B34"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-5.json"
-        },
-        {
-          "id": "hkex-cd-6",
-          "title": "气候韧性与情景分析",
-          "summary": "策略的气候韧性评估、气候相关情景分析方法、输入资料及假设",
-          "eyebrow": "模块3 · 策略",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块3 · 策略",
-            "第3章"
-          ],
-          "outline": [
-            {
-              "title": "气候韧性",
-              "items": [
-                "实施指引解读"
-              ]
-            },
-            {
-              "title": "策略的气候韧性",
-              "items": []
-            },
-            {
-              "title": "(i) 风险范围及业务范畴",
-              "items": [
-                "情景分析范围：考虑因素与举例"
-              ]
-            },
-            {
-              "title": "选择用于分析的情景",
-              "items": [
-                "公开可得的情景来源概览",
-                "情景来源的选择依据",
-                "重要提示：发行人是否只能选择列表3中的情景来源？",
-                "对开发气候情景的进一步指引"
-              ]
-            },
-            {
-              "title": "确定用于情景分析的变量",
-              "items": [
-                "从气候风险到分析变量",
-                "实施宽免"
-              ]
-            },
-            {
-              "title": "开始气候相关情景分析",
-              "items": [
-                "与发行人情况相称的情景分析方法的进一步指引",
-                "披露举例2：分析范围"
-              ]
-            },
-            {
-              "title": "情景分析的输入资料及方法",
-              "items": [
-                "披露举例2：所用情景与理由",
-                "定性情景：物理风险",
-                "定性情景：转型风险",
-                "量化情景：物理风险",
-                "量化情景：转型风险",
-                "实施指引解读",
-                "重要提示：发行人是否必须每年重新进行一次气候相关情景分析？",
-                "何时需要重新进行情景分析"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-6.json"
-        },
-        {
-          "id": "hkex-cd-7",
-          "title": "财务影响评估",
-          "summary": "气候相关风险和机遇对财务状况、财务表现及现金流量的当前和预期影响",
-          "eyebrow": "模块3 · 策略",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块3 · 策略",
-            "第3章"
-          ],
-          "outline": [
-            {
-              "title": "财务状况、财务表现及现金流量",
-              "items": []
-            },
-            {
-              "title": "当前财务影响",
-              "items": [
-                "第24段 S2 16(a)-(b)",
-                "实施指引解读",
-                "当前财务影响举例",
-                "披露举例3：一家房地产公司的当前财务影响"
-              ]
-            },
-            {
-              "title": "预期财务影响",
-              "items": [
-                "第25段 S2 16(c)-(d)",
-                "实施指引解读",
-                "预期财务影响举例",
-                "实施宽免",
-                "披露举例4：一家房地产公司的预期财务影响"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-7.json"
-        },
-        {
-          "id": "hkex-cd-8",
-          "title": "策略和决策",
-          "summary": "气候相关风险和机遇对策略和决策的影响、转型计划",
-          "eyebrow": "模块3 · 策略",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块3 · 策略",
-            "第3章"
-          ],
-          "outline": [
-            {
-              "title": "策略和决策",
-              "items": [
-                "第22段 S2 14",
-                "实施指引解读",
-                "第23段",
-                "气候行动与资源安排"
-              ]
-            },
-            {
-              "title": "气候相关转型计划",
-              "items": [
-                "重要提示",
-                "转型计划的进一步指引"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-8.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-8",
-      "title": "气候披露 · 模块4 · 风险管理",
-      "items": [
-        {
-          "id": "hkex-cd-9",
-          "title": "风险管理流程",
-          "summary": "气候相关风险的识别、评估、优次排列、管理及整合流程",
-          "eyebrow": "模块4 · 风险管理",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块4 · 风险管理",
-            "第4章"
-          ],
-          "outline": [
-            {
-              "title": "风险识别",
-              "items": []
-            },
-            {
-              "title": "风险优次排列",
-              "items": [
-                "洞察：判断气候相关风险的重要性 S1 B23",
-                "气候相关风险评估及厘定当中轻重缓急的方法的进一步指引",
-                "风险管理方法比较"
-              ]
-            },
-            {
-              "title": "风险整合",
-              "items": []
-            },
-            {
-              "title": "气候管治",
-              "items": [
-                "气候相关风险的特征",
-                "气候风险如何对应现有风险类别"
-              ]
-            },
-            {
-              "title": "工具及汇报",
-              "items": [
-                "披露举例5：风险管理流程及整合气候相关风险",
-                "披露举例5：条款与指南附注",
-                "重要提示 S2 26",
-                "风险管理的进一步指引"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-9.json"
-        }
-      ]
-    },
-    {
-      "id": "hkex-9",
-      "title": "气候披露 · 模块5 · 指标及目标",
-      "items": [
-        {
-          "id": "hkex-cd-10",
-          "title": "温室气体排放核算",
-          "summary": "范围1/2/3温室气体排放核算方法、组织边界与营运边界、数据收集",
-          "eyebrow": "模块5 · 指标及目标",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块5 · 指标及目标",
-            "第5章"
-          ],
-          "outline": [
-            {
-              "title": "温室气体排放",
-              "items": [
-                "第28段 S2 29(a)(i)",
-                "实施指引解读",
-                "第29段"
-              ]
-            },
-            {
-              "title": "温室气体核算体系",
-              "items": []
-            },
-            {
-              "title": "组织边界和计量方法",
-              "items": [
-                "股权比例与控制权方法比较"
-              ]
-            },
-            {
-              "title": "营运边界",
-              "items": [
-                "洞察：组织边界与营运边界之间的关系",
-                "核算边界示例：按实体比较排放比例",
-                "同一企业不同活动的排放范围"
-              ]
-            },
-            {
-              "title": "选择计算方法",
-              "items": [
-                "重要提示"
-              ]
-            },
-            {
-              "title": "数据收集",
-              "items": [
-                "重要提示：发行人在披露温室气体排放总量时是否可使用其他单位？",
-                "范围1：输入、方法与计算举例"
-              ]
-            },
-            {
-              "title": "量化范围2温室气体排放",
-              "items": [
-                "范围2（地域为基准）：输入、方法与计算举例",
-                "重要提示 S2 29(a)(iv)"
-              ]
-            },
-            {
-              "title": "对应价值链中的业务活动",
-              "items": []
-            },
-            {
-              "title": "识别相关范围3温室气体排放",
-              "items": [
-                "识别相关范围3类别的准则",
-                "洞察：如何解决温室气体排放中的重复计算？",
-                "重要提示：发行人是否需要在每个报告日期重新评估范围3类别的范围 S2 B34"
-              ]
-            },
-            {
-              "title": "收集范围3温室气体排放数据",
-              "items": [
-                "范围3：原始数据与二手数据",
-                "范围3数据质量的判断特征",
-                "有关范围3计量框架的进一步指引",
-                "洞察：收集范围3温室气体排放数据的常见挑战",
-                "收集范围3数据：挑战与应对",
-                "收集范围3数据：保密、跨行业与报告期差异",
-                "实际应用15：计算范围3温室气体排放的输入资料概述",
-                "实施宽免 S2 B39",
-                "披露举例：年度温室气体排放数据",
-                "披露举例：标准、计量方法与边界"
-              ]
-            },
-            {
-              "title": "取得的进展",
-              "items": [
-                "进阶披露举例：分组核算与年度比较",
-                "披露举例：标准、计量方法与边界",
-                "范围3类别的报告边界与选择依据"
-              ]
-            },
-            {
-              "title": "取得的进展",
-              "items": [
-                "披露举例：年度温室气体排放数据"
-              ]
-            },
-            {
-              "title": "我们的方法",
-              "items": [
-                "披露举例：标准、计量方法与边界",
-                "范围3：类别、数据来源与选择依据",
-                "范围3温室气体排放类别细分（2023年）",
-                "有关温室气体排放计量的进一步指引"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-10.json"
-        },
-        {
-          "id": "hkex-cd-11",
-          "title": "跨行业指标、内部碳定价与薪酬",
-          "summary": "跨行业气候相关指标、内部碳定价机制、薪酬与气候绩效挂钩",
-          "eyebrow": "模块5 · 指标及目标",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块5 · 指标及目标",
-            "第5章"
-          ],
-          "outline": [
-            {
-              "title": "跨行业指标",
-              "items": [
-                "实施宽免",
-                "跨行业指标：财务表现与财务状况",
-                "重要提示",
-                "第34段 S2 29(f)",
-                "实施指引解读"
-              ]
-            },
-            {
-              "title": "内部碳定价商业决策应用",
-              "items": [
-                "内部碳定价如何影响决策",
-                "内部碳定价机制比较",
-                "内部碳价水平的依据"
-              ]
-            },
-            {
-              "title": "内部碳定价监测和评估",
-              "items": [
-                "有关内部碳定价的进一步指引"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-11.json"
-        },
-        {
-          "id": "hkex-cd-12",
-          "title": "气候相关目标与行业指标",
-          "summary": "气候相关目标设定、行业特定指标、目标进展跟踪",
-          "eyebrow": "模块5 · 指标及目标",
-          "tags": [
-            "气候信息披露"
-          ],
-          "meta": [
-            "模块5 · 指标及目标",
-            "第5章"
-          ],
-          "outline": [
-            {
-              "title": "行业指标",
-              "items": [
-                "实施指引解读",
-                "有关行业指标的进一步指引"
-              ]
-            },
-            {
-              "title": "设定气候相关目标",
-              "items": [
-                "第37段 S2 33",
-                "实施指引解读",
-                "有关目标设定工作流程和关键考虑因素的进一步指引",
-                "气候目标的潜在领域与示例",
-                "第38段 S2 34",
-                "第39段 S2 35",
-                "重要提示",
-                "披露举例7：设定及实现相关目标进展的定性描述",
-                "披露举例8a：目标信息",
-                "目标设定：基准、中期与目标期",
-                "目前为止的进展",
-                "披露举例8a：条款与指南附注"
-              ]
-            }
-          ],
-          "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
-          "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK",
-          "detailFile": "data/hkex/hkex-cd-12.json"
-        }
-      ]
+     "id": "hkex-2-3",
+     "title": "目标设定与报告撰写",
+     "summary": "设定SMART目标或方向性声明，按照报告结构撰写ESG报告，确保内容完整、数据可验证、表述平衡。",
+     "eyebrow": "模块2 · ESG报告编备方法",
+     "tags": [
+      "ESG报告守则",
+      "目标设定",
+      "报告撰写",
+      "SMART原则"
+     ],
+     "meta": [
+      "模块2 · ESG报告编备方法",
+      "约15分钟"
+     ],
+     "outline": [
+      {
+       "title": "目标设定概述",
+       "items": []
+      },
+      {
+       "title": "SMART目标五要素",
+       "items": [
+        "Specific 具体的",
+        "Measurable 可衡量的",
+        "Achievable 可实现的",
+        "Relevant 相关的",
+        "Time-bound 有时限的"
+       ]
+      },
+      {
+       "title": "ESG报告撰写流程",
+       "items": [
+        "收集和整理数据",
+        "撰写报告初稿",
+        "内部审核",
+        "外部验证（如适用）",
+        "董事会审批和发布"
+       ]
+      },
+      {
+       "title": "报告结构要点",
+       "items": []
+      },
+      {
+       "title": "目标披露要素清单",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-2-3.json"
     }
-  ]
+   ]
+  },
+  {
+   "id": "hkex-3",
+   "title": "模块3 · 环境KPI披露细节",
+   "items": [
+    {
+     "id": "hkex-5-1",
+     "title": "A1 排放物：空气污染物与废弃物",
+     "summary": "涵盖排放物种类、有害/无害废弃物、减排目标等5项关键绩效指标的完整披露要求、计算方法与实务指引",
+     "eyebrow": "模块3 · 环境KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "环境KPI",
+      "排放物",
+      "废弃物",
+      "减排目标"
+     ],
+     "meta": [
+      "模块3 · 环境KPI披露细节",
+      "约30分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "A1.1 排放物种类及相关排放数据",
+       "items": []
+      },
+      {
+       "title": "A1.3 有害废弃物总量",
+       "items": []
+      },
+      {
+       "title": "A1.4 无害废弃物总量",
+       "items": []
+      },
+      {
+       "title": "A1.5 排放量目标及步骤",
+       "items": []
+      },
+      {
+       "title": "A1.6 废弃物处理方法及减废目标",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-5-1.json"
+    },
+    {
+     "id": "hkex-5-2",
+     "title": "A2 资源使用：能源、水与包装材料",
+     "summary": "涵盖能源耗量、耗水量、能源/用水效益目标、包装材料等5项关键绩效指标的完整披露要求与计算方法",
+     "eyebrow": "模块3 · 环境KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "环境KPI",
+      "能源",
+      "水资源",
+      "包装材料",
+      "效益目标"
+     ],
+     "meta": [
+      "模块3 · 环境KPI披露细节",
+      "约25分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "A2.1 按类型划分的能源总耗量",
+       "items": []
+      },
+      {
+       "title": "A2.2 总耗水量及密度",
+       "items": []
+      },
+      {
+       "title": "A2.3 能源使用效益目标",
+       "items": []
+      },
+      {
+       "title": "A2.4 用水效益目标",
+       "items": []
+      },
+      {
+       "title": "A2.5 包装材料总量",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-5-2.json"
+    },
+    {
+     "id": "hkex-5-3",
+     "title": "A3 环境及天然资源：业务活动影响",
+     "summary": "描述业务活动对环境及天然资源的重大影响，包括直接影响和间接影响的识别与披露方法",
+     "eyebrow": "模块3 · 环境KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "环境KPI",
+      "天然资源",
+      "环境影响"
+     ],
+     "meta": [
+      "模块3 · 环境KPI披露细节",
+      "约15分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "A3.1 业务活动对环境及天然资源的重大影响",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-5-3.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-4",
+   "title": "模块4 · 社会KPI披露细节",
+   "items": [
+    {
+     "id": "hkex-6-1",
+     "title": "雇佣与劳工准则：雇员结构与劳工保护",
+     "summary": "涵盖雇员总数、流失比率、招聘惯例检讨、违规消除步骤等4项关键绩效指标，保障雇员权益与劳工合规",
+     "eyebrow": "模块4 · 社会KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "社会KPI",
+      "雇佣",
+      "劳工准则",
+      "童工",
+      "强制劳工"
+     ],
+     "meta": [
+      "模块4 · 社会KPI披露细节",
+      "约25分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "B1.1 按性别、雇佣类型、年龄组别及地区划分的雇员总数",
+       "items": []
+      },
+      {
+       "title": "B1.2 按性别、年龄组别及地区划分的雇员流失比率",
+       "items": []
+      },
+      {
+       "title": "B4.1 检讨招聘惯例的措施以避免童工及强制劳工",
+       "items": []
+      },
+      {
+       "title": "B4.2 在发现违规情况时消除有关情况所采取的步骤",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-6-1.json"
+    },
+    {
+     "id": "hkex-6-2",
+     "title": "健康与安全：工伤统计与职业健康措施",
+     "summary": "涵盖因工死亡人数、工伤损失工作日、职业健康安全措施等3项关键绩效指标，保障工作场所安全",
+     "eyebrow": "模块4 · 社会KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "社会KPI",
+      "健康安全",
+      "工伤",
+      "职业健康"
+     ],
+     "meta": [
+      "模块4 · 社会KPI披露细节",
+      "约20分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "B2.1 过去三年因工亡故的人数及比率",
+       "items": []
+      },
+      {
+       "title": "B2.2 因工伤损失工作日数",
+       "items": []
+      },
+      {
+       "title": "B2.3 职业健康与安全措施",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-6-2.json"
+    },
+    {
+     "id": "hkex-6-3",
+     "title": "发展与培训：雇员能力提升",
+     "summary": "涵盖受训雇员百分比、平均受训时数等2项关键绩效指标，衡量企业对雇员发展的投入",
+     "eyebrow": "模块4 · 社会KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "社会KPI",
+      "培训",
+      "雇员发展"
+     ],
+     "meta": [
+      "模块4 · 社会KPI披露细节",
+      "约15分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "B3.1 按性别及雇员类别划分的受训雇员百分比",
+       "items": []
+      },
+      {
+       "title": "B3.2 按性别及雇员类别划分，每名雇员完成受训的平均时数",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-6-3.json"
+    },
+    {
+     "id": "hkex-6-4",
+     "title": "供应链与产品责任：从采购到消费者保护",
+     "summary": "涵盖供应链管理4项KPI与产品责任5项KPI，包括供应商管理、环保采购、产品安全、知识产权、消费者隐私",
+     "eyebrow": "模块4 · 社会KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "社会KPI",
+      "供应链",
+      "产品责任",
+      "消费者保护",
+      "环保采购"
+     ],
+     "meta": [
+      "模块4 · 社会KPI披露细节",
+      "约40分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "B5.1 按地区划分的供应商数目",
+       "items": []
+      },
+      {
+       "title": "B5.2 聘用供应商的惯例",
+       "items": []
+      },
+      {
+       "title": "B5.3 识别供应链环境及社会风险的惯例",
+       "items": []
+      },
+      {
+       "title": "B5.4 在拣选供应商时促使多用环保产品及服务的惯例",
+       "items": []
+      },
+      {
+       "title": "B6.1 已售或已运送产品总数中因安全与健康理由而须回收的百分比",
+       "items": []
+      },
+      {
+       "title": "B6.2 接获关于产品及服务的投诉数目以及应对方法",
+       "items": []
+      },
+      {
+       "title": "B6.3 与维护及保障知识产权有关的惯例",
+       "items": []
+      },
+      {
+       "title": "B6.4 质量检定过程及产品回收程序",
+       "items": []
+      },
+      {
+       "title": "B6.5 消费者资料保障及私隐政策",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-6-4.json"
+    },
+    {
+     "id": "hkex-6-5",
+     "title": "反贪污与社区投资：商业道德与社会贡献",
+     "summary": "涵盖反贪污3项KPI与社区投资2项KPI，包括贪污诉讼、防范措施、反贪培训、社区贡献范畴与资源投入",
+     "eyebrow": "模块4 · 社会KPI披露细节",
+     "tags": [
+      "ESG报告守则",
+      "社会KPI",
+      "反贪污",
+      "社区投资",
+      "商业道德"
+     ],
+     "meta": [
+      "模块4 · 社会KPI披露细节",
+      "约25分钟"
+     ],
+     "outline": [
+      {
+       "title": "知识点总览",
+       "items": []
+      },
+      {
+       "title": "B7.1 对发行人或其雇员提出并已审结的贪污诉讼案件的数目及诉讼结果",
+       "items": []
+      },
+      {
+       "title": "B7.2 防范措施及举报程序",
+       "items": []
+      },
+      {
+       "title": "B7.3 反贪污培训",
+       "items": []
+      },
+      {
+       "title": "B8.1 专注贡献范畴",
+       "items": []
+      },
+      {
+       "title": "B8.2 在专注范畴所动用资源",
+       "items": []
+      }
+     ],
+     "sourceNote": "香港交易所公开资料",
+     "status": "",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-6-5.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-5",
+   "title": "气候披露 · 模块1 · 核心概念与实施宽免",
+   "items": [
+    {
+     "id": "hkex-cd-1",
+     "title": "IFRS S1核心概念",
+     "summary": "编制气候相关披露的13项核心概念：资料质素、报告实体、重要性、价值链等",
+     "eyebrow": "模块1 · 核心概念与实施宽免",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块1 · 核心概念与实施宽免",
+      "第1章"
+     ],
+     "outline": [
+      {
+       "title": "i. 资料质素",
+       "items": []
+      },
+      {
+       "title": "可比性：",
+       "items": []
+      },
+      {
+       "title": "v. 重要性",
+       "items": [
+        "洞察：发行人如何评估在合理预期下，气候相关风险或机遇是否会在短期、中期或长期内影响其现金流量、融资渠道或资本成本？"
+       ]
+      },
+      {
+       "title": "vi. 价值链概念",
+       "items": []
+      },
+      {
+       "title": "viii. 判断与计量不确定性",
+       "items": []
+      },
+      {
+       "title": "ix. 与法律法规的互动",
+       "items": []
+      },
+      {
+       "title": "x. 汇总及分解",
+       "items": []
+      },
+      {
+       "title": "xi. 可比信息",
+       "items": []
+      },
+      {
+       "title": "xii.估计及差错",
+       "items": []
+      },
+      {
+       "title": "xiii.关联信息",
+       "items": []
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-1.json"
+    },
+    {
+     "id": "hkex-cd-2",
+     "title": "实施宽免",
+     "summary": "按具体条款判断合理资料、能力、商业敏感及财务影响宽免，不设统一两年宽免期",
+     "eyebrow": "模块1 · 核心概念与实施宽免",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块1 · 核心概念与实施宽免",
+      "第1章"
+     ],
+     "outline": [
+      {
+       "title": "合理资料宽免",
+       "items": []
+      },
+      {
+       "title": "能力宽免",
+       "items": []
+      },
+      {
+       "title": "商业敏感宽免",
+       "items": [
+        "实施宽免适用关系（指南表2）",
+        "重要提示"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
+     "detailFile": "data/hkex/hkex-cd-2.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-6",
+   "title": "气候披露 · 模块2 · 管治",
+   "items": [
+    {
+     "id": "hkex-cd-3",
+     "title": "管治架构与职责",
+     "summary": "董事会与管理层在气候相关披露中的角色、技能及能力、方式及频率、监察进度",
+     "eyebrow": "模块2 · 管治",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块2 · 管治",
+      "第2章"
+     ],
+     "outline": [
+      {
+       "title": "技能及胜任能力",
+       "items": [
+        "第19(a)(i)段 S2 6(a)(ii)",
+        "实施指引解读",
+        "第19(a)(ii)段 S2 6(a)(iii)"
+       ]
+      },
+      {
+       "title": "董事会的角色及职责",
+       "items": [
+        "第19(a)(iii)段 S2 6(a)(iv)",
+        "实施指引解读",
+        "有关董事会职责的进一步指引",
+        "第19(a)(iv)段 S2 6(a)(v)"
+       ]
+      },
+      {
+       "title": "管理层的角色及职责",
+       "items": [
+        "第19(b)段 S2 6(b)",
+        "实施指引解读",
+        "有关管理层职责的进一步指引",
+        "实际应用示例",
+        "重要提示 S2 7"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-3.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-7",
+   "title": "气候披露 · 模块3 · 策略",
+   "items": [
+    {
+     "id": "hkex-cd-4",
+     "title": "气候相关风险和机遇识别",
+     "summary": "识别重大气候相关风险和机遇的时间范围、方法及实施宽免",
+     "eyebrow": "模块3 · 策略",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块3 · 策略",
+      "第3章"
+     ],
+     "outline": [
+      {
+       "title": "气候相关风险和机遇",
+       "items": [
+        "第20段 S2 10",
+        "实施指引解读",
+        "识别重大气候相关风险的进一步指引"
+       ]
+      },
+      {
+       "title": "时间范围",
+       "items": []
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-4.json"
+    },
+    {
+     "id": "hkex-cd-5",
+     "title": "业务模式和价值链影响",
+     "summary": "气候相关风险和机遇对业务模式和价值链的影响评估",
+     "eyebrow": "模块3 · 策略",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块3 · 策略",
+      "第3章"
+     ],
+     "outline": [
+      {
+       "title": "业务模式和价值链",
+       "items": [
+        "第21段 S2 13",
+        "实施指引解读"
+       ]
+      },
+      {
+       "title": "气候相关风险的影响",
+       "items": [
+        "关于将业务与重大风险对应以及评估气候相关影响的进一步指引",
+        "实施宽免 S2 B36",
+        "气候相关风险：物理、政策法律与技术",
+        "气候相关风险：市场与声誉"
+       ]
+      },
+      {
+       "title": "气候相关机遇的影响",
+       "items": [
+        "气候相关机遇与业务模式、价值链",
+        "重要提示：发行人是否必须在每个汇报日重新评估价值链中的气候相关风险和机遇？ S2 B34"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-5.json"
+    },
+    {
+     "id": "hkex-cd-6",
+     "title": "气候韧性与情景分析",
+     "summary": "策略的气候韧性评估、气候相关情景分析方法、输入资料及假设",
+     "eyebrow": "模块3 · 策略",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块3 · 策略",
+      "第3章"
+     ],
+     "outline": [
+      {
+       "title": "气候韧性",
+       "items": [
+        "实施指引解读"
+       ]
+      },
+      {
+       "title": "策略的气候韧性",
+       "items": []
+      },
+      {
+       "title": "(i) 风险范围及业务范畴",
+       "items": [
+        "情景分析范围：考虑因素与举例"
+       ]
+      },
+      {
+       "title": "选择用于分析的情景",
+       "items": [
+        "公开可得的情景来源概览",
+        "情景来源的选择依据",
+        "重要提示：发行人是否只能选择列表3中的情景来源？",
+        "对开发气候情景的进一步指引"
+       ]
+      },
+      {
+       "title": "确定用于情景分析的变量",
+       "items": [
+        "从气候风险到分析变量",
+        "实施宽免"
+       ]
+      },
+      {
+       "title": "开始气候相关情景分析",
+       "items": [
+        "与发行人情况相称的情景分析方法的进一步指引",
+        "披露举例2：分析范围"
+       ]
+      },
+      {
+       "title": "情景分析的输入资料及方法",
+       "items": [
+        "披露举例2：所用情景与理由",
+        "定性情景：物理风险",
+        "定性情景：转型风险",
+        "量化情景：物理风险",
+        "量化情景：转型风险",
+        "实施指引解读",
+        "重要提示：发行人是否必须每年重新进行一次气候相关情景分析？",
+        "何时需要重新进行情景分析"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-6.json"
+    },
+    {
+     "id": "hkex-cd-7",
+     "title": "财务影响评估",
+     "summary": "气候相关风险和机遇对财务状况、财务表现及现金流量的当前和预期影响",
+     "eyebrow": "模块3 · 策略",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块3 · 策略",
+      "第3章"
+     ],
+     "outline": [
+      {
+       "title": "财务状况、财务表现及现金流量",
+       "items": []
+      },
+      {
+       "title": "当前财务影响",
+       "items": [
+        "第24段 S2 16(a)-(b)",
+        "实施指引解读",
+        "当前财务影响举例",
+        "披露举例3：一家房地产公司的当前财务影响"
+       ]
+      },
+      {
+       "title": "预期财务影响",
+       "items": [
+        "第25段 S2 16(c)-(d)",
+        "实施指引解读",
+        "预期财务影响举例",
+        "实施宽免",
+        "披露举例4：一家房地产公司的预期财务影响"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-7.json"
+    },
+    {
+     "id": "hkex-cd-8",
+     "title": "策略和决策",
+     "summary": "气候相关风险和机遇对策略和决策的影响、转型计划",
+     "eyebrow": "模块3 · 策略",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块3 · 策略",
+      "第3章"
+     ],
+     "outline": [
+      {
+       "title": "策略和决策",
+       "items": [
+        "第22段 S2 14",
+        "实施指引解读",
+        "第23段",
+        "气候行动与资源安排"
+       ]
+      },
+      {
+       "title": "气候相关转型计划",
+       "items": [
+        "重要提示",
+        "转型计划的进一步指引"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-8.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-8",
+   "title": "气候披露 · 模块4 · 风险管理",
+   "items": [
+    {
+     "id": "hkex-cd-9",
+     "title": "风险管理流程",
+     "summary": "气候相关风险的识别、评估、优次排列、管理及整合流程",
+     "eyebrow": "模块4 · 风险管理",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块4 · 风险管理",
+      "第4章"
+     ],
+     "outline": [
+      {
+       "title": "风险识别",
+       "items": []
+      },
+      {
+       "title": "风险优次排列",
+       "items": [
+        "洞察：判断气候相关风险的重要性 S1 B23",
+        "气候相关风险评估及厘定当中轻重缓急的方法的进一步指引",
+        "风险管理方法比较"
+       ]
+      },
+      {
+       "title": "风险整合",
+       "items": []
+      },
+      {
+       "title": "气候管治",
+       "items": [
+        "气候相关风险的特征",
+        "气候风险如何对应现有风险类别"
+       ]
+      },
+      {
+       "title": "工具及汇报",
+       "items": [
+        "披露举例5：风险管理流程及整合气候相关风险",
+        "披露举例5：条款与指南附注",
+        "重要提示 S2 26",
+        "风险管理的进一步指引"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-9.json"
+    }
+   ]
+  },
+  {
+   "id": "hkex-9",
+   "title": "气候披露 · 模块5 · 指标及目标",
+   "items": [
+    {
+     "id": "hkex-cd-10",
+     "title": "温室气体排放核算",
+     "summary": "范围1/2/3温室气体排放核算方法、组织边界与营运边界、数据收集",
+     "eyebrow": "模块5 · 指标及目标",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块5 · 指标及目标",
+      "第5章"
+     ],
+     "outline": [
+      {
+       "title": "温室气体排放",
+       "items": [
+        "第28段 S2 29(a)(i)",
+        "实施指引解读",
+        "第29段"
+       ]
+      },
+      {
+       "title": "温室气体核算体系",
+       "items": []
+      },
+      {
+       "title": "组织边界和计量方法",
+       "items": [
+        "股权比例与控制权方法比较"
+       ]
+      },
+      {
+       "title": "营运边界",
+       "items": [
+        "洞察：组织边界与营运边界之间的关系",
+        "核算边界示例：按实体比较排放比例",
+        "同一企业不同活动的排放范围"
+       ]
+      },
+      {
+       "title": "选择计算方法",
+       "items": [
+        "重要提示"
+       ]
+      },
+      {
+       "title": "数据收集",
+       "items": [
+        "重要提示：发行人在披露温室气体排放总量时是否可使用其他单位？",
+        "范围1：输入、方法与计算举例"
+       ]
+      },
+      {
+       "title": "量化范围2温室气体排放",
+       "items": [
+        "范围2（地域为基准）：输入、方法与计算举例",
+        "重要提示 S2 29(a)(iv)"
+       ]
+      },
+      {
+       "title": "对应价值链中的业务活动",
+       "items": []
+      },
+      {
+       "title": "识别相关范围3温室气体排放",
+       "items": [
+        "识别相关范围3类别的准则",
+        "洞察：如何解决温室气体排放中的重复计算？",
+        "重要提示：发行人是否需要在每个报告日期重新评估范围3类别的范围 S2 B34"
+       ]
+      },
+      {
+       "title": "收集范围3温室气体排放数据",
+       "items": [
+        "范围3：原始数据与二手数据",
+        "范围3数据质量的判断特征",
+        "有关范围3计量框架的进一步指引",
+        "洞察：收集范围3温室气体排放数据的常见挑战",
+        "收集范围3数据：挑战与应对",
+        "收集范围3数据：保密、跨行业与报告期差异",
+        "实际应用15：计算范围3温室气体排放的输入资料概述",
+        "实施宽免 S2 B39",
+        "披露举例：年度温室气体排放数据",
+        "披露举例：标准、计量方法与边界"
+       ]
+      },
+      {
+       "title": "取得的进展",
+       "items": [
+        "进阶披露举例：分组核算与年度比较",
+        "披露举例：标准、计量方法与边界",
+        "范围3类别的报告边界与选择依据"
+       ]
+      },
+      {
+       "title": "取得的进展",
+       "items": [
+        "披露举例：年度温室气体排放数据"
+       ]
+      },
+      {
+       "title": "我们的方法",
+       "items": [
+        "披露举例：标准、计量方法与边界",
+        "范围3：类别、数据来源与选择依据",
+        "范围3温室气体排放类别细分（2023年）",
+        "有关温室气体排放计量的进一步指引"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-10.json"
+    },
+    {
+     "id": "hkex-cd-11",
+     "title": "跨行业指标、内部碳定价与薪酬",
+     "summary": "跨行业气候相关指标、内部碳定价机制、薪酬与气候绩效挂钩",
+     "eyebrow": "模块5 · 指标及目标",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块5 · 指标及目标",
+      "第5章"
+     ],
+     "outline": [
+      {
+       "title": "跨行业指标",
+       "items": [
+        "实施宽免",
+        "跨行业指标：财务表现与财务状况",
+        "重要提示",
+        "第34段 S2 29(f)",
+        "实施指引解读"
+       ]
+      },
+      {
+       "title": "内部碳定价商业决策应用",
+       "items": [
+        "内部碳定价如何影响决策",
+        "内部碳定价机制比较",
+        "内部碳价水平的依据"
+       ]
+      },
+      {
+       "title": "内部碳定价监测和评估",
+       "items": [
+        "有关内部碳定价的进一步指引"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-11.json"
+    },
+    {
+     "id": "hkex-cd-12",
+     "title": "气候相关目标与行业指标",
+     "summary": "气候相关目标设定、行业特定指标、目标进展跟踪",
+     "eyebrow": "模块5 · 指标及目标",
+     "tags": [
+      "气候信息披露"
+     ],
+     "meta": [
+      "模块5 · 指标及目标",
+      "第5章"
+     ],
+     "outline": [
+      {
+       "title": "行业指标",
+       "items": [
+        "实施指引解读",
+        "有关行业指标的进一步指引"
+       ]
+      },
+      {
+       "title": "设定气候相关目标",
+       "items": [
+        "第37段 S2 33",
+        "实施指引解读",
+        "有关目标设定工作流程和关键考虑因素的进一步指引",
+        "气候目标的潜在领域与示例",
+        "第38段 S2 34",
+        "第39段 S2 35",
+        "重要提示",
+        "披露举例7：设定及实现相关目标进展的定性描述",
+        "披露举例8a：目标信息",
+        "目标设定：基准、中期与目标期",
+        "目前为止的进展",
+        "披露举例8a：条款与指南附注"
+       ]
+      }
+     ],
+     "sourceNote": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "status": "官方指南摘编；本批表格已恢复并配对英文，其他正文的逐段英文仍在校核",
+     "officialUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf",
+     "detailFile": "data/hkex/hkex-cd-12.json"
+    }
+   ]
+  }
+ ],
+ "officialFiles": [
+  {
+   "name": "《环境、社会及管治报告守则》（附录C2）与气候披露要求——港交所ESG Academy·规则与规例",
+   "url": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK"
+  },
+  {
+   "name": "《香港交易所环境、社会及管治框架下气候信息披露的实施指引》（PDF）",
+   "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/guidance_enhanced_climate_dis_c.pdf"
+  },
+  {
+   "name": "《Linking the ISSB Standards and HKEX ESG Reporting Code》（PDF）",
+   "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/Rules-and-Guidance/Environmental-Social-and-Governance/Exchanges-guidance-materials-on-ESG/ISSBstd_esgcode.pdf"
+  },
+  {
+   "name": "港交所 ESG Academy（学习与规则入口）",
+   "url": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy?sc_lang=zh-HK"
+  }
+ ]
 }
