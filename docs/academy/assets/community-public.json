@@ -114,6 +114,386 @@
           "url": "https://mp.weixin.qq.com/s/J4KBWDdzQ7WwVh1Et6fvNg"
         }
       ]
+    },
+    {
+      "id": "carbon-market-quota-2026",
+      "category": "国内政策",
+      "title": "全国碳市场2025、2026年度配额总量和分配方案印发",
+      "summary": "生态环境部印发《全国碳排放权交易市场2025、2026年度发电行业以及2026年度钢铁、水泥、铝冶炼行业配额总量和分配方案》，碳市场扩围后四大重点行业配额分配、发放、清缴的制度框架正式落地。",
+      "date": "2026-09-02",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年9月2日，生态环境部印发《全国碳排放权交易市场2025、2026年度发电行业以及2026年度钢铁、水泥、铝冶炼行业配额总量和分配方案》，对相关行业配额的分配范围、计算方法、发放和清缴等工作进行部署，标志着全国碳市场扩围之后四大重点行业的配额制度框架正式落地。"
+        },
+        {
+          "type": "heading",
+          "text": "方案要点"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "印发机关", "value": "生态环境部" },
+            { "label": "覆盖范围", "value": "2025、2026年度发电行业；2026年度钢铁、水泥、铝冶炼行业" },
+            { "label": "分配思路", "value": "延续强度控制下免费分配的总体思路，发电行业动态下调机组碳排放基准值" },
+            { "label": "预分配比例", "value": "原则上为重点排放单位上一年度经核查排放量的50%，可结合履约风险下调" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "关注重点"
+        },
+        {
+          "type": "list",
+          "items": [
+            "省级生态环境主管部门将按规定时间节点核定并分配配额，重点排放单位需关注本省通知与注册登记安排。",
+            "配额分配结果与履约清缴直接挂钩，相关行业企业应提前核对自身排放核查数据与配额缺口。",
+            "碳配额被《生态环境法典》纳入法定权属资产后，其会计处理与交易合规正在成为企业关注的新重点。"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "以上内容依据生态环境部官网公开信息整理，配额分配的具体口径、时间与数据以官方通知及各省生态环境主管部门要求为准。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "生态环境部·温室气体控制栏目（含通知原文）",
+          "url": "https://www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/"
+        }
+      ]
+    },
+    {
+      "id": "dual-green-digital-2026",
+      "category": "国内政策",
+      "title": "七部门印发《促进数字化绿色化协同转型发展实施方案（2026—2030年）》",
+      "summary": "中央网信办等七部门联合印发双化协同实施方案，部署4方面14项重点任务，明确“十五五”期间算力设施、5G基站等新兴领域用能效率大幅提升等目标。",
+      "date": "2026-09-04",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年9月4日，中央网信办、国家发展改革委、工业和信息化部、生态环境部、住房城乡建设部、农业农村部、商务部七部门联合印发《促进数字化绿色化协同转型发展实施方案（2026—2030年）》，统筹推进数字技术与绿色低碳转型深度融合。"
+        },
+        {
+          "type": "heading",
+          "text": "方案要点"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "印发部门", "value": "中央网信办等七部门" },
+            { "label": "规划期限", "value": "2026—2030年（“十五五”时期）" },
+            { "label": "总体框架", "value": "4个方面14项重点任务" },
+            { "label": "2030年目标", "value": "算力设施、5G基站等新兴领域用能效率大幅提升，重点领域可再生能源电力消费达到消纳责任权重水平" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "重点任务方向"
+        },
+        {
+          "type": "list",
+          "items": [
+            "推动数智技术与绿色技术融合创新，发展绿色高效人工智能技术，赋能绿色低碳技术创新。",
+            "提升新兴领域用能效率，推动算力设施、通信基站、数字企业绿色低碳发展。",
+            "深化农业、制造业、贸易、消费、城市运行等领域双化协同应用和生态环境智能化治理。",
+            "夯实基础支撑：优化发展环境、提升数字化碳管理水平、深化国际交流合作。"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "对数字化供应链与能耗管理相关的企业而言，“数字化碳管理”与算力用能要求值得重点关注，具体任务以官方印发文本为准。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "中央网信办发布页",
+          "url": "https://www.cac.gov.cn/2026-09/04/c_1790271981702331.htm"
+        }
+      ]
+    },
+    {
+      "id": "eco-environment-code-2026",
+      "category": "监管动态",
+      "title": "《中华人民共和国生态环境法典》施行进入倒计时",
+      "summary": "法典共5编1242条，整合替代10部环境单行法律：碳排放权交易上升至法律层级，绿色供应链义务写入法条，从法律层面重塑碳与ESG监管体系。",
+      "date": "2026-08-06",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年8月，中国日报网报道《中华人民共和国生态环境法典》实施进入倒计时。法典共计5编1242条，整合替代10部原有环境单行法律，从法律层面重塑国内碳与ESG监管体系。"
+        },
+        {
+          "type": "heading",
+          "text": "关键突破"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "法典规模", "value": "5编1242条，整合替代10部环境单行法律" },
+            { "label": "碳排放权", "value": "碳排放权交易正式上升至法律层级，碳配额成为具备法定权属、可流通交易的标准化资产" },
+            { "label": "绿色供应链", "value": "绿色供应链义务写入法条，企业环境管控责任进一步明确" },
+            { "label": "监管体系", "value": "从法律层面重塑国内碳与ESG监管体系，实现四项关键性突破" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "法典具体条文与施行时间以全国人大常委会公布的正式文本为准；本文为对企业ESG合规转型背景的报道整理。"
+        },
+        {
+          "type": "source",
+          "label": "来源",
+          "text": "中国日报网（对第五届国际绿色零碳节的报道）",
+          "url": "http://cn.chinadaily.com.cn/a/202608/06/WS6a744f6ca310d709c2fc1f1a.html"
+        }
+      ]
+    },
+    {
+      "id": "esg-going-global-2026",
+      "category": "市场动态",
+      "title": "ESG治理成为中国企业出海“必答题”",
+      "summary": "国际可持续准则理事会（ISSB）主席特别顾问张敏文介绍国际可持续披露准则进展，指出出海企业需将ESG治理纳入必修课，应对国际披露要求。",
+      "date": "2026-09-17",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年9月17日，中国经济网发文指出，ESG治理正成为中国企业出海的“必答题”。国际可持续准则理事会（ISSB）主席特别顾问、国际财务报告准则基金会北京办公室主任张敏文介绍了国际可持续披露准则的建设进展。"
+        },
+        {
+          "type": "heading",
+          "text": "要点"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ISSB制定与国际财务报告准则相协同的可持续发展报告准则，构建全球可持续披露基线。",
+            "出海企业面临的ESG披露要求来自多个监管与评级体系，需要建立统一的数据底座。",
+            "专家观点认为，ESG能力正从合规要求演变为进入国际市场的竞争力要素。"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "本条为媒体报道整理，具体披露要求应以各目标市场现行法规及客户要求为准。"
+        },
+        {
+          "type": "source",
+          "label": "来源",
+          "text": "中国经济网",
+          "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202609/t20260917_3219711.shtml"
+        }
+      ]
+    },
+    {
+      "id": "eu-esrs-revision-2026",
+      "category": "国际监管",
+      "title": "欧盟通过修订版ESRS可持续报告标准",
+      "summary": "欧委会于7月3日采纳修订后的欧洲可持续报告标准（ESRS）及中小企业自愿报告标准，作为Omnibus简化的一部分，在保持披露质量的同时降低行政负担。",
+      "date": "2026-07-03",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年7月3日，欧盟委员会正式采纳修订后的欧洲可持续报告标准（ESRS）以及面向中小企业（SMEs）的自愿报告标准。修订是欧盟“Omnibus”简化一揽子措施的组成部分，旨在降低企业行政负担的同时维持高质量披露。"
+        },
+        {
+          "type": "heading",
+          "text": "要点"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "发布机构", "value": "欧盟委员会" },
+            { "label": "覆盖内容", "value": "环境、社会与治理议题：气候、生物多样性、人权等" },
+            { "label": "配套标准", "value": "中小企业自愿报告标准（voluntary standard for SMEs）" },
+            { "label": "政策背景", "value": "Omnibus 简化一揽子措施，降低行政负担" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "对欧盟供应链内的中国企业：ESRS修订可能影响客户要求的数据颗粒度与披露范围，具体适用以欧盟官方文本及合同约定为准。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "欧盟委员会（European Commission）",
+          "url": "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-2026-07-03_en"
+        }
+      ]
+    },
+    {
+      "id": "eu-sfdr-simplification-2026",
+      "category": "国际监管",
+      "title": "欧洲议会推进SFDR简化：三类产品类别方案获支持",
+      "summary": "欧洲议会ECON委员会以37:9通过SFDR修订立场：设立sustainable/transition/ESG basics三类产品类别，transition类别排除化石燃料收入公司（除非有达标减排计划）。",
+      "date": "2026-09-10",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年9月10日，欧洲议会经济与货币事务委员会（ECON）以37票对9票通过《可持续金融披露条例》（SFDR）修订立场，支持欧盟委员会提出的三类产品类别方案，旨在让零售投资者更容易比较可持续金融产品、防止“漂绿”。"
+        },
+        {
+          "type": "heading",
+          "text": "三类产品类别"
+        },
+        {
+          "type": "list",
+          "items": [
+            "sustainable（可持续）：投资于已符合高标准可持续目标的企业或项目。",
+            "transition（转型）：投向尚未可持续但正在转型的企业；欧洲议会要求排除化石燃料勘探、开采、采矿或精炼收入公司，除非其有可衡量的减排时间表并加大可持续投入。",
+            "ESG basics（ESG基础）：披露ESG特征与主要不利影响，但不对可持续性作高承诺。"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "此为欧洲议会委员会立场，后续还需经全体会议与欧盟机构间谈判，最终立法文本以官方发布为准。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "欧洲议会新闻（European Parliament）",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260907IPR47414/meps-vote-for-clearer-simpler-sustainable-finance-disclosure-rules"
+        }
+      ]
+    },
+    {
+      "id": "eu-esg-rating-regulation-2026",
+      "category": "国际监管",
+      "title": "欧盟ESG评级机构监管条例正式适用",
+      "summary": "欧盟《ESG评级活动透明度和完整性条例》自2026年7月2日起适用，在欧盟运营的ESG评级机构须向ESMA申报继续运营意向。",
+      "date": "2026-07-02",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2024年11月，欧盟《ESG评级活动透明度和完整性条例》（ESG Ratings Regulation）在官方公报发布。该条例自2026年7月2日起适用，这是ESG评级机构需要向欧洲证券和市场管理局（ESMA）申报其继续在欧盟运营意向的日期。"
+        },
+        {
+          "type": "heading",
+          "text": "要点"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "监管机构", "value": "欧洲证券和市场管理局（ESMA）" },
+            { "label": "适用日期", "value": "2026年7月2日" },
+            { "label": "核心要求", "value": "ESG评级机构须向ESMA申报继续在欧盟运营的意向，并遵循透明度与诚信要求" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "对使用ESG评级结果的企业而言，评级机构合规性与方法透明度成为供应商尽调中的新增关注点。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "ESMA官网（ESG Rating Providers）",
+          "url": "https://www.esma.europa.eu/esmas-activities/investors-and-issuers/esg-rating-providers"
+        }
+      ]
+    },
+    {
+      "id": "esma-sustainability-reporting-2026",
+      "category": "国际监管",
+      "title": "ESMA就欧盟可持续报告框架提交最终建议",
+      "summary": "针对“暂停时钟”指令后的可持续报告框架，ESMA已完成公众咨询（7月22日听证会），将于2026年10月前向欧委会提交最终建议。",
+      "date": "2026-09-04",
+      "content": [
+        {
+          "type": "lead",
+          "text": "ESMA正在就欧盟可持续报告框架向欧委会提供建议。该工作基于“暂停时钟”指令后的报告范围调整，ESMA已完成利益相关方咨询，并于2026年7月22日举行公开听证会，计划在2026年10月截止日期前提交最终建议。"
+        },
+        {
+          "type": "heading",
+          "text": "进展"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "date": "2025年", "title": "报告范围调整", "detail": "欧盟“暂停时钟”指令缩小CSRD适用范围；2025年7月11日欧委会通过“快速修复”授权法案，减轻wave 1企业的负担。" },
+            { "date": "2026-07-22", "title": "公开听证会", "detail": "ESMA就可持续报告框架举行公开听证会，收集市场反馈。" },
+            { "date": "2026-10 前", "title": "提交最终建议", "detail": "ESMA将按截止日期向欧委会提交最终建议。" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "ESMA建议内容将影响后续欧盟可持续报告规则走向，中国企业如为欧盟供应链企业，建议关注客户对披露范围的最新要求。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "ESMA官网（Sustainability Reporting）",
+          "url": "https://www.esma.europa.eu/esmas-activities/sustainable-finance/sustainability-reporting"
+        }
+      ]
+    },
+    {
+      "id": "issb-nature-disclosure-2026",
+      "category": "国际标准",
+      "title": "ISSB拟以实务声明推进自然相关披露",
+      "summary": "ISSB同意以IFRS Practice Statement形式补充自然相关披露要求（配合IFRS S1/S2），计划2026年10月发布征求意见稿。",
+      "date": "2026-04-22",
+      "content": [
+        {
+          "type": "lead",
+          "text": "国际可持续准则理事会（ISSB）同意以《IFRS实务声明》（IFRS Practice Statement）的形式提出自然相关披露要求，作为对IFRS S1与S2的补充指引。2026年7月会议确认，ISSB将于2026年10月发布征求意见稿。"
+        },
+        {
+          "type": "heading",
+          "text": "要点"
+        },
+        {
+          "type": "facts",
+          "items": [
+            { "label": "形式", "value": "IFRS Practice Statement（实务声明，非强制标准）" },
+            { "label": "适用范围", "value": "应用IFRS S1与IFRS S2气候相关披露的企业" },
+            { "label": "进度", "value": "2026年10月发布征求意见稿（exposure draft）" },
+            { "label": "与S1/S2关系", "value": "S1/S2已要求披露可能影响企业前景的自然相关风险与机遇，实务声明补充指引" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "自然相关披露的最终要求以ISSB正式发布文本为准；企业可提前关注征求意见稿的适用日期与过渡安排。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "IFRS基金会（ISSB Update July 2026）",
+          "url": "https://www.ifrs.org/news-and-events/updates/issb/2026/issb-update-july-2026/"
+        }
+      ]
+    },
+    {
+      "id": "issb-taxonomy-update-2026",
+      "category": "国际标准",
+      "title": "ISSB提议更新可持续披露数字分类法",
+      "summary": "ISSB发布可持续披露数字分类法更新征求意见稿，支持按ISSB准则披露的信息进行计算机可读标记，意见反馈截止2026年9月28日。",
+      "date": "2026-07-29",
+      "content": [
+        {
+          "type": "lead",
+          "text": "2026年7月29日，国际可持续准则理事会（ISSB）提议更新其可持续披露数字分类法（IFRS Sustainability Disclosure Taxonomy）。该分类法支持企业为按ISSB准则编制并披露的信息添加数字标签，使投资者能够更高效地搜索、提取和比较可持续相关信息。"
+        },
+        {
+          "type": "heading",
+          "text": "要点"
+        },
+        {
+          "type": "list",
+          "items": [
+            "数字分类法使可持续披露信息计算机可读，支持结构化比较分析。",
+            "本次为分类法更新征求意见稿，与ISSB准则配套使用。",
+            "意见反馈截止时间为2026年9月28日。"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "企业如有兴趣参与反馈或了解数字报告要求，请以IFRS基金会官方页面为准。"
+        },
+        {
+          "type": "source",
+          "label": "官方来源",
+          "text": "IFRS基金会（ISSB新闻）",
+          "url": "https://www.ifrs.org/news-and-events/news/2026/07/issb-proposes-update-ifrs-sustainability-disclosure-taxonomy/"
+        }
+      ]
     }
   ]
 }

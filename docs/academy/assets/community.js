@@ -16,6 +16,7 @@
   const iconPaths = {
     methods: '<path d="M4 5.5c2.7-1.2 5.1-1.2 8 0v13c-2.9-1.2-5.3-1.2-8 0z"/><path d="M12 5.5c2.9-1.2 5.3-1.2 8 0v13c-2.7-1.2-5.1-1.2-8 0z"/><path d="M12 5.5v13"/>',
     news: '<path d="M4 17.5h16"/><path d="m5 13 4-4 3 2 6-6"/><path d="M15 5h3v3"/>',
+    search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
     map: '<path d="m3.5 6 5.7-2.2 5.6 2.2 5.7-2.2v14.4l-5.7 2.2-5.6-2.2-5.7 2.2z"/><path d="M9.2 3.8v14.4M14.8 6v14.4"/>',
     person: '<circle cx="12" cy="8" r="3.2"/><path d="M5.3 20c.6-3.5 3-5.2 6.7-5.2s6.1 1.7 6.7 5.2"/>',
     support: '<path d="M12 3 20 6v6c0 4.8-3 7.9-8 9-5-1.1-8-4.2-8-9V6z"/><path d="m8.5 12 2.4 2.4 4.8-4.8"/>',
@@ -283,11 +284,116 @@
       + '</div>';
   }
 
+  const obsState = { query: '', page: 1, perPage: 8 };
+  let cachedPublicData = {};
+
+  function filteredObservations(publicData) {
+    const list = publicObservations(publicData);
+    const query = obsState.query.trim().toLowerCase();
+    if (!query) return list;
+    return list.filter(item =>
+      [item.title, item.summary, item.category, item.date].some(field =>
+        String(field || '').toLowerCase().includes(query)
+      )
+    );
+  }
+
+  function renderObservationRow(item, index) {
+    const category = escapeHtml(item.category || '观察');
+    const title = escapeHtml(item.title || '');
+    const summary = escapeHtml(item.summary || '');
+    const date = escapeHtml(item.date || '');
+    const meta = [category, date].filter(Boolean).join(' · ');
+    const number = String(index).padStart(2, '0');
+    const arrow = '<span class="co-obs-card-arrow" aria-hidden="true">↗</span>';
+    const body = '<span class="co-obs-card-body"><small>' + meta + '</small><strong>' + title + '</strong>'
+      + (summary ? '<p>' + summary + '</p>' : '') + '</span>';
+    if (item.id) {
+      return '<a class="co-observation-row" href="' + pageHref('observation.html', { id: item.id }) + '">'
+        + '<span class="co-obs-index">' + number + '</span>' + body + arrow + '</a>';
+    }
+    return '<article class="co-observation-row">' + '<span class="co-obs-index">' + number + '</span>' + body + arrow + '</article>';
+  }
+
+  function pageNumbers(page, pageCount) {
+    if (pageCount <= 7) return Array.from({ length: pageCount }, (_, i) => i + 1);
+    const pages = [];
+    for (let i = 1; i <= pageCount; i++) {
+      if (i === 1 || i === pageCount || Math.abs(i - page) <= 1) pages.push(i);
+    }
+    return pages;
+  }
+
+  function renderPagination(page, pageCount, total) {
+    if (!total) return '';
+    let buttons = '';
+    let last = 0;
+    pageNumbers(page, pageCount).forEach(number => {
+      if (number - last > 1) buttons += '<span class="co-page-ellipsis">…</span>';
+      buttons += '<button type="button" class="co-page-btn' + (number === page ? ' is-active' : '') + '" data-page="' + number + '"'
+        + (number === page ? ' aria-current="page"' : '') + '>' + number + '</button>';
+      last = number;
+    });
+    return '<nav class="co-pagination" aria-label="观察分页">'
+      + '<button type="button" class="co-page-btn' + (page <= 1 ? ' is-disabled' : '') + '" data-page="' + (page - 1) + '"' + (page <= 1 ? ' disabled' : '') + '>← 上一页</button>'
+      + buttons
+      + '<button type="button" class="co-page-btn' + (page >= pageCount ? ' is-disabled' : '') + '" data-page="' + (page + 1) + '"' + (page >= pageCount ? ' disabled' : '') + '>下一页 →</button>'
+      + '<span class="co-pagination-total">共 ' + total + ' 条 · 第 ' + page + ' / ' + pageCount + ' 页</span>'
+      + '</nav>';
+  }
+
+  function renderObservationsContent(publicData) {
+    const container = document.getElementById('co-observations-content');
+    if (!container) return;
+    const filtered = filteredObservations(publicData);
+    const pageCount = Math.max(1, Math.ceil(filtered.length / obsState.perPage));
+    obsState.page = Math.min(Math.max(1, obsState.page), pageCount);
+    const start = (obsState.page - 1) * obsState.perPage;
+    const pageItems = filtered.slice(start, start + obsState.perPage);
+    const resultCount = obsState.query.trim()
+      ? '<p class="co-obs-result-count">搜索“' + escapeHtml(obsState.query.trim()) + '”找到 ' + filtered.length + ' 条</p>'
+      : '';
+    container.innerHTML = resultCount
+      + '<div class="co-observations-list">'
+      + (pageItems.length
+          ? pageItems.map((item, i) => renderObservationRow(item, start + i + 1)).join('')
+          : emptyState('没有找到匹配的观察，换个关键词试试。'))
+      + '</div>'
+      + renderPagination(obsState.page, pageCount, filtered.length);
+  }
+
+  function updateObservationsTotal(publicData) {
+    const node = document.querySelector('[data-obs-total]');
+    if (!node) return;
+    const total = filteredObservations(publicData).length;
+    node.textContent = total ? total + ' 条' : '暂无内容';
+  }
+
   function renderObservationsPage(publicData) {
     const root = document.getElementById('observations-page');
     if (!root) return;
-    const observations = publicObservations(publicData);
-    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small>' + (observations.length ? observations.length + ' 条' : '暂无内容') + '</small></div><div class="co-observations-grid">' + (observations.length ? observations.map(renderObservation).join('') : emptyState('暂未发布观察。')) + '</div></section></main>';
+    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small data-obs-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-obs-search placeholder="搜索标题、摘要或分类…" aria-label="搜索观察"><button type="button" class="co-obs-search-clear" data-obs-clear hidden>清除</button></div><div id="co-observations-content"></div></section></main>';
+    const search = root.querySelector('[data-obs-search]');
+    const clear = root.querySelector('[data-obs-clear]');
+    const refresh = () => {
+      obsState.query = search ? search.value : '';
+      obsState.page = 1;
+      if (clear) clear.hidden = !obsState.query;
+      renderObservationsContent(publicData);
+      updateObservationsTotal(publicData);
+    };
+    if (search) {
+      search.addEventListener('input', refresh);
+      search.addEventListener('search', refresh);
+    }
+    if (clear) {
+      clear.addEventListener('click', () => {
+        if (search) { search.value = ''; search.focus(); }
+        refresh();
+      });
+    }
+    updateObservationsTotal(publicData);
+    renderObservationsContent(publicData);
   }
 
   function observationById(publicData, id) {
@@ -354,6 +460,7 @@
 
   async function mount() {
     const data = await loadPublicData();
+    cachedPublicData = data;
     const isCommunityHome = Boolean(document.getElementById('community-page'));
     if (isCommunityHome) {
       render(data);
@@ -373,6 +480,17 @@
   }
 
   document.addEventListener('click', event => {
+    const pageBtn = event.target.closest('#observations-page .co-page-btn');
+    if (pageBtn && !pageBtn.disabled) {
+      const page = Number(pageBtn.dataset.page);
+      if (Number.isFinite(page) && page > 0) {
+        obsState.page = page;
+        renderObservationsContent(cachedPublicData);
+        const head = document.querySelector('.co-observations-head');
+        if (head) head.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      }
+      return;
+    }
     const internalLink = event.target.closest('#community-page a[href], #observation-page a[href]');
     if (internalLink) {
       const destination = new URL(internalLink.href, location.href);

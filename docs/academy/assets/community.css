@@ -240,3 +240,33 @@ body{margin:0;background:#f7faf8;font-family:-apple-system,BlinkMacSystemFont,"P
 .co-observation-foot{margin-top:40px;padding-top:18px;border-top:1px solid #e2ece4}
 @media(max-width:760px){.co-obs-facts{grid-template-columns:1fr}.co-obs-timeline li{grid-template-columns:86px 30px minmax(0,1fr)}.co-tl-date{padding-right:10px;font-size:11px}.co-observation-page{padding-top:20px}.co-observation-hero{padding:28px 24px}}
 @media(max-width:520px){.co-obs-table th,.co-obs-table td{padding:10px 9px;font-size:12px}}
+
+/* 资讯与观察列表页：搜索框、横向卡片列表与分页。 */
+.co-observations-toolbar{display:flex;align-items:center;gap:9px;margin-bottom:16px;padding:11px 13px;border:1px solid #dce9e1;border-radius:12px;background:#fff;box-shadow:0 4px 14px rgba(25,60,40,.05)}
+.co-obs-search-icon{display:grid;place-items:center;flex:none;width:26px;height:26px;color:#4c8a62}
+.co-obs-search-icon svg{width:17px;height:17px}
+.co-observations-toolbar input[type=search]{flex:1;min-width:0;border:0;background:transparent;color:#284337;font-size:14px;outline:none}
+.co-observations-toolbar input[type=search]::placeholder{color:#93a89a}
+.co-observations-toolbar input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.co-obs-search-clear{flex:none;padding:5px 10px;border:1px solid #d8e8dd;border-radius:8px;background:#f4faf6;color:#397958;font-size:12px;font-weight:700;cursor:pointer}
+.co-obs-search-clear:hover,.co-obs-search-clear:focus-visible{background:#e5f3e9}
+.co-obs-result-count{margin:0 0 12px;color:#81948a;font-size:12px}
+.co-observations-list{display:grid;gap:10px}
+.co-observation-row{display:grid;grid-template-columns:52px minmax(0,1fr) 30px;align-items:center;gap:16px;padding:18px 20px;border:1px solid #e0ece3;border-radius:14px;background:#fff;text-decoration:none;box-shadow:0 4px 14px rgba(25,60,40,.05);transition:border-color .16s,transform .16s,box-shadow .16s}
+.co-observation-row:hover,.co-observation-row:focus-visible{border-color:#9bc6ab;background:#f2f9f4;transform:translateY(-2px);box-shadow:0 8px 20px rgba(25,60,40,.09)}
+.co-obs-index{display:grid;place-items:center;flex:none;width:52px;height:52px;border-radius:13px;background:#e7f4ec;color:#2f7a56;font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}
+.co-obs-card-body{min-width:0}
+.co-obs-card-body small{display:block;color:#4c8a62;font-size:12px;font-weight:700}
+.co-obs-card-body strong{display:block;margin-top:7px;color:#284337;font-size:16px;line-height:1.5}
+.co-obs-card-body p{margin:7px 0 0;color:#657e70;font-size:13px;line-height:1.65;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.co-obs-card-arrow{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:9px;background:#eef6f0;color:#347856;font-size:15px}
+.co-observation-row:hover .co-obs-card-arrow,.co-observation-row:focus-visible .co-obs-card-arrow{background:#dff0e5}
+.co-pagination{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:7px;margin-top:22px;padding-top:18px;border-top:1px solid #e5eee7}
+.co-page-btn{min-width:34px;height:34px;padding:0 12px;border:1px solid #d5e6db;border-radius:9px;background:#fff;color:#397958;font-size:13px;font-weight:700;cursor:pointer;transition:background .15s,border-color .15s}
+.co-page-btn:hover:not(.is-disabled),.co-page-btn:focus-visible:not(.is-disabled){border-color:#9bc6ab;background:#eff8f2}
+.co-page-btn.is-active{border-color:#2f7a56;background:#2f7a56;color:#fff}
+.co-page-btn.is-disabled{opacity:.45;cursor:default;background:#f6faf7}
+.co-page-ellipsis{color:#8ba093;font-size:13px;padding:0 2px}
+.co-pagination-total{flex-basis:100%;margin-top:5px;color:#81948a;font-size:12px;text-align:center}
+@media(max-width:760px){.co-observation-row{grid-template-columns:46px minmax(0,1fr) 28px;gap:13px;padding:15px 16px}.co-obs-index{width:46px;height:46px;border-radius:11px;font-size:15px}}
+@media(max-width:520px){.co-observation-row{grid-template-columns:40px minmax(0,1fr) 24px;gap:10px;padding:13px}.co-obs-index{width:40px;height:40px;border-radius:10px;font-size:13px}.co-obs-card-body strong{font-size:15px}.co-obs-card-arrow{width:24px;height:24px;font-size:13px}}
