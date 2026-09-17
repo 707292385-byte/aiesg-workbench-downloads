@@ -260,12 +260,12 @@
     if (!root) return;
     const questions = publicQuestions(publicData);
     const observations = publicObservations(publicData);
-    const recentObservations = observations.slice(0, 6);
+    const recentObservations = observations.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
       + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><div class="co-hero-mark" aria-hidden="true">〇</div></header>'
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>已发布的内容以核验完成的原始资料为依据，其他标准内容将在完成整理后陆续开放。</p></div><div class="co-band-content"><div class="co-band-head"><strong>已发布</strong></div><div class="co-items">'
-      + standards.map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
+      + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div><div class="co-inline-empty">其他方法与知识内容整理中。</div></div></article>'
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">更多观察　→</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
