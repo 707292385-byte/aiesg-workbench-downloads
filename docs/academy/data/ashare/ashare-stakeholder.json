@@ -1,56 +1,200 @@
 {
- "id": "ashare-stakeholder",
- "title": "利益相关方沟通",
- "eyebrow": "第一节 可持续发展相关治理机制",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 2、披露主体应当关注利益相关方的诉求和关切，鼓励披露主体了解、征集利益相关方意见，通过访谈、座谈、问卷调查等方式，促进与利益相关方的有效交流，提升可持续发展信息披露质量。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "治理",
-  "第五十三条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "利益相关方沟通披露要求",
-   "blocks": [
+  "id": "ashare-stakeholder",
+  "title": "利益相关方沟通",
+  "eyebrow": "第一节 可持续发展相关治理机制",
+  "summary": "说明利益相关方识别、沟通方式、主要关切和回应机制。",
+  "tags": [
+    "治理"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第53条披露主体应当披露报告期内与包括投资者在内的利益相关方沟通的具体情况，包括但不限于下列内容： （一）利益相关方沟通制度的建设、执行情况； （二）听取、反馈利益相关方意见建议的渠道及执行情况，如沟通方式、沟通频率、沟通内容等。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "通用要求：利益相关方沟通",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 2、披露主体应当关注利益相关方的诉求和关切，鼓励披露主体了解、征集利益相关方意见，通过访谈、座谈、问卷调查等方式，促进与利益相关方的有效交流，提升可持续发展信息披露质量。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "利益相关方沟通披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第五十三条",
+          "title": "利益相关方沟通披露要求",
+          "content": "A disclosing entity shall disclose the details about its engagement with investors and other stakeholders during the reporting period, including but not limited to:\n\n(1) The establishment and execution of its stakeholder engagement rules; and\n\n(2) The channels for receiving and responding to stakeholder comments and suggestions and how they are implemented, e.g., the method, frequency, and content of the relevant communications.",
+          "source": "上海证券交易所指引第14号 · 第五十三条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第53条披露主体应当披露报告期内与包括投资者在内的利益相关方沟通的具体情况，包括但不限于下列内容：\n\n（一）利益相关方沟通制度的建设、执行情况；\n\n（二）听取、反馈利益相关方意见建议的渠道及执行情况，如沟通方式、沟通频率、沟通内容等。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 53,
+              "content": "披露主体应当披露报告期内与包括投资者在内的利益相关方沟通的具体情况，包括但不限于下列内容：\n\n（一）利益相关方沟通制度的建设、执行情况；\n\n（二）听取、反馈利益相关方意见建议的渠道及执行情况，如沟通方式、沟通频率、沟通内容等。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                23,
+                23
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the details about its engagement with investors and other stakeholders during the reporting period, including but not limited to:\n\n(1) The establishment and execution of its stakeholder engagement rules; and\n\n(2) The channels for receiving and responding to stakeholder comments and suggestions and how they are implemented, e.g., the method, frequency, and content of the relevant communications.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  18,
+                  19
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 53,
+              "content": "披露主体应当披露报告期内与包括投资者在内的利益相关方沟通的具体情况，包括但不限于下列内容：\n\n（一）利益相关方沟通制度的建设、执行情况；\n\n（二）听取、反馈利益相关方意见建议的渠道及执行情况，如沟通方式、沟通频率、沟通内容等。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                22,
+                22
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the details about its engagement with investors and other stakeholders during the reporting period, including but not limited to:\n\n(1) The establishment and execution of its stakeholder engagement rules; and\n\n(2) The channels for receiving and responding to stakeholder comments and suggestions and how they are implemented, e.g., the method, frequency, and content of the relevant communications.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  18,
+                  18
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 53,
+              "content": "披露主体应当披露报告期内与包括投资者在内的利益相关方沟通的具体情况，包括但不限于下列内容：\n\n（一）利益相关方沟通制度的建设、执行情况；\n\n（二）听取、反馈利益相关方意见建议的渠道及执行情况，如沟通方式、沟通频率、沟通内容等。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                23,
+                23
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n2、披露主体应当关注利益相关方的诉求和关切，鼓励披露主体了解、征集利益相关方意见，通过访谈、座谈、问卷调查等方式，促进与利益相关方的有效交流，提升可持续发展信息披露质量。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
-     "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "利益相关方沟通：听取意见之后如何回应",
-   "blocks": [
+      "id": "source-2",
+      "title": "通用要求：利益相关方沟通",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-stakeholder-44",
+          "title": "通用要求：利益相关方沟通",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n2、披露主体应当关注利益相关方的诉求和关切，鼓励披露主体了解、征集利益相关方意见，通过访谈、座谈、问卷调查等方式，促进与利益相关方的有效交流，提升可持续发展信息披露质量。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n2、披露主体应当关注利益相关方的诉求和关切，鼓励披露主体了解、征集利益相关方意见，通过访谈、座谈、问卷调查等方式，促进与利益相关方的有效交流，提升可持续发展信息披露质量。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "沟通的对象包括投资者，也包括受到企业活动影响的其他群体。GRI 1第2.4节把利益相关方界定为利益受到或可能受到组织活动影响的个人或团体。 一、找到应当听取意见的人 结合经营活动识别相关群体，不能只选择容易联系或赞同企业的人。 二、说明怎样沟通和回应 第53条要求说明沟通制度、渠道与执行情况，包括方式、频率和内容。解读时可进一步追问：收到了什么意见，怎样反馈，是否影响了管理行动。后一个问题是辅助理解，并非对第53条另加披露要求。",
-     "provenance": "official"
+      "id": "source-3",
+      "title": "利益相关方沟通：听取意见之后如何回应",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "利益相关方沟通：听取意见之后如何回应",
+          "content": "沟通的对象包括投资者，也包括受到企业活动影响的其他群体。GRI 1第2.4节把利益相关方界定为利益受到或可能受到组织活动影响的个人或团体。\n\n一、找到应当听取意见的人\n结合经营活动识别相关群体，不能只选择容易联系或赞同企业的人。\n\n二、说明怎样沟通和回应\n第53条要求说明沟通制度、渠道与执行情况，包括方式、频率和内容。解读时可进一步追问：收到了什么意见，怎样反馈，是否影响了管理行动。后一个问题是辅助理解，并非对第53条另加披露要求。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第53条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第53条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第53条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            },
+            {
+              "id": "GRI1-2021-ZH",
+              "title": "GRI 1：基础 2021",
+              "locator": "第2.4节 利益相关方",
+              "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/",
+              "language": "zh",
+              "sha256": "c68940359fd49ce7f3d2c249b44e8543e8f0ec44f719d0262d61cbd6ec3b4fd1"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "沟通的对象包括投资者，也包括受到企业活动影响的其他群体。GRI 1第2.4节把利益相关方界定为利益受到或可能受到组织活动影响的个人或团体。\n\n一、找到应当听取意见的人\n结合经营活动识别相关群体，不能只选择容易联系或赞同企业的人。\n\n二、说明怎样沟通和回应\n第53条要求说明沟通制度、渠道与执行情况，包括方式、频率和内容。解读时可进一步追问：收到了什么意见，怎样反馈，是否影响了管理行动。后一个问题是辅助理解，并非对第53条另加披露要求。"
+        }
+      ]
     }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "治理",
- "titleEn": ""
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
+  },
+  "group": "治理",
+  "titleEn": "",
+  "clauses": [
+    "第五十三条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

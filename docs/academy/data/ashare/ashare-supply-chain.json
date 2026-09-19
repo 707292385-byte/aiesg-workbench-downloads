@@ -1,50 +1,192 @@
 {
- "id": "ashare-supply-chain",
- "title": "供应链安全",
- "eyebrow": "第三节 供应商与客户",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "社会",
-  "第四十五条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "供应链安全披露要求",
-   "blocks": [
+  "id": "ashare-supply-chain",
+  "title": "供应链安全",
+  "eyebrow": "第三节 供应商与客户",
+  "summary": "识别供应链风险并说明稳定、安全和可持续管理措施。",
+  "tags": [
+    "社会"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第45条披露主体应当披露报告期内加强供应链风险管理、保障供应链安全稳定的情况，包括但不限于下列内容： （一）供应链风险管理的基本情况，包括但不限于公司制定的供应链风险管理目标及具体计划、供应链风险应对机制、措施及实施效果； （二）通过并购重组、科技创新等保障自身供应链安全、强化供应链优势等方面的举措和积极效果。 本所鼓励披露主体披露加强供应链管理、促进供应链可持续发展的行动和举措。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "供应链安全披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第四十五条",
+          "title": "供应链安全披露要求",
+          "content": "Any industrial enterprise that is a disclosing entity may disclose its efforts to enhance supply chain risk management and ensure the security and stability of the supply chain in the reporting period, including but not limited to:\n\n(1) An overview of its supply chain risk management program, including but not limited to its objectives and specific plans for supply chain risk management, risk response mechanisms, actions taken, and their outcomes; and\n\n(2) Actions, such as mergers, acquisitions, or reorganization and technological innovations, and the positive outcomes related to maintaining supply chain security and increasing the company’s competitive edge in supply chain management. The Exchange encourages disclosing entities to disclose actions and measures in enhancing the supply chain management and promoting the sustainable development of supply chain.",
+          "source": "上海证券交易所指引第14号 · 第四十五条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第45条披露主体应当披露报告期内加强供应链风险管理、保障供应链安全稳定的情况，包括但不限于下列内容：\n\n（一）供应链风险管理的基本情况，包括但不限于公司制定的供应链风险管理目标及具体计划、供应链风险应对机制、措施及实施效果；\n\n（二）通过并购重组、科技创新等保障自身供应链安全、强化供应链优势等方面的举措和积极效果。\n\n本所鼓励披露主体披露加强供应链管理、促进供应链可持续发展的行动和举措。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 45,
+              "content": "披露主体应当披露报告期内加强供应链风险管理、保障供应链安全稳定的情况，包括但不限于下列内容：\n\n（一）供应链风险管理的基本情况，包括但不限于公司制定的供应链风险管理目标及具体计划、供应链风险应对机制、措施及实施效果；\n\n（二）通过并购重组、科技创新等保障自身供应链安全、强化供应链优势等方面的举措和积极效果。\n\n本所鼓励披露主体披露加强供应链管理、促进供应链可持续发展的行动和举措。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                19,
+                20
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Any industrial enterprise that is a disclosing entity may disclose its efforts to enhance supply chain risk management and ensure the security and stability of the supply chain in the reporting period, including but not limited to:\n\n(1) An overview of its supply chain risk management program, including but not limited to its objectives and specific plans for supply chain risk management, risk response mechanisms, actions taken, and their outcomes; and\n\n(2) Actions, such as mergers, acquisitions, or reorganization and technological innovations, and the positive outcomes related to maintaining supply chain security and increasing the company’s competitive edge in supply chain management. The Exchange encourages disclosing entities to disclose actions and measures in enhancing the supply chain management and promoting the sustainable development of supply chain.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  16,
+                  16
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 45,
+              "content": "披露主体应当披露报告期内加强供应链风险管理、保障供应链安全稳定的情况，包括但不限于下列内容：\n\n（一）供应链风险管理的基本情况，包括但不限于公司制定的供应链风险管理目标及具体计划、供应链风险应对机制、措施及实施效果；\n\n（二）通过并购重组、科技创新等保障自身供应链安全、强化供应链优势等方面的举措和积极效果。\n\n本所鼓励披露主体披露加强供应链管理、促进供应链可持续发展的行动和举措。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                19,
+                19
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose its efforts to enhance supply chain risk management and ensure the security and stability of the supply chain in the reporting period, including but not limited to:\n\n(1) An overview of its supply chain risk management program, including but not limited to its objectives and specific plans for supply chain risk management, risk response mechanisms, actions taken, and their outcomes; and\n\n(2) Actions, such as mergers, acquisitions, or reorganization and technological innovations, and the positive outcomes related to maintaining supply chain security and increasing its competitive edge in supply chain management. The Exchange encourages disclosing entities to disclose the actions and measures they have taken to strengthen supply chain management and promote supply chain sustainability.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  15,
+                  15
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 45,
+              "content": "披露主体应当披露报告期内加强供应链风险管理、保障供应链安全稳定的情况，包括但不限于下列内容：\n\n（一）供应链风险管理的基本情况，包括但不限于公司制定的供应链风险管理目标及具体计划、供应链风险应对机制、措施及实施效果；\n\n（二）通过并购重组、科技创新等保障自身供应链安全、强化供应链优势等方面的举措和积极效果。\n\n本所鼓励披露主体披露加强供应链管理、促进供应链可持续发展的行动和举措。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                20,
+                20
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "通用编制要求：不同重要性议题怎样披露",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-general-37",
+          "title": "通用编制要求：不同重要性议题怎样披露",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "供应链安全：风险在哪里、怎样保障稳定",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "供应链安全：风险在哪里、怎样保障稳定",
+          "content": "第45条的重点是供应链的安全、稳定和风险管理。报告应把具体风险、应对措施和实施效果串起来。\n\n一、说明风险管理安排\n交代管理目标、计划、应对机制和措施，再说明这些措施的实际效果。\n\n二、区分安全与可持续发展\n保障供应稳定的举措，与管理供应商的环境、劳工等影响，存在关联但关注点不同。本条对供应链安全管理使用“应当”，对促进供应链可持续发展的行动使用“鼓励”，不能混成一项统一强制要求。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第45条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第45条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第45条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "第45条的重点是供应链的安全、稳定和风险管理。报告应把具体风险、应对措施和实施效果串起来。\n\n一、说明风险管理安排\n交代管理目标、计划、应对机制和措施，再说明这些措施的实际效果。\n\n二、区分安全与可持续发展\n保障供应稳定的举措，与管理供应商的环境、劳工等影响，存在关联但关注点不同。本条对供应链安全管理使用“应当”，对促进供应链可持续发展的行动使用“鼓励”，不能混成一项统一强制要求。"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "通用编制要求：不同重要性议题怎样披露",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "供应链安全：风险在哪里、怎样保障稳定",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "第45条的重点是供应链的安全、稳定和风险管理。报告应把具体风险、应对措施和实施效果串起来。 一、说明风险管理安排 交代管理目标、计划、应对机制和措施，再说明这些措施的实际效果。 二、区分安全与可持续发展 保障供应稳定的举措，与管理供应商的环境、劳工等影响，存在关联但关注点不同。本条对供应链安全管理使用“应当”，对促进供应链可持续发展的行动使用“鼓励”，不能混成一项统一强制要求。",
-     "provenance": "official"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "社会",
- "titleEn": ""
+  "group": "社会",
+  "titleEn": "",
+  "clauses": [
+    "第四十五条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

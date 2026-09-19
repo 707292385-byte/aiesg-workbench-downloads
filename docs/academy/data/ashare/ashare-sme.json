@@ -1,50 +1,192 @@
 {
- "id": "ashare-sme",
- "title": "平等对待中小企业",
- "eyebrow": "平等对待中小企业",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "社会",
-  "第四十六条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "平等对待中小企业披露要求",
-   "blocks": [
+  "id": "ashare-sme",
+  "title": "平等对待中小企业",
+  "eyebrow": "平等对待中小企业",
+  "summary": "识别逾期付款情形并说明保障中小企业款项支付的安排。",
+  "tags": [
+    "社会"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第46条披露主体报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，应当披露报告期末逾期未支付款项的金额，以及拟采取的解决方案。 披露主体或者其控股子公司通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当披露逾期未支付中小企业款项的金额、对中小企业供应商的账期设置、逾期账款的形成原因、是否涉及诉讼仲裁等情况，并披露解决方案。 本所鼓励其他披露主体参照前两款规定进行披露。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "平等对待中小企业披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第四十六条",
+          "title": "平等对待中小企业披露要求",
+          "content": "If the balance of accounts payable (including notes payable) exceeds RMB30,000,000,000 or represents more than 50 percent of the total assets at the end of the reporting period, the disclosing entity shall disclose the amount of overdue accounts payable as of the end of the reporting period and the solutions it plans to implement. If a disclosing entity or one of its subsidiaries publicly indicates through the National Enterprise Credit Information Publicity System that it owes an overdue payment to a small and medium-sized enterprise (“SME”), it shall disclose the amount of the overdue payment, the payment term for SME suppliers, the reasons behind the overdue payment, whether the overdue payment has led to litigation or arbitration, and the solutions. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding two paragraphs.",
+          "source": "上海证券交易所指引第14号 · 第四十六条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第46条披露主体报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，应当披露报告期末逾期未支付款项的金额，以及拟采取的解决方案。\n\n披露主体或者其控股子公司通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当披露逾期未支付中小企业款项的金额、对中小企业供应商的账期设置、逾期账款的形成原因、是否涉及诉讼仲裁等情况，并披露解决方案。\n\n本所鼓励其他披露主体参照前两款规定进行披露。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 46,
+              "content": "披露主体报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，应当披露报告期末逾期未支付款项的金额，以及拟采取的解决方案。\n\n披露主体或者其控股子公司通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当披露逾期未支付中小企业款项的金额、对中小企业供应商的账期设置、逾期账款的形成原因、是否涉及诉讼仲裁等情况，并披露解决方案。\n\n本所鼓励其他披露主体参照前两款规定进行披露。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                20,
+                20
+              ],
+              "comparisonNote": "本条沪深正文一致，北交所文字有差异。",
+              "comparisonStatus": "different",
+              "officialEnglish": {
+                "content": "If the balance of accounts payable (including notes payable) exceeds RMB30,000,000,000 or represents more than 50 percent of the total assets at the end of the reporting period, the disclosing entity shall disclose the amount of overdue accounts payable as of the end of the reporting period and the solutions it plans to implement. If a disclosing entity or one of its subsidiaries publicly indicates through the National Enterprise Credit Information Publicity System that it owes an overdue payment to a small and medium-sized enterprise (“SME”), it shall disclose the amount of the overdue payment, the payment term for SME suppliers, the reasons behind the overdue payment, whether the overdue payment has led to litigation or arbitration, and the solutions. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding two paragraphs.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  16,
+                  16
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 46,
+              "content": "披露主体报告期末应付账款（含应付票据）余额超过300亿元或占总资产的比重超过50%的，应当披露报告期末逾期未支付款项的金额，以及拟采取的解决方案。\n\n披露主体或者其控股子公司通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当披露逾期未支付中小企业款项的金额、对中小企业供应商的账期设置、逾期账款的形成原因、是否涉及诉讼仲裁等情况，并披露解决方案。\n\n本所鼓励其他披露主体参照前两款规定进行披露。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                19,
+                19
+              ],
+              "comparisonNote": "本条沪深正文一致，北交所文字有差异。",
+              "comparisonStatus": "different",
+              "officialEnglish": {
+                "content": "If the balance of accounts payable (including notes payable) of a disclosing entity at the end of the reporting period exceeds RMB 30,000,000,000 or represents more than 50 percent of the total assets, the disclosing entity shall disclose the overdue outstanding amount as of the end of the reporting period and the solutions it plans to implement. If a disclosing entity or one of its subsidiaries publicly indicates through the National Enterprise Credit Information Publicity System that it owes an overdue payment to a small and medium-sized enterprise (“SME”), it shall disclose the amount of the overdue payment, the payment term for SME suppliers, the reasons behind the overdue payment, whether the overdue payment has led to litigation or arbitration, and the solutions. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding two paragraphs.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  15,
+                  16
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 46,
+              "content": "披露主体报告期末应付账款（含应付票据）余额占总资产的比重超过50%的，应当披露报告期末逾期未支付款项的金额，以及拟采取的解决方案。\n\n披露主体或者其控股子公司通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当披露逾期未支付中小企业款项的金额、对中小企业供应商的账期设置、逾期账款的形成原因、是否涉及诉讼仲裁等情况，并披露解决方案。\n\n本所鼓励其他披露主体参照前两款规定进行披露。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                20,
+                20
+              ],
+              "comparisonNote": "本条沪深正文一致，北交所文字有差异。",
+              "comparisonStatus": "different",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "通用编制要求：不同重要性议题怎样披露",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-general-37",
+          "title": "通用编制要求：不同重要性议题怎样披露",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "中小企业付款：先判断触发条件，再解释欠款",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "中小企业付款：先判断触发条件，再解释欠款",
+          "content": "本条针对付款与逾期欠款，不能把所有企业都套进同一个金额门槛。\n\n一、先判断第一款条件\n沪深看期末应付账款（含应付票据）是否超过300亿元，或超过总资产的50%；北交所第一款仅使用总资产占比超过50%的条件。触发时，披露期末逾期未付款项金额及拟采取的解决方案。\n\n二、第二款另有触发情形\n公司或控股子公司通过国家企业信用信息公示系统公示逾期未付中小企业款项时，还需说明金额、账期、形成原因、诉讼仲裁等情况及解决方案。不能把第二款也套上第一款的金额门槛。其他主体属于鼓励参照披露。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第46条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第46条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第46条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "本条针对付款与逾期欠款，不能把所有企业都套进同一个金额门槛。\n\n一、先判断第一款条件\n沪深看期末应付账款（含应付票据）是否超过300亿元，或超过总资产的50%；北交所第一款仅使用总资产占比超过50%的条件。触发时，披露期末逾期未付款项金额及拟采取的解决方案。\n\n二、第二款另有触发情形\n公司或控股子公司通过国家企业信用信息公示系统公示逾期未付中小企业款项时，还需说明金额、账期、形成原因、诉讼仲裁等情况及解决方案。不能把第二款也套上第一款的金额门槛。其他主体属于鼓励参照披露。"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "通用编制要求：不同重要性议题怎样披露",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "中小企业付款：先判断触发条件，再解释欠款",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "本条针对付款与逾期欠款，不能把所有企业都套进同一个金额门槛。 一、先判断第一款条件 沪深看期末应付账款（含应付票据）是否超过300亿元，或超过总资产的50%；北交所第一款仅使用总资产占比超过50%的条件。触发时，披露期末逾期未付款项金额及拟采取的解决方案。 二、第二款另有触发情形 公司或控股子公司通过国家企业信用信息公示系统公示逾期未付中小企业款项时，还需说明金额、账期、形成原因、诉讼仲裁等情况及解决方案。不能把第二款也套上第一款的金额门槛。其他主体属于鼓励参照披露。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "社会",
- "titleEn": ""
+  "group": "社会",
+  "titleEn": "",
+  "clauses": [
+    "第四十六条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

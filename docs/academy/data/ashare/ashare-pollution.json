@@ -1,80 +1,222 @@
 {
- "id": "ashare-pollution",
- "title": "污染物排放",
- "eyebrow": "第二节 污染防治与生态系统保护",
- "summary": "上海证券交易所《第三号 污染物排放》原文摘录 第一章污染物排放相关风险和机遇评估 污染物排放相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或者正面影响。披露主体应当根据自身生产经营特点、所处地理位置的环境敏感性，结合生态环境管理要求、对自然环境的影响、受影响公众的一致诉求等实际情况，落实相关环境管理制度，采取有效措施履行生态环境保护责任，防治环境污染。 污染物排放相关风险主要表现在物理风险（如突发环境事件",
- "tags": [
-  "环境",
-  "第三十条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
- "sections": [
-  {
-   "title": "污染物排放披露要求",
-   "blocks": [
+  "id": "ashare-pollution",
+  "title": "污染物排放",
+  "eyebrow": "第二节 污染防治与生态系统保护",
+  "summary": "梳理污染物风险和机遇、排放核算、合规信息及披露要点。",
+  "tags": [
+    "环境"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第30条披露主体或者其重要控股子公司被列入环境信息依法披露企业名单的，应当披露下列信息： （一）排污信息，包括但不限于主要污染物、特征污染物以及国际环境公约规定的受控物质的种类、名称、排放总量、核定的排放总量、超标排放情况、环保绩效等级情况（如有）等，鼓励披露主体按照业务单位或设施、来源类型、活动类型等分类披露污染物排放的具体情况； （二）对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或排放总量的降幅）； （三）主要污染物减排目标及为达到相关目标所采取的具体措施； （四）污染物排放对员工、当地社区居民等群体的影响； （五）报告期内因污染物排放受到重大行政处罚或被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。 本所鼓励其他披露主体参照前款规定进行披露。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "污染物排放披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第三十条",
+          "title": "污染物排放披露要求",
+          "content": "If a disclosing entity or one of its significant subsidiaries is listed on the registry of enterprises legally obligated to release environmental information, the disclosing entity shall disclose:\n\n(1) Information on pollutant discharge, including but not limited to the types, names, total discharge, certified total discharge, over-discharge, and environmental performance grade (if any) of or in relation to the key pollutants, characteristic pollutants, and the controlled substances specified by international environmental conventions. Disclosing entities are encouraged to present details on its pollutant discharge by category in the dimensions of business units or facilities, type of source, and type of activity.\n\n(2) The technologies and methods employed to treat pollutants, as well as the building, operation, and results achieved by pollution control facilities (e.g., reduction in the concentration/intensity or total amount of discharge);\n\n(3) The targets set for the amount of discharge reduction of the key pollutants and the specific actions taken to achieve these targets; and\n\n(4) The impact of pollutant discharge on such groups as its employees and local communities; and.\n\n(5) Any major administrative penalties received by and any criminal liabilities charged against it in the reporting period for pollutant discharge, and whether there exist significant flaws in the company’s environmental monitoring schemes and risk management practices. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding paragraph.",
+          "source": "上交所指引第14号 · 第三十条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第30条披露主体或者其重要控股子公司被列入环境信息依法披露企业名单的，应当披露下列信息：\n\n（一）排污信息，包括但不限于主要污染物、特征污染物以及国际环境公约规定的受控物质的种类、名称、排放总量、核定的排放总量、超标排放情况、环保绩效等级情况（如有）等，鼓励披露主体按照业务单位或设施、来源类型、活动类型等分类披露污染物排放的具体情况；\n\n（二）对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或排放总量的降幅）；\n\n（三）主要污染物减排目标及为达到相关目标所采取的具体措施；\n\n（四）污染物排放对员工、当地社区居民等群体的影响；\n\n（五）报告期内因污染物排放受到重大行政处罚或被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。\n\n本所鼓励其他披露主体参照前款规定进行披露。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 30,
+              "content": "披露主体或者其重要控股子公司被列入环境信息依法披露企业名单的，应当披露下列信息：\n\n（一）排污信息，包括但不限于主要污染物、特征污染物以及国际环境公约规定的受控物质的种类、名称、排放总量、核定的排放总量、超标排放情况、环保绩效等级情况（如有）等，鼓励披露主体按照业务单位或设施、来源类型、活动类型等分类披露污染物排放的具体情况；\n\n（二）对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或排放总量的降幅）；\n\n（三）主要污染物减排目标及为达到相关目标所采取的具体措施；\n\n（四）污染物排放对员工、当地社区居民等群体的影响；\n\n（五）报告期内因污染物排放受到重大行政处罚或被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。\n\n本所鼓励其他披露主体参照前款规定进行披露。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                13,
+                14
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "If a disclosing entity or one of its significant subsidiaries is listed on the registry of enterprises legally obligated to release environmental information, the disclosing entity shall disclose:\n\n(1) Information on pollutant discharge, including but not limited to the types, names, total discharge, certified total discharge, over-discharge, and environmental performance grade (if any) of or in relation to the key pollutants, characteristic pollutants, and the controlled substances specified by international environmental conventions. Disclosing entities are encouraged to present details on its pollutant discharge by category in the dimensions of business units or facilities, type of source, and type of activity.\n\n(2) The technologies and methods employed to treat pollutants, as well as the building, operation, and results achieved by pollution control facilities (e.g., reduction in the concentration/intensity or total amount of discharge);\n\n(3) The targets set for the amount of discharge reduction of the key pollutants and the specific actions taken to achieve these targets; and\n\n(4) The impact of pollutant discharge on such groups as its employees and local communities; and.\n\n(5) Any major administrative penalties received by and any criminal liabilities charged against it in the reporting period for pollutant discharge, and whether there exist significant flaws in the company’s environmental monitoring schemes and risk management practices. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding paragraph.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  11,
+                  11
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 30,
+              "content": "披露主体或者其重要控股子公司被列入环境信息依法披露企业名单的，应当披露下列信息：\n\n（一）排污信息，包括但不限于主要污染物、特征污染物以及国际环境公约规定的受控物质的种类、名称、排放总量、核定的排放总量、超标排放情况、环保绩效等级情况（如有）等，鼓励披露主体按照业务单位或设施、来源类型、活动类型等分类披露污染物排放的具体情况；\n\n（二）对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或排放总量的降幅）；\n\n（三）主要污染物减排目标及为达到相关目标所采取的具体措施；\n\n（四）污染物排放对员工、当地社区居民等群体的影响；\n\n（五）报告期内因污染物排放受到重大行政处罚或被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。\n\n本所鼓励其他披露主体参照前款规定进行披露。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                13,
+                13
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "If a disclosing entity or one of its significant subsidiaries is listed on the registry of enterprises legally obligated to release environmental information, the disclosing entity shall disclose:\n\n(1) Information on pollutant discharge, including but not limited to the types, names, total discharge, certified total discharge, over-discharge, and environmental performance grade (if any) of or in relation to the key pollutants, characteristic pollutants, and the controlled substances specified by international environmental conventions. Disclosing entities are encouraged to present details on its pollutant discharge in the dimensions of business units or facilities, type of source, and type of activity.\n\n(2) The technologies and methods employed to treat pollutants, as well as the building, operation, and results achieved by pollution control facilities (e.g., reduction in the concentration, intensity or total amount of discharge);\n\n(3) The targets for reducing the discharge of key pollutants and the specific actions taken to achieve these targets;\n\n(4) The impact of pollutant discharge on such groups as its employees and local communities; and\n\n(5) Any major administrative penalties received by and any criminal liabilities charged against it in the reporting period for pollutant discharge, and whether there exist significant flaws in the company’s environmental monitoring schemes and risk management practices. The Exchange encourages other disclosing entities to make disclosures in line with the provisions of the preceding paragraph.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  10,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 30,
+              "content": "披露主体或者其重要控股子公司被列入环境信息依法披露企业名单的，应当披露下列信息：\n\n（一）排污信息，包括但不限于主要污染物、特征污染物以及国际环境公约规定的受控物质的种类、名称、排放总量、核定的排放总量、超标排放情况、环保绩效等级情况（如有）等，鼓励披露主体按照业务单位或设施、来源类型、活动类型等分类披露污染物排放的具体情况；\n\n（二）对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或排放总量的降幅）；\n\n（三）主要污染物减排目标及为达到相关目标所采取的具体措施；\n\n（四）污染物排放对员工、当地社区居民等群体的影响；\n\n（五）报告期内因污染物排放受到重大行政处罚或被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。\n\n本所鼓励其他披露主体参照前款规定进行披露。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                13,
+                14
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "披露要点3：对员工、当地社区居民等群体的影响",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "title": "披露要点3：对员工、当地社区居民等群体的影响",
+          "content": "披露主体应当披露污染物排放对员工、当地社区居民等群体的影响，其中污染物排放对员工的影响可以在员工议题进行合并披露，如有因环境污染问题受到当地社区居民等群体重大投诉的情况，可以披露相关投诉信息。",
+          "source": "上交所第4号指南 · 第三号 第三章",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "SSE unless an explicit sourceVariant is selected",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "披露主体应当披露污染物排放对员工、当地社区居民等群体的影响，其中污染物排放对员工的影响可以在员工议题进行合并披露，如有因环境污染问题受到当地社区居民等群体重大投诉的情况，可以披露相关投诉信息。"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "污染物风险和机遇评估",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-pollution-18",
+          "title": "污染物风险和机遇评估",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第三号 污染物排放》原文摘录",
+          "content": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第一章污染物排放相关风险和机遇评估\n\n污染物排放相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或者正面影响。披露主体应当根据自身生产经营特点、所处地理位置的环境敏感性，结合生态环境管理要求、对自然环境的影响、受影响公众的一致诉求等实际情况，落实相关环境管理制度，采取有效措施履行生态环境保护责任，防治环境污染。\n\n污染物排放相关风险主要表现在物理风险（如突发环境事件或者重污染天气导致生产中断）及转型风险（包括政策与合规风险、市场风险等）。\n\n通过对风险和机遇的识别、评估，披露主体可以识别污染物排放议题对披露主体财务的影响方式，从定性或者定量的角度分析污染物排放议题的财务影响。\n\n表1 污染物排放相关风险及影响方式示例\n\n污染物相关机遇主要表现在市场拓展、资源效率提升、产品和服务需求提升、融资渠道拓宽等方面。\n\n表2：污染物排放相关机遇及影响方式示例\n\n分析时，营收相关财务影响因素可以考虑：污染物治理产品和服务的营收、废弃物循环利用实现的收益、政府补贴、税收减免等。支出相关财务影响因素可以考虑：污染物防治技术投资、防治设施运营费用、购买环保设备支出、环境监测费用、土壤地下水修复费用、罚款和赔偿费用、环境保护税等。\n\n表3：污染物排放相关财务影响的主要类别\n\n具体评估方法和阈值的设定可参考《第一号总体要求与披露框架》指南。公司自身业务模式或者所面临的政策环境、自然环境未发生重大变化的，无需每年开展评估工作。评估工作应当结合自身实际，兼顾成本的可负担性。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第一章污染物排放相关风险和机遇评估\n\n污染物排放相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或者正面影响。披露主体应当根据自身生产经营特点、所处地理位置的环境敏感性，结合生态环境管理要求、对自然环境的影响、受影响公众的一致诉求等实际情况，落实相关环境管理制度，采取有效措施履行生态环境保护责任，防治环境污染。\n\n污染物排放相关风险主要表现在物理风险（如突发环境事件或者重污染天气导致生产中断）及转型风险（包括政策与合规风险、市场风险等）。\n\n通过对风险和机遇的识别、评估，披露主体可以识别污染物排放议题对披露主体财务的影响方式，从定性或者定量的角度分析污染物排放议题的财务影响。\n\n表1 污染物排放相关风险及影响方式示例\n\n污染物相关机遇主要表现在市场拓展、资源效率提升、产品和服务需求提升、融资渠道拓宽等方面。\n\n表2：污染物排放相关机遇及影响方式示例\n\n分析时，营收相关财务影响因素可以考虑：污染物治理产品和服务的营收、废弃物循环利用实现的收益、政府补贴、税收减免等。支出相关财务影响因素可以考虑：污染物防治技术投资、防治设施运营费用、购买环保设备支出、环境监测费用、土壤地下水修复费用、罚款和赔偿费用、环境保护税等。\n\n表3：污染物排放相关财务影响的主要类别\n\n具体评估方法和阈值的设定可参考《第一号总体要求与披露框架》指南。公司自身业务模式或者所面临的政策环境、自然环境未发生重大变化的，无需每年开展评估工作。评估工作应当结合自身实际，兼顾成本的可负担性。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-4",
+      "title": "污染物核算",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-pollution-35",
+          "title": "污染物核算",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第三号 污染物排放》原文摘录",
+          "content": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第二章污染物排放量核算\n\n一、常见污染物类型\n\n披露主体应当结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，如主要污染物、特征污染物以及国际环境公约规定的受控物质等。披露主体可以在可持续发展报告中优先披露纳入国家总量控制的污染物具体情况。常见的污染物类型如下：\n\n（一）主要污染物：是指环境中普遍存在、被广泛监测且具有明确排放标准的污染物，如大气污染物、水污染物、工业噪声等。\n\n（二）特征污染物：是指除主要污染物以外能够反映特定行业或者工艺的污染特征的特有污染物。\n\n（三）境内已立法管控的其他国际环境公约规定的受控污染物‌。\n\n表4：常见的污染物类型示例\n\n二、污染物排放量核算范围\n\n披露主体污染物排放量核算范围应当与合并报表范围保持一致，若不一致应当列明纳入核算范围的公司清单。披露主体在初期汇总核算各污染物排放量时，可以充分考虑成本的可负担性，核算范围至少需涵盖被列入环境信息依法披露企业名单的合并报表范围内的主体。\n\n三、污染物排放量统计和披露方式\n\n为保证可持续发展报告中污染物排放数据的准确与可理解性，披露主体可以按照污染物类型对污染物排放量进行汇总计算和披露，如汇总列示各污染物名称、披露各污染物排放汇总量。中国境内污染物排放定量化信息披露可以参考附录。境外子公司或者资产污染物排放定量化信息可以根据所在国家或者地区的法规或者国际通行标准披露。\n\n对于业态差异较大、业务类型较为复杂或者污染物排放情况复杂的披露主体，可以参考以下任意一种分类方式，对污染物排放结果进行分类、汇总后披露：\n\n（一）按照业务单位分类；\n\n（二）按照污染物类别分类，如大气污染物、水污染物、工业噪声等；\n\n（三）按照设施类型分类，如生产设施、辅助设施、生活设施等；\n\n（四）按照污染物来源类型分类，如生产源、生活源、农业源、交通源等；\n\n（五）按照活动类型分类，如生产、销售、研发等。\n\n四、污染物排放量数据来源\n\n披露主体可以参照以下方式引用、计算、汇总或者制定相关信息：\n\n（一）报告期内排放总量：对于已在排污许可管理信息中披露排污总量的污染物，可以引用该数据并进行合并汇总。对于未在排污许可管理信息中披露排污总量的污染物，企业具有稳定监测设备且监测数据完整的，鼓励优先采用监督性监测数据法、实测计算法核算污染物排放总量；对于生产工艺相对固定、原料和产品数据易于获取的企业，可以采用物料衡算法、排污系数法核算；其他情形可采用经验系数法核算污染物排放总量。\n\n（二）核定的排放总量：参照该污染物在排污许可中核定的年许可排放总量进行合并汇总。\n\n（三）超标排放情况：超标排放是指披露主体大气污染物、地表水污染物的排放速率和/或排放浓度，或者土壤和地下水污染程度，或者噪声数值超过污染物所适用的排放标准中规定的限值。可以披露污染物排放监测数据超标次数和超标倍数（包括有组织和无组织排放的手工和自动监测数据的超标记录），可以引用报告期内的年度排污许可执行报告中对超标排放的记载信息。\n\n（四）减排目标：可分为主动减排目标（披露主体为实现绿色发展自行、自愿制定的减排目标）以及规定减排目标（披露主体根据法律法规要求应当实现的减排目标，如区域大气污染物总量削减目标）。污染物减排目标主要包括目标年份和目标减排指标。污染物主动减排目标可以自行设定，如总量或者强度值目标，总量以吨、千克为单位或选用适合该污染物的常用单位；强度值以产量、产值、工业增加值、营业收入、成本费用等为核算强度基准。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第二章污染物排放量核算\n\n一、常见污染物类型\n\n披露主体应当结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，如主要污染物、特征污染物以及国际环境公约规定的受控物质等。披露主体可以在可持续发展报告中优先披露纳入国家总量控制的污染物具体情况。常见的污染物类型如下：\n\n（一）主要污染物：是指环境中普遍存在、被广泛监测且具有明确排放标准的污染物，如大气污染物、水污染物、工业噪声等。\n\n（二）特征污染物：是指除主要污染物以外能够反映特定行业或者工艺的污染特征的特有污染物。\n\n（三）境内已立法管控的其他国际环境公约规定的受控污染物‌。\n\n表4：常见的污染物类型示例\n\n二、污染物排放量核算范围\n\n披露主体污染物排放量核算范围应当与合并报表范围保持一致，若不一致应当列明纳入核算范围的公司清单。披露主体在初期汇总核算各污染物排放量时，可以充分考虑成本的可负担性，核算范围至少需涵盖被列入环境信息依法披露企业名单的合并报表范围内的主体。\n\n三、污染物排放量统计和披露方式\n\n为保证可持续发展报告中污染物排放数据的准确与可理解性，披露主体可以按照污染物类型对污染物排放量进行汇总计算和披露，如汇总列示各污染物名称、披露各污染物排放汇总量。中国境内污染物排放定量化信息披露可以参考附录。境外子公司或者资产污染物排放定量化信息可以根据所在国家或者地区的法规或者国际通行标准披露。\n\n对于业态差异较大、业务类型较为复杂或者污染物排放情况复杂的披露主体，可以参考以下任意一种分类方式，对污染物排放结果进行分类、汇总后披露：\n\n（一）按照业务单位分类；\n\n（二）按照污染物类别分类，如大气污染物、水污染物、工业噪声等；\n\n（三）按照设施类型分类，如生产设施、辅助设施、生活设施等；\n\n（四）按照污染物来源类型分类，如生产源、生活源、农业源、交通源等；\n\n（五）按照活动类型分类，如生产、销售、研发等。\n\n四、污染物排放量数据来源\n\n披露主体可以参照以下方式引用、计算、汇总或者制定相关信息：\n\n（一）报告期内排放总量：对于已在排污许可管理信息中披露排污总量的污染物，可以引用该数据并进行合并汇总。对于未在排污许可管理信息中披露排污总量的污染物，企业具有稳定监测设备且监测数据完整的，鼓励优先采用监督性监测数据法、实测计算法核算污染物排放总量；对于生产工艺相对固定、原料和产品数据易于获取的企业，可以采用物料衡算法、排污系数法核算；其他情形可采用经验系数法核算污染物排放总量。\n\n（二）核定的排放总量：参照该污染物在排污许可中核定的年许可排放总量进行合并汇总。\n\n（三）超标排放情况：超标排放是指披露主体大气污染物、地表水污染物的排放速率和/或排放浓度，或者土壤和地下水污染程度，或者噪声数值超过污染物所适用的排放标准中规定的限值。可以披露污染物排放监测数据超标次数和超标倍数（包括有组织和无组织排放的手工和自动监测数据的超标记录），可以引用报告期内的年度排污许可执行报告中对超标排放的记载信息。\n\n（四）减排目标：可分为主动减排目标（披露主体为实现绿色发展自行、自愿制定的减排目标）以及规定减排目标（披露主体根据法律法规要求应当实现的减排目标，如区域大气污染物总量削减目标）。污染物减排目标主要包括目标年份和目标减排指标。污染物主动减排目标可以自行设定，如总量或者强度值目标，总量以吨、千克为单位或选用适合该污染物的常用单位；强度值以产量、产值、工业增加值、营业收入、成本费用等为核算强度基准。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-5",
+      "title": "污染物披露要点",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-pollution-59",
+          "title": "污染物披露要点",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第三号 污染物排放》原文摘录",
+          "content": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第三章披露要点\n\n根据《指引》规定，披露主体针对污染物排放相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露污染物排放相关治理信息。\n\n污染物排放相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参考《第一号总体要求与披露框架》指南相关规定进行披露。\n\n披露要点1：污染物排放信息\n\n披露主体应当披露报告期内的排污信息：\n\n1.结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，包括主要污染物、特征污染物以及国际环境公约规定的受控物质的种类（如大气污染物、水污染物等）、名称（如二氧化氮、二氧化硫、总氮等）、排放总量、核定的排放总量、超标排放情况（可以采用表格形式，也可以就排放超标情况进行总结性披露）、环保绩效等级情况（如有）等，可以参考附录1相关内容，鼓励披露污染物排放强度数据，如单位产出污染物排放量。\n\n2.对于业务类型较为复杂的披露主体，鼓励按照业务单位或者设施、来源类型、污染物类型、活动类型等分类核算披露污染物排放的具体情况。\n\n3.对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或者排放总量的降幅）。\n\n4.鼓励说明污染物排放量的合并方法和数据来源（如说明污染物排放数据所包含的运营主体），核算污染物排放量所依据的标准、方法等。\n\n披露要点2：污染物减排信息\n\n披露主体应当披露主要污染物减排目标及为达到相关目标所采取的具体措施，可以包括下列内容，具体可以参考附录2相关内容：\n\n1.纳入减排目标的污染物名称。\n\n2.减排类型，包括主动减排和按规定减排。\n\n3.减排目标，包括目标年份和目标减排量，可以披露总量、强度值或浓度值降低目标以及其他类型的目标。部分行业由于现阶段工艺流程、安全设计及用料限制等原因，污染物排放量短期难以下降、较难设置污染物减排目标的，也可以充分说明相关情况。\n\n4.为实现减排目标采取的措施和投入，包括工程措施、管理措施，例如优化现有的生产设备及工艺流程、采用先进的污染物治理设备或者技术，改造升级污染物监测系统等。可以披露应用减排技术和资金投入情况。\n\n5.上述污染物减排举措的具体成效（如排放浓度、强度或者排放总量的降幅、对社区的改善）和减排目标的进展情况。\n\n披露要点3：对员工、当地社区居民等群体的影响\n\n披露主体应当披露污染物排放对员工、当地社区居民等群体的影响，其中污染物排放对员工的影响可以在员工议题进行合并披露，如有因环境污染问题受到当地社区居民等群体重大投诉的情况，可以披露相关投诉信息。\n\n披露要点4：环境合规信息\n\n披露主体应当披露报告期内因污染物排放受到重大行政处罚或者被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。鼓励披露所采取的改进举措。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录\n\n第三章披露要点\n\n根据《指引》规定，披露主体针对污染物排放相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露污染物排放相关治理信息。\n\n污染物排放相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参考《第一号总体要求与披露框架》指南相关规定进行披露。\n\n披露要点1：污染物排放信息\n\n披露主体应当披露报告期内的排污信息：\n\n1.结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，包括主要污染物、特征污染物以及国际环境公约规定的受控物质的种类（如大气污染物、水污染物等）、名称（如二氧化氮、二氧化硫、总氮等）、排放总量、核定的排放总量、超标排放情况（可以采用表格形式，也可以就排放超标情况进行总结性披露）、环保绩效等级情况（如有）等，可以参考附录1相关内容，鼓励披露污染物排放强度数据，如单位产出污染物排放量。\n\n2.对于业务类型较为复杂的披露主体，鼓励按照业务单位或者设施、来源类型、污染物类型、活动类型等分类核算披露污染物排放的具体情况。\n\n3.对污染物的处理技术和处理方式，污染防治设施的建设、运行情况和实施成果（例如排放浓度、强度或者排放总量的降幅）。\n\n4.鼓励说明污染物排放量的合并方法和数据来源（如说明污染物排放数据所包含的运营主体），核算污染物排放量所依据的标准、方法等。\n\n披露要点2：污染物减排信息\n\n披露主体应当披露主要污染物减排目标及为达到相关目标所采取的具体措施，可以包括下列内容，具体可以参考附录2相关内容：\n\n1.纳入减排目标的污染物名称。\n\n2.减排类型，包括主动减排和按规定减排。\n\n3.减排目标，包括目标年份和目标减排量，可以披露总量、强度值或浓度值降低目标以及其他类型的目标。部分行业由于现阶段工艺流程、安全设计及用料限制等原因，污染物排放量短期难以下降、较难设置污染物减排目标的，也可以充分说明相关情况。\n\n4.为实现减排目标采取的措施和投入，包括工程措施、管理措施，例如优化现有的生产设备及工艺流程、采用先进的污染物治理设备或者技术，改造升级污染物监测系统等。可以披露应用减排技术和资金投入情况。\n\n5.上述污染物减排举措的具体成效（如排放浓度、强度或者排放总量的降幅、对社区的改善）和减排目标的进展情况。\n\n披露要点3：对员工、当地社区居民等群体的影响\n\n披露主体应当披露污染物排放对员工、当地社区居民等群体的影响，其中污染物排放对员工的影响可以在员工议题进行合并披露，如有因环境污染问题受到当地社区居民等群体重大投诉的情况，可以披露相关投诉信息。\n\n披露要点4：环境合规信息\n\n披露主体应当披露报告期内因污染物排放受到重大行政处罚或者被追究刑事责任的情况，以及公司环境监测方案和风险管理措施是否存在重大缺陷。鼓励披露所采取的改进举措。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-6",
+      "title": "污染物披露表格示例",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-pollution-79",
+          "title": "污染物披露表格示例",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第三号 污染物排放》原文摘录",
+          "content": "上海证券交易所《第三号 污染物排放》原文摘录\n\n附录1 排污信息披露示例\n\n附表1 污染物排放总量数据表示例\n\n注：公司可以根据实际排放情况及排污许可证等自行确定主要污染物种类。\n\n附录2 减排目标进展的披露框架示例\n\n披露主体的污染物排放目标可以根据企业实际情况，设定短、中、长期定量或者定性目标，并明确目标达成的具体时间期限和基准年份；报告期内的进展情况可以包含设定的参照目标值和本年度的实际值。\n\n附表2 污染物定量减排目标及实施进展情况示例\n\n附表3 污染物定性减排目标及实施进展情况示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录\n\n附录1 排污信息披露示例\n\n附表1 污染物排放总量数据表示例\n\n注：公司可以根据实际排放情况及排污许可证等自行确定主要污染物种类。\n\n附录2 减排目标进展的披露框架示例\n\n披露主体的污染物排放目标可以根据企业实际情况，设定短、中、长期定量或者定性目标，并明确目标达成的具体时间期限和基准年份；报告期内的进展情况可以包含设定的参照目标值和本年度的实际值。\n\n附表2 污染物定量减排目标及实施进展情况示例\n\n附表3 污染物定性减排目标及实施进展情况示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/1f3e8fa8ef96481ca4d1d742f3dd8bc6.docx"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "披露要点3：对员工、当地社区居民等群体的影响",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "披露主体应当披露污染物排放对员工、当地社区居民等群体的影响，其中污染物排放对员工的影响可以在员工议题进行合并披露，如有因环境污染问题受到当地社区居民等群体重大投诉的情况，可以披露相关投诉信息。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  },
-  {
-   "title": "污染物风险和机遇评估",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录 第一章污染物排放相关风险和机遇评估 污染物排放相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或者正面影响。披露主体应当根据自身生产经营特点、所处地理位置的环境敏感性，结合生态环境管理要求、对自然环境的影响、受影响公众的一致诉求等实际情况，落实相关环境管理制度，采取有效措施履行生态环境保护责任，防治环境污染。 污染物排放相关风险主要表现在物理风险（如突发环境事件或者重污染天气导致生产中断）及转型风险（包括政策与合规风险、市场风险等）。 通过对风险和机遇的识别、评估，披露主体可以识别污染物排放议题对披露主体财务的影响方式，从定性或者定量的角度分析污染物排放议题的财务影响。 表1 污染物排放相关风险及影响方式示例 污染物相关机遇主要表现在市场拓展、资源效率提升、产品和服务需求提升、融资渠道拓宽等方面。 表2：污染物排放相关机遇及影响方式示例 分析时，营收相关财务影响因素可以考虑：污染物治理产品和服务的营收、废弃物循环利用实现的收益、政府补贴、税收减免等。支出相关财务影响因素可以考虑：污染物防治技术投资、防治设施运营费用、购买环保设备支出、环境监测费用、土",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "污染物核算",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录 第二章污染物排放量核算 一、常见污染物类型 披露主体应当结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，如主要污染物、特征污染物以及国际环境公约规定的受控物质等。披露主体可以在可持续发展报告中优先披露纳入国家总量控制的污染物具体情况。常见的污染物类型如下： （一）主要污染物：是指环境中普遍存在、被广泛监测且具有明确排放标准的污染物，如大气污染物、水污染物、工业噪声等。 （二）特征污染物：是指除主要污染物以外能够反映特定行业或者工艺的污染特征的特有污染物。 （三）境内已立法管控的其他国际环境公约规定的受控污染物‌。 表4：常见的污染物类型示例 二、污染物排放量核算范围 披露主体污染物排放量核算范围应当与合并报表范围保持一致，若不一致应当列明纳入核算范围的公司清单。披露主体在初期汇总核算各污染物排放量时，可以充分考虑成本的可负担性，核算范围至少需涵盖被列入环境信息依法披露企业名单的合并报表范围内的主体。 三、污染物排放量统计和披露方式 为保证可持续发展报告中污染物排放数据的准确与可理解性，披露主体可以按照污染物类型对污",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "污染物披露要点",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录 第三章披露要点 根据《指引》规定，披露主体针对污染物排放相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露污染物排放相关治理信息。 污染物排放相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参考《第一号总体要求与披露框架》指南相关规定进行披露。 披露要点1：污染物排放信息 披露主体应当披露报告期内的排污信息： 1.结合行业属性、生产流程和自身实际，在可持续发展报告中披露对自身生产经营具有重大影响，且排污许可证涉及的污染物种类，包括主要污染物、特征污染物以及国际环境公约规定的受控物质的种类（如大气污染物、水污染物等）、名称（如二氧化氮、二氧化硫、总氮等）、排放总量、核定的排放总量、超标排放情况（可以采用表格形式，也可以就排放超标情况进行总结性披露）、环保绩效等级情况（如有）等，可以参考附录1相关内容，鼓励披露污染物排放强度数据，如单位产出污染物排放量。 2.对于业务类型较为复杂的披露主体，鼓励按照业务单位或者设施、来源类型、污染物类型、活动类型等分类核算披露污染物排放的具体情况。 3.对污染物的处理技术和处理",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "污染物披露表格示例",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第三号 污染物排放》原文摘录 附录1 排污信息披露示例 附表1 污染物排放总量数据表示例 注：公司可以根据实际排放情况及排污许可证等自行确定主要污染物种类。 附录2 减排目标进展的披露框架示例 披露主体的污染物排放目标可以根据企业实际情况，设定短、中、长期定量或者定性目标，并明确目标达成的具体时间期限和基准年份；报告期内的进展情况可以包含设定的参照目标值和本年度的实际值。 附表2 污染物定量减排目标及实施进展情况示例 附表3 污染物定性减排目标及实施进展情况示例 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "环境",
- "titleEn": ""
+  "group": "环境",
+  "titleEn": "",
+  "clauses": [
+    "第三十条"
+  ],
+  "guideScope": "对应议题的专题指南",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

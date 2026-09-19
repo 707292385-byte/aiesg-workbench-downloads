@@ -1,51 +1,284 @@
 {
- "id": "ashare-innovation",
- "title": "创新驱动",
- "eyebrow": "第二节 创新驱动与科技伦理",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "社会",
-  "第四十一条",
-  "第四十二条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "创新驱动披露要求",
-   "blocks": [
+  "id": "ashare-innovation",
+  "title": "创新驱动",
+  "eyebrow": "第二节 创新驱动与科技伦理",
+  "summary": "说明研发治理、投入、成果转化及创新风险管理。",
+  "tags": [
+    "社会"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第41条本所鼓励披露主体积极践行创新驱动发展战略，持续提升创新能力和竞争力，在创新决策和实践中遵守科学伦理规范，尊重科学精神，发挥科学技术的正面效应。 第42条在不涉及国家安全、国家秘密，兼顾保护商业秘密的前提下，本所鼓励披露主体自愿披露报告期内推动科技创新、加强科技成果转化应用、提高科技竞争力的具体情况，包括但不限于下列内容： （一）科技创新的战略和目标，涉及投入金额的，应当同时披露相关资金的筹措安排及保障措施； （二）开展科技创新的具体情况，包括研发创新管理制度体系建设，参与研发创新、科技合作项目的情况，研发投入金额及占主营业务收入比例、研发人员数量及占比、应用于主营业务的发明专利数量等； （三）取得的研发进展及成果、获得的专业资质和重要奖项等，包括报告期内发明专利的申请数和授权数、有效专利数，高新技术企业认定情况、国家科学技术奖项获奖情况等； （四）科技创新成果及其应用对推动发展新质生产力的作用，以及对经济、社会、环境和利益相关方的影响等。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "创新驱动披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第四十一条、第四十二条",
+          "title": "创新驱动披露要求",
+          "content": "The Exchange encourages disclosing entities to actively implement innovation-driven development strategies and improve its innovation capacity and competitiveness on an ongoing basis, and to abide by the ethics and norms of science and technology in its innovation decisions and practices, embrace the scientific spirit, and create positive impacts from science and technology.",
+          "source": "上海证券交易所指引第14号 · 第四十一条、第四十二条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第41条本所鼓励披露主体积极践行创新驱动发展战略，持续提升创新能力和竞争力，在创新决策和实践中遵守科学伦理规范，尊重科学精神，发挥科学技术的正面效应。\n\n第42条在不涉及国家安全、国家秘密，兼顾保护商业秘密的前提下，本所鼓励披露主体自愿披露报告期内推动科技创新、加强科技成果转化应用、提高科技竞争力的具体情况，包括但不限于下列内容：\n\n（一）科技创新的战略和目标，涉及投入金额的，应当同时披露相关资金的筹措安排及保障措施；\n\n（二）开展科技创新的具体情况，包括研发创新管理制度体系建设，参与研发创新、科技合作项目的情况，研发投入金额及占主营业务收入比例、研发人员数量及占比、应用于主营业务的发明专利数量等；\n\n（三）取得的研发进展及成果、获得的专业资质和重要奖项等，包括报告期内发明专利的申请数和授权数、有效专利数，高新技术企业认定情况、国家科学技术奖项获奖情况等；\n\n（四）科技创新成果及其应用对推动发展新质生产力的作用，以及对经济、社会、环境和利益相关方的影响等。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 41,
+              "content": "本所鼓励披露主体积极践行创新驱动发展战略，持续提升创新能力和竞争力，在创新决策和实践中遵守科学伦理规范，尊重科学精神，发挥科学技术的正面效应。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                18,
+                18
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "The Exchange encourages disclosing entities to actively implement innovation-driven development strategies and improve its innovation capacity and competitiveness on an ongoing basis, and to abide by the ethics and norms of science and technology in its innovation decisions and practices, embrace the scientific spirit, and create positive impacts from science and technology.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  14,
+                  14
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 42,
+              "content": "在不涉及国家安全、国家秘密，兼顾保护商业秘密的前提下，本所鼓励披露主体自愿披露报告期内推动科技创新、加强科技成果转化应用、提高科技竞争力的具体情况，包括但不限于下列内容：\n\n（一）科技创新的战略和目标，涉及投入金额的，应当同时披露相关资金的筹措安排及保障措施；\n\n（二）开展科技创新的具体情况，包括研发创新管理制度体系建设，参与研发创新、科技合作项目的情况，研发投入金额及占主营业务收入比例、研发人员数量及占比、应用于主营业务的发明专利数量等；\n\n（三）取得的研发进展及成果、获得的专业资质和重要奖项等，包括报告期内发明专利的申请数和授权数、有效专利数，高新技术企业认定情况、国家科学技术奖项获奖情况等；\n\n（四）科技创新成果及其应用对推动发展新质生产力的作用，以及对经济、社会、环境和利益相关方的影响等。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                18,
+                19
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Provided that national security and state secrets are not involved and commercial secrets are protected, a disclosing entity is encouraged to voluntarily disclose the details on its promotion of technological innovation, commercialization and application of scientific and technological progress, and improvement of its technological edge in the reporting period, including but not limited to:\n\n(1) The strategies and objectives for technological innovation and, if investment is involved, the arrangements for fundraising and the safeguards;\n\n(2) Details on its innovation activities, such as the creation of institutional systems for R&D and innovation management, its involvement in R&D and innovation projects and technology collaboration projects, the amount and percentage of R&D expenditure relative to its operating revenue, the number and proportion of R&D personnel, and the number of invention patents applied in its principal businesses; and\n\n(3) R&D progress and achievements, professional qualifications, and significant awards received, including the number of invention patent applications filed and granted and the number of valid patents; its certification as a high-tech enterprise; and national science and technology awards received in the reporting period; and\n\n(4) Any achievements in innovation and of their application in promoting the new quality productive forces and the impact on the broader economy, society, environment, and stakeholders.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  14,
+                  15
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 41,
+              "content": "本所鼓励披露主体积极践行创新驱动发展战略，持续提升创新能力和竞争力，在创新决策和实践中遵守科学伦理规范，尊重科学精神，发挥科学技术的正面效应。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                17,
+                17
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "The Exchange encourages disclosing entities to actively implement innovation-driven development strategies and improve its innovation capacity and competitiveness on an ongoing basis, and to abide by the ethics and norms of science and technology in its innovation decisions and practices, embrace the scientific spirit, and create positive impacts from science and technology.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  14,
+                  14
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 42,
+              "content": "在不涉及国家安全、国家秘密，兼顾保护商业秘密的前提下，本所鼓励披露主体自愿披露报告期内推动科技创新、加强科技成果转化应用、提高科技竞争力的具体情况，包括但不限于下列内容：\n\n（一）科技创新的战略和目标，涉及投入金额的，应当同时披露相关资金的筹措安排及保障措施；\n\n（二）开展科技创新的具体情况，包括研发创新管理制度体系建设，参与研发创新、科技合作项目的情况，研发投入金额及占主营业务收入比例、研发人员数量及占比、应用于主营业务的发明专利数量等；\n\n（三）取得的研发进展及成果、获得的专业资质和重要奖项等，包括报告期内发明专利的申请数和授权数、有效专利数，高新技术企业认定情况、国家科学技术奖项获奖情况等；\n\n（四）科技创新成果及其应用对推动发展新质生产力的作用，以及对经济、社会、环境和利益相关方的影响等。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                17,
+                18
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Provided that national security and state secrets are not involved and commercial secrets are protected, the Exchange encourages disclosing entities to voluntarily disclose the details on its promotion of technological innovation, commercialization and application of scientific and technological progress, and improvement of its technological edge in the reporting period, including but not limited to:\n\n(1) The strategies and objectives for technological innovation and, if investment is involved, the arrangements for fundraising and the safeguards;\n\n(2) Details on its innovation activities, such as the creation of institutional systems for R&D and innovation management, its involvement in R&D and innovation projects and technology collaboration projects, the amount and percentage of R&D expenditure relative to its operating revenue, the number and proportion of R&D personnel, and the number of invention patents utilized in its principal businesses;\n\n(3) R&D progress and achievements, professional qualifications, and significant awards received, including the number of invention patent applications filed and granted and the number of valid patents; its certification as a high-tech enterprise; and national science and technology awards received in the reporting period; and\n\n(4) How the outcomes and applications of scientific and technological innovation have promoted new productive forces, and their impact on the economy, society, environment, and stakeholders.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  14,
+                  14
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 41,
+              "content": "本所鼓励披露主体积极践行创新驱动发展战略，持续提升创新能力和竞争力，在创新决策和实践中遵守科学伦理规范，尊重科学精神，发挥科学技术的正面效应。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                18,
+                18
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 42,
+              "content": "在不涉及国家安全、国家秘密，兼顾保护商业秘密的前提下，本所鼓励披露主体自愿披露报告期内推动科技创新、加强科技成果转化应用、提高科技竞争力的具体情况，包括但不限于下列内容：\n\n（一）科技创新的战略和目标，涉及投入金额的，应当同时披露相关资金的筹措安排及保障措施；\n\n（二）开展科技创新的具体情况，包括研发创新管理制度体系建设，参与研发创新、科技合作项目的情况，研发投入金额及占主营业务收入比例、研发人员数量及占比、应用于主营业务的发明专利数量等；\n\n（三）取得的研发进展及成果、获得的专业资质和重要奖项等，包括报告期内发明专利的申请数和授权数、有效专利数，高新技术企业认定情况、国家科学技术奖项获奖情况等；\n\n（四）科技创新成果及其应用对推动发展新质生产力的作用，以及对经济、社会、环境和利益相关方的影响等。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                18,
+                19
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "通用编制要求：不同重要性议题怎样披露",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-general-37",
+          "title": "通用编制要求：不同重要性议题怎样披露",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "创新驱动：从研发投入到成果应用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "创新驱动：从研发投入到成果应用",
+          "content": "第41、42条关注创新能力和科技成果转化。第42条是鼓励自愿披露，并明确国家安全、国家秘密和商业秘密方面的前提。\n\n一、投入用在什么地方\n说明创新战略、目标、研发活动，以及研发投入和人员等情况；涉及投入金额时，同时说明资金筹措和保障。\n\n二、成果产生什么作用\n把专利、资质和奖项与实际应用联系起来，解释成果对经济、社会、环境及利益相关方的影响。只有专利数量，还不能说明成果怎样发挥作用。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第41条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第42条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第41条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第42条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第41条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第42条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "第41、42条关注创新能力和科技成果转化。第42条是鼓励自愿披露，并明确国家安全、国家秘密和商业秘密方面的前提。\n\n一、投入用在什么地方\n说明创新战略、目标、研发活动，以及研发投入和人员等情况；涉及投入金额时，同时说明资金筹措和保障。\n\n二、成果产生什么作用\n把专利、资质和奖项与实际应用联系起来，解释成果对经济、社会、环境及利益相关方的影响。只有专利数量，还不能说明成果怎样发挥作用。"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "通用编制要求：不同重要性议题怎样披露",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "创新驱动：从研发投入到成果应用",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "第41、42条关注创新能力和科技成果转化。第42条是鼓励自愿披露，并明确国家安全、国家秘密和商业秘密方面的前提。 一、投入用在什么地方 说明创新战略、目标、研发活动，以及研发投入和人员等情况；涉及投入金额时，同时说明资金筹措和保障。 二、成果产生什么作用 把专利、资质和奖项与实际应用联系起来，解释成果对经济、社会、环境及利益相关方的影响。只有专利数量，还不能说明成果怎样发挥作用。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "社会",
- "titleEn": ""
+  "group": "社会",
+  "titleEn": "",
+  "clauses": [
+    "第四十一条",
+    "第四十二条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

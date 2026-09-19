@@ -1,120 +1,383 @@
 {
- "id": "ashare-due-diligence",
- "title": "尽职调查",
- "eyebrow": "第一节 可持续发展相关治理机制",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 步骤二：建立议题清单 披露主体应使用《指引》中设置的21个议题作为议题清单基础，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别其他具有财务重要性或影响重要性的议题。公司可通过尽职调查、风险管理等内部流程，以及整理相关监管政策、规则、行业标准及发展趋势、同业分析等方式识别重要性议题，完善议题清单。 表5：建立议题清单的参考方式 完整图表、公式见官方原件：https",
- "tags": [
-  "治理",
-  "第五十二条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "尽职调查披露要求",
-   "blocks": [
+  "id": "ashare-due-diligence",
+  "title": "尽职调查",
+  "eyebrow": "第一节 可持续发展相关治理机制",
+  "summary": "理解尽职调查的披露要求，并借助 GRI 与 OECD 梳理实施步骤。",
+  "tags": [
+    "治理"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第52条本所鼓励披露主体结合实际情况披露报告期内识别和应对可持续发展相关负面影响或风险的尽职调查情况，包括但不限于负责尽职调查的机构或人员、尽职调查的范围、识别可持续发展相关负面影响或风险的程序及应对相关负面影响和风险的具体情况。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "通用方法：尽职调查与议题识别",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 步骤二：建立议题清单 披露主体应使用《指引》中设置的21个议题作为议题清单基础，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别其他具有财务重要性或影响重要性的议题。公司可通过尽职调查、风险管理等内部流程，以及整理相关监管政策、规则、行业标准及发展趋势、同业分析等方式识别重要性议题，完善议题清单。 表5：建立议题清单的参考方式 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "通用方法：识别和评估影响、风险与机遇",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 一、识别、评估“影响、风险和机遇”的流程 披露主体应当披露识别、评估可持续发展相关影响、风险和机遇的方法，以及评估这些影响、风险和机遇发生的可能性、大小和影响的途径。披露主体应当明确对可持续发展相关影响、风险与机遇的优先级排序及排序标准。 流程可以包括用于识别、评估潜在和实际影响的流程和用于识别、评估具有或可能具有财务影响的风险和机遇的流程，如明确采用的方法和关键假设，使用的输入值和参数及其来源，评估性质、可能性和规模的方法，如何考虑优先级，与前期相比这些流程是否发生变化等。 关于识别、评估可持续发展相关的影响、风险和机遇的流程、方法以及优先级排序，详见本指南“第二章重要性议题识别与分析”。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "尽职调查是什么",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "在可持续发展语境中，尽职调查是一项持续的管理过程：识别企业自身活动和业务关系可能对经济、环境和人造成的负面影响，采取预防或减轻措施，并说明处理结果。这里包括人权影响。 一、重点是对外部的影响 既要看已经发生的伤害，也要看尚未发生的风险；范围可以覆盖自身运营、供应链和其他业务关系。它与并购前核查资产、负债的尽调关注点不同，不只是查完资料后出一份报告。 二、发现问题后还要行动 对潜在影响采取预防或减缓措施；企业造成或促成实际负面影响时，需要考虑补救。影响只是经业务关系直接关联时，预防、减缓和补救责任应区别分析，不能一概处理。 三、资源有限时先处理什么 GRI建议根据严重性和发生可能性排序。对潜在负面人权影响，严重性优先于可能性。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  },
-  {
-   "title": "尽职调查怎样开展：OECD六步流程",
-   "blocks": [
-    {
-     "type": "point",
-     "content_cn": "明确政策、责任人、资源和管理安排，让尽责管理进入日常决策。",
-     "provenance": "knowledge_note"
+      "id": "source-1",
+      "title": "尽职调查披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第五十二条",
+          "title": "尽职调查披露要求",
+          "content": "The Exchange encourages each disclosing entity to, in line with its realities, disclose information on the due diligence it has conducted during the reporting period in relation to identifying and responding to the negative sustainability-related impacts or risks, including but not limited to the organization or personnel carrying out the due diligence, the scope of due diligence, the procedures for identifying such negative impacts or risks, and the details on its response to the relevant negative impacts and risks",
+          "source": "上海证券交易所指引第14号 · 第五十二条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第52条本所鼓励披露主体结合实际情况披露报告期内识别和应对可持续发展相关负面影响或风险的尽职调查情况，包括但不限于负责尽职调查的机构或人员、尽职调查的范围、识别可持续发展相关负面影响或风险的程序及应对相关负面影响和风险的具体情况。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 52,
+              "content": "本所鼓励披露主体结合实际情况披露报告期内识别和应对可持续发展相关负面影响或风险的尽职调查情况，包括但不限于负责尽职调查的机构或人员、尽职调查的范围、识别可持续发展相关负面影响或风险的程序及应对相关负面影响和风险的具体情况。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                23,
+                23
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "The Exchange encourages each disclosing entity to, in line with its realities, disclose information on the due diligence it has conducted during the reporting period in relation to identifying and responding to the negative sustainability-related impacts or risks, including but not limited to the organization or personnel carrying out the due diligence, the scope of due diligence, the procedures for identifying such negative impacts or risks, and the details on its response to the relevant negative impacts and risks",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  18,
+                  18
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 52,
+              "content": "本所鼓励披露主体结合实际情况披露报告期内识别和应对可持续发展相关负面影响或风险的尽职调查情况，包括但不限于负责尽职调查的机构或人员、尽职调查的范围、识别可持续发展相关负面影响或风险的程序及应对相关负面影响和风险的具体情况。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                22,
+                22
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "The Exchange encourages disclosing entities to, in line with its realities, disclose information on the due diligence it has conducted during the reporting period in relation to identifying and responding to the negative sustainability-related impacts or risks, including but not limited to the organization or personnel carrying out the due diligence, the scope of due diligence, the procedures for identifying such negative impacts or risks, and the details on its response to the relevant negative impacts and risks.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  17,
+                  18
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 52,
+              "content": "本所鼓励披露主体结合实际情况披露报告期内识别和应对可持续发展相关负面影响或风险的尽职调查情况，包括但不限于负责尽职调查的机构或人员、尽职调查的范围、识别可持续发展相关负面影响或风险的程序及应对相关负面影响和风险的具体情况。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                23,
+                23
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "point",
-     "content_cn": "检查自身运营、供应链和业务关系，识别实际及潜在负面影响并排序。",
-     "provenance": "knowledge_note"
+      "id": "source-2",
+      "title": "通用方法：尽职调查与议题识别",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-due-diligence-63",
+          "title": "通用方法：尽职调查与议题识别",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n步骤二：建立议题清单\n\n披露主体应使用《指引》中设置的21个议题作为议题清单基础，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别其他具有财务重要性或影响重要性的议题。公司可通过尽职调查、风险管理等内部流程，以及整理相关监管政策、规则、行业标准及发展趋势、同业分析等方式识别重要性议题，完善议题清单。\n\n表5：建立议题清单的参考方式\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n步骤二：建立议题清单\n\n披露主体应使用《指引》中设置的21个议题作为议题清单基础，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别其他具有财务重要性或影响重要性的议题。公司可通过尽职调查、风险管理等内部流程，以及整理相关监管政策、规则、行业标准及发展趋势、同业分析等方式识别重要性议题，完善议题清单。\n\n表5：建立议题清单的参考方式\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
     },
     {
-     "type": "point",
-     "content_cn": "对已识别问题采取行动，避免伤害发生或继续扩大。",
-     "provenance": "knowledge_note"
+      "id": "source-3",
+      "title": "通用方法：识别和评估影响、风险与机遇",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-due-diligence-195",
+          "title": "通用方法：识别和评估影响、风险与机遇",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n一、识别、评估“影响、风险和机遇”的流程\n\n披露主体应当披露识别、评估可持续发展相关影响、风险和机遇的方法，以及评估这些影响、风险和机遇发生的可能性、大小和影响的途径。披露主体应当明确对可持续发展相关影响、风险与机遇的优先级排序及排序标准。\n\n流程可以包括用于识别、评估潜在和实际影响的流程和用于识别、评估具有或可能具有财务影响的风险和机遇的流程，如明确采用的方法和关键假设，使用的输入值和参数及其来源，评估性质、可能性和规模的方法，如何考虑优先级，与前期相比这些流程是否发生变化等。\n\n关于识别、评估可持续发展相关的影响、风险和机遇的流程、方法以及优先级排序，详见本指南“第二章重要性议题识别与分析”。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n一、识别、评估“影响、风险和机遇”的流程\n\n披露主体应当披露识别、评估可持续发展相关影响、风险和机遇的方法，以及评估这些影响、风险和机遇发生的可能性、大小和影响的途径。披露主体应当明确对可持续发展相关影响、风险与机遇的优先级排序及排序标准。\n\n流程可以包括用于识别、评估潜在和实际影响的流程和用于识别、评估具有或可能具有财务影响的风险和机遇的流程，如明确采用的方法和关键假设，使用的输入值和参数及其来源，评估性质、可能性和规模的方法，如何考虑优先级，与前期相比这些流程是否发生变化等。\n\n关于识别、评估可持续发展相关的影响、风险和机遇的流程、方法以及优先级排序，详见本指南“第二章重要性议题识别与分析”。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
     },
     {
-     "type": "point",
-     "content_cn": "检查措施是否执行、是否有效，再调整行动。",
-     "provenance": "knowledge_note"
+      "id": "source-4",
+      "title": "尽职调查是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "尽职调查是什么",
+          "content": "在可持续发展语境中，尽职调查是一项持续的管理过程：识别企业自身活动和业务关系可能对经济、环境和人造成的负面影响，采取预防或减轻措施，并说明处理结果。这里包括人权影响。\n\n一、重点是对外部的影响\n既要看已经发生的伤害，也要看尚未发生的风险；范围可以覆盖自身运营、供应链和其他业务关系。它与并购前核查资产、负债的尽调关注点不同，不只是查完资料后出一份报告。\n\n二、发现问题后还要行动\n对潜在影响采取预防或减缓措施；企业造成或促成实际负面影响时，需要考虑补救。影响只是经业务关系直接关联时，预防、减缓和补救责任应区别分析，不能一概处理。\n\n三、资源有限时先处理什么\nGRI建议根据严重性和发生可能性排序。对潜在负面人权影响，严重性优先于可能性。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "标准解读",
+          "references": [
+            {
+              "id": "GRI1-2021-ZH",
+              "title": "GRI 1：基础 2021",
+              "locator": "第2.3节 尽职调查",
+              "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/",
+              "language": "zh",
+              "sha256": "c68940359fd49ce7f3d2c249b44e8543e8f0ec44f719d0262d61cbd6ec3b4fd1"
+            },
+            {
+              "id": "OECD-DD-2018-ZH",
+              "title": "OECD负责任商业行为尽责管理指南（官方中文，2018）",
+              "locator": "第二部分，印刷页21—34（PDF第23—36页）",
+              "url": "https://www.oecd.org/content/dam/oecd/zh/publications/reports/2018/02/oecd-due-diligence-guidance-for-responsible-business-conduct_c669bd57/0e10c21f-zh.pdf",
+              "language": "zh",
+              "sha256": "b63fbe22d58a0daeedc224b27a62f386248111afe73a492e77ec65873f12f121"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "在可持续发展语境中，尽职调查是一项持续的管理过程：识别企业自身活动和业务关系可能对经济、环境和人造成的负面影响，采取预防或减轻措施，并说明处理结果。这里包括人权影响。\n\n一、重点是对外部的影响\n既要看已经发生的伤害，也要看尚未发生的风险；范围可以覆盖自身运营、供应链和其他业务关系。它与并购前核查资产、负债的尽调关注点不同，不只是查完资料后出一份报告。\n\n二、发现问题后还要行动\n对潜在影响采取预防或减缓措施；企业造成或促成实际负面影响时，需要考虑补救。影响只是经业务关系直接关联时，预防、减缓和补救责任应区别分析，不能一概处理。\n\n三、资源有限时先处理什么\nGRI建议根据严重性和发生可能性排序。对潜在负面人权影响，严重性优先于可能性。"
+        }
+      ]
     },
     {
-     "type": "point",
-     "content_cn": "向有关群体说明识别了哪些影响，以及怎样应对。",
-     "provenance": "knowledge_note"
+      "id": "source-5",
+      "title": "尽职调查怎样开展：OECD六步流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "title": "尽职调查怎样开展：OECD六步流程",
+          "steps": [
+            {
+              "title": "把责任放进制度",
+              "desc": "明确政策、责任人、资源和管理安排，让尽责管理进入日常决策。",
+              "icon": "1"
+            },
+            {
+              "title": "识别并评估影响",
+              "desc": "检查自身运营、供应链和业务关系，识别实际及潜在负面影响并排序。",
+              "icon": "2"
+            },
+            {
+              "title": "停止、预防或减轻",
+              "desc": "对已识别问题采取行动，避免伤害发生或继续扩大。",
+              "icon": "3"
+            },
+            {
+              "title": "跟踪落实与结果",
+              "desc": "检查措施是否执行、是否有效，再调整行动。",
+              "icon": "4"
+            },
+            {
+              "title": "沟通处理情况",
+              "desc": "向有关群体说明识别了哪些影响，以及怎样应对。",
+              "icon": "5"
+            },
+            {
+              "title": "适时补救",
+              "desc": "结合企业与影响的关系，提供补救或与有关方合作补救。",
+              "icon": "6"
+            }
+          ],
+          "contentKind": "standard_interpretation",
+          "provenanceLabel": "标准解读",
+          "source": "依据OECD官方中文六步框架，用通俗中文归纳；由AI整理，非官方原文。",
+          "references": [
+            {
+              "id": "OECD-DD-2018-ZH",
+              "title": "OECD负责任商业行为尽责管理指南（官方中文，2018）",
+              "locator": "第二部分，印刷页21—34（PDF第23—36页）",
+              "url": "https://www.oecd.org/content/dam/oecd/zh/publications/reports/2018/02/oecd-due-diligence-guidance-for-responsible-business-conduct_c669bd57/0e10c21f-zh.pdf",
+              "language": "zh",
+              "sha256": "b63fbe22d58a0daeedc224b27a62f386248111afe73a492e77ec65873f12f121"
+            }
+          ],
+          "sourceVerification": "six_steps_verified_pdf_page23",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation"
+        }
+      ]
     },
     {
-     "type": "point",
-     "content_cn": "结合企业与影响的关系，提供补救或与有关方合作补救。",
-     "provenance": "knowledge_note"
+      "id": "source-6",
+      "title": "调查成果如何写进报告",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "guidance",
+          "title": "调查成果如何写进报告",
+          "content": "一、A股第52条要回答的四个问题\n谁负责尽职调查？调查覆盖哪些业务或关系？采用什么程序识别负面影响和风险？识别之后采取了哪些应对行动？本条采用“鼓励披露”，不能因为参考了GRI或OECD，就把它改成交易所强制要求。\n\n二、与GRI怎样关联\nGRI 2-23：说明政策是否承诺开展尽职调查。\nGRI 2-24：说明承诺怎样进入职责、运营、业务关系和培训。\nGRI 2-25：说明负面影响的补救及申诉处理机制。\nGRI 3-1：说明识别与排序影响、确定实质性议题的过程。\nGRI 3-3：按实质性议题说明影响、行动、效果追踪，以及利益相关方意见如何影响行动。\n\n三、把管理过程与报告要求分开\nOECD提供实施尽责管理的方法；GRI说明相关报告信息；A股指引规定本地披露口径。这些框架可以互相帮助理解，但适用条件各自判断。",
+          "contentKind": "standard_interpretation",
+          "provenanceLabel": "标准解读",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第52条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第52条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第52条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            },
+            {
+              "id": "GRI2-2021-ZH",
+              "title": "GRI 2：一般披露 2021",
+              "locator": "披露项2-23、2-24、2-25",
+              "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/",
+              "language": "zh",
+              "sha256": "b4e1ac0d3f0d1143e646a8a65e721d3e3adc3b6f19e90f4698bf745fa0ae4323"
+            },
+            {
+              "id": "GRI3-2021-ZH",
+              "title": "GRI 3：实质性议题 2021",
+              "locator": "披露项3-1、3-3",
+              "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/",
+              "language": "zh",
+              "sha256": "c1c34183e69ab202145ccfe1cd15429207b22d1ad19eaf6d1e9f3fc76a9f0c2f"
+            }
+          ],
+          "sourceVerification": "source_located_editorial_explanation",
+          "isOfficialTranslation": false,
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "一、A股第52条要回答的四个问题\n谁负责尽职调查？调查覆盖哪些业务或关系？采用什么程序识别负面影响和风险？识别之后采取了哪些应对行动？本条采用“鼓励披露”，不能因为参考了GRI或OECD，就把它改成交易所强制要求。\n\n二、与GRI怎样关联\nGRI 2-23：说明政策是否承诺开展尽职调查。\nGRI 2-24：说明承诺怎样进入职责、运营、业务关系和培训。\nGRI 2-25：说明负面影响的补救及申诉处理机制。\nGRI 3-1：说明识别与排序影响、确定实质性议题的过程。\nGRI 3-3：按实质性议题说明影响、行动、效果追踪，以及利益相关方意见如何影响行动。\n\n三、把管理过程与报告要求分开\nOECD提供实施尽责管理的方法；GRI说明相关报告信息；A股指引规定本地披露口径。这些框架可以互相帮助理解，但适用条件各自判断。"
+        }
+      ]
+    },
+    {
+      "id": "source-7",
+      "title": "怎样理解：供应商加班问题示例",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "guidance",
+          "title": "怎样理解：供应商加班问题示例",
+          "content": "假设访谈发现某供应商存在过度加班风险。尽职调查不止是保存一份问卷：企业还需核实受影响员工和风险程度，分析自身采购安排是否促成问题，与供应商落实预防或改进措施，再听取员工反馈，跟踪措施是否有效。\n\n这个例子用于说明“识别—行动—跟踪”的联系，不代表发生过的真实案例，也不是标准规定的统一操作清单。补救责任应结合企业造成、促成或直接关联影响的具体情况判断。",
+          "contentKind": "ai_example",
+          "provenanceLabel": "示例",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "references": [
+            {
+              "id": "GRI1-2021-ZH",
+              "title": "GRI 1：基础 2021",
+              "locator": "第2.3节",
+              "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/",
+              "language": "zh",
+              "sha256": "c68940359fd49ce7f3d2c249b44e8543e8f0ec44f719d0262d61cbd6ec3b4fd1"
+            },
+            {
+              "id": "OECD-DD-2018-ZH",
+              "title": "OECD负责任商业行为尽责管理指南（官方中文，2018）",
+              "locator": "第二部分，印刷页21—34（PDF第23—36页）",
+              "url": "https://www.oecd.org/content/dam/oecd/zh/publications/reports/2018/02/oecd-due-diligence-guidance-for-responsible-business-conduct_c669bd57/0e10c21f-zh.pdf",
+              "language": "zh",
+              "sha256": "b63fbe22d58a0daeedc224b27a62f386248111afe73a492e77ec65873f12f121"
+            }
+          ],
+          "sourceVerification": "source_located_editorial_explanation",
+          "isOfficialTranslation": false,
+          "learningLayer": "practical",
+          "provenance": "ai_assistance",
+          "content_cn": "假设访谈发现某供应商存在过度加班风险。尽职调查不止是保存一份问卷：企业还需核实受影响员工和风险程度，分析自身采购安排是否促成问题，与供应商落实预防或改进措施，再听取员工反馈，跟踪措施是否有效。\n\n这个例子用于说明“识别—行动—跟踪”的联系，不代表发生过的真实案例，也不是标准规定的统一操作清单。补救责任应结合企业造成、促成或直接关联影响的具体情况判断。"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-supply-chain",
+        "title": "供应链安全"
+      },
+      {
+        "id": "ashare-stakeholder",
+        "title": "利益相关方沟通"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": [
+      {
+        "title": "GRI 1 第2.3节：尽职调查的概念",
+        "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/"
+      },
+      {
+        "title": "GRI 2：政策、落实与补救",
+        "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/"
+      },
+      {
+        "title": "GRI 3：影响识别与管理披露",
+        "url": "https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-simplified-chinese-translations/"
+      },
+      {
+        "title": "OECD：尽责管理六步流程",
+        "url": "https://www.oecd.org/content/dam/oecd/zh/publications/reports/2018/02/oecd-due-diligence-guidance-for-responsible-business-conduct_c669bd57/0e10c21f-zh.pdf"
+      }
+    ]
   },
-  {
-   "title": "调查成果如何写进报告",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "一、A股第52条要回答的四个问题 谁负责尽职调查？调查覆盖哪些业务或关系？采用什么程序识别负面影响和风险？识别之后采取了哪些应对行动？本条采用“鼓励披露”，不能因为参考了GRI或OECD，就把它改成交易所强制要求。 二、与GRI怎样关联 GRI 2-23：说明政策是否承诺开展尽职调查。 GRI 2-24：说明承诺怎样进入职责、运营、业务关系和培训。 GRI 2-25：说明负面影响的补救及申诉处理机制。 GRI 3-1：说明识别与排序影响、确定实质性议题的过程。 GRI 3-3：按实质性议题说明影响、行动、效果追踪，以及利益相关方意见如何影响行动。 三、把管理过程与报告要求分开 OECD提供实施尽责管理的方法；GRI说明相关报告信息；A股指引规定本地披露口径。这些框架可以互相帮助理解，但适用条件各自判断。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  },
-  {
-   "title": "怎样理解：供应商加班问题示例",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "假设访谈发现某供应商存在过度加班风险。尽职调查不止是保存一份问卷：企业还需核实受影响员工和风险程度，分析自身采购安排是否促成问题，与供应商落实预防或改进措施，再听取员工反馈，跟踪措施是否有效。 这个例子用于说明“识别—行动—跟踪”的联系，不代表发生过的真实案例，也不是标准规定的统一操作清单。补救责任应结合企业造成、促成或直接关联影响的具体情况判断。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  }
- ],
- "relations": [
-  "供应链安全",
-  "利益相关方沟通",
-  "双重重要性评估",
-  "GRI 1 第2.3节：尽职调查的概念",
-  "GRI 2：政策、落实与补救",
-  "GRI 3：影响识别与管理披露",
-  "OECD：尽责管理六步流程"
- ],
- "group": "治理",
- "titleEn": ""
+  "group": "治理",
+  "titleEn": "",
+  "clauses": [
+    "第五十二条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

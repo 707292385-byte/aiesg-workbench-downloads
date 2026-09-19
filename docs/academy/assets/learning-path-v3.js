@@ -47,7 +47,9 @@ const officialSource={
 function firstOfficial(detail){const s=(detail&&detail.sections)||[];for(const sec of s){const b=(sec.blocks||[]).find(x=>x.provenance==='official'||x.provenance==='official_guidance');if(b)return{title:sec.title,text:String(b.content_cn||b.content||'')};}return null;}
 window.renderLearningPathV3=function({standard,esc,href}){
  if(!/^(ashare|hkex|csa)$/.test(standard.id||''))return null;
- const groups=standard.groups||[],allItems=groups.flatMap(g=>g.items||[]);
+ const groups=standard.groups||[],allItems=groups.flatMap(g=>g.items||[]),isAshare=standard.id==='ashare';
+ const methodGroup=isAshare?groups.find(group=>group.title==='方法论'):null;
+ const issueGroups=isAshare?groups.filter(group=>group!==methodGroup):groups;
  const files=(standard.officialFiles||[]).map(f=>({name:f.name,url:f.url}));
  /* 标准体系：官方文件按层归类 */
  let archHtml='';
@@ -74,14 +76,15 @@ window.renderLearningPathV3=function({standard,esc,href}){
   return `<div class="lp-flow-node"><span>${n(index)}</span><b>${esc(step.title)}</b><p>${esc(step.description||'')}</p>${match?`<a href="${href('topic.html',{standard:standard.id,id:match.id})}">进入条文 →</a>`:''}</div>`;
  }).join('');
  /* 框架议题：全部分组网格 */
- const issueZones=groups.map((group,gi)=>`<section class="lp-issue-zone" data-zone="${gi}"><header><div><span>${n(gi)} · 议题分类</span><h3>${esc(group.title)}</h3></div><p>${group.items.length} 项议题</p></header><div class="lp-issue-grid">${group.items.map(item=>`<a href="${href('topic.html',{standard:standard.id,id:item.id})}"><span>${esc(item.eyebrow||'议题')}</span><b>${esc(item.title)}</b><p>${esc(String(item.summary||'').slice(0,56))}</p><small>官方条文 →</small></a>`).join('')}</div></section>`).join('');
+ const issueZones=issueGroups.map((group,gi)=>`<section class="lp-issue-zone" data-zone="${gi}"><header><div><span>${n(gi)} · 议题分类</span><h3>${esc(group.title)}</h3></div><p>${group.items.length} 项披露议题</p></header><div class="lp-issue-grid">${group.items.map(item=>`<a href="${href('topic.html',{standard:standard.id,id:item.id})}"><span>${esc(item.eyebrow||'议题')}</span><b>${esc(item.title)}</b><p>${esc(String(item.summary||'').slice(0,56))}</p><small>官方条文 →</small></a>`).join('')}</div></section>`).join('');
+ const methodSection=isAshare?`<section class="lp-block" id="methods"><header class="lp-block-head"><div><span>学习起点</span><h2>4 个方法模块</h2></div><p>先建立披露框架、重要性、编制流程和治理职责的整体认识，再进入21项具体议题。</p></header><div class="lp-flow lp-method-flow">${processSteps}</div></section>`:'';
  return `<div class="lp-page" data-system="${esc(standard.id)}"><main class="lp-main">
- <section class="lp-hero"><div><span class="lp-kicker">${esc(standard.issuer||'')} · ${esc(standard.eyebrow||'')}</span><h1>${esc(standard.title)}</h1><p>${esc(standard.description||'')}</p><div class="lp-meta">${[standard.issuer,standard.version&&`版本 ${standard.version}`,standard.updated&&`更新 ${standard.updated}`].filter(Boolean).map(v=>`<i>${esc(v)}</i>`).join('')}</div></div><aside><small>框架模块</small><strong>${groups.length}</strong><small>议题条目</small><strong>${allItems.length}</strong><small>官方文件</small><strong>${files.length||'—'}</strong></aside></section>
+ <section class="lp-hero"><div><span class="lp-kicker">${esc(standard.issuer||'')} · ${esc(standard.eyebrow||'')}</span><h1>${esc(standard.title)}</h1><p>${esc(standard.description||'')}</p><div class="lp-meta">${[standard.issuer,standard.version&&`版本 ${standard.version}`,standard.updated&&`更新 ${standard.updated}`].filter(Boolean).map(v=>`<i>${esc(v)}</i>`).join('')}</div></div><aside><small>${isAshare?'方法模块':'知识分类'}</small><strong>${isAshare?(methodGroup?.items.length||0):groups.length}</strong><small>${isAshare?'披露议题':'知识入口'}</small><strong>${isAshare?issueGroups.reduce((sum,group)=>sum+group.items.length,0):allItems.length}</strong><small>官方文件</small><strong>${files.length||'—'}</strong></aside></section>
  <section class="lp-block" id="system"><header class="lp-block-head"><div><span>标准体系</span><h2>官方文件层级</h2></div><p>按发布机构与效力分层，核心文件为披露的强制依据。</p></header><div class="lp-arch">${archHtml}</div></section>
- <section class="lp-block" id="concepts"><header class="lp-block-head"><div><span>重要概念</span><h2>${esc(groups[0]?.title||'先掌握这些概念')}</h2></div><p>概念卡直接摘录官方条文；点击进入完整条文与解读。</p></header><div class="lp-concepts">${concepts}</div></section>
+ ${isAshare?'':`<section class="lp-block" id="concepts"><header class="lp-block-head"><div><span>重要概念</span><h2>${esc(groups[0]?.title||'先掌握这些概念')}</h2></div><p>概念卡直接摘录官方条文；点击进入完整条文与解读。</p></header><div class="lp-concepts">${concepts}</div></section>`}
  <section class="lp-block" id="framework"><header class="lp-block-head"><div><span>关键框架</span><h2>${standard.id==='csa'?'标准按三个维度组织':'披露内容围绕核心框架展开'}</h2></div><p>${standard.id==='csa'?'行业决定适用问题与相对权重。':'议题条文按框架逐项组织，是阅读具体议题的骨架。'}</p></header><div class="lp-pillars">${pillars}</div><div class="lp-framework-source" data-framework-source="${esc(officialSource[standard.id]?.framework||'')}"></div></section>
- ${processSteps?`<section class="lp-block" id="process"><header class="lp-block-head"><div><span>重要流程</span><h2>披露与评估的主要环节</h2></div><p>按环节顺序执行；每个环节可进入对应官方条文。</p></header><div class="lp-flow">${processSteps}</div></section>`:''}
- <section class="lp-block" id="issues"><header class="lp-block-head"><div><span>框架议题</span><h2>${allItems.length} 项议题 · 按分类浏览</h2></div><p>每项议题含官方条文原文与解读。</p></header>${issueZones}</section>
+ ${methodSection}${!isAshare&&processSteps?`<section class="lp-block" id="process"><header class="lp-block-head"><div><span>建议阅读路径</span><h2>从体系框架进入具体披露要求</h2></div><p>这是理解知识的阅读顺序，不代表企业编制报告时只能按此顺序执行。</p></header><div class="lp-flow">${processSteps}</div></section>`:''}
+ <section class="lp-block" id="issues"><header class="lp-block-head"><div><span>知识目录</span><h2>${isAshare?'21 项披露议题':`${allItems.length} 项内容`} · 按分类浏览</h2></div><p>每页按原文、指南、权威解释和必要的 AI 补充分层呈现。</p></header>${issueZones}</section>
  <section id="sources" class="lp-sources"><span>官方发布文件</span>${files.length?`<ul class="lp-file-list">${files.map(f=>`<li><a href="${esc(f.url)}" target="_blank" rel="noreferrer">${esc(f.name)} ↗</a></li>`).join('')}</ul>`:'<p>本页基于 S&P Global CSA 方法论公开资料整理。</p>'}<small class="lp-ai-note">学习路径由 AI 按官方文件整理，条文与适用要求以发布机构现行文件为准。</small></section>
  </main></div>`;
 };

@@ -1,40 +1,146 @@
 {
- "id": "ashare-circular",
- "title": "循环经济",
- "eyebrow": "第三节 资源利用与循环经济",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "环境",
-  "第三十七条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
- "sections": [
-  {
-   "title": "循环经济披露要求",
-   "blocks": [
+  "id": "ashare-circular",
+  "title": "循环经济",
+  "eyebrow": "第三节 资源利用与循环经济",
+  "summary": "说明循环经济目标、资源循环利用方式及相关量化表现。",
+  "tags": [
+    "环境"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第37条披露主体应当披露报告期内循环经济的具体情况，包括但不限于下列内容： （一）为实现循环经济而制定的具体目标和计划； （二）报告期内为实现循环经济而采取的具体措施，包括节省资源、提高资源利用率、使用可再生资源、预防和减少废弃物的产生以及回收利用废弃物等； （三）报告期内公司在实现循环经济目标方面取得的具体进展及成效，包括废弃物的回收及综合利用情况（含废弃物循环利用量）、可再生资源消耗量及占相应资源总消耗量的比例等。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "循环经济披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第三十七条",
+          "title": "循环经济披露要求",
+          "content": "A disclosing entity shall disclose the specifics of the circular economy activities conducted within the reporting period, including but not limited to:\n\n(1) The specific goals and plans established to achieve a circular economy;\n\n(2) The specific actions taken in the reporting period toward achieving a circular economy, including reducing the use of resources, improving resource efficiency, using renewable resources, and preventing and reducing waste creation and recycling wastes; and\n\n(3) The specific progress and achievements in attaining circular economy objectives in the reporting period, such as the recycling and comprehensive utilization of wastes (including the amount of waste recycled), the consumption of renewable resources, and the proportion of renewable resources in the total amount of resources consumed.",
+          "source": "上交所指引第14号 · 第三十七条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第37条披露主体应当披露报告期内循环经济的具体情况，包括但不限于下列内容：\n\n（一）为实现循环经济而制定的具体目标和计划；\n\n（二）报告期内为实现循环经济而采取的具体措施，包括节省资源、提高资源利用率、使用可再生资源、预防和减少废弃物的产生以及回收利用废弃物等；\n\n（三）报告期内公司在实现循环经济目标方面取得的具体进展及成效，包括废弃物的回收及综合利用情况（含废弃物循环利用量）、可再生资源消耗量及占相应资源总消耗量的比例等。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 37,
+              "content": "披露主体应当披露报告期内循环经济的具体情况，包括但不限于下列内容：\n\n（一）为实现循环经济而制定的具体目标和计划；\n\n（二）报告期内为实现循环经济而采取的具体措施，包括节省资源、提高资源利用率、使用可再生资源、预防和减少废弃物的产生以及回收利用废弃物等；\n\n（三）报告期内公司在实现循环经济目标方面取得的具体进展及成效，包括废弃物的回收及综合利用情况（含废弃物循环利用量）、可再生资源消耗量及占相应资源总消耗量的比例等。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                17
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the specifics of the circular economy activities conducted within the reporting period, including but not limited to:\n\n(1) The specific goals and plans established to achieve a circular economy;\n\n(2) The specific actions taken in the reporting period toward achieving a circular economy, including reducing the use of resources, improving resource efficiency, using renewable resources, and preventing and reducing waste creation and recycling wastes; and\n\n(3) The specific progress and achievements in attaining circular economy objectives in the reporting period, such as the recycling and comprehensive utilization of wastes (including the amount of waste recycled), the consumption of renewable resources, and the proportion of renewable resources in the total amount of resources consumed.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  13,
+                  14
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 37,
+              "content": "披露主体应当披露报告期内循环经济的具体情况，包括但不限于下列内容：\n\n（一）为实现循环经济而制定的具体目标和计划；\n\n（二）报告期内为实现循环经济而采取的具体措施，包括节省资源、提高资源利用率、使用可再生资源、预防和减少废弃物的产生以及回收利用废弃物等；\n\n（三）报告期内公司在实现循环经济目标方面取得的具体进展及成效，包括废弃物的回收及综合利用情况（含废弃物循环利用量）、可再生资源消耗量及占相应资源总消耗量的比例等。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                16
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the specifics of the circular economy activities conducted within the reporting period, including but not limited to:\n\n(1) The specific goals and plans established to achieve a circular economy;\n\n(2) The specific actions taken in the reporting period toward achieving a circular economy, including reducing the use of resources, improving resource efficiency, using renewable resources, and preventing and reducing waste creation and recycling wastes; and\n\n(3) The specific progress and achievements in attaining circular economy objectives in the reporting period, such as the recycling and comprehensive utilization of wastes (including the amount of waste recycled), the consumption of renewable resources, and the proportion of renewable resources in the total amount of resources consumed.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  12,
+                  13
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 37,
+              "content": "披露主体应当披露报告期内循环经济的具体情况，包括但不限于下列内容：\n\n（一）为实现循环经济而制定的具体目标和计划；\n\n（二）报告期内为实现循环经济而采取的具体措施，包括节省资源、提高资源利用率、使用可再生资源、预防和减少废弃物的产生以及回收利用废弃物等；\n\n（三）报告期内公司在实现循环经济目标方面取得的具体进展及成效，包括废弃物的回收及综合利用情况（含废弃物循环利用量）、可再生资源消耗量及占相应资源总消耗量的比例等。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                17
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "通用编制要求：不同重要性议题怎样披露",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-general-37",
+          "title": "通用编制要求：不同重要性议题怎样披露",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "通用编制要求：不同重要性议题怎样披露",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "环境",
- "titleEn": ""
+  "group": "环境",
+  "titleEn": "",
+  "clauses": [
+    "第三十七条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

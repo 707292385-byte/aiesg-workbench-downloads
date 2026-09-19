@@ -1,50 +1,192 @@
 {
- "id": "ashare-tech-ethics",
- "title": "科技伦理",
- "eyebrow": "第二节 创新驱动与科技伦理",
- "summary": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
- "tags": [
-  "社会",
-  "第四十三条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "科技伦理披露要求",
-   "blocks": [
+  "id": "ashare-tech-ethics",
+  "title": "科技伦理",
+  "eyebrow": "第二节 创新驱动与科技伦理",
+  "summary": "识别科技伦理风险，说明审查、监督和纠偏机制。",
+  "tags": [
+    "社会"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第43条披露主体从事生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动的，应当披露报告期内遵守科技伦理的基本情况，包括但不限于下列内容： （一）从事科技研究、技术开发等科技活动的领域及遵守的科技伦理规范； （二）内部管理制度中关于科技伦理的规定及其落实情况，科技伦理（审查）委员会的设置及其运作情况（如有）； （三）违反科技伦理的行为，包括相关行为的基本情况、被有权机关处罚的情况，内部调查处理与责任追究情况，以及采取的整改措施（如有）； （四）开展科技伦理内外部培训及科普宣传等情况。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "科技伦理披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第四十三条",
+          "title": "科技伦理披露要求",
+          "content": "Any disclosing entity engaged in such activities as scientific research and technology development in an ethically sensitive domain such as life sciences and artificial intelligence shall provide an overview of its compliance with the ethics of science and technology in the reporting period, including but not limited to:\n\n(1) The fields of the company’s scientific and technological activities such as research and development, and the ethical standards in science and technology it adheres to;\n\n(2) Rules within the company’s internal management systems that concern the ethics of science and technology and the company’s observance thereof, the establishment of any ethics (review) committee for science and technology programs and its operations;\n\n(3) Any instances of a violation of the ethics of science and technology, including an overview of such violations, the penalties imposed by competent authorities, the internal investigation and accountability processes conducted, and the corrective actions taken; and\n\n(4) The internal and external training on ethics in science and technology and efforts to raise public awareness on the related topics (if any).",
+          "source": "上海证券交易所指引第14号 · 第四十三条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第43条披露主体从事生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动的，应当披露报告期内遵守科技伦理的基本情况，包括但不限于下列内容：\n\n（一）从事科技研究、技术开发等科技活动的领域及遵守的科技伦理规范；\n\n（二）内部管理制度中关于科技伦理的规定及其落实情况，科技伦理（审查）委员会的设置及其运作情况（如有）；\n\n（三）违反科技伦理的行为，包括相关行为的基本情况、被有权机关处罚的情况，内部调查处理与责任追究情况，以及采取的整改措施（如有）；\n\n（四）开展科技伦理内外部培训及科普宣传等情况。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 43,
+              "content": "披露主体从事生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动的，应当披露报告期内遵守科技伦理的基本情况，包括但不限于下列内容：\n\n（一）从事科技研究、技术开发等科技活动的领域及遵守的科技伦理规范；\n\n（二）内部管理制度中关于科技伦理的规定及其落实情况，科技伦理（审查）委员会的设置及其运作情况（如有）；\n\n（三）违反科技伦理的行为，包括相关行为的基本情况、被有权机关处罚的情况，内部调查处理与责任追究情况，以及采取的整改措施（如有）；\n\n（四）开展科技伦理内外部培训及科普宣传等情况。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                19,
+                19
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Any disclosing entity engaged in such activities as scientific research and technology development in an ethically sensitive domain such as life sciences and artificial intelligence shall provide an overview of its compliance with the ethics of science and technology in the reporting period, including but not limited to:\n\n(1) The fields of the company’s scientific and technological activities such as research and development, and the ethical standards in science and technology it adheres to;\n\n(2) Rules within the company’s internal management systems that concern the ethics of science and technology and the company’s observance thereof, the establishment of any ethics (review) committee for science and technology programs and its operations;\n\n(3) Any instances of a violation of the ethics of science and technology, including an overview of such violations, the penalties imposed by competent authorities, the internal investigation and accountability processes conducted, and the corrective actions taken; and\n\n(4) The internal and external training on ethics in science and technology and efforts to raise public awareness on the related topics (if any).",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  15,
+                  15
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 43,
+              "content": "披露主体从事生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动的，应当披露报告期内遵守科技伦理的基本情况，包括但不限于下列内容：\n\n（一）从事科技研究、技术开发等科技活动的领域及遵守的科技伦理规范；\n\n（二）内部管理制度中关于科技伦理的规定及其落实情况，科技伦理（审查）委员会的设置及其运作情况（如有）；\n\n（三）违反科技伦理的行为，包括相关行为的基本情况、被有权机关处罚的情况，内部调查处理与责任追究情况，以及采取的整改措施（如有）；\n\n（四）开展科技伦理内外部培训及科普宣传等情况。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                18,
+                18
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Any disclosing entity engaged in such activities as scientific research and technology development in a sci-tech ethically sensitive domain such as life sciences and artificial intelligence shall provide an overview of its compliance with the ethics of science and technology in the reporting period, including but not limited to:\n\n(1) The fields of its scientific and technological activities such as research and development, and the ethical standards in science and technology it adheres to;\n\n(2) Rules within its internal management systems that concern the ethics of science and technology and the company’s observance thereof, the establishment of any ethics (review) committee for science and technology programs and its operations;\n\n(3) Any instances of a violation of the ethics of science and technology, including an overview of such violations, the penalties imposed by competent authorities, the internal investigation and accountability processes conducted, and the corrective actions taken (if any); and\n\n(4) The internal and external training on ethics in science and technology and efforts to raise public awareness on the related topics.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  14,
+                  15
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 43,
+              "content": "披露主体从事生命科学、人工智能等科技伦理敏感领域的科学研究、技术开发等活动的，应当披露报告期内遵守科技伦理的基本情况，包括但不限于下列内容：\n\n（一）从事科技研究、技术开发等科技活动的领域及遵守的科技伦理规范；\n\n（二）内部管理制度中关于科技伦理的规定及其落实情况，科技伦理（审查）委员会的设置及其运作情况（如有）；\n\n（三）违反科技伦理的行为，包括相关行为的基本情况、被有权机关处罚的情况，内部调查处理与责任追究情况，以及采取的整改措施（如有）；\n\n（四）开展科技伦理内外部培训及科普宣传等情况。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                19,
+                19
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "通用编制要求：不同重要性议题怎样披露",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-general-37",
+          "title": "通用编制要求：不同重要性议题怎样披露",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "科技伦理：识别边界、审查与纠偏",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "title": "科技伦理：识别边界、审查与纠偏",
+          "content": "本条适用于生命科学、人工智能等科技伦理敏感领域的科研、技术开发活动。重点是技术活动怎样遵守伦理规范，以及出现问题后如何处理。\n\n一、活动与规则\n说明所从事的科技领域、遵守的伦理规范和内部制度；设有伦理审查委员会时，说明其运作。\n\n二、执行与纠偏\n介绍培训和科普。发生违反科技伦理的行为时，说明事实、处罚、内部调查问责及整改，不能仅用一份制度替代执行情况。",
+          "source": "依据所列权威来源解释，由AI整理，非官方原文或官方发布的解读。",
+          "contentKind": "standard_interpretation",
+          "isOfficialTranslation": false,
+          "sourceVerification": "source_located_editorial_explanation",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第43条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第43条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第43条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            }
+          ],
+          "type": "guidance",
+          "learningLayer": "practical",
+          "provenance": "authority_explanation",
+          "content_cn": "本条适用于生命科学、人工智能等科技伦理敏感领域的科研、技术开发活动。重点是技术活动怎样遵守伦理规范，以及出现问题后如何处理。\n\n一、活动与规则\n说明所从事的科技领域、遵守的伦理规范和内部制度；设有伦理审查委员会时，说明其运作。\n\n二、执行与纠偏\n介绍培训和科普。发生违反科技伦理的行为时，说明事实、处罚、内部调查问责及整改，不能仅用一份制度替代执行情况。"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "通用编制要求：不同重要性议题怎样披露",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "科技伦理：识别边界、审查与纠偏",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "本条适用于生命科学、人工智能等科技伦理敏感领域的科研、技术开发活动。重点是技术活动怎样遵守伦理规范，以及出现问题后如何处理。 一、活动与规则 说明所从事的科技领域、遵守的伦理规范和内部制度；设有伦理审查委员会时，说明其运作。 二、执行与纠偏 介绍培训和科普。发生违反科技伦理的行为时，说明事实、处罚、内部调查问责及整改，不能仅用一份制度替代执行情况。",
-     "provenance": "knowledge_note"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "社会",
- "titleEn": ""
+  "group": "社会",
+  "titleEn": "",
+  "clauses": [
+    "第四十三条"
+  ],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

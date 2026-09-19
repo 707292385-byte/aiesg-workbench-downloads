@@ -1,57 +1,269 @@
 {
- "id": "ashare-framework",
- "title": "整体框架结构",
- "eyebrow": "方法论",
- "summary": "四要素披露框架与21项议题体系",
- "tags": [
-  "方法论"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
- "sections": [
-  {
-   "title": "四要素披露框架（财务重要性议题）",
-   "blocks": [
+  "id": "ashare-framework",
+  "title": "整体框架结构",
+  "eyebrow": "方法论",
+  "summary": "理解四要素披露框架、21项议题及不同重要性结论对应的披露方式。",
+  "tags": [
+    "方法论"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/c_20250516_10779150.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第十一条本指引设置的议题以及披露主体根据本指引第五条第三款识别的议题，对披露主体具有财务重要性的，披露主体应当围绕下列四个方面核心内容以及本指引对有关具体议题的规定进行分析和披露： （一）治理，即公司用于管理和监督可持续发展相关影响风险和机遇的治理结构和内部制度； （二）战略，即公司应对可持续发展相关影响、风险和机遇的规划、策略和方法； （三）影响、风险和机遇管理，即公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程； （四）指标与目标，即公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标。 本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "其他重要性议题的披露要求",
-   "blocks": [
+      "id": "source-1",
+      "title": "四要素披露框架（财务重要性议题）",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "clause": "第十一条",
+          "title": "四要素披露框架（财务重要性议题）",
+          "content": "For any topic specified in these Guidelines that has and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines by the disclosing entity as having financial materiality, the disclosing entity shall analyze and make disclosures on the topic in accordance with the following four key aspects as well as the rules of these Guidelines for that specific topic:\n\n(1) Governance: This refers to the governance structure and internal rules that it uses to manage and oversee sustainability-related impacts, risks, and opportunities;\n\n(2) Strategy: This refers to the planning, tactics, and methods it uses to address the sustainability-related impacts, risks, and opportunities;\n\n(3) Impacts, Risks, and Opportunities Management: This refers to the measures and processes it implements to identify, assess, monitor, and manage the sustainability-related impacts, risks, and opportunities; and\n\n(4) Indicators and Targets: These are the metrics and goals it uses to measure, manage, oversee, and evaluate its response to the sustainability-related impacts, risks, and opportunities. For any topic specified in these Guidelines that has and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines as having only impact materiality to the disclosing entity, the disclosing entity shall make disclosures in accordance with the rules of these Guidelines for that specific topic. Disclosures for topics not specified in these Guidelines shall be made in accordance with paragraph 3, Article 14 of these Guidelines.",
+          "source": "上交所指引第14号 · 第十一条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第11条本指引设置的议题以及披露主体根据本指引第五条第三款识别的议题，对披露主体具有财务重要性的，披露主体应当围绕下列四个方面核心内容以及本指引对有关具体议题的规定进行分析和披露：\n\n（一）治理，即公司用于管理和监督可持续发展相关影响风险和机遇的治理结构和内部制度；\n\n（二）战略，即公司应对可持续发展相关影响、风险和机遇的规划、策略和方法；\n\n（三）影响、风险和机遇管理，即公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程；\n\n（四）指标与目标，即公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标。\n\n本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 11,
+              "content": "本指引设置的议题以及披露主体根据本指引第五条第三款识别的议题，对披露主体具有财务重要性的，披露主体应当围绕下列四个方面核心内容以及本指引对有关具体议题的规定进行分析和披露：\n\n（一）治理，即公司用于管理和监督可持续发展相关影响风险和机遇的治理结构和内部制度；\n\n（二）战略，即公司应对可持续发展相关影响、风险和机遇的规划、策略和方法；\n\n（三）影响、风险和机遇管理，即公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程；\n\n（四）指标与目标，即公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标。\n\n本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                5,
+                5
+              ],
+              "comparisonNote": "本条三所文字有差异，请按所选交易所查看。",
+              "comparisonStatus": "different",
+              "officialEnglish": {
+                "content": "For any topic specified in these Guidelines that has and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines by the disclosing entity as having financial materiality, the disclosing entity shall analyze and make disclosures on the topic in accordance with the following four key aspects as well as the rules of these Guidelines for that specific topic:\n\n(1) Governance: This refers to the governance structure and internal rules that it uses to manage and oversee sustainability-related impacts, risks, and opportunities;\n\n(2) Strategy: This refers to the planning, tactics, and methods it uses to address the sustainability-related impacts, risks, and opportunities;\n\n(3) Impacts, Risks, and Opportunities Management: This refers to the measures and processes it implements to identify, assess, monitor, and manage the sustainability-related impacts, risks, and opportunities; and\n\n(4) Indicators and Targets: These are the metrics and goals it uses to measure, manage, oversee, and evaluate its response to the sustainability-related impacts, risks, and opportunities. For any topic specified in these Guidelines that has and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines as having only impact materiality to the disclosing entity, the disclosing entity shall make disclosures in accordance with the rules of these Guidelines for that specific topic. Disclosures for topics not specified in these Guidelines shall be made in accordance with paragraph 3, Article 14 of these Guidelines.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  4,
+                  5
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 11,
+              "content": "本指引设置的议题以及披露主体根据本指引第五条第三款识别的议题，对披露主体具有财务重要性的，披露主体应当结合下列四个方面核心内容以及本指引对有关具体议题的规定进行分析和披露：\n\n（一）治理，即公司用于管理和监督可持续发展相关影响风险和机遇的治理结构和内部制度；\n\n（二）战略，即公司应对可持续发展相关影响、风险和机遇的规划、策略和方法；\n\n（三）影响、风险和机遇管理，即公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程；\n\n（四）指标与目标，即公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标。\n\n本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                5,
+                5
+              ],
+              "comparisonNote": "本条三所文字有差异，请按所选交易所查看。",
+              "comparisonStatus": "different",
+              "officialEnglish": {
+                "content": "For any topic specified in these Guidelines and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines by the disclosing entity considered as having financial materiality, the disclosing entity shall analyze and make disclosures on the topic in accordance with the following four key aspects as well as the rules of these Guidelines for that specific topic.\n\n(1) Governance: This refers to the governance structure and internal protocols that it uses to manage and oversee sustainability-related impacts, risks, and opportunities;\n\n(2) Strategy: This refers to the plans, strategies, and methods it uses to address the sustainability-related impacts, risks, and opportunities;\n\n(3) Impacts, Risks, and Opportunities Management: This refers to the measures and processes it implements to identify, assess, monitor, and manage the sustainability-related impacts, risks, and opportunities; and\n\n(4) Metrics and Targets: These are the metrics and goals it uses to measure, manage, oversee, and evaluate its response to the sustainability-related impacts, risks, and opportunities. For any topic specified in these Guidelines and any topic identified in accordance with paragraph 3, Article 5 of these Guidelines considered as having only impact materiality to the disclosing entity, the disclosing entity shall make disclosures in accordance with the rules of these Guidelines for that specific topic. Disclosures for topics not specified in these Guidelines shall be made in accordance with paragraph 3, Article 14 of these Guidelines.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  4,
+                  4
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 11,
+              "content": "本指引设置的议题以及披露主体根据本指引第五条第三款识别的议题，对披露主体具有财务重要性的，披露主体应当围绕下列四个方面核心内容以及本指引对有关具体议题的规定进行分析和披露：\n\n（一）治理，即公司用于管理和监督可持续发展相关影响、风险和机遇的治理结构和内部制度；\n\n（二）战略，即公司应对可持续发展相关影响、风险和机遇的规划、策略和方法；\n\n（三）影响、风险和机遇管理，即公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程；\n\n（四）指标与目标，即公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标。\n\n本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                5,
+                5
+              ],
+              "comparisonNote": "本条三所文字有差异，请按所选交易所查看。",
+              "comparisonStatus": "different",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "议题设置与披露框架",
-   "blocks": [
+      "id": "source-2",
+      "title": "其他重要性议题的披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "clause": "第十一条（续）",
+          "title": "其他重要性议题的披露要求",
+          "content": "本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。",
+          "source": "上交所指引第14号 · 第十一条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "SSE unless an explicit sourceVariant is selected",
+          "duplicateArticleReference": true,
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "本指引设置的议题及披露主体根据本指引第五条第三款识别的议题，对披露主体仅具有影响重要性的，披露主体应当按照本指引对具体议题的相关规定进行披露。本指引未规定的其他议题，披露主体应当按照本指引第十四条第三款的规定进行披露。"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录 七、议题设置 《指引》设置了21项议题，其中：环境维度8项，社会维度9项，可持续发展相关治理维度4项。具体如下： 表1：议题设置表 披露主体可以在《指引》设置的议题外，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别并披露其他具有财务重要性或者影响重要性的议题。 八、议题的披露要求 披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。 表2：议题披露要求表 披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
+      "id": "source-3",
+      "title": "议题设置与披露框架",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-framework-32",
+          "title": "议题设置与披露框架",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第一号 总体要求与披露框架》原文摘录",
+          "content": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n七、议题设置\n\n《指引》设置了21项议题，其中：环境维度8项，社会维度9项，可持续发展相关治理维度4项。具体如下：\n\n表1：议题设置表\n\n披露主体可以在《指引》设置的议题外，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别并披露其他具有财务重要性或者影响重要性的议题。\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第一号 总体要求与披露框架》原文摘录\n\n七、议题设置\n\n《指引》设置了21项议题，其中：环境维度8项，社会维度9项，可持续发展相关治理维度4项。具体如下：\n\n表1：议题设置表\n\n披露主体可以在《指引》设置的议题外，结合所处行业特点、行业发展阶段、自身商业模式、所处价值链等情况，识别并披露其他具有财务重要性或者影响重要性的议题。\n\n八、议题的披露要求\n\n披露主体应当从“财务重要性”和“影响重要性”两个方面对议题重要性进行判断，并根据议题的重要性评估情况，按照《指引》规定采用不同的披露框架。\n\n表2：议题披露要求表\n\n披露主体经识别认为前述21项议题既不具有财务重要性，也不具有影响重要性的，或者确不适用相关条款的，应当按照《指引》第七条的规定进行解释说明。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770287/files/7d14a764262a4d37aaf08ca4441907f8.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-4",
+      "title": "四要素核心内容（指引原文第十一条可视化）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "four_pillars",
+          "title": "四要素核心内容（指引原文第十一条可视化）",
+          "source": "依据指引归纳，由AI整理，非官方逐字原文。",
+          "pillars": [
+            {
+              "icon": "🏛️",
+              "title": "治理",
+              "color": "#3b82f6",
+              "desc": "公司用于管理和监督可持续发展相关影响、风险和机遇的治理结构和内部制度",
+              "items": [
+                "董事会及专门委员会",
+                "管理层设置与职责",
+                "信息报告机制",
+                "监督与考核机制"
+              ]
+            },
+            {
+              "icon": "🎯",
+              "title": "战略",
+              "color": "#8b5cf6",
+              "desc": "公司应对可持续发展相关影响、风险和机遇的规划、策略和方法",
+              "items": [
+                "战略制定与决策机制",
+                "资源分配计划",
+                "转型计划与措施",
+                "战略适应性评估"
+              ]
+            },
+            {
+              "icon": "⚡",
+              "title": "影响、风险和机遇管理",
+              "color": "#f59e0b",
+              "desc": "公司用于识别、评估、监测与管理可持续发展相关影响、风险和机遇的措施和流程",
+              "items": [
+                "风险与机遇识别",
+                "影响评估与优先级排序",
+                "监测与管理流程",
+                "情景分析方法"
+              ]
+            },
+            {
+              "icon": "📊",
+              "title": "指标与目标",
+              "color": "#10b981",
+              "desc": "公司用于计量、管理、监督、评价其应对可持续发展相关影响、风险和机遇的指标和目标",
+              "items": [
+                "定量与定性指标",
+                "短期/中期/长期目标",
+                "目标实现进展监测",
+                "指标核算方法说明"
+              ]
+            }
+          ],
+          "contentKind": "standard_interpretation",
+          "sourceReference": "上交所指引第14号 · 第十一条",
+          "sourceVerification": "bibliography_located_not_verbatim",
+          "isOfficialTranslation": false,
+          "exampleNotice": "结构化整理／示例参考；原文中的适用条件和示例性质必须保留，不作为统一监管阈值。",
+          "provenanceLabel": "条文解读",
+          "references": [
+            {
+              "id": "SSE-RULE-CURRENT-CN-MORE-03",
+              "title": "上海证券交易所报告指引",
+              "locator": "第11条",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sha256": "986c7d65d59763280d67fc9be1fc7bcffc4b469e7bc663ff9aed5f9e1523d36d",
+              "language": "zh"
+            },
+            {
+              "id": "SZSE-RULE-CN-MORE-01",
+              "title": "深圳证券交易所报告指引",
+              "locator": "第11条",
+              "url": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sha256": "7c314976ddb099c987474211415861e4f741538bdc948cc30fa526c4ee40b04e",
+              "language": "zh"
+            },
+            {
+              "id": "BSE-RULE-CURRENT-FILE-01",
+              "title": "北京证券交易所报告指引",
+              "locator": "第11条",
+              "url": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sha256": "143178e321f3a3dee66a798cd1f0c27270700355afdef7444b622477d3c8ea83",
+              "language": "zh"
+            }
+          ],
+          "learningLayer": "practical",
+          "provenance": "authority_explanation"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      },
+      {
+        "id": "ashare-process",
+        "title": "报告编制流程"
+      },
+      {
+        "id": "ashare-governance",
+        "title": "治理架构设定"
+      }
+    ],
+    "external": [
+      "ISSB IFRS S1/S2",
+      "GRI标准",
+      "TCFD建议"
+    ]
   },
-  {
-   "title": "四要素核心内容（指引原文第十一条可视化）",
-   "blocks": []
-  }
- ],
- "relations": [
-  "双重重要性评估",
-  "报告编制流程",
-  "治理架构设定",
-  "ISSB IFRS S1/S2",
-  "GRI标准",
-  "TCFD建议"
- ],
- "group": "方法论",
- "titleEn": ""
+  "group": "方法论",
+  "titleEn": "",
+  "clauses": [],
+  "guideScope": "已定位的通用或相关编制要求，不称为该条专门释义",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

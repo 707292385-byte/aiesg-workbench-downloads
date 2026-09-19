@@ -1,60 +1,184 @@
 {
- "id": "ashare-water",
- "title": "水资源利用",
- "eyebrow": "第三节 资源利用与循环经济",
- "summary": "上海证券交易所《第五号 水资源利用》原文摘录 第一章水资源相关风险和机遇评估 水资源相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或正面影响。企业应当集约、高效利用水资源，加强水资源使用过程节约管理，推动生产、流通过程的减量化、再利用、再循环。 一、水资源风险和机遇 （一）水资源相关风险 水资源相关风险主要包括物理风险和转型风险，如流域或区域存在的水量（缺水等）和水质（是否满足使用需求，是否需要预处理等）",
- "tags": [
-  "环境",
-  "第三十六条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
- "sections": [
-  {
-   "title": "水资源利用披露要求",
-   "blocks": [
+  "id": "ashare-water",
+  "title": "水资源利用",
+  "eyebrow": "第三节 资源利用与循环经济",
+  "summary": "梳理水资源风险、取水与耗水核算、节水目标和管理行动。",
+  "tags": [
+    "环境"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第36条披露主体应当披露报告期内使用水资源的具体情况，包括但不限于下列内容： （一）水资源使用的基本情况，包括但不限于总耗水量（以吨计算）及使用强度（如以每产量单位计算）等； （二）水资源节约目标以及具体措施，水资源回收利用情况及水资源使用存在的具体困难（如有）。",
-     "provenance": "official"
+      "id": "source-1",
+      "title": "水资源利用披露要求",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第三十六条",
+          "title": "水资源利用披露要求",
+          "content": "A disclosing entity shall disclose the specifics of its use of water resources in the reporting period, including but not limited to:\n\n(1) An overview of the usage of water resources, including but not limited to total water consumption (expressed in metric tons) and usage intensity (e.g., per unit of output); and\n\n(2) Water conservation goals and the specific actions taken, and any specific challenges encountered in the recycling and the use of water resources.",
+          "source": "上交所指引第14号 · 第三十六条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第36条披露主体应当披露报告期内使用水资源的具体情况，包括但不限于下列内容：\n\n（一）水资源使用的基本情况，包括但不限于总耗水量（以吨计算）及使用强度（如以每产量单位计算）等；\n\n（二）水资源节约目标以及具体措施，水资源回收利用情况及水资源使用存在的具体困难（如有）。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 36,
+              "content": "披露主体应当披露报告期内使用水资源的具体情况，包括但不限于下列内容：\n\n（一）水资源使用的基本情况，包括但不限于总耗水量（以吨计算）及使用强度（如以每产量单位计算）等；\n\n（二）水资源节约目标以及具体措施，水资源回收利用情况及水资源使用存在的具体困难（如有）。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                16
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the specifics of its use of water resources in the reporting period, including but not limited to:\n\n(1) An overview of the usage of water resources, including but not limited to total water consumption (expressed in metric tons) and usage intensity (e.g., per unit of output); and\n\n(2) Water conservation goals and the specific actions taken, and any specific challenges encountered in the recycling and the use of water resources.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  13,
+                  13
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 36,
+              "content": "披露主体应当披露报告期内使用水资源的具体情况，包括但不限于下列内容：\n\n（一）水资源使用的基本情况，包括但不限于总耗水量（以吨计算）及使用强度（如以每产量单位计算）等；\n\n（二）水资源节约目标以及具体措施，水资源回收利用情况及水资源使用存在的具体困难（如有）。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                16
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the specifics of its use of water resources in the reporting period, including but not limited to:\n\n(1) An overview of the usage of water resources, including but not limited to total water consumption (expressed in metric tons) and usage intensity (e.g., per unit of output); and\n\n(2) Water conservation goals and the specific actions taken, water recycling, and any specific challenges encountered in the use of water resources.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  12,
+                  12
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 36,
+              "content": "披露主体应当披露报告期内使用水资源的具体情况，包括但不限于下列内容：\n\n（一）水资源使用的基本情况，包括但不限于总耗水量（以吨计算）及使用强度（如以每产量单位计算）等；\n\n（二）水资源节约目标以及具体措施，水资源回收利用情况及水资源使用存在的具体困难（如有）。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                16,
+                16
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-2",
+      "title": "水资源风险与机遇",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-water-26",
+          "title": "水资源风险与机遇",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第五号 水资源利用》原文摘录",
+          "content": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第一章水资源相关风险和机遇评估\n\n水资源相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或正面影响。企业应当集约、高效利用水资源，加强水资源使用过程节约管理，推动生产、流通过程的减量化、再利用、再循环。\n\n一、水资源风险和机遇\n\n（一）水资源相关风险\n\n水资源相关风险主要包括物理风险和转型风险，如流域或区域存在的水量（缺水等）和水质（是否满足使用需求，是否需要预处理等）等。\n\n表1：水资源相关风险示例\n\n企业可以通过如下步骤，有针对性地评估水资源相关风险。\n\n步骤一：了解企业目前各业务环节的水资源使用数据，评估业务全流程中对水资源具有依赖性或影响的关键环节。\n\n表2：业务环节拆分示例\n\n步骤二：了解企业运营所在区域水环境现状及相关用水政策，掌握当地用水要求及限制，进一步评估和识别位于缺水或其他高风险区域的运营地。\n\n水资源风险很大程度上取决于区域环境，企业可以重点关注水资源的区域状况。水资源短缺地区的生态系统对水资源耗用更为敏感，取水量超过水源的自然补给能力或耗水量突破生态系统的承载极限，可能引发连锁生态问题，如地下水位下降导致地面沉降、河流断流破坏水生生物栖息地、湿地干涸加剧区域干旱等。企业可通过识别面临较高水资源压力的经营区域，确定在不同地理区域开展水资源风险管理措施的重要性和优先级。\n\n表3：经营所在流域水资源物理风险评估指标示例\n\n步骤三：综合分析企业水资源使用情况、业务重要性与特定区域状况等，以识别企业水资源相关风险较为集中的业务运营地及潜在的财务影响，针对性开展管理措施。\n\n表4：经营地综合水资源相关风险评估示例\n\n注：表格中文字、数值仅供示例参考，公司应当结合自身情况确定。例如，所在区域水质分类可以参考国家地表水水质自动监测实时数据发布系统分类。\n\n（二）水资源相关机遇\n\n水资源相关机遇主要表现在新市场开拓、资源利用效率提升、产品和服务需求提升等方面。\n\n表5：水资源相关机遇示例\n\n公司自身业务模式或所面临的政策环境、自然环境未发生重大变化的，无需每年开展评估工作。评估工作应结合自身实际，兼顾成本的可负担性。\n\n二、水资源相关风险和机遇的财务影响\n\n水资源相关风险和机遇对披露主体的财务影响，是披露主体面临的水资源相关风险和机遇引发的，也与披露主体管理这些风险和机遇的战略和决策有关。水资源相关风险和机遇可能会影响披露主体财务状况、经营成果和现金流，包括当期和预期财务影响。以水资源短缺为例，缺少水资源支撑，企业的经营可能会中断，相应预期财务影响可以通过所在地水资源短缺发生频次、单次严重程度以及经营中断造成的经济价值损失进行定性或定量估计。\n\n水资源相关风险和机遇的财务影响主要涉及的财务类别包括收入、支出（利润表）；资产和负债（资产负债表）以及现金流入和流出（现金流量表）等。\n\n表6：水资源利用相关财务影响的主要类别\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第一章水资源相关风险和机遇评估\n\n水资源相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或正面影响。企业应当集约、高效利用水资源，加强水资源使用过程节约管理，推动生产、流通过程的减量化、再利用、再循环。\n\n一、水资源风险和机遇\n\n（一）水资源相关风险\n\n水资源相关风险主要包括物理风险和转型风险，如流域或区域存在的水量（缺水等）和水质（是否满足使用需求，是否需要预处理等）等。\n\n表1：水资源相关风险示例\n\n企业可以通过如下步骤，有针对性地评估水资源相关风险。\n\n步骤一：了解企业目前各业务环节的水资源使用数据，评估业务全流程中对水资源具有依赖性或影响的关键环节。\n\n表2：业务环节拆分示例\n\n步骤二：了解企业运营所在区域水环境现状及相关用水政策，掌握当地用水要求及限制，进一步评估和识别位于缺水或其他高风险区域的运营地。\n\n水资源风险很大程度上取决于区域环境，企业可以重点关注水资源的区域状况。水资源短缺地区的生态系统对水资源耗用更为敏感，取水量超过水源的自然补给能力或耗水量突破生态系统的承载极限，可能引发连锁生态问题，如地下水位下降导致地面沉降、河流断流破坏水生生物栖息地、湿地干涸加剧区域干旱等。企业可通过识别面临较高水资源压力的经营区域，确定在不同地理区域开展水资源风险管理措施的重要性和优先级。\n\n表3：经营所在流域水资源物理风险评估指标示例\n\n步骤三：综合分析企业水资源使用情况、业务重要性与特定区域状况等，以识别企业水资源相关风险较为集中的业务运营地及潜在的财务影响，针对性开展管理措施。\n\n表4：经营地综合水资源相关风险评估示例\n\n注：表格中文字、数值仅供示例参考，公司应当结合自身情况确定。例如，所在区域水质分类可以参考国家地表水水质自动监测实时数据发布系统分类。\n\n（二）水资源相关机遇\n\n水资源相关机遇主要表现在新市场开拓、资源利用效率提升、产品和服务需求提升等方面。\n\n表5：水资源相关机遇示例\n\n公司自身业务模式或所面临的政策环境、自然环境未发生重大变化的，无需每年开展评估工作。评估工作应结合自身实际，兼顾成本的可负担性。\n\n二、水资源相关风险和机遇的财务影响\n\n水资源相关风险和机遇对披露主体的财务影响，是披露主体面临的水资源相关风险和机遇引发的，也与披露主体管理这些风险和机遇的战略和决策有关。水资源相关风险和机遇可能会影响披露主体财务状况、经营成果和现金流，包括当期和预期财务影响。以水资源短缺为例，缺少水资源支撑，企业的经营可能会中断，相应预期财务影响可以通过所在地水资源短缺发生频次、单次严重程度以及经营中断造成的经济价值损失进行定性或定量估计。\n\n水资源相关风险和机遇的财务影响主要涉及的财务类别包括收入、支出（利润表）；资产和负债（资产负债表）以及现金流入和流出（现金流量表）等。\n\n表6：水资源利用相关财务影响的主要类别\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-3",
+      "title": "取水量与耗水量核算",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-water-62",
+          "title": "取水量与耗水量核算",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第五号 水资源利用》原文摘录",
+          "content": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第二章常见用水量核算方法\n\n一、取水量\n\n取水量是指从各种水源或途径获取的水量，包括常规水源取水量和非常规水源利用量，企业可结合自身可得数据进行核算统计。\n\n常规水源（即新鲜水），是指取自自然环境的淡水或来自城镇供水厂的供水。\n\n非常规水源为再生水（即污水或废水经过处理后，达到某种用途的水质标准和要求，可以再次利用的水）、集蓄雨水、海水淡化水、矿坑（井）水、微咸水的总称。其中，非常规水源若为非生产用途（如绿化、保洁、员工生活），可不计入取水量；若为生产用途（如冷却、清洗、工艺用水），一般计入取水量。披露主体也可依据国家主管部门要求或行业通行做法将非常规水源按照一定比例折算为常规水源，核算取水量。\n\n式中：\n\n二、耗水量\n\n式中：\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第二章常见用水量核算方法\n\n一、取水量\n\n取水量是指从各种水源或途径获取的水量，包括常规水源取水量和非常规水源利用量，企业可结合自身可得数据进行核算统计。\n\n常规水源（即新鲜水），是指取自自然环境的淡水或来自城镇供水厂的供水。\n\n非常规水源为再生水（即污水或废水经过处理后，达到某种用途的水质标准和要求，可以再次利用的水）、集蓄雨水、海水淡化水、矿坑（井）水、微咸水的总称。其中，非常规水源若为非生产用途（如绿化、保洁、员工生活），可不计入取水量；若为生产用途（如冷却、清洗、工艺用水），一般计入取水量。披露主体也可依据国家主管部门要求或行业通行做法将非常规水源按照一定比例折算为常规水源，核算取水量。\n\n式中：\n\n二、耗水量\n\n式中：\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-4",
+      "title": "水资源披露要点",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-water-78",
+          "title": "水资源披露要点",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第五号 水资源利用》原文摘录",
+          "content": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第三章披露要点\n\n根据《指引》规定，披露主体针对水资源利用相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露水资源利用相关治理信息。\n\n水资源利用相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参照《第一号总体要求与披露框架》指南相关规定进行披露。\n\n披露要点1 水资源使用的基本情况\n\n1．总耗水量\n\n披露主体应当披露总耗水量（以吨为单位），具体可以参考第二章相关内容进行核算。当排水量无实测数据或无法获得，统计成本较高时，企业可结合自身实际，核算并披露总取水量。\n\n2．水资源使用强度\n\n披露主体应当披露水资源使用强度（如以每单位产品、每单位营收等计算）。\n\n对于产品类型相对集中的企业而言，可以披露单位产品用水强度（如每单位产品的耗水量等）。对于产品类型较为分散、产品多元或服务导向型企业而言，可以披露每单位营收用水强度（如每单位营收的耗水量等）。\n\n披露要点2 水资源节约目标以及具体措施情况\n\n1．水资源节约目标。披露主体可以考虑从耗水量、重复用水、非常规水资源利用等方面设置量化且易于考核的目标。目标的选取可结合行业特点、企业实际运营情况以及相关的政策及标准，以确保其具有针对性和可比性。\n\n2. 节约水资源的具体措施。企业可结合自身情况，也可以考虑从以下环节入手。\n\n表7：节约水资源具体措施示例\n\n3. 描述水资源回收利用的情况。如描述水资源回收利用的具体举措及成效，可与节约水资源的具体措施合并披露，成效可以通过重复利用水在总用水量中的占比等量化指标进行衡量与披露。\n\n4. 描述水资源使用存在的具体困难（如有）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录\n\n第三章披露要点\n\n根据《指引》规定，披露主体针对水资源利用相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露水资源利用相关治理信息。\n\n水资源利用相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参照《第一号总体要求与披露框架》指南相关规定进行披露。\n\n披露要点1 水资源使用的基本情况\n\n1．总耗水量\n\n披露主体应当披露总耗水量（以吨为单位），具体可以参考第二章相关内容进行核算。当排水量无实测数据或无法获得，统计成本较高时，企业可结合自身实际，核算并披露总取水量。\n\n2．水资源使用强度\n\n披露主体应当披露水资源使用强度（如以每单位产品、每单位营收等计算）。\n\n对于产品类型相对集中的企业而言，可以披露单位产品用水强度（如每单位产品的耗水量等）。对于产品类型较为分散、产品多元或服务导向型企业而言，可以披露每单位营收用水强度（如每单位营收的耗水量等）。\n\n披露要点2 水资源节约目标以及具体措施情况\n\n1．水资源节约目标。披露主体可以考虑从耗水量、重复用水、非常规水资源利用等方面设置量化且易于考核的目标。目标的选取可结合行业特点、企业实际运营情况以及相关的政策及标准，以确保其具有针对性和可比性。\n\n2. 节约水资源的具体措施。企业可结合自身情况，也可以考虑从以下环节入手。\n\n表7：节约水资源具体措施示例\n\n3. 描述水资源回收利用的情况。如描述水资源回收利用的具体举措及成效，可与节约水资源的具体措施合并披露，成效可以通过重复利用水在总用水量中的占比等量化指标进行衡量与披露。\n\n4. 描述水资源使用存在的具体困难（如有）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/10770284/files/917c2ab36a7f4e48a43c97b67752c50c.docx"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "水资源风险与机遇",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录 第一章水资源相关风险和机遇评估 水资源相关风险和机遇可能对披露主体的商业模式、业务运营、发展战略、财务状况等产生负面或正面影响。企业应当集约、高效利用水资源，加强水资源使用过程节约管理，推动生产、流通过程的减量化、再利用、再循环。 一、水资源风险和机遇 （一）水资源相关风险 水资源相关风险主要包括物理风险和转型风险，如流域或区域存在的水量（缺水等）和水质（是否满足使用需求，是否需要预处理等）等。 表1：水资源相关风险示例 企业可以通过如下步骤，有针对性地评估水资源相关风险。 步骤一：了解企业目前各业务环节的水资源使用数据，评估业务全流程中对水资源具有依赖性或影响的关键环节。 表2：业务环节拆分示例 步骤二：了解企业运营所在区域水环境现状及相关用水政策，掌握当地用水要求及限制，进一步评估和识别位于缺水或其他高风险区域的运营地。 水资源风险很大程度上取决于区域环境，企业可以重点关注水资源的区域状况。水资源短缺地区的生态系统对水资源耗用更为敏感，取水量超过水源的自然补给能力或耗水量突破生态系统的承载极限，可能引发连锁生态问题，如地下水位下降导致地面沉降、河流断流破坏水生生物栖息地、湿地",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "取水量与耗水量核算",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录 第二章常见用水量核算方法 一、取水量 取水量是指从各种水源或途径获取的水量，包括常规水源取水量和非常规水源利用量，企业可结合自身可得数据进行核算统计。 常规水源（即新鲜水），是指取自自然环境的淡水或来自城镇供水厂的供水。 非常规水源为再生水（即污水或废水经过处理后，达到某种用途的水质标准和要求，可以再次利用的水）、集蓄雨水、海水淡化水、矿坑（井）水、微咸水的总称。其中，非常规水源若为非生产用途（如绿化、保洁、员工生活），可不计入取水量；若为生产用途（如冷却、清洗、工艺用水），一般计入取水量。披露主体也可依据国家主管部门要求或行业通行做法将非常规水源按照一定比例折算为常规水源，核算取水量。 式中： 二、耗水量 式中： 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "水资源披露要点",
-   "blocks": [
-    {
-     "type": "text",
-     "content_cn": "上海证券交易所《第五号 水资源利用》原文摘录 第三章披露要点 根据《指引》规定，披露主体针对水资源利用相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露水资源利用相关治理信息。 水资源利用相关治理、战略、影响、风险及机遇管理以及指标与目标信息可以参照《第一号总体要求与披露框架》指南相关规定进行披露。 披露要点1 水资源使用的基本情况 1．总耗水量 披露主体应当披露总耗水量（以吨为单位），具体可以参考第二章相关内容进行核算。当排水量无实测数据或无法获得，统计成本较高时，企业可结合自身实际，核算并披露总取水量。 2．水资源使用强度 披露主体应当披露水资源使用强度（如以每单位产品、每单位营收等计算）。 对于产品类型相对集中的企业而言，可以披露单位产品用水强度（如每单位产品的耗水量等）。对于产品类型较为分散、产品多元或服务导向型企业而言，可以披露每单位营收用水强度（如每单位营收的耗水量等）。 披露要点2 水资源节约目标以及具体措施情况 1．水资源节约目标。披露主体可以考虑从耗水量、重复用水、非常规水资源利用等方面设置量化且易于考核的目标。目标的选取可结合行业特点、企业实",
-     "provenance": "official"
-    }
-   ]
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "环境",
- "titleEn": ""
+  "group": "环境",
+  "titleEn": "",
+  "clauses": [
+    "第三十六条"
+  ],
+  "guideScope": "对应议题的专题指南",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }

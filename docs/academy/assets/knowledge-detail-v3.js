@@ -1,38 +1,63 @@
 (function(){'use strict';
-const clean=v=>String(v||'').replace(/^[•◦]\s*/,'').replace(/\s+/g,' ').trim();
-const isOfficial=b=>b.provenance==='official'||b.provenance==='official_guidance';
-window.renderKnowledgeDetailV3=function({standard,item,group,detail,sections,relations,source,esc,renderBlock,href}){
- const official=[],reading=[];
- (sections||[]).forEach((section,index)=>{
-  const off=(section.blocks||[]).filter(isOfficial),note=(section.blocks||[]).filter(b=>!isOfficial(b));
-  if(off.length)official.push({section,blocks:off,index});
-  if(note.length)reading.push({section,blocks:note,index});
- });
- const allItems=(standard.groups||[]).flatMap(g=>g.items||[]);
- const sameMap=Object.fromEntries(allItems.map(i=>[i.title,i]));
- const linked=[],external=[];
- (relations||[]).forEach(r=>{
-  const title=typeof r==='string'?r:(r&&r.title);
-  if(!title)return;
-  if(sameMap[title])linked.push(sameMap[title]);
-  else external.push(title);
- });
- const officialFiles=(standard.officialFiles||[]).map(f=>({name:f.name,url:f.url}));
- const primaryUrl=detail&&detail.officialUrl;
- const primary=officialFiles.find(f=>f.url===primaryUrl);
- const fileList=officialFiles.map(f=>{
-  const current=f.url===primaryUrl;
-  return `<li${current?' class="is-current"':''}><a href="${esc(f.url)}" target="_blank" rel="noreferrer">${esc(f.name)}${current?'（本条为本页条文来源）':''} ↗</a></li>`;
- }).join('');
- const originalHtml=official.length?`<div class="kd-original">${official.map(({section,blocks,index})=>`<article><header><span>${esc(section.eyebrow||'官方条文')}</span><h3>${esc(section.title)}</h3></header><div class="kd-original-body">${blocks.map((b,bi)=>renderBlock(b,`off-${index}-${bi}`)).join('')}</div></article>`).join('')}</div>`:`<div class="kd-empty">本页暂无官方条文摘录，请通过文末官方文件进入发布机构现行文件。</div>`;
- const readingHtml=reading.length?`<section class="kd-sec" id="reading"><header><span>理解与解读</span><h2>${esc(detail.title||item.title)} 如何理解</h2></header><div class="kd-notes">${reading.map(({section,blocks,index})=>`<article><h4>${esc(section.title)}</h4>${blocks.map((b,bi)=>renderBlock(b,`note-${index}-${bi}`)).join('')}</article>`).join('')}</div><small class="kd-ai-tag">AI 整理 · 供学习参考</small></section>`:'';
- const relationsHtml=(linked.length||external.length)?`<section class="kd-sec" id="relations"><header><span>相关主题</span><h2>与其它内容的关系</h2></header>${linked.length?`<div class="kd-related"><p class="kd-related-label">同标准相关主题</p><div class="kd-rel-grid">${linked.map(i=>`<a href="${href('topic.html',{standard:standard.id,id:i.id})}"><span>${esc(i.eyebrow||'主题')}</span><b>${esc(i.title)}</b></a>`).join('')}</div></div>`:''}${external.length?`<div class="kd-related"><p class="kd-related-label">外部相关概念</p><div class="kd-rel-tags">${external.map(t=>`<i>${esc(t)}</i>`).join('')}</div></div>`:''}</section>`:'';
- return `<div class="kd-page" data-system="${esc(standard.id)}"><main class="kd-main">
- <nav class="kd-crumb"><a href="${href('standard.html',{id:standard.id})}">${esc(standard.title)}</a><span>/</span><b>${esc(group?.title||'')}</b></nav>
- <header class="kd-head"><span>${esc(detail.eyebrow||item.eyebrow||'披露议题')}</span><h1>${esc(detail.title||item.title)}</h1><p>${esc(detail.summary||item.summary||'')}</p>${primary?`<a class="kd-official-link" href="${esc(primary.url)}" target="_blank" rel="noreferrer">官方条文 · ${esc(primary.name)} ↗</a>`:''}</header>
- <section class="kd-sec" id="original"><header><span>官方条文</span><h2>${esc(detail.title||item.title)} 的披露要求</h2><p>以下为官方文件条文摘录。</p></header>${originalHtml}</section>
- ${readingHtml}
- ${relationsHtml}
- <section id="sources" class="kd-sources"><span>官方文件</span>${fileList?`<ul class="kd-file-list">${fileList}</ul>`:''}<small class="kd-ai-note">本页为 AI 基于上述官方文件整理的解析内容（“理解与解读”为平台整理，非发布机构正式条文）；正式工作请以发布机构现行文件为准。</small></section>
- </main></div>`;
-};})();
+const para=(value,esc)=>String(value||'').split(/\n{2,}/).map(part=>`<p>${esc(part.trim()).replace(/\n/g,'<br>')}</p>`).join('');
+const stripFigureNotice=value=>String(value||'').replace(/\n*完整图表、公式见官方原件：[\s\S]*$/,'').trim();
+const sourceLayers={
+ original:{eyebrow:'指引原文',title:'交易所指引的正式披露要求',desc:'按沪、深、北三所查看对应条文；有可逐段对应的官方英文时，在中文段末显示 EN。'},
+ guide:{eyebrow:'编制指南',title:'官方指南对相应内容的说明',desc:'按指南原有标题和段落转为流程、分组与资料卡；文字顺序和来源身份保持不变。'},
+ practical:{eyebrow:'理解与实务',title:'权威标准辅助解读与实务提示',desc:'优先引用 GRI、OECD 等权威来源；没有直接来源时才标为 AI 辅助建议。'}
+};
+function refs(block,esc){const items=block.references||[];if(!items.length)return'';return `<div class="kd-refs"><span>依据</span>${items.map(item=>`<a href="${esc(item.url||'#')}" target="_blank" rel="noreferrer">${esc(item.title||item.id||'参考来源')}${item.locator?` · ${esc(item.locator)}`:''} ↗</a>`).join('')}</div>`;}
+function englishPair(chinese,english,esc){return `<div class="bilingual"><div class="cn-content">${para(chinese,esc)}</div>${english?`<button class="en-trigger" type="button" aria-expanded="false">EN</button><div class="en-popover" lang="en">${para(english,esc)}</div>`:''}</div>`;}
+function officialBlock(block,key,esc,renderBlock){const variants=block.exchangeVariants||[];if(!variants.length)return renderBlock(block,key);const order={SSE:0,SZSE:1,BSE:2},short={SSE:'上交所',SZSE:'深交所',BSE:'北交所'};variants.sort((a,b)=>(order[a.exchange]??9)-(order[b.exchange]??9));const preferred=variants.findIndex(item=>item.exchange==='SSE'),active=preferred<0?0:preferred;return `<div class="kd-rule-card" data-kd-rule><div class="kd-exchange-tabs" role="tablist" aria-label="查看交易所依据">${variants.map((item,index)=>`<button type="button" role="tab" data-kd-exchange="${esc(item.exchange)}" aria-selected="${index===active}">${esc(short[item.exchange]||item.exchangeName)}</button>`).join('')}</div>${variants.map((item,index)=>`<section class="kd-exchange-panel" data-kd-panel="${esc(item.exchange)}"${index===active?'':' hidden'}><div class="kd-rule-meta"><span>${esc(item.exchangeName)}</span>${item.article?`<b>第${esc(item.article)}条</b>`:''}${item.comparisonStatus==='identical'?'<i>三所正文一致</i>':''}</div>${englishPair(item.content||block.content_cn,item.officialEnglish?.content||'',esc)}<div class="kd-source-line">${item.sourceUrl?`<a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">中文原件 ↗</a>`:''}${item.officialEnglish?.sourceUrl?`<a href="${esc(item.officialEnglish.sourceUrl)}" target="_blank" rel="noreferrer">英文原件 ↗</a>`:''}${item.englishBindingNote?`<span title="${esc(item.englishBindingNote)}">英文版本说明 ⓘ</span>`:''}</div></section>`).join('')}</div>`;}
+function processFlow(block,esc){return `<div class="kd-flow">${(block.steps||[]).map((step,index)=>`<article><span>${esc(step.icon||index+1)}</span><div><b>${esc(step.title)}</b><p>${esc(step.desc)}</p></div></article>`).join('')}</div>`;}
+function pillarGrid(block,esc){return `<div class="kd-pillars">${(block.pillars||[]).map((item,index)=>`<article><span>${String(index+1).padStart(2,'0')}</span><b>${esc(item.title)}</b><p>${esc(item.desc)}</p>${item.items?.length?`<ul>${item.items.map(value=>`<li>${esc(value)}</li>`).join('')}</ul>`:''}</article>`).join('')}</div>`;}
+function cardGrid(block,esc){return `<div class="kd-card-grid">${(block.cards||[]).map((item,index)=>`<article><span>${String(index+1).padStart(2,'0')}</span><b>${esc(item.title)}</b><p>${esc(item.content)}</p></article>`).join('')}</div>`;}
+function externalGrid(block,esc){return `<div class="kd-external-grid">${(block.items||[]).map(item=>`<article><span>${esc(item.type||'参考')}</span><b>${esc(item.name)}</b></article>`).join('')}</div>`;}
+function structuredGuidance(value,esc){const text=String(value||''),matches=[...text.matchAll(/(?:^|\n)([一二三四五六七八九十]+、[^\n]+)\n/g)];if(matches.length<2)return para(text,esc);const intro=text.slice(0,matches[0].index).trim(),cards=matches.map((match,index)=>{const start=match.index+match[0].length,end=matches[index+1]?.index??text.length;return `<article><b>${esc(match[1])}</b>${para(text.slice(start,end).trim(),esc)}</article>`;});return `${intro?`<div class="kd-guidance-intro">${para(intro,esc)}</div>`:''}<div class="kd-guidance-grid">${cards.join('')}</div>`;}
+const guideAssetKey=value=>String(value||'').replace(/[\s：:。；;，,]/g,'').toLowerCase();
+function guideAssetMarkup(asset,caption,esc){
+ if(!asset)return `<div class="kd-guide-asset-missing"><b>${esc(caption)}</b><span>原件对象尚未恢复</span></div>`;
+ const label=asset.label||caption||asset.cue||'官方原件内容';
+ if(asset.kind==='image')return `<figure class="kd-guide-figure"><figcaption>${esc(label)}</figcaption><div>${(asset.images||[]).map(image=>`<img src="${esc(image.src)}" alt="${esc(image.alt||label)}" loading="lazy">`).join('')}</div><small>官方编制指南图示</small></figure>`;
+ if(asset.kind==='formula')return `<figure class="kd-guide-formula"><figcaption>${esc(label)}</figcaption><div class="kd-formula-value">${asset.mathml||para(asset.plainText||'',esc)}</div><small>官方编制指南公式</small></figure>`;
+ const rows=asset.rows||[];
+ return `<figure class="kd-guide-table"><figcaption>${esc(label)}</figcaption><div class="kd-table-scroll"><table>${rows.map((row,rowIndex)=>`<tr>${row.map(cell=>{const tag=rowIndex===0?'th':'td',images=(cell.images||[]).map(image=>`<img src="${esc(image.src)}" alt="${esc(image.alt||label)}" loading="lazy">`).join('');return `<${tag}${cell.colspan>1?` colspan="${cell.colspan}"`:''}${cell.rowspan>1?` rowspan="${cell.rowspan}"`:''}>${cell.text?esc(cell.text).replace(/\n/g,'<br>'):''}${images}</${tag}>`;}).join('')}</tr>`).join('')}</table></div><small>官方编制指南表格</small></figure>`;
+}
+function guideVisual(value,esc,availableAssets=[]){
+ const chunks=String(value||'').split(/\n{2,}/).map(item=>item.trim()).filter(Boolean);
+ const heading=/^(?:第[一二三四五六七八九十百]+[章节]|[一二三四五六七八九十]+、|（[一二三四五六七八九十]+）|步骤[一二三四五六七八九十]+[:：]?)/;
+ const asset=/^(?:表|图|示例)\s*\d+(?:[.：:]|\s)/;
+ const assetMap=new Map(availableAssets.map(item=>[item.cueKey||guideAssetKey(item.cue),item]));
+ const groups=[];let current={title:'',items:[]};
+ const push=()=>{if(current.title||current.items.length)groups.push(current);current={title:'',items:[]};};
+ chunks.forEach(chunk=>{const matched=assetMap.get(guideAssetKey(chunk));if(matched||asset.test(chunk)){current.items.push({type:'asset',caption:chunk,asset:matched});return;}if(heading.test(chunk)&&chunk.length<120){push();current.title=chunk;return;}current.items.push({type:'text',value:chunk});});push();
+ if(groups.length===1&&!groups[0].title){return `<div class="kd-guide-points">${groups[0].items.map((item,index)=>item.type==='asset'?guideAssetMarkup(item.asset,item.caption,esc):`<article><span>${String(index+1).padStart(2,'0')}</span>${para(item.value,esc)}</article>`).join('')}</div>`;}
+ const stepMode=groups.filter(group=>/^步骤/.test(group.title)).length>=2;
+ const cards=groups.map((group,index)=>{const chapter=/^第[一二三四五六七八九十百]+章/.test(group.title),long=group.items.filter(item=>item.type==='text').map(item=>item.value).join('').length>700,hasAsset=group.items.some(item=>item.type==='asset');return `<article class="kd-guide-segment${/^步骤/.test(group.title)?' is-step':''}${chapter?' is-chapter':''}${long?' is-long':''}${hasAsset?' has-asset':''}"><span>${String(index+1).padStart(2,'0')}</span>${group.title?`<b>${esc(group.title)}</b>`:''}${group.items.map(item=>item.type==='asset'?guideAssetMarkup(item.asset,item.caption,esc):para(item.value,esc)).join('')}</article>`;}).join('');
+ return `<div class="${stepMode?'kd-guide-flow':'kd-guide-grid'}">${cards}</div>`;
+}
+function practicalBlock(block,key,esc,renderBlock){let body='';if(block.type==='process_flow')body=processFlow(block,esc);else if(block.type==='four_pillars')body=pillarGrid(block,esc);else if(block.type==='card_grid')body=cardGrid(block,esc);else if(block.type==='external')body=externalGrid(block,esc);else if(block.type==='guidance')body=structuredGuidance(block.content_cn||block.content||'',esc);else{const next={...block,content_cn:block.content_cn||block.content||''};delete next.content;body=renderBlock(next,key);}return body+refs(block,esc);}
+function sectionCard(section,index,layer,esc,renderBlock,guideAssets){
+ const block=(section.blocks||[])[0]||{},provenance=block.provenance||'';
+ const label=layer==='original'?'指引原文':layer==='guide'?'官方编制指南':provenance==='authority_explanation'?'权威标准辅助解读':provenance==='ai_assistance'?'AI辅助建议':'条文结构化整理';
+ let body='',hasFigure=false;
+ if(layer==='original')body=officialBlock(block,`official-${index}`,esc,renderBlock);
+ else if(layer==='guide'){
+  const original=block.content_cn||block.content||'',source=String(block.source||'').trim(),cleanedFigure=stripFigureNotice(original),cleaned=source&&cleanedFigure.startsWith(source)?cleanedFigure.slice(source.length).replace(/^[:：\s]+/,'').trim():cleanedFigure;
+  hasFigure=cleanedFigure!==original;
+  body=guideVisual(cleaned,esc,guideAssets)+refs(block,esc);
+ }else body=practicalBlock(block,`practice-${index}`,esc,renderBlock);
+ const notes=[];
+ if(layer==='practical'&&block.source)notes.push(block.source);
+ if(hasFigure)notes.push('原件包含表格、图示或公式；本页呈现已核对正文，表图结构请按原件入口核对。');
+ const hoverNote=notes.length?`<button class="kd-meta-note" type="button" title="${esc(notes.join(' '))}" aria-label="查看来源与呈现说明">ⓘ</button>`:'';
+ const sourceLine=layer!=='practical'&&block.source?`<small>${esc(block.source)}</small>`:'';
+ return `<article class="kd-content-card kd-${layer}" id="source-${index+1}"><header><span>${label}${hoverNote}</span><h3>${esc(section.title||block.title||`内容 ${index+1}`)}</h3>${sourceLine}</header><div class="kd-card-body">${body}</div></article>`;
+}
+function layerSection(layer,sections,esc,renderBlock,guideAssets){if(!sections.length)return'';const meta=sourceLayers[layer];return `<section class="kd-sec" id="${layer}"><header><span>${meta.eyebrow}</span><h2>${meta.title}</h2><p>${meta.desc}</p></header><div class="kd-layer-list">${sections.map(({section,index})=>sectionCard(section,index,layer,esc,renderBlock,guideAssets)).join('')}</div></section>`;}
+function relationData(relations){if(Array.isArray(relations))return{internal:relations,external:[]};return{internal:relations?.internal||[],external:relations?.external||[]};}
+function relationSection(relations,standard,allItems,href,esc){const data=relationData(relations),itemMap=Object.fromEntries(allItems.map(item=>[item.id,item]));if(!data.internal.length&&!data.external.length)return'';return `<section class="kd-sec" id="relations"><header><span>知识关联</span><h2>把本知识点放回完整体系</h2></header>${data.internal.length?`<div class="kd-rel-grid">${data.internal.map(value=>{const id=typeof value==='string'?'':value.id,title=typeof value==='string'?value:value.title,item=itemMap[id];return item?`<a href="${href('topic.html',{standard:standard.id,id})}"><span>同体系知识点</span><b>${esc(title||item.title)}</b></a>`:`<article><span>相关主题</span><b>${esc(title)}</b></article>`;}).join('')}</div>`:''}${data.external.length?`<div class="kd-rel-tags">${data.external.map(value=>`<i>${esc(typeof value==='string'?value:value.title||'')}</i>`).join('')}</div>`:''}</section>`;}
+function sourcesSection(standard,primaryUrl,esc){const files=standard.officialFiles||[];return `<section class="kd-sources" id="sources"><span>来源与版本</span><h2>官方发布文件</h2><div class="kd-file-grid">${files.map(file=>`<a class="${file.url===primaryUrl?'is-current':''}" href="${esc(file.url)}" target="_blank" rel="noreferrer"><b>${esc(file.name)}</b><small>${file.url===primaryUrl?'本页主要条文来源':'查看官方文件'} ↗</small></a>`).join('')}</div><p>页面中的“指引原文”“官方编制指南”“权威标准辅助解读”和“AI辅助建议”已分层标识。正式披露请核对适用交易所与现行文件。</p></section>`;}
+window.renderKnowledgeDetailV3=function({standard,item,group,detail,sections,relations,guideAssets=[],esc,renderBlock,href}){const indexed=sections.map((section,index)=>({section,index})),byLayer=layer=>indexed.filter(value=>(value.section.learningLayer||(value.section.blocks||[])[0]?.learningLayer||'practical')===layer),allItems=(standard.groups||[]).flatMap(current=>current.items||[]),relationInfo=relationData(relations),toc=[['original','指引原文'],['guide','编制指南'],['practical','理解与实务'],['relations','知识关联'],['sources','来源与版本']].filter(([id])=>id!=='relations'||relationInfo.internal.length||relationInfo.external.length);return `<div class="kd-page" data-system="${esc(standard.id)}"><div class="kd-shell"><main class="kd-main"><nav class="kd-crumb"><a href="${href('standard.html',{id:standard.id})}">${esc(standard.title)}</a><span>/</span><b>${esc(group?.title||'')}</b></nav><header class="kd-head"><span>${esc(detail.eyebrow||item.eyebrow||'披露议题')}</span><h1>${esc(detail.title||item.title)}</h1><p>${esc(item.summary||detail.summary||'')}</p></header>${layerSection('original',byLayer('original'),esc,renderBlock,guideAssets)}${layerSection('guide',byLayer('guide'),esc,renderBlock,guideAssets)}${layerSection('practical',byLayer('practical'),esc,renderBlock,guideAssets)}${relationSection(relations,standard,allItems,href,esc)}${sourcesSection(standard,detail.officialUrl,esc)}</main><aside class="kd-sidebar"><a class="kd-back" href="${href('standard.html',{id:standard.id})}">← 返回A股知识体系</a><span>本页目录</span><nav>${toc.map(([id,label])=>`<a href="#${id}">${esc(label)}</a>`).join('')}</nav><p><b>阅读顺序</b>先看指引义务，再看官方指南，最后查看权威标准和实务解释。</p></aside></div></div>`;};
+window.bindKnowledgeDetailV3=function(root){root.querySelectorAll('[data-kd-rule]').forEach(card=>{const buttons=[...card.querySelectorAll('[data-kd-exchange]')],panels=[...card.querySelectorAll('[data-kd-panel]')];buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(item=>item.setAttribute('aria-selected',String(item===button)));panels.forEach(panel=>{panel.hidden=panel.dataset.kdPanel!==button.dataset.kdExchange;});}));});};
+})();

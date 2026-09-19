@@ -1,151 +1,926 @@
 {
- "id": "ashare-climate",
- "title": "应对气候变化",
- "eyebrow": "第一节 应对气候变化",
- "summary": "上海证券交易所《第二号 应对气候变化》原文摘录 第一章气候相关影响重要性评估 本指南的重要性评估流程旨在为披露主体提供工作参考，进一步帮助披露主体理解气候相关影响、风险和机遇。 一、气候相关影响 披露主体在应对气候变化议题方面的表现可能对经济、社会和环境产生影响（气候相关影响）。气候相关影响可能来自公司的商业模式、业务运营、发展战略、融资方式以及价值链等活动。气候相关影响可能是实际的或潜在的，可能是正面的或负面的。 气候相关影响可以具体",
- "tags": [
-  "环境",
-  "第二十一条",
-  "第二十二条",
-  "第二十三条",
-  "第二十四条",
-  "第二十五条",
-  "第二十六条",
-  "第二十七条",
-  "第二十八条"
- ],
- "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
- "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
- "sections": [
-  {
-   "title": "第二十条",
-   "blocks": [
+  "id": "ashare-climate",
+  "title": "应对气候变化",
+  "eyebrow": "第一节 应对气候变化",
+  "summary": "梳理气候影响、风险和机遇、情景分析、排放核算与转型计划。",
+  "tags": [
+    "环境"
+  ],
+  "sourceNote": "沪、深、北三所官方指引及编制指南；按交易所与版本分别引用。 本页为 AI 整理的解析内容，请以官方现行文件为准。",
+  "officialUrl": "http://www.sse.com.cn/lawandrules/guide/stock/zbxxpljg/ssgszljg/c/c_20250117_10770284.shtml",
+  "sections": [
     {
-     "type": "text",
-     "content_cn": "第20条披露主体应当积极通过改进工艺、升级生产设备、优化能源结构、提高生产能效、研发和提供绿色产品与服务、改进和强化管理等措施，实现绿色低碳发展，支持美丽中国建设。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "第二十一条",
-   "blocks": [
+      "id": "source-1",
+      "title": "第二十条",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "clause": "第二十条",
+          "title": "第二十条",
+          "content": "A disclosing entity shall actively pursue green and low-carbon growth and support the building of a beautiful China through such means as improving the processes, upgrading the production equipment, optimizing the energy mix, raising energy efficiency in production activities, developing and offering green products and services, and improving and strengthening management.",
+          "source": "上交所指引第14号 · 第二十条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第20条披露主体应当积极通过改进工艺、升级生产设备、优化能源结构、提高生产能效、研发和提供绿色产品与服务、改进和强化管理等措施，实现绿色低碳发展，支持美丽中国建设。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 20,
+              "content": "披露主体应当积极通过改进工艺、升级生产设备、优化能源结构、提高生产能效、研发和提供绿色产品与服务、改进和强化管理等措施，实现绿色低碳发展，支持美丽中国建设。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall actively pursue green and low-carbon growth and support the building of a beautiful China through such means as improving the processes, upgrading the production equipment, optimizing the energy mix, raising energy efficiency in production activities, developing and offering green products and services, and improving and strengthening management.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  8
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 20,
+              "content": "披露主体应当积极通过改进工艺、升级生产设备、优化能源结构、提高生产能效、研发和提供绿色产品与服务、改进和强化管理等措施，实现绿色低碳发展，支持美丽中国建设。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                9,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall actively pursue green and low-carbon growth and support the building of a Beautiful China through such means as improving the processes, upgrading the production equipment, optimizing the energy mix, raising energy efficiency in production activities, developing and offering green products and services, and improving and strengthening management.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  7,
+                  7
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 20,
+              "content": "披露主体应当积极通过改进工艺、升级生产设备、优化能源结构、提高生产能效、研发和提供绿色产品与服务、改进和强化管理等措施，实现绿色低碳发展，支持美丽中国建设。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "第21条披露主体除按照本指引第二章的规定披露应对气候变化相关治理，战略，影响、风险和机遇管理，指标与目标等内容外，还应当按照本节规定披露应对气候变化的相关信息。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "气候适应性评估",
-   "blocks": [
+      "id": "source-2",
+      "title": "第二十一条",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "clause": "第二十一条",
+          "title": "第二十一条",
+          "content": "Aside from disclosing governance related to climate change tackling; strategies; impacts, risks, and opportunities management; indicators; and targets in accordance with Chapter II of these Guidelines, a disclosing entity shall also provide information on its climate response as required by this Section.",
+          "source": "上交所指引第14号 · 第二十一条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第21条披露主体除按照本指引第二章的规定披露应对气候变化相关治理，战略，影响、风险和机遇管理，指标与目标等内容外，还应当按照本节规定披露应对气候变化的相关信息。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 21,
+              "content": "披露主体除按照本指引第二章的规定披露应对气候变化相关治理，战略，影响、风险和机遇管理，指标与目标等内容外，还应当按照本节规定披露应对气候变化的相关信息。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Aside from disclosing governance related to climate change tackling; strategies; impacts, risks, and opportunities management; indicators; and targets in accordance with Chapter II of these Guidelines, a disclosing entity shall also provide information on its climate response as required by this Section.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  8
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 21,
+              "content": "披露主体除按照本指引第二章的规定披露应对气候变化相关治理，战略，影响、风险和机遇管理，指标与目标等内容外，还应当按照本节规定披露应对气候变化的相关信息。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Aside from disclosing climate response governance; strategies; impacts, risks, and opportunities management; indicators; and targets in accordance with information on its climate response as required by this Section.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  8
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 21,
+              "content": "披露主体除按照本指引第二章的规定披露应对气候变化相关治理，战略，影响、风险和机遇管理，指标与目标等内容外，还应当按照本节规定披露应对气候变化的相关信息。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "第22条披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项： （一）公司关于气候变化对其战略和商业模式影响的评估情况，以及应对相关影响的方法； （二）公司在评估其气候适应性时考虑的重大不确定性因素； （三）公司在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。 本所鼓励有条件的披露主体采用情景分析等方式进行气候适应性评估，并披露情景分析关键假设、分析过程等。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "转型计划与措施",
-   "blocks": [
+      "id": "source-3",
+      "title": "气候适应性评估",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第二十二条",
+          "title": "气候适应性评估",
+          "content": "A disclosing entity shall, in the context of the climate risks and opportunities it has identified, assess the extent to which its strategies, business models, and other similar aspects are adapted to climate change, and disclose:\n\n(1) Its assessment of how climate change impacts its strategies and business models, as well as how it responds to these impacts;\n\n(2) Significant uncertainties it has considered when assessing its climate adaptation; and\n\n(3) Its capacity to adjust its strategies and business models over the short, medium, and long term to adapt to climate change. The Exchange encourages those disclosing entities that are able to assess its climate adaptation through scenario analysis, and disclose the key assumptions and the procedures of such scenario analysis.",
+          "source": "上交所指引第14号 · 第二十二条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第22条披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项：\n\n（一）公司关于气候变化对其战略和商业模式影响的评估情况，以及应对相关影响的方法；\n\n（二）公司在评估其气候适应性时考虑的重大不确定性因素；\n\n（三）公司在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。\n\n本所鼓励有条件的披露主体采用情景分析等方式进行气候适应性评估，并披露情景分析关键假设、分析过程等。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 22,
+              "content": "披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项：\n\n（一）公司关于气候变化对其战略和商业模式影响的评估情况，以及应对相关影响的方法；\n\n（二）公司在评估其气候适应性时考虑的重大不确定性因素；\n\n（三）公司在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。\n\n本所鼓励有条件的披露主体采用情景分析等方式进行气候适应性评估，并披露情景分析关键假设、分析过程等。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall, in the context of the climate risks and opportunities it has identified, assess the extent to which its strategies, business models, and other similar aspects are adapted to climate change, and disclose:\n\n(1) Its assessment of how climate change impacts its strategies and business models, as well as how it responds to these impacts;\n\n(2) Significant uncertainties it has considered when assessing its climate adaptation; and\n\n(3) Its capacity to adjust its strategies and business models over the short, medium, and long term to adapt to climate change. The Exchange encourages those disclosing entities that are able to assess its climate adaptation through scenario analysis, and disclose the key assumptions and the procedures of such scenario analysis.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 22,
+              "content": "披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项：\n\n（一）公司关于气候变化对其战略和商业模式影响的评估情况，以及应对相关影响的方法；\n\n（二）公司在评估其气候适应性时考虑的重大不确定性因素；\n\n（三）公司在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。\n\n本所鼓励有条件的披露主体采用情景分析等方式进行气候适应性评估，并披露情景分析关键假设、分析过程等。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall, in the context of the climate risks and opportunities it has identified, assess the extent to which its strategies, business models, and other aspects are adapted to climate change, and disclose:\n\n(1) Its assessment of how climate change impacts its strategies and business models, as well as how it responds to these impacts;\n\n(2) Significant uncertainties it has considered when assessing its climate adaptation; and\n\n(3) Its capacity to adjust its strategies and business models over the short, medium, and long term to adapt to climate change. The Exchange encourages those disclosing entities that are able to assess its climate adaptation through scenario analysis, and disclose the key assumptions and the procedures of such scenario analysis.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  8
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 22,
+              "content": "披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项：\n\n（一）公司关于气候变化对其战略和商业模式影响的评估情况，以及应对相关影响的方法；\n\n（二）公司在评估其气候适应性时考虑的重大不确定性因素；\n\n（三）公司在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。\n\n本所鼓励有条件的披露主体采用情景分析等方式进行气候适应性评估，并披露情景分析关键假设、分析过程等。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                10
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "第23条披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容： （一）公司为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况； （二）公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的改进生产工艺、更新设备等措施； （三）公司为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设； （四）公司为实施转型计划提供的资源； （五）公司实施转型计划的进展情况。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "温室气体排放核算与披露",
-   "blocks": [
+      "id": "source-4",
+      "title": "转型计划与措施",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第二十三条",
+          "title": "转型计划与措施",
+          "content": "A disclosing entity shall disclose its transition plans, actions, and progress in responding to climate risks and opportunities, including but not limited to:\n\n(1) Adjustments made in the company’s current and future strategies, business models, and resource allocation to respond to climate risks and opportunities;\n\n(2) Actions taken or planned by the company to update the production processes and equipment to directly or indirectly tackle climate risks and opportunities;\n\n(3) The transition plan created by the company to address climate risks and opportunities and the fundamental assumptions underpinning the plan;\n\n(4) The resources allocated by the company to execute the transition plan; and\n\n(5) The progress in executing the company’s transition plan.",
+          "source": "上交所指引第14号 · 第二十三条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第23条披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容：\n\n（一）公司为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况；\n\n（二）公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的改进生产工艺、更新设备等措施；\n\n（三）公司为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设；\n\n（四）公司为实施转型计划提供的资源；\n\n（五）公司实施转型计划的进展情况。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 23,
+              "content": "披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容：\n\n（一）公司为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况；\n\n（二）公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的改进生产工艺、更新设备等措施；\n\n（三）公司为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设；\n\n（四）公司为实施转型计划提供的资源；\n\n（五）公司实施转型计划的进展情况。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose its transition plans, actions, and progress in responding to climate risks and opportunities, including but not limited to:\n\n(1) Adjustments made in the company’s current and future strategies, business models, and resource allocation to respond to climate risks and opportunities;\n\n(2) Actions taken or planned by the company to update the production processes and equipment to directly or indirectly tackle climate risks and opportunities;\n\n(3) The transition plan created by the company to address climate risks and opportunities and the fundamental assumptions underpinning the plan;\n\n(4) The resources allocated by the company to execute the transition plan; and\n\n(5) The progress in executing the company’s transition plan.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 23,
+              "content": "披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容：\n\n（一）公司为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况；\n\n（二）公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的改进生产工艺、更新设备等措施；\n\n（三）公司为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设；\n\n（四）公司为实施转型计划提供的资源；\n\n（五）公司实施转型计划的进展情况。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                10,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose its transition plans, actions, and progress in responding to climate risks and opportunities, including but not limited to:\n\n(1) Adjustments made in the company’s current and future strategies, business models, and resource allocation to respond to climate risks and opportunities;\n\n(2) Actions taken or planned by the company to update the production processes and equipment to directly or indirectly address climate risks and opportunities;\n\n(3) The transition plan created by the company to address climate risks and opportunities and the fundamental assumptions underpinning the plan;\n\n(4) The resources allocated by the company to execute the transition plan; and\n\n(5) The progress in executing the company’s transition plan.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  8
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 23,
+              "content": "披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容：\n\n（一）公司为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况；\n\n（二）公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的改进生产工艺、更新设备等措施；\n\n（三）公司为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设；\n\n（四）公司为实施转型计划提供的资源；\n\n（五）公司实施转型计划的进展情况。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "第24条披露主体应当核算并披露报告期内的温室气体排放总量，并将不同温室气体排放量换算成二氧化碳当量公吨数。披露主体应当披露温室气体范围1排放量、范围2排放量，鼓励有条件的披露主体披露温室气体范围3排放量。 披露主体涉及使用碳信用额度的，应当披露所使用的碳信用额度的来源与数量。披露主体参与碳排放权交易的，应当披露报告期内是否完成清缴以及是否存在被有关部门要求整改或立案调查的情形。 本所鼓励有条件的披露主体聘请第三方机构对公司温室气体排放等数据进行核查或鉴证。",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "本议题补充条文",
-   "blocks": [
+      "id": "source-5",
+      "title": "温室气体排放核算与披露",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "clause": "第二十四条",
+          "title": "温室气体排放核算与披露",
+          "content": "A disclosing entity shall calculate and disclose its total GHG emissions in the reporting period, and convert different GHG emissions into metric tons of carbon dioxide equivalent. The disclosing entity shall disclose Scope 1 and Scope 2 emissions and, if able, is encouraged to disclose Scope 3 emissions. Any disclosing entity that uses carbon credits shall disclose the source and amount of the carbon credits it uses. Any disclosing entity that participates in carbon emissions trading shall disclose whether it has completed settlement and whether it has been ordered to take corrective actions or is formally investigated by a government agency within the reporting period. The Exchange encourages those disclosing entities that are able to engage a third party to audit or provide assurance on the GHG emissions data and other relevant figures.",
+          "source": "上交所指引第14号 · 第二十四条",
+          "contentKind": "official_original",
+          "language": "zh",
+          "sourceScope": "selected_exchange",
+          "type": "standard",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "第24条披露主体应当核算并披露报告期内的温室气体排放总量，并将不同温室气体排放量换算成二氧化碳当量公吨数。披露主体应当披露温室气体范围1排放量、范围2排放量，鼓励有条件的披露主体披露温室气体范围3排放量。\n\n披露主体涉及使用碳信用额度的，应当披露所使用的碳信用额度的来源与数量。披露主体参与碳排放权交易的，应当披露报告期内是否完成清缴以及是否存在被有关部门要求整改或立案调查的情形。\n\n本所鼓励有条件的披露主体聘请第三方机构对公司温室气体排放等数据进行核查或鉴证。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 24,
+              "content": "披露主体应当核算并披露报告期内的温室气体排放总量，并将不同温室气体排放量换算成二氧化碳当量公吨数。披露主体应当披露温室气体范围1排放量、范围2排放量，鼓励有条件的披露主体披露温室气体范围3排放量。\n\n披露主体涉及使用碳信用额度的，应当披露所使用的碳信用额度的来源与数量。披露主体参与碳排放权交易的，应当披露报告期内是否完成清缴以及是否存在被有关部门要求整改或立案调查的情形。\n\n本所鼓励有条件的披露主体聘请第三方机构对公司温室气体排放等数据进行核查或鉴证。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall calculate and disclose its total GHG emissions in the reporting period, and convert different GHG emissions into metric tons of carbon dioxide equivalent. The disclosing entity shall disclose Scope 1 and Scope 2 emissions and, if able, is encouraged to disclose Scope 3 emissions. Any disclosing entity that uses carbon credits shall disclose the source and amount of the carbon credits it uses. Any disclosing entity that participates in carbon emissions trading shall disclose whether it has completed settlement and whether it has been ordered to take corrective actions or is formally investigated by a government agency within the reporting period. The Exchange encourages those disclosing entities that are able to engage a third party to audit or provide assurance on the GHG emissions data and other relevant figures.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 24,
+              "content": "披露主体应当核算并披露报告期内的温室气体排放总量，并将不同温室气体排放量换算成二氧化碳当量公吨数。披露主体应当披露温室气体范围1排放量、范围2排放量，鼓励有条件的披露主体披露温室气体范围3排放量。\n\n披露主体涉及使用碳信用额度的，应当披露所使用的碳信用额度的来源与数量。披露主体参与碳排放权交易的，应当披露报告期内是否完成清缴以及是否存在被有关部门要求整改或立案调查的情形。\n\n本所鼓励有条件的披露主体聘请第三方机构对公司温室气体排放等数据进行核查或鉴证。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall calculate and disclose its total GHG emissions in the reporting period, and convert various GHG emissions into metric tons of carbon dioxide equivalent. The disclosing entity shall disclose Scope 1 and Scope 2 emissions and, if able, Scope 3 emissions as encouraged. Any disclosing entity that uses carbon credits shall disclose the source and amount of the carbon credits it uses. Any disclosing entity that participates in carbon emissions trading shall disclose whether it has completed settlement and whether it has been ordered to take corrective actions or is formally investigated by a government agency within the reporting period. The Exchange encourages those disclosing entities that are able to engage a third party to audit or provide assurance on the GHG emissions data and other relevant figures.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  8,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 24,
+              "content": "披露主体应当核算并披露报告期内的温室气体排放总量，并将不同温室气体排放量换算成二氧化碳当量公吨数。披露主体应当披露温室气体范围1排放量、范围2排放量，鼓励有条件的披露主体披露温室气体范围3排放量。\n\n披露主体涉及使用碳信用额度的，应当披露所使用的碳信用额度的来源与数量。披露主体参与碳排放权交易的，应当披露报告期内是否完成清缴以及是否存在被有关部门要求整改或立案调查的情形。\n\n本所鼓励有条件的披露主体聘请第三方机构对公司温室气体排放等数据进行核查或鉴证。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "为提高温室气体排放透明度和可比性，本所鼓励披露主体按照下列分类提供不同范围温室气体排放情况： （一）业务单位或设施； （二）国家或地区； （三）来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）。 披露主体应当披露核算温室气体排放量所依据的标准、方法、假设或计算工具，并说明排放量的合并方法（如股权比例、财务控制、运营控制等）。报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。 披露主体应当披露温室气体减排实践的相关信息，包括参与各项减排机制的情况、减排目标、减排措施（如管理措施、资金投入、技术开发等）及其成效等。 披露主体应当按照不同温室气体排放范围分类披露因重新设计生产流程、改造设备、改进工艺、更换燃料等减排措施直接减少的温室气体排放量，并换算成二氧化碳当量公吨数，披露主体可以按照不同减排措施分别披露减排情况。 披露主体应当披露其在全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况、参与其他减排机制的项目和减排量登记与交易情况等内容（如有）。 披露主体披露有利于减少碳排放、实现碳中和的新技术、新产品、新服务以及相关研发进展的，应当客观、审慎地披露相关工艺技术形成的产品或服务的具体情况、相",
-     "provenance": "knowledge_note"
-    }
-   ]
-  },
-  {
-   "title": "影响重要性评估",
-   "blocks": [
+      "id": "source-6",
+      "title": "本议题补充条文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "title": "本议题补充条文",
+          "clause": "第25条、第26条、第27条、第28条",
+          "contentKind": "official_original",
+          "content": "To enhance the transparency and comparability of GHG emissions data, a disclosing entity is encouraged to provide GHG emissions details at each scope level according to the following categories:\n\n(1) Operational units or facilities;\n\n(2) Countries or regions; and\n\n(3) Type of source (e.g., combustion, processing, electricity, heating, cooling, and steam).",
+          "learningLayer": "original",
+          "provenance": "official",
+          "content_cn": "为提高温室气体排放透明度和可比性，本所鼓励披露主体按照下列分类提供不同范围温室气体排放情况：\n\n（一）业务单位或设施；\n\n（二）国家或地区；\n\n（三）来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）。\n\n披露主体应当披露核算温室气体排放量所依据的标准、方法、假设或计算工具，并说明排放量的合并方法（如股权比例、财务控制、运营控制等）。报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。\n\n披露主体应当披露温室气体减排实践的相关信息，包括参与各项减排机制的情况、减排目标、减排措施（如管理措施、资金投入、技术开发等）及其成效等。\n\n披露主体应当按照不同温室气体排放范围分类披露因重新设计生产流程、改造设备、改进工艺、更换燃料等减排措施直接减少的温室气体排放量，并换算成二氧化碳当量公吨数，披露主体可以按照不同减排措施分别披露减排情况。\n\n披露主体应当披露其在全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况、参与其他减排机制的项目和减排量登记与交易情况等内容（如有）。\n\n披露主体披露有利于减少碳排放、实现碳中和的新技术、新产品、新服务以及相关研发进展的，应当客观、审慎地披露相关工艺技术形成的产品或服务的具体情况、相关业务的研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单情况等，鼓励说明对披露主体当期及未来财务状况和经营成果的影响，以及可能存在的不确定性和风险等。",
+          "exchangeVariants": [
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 25,
+              "content": "为提高温室气体排放透明度和可比性，本所鼓励披露主体按照下列分类提供不同范围温室气体排放情况：\n\n（一）业务单位或设施；\n\n（二）国家或地区；\n\n（三）来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "To enhance the transparency and comparability of GHG emissions data, a disclosing entity is encouraged to provide GHG emissions details at each scope level according to the following categories:\n\n(1) Operational units or facilities;\n\n(2) Countries or regions; and\n\n(3) Type of source (e.g., combustion, processing, electricity, heating, cooling, and steam).",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 26,
+              "content": "披露主体应当披露核算温室气体排放量所依据的标准、方法、假设或计算工具，并说明排放量的合并方法（如股权比例、财务控制、运营控制等）。报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the standards, methods, assumptions, or calculation tools used for GHG emissions accounting and state how emissions data are consolidated (such as by equity share proportion or financial and operating control). If there is a change to the accounting standards, methods, or assumptions in the reporting period, the disclosing entity shall state the reasons and specific impacts of these changes.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  10,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 27,
+              "content": "披露主体应当披露温室气体减排实践的相关信息，包括参与各项减排机制的情况、减排目标、减排措施（如管理措施、资金投入、技术开发等）及其成效等。\n\n披露主体应当按照不同温室气体排放范围分类披露因重新设计生产流程、改造设备、改进工艺、更换燃料等减排措施直接减少的温室气体排放量，并换算成二氧化碳当量公吨数，披露主体可以按照不同减排措施分别披露减排情况。\n\n披露主体应当披露其在全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况、参与其他减排机制的项目和减排量登记与交易情况等内容（如有）。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose information on GHG emissions reduction practices, including its participation in the various emissions reduction initiatives, emissions reduction targets and measures (e.g., management strategies, funding, development of technologies), and the outcomes. The disclosing entity shall disclose, for each scope level, the amount of GHG emissions directly reduced by such emissions reduction measures as redesigning production procedures, updating equipment, improving manufacturing processes, and switching fuels, and convert the data into metric tons of carbon dioxide equivalent. Emissions reductions may be disclosed by each measure used to achieve the reduction. The disclosing entity shall disclose its registration and trading activities in relation to the national projects for voluntary GHG emissions reduction and the China Certified Emission Reduction (CCER), as well as its registration and trading of any other emissions reduction initiatives and emissions savings.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  10,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SSE",
+              "exchangeName": "上海证券交易所",
+              "article": 28,
+              "content": "披露主体披露有利于减少碳排放、实现碳中和的新技术、新产品、新服务以及相关研发进展的，应当客观、审慎地披露相关工艺技术形成的产品或服务的具体情况、相关业务的研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单情况等，鼓励说明对披露主体当期及未来财务状况和经营成果的影响，以及可能存在的不确定性和风险等。",
+              "sourceUrl": "https://www.sse.com.cn/lawandrules/sselawsrules2025/stocks/mainipo/c/10779150/files/428e7f14e15e4b42ae71a5bb01647460.docx",
+              "sourceId": "SSE-RULE-CURRENT-CN-MORE-03",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                13
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Any disclosing entity that discloses new technologies, products, and services that contribute to decarbonization and carbon neutrality and the related R&D progress shall provide an objective and prudent account of the specifics of the technologies or services developed based on the relevant processes and technologies, the R&D investment and progress in the relevant businesses, approvals or certifications it has obtained, its mass production capacity, and its existing orders, among other information. The disclosing entity is encouraged to describe the impacts thereof on its current period’s and future financial positions and operating results, as well as the possible uncertainties and risks.",
+                "sourceUrl": "https://english.sse.com.cn/start/sserules/stocks/listing/c/10753175/files/7e4ff1b670c9477784d7e2c765f074e9.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  10,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 25,
+              "content": "为提高温室气体排放透明度和可比性，本所鼓励披露主体按照下列分类提供不同范围温室气体排放情况：\n\n（一）业务单位或设施；\n\n（二）国家或地区；\n\n（三）来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                11
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "To enhance the transparency and comparability of GHG emissions data, the Exchange encourages the disclosing entity to provide GHG emissions details at each scope level according to the following categories:\n\n(1) Operational units or facilities;\n\n(2) Countries or regions; and\n\n(3) Type of source (e.g., combustion, processing, electricity, heating, cooling, and steam).",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 26,
+              "content": "披露主体应当披露核算温室气体排放量所依据的标准、方法、假设或计算工具，并说明排放量的合并方法（如股权比例、财务控制、运营控制等）。报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose the standards, methods, assumptions, or calculation tools used for GHG emissions accounting and state how emissions data are consolidated (such as by shareholding percentage, financial control, and operational control). If there is a change to the accounting standards, methods, or assumptions in the reporting period, the disclosing entity shall state the reasons and specific impacts of these changes.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 27,
+              "content": "披露主体应当披露温室气体减排实践的相关信息，包括参与各项减排机制的情况、减排目标、减排措施（如管理措施、资金投入、技术开发等）及其成效等。\n\n披露主体应当按照不同温室气体排放范围分类披露因重新设计生产流程、改造设备、改进工艺、更换燃料等减排措施直接减少的温室气体排放量，并换算成二氧化碳当量公吨数，披露主体可以按照不同减排措施分别披露减排情况。\n\n披露主体应当披露其在全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况、参与其他减排机制的项目和减排量登记与交易情况等内容（如有）。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "A disclosing entity shall disclose its GHG emissions reduction practices, including its participation in the various emissions reduction initiatives, emissions reduction targets and measures (e.g., management strategies, funding, development of technologies), and the outcomes. The disclosing entity shall disclose, for each scope level, the amount of GHG emissions directly reduced by such emissions reduction measures as redesigning production procedures, updating equipment, improving manufacturing processes, and switching fuels, and convert the data into metric tons of carbon dioxide equivalent. Emissions reductions may be disclosed by each measure used to achieve the reduction. The disclosing entity shall disclose its registration and trading activities in relation to the national projects for voluntary GHG emissions reduction and the China Certified Emission Reduction (CCER), as well as its registration and trading of any other emissions reduction initiatives and emissions savings.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  9
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "SZSE",
+              "exchangeName": "深圳证券交易所",
+              "article": 28,
+              "content": "披露主体披露有利于减少碳排放、实现碳中和的新技术、新产品、新服务以及相关研发进展的，应当客观、审慎地披露相关工艺技术形成的产品或服务的具体情况、相关业务的研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单情况等，鼓励说明对披露主体当期及未来财务状况和经营成果的影响，以及可能存在的不确定性和风险等。",
+              "sourceUrl": "http://docs.static.szse.cn/www/lawrules/rule/stock/W020240412665980274720.docx",
+              "sourceId": "SZSE-RULE-CN-MORE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": {
+                "content": "Any disclosing entity that discloses new technologies, products, and services that contribute to decarbonization, carbon neutrality, and the related R&D progress shall provide an objective and prudent account of the specifics of the technologies or services developed based on the relevant processes and technologies, the R&D investment and progress in the relevant businesses, approvals or certifications it has obtained, mass production capacity it has established, and its existing orders, among other information. The disclosing entity is encouraged to describe the impacts thereof on its current period’s and future financial positions and operational outcomes, as well as the possible uncertainties and risks.",
+                "sourceUrl": "https://www.szse.cn/English/rules/siteRule/P020240412667555851701.pdf",
+                "sourceVersion": "2024-04-12",
+                "pages": [
+                  9,
+                  10
+                ]
+              },
+              "englishBindingNote": ""
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 25,
+              "content": "为提高温室气体排放透明度和可比性，本所鼓励披露主体按照下列分类提供不同范围温室气体排放情况：\n\n（一）业务单位或设施；\n\n（二）国家或地区；\n\n（三）来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                11,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 26,
+              "content": "披露主体应当披露核算温室气体排放量所依据的标准、方法、假设或计算工具，并说明排放量的合并方法（如股权比例、财务控制、运营控制等）。报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 27,
+              "content": "披露主体应当披露温室气体减排实践的相关信息，包括参与各项减排机制的情况、减排目标、减排措施（如管理措施、资金投入、技术开发等）及其成效等。\n\n披露主体应当按照不同温室气体排放范围分类披露因重新设计生产流程、改造设备、改进工艺、更换燃料等减排措施直接减少的温室气体排放量，并换算成二氧化碳当量公吨数，披露主体可以按照不同减排措施分别披露减排情况。\n\n披露主体应当披露其在全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况、参与其他减排机制的项目和减排量登记与交易情况等内容（如有）。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                12
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            },
+            {
+              "exchange": "BSE",
+              "exchangeName": "北京证券交易所",
+              "article": 28,
+              "content": "披露主体披露有利于减少碳排放、实现碳中和的新技术、新产品、新服务以及相关研发进展的，应当客观、审慎地披露相关工艺技术形成的产品或服务的具体情况、相关业务的研发投入及进度、已取得的审批或认证、已具备的规模化生产能力、已取得的订单情况等，鼓励说明对披露主体当期及未来财务状况和经营成果的影响，以及可能存在的不确定性和风险等。",
+              "sourceUrl": "https://www.bse.cn/uploads/6/file/public/202504/20250428110517_i0wq3no0b8.pdf",
+              "sourceId": "BSE-RULE-CURRENT-FILE-01",
+              "sourceVersion": "2024-04-12",
+              "pages": [
+                12,
+                13
+              ],
+              "comparisonNote": "本条三所正文一致，切换可查看各所来源与版本。",
+              "comparisonStatus": "identical",
+              "officialEnglish": null,
+              "englishBindingNote": "存在历史官方英文，但不能作为当前中文版本的逐段对应英文。"
+            }
+          ]
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第一章气候相关影响重要性评估 本指南的重要性评估流程旨在为披露主体提供工作参考，进一步帮助披露主体理解气候相关影响、风险和机遇。 一、气候相关影响 披露主体在应对气候变化议题方面的表现可能对经济、社会和环境产生影响（气候相关影响）。气候相关影响可能来自公司的商业模式、业务运营、发展战略、融资方式以及价值链等活动。气候相关影响可能是实际的或潜在的，可能是正面的或负面的。 气候相关影响可以具体化为对社会因素、经济趋势、技术因素、政策法律等维度产生影响，进而对利益相关方产生影响。 二、气候相关影响重要性评估流程 披露主体可以通过以下四个步骤评估其气候相关表现对经济、环境和社会的影响以及评估气候相关影响重要性。 步骤一：了解与气候相关的公司活动和业务关系背景 公司可以首先了解与气候相关的内部活动和业务关系、外部客观环境以及主要受影响利益相关方，以全面了解相关背景。 表1：了解与气候相关的公司活动及业务关系考虑因素 步骤二：分析气候相关影响的方式 披露主体可以从气候相关的公司活动和业务关系背景中，识别对经济、环境和社会产生的影响，进而分析对利益相关方产生的影响。 影响方式的分析要素包括：",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "财务重要性评估",
-   "blocks": [
+      "id": "source-7",
+      "title": "影响重要性评估",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-18",
+          "title": "影响重要性评估",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第一章气候相关影响重要性评估\n\n本指南的重要性评估流程旨在为披露主体提供工作参考，进一步帮助披露主体理解气候相关影响、风险和机遇。\n\n一、气候相关影响\n\n披露主体在应对气候变化议题方面的表现可能对经济、社会和环境产生影响（气候相关影响）。气候相关影响可能来自公司的商业模式、业务运营、发展战略、融资方式以及价值链等活动。气候相关影响可能是实际的或潜在的，可能是正面的或负面的。\n\n气候相关影响可以具体化为对社会因素、经济趋势、技术因素、政策法律等维度产生影响，进而对利益相关方产生影响。\n\n二、气候相关影响重要性评估流程\n\n披露主体可以通过以下四个步骤评估其气候相关表现对经济、环境和社会的影响以及评估气候相关影响重要性。\n\n步骤一：了解与气候相关的公司活动和业务关系背景\n\n公司可以首先了解与气候相关的内部活动和业务关系、外部客观环境以及主要受影响利益相关方，以全面了解相关背景。\n\n表1：了解与气候相关的公司活动及业务关系考虑因素\n\n步骤二：分析气候相关影响的方式\n\n披露主体可以从气候相关的公司活动和业务关系背景中，识别对经济、环境和社会产生的影响，进而分析对利益相关方产生的影响。\n\n影响方式的分析要素包括：业务活动，包括商业模式、业务运营、发展战略、融资方式及价值链等；气候相关表现；对经济、环境和社会的影响；对利益相关方的影响等。\n\n在分析对经济、环境和社会的影响时，披露主体可以通过引入社会因素、经济趋势、技术因素、政策法规、自然生态等具体要素框架，进一步分析和细化对利益相关方的影响。\n\n披露主体需要广泛收集开展上述分析所需的内部数据和外部信息，更多类型的数据有助于全面分析气候相关表现，进而分析对经济、环境和社会的影响。\n\n步骤三：气候相关影响的评估与确认\n\n披露主体应当结合自身所处行业和经营业务的特点等情况，识别公司在应对气候变化议题方面的表现是否对经济、环境和社会产生重大影响。\n\n评估影响重要性的方法包括定量分析和定性分析，需要公司与利益相关方沟通或咨询相关专家。影响重要性评估的关键环节包括：分析影响重要性评估因素、利益相关方与专家的参与、设置判定影响重要性的阈值等（具体影响重要性评估要点详见《第一号总体要求与披露框架》指南）。\n\n步骤四：气候相关影响的报告\n\n在完成气候相关影响重要性评估后，披露主体应基于整体可持续发展相关议题的重要性评估情况，报告该评估流程及其结果（具体要点详见《第一号总体要求与披露框架》指南）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第一章气候相关影响重要性评估\n\n本指南的重要性评估流程旨在为披露主体提供工作参考，进一步帮助披露主体理解气候相关影响、风险和机遇。\n\n一、气候相关影响\n\n披露主体在应对气候变化议题方面的表现可能对经济、社会和环境产生影响（气候相关影响）。气候相关影响可能来自公司的商业模式、业务运营、发展战略、融资方式以及价值链等活动。气候相关影响可能是实际的或潜在的，可能是正面的或负面的。\n\n气候相关影响可以具体化为对社会因素、经济趋势、技术因素、政策法律等维度产生影响，进而对利益相关方产生影响。\n\n二、气候相关影响重要性评估流程\n\n披露主体可以通过以下四个步骤评估其气候相关表现对经济、环境和社会的影响以及评估气候相关影响重要性。\n\n步骤一：了解与气候相关的公司活动和业务关系背景\n\n公司可以首先了解与气候相关的内部活动和业务关系、外部客观环境以及主要受影响利益相关方，以全面了解相关背景。\n\n表1：了解与气候相关的公司活动及业务关系考虑因素\n\n步骤二：分析气候相关影响的方式\n\n披露主体可以从气候相关的公司活动和业务关系背景中，识别对经济、环境和社会产生的影响，进而分析对利益相关方产生的影响。\n\n影响方式的分析要素包括：业务活动，包括商业模式、业务运营、发展战略、融资方式及价值链等；气候相关表现；对经济、环境和社会的影响；对利益相关方的影响等。\n\n在分析对经济、环境和社会的影响时，披露主体可以通过引入社会因素、经济趋势、技术因素、政策法规、自然生态等具体要素框架，进一步分析和细化对利益相关方的影响。\n\n披露主体需要广泛收集开展上述分析所需的内部数据和外部信息，更多类型的数据有助于全面分析气候相关表现，进而分析对经济、环境和社会的影响。\n\n步骤三：气候相关影响的评估与确认\n\n披露主体应当结合自身所处行业和经营业务的特点等情况，识别公司在应对气候变化议题方面的表现是否对经济、环境和社会产生重大影响。\n\n评估影响重要性的方法包括定量分析和定性分析，需要公司与利益相关方沟通或咨询相关专家。影响重要性评估的关键环节包括：分析影响重要性评估因素、利益相关方与专家的参与、设置判定影响重要性的阈值等（具体影响重要性评估要点详见《第一号总体要求与披露框架》指南）。\n\n步骤四：气候相关影响的报告\n\n在完成气候相关影响重要性评估后，披露主体应基于整体可持续发展相关议题的重要性评估情况，报告该评估流程及其结果（具体要点详见《第一号总体要求与披露框架》指南）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第二章气候相关财务重要性评估 一、气候相关风险和机遇 气候变化可能对披露主体的商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式及成本等产生负面或正面影响。气候变化对披露主体产生的潜在负面影响，包括与气候相关的物理风险和与气候相关的转型风险。 （一）气候相关物理风险 与气候相关的物理风险是指由气候变化导致的物理环境改变给经济社会系统带来的风险，主要包括财产损失风险。与气候相关的物理风险可以分为急性物理风险和慢性物理风险。急性物理风险产生于与天气有关的事件，如风暴、洪水、干旱或热浪。慢性物理风险来自长期的气候变化，包括降水和温度的变化，以及可能引发的海平面上升、水供应减少、生物多样性丧失和土壤生产力变化。 气候相关物理风险可能给披露主体带来财务影响，如资产的直接损失和供应链中断的间接影响。披露主体的财务业绩也可能受到水资源可用量和水体质量变化，极端温度变化对披露主体经营场所、业务、供应链、运输需求和员工安全的影响。 （二）气候相关转型风险 与气候相关的转型风险是指披露主体向低碳经济转型所面临的风险，包括政策、法律、技术、市场和声誉等方面的风险。 低碳经济转型过程可",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "气候适应性与情景分析",
-   "blocks": [
+      "id": "source-8",
+      "title": "财务重要性评估",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-41",
+          "title": "财务重要性评估",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第二章气候相关财务重要性评估\n\n一、气候相关风险和机遇\n\n气候变化可能对披露主体的商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式及成本等产生负面或正面影响。气候变化对披露主体产生的潜在负面影响，包括与气候相关的物理风险和与气候相关的转型风险。\n\n（一）气候相关物理风险\n\n与气候相关的物理风险是指由气候变化导致的物理环境改变给经济社会系统带来的风险，主要包括财产损失风险。与气候相关的物理风险可以分为急性物理风险和慢性物理风险。急性物理风险产生于与天气有关的事件，如风暴、洪水、干旱或热浪。慢性物理风险来自长期的气候变化，包括降水和温度的变化，以及可能引发的海平面上升、水供应减少、生物多样性丧失和土壤生产力变化。\n\n气候相关物理风险可能给披露主体带来财务影响，如资产的直接损失和供应链中断的间接影响。披露主体的财务业绩也可能受到水资源可用量和水体质量变化，极端温度变化对披露主体经营场所、业务、供应链、运输需求和员工安全的影响。\n\n（二）气候相关转型风险\n\n与气候相关的转型风险是指披露主体向低碳经济转型所面临的风险，包括政策、法律、技术、市场和声誉等方面的风险。\n\n低碳经济转型过程可能涉及广泛的政策、法律、技术和市场变化，如碳排放成本的提高、设备能耗要求变化、消费者偏好的变化等。根据这些变化的性质、速度和重点，转型风险可能使披露主体承担不同程度的财务、市场和声誉风险等。\n\n（三）气候相关机遇\n\n气候相关机遇是指气候变化对披露主体产生的潜在积极影响，或公司因参与缓解和适应气候变化带来的机遇。例如，通过提高资源效率和节约成本、采用低排放能源、开发新产品和服务、进入新市场，以及建立供应链的韧性，将能够为披露主体创造更多机遇。\n\n气候相关机遇将因披露主体经营的地区、市场和行业而异。典型的气候相关机遇可涉及资源效率、能源来源、产品和服务、市场等方面。\n\n二、气候相关风险和机遇对披露主体经营活动的影响\n\n（一）对披露主体商业模式和价值链的影响\n\n极端天气事件、自然灾害等气候变化带来的影响可能加剧披露主体的经营风险，例如供应链中断、资产损失、生产中断等。面对气候变化相关不确定性时，披露主体可能调整其商业模式和战略。\n\n此外，气候相关风险和机遇亦可能影响披露主体价值链活动。相关价值链活动包括披露主体将产品和服务从概念转化到交付、消费和报废直接或间接所使用和依赖的活动、资源和关系，如披露主体经营中的活动、资源和关系，例如供应链、营销和分销渠道（材料和服务采购以及产品和服务的销售和交付）的活动、资源和人力资源关系以及披露主体所处的融资、地理和监管环境。\n\n披露主体无需每个报告年度重新评估其整个价值链的气候相关风险和机遇，可以结合披露主体应对气候变化实际情况，定期或不定期评估价值链气候相关风险和机遇。在发生重大事件或情况发生重大变化时，披露主体需考虑重新评估。\n\n表2：公司重新评估价值链气候相关风险和机遇的情形\n\n（二）对披露主体战略和决策的影响\n\n面对气候相关的风险和机遇，披露主体可能需要调整相关战略、财务规划、资源配置等策略。为应对气候相关风险和机遇，披露主体战略和决策发生的变化包括：管理或停止碳、能源或用水密集业务的计划；因需求或供应链变化导致的资源配置；通过资本支出或额外研发支出进行业务发展产生的资源配置；以及业务收购或剥离等。\n\n直接的应对气候相关风险的战略和决策举措，包括改变生产工艺或设备、搬迁设施、调整劳动力和改变产品规格等。间接的应对气候相关风险的战略和决策举措，包括与客户、供应链合作等。\n\n三、气候相关风险和机遇的财务影响\n\n气候相关风险和机遇对披露主体的财务影响，是披露主体面临的气候相关物理风险和机遇引发的，也与披露主体管理这些风险和机遇的战略和决策有关。气候相关风险和机遇可能会影响披露主体财务状况、经营成果和现金流，包括当期和（或）以往年度已发生的实际财务影响和预期财务影响。\n\n气候相关风险和机遇的财务影响主要涉及的财务类别包括收入、支出（利润表）；资产和负债（资产负债表）以及现金流入和流出（现金流量表）等。\n\n表3：气候相关财务影响的主要类别\n\n气候相关财务影响包括当期（报告期间）的财务影响，以及预期（短期、中期和长期）的财务影响。\n\n表4：气候相关风险和财务影响的示例\n\n表5：气候相关机遇和财务影响的示例\n\n四、气候相关财务影响的评估流程\n\n在分析气候相关财务影响之前，披露主体应该了解并遵守与其相关的可持续和气候标准、法规和监管政策，披露主体可以通过以下四个步骤分析气候相关财务影响：\n\n步骤一：了解与气候相关的公司活动和业务关系背景\n\n此步骤详见本指南影响重要性评估部分步骤一。\n\n步骤二：分析气候相关财务影响的方式\n\n披露主体可以针对识别的重大气候相关风险和机遇，分析对披露主体经营活动的影响以及产生的财务影响。\n\n分析要素包括：气候相关风险/机遇；气候相关风险/机遇产生的直接和间接结果；对业务活动的影响，如商业模式、业务运营、发展战略、融资方式等；以及财务影响等。\n\n步骤三：气候相关财务影响的评估与确认\n\n披露主体应当结合自身所处行业和经营业务的特点等情况，识别与气候相关的经济、环境和社会因素对披露主体的商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式等产生的影响。\n\n气候相关财务重要性评估要结合风险和机遇发生的可能性和财务影响的程度判断。气候相关财务重要性的评估流程包括：分析财务重要性评估因素、利益相关方与专家参与、设置判定财务重要性的阈值、形成财务重要性评估结论。就气候议题财务重要性评估结果与设置的重要性阈值进行比较，确定该议题是否具有财务重要性（具体财务重要性评估要点详见《第一号总体要求与披露框架》指南）。\n\n此外，披露主体在评估气候相关财务影响时，可以与投资者、债权人等利益相关方保持沟通（具体详见《第一号总体要求与披露框架》指南）。\n\n步骤四：气候相关影响的报告\n\n在完成气候相关财务重要性评估后，公司应当披露议题重要性的分析过程及其结果（具体要点详见《第一号总体要求与披露框架》指南）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第二章气候相关财务重要性评估\n\n一、气候相关风险和机遇\n\n气候变化可能对披露主体的商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式及成本等产生负面或正面影响。气候变化对披露主体产生的潜在负面影响，包括与气候相关的物理风险和与气候相关的转型风险。\n\n（一）气候相关物理风险\n\n与气候相关的物理风险是指由气候变化导致的物理环境改变给经济社会系统带来的风险，主要包括财产损失风险。与气候相关的物理风险可以分为急性物理风险和慢性物理风险。急性物理风险产生于与天气有关的事件，如风暴、洪水、干旱或热浪。慢性物理风险来自长期的气候变化，包括降水和温度的变化，以及可能引发的海平面上升、水供应减少、生物多样性丧失和土壤生产力变化。\n\n气候相关物理风险可能给披露主体带来财务影响，如资产的直接损失和供应链中断的间接影响。披露主体的财务业绩也可能受到水资源可用量和水体质量变化，极端温度变化对披露主体经营场所、业务、供应链、运输需求和员工安全的影响。\n\n（二）气候相关转型风险\n\n与气候相关的转型风险是指披露主体向低碳经济转型所面临的风险，包括政策、法律、技术、市场和声誉等方面的风险。\n\n低碳经济转型过程可能涉及广泛的政策、法律、技术和市场变化，如碳排放成本的提高、设备能耗要求变化、消费者偏好的变化等。根据这些变化的性质、速度和重点，转型风险可能使披露主体承担不同程度的财务、市场和声誉风险等。\n\n（三）气候相关机遇\n\n气候相关机遇是指气候变化对披露主体产生的潜在积极影响，或公司因参与缓解和适应气候变化带来的机遇。例如，通过提高资源效率和节约成本、采用低排放能源、开发新产品和服务、进入新市场，以及建立供应链的韧性，将能够为披露主体创造更多机遇。\n\n气候相关机遇将因披露主体经营的地区、市场和行业而异。典型的气候相关机遇可涉及资源效率、能源来源、产品和服务、市场等方面。\n\n二、气候相关风险和机遇对披露主体经营活动的影响\n\n（一）对披露主体商业模式和价值链的影响\n\n极端天气事件、自然灾害等气候变化带来的影响可能加剧披露主体的经营风险，例如供应链中断、资产损失、生产中断等。面对气候变化相关不确定性时，披露主体可能调整其商业模式和战略。\n\n此外，气候相关风险和机遇亦可能影响披露主体价值链活动。相关价值链活动包括披露主体将产品和服务从概念转化到交付、消费和报废直接或间接所使用和依赖的活动、资源和关系，如披露主体经营中的活动、资源和关系，例如供应链、营销和分销渠道（材料和服务采购以及产品和服务的销售和交付）的活动、资源和人力资源关系以及披露主体所处的融资、地理和监管环境。\n\n披露主体无需每个报告年度重新评估其整个价值链的气候相关风险和机遇，可以结合披露主体应对气候变化实际情况，定期或不定期评估价值链气候相关风险和机遇。在发生重大事件或情况发生重大变化时，披露主体需考虑重新评估。\n\n表2：公司重新评估价值链气候相关风险和机遇的情形\n\n（二）对披露主体战略和决策的影响\n\n面对气候相关的风险和机遇，披露主体可能需要调整相关战略、财务规划、资源配置等策略。为应对气候相关风险和机遇，披露主体战略和决策发生的变化包括：管理或停止碳、能源或用水密集业务的计划；因需求或供应链变化导致的资源配置；通过资本支出或额外研发支出进行业务发展产生的资源配置；以及业务收购或剥离等。\n\n直接的应对气候相关风险的战略和决策举措，包括改变生产工艺或设备、搬迁设施、调整劳动力和改变产品规格等。间接的应对气候相关风险的战略和决策举措，包括与客户、供应链合作等。\n\n三、气候相关风险和机遇的财务影响\n\n气候相关风险和机遇对披露主体的财务影响，是披露主体面临的气候相关物理风险和机遇引发的，也与披露主体管理这些风险和机遇的战略和决策有关。气候相关风险和机遇可能会影响披露主体财务状况、经营成果和现金流，包括当期和（或）以往年度已发生的实际财务影响和预期财务影响。\n\n气候相关风险和机遇的财务影响主要涉及的财务类别包括收入、支出（利润表）；资产和负债（资产负债表）以及现金流入和流出（现金流量表）等。\n\n表3：气候相关财务影响的主要类别\n\n气候相关财务影响包括当期（报告期间）的财务影响，以及预期（短期、中期和长期）的财务影响。\n\n表4：气候相关风险和财务影响的示例\n\n表5：气候相关机遇和财务影响的示例\n\n四、气候相关财务影响的评估流程\n\n在分析气候相关财务影响之前，披露主体应该了解并遵守与其相关的可持续和气候标准、法规和监管政策，披露主体可以通过以下四个步骤分析气候相关财务影响：\n\n步骤一：了解与气候相关的公司活动和业务关系背景\n\n此步骤详见本指南影响重要性评估部分步骤一。\n\n步骤二：分析气候相关财务影响的方式\n\n披露主体可以针对识别的重大气候相关风险和机遇，分析对披露主体经营活动的影响以及产生的财务影响。\n\n分析要素包括：气候相关风险/机遇；气候相关风险/机遇产生的直接和间接结果；对业务活动的影响，如商业模式、业务运营、发展战略、融资方式等；以及财务影响等。\n\n步骤三：气候相关财务影响的评估与确认\n\n披露主体应当结合自身所处行业和经营业务的特点等情况，识别与气候相关的经济、环境和社会因素对披露主体的商业模式、业务运营、发展战略、财务状况、经营成果、现金流、融资方式等产生的影响。\n\n气候相关财务重要性评估要结合风险和机遇发生的可能性和财务影响的程度判断。气候相关财务重要性的评估流程包括：分析财务重要性评估因素、利益相关方与专家参与、设置判定财务重要性的阈值、形成财务重要性评估结论。就气候议题财务重要性评估结果与设置的重要性阈值进行比较，确定该议题是否具有财务重要性（具体财务重要性评估要点详见《第一号总体要求与披露框架》指南）。\n\n此外，披露主体在评估气候相关财务影响时，可以与投资者、债权人等利益相关方保持沟通（具体详见《第一号总体要求与披露框架》指南）。\n\n步骤四：气候相关影响的报告\n\n在完成气候相关财务重要性评估后，公司应当披露议题重要性的分析过程及其结果（具体要点详见《第一号总体要求与披露框架》指南）。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第三章气候适应性和气候相关情景分析 一、气候适应性 气候适应性是指披露主体管理与气候有关的风险和从与气候有关的机遇中获益的能力，包括其战略适应性和应对气候相关变化或不确定性的业务适应性。情景分析是指在不确定的条件下，确定和评估未来事件的潜在影响范围的方法，是评估气候适应性的常见工具。就气候变化而言，披露主体可以使用气候相关情景分析，评估气候变化的物理风险和转型风险未来可能如何影响其业务、战略和财务状况。 二、气候相关情景分析 在识别、分析和管理气候相关风险和机遇时，披露主体可以利用与气候相关的情景，了解气候变化的物理风险及转型风险与机遇，如何随着时间的推移对其业务产生合理影响。 整体而言，气候相关情景分析通过模拟的方式，展示了在不同的经济发展、能源使用条件下世界可能演变的方式，以及相应的气候变化后果。 使用气候相关情景分析，可以帮助披露主体建立和评估气候变化对业务、战略和财务产生影响的潜在范围，以及可能需要在战略和财务规划中考虑的行动。 将气候相关情景与公司战略相结合进行分析，可以探究公司发展策略和方向，能承受的风险程度，辅助公司识别潜在风险和机遇点，提前做好应对准备。 在缺乏",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "温室气体排放核算",
-   "blocks": [
+      "id": "source-9",
+      "title": "气候适应性与情景分析",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-90",
+          "title": "气候适应性与情景分析",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第三章气候适应性和气候相关情景分析\n\n一、气候适应性\n\n气候适应性是指披露主体管理与气候有关的风险和从与气候有关的机遇中获益的能力，包括其战略适应性和应对气候相关变化或不确定性的业务适应性。情景分析是指在不确定的条件下，确定和评估未来事件的潜在影响范围的方法，是评估气候适应性的常见工具。就气候变化而言，披露主体可以使用气候相关情景分析，评估气候变化的物理风险和转型风险未来可能如何影响其业务、战略和财务状况。\n\n二、气候相关情景分析\n\n在识别、分析和管理气候相关风险和机遇时，披露主体可以利用与气候相关的情景，了解气候变化的物理风险及转型风险与机遇，如何随着时间的推移对其业务产生合理影响。\n\n整体而言，气候相关情景分析通过模拟的方式，展示了在不同的经济发展、能源使用条件下世界可能演变的方式，以及相应的气候变化后果。\n\n使用气候相关情景分析，可以帮助披露主体建立和评估气候变化对业务、战略和财务产生影响的潜在范围，以及可能需要在战略和财务规划中考虑的行动。\n\n将气候相关情景与公司战略相结合进行分析，可以探究公司发展策略和方向，能承受的风险程度，辅助公司识别潜在风险和机遇点，提前做好应对准备。\n\n在缺乏具体可用的关系和趋势数据时，气候相关情景分析可以是定性分析，即依赖于描述性的非数值型信息。气候相关情景分析也可以是定量分析，利用数字数据、模型和其他分析技术，评估可衡量的趋势和关系。\n\n三、气候相关情景分析的一般流程\n\n披露主体可以通过以下五个步骤进行气候相关情景分析：\n\n步骤一：确定开展气候相关情景分析的范围\n\n披露主体在进行情景分析时，可先考虑确定开展气候相关情景分析的范围。随着公司经验积累，可考虑逐步扩大情景分析所覆盖的业务及风险范围等。\n\n表6：气候相关情景分析范围的维度参考\n\n步骤二：选择气候相关情景\n\n目前市场中已有多种公开气候情景来源可供选择。在选择情景来源时，披露主体需要先了解情景来源的特征、背后的假设、内置参数与公司的适配性等，根据所在行业、待评估风险类型、地理覆盖范围以及时间范围等实际情况，选择最适合的情景来源。\n\n表7：选择情景来源时的主要考虑因素\n\n典型的气候相关情景是基于目标温度变化以及一系列能源、政策和技术等假设。因此，在确定情景来源后需要选择情景分析所基于的温升幅度。公司可以选择高对比性的情景，例如温升1.5摄氏度的情景，以及温升3摄氏度或以上的情景，以展示更多不同路径及结果、分析不同状况下气候相关风险和机遇的潜在影响。例如，温升1.5摄氏度的情景符合《巴黎协定》约定，即于本世纪末将全球平均气温上升幅度限制在1.5摄氏度以内的目标。\n\n步骤三：确定用于情景分析的变量\n\n披露主体需要了解所在行业性质以及气候相关的相关风险和机遇，以便优先考虑对其情景分析影响最大的变量。不同的公司，即使是同一类风险，对其影响最大的变量也可能会有所不同。\n\n例如，建筑企业、数据中心运营商可能均将平均气温上升视为重大气候相关风险，但其用于评估该风险影响的变量可能有所不同。建筑企业因为气温上升预计会导致户外工作时长下降，从而产生财务影响，可能选择与员工生产率相关的变量；数据中心运营商因为气温上升导致冷气使用量增加，从而增加营运成本，可能将电价作为相关变量。\n\n表8：常见气候相关风险的变量\n\n步骤四：确定情景分析方法\n\n常见的情景分析方法包括定性分析法与定量分析法。披露主体在确定情景分析方法时结合面临的气候相关风险和机遇，应使用与自身能力或资源相称的方法，兼顾成本的可负担性。如果披露主体目前不具备进行气候情景定量分析的技能、能力或资源，但又面临较高的气候相关风险，则最初可以使用定性情景叙述等简单的方法，通过积累经验具备相关能力后，逐渐采用更先进的定量方法进行气候情景分析；如果披露主体面临较高的气候相关风险和机遇且具备必要的技能、能力和资源，可考虑使用定量分析方法。\n\n定性分析法可使用风险等级代表，例如，电价上涨对于能源开支的影响为“较高”，极端天气事件对资产价值的影响为“较低”等。定量分析法则可分析气候相关物理风险、转型风险影响的资产金额区间或占比等，例如，2030年如果用电量维持不变、电价的预期变动预计影响公司电力成本的2%-5%，2060年极寒、干旱等极端天气事件预计影响公司的水力发电业务收入的10%。\n\n步骤五：开展气候相关情景分析\n\n披露主体可以根据上述步骤确定的情景来源、分析方法等进行情景分析。\n\n计划开展情景分析的披露主体无需每年更新气候情景模型，可以按照战略规划周期（如每三到五年）进行气候相关情景分析。计划开展情景分析的，披露主体至少应根据战略规划周期更新气候相关情景分析，并且当业务模式出现重大变动（资产收购、业务转型等）、之前的估计与目前情况不符或出现之前假设无效等情形，披露主体需要再次开展分析，以评估公司在发生变动后受气候风险影响的程度。如果披露主体并未每年进行情景分析，则披露主体对气候相关情景分析的披露可以与上一个报告期间保持不变。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第三章气候适应性和气候相关情景分析\n\n一、气候适应性\n\n气候适应性是指披露主体管理与气候有关的风险和从与气候有关的机遇中获益的能力，包括其战略适应性和应对气候相关变化或不确定性的业务适应性。情景分析是指在不确定的条件下，确定和评估未来事件的潜在影响范围的方法，是评估气候适应性的常见工具。就气候变化而言，披露主体可以使用气候相关情景分析，评估气候变化的物理风险和转型风险未来可能如何影响其业务、战略和财务状况。\n\n二、气候相关情景分析\n\n在识别、分析和管理气候相关风险和机遇时，披露主体可以利用与气候相关的情景，了解气候变化的物理风险及转型风险与机遇，如何随着时间的推移对其业务产生合理影响。\n\n整体而言，气候相关情景分析通过模拟的方式，展示了在不同的经济发展、能源使用条件下世界可能演变的方式，以及相应的气候变化后果。\n\n使用气候相关情景分析，可以帮助披露主体建立和评估气候变化对业务、战略和财务产生影响的潜在范围，以及可能需要在战略和财务规划中考虑的行动。\n\n将气候相关情景与公司战略相结合进行分析，可以探究公司发展策略和方向，能承受的风险程度，辅助公司识别潜在风险和机遇点，提前做好应对准备。\n\n在缺乏具体可用的关系和趋势数据时，气候相关情景分析可以是定性分析，即依赖于描述性的非数值型信息。气候相关情景分析也可以是定量分析，利用数字数据、模型和其他分析技术，评估可衡量的趋势和关系。\n\n三、气候相关情景分析的一般流程\n\n披露主体可以通过以下五个步骤进行气候相关情景分析：\n\n步骤一：确定开展气候相关情景分析的范围\n\n披露主体在进行情景分析时，可先考虑确定开展气候相关情景分析的范围。随着公司经验积累，可考虑逐步扩大情景分析所覆盖的业务及风险范围等。\n\n表6：气候相关情景分析范围的维度参考\n\n步骤二：选择气候相关情景\n\n目前市场中已有多种公开气候情景来源可供选择。在选择情景来源时，披露主体需要先了解情景来源的特征、背后的假设、内置参数与公司的适配性等，根据所在行业、待评估风险类型、地理覆盖范围以及时间范围等实际情况，选择最适合的情景来源。\n\n表7：选择情景来源时的主要考虑因素\n\n典型的气候相关情景是基于目标温度变化以及一系列能源、政策和技术等假设。因此，在确定情景来源后需要选择情景分析所基于的温升幅度。公司可以选择高对比性的情景，例如温升1.5摄氏度的情景，以及温升3摄氏度或以上的情景，以展示更多不同路径及结果、分析不同状况下气候相关风险和机遇的潜在影响。例如，温升1.5摄氏度的情景符合《巴黎协定》约定，即于本世纪末将全球平均气温上升幅度限制在1.5摄氏度以内的目标。\n\n步骤三：确定用于情景分析的变量\n\n披露主体需要了解所在行业性质以及气候相关的相关风险和机遇，以便优先考虑对其情景分析影响最大的变量。不同的公司，即使是同一类风险，对其影响最大的变量也可能会有所不同。\n\n例如，建筑企业、数据中心运营商可能均将平均气温上升视为重大气候相关风险，但其用于评估该风险影响的变量可能有所不同。建筑企业因为气温上升预计会导致户外工作时长下降，从而产生财务影响，可能选择与员工生产率相关的变量；数据中心运营商因为气温上升导致冷气使用量增加，从而增加营运成本，可能将电价作为相关变量。\n\n表8：常见气候相关风险的变量\n\n步骤四：确定情景分析方法\n\n常见的情景分析方法包括定性分析法与定量分析法。披露主体在确定情景分析方法时结合面临的气候相关风险和机遇，应使用与自身能力或资源相称的方法，兼顾成本的可负担性。如果披露主体目前不具备进行气候情景定量分析的技能、能力或资源，但又面临较高的气候相关风险，则最初可以使用定性情景叙述等简单的方法，通过积累经验具备相关能力后，逐渐采用更先进的定量方法进行气候情景分析；如果披露主体面临较高的气候相关风险和机遇且具备必要的技能、能力和资源，可考虑使用定量分析方法。\n\n定性分析法可使用风险等级代表，例如，电价上涨对于能源开支的影响为“较高”，极端天气事件对资产价值的影响为“较低”等。定量分析法则可分析气候相关物理风险、转型风险影响的资产金额区间或占比等，例如，2030年如果用电量维持不变、电价的预期变动预计影响公司电力成本的2%-5%，2060年极寒、干旱等极端天气事件预计影响公司的水力发电业务收入的10%。\n\n步骤五：开展气候相关情景分析\n\n披露主体可以根据上述步骤确定的情景来源、分析方法等进行情景分析。\n\n计划开展情景分析的披露主体无需每年更新气候情景模型，可以按照战略规划周期（如每三到五年）进行气候相关情景分析。计划开展情景分析的，披露主体至少应根据战略规划周期更新气候相关情景分析，并且当业务模式出现重大变动（资产收购、业务转型等）、之前的估计与目前情况不符或出现之前假设无效等情形，披露主体需要再次开展分析，以评估公司在发生变动后受气候风险影响的程度。如果披露主体并未每年进行情景分析，则披露主体对气候相关情景分析的披露可以与上一个报告期间保持不变。\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第四章核算温室气体排放量的流程和方法 一、界定组织边界 组织边界决定了披露主体所拥有或控制的温室气体排放活动。因此，披露主体在对温室气体排放量进行核算和报告前，需首先确定温室气体排放量的组织边界。常用的方法包括股权比例法和控制权法等。需要注意的是，披露主体所选用的组织边界界定方法需一致，即披露主体不应对不同的业务单位应用不同的界定方法。 在采用股权比例法下，披露主体根据其在业务中的股权比例核算温室气体排放量。使用股权比例法时，披露主体与业务之间的经济实质重于法律形式（所有权结构），披露主体核算的温室气体排放量应反映其经济利益的比例。 在控制权法下，披露主体需要核算其所控制业务范围内的全部温室气体排放量。其中，披露主体不核算享有权益但不具有控制权的业务所产生的温室气体排放量。当采用控制权法时，披露主体应选择运营控制权法或财务控制权法。 表9：组织边界的定义方法 二、界定运营边界 披露主体在确定组织边界后，需要设定其运营边界，即识别与其运营相关的排放。与运营相关的排放可分为直接温室气体排放与间接温室气体排放。其中，直接温室气体排放是指来自披露主体拥有或控制的排放源的排放；间接温室气",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "气候转型计划",
-   "blocks": [
+      "id": "source-10",
+      "title": "温室气体排放核算",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-122",
+          "title": "温室气体排放核算",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第四章核算温室气体排放量的流程和方法\n\n一、界定组织边界\n\n组织边界决定了披露主体所拥有或控制的温室气体排放活动。因此，披露主体在对温室气体排放量进行核算和报告前，需首先确定温室气体排放量的组织边界。常用的方法包括股权比例法和控制权法等。需要注意的是，披露主体所选用的组织边界界定方法需一致，即披露主体不应对不同的业务单位应用不同的界定方法。\n\n在采用股权比例法下，披露主体根据其在业务中的股权比例核算温室气体排放量。使用股权比例法时，披露主体与业务之间的经济实质重于法律形式（所有权结构），披露主体核算的温室气体排放量应反映其经济利益的比例。\n\n在控制权法下，披露主体需要核算其所控制业务范围内的全部温室气体排放量。其中，披露主体不核算享有权益但不具有控制权的业务所产生的温室气体排放量。当采用控制权法时，披露主体应选择运营控制权法或财务控制权法。\n\n表9：组织边界的定义方法\n\n二、界定运营边界\n\n披露主体在确定组织边界后，需要设定其运营边界，即识别与其运营相关的排放。与运营相关的排放可分为直接温室气体排放与间接温室气体排放。其中，直接温室气体排放是指来自披露主体拥有或控制的排放源的排放；间接温室气体排放是指由披露主体活动导致的、但发生在其他披露主体拥有或控制的排放源的排放。\n\n温室气体排放还可分类为范围一、范围二和范围三排放。\n\n表10：温室气体排放范围\n\n三、界定时间范围\n\n温室气体排放核算与报告的时间范围，应与可持续发展报告的报告期间保持一致。\n\n四、识别温室气体排放源\n\n披露主体在确定排放组织和运营边界后，根据自身运营生产流程及相关生产设备开始识别边界内相关排放源。\n\n表11：温室气体排放源\n\n五、计算温室气体排放量\n\n（一）范围一排放计算方法\n\n范围一温室气体排放量一般采用排放因子法或者物料平衡法进行核算。排放因子是每一单位排放源活动水平（如每吨煤）所对应的温室气体排放量。具体核算方法可以参考国家主管部门发布的相关行业温室气体排放核算与报告指南，以及相关的国家标准等；排放因子可以参考国家主管部门发布的有关温室气体排放因子数据库。\n\n在核算并披露报告期内的温室气体排放总量时，披露主体应当将不同温室气体排放量换算成二氧化碳当量公吨数。不同温室气体的特性不同、对全球增温的影响不同，全球变暖潜势值（GWP）是最常用于将其他温室气体排放量换算成二氧化碳当量的指标，代表在给定时间内，不同温室气体相对于二氧化碳对全球变暖的贡献程度。GWP值由政府间气候变化专门委员会（IPCC）定义并定期更新，如根据IPCC第六次评估报告，甲烷的100年时间范围全球变暖潜势值为28，即表明排放1吨甲烷对气候变化的影响相当于28吨二氧化碳。\n\n表12：范围一排放计算方法示例\n\n（二）范围二排放计算方法\n\n一般而言，公司涉及的范围二排放源以外购电力和外购热力为主，主要采用排放因子法计算。\n\n1.公司购入的电力消费所对应的电力生产环节二氧化碳排放量计算公式为：\n\nE外购电——外购电力所对应的电力生产环节二氧化碳排放量，单位为吨二氧化碳（tCO2）；\n\nAD电——核算和报告年度内的外购电量，单位为兆瓦时（MW·h）；\n\nEF电——电网排放因子，单位为吨二氧化碳/兆瓦时（tCO2/MW·h）。\n\n对于电网排放因子的选择，可以参考使用生态环境部不定期更新发布的全国、区域和省级电力平均二氧化碳排放因子。\n\n2.公司购入的热力消费所对应的热力生产环节二氧化碳排放量计算公式为：\n\nE外购热——外购热力所对应的热力生产环节二氧化碳排放量，单位为吨二氧化碳（tCO2）；\n\nAD热——核算和报告年度内的外购热力，单位为吉焦（GJ）；\n\nEF热——热力消费的排放因子，单位为吨二氧化碳/吉焦（tCO2/GJ）。\n\n若外购热力可溯源，具备实测条件，可采用供热单位提供的二氧化碳排放因子；若条件不具备，热力供应的二氧化碳排放因子可采用推荐值0.11吨CO2/ GJ，同时根据主管部门最新发布的数据及时更新。\n\n（三）范围三排放计算方法\n\n范围三排放可分为上游排放和下游排放，共包括15个类别。上游排放是指与购买或收购的商品和服务相关的间接温室气体排放，下游排放是指与售出商品和服务相关的间接温室气体排放。\n\n有条件的披露主体可以就温室气体范围三排放量进行核算，明确纳入其核算的具体排放类别。如果核算全部类别的范围三排放难度较大，公司可以根据自身实际情况先行核算部分重要类别，后逐步扩大核算范围。例如，部分公司可能并无任何租赁资产，因此类别8“上游租赁的资产”以及类别13“下游租赁的资产”均不适用；如预计范围三排放中的部分类别在规模上与其他排放源相比显著较小，或由于数据缺乏、收集数据能力有限以及其他限制因素，可以暂不核算。\n\n表13：范围三温室气体排放类别\n\n表14：确定纳入范围三排放核算的考虑因素\n\n公司计算范围三温室气体排放量时，一般使用活动数据和排放因子两种类型的数据，进而通过以下公式计算：\n\n二氧化碳当量（CO2e）= A × EF × GWP\n\nA——活动数据\n\nEF——排放因子\n\nGWP——全球变暖潜势值\n\n其中，活动数据是对产生温室气体排放的活动水平的量化测量；排放因子是指将活动数据转化为温室气体排放数据的因子；全球变暖潜势值主要用于将其他温室气体统一换算成二氧化碳当量(CO2e)。\n\n表15：活动数据和排放因子示例\n\n活动数据可以来自一手数据或二手数据，在其他条件相同的情况下应优先使用一手数据。其中，一手数据主要由价值链上的供应商或其他合作方直接提供；二手数据包括行业平均数据（如已公开的数据库、政府统计、文献研究和行业协会数据）、财务数据、替代数据和其他通用数据。若本报告期内所获得的价值链活动数据存在时间跨期（上一报告期）或时间区间不一致（仅涵盖本报告期部分时间或上一报告期部分月份和本报告期部分月份）的情况，则允许在注明所获活动数据时间区间的基础上进行核算和披露。随着活动数据可得性和及时性的提升，披露主体需尽可能使用最新的一手数据。\n\n表16：范围三类别一手数据和二手数据的示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第四章核算温室气体排放量的流程和方法\n\n一、界定组织边界\n\n组织边界决定了披露主体所拥有或控制的温室气体排放活动。因此，披露主体在对温室气体排放量进行核算和报告前，需首先确定温室气体排放量的组织边界。常用的方法包括股权比例法和控制权法等。需要注意的是，披露主体所选用的组织边界界定方法需一致，即披露主体不应对不同的业务单位应用不同的界定方法。\n\n在采用股权比例法下，披露主体根据其在业务中的股权比例核算温室气体排放量。使用股权比例法时，披露主体与业务之间的经济实质重于法律形式（所有权结构），披露主体核算的温室气体排放量应反映其经济利益的比例。\n\n在控制权法下，披露主体需要核算其所控制业务范围内的全部温室气体排放量。其中，披露主体不核算享有权益但不具有控制权的业务所产生的温室气体排放量。当采用控制权法时，披露主体应选择运营控制权法或财务控制权法。\n\n表9：组织边界的定义方法\n\n二、界定运营边界\n\n披露主体在确定组织边界后，需要设定其运营边界，即识别与其运营相关的排放。与运营相关的排放可分为直接温室气体排放与间接温室气体排放。其中，直接温室气体排放是指来自披露主体拥有或控制的排放源的排放；间接温室气体排放是指由披露主体活动导致的、但发生在其他披露主体拥有或控制的排放源的排放。\n\n温室气体排放还可分类为范围一、范围二和范围三排放。\n\n表10：温室气体排放范围\n\n三、界定时间范围\n\n温室气体排放核算与报告的时间范围，应与可持续发展报告的报告期间保持一致。\n\n四、识别温室气体排放源\n\n披露主体在确定排放组织和运营边界后，根据自身运营生产流程及相关生产设备开始识别边界内相关排放源。\n\n表11：温室气体排放源\n\n五、计算温室气体排放量\n\n（一）范围一排放计算方法\n\n范围一温室气体排放量一般采用排放因子法或者物料平衡法进行核算。排放因子是每一单位排放源活动水平（如每吨煤）所对应的温室气体排放量。具体核算方法可以参考国家主管部门发布的相关行业温室气体排放核算与报告指南，以及相关的国家标准等；排放因子可以参考国家主管部门发布的有关温室气体排放因子数据库。\n\n在核算并披露报告期内的温室气体排放总量时，披露主体应当将不同温室气体排放量换算成二氧化碳当量公吨数。不同温室气体的特性不同、对全球增温的影响不同，全球变暖潜势值（GWP）是最常用于将其他温室气体排放量换算成二氧化碳当量的指标，代表在给定时间内，不同温室气体相对于二氧化碳对全球变暖的贡献程度。GWP值由政府间气候变化专门委员会（IPCC）定义并定期更新，如根据IPCC第六次评估报告，甲烷的100年时间范围全球变暖潜势值为28，即表明排放1吨甲烷对气候变化的影响相当于28吨二氧化碳。\n\n表12：范围一排放计算方法示例\n\n（二）范围二排放计算方法\n\n一般而言，公司涉及的范围二排放源以外购电力和外购热力为主，主要采用排放因子法计算。\n\n1.公司购入的电力消费所对应的电力生产环节二氧化碳排放量计算公式为：\n\nE外购电——外购电力所对应的电力生产环节二氧化碳排放量，单位为吨二氧化碳（tCO2）；\n\nAD电——核算和报告年度内的外购电量，单位为兆瓦时（MW·h）；\n\nEF电——电网排放因子，单位为吨二氧化碳/兆瓦时（tCO2/MW·h）。\n\n对于电网排放因子的选择，可以参考使用生态环境部不定期更新发布的全国、区域和省级电力平均二氧化碳排放因子。\n\n2.公司购入的热力消费所对应的热力生产环节二氧化碳排放量计算公式为：\n\nE外购热——外购热力所对应的热力生产环节二氧化碳排放量，单位为吨二氧化碳（tCO2）；\n\nAD热——核算和报告年度内的外购热力，单位为吉焦（GJ）；\n\nEF热——热力消费的排放因子，单位为吨二氧化碳/吉焦（tCO2/GJ）。\n\n若外购热力可溯源，具备实测条件，可采用供热单位提供的二氧化碳排放因子；若条件不具备，热力供应的二氧化碳排放因子可采用推荐值0.11吨CO2/ GJ，同时根据主管部门最新发布的数据及时更新。\n\n（三）范围三排放计算方法\n\n范围三排放可分为上游排放和下游排放，共包括15个类别。上游排放是指与购买或收购的商品和服务相关的间接温室气体排放，下游排放是指与售出商品和服务相关的间接温室气体排放。\n\n有条件的披露主体可以就温室气体范围三排放量进行核算，明确纳入其核算的具体排放类别。如果核算全部类别的范围三排放难度较大，公司可以根据自身实际情况先行核算部分重要类别，后逐步扩大核算范围。例如，部分公司可能并无任何租赁资产，因此类别8“上游租赁的资产”以及类别13“下游租赁的资产”均不适用；如预计范围三排放中的部分类别在规模上与其他排放源相比显著较小，或由于数据缺乏、收集数据能力有限以及其他限制因素，可以暂不核算。\n\n表13：范围三温室气体排放类别\n\n表14：确定纳入范围三排放核算的考虑因素\n\n公司计算范围三温室气体排放量时，一般使用活动数据和排放因子两种类型的数据，进而通过以下公式计算：\n\n二氧化碳当量（CO2e）= A × EF × GWP\n\nA——活动数据\n\nEF——排放因子\n\nGWP——全球变暖潜势值\n\n其中，活动数据是对产生温室气体排放的活动水平的量化测量；排放因子是指将活动数据转化为温室气体排放数据的因子；全球变暖潜势值主要用于将其他温室气体统一换算成二氧化碳当量(CO2e)。\n\n表15：活动数据和排放因子示例\n\n活动数据可以来自一手数据或二手数据，在其他条件相同的情况下应优先使用一手数据。其中，一手数据主要由价值链上的供应商或其他合作方直接提供；二手数据包括行业平均数据（如已公开的数据库、政府统计、文献研究和行业协会数据）、财务数据、替代数据和其他通用数据。若本报告期内所获得的价值链活动数据存在时间跨期（上一报告期）或时间区间不一致（仅涵盖本报告期部分时间或上一报告期部分月份和本报告期部分月份）的情况，则允许在注明所获活动数据时间区间的基础上进行核算和披露。随着活动数据可得性和及时性的提升，披露主体需尽可能使用最新的一手数据。\n\n表16：范围三类别一手数据和二手数据的示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第五章气候相关转型计划 与气候相关的转型计划是指披露主体向低碳经济过渡的目标、行动或资源，包括减少温室气体排放的行动等。对于部分披露主体而言，气候相关转型计划可能是整体业务战略的一部分，因为该计划会调整披露主体的业务模式以应对气候相关风险和机遇。对于其他披露主体，气候相关转型计划可能更狭义地适用于特定产品线、业务部门或一系列公司活动，并与披露主体的整体业务战略并列。 表17：有效气候相关转型计划的特征示例 披露主体制定转型计划涉及对战略的调整，如设立低碳转型相关目标和优先事项，包括减少其运营或价值链的温室气体的排放、加强气候适应能力等，并设定气候相关的短期、中期、长期阶段性目标。 气候相关转型计划涉及的行动包括政策、业务运营、产品和服务等维度。 表18：气候相关转型计划的行动示例 完整图表、公式见官方原件：发布机构原件链接",
-     "provenance": "official"
-    }
-   ]
-  },
-  {
-   "title": "气候披露要点",
-   "blocks": [
+      "id": "source-11",
+      "title": "气候转型计划",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-179",
+          "title": "气候转型计划",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第五章气候相关转型计划\n\n与气候相关的转型计划是指披露主体向低碳经济过渡的目标、行动或资源，包括减少温室气体排放的行动等。对于部分披露主体而言，气候相关转型计划可能是整体业务战略的一部分，因为该计划会调整披露主体的业务模式以应对气候相关风险和机遇。对于其他披露主体，气候相关转型计划可能更狭义地适用于特定产品线、业务部门或一系列公司活动，并与披露主体的整体业务战略并列。\n\n表17：有效气候相关转型计划的特征示例\n\n披露主体制定转型计划涉及对战略的调整，如设立低碳转型相关目标和优先事项，包括减少其运营或价值链的温室气体的排放、加强气候适应能力等，并设定气候相关的短期、中期、长期阶段性目标。\n\n气候相关转型计划涉及的行动包括政策、业务运营、产品和服务等维度。\n\n表18：气候相关转型计划的行动示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第五章气候相关转型计划\n\n与气候相关的转型计划是指披露主体向低碳经济过渡的目标、行动或资源，包括减少温室气体排放的行动等。对于部分披露主体而言，气候相关转型计划可能是整体业务战略的一部分，因为该计划会调整披露主体的业务模式以应对气候相关风险和机遇。对于其他披露主体，气候相关转型计划可能更狭义地适用于特定产品线、业务部门或一系列公司活动，并与披露主体的整体业务战略并列。\n\n表17：有效气候相关转型计划的特征示例\n\n披露主体制定转型计划涉及对战略的调整，如设立低碳转型相关目标和优先事项，包括减少其运营或价值链的温室气体的排放、加强气候适应能力等，并设定气候相关的短期、中期、长期阶段性目标。\n\n气候相关转型计划涉及的行动包括政策、业务运营、产品和服务等维度。\n\n表18：气候相关转型计划的行动示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
     {
-     "type": "text",
-     "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录 第六章披露要点 一、气候相关治理 根据《指引》规定，披露主体针对可持续发展相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露以下气候相关治理信息。 披露要点1 气候相关治理机构 1．描述负责监督管理气候相关影响、风险和机遇的治理机构（如董事会、专门委员会等）、管理层设置情况，可通过气候相关治理架构图等方式呈现（详细可参考《第一号总体要求与披露框架》指南中相关内容）。 2．描述气候相关治理机构的人员构成。 3．描述气候相关治理机构的职权范围。 4．描述气候相关治理机构的相关工作任务及目标等。 披露要点2 气候相关治理机构（人员）专业技能和能力 1．描述气候相关治理机构和人员在执行、监督气候相关影响、风险和机遇的战略、制度等方面的专业技能和能力。 2．可描述提高治理机构人员相关专业技能的措施和规划等。 披露要点3 气候相关治理机构（人员）获取信息的机制 1．描述为保障气候相关治理机构和人员及时获取气候影响、风险和机遇相关信息而建立的信息报告机制。 2．描述气候相关治理机构和人员获取气候影响、风险和机遇相关信息的报告方式",
-     "provenance": "official"
+      "id": "source-12",
+      "title": "气候披露要点",
+      "learningLayer": "guide",
+      "blocks": [
+        {
+          "type": "official_guide",
+          "guideId": "guide-climate-189",
+          "title": "气候披露要点",
+          "learningLayer": "guide",
+          "contentKind": "official_guide_original",
+          "source": "上海证券交易所《第二号 应对气候变化》原文摘录",
+          "content": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第六章披露要点\n\n一、气候相关治理\n\n根据《指引》规定，披露主体针对可持续发展相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露以下气候相关治理信息。\n\n披露要点1 气候相关治理机构\n\n1．描述负责监督管理气候相关影响、风险和机遇的治理机构（如董事会、专门委员会等）、管理层设置情况，可通过气候相关治理架构图等方式呈现（详细可参考《第一号总体要求与披露框架》指南中相关内容）。\n\n2．描述气候相关治理机构的人员构成。\n\n3．描述气候相关治理机构的职权范围。\n\n4．描述气候相关治理机构的相关工作任务及目标等。\n\n披露要点2 气候相关治理机构（人员）专业技能和能力\n\n1．描述气候相关治理机构和人员在执行、监督气候相关影响、风险和机遇的战略、制度等方面的专业技能和能力。\n\n2．可描述提高治理机构人员相关专业技能的措施和规划等。\n\n披露要点3 气候相关治理机构（人员）获取信息的机制\n\n1．描述为保障气候相关治理机构和人员及时获取气候影响、风险和机遇相关信息而建立的信息报告机制。\n\n2．描述气候相关治理机构和人员获取气候影响、风险和机遇相关信息的报告方式以及报告频率。\n\n披露要点4 气候相关治理机构（人员）监督情况\n\n1．描述气候相关治理机构和人员监督管理气候相关影响、风险和机遇的目标设定、战略执行、目标实现进展的情况，包括内部控制制度、监督程序、监督措施及考核情况等。\n\n披露要点5 气候相关治理机构将气候相关因素纳入决策的情况\n\n1．描述气候相关治理机构和人员在监督战略实施、重大交易决策、风险管理过程中，将气候相关影响、风险和机遇纳入决策考虑的措施、方法等。\n\n二、气候相关战略\n\n披露要点6 气候相关重大影响\n\n1．定性或定量描述披露主体在气候方面对经济、环境和社会产生的重大影响。\n\n2．描述为监测、预防、管理、控制、减缓气候相关重大影响所采取的措施和行动。\n\n披露要点7 气候相关风险和机遇\n\n1．描述识别出的气候相关风险和机遇。针对识别的每项气候相关风险，可说明其属于气候相关物理风险还是转型风险。\n\n2．针对识别的每项气候相关风险和机遇，明确其可合理预期产生重大影响的时间范围，即短期、中期还是长期。\n\n3．解释披露主体如何定义短期、中期和长期，以及相关定义与公司的发展战略规划和资源分配计划的匹配情况（定义时间范围的具体考量详见《第一号总体要求与披露框架》指南）。\n\n披露要点8 气候相关风险和机遇对商业模式和价值链的影响（鼓励）\n\n1．描述气候相关风险和机遇对商业模式、主要供应商和其他利益相关方的当期影响，并预测未来影响。\n\n2．描述商业模式和价值链中，气候相关风险和机遇集中的领域，如地理区域、设施、资产类型等。\n\n披露要点9 气候相关影响、风险和机遇对公司战略和决策的影响\n\n1．描述为应对气候相关影响、风险和机遇，在战略制定和重大决策过程中所采用的方法，如战略决策机制、管理办法等。\n\n2．描述为实现相关战略目标而制定的计划以及衡量计划进展的定性、定量信息（详细可参考《第一号总体要求与披露框架》指南中“设定和管理目标”相关内容，可与“气候相关转型计划”合并披露）。\n\n披露要点10 气候相关转型计划\n\n1．描述为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设。\n\n2. 描述为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况。例如，管理或者停止碳、能源或水密集型业务的计划；因需求或者供应链变化导致的资源配置；通过资本支出或者额外研发支出进行业务发展产生的资源配置；以及收购或者剥离等。\n\n3. 描述公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的措施。例如，直接措施包括改进生产工艺或设备、更新设备、搬迁设施、改变产品规格等；间接措施包括通过与客户和供应链合作等。\n\n4. 公司实施转型计划的进展情况。\n\n披露要点11 当期气候相关财务影响\n\n1．定性或定量分析气候相关风险和机遇对披露主体报告期间的财务状况、经营成果和现金流的影响（详细可参考《第一号总体要求与披露框架》指南中相关内容）。定量描述应当结合实际情况披露具体数值或者合理的区间范围。\n\n2. 相关风险和机遇是否会对公司下一年度财务状况、经营成果、现金流产生重大影响。\n\n3．若披露主体确不具备披露财务影响定量信息的能力、相关财务影响无法单独识别，或者因计量的不确定性过大导致该定量信息不具备使用价值的，披露主体应当披露相关财务影响的定性信息，解释未采用定量披露信息的原因，并在合理范围内提供有助于投资者了解相关影响的信息和说明，以及实现定量披露的工作计划、进度和时间表。\n\n披露要点12 预期气候相关财务影响（鼓励）\n\n1．气候相关风险和机遇对公司财务状况、经营成果、现金流在短期、中期和长期内的影响（详细可参考《第一号总体要求与披露框架》指南中相关内容）。\n\n2. 结合披露主体开展与气候相关的投资、资产处置、融资计划等规划，描述财务状况在短期、中期和长期内的变化趋势。\n\n3．结合披露主体管理气候相关风险和机遇的战略，描述经营成果和现金流在短期、中期和长期内的变化趋势。\n\n4．若披露主体确不具备披露财务影响定量信息的能力、相关财务影响无法单独识别，或者因计量的不确定性过大导致该定量信息不具备使用价值的，披露主体应当披露相关财务影响的定性信息，解释未采用定量披露信息的原因，并在合理范围内提供有助于投资者了解相关影响的信息和说明，以及实现定量披露的工作计划、进度和时间表。\n\n披露要点13 气候适应性评估\n\n1．描述披露主体评估的气候变化对其战略和业务模式的影响，以及应对相关影响的方法。\n\n2．描述在评估气候适应性时考虑的重大不确定性因素，如极端天气事件发生概率、强度、政策趋势等。\n\n3．描述在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。例如，披露主体现有财务资源在应对气候相关风险和把握气候相关机遇时的可获得性、灵活性；披露主体重新配置、重新利用、升级或停用现有资产的能力；披露主体当前和计划在气候相关缓解、适应措施和气候适应性机遇方面投资的影响。\n\n4．鼓励采用情景分析进行气候适应性评估，并披露情景分析使用的输入值信息与关键假设、分析过程等。例如，输入值信息可包括用于分析的气候相关情景及其来源、情景是否与气候相关转型风险或物理风险相关、分析中使用的时间范围以及业务范围等；关键假设可包括披露主体所在国家或地区的气候相关政策、宏观经济形势、国家或者区域层面的因素（例如，当地天气模式、人口统计数据、土地使用及基础设施情况和自然资源等）、能源使用和组合以及技术发展等。\n\n三、气候相关影响、风险及机遇管理\n\n披露要点14 气候相关影响、风险及机遇管理的流程\n\n1．描述评估气候相关影响、风险和机遇的方法。\n\n2． 描述如何评估气候相关影响、风险和机遇发生的可能性、大小和影响的途径。例如，披露主体是否考虑定性因素、定量阈值或者其他标准。\n\n3．描述是否以及如何考虑气候相关风险相较于其他类型风险的优先级。\n\n4．描述如何监测气候相关影响、风险和机遇的情况，如管理机制、具体流程等。\n\n5．描述气候相关影响、风险和机遇管理流程融入公司内部管理流程（如整体风险管理流程）的情况，若发生调整，则披露管理流程调整的情况。\n\n四、气候相关指标与目标\n\n披露要点15 气候相关目标\n\n1．披露主体应当描述根据相关法律法规、《指引》要求以及自身需要设定的气候相关目标。\n\n2. 对于气候相关目标的描述，可包括：具体的目标内容（定性或定量），定量目标包括绝对目标（如温室气体排放总量/净排放量）以及强度目标等；目标所适用的主体范围，如适用于整个报告主体还是仅适用于特定业务单元或区域；目标的适用期间等（详细可参考《第一号总体要求与披露框架》指南相关内容）。若气候相关目标为温室气体减排目标，可与披露要点18中的“减排目标”合并披露。\n\n披露要点16 气候相关目标实现进展\n\n1．披露主体应当描述报告期末相关目标实现情况以及报告期内的进展情况。\n\n2．对于气候相关目标实现进展情况的描述，可包括：衡量气候相关目标进展的基准期；阶段性气候相关目标和中期气候相关目标（如有）；目标实现进展（如已完成、进程中、未完成等，或定量描述报告期内目标完成度）（详细可参考《第一号总体要求与披露框架》指南相关内容）。\n\n披露要点17 温室气体排放量\n\n1．以二氧化碳当量公吨为单位，披露范围一、范围二及范围三（鼓励）温室气体排放量（核算温室气体排放量的方法详见本指南第四章）。\n\n2．按照业务单位或设施、国家或地区、来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）分类披露温室气体排放量（鼓励）。\n\n3．描述核算温室气体排放量所依据的标准、方法、假设或计算工具。若报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。\n\n4．说明核算温室气体排放量的合并方法，如股权比例法、财务控制法、运营控制法等。\n\n5. 说明第三方机构对公司温室气体排放等数据进行核查或鉴证情况（如涉及）。\n\n披露要点18 温室气体减排实践\n\n1．描述披露主体的减排目标（详细可参考《第一号总体要求与披露框架》指南中“设定和管理目标”相关内容）。\n\n2．描述具体减排措施或项目，如管理措施、资金投入、技术开发等。\n\n3．描述减排实际成效，包括按照不同温室气体排放范围分类披露减少的温室气体排放量（换算成二氧化碳当量公吨数），以及温室气体排放强度变化（如涉及）。\n\n4．披露主体可以按照不同减排措施分别披露温室气体减排量。\n\n披露要点19 碳信用额度来源和数量（如涉及）\n\n1．描述所使用的碳信用额度的来源，如国家核证自愿减排量（CCER）和各试点碳市场的碳普惠项目等。\n\n2．以二氧化碳当量公吨为单位，披露公司所使用的碳信用数量。\n\n披露要点20 碳排放配额清缴情况（如涉及）\n\n1．描述报告期内是否在碳排放权交易市场完成清缴履约。\n\n2．描述是否因碳排放权清缴问题，被有关部门要求整改、立案调查或处罚。\n\n披露要点21 全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况（如涉及）\n\n1．在全国温室气体自愿减排项目和核证自愿减排量（CCER）登记的项目情况，如项目数量、状态、类型、预计减排量等。\n\n2．披露交易的CCER项目减排量。\n\n披露要点22 参与其他减排机制的项目和减排量登记与交易情况（如涉及）\n\n1．描述参与的其他减排机制项目名称、减排机制类型，以及其他减排机制下登记的项目情况、交易的减排量数量等。\n\n2．描述其他减排机制项目情况，如项目数量、状态、类型、预计减排量等。\n\n附录\n\n温室气体排放量披露模板示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx",
+          "fallbackSourceExchange": "SSE",
+          "provenance": "official_guidance",
+          "content_cn": "上海证券交易所《第二号 应对气候变化》原文摘录\n\n第六章披露要点\n\n一、气候相关治理\n\n根据《指引》规定，披露主体针对可持续发展相关影响、风险和机遇的管理和监督已经建立整体性治理结构和内部制度的，可以对治理要素的内容进行整合披露，无需单独披露以下气候相关治理信息。\n\n披露要点1 气候相关治理机构\n\n1．描述负责监督管理气候相关影响、风险和机遇的治理机构（如董事会、专门委员会等）、管理层设置情况，可通过气候相关治理架构图等方式呈现（详细可参考《第一号总体要求与披露框架》指南中相关内容）。\n\n2．描述气候相关治理机构的人员构成。\n\n3．描述气候相关治理机构的职权范围。\n\n4．描述气候相关治理机构的相关工作任务及目标等。\n\n披露要点2 气候相关治理机构（人员）专业技能和能力\n\n1．描述气候相关治理机构和人员在执行、监督气候相关影响、风险和机遇的战略、制度等方面的专业技能和能力。\n\n2．可描述提高治理机构人员相关专业技能的措施和规划等。\n\n披露要点3 气候相关治理机构（人员）获取信息的机制\n\n1．描述为保障气候相关治理机构和人员及时获取气候影响、风险和机遇相关信息而建立的信息报告机制。\n\n2．描述气候相关治理机构和人员获取气候影响、风险和机遇相关信息的报告方式以及报告频率。\n\n披露要点4 气候相关治理机构（人员）监督情况\n\n1．描述气候相关治理机构和人员监督管理气候相关影响、风险和机遇的目标设定、战略执行、目标实现进展的情况，包括内部控制制度、监督程序、监督措施及考核情况等。\n\n披露要点5 气候相关治理机构将气候相关因素纳入决策的情况\n\n1．描述气候相关治理机构和人员在监督战略实施、重大交易决策、风险管理过程中，将气候相关影响、风险和机遇纳入决策考虑的措施、方法等。\n\n二、气候相关战略\n\n披露要点6 气候相关重大影响\n\n1．定性或定量描述披露主体在气候方面对经济、环境和社会产生的重大影响。\n\n2．描述为监测、预防、管理、控制、减缓气候相关重大影响所采取的措施和行动。\n\n披露要点7 气候相关风险和机遇\n\n1．描述识别出的气候相关风险和机遇。针对识别的每项气候相关风险，可说明其属于气候相关物理风险还是转型风险。\n\n2．针对识别的每项气候相关风险和机遇，明确其可合理预期产生重大影响的时间范围，即短期、中期还是长期。\n\n3．解释披露主体如何定义短期、中期和长期，以及相关定义与公司的发展战略规划和资源分配计划的匹配情况（定义时间范围的具体考量详见《第一号总体要求与披露框架》指南）。\n\n披露要点8 气候相关风险和机遇对商业模式和价值链的影响（鼓励）\n\n1．描述气候相关风险和机遇对商业模式、主要供应商和其他利益相关方的当期影响，并预测未来影响。\n\n2．描述商业模式和价值链中，气候相关风险和机遇集中的领域，如地理区域、设施、资产类型等。\n\n披露要点9 气候相关影响、风险和机遇对公司战略和决策的影响\n\n1．描述为应对气候相关影响、风险和机遇，在战略制定和重大决策过程中所采用的方法，如战略决策机制、管理办法等。\n\n2．描述为实现相关战略目标而制定的计划以及衡量计划进展的定性、定量信息（详细可参考《第一号总体要求与披露框架》指南中“设定和管理目标”相关内容，可与“气候相关转型计划”合并披露）。\n\n披露要点10 气候相关转型计划\n\n1．描述为应对气候相关风险和机遇所制定的转型计划，及制定该计划所依赖的基本假设。\n\n2. 描述为应对气候相关风险和机遇而对当前和未来战略、商业模式和资源分配进行调整的情况。例如，管理或者停止碳、能源或水密集型业务的计划；因需求或者供应链变化导致的资源配置；通过资本支出或者额外研发支出进行业务发展产生的资源配置；以及收购或者剥离等。\n\n3. 描述公司已经或者计划为直接或间接应对气候相关风险和机遇所采取的措施。例如，直接措施包括改进生产工艺或设备、更新设备、搬迁设施、改变产品规格等；间接措施包括通过与客户和供应链合作等。\n\n4. 公司实施转型计划的进展情况。\n\n披露要点11 当期气候相关财务影响\n\n1．定性或定量分析气候相关风险和机遇对披露主体报告期间的财务状况、经营成果和现金流的影响（详细可参考《第一号总体要求与披露框架》指南中相关内容）。定量描述应当结合实际情况披露具体数值或者合理的区间范围。\n\n2. 相关风险和机遇是否会对公司下一年度财务状况、经营成果、现金流产生重大影响。\n\n3．若披露主体确不具备披露财务影响定量信息的能力、相关财务影响无法单独识别，或者因计量的不确定性过大导致该定量信息不具备使用价值的，披露主体应当披露相关财务影响的定性信息，解释未采用定量披露信息的原因，并在合理范围内提供有助于投资者了解相关影响的信息和说明，以及实现定量披露的工作计划、进度和时间表。\n\n披露要点12 预期气候相关财务影响（鼓励）\n\n1．气候相关风险和机遇对公司财务状况、经营成果、现金流在短期、中期和长期内的影响（详细可参考《第一号总体要求与披露框架》指南中相关内容）。\n\n2. 结合披露主体开展与气候相关的投资、资产处置、融资计划等规划，描述财务状况在短期、中期和长期内的变化趋势。\n\n3．结合披露主体管理气候相关风险和机遇的战略，描述经营成果和现金流在短期、中期和长期内的变化趋势。\n\n4．若披露主体确不具备披露财务影响定量信息的能力、相关财务影响无法单独识别，或者因计量的不确定性过大导致该定量信息不具备使用价值的，披露主体应当披露相关财务影响的定性信息，解释未采用定量披露信息的原因，并在合理范围内提供有助于投资者了解相关影响的信息和说明，以及实现定量披露的工作计划、进度和时间表。\n\n披露要点13 气候适应性评估\n\n1．描述披露主体评估的气候变化对其战略和业务模式的影响，以及应对相关影响的方法。\n\n2．描述在评估气候适应性时考虑的重大不确定性因素，如极端天气事件发生概率、强度、政策趋势等。\n\n3．描述在短期、中期和长期内为适应气候变化调整其战略和商业模式的能力。例如，披露主体现有财务资源在应对气候相关风险和把握气候相关机遇时的可获得性、灵活性；披露主体重新配置、重新利用、升级或停用现有资产的能力；披露主体当前和计划在气候相关缓解、适应措施和气候适应性机遇方面投资的影响。\n\n4．鼓励采用情景分析进行气候适应性评估，并披露情景分析使用的输入值信息与关键假设、分析过程等。例如，输入值信息可包括用于分析的气候相关情景及其来源、情景是否与气候相关转型风险或物理风险相关、分析中使用的时间范围以及业务范围等；关键假设可包括披露主体所在国家或地区的气候相关政策、宏观经济形势、国家或者区域层面的因素（例如，当地天气模式、人口统计数据、土地使用及基础设施情况和自然资源等）、能源使用和组合以及技术发展等。\n\n三、气候相关影响、风险及机遇管理\n\n披露要点14 气候相关影响、风险及机遇管理的流程\n\n1．描述评估气候相关影响、风险和机遇的方法。\n\n2． 描述如何评估气候相关影响、风险和机遇发生的可能性、大小和影响的途径。例如，披露主体是否考虑定性因素、定量阈值或者其他标准。\n\n3．描述是否以及如何考虑气候相关风险相较于其他类型风险的优先级。\n\n4．描述如何监测气候相关影响、风险和机遇的情况，如管理机制、具体流程等。\n\n5．描述气候相关影响、风险和机遇管理流程融入公司内部管理流程（如整体风险管理流程）的情况，若发生调整，则披露管理流程调整的情况。\n\n四、气候相关指标与目标\n\n披露要点15 气候相关目标\n\n1．披露主体应当描述根据相关法律法规、《指引》要求以及自身需要设定的气候相关目标。\n\n2. 对于气候相关目标的描述，可包括：具体的目标内容（定性或定量），定量目标包括绝对目标（如温室气体排放总量/净排放量）以及强度目标等；目标所适用的主体范围，如适用于整个报告主体还是仅适用于特定业务单元或区域；目标的适用期间等（详细可参考《第一号总体要求与披露框架》指南相关内容）。若气候相关目标为温室气体减排目标，可与披露要点18中的“减排目标”合并披露。\n\n披露要点16 气候相关目标实现进展\n\n1．披露主体应当描述报告期末相关目标实现情况以及报告期内的进展情况。\n\n2．对于气候相关目标实现进展情况的描述，可包括：衡量气候相关目标进展的基准期；阶段性气候相关目标和中期气候相关目标（如有）；目标实现进展（如已完成、进程中、未完成等，或定量描述报告期内目标完成度）（详细可参考《第一号总体要求与披露框架》指南相关内容）。\n\n披露要点17 温室气体排放量\n\n1．以二氧化碳当量公吨为单位，披露范围一、范围二及范围三（鼓励）温室气体排放量（核算温室气体排放量的方法详见本指南第四章）。\n\n2．按照业务单位或设施、国家或地区、来源类型（燃烧、加工、电力、供暖、制冷和蒸汽等）分类披露温室气体排放量（鼓励）。\n\n3．描述核算温室气体排放量所依据的标准、方法、假设或计算工具。若报告期内核算标准、方法、假设等发生变化的，应当说明原因并披露具体影响。\n\n4．说明核算温室气体排放量的合并方法，如股权比例法、财务控制法、运营控制法等。\n\n5. 说明第三方机构对公司温室气体排放等数据进行核查或鉴证情况（如涉及）。\n\n披露要点18 温室气体减排实践\n\n1．描述披露主体的减排目标（详细可参考《第一号总体要求与披露框架》指南中“设定和管理目标”相关内容）。\n\n2．描述具体减排措施或项目，如管理措施、资金投入、技术开发等。\n\n3．描述减排实际成效，包括按照不同温室气体排放范围分类披露减少的温室气体排放量（换算成二氧化碳当量公吨数），以及温室气体排放强度变化（如涉及）。\n\n4．披露主体可以按照不同减排措施分别披露温室气体减排量。\n\n披露要点19 碳信用额度来源和数量（如涉及）\n\n1．描述所使用的碳信用额度的来源，如国家核证自愿减排量（CCER）和各试点碳市场的碳普惠项目等。\n\n2．以二氧化碳当量公吨为单位，披露公司所使用的碳信用数量。\n\n披露要点20 碳排放配额清缴情况（如涉及）\n\n1．描述报告期内是否在碳排放权交易市场完成清缴履约。\n\n2．描述是否因碳排放权清缴问题，被有关部门要求整改、立案调查或处罚。\n\n披露要点21 全国温室气体自愿减排项目和核证自愿减排量（CCER）的登记与交易情况（如涉及）\n\n1．在全国温室气体自愿减排项目和核证自愿减排量（CCER）登记的项目情况，如项目数量、状态、类型、预计减排量等。\n\n2．披露交易的CCER项目减排量。\n\n披露要点22 参与其他减排机制的项目和减排量登记与交易情况（如涉及）\n\n1．描述参与的其他减排机制项目名称、减排机制类型，以及其他减排机制下登记的项目情况、交易的减排量数量等。\n\n2．描述其他减排机制项目情况，如项目数量、状态、类型、预计减排量等。\n\n附录\n\n温室气体排放量披露模板示例\n\n完整图表、公式见官方原件：https://www.sse.com.cn/lawandrules/guide/documents/c/10770289/files/b20b7e46ef00426398e4bc1b2aa15cc3.docx"
+        }
+      ]
+    },
+    {
+      "id": "source-13",
+      "title": "相关标准与资源",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "external",
+          "title": "相关标准与资源",
+          "items": [
+            {
+              "name": "企业温室气体排放核算与报告指南（各行业）",
+              "type": "国家标准"
+            },
+            {
+              "name": "生态环境部电力平均二氧化碳排放因子",
+              "type": "官方数据"
+            },
+            {
+              "name": "GHG Protocol 温室气体核算体系",
+              "type": "国际标准"
+            },
+            {
+              "name": "IPCC 第六次评估报告 GWP值",
+              "type": "国际标准"
+            }
+          ],
+          "contentKind": "ai_structured_summary",
+          "sourceVerification": "editorial_not_official",
+          "isOfficialTranslation": false,
+          "provenanceLabel": "AI建议",
+          "learningLayer": "practical",
+          "provenance": "ai_assistance"
+        }
+      ]
     }
-   ]
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ashare-framework",
+        "title": "整体框架结构"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "双重重要性评估"
+      }
+    ],
+    "external": []
   },
-  {
-   "title": "相关标准与资源",
-   "blocks": []
-  }
- ],
- "relations": [
-  "整体框架结构",
-  "双重重要性评估"
- ],
- "group": "环境",
- "titleEn": ""
+  "group": "环境",
+  "titleEn": "",
+  "clauses": [
+    "第二十一条",
+    "第二十二条",
+    "第二十三条",
+    "第二十四条",
+    "第二十五条",
+    "第二十六条",
+    "第二十七条",
+    "第二十八条"
+  ],
+  "guideScope": "对应议题的专题指南",
+  "learningLayers": [
+    "original",
+    "guide",
+    "practical"
+  ],
+  "sourceStatus": "structured_primary_source"
 }
