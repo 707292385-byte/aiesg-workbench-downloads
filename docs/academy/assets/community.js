@@ -257,6 +257,33 @@
     return '<div class="co-section-head"><b>' + number + '</b><span class="co-section-icon">' + svgIcon(icon) + '</span><h2>' + title + '</h2><p>' + description + '</p></div>';
   }
 
+  function reportEntry() {
+    return '<section class="co-section co-report-entry" id="co-reports" aria-labelledby="co-reports-title">'
+      + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>找到一家企业的披露，也看看同行如何回应同一个议题。</p></div>'
+      + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库 →</a></div>'
+      + '<form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
+      + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告 <span aria-hidden="true">→</span></button></div></form>'
+      + '<p class="co-report-hint">企业与行业筛选 · 在线查看原文 · 报告清单导出</p></div></div></section>';
+  }
+  async function initializeReportEntry() {
+    const form = document.getElementById('co-report-form');
+    if (!form) return;
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const values = Object.fromEntries([...new FormData(form)].filter(([, value]) => value.trim()));
+      location.href = pageHref('reports.html', values);
+    });
+    try {
+      const info = await window.ReportCatalogue.manifest();
+      const summary = document.querySelector('[data-report-summary]');
+      if (summary) summary.textContent = info.companyCount.toLocaleString('zh-CN') + ' 家企业 · ' + info.reportCount.toLocaleString('zh-CN') + ' 份报告';
+      const industries = [...new Map(info.industryOptions.filter(i => i[1]).map(i => [i[0] + '|1|' + i[1], i])).entries()].sort((a,b) => a[1][0].localeCompare(b[1][0], 'zh') || a[1][1].localeCompare(b[1][1], 'zh'));
+      for (const [key, ind] of industries) {
+        const option = document.createElement('option');option.value = key;option.textContent = ind[1] + ' · ' + (ind[0] === '申万' ? 'A股' : '港股');form.elements.industry.appendChild(option);
+      }
+    } catch (_) { /* The entry stays usable while the optional counts are unavailable. */ }
+  }
+
   function render(publicData) {
     const root = document.getElementById('community-page');
     if (!root) return;
@@ -264,7 +291,8 @@
     const observations = publicObservations(publicData);
     const recentObservations = observations.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>已发布的内容以核验完成的原始资料为依据，其他标准内容将在完成整理后陆续开放。</p></div><div class="co-band-content"><div class="co-band-head"><strong>已发布</strong></div><div class="co-items">'
       + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
@@ -466,6 +494,7 @@
     const isCommunityHome = Boolean(document.getElementById('community-page'));
     if (isCommunityHome) {
       render(data);
+      void initializeReportEntry();
       document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
         document.querySelector('[data-form-loading]')?.classList.add('loaded');
       });
