@@ -44,7 +44,7 @@
   }
   const standards = [
     { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
-    { id: 'ashare', type: '披露规则', title: 'A股可持续发展报告指引', detail: '三所指引 · 21项议题 · 编制指南' },
+    { id: 'ashare', type: '披露规则', title: 'A股可持续发展报告指引', detail: '三所指引 · 25项议题 · 编制指南' },
     { id: 'hkex', type: '披露规则', title: '港交所ESG披露体系', detail: '报告守则 · KPI体系 · 气候披露' }
   ];
 
@@ -294,10 +294,10 @@
       + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
-      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>已发布的内容以核验完成的原始资料为依据，其他标准内容将在完成整理后陆续开放。</p></div><div class="co-band-content"><div class="co-band-head"><strong>已发布</strong></div><div class="co-items">'
+      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多　→</a></div><div class="co-items">'
       + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
-      + '</div><div class="co-inline-empty">其他方法与知识内容整理中。</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">更多观察　→</a></div><div class="co-items co-items--news">'
+      + '</div></div></article>'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多　→</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-community">' + sectionHead('02', 'map', '共创社区', '感谢伙伴，整理大家关心的问题')
