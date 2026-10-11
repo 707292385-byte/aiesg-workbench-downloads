@@ -1,0 +1,525 @@
+{
+ "id": "mof",
+ "title": "财政部企业可持续披露准则体系",
+ "titleEn": "MOF Sustainability Disclosure Standards for Enterprises",
+ "eyebrow": "国家统一可持续披露准则",
+ "accent": "#a8322d",
+ "description": "基本准则、气候准则与应用指南构成的国家统一可持续披露准则体系；含九项行业应用指南。",
+ "issuer": "财政部会同生态环境部等相关部门",
+ "version": "2026.10.11",
+ "updated": "按文件分别记录",
+ "sourceNote": "财政部发布的《企业可持续披露准则》系列文件及配套应用指南；按文号与版本分别引用。",
+ "notice": "气候准则应用指南与电力等9项行业应用指南目前为征求意见稿（财办会〔2026〕34号，2026年9月28日发布，反馈截止2026年10月26日），尚未生效；正式适用范围与实施要求以后续发布文件为准。",
+ "goals": [
+  "基本准则、具体准则、应用指南三层结构：具体准则和应用指南的制定遵循基本准则",
+  "披露四要素：治理、战略、风险和机遇管理、指标和目标",
+  "重要性原则：可持续风险和机遇信息按是否影响基本使用者决策判断，可持续影响信息按严重程度与可能性判断",
+  "气候准则要求披露范围一、范围二、范围三温室气体排放，行业指南按行业特征细化指标与目标"
+ ],
+ "process": [
+  {
+   "title": "读基本准则",
+   "description": "先掌握披露目标、信息质量要求和四要素的一般要求"
+  },
+  {
+   "title": "对号入座具体准则",
+   "description": "气候议题适用《第1号——气候（试行）》及其应用指南"
+  },
+  {
+   "title": "查行业指南",
+   "description": "识别行业特定风险、机遇与排放源，确定行业特定指标和目标"
+  },
+  {
+   "title": "核对现行文件",
+   "description": "区分已发布版本与征求意见稿，正式披露前回到原文核对"
+  }
+ ],
+ "groups": [
+  {
+   "id": "system",
+   "title": "体系与定位",
+   "items": [
+    {
+     "id": "mof-framework",
+     "title": "准则体系与实施安排",
+     "eyebrow": "体系总览",
+     "summary": "基本准则、具体准则与应用指南的三层结构，已发布文件与征求意见中的文件，以及与交易所指引的关系。",
+     "tags": [
+      "准则体系",
+      "实施安排"
+     ],
+     "status": "已发布",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-framework.json",
+     "group": "体系与定位",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-basic",
+        "title": "企业可持续披露准则——基本准则（试行）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       },
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       }
+      ],
+      "external": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "basic",
+   "title": "基本准则",
+   "items": [
+    {
+     "id": "mof-basic",
+     "title": "企业可持续披露准则——基本准则（试行）",
+     "eyebrow": "财会〔2024〕17号 · 试行",
+     "summary": "准则体系的基础文件，六章三十一条，明确披露目标与原则、信息质量要求、治理/战略/风险和机遇管理/指标和目标四要素以及其他披露要求。",
+     "tags": [
+      "基本准则",
+      "四要素"
+     ],
+     "status": "已发布（试行）",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-basic.json",
+     "group": "基本准则",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-framework",
+        "title": "准则体系与实施安排"
+       },
+       {
+        "id": "mof-basic-guide",
+        "title": "《基本准则（试行）》应用指南"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-basic-guide",
+     "title": "《基本准则（试行）》应用指南",
+     "eyebrow": "财会〔2025〕21号",
+     "summary": "对基本准则的八个重点问题作出解释和细化：价值链、信息关联、信息使用者、重要性评估、相称性原则、当期和预期财务影响、韧性、可持续影响信息披露。",
+     "tags": [
+      "应用指南",
+      "重要性评估"
+     ],
+     "status": "已发布",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-basic-guide.json",
+     "group": "基本准则",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-basic",
+        "title": "企业可持续披露准则——基本准则（试行）"
+       },
+       {
+        "id": "mof-climate-guide",
+        "title": "《第1号——气候（试行）》应用指南"
+       }
+      ],
+      "external": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "climate",
+   "title": "气候准则",
+   "items": [
+    {
+     "id": "mof-climate",
+     "title": "企业可持续披露准则第1号——气候（试行）",
+     "eyebrow": "财会〔2025〕34号 · 试行",
+     "summary": "气候相关披露的具体准则，六章四十七条并附术语定义，覆盖治理、战略、风险和机遇管理、指标和目标四个方面。",
+     "tags": [
+      "气候准则",
+      "范围一 二 三"
+     ],
+     "status": "已发布（试行）",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-climate.json",
+     "group": "气候准则",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-basic",
+        "title": "企业可持续披露准则——基本准则（试行）"
+       },
+       {
+        "id": "mof-climate-guide",
+        "title": "《第1号——气候（试行）》应用指南"
+       },
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-climate-guide",
+     "title": "《第1号——气候（试行）》应用指南",
+     "eyebrow": "财办会〔2026〕34号",
+     "summary": "对气候准则部分条款作出解释和示例，五章：气候相关影响信息、战略信息、风险和机遇管理信息、温室气体排放信息、行业特定指标。",
+     "tags": [
+      "应用指南",
+      "温室气体核算"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-climate-guide.json",
+     "group": "气候准则",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       },
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       }
+      ],
+      "external": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "title": "行业应用指南",
+   "items": [
+    {
+     "id": "mof-industry-overview",
+     "title": "气候准则行业应用指南（九行业）",
+     "eyebrow": "财办会〔2026〕34号",
+     "summary": "电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车九个行业的应用指南，统一按行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标的五章框架展开。",
+     "tags": [
+      "行业指南",
+      "九行业"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-industry-overview.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       },
+       {
+        "id": "mof-climate-guide",
+        "title": "《第1号——气候（试行）》应用指南"
+       },
+       {
+        "id": "mof-ind-power",
+        "title": "电力行业应用指南"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-power",
+     "title": "电力行业应用指南",
+     "eyebrow": "第101号 · 财办会〔2026〕34号",
+     "summary": "气候准则电力行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "电力",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-power.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-steel",
+     "title": "钢铁行业应用指南",
+     "eyebrow": "第102号 · 财办会〔2026〕34号",
+     "summary": "气候准则钢铁行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "钢铁",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-steel.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-coal",
+     "title": "煤炭行业应用指南",
+     "eyebrow": "第103号 · 财办会〔2026〕34号",
+     "summary": "气候准则煤炭行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "煤炭",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-coal.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-oil",
+     "title": "石油行业应用指南",
+     "eyebrow": "第104号 · 财办会〔2026〕34号",
+     "summary": "气候准则石油行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "石油",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-oil.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-fertilizer",
+     "title": "化肥行业应用指南",
+     "eyebrow": "第105号 · 财办会〔2026〕34号",
+     "summary": "气候准则化肥行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "化肥",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-fertilizer.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-aluminium",
+     "title": "铝行业应用指南",
+     "eyebrow": "第106号 · 财办会〔2026〕34号",
+     "summary": "气候准则铝行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "铝",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-aluminium.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-hydrogen",
+     "title": "氢行业应用指南",
+     "eyebrow": "第107号 · 财办会〔2026〕34号",
+     "summary": "气候准则氢行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "氢",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-hydrogen.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-cement",
+     "title": "水泥行业应用指南",
+     "eyebrow": "第108号 · 财办会〔2026〕34号",
+     "summary": "气候准则水泥行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "水泥",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-cement.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    },
+    {
+     "id": "mof-ind-auto",
+     "title": "汽车行业应用指南",
+     "eyebrow": "第109号 · 财办会〔2026〕34号",
+     "summary": "气候准则汽车行业应用指南：行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标。",
+     "tags": [
+      "汽车",
+      "行业指南"
+     ],
+     "status": "征求意见稿",
+     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
+     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
+     "detailFile": "data/mof/mof-ind-auto.json",
+     "group": "行业应用指南",
+     "relations": {
+      "internal": [
+       {
+        "id": "mof-industry-overview",
+        "title": "气候准则行业应用指南（九行业）"
+       },
+       {
+        "id": "mof-climate",
+        "title": "企业可持续披露准则第1号——气候（试行）"
+       }
+      ],
+      "external": []
+     }
+    }
+   ]
+  }
+ ],
+ "officialFiles": [
+  {
+   "name": "《企业可持续披露准则——基本准则（试行）》财会〔2024〕17号",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/"
+  },
+  {
+   "name": "《〈企业可持续披露准则——基本准则（试行）〉应用指南》财会〔2025〕21号",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/"
+  },
+  {
+   "name": "《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/"
+  },
+  {
+   "name": "《〈企业可持续披露准则第1号——气候（试行）〉应用指南（征求意见稿）》财办会〔2026〕34号",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm"
+  },
+  {
+   "name": "《〈企业可持续披露准则第1号——气候（试行）〉电力等9项行业应用指南（征求意见稿）》财办会〔2026〕34号",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm"
+  },
+  {
+   "name": "《〈企业可持续披露准则第1号——气候（试行）〉应用指南（征求意见稿）》及电力等9项行业应用指南（征求意见稿）起草说明",
+   "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm"
+  }
+ ]
+}

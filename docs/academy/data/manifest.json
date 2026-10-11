@@ -31,6 +31,20 @@
       "data": "data/ashare.json"
     },
     {
+      "id": "mof",
+      "title": "财政部企业可持续披露准则体系",
+      "titleEn": "MOF Sustainability Disclosure Standards for Enterprises",
+      "eyebrow": "国家统一可持续披露准则",
+      "accent": "#a8322d",
+      "description": "基本准则、气候准则与应用指南构成的国家统一可持续披露准则体系；含九项行业应用指南。",
+      "issuer": "财政部会同生态环境部等相关部门",
+      "version": "2026.10.11",
+      "updated": "按文件分别记录",
+      "groups": 4,
+      "topics": 15,
+      "data": "data/mof.json"
+    },
+    {
       "id": "hkex",
       "title": "港交所ESG披露体系",
       "titleEn": "HKEX ESG Reporting Framework",
