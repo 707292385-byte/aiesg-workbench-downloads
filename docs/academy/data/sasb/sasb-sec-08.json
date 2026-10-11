@@ -36,32 +36,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 15 项：RT-AE-130a.1、RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 15 项：RT-AE-130a.1、RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Hazardous Waste Management",
-       "content": "会计指标 14 项：RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1、RT-AE-230a.2…"
+       "title": "危险废弃物管理",
+       "content": "原文 Hazardous Waste Management；会计指标 14 项：RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1、RT-AE-230a.2…",
+       "titleEn": "Hazardous Waste Management"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 12 项：RT-AE-230a.1、RT-AE-230a.2、RT-AE-250a.1、RT-AE-250a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 12 项：RT-AE-230a.1、RT-AE-230a.2、RT-AE-250a.1、RT-AE-250a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 10 项：RT-AE-250a.1、RT-AE-250a.2、RT-AE-250a.3、RT-AE-250a.4…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 10 项：RT-AE-250a.1、RT-AE-250a.2、RT-AE-250a.3、RT-AE-250a.4…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Fuel Economy & Emissions in Use-phase",
-       "content": "会计指标 6 项：RT-AE-410a.1、RT-AE-410a.2、RT-AE-440a.1、RT-AE-510a.1…"
+       "title": "使用阶段燃效与排放",
+       "content": "原文 Fuel Economy & Emissions in Use-phase；会计指标 6 项：RT-AE-410a.1、RT-AE-410a.2、RT-AE-440a.1、RT-AE-510a.1…",
+       "titleEn": "Fuel Economy & Emissions in Use-phase"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 4 项：RT-AE-440a.1、RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 4 项：RT-AE-440a.1、RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 3 项：RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 3 项：RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -94,52 +101,64 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 18 项：RT-CH-110a.1、RT-CH-110a.2、RT-CH-120a.1、RT-CH-130a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 18 项：RT-CH-110a.1、RT-CH-110a.2、RT-CH-120a.1、RT-CH-130a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 16 项：RT-CH-120a.1、RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 16 项：RT-CH-120a.1、RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 15 项：RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 15 项：RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 14 项：RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3、RT-CH-150a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 14 项：RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3、RT-CH-150a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Hazardous Waste Management",
-       "content": "会计指标 11 项：RT-CH-150a.1、RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2…"
+       "title": "危险废弃物管理",
+       "content": "原文 Hazardous Waste Management；会计指标 11 项：RT-CH-150a.1、RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2…",
+       "titleEn": "Hazardous Waste Management"
       },
       {
-       "title": "Community Relations",
-       "content": "会计指标 10 项：RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1…"
+       "title": "社区关系",
+       "content": "原文 Community Relations；会计指标 10 项：RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1…",
+       "titleEn": "Community Relations"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 9 项：RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1、RT-CH-410b.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 9 项：RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1、RT-CH-410b.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Product Design for Use-phase Efficiency",
-       "content": "会计指标 7 项：RT-CH-410a.1、RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1…"
+       "title": "使用阶段效率产品设计",
+       "content": "原文 Product Design for Use-phase Efficiency；会计指标 7 项：RT-CH-410a.1、RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1…",
+       "titleEn": "Product Design for Use-phase Efficiency"
       },
       {
-       "title": "Safety & Environmental Stewardship of Chemicals",
-       "content": "会计指标 6 项：RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1、RT-CH-530a.1…"
+       "title": "化学品安全与环境管护",
+       "content": "原文 Safety & Environmental Stewardship of Chemicals；会计指标 6 项：RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1、RT-CH-530a.1…",
+       "titleEn": "Safety & Environmental Stewardship of Chemicals"
       },
       {
-       "title": "Genetically Modified Organisms",
-       "content": "会计指标 4 项：RT-CH-410c.1、RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2"
+       "title": "转基因生物",
+       "content": "原文 Genetically Modified Organisms；会计指标 4 项：RT-CH-410c.1、RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2",
+       "titleEn": "Genetically Modified Organisms"
       },
       {
-       "title": "Management of the Legal & Regulatory Environment",
-       "content": "会计指标 3 项：RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2"
+       "title": "法律与监管环境管理",
+       "content": "原文 Management of the Legal & Regulatory Environment；会计指标 3 项：RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2",
+       "titleEn": "Management of the Legal & Regulatory Environment"
       },
       {
-       "title": "Operational Safety, Emergency Preparedness & Response",
-       "content": "会计指标 2 项：RT-CH-540a.1、RT-CH-540a.2"
+       "title": "运营安全、应急准备与响应",
+       "content": "原文 Operational Safety, Emergency Preparedness & Response；会计指标 2 项：RT-CH-540a.1、RT-CH-540a.2",
+       "titleEn": "Operational Safety, Emergency Preparedness & Response"
       }
      ],
      "content_cn": "",
@@ -172,36 +191,44 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 15 项：RT-CP-110a.1、RT-CP-110a.2、RT-CP-120a.1、RT-CP-130a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 15 项：RT-CP-110a.1、RT-CP-110a.2、RT-CP-120a.1、RT-CP-130a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 13 项：RT-CP-120a.1、RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 13 项：RT-CP-120a.1、RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 12 项：RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 12 项：RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 11 项：RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3、RT-CP-150a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 11 项：RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3、RT-CP-150a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Waste Management",
-       "content": "会计指标 8 项：RT-CP-150a.1、RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1…"
+       "title": "废弃物管理",
+       "content": "原文 Waste Management；会计指标 8 项：RT-CP-150a.1、RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1…",
+       "titleEn": "Waste Management"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 7 项：RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1、RT-CP-410a.2…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 7 项：RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1、RT-CP-410a.2…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 5 项：RT-CP-410a.1、RT-CP-410a.2、RT-CP-410a.3、RT-CP-430a.1…"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 5 项：RT-CP-410a.1、RT-CP-410a.2、RT-CP-410a.3、RT-CP-430a.1…",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 2 项：RT-CP-430a.1、RT-CP-430a.2"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 2 项：RT-CP-430a.1、RT-CP-430a.2",
+       "titleEn": "Supply Chain Management"
       }
      ],
      "content_cn": "",
@@ -234,28 +261,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 12 项：RT-EE-130a.1、RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 12 项：RT-EE-130a.1、RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Hazardous Waste Management",
-       "content": "会计指标 11 项：RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1、RT-EE-250a.2…"
+       "title": "危险废弃物管理",
+       "content": "原文 Hazardous Waste Management；会计指标 11 项：RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1、RT-EE-250a.2…",
+       "titleEn": "Hazardous Waste Management"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 9 项：RT-EE-250a.1、RT-EE-250a.2、RT-EE-410a.1、RT-EE-410a.2…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 9 项：RT-EE-250a.1、RT-EE-250a.2、RT-EE-410a.1、RT-EE-410a.2…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 7 项：RT-EE-410a.1、RT-EE-410a.2、RT-EE-410a.3、RT-EE-440a.1…"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 7 项：RT-EE-410a.1、RT-EE-410a.2、RT-EE-410a.3、RT-EE-440a.1…",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 4 项：RT-EE-440a.1、RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 4 项：RT-EE-440a.1、RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 3 项：RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 3 项：RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -288,24 +321,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 8 项：RT-IG-130a.1、RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 8 项：RT-IG-130a.1、RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 7 项：RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 7 项：RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Fuel Economy & Emissions in Use-phase",
-       "content": "会计指标 6 项：RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3、RT-IG-410a.4…"
+       "title": "使用阶段燃效与排放",
+       "content": "原文 Fuel Economy & Emissions in Use-phase；会计指标 6 项：RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3、RT-IG-410a.4…",
+       "titleEn": "Fuel Economy & Emissions in Use-phase"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 2 项：RT-IG-440a.1、RT-IG-440b.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 2 项：RT-IG-440a.1、RT-IG-440b.1",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Remanufacturing Design & Services",
-       "content": "会计指标 1 项：RT-IG-440b.1"
+       "title": "再制造设计与服务",
+       "content": "原文 Remanufacturing Design & Services；会计指标 1 项：RT-IG-440b.1",
+       "titleEn": "Remanufacturing Design & Services"
       }
      ],
      "content_cn": "",

@@ -36,28 +36,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Air Quality",
-       "content": "会计指标 11 项：RR-BI-120a.1、RR-BI-120a.2、RR-BI-140a.1、RR-BI-140a.2…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 11 项：RR-BI-120a.1、RR-BI-120a.2、RR-BI-140a.1、RR-BI-140a.2…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Water Management in Manufacturing",
-       "content": "会计指标 9 项：RR-BI-140a.1、RR-BI-140a.2、RR-BI-140a.3、RR-BI-410a.1…"
+       "title": "制造环节水资源管理",
+       "content": "原文 Water Management in Manufacturing；会计指标 9 项：RR-BI-140a.1、RR-BI-140a.2、RR-BI-140a.3、RR-BI-410a.1…",
+       "titleEn": "Water Management in Manufacturing"
       },
       {
-       "title": "Lifecycle Emissions Balance",
-       "content": "会计指标 6 项：RR-BI-410a.1、RR-BI-430a.1、RR-BI-430a.2、RR-BI-530a.1…"
+       "title": "全生命周期排放平衡",
+       "content": "原文 Lifecycle Emissions Balance；会计指标 6 项：RR-BI-410a.1、RR-BI-430a.1、RR-BI-430a.2、RR-BI-530a.1…",
+       "titleEn": "Lifecycle Emissions Balance"
       },
       {
-       "title": "Sourcing & Environmental Impacts of Feedstock Production",
-       "content": "披露主题（指标见原件）"
+       "title": "原料生产采购与环境影响",
+       "content": "原文 Sourcing & Environmental Impacts of Feedstock Production；披露主题（指标见原件）",
+       "titleEn": "Sourcing & Environmental Impacts of Feedstock Production"
       },
       {
-       "title": "Management of the Legal & Regulatory Environment",
-       "content": "会计指标 3 项：RR-BI-530a.1、RR-BI-530a.2、RR-BI-540a.1"
+       "title": "法律与监管环境管理",
+       "content": "原文 Management of the Legal & Regulatory Environment；会计指标 3 项：RR-BI-530a.1、RR-BI-530a.2、RR-BI-540a.1",
+       "titleEn": "Management of the Legal & Regulatory Environment"
       },
       {
-       "title": "Operational Safety, Emergency Preparedness & Response",
-       "content": "会计指标 1 项：RR-BI-540a.1"
+       "title": "运营安全、应急准备与响应",
+       "content": "原文 Operational Safety, Emergency Preparedness & Response；会计指标 1 项：RR-BI-540a.1",
+       "titleEn": "Operational Safety, Emergency Preparedness & Response"
       }
      ],
      "content_cn": "",
@@ -90,16 +96,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Ecosystem Services & Impacts",
-       "content": "会计指标 7 项：RR-FM-160a.1、RR-FM-160a.2、RR-FM-160a.3、RR-FM-160a.4…"
+       "title": "生态系统服务与影响",
+       "content": "原文 Ecosystem Services & Impacts；会计指标 7 项：RR-FM-160a.1、RR-FM-160a.2、RR-FM-160a.3、RR-FM-160a.4…",
+       "titleEn": "Ecosystem Services & Impacts"
       },
       {
-       "title": "Rights of Indigenous Peoples",
-       "content": "会计指标 3 项：RR-FM-210a.1、RR-FM-210a.2、RR-FM-450a.1"
+       "title": "原住民权利",
+       "content": "原文 Rights of Indigenous Peoples；会计指标 3 项：RR-FM-210a.1、RR-FM-210a.2、RR-FM-450a.1",
+       "titleEn": "Rights of Indigenous Peoples"
       },
       {
-       "title": "Climate Change Adaptation",
-       "content": "会计指标 1 项：RR-FM-450a.1"
+       "title": "气候变化适应",
+       "content": "原文 Climate Change Adaptation；会计指标 1 项：RR-FM-450a.1",
+       "titleEn": "Climate Change Adaptation"
       }
      ],
      "content_cn": "",
@@ -132,24 +141,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 12 项：RR-FC-130a.1、RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 12 项：RR-FC-130a.1、RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 11 项：RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1、RR-FC-410a.2…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 11 项：RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1、RR-FC-410a.2…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Product Efficiency",
-       "content": "会计指标 9 项：RR-FC-410a.1、RR-FC-410a.2、RR-FC-410a.3、RR-FC-410a.4…"
+       "title": "产品能效",
+       "content": "原文 Product Efficiency；会计指标 9 项：RR-FC-410a.1、RR-FC-410a.2、RR-FC-410a.3、RR-FC-410a.4…",
+       "titleEn": "Product Efficiency"
       },
       {
-       "title": "Product End-of-life Management",
-       "content": "会计指标 4 项：RR-FC-410b.1、RR-FC-410b.2、RR-FC-410b.3、RR-FC-440a.1"
+       "title": "产品报废管理",
+       "content": "原文 Product End-of-life Management；会计指标 4 项：RR-FC-410b.1、RR-FC-410b.2、RR-FC-410b.3、RR-FC-440a.1",
+       "titleEn": "Product End-of-life Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 1 项：RR-FC-440a.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 1 项：RR-FC-440a.1",
+       "titleEn": "Materials Sourcing"
       }
      ],
      "content_cn": "",
@@ -182,24 +196,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 8 项：RR-PP-110a.1、RR-PP-110a.2、RR-PP-120a.1、RR-PP-130a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 8 项：RR-PP-110a.1、RR-PP-110a.2、RR-PP-120a.1、RR-PP-130a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 6 项：RR-PP-120a.1、RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 6 项：RR-PP-120a.1、RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 5 项：RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 5 项：RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 4 项：RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1、RR-PP-430a.2"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 4 项：RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1、RR-PP-430a.2",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 2 项：RR-PP-430a.1、RR-PP-430a.2"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 2 项：RR-PP-430a.1、RR-PP-430a.2",
+       "titleEn": "Supply Chain Management"
       }
      ],
      "content_cn": "",
@@ -232,32 +251,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management in Manufacturing",
-       "content": "会计指标 15 项：RR-ST-130a.1、RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1…"
+       "title": "制造环节能源管理",
+       "content": "原文 Energy Management in Manufacturing；会计指标 15 项：RR-ST-130a.1、RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1…",
+       "titleEn": "Energy Management in Manufacturing"
       },
       {
-       "title": "Water Management in Manufacturing",
-       "content": "会计指标 14 项：RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1、RR-ST-150a.2…"
+       "title": "制造环节水资源管理",
+       "content": "原文 Water Management in Manufacturing；会计指标 14 项：RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1、RR-ST-150a.2…",
+       "titleEn": "Water Management in Manufacturing"
       },
       {
-       "title": "Hazardous Waste Management",
-       "content": "会计指标 12 项：RR-ST-150a.1、RR-ST-150a.2、RR-ST-160a.1、RR-ST-160a.2…"
+       "title": "危险废弃物管理",
+       "content": "原文 Hazardous Waste Management；会计指标 12 项：RR-ST-150a.1、RR-ST-150a.2、RR-ST-160a.1、RR-ST-160a.2…",
+       "titleEn": "Hazardous Waste Management"
       },
       {
-       "title": "Ecological Impacts of Project Development",
-       "content": "会计指标 10 项：RR-ST-160a.1、RR-ST-160a.2、RR-ST-410a.1、RR-ST-410a.2…"
+       "title": "项目开发的生态影响",
+       "content": "原文 Ecological Impacts of Project Development；会计指标 10 项：RR-ST-160a.1、RR-ST-160a.2、RR-ST-410a.1、RR-ST-410a.2…",
+       "titleEn": "Ecological Impacts of Project Development"
       },
       {
-       "title": "Management of Energy Infrastructure Integration & Related Regulations",
-       "content": "披露主题（指标见原件）"
+       "title": "能源基础设施整合与相关监管",
+       "content": "原文 Management of Energy Infrastructure Integration & Related Regulations；披露主题（指标见原件）",
+       "titleEn": "Management of Energy Infrastructure Integration & Related Regulations"
       },
       {
-       "title": "Product End-of-life Management",
-       "content": "会计指标 6 项：RR-ST-410b.1、RR-ST-410b.2、RR-ST-410b.3、RR-ST-410b.4…"
+       "title": "产品报废管理",
+       "content": "原文 Product End-of-life Management；会计指标 6 项：RR-ST-410b.1、RR-ST-410b.2、RR-ST-410b.3、RR-ST-410b.4…",
+       "titleEn": "Product End-of-life Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 2 项：RR-ST-440a.1、RR-ST-440a.2"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 2 项：RR-ST-440a.1、RR-ST-440a.2",
+       "titleEn": "Materials Sourcing"
       }
      ],
      "content_cn": "",
@@ -290,20 +316,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 8 项：RR-WT-320a.1、RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 8 项：RR-WT-320a.1、RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Ecological Impacts of Project Development",
-       "content": "会计指标 7 项：RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3、RR-WT-440a.1…"
+       "title": "项目开发的生态影响",
+       "content": "原文 Ecological Impacts of Project Development；会计指标 7 项：RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3、RR-WT-440a.1…",
+       "titleEn": "Ecological Impacts of Project Development"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 4 项：RR-WT-440a.1、RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 4 项：RR-WT-440a.1、RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Materials Efficiency",
-       "content": "会计指标 3 项：RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3"
+       "title": "材料效率",
+       "content": "原文 Materials Efficiency；会计指标 3 项：RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3",
+       "titleEn": "Materials Efficiency"
       }
      ],
      "content_cn": "",

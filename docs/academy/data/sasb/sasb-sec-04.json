@@ -36,36 +36,44 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 17 项：FB-AG-110a.1、FB-AG-110a.2、FB-AG-110a.3、FB-AG-130a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 17 项：FB-AG-110a.1、FB-AG-110a.2、FB-AG-110a.3、FB-AG-130a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 14 项：FB-AG-130a.1、FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 14 项：FB-AG-130a.1、FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 13 项：FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3、FB-AG-250a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 13 项：FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3、FB-AG-250a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Food Safety",
-       "content": "会计指标 10 项：FB-AG-250a.1、FB-AG-250a.2、FB-AG-250a.3、FB-AG-320a.1…"
+       "title": "食品安全",
+       "content": "原文 Food Safety；会计指标 10 项：FB-AG-250a.1、FB-AG-250a.2、FB-AG-250a.3、FB-AG-320a.1…",
+       "titleEn": "Food Safety"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 7 项：FB-AG-320a.1、FB-AG-430a.1、FB-AG-430a.2、FB-AG-430a.3…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 7 项：FB-AG-320a.1、FB-AG-430a.1、FB-AG-430a.2、FB-AG-430a.3…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
-       "content": "披露主题（指标见原件）"
+       "title": "原料供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Ingredient Supply Chain；披露主题（指标见原件）",
+       "titleEn": "Environmental & Social Impacts of Ingredient Supply Chain"
       },
       {
-       "title": "GMO Management",
-       "content": "会计指标 3 项：FB-AG-430b.1、FB-AG-440a.1、FB-AG-440a.2"
+       "title": "转基因生物管理",
+       "content": "原文 GMO Management；会计指标 3 项：FB-AG-430b.1、FB-AG-440a.1、FB-AG-440a.2",
+       "titleEn": "GMO Management"
       },
       {
-       "title": "Ingredient Sourcing",
-       "content": "会计指标 2 项：FB-AG-440a.1、FB-AG-440a.2"
+       "title": "原料采购",
+       "content": "原文 Ingredient Sourcing；会计指标 2 项：FB-AG-440a.1、FB-AG-440a.2",
+       "titleEn": "Ingredient Sourcing"
       }
      ],
      "content_cn": "",
@@ -98,28 +106,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 12 项：FB-AB-130a.1、FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 12 项：FB-AB-130a.1、FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 11 项：FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1、FB-AB-270a.2…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 11 项：FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1、FB-AB-270a.2…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Responsible Drinking & Marketing",
-       "content": "会计指标 9 项：FB-AB-270a.1、FB-AB-270a.2、FB-AB-270a.3、FB-AB-270a.4…"
+       "title": "理性饮酒与营销",
+       "content": "原文 Responsible Drinking & Marketing；会计指标 9 项：FB-AB-270a.1、FB-AB-270a.2、FB-AB-270a.3、FB-AB-270a.4…",
+       "titleEn": "Responsible Drinking & Marketing"
       },
       {
-       "title": "Packaging Lifecycle Management",
-       "content": "会计指标 5 项：FB-AB-410a.1、FB-AB-410a.2、FB-AB-430a.1、FB-AB-440a.1…"
+       "title": "包装全生命周期管理",
+       "content": "原文 Packaging Lifecycle Management；会计指标 5 项：FB-AB-410a.1、FB-AB-410a.2、FB-AB-430a.1、FB-AB-440a.1…",
+       "titleEn": "Packaging Lifecycle Management"
       },
       {
-       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
-       "content": "披露主题（指标见原件）"
+       "title": "原料供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Ingredient Supply Chain；披露主题（指标见原件）",
+       "titleEn": "Environmental & Social Impacts of Ingredient Supply Chain"
       },
       {
-       "title": "Ingredient Sourcing",
-       "content": "会计指标 2 项：FB-AB-440a.1、FB-AB-440a.2"
+       "title": "原料采购",
+       "content": "原文 Ingredient Sourcing；会计指标 2 项：FB-AB-440a.1、FB-AB-440a.2",
+       "titleEn": "Ingredient Sourcing"
       }
      ],
      "content_cn": "",
@@ -152,44 +166,54 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Fleet Fuel Management",
-       "content": "会计指标 23 项：FB-FR-110a.1、FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3…"
+       "title": "车队燃料管理",
+       "content": "原文 Fleet Fuel Management；会计指标 23 项：FB-FR-110a.1、FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3…",
+       "titleEn": "Fleet Fuel Management"
       },
       {
-       "title": "Air Emissions from Refrigeration",
-       "content": "会计指标 22 项：FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3、FB-FR-130a.1…"
+       "title": "制冷系统空气排放",
+       "content": "原文 Air Emissions from Refrigeration；会计指标 22 项：FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3、FB-FR-130a.1…",
+       "titleEn": "Air Emissions from Refrigeration"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 19 项：FB-FR-130a.1、FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 19 项：FB-FR-130a.1、FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Food Waste Management",
-       "content": "会计指标 18 项：FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1…"
+       "title": "食物浪费管理",
+       "content": "原文 Food Waste Management；会计指标 18 项：FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1…",
+       "titleEn": "Food Waste Management"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 17 项：FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1、FB-FR-250a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 17 项：FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1、FB-FR-250a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Food Safety",
-       "content": "会计指标 15 项：FB-FR-250a.1、FB-FR-250a.2、FB-FR-260a.1、FB-FR-260a.2…"
+       "title": "食品安全",
+       "content": "原文 Food Safety；会计指标 15 项：FB-FR-250a.1、FB-FR-250a.2、FB-FR-260a.1、FB-FR-260a.2…",
+       "titleEn": "Food Safety"
       },
       {
-       "title": "Product Health & Nutrition",
-       "content": "会计指标 13 项：FB-FR-260a.1、FB-FR-260a.2、FB-FR-270a.1、FB-FR-270a.2…"
+       "title": "产品健康与营养",
+       "content": "原文 Product Health & Nutrition；会计指标 13 项：FB-FR-260a.1、FB-FR-260a.2、FB-FR-270a.1、FB-FR-270a.2…",
+       "titleEn": "Product Health & Nutrition"
       },
       {
-       "title": "Product Labelling & Marketing",
-       "content": "会计指标 11 项：FB-FR-270a.1、FB-FR-270a.2、FB-FR-270a.3、FB-FR-310a.1…"
+       "title": "产品标识与营销",
+       "content": "原文 Product Labelling & Marketing；会计指标 11 项：FB-FR-270a.1、FB-FR-270a.2、FB-FR-270a.3、FB-FR-310a.1…",
+       "titleEn": "Product Labelling & Marketing"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 8 项：FB-FR-310a.1、FB-FR-310a.2、FB-FR-310a.3、FB-FR-310a.4…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 8 项：FB-FR-310a.1、FB-FR-310a.2、FB-FR-310a.3、FB-FR-310a.4…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Management of Environmental & Social Impacts in the Supply Chain",
-       "content": "披露主题（指标见原件）"
+       "title": "供应链环境与社会影响管理",
+       "content": "原文 Management of Environmental & Social Impacts in the Supply Chain；披露主题（指标见原件）",
+       "titleEn": "Management of Environmental & Social Impacts in the Supply Chain"
       }
      ],
      "content_cn": "",
@@ -222,44 +246,54 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 24 项：FB-MP-110a.1、FB-MP-110a.2、FB-MP-130a.1、FB-MP-140a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 24 项：FB-MP-110a.1、FB-MP-110a.2、FB-MP-130a.1、FB-MP-140a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 22 项：FB-MP-130a.1、FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 22 项：FB-MP-130a.1、FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 21 项：FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3、FB-MP-160a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 21 项：FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3、FB-MP-160a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Land Use & Ecological Impacts",
-       "content": "会计指标 18 项：FB-MP-160a.1、FB-MP-160a.2、FB-MP-160a.3、FB-MP-250a.1…"
+       "title": "土地利用与生态影响",
+       "content": "原文 Land Use & Ecological Impacts；会计指标 18 项：FB-MP-160a.1、FB-MP-160a.2、FB-MP-160a.3、FB-MP-250a.1…",
+       "titleEn": "Land Use & Ecological Impacts"
       },
       {
-       "title": "Food Safety",
-       "content": "会计指标 15 项：FB-MP-250a.1、FB-MP-250a.2、FB-MP-250a.3、FB-MP-250a.4…"
+       "title": "食品安全",
+       "content": "原文 Food Safety；会计指标 15 项：FB-MP-250a.1、FB-MP-250a.2、FB-MP-250a.3、FB-MP-250a.4…",
+       "titleEn": "Food Safety"
       },
       {
-       "title": "Antibiotic Use in Animal Production",
-       "content": "会计指标 11 项：FB-MP-260a.1、FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1…"
+       "title": "养殖中抗生素使用",
+       "content": "原文 Antibiotic Use in Animal Production；会计指标 11 项：FB-MP-260a.1、FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1…",
+       "titleEn": "Antibiotic Use in Animal Production"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 10 项：FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1、FB-MP-410a.2…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 10 项：FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1、FB-MP-410a.2…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Animal Care & Welfare",
-       "content": "会计指标 8 项：FB-MP-410a.1、FB-MP-410a.2、FB-MP-410a.3、FB-MP-430a.1…"
+       "title": "动物照料与福利",
+       "content": "原文 Animal Care & Welfare；会计指标 8 项：FB-MP-410a.1、FB-MP-410a.2、FB-MP-410a.3、FB-MP-430a.1…",
+       "titleEn": "Animal Care & Welfare"
       },
       {
-       "title": "Environmental & Social Impacts of Animal Supply Chain",
-       "content": "会计指标 5 项：FB-MP-430a.1、FB-MP-430a.2、FB-MP-440a.1、FB-MP-440a.2…"
+       "title": "动物供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Animal Supply Chain；会计指标 5 项：FB-MP-430a.1、FB-MP-430a.2、FB-MP-440a.1、FB-MP-440a.2…",
+       "titleEn": "Environmental & Social Impacts of Animal Supply Chain"
       },
       {
-       "title": "Animal & Feed Sourcing",
-       "content": "会计指标 3 项：FB-MP-440a.1、FB-MP-440a.2、FB-MP-440a.3"
+       "title": "动物与饲料采购",
+       "content": "原文 Animal & Feed Sourcing；会计指标 3 项：FB-MP-440a.1、FB-MP-440a.2、FB-MP-440a.3",
+       "titleEn": "Animal & Feed Sourcing"
       }
      ],
      "content_cn": "",
@@ -292,36 +326,44 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Fleet Fuel Management",
-       "content": "会计指标 15 项：FB-NB-110a.1、FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2…"
+       "title": "车队燃料管理",
+       "content": "原文 Fleet Fuel Management；会计指标 15 项：FB-NB-110a.1、FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2…",
+       "titleEn": "Fleet Fuel Management"
       },
       {
-       "title": "Energy Management",
-       "content": "会计指标 14 项：FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 14 项：FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 13 项：FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1、FB-NB-260a.2…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 13 项：FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1、FB-NB-260a.2…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Health & Nutrition",
-       "content": "会计指标 11 项：FB-NB-260a.1、FB-NB-260a.2、FB-NB-270a.1、FB-NB-270a.2…"
+       "title": "健康与营养",
+       "content": "原文 Health & Nutrition；会计指标 11 项：FB-NB-260a.1、FB-NB-260a.2、FB-NB-270a.1、FB-NB-270a.2…",
+       "titleEn": "Health & Nutrition"
       },
       {
-       "title": "Product Labelling & Marketing",
-       "content": "会计指标 9 项：FB-NB-270a.1、FB-NB-270a.2、FB-NB-270a.3、FB-NB-270a.4…"
+       "title": "产品标识与营销",
+       "content": "原文 Product Labelling & Marketing；会计指标 9 项：FB-NB-270a.1、FB-NB-270a.2、FB-NB-270a.3、FB-NB-270a.4…",
+       "titleEn": "Product Labelling & Marketing"
       },
       {
-       "title": "Packaging Lifecycle Management",
-       "content": "会计指标 5 项：FB-NB-410a.1、FB-NB-410a.2、FB-NB-430a.1、FB-NB-440a.1…"
+       "title": "包装全生命周期管理",
+       "content": "原文 Packaging Lifecycle Management；会计指标 5 项：FB-NB-410a.1、FB-NB-410a.2、FB-NB-430a.1、FB-NB-440a.1…",
+       "titleEn": "Packaging Lifecycle Management"
       },
       {
-       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
-       "content": "披露主题（指标见原件）"
+       "title": "原料供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Ingredient Supply Chain；披露主题（指标见原件）",
+       "titleEn": "Environmental & Social Impacts of Ingredient Supply Chain"
       },
       {
-       "title": "Ingredient Sourcing",
-       "content": "会计指标 2 项：FB-NB-440a.1、FB-NB-440a.2"
+       "title": "原料采购",
+       "content": "原文 Ingredient Sourcing；会计指标 2 项：FB-NB-440a.1、FB-NB-440a.2",
+       "titleEn": "Ingredient Sourcing"
       }
      ],
      "content_cn": "",
@@ -354,36 +396,44 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 20 项：FB-PF-130a.1、FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 20 项：FB-PF-130a.1、FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 19 项：FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3、FB-PF-250a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 19 项：FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3、FB-PF-250a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Food Safety",
-       "content": "会计指标 16 项：FB-PF-250a.1、FB-PF-250a.2、FB-PF-250a.3、FB-PF-250a.4…"
+       "title": "食品安全",
+       "content": "原文 Food Safety；会计指标 16 项：FB-PF-250a.1、FB-PF-250a.2、FB-PF-250a.3、FB-PF-250a.4…",
+       "titleEn": "Food Safety"
       },
       {
-       "title": "Health & Nutrition",
-       "content": "会计指标 12 项：FB-PF-260a.1、FB-PF-260a.2、FB-PF-270a.1、FB-PF-270a.2…"
+       "title": "健康与营养",
+       "content": "原文 Health & Nutrition；会计指标 12 项：FB-PF-260a.1、FB-PF-260a.2、FB-PF-270a.1、FB-PF-270a.2…",
+       "titleEn": "Health & Nutrition"
       },
       {
-       "title": "Product Labelling & Marketing",
-       "content": "会计指标 10 项：FB-PF-270a.1、FB-PF-270a.2、FB-PF-270a.3、FB-PF-270a.4…"
+       "title": "产品标识与营销",
+       "content": "原文 Product Labelling & Marketing；会计指标 10 项：FB-PF-270a.1、FB-PF-270a.2、FB-PF-270a.3、FB-PF-270a.4…",
+       "titleEn": "Product Labelling & Marketing"
       },
       {
-       "title": "Packaging Lifecycle Management",
-       "content": "会计指标 6 项：FB-PF-410a.1、FB-PF-410a.2、FB-PF-430a.1、FB-PF-430a.2…"
+       "title": "包装全生命周期管理",
+       "content": "原文 Packaging Lifecycle Management；会计指标 6 项：FB-PF-410a.1、FB-PF-410a.2、FB-PF-430a.1、FB-PF-430a.2…",
+       "titleEn": "Packaging Lifecycle Management"
       },
       {
-       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
-       "content": "披露主题（指标见原件）"
+       "title": "原料供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Ingredient Supply Chain；披露主题（指标见原件）",
+       "titleEn": "Environmental & Social Impacts of Ingredient Supply Chain"
       },
       {
-       "title": "Ingredient Sourcing",
-       "content": "会计指标 2 项：FB-PF-440a.1、FB-PF-440a.2"
+       "title": "原料采购",
+       "content": "原文 Ingredient Sourcing；会计指标 2 项：FB-PF-440a.1、FB-PF-440a.2",
+       "titleEn": "Ingredient Sourcing"
       }
      ],
      "content_cn": "",
@@ -416,32 +466,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 16 项：FB-RN-130a.1、FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 16 项：FB-RN-130a.1、FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 15 项：FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 15 项：FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Food & Packaging Waste Management",
-       "content": "会计指标 14 项：FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1、FB-RN-250a.2…"
+       "title": "食品与包装废弃物管理",
+       "content": "原文 Food & Packaging Waste Management；会计指标 14 项：FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1、FB-RN-250a.2…",
+       "titleEn": "Food & Packaging Waste Management"
       },
       {
-       "title": "Food Safety",
-       "content": "会计指标 12 项：FB-RN-250a.1、FB-RN-250a.2、FB-RN-250a.3、FB-RN-260a.1…"
+       "title": "食品安全",
+       "content": "原文 Food Safety；会计指标 12 项：FB-RN-250a.1、FB-RN-250a.2、FB-RN-250a.3、FB-RN-260a.1…",
+       "titleEn": "Food Safety"
       },
       {
-       "title": "Nutritional Content",
-       "content": "会计指标 9 项：FB-RN-260a.1、FB-RN-260a.2、FB-RN-260a.3、FB-RN-310a.1…"
+       "title": "营养成分",
+       "content": "原文 Nutritional Content；会计指标 9 项：FB-RN-260a.1、FB-RN-260a.2、FB-RN-260a.3、FB-RN-310a.1…",
+       "titleEn": "Nutritional Content"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 6 项：FB-RN-310a.1、FB-RN-310a.2、FB-RN-310a.3、FB-RN-430a.1…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 6 项：FB-RN-310a.1、FB-RN-310a.2、FB-RN-310a.3、FB-RN-430a.1…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Supply Chain Management & Food Sourcing",
-       "content": "会计指标 3 项：FB-RN-430a.1、FB-RN-430a.2、FB-RN-430a.3"
+       "title": "供应链管理与食材采购",
+       "content": "原文 Supply Chain Management & Food Sourcing；会计指标 3 项：FB-RN-430a.1、FB-RN-430a.2、FB-RN-430a.3",
+       "titleEn": "Supply Chain Management & Food Sourcing"
       }
      ],
      "content_cn": "",
@@ -474,12 +531,14 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Public Health",
-       "content": "会计指标 4 项：FB-TB-260a.1、FB-TB-260a.2、FB-TB-270a.1、FB-TB-270a.2"
+       "title": "公共卫生",
+       "content": "原文 Public Health；会计指标 4 项：FB-TB-260a.1、FB-TB-260a.2、FB-TB-270a.1、FB-TB-270a.2",
+       "titleEn": "Public Health"
       },
       {
-       "title": "Marketing Practices",
-       "content": "会计指标 2 项：FB-TB-270a.1、FB-TB-270a.2"
+       "title": "营销实践",
+       "content": "原文 Marketing Practices；会计指标 2 项：FB-TB-270a.1、FB-TB-270a.2",
+       "titleEn": "Marketing Practices"
       }
      ],
      "content_cn": "",

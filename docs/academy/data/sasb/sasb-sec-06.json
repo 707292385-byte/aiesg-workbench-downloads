@@ -36,40 +36,49 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions & Energy Resource Planning",
-       "content": "会计指标 19 项：IF-EU-110a.1、IF-EU-110a.2、IF-EU-110a.3、IF-EU-120a.1…"
+       "title": "温室气体排放与能源资源规划",
+       "content": "原文 Greenhouse Gas Emissions & Energy Resource Planning；会计指标 19 项：IF-EU-110a.1、IF-EU-110a.2、IF-EU-110a.3、IF-EU-120a.1…",
+       "titleEn": "Greenhouse Gas Emissions & Energy Resource Planning"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 16 项：IF-EU-120a.1、IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 16 项：IF-EU-120a.1、IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 15 项：IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3、IF-EU-150a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 15 项：IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3、IF-EU-150a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Coal Ash Management",
-       "content": "会计指标 12 项：IF-EU-150a.1、IF-EU-150a.3、IF-EU-240a.1、IF-EU-240a.3…"
+       "title": "粉煤灰管理",
+       "content": "原文 Coal Ash Management；会计指标 12 项：IF-EU-150a.1、IF-EU-150a.3、IF-EU-240a.1、IF-EU-240a.3…",
+       "titleEn": "Coal Ash Management"
       },
       {
-       "title": "Energy Affordability",
-       "content": "会计指标 10 项：IF-EU-240a.1、IF-EU-240a.3、IF-EU-240a.4、IF-EU-320a.1…"
+       "title": "能源可负担性",
+       "content": "原文 Energy Affordability；会计指标 10 项：IF-EU-240a.1、IF-EU-240a.3、IF-EU-240a.4、IF-EU-320a.1…",
+       "titleEn": "Energy Affordability"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 7 项：IF-EU-320a.1、IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 7 项：IF-EU-320a.1、IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "End-Use Efficiency & Demand",
-       "content": "会计指标 6 项：IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1、IF-EU-540a.2…"
+       "title": "终端用能效率与需求",
+       "content": "原文 End-Use Efficiency & Demand；会计指标 6 项：IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1、IF-EU-540a.2…",
+       "titleEn": "End-Use Efficiency & Demand"
       },
       {
-       "title": "Nuclear Safety & Emergency Management",
-       "content": "会计指标 4 项：IF-EU-540a.1、IF-EU-540a.2、IF-EU-550a.1、IF-EU-550a.2"
+       "title": "核安全与应急管理",
+       "content": "原文 Nuclear Safety & Emergency Management；会计指标 4 项：IF-EU-540a.1、IF-EU-540a.2、IF-EU-550a.1、IF-EU-550a.2",
+       "titleEn": "Nuclear Safety & Emergency Management"
       },
       {
-       "title": "Grid Resiliency",
-       "content": "会计指标 2 项：IF-EU-550a.1、IF-EU-550a.2"
+       "title": "电网韧性",
+       "content": "原文 Grid Resiliency；会计指标 2 项：IF-EU-550a.1、IF-EU-550a.2",
+       "titleEn": "Grid Resiliency"
       }
      ],
      "content_cn": "",
@@ -102,28 +111,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Environmental Impacts of Project Development",
-       "content": "会计指标 13 项：IF-EN-160a.1、IF-EN-160a.2、IF-EN-250a.1、IF-EN-250a.2…"
+       "title": "项目开发的环境影响",
+       "content": "原文 Environmental Impacts of Project Development；会计指标 13 项：IF-EN-160a.1、IF-EN-160a.2、IF-EN-250a.1、IF-EN-250a.2…",
+       "titleEn": "Environmental Impacts of Project Development"
       },
       {
-       "title": "Structural Integrity & Safety",
-       "content": "会计指标 11 项：IF-EN-250a.1、IF-EN-250a.2、IF-EN-320a.1、IF-EN-410a.1…"
+       "title": "结构完整性与安全",
+       "content": "原文 Structural Integrity & Safety；会计指标 11 项：IF-EN-250a.1、IF-EN-250a.2、IF-EN-320a.1、IF-EN-410a.1…",
+       "titleEn": "Structural Integrity & Safety"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 9 项：IF-EN-320a.1、IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 9 项：IF-EN-320a.1、IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Lifecycle Impacts of Buildings & Infrastructure",
-       "content": "会计指标 8 项：IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1、IF-EN-410b.2…"
+       "title": "建筑与基础设施全生命周期影响",
+       "content": "原文 Lifecycle Impacts of Buildings & Infrastructure；会计指标 8 项：IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1、IF-EN-410b.2…",
+       "titleEn": "Lifecycle Impacts of Buildings & Infrastructure"
       },
       {
-       "title": "Climate Impacts of Business Mix",
-       "content": "会计指标 6 项：IF-EN-410b.1、IF-EN-410b.2、IF-EN-410b.3、IF-EN-510a.1…"
+       "title": "业务结构的气候影响",
+       "content": "原文 Climate Impacts of Business Mix；会计指标 6 项：IF-EN-410b.1、IF-EN-410b.2、IF-EN-410b.3、IF-EN-510a.1…",
+       "titleEn": "Climate Impacts of Business Mix"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 3 项：IF-EN-510a.1、IF-EN-510a.2、IF-EN-510a.3"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 3 项：IF-EN-510a.1、IF-EN-510a.2、IF-EN-510a.3",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -156,16 +171,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Affordability",
-       "content": "会计指标 8 项：IF-GU-240a.1、IF-GU-240a.3、IF-GU-240a.4、IF-GU-420a.2…"
+       "title": "能源可负担性",
+       "content": "原文 Energy Affordability；会计指标 8 项：IF-GU-240a.1、IF-GU-240a.3、IF-GU-240a.4、IF-GU-420a.2…",
+       "titleEn": "Energy Affordability"
       },
       {
-       "title": "End-Use Efficiency",
-       "content": "会计指标 5 项：IF-GU-420a.2、IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3…"
+       "title": "终端用能效率",
+       "content": "原文 End-Use Efficiency；会计指标 5 项：IF-GU-420a.2、IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3…",
+       "titleEn": "End-Use Efficiency"
       },
       {
-       "title": "Integrity of Gas Delivery Infrastructure",
-       "content": "会计指标 4 项：IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3、IF-GU-540a.4"
+       "title": "输气基础设施完整性",
+       "content": "原文 Integrity of Gas Delivery Infrastructure；会计指标 4 项：IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3、IF-GU-540a.4",
+       "titleEn": "Integrity of Gas Delivery Infrastructure"
       }
      ],
      "content_cn": "",
@@ -198,24 +216,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Land Use & Ecological Impacts",
-       "content": "会计指标 14 项：IF-HB-160a.1、IF-HB-160a.2、IF-HB-160a.3、IF-HB-160a.4…"
+       "title": "土地利用与生态影响",
+       "content": "原文 Land Use & Ecological Impacts；会计指标 14 项：IF-HB-160a.1、IF-HB-160a.2、IF-HB-160a.3、IF-HB-160a.4…",
+       "titleEn": "Land Use & Ecological Impacts"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 10 项：IF-HB-320a.1、IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 10 项：IF-HB-320a.1、IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Design for Resource Efficiency",
-       "content": "会计指标 9 项：IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3、IF-HB-410a.4…"
+       "title": "资源效率导向设计",
+       "content": "原文 Design for Resource Efficiency；会计指标 9 项：IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3、IF-HB-410a.4…",
+       "titleEn": "Design for Resource Efficiency"
       },
       {
-       "title": "Community Impacts of New Developments",
-       "content": "会计指标 5 项：IF-HB-410b.1、IF-HB-410b.2、IF-HB-410b.3、IF-HB-420a.1…"
+       "title": "新建项目的社区影响",
+       "content": "原文 Community Impacts of New Developments；会计指标 5 项：IF-HB-410b.1、IF-HB-410b.2、IF-HB-410b.3、IF-HB-420a.1…",
+       "titleEn": "Community Impacts of New Developments"
       },
       {
-       "title": "Climate Change Adaptation",
-       "content": "会计指标 2 项：IF-HB-420a.1、IF-HB-420a.2"
+       "title": "气候变化适应",
+       "content": "原文 Climate Change Adaptation；会计指标 2 项：IF-HB-420a.1、IF-HB-420a.2",
+       "titleEn": "Climate Change Adaptation"
       }
      ],
      "content_cn": "",
@@ -248,20 +271,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 14 项：IF-RE-130a.1、IF-RE-130a.2、IF-RE-130a.3、IF-RE-130a.4…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 14 项：IF-RE-130a.1、IF-RE-130a.2、IF-RE-130a.3、IF-RE-130a.4…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 9 项：IF-RE-140a.1、IF-RE-140a.2、IF-RE-140a.3、IF-RE-140a.4…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 9 项：IF-RE-140a.1、IF-RE-140a.2、IF-RE-140a.3、IF-RE-140a.4…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Management of Tenant Sustainability Impacts",
-       "content": "会计指标 5 项：IF-RE-410a.1、IF-RE-410a.2、IF-RE-410a.3、IF-RE-450a.1…"
+       "title": "租户可持续影响管理",
+       "content": "原文 Management of Tenant Sustainability Impacts；会计指标 5 项：IF-RE-410a.1、IF-RE-410a.2、IF-RE-410a.3、IF-RE-450a.1…",
+       "titleEn": "Management of Tenant Sustainability Impacts"
       },
       {
-       "title": "Climate Change Adaptation",
-       "content": "会计指标 2 项：IF-RE-450a.1、IF-RE-450a.2"
+       "title": "气候变化适应",
+       "content": "原文 Climate Change Adaptation；会计指标 2 项：IF-RE-450a.1、IF-RE-450a.2",
+       "titleEn": "Climate Change Adaptation"
       }
      ],
      "content_cn": "",
@@ -294,12 +321,14 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Sustainability Services",
-       "content": "会计指标 6 项：IF-RS-410a.1、IF-RS-410a.2、IF-RS-410a.3、IF-RS-510a.1…"
+       "title": "可持续发展服务",
+       "content": "原文 Sustainability Services；会计指标 6 项：IF-RS-410a.1、IF-RS-410a.2、IF-RS-410a.3、IF-RS-510a.1…",
+       "titleEn": "Sustainability Services"
       },
       {
-       "title": "Transparent Information & Management of Conflict of Interest",
-       "content": "披露主题（指标见原件）"
+       "title": "信息透明与利益冲突管理",
+       "content": "原文 Transparent Information & Management of Conflict of Interest；披露主题（指标见原件）",
+       "titleEn": "Transparent Information & Management of Conflict of Interest"
       }
      ],
      "content_cn": "",
@@ -332,32 +361,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 19 项：IF-WM-110a.1、IF-WM-110a.2、IF-WM-110a.3、IF-WM-110b.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 19 项：IF-WM-110a.1、IF-WM-110a.2、IF-WM-110a.3、IF-WM-110b.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Fleet Fuel Management",
-       "content": "会计指标 16 项：IF-WM-110b.1、IF-WM-110b.2、IF-WM-120a.1、IF-WM-120a.2…"
+       "title": "车队燃料管理",
+       "content": "原文 Fleet Fuel Management；会计指标 16 项：IF-WM-110b.1、IF-WM-110b.2、IF-WM-120a.1、IF-WM-120a.2…",
+       "titleEn": "Fleet Fuel Management"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 14 项：IF-WM-120a.1、IF-WM-120a.2、IF-WM-120a.3、IF-WM-150a.1…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 14 项：IF-WM-120a.1、IF-WM-120a.2、IF-WM-120a.3、IF-WM-150a.1…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Management of Leachate & Hazardous Waste",
-       "content": "会计指标 12 项：IF-WM-120a.3、IF-WM-150a.1、IF-WM-150a.2、IF-WM-150a.3…"
+       "title": "渗滤液与危险废弃物管理",
+       "content": "原文 Management of Leachate & Hazardous Waste；会计指标 12 项：IF-WM-120a.3、IF-WM-150a.1、IF-WM-150a.2、IF-WM-150a.3…",
+       "titleEn": "Management of Leachate & Hazardous Waste"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 8 项：IF-WM-310a.1、IF-WM-310a.2、IF-WM-320a.1、IF-WM-320a.3…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 8 项：IF-WM-310a.1、IF-WM-310a.2、IF-WM-320a.1、IF-WM-320a.3…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 6 项：IF-WM-320a.1、IF-WM-320a.3、IF-WM-420a.1、IF-WM-420a.2…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 6 项：IF-WM-320a.1、IF-WM-320a.3、IF-WM-420a.1、IF-WM-420a.2…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Recycling & Resource Recovery",
-       "content": "会计指标 4 项：IF-WM-420a.1、IF-WM-420a.2、IF-WM-420a.3、IF-WM-420a.4"
+       "title": "回收与资源再利用",
+       "content": "原文 Recycling & Resource Recovery；会计指标 4 项：IF-WM-420a.1、IF-WM-420a.2、IF-WM-420a.3、IF-WM-420a.4",
+       "titleEn": "Recycling & Resource Recovery"
       }
      ],
      "content_cn": "",
@@ -390,36 +426,44 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 19 项：IF-WU-130a.1、IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 19 项：IF-WU-130a.1、IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Distribution Network Efficiency",
-       "content": "会计指标 18 项：IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1、IF-WU-140b.2…"
+       "title": "配电网效率",
+       "content": "原文 Distribution Network Efficiency；会计指标 18 项：IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1、IF-WU-140b.2…",
+       "titleEn": "Distribution Network Efficiency"
       },
       {
-       "title": "Effluent Quality Management",
-       "content": "会计指标 16 项：IF-WU-140b.1、IF-WU-140b.2、IF-WU-240a.1、IF-WU-240a.3…"
+       "title": "废水质量管理",
+       "content": "原文 Effluent Quality Management；会计指标 16 项：IF-WU-140b.1、IF-WU-140b.2、IF-WU-240a.1、IF-WU-240a.3…",
+       "titleEn": "Effluent Quality Management"
       },
       {
-       "title": "Water Affordability & Access",
-       "content": "会计指标 14 项：IF-WU-240a.1、IF-WU-240a.3、IF-WU-240a.4、IF-WU-250a.1…"
+       "title": "水价可负担性与用水可及",
+       "content": "原文 Water Affordability & Access；会计指标 14 项：IF-WU-240a.1、IF-WU-240a.3、IF-WU-240a.4、IF-WU-250a.1…",
+       "titleEn": "Water Affordability & Access"
       },
       {
-       "title": "Drinking Water Quality",
-       "content": "会计指标 11 项：IF-WU-250a.1、IF-WU-250a.2、IF-WU-420a.1、IF-WU-420a.2…"
+       "title": "饮用水水质",
+       "content": "原文 Drinking Water Quality；会计指标 11 项：IF-WU-250a.1、IF-WU-250a.2、IF-WU-420a.1、IF-WU-420a.2…",
+       "titleEn": "Drinking Water Quality"
       },
       {
-       "title": "End-Use Efficiency",
-       "content": "会计指标 9 项：IF-WU-420a.1、IF-WU-420a.2、IF-WU-440a.1、IF-WU-440a.2…"
+       "title": "终端用能效率",
+       "content": "原文 End-Use Efficiency；会计指标 9 项：IF-WU-420a.1、IF-WU-420a.2、IF-WU-440a.1、IF-WU-440a.2…",
+       "titleEn": "End-Use Efficiency"
       },
       {
-       "title": "Water Supply Resilience",
-       "content": "会计指标 7 项：IF-WU-440a.1、IF-WU-440a.2、IF-WU-440a.3、IF-WU-450a.1…"
+       "title": "供水韧性",
+       "content": "原文 Water Supply Resilience；会计指标 7 项：IF-WU-440a.1、IF-WU-440a.2、IF-WU-440a.3、IF-WU-450a.1…",
+       "titleEn": "Water Supply Resilience"
       },
       {
-       "title": "Network Resiliency & Impacts of Climate Change",
-       "content": "会计指标 4 项：IF-WU-450a.1、IF-WU-450a.2、IF-WU-450a.3、IF-WU-450a.4"
+       "title": "网络韧性与气候变化影响",
+       "content": "原文 Network Resiliency & Impacts of Climate Change；会计指标 4 项：IF-WU-450a.1、IF-WU-450a.2、IF-WU-450a.3、IF-WU-450a.4",
+       "titleEn": "Network Resiliency & Impacts of Climate Change"
       }
      ],
      "content_cn": "",

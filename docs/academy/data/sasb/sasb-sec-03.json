@@ -36,24 +36,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Transparent Information & Fair Advice for Customers",
-       "content": "会计指标 13 项：FN-AC-270a.1、FN-AC-270a.2、FN-AC-270a.3、FN-AC-330a.1…"
+       "title": "客户信息透明与公平建议",
+       "content": "原文 Transparent Information & Fair Advice for Customers；会计指标 13 项：FN-AC-270a.1、FN-AC-270a.2、FN-AC-270a.3、FN-AC-330a.1…",
+       "titleEn": "Transparent Information & Fair Advice for Customers"
       },
       {
-       "title": "Employee Diversity & Inclusion",
-       "content": "会计指标 11 项：FN-AC-270a.2、FN-AC-330a.1、FN-AC-410a.1、FN-AC-410a.2…"
+       "title": "员工多元与包容",
+       "content": "原文 Employee Diversity & Inclusion；会计指标 11 项：FN-AC-270a.2、FN-AC-330a.1、FN-AC-410a.1、FN-AC-410a.2…",
+       "titleEn": "Employee Diversity & Inclusion"
       },
       {
-       "title": "Incorporation of Environmental, Social, and Governance Factors in Investment Management & Advisory",
-       "content": "披露主题（指标见原件）"
+       "title": "投资管理与咨询中纳入 ESG 因素",
+       "content": "原文 Incorporation of Environmental, Social, and Governance Factors in Investment Management & Advisory；披露主题（指标见原件）",
+       "titleEn": "Incorporation of Environmental, Social, and Governance Factors in Investment Management & Advisory"
       },
       {
-       "title": "Financed Emissions",
-       "content": "会计指标 7 项：FN-AC-270a.2、FN-AC-410b.1、FN-AC-410b.2、FN-AC-410b.3…"
+       "title": "投融资碳排放",
+       "content": "原文 Financed Emissions；会计指标 7 项：FN-AC-270a.2、FN-AC-410b.1、FN-AC-410b.2、FN-AC-410b.3…",
+       "titleEn": "Financed Emissions"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 3 项：FN-AC-270a.2、FN-AC-510a.1、FN-AC-510a.2"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 3 项：FN-AC-270a.2、FN-AC-510a.1、FN-AC-510a.2",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -86,28 +91,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Data Security",
-       "content": "会计指标 15 项：FN-CB-230a.1、FN-CB-230a.2、FN-CB-240a.1、FN-CB-240a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 15 项：FN-CB-230a.1、FN-CB-230a.2、FN-CB-240a.1、FN-CB-240a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Financial Inclusion & Capacity Building",
-       "content": "会计指标 13 项：FN-CB-240a.1、FN-CB-240a.2、FN-CB-240a.3、FN-CB-240a.4…"
+       "title": "普惠金融与能力建设",
+       "content": "原文 Financial Inclusion & Capacity Building；会计指标 13 项：FN-CB-240a.1、FN-CB-240a.2、FN-CB-240a.3、FN-CB-240a.4…",
+       "titleEn": "Financial Inclusion & Capacity Building"
       },
       {
-       "title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
-       "content": "披露主题（指标见原件）"
+       "title": "信用分析中纳入 ESG 因素",
+       "content": "原文 Incorporation of Environmental, Social, and Governance Factors in Credit Analysis；披露主题（指标见原件）",
+       "titleEn": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis"
       },
       {
-       "title": "Financed Emissions",
-       "content": "会计指标 8 项：FN-CB-410b.1、FN-CB-410b.2、FN-CB-410b.3、FN-CB-410b.4…"
+       "title": "投融资碳排放",
+       "content": "原文 Financed Emissions；会计指标 8 项：FN-CB-410b.1、FN-CB-410b.2、FN-CB-410b.3、FN-CB-410b.4…",
+       "titleEn": "Financed Emissions"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 4 项：FN-CB-510a.1、FN-CB-510a.2、FN-CB-550a.1、FN-CB-550a.2"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 4 项：FN-CB-510a.1、FN-CB-510a.2、FN-CB-550a.1、FN-CB-550a.2",
+       "titleEn": "Business Ethics"
       },
       {
-       "title": "Systemic Risk Management",
-       "content": "会计指标 2 项：FN-CB-550a.1、FN-CB-550a.2"
+       "title": "系统性风险管理",
+       "content": "原文 Systemic Risk Management；会计指标 2 项：FN-CB-550a.1、FN-CB-550a.2",
+       "titleEn": "Systemic Risk Management"
       }
      ],
      "content_cn": "",
@@ -140,16 +151,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Customer Privacy",
-       "content": "会计指标 10 项：FN-CF-220a.1、FN-CF-220a.2、FN-CF-230a.1、FN-CF-230a.2…"
+       "title": "客户隐私",
+       "content": "原文 Customer Privacy；会计指标 10 项：FN-CF-220a.1、FN-CF-220a.2、FN-CF-230a.1、FN-CF-230a.2…",
+       "titleEn": "Customer Privacy"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 8 项：FN-CF-230a.1、FN-CF-230a.2、FN-CF-230a.3、FN-CF-270a.1…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 8 项：FN-CF-230a.1、FN-CF-230a.2、FN-CF-230a.3、FN-CF-270a.1…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Selling Practices",
-       "content": "会计指标 5 项：FN-CF-270a.1、FN-CF-270a.2、FN-CF-270a.3、FN-CF-270a.4…"
+       "title": "销售实践",
+       "content": "原文 Selling Practices；会计指标 5 项：FN-CF-270a.1、FN-CF-270a.2、FN-CF-270a.3、FN-CF-270a.4…",
+       "titleEn": "Selling Practices"
       }
      ],
      "content_cn": "",
@@ -182,28 +196,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Transparent Information & Fair Advice for Customers",
-       "content": "会计指标 17 项：FN-IN-270a.1、FN-IN-270a.2、FN-IN-270a.3、FN-IN-270a.4…"
+       "title": "客户信息透明与公平建议",
+       "content": "原文 Transparent Information & Fair Advice for Customers；会计指标 17 项：FN-IN-270a.1、FN-IN-270a.2、FN-IN-270a.3、FN-IN-270a.4…",
+       "titleEn": "Transparent Information & Fair Advice for Customers"
       },
       {
-       "title": "Incorporation of Environmental, Social and Governance Factors in Investment Management",
-       "content": "披露主题（指标见原件）"
+       "title": "投资管理中纳入 ESG 因素",
+       "content": "原文 Incorporation of Environmental, Social and Governance Factors in Investment Management；披露主题（指标见原件）",
+       "titleEn": "Incorporation of Environmental, Social and Governance Factors in Investment Management"
       },
       {
-       "title": "Policies Designed to Incentivise Responsible Behaviour",
-       "content": "会计指标 12 项：FN-IN-410b.1、FN-IN-410b.2、FN-IN-410c.1、FN-IN-410c.2…"
+       "title": "负责任行为激励政策",
+       "content": "原文 Policies Designed to Incentivise Responsible Behaviour；会计指标 12 项：FN-IN-410b.1、FN-IN-410b.2、FN-IN-410c.1、FN-IN-410c.2…",
+       "titleEn": "Policies Designed to Incentivise Responsible Behaviour"
       },
       {
-       "title": "Financed Emissions",
-       "content": "会计指标 10 项：FN-IN-410c.1、FN-IN-410c.2、FN-IN-410c.3、FN-IN-410c.4…"
+       "title": "投融资碳排放",
+       "content": "原文 Financed Emissions；会计指标 10 项：FN-IN-410c.1、FN-IN-410c.2、FN-IN-410c.3、FN-IN-410c.4…",
+       "titleEn": "Financed Emissions"
       },
       {
-       "title": "Physical Risk Exposure",
-       "content": "会计指标 6 项：FN-IN-450a.1、FN-IN-450a.2、FN-IN-450a.3、FN-IN-550a.1…"
+       "title": "物理风险敞口",
+       "content": "原文 Physical Risk Exposure；会计指标 6 项：FN-IN-450a.1、FN-IN-450a.2、FN-IN-450a.3、FN-IN-550a.1…",
+       "titleEn": "Physical Risk Exposure"
       },
       {
-       "title": "Systemic Risk Management",
-       "content": "会计指标 3 项：FN-IN-550a.1、FN-IN-550a.2、FN-IN-550a.3"
+       "title": "系统性风险管理",
+       "content": "原文 Systemic Risk Management；会计指标 3 项：FN-IN-550a.1、FN-IN-550a.2、FN-IN-550a.3",
+       "titleEn": "Systemic Risk Management"
       }
      ],
      "content_cn": "",
@@ -236,24 +256,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Employee Diversity & Inclusion",
-       "content": "会计指标 15 项：FN-IB-330a.1、FN-IB-410a.1、FN-IB-410a.2、FN-IB-410a.3…"
+       "title": "员工多元与包容",
+       "content": "原文 Employee Diversity & Inclusion；会计指标 15 项：FN-IB-330a.1、FN-IB-410a.1、FN-IB-410a.2、FN-IB-410a.3…",
+       "titleEn": "Employee Diversity & Inclusion"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 11 项：FN-IB-510a.1、FN-IB-510a.2、FN-IB-510b.1、FN-IB-510b.2…"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 11 项：FN-IB-510a.1、FN-IB-510a.2、FN-IB-510b.1、FN-IB-510b.2…",
+       "titleEn": "Business Ethics"
       },
       {
-       "title": "Professional Integrity",
-       "content": "会计指标 10 项：FN-IB-510a.1、FN-IB-510b.1、FN-IB-510b.2、FN-IB-510b.3…"
+       "title": "职业操守",
+       "content": "原文 Professional Integrity；会计指标 10 项：FN-IB-510a.1、FN-IB-510b.1、FN-IB-510b.2、FN-IB-510b.3…",
+       "titleEn": "Professional Integrity"
       },
       {
-       "title": "Systemic Risk Management",
-       "content": "会计指标 5 项：FN-IB-550a.1、FN-IB-550a.2、FN-IB-550b.1、FN-IB-550b.2…"
+       "title": "系统性风险管理",
+       "content": "原文 Systemic Risk Management；会计指标 5 项：FN-IB-550a.1、FN-IB-550a.2、FN-IB-550b.1、FN-IB-550b.2…",
+       "titleEn": "Systemic Risk Management"
       },
       {
-       "title": "Employee Incentives & Risk-taking",
-       "content": "会计指标 3 项：FN-IB-550b.1、FN-IB-550b.2、FN-IB-550b.3"
+       "title": "员工激励与风险承担",
+       "content": "原文 Employee Incentives & Risk-taking；会计指标 3 项：FN-IB-550b.1、FN-IB-550b.2、FN-IB-550b.3",
+       "titleEn": "Employee Incentives & Risk-taking"
       }
      ],
      "content_cn": "",
@@ -286,16 +311,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Lending Practices",
-       "content": "会计指标 10 项：FN-MF-270a.1、FN-MF-270a.2、FN-MF-270a.3、FN-MF-270a.4…"
+       "title": "放贷实践",
+       "content": "原文 Lending Practices；会计指标 10 项：FN-MF-270a.1、FN-MF-270a.2、FN-MF-270a.3、FN-MF-270a.4…",
+       "titleEn": "Lending Practices"
       },
       {
-       "title": "Discriminatory Lending",
-       "content": "会计指标 6 项：FN-MF-270b.1、FN-MF-270b.2、FN-MF-270b.3、FN-MF-450a.1…"
+       "title": "歧视性放贷",
+       "content": "原文 Discriminatory Lending；会计指标 6 项：FN-MF-270b.1、FN-MF-270b.2、FN-MF-270b.3、FN-MF-450a.1…",
+       "titleEn": "Discriminatory Lending"
       },
       {
-       "title": "Environmental Risk to Mortgaged Properties",
-       "content": "会计指标 3 项：FN-MF-450a.1、FN-MF-450a.2、FN-MF-450a.3"
+       "title": "抵押物业环境风险",
+       "content": "原文 Environmental Risk to Mortgaged Properties；会计指标 3 项：FN-MF-450a.1、FN-MF-450a.2、FN-MF-450a.3",
+       "titleEn": "Environmental Risk to Mortgaged Properties"
       }
      ],
      "content_cn": "",
@@ -328,16 +356,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Promoting Transparent & Efficient Capital Markets",
-       "content": "会计指标 9 项：FN-EX-410a.1、FN-EX-410a.2、FN-EX-410a.3、FN-EX-410a.4…"
+       "title": "促进资本市场透明与高效",
+       "content": "原文 Promoting Transparent & Efficient Capital Markets；会计指标 9 项：FN-EX-410a.1、FN-EX-410a.2、FN-EX-410a.3、FN-EX-410a.4…",
+       "titleEn": "Promoting Transparent & Efficient Capital Markets"
       },
       {
-       "title": "Managing Conflicts of Interest",
-       "content": "会计指标 6 项：FN-EX-410a.1、FN-EX-510a.1、FN-EX-510a.2、FN-EX-550a.1…"
+       "title": "利益冲突管理",
+       "content": "原文 Managing Conflicts of Interest；会计指标 6 项：FN-EX-410a.1、FN-EX-510a.1、FN-EX-510a.2、FN-EX-550a.1…",
+       "titleEn": "Managing Conflicts of Interest"
       },
       {
-       "title": "Managing Business Continuity & Technology Risks",
-       "content": "会计指标 4 项：FN-EX-410a.1、FN-EX-550a.1、FN-EX-550a.2、FN-EX-550a.3"
+       "title": "业务连续性与技术风险管理",
+       "content": "原文 Managing Business Continuity & Technology Risks；会计指标 4 项：FN-EX-410a.1、FN-EX-550a.1、FN-EX-550a.2、FN-EX-550a.3",
+       "titleEn": "Managing Business Continuity & Technology Risks"
       }
      ],
      "content_cn": "",

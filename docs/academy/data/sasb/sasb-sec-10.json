@@ -36,28 +36,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Water Management",
-       "content": "会计指标 8 项：TC-ES-140a.1、TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 8 项：TC-ES-140a.1、TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Waste Management",
-       "content": "会计指标 7 项：TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2…"
+       "title": "废弃物管理",
+       "content": "原文 Waste Management；会计指标 7 项：TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2…",
+       "titleEn": "Waste Management"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 6 项：TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 6 项：TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Workforce Conditions, Health & Safety",
-       "content": "会计指标 5 项：TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3、TC-ES-410a.1…"
+       "title": "员工条件、健康与安全",
+       "content": "原文 Workforce Conditions, Health & Safety；会计指标 5 项：TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3、TC-ES-410a.1…",
+       "titleEn": "Workforce Conditions, Health & Safety"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 2 项：TC-ES-410a.1、TC-ES-440a.1"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 2 项：TC-ES-410a.1、TC-ES-440a.1",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 1 项：TC-ES-440a.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 1 项：TC-ES-440a.1",
+       "titleEn": "Materials Sourcing"
       }
      ],
      "content_cn": "",
@@ -90,24 +96,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Product Security",
-       "content": "会计指标 9 项：TC-HW-230a.1、TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2…"
+       "title": "产品安全防护",
+       "content": "原文 Product Security；会计指标 9 项：TC-HW-230a.1、TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2…",
+       "titleEn": "Product Security"
       },
       {
-       "title": "Employee Diversity & Inclusion",
-       "content": "会计指标 8 项：TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3…"
+       "title": "员工多元与包容",
+       "content": "原文 Employee Diversity & Inclusion；会计指标 8 项：TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3…",
+       "titleEn": "Employee Diversity & Inclusion"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 7 项：TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3、TC-HW-410a.4…"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 7 项：TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3、TC-HW-410a.4…",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 3 项：TC-HW-430a.1、TC-HW-430a.2、TC-HW-440a.1"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 3 项：TC-HW-430a.1、TC-HW-430a.2、TC-HW-440a.1",
+       "titleEn": "Supply Chain Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 1 项：TC-HW-440a.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 1 项：TC-HW-440a.1",
+       "titleEn": "Materials Sourcing"
       }
      ],
      "content_cn": "",
@@ -140,24 +151,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Environmental Footprint of Hardware Infrastructure",
-       "content": "会计指标 15 项：TC-IM-130a.1、TC-IM-130a.2、TC-IM-130a.3、TC-IM-220a.1…"
+       "title": "硬件基础设施环境足迹",
+       "content": "原文 Environmental Footprint of Hardware Infrastructure；会计指标 15 项：TC-IM-130a.1、TC-IM-130a.2、TC-IM-130a.3、TC-IM-220a.1…",
+       "titleEn": "Environmental Footprint of Hardware Infrastructure"
       },
       {
-       "title": "Data Privacy, Advertising Standards & Freedom of Expression",
-       "content": "披露主题（指标见原件）"
+       "title": "数据隐私、广告规范与表达自由",
+       "content": "原文 Data Privacy, Advertising Standards & Freedom of Expression；披露主题（指标见原件）",
+       "titleEn": "Data Privacy, Advertising Standards & Freedom of Expression"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 6 项：TC-IM-230a.1、TC-IM-230a.2、TC-IM-330a.1、TC-IM-330a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 6 项：TC-IM-230a.1、TC-IM-230a.2、TC-IM-330a.1、TC-IM-330a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Employee Recruitment, Inclusion & Performance",
-       "content": "会计指标 4 项：TC-IM-330a.1、TC-IM-330a.2、TC-IM-330a.3、TC-IM-520a.1"
+       "title": "员工招聘、包容与绩效",
+       "content": "原文 Employee Recruitment, Inclusion & Performance；会计指标 4 项：TC-IM-330a.1、TC-IM-330a.2、TC-IM-330a.3、TC-IM-520a.1",
+       "titleEn": "Employee Recruitment, Inclusion & Performance"
       },
       {
-       "title": "Intellectual Property Protection & Competitive Behaviour",
-       "content": "会计指标 1 项：TC-IM-520a.1"
+       "title": "知识产权保护与竞争行为",
+       "content": "原文 Intellectual Property Protection & Competitive Behaviour；会计指标 1 项：TC-IM-520a.1",
+       "titleEn": "Intellectual Property Protection & Competitive Behaviour"
       }
      ],
      "content_cn": "",
@@ -190,40 +206,49 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 12 项：TC-SC-110a.1、TC-SC-110a.2、TC-SC-130a.1、TC-SC-140a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 12 项：TC-SC-110a.1、TC-SC-110a.2、TC-SC-130a.1、TC-SC-140a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Energy Management in Manufacturing",
-       "content": "会计指标 10 项：TC-SC-130a.1、TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1…"
+       "title": "制造环节能源管理",
+       "content": "原文 Energy Management in Manufacturing；会计指标 10 项：TC-SC-130a.1、TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1…",
+       "titleEn": "Energy Management in Manufacturing"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 9 项：TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 9 项：TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Waste Management",
-       "content": "会计指标 8 项：TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1…"
+       "title": "废弃物管理",
+       "content": "原文 Waste Management；会计指标 8 项：TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1…",
+       "titleEn": "Waste Management"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 7 项：TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1、TC-SC-410a.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 7 项：TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1、TC-SC-410a.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Recruiting & Managing a Global & Skilled Workforce",
-       "content": "会计指标 5 项：TC-SC-330a.1、TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1…"
+       "title": "全球化与高技能人才招聘管理",
+       "content": "原文 Recruiting & Managing a Global & Skilled Workforce；会计指标 5 项：TC-SC-330a.1、TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1…",
+       "titleEn": "Recruiting & Managing a Global & Skilled Workforce"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 4 项：TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1、TC-SC-520a.1"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 4 项：TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1、TC-SC-520a.1",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 2 项：TC-SC-440a.1、TC-SC-520a.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 2 项：TC-SC-440a.1、TC-SC-520a.1",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Intellectual Property Protection & Competitive Behaviour",
-       "content": "会计指标 1 项：TC-SC-520a.1"
+       "title": "知识产权保护与竞争行为",
+       "content": "原文 Intellectual Property Protection & Competitive Behaviour；会计指标 1 项：TC-SC-520a.1",
+       "titleEn": "Intellectual Property Protection & Competitive Behaviour"
       }
      ],
      "content_cn": "",
@@ -256,28 +281,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Environmental Footprint of Hardware Infrastructure",
-       "content": "会计指标 16 项：TC-SI-130a.1、TC-SI-130a.2、TC-SI-130a.3、TC-SI-220a.1…"
+       "title": "硬件基础设施环境足迹",
+       "content": "原文 Environmental Footprint of Hardware Infrastructure；会计指标 16 项：TC-SI-130a.1、TC-SI-130a.2、TC-SI-130a.3、TC-SI-220a.1…",
+       "titleEn": "Environmental Footprint of Hardware Infrastructure"
       },
       {
-       "title": "Data Privacy & Freedom of Expression",
-       "content": "会计指标 13 项：TC-SI-220a.1、TC-SI-220a.2、TC-SI-220a.3、TC-SI-220a.4…"
+       "title": "数据隐私与表达自由",
+       "content": "原文 Data Privacy & Freedom of Expression；会计指标 13 项：TC-SI-220a.1、TC-SI-220a.2、TC-SI-220a.3、TC-SI-220a.4…",
+       "titleEn": "Data Privacy & Freedom of Expression"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 8 项：TC-SI-230a.1、TC-SI-230a.2、TC-SI-330a.1、TC-SI-330a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 8 项：TC-SI-230a.1、TC-SI-230a.2、TC-SI-330a.1、TC-SI-330a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Recruiting & Managing a Global, Diverse & Skilled Workforce",
-       "content": "披露主题（指标见原件）"
+       "title": "全球化、多元与高技能人才管理",
+       "content": "原文 Recruiting & Managing a Global, Diverse & Skilled Workforce；披露主题（指标见原件）",
+       "titleEn": "Recruiting & Managing a Global, Diverse & Skilled Workforce"
       },
       {
-       "title": "Intellectual Property Protection & Competitive Behaviour",
-       "content": "会计指标 3 项：TC-SI-520a.1、TC-SI-550a.1、TC-SI-550a.2"
+       "title": "知识产权保护与竞争行为",
+       "content": "原文 Intellectual Property Protection & Competitive Behaviour；会计指标 3 项：TC-SI-520a.1、TC-SI-550a.1、TC-SI-550a.2",
+       "titleEn": "Intellectual Property Protection & Competitive Behaviour"
       },
       {
-       "title": "Managing Systemic Risks from Technology Disruptions",
-       "content": "会计指标 2 项：TC-SI-550a.1、TC-SI-550a.2"
+       "title": "技术中断的系统性风险管理",
+       "content": "原文 Managing Systemic Risks from Technology Disruptions；会计指标 2 项：TC-SI-550a.1、TC-SI-550a.2",
+       "titleEn": "Managing Systemic Risks from Technology Disruptions"
       }
      ],
      "content_cn": "",
@@ -310,28 +341,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Environmental Footprint of Operations",
-       "content": "会计指标 13 项：TC-TL-130a.1、TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3…"
+       "title": "运营环境足迹",
+       "content": "原文 Environmental Footprint of Operations；会计指标 13 项：TC-TL-130a.1、TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3…",
+       "titleEn": "Environmental Footprint of Operations"
       },
       {
-       "title": "Data Privacy",
-       "content": "会计指标 12 项：TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3、TC-TL-220a.4…"
+       "title": "数据隐私",
+       "content": "原文 Data Privacy；会计指标 12 项：TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3、TC-TL-220a.4…",
+       "titleEn": "Data Privacy"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 8 项：TC-TL-230a.1、TC-TL-230a.2、TC-TL-440a.1、TC-TL-520a.1…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 8 项：TC-TL-230a.1、TC-TL-230a.2、TC-TL-440a.1、TC-TL-520a.1…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Product End-of-life Management",
-       "content": "会计指标 6 项：TC-TL-440a.1、TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3…"
+       "title": "产品报废管理",
+       "content": "原文 Product End-of-life Management；会计指标 6 项：TC-TL-440a.1、TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3…",
+       "titleEn": "Product End-of-life Management"
       },
       {
-       "title": "Competitive Behaviour & Open Internet",
-       "content": "会计指标 5 项：TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3、TC-TL-550a.1…"
+       "title": "竞争行为与开放互联网",
+       "content": "原文 Competitive Behaviour & Open Internet；会计指标 5 项：TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3、TC-TL-550a.1…",
+       "titleEn": "Competitive Behaviour & Open Internet"
       },
       {
-       "title": "Managing Systemic Risks from Technology Disruptions",
-       "content": "会计指标 2 项：TC-TL-550a.1、TC-TL-550a.2"
+       "title": "技术中断的系统性风险管理",
+       "content": "原文 Managing Systemic Risks from Technology Disruptions；会计指标 2 项：TC-TL-550a.1、TC-TL-550a.2",
+       "titleEn": "Managing Systemic Risks from Technology Disruptions"
       }
      ],
      "content_cn": "",

@@ -36,40 +36,49 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Safety of Clinical Trial Participants",
-       "content": "会计指标 22 项：HC-BP-210a.1、HC-BP-210a.2、HC-BP-210a.3、HC-BP-240a.1…"
+       "title": "临床试验受试者安全",
+       "content": "原文 Safety of Clinical Trial Participants；会计指标 22 项：HC-BP-210a.1、HC-BP-210a.2、HC-BP-210a.3、HC-BP-240a.1…",
+       "titleEn": "Safety of Clinical Trial Participants"
       },
       {
-       "title": "Access to Medicines",
-       "content": "会计指标 19 项：HC-BP-240a.1、HC-BP-240a.2、HC-BP-240b.2、HC-BP-240b.3…"
+       "title": "药品可及性",
+       "content": "原文 Access to Medicines；会计指标 19 项：HC-BP-240a.1、HC-BP-240a.2、HC-BP-240b.2、HC-BP-240b.3…",
+       "titleEn": "Access to Medicines"
       },
       {
-       "title": "Affordability & Pricing",
-       "content": "会计指标 17 项：HC-BP-240b.2、HC-BP-240b.3、HC-BP-250a.1、HC-BP-250a.2…"
+       "title": "可负担性与定价",
+       "content": "原文 Affordability & Pricing；会计指标 17 项：HC-BP-240b.2、HC-BP-240b.3、HC-BP-250a.1、HC-BP-250a.2…",
+       "titleEn": "Affordability & Pricing"
       },
       {
-       "title": "Drug Safety",
-       "content": "会计指标 15 项：HC-BP-250a.1、HC-BP-250a.2、HC-BP-250a.3、HC-BP-250a.4…"
+       "title": "药品安全",
+       "content": "原文 Drug Safety；会计指标 15 项：HC-BP-250a.1、HC-BP-250a.2、HC-BP-250a.3、HC-BP-250a.4…",
+       "titleEn": "Drug Safety"
       },
       {
-       "title": "Counterfeit Drugs",
-       "content": "会计指标 10 项：HC-BP-260a.1、HC-BP-260a.2、HC-BP-260a.3、HC-BP-270a.1…"
+       "title": "假药管理",
+       "content": "原文 Counterfeit Drugs；会计指标 10 项：HC-BP-260a.1、HC-BP-260a.2、HC-BP-260a.3、HC-BP-270a.1…",
+       "titleEn": "Counterfeit Drugs"
       },
       {
-       "title": "Ethical Marketing",
-       "content": "会计指标 7 项：HC-BP-270a.1、HC-BP-270a.2、HC-BP-330a.1、HC-BP-330a.2…"
+       "title": "诚信营销",
+       "content": "原文 Ethical Marketing；会计指标 7 项：HC-BP-270a.1、HC-BP-270a.2、HC-BP-330a.1、HC-BP-330a.2…",
+       "titleEn": "Ethical Marketing"
       },
       {
-       "title": "Employee Recruitment, Development & Retention",
-       "content": "会计指标 5 项：HC-BP-330a.1、HC-BP-330a.2、HC-BP-430a.1、HC-BP-510a.1…"
+       "title": "员工招聘、发展与保留",
+       "content": "原文 Employee Recruitment, Development & Retention；会计指标 5 项：HC-BP-330a.1、HC-BP-330a.2、HC-BP-430a.1、HC-BP-510a.1…",
+       "titleEn": "Employee Recruitment, Development & Retention"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 3 项：HC-BP-430a.1、HC-BP-510a.1、HC-BP-510a.2"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 3 项：HC-BP-430a.1、HC-BP-510a.1、HC-BP-510a.2",
+       "titleEn": "Supply Chain Management"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 2 项：HC-BP-510a.1、HC-BP-510a.2"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 2 项：HC-BP-510a.1、HC-BP-510a.2",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -102,24 +111,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management in Retail",
-       "content": "会计指标 10 项：HC-DR-130a.1、HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3…"
+       "title": "零售环节能源管理",
+       "content": "原文 Energy Management in Retail；会计指标 10 项：HC-DR-130a.1、HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3…",
+       "titleEn": "Energy Management in Retail"
       },
       {
-       "title": "Data Security & Privacy",
-       "content": "会计指标 9 项：HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3、HC-DR-250a.1…"
+       "title": "数据安全与隐私",
+       "content": "原文 Data Security & Privacy；会计指标 9 项：HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3、HC-DR-250a.1…",
+       "titleEn": "Data Security & Privacy"
       },
       {
-       "title": "Drug Supply Chain Integrity",
-       "content": "会计指标 6 项：HC-DR-250a.1、HC-DR-250a.2、HC-DR-260a.2、HC-DR-260b.1…"
+       "title": "药品供应链完整性",
+       "content": "原文 Drug Supply Chain Integrity；会计指标 6 项：HC-DR-250a.1、HC-DR-250a.2、HC-DR-260a.2、HC-DR-260b.1…",
+       "titleEn": "Drug Supply Chain Integrity"
       },
       {
-       "title": "Management of Controlled Substances",
-       "content": "会计指标 4 项：HC-DR-260a.2、HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3"
+       "title": "管制药品管理",
+       "content": "原文 Management of Controlled Substances；会计指标 4 项：HC-DR-260a.2、HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3",
+       "titleEn": "Management of Controlled Substances"
       },
       {
-       "title": "Patient Health Outcomes",
-       "content": "会计指标 3 项：HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3"
+       "title": "患者健康结果",
+       "content": "原文 Patient Health Outcomes；会计指标 3 项：HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3",
+       "titleEn": "Patient Health Outcomes"
       }
      ],
      "content_cn": "",
@@ -152,48 +166,59 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 19 项：HC-DY-130a.1、HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 19 项：HC-DY-130a.1、HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Waste Management",
-       "content": "会计指标 18 项：HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2、HC-DY-230a.3…"
+       "title": "废弃物管理",
+       "content": "原文 Waste Management；会计指标 18 项：HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2、HC-DY-230a.3…",
+       "titleEn": "Waste Management"
       },
       {
-       "title": "Patient Privacy & Electronic Health Records",
-       "content": "会计指标 16 项：HC-DY-230a.2、HC-DY-230a.3、HC-DY-230a.4、HC-DY-240a.1…"
+       "title": "患者隐私与电子病历",
+       "content": "原文 Patient Privacy & Electronic Health Records；会计指标 16 项：HC-DY-230a.2、HC-DY-230a.3、HC-DY-230a.4、HC-DY-240a.1…",
+       "titleEn": "Patient Privacy & Electronic Health Records"
       },
       {
-       "title": "Access for Low-Income Patients",
-       "content": "会计指标 13 项：HC-DY-240a.1、HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6…"
+       "title": "低收入患者用药可及性",
+       "content": "原文 Access for Low-Income Patients；会计指标 13 项：HC-DY-240a.1、HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6…",
+       "titleEn": "Access for Low-Income Patients"
       },
       {
-       "title": "Quality of Care & Patient Satisfaction",
-       "content": "会计指标 12 项：HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6、HC-DY-260a.1…"
+       "title": "医疗质量与患者满意度",
+       "content": "原文 Quality of Care & Patient Satisfaction；会计指标 12 项：HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6、HC-DY-260a.1…",
+       "titleEn": "Quality of Care & Patient Satisfaction"
       },
       {
-       "title": "Management of Controlled Substances",
-       "content": "会计指标 9 项：HC-DY-260a.1、HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3…"
+       "title": "管制药品管理",
+       "content": "原文 Management of Controlled Substances；会计指标 9 项：HC-DY-260a.1、HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3…",
+       "titleEn": "Management of Controlled Substances"
       },
       {
-       "title": "Pricing & Billing Transparency",
-       "content": "会计指标 8 项：HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3、HC-DY-320a.1…"
+       "title": "定价与账单透明度",
+       "content": "原文 Pricing & Billing Transparency；会计指标 8 项：HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3、HC-DY-320a.1…",
+       "titleEn": "Pricing & Billing Transparency"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 5 项：HC-DY-320a.1、HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 5 项：HC-DY-320a.1、HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Employee Recruitment, Development & Retention",
-       "content": "会计指标 4 项：HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1、HC-DY-510a.1"
+       "title": "员工招聘、发展与保留",
+       "content": "原文 Employee Recruitment, Development & Retention；会计指标 4 项：HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1、HC-DY-510a.1",
+       "titleEn": "Employee Recruitment, Development & Retention"
       },
       {
-       "title": "Climate Change Impacts on Human Health & Infrastructure",
-       "content": "会计指标 2 项：HC-DY-450a.1、HC-DY-510a.1"
+       "title": "气候变化对健康与基础设施的影响",
+       "content": "原文 Climate Change Impacts on Human Health & Infrastructure；会计指标 2 项：HC-DY-450a.1、HC-DY-510a.1",
+       "titleEn": "Climate Change Impacts on Human Health & Infrastructure"
       },
       {
-       "title": "Fraud & Unnecessary Procedures",
-       "content": "会计指标 1 项：HC-DY-510a.1"
+       "title": "欺诈与过度医疗",
+       "content": "原文 Fraud & Unnecessary Procedures；会计指标 1 项：HC-DY-510a.1",
+       "titleEn": "Fraud & Unnecessary Procedures"
       }
      ],
      "content_cn": "",
@@ -226,24 +251,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Fleet Fuel Management",
-       "content": "会计指标 11 项：HC-DI-110a.1、HC-DI-110a.2、HC-DI-250a.1、HC-DI-250a.2…"
+       "title": "车队燃料管理",
+       "content": "原文 Fleet Fuel Management；会计指标 11 项：HC-DI-110a.1、HC-DI-110a.2、HC-DI-250a.1、HC-DI-250a.2…",
+       "titleEn": "Fleet Fuel Management"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 9 项：HC-DI-250a.1、HC-DI-250a.2、HC-DI-260a.1、HC-DI-260a.2…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 9 项：HC-DI-250a.1、HC-DI-250a.2、HC-DI-260a.1、HC-DI-260a.2…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Counterfeit Drugs",
-       "content": "会计指标 7 项：HC-DI-260a.1、HC-DI-260a.2、HC-DI-260a.3、HC-DI-410a.1…"
+       "title": "假药管理",
+       "content": "原文 Counterfeit Drugs；会计指标 7 项：HC-DI-260a.1、HC-DI-260a.2、HC-DI-260a.3、HC-DI-410a.1…",
+       "titleEn": "Counterfeit Drugs"
       },
       {
-       "title": "Product Lifecycle Management",
-       "content": "会计指标 4 项：HC-DI-410a.1、HC-DI-410a.2、HC-DI-510a.1、HC-DI-510a.2"
+       "title": "产品全生命周期管理",
+       "content": "原文 Product Lifecycle Management；会计指标 4 项：HC-DI-410a.1、HC-DI-410a.2、HC-DI-510a.1、HC-DI-510a.2",
+       "titleEn": "Product Lifecycle Management"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 2 项：HC-DI-510a.1、HC-DI-510a.2"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 2 项：HC-DI-510a.1、HC-DI-510a.2",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",
@@ -276,24 +306,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Customer Privacy & Technology Standards",
-       "content": "会计指标 12 项：HC-MC-230a.1、HC-MC-230a.2、HC-MC-230a.3、HC-MC-240a.1…"
+       "title": "客户隐私与技术标准",
+       "content": "原文 Customer Privacy & Technology Standards；会计指标 12 项：HC-MC-230a.1、HC-MC-230a.2、HC-MC-230a.3、HC-MC-240a.1…",
+       "titleEn": "Customer Privacy & Technology Standards"
       },
       {
-       "title": "Access to Coverage",
-       "content": "会计指标 9 项：HC-MC-240a.1、HC-MC-240a.4、HC-MC-250a.2、HC-MC-250a.3…"
+       "title": "保险覆盖可及性",
+       "content": "原文 Access to Coverage；会计指标 9 项：HC-MC-240a.1、HC-MC-240a.4、HC-MC-250a.2、HC-MC-250a.3…",
+       "titleEn": "Access to Coverage"
       },
       {
-       "title": "Plan Performance",
-       "content": "会计指标 7 项：HC-MC-250a.2、HC-MC-250a.3、HC-MC-250a.4、HC-MC-250a.5…"
+       "title": "医保计划绩效",
+       "content": "原文 Plan Performance；会计指标 7 项：HC-MC-250a.2、HC-MC-250a.3、HC-MC-250a.4、HC-MC-250a.5…",
+       "titleEn": "Plan Performance"
       },
       {
-       "title": "Improved Outcomes",
-       "content": "会计指标 3 项：HC-MC-260a.1、HC-MC-260a.4、HC-MC-450a.1"
+       "title": "健康结果改善",
+       "content": "原文 Improved Outcomes；会计指标 3 项：HC-MC-260a.1、HC-MC-260a.4、HC-MC-450a.1",
+       "titleEn": "Improved Outcomes"
       },
       {
-       "title": "Climate Change Impacts on Human Health",
-       "content": "会计指标 1 项：HC-MC-450a.1"
+       "title": "气候变化对人体健康的影响",
+       "content": "原文 Climate Change Impacts on Human Health；会计指标 1 项：HC-MC-450a.1",
+       "titleEn": "Climate Change Impacts on Human Health"
       }
      ],
      "content_cn": "",
@@ -326,28 +361,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Affordability & Pricing",
-       "content": "会计指标 15 项：HC-MS-240a.2、HC-MS-240a.3、HC-MS-250a.1、HC-MS-250a.2…"
+       "title": "可负担性与定价",
+       "content": "原文 Affordability & Pricing；会计指标 15 项：HC-MS-240a.2、HC-MS-240a.3、HC-MS-250a.1、HC-MS-250a.2…",
+       "titleEn": "Affordability & Pricing"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 13 项：HC-MS-250a.1、HC-MS-250a.2、HC-MS-250a.3、HC-MS-250a.4…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 13 项：HC-MS-250a.1、HC-MS-250a.2、HC-MS-250a.3、HC-MS-250a.4…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Ethical Marketing",
-       "content": "会计指标 9 项：HC-MS-270a.1、HC-MS-270a.2、HC-MS-410a.1、HC-MS-410a.2…"
+       "title": "诚信营销",
+       "content": "原文 Ethical Marketing；会计指标 9 项：HC-MS-270a.1、HC-MS-270a.2、HC-MS-410a.1、HC-MS-410a.2…",
+       "titleEn": "Ethical Marketing"
       },
       {
-       "title": "Product Design & Lifecycle Management",
-       "content": "会计指标 7 项：HC-MS-410a.1、HC-MS-410a.2、HC-MS-430a.1、HC-MS-430a.2…"
+       "title": "产品设计与全生命周期管理",
+       "content": "原文 Product Design & Lifecycle Management；会计指标 7 项：HC-MS-410a.1、HC-MS-410a.2、HC-MS-430a.1、HC-MS-430a.2…",
+       "titleEn": "Product Design & Lifecycle Management"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 5 项：HC-MS-430a.1、HC-MS-430a.2、HC-MS-430a.3、HC-MS-510a.1…"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 5 项：HC-MS-430a.1、HC-MS-430a.2、HC-MS-430a.3、HC-MS-510a.1…",
+       "titleEn": "Supply Chain Management"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 2 项：HC-MS-510a.1、HC-MS-510a.2"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 2 项：HC-MS-510a.1、HC-MS-510a.2",
+       "titleEn": "Business Ethics"
       }
      ],
      "content_cn": "",

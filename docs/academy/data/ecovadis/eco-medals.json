@@ -1,460 +1,441 @@
 {
- "id": "eco-medals",
- "title": "EcoVadis 奖牌方法学",
- "eyebrow": "公开方法学披露文件",
- "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rating Scale Type；…",
- "tags": [
-  "EcoVadis",
-  "评分与认可"
- ],
- "group": "评分与认可",
- "status": "",
- "officialUrl": "https://ecovadis.com/",
- "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
- "learningLayers": [
-  "original"
- ],
- "sections": [
-  {
-   "id": "s1",
-   "title": "引言（披露目的）",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+  "id": "eco-medals",
+  "title": "EcoVadis 奖牌方法学",
+  "eyebrow": "公开方法学披露文件",
+  "summary": "EcoVadis 奖牌方法学（V2.0，2026年1月生效）公开披露文件：奖牌依可持续性评级聚合结果，按百分位授予铂金、金、银、铜四等，并规定资格排除、不合格标准、数据流程与修订等规则，以符合欧盟 ESG 评级法规（EU 2024/3005）。",
+  "tags": [
+    "EcoVadis",
+    "评分与认可"
+  ],
+  "group": "评分与认可",
+  "status": "",
+  "officialUrl": "https://ecovadis.com/",
+  "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+  "learningLayers": [
+    "original"
+  ],
+  "sections": [
     {
-     "type": "standard",
-     "title": "引言（披露目的）",
-     "content_cn": "EcoVadis Medals \nMethodology disclosure document for \nthe public, rating users and rated \nitems\n \n\n \nDocument classification: \n       \nEcoVadis Public\n1/19              \n\n \nTable of contents \n \n1. Rating Product Disclosure\n3 \n1.1. Objective and approach to materiality\n3 \n1.2. Scope\n3 \n1.3. Rating Scale Type\n4 \n1.4. Coverage of international agreements\n4 \n2. General Methodological Disclosures\n4 \n2.1. Methodology overview\n4 \n2.2. Methodology assumptions & models\n6 \n2.3. Ranking System\n8 \n2.4. Industry classification\n9 \n2.5. Data sources\n10 \n2.6. Data processes\n11 \n2.7. Data quality\n12 \n2.8. Assessment process quality\n12 \n2.9. Monitoring availability of new information in between assessments\n12 \n2.10. Engagement with rated companies\n13 \n2.11. Scientific basis\n13 \n2.12. Usage of AI-based tools\n14 \n3. Limitations in data sources, methodologies and information\n14 \n3.1. Methodology limitations\n14 \n3.2. Means of addressing limitations in data sources\n14 \n4. Methodology revision\n15 \n5. Organisational Disclosures\n18 \n6. Legal notices\n19 \n \n\n \nDocument classification: \n       \nEcoVadis Public\n2/19              \n\n \nThis disclosure document is intended to ensure compliance with Annex III to the EU \nRegulation 2024/3005 on the transparency and integrity of Environmental, Social and \nGovernance (ESG) rating activities, and the Delegated Regulation supplementing Regulation \n(EU) 2024/3005.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s2",
-   "title": "1.1. Objective and approach to materiality",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s1",
+      "title": "引言（披露目的）",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "引言（披露目的）",
+          "content": "EcoVadis Medals Methodology disclosure document for the public, rating users and rated items.\n\nThis disclosure document is intended to ensure compliance with Annex III to the EU Regulation 2024/3005 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities, and the Delegated Regulation supplementing Regulation (EU) 2024/3005.",
+          "content_cn": "《EcoVadis 奖牌方法学披露文件》（面向公众、评级用户与被评级对象）。\n\n本披露文件旨在确保符合欧盟第 2024/3005 号条例（关于环境、社会与治理（ESG）评级活动的透明度与完整性）附件三，以及补充该条例（EU）2024/3005 的授权法规的要求。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "1.1. Objective and approach to materiality",
-     "content_cn": "1.1.\nObjective and approach to materiality  \n \nThe objective of the EcoVadis Medals is to assess the level of adequacy and comprehensiveness \nof a rated company's ESG management system to address material sustainability impacts on \nstakeholders. The rating is EcoVadis’ own opinion and can differ from the assessments provided \nby other ESG rating providers. \n \nThe Medals are designed as a tool for rating users to integrate ESG factors into their \nprocurement or investment decisions. It is not solicited by rated companies or buyers, and \nnever performed without knowledge, consent and involvement of a rated company. \nCompanies can always refuse to undergo an assessment.  \n \nTo assess the quality of a company’s management system and its ability to prevent or minimize \nimpacts on company stakeholders, EcoVadis identifies material issues based on an impact \nmateriality approach (the \"inside-out\" perspective identifying external impacts that a \ncompany's operations, products, and services have on the environment and society). \n \nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, \nLabor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 \nspecific criteria (see section “1.2 Scope” for additional details).",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s3",
-   "title": "1.2. Scope",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s2",
+      "title": "1.1 重要性的目标与方法",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "1.1 重要性的目标与方法",
+          "content": "The objective of the EcoVadis Medals is to assess the level of adequacy and comprehensiveness of a rated company's ESG management system to address material sustainability impacts on stakeholders. The rating is EcoVadis’ own opinion and can differ from the assessments provided by other ESG rating providers.\n\nThe Medals are designed as a tool for rating users to integrate ESG factors into their procurement or investment decisions. It is not solicited by rated companies or buyers, and never performed without knowledge, consent and involvement of a rated company. Companies can always refuse to undergo an assessment.\n\nTo assess the quality of a company’s management system and its ability to prevent or minimize impacts on company stakeholders, EcoVadis identifies material issues based on an impact materiality approach (the \"inside-out\" perspective identifying external impacts that a company's operations, products, and services have on the environment and society).\n\nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, Labor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 specific criteria (see section “1.2 Scope” for additional details).",
+          "content_cn": "EcoVadis 奖牌（Medal）的目标，是评估被评级公司的 ESG 管理体系在应对利益相关方重大可持续性影响方面的充分性与完整性。该评级是 EcoVadis 自身的观点，可能不同于其他 ESG 评级机构提供的评估。\n\n奖牌旨在作为评级用户将 ESG 因素纳入其采购或投资决策的工具。评级并非由被评级公司或采购方主动发起，且在未获得被评级公司的知情、同意与参与的情况下绝不会开展。公司始终可以拒绝接受评估。\n\n为评估公司管理体系的质量及其预防或最小化对利益相关方影响的能力，EcoVadis 基于影响重要性（impact materiality）方法识别重大议题（即“由内向外”视角，识别公司运营、产品与服务对环境与社会产生的外部影响）。\n\n评估所涵盖的具体影响归为 4 个主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics，道德）与可持续采购（Sustainable Procurement），合计涵盖 21 项具体标准（详见“1.2 范围”一节）。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "1.2. Scope",
-     "content_cn": "1.2.\nScope  \n \nA Medal is an aggregated rating based on Ecovadis Sustainability Rating methodology, \ncovering four core themes: Environment, Labor & Human Rights, Ethics, and Sustainable \nProcurement. The Medals methodology considers an effective sustainability management \nsystem to be one that develops policies, implements actions, and reports on results. These \nthree management layers are evaluated in the Sustainability Rating through seven \nmanagement indicators: Policy, Endorsement, Measure, Certifications, Coverage, Reporting, \nand 360° Watch.   \nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive \n2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (“CSRD”) \nand detailed in the European Sustainability Reporting Standards (“ESRS”). However, they \noverlap to a degree and allow for comparison.  \n\n \nDocument classification: \n       \nEcoVadis Public\n3/19              \n\n \nAlthough a Medal does cover environmental issues, it is not correlated with the percentage of \ntaxonomy alignment under Regulation (EU) 2020/852 (“Taxonomy Regulation”).",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s4",
-   "title": "1.3. Rating Scale Type",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s3",
+      "title": "1.2 范围",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "1.2 范围",
+          "content": "A Medal is an aggregated rating based on Ecovadis Sustainability Rating methodology, covering four core themes: Environment, Labor & Human Rights, Ethics, and Sustainable Procurement. The Medals methodology considers an effective sustainability management system to be one that develops policies, implements actions, and reports on results. These three management layers are evaluated in the Sustainability Rating through seven management indicators: Policy, Endorsement, Measure, Certifications, Coverage, Reporting, and 360° Watch.\n\nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (“CSRD”) and detailed in the European Sustainability Reporting Standards (“ESRS”). However, they overlap to a degree and allow for comparison.\n\nAlthough a Medal does cover environmental issues, it is not correlated with the percentage of taxonomy alignment under Regulation (EU) 2020/852 (“Taxonomy Regulation”).",
+          "content_cn": "奖牌是基于 EcoVadis 可持续性评级（Sustainability Rating）方法学的一项综合评级，涵盖四个核心主题：环境、劳工与人权、商业行为（道德）与可持续采购。奖牌方法学认为，有效的可持续管理体系应具备制定政策、落实行动并报告成果的特征。这三个管理层级通过七项管理体系指标在可持续性评级中加以评估：政策（Policy）、认可（Endorsement）、措施（Measure）、认证（Certifications）、覆盖（Coverage）、报告（Reporting）与 360° Watch。\n\n上述议题与《会计指令》2013/34/EU（经《企业可持续报告指令》2022/2464（CSRD）修订，并在《欧洲可持续报告准则》（ESRS）中细化）中的主题并不完全一致。但二者存在一定程度的重叠，因而可进行对比。\n\n尽管奖牌确实涵盖环境议题，但其与（EU）2020/852 号条例（《分类法条例》，Taxonomy Regulation）下的分类法对齐百分比并无关联。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "1.3. Rating Scale Type",
-     "content_cn": "1.3.\nRating Scale Type  \n \nThe Medal rating is expressed as a relative value, which is tied to individual performance in the \nEcovadis Sustainability Rating benchmarked against the performance of all companies rated in \nthe past rolling 12 months.   \nThe details of the scoring calculation and the weight of ESG score factors can be found in the \nEcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users \nand rated items (Section 2.3 Management system indicators and scoring).",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s5",
-   "title": "1.4. Coverage of international agreements",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s4",
+      "title": "1.3 评级量表类型",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "1.3 评级量表类型",
+          "content": "The Medal rating is expressed as a relative value, which is tied to individual performance in the Ecovadis Sustainability Rating benchmarked against the performance of all companies rated in the past rolling 12 months.\n\nThe details of the scoring calculation and the weight of ESG score factors can be found in the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items (Section 2.3 Management system indicators and scoring).",
+          "content_cn": "奖牌评级以相对值的形式呈现，其与公司在 EcoVadis 可持续性评级中的个体表现挂钩，并以过去滚动 12 个月内所有被评级公司的表现为基准进行比较。\n\n评分计算及 ESG 得分要素权重的详情，可参见《EcoVadis 可持续性评级——面向公众、评级用户与被评级对象的方法学披露文件》（第 2.3 节 管理体系指标与评分）。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "1.4. Coverage of international agreements",
-     "content_cn": "1.4.\nCoverage of international agreements \n \nThe Medals methodology is based on input from the EcoVadis Sustainability Rating, which \nconsiders the objectives of international agreements such as the International Labour \nOrganization Conventions, Basel Convention, the Stockholm Convention and the Minamata \nConvention, but does not specifically refer to the targets and objectives of the Paris Agreement. \n\nAdditional information on the coverage of international agreements of the Sustainability \nRating methodology can be found in the EcoVadis Sustainability Rating - Methodology \ndisclosure document for the public, rating users and rated items (Section 1.4).",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s6",
-   "title": "2.1. Methodology overview",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s5",
+      "title": "1.4 国际协议的覆盖",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "1.4 国际协议的覆盖",
+          "content": "The Medals methodology is based on input from the EcoVadis Sustainability Rating, which considers the objectives of international agreements such as the International Labour Organization Conventions, Basel Convention, the Stockholm Convention and the Minamata Convention, but does not specifically refer to the targets and objectives of the Paris Agreement.\n\nAdditional information on the coverage of international agreements of the Sustainability Rating methodology can be found in the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items (Section 1.4).",
+          "content_cn": "奖牌方法学基于 EcoVadis 可持续性评级的输入，后者考虑了国际劳工组织公约、巴塞尔公约、斯德哥尔摩公约与水俣公约等国际协议的目标，但并未特别提及《巴黎协定》的具体目标与宗旨。\n\n关于可持续性评级方法学对国际协议覆盖情况的更多信息，可参见《EcoVadis 可持续性评级——面向公众、评级用户与被评级对象的方法学披露文件》（第 1.4 节）。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.1. Methodology overview",
-     "content_cn": "2.1.\nMethodology overview \n \nThe Medals methodology is consistently applied to all eligible entities. The most recent version \nof the Medals Methodology is V2.0, applicable as of January 2026.  \nA full changelog can be accessed here: EcoVadis methodology updates (Login required) \n \na) Methodology governance principles \n \nTo deliver Medals with the highest levels of quality and integrity, EcoVadis has designed a \nmethodology governance framework ensuring our methodologies adhere to the following core \nprinciples: \n \ni)\nRigorous \n \nOur methodologies are developed through a rigorous process including research, impact \n\n \nDocument classification: \n       \nEcoVadis Public\n4/19              \n\n \nassessment and public consultation of proposed changes to ensure the framework is capable \nof capturing complex sustainability risks and accurately reflect the rated entity’s sustainability \nperformance. \n \nii)\nSystematic \n \nWe employ a structured, repeatable methodological framework that ensures every entity is \nevaluated against a consistent set of principles and requirements tailored to their specific \ncontext. This systematic approach eliminates ad-hoc subjectivity and ensures that the \nmethodology provides a stable basis for comparison of rated entities. \n \niii)\nIndependent \n \nThe development and approval of our methodologies are governed by an internal function that \nis structurally and functionally separate from commercial and sales activities. This ensures the \ndesign of the rating framework is driven solely by analytical integrity and is insulated from \nexternal business pressures. \n \niv)\nCapable of justification \n \nThe methodology is built upon a clear, evidence-based rationale that dictates the specific \nweighting and relevance of each sustainability issue. Every component of the framework is \ndocumented for traceability, ensuring the underlying theory assumptions are defensible under \ntechnical scrutiny. \n \nv)\nComparable over time \n \nOur methodology is designed to provide a stable benchmark by maintaining consistent \nevaluation criteria over time. By ensuring the framework remains steady, we enable rating \nusers to accurately compare year-on-year performance. \n \nvi)\nTransparent \n \nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide \ncomprehensive public disclosures regarding the methodology scope, ranking system, key \nassumptions and models, data sources and processes, and its inherent limitations. \n \nb) Type of rated items to which the methodology applies \n \nThe methodology is applied to corporate entities, provided they meet the following two criteria:  \n\n \nDocument classification: \n       \nEcoVadis Public\n5/19              \n\n \n-\nIt must have a legal entity name or operate under the direct parent legal entity name. \nThe legal entity name is the name under which a company is legally registered and \noperates in the country of operation. \n-\nThere must be a relevant level of scope of assessment in terms of sustainability risks. This \nmay for instance not be the case if the scope includes widely different business \nactivities, making it inadequate for a single rating to assess material issues the company \nis confronted to and the management system it has implemented in response. \n \nThe methodology allows for 3 different scopes of assessment:  \n-\nGroup: Group-level assessments cover a legal entity and its subsidiaries. \n-\nEntity: Entity-level assessments cover a legal entity with no subsidiaries. \n-\nSite: Site-level assessments cover a specific geographic site or facility of a legal entity. \nThis site does",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s7",
-   "title": "2.2. Methodology assumptions & models",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s6",
+      "title": "2.1 方法学概述",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.1 方法学概述",
+          "content": "The Medals methodology is consistently applied to all eligible entities. The most recent version of the Medals Methodology is V2.0, applicable as of January 2026.\n\nA full changelog can be accessed here: EcoVadis methodology updates (Login required)\n\na) Methodology governance principles\n\nTo deliver Medals with the highest levels of quality and integrity, EcoVadis has designed a methodology governance framework ensuring our methodologies adhere to the following core principles:\n\ni) Rigorous\nOur methodologies are developed through a rigorous process including research, impact assessment and public consultation of proposed changes to ensure the framework is capable of capturing complex sustainability risks and accurately reflect the rated entity’s sustainability performance.\n\nii) Systematic\nWe employ a structured, repeatable methodological framework that ensures every entity is evaluated against a consistent set of principles and requirements tailored to their specific context. This systematic approach eliminates ad-hoc subjectivity and ensures that the methodology provides a stable basis for comparison of rated entities.\n\niii) Independent\nThe development and approval of our methodologies are governed by an internal function that is structurally and functionally separate from commercial and sales activities. This ensures the design of the rating framework is driven solely by analytical integrity and is insulated from external business pressures.\n\niv) Capable of justification\nThe methodology is built upon a clear, evidence-based rationale that dictates the specific weighting and relevance of each sustainability issue. Every component of the framework is documented for traceability, ensuring the underlying theory assumptions are defensible under technical scrutiny.\n\nv) Comparable over time\nOur methodology is designed to provide a stable benchmark by maintaining consistent evaluation criteria over time. By ensuring the framework remains steady, we enable rating users to accurately compare year-on-year performance.\n\nvi) Transparent\nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide comprehensive public disclosures regarding the methodology scope, ranking system, key assumptions and models, data sources and processes, and its inherent limitations.\n\nb) Type of rated items to which the methodology applies\n\nThe methodology is applied to corporate entities, provided they meet the following two criteria:\n\n- It must have a legal entity name or operate under the direct parent legal entity name. The legal entity name is the name under which a company is legally registered and operates in the country of operation.\n- There must be a relevant level of scope of assessment in terms of sustainability risks. This may for instance not be the case if the scope includes widely different business activities, making it inadequate for a single rating to assess material issues the company is confronted to and the management system it has implemented in response.\n\nThe methodology allows for 3 different scopes of assessment:\n- Group: Group-level assessments cover a legal entity and its subsidiaries.\n- Entity: Entity-level assessments cover a legal entity with no subsidiaries.\n- Site: Site-level assessments cover a specific geographic site or facility of a legal entity. This site does",
+          "content_cn": "奖牌方法学一致地适用于所有符合条件的实体。奖牌方法学的最新版本为 V2.0，自 2026 年 1 月起适用。\n\n完整的变更日志可访问：EcoVadis 方法学更新（需登录）。\n\na) 方法学治理原则\n\n为以最高质量与诚信交付奖牌，EcoVadis 设计了方法学治理框架，确保我们的方法学遵循以下核心原则：\n\ni) 严谨\n我们的方法学通过严谨的流程开发，包括研究、影响评估以及对拟议变更的公众咨询，以确保该框架能够捕捉复杂的可持续性风险，并准确反映被评级实体的可持续性表现。\n\nii) 系统性\n我们采用结构化、可重复的方法学框架，确保每家企业都依据一套与其特定情境相适应的、一致的原则与要求进行评估。这种系统性方法消除了临时性的主观判断，并确保方法学为被评级实体之间的比较提供稳定基础。\n\niii) 独立性\n我们方法学的制定与批准由一个在结构与职能上均独立于商业和销售活动的内部职能部门管理。这确保评级框架的设计纯粹由分析诚信所驱动，并免受外部业务压力的影响。\n\niv) 可论证\n方法学建立在清晰、循证的理论基础之上，该基础规定了每项可持续性议题的具体权重与相关性。框架的每个组成部分均有文档记录以保证可追溯性，确保底层理论假设在技术性审查下站得住脚。\n\nv) 随时间可比\n我们的方法学通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确地进行年度同比表现比较。\n\nvi) 透明\n为与欧盟 ESG 评级机构法规设定的透明度标准保持一致，我们就方法学范围、排名体系、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。\n\nb) 方法学所适用的被评级对象类型\n\n方法学适用于企业法人实体，前提是它们满足以下两项标准：\n\n- 必须具有法律实体名称，或在其直接母公司法律实体名称下运营。法律实体名称是指公司在运营所在国依法注册并开展业务的名称。\n- 在可持续性风险方面必须具备相关的评估范围水平。例如，若范围包含差异极大的业务活动，使得单一评级不足以评估公司所面临的重大议题及其所实施的管理体系，则不满足此条件。\n\n方法学允许三种不同的评估范围：\n- 集团（Group）：集团层面评估涵盖一个法律实体及其子公司。\n- 实体（Entity）：实体层面评估涵盖一个无子公司的法律实体。\n- 场所（Site）：场所层面评估涵盖法律实体的特定地理场所或设施。该场所……（原文此处截断）"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.2. Methodology assumptions & models",
-     "content_cn": "2.2.\nMethodology assumptions & models \n \nWhile the underlying EcoVadis Sustainability Rating evaluates the quality of a company's ESG \nmanagement system, the Medals methodology operates on a fundamental baseline \nassumption: certain business activities carry inherent, systemic impacts that cannot be fully \nmitigated by management practices alone. To ensure that public recognition provided by the \n\n \nDocument classification: \n       \nEcoVadis Public\n6/19              \n\n \nMedals aligns with the core objectives of sustainable development and stakeholder \nexpectations, the Medals methodology incorporates additional eligibility rules. \nPrinciples of Eligibility Exclusion \nEligibility exclusions for EcoVadis medals are established based on the following criteria: \n● Systemic environmental or social impact: The activity or product category is associated \nwith documented, large-scale adverse impacts on society or the environment, as \ndefined by international regulations, treaties, or consensus frameworks. \n● Alignment with global sustainability frameworks: The core business model presents a \nstructural misalignment with international sustainability norms (e.g., the UN Global \nCompact). Specifically, it conflicts with international disarmament treaties (including the \nOttawa Convention, and Nuclear Non-Proliferation treaties), global health data regarding \ntobacco (IHME Global Burden of Disease, 2019), and climate pathways (IPCC 6th \nAssessment Report), as reflected in the explicit exclusion of fossil fuel companies from \nthe UN Global Compact’s Forward Faster initiative. \nExcluded categories (see Section 2.3 “Ranking system”) are subject to periodic review based on \nevolving market and regulatory standards. These exclusions do not constitute an ethical \njudgment on companies operating within these sectors.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s8",
-   "title": "2.3. Ranking System",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s7",
+      "title": "2.2 方法学假设与模型",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.2 方法学假设与模型",
+          "content": "While the underlying EcoVadis Sustainability Rating evaluates the quality of a company's ESG management system, the Medals methodology operates on a fundamental baseline assumption: certain business activities carry inherent, systemic impacts that cannot be fully mitigated by management practices alone. To ensure that public recognition provided by the Medals aligns with the core objectives of sustainable development and stakeholder expectations, the Medals methodology incorporates additional eligibility rules.\n\nPrinciples of Eligibility Exclusion\nEligibility exclusions for EcoVadis medals are established based on the following criteria:\n\n● Systemic environmental or social impact: The activity or product category is associated with documented, large-scale adverse impacts on society or the environment, as defined by international regulations, treaties, or consensus frameworks.\n\n● Alignment with global sustainability frameworks: The core business model presents a structural misalignment with international sustainability norms (e.g., the UN Global Compact). Specifically, it conflicts with international disarmament treaties (including the Ottawa Convention, and Nuclear Non-Proliferation treaties), global health data regarding tobacco (IHME Global Burden of Disease, 2019), and climate pathways (IPCC 6th Assessment Report), as reflected in the explicit exclusion of fossil fuel companies from the UN Global Compact’s Forward Faster initiative.\n\nExcluded categories (see Section 2.3 “Ranking system”) are subject to periodic review based on evolving market and regulatory standards. These exclusions do not constitute an ethical judgment on companies operating within these sectors.",
+          "content_cn": "尽管底层 EcoVadis 可持续性评级评估的是公司 ESG 管理体系的质量，但奖牌方法学建立在一个基本的基线假设之上：某些业务活动具有内在的、系统性的影响，仅靠管理实践无法完全缓解。为确保奖牌所提供的公开认可与可持续发展的核心目标及利益相关方期望相一致，奖牌方法学纳入了额外的资格规则。\n\n资格排除原则\nEcoVadis 奖牌的资格排除基于以下标准确立：\n\n● 系统性环境或社会影响：该活动或产品类别与国际法规、条约或共识框架所定义的、有文献记载的、对社会或环境的大规模不利影响相关联。\n\n● 与全球可持续发展框架的一致性：核心商业模式与国际可持续规范（例如联合国全球契约，UN Global Compact）存在结构性错位。具体而言，它与国际裁军条约（包括《渥太华公约》与核不扩散条约）、关于烟草的全球健康数据（IHME 全球疾病负担研究，2019）以及气候路径（IPCC 第六次评估报告）相冲突，这体现在联合国全球契约“Forward Faster”倡议中明确将化石燃料公司排除在外。\n\n被排除的类别（参见第 2.3 节“排名体系”）会根据不断变化的市场与监管标准进行定期审查。这些排除并不构成对在相关行业内运营的公司的道德评判。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.3. Ranking System",
-     "content_cn": "2.3.\nRanking System \n \nTo obtain a medal, rated companies must meet specific performance thresholds and must not \nbe considered ineligible.  \n \n1) Medal thresholds: \nThe type of medal depends on the percentile rank achieved by the rated company on EcoVadis \nSustainability Ratings at the time of scorecard publication: \n-\nPlatinum: Top 1% (99+ percentile) \n-\nGold: Top 5% (95+ percentile) \n-\nSilver: Top 15% (85+ percentile) \n-\nBronze: Top 35% (65+ percentile) \n \n2) Ineligibility criteria: \n-\nOne of the four theme scores of the Sustainability Rating (Environment, Labor & Human \nRights, Ethics, and Sustainable Procurement) is below 30/100. \n-\nThe 360° Watch indicator score of the Sustainability Rating is at 0/100 for at least one \ntheme or at 25/100 for at least two themes. \nA company may still be eligible for a medal despite the 360° indicator score being at \n\n \nDocument classification: \n       \nEcoVadis Public\n7/19              \n\n \n0/100 for at least one theme or at 25/100 for at least two themes if it does not have a \nsingle negative (minor, major, or severe) finding in the past 3 years for Environment, \nLabor & Human Rights, and Sustainable Procurement themes, or 5 years for the Ethics \ntheme.\nA Large company (above 1,000 employees) may still be eligible for a medal despite the \n360° indicator score being at 0/100 for at least one theme or at 25/100 for at least two \nthemes, if it has no more than 50 minor findings and no more than 1 major finding valid \non its scorecard. The reason for this exception is that a 360° Watch score of 0/100 may \nresult from a high volume of minor findings rather than solely from severe or major \nfindings. In such cases, the large company exception applies, as the volume alone does \nnot necessarily indicate a systemic management failure.  \n-\nCompanies doing business in specific industries may not be eligible for Ecovadis medals. \nThe specific sector categories and their corresponding restriction rules and thresholds \nare detailed below: \nWeapons \nEcoVadis does not apply a blanket restriction to all defense-related activities. Exclusions are \nlimited to: \n● Entities whose main business operation consists of manufacturing weapons and \nammunition. For multi-activity enterprises, EcoVadis identifies the primary activity as the \none presenting the highest sustainability risk. Should all activities share an equal degree \nof sustainability risk, the primary activity is established according to the highest \ngenerated revenue. \n● Entities manufacturing weapons that violate or circumvent international treaties and \nconventions, such as those governing landmines, cluster munitions, biological or \nchemical weapons. \nTobacco \nTobacco manufacturing is classified as a critical public health hazard by international \nauthorities. According to the World Health Organization (WHO), all forms of tobacco use are \nharmful, with no established safe level of exposure. WHO data attributes over 7 million annual \ndeaths to direct tobacco use and approximately 1.3 million deaths to second-hand smoke \nexposure, establishing a clear basis for exclusion based on global public health standards. \nAs a result, Medals exclusion apply to companies involved in the manufacture of tobacco \nproducts and products of tobacco substitutes: cigarettes, cigarette tobacco, cigars, pipe \ntobacco, chewing tobacco, and snuff. \nCompanies involved in the manufacture of “homogenized” or “reconstituted” tobacco. \n\n \nDocument classification: \n       \nEcoVadis Public\n8/19              \n\n \nFossil Fuels: Coal & Lignite \nCoal is identified by the Intergovernmental P",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s9",
-   "title": "2.4. Industry classification",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s8",
+      "title": "2.3 排名体系",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.3 排名体系",
+          "content": "To obtain a medal, rated companies must meet specific performance thresholds and must not be considered ineligible.\n\n1) Medal thresholds:\nThe type of medal depends on the percentile rank achieved by the rated company on EcoVadis Sustainability Ratings at the time of scorecard publication:\n- Platinum: Top 1% (99+ percentile)\n- Gold: Top 5% (95+ percentile)\n- Silver: Top 15% (85+ percentile)\n- Bronze: Top 35% (65+ percentile)\n\n2) Ineligibility criteria:\n- One of the four theme scores of the Sustainability Rating (Environment, Labor & Human Rights, Ethics, and Sustainable Procurement) is below 30/100.\n- The 360° Watch indicator score of the Sustainability Rating is at 0/100 for at least one theme or at 25/100 for at least two themes.\nA company may still be eligible for a medal despite the 360° indicator score being at 0/100 for at least one theme or at 25/100 for at least two themes if it does not have a single negative (minor, major, or severe) finding in the past 3 years for Environment, Labor & Human Rights, and Sustainable Procurement themes, or 5 years for the Ethics theme.\nA Large company (above 1,000 employees) may still be eligible for a medal despite the 360° indicator score being at 0/100 for at least one theme or at 25/100 for at least two themes, if it has no more than 50 minor findings and no more than 1 major finding valid on its scorecard. The reason for this exception is that a 360° Watch score of 0/100 may result from a high volume of minor findings rather than solely from severe or major findings. In such cases, the large company exception applies, as the volume alone does not necessarily indicate a systemic management failure.\n- Companies doing business in specific industries may not be eligible for Ecovadis medals. The specific sector categories and their corresponding restriction rules and thresholds are detailed below:\nWeapons\nEcoVadis does not apply a blanket restriction to all defense-related activities. Exclusions are limited to:\n● Entities whose main business operation consists of manufacturing weapons and ammunition. For multi-activity enterprises, EcoVadis identifies the primary activity as the one presenting the highest sustainability risk. Should all activities share an equal degree of sustainability risk, the primary activity is established according to the highest generated revenue.\n● Entities manufacturing weapons that violate or circumvent international treaties and conventions, such as those governing landmines, cluster munitions, biological or chemical weapons.\nTobacco\nTobacco manufacturing is classified as a critical public health hazard by international authorities. According to the World Health Organization (WHO), all forms of tobacco use are harmful, with no established safe level of exposure. WHO data attributes over 7 million annual deaths to direct tobacco use and approximately 1.3 million deaths to second-hand smoke exposure, establishing a clear basis for exclusion based on global public health standards.\nAs a result, Medals exclusion apply to companies involved in the manufacture of tobacco products and products of tobacco substitutes: cigarettes, cigarette tobacco, cigars, pipe tobacco, chewing tobacco, and snuff.\nCompanies involved in the manufacture of “homogenized” or “reconstituted” tobacco.\nFossil Fuels: Coal & Lignite\nCoal is identified by the Intergovernmental P",
+          "content_cn": "为获得奖牌，被评级公司必须达到特定的绩效门槛，且不得被视为不合格。\n\n1) 奖牌门槛：\n奖牌类型取决于被评级公司在评分卡发布时于 EcoVadis 可持续性评级中所达到的百分位排名：\n- 铂金（Platinum）：前 1%（99+ 百分位）\n- 金（Gold）：前 5%（95+ 百分位）\n- 银（Silver）：前 15%（85+ 百分位）\n- 铜（Bronze）：前 35%（65+ 百分位）\n\n2) 不合格标准：\n- 可持续性评级的四个主题得分（环境、劳工与人权、商业行为（道德）与可持续采购）中，有一项低于 30/100。\n- 可持续性评级的 360° Watch 指标得分在至少一个主题上为 0/100，或在至少两个主题上为 25/100。\n若公司在过去 3 年内（商业行为（道德）主题为 5 年内）在环境、劳工与人权与可持续采购主题上没有任何一项负面（轻微、重大或严重）发现，则即便其 360° 指标得分在至少一个主题上为 0/100 或在至少两个主题上为 25/100，仍可能具备奖牌资格。\n大型企业（员工超过 1,000 人）若其评分卡上有效轻微发现不超过 50 项、有效重大发现不超过 1 项，则即便其 360° 指标得分在至少一个主题上为 0/100 或在至少两个主题上为 25/100，仍可能具备奖牌资格。该例外的原因在于，360° Watch 得分为 0/100 可能源于大量轻微发现，而非仅源于严重或重大发现。在此情况下适用大型企业例外，因为仅数量本身并不一定表明存在系统性管理失败。\n- 在特定行业开展业务的公司可能不具备 EcoVadis 奖牌资格。具体的行业类别及其对应的限制规则与门槛详述如下：\n武器\nEcoVadis 不会对所有国防相关活动一概施加限制。排除仅限于：\n● 主营业务为制造武器与弹药的法律实体。对于多业务企业，EcoVadis 将可持续性风险最高的活动识别为主要活动；若所有活动风险程度相当，则按产生收入最高者确定主要活动。\n● 制造违反或规避国际条约与公约（如管辖地雷、集束弹药、生物或化学武器的条约）的武器的法律实体。\n烟草\n国际权威机构将烟草制造归类为重大公共卫生危害。根据世界卫生组织（WHO），所有形式的烟草使用均有害，不存在已确立的安全暴露水平。WHO 数据显示，每年超过 700 万人死于直接烟草使用，约 130 万人死于二手烟暴露，这基于全球公共卫生标准确立了明确的排除依据。\n因此，奖牌排除适用于从事烟草制品及烟草替代品制造的公司：香烟、卷烟烟草、雪茄、斗烟、嚼烟与鼻烟。\n从事“均质化”或“再造”烟草制造的公司。\n化石燃料：煤炭与褐煤（Fossil Fuels: Coal & Lignite）\n煤炭由跨政府……（原文此处截断）"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.4. Industry classification",
-     "content_cn": "2.4.\nIndustry classification  \n \nThe Medals methodology uses the United Nations International Standard Industrial \nClassification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic \nactivities of rated companies.  \n \nThe official full document is available on the United Nations Statistic Division website.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s10",
-   "title": "2.5. Data sources",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s9",
+      "title": "2.4 行业分类",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.4 行业分类",
+          "content": "The Medals methodology uses the United Nations International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic activities of rated companies.\n\nThe official full document is available on the United Nations Statistic Division website.",
+          "content_cn": "奖牌方法学以联合国所有经济活动的国际标准行业分类（ISIC）第 4 修订版为基础，对被评级公司的经济活动进行分类。\n\n完整的官方文件可在联合国统计司网站获取。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.5. Data sources",
-     "content_cn": "2.5.\nData sources \n \nThe main input for the Medals methodology are scores from the EcoVadis Sustainability Rating.  \nThis data is supplemented by additional data sources to apply the exclusion rules. This includes \ninformation self-reported by the company or gathered from public documents, such as \nrevenue breakdowns. External sources are also checked to ensure that medal-specific exclusion \ncriteria (such as involvement in tobacco, weapons, or coal power) are not met.  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n9/19              \n\n \nThe Medals methodology does not take into account the Regulation (EU) 2019/2088 \n(“Sustainable Finance Disclosure Regulation”) or Regulation (EU) 2020/852 (“Taxonomy \nRegulation”).",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s11",
-   "title": "2.6. Data processes",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s10",
+      "title": "2.5 数据来源",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.5 数据来源",
+          "content": "The main input for the Medals methodology are scores from the EcoVadis Sustainability Rating.\n\nThis data is supplemented by additional data sources to apply the exclusion rules. This includes information self-reported by the company or gathered from public documents, such as revenue breakdowns. External sources are also checked to ensure that medal-specific exclusion criteria (such as involvement in tobacco, weapons, or coal power) are not met.\n\nThe Medals methodology does not take into account the Regulation (EU) 2019/2088 (“Sustainable Finance Disclosure Regulation”) or Regulation (EU) 2020/852 (“Taxonomy Regulation”).",
+          "content_cn": "奖牌方法学的主要输入来自 EcoVadis 可持续性评级的得分。\n\n为适用排除规则，该数据由额外的数据来源加以补充，包括公司自行申报或从公开文件（如收入细分）中收集的信息。同时还会核查外部来源，以确保不违反奖牌特定的排除标准（如涉及烟草、武器或煤电）。\n\n奖牌方法学不考虑（EU）2019/2088 号条例（《可持续金融披露条例》，SFDR）或（EU）2020/852 号条例（《分类法条例》，Taxonomy Regulation）。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.6. Data processes",
-     "content_cn": "2.6.\nData processes \nThe medals rating relies on a structured, secure, and automated data lifecycle integrated \nwithin the Ecovadis digital platform. To ensure analytical rigor while avoiding duplicative \nreporting, the data workflow is streamlined into three key phases: data collection, data \nprocessing, and data output. \na) Data collection \nThe medals methodology does not collect primary ESG management system data \nindependently. Instead, it leverages two distinct data streams: \n● Primary input: Ecovadis Medals use EcoVadis Sustainability Rating data, including theme \nscores, and 360° watch findings, as its foundational input. Details on data collection for \nthe Sustainability Rating are detailed in the Ecovadis Sustainability Rating - \nMethodology disclosure document for the public, rating users and rated items. \n● Secondary \ninput: \nIndustry-specific \nexclusions \n(e.g., \nweapons, \ntobacco, \ncoal, \nunconventional oil and gas) are enforced by collecting targeted supplementary data. \nThis includes: \n○ Company disclosures: self-reported product information, financial details, and \nprecise revenue breakdowns established by the rated company. \n○ Additional \nexternal \nscreening: \npublicly-available \ndomain \ndata, \nregulatory \nregistries, open-access sources, and media intelligence to identify potential \nexclusion risks and industry signals \n \nb) Data processing \nFollowing data collection, the processing phase relies on a combination of automated system \nrules and analyst-driven validation.: \n● Sector eligibility verification: To establish preliminary eligibility, the entity's revenue and \nactivity data are analyzed against strict sector-specific exclusion thresholds. This \nverification process ensures compliance with predefined medals restrictions, such as the \nmaximum 20% limit on coal or unconventional oil and gas involvement (see Ranking \nsystem section for more details). \n● Application of score restrictions: Following the sector review, the entity's sustainability \nscores are evaluated against defined performance minimums. The system checks the \nfollowing parameters:  \n○ If any individual thematic score falls below the minimum threshold of 30/100. \n\n \nDocument classification: \n       \nEcoVadis Public\n10/19              \n\n \n○ If any negative indicators are flagged during the 360° watch assessment \nautomatically   (see Ranking system section for more details) \n● Score Benchmarking and Medal Assignment: Once compliance with all exclusion and \nineligibility criteria is confirmed, the validated overall scores are integrated into the \ncalculation system. The entity's final overall score is benchmarked against the rolling \n12-month percentile cut-offs of the rated universe to determine the appropriate medal \ntier. \n \nc) Data output \nThe final output  is either a Medal (platinum, gold, silver, or bronze), the absence of a medal or a \nstatus of ineligibility. The allocated medal is officially published on the Ecovadis platform. \nd) Data storage & historical data updates and revision \n \nData used for each medal allocation is preserved in the system for traceability purposes. The \ngenerated medal remains valid for a strict period of 12 months from the date of allocation. All \nfinal output scores, benchmarks, and eligibility decisions are archived directly within the \nplatform to guarantee complete historical traceability and auditability. \nThe data and medal status are only updated in the context of reassessments performed to \nupdate a scorecard. However, an active medal status may be updated in between regular \nassessment cycles in the case of",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s12",
-   "title": "2.7. Data quality",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s11",
+      "title": "2.6 数据流程",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.6 数据流程",
+          "content": "The medals rating relies on a structured, secure, and automated data lifecycle integrated within the Ecovadis digital platform. To ensure analytical rigor while avoiding duplicative reporting, the data workflow is streamlined into three key phases: data collection, data processing, and data output.\n\na) Data collection\nThe medals methodology does not collect primary ESG management system data independently. Instead, it leverages two distinct data streams:\n● Primary input: Ecovadis Medals use EcoVadis Sustainability Rating data, including theme scores, and 360° watch findings, as its foundational input. Details on data collection for the Sustainability Rating are detailed in the Ecovadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.\n● Secondary input: Industry-specific exclusions (e.g., weapons, tobacco, coal, unconventional oil and gas) are enforced by collecting targeted supplementary data. This includes:\n○ Company disclosures: self-reported product information, financial details, and precise revenue breakdowns established by the rated company.\n○ Additional external screening: publicly-available domain data, regulatory registries, open-access sources, and media intelligence to identify potential exclusion risks and industry signals\n\nb) Data processing\nFollowing data collection, the processing phase relies on a combination of automated system rules and analyst-driven validation:\n● Sector eligibility verification: To establish preliminary eligibility, the entity's revenue and activity data are analyzed against strict sector-specific exclusion thresholds. This verification process ensures compliance with predefined medals restrictions, such as the maximum 20% limit on coal or unconventional oil and gas involvement (see Ranking system section for more details).\n● Application of score restrictions: Following the sector review, the entity's sustainability scores are evaluated against defined performance minimums. The system checks the following parameters:\n○ If any individual thematic score falls below the minimum threshold of 30/100.\n○ If any negative indicators are flagged during the 360° watch assessment automatically (see Ranking system section for more details)\n● Score Benchmarking and Medal Assignment: Once compliance with all exclusion and ineligibility criteria is confirmed, the validated overall scores are integrated into the calculation system. The entity's final overall score is benchmarked against the rolling 12-month percentile cut-offs of the rated universe to determine the appropriate medal tier.\n\nc) Data output\nThe final output is either a Medal (platinum, gold, silver, or bronze), the absence of a medal or a status of ineligibility. The allocated medal is officially published on the Ecovadis platform.\n\nd) Data storage & historical data updates and revision\nData used for each medal allocation is preserved in the system for traceability purposes. The generated medal remains valid for a strict period of 12 months from the date of allocation. All final output scores, benchmarks, and eligibility decisions are archived directly within the platform to guarantee complete historical traceability and auditability.\nThe data and medal status are only updated in the context of reassessments performed to update a scorecard. However, an active medal status may be updated in between regular assessment cycles in the case of",
+          "content_cn": "奖牌评级依托集成于 EcoVadis 数字平台之内、结构化、安全且自动化的数据生命周期。为在确保分析严谨性的同时避免重复报告，数据工作流精简为三个关键环节：数据收集、数据处理与数据输出。\n\na) 数据收集\n奖牌方法学不独立收集 ESG 管理体系的一手数据，而是利用两条不同的数据流：\n● 主要输入：EcoVadis 奖牌以 EcoVadis 可持续性评级数据（包括主题得分与 360° Watch 发现）作为基础输入。可持续性评级数据收集的详情参见《EcoVadis 可持续性评级——面向公众、评级用户与被评级对象的方法学披露文件》。\n● 次要输入：行业特定排除（如武器、烟草、煤炭、非常规油气）通过收集针对性的补充数据来执行。这包括：\n○ 公司披露：被评级公司自行申报的产品信息、财务明细与精确的收入细分。\n○ 额外的外部筛查：公开可用的域名数据、监管登记册、开放获取来源与媒体情报，用于识别潜在的排除风险与行业信号。\n\nb) 数据处理\n数据收集之后，处理环节依赖自动化系统规则与分析师驱动的验证相结合：\n● 行业资格核验：为确立初步资格，将实体的收入与活动数据对照严格的行业特定排除门槛进行分析。该核验过程确保符合预定义的奖牌限制，例如煤炭或非常规油气参与度的上限为 20%（详见排名体系一节）。\n● 评分限制的适用：行业审查之后，将实体的可持续性得分与既定的绩效最低值进行对照评估。系统检查以下参数：\n○ 任一主题得分是否低于 30/100 的最低门槛。\n○ 在 360° Watch 评估中是否自动标记出任何负面指标（详见排名体系一节）。\n● 评分基准比较与奖牌分配：一旦确认符合所有排除与不合格标准，经过验证的总得分即被纳入计算系统。实体的最终总得分将与评级总体的滚动 12 个月百分位分界点进行基准比较，以确定相应的奖牌等级。\n\nc) 数据输出\n最终输出要么是一枚奖牌（铂金、金、银或铜），要么是无奖牌，要么是不合格状态。所分配的奖牌在 EcoVadis 平台上正式发布。\n\nd) 数据存储与历史数据更新及修订\n用于每次奖牌分配的数据为可追溯之目的保存在系统中。生成的奖牌自分配之日起严格有效 12 个月。所有最终输出得分、基准与资格决定均直接归档于平台之内，以保证完整的历史可追溯性与可审计性。\n数据与奖牌状态仅在为更新评分卡而执行的重新评估背景下予以更新。然而，有效的奖牌状态可能在常规评估周期之间，在……的情况下予以更新（原文此处截断）"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.7. Data quality",
-     "content_cn": "2.7.\nData quality \nTo ensure the integrity of awarded Medals, all data and supporting evidence must pass the \nstrict data quality control framework established by the EcoVadis Sustainability Rating, \nalongside targeted quality checks for the data used to determine sector-specific exclusions \n(such as revenue thresholds from coal, tobacco, or weapons). This data is rigorously \ncross-checked using verified corporate financial reports. \n\n \nDocument classification: \n       \nEcoVadis Public\n11/19",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s13",
-   "title": "2.8. Assessment process quality",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s12",
+      "title": "2.7 数据质量",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.7 数据质量",
+          "content": "To ensure the integrity of awarded Medals, all data and supporting evidence must pass the strict data quality control framework established by the EcoVadis Sustainability Rating, alongside targeted quality checks for the data used to determine sector-specific exclusions (such as revenue thresholds from coal, tobacco, or weapons). This data is rigorously cross-checked using verified corporate financial reports.",
+          "content_cn": "为确保所授予奖牌的完整性，所有数据及支撑证据必须通过与确定行业特定排除（如来自煤炭、烟草或武器的收入门槛）所用数据相关的针对性质量检查，通过 EcoVadis 可持续性评级所建立的严格数据质量控制框架。该数据使用经核实的企业财务报告进行严格的交叉核对。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.8. Assessment process quality",
-     "content_cn": "2.8.\nAssessment process quality \n \nBecause EcoVadis Medals are awarded based on the results of the EcoVadis Sustainability \nRating, the integrity of the Medals relies directly on the rigorous quality control processes \napplied to the underlying assessment. \n \nEvery assessment driving a Medal undergoes a formal three-step process: document collection \nand verification, expert analysis, and a final quality assurance review before the scorecard is \npublished and Medal eligibility is determined. \n \nTo further ensure the ongoing reliability of the scores that dictate Medal allocation, a dedicated \nindependent Quality Assurance team audits a randomized sample of approximately 1% of all \npublished scorecards monthly. Furthermore, the human analysts conducting these \nfoundational assessments undergo comprehensive training and continuous calibration to \nguarantee the consistent application of the methodology, thereby safeguarding the fairness \nand accuracy of the final Medal distribution. \n \nFor an exhaustive breakdown of the internal quality management systems, analyst certification \nprograms, and the specific metrics tracked during the monthly audits, please refer to the \nEcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users \nand rated items.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s14",
-   "title": "2.9. Monitoring availability of new information in between assessments",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s13",
+      "title": "2.8 评估过程质量",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.8 评估过程质量",
+          "content": "Because EcoVadis Medals are awarded based on the results of the EcoVadis Sustainability Rating, the integrity of the Medals relies directly on the rigorous quality control processes applied to the underlying assessment.\n\nEvery assessment driving a Medal undergoes a formal three-step process: document collection and verification, expert analysis, and a final quality assurance review before the scorecard is published and Medal eligibility is determined.\n\nTo further ensure the ongoing reliability of the scores that dictate Medal allocation, a dedicated independent Quality Assurance team audits a randomized sample of approximately 1% of all published scorecards monthly. Furthermore, the human analysts conducting these foundational assessments undergo comprehensive training and continuous calibration to guarantee the consistent application of the methodology, thereby safeguarding the fairness and accuracy of the final Medal distribution.\n\nFor an exhaustive breakdown of the internal quality management systems, analyst certification programs, and the specific metrics tracked during the monthly audits, please refer to the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.",
+          "content_cn": "由于 EcoVadis 奖牌是基于 EcoVadis 可持续性评级的结果授予的，奖牌的完整性直接依赖于施加于底层评估的严格质量控制流程。\n\n每一份驱动奖牌的评估都要经历正式的三步流程：文件收集与核实、专家分析，以及在评分卡发布并确定奖牌资格之前的最后质量保证审查。\n\n为进一步确保决定奖牌分配的各得分的持续可靠性，一个专门的独立质量保证团队每月对全部已发布评分卡中随机抽取约 1% 的样本进行审计。此外，执行这些基础评估的人工分析师接受全面的培训与持续的校准，以保证方法学的一致应用，从而维护最终奖牌分配的公平性与准确性。\n\n关于内部质量管理体系、分析师认证计划以及月度审计期间所跟踪的具体指标的详尽说明，请参见《EcoVadis 可持续性评级——面向公众、评级用户与被评级对象的方法学披露文件》。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.9. Monitoring availability of new information in between assessments",
-     "content_cn": "2.9.\nMonitoring availability of new information in between assessments  \n \nWhile new information is evaluated during periodic reassessments, EcoVadis continuously \nmonitors severe or major controversies in between assessments that may warrant an \nexceptional review of a Medal allocation. Medal suspension or removal is triggered in the \nfollowing cases:  \n● Ongoing monitoring detects a controversy of sufficient severity: EcoVadis reserves the \nright to exceptionally revise the underlying score, which may result in the immediate \nsuspension or removal of an allocated Medal. \n● Grievance mechanism restrictions: Severe grievances on Labor & Human Rights topics \n(such as child labor, forced labor, or human trafficking) flagged via grievance channels \nlike the EcoVadis Worker Voice Connect mechanism and remaining unremediated by \nthe company for over three months will result in a temporary Medal restriction. The \nrestriction is lifted only upon verified remediation or after one year from the medal \nrestriction date. .",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s15",
-   "title": "2.10. Engagement with rated companies",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s14",
+      "title": "2.9 评估期间新信息的持续监测",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.9 评估期间新信息的持续监测",
+          "content": "While new information is evaluated during periodic reassessments, EcoVadis continuously monitors severe or major controversies in between assessments that may warrant an exceptional review of a Medal allocation. Medal suspension or removal is triggered in the following cases:\n\n● Ongoing monitoring detects a controversy of sufficient severity: EcoVadis reserves the right to exceptionally revise the underlying score, which may result in the immediate suspension or removal of an allocated Medal.\n\n● Grievance mechanism restrictions: Severe grievances on Labor & Human Rights topics (such as child labor, forced labor, or human trafficking) flagged via grievance channels like the EcoVadis Worker Voice Connect mechanism and remaining unremediated by the company for over three months will result in a temporary Medal restriction. The restriction is lifted only upon verified remediation or after one year from the medal restriction date.",
+          "content_cn": "尽管新信息会在周期性重新评估期间予以评估，EcoVadis 仍会在两次评估之间持续监测可能需对奖牌分配进行特别审查的严重或重大争议。在以下情形下会触发奖牌的中止或撤销：\n\n● 持续监测发现严重程度足够的争议：EcoVadis 保留特别修订底层得分的权利，这可能立即导致已分配奖牌的中止或撤销。\n\n● 申诉机制限制：通过 EcoVadis Worker Voice Connect 等申诉渠道标记的、涉及劳工与人权议题（如童工、强迫劳动或人口贩卖）的严重申诉，若公司在超过三个月内未予以补救，将导致临时的奖牌限制。该限制仅在经核实的补救完成之后，或自奖牌限制之日起一年后，方可解除。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.10. Engagement with rated companies",
-     "content_cn": "2.10.\nEngagement with rated companies  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n12/19              \n\n \na) Engagement with rated companies during the assessment \nTo safeguard the independence and integrity of the assessment, engagement with rated \ncompanies is limited. EcoVadis proactively reaches out during the assessment phase if a \ncompany's 360° Watch indicator score drops to a level that triggers ineligibility for a Medal ( the \n360° Watch indicator score is 0 for at least one theme or 25 for at least two themes.).  EcoVadis \nproactively issues an official letter informing the rated company of the Medal ineligibility. This \nallows the company to provide necessary explanations or context regarding the detected \ncontroversies before the final evaluation is finalized. \nb) Engagement with rated companies after scorecard publication \n \nFollowing the scorecard publication, rated companies are notified that their assessment is \ncomplete and are given the opportunity to preview their results for a period of 2 business days \nbefore the scorecard becomes available to rating users, with the possibility for them to raise a \nfactual error case. A factual error is a mistake made on the underlying information used for the \nassessment, such as Company name, location or size, industry classification, not applicable 360, \nwrongly rejected document. \n \nFollowing these 2 business days , rated companies retain the possibility to contact EcoVadis via \na dedicated channel to better understand their scorecard or to log a complaint regarding their \nrating. Their inquiries are handled by a specialized team which responds to questions and \ninitiates a scorecard correction process in case a mistake in fact or methodology application is \nidentified.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s16",
-   "title": "2.11. Scientific basis",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s15",
+      "title": "2.10 与被评级公司的互动",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.10 与被评级公司的互动",
+          "content": "a) Engagement with rated companies during the assessment\nTo safeguard the independence and integrity of the assessment, engagement with rated companies is limited. EcoVadis proactively reaches out during the assessment phase if a company's 360° Watch indicator score drops to a level that triggers ineligibility for a Medal (the 360° Watch indicator score is 0 for at least one theme or 25 for at least two themes). EcoVadis proactively issues an official letter informing the rated company of the Medal ineligibility. This allows the company to provide necessary explanations or context regarding the detected controversies before the final evaluation is finalized.\n\nb) Engagement with rated companies after scorecard publication\nFollowing the scorecard publication, rated companies are notified that their assessment is complete and are given the opportunity to preview their results for a period of 2 business days before the scorecard becomes available to rating users, with the possibility for them to raise a factual error case. A factual error is a mistake made on the underlying information used for the assessment, such as Company name, location or size, industry classification, not applicable 360, wrongly rejected document.\n\nFollowing these 2 business days, rated companies retain the possibility to contact EcoVadis via a dedicated channel to better understand their scorecard or to log a complaint regarding their rating. Their inquiries are handled by a specialized team which responds to questions and initiates a scorecard correction process in case a mistake in fact or methodology application is identified.",
+          "content_cn": "a) 评估期间与被评级公司的互动\n为维护评估的独立性与完整性，与被评级公司的互动受到限制。若公司的 360° Watch 指标得分降至触发奖牌不合格的水平（即至少一个主题得分为 0，或两个及以上主题得分为 25），EcoVadis 会在评估阶段主动联系。EcoVadis 会主动发出正式信函，告知被评级公司其不具备奖牌资格。这使公司能够在最终评估确定之前，就所发现的争议提供必要的解释或背景说明。\n\nb) 评分卡发布后与被评级公司的互动\n评分卡发布后，被评级公司会被告知其评估已完成，并有机会在评分卡向评级用户开放之前的 2 个工作日内预览其结果，并可提出事实错误申诉。事实错误是指用于评估的底层信息上出现的错误，例如公司名称、所在地或规模、行业分类、不适用 360、被错误驳回的文件。\n\n在这 2 个工作日之后，被评级公司仍可通过专门渠道联系 EcoVadis，以更好地理解其评分卡或就评级提出投诉。其问询由专门的团队处理，该团队负责回答问题，并在发现事实或方法学应用错误时启动评分卡更正流程。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.11. Scientific basis",
-     "content_cn": "2.11.\nScientific basis  \n \nThe EcoVadis Medals are not based on a scientific model. Instead, medal allocation rules serve \nto inform strategic procurement and investment decisions. Accordingly, the percentile \nthresholds used for distribution act as comparative benchmarks rather than empirically \nderived metrics.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s17",
-   "title": "2.12. Usage of AI-based tools",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s16",
+      "title": "2.11 科学基础",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.11 科学基础",
+          "content": "The EcoVadis Medals are not based on a scientific model. Instead, medal allocation rules serve to inform strategic procurement and investment decisions. Accordingly, the percentile thresholds used for distribution act as comparative benchmarks rather than empirically derived metrics.",
+          "content_cn": "EcoVadis 奖牌并非基于科学模型。相反，奖牌分配规则用于为战略性采购与投资决定提供信息。因此，用于分配的百分位门槛起到比较性基准的作用，而非经验推导的指标。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "2.12. Usage of AI-based tools",
-     "content_cn": "2.12.\nUsage of AI-based tools\n \nThe EcoVadis Medals do not use AI-based tools.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s18",
-   "title": "3. Limitations in data sources, methodologies and information",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s17",
+      "title": "2.12 AI 工具的使用",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "2.12 AI 工具的使用",
+          "content": "The EcoVadis Medals do not use AI-based tools.",
+          "content_cn": "EcoVadis 奖牌不使用基于 AI（人工智能）的工具。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "3. Limitations in data sources, methodologies and information",
-     "content_cn": "3.\nLimitations in data sources, methodologies and information",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s19",
-   "title": "3.1. Methodology limitations",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s19",
+      "title": "3.1 方法学局限性",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "3.1 方法学局限性",
+          "content": "Determining a company's eligibility against industry exclusion parameters (e.g., specific revenue thresholds for coal, tobacco, or weapons) relies heavily on the granularity of public corporate reporting and secondary screening databases. In cases where companies, particularly private entities, do not publicly disclose detailed revenue breakdowns, verifying these exact thresholds can present a limitation in data availability.\n\nAs the EcoVadis Medals are derived directly from the EcoVadis Sustainability Rating, they also inherit the inherent limitations associated with its underlying methodology and data sources. These include limitations related to financial materiality, the inability to perform heightened due diligence in areas with extreme levels of conflict, and variables in general data availability or self-reporting completeness.\n\nFor a comprehensive disclosure of the general methodological and data source limitations, alongside the strict measures EcoVadis implements to mitigate them, please refer to the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.",
+          "content_cn": "根据行业排除参数（例如煤炭、烟草或武器的具体收入门槛）确定公司资格，在很大程度上依赖于公开公司报告的详略程度与二次筛查数据库。在特别是私营实体不公开披露详细收入细分的情况下，核实这些确切门槛可能会构成数据可用性方面的局限。\n\n由于 EcoVadis 奖牌直接源自 EcoVadis 可持续性评级，它们也继承了与其底层方法学和数据来源相关的固有局限性。这些包括与财务重要性相关的局限、在冲突极端严重的地区无法执行强化尽职调查，以及一般数据可用性或自行申报完整性方面的变数。\n\n关于一般方法学与数据来源局限性的全面披露，以及 EcoVadis 为缓解这些局限而实施的严格措施，请参见《EcoVadis 可持续性评级——面向公众、评级用户与被评级对象的方法学披露文件》。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "3.1. Methodology limitations",
-     "content_cn": "3.1.\nMethodology limitations \n \n\n \nDocument classification: \n       \nEcoVadis Public\n13/19              \n\n \nDetermining a company's eligibility against industry exclusion parameters (e.g., specific \nrevenue thresholds for coal, tobacco, or weapons) relies heavily on the granularity of public \ncorporate reporting and secondary screening databases. In cases where companies, \nparticularly private entities, do not publicly disclose detailed revenue breakdowns, verifying \nthese exact thresholds can present a limitation in data availability. \nAs the EcoVadis Medals are derived directly from the EcoVadis Sustainability Rating, they also \ninherit the inherent limitations associated with its underlying methodology and data sources. \nThese include limitations related to financial materiality, the inability to perform heightened \ndue diligence in areas with extreme levels of conflict, and variables in general data availability \nor self-reporting completeness. \nFor a comprehensive disclosure of the general methodological and data source limitations, \nalongside the strict measures EcoVadis implements to mitigate them, please refer to the \nEcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users \nand rated items.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s20",
-   "title": "3.2. Means of addressing limitations in data sources",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s20",
+      "title": "3.2 应对数据来源局限性的手段",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "3.2 应对数据来源局限性的手段",
+          "content": "To address limitations in data sources for the Medals rating, EcoVadis implements a number of measures and processes aimed at reducing related risks to a minimum. These steps include:\n\nLeveraging core assessment quality controls:\nThe Medals methodology relies on the robust mitigation strategies embedded within the EcoVadis Sustainability Rating. This includes strict document quality checks, the proactive diversification of external stakeholder feedback sources, algorithmic and manual source reliability checks, and a human-controlled validation process.\n\nSecondary screening for exclusion parameters:\nTo specifically address data gaps in public corporate reporting regarding industry exclusions (e.g., revenue thresholds from coal, tobacco, or weapons), analysts systematically cross-reference multiple secondary compliance databases to thoroughly verify eligibility.",
+          "content_cn": "为应对奖牌评级中数据来源的局限性，EcoVadis 实施了一系列措施与流程，旨在将相关风险降至最低。这些步骤包括：\n\n依托核心评估质量控制：\n奖牌方法学依赖嵌入 EcoVadis 可持续性评级之中的稳健缓解策略。这包括严格的文件质量检查、外部利益相关方反馈来源的主动多元化、算法与人工的来源可靠性检查，以及由人工控制的验证流程。\n\n针对排除参数的二次筛查：\n为专门应对公开公司报告中关于行业排除（例如煤炭、烟草或武器的收入门槛）的数据缺口，分析师会系统性地交叉比对多个二次合规数据库，以彻底核实资格。"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "3.2. Means of addressing limitations in data sources",
-     "content_cn": "3.2.\nMeans of addressing limitations in data sources  \n \nTo address limitations in data sources for the Medals rating, EcoVadis implements a number of \nmeasures and processes aimed at reducing related risks to a minimum. These steps include: \n \nLeveraging core assessment quality controls:  \nThe Medals methodology relies on the robust mitigation strategies embedded within the \nEcoVadis Sustainability Rating. This includes strict document quality checks, the proactive \ndiversification of external stakeholder feedback sources, algorithmic and manual source \nreliability checks, and a human-controlled validation process. \n \nSecondary screening for exclusion parameters:  \nTo specifically address data gaps in public corporate reporting regarding industry exclusions \n(e.g., \nrevenue \nthresholds \nfrom \ncoal, \ntobacco, \nor \nweapons), \nanalysts \nsystematically \ncross-reference multiple secondary compliance databases to thoroughly verify eligibility.",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s21",
-   "title": "4. Methodology revision",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s21",
+      "title": "4. 方法学修订",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "4. 方法学修订",
+          "content": "The revision of the methodology of the Medals follows the steps outlined in the Methodology Revision Procedure.\n\nMethodological development and application are independent of all political, economic, or other external influences, and led by a dedicated methodology team, which handles prioritization of methodology developments, research and execution. The methodology team is separate from commercial functions, is managed by the Head of Methodology and reports to the Chief Ratings Officer.\n\na) Methodology Revision Procedure\n\nThe methodology revision process is structured in six phases. Some phases are optional for methodology changes that are not classified as high impact, but can still be considered where relevant.\n\n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, which is approved by the Head of Methodology during the Quarterly Planning. The methodology owner then drafts a project charter detailing the project's description, purpose, rationale, objectives, scope, team and risks, using either a Research or Implementation template. Where needed, a dedicated Methodology Research phase may be initiated first to investigate and justify the need for a formal revision before proceeding to implementation.\n\n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, research findings and the proposed specific changes. The proposal is reviewed and discussed with the project's steering committee to ensure rigor, consistency, and alignment with market and regulatory needs. The steering committee is composed of relevant methodology team members and may involve representatives of other departments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project manager integrates feedback from the steering committee to adjust the proposal accordingly.\n\n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level distribution is performed.\n\n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is conducted. EcoVadis directly engages a targeted selection of rating users, rated entities and external stakeholders to ensure a representative feedback loop.\n\n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final methodology revision proposal, as part of its methodology oversight responsibilities. This body is responsible for identifying potential concerns, raising issues, or requesting further clarification. If any highlighted problems remain unresolved, the Ethics & Compliance team escalates the matter to the ESGR Governance Council for final arbitration and decision-making.\n\n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for regular changes, and by the Chief Rating Officer for high impact changes, and officially implemented. Methodology changes are communicated to rating users and rated entities in the quarterly methodology change communication. The methodology disclosure documents are updated accordingly.\n\nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis to ensure they remain fit for purpose. Methodology revisions are communicated t",
+          "content_cn": "奖牌方法学的修订遵循《方法学修订程序》中概述的步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由一个专门的方法学团队领导，该团队负责方法学开发的优先级排序、研究与执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n\n方法学修订流程分为六个阶段。对于未被归类为重大影响的修订，部分阶段为可选，但在相关情况下仍可考虑。\n\n● 启动\n方法学团队内的方法学所有者识别修订需求，该需求在季度规划（Quarterly Planning）期间由方法学负责人批准。方法学所有者随后起草项目章程，详细说明项目的描述、目的、理由、目标、范围、团队与风险，使用研究或实施模板之一。必要时，可先启动专门的方法学研究阶段，以在付诸实施前调查并论证正式修订的必要性。\n\n● 方法学修订提案\n方法学所有者将详细的修订提案正式化，包括理由、研究发现与拟议的具体变更。该提案与项目的指导委员会一起审查与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可吸纳其他部门（如产品与技术、市场、一线）的代表。项目经理整合指导委员会的反馈以相应调整提案。\n\n● 影响评估\n对当前得分或风险水平分布的潜在影响进行定量评估。\n\n● 利益相关方咨询（若为重大影响）\n若变更被确定为重大影响，则开展正式的利益相关方咨询。EcoVadis 直接接洽有针对性地选取的评级用户、被评级实体与外部利益相关方，以确保具有代表性的反馈闭环。\n\n● 道德与合规团队的方法学监督审查\n道德与合规团队作为方法学监督职责的一部分，对最终方法学修订提案进行独立审查。该机构负责识别潜在关切、提出问题或要求进一步澄清。若任何被强调的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council）进行最终仲裁与决策。\n\n● 批准与实施\n最终方法学修订提案由方法学负责人对常规变更予以批准，由首席评级官对重大影响变更予以批准，并正式实施。方法学变更在季度方法学变更沟通中告知评级用户与被评级实体。方法学披露文件相应更新。\n\n所有方法学均须接受每年一次的强制性内部有效性审查，以确保其持续适用。方法学修订沟通……（原文此处截断）"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "4. Methodology revision",
-     "content_cn": "4.\nMethodology revision \nThe revision of the methodology of the Medals follows the steps outlined in the Methodology \nRevision Procedure. \n \nMethodological development and application are independent of all political, economic, or \nother external influences, and led by a dedicated methodology team, which handles \nprioritization of methodology developments, research and execution. The methodology team is \n\n \nDocument classification: \n       \nEcoVadis Public\n14/19              \n\n \nseparate from commercial functions, is managed by the Head of Methodology and reports to \nthe Chief Ratings Officer. \n \na) Methodology Revision Procedure \n \nThe methodology revision process is structured in six phases. Some phases are optional for \nmethodology changes that are not classified as high impact, but can still be considered where \nrelevant.\n \n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, \nwhich is approved by the Head of Methodology during the Quarterly Planning. The \nmethodology owner then drafts a project charter detailing the project's description, \npurpose, rationale, objectives, scope, team and risks, using either a Research or \nImplementation template. Where needed, a dedicated Methodology Research phase \nmay be initiated first to investigate and justify the need for a formal revision before \nproceeding to implementation.\n \n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, \nresearch findings and the proposed specific changes. The proposal is reviewed and \ndiscussed with the project's steering committee to ensure rigor, consistency, and \nalignment with market and regulatory needs. The steering committee is composed of \nrelevant methodology team members and may involve representatives of other \ndepartments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project \nmanager integrates feedback from the steering committee to adjust the proposal \naccordingly.\n \n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level \ndistribution is performed.\n \n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is \nconducted. EcoVadis directly engages a targeted selection of rating users, rated entities \nand external stakeholders to ensure a representative feedback loop.\n \n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final \nmethodology revision proposal, as part of its methodology oversight responsibilities. This \nbody is responsible for identifying potential concerns, raising issues, or requesting \n\n \nDocument classification: \n       \nEcoVadis Public\n15/19              \n\n \nfurther clarification. If any highlighted problems remain unresolved, the Ethics & \nCompliance team escalates the matter to the ESGR Governance Council for final \narbitration and decision-making.\n \n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for \nregular changes, and by the Chief Rating Officer for high impact changes, and officially \nimplemented. Methodology changes are communicated to rating users and rated \nentities in the quarterly methodology change communication. The methodology \ndisclosure documents are updated accordingly. \n \nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis \nto ensure they remain fit for purpose. Methodology revisions are communicated t",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
-  },
-  {
-   "id": "s22",
-   "title": "5. Organisational Disclosures",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
+      "id": "s22",
+      "title": "5. 组织披露",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "5. 组织披露",
+          "content": "To ensure comprehensive transparency and full compliance with European ESG Rating Regulation standards, this methodology document is published on the official EcoVadis website page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.\n\nThis page includes all required organisational disclosures in a dedicated section: Ownership structure, Business Model & Pricing, Conflict of Interest, and Complaint management & External stakeholder reasoned concern: https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+          "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级法规标准，本方法学文件发布于 EcoVadis 官方网站上专门面向监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门板块中包含全部所需的组织披露内容：所有权结构、商业模式与定价、利益冲突，以及投诉管理与外部利益相关方合理关切：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures"
+        }
+      ]
+    },
     {
-     "type": "standard",
-     "title": "5. Organisational Disclosures",
-     "content_cn": "5.\nOrganisational Disclosures \nTo ensure comprehensive transparency and full compliance with European ESG Rating \nRegulation standards, this methodology document is published on the official EcoVadis \nwebsite page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.  \n \nThis page includes all required organisational disclosures in a dedicated section: Ownership \nstructure, Business Model & Pricing, Conflict of Interest, and Complaint management & \nExternal \nstakeholder \nreasoned \nconcern: \nhttps://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
+      "id": "s23",
+      "title": "6. 法律声明",
+      "groupTitle": "方法学正文",
+      "learningLayer": "original",
+      "blocks": [
+        {
+          "type": "standard",
+          "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
+          "sourceScope": "official",
+          "provenance": "official",
+          "language": "zh",
+          "learningLayer": "original",
+          "title": "6. 法律声明",
+          "content": "The Medals rating is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and companies register number 497 842 914 - R.C.S. Paris.\n\nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the Regulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November 2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out requirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as well as applicable Regulatory Technical Standards of 15th October 2025.\n\nCopyright: No part of this document may be reproduced, modified or distributed in any form or manner without prior written permission of EcoVadis.\n\nNo warranty: This document is intended for informational purposes only, and EcoVadis does not warrant the accuracy, reliability, completeness of the information, content, text, and graphics herein, and is subject to change without notice.\n\nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any direct, indirect, special, incidental or consequential damages arising out of the use of any opinion or information expressly or implicitly contained in this publication.\n\nCopyright © 2026 EcoVadis SAS (Paris, France)\nAll Rights Reserved",
+          "content_cn": "奖牌评级由 Ecovadis SAS 发布，总部位于 43 avenue de la Grande armée 75116 Paris（巴黎），是一家在法国注册的私人简易股份公司（Société à Actions Simplifiée），商业与公司登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会与理事会 2024 年 11 月 27 日关于环境、社会与治理（ESG）评级活动透明度与完整性的（EU）2024/3005 号条例（“该条例”），特别是该条例中确立关于向 ESG 评级用户、被评级对象及被评级对象发行人进行披露要求的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n不提供保证：本文件仅供信息参考之目的，EcoVadis 不保证此处信息、内容、文本与图形的准确性、可靠性、完整性，并可能在未经通知的情况下变更。\n\n责任限制：在任何情况下，EcoVadis 或其子公司均不对因使用本出版物中明示或暗示包含的任何观点或信息而引起的任何直接、间接、特殊、偶然或后果性损害承担责任。\n\n版权所有 © 2026 EcoVadis SAS（法国巴黎）\n保留所有权利"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "s23",
-   "title": "6. Legal notices",
-   "groupTitle": "方法学正文",
-   "learningLayer": "original",
-   "blocks": [
-    {
-     "type": "standard",
-     "title": "6. Legal notices",
-     "content_cn": "6.\nLegal notices \n \n\n \nDocument classification: \n       \nEcoVadis Public\n18/19              \n\n \nThe Medals rating is published by Ecovadis SAS, headquartered at 43 avenue de la Grande \narmée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under \ntrade and companies register number 497 842 914 - R.C.S. Paris. \n \nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the \nRegulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November \n2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating \nactivities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out \nrequirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as \nwell as applicable Regulatory Technical Standards of 15th October 2025.  \n \nCopyright: No part of this document may be reproduced, modified or distributed in any form \nor manner without prior written permission of EcoVadis.  \n \nNo warranty: This document is intended for informational purposes only, and EcoVadis does \nnot warrant the accuracy, reliability, completeness of the information, content, text, and \ngraphics herein, and is subject to change without notice.   \n \nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any \ndirect, indirect, special, incidental or consequential damages arising out of the use of any \nopinion or information expressly or implicitly contained  in this publication.  \n \nCopyright © 2026 EcoVadis SAS (Paris, France)  \nAll Rights Reserved \n\n \nDocument classification: \n       \nEcoVadis Public\n19/19",
-     "content": "",
-     "source": "EcoVadis 奖牌方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
+  ],
+  "relations": {
+    "internal": [],
+    "external": []
   }
- ],
- "relations": {
-  "internal": [],
-  "external": []
- }
 }

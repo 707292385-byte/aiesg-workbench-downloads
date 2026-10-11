@@ -36,16 +36,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Data Privacy",
-       "content": "会计指标 7 项：SV-AD-220a.1、SV-AD-220a.2、SV-AD-220a.3、SV-AD-270a.1…"
+       "title": "数据隐私",
+       "content": "原文 Data Privacy；会计指标 7 项：SV-AD-220a.1、SV-AD-220a.2、SV-AD-220a.3、SV-AD-270a.1…",
+       "titleEn": "Data Privacy"
       },
       {
-       "title": "Advertising Integrity",
-       "content": "会计指标 4 项：SV-AD-270a.1、SV-AD-270a.2、SV-AD-270a.3、SV-AD-330a.1"
+       "title": "广告诚信",
+       "content": "原文 Advertising Integrity；会计指标 4 项：SV-AD-270a.1、SV-AD-270a.2、SV-AD-270a.3、SV-AD-330a.1",
+       "titleEn": "Advertising Integrity"
       },
       {
-       "title": "Workforce Diversity & Inclusion",
-       "content": "会计指标 1 项：SV-AD-330a.1"
+       "title": "员工多元与包容",
+       "content": "原文 Workforce Diversity & Inclusion；会计指标 1 项：SV-AD-330a.1",
+       "titleEn": "Workforce Diversity & Inclusion"
       }
      ],
      "content_cn": "",
@@ -78,20 +81,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 7 项：SV-CA-130a.1、SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 7 项：SV-CA-130a.1、SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Responsible Gaming",
-       "content": "会计指标 6 项：SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1、SV-CA-320a.2…"
+       "title": "负责任博彩",
+       "content": "原文 Responsible Gaming；会计指标 6 项：SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1、SV-CA-320a.2…",
+       "titleEn": "Responsible Gaming"
       },
       {
-       "title": "Smoke-free Casinos",
-       "content": "会计指标 4 项：SV-CA-320a.1、SV-CA-320a.2、SV-CA-510a.1、SV-CA-510a.2"
+       "title": "无烟赌场",
+       "content": "原文 Smoke-free Casinos；会计指标 4 项：SV-CA-320a.1、SV-CA-320a.2、SV-CA-510a.1、SV-CA-510a.2",
+       "titleEn": "Smoke-free Casinos"
       },
       {
-       "title": "Internal Controls on Money Laundering",
-       "content": "会计指标 2 项：SV-CA-510a.1、SV-CA-510a.2"
+       "title": "反洗钱内控",
+       "content": "原文 Internal Controls on Money Laundering；会计指标 2 项：SV-CA-510a.1、SV-CA-510a.2",
+       "titleEn": "Internal Controls on Money Laundering"
       }
      ],
      "content_cn": "",
@@ -124,16 +131,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Data Security",
-       "content": "会计指标 11 项：SV-ED-230a.1、SV-ED-230a.2、SV-ED-230a.3、SV-ED-260a.1…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 11 项：SV-ED-230a.1、SV-ED-230a.2、SV-ED-230a.3、SV-ED-260a.1…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Quality of Education & Gainful Employment",
-       "content": "会计指标 8 项：SV-ED-260a.1、SV-ED-260a.2、SV-ED-260a.3、SV-ED-260a.6…"
+       "title": "教育质量与就业成果",
+       "content": "原文 Quality of Education & Gainful Employment；会计指标 8 项：SV-ED-260a.1、SV-ED-260a.2、SV-ED-260a.3、SV-ED-260a.6…",
+       "titleEn": "Quality of Education & Gainful Employment"
       },
       {
-       "title": "Marketing & Recruiting Practices",
-       "content": "会计指标 4 项：SV-ED-270a.1、SV-ED-270a.2、SV-ED-270a.3、SV-ED-270a.4"
+       "title": "营销与招生实践",
+       "content": "原文 Marketing & Recruiting Practices；会计指标 4 项：SV-ED-270a.1、SV-ED-270a.2、SV-ED-270a.3、SV-ED-270a.4",
+       "titleEn": "Marketing & Recruiting Practices"
       }
      ],
      "content_cn": "",
@@ -166,24 +176,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 9 项：SV-HL-130a.1、SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 9 项：SV-HL-130a.1、SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Water Management",
-       "content": "会计指标 8 项：SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 8 项：SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Ecological Impacts",
-       "content": "会计指标 7 项：SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1、SV-HL-310a.2…"
+       "title": "生态影响",
+       "content": "原文 Ecological Impacts；会计指标 7 项：SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1、SV-HL-310a.2…",
+       "titleEn": "Ecological Impacts"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 5 项：SV-HL-310a.1、SV-HL-310a.2、SV-HL-310a.3、SV-HL-310a.4…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 5 项：SV-HL-310a.1、SV-HL-310a.2、SV-HL-310a.3、SV-HL-310a.4…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Climate Change Adaptation",
-       "content": "会计指标 1 项：SV-HL-450a.1"
+       "title": "气候变化适应",
+       "content": "原文 Climate Change Adaptation；会计指标 1 项：SV-HL-450a.1",
+       "titleEn": "Climate Change Adaptation"
       }
      ],
      "content_cn": "",
@@ -216,16 +231,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 4 项：SV-LF-130a.1、SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 4 项：SV-LF-130a.1、SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Customer Safety",
-       "content": "会计指标 3 项：SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1"
+       "title": "客户安全",
+       "content": "原文 Customer Safety；会计指标 3 项：SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1",
+       "titleEn": "Customer Safety"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 1 项：SV-LF-320a.1"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 1 项：SV-LF-320a.1",
+       "titleEn": "Workforce Health & Safety"
       }
      ],
      "content_cn": "",
@@ -258,16 +276,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Media Pluralism",
-       "content": "会计指标 6 项：SV-ME-260a.1、SV-ME-260a.2、SV-ME-270a.1、SV-ME-270a.2…"
+       "title": "媒体多元性",
+       "content": "原文 Media Pluralism；会计指标 6 项：SV-ME-260a.1、SV-ME-260a.2、SV-ME-270a.1、SV-ME-270a.2…",
+       "titleEn": "Media Pluralism"
       },
       {
-       "title": "Journalistic Integrity & Sponsorship Identification",
-       "content": "会计指标 4 项：SV-ME-270a.1、SV-ME-270a.2、SV-ME-270a.3、SV-ME-520a.1"
+       "title": "新闻操守与赞助标识",
+       "content": "原文 Journalistic Integrity & Sponsorship Identification；会计指标 4 项：SV-ME-270a.1、SV-ME-270a.2、SV-ME-270a.3、SV-ME-520a.1",
+       "titleEn": "Journalistic Integrity & Sponsorship Identification"
       },
       {
-       "title": "Intellectual Property Protection & Media Piracy",
-       "content": "会计指标 1 项：SV-ME-520a.1"
+       "title": "知识产权保护与媒体盗版",
+       "content": "原文 Intellectual Property Protection & Media Piracy；会计指标 1 项：SV-ME-520a.1",
+       "titleEn": "Intellectual Property Protection & Media Piracy"
       }
      ],
      "content_cn": "",
@@ -300,16 +321,19 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Data Security",
-       "content": "会计指标 8 项：SV-PS-230a.1、SV-PS-230a.2、SV-PS-230a.3、SV-PS-330a.1…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 8 项：SV-PS-230a.1、SV-PS-230a.2、SV-PS-230a.3、SV-PS-330a.1…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Workforce Diversity & Engagement",
-       "content": "会计指标 5 项：SV-PS-330a.1、SV-PS-330a.2、SV-PS-330a.3、SV-PS-510a.1…"
+       "title": "员工多元与敬业度",
+       "content": "原文 Workforce Diversity & Engagement；会计指标 5 项：SV-PS-330a.1、SV-PS-330a.2、SV-PS-330a.3、SV-PS-510a.1…",
+       "titleEn": "Workforce Diversity & Engagement"
       },
       {
-       "title": "Professional Integrity",
-       "content": "会计指标 2 项：SV-PS-510a.1、SV-PS-510a.2"
+       "title": "职业操守",
+       "content": "原文 Professional Integrity；会计指标 2 项：SV-PS-510a.1、SV-PS-510a.2",
+       "titleEn": "Professional Integrity"
       }
      ],
      "content_cn": "",

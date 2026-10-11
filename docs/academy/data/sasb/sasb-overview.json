@@ -2,7 +2,7 @@
  "id": "sasb-overview",
  "title": "SASB 标准体系总览",
  "eyebrow": "行业标准体系 · 77 行业",
- "summary": "SASB 标准是一套基于行业的可持续会计标准，按 SICS 分类覆盖 11 个部门 77 个行业，由行业标准描述、披露主题、指标、技术协议和活动指标构成。",
+ "summary": "SASB 标准是一套基于行业的可持续会计标准，按 SICS® 分类覆盖 11 个板块 77 个行业；每项标准由行业描述、披露主题、指标、技术协议与活动指标五部分构成。",
  "tags": [
   "SASB",
   "行业标准"
@@ -17,16 +17,44 @@
  "sections": [
   {
    "id": "s1",
-   "title": "SASB 标准体系概述",
-   "groupTitle": "体系定位",
+   "title": "体系定位与核心原则",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "SASB 标准体系概述",
-     "content_cn": "SASB标准是一套基于行业的可持续发展会计标准，旨在识别和标准化对投资者决策最相关的可持续发展问题的披露。每个行业标准包含：\n\n• **披露主题（Disclosure Topics）**：每个行业平均5-6个主题，描述与该行业相关的特定可持续发展风险和机会\n• **会计指标（Accounting Metrics）**：每个主题下包含定量和定性指标，共约1,050个指标\n• **技术协议（Technical Protocols）**：定义指标的计算方法、口径和披露要求\n\n**核心原则：**\n• 财务重要性（Financial Materiality）：聚焦对企业财务表现有实质影响的可持续发展问题\n• 行业特定性（Industry-Specific）：基于SICS®（可持续行业分类系统）划分77个行业\n• 决策有用性（Decision-Useful）：为投资者提供可比、可验证的信息\n• 成本效益（Cost-Effective）：在信息价值与披露成本之间取得平衡\n\n---",
+     "title": "体系定位",
+     "content_cn": "SASB 标准是一套基于行业的可持续会计标准，按 SICS®（可持续行业分类系统®）归类为 11 个板块 77 个行业，旨在识别和标准化对投资者决策最相关的可持续问题的披露。SASB 标准暂无官方中文版，本页及本体系各页为英文原件的结构化整理，行业与披露主题中文名为通译参考。",
      "content": "",
-     "source": "SASB标准总索引卡（依据 ISSB 官方文件整理）",
+     "source": "SASB Standards 原件（Overview of SASB Standards）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "four_pillars",
+     "title": "四项核心原则",
+     "content_cn": "",
+     "pillars": [
+      {
+       "title": "财务重要性",
+       "desc": "Financial Materiality：聚焦对企业财务状况与经营表现有实质影响的可持续问题"
+      },
+      {
+       "title": "行业特定性",
+       "desc": "Industry-Specific：基于 SICS® 划分 77 个行业，披露要求按行业量身定制"
+      },
+      {
+       "title": "决策有用性",
+       "desc": "Decision-Useful：为投资者提供可比、可验证的信息"
+      },
+      {
+       "title": "成本效益",
+       "desc": "Cost-Effective：在信息价值与披露成本之间取得平衡"
+      }
+     ],
+     "source": "SASB Standards 原件",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -36,16 +64,49 @@
   },
   {
    "id": "s2",
-   "title": "版本更新历史",
-   "groupTitle": "体系定位",
+   "title": "每项行业标准的五部分构成",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "版本更新历史",
-     "content_cn": "| 版本 | 发布时间 | 主要变更 |\n|------|----------|----------|\n| 2023-12 | 2023年12月 | 非气候相关内容修订（国际适用性项目）；生效日期2025年1月1日 |\n| 2023-06 | 2023年6月 | 气候相关内容修订，与IFRS S2行业指南对齐 |\n| 2018 | 2018年11月 | 首套完整77个行业标准发布 |\n| 2016-2017 | 分批发布 | 各部门行业标准分批发布（临时标准） |\n\n---",
+     "title": "构成说明",
+     "content_cn": "每项行业标准由以下五个部分组成；配套指标统一以「行业代码-主题代码.序号」格式编号（如 CG-AA-250a.1）。",
      "content": "",
-     "source": "SASB标准总索引卡",
+     "source": "SASB Standards 原件 Page 4（Overview of SASB Standards）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "title": "五部分构成",
+     "content_cn": "",
+     "cards": [
+      {
+       "title": "行业描述",
+       "content": "Industry Description：描述行业商业模式、核心活动与共同特征，界定标准适用范围"
+      },
+      {
+       "title": "披露主题",
+       "content": "Disclosure Topics：每个行业平均 5-6 个主题，识别该行业特定的可持续风险与机遇"
+      },
+      {
+       "title": "会计指标",
+       "content": "Accounting Metrics：每个主题下包含定量与定性指标，全体系共约 1,050 个指标"
+      },
+      {
+       "title": "技术协议",
+       "content": "Technical Protocols：定义指标的计算方法、口径和披露要求，保证可比、可验证"
+      },
+      {
+       "title": "活动指标",
+       "content": "Activity Metrics：度量行业活动规模的数据，用于指标归一化与跨企业比较"
+      }
+     ],
+     "content": "",
+     "source": "SASB Standards 原件",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -55,16 +116,94 @@
   },
   {
    "id": "s3",
-   "title": "官方资源",
-   "groupTitle": "体系定位",
+   "title": "版本演进",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "官方资源",
-     "content_cn": "• **标准下载页**：https://sasb.ifrs.org/standards/download/\n• **重要性查找器**：https://sasb.ifrs.org/standards/materiality-finder/\n• **标准制定档案**：https://sasb.ifrs.org/archive/standard-setting/\n• **实施指南**：https://sasb.ifrs.org/implementation-primer/\n• **XBRL分类标准**：https://sasb.ifrs.org/download-xbrl-taxonomy/\n• **许可信息**：https://sasb.ifrs.org/licensing/\n\n---\n\n*本索引卡创建日期：2026年9月3日；标准版本：2023-12*",
+     "title": "版本演进说明",
+     "content_cn": "SASB 标准的版本演进分为五个阶段：从 SASB 基金会时期的行业覆盖，到 ISSB 接管后的持续修订，现行通行版为 2023-12（2025 年 1 月 1 日起生效），金融三行业修订版 2025-12 将于 2027 年 1 月 1 日起适用。",
      "content": "",
-     "source": "SASB标准总索引卡",
+     "source": "SASB Standards 版本页；ISSB 2025-12 修订文件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "process_flow",
+     "title": "版本演进",
+     "content_cn": "",
+     "steps": [
+      {
+       "icon": "1",
+       "title": "2011-2018 · SASB 基金会时期",
+       "desc": "各板块行业标准分批发布（临时标准）；2018 年 11 月首套完整 77 个行业标准发布"
+      },
+      {
+       "icon": "2",
+       "title": "2022-08 · ISSB 接管",
+       "desc": "IFRS 基金会完成与 SASB 基金会的合并，SASB 标准由国际可持续发展准则理事会（ISSB）维护"
+      },
+      {
+       "icon": "3",
+       "title": "2023-06 · 气候内容修订",
+       "desc": "气候相关指标与 IFRS S2 行业指南对齐"
+      },
+      {
+       "icon": "4",
+       "title": "2023-12 · 国际适用性修订",
+       "desc": "非气候相关内容修订，2025 年 1 月 1 日起生效（现行通行版）"
+      },
+      {
+       "icon": "5",
+       "title": "2025-12 · 金融行业修订",
+       "desc": "ISSB 修订资产管理与托管、商业银行、保险三个金融行业标准，2027 年 1 月 1 日起适用"
+      }
+     ],
+     "source": "SASB Standards 版本页；ISSB 2025-12 修订文件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "官方资源",
+   "groupTitle": "体系与使用",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "title": "官方资源",
+     "content_cn": "",
+     "cards": [
+      {
+       "title": "标准下载页",
+       "content": "sasb.ifrs.org/standards/download/ —— 77 个行业标准全文下载"
+      },
+      {
+       "title": "重要性查找器",
+       "content": "sasb.ifrs.org/standards/materiality-finder/ —— 按行业查询适用的披露主题与指标"
+      },
+      {
+       "title": "标准制定档案",
+       "content": "sasb.ifrs.org/archive/standard-setting/ —— 标准制定过程与历史版本"
+      },
+      {
+       "title": "实施指南",
+       "content": "sasb.ifrs.org/implementation-primer/ —— 标准实施入门指引"
+      },
+      {
+       "title": "XBRL 分类标准",
+       "content": "sasb.ifrs.org/download-xbrl-taxonomy/ —— 指标的 XBRL 标签下载"
+      }
+     ],
+     "content": "",
+     "source": "IFRS 基金会官网",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -73,6 +212,7 @@
    ]
   }
  ],
+ "notice": "SASB 标准暂无官方中文版；本页为英文原件的结构化整理，中文名为通译参考，请以 ISSB 现行英文原件为准。",
  "relations": {
   "internal": [],
   "external": []

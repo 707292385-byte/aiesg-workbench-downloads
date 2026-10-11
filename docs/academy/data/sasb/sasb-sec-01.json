@@ -36,20 +36,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Management of Chemicals in Products",
-       "content": "会计指标 9 项：CG-AA-250a.1、CG-AA-250a.2、CG-AA-430a.1、CG-AA-430a.2…"
+       "title": "产品中化学品管理",
+       "content": "原文 Management of Chemicals in Products；会计指标 9 项：CG-AA-250a.1、CG-AA-250a.2、CG-AA-430a.1、CG-AA-430a.2…",
+       "titleEn": "Management of Chemicals in Products"
       },
       {
-       "title": "Environmental Impacts in the Supply Chain",
-       "content": "会计指标 7 项：CG-AA-430a.1、CG-AA-430a.2、CG-AA-430b.1、CG-AA-430b.2…"
+       "title": "供应链环境影响",
+       "content": "原文 Environmental Impacts in the Supply Chain；会计指标 7 项：CG-AA-430a.1、CG-AA-430a.2、CG-AA-430b.1、CG-AA-430b.2…",
+       "titleEn": "Environmental Impacts in the Supply Chain"
       },
       {
-       "title": "Labour Conditions in the Supply Chain",
-       "content": "会计指标 5 项：CG-AA-430b.1、CG-AA-430b.2、CG-AA-430b.3、CG-AA-440a.3…"
+       "title": "供应链劳动条件",
+       "content": "原文 Labour Conditions in the Supply Chain；会计指标 5 项：CG-AA-430b.1、CG-AA-430b.2、CG-AA-430b.3、CG-AA-440a.3…",
+       "titleEn": "Labour Conditions in the Supply Chain"
       },
       {
-       "title": "Raw Materials Sourcing",
-       "content": "会计指标 2 项：CG-AA-440a.3、CG-AA-440a.4"
+       "title": "原材料采购",
+       "content": "原文 Raw Materials Sourcing；会计指标 2 项：CG-AA-440a.3、CG-AA-440a.4",
+       "titleEn": "Raw Materials Sourcing"
       }
      ],
      "content_cn": "",
@@ -82,12 +86,14 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Product Safety",
-       "content": "会计指标 6 项：CG-AM-250a.1、CG-AM-250a.2、CG-AM-250a.3、CG-AM-410a.1…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 6 项：CG-AM-250a.1、CG-AM-250a.2、CG-AM-250a.3、CG-AM-410a.1…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Product Lifecycle Environmental Impacts",
-       "content": "会计指标 3 项：CG-AM-410a.1、CG-AM-410a.2、CG-AM-410a.3"
+       "title": "产品全生命周期环境影响",
+       "content": "原文 Product Lifecycle Environmental Impacts；会计指标 3 项：CG-AM-410a.1、CG-AM-410a.2、CG-AM-410a.3",
+       "titleEn": "Product Lifecycle Environmental Impacts"
       }
      ],
      "content_cn": "",
@@ -120,20 +126,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management in Manufacturing",
-       "content": "会计指标 6 项：CG-BF-130a.1、CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1…"
+       "title": "制造环节能源管理",
+       "content": "原文 Energy Management in Manufacturing；会计指标 6 项：CG-BF-130a.1、CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1…",
+       "titleEn": "Energy Management in Manufacturing"
       },
       {
-       "title": "Management of Chemicals in Products",
-       "content": "会计指标 5 项：CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1、CG-BF-410a.2…"
+       "title": "产品中化学品管理",
+       "content": "原文 Management of Chemicals in Products；会计指标 5 项：CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1、CG-BF-410a.2…",
+       "titleEn": "Management of Chemicals in Products"
       },
       {
-       "title": "Product Lifecycle Environmental Impacts",
-       "content": "会计指标 3 项：CG-BF-410a.1、CG-BF-410a.2、CG-BF-430a.1"
+       "title": "产品全生命周期环境影响",
+       "content": "原文 Product Lifecycle Environmental Impacts；会计指标 3 项：CG-BF-410a.1、CG-BF-410a.2、CG-BF-430a.1",
+       "titleEn": "Product Lifecycle Environmental Impacts"
       },
       {
-       "title": "Wood Supply Chain Management",
-       "content": "会计指标 1 项：CG-BF-430a.1"
+       "title": "木材供应链管理",
+       "content": "原文 Wood Supply Chain Management；会计指标 1 项：CG-BF-430a.1",
+       "titleEn": "Wood Supply Chain Management"
       }
      ],
      "content_cn": "",
@@ -166,24 +176,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Hardware Infrastructure Energy & Water Management",
-       "content": "会计指标 13 项：CG-EC-130a.1、CG-EC-130a.2、CG-EC-130a.3、CG-EC-220a.1…"
+       "title": "硬件基础设施能源与水管理",
+       "content": "原文 Hardware Infrastructure Energy & Water Management；会计指标 13 项：CG-EC-130a.1、CG-EC-130a.2、CG-EC-130a.3、CG-EC-220a.1…",
+       "titleEn": "Hardware Infrastructure Energy & Water Management"
       },
       {
-       "title": "Data Privacy & Advertising Standards",
-       "content": "会计指标 10 项：CG-EC-220a.1、CG-EC-220a.2、CG-EC-230a.1、CG-EC-230a.2…"
+       "title": "数据隐私与广告规范",
+       "content": "原文 Data Privacy & Advertising Standards；会计指标 10 项：CG-EC-220a.1、CG-EC-220a.2、CG-EC-230a.1、CG-EC-230a.2…",
+       "titleEn": "Data Privacy & Advertising Standards"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 8 项：CG-EC-230a.1、CG-EC-230a.2、CG-EC-330a.1、CG-EC-330a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 8 项：CG-EC-230a.1、CG-EC-230a.2、CG-EC-330a.1、CG-EC-330a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Employee Recruitment, Inclusion & Performance",
-       "content": "会计指标 6 项：CG-EC-330a.1、CG-EC-330a.2、CG-EC-330a.3、CG-EC-330a.4…"
+       "title": "员工招聘、包容与绩效",
+       "content": "原文 Employee Recruitment, Inclusion & Performance；会计指标 6 项：CG-EC-330a.1、CG-EC-330a.2、CG-EC-330a.3、CG-EC-330a.4…",
+       "titleEn": "Employee Recruitment, Inclusion & Performance"
       },
       {
-       "title": "Product Packaging & Distribution",
-       "content": "会计指标 2 项：CG-EC-410a.1、CG-EC-410a.2"
+       "title": "产品包装与配送",
+       "content": "原文 Product Packaging & Distribution；会计指标 2 项：CG-EC-410a.1、CG-EC-410a.2",
+       "titleEn": "Product Packaging & Distribution"
       }
      ],
      "content_cn": "",
@@ -216,20 +231,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Water Management",
-       "content": "会计指标 8 项：CG-HP-140a.1、CG-HP-140a.2、CG-HP-250a.1、CG-HP-250a.3…"
+       "title": "水资源管理",
+       "content": "原文 Water Management；会计指标 8 项：CG-HP-140a.1、CG-HP-140a.2、CG-HP-250a.1、CG-HP-250a.3…",
+       "titleEn": "Water Management"
       },
       {
-       "title": "Product Environmental, Health and Safety Performance",
-       "content": "会计指标 6 项：CG-HP-250a.1、CG-HP-250a.3、CG-HP-250a.4、CG-HP-410a.1…"
+       "title": "产品环境健康安全绩效",
+       "content": "原文 Product Environmental, Health and Safety Performance；会计指标 6 项：CG-HP-250a.1、CG-HP-250a.3、CG-HP-250a.4、CG-HP-410a.1…",
+       "titleEn": "Product Environmental, Health and Safety Performance"
       },
       {
-       "title": "Packaging Lifecycle Management",
-       "content": "会计指标 3 项：CG-HP-410a.1、CG-HP-410a.2、CG-HP-430a.1"
+       "title": "包装全生命周期管理",
+       "content": "原文 Packaging Lifecycle Management；会计指标 3 项：CG-HP-410a.1、CG-HP-410a.2、CG-HP-430a.1",
+       "titleEn": "Packaging Lifecycle Management"
       },
       {
-       "title": "Environmental & Social Impacts of Palm Oil Supply Chain",
-       "content": "会计指标 1 项：CG-HP-430a.1"
+       "title": "棕榈油供应链环境与社会影响",
+       "content": "原文 Environmental & Social Impacts of Palm Oil Supply Chain；会计指标 1 项：CG-HP-430a.1",
+       "titleEn": "Environmental & Social Impacts of Palm Oil Supply Chain"
       }
      ],
      "content_cn": "",
@@ -262,24 +281,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management in Retail & Distribution",
-       "content": "会计指标 11 项：CG-MR-130a.1、CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1…"
+       "title": "零售与配送环节能源管理",
+       "content": "原文 Energy Management in Retail & Distribution；会计指标 11 项：CG-MR-130a.1、CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1…",
+       "titleEn": "Energy Management in Retail & Distribution"
       },
       {
-       "title": "Data Security",
-       "content": "会计指标 10 项：CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1、CG-MR-310a.2…"
+       "title": "数据安全",
+       "content": "原文 Data Security；会计指标 10 项：CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1、CG-MR-310a.2…",
+       "titleEn": "Data Security"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 8 项：CG-MR-310a.1、CG-MR-310a.2、CG-MR-310a.3、CG-MR-330a.1…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 8 项：CG-MR-310a.1、CG-MR-310a.2、CG-MR-310a.3、CG-MR-330a.1…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Workforce Diversity & Inclusion",
-       "content": "会计指标 5 项：CG-MR-330a.1、CG-MR-330a.2、CG-MR-410a.1、CG-MR-410a.2…"
+       "title": "员工多元与包容",
+       "content": "原文 Workforce Diversity & Inclusion；会计指标 5 项：CG-MR-330a.1、CG-MR-330a.2、CG-MR-410a.1、CG-MR-410a.2…",
+       "titleEn": "Workforce Diversity & Inclusion"
       },
       {
-       "title": "Product Sourcing, Packaging & Marketing",
-       "content": "会计指标 3 项：CG-MR-410a.1、CG-MR-410a.2、CG-MR-410a.3"
+       "title": "产品采购、包装与营销",
+       "content": "原文 Product Sourcing, Packaging & Marketing；会计指标 3 项：CG-MR-410a.1、CG-MR-410a.2、CG-MR-410a.3",
+       "titleEn": "Product Sourcing, Packaging & Marketing"
       }
      ],
      "content_cn": "",
@@ -312,12 +336,14 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Chemical & Safety Hazards of Products",
-       "content": "会计指标 5 项：CG-TS-250a.1、CG-TS-250a.3、CG-TS-250a.4、CG-TS-430a.1…"
+       "title": "产品化学与安全危害",
+       "content": "原文 Chemical & Safety Hazards of Products；会计指标 5 项：CG-TS-250a.1、CG-TS-250a.3、CG-TS-250a.4、CG-TS-430a.1…",
+       "titleEn": "Chemical & Safety Hazards of Products"
       },
       {
-       "title": "Labour Conditions in the Supply Chain",
-       "content": "会计指标 2 项：CG-TS-430a.1、CG-TS-430a.2"
+       "title": "供应链劳动条件",
+       "content": "原文 Labour Conditions in the Supply Chain；会计指标 2 项：CG-TS-430a.1、CG-TS-430a.2",
+       "titleEn": "Labour Conditions in the Supply Chain"
       }
      ],
      "content_cn": "",

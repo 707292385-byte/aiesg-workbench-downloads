@@ -18,16 +18,16 @@
  "sections": [
   {
    "id": "s1",
-   "title": "与其他标准框架的关系",
-   "groupTitle": "体系定位",
+   "title": "IFRS S1 对 SASB 标准的引用",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "与其他标准框架的关系",
-     "content_cn": "• **ISSB IFRS S1/S2**：SASB标准是IFRS S2气候披露的行业指标来源；ISSB承诺维护和发展SASB标准\n• **GRI标准**：SASB聚焦财务重要性，GRI聚焦双重重要性（影响+财务），两者互补\n• **TCFD建议**：SASB气候指标与TCFD四大支柱（治理、战略、风险管理、指标与目标）对齐\n• **CSRD/ESRS**：欧盟ESRS在制定时参考了SASB标准的行业方法\n• **CDP**：CDP气候变化问卷整合了SASB气候相关指标\n\n---",
+     "title": "IFRS S1 对 SASB 标准的引用",
+     "content_cn": "IFRS S1《可持续发展相关财务信息披露的一般要求》要求主体在识别可合理预期影响其前景的可持续相关风险与机遇时，参照并考虑 SASB 标准中披露主题的适用性；同样，IFRS S1 要求主体在确定应披露哪些可持续相关风险与机遇信息时，参照并考虑 SASB 标准中相关指标的适用性。\n\n原件原文（英文）：IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information requires entities to refer to and consider the applicability of disclosure topics in the SASB Standards when identifying sustainability-related risks and opportunities that could reasonably be expected to affect an entity's prospects. Similarly, IFRS S1 requires entities to refer to and consider the applicability of metrics in the SASB Standards when determining what information to disclose regarding sustainability-related risks and opportunities.",
      "content": "",
-     "source": "SASB标准总索引卡",
+     "source": "SASB 行业标准原件 Page 2（About the SASB Standards）",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -37,16 +37,38 @@
   },
   {
    "id": "s2",
-   "title": "IFRS S1 对 SASB 标准的引用（官方原件原文）",
-   "groupTitle": "体系定位",
+   "title": "与其他标准框架的关系",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
-     "title": "IFRS S1 对 SASB 标准的引用（官方原件原文）",
-     "content_cn": "IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information requires entities to refer to and consider the applicability of disclosure topics in the SASB Standards when identifying sustainability-related risks and opportunities that could reasonably be expected to affect an entity's prospects. Similarly, IFRS S1 requires entities to refer to and consider the applicability of metrics in the SASB Standards when determining what information to disclose regarding sustainability-related risks and opportunities.",
+     "type": "card_grid",
+     "title": "与其他标准框架的关系",
+     "content_cn": "",
+     "cards": [
+      {
+       "title": "ISSB IFRS S1/S2",
+       "content": "SASB 标准是 IFRS S2 气候披露的行业指标来源；ISSB 承诺维护和发展 SASB 标准"
+      },
+      {
+       "title": "GRI 标准",
+       "content": "SASB 聚焦财务重要性，GRI 聚焦双重重要性（影响+财务），两者互补"
+      },
+      {
+       "title": "TCFD 建议",
+       "content": "SASB 气候指标与 TCFD 四大支柱（治理、战略、风险管理、指标与目标）对齐"
+      },
+      {
+       "title": "CSRD/ESRS",
+       "content": "欧盟 ESRS 制定时参考了 SASB 标准的行业方法"
+      },
+      {
+       "title": "CDP",
+       "content": "CDP 气候变化问卷整合了 SASB 气候相关指标"
+      }
+     ],
      "content": "",
-     "source": "SASB 行业标准原件 Page 2（About the SASB Standards）",
+     "source": "SASB 行业标准原件；各框架官方文件",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -55,6 +77,7 @@
    ]
   }
  ],
+ "notice": "SASB 标准暂无官方中文版；本页为英文原件的结构化整理，中文名为通译参考，请以 ISSB 现行英文原件为准。",
  "relations": {
   "internal": [],
   "external": []

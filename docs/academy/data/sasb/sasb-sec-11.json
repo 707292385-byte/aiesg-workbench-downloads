@@ -36,28 +36,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 12 项：TR-AF-110a.1、TR-AF-110a.2、TR-AF-110a.3、TR-AF-120a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 12 项：TR-AF-110a.1、TR-AF-110a.2、TR-AF-110a.3、TR-AF-120a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 9 项：TR-AF-120a.1、TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 9 项：TR-AF-120a.1、TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 8 项：TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1、TR-AF-430a.2…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 8 项：TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1、TR-AF-430a.2…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 6 项：TR-AF-320a.1、TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 6 项：TR-AF-320a.1、TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Supply Chain Management",
-       "content": "会计指标 5 项：TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1、TR-AF-540a.2…"
+       "title": "供应链管理",
+       "content": "原文 Supply Chain Management；会计指标 5 项：TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1、TR-AF-540a.2…",
+       "titleEn": "Supply Chain Management"
       },
       {
-       "title": "Accident & Safety Management",
-       "content": "会计指标 3 项：TR-AF-540a.1、TR-AF-540a.2、TR-AF-540a.3"
+       "title": "事故与安全管理",
+       "content": "原文 Accident & Safety Management；会计指标 3 项：TR-AF-540a.1、TR-AF-540a.2、TR-AF-540a.3",
+       "titleEn": "Accident & Safety Management"
       }
      ],
      "content_cn": "",
@@ -90,20 +96,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 9 项：TR-AL-110a.1、TR-AL-110a.2、TR-AL-110a.3、TR-AL-310a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 9 项：TR-AL-110a.1、TR-AL-110a.2、TR-AL-110a.3、TR-AL-310a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 6 项：TR-AL-310a.1、TR-AL-310a.2、TR-AL-520a.1、TR-AL-540a.1…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 6 项：TR-AL-310a.1、TR-AL-310a.2、TR-AL-520a.1、TR-AL-540a.1…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Competitive Behaviour",
-       "content": "会计指标 4 项：TR-AL-520a.1、TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3"
+       "title": "竞争行为",
+       "content": "原文 Competitive Behaviour；会计指标 4 项：TR-AL-520a.1、TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3",
+       "titleEn": "Competitive Behaviour"
       },
       {
-       "title": "Accident & Safety Management",
-       "content": "会计指标 3 项：TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3"
+       "title": "事故与安全管理",
+       "content": "原文 Accident & Safety Management；会计指标 3 项：TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3",
+       "titleEn": "Accident & Safety Management"
       }
      ],
      "content_cn": "",
@@ -136,32 +146,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Energy Management",
-       "content": "会计指标 8 项：TR-AP-130a.1、TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1…"
+       "title": "能源管理",
+       "content": "原文 Energy Management；会计指标 8 项：TR-AP-130a.1、TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1…",
+       "titleEn": "Energy Management"
       },
       {
-       "title": "Waste Management",
-       "content": "会计指标 7 项：TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1…"
+       "title": "废弃物管理",
+       "content": "原文 Waste Management；会计指标 7 项：TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1…",
+       "titleEn": "Waste Management"
       },
       {
-       "title": "Product Safety",
-       "content": "会计指标 6 项：TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 6 项：TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Design for Fuel Efficiency",
-       "content": "会计指标 5 项：TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2…"
+       "title": "燃效导向设计",
+       "content": "原文 Design for Fuel Efficiency；会计指标 5 项：TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2…",
+       "titleEn": "Design for Fuel Efficiency"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 4 项：TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 4 项：TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Materials Efficiency",
-       "content": "会计指标 3 项：TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1"
+       "title": "材料效率",
+       "content": "原文 Materials Efficiency；会计指标 3 项：TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1",
+       "titleEn": "Materials Efficiency"
       },
       {
-       "title": "Competitive Behaviour",
-       "content": "会计指标 1 项：TR-AP-520a.1"
+       "title": "竞争行为",
+       "content": "原文 Competitive Behaviour；会计指标 1 项：TR-AP-520a.1",
+       "titleEn": "Competitive Behaviour"
       }
      ],
      "content_cn": "",
@@ -194,24 +211,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Product Safety",
-       "content": "会计指标 12 项：TR-AU-250a.1、TR-AU-250a.2、TR-AU-250a.3、TR-AU-310a.1…"
+       "title": "产品安全",
+       "content": "原文 Product Safety；会计指标 12 项：TR-AU-250a.1、TR-AU-250a.2、TR-AU-250a.3、TR-AU-310a.1…",
+       "titleEn": "Product Safety"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 9 项：TR-AU-310a.1、TR-AU-310a.2、TR-AU-410a.1、TR-AU-410a.2…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 9 项：TR-AU-310a.1、TR-AU-310a.2、TR-AU-410a.1、TR-AU-410a.2…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Fuel Economy & Use-phase Emissions",
-       "content": "会计指标 7 项：TR-AU-410a.1、TR-AU-410a.2、TR-AU-410a.3、TR-AU-440a.1…"
+       "title": "燃效与使用阶段排放",
+       "content": "原文 Fuel Economy & Use-phase Emissions；会计指标 7 项：TR-AU-410a.1、TR-AU-410a.2、TR-AU-410a.3、TR-AU-440a.1…",
+       "titleEn": "Fuel Economy & Use-phase Emissions"
       },
       {
-       "title": "Materials Sourcing",
-       "content": "会计指标 4 项：TR-AU-440a.1、TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3"
+       "title": "材料采购",
+       "content": "原文 Materials Sourcing；会计指标 4 项：TR-AU-440a.1、TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3",
+       "titleEn": "Materials Sourcing"
       },
       {
-       "title": "Materials Efficiency & Recycling",
-       "content": "会计指标 3 项：TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3"
+       "title": "材料效率与回收",
+       "content": "原文 Materials Efficiency & Recycling；会计指标 3 项：TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3",
+       "titleEn": "Materials Efficiency & Recycling"
       }
      ],
      "content_cn": "",
@@ -244,12 +266,14 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Customer Safety",
-       "content": "会计指标 4 项：TR-CR-250a.1、TR-CR-250a.2、TR-CR-410a.1、TR-CR-410a.2"
+       "title": "客户安全",
+       "content": "原文 Customer Safety；会计指标 4 项：TR-CR-250a.1、TR-CR-250a.2、TR-CR-410a.1、TR-CR-410a.2",
+       "titleEn": "Customer Safety"
       },
       {
-       "title": "Fleet Fuel Economy & Utilisation",
-       "content": "会计指标 2 项：TR-CR-410a.1、TR-CR-410a.2"
+       "title": "车队燃效与利用率",
+       "content": "原文 Fleet Fuel Economy & Utilisation；会计指标 2 项：TR-CR-410a.1、TR-CR-410a.2",
+       "titleEn": "Fleet Fuel Economy & Utilisation"
       }
      ],
      "content_cn": "",
@@ -282,32 +306,39 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 20 项：TR-CL-110a.1、TR-CL-110a.2、TR-CL-110a.3、TR-CL-110a.4…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 20 项：TR-CL-110a.1、TR-CL-110a.2、TR-CL-110a.3、TR-CL-110a.4…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 16 项：TR-CL-120a.1、TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 16 项：TR-CL-120a.1、TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Discharge Management & Ecological Impacts",
-       "content": "会计指标 15 项：TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3、TR-CL-160a.4…"
+       "title": "排放管理与生态影响",
+       "content": "原文 Discharge Management & Ecological Impacts；会计指标 15 项：TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3、TR-CL-160a.4…",
+       "titleEn": "Discharge Management & Ecological Impacts"
       },
       {
-       "title": "Customer Health & Safety",
-       "content": "会计指标 11 项：TR-CL-250a.1、TR-CL-250a.2、TR-CL-250a.3、TR-CL-310a.1…"
+       "title": "客户健康与安全",
+       "content": "原文 Customer Health & Safety；会计指标 11 项：TR-CL-250a.1、TR-CL-250a.2、TR-CL-250a.3、TR-CL-310a.1…",
+       "titleEn": "Customer Health & Safety"
       },
       {
-       "title": "Labour Practices",
-       "content": "会计指标 8 项：TR-CL-310a.1、TR-CL-310a.2、TR-CL-310a.3、TR-CL-310a.4…"
+       "title": "劳工实践",
+       "content": "原文 Labour Practices；会计指标 8 项：TR-CL-310a.1、TR-CL-310a.2、TR-CL-310a.3、TR-CL-310a.4…",
+       "titleEn": "Labour Practices"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 4 项：TR-CL-320a.1、TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 4 项：TR-CL-320a.1、TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Accident Management",
-       "content": "会计指标 3 项：TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3"
+       "title": "事故管理",
+       "content": "原文 Accident Management；会计指标 3 项：TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3",
+       "titleEn": "Accident Management"
       }
      ],
      "content_cn": "",
@@ -340,28 +371,34 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 14 项：TR-MT-110a.1、TR-MT-110a.2、TR-MT-110a.3、TR-MT-110a.4…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 14 项：TR-MT-110a.1、TR-MT-110a.2、TR-MT-110a.3、TR-MT-110a.4…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 10 项：TR-MT-120a.1、TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 10 项：TR-MT-120a.1、TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Ecological Impacts",
-       "content": "会计指标 9 项：TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3、TR-MT-320a.1…"
+       "title": "生态影响",
+       "content": "原文 Ecological Impacts；会计指标 9 项：TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3、TR-MT-320a.1…",
+       "titleEn": "Ecological Impacts"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 6 项：TR-MT-320a.1、TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 6 项：TR-MT-320a.1、TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Business Ethics",
-       "content": "会计指标 5 项：TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1、TR-MT-540a.2…"
+       "title": "商业道德",
+       "content": "原文 Business Ethics；会计指标 5 项：TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1、TR-MT-540a.2…",
+       "titleEn": "Business Ethics"
       },
       {
-       "title": "Accident & Safety Management",
-       "content": "会计指标 3 项：TR-MT-540a.1、TR-MT-540a.2、TR-MT-540a.3"
+       "title": "事故与安全管理",
+       "content": "原文 Accident & Safety Management；会计指标 3 项：TR-MT-540a.1、TR-MT-540a.2、TR-MT-540a.3",
+       "titleEn": "Accident & Safety Management"
       }
      ],
      "content_cn": "",
@@ -394,24 +431,29 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 10 项：TR-RA-110a.1、TR-RA-110a.2、TR-RA-110a.3、TR-RA-120a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 10 项：TR-RA-110a.1、TR-RA-110a.2、TR-RA-110a.3、TR-RA-120a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 7 项：TR-RA-120a.1、TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 7 项：TR-RA-120a.1、TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Workforce Health & Safety",
-       "content": "会计指标 6 项：TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2…"
+       "title": "员工健康与安全",
+       "content": "原文 Workforce Health & Safety；会计指标 6 项：TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2…",
+       "titleEn": "Workforce Health & Safety"
       },
       {
-       "title": "Competitive Behaviour",
-       "content": "会计指标 5 项：TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3…"
+       "title": "竞争行为",
+       "content": "原文 Competitive Behaviour；会计指标 5 项：TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3…",
+       "titleEn": "Competitive Behaviour"
       },
       {
-       "title": "Accident & Safety Management",
-       "content": "会计指标 4 项：TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3、TR-RA-540a.4"
+       "title": "事故与安全管理",
+       "content": "原文 Accident & Safety Management；会计指标 4 项：TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3、TR-RA-540a.4",
+       "titleEn": "Accident & Safety Management"
       }
      ],
      "content_cn": "",
@@ -444,20 +486,24 @@
      "type": "card_grid",
      "cards": [
       {
-       "title": "Greenhouse Gas Emissions",
-       "content": "会计指标 9 项：TR-RO-110a.1、TR-RO-110a.2、TR-RO-110a.3、TR-RO-120a.1…"
+       "title": "温室气体排放",
+       "content": "原文 Greenhouse Gas Emissions；会计指标 9 项：TR-RO-110a.1、TR-RO-110a.2、TR-RO-110a.3、TR-RO-120a.1…",
+       "titleEn": "Greenhouse Gas Emissions"
       },
       {
-       "title": "Air Quality",
-       "content": "会计指标 6 项：TR-RO-120a.1、TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3…"
+       "title": "空气质量",
+       "content": "原文 Air Quality；会计指标 6 项：TR-RO-120a.1、TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3…",
+       "titleEn": "Air Quality"
       },
       {
-       "title": "Workforce Conditions, Health & Safety",
-       "content": "会计指标 5 项：TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3、TR-RO-540a.1…"
+       "title": "员工条件、健康与安全",
+       "content": "原文 Workforce Conditions, Health & Safety；会计指标 5 项：TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3、TR-RO-540a.1…",
+       "titleEn": "Workforce Conditions, Health & Safety"
       },
       {
-       "title": "Accident & Safety Management",
-       "content": "会计指标 2 项：TR-RO-540a.1、TR-RO-540a.3"
+       "title": "事故与安全管理",
+       "content": "原文 Accident & Safety Management；会计指标 2 项：TR-RO-540a.1、TR-RO-540a.3",
+       "titleEn": "Accident & Safety Management"
       }
      ],
      "content_cn": "",

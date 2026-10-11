@@ -2,7 +2,7 @@
  "id": "sasb-usage",
  "title": "如何使用 SASB 行业标准",
  "eyebrow": "行业标准体系 · 使用方法",
- "summary": "先用 SICS 分类确定企业所属行业（可跨行业），再按披露主题与指标组织披露；指标计算参照技术协议执行。",
+ "summary": "先用 SICS® 分类确定企业所属行业（可跨行业），再按披露主题与指标组织披露；指标计算参照技术协议执行。",
  "tags": [
   "SASB",
   "使用方法"
@@ -17,16 +17,53 @@
  "sections": [
   {
    "id": "s1",
-   "title": "使用建议",
-   "groupTitle": "体系定位",
+   "title": "使用步骤",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "使用建议",
-     "content_cn": "1. **行业匹配**：使用SICS®分类系统确定企业所属行业，可跨行业匹配（多元化企业）\n2. **重要性评估**：SASB标准已预设行业重要性主题，企业可在此基础上进行自身重要性评估\n3. **指标计算**：参照各标准中的技术协议（Technical Protocols）执行指标计算和数据收集\n4. **披露格式**：SASB标准支持在年报、可持续发展报告或单独的SASB披露中使用\n5. **鉴证准备**：SASB指标设计考虑了可验证性，便于后续第三方鉴证\n\n---",
+     "title": "使用步骤说明",
+     "content_cn": "使用 SASB 行业标准可按以下五个步骤执行：从确定行业归属开始，到组织披露与鉴证准备，每一步都有对应的官方文件支撑。",
      "content": "",
-     "source": "SASB标准总索引卡",
+     "source": "SASB 行业标准原件；Implementation Primer",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "process_flow",
+     "title": "使用步骤",
+     "content_cn": "",
+     "steps": [
+      {
+       "icon": "1",
+       "title": "行业匹配",
+       "desc": "使用 SICS® 分类系统确定企业所属行业；多元化企业可跨行业匹配"
+      },
+      {
+       "icon": "2",
+       "title": "重要性评估",
+       "desc": "SASB 已预设行业重要性主题，企业可在此基础上进行自身重要性评估"
+      },
+      {
+       "icon": "3",
+       "title": "指标计算",
+       "desc": "参照各标准中的技术协议（Technical Protocols）执行指标计算与数据收集"
+      },
+      {
+       "icon": "4",
+       "title": "组织披露",
+       "desc": "SASB 指标可纳入年报、可持续发展报告或单独的 SASB 披露文件"
+      },
+      {
+       "icon": "5",
+       "title": "鉴证准备",
+       "desc": "SASB 指标设计考虑了可验证性，便于后续第三方鉴证"
+      }
+     ],
+     "source": "SASB 行业标准原件；Implementation Primer",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
@@ -36,14 +73,14 @@
   },
   {
    "id": "s2",
-   "title": "SASB 标准的构成（官方原件原文）",
-   "groupTitle": "体系定位",
+   "title": "SASB 标准的构成（原件中文译文）",
+   "groupTitle": "体系与使用",
    "learningLayer": "original",
    "blocks": [
     {
      "type": "standard",
-     "title": "SASB 标准的构成（官方原件原文）",
-     "content_cn": "The SASB Standards are a set of 77 industry-specific sustainability accounting standards (\"SASB Standards\" or \"Industry Standards\"), categorised pursuant to the Sustainable Industry Classification System® (SICS®). SASB Standards include: 1. Industry descriptions; 2. Disclosure topics; 3. Metrics; 4. Technical protocols; 5. Activity metrics.",
+     "title": "SASB 标准的构成",
+     "content_cn": "SASB 标准是一套由 77 项基于行业的可持续会计标准组成的体系（合称「SASB Standards」或「行业标准」），按可持续行业分类系统®（SICS®）归类。每项标准包括五部分：1. 行业描述（Industry descriptions）；2. 披露主题（Disclosure topics）；3. 指标（Metrics）；4. 技术协议（Technical protocols）；5. 活动指标（Activity metrics）。\n\n原件原文（英文）：The SASB Standards are a set of 77 industry-specific sustainability accounting standards (\"SASB Standards\" or \"Industry Standards\"), categorised pursuant to the Sustainable Industry Classification System® (SICS®). SASB Standards include: 1. Industry descriptions; 2. Disclosure topics; 3. Metrics; 4. Technical protocols; 5. Activity metrics.",
      "content": "",
      "source": "SASB 行业标准原件 Page 4（Overview of SASB Standards）",
      "sourceScope": "official",
@@ -54,6 +91,7 @@
    ]
   }
  ],
+ "notice": "SASB 标准暂无官方中文版；本页为英文原件的结构化整理，中文名为通译参考，请以 ISSB 现行英文原件为准。",
  "relations": {
   "internal": [],
   "external": []
