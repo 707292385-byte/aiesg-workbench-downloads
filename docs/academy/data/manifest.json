@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-09-15T14:13:09.473Z",
+  "generatedAt": "2026-10-12T02:00:00.000Z",
   "standards": [
     {
       "id": "msci",
@@ -71,6 +71,76 @@
       "groups": 3,
       "topics": 34,
       "data": "data/csa.json"
+    },
+    {
+      "id": "gri",
+      "title": "GRI 可持续发展报告标准",
+      "titleEn": "GRI Standards",
+      "eyebrow": "全球通用披露标准",
+      "accent": "#2f7d4f",
+      "description": "GSSB 发布的全球最广泛使用的可持续披露标准：通用标准定框架，议题标准给要求，行业标准列议题。",
+      "issuer": "全球可持续发展标准委员会（GSSB）",
+      "version": "GRI 2021 通用标准 + 2025 新议题标准",
+      "updated": "按标准分别记录",
+      "groups": 5,
+      "topics": 40,
+      "data": "data/gri.json"
+    },
+    {
+      "id": "sasb",
+      "title": "SASB 行业可持续会计标准",
+      "titleEn": "SASB Standards",
+      "eyebrow": "行业标准 · 财务重要性",
+      "accent": "#1f6f6b",
+      "description": "按 SICS® 分类覆盖 11 个板块 77 个行业，ISSB 接管后是 IFRS S1 识别行业风险与机遇的参照来源。",
+      "issuer": "国际可持续发展准则理事会（ISSB）/ IFRS 基金会",
+      "version": "行业标准 2023-12 / 2025-12",
+      "updated": "按行业原件分别记录",
+      "groups": 12,
+      "topics": 14,
+      "data": "data/sasb.json"
+    },
+    {
+      "id": "ifrs",
+      "title": "ISSB 可持续披露准则（IFRS S1/S2）",
+      "titleEn": "IFRS Sustainability Disclosure Standards",
+      "eyebrow": "全球可持续披露基线",
+      "accent": "#12508f",
+      "description": "ISSB 发布的 IFRS S1（一般要求）与 S2（气候相关披露）构成全球披露基线：四支柱结构，行业指标源自 SASB。",
+      "issuer": "国际可持续发展准则理事会（ISSB）/ IFRS 基金会",
+      "version": "2023 年 6 月发布",
+      "updated": "2026-10",
+      "groups": 3,
+      "topics": 8,
+      "data": "data/ifrs.json"
+    },
+    {
+      "id": "ecovadis",
+      "title": "EcoVadis 可持续评级方法学",
+      "titleEn": "EcoVadis Sustainability Rating Methodology",
+      "eyebrow": "供应链可持续评级",
+      "accent": "#0f7c8c",
+      "description": "EcoVadis 公开方法学披露文件全套：评级主方法与奖牌、徽章、碳评级、碳风险、IQ Plus、Vitals。",
+      "issuer": "EcoVadis",
+      "version": "官方公开披露文件（2026 在库）",
+      "updated": "2026-10",
+      "groups": 4,
+      "topics": 7,
+      "data": "data/ecovadis.json"
+    },
+    {
+      "id": "guozheng",
+      "title": "国证ESG评价体系",
+      "titleEn": "GuoZheng ESG Rating",
+      "eyebrow": "本土 ESG 评价",
+      "accent": "#8a2e2e",
+      "description": "深圳证券信息有限公司发布的国证ESG评价方法：E/S/G 三维度、15 个主题、32 个领域、200 余个指标。",
+      "issuer": "深圳证券信息有限公司（国证指数）",
+      "version": "官网发布版",
+      "updated": "2026-10",
+      "groups": 1,
+      "topics": 1,
+      "data": "data/guozheng.json"
     }
   ]
 }

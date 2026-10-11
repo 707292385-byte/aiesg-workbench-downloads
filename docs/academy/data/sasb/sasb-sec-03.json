@@ -1,0 +1,357 @@
+{
+ "id": "sasb-sec-03",
+ "title": "金融板块（Financials）",
+ "eyebrow": "SICS 板块 · 7 个行业",
+ "summary": "覆盖 金融板块 7 个行业（FN-AC, FN-CB, FN-CF, FN-IN, FN-IB, FN-MF, FN-SC）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12、2025-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "资产管理与托管活动（Asset Management & Custody Activities）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-AC · 原件版本页标注 Version 2025-12 · 自 1 January 2027 起适用",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Transparent Information & Fair Advice for Customers",
+       "content": "会计指标 13 项：FN-AC-270a.1、FN-AC-270a.2、FN-AC-270a.3、FN-AC-330a.1…"
+      },
+      {
+       "title": "Employee Diversity & Inclusion",
+       "content": "会计指标 11 项：FN-AC-270a.2、FN-AC-330a.1、FN-AC-410a.1、FN-AC-410a.2…"
+      },
+      {
+       "title": "Incorporation of Environmental, Social, and Governance Factors in Investment Management & Advisory",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Financed Emissions",
+       "content": "会计指标 7 项：FN-AC-270a.2、FN-AC-410b.1、FN-AC-410b.2、FN-AC-410b.3…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 3 项：FN-AC-270a.2、FN-AC-510a.1、FN-AC-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-AC Asset Management & Custody Activities 行业标准原件（Version 2025-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "商业银行（Commercial Banks）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-CB · 原件版本页标注 Version 2025-12 · 自 1 January 2027 起适用",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Data Security",
+       "content": "会计指标 15 项：FN-CB-230a.1、FN-CB-230a.2、FN-CB-240a.1、FN-CB-240a.2…"
+      },
+      {
+       "title": "Financial Inclusion & Capacity Building",
+       "content": "会计指标 13 项：FN-CB-240a.1、FN-CB-240a.2、FN-CB-240a.3、FN-CB-240a.4…"
+      },
+      {
+       "title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Financed Emissions",
+       "content": "会计指标 8 项：FN-CB-410b.1、FN-CB-410b.2、FN-CB-410b.3、FN-CB-410b.4…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 4 项：FN-CB-510a.1、FN-CB-510a.2、FN-CB-550a.1、FN-CB-550a.2"
+      },
+      {
+       "title": "Systemic Risk Management",
+       "content": "会计指标 2 项：FN-CB-550a.1、FN-CB-550a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-CB Commercial Banks 行业标准原件（Version 2025-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "消费金融（Consumer Finance）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-CF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Customer Privacy",
+       "content": "会计指标 10 项：FN-CF-220a.1、FN-CF-220a.2、FN-CF-230a.1、FN-CF-230a.2…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 8 项：FN-CF-230a.1、FN-CF-230a.2、FN-CF-230a.3、FN-CF-270a.1…"
+      },
+      {
+       "title": "Selling Practices",
+       "content": "会计指标 5 项：FN-CF-270a.1、FN-CF-270a.2、FN-CF-270a.3、FN-CF-270a.4…"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-CF Consumer Finance 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "保险（Insurance）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-IN · 原件版本页标注 Version 2025-12 · 自 1 January 2027 起适用",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Transparent Information & Fair Advice for Customers",
+       "content": "会计指标 17 项：FN-IN-270a.1、FN-IN-270a.2、FN-IN-270a.3、FN-IN-270a.4…"
+      },
+      {
+       "title": "Incorporation of Environmental, Social and Governance Factors in Investment Management",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Policies Designed to Incentivise Responsible Behaviour",
+       "content": "会计指标 12 项：FN-IN-410b.1、FN-IN-410b.2、FN-IN-410c.1、FN-IN-410c.2…"
+      },
+      {
+       "title": "Financed Emissions",
+       "content": "会计指标 10 项：FN-IN-410c.1、FN-IN-410c.2、FN-IN-410c.3、FN-IN-410c.4…"
+      },
+      {
+       "title": "Physical Risk Exposure",
+       "content": "会计指标 6 项：FN-IN-450a.1、FN-IN-450a.2、FN-IN-450a.3、FN-IN-550a.1…"
+      },
+      {
+       "title": "Systemic Risk Management",
+       "content": "会计指标 3 项：FN-IN-550a.1、FN-IN-550a.2、FN-IN-550a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-IN Insurance 行业标准原件（Version 2025-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "投资银行与经纪（Investment Banking & Brokerage）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-IB · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Employee Diversity & Inclusion",
+       "content": "会计指标 15 项：FN-IB-330a.1、FN-IB-410a.1、FN-IB-410a.2、FN-IB-410a.3…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 11 项：FN-IB-510a.1、FN-IB-510a.2、FN-IB-510b.1、FN-IB-510b.2…"
+      },
+      {
+       "title": "Professional Integrity",
+       "content": "会计指标 10 项：FN-IB-510a.1、FN-IB-510b.1、FN-IB-510b.2、FN-IB-510b.3…"
+      },
+      {
+       "title": "Systemic Risk Management",
+       "content": "会计指标 5 项：FN-IB-550a.1、FN-IB-550a.2、FN-IB-550b.1、FN-IB-550b.2…"
+      },
+      {
+       "title": "Employee Incentives & Risk-taking",
+       "content": "会计指标 3 项：FN-IB-550b.1、FN-IB-550b.2、FN-IB-550b.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-IB Investment Banking & Brokerage 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "抵押金融（Mortgage Finance）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-MF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Lending Practices",
+       "content": "会计指标 10 项：FN-MF-270a.1、FN-MF-270a.2、FN-MF-270a.3、FN-MF-270a.4…"
+      },
+      {
+       "title": "Discriminatory Lending",
+       "content": "会计指标 6 项：FN-MF-270b.1、FN-MF-270b.2、FN-MF-270b.3、FN-MF-450a.1…"
+      },
+      {
+       "title": "Environmental Risk to Mortgaged Properties",
+       "content": "会计指标 3 项：FN-MF-450a.1、FN-MF-450a.2、FN-MF-450a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-MF Mortgage Finance 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "证券与商品交易所（Security & Commodity Exchanges）",
+   "groupTitle": "金融",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FN-SC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Promoting Transparent & Efficient Capital Markets",
+       "content": "会计指标 9 项：FN-EX-410a.1、FN-EX-410a.2、FN-EX-410a.3、FN-EX-410a.4…"
+      },
+      {
+       "title": "Managing Conflicts of Interest",
+       "content": "会计指标 6 项：FN-EX-410a.1、FN-EX-510a.1、FN-EX-510a.2、FN-EX-550a.1…"
+      },
+      {
+       "title": "Managing Business Continuity & Technology Risks",
+       "content": "会计指标 4 项：FN-EX-410a.1、FN-EX-550a.1、FN-EX-550a.2、FN-EX-550a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FN-SC Security & Commodity Exchanges 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

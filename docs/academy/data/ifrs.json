@@ -1,0 +1,215 @@
+{
+ "id": "ifrs",
+ "title": "ISSB 可持续披露准则（IFRS S1/S2）",
+ "titleEn": "IFRS Sustainability Disclosure Standards",
+ "eyebrow": "全球可持续披露基线",
+ "accent": "#12508f",
+ "description": "ISSB 发布的 IFRS S1（一般要求）与 S2（气候相关披露）构成全球可持续披露基线：四支柱结构，S2 行业指标源自 SASB 标准。",
+ "issuer": "国际可持续发展准则理事会（ISSB）/ IFRS 基金会",
+ "version": "2023 年 6 月发布",
+ "updated": "2026-10",
+ "sourceNote": "IFRS 基金会《IFRS S1/S2》（ISSB 发布）；本页为官方文件的结构化整理，请以 IFRS 现行文件为准。",
+ "notice": "页面内容整理自 IFRS 官方中文版；正式使用请核对 IFRS 基金会现行英文原件。",
+ "officialFiles": [
+  {
+   "name": "IFRS S1（官方页面）",
+   "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s1/"
+  },
+  {
+   "name": "IFRS S2（官方页面）",
+   "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2/"
+  }
+ ],
+ "hub": {
+  "brandChar": "I",
+  "brandText": "ISSB 准则知识体系",
+  "tags": [
+   "IFRS S1",
+   "IFRS S2",
+   "四支柱",
+   "行业指标"
+  ],
+  "stats": [
+   {
+    "label": "准则",
+    "value": "2"
+   },
+   {
+    "label": "核心支柱",
+    "value": "4"
+   },
+   {
+    "label": "配套文件",
+    "value": "2"
+   },
+   {
+    "label": "知识主题",
+    "value": "8"
+   }
+  ],
+  "arch": [
+   {
+    "no": "01",
+    "layer": "IFRS S1",
+    "id": "ifrs-s1",
+    "file": "可持续相关财务信息披露的一般要求",
+    "note": "适用所有可持续相关披露的一般要求：四支柱 + 一般特征",
+    "gate": "气候信息适用"
+   },
+   {
+    "no": "02",
+    "layer": "IFRS S2",
+    "id": "ifrs-s2",
+    "file": "气候相关披露",
+    "note": "气候相关风险与机遇的披露要求（治理/战略/风险管理/指标和目标）",
+    "gate": "行业细化"
+   },
+   {
+    "no": "03",
+    "layer": "配套文件",
+    "id": "ifrs-s2-industry",
+    "file": "行业实施指南 · 结论基础",
+    "note": "行业指标源自 SASB 标准；结论基础解释制定依据",
+    "gate": ""
+   }
+  ],
+  "archTitle": "IFRS S1/S2 体系结构",
+  "archDesc": "S1 提出一般披露要求，S2 落到气候议题，行业实施指南给出行业指标，结论基础解释制定依据"
+ },
+ "groups": [
+  {
+   "id": "s1",
+   "title": "S1 一般要求",
+   "badge": "1 项",
+   "items": [
+    {
+     "id": "ifrs-s1",
+     "title": "IFRS S1：可持续相关财务信息披露的一般要求",
+     "summary": "S1 规定可持续相关财务信息披露的一般要求：按治理、战略、风险管理、指标和目标四个核心内容披露，与财务报表同一报告期间披露。",
+     "eyebrow": "ISSB · 2023",
+     "tags": [
+      "S1"
+     ],
+     "meta": [
+      "四支柱",
+      "与财务报表同期"
+     ],
+     "titleEn": "IFRS S1 General Requirements",
+     "detailFile": "data/ifrs/ifrs-s1.json"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "S2 气候披露 · 四支柱",
+   "badge": "5 项",
+   "items": [
+    {
+     "id": "ifrs-s2",
+     "title": "IFRS S2：气候相关披露",
+     "summary": "S2 规定气候相关风险与机遇的披露：治理、战略、风险管理、指标和目标四个核心内容，并配套行业指标（源自 SASB 标准）。",
+     "eyebrow": "ISSB · 2023",
+     "tags": [
+      "S2"
+     ],
+     "meta": [
+      "总览"
+     ],
+     "titleEn": "IFRS S2 Climate-related Disclosures",
+     "detailFile": "data/ifrs/ifrs-s2.json"
+    },
+    {
+     "id": "ifrs-s2-governance",
+     "title": "S2 · 治理",
+     "summary": "治理机构及其对气候相关风险和机遇的监督。",
+     "eyebrow": "S2 核心内容",
+     "tags": [
+      "S2",
+      "治理"
+     ],
+     "meta": [
+      "支柱 1"
+     ],
+     "detailFile": "data/ifrs/ifrs-s2-governance.json"
+    },
+    {
+     "id": "ifrs-s2-strategy",
+     "title": "S2 · 战略",
+     "summary": "气候相关风险和机遇对业务模式、财务前景的影响与气候韧性。",
+     "eyebrow": "S2 核心内容",
+     "tags": [
+      "S2",
+      "战略"
+     ],
+     "meta": [
+      "支柱 2"
+     ],
+     "detailFile": "data/ifrs/ifrs-s2-strategy.json"
+    },
+    {
+     "id": "ifrs-s2-riskmgmt",
+     "title": "S2 · 风险管理",
+     "summary": "识别、评估和管理气候相关风险的流程。",
+     "eyebrow": "S2 核心内容",
+     "tags": [
+      "S2",
+      "风险管理"
+     ],
+     "meta": [
+      "支柱 3"
+     ],
+     "detailFile": "data/ifrs/ifrs-s2-riskmgmt.json"
+    },
+    {
+     "id": "ifrs-s2-metrics",
+     "title": "S2 · 指标和目标",
+     "summary": "气候相关指标（范围1/2/3排放）与气候相关目标。",
+     "eyebrow": "S2 核心内容",
+     "tags": [
+      "S2",
+      "指标"
+     ],
+     "meta": [
+      "支柱 4"
+     ],
+     "detailFile": "data/ifrs/ifrs-s2-metrics.json"
+    }
+   ]
+  },
+  {
+   "id": "companion",
+   "title": "S2 配套文件",
+   "badge": "2 项",
+   "items": [
+    {
+     "id": "ifrs-s2-industry",
+     "title": "S2 行业实施指南（基于 SASB 标准）",
+     "summary": "S2 行业实施指南按行业给出可持续披露主题与指标，指标体系源自 SASB 标准；本地存档含三个部分、46 个行业的中文版。",
+     "eyebrow": "ISSB · S2 配套",
+     "tags": [
+      "行业指南",
+      "SASB"
+     ],
+     "meta": [
+      "3 部分",
+      "46 行业在库"
+     ],
+     "detailFile": "data/ifrs/ifrs-s2-industry.json"
+    },
+    {
+     "id": "ifrs-basis",
+     "title": "S1/S2 结论基础",
+     "summary": "结论基础记录 ISSB 制定 S1/S2 时的决策与理由；用于理解准则条款背后的判断依据。",
+     "eyebrow": "ISSB · 配套文件",
+     "tags": [
+      "结论基础"
+     ],
+     "meta": [
+      "S1 + S2"
+     ],
+     "detailFile": "data/ifrs/ifrs-basis.json"
+    }
+   ]
+  }
+ ]
+}

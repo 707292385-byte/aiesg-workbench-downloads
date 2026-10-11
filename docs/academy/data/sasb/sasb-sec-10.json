@@ -1,0 +1,351 @@
+{
+ "id": "sasb-sec-10",
+ "title": "技术与通信板块（Technology & Communications）",
+ "eyebrow": "SICS 板块 · 6 个行业",
+ "summary": "覆盖 技术与通信板块 6 个行业（TC-EM, TC-HW, TC-IM, TC-SC, TC-SW, TC-TS）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "电子制造服务与原始设计制造（Electronic Manufacturing Services & Original Design Manufacturing）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-EM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Water Management",
+       "content": "会计指标 8 项：TC-ES-140a.1、TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 7 项：TC-ES-150a.1、TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 6 项：TC-ES-310a.1、TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3…"
+      },
+      {
+       "title": "Workforce Conditions, Health & Safety",
+       "content": "会计指标 5 项：TC-ES-320a.1、TC-ES-320a.2、TC-ES-320a.3、TC-ES-410a.1…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 2 项：TC-ES-410a.1、TC-ES-440a.1"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 1 项：TC-ES-440a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-EM Electronic Manufacturing Services & Original Design Manufacturing 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "硬件（Hardware）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-HW · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Product Security",
+       "content": "会计指标 9 项：TC-HW-230a.1、TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2…"
+      },
+      {
+       "title": "Employee Diversity & Inclusion",
+       "content": "会计指标 8 项：TC-HW-330a.1、TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 7 项：TC-HW-410a.1、TC-HW-410a.2、TC-HW-410a.3、TC-HW-410a.4…"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 3 项：TC-HW-430a.1、TC-HW-430a.2、TC-HW-440a.1"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 1 项：TC-HW-440a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-HW Hardware 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "互联网媒体与服务（Internet Media & Services）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-IM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Environmental Footprint of Hardware Infrastructure",
+       "content": "会计指标 15 项：TC-IM-130a.1、TC-IM-130a.2、TC-IM-130a.3、TC-IM-220a.1…"
+      },
+      {
+       "title": "Data Privacy, Advertising Standards & Freedom of Expression",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 6 项：TC-IM-230a.1、TC-IM-230a.2、TC-IM-330a.1、TC-IM-330a.2…"
+      },
+      {
+       "title": "Employee Recruitment, Inclusion & Performance",
+       "content": "会计指标 4 项：TC-IM-330a.1、TC-IM-330a.2、TC-IM-330a.3、TC-IM-520a.1"
+      },
+      {
+       "title": "Intellectual Property Protection & Competitive Behaviour",
+       "content": "会计指标 1 项：TC-IM-520a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-IM Internet Media & Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "半导体（Semiconductors）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-SC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 12 项：TC-SC-110a.1、TC-SC-110a.2、TC-SC-130a.1、TC-SC-140a.1…"
+      },
+      {
+       "title": "Energy Management in Manufacturing",
+       "content": "会计指标 10 项：TC-SC-130a.1、TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 9 项：TC-SC-140a.1、TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 8 项：TC-SC-150a.1、TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 7 项：TC-SC-320a.1、TC-SC-320a.2、TC-SC-330a.1、TC-SC-410a.1…"
+      },
+      {
+       "title": "Recruiting & Managing a Global & Skilled Workforce",
+       "content": "会计指标 5 项：TC-SC-330a.1、TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 4 项：TC-SC-410a.1、TC-SC-410a.2、TC-SC-440a.1、TC-SC-520a.1"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 2 项：TC-SC-440a.1、TC-SC-520a.1"
+      },
+      {
+       "title": "Intellectual Property Protection & Competitive Behaviour",
+       "content": "会计指标 1 项：TC-SC-520a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-SC Semiconductors 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "软件与IT服务（Software & IT Services）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-SW · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Environmental Footprint of Hardware Infrastructure",
+       "content": "会计指标 16 项：TC-SI-130a.1、TC-SI-130a.2、TC-SI-130a.3、TC-SI-220a.1…"
+      },
+      {
+       "title": "Data Privacy & Freedom of Expression",
+       "content": "会计指标 13 项：TC-SI-220a.1、TC-SI-220a.2、TC-SI-220a.3、TC-SI-220a.4…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 8 项：TC-SI-230a.1、TC-SI-230a.2、TC-SI-330a.1、TC-SI-330a.2…"
+      },
+      {
+       "title": "Recruiting & Managing a Global, Diverse & Skilled Workforce",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Intellectual Property Protection & Competitive Behaviour",
+       "content": "会计指标 3 项：TC-SI-520a.1、TC-SI-550a.1、TC-SI-550a.2"
+      },
+      {
+       "title": "Managing Systemic Risks from Technology Disruptions",
+       "content": "会计指标 2 项：TC-SI-550a.1、TC-SI-550a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-SW Software & IT Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "电信服务（Telecommunication Services）",
+   "groupTitle": "技术与通信",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TC-TS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Environmental Footprint of Operations",
+       "content": "会计指标 13 项：TC-TL-130a.1、TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3…"
+      },
+      {
+       "title": "Data Privacy",
+       "content": "会计指标 12 项：TC-TL-220a.1、TC-TL-220a.2、TC-TL-220a.3、TC-TL-220a.4…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 8 项：TC-TL-230a.1、TC-TL-230a.2、TC-TL-440a.1、TC-TL-520a.1…"
+      },
+      {
+       "title": "Product End-of-life Management",
+       "content": "会计指标 6 项：TC-TL-440a.1、TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3…"
+      },
+      {
+       "title": "Competitive Behaviour & Open Internet",
+       "content": "会计指标 5 项：TC-TL-520a.1、TC-TL-520a.2、TC-TL-520a.3、TC-TL-550a.1…"
+      },
+      {
+       "title": "Managing Systemic Risks from Technology Disruptions",
+       "content": "会计指标 2 项：TC-TL-550a.1、TC-TL-550a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TC-TS Telecommunication Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "id": "sasb",
+ "title": "SASB 行业可持续会计标准",
+ "titleEn": "SASB Standards",
+ "eyebrow": "行业标准 · 财务重要性",
+ "accent": "#1f6f6b",
+ "description": "按 SICS® 分类覆盖 11 个板块 77 个行业，每个行业给出披露主题与指标；ISSB 接管后是 IFRS S1 识别行业风险与机遇的参照来源。",
+ "issuer": "国际可持续发展准则理事会（ISSB）/ IFRS 基金会",
+ "version": "通行版 2023-12（2025-01-01 起适用）；ISSB 2025-12 修订版针对资产管理与托管、商业银行、保险三个金融行业标准（2027-01-01 起适用）",
+ "updated": "按行业原件分别记录",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "notice": "SASB 标准暂无官方中文版；本页行业标准内容为英文原件结构化整理，行业与板块中文名为通译参考。版本口径：各行业原件版本页标注 2023-12 或 2025-12（后者为 ISSB 2025 年 12 月发布的金融板块修订，2027-01-01 起适用），以 ISSB 官网现行文件为准。",
+ "officialFiles": [
+  {
+   "name": "SASB Standards 官方下载页",
+   "url": "https://sasb.ifrs.org/standards/download/"
+  },
+  {
+   "name": "Materiality Finder 重要性查找器",
+   "url": "https://sasb.ifrs.org/standards/materiality-finder/"
+  }
+ ],
+ "hub": {
+  "brandChar": "S",
+  "brandText": "SASB 行业标准知识体系",
+  "tags": [
+   "11 板块",
+   "77 行业",
+   "财务重要性",
+   "ISSB 维护"
+  ],
+  "stats": [
+   {
+    "label": "板块",
+    "value": "11"
+   },
+   {
+    "label": "行业标准",
+    "value": "77"
+   },
+   {
+    "label": "体系主题",
+    "value": "3"
+   },
+   {
+    "label": "知识主题",
+    "value": "14"
+   }
+  ],
+  "arch": [
+   {
+    "no": "01",
+    "layer": "行业描述",
+    "id": "sasb-overview",
+    "file": "Industry Description",
+    "note": "描述行业商业模式、活动与共同特征",
+    "gate": "对应"
+   },
+   {
+    "no": "02",
+    "layer": "披露主题",
+    "id": "sasb-usage",
+    "file": "Disclosure Topics & Metrics",
+    "note": "行业特定的可持续风险与机遇，配套指标与技术协议",
+    "gate": "ISSB 接管"
+   },
+   {
+    "no": "03",
+    "layer": "ISSB 准则关联",
+    "id": "sasb-issb",
+    "file": "IFRS S1/S2 引用 SASB",
+    "note": "IFRS S1 要求主体参照 SASB 披露主题与指标",
+    "gate": ""
+   }
+  ],
+  "archTitle": "SASB 行业标准的构成",
+  "archDesc": "每项行业标准由行业描述、披露主题、指标、技术协议与活动指标五部分组成"
+ },
+ "groups": [
+  {
+   "id": "system",
+   "title": "体系与使用",
+   "badge": "3 项",
+   "items": [
+    {
+     "id": "sasb-overview",
+     "title": "SASB 标准体系总览",
+     "summary": "SASB 标准是一套基于行业的可持续会计标准，按 SICS 分类覆盖 11 个部门 77 个行业，由行业标准描述、披露主题、指标、技术协议和活动指标构…",
+     "eyebrow": "体系与使用",
+     "tags": [
+      "SASB 体系"
+     ],
+     "meta": [
+      "77 行业",
+      "11 板块"
+     ],
+     "detailFile": "data/sasb/sasb-overview.json"
+    },
+    {
+     "id": "sasb-issb",
+     "title": "SASB 与 ISSB 准则的关系",
+     "summary": "2022 年 8 月起 SASB 标准由 IFRS 基金会 ISSB 接管；IFRS S1 要求主体参照并考虑 SASB 标准的披露主题与指标，SAS…",
+     "eyebrow": "体系与使用",
+     "tags": [
+      "SASB 体系",
+      "ISSB"
+     ],
+     "meta": [
+      "IFRS S1 引用"
+     ],
+     "detailFile": "data/sasb/sasb-issb.json"
+    },
+    {
+     "id": "sasb-usage",
+     "title": "如何使用 SASB 行业标准",
+     "summary": "先用 SICS 分类确定企业所属行业（可跨行业），再按披露主题与指标组织披露；指标计算参照技术协议执行。",
+     "eyebrow": "体系与使用",
+     "tags": [
+      "SASB 体系",
+      "使用方法"
+     ],
+     "meta": [
+      "五部分构成"
+     ],
+     "detailFile": "data/sasb/sasb-usage.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-01",
+   "title": "消费品（Consumer Goods）",
+   "badge": "7 行业",
+   "items": [
+    {
+     "id": "sasb-sec-01",
+     "title": "消费品板块 · 7 个行业",
+     "summary": "服装、配饰与鞋类、家电制造、建筑产品与家具、电子商务 等7个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 7 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Consumer Goods",
+     "detailFile": "data/sasb/sasb-sec-01.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-02",
+   "title": "采掘与矿物加工（Extractives & Minerals Processing）",
+   "badge": "8 行业",
+   "items": [
+    {
+     "id": "sasb-sec-02",
+     "title": "采掘与矿物加工板块 · 8 个行业",
+     "summary": "煤炭运营、建筑材料、钢铁生产商、金属与采矿 等8个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 8 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Extractives & Minerals Processing",
+     "detailFile": "data/sasb/sasb-sec-02.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-03",
+   "title": "金融（Financials）",
+   "badge": "7 行业",
+   "items": [
+    {
+     "id": "sasb-sec-03",
+     "title": "金融板块 · 7 个行业",
+     "summary": "资产管理与托管活动、商业银行、消费金融、保险 等7个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12、2025-12",
+     "eyebrow": "SICS 板块 · 7 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12、2025-12"
+     ],
+     "titleEn": "Financials",
+     "detailFile": "data/sasb/sasb-sec-03.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-04",
+   "title": "食品与饮料（Food & Beverage）",
+   "badge": "8 行业",
+   "items": [
+    {
+     "id": "sasb-sec-04",
+     "title": "食品与饮料板块 · 8 个行业",
+     "summary": "农产品、酒精饮料、食品零售商与分销商、肉类、家禽与乳制品 等8个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 8 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Food & Beverage",
+     "detailFile": "data/sasb/sasb-sec-04.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-05",
+   "title": "医疗保健（Health Care）",
+   "badge": "6 行业",
+   "items": [
+    {
+     "id": "sasb-sec-05",
+     "title": "医疗保健板块 · 6 个行业",
+     "summary": "生物技术与制药、药品零售商、医疗服务提供、医疗保健分销商 等6个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 6 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Health Care",
+     "detailFile": "data/sasb/sasb-sec-05.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-06",
+   "title": "基础设施（Infrastructure）",
+   "badge": "8 行业",
+   "items": [
+    {
+     "id": "sasb-sec-06",
+     "title": "基础设施板块 · 8 个行业",
+     "summary": "电力公用事业与发电商、工程与建筑服务、燃气公用事业与分销商、住宅建筑商 等8个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-06、2023-12",
+     "eyebrow": "SICS 板块 · 8 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-06、2023-12"
+     ],
+     "titleEn": "Infrastructure",
+     "detailFile": "data/sasb/sasb-sec-06.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-07",
+   "title": "可再生资源与替代能源（Renewable Resources & Alternative Energy）",
+   "badge": "6 行业",
+   "items": [
+    {
+     "id": "sasb-sec-07",
+     "title": "可再生资源与替代能源板块 · 6 个行业",
+     "summary": "生物燃料、林业管理、燃料电池与工业电池、纸浆与纸制品 等6个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 6 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Renewable Resources & Alternative Energy",
+     "detailFile": "data/sasb/sasb-sec-07.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-08",
+   "title": "资源转化（Resource Transformation）",
+   "badge": "5 行业",
+   "items": [
+    {
+     "id": "sasb-sec-08",
+     "title": "资源转化板块 · 5 个行业",
+     "summary": "航空航天与国防、化工、容器与包装、电气与电子设备 等5个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 5 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Resource Transformation",
+     "detailFile": "data/sasb/sasb-sec-08.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-09",
+   "title": "服务业（Services）",
+   "badge": "7 行业",
+   "items": [
+    {
+     "id": "sasb-sec-09",
+     "title": "服务业板块 · 7 个行业",
+     "summary": "广告与营销、赌场与博彩、教育、酒店与住宿 等7个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 7 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Services",
+     "detailFile": "data/sasb/sasb-sec-09.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-10",
+   "title": "技术与通信（Technology & Communications）",
+   "badge": "6 行业",
+   "items": [
+    {
+     "id": "sasb-sec-10",
+     "title": "技术与通信板块 · 6 个行业",
+     "summary": "电子制造服务与原始设计制造、硬件、互联网媒体与服务、半导体 等6个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 6 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Technology & Communications",
+     "detailFile": "data/sasb/sasb-sec-10.json"
+    }
+   ]
+  },
+  {
+   "id": "sec-11",
+   "title": "交通运输（Transportation）",
+   "badge": "9 行业",
+   "items": [
+    {
+     "id": "sasb-sec-11",
+     "title": "交通运输板块 · 9 个行业",
+     "summary": "航空货运与物流、航空公司、汽车零部件、汽车制造 等9个行业标准，逐行业列出披露主题。本板块行业标准版本：2023-12",
+     "eyebrow": "SICS 板块 · 9 行业",
+     "tags": [
+      "SASB",
+      "行业标准"
+     ],
+     "meta": [
+      "本板块行业标准版本：2023-12"
+     ],
+     "titleEn": "Transportation",
+     "detailFile": "data/sasb/sasb-sec-11.json"
+    }
+   ]
+  }
+ ]
+}

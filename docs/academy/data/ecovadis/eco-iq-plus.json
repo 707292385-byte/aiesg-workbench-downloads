@@ -1,0 +1,460 @@
+{
+ "id": "eco-iq-plus",
+ "title": "EcoVadis IQ Plus 方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rating Scale Type；…",
+ "tags": [
+  "EcoVadis",
+  "专项方法学"
+ ],
+ "group": "专项方法学",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "引言（披露目的）",
+     "content_cn": "EcoVadis IQ Plus \nMethodology disclosure document for \nthe public, rating users and rated items\n\n \nDocument classification: \n       \nEcoVadis Public\n1/23              \n\n \n \nTable of contents \n \n1. Rating Product Disclosure\n3 \n1.1. Objective and approach to materiality\n3 \n1.2. Scope\n3 \n1.3. Rating Scale Type\n4 \n1.4. Coverage of international agreements\n4 \n2. General Methodological Disclosures\n5 \n2.1. Methodology overview\n5 \n2.2. Methodology assumptions and models\n7 \n2.3. Risk factors and scoring\n8 \n2.4. Industry classification\n13 \n2.5. Data sources\n13 \n2.6. Data processes\n14 \n2.7. Data quality\n15 \n2.8. Monitoring availability of new information in between assessments\n16 \n2.9. Engagement with rated companies\n16 \n2.10. Scientific basis\n16 \n2.11. Usage of AI-based tools\n16 \n3. Limitations in data sources, methodologies and information\n17 \n3.1. Methodology limitations\n17 \n3.2. Data source limitations\n17 \n3.3 Means of addressing limitations in data sources\n18 \n4. Methodology revision\n18 \n5. Organisational Disclosures\n23 \n6. Legal notices\n23 \n \n\n \nDocument classification: \n       \nEcoVadis Public\n2/23              \n\n \nThis disclosure document is intended to ensure compliance with Annex III to the EU \nRegulation 2024/3005 on the transparency and integrity of Environmental, Social and \nGovernance (ESG) rating activities, and the Delegated Regulation supplementing Regulation \n(EU) 2024/3005.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1. Objective and approach to materiality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.1. Objective and approach to materiality",
+     "content_cn": "1.1.\nObjective and approach to materiality  \n \nThe objective of IQ Plus is to assess a rated company’s impact on sustainability issues. The \nrating is EcoVadis’ own opinion and can differ from the assessments provided by other ESG \nrating providers. \n \nIQ Plus is designed as a tool for users to identify which rated companies they should engage in \npriority on sustainability issues, based on a low-touch, high-volume mapping. The IQ Plus risk \nassessment is not solicited by rated companies, and the methodology does not require the \ncollection of company-specific information from rated companies. \n  \nEcoVadis  identifies sustainability issues material for the rated company based on an impact \nmateriality approach (the \"inside-out\" perspective identifying external impacts that a \ncompany's operations, products, and services have on the environment).  \nHowever, it does not incorporate financial materiality (the \"outside-in\" perspective), therefore, \nthe financial risks posed to the company by external ESG factors are not measured. \n \nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, \nLabor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 \nspecific criteria (see section “1.2 Scope” for additional details).",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2. Scope",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.2. Scope",
+     "content_cn": "1.2.\nScope  \n \nIQ Plus is an aggregated rating covering E, S and G topics, which are broken down into four \ncore themes: Environment, Labor & Human Rights, Ethics, and Sustainable Procurement. \nThese four themes cover the following sustainability issues: \n \n● Environment \n○ Energy Consumption & Greenhouse Gas Emissions \n○ Water \n○ Biodiversity \n○ Air Pollution \n○ Materials & Chemicals & Waste \n○ Product Use \n\n \nDocument classification: \n       \nEcoVadis Public\n3/23              \n\n \n○ Product End-of-Life \n○ Customer Health & Safety \n○ Environmental Services & Advocacy \n● Labor & Human Rights \n○ Employee Health & Safety \n○ Working Conditions \n○ Social Dialogue \n○ Career Management & Training \n○ Child Labor, Forced Labor & Human Trafficking \n○ Discrimination & Harassment \n○ External Stakeholder Human Rights \n● Ethics \n○ Corruption \n○ Anticompetitive Practices \n○ Responsible Information Management \n● Sustainable Procurement \n○ Supplier Environmental Practices \n○ Supplier Social Practices \nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive \n2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (“CSRD”) \nand detailed in the European Sustainability Reporting Standards (“ESRS”). However, they \noverlap to a degree and allow for comparison.  \nAlthough IQ Plus does cover environmental issues, it is not correlated with the percentage of \ntaxonomy alignment under Regulation (EU) 2020/852 (“Taxonomy Regulation”).  \nIQ Plus provides both a global aggregated score, and granular, disaggregated scores for each \nof the four themes (see Section 2.3 “Risk factors and scoring” for additional details).",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3. Rating Scale Type",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.3. Rating Scale Type",
+     "content_cn": "1.3.\nRating Scale Type \n \nIQ Plus results are expressed in absolute values, which distinguishes six overall risk levels (1 to \n6).",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4. Coverage of international agreements",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.4. Coverage of international agreements",
+     "content_cn": "1.4.\nCoverage of international agreements \n \nThe IQ Plus methodology considers the objectives of the International Labor Organization (ILO) \nconventions. The methodology is aligned with the conventions’ objective of promoting decent \nwork, protecting fundamental human rights at work and leveling the international playing \nfield. \n \n\n \nDocument classification: \n       \nEcoVadis Public\n4/23              \n\n \nIt has informed the structure and issue coverage of the Environment and Labor & Human \nRights themes, and the management system of companies is assessed based on its alignment \nwith these objectives.   \n \nThe IQ Plus methodology does not specifically refer to the targets and objectives of the Paris \nAgreement.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1. Methodology overview",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.1. Methodology overview",
+     "content_cn": "2.1.\nMethodology overview \n \nThe IQ Plus methodology is consistently applied to all eligible entities. The most recent version \nof the IQ Plus Methodology is V3.0, applicable as of January 2025. Any changes to the \nmethodology will be communicated via email.  \n \na) Methodology governance principles \n \nTo deliver IQ Plus results with the highest levels of quality and integrity, EcoVadis has designed \na methodology governance framework ensuring our methodologies adhere to the following \ncore principles: \n \ni)\nRigorous \n \nOur methodologies are developed through a rigorous process including research, impact \nassessment and public consultation of proposed changes to ensure the framework is capable \nof capturing complex sustainability risks and accurately reflect the rated entity’s sustainability \nperformance. \n \nii)\nSystematic \n \nWe employ a structured, repeatable methodological framework that ensures every entity is \nevaluated against a consistent set of principles and requirements tailored to their specific \ncontext. This systematic approach eliminates ad-hoc subjectivity and ensures that the \nmethodology provides a stable basis for comparison of rated entities. \n \niii)\nIndependent \n \nThe development and approval of our methodologies are governed by an internal function that \nis structurally and functionally separate from commercial and sales activities. This ensures the \ndesign of the rating framework is driven solely by analytical integrity and is insulated from \nexternal business pressures. \n\n \nDocument classification: \n       \nEcoVadis Public\n5/23              \n\n \n \niv)\nCapable of justification \n \nThe methodology is built upon a clear, evidence-based rationale that dictates the specific \nweighting and relevance of each sustainability issue. Every component of the framework is \ndocumented for traceability, ensuring the underlying theory assumptions are defensible under \ntechnical scrutiny. \n \nv)\nComparable over time \n \nOur methodology is designed to provide a stable benchmark by maintaining consistent \nevaluation criteria over time. By ensuring the framework remains steady, we enable IQ users to \naccurately compare year-on-year performance. \n \nvi)\nTransparent \n \nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide \ncomprehensive public disclosures regarding the methodology scope, ranking system, key \nassumptions and models, data sources and processes, and its inherent limitations. \n \nb) Eligibility for assessment \n \nThe methodology allows for assessment of corporate entities. To be eligible for an IQ Plus \nassessment, an entity must meet two criteria:  \n-\nIt must have a legal entity name or operate under the direct parent legal entity name. \nThe legal entity name is the name under which a company is legally registered and \noperates in the country of operation. \n-\nThere must be a relevant level of scope of assessment in terms of  sustainability risks. \nThis may for instance not be the case if the scope includes widely different business \nactivities, making it inadequate for a single rating to provide a consolidated overview of \nrisks the company is confronted to. \n \nThe following organizational and operational structures and items are not eligible for \nassessment: conglomerates (understood as groups offering a variety of divisions that differ in \nterms of activity), business units or divisions without any legal entity name, product names and \ncommercial brands, and cooperatives. \n \nThe legal entity name is the name under which a company is legally registered and operates in \nthe country of operation.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2. Methodology assumptions and models",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.2. Methodology assumptions and models",
+     "content_cn": "2.2.\nMethodology assumptions and models \n \nIQ Plus operates under the following assumptions: \n \na) Industry and geographical location serve as reliable proxies for sustainability impacts\n \nThe methodology assumes that a company's specific industrial activity and its geographic \nlocation are the strongest drivers of its potential sustainability impacts. As a result, the \nmethodology uses these two factors to calculate an inherent risk level, allowing IQ Plus users to \nidentify hotspots in their supply chain and to engage companies on their sustainability \nmanagement practices. \n \nb) External data provides a sufficient basis for initial risk screening\n\nIQ Plus assumes that high-quality secondary data, such as a country’s baseline water stress or \nan industry’s average air emissions, is accurate enough to estimate a company’s impact on \nenvironmental and social issues. \nThis allows for the effective prioritization of companies without requiring immediate primary \ndata disclosure from the companies themselves. \nIQ Plus does not employ any additional supporting models, speculative estimations, or \nprojections.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3. Risk factors and scoring",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.3. Risk factors and scoring",
+     "content_cn": "2.3.\nRisk factors and scoring \n \nThe Overall Risk of a rated companies is based on three risk factors, the Sustainability Risk, the \nProcurement Risk, and the Scan Risk, which are broken down as follows: \n \na) Risk factors considered in the IQ Plus methodology \n\n \nDocument classification: \n       \nEcoVadis Public\n7/23              \n\n \n \ni)\nPublic risk factor: Sustainability Risk \n \nRated companies are assigned a Sustainability Risk for each of the four themes (Environment, \nLabor & Human Rights, Ethics and Sustainable Procurement). The Sustainability risk is based \non two risk factors, the industry risk and the country risk. The industry risk of the rated \ncompany is assigned based on its primary activity, while the country risk is selected based on \nthe country in which the company is legally registered. \n \n1) Industry Risk (50%)\n \nThe Industry Risk calculation process follows four key steps: \n-\nAssessing Potential Impact: For each industry, EcoVadis examines the four main \nsustainability themes and assigns a weight (High, Medium, or Low) to the underlying \nsustainability issues (see Section 1.3 “Scope” for more details). This weighting is based on \nthe potential adverse impact each issue could cause. \n-\nDetermining the Industry Intensity Factor: While some sustainability issues are common \nacross sectors, the Intensity Factor identifies specific drivers that make an issue more \ncritical in one industry than another. We analyze the unique characteristics of each \nsector to determine which issues are most \"intense\" for their operations (e.g., water \nusage is more intense for a textile mill than for an accounting firm). The intensity factor \nscale is Low, Medium, High, or Severe. \n-\nCalculating the Initial Theme Risk: This step combines the results from the first two steps \nto generate a raw Industry risk score. The raw risk score is the product of the sum of the \npotential impact and the sum of the industry-specific weights (Intensity Factor). This \ncalculation yields the initial theme-level Industry Risk, which is placed on a scale from \nVery Low to Very High. \n-\nProviding Empirical Performance Refinement: The final stage adjusts the initial \ntheme-level Industry Risk using documented performance data from EcoVadis \nSustainability \nRatings. \nEcoVadis \ncalibrates \nthe \ntheoretical \nrisk \nagainst \nactual \nsustainability performance by benchmarking the specific industry against the EcoVadis \nglobal average. This can lead to positive or negative adjustments of the initial risk.  \n-\nPositive \nPerformance \nAdjustment: If an industry's average performance \nsignificantly exceeds the EcoVadis global benchmark, indicating superior \nmanagement of sustainability impacts, the industry theme risk is decreased by \none level (e.g., from Very High to High). \n-\nNegative \nPerformance \nAdjustment: \nConversely, \nif \nan \nindustry \nperforms \nsignificantly below the global average, reflecting ineffective impact management, \nthe industry theme risk is increased by one level (e.g., from High to Very High).\n\n \nDocument classification: \n       \nEcoVadis Public\n8/23              \n\n \n \n2) Country Risk (50%)\n \nEach country is assigned a Country Risk for the following three themes: Environment, Labor & \nHuman Rights, and Ethics. The Country Risk is based on international indicators, such as: \n-\nThe World Resources Institute's Aqueduct 4.0 Baseline Water Stress \n-\nThe Ocean Health Index Scores \n-\nThe World Justice Project’s Factor 4 on Fundamental Rights \n-\nThe United Nations Development Program’s Gender Inequality Index \n-\nThe World Bank Rule of Law \n-\netc. \nA Coun",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4. Industry classification",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.4. Industry classification",
+     "content_cn": "2.4.\nIndustry classification  \n \nIQ Plus uses the United Nations International Standard Industrial Classification of All Economic \nActivities (ISIC), Revision 4, as a basis to classify the economic activities of rated companies.  \n \nThe official full document is available on the United Nations Statistic Division website.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5. Data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.5. Data sources",
+     "content_cn": "2.5.\nData sources \nIQ Plus uses different types of data sources depending on the risk factor. \na) Data used by EcoVadis to define the Sustainability Risk \nEcoVadis defines Industry and Country Risk by leveraging a selection of publicly available data \nsources. These sources include, but are not limited to: \n-\nOcean Health Index \n-\nAqueduct Water Risk Atlas \n-\nHuman Development Index \n-\nWorld Press Freedom Index \n-\nWorld Justice Project \n-\nCorruption Perception Index\n \nIn addition to this public data, EcoVadis integrates its own proprietary data, which reflects \nactual performance metrics derived from EcoVadis Sustainability Ratings (see Section 2.3 “Risk \nfactors and scoring” for additional details). \n \nb) Data used by EcoVadis to define the Procurement Risk \nEcoVadis uses data supplied by IQ Plus users to determine the Procurement Risk. Users can \nprovide their own non-public data related to rated company spend and criticality. This \nuser-provided information allows EcoVadis to contextualize the Overall Risk results by factoring \nin the rated-company's strategic importance to the user. \n \nc) Data used by EcoVadis to define the Scan Risk  \nEcoVadis uses publicly available company sustainability-related policies and certifications to \ndetermine the Scan Risk.  \nSustainability statements required under Directive 2013/34/EU (“Accounting Directive”) or \ninformation disclosed under Regulation (EU) 2019/2088 (“Sustainable Finance Disclosure \nRegulation”) can be taken into account if identified in the public domain.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6. Data processes",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.6. Data processes",
+     "content_cn": "2.6.\nData processes \n \nIQ Plus uses a streamlined data process occurring in a secure and organised digital platform \nprovided by EcoVadis. The process includes: \n\n \nDocument classification: \n       \nEcoVadis Public\n13/23              \n\n \n \na) Data collection \nRated entity data is collected from the IQ Plus user, and no primary data is collected by \nengaging rated companies themselves. Users upload the list of entities to rate to the EcoVadis \nplatform, including the rated-company's identifier (DUNS, Tax ID or legal entity name with \ncountry code)  and is automatically matched to its industry (based on the ISIC classification, see \nSection 2.4 “Industry classification” for additional details) and its country of operation. \nOptionally, users can provide their own data regarding spend level or rated company criticality \nto provide input for the Procurement risk factor (see Section 2.3 “Risk factors and scoring” for \nadditional details). \nb) Data processing  \n \nThe data collected from IQ Plus users enables EcoVadis to match the rated company to a given \nindustry and country. An Overall Risk level, as well as the underlying Industry Risk, Country Risk, \nSustainability Risk, Procurement Risk (if applicable) and Scan Risk (if applicable), are then \nautomatically assigned to the rated company based on an established scoring methodology \n(see Section “2.3 Risk factors and scoring” for additional details). \n \nc) Data output \n \nThe Overall Risk level is expressed on a scale from 1 (Very Low) to 6 (Very High). The Overall Risk \nserves as the primary metric for prioritization of rated company engagement. \n \nIn addition to the Overall Risk, IQ Plus displays a granular breakdown of the underlying risk \nfactors, including the following: \n-\nTheme-level Sustainability Risk, broken down into theme-level Industry Risk and Country \nRisk \n-\nProcurement Risk (if applicable) including spend or criticality \n-\nTheme- level Scan Risk \n \nd) Data storage & historical data updates and revision \nData from IQ Plus users regarding rated companies is stored in the system for traceability. \nUsers have the ability to edit their input which will prompt an automatic recalculation of the \nrisk level. \nApart from user edits, changes to the IQ Plus risk levels occur only after updates of the \nquantitative indicators that underpin the risk factors. The datasets currently in use incorporate \nthe most recent data source update, implemented in July 2026. \n\n \nDocument classification: \n       \nEcoVadis Public\n14/23",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7. Data quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.7. Data quality",
+     "content_cn": "2.7.\nData quality \nTo secure the quality of IQ Plus results, EcoVadis implements the following data quality control \nmechanisms: \na. Selection of authoritative data sources \nTo ensure the rigor and relevance of our risk calculations, EcoVadis only utilizes external \ndatasets that adhere to stringent criteria. These criteria guarantee the data is based on \nauthoritative, up-to-date consensus and maintains high scientific rigor and global coverage. \nb. Input standardization (ISIC & ISO Codes) \nTo ensure a standardized and rigorous risk assessment, the methodology mandates the use of \nspecific classification systems for input data. All rated company profiles are mapped against \nthe ISIC classification for industries (refer to Section 1.4 \"Industry classification\" for further \ndetails) and ISO codes for countries. This strict adherence to standardized codes prevents \nambiguity and misclassification errors, which are essential to avoid distortions in the final risk \nassessment. \nc. Validation of rated company profile data \nTo ensure the risk model accurately determines a rated company's risk level, all newly added \ncompanies to the network are manually verified. This process validates the coherence of their \nassigned industry categorization against the correct industry data used by the model. \nd. Traceable and standardized calculation \nIQ Plus employs a deterministic computation model with standardized calculation rules. This \napproach guarantees full traceability and consistency of results throughout the entire \ndatabase, effectively bypassing the unpredictability associated with \"black box\" prediction \nmethods. \n \nData on rated companies collected for the IQ Plus, primarily focused on a rated-company's \nindustry and country of operation, is not subject to systematic assurance engagement.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8. Monitoring availability of new information in between assessments",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.8. Monitoring availability of new information in between assessments",
+     "content_cn": "2.8.\nMonitoring availability of new information in between assessments \n \nIQ Plus does not involve screening for additional data between assessments.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9. Engagement with rated companies",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.9. Engagement with rated companies",
+     "content_cn": "2.9.\nEngagement with rated companies  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n15/23              \n\n \nRated companies for which a contact mail has been identified receive a notification for a 2 \nbusiness days grace period to review and submit any factual error1. After the grace period ends, \nthe IQ Plus score is delivered to buyers. Any company can access their score and submit a \nfactual error claim at any time via EcoVadis dedicated page",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10. Scientific basis",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.10. Scientific basis",
+     "content_cn": "2.10.\nScientific basis  \n \nThe data and analysis underpinning both Industry Risk and Country Risk are derived from \nreviewed external sources, such as reports from NGOs and publications or indexes from \ninternational organizations.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11. Usage of AI-based tools",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.11. Usage of AI-based tools",
+     "content_cn": "2.11.\nUsage of AI-based tools \n \nIQ Plus uses an AI technology called “Doc Scan” to collect company documentation from the \npublic domain for the calculation of the Scan Risk (see Section 2.3 “Risk factors and scoring” for \nadditional details).  \nThe Doc Scan system scrapes rated company websites to retrieve relevant documentation. \nUtilizing a machine learning model, Doc Scan analyzes the content to classify the document \ntype (e.g., ISO 14001 or Code of Conduct) and extract key data attributes, such as expiration \ndates, to verify validity. Finally, these processed documents are integrated directly into IQ to be \nused for the Scan Risk calculation.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "3. Limitations in data sources, methodologies and information",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3. Limitations in data sources, methodologies and information",
+     "content_cn": "3.\nLimitations in data sources, methodologies and information",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "3.1. Methodology limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.1. Methodology limitations",
+     "content_cn": "3.1.\nMethodology limitations \n \nThe IQ Plus methodology includes the following limitations: \na. Exclusion of financial materiality \nIQ Plus does not incorporate financial materiality dimensions. In consequence, it cannot be \nused to assess the influence of ESG factors on a rated company's financial performance. \nb. Reliance on inherent risk proxies \nIQ Plus utilizes industry and country-level proxies which, while providing a standardized \nbaseline, are not designed to capture company-specific nuances. Because the model relies on \nstatistical averages rather than primary company disclosures, it is not designed to distinguish \nthe actual performance of companies within the same industry and region. \n1 This notification will be live with the launch of EcoVadis upgraded buyer’s platform by the end of December 2026 \n\n \nDocument classification: \n       \nEcoVadis Public\n16/23              \n\n \nIQ Plus is intended primarily as a screening tool for managing risks across an entire portfolio. \nThe deliberate exclusion of company-specific data from its methodology is addressed by the \nfact that the EcoVadis product suite offers other tools to assess a company's specific \nmanagement of material sustainability issues. Rated companies flagged as high-risk by IQ Plus \nare subsequently recommended for the EcoVadis Sustainability Rating. This two-step process \nensures that initial risk estimations, based on industry and country proxies, are ultimately \nvalidated and refined through an evidence-based assessment of the rated-company's actual \nmanagement maturity.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.2. Data source limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.2. Data source limitations",
+     "content_cn": "3.2.\nData source limitations \n \nData sources leveraged for IQ Plus include the following limitations: \n \na) Availability and consistency of data used \n \nConstructing granular benchmarks across more than 250 industries and 240 countries requires \nextensive data, leading to gaps in niche sectors.  \nFurthermore, the methodology utilizes aggregated data from the EcoVadis Network, resulting \nin benchmarks that are inherently skewed toward the performance of companies already \nparticipating in sustainability reporting.  \nFinally, the consolidation of global datasets entails an inherent time lag between the \npublication of raw statistics and their integration into the risk methodology. \n \nb) Doc Scan accuracy and coverage \n \nDoc Scan requires a constant trade-off between accuracy (correct classification and extraction) \nand coverage (retrieving all publicly available documents). This is particularly challenging for \npolicy documents, which are often unstructured and non-standardized. This complexity can \noccasionally lead the AI to incorrectly accept a document. Similarly, date extraction for policies \nis difficult, as dates often appear in multiple locations throughout the text. In addition, we strive \nto be careful and cautious with our crawling practices and respect boundaries set within \nwebsites. Finally, because smaller rated companies may lack a website or choose not to share \ndocuments publicly, we have decided that the overall Risk score will not be impacted by the \nScan Risk when no documents are found.  \n \nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or \nalgorithmic systems or models \n \nIQ Plus does not use any score projections, statistical models, algorithmic systems or any other \nmeans of estimating the final score. \n \n\n \nDocument classification: \n       \nEcoVadis Public\n17/23",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.3. Means of addressing limitations in data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.3. Means of addressing limitations in data sources",
+     "content_cn": "3.3Means of addressing limitations in data sources  \n \nTo address limitations in data sources for IQ Plus, EcoVadis implements a number of measures \nand processes aimed at reducing related risks to a minimum. These include: \n \na) Scientifically rooted proxy hierarchy  \n \nTo address potential gaps in global data coverage, the methodology employs a strictly defined \nhierarchy of reliability. Missing primary data points are substituted in the country risk \ncalculation with the next most statistically correlated proxy (e.g., average of baseline water \nstress in neighboring countries), ensuring that risk calculations remain grounded in the best \navailable scientific evidence rather than default assumptions.  \n \nb) Manual verification of rated company profiles \n \nSince the IQ Plus methodology relies on industry and country proxies, the accuracy of the rated \ncompany’s profile is paramount. EcoVadis mitigates the risk of misclassification through a \nhuman verification process for new rated companies. Analysts validate key profile attributes, \nspecifically Industry (ISIC), to ensure the risk model applies the correct proxies to the \ncompany’s actual business activities.",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "4. Methodology revision",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "4. Methodology revision",
+     "content_cn": "4.\nMethodology revision \nThe revision of the methodology of IQ Plus follows the steps outlined in the Methodology \nRevision Procedure. \n \nMethodological development and application are independent of all political, economic, or \nother external influences, and led by a dedicated methodology team, which handles \nprioritization of methodology developments, research and execution. The methodology team is \nseparate from commercial functions, is managed by the Head of Methodology and reports to \nthe Chief Ratings Officer. \n \na) Methodology Revision Procedure \n \nThe methodology revision process is structured in six phases. Some phases are optional for \nmethodology changes that are not classified as high impact, but can still be considered where \nrelevant.\n \n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, \nwhich is approved by the Head of Methodology during the Quarterly Planning. The \nmethodology owner then drafts a project charter detailing the project's description, \n\n \nDocument classification: \n       \nEcoVadis Public\n18/23              \n\n \npurpose, rationale, objectives, scope, team and risks, using either a Research or \nImplementation template. Where needed, a dedicated Methodology Research phase \nmay be initiated first to investigate and justify the need for a formal revision before \nproceeding to implementation.\n \n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, \nresearch findings and the proposed specific changes. The proposal is reviewed and \ndiscussed with the project's steering committee to ensure rigor, consistency, and \nalignment with market and regulatory needs. The steering committee is composed of \nrelevant methodology team members and may involve representatives of other \ndepartments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project \nmanager integrates feedback from the steering committee to adjust the proposal \naccordingly.\n \n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level \ndistribution is performed.\n \n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is \nconducted. EcoVadis directly engages a targeted selection of rating users, rated entities \nand external stakeholders to ensure a representative feedback loop.\n \n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final \nmethodology revision proposal, as part of its methodology oversight responsibilities. This \nbody is responsible for identifying potential concerns, raising issues, or requesting \nfurther clarification. If any highlighted problems remain unresolved, the Ethics & \nCompliance team escalates the matter to the ESGR Governance Council for final \narbitration and decision-making. \n \n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for \nregular changes, and by the Chief Rating Officer for high impact changes, and officially \nimplemented. The methodology disclosure documents are updated accordingly. \n \nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis \nto ensure they remain fit for purpose. Methodology revisions are communicated to rating users \nand rated entities via the methodology change communication, which is released in January, \nand July. \n\n \nDocument classification: \n       \nEcoVadis Public\n19/23              \n\n \n \nb) Ini",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "5. Organisational Disclosures",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "5. Organisational Disclosures",
+     "content_cn": "5.\nOrganisational Disclosures \nTo ensure comprehensive transparency and full compliance with European ESG Rating \nRegulation standards, this methodology document is published on the official EcoVadis \nwebsite page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.  \n \nThis page includes all required organisational disclosures in a dedicated section: Ownership \nstructure, Business Model & Pricing, Conflict of Interest, and Complaint management & \nExternal \nstakeholder \nreasoned \nconcern: \nhttps://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "6. Legal notices",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "6. Legal notices",
+     "content_cn": "6.\nLegal notices \n \nIQ Plus is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 \nParis, a privately-held Société à Actions Simplifiée incorporated in France under trade and \ncompanies register number 497 842 914 - R.C.S. Paris. \n \nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the \nRegulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November \n\n \nDocument classification: \n       \nEcoVadis Public\n22/23              \n\n \n2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating \nactivities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out \nrequirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as \nwell as applicable Regulatory Technical Standards of 15th October 2025.  \n \nCopyright: No part of this document may be reproduced, modified or distributed in any form \nor manner without prior written permission of EcoVadis.  \n \nNo warranty: This document is intended for informational purposes only, and EcoVadis does \nnot warrant the accuracy, reliability, completeness of the information, content, text, and \ngraphics herein, and is subject to change without notice.   \n \nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any \ndirect, indirect, special, incidental or consequential damages arising out of the use of any \nopinion or information expressly or implicitly contained  in this publication.  \n \nCopyright © 2026 EcoVadis SAS (Paris, France)  \nAll Rights Reserved \n\n \nDocument classification: \n       \nEcoVadis Public\n23/23",
+     "content": "",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

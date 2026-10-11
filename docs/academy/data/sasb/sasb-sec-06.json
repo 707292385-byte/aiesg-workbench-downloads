@@ -1,0 +1,439 @@
+{
+ "id": "sasb-sec-06",
+ "title": "基础设施板块（Infrastructure）",
+ "eyebrow": "SICS 板块 · 8 个行业",
+ "summary": "覆盖 基础设施板块 8 个行业（IF-EU, IF-EC, IF-GU, IF-HB, IF-RE, IF-RS, IF-WM, IF-WU）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-06、2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "电力公用事业与发电商（Electric Utilities & Power Generators）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-EU · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions & Energy Resource Planning",
+       "content": "会计指标 19 项：IF-EU-110a.1、IF-EU-110a.2、IF-EU-110a.3、IF-EU-120a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 16 项：IF-EU-120a.1、IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 15 项：IF-EU-140a.1、IF-EU-140a.2、IF-EU-140a.3、IF-EU-150a.1…"
+      },
+      {
+       "title": "Coal Ash Management",
+       "content": "会计指标 12 项：IF-EU-150a.1、IF-EU-150a.3、IF-EU-240a.1、IF-EU-240a.3…"
+      },
+      {
+       "title": "Energy Affordability",
+       "content": "会计指标 10 项：IF-EU-240a.1、IF-EU-240a.3、IF-EU-240a.4、IF-EU-320a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 7 项：IF-EU-320a.1、IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1…"
+      },
+      {
+       "title": "End-Use Efficiency & Demand",
+       "content": "会计指标 6 项：IF-EU-420a.2、IF-EU-420a.3、IF-EU-540a.1、IF-EU-540a.2…"
+      },
+      {
+       "title": "Nuclear Safety & Emergency Management",
+       "content": "会计指标 4 项：IF-EU-540a.1、IF-EU-540a.2、IF-EU-550a.1、IF-EU-550a.2"
+      },
+      {
+       "title": "Grid Resiliency",
+       "content": "会计指标 2 项：IF-EU-550a.1、IF-EU-550a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-EU Electric Utilities & Power Generators 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "工程与建筑服务（Engineering & Construction Services）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-EC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Environmental Impacts of Project Development",
+       "content": "会计指标 13 项：IF-EN-160a.1、IF-EN-160a.2、IF-EN-250a.1、IF-EN-250a.2…"
+      },
+      {
+       "title": "Structural Integrity & Safety",
+       "content": "会计指标 11 项：IF-EN-250a.1、IF-EN-250a.2、IF-EN-320a.1、IF-EN-410a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 9 项：IF-EN-320a.1、IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1…"
+      },
+      {
+       "title": "Lifecycle Impacts of Buildings & Infrastructure",
+       "content": "会计指标 8 项：IF-EN-410a.1、IF-EN-410a.2、IF-EN-410b.1、IF-EN-410b.2…"
+      },
+      {
+       "title": "Climate Impacts of Business Mix",
+       "content": "会计指标 6 项：IF-EN-410b.1、IF-EN-410b.2、IF-EN-410b.3、IF-EN-510a.1…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 3 项：IF-EN-510a.1、IF-EN-510a.2、IF-EN-510a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-EC Engineering & Construction Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "燃气公用事业与分销商（Gas Utilities & Distributors）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-GU · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Affordability",
+       "content": "会计指标 8 项：IF-GU-240a.1、IF-GU-240a.3、IF-GU-240a.4、IF-GU-420a.2…"
+      },
+      {
+       "title": "End-Use Efficiency",
+       "content": "会计指标 5 项：IF-GU-420a.2、IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3…"
+      },
+      {
+       "title": "Integrity of Gas Delivery Infrastructure",
+       "content": "会计指标 4 项：IF-GU-540a.1、IF-GU-540a.2、IF-GU-540a.3、IF-GU-540a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-GU Gas Utilities & Distributors 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "住宅建筑商（Home Builders）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-HB · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Land Use & Ecological Impacts",
+       "content": "会计指标 14 项：IF-HB-160a.1、IF-HB-160a.2、IF-HB-160a.3、IF-HB-160a.4…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 10 项：IF-HB-320a.1、IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3…"
+      },
+      {
+       "title": "Design for Resource Efficiency",
+       "content": "会计指标 9 项：IF-HB-410a.1、IF-HB-410a.2、IF-HB-410a.3、IF-HB-410a.4…"
+      },
+      {
+       "title": "Community Impacts of New Developments",
+       "content": "会计指标 5 项：IF-HB-410b.1、IF-HB-410b.2、IF-HB-410b.3、IF-HB-420a.1…"
+      },
+      {
+       "title": "Climate Change Adaptation",
+       "content": "会计指标 2 项：IF-HB-420a.1、IF-HB-420a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-HB Home Builders 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "房地产（Real Estate）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-RE · 原件版本页标注 Version 2023-06",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 14 项：IF-RE-130a.1、IF-RE-130a.2、IF-RE-130a.3、IF-RE-130a.4…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 9 项：IF-RE-140a.1、IF-RE-140a.2、IF-RE-140a.3、IF-RE-140a.4…"
+      },
+      {
+       "title": "Management of Tenant Sustainability Impacts",
+       "content": "会计指标 5 项：IF-RE-410a.1、IF-RE-410a.2、IF-RE-410a.3、IF-RE-450a.1…"
+      },
+      {
+       "title": "Climate Change Adaptation",
+       "content": "会计指标 2 项：IF-RE-450a.1、IF-RE-450a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-RE Real Estate 行业标准原件（Version 2023-06）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "房地产服务（Real Estate Services）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-RS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Sustainability Services",
+       "content": "会计指标 6 项：IF-RS-410a.1、IF-RS-410a.2、IF-RS-410a.3、IF-RS-510a.1…"
+      },
+      {
+       "title": "Transparent Information & Management of Conflict of Interest",
+       "content": "披露主题（指标见原件）"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-RS Real Estate Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "废弃物管理（Waste Management）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-WM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 19 项：IF-WM-110a.1、IF-WM-110a.2、IF-WM-110a.3、IF-WM-110b.1…"
+      },
+      {
+       "title": "Fleet Fuel Management",
+       "content": "会计指标 16 项：IF-WM-110b.1、IF-WM-110b.2、IF-WM-120a.1、IF-WM-120a.2…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 14 项：IF-WM-120a.1、IF-WM-120a.2、IF-WM-120a.3、IF-WM-150a.1…"
+      },
+      {
+       "title": "Management of Leachate & Hazardous Waste",
+       "content": "会计指标 12 项：IF-WM-120a.3、IF-WM-150a.1、IF-WM-150a.2、IF-WM-150a.3…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：IF-WM-310a.1、IF-WM-310a.2、IF-WM-320a.1、IF-WM-320a.3…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 6 项：IF-WM-320a.1、IF-WM-320a.3、IF-WM-420a.1、IF-WM-420a.2…"
+      },
+      {
+       "title": "Recycling & Resource Recovery",
+       "content": "会计指标 4 项：IF-WM-420a.1、IF-WM-420a.2、IF-WM-420a.3、IF-WM-420a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-WM Waste Management 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-8",
+   "title": "水务公用事业与服务（Water Utilities & Services）",
+   "groupTitle": "基础设施",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "IF-WU · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 19 项：IF-WU-130a.1、IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1…"
+      },
+      {
+       "title": "Distribution Network Efficiency",
+       "content": "会计指标 18 项：IF-WU-140a.1、IF-WU-140a.2、IF-WU-140b.1、IF-WU-140b.2…"
+      },
+      {
+       "title": "Effluent Quality Management",
+       "content": "会计指标 16 项：IF-WU-140b.1、IF-WU-140b.2、IF-WU-240a.1、IF-WU-240a.3…"
+      },
+      {
+       "title": "Water Affordability & Access",
+       "content": "会计指标 14 项：IF-WU-240a.1、IF-WU-240a.3、IF-WU-240a.4、IF-WU-250a.1…"
+      },
+      {
+       "title": "Drinking Water Quality",
+       "content": "会计指标 11 项：IF-WU-250a.1、IF-WU-250a.2、IF-WU-420a.1、IF-WU-420a.2…"
+      },
+      {
+       "title": "End-Use Efficiency",
+       "content": "会计指标 9 项：IF-WU-420a.1、IF-WU-420a.2、IF-WU-440a.1、IF-WU-440a.2…"
+      },
+      {
+       "title": "Water Supply Resilience",
+       "content": "会计指标 7 项：IF-WU-440a.1、IF-WU-440a.2、IF-WU-440a.3、IF-WU-450a.1…"
+      },
+      {
+       "title": "Network Resiliency & Impacts of Climate Change",
+       "content": "会计指标 4 项：IF-WU-450a.1、IF-WU-450a.2、IF-WU-450a.3、IF-WU-450a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB IF-WU Water Utilities & Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

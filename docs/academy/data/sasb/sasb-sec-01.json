@@ -1,0 +1,337 @@
+{
+ "id": "sasb-sec-01",
+ "title": "消费品板块（Consumer Goods）",
+ "eyebrow": "SICS 板块 · 7 个行业",
+ "summary": "覆盖 消费品板块 7 个行业（CG-AA, CG-AM, CG-BP, CG-EC, CG-HP, CG-RT, CG-TS）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "服装、配饰与鞋类（Apparel, Accessories & Footwear）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-AA · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Management of Chemicals in Products",
+       "content": "会计指标 9 项：CG-AA-250a.1、CG-AA-250a.2、CG-AA-430a.1、CG-AA-430a.2…"
+      },
+      {
+       "title": "Environmental Impacts in the Supply Chain",
+       "content": "会计指标 7 项：CG-AA-430a.1、CG-AA-430a.2、CG-AA-430b.1、CG-AA-430b.2…"
+      },
+      {
+       "title": "Labour Conditions in the Supply Chain",
+       "content": "会计指标 5 项：CG-AA-430b.1、CG-AA-430b.2、CG-AA-430b.3、CG-AA-440a.3…"
+      },
+      {
+       "title": "Raw Materials Sourcing",
+       "content": "会计指标 2 项：CG-AA-440a.3、CG-AA-440a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-AA Apparel, Accessories & Footwear 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "家电制造（Appliance Manufacturing）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-AM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Product Safety",
+       "content": "会计指标 6 项：CG-AM-250a.1、CG-AM-250a.2、CG-AM-250a.3、CG-AM-410a.1…"
+      },
+      {
+       "title": "Product Lifecycle Environmental Impacts",
+       "content": "会计指标 3 项：CG-AM-410a.1、CG-AM-410a.2、CG-AM-410a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-AM Appliance Manufacturing 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "建筑产品与家具（Building Products & Furnishings）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-BP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management in Manufacturing",
+       "content": "会计指标 6 项：CG-BF-130a.1、CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1…"
+      },
+      {
+       "title": "Management of Chemicals in Products",
+       "content": "会计指标 5 项：CG-BF-250a.1、CG-BF-250a.2、CG-BF-410a.1、CG-BF-410a.2…"
+      },
+      {
+       "title": "Product Lifecycle Environmental Impacts",
+       "content": "会计指标 3 项：CG-BF-410a.1、CG-BF-410a.2、CG-BF-430a.1"
+      },
+      {
+       "title": "Wood Supply Chain Management",
+       "content": "会计指标 1 项：CG-BF-430a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-BP Building Products & Furnishings 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "电子商务（E-Commerce）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-EC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Hardware Infrastructure Energy & Water Management",
+       "content": "会计指标 13 项：CG-EC-130a.1、CG-EC-130a.2、CG-EC-130a.3、CG-EC-220a.1…"
+      },
+      {
+       "title": "Data Privacy & Advertising Standards",
+       "content": "会计指标 10 项：CG-EC-220a.1、CG-EC-220a.2、CG-EC-230a.1、CG-EC-230a.2…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 8 项：CG-EC-230a.1、CG-EC-230a.2、CG-EC-330a.1、CG-EC-330a.2…"
+      },
+      {
+       "title": "Employee Recruitment, Inclusion & Performance",
+       "content": "会计指标 6 项：CG-EC-330a.1、CG-EC-330a.2、CG-EC-330a.3、CG-EC-330a.4…"
+      },
+      {
+       "title": "Product Packaging & Distribution",
+       "content": "会计指标 2 项：CG-EC-410a.1、CG-EC-410a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-EC E-Commerce 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "家居与个人护理产品（Household & Personal Products）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-HP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Water Management",
+       "content": "会计指标 8 项：CG-HP-140a.1、CG-HP-140a.2、CG-HP-250a.1、CG-HP-250a.3…"
+      },
+      {
+       "title": "Product Environmental, Health and Safety Performance",
+       "content": "会计指标 6 项：CG-HP-250a.1、CG-HP-250a.3、CG-HP-250a.4、CG-HP-410a.1…"
+      },
+      {
+       "title": "Packaging Lifecycle Management",
+       "content": "会计指标 3 项：CG-HP-410a.1、CG-HP-410a.2、CG-HP-430a.1"
+      },
+      {
+       "title": "Environmental & Social Impacts of Palm Oil Supply Chain",
+       "content": "会计指标 1 项：CG-HP-430a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-HP Household & Personal Products 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "多品类与专业零售商及分销商（Multiline and Specialty Retailers & Distributors）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-RT · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management in Retail & Distribution",
+       "content": "会计指标 11 项：CG-MR-130a.1、CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 10 项：CG-MR-230a.1、CG-MR-230a.2、CG-MR-310a.1、CG-MR-310a.2…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：CG-MR-310a.1、CG-MR-310a.2、CG-MR-310a.3、CG-MR-330a.1…"
+      },
+      {
+       "title": "Workforce Diversity & Inclusion",
+       "content": "会计指标 5 项：CG-MR-330a.1、CG-MR-330a.2、CG-MR-410a.1、CG-MR-410a.2…"
+      },
+      {
+       "title": "Product Sourcing, Packaging & Marketing",
+       "content": "会计指标 3 项：CG-MR-410a.1、CG-MR-410a.2、CG-MR-410a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-RT Multiline and Specialty Retailers & Distributors 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "玩具与体育用品（Toys & Sporting Goods）",
+   "groupTitle": "消费品",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "CG-TS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Chemical & Safety Hazards of Products",
+       "content": "会计指标 5 项：CG-TS-250a.1、CG-TS-250a.3、CG-TS-250a.4、CG-TS-430a.1…"
+      },
+      {
+       "title": "Labour Conditions in the Supply Chain",
+       "content": "会计指标 2 项：CG-TS-430a.1、CG-TS-430a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB CG-TS Toys & Sporting Goods 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "id": "gri-416",
+ "title": "GRI 416：客户健康与安全（2016）",
+ "eyebrow": "议题标准 · 2016 · 2018年7月1日起生效",
+ "summary": "本标准是关于客户健康与安全议题，包括组织为处理产品或服务生命周期内的健康与安全问题而采取的系统性措施，以及遵守客户健康与安全法规及自愿性守则的情况。 经济合作与发展组织的重要…",
+ "tags": [
+  "GRI",
+  "议题标准"
+ ],
+ "group": "社会议题（400 系列）",
+ "status": "",
+ "officialUrl": "https://www.globalreporting.org/standards/",
+ "sourceNote": "全球可持续发展标准委员会（GSSB）《GRI 可持续发展报告标准》；本页为官方文件的结构化整理，请以 GSSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "bg",
+   "title": "议题背景",
+   "groupTitle": "标准定位",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "议题背景",
+     "content_cn": "本标准是关于客户健康与安全议题，包括组织为处理产品或服务生命周期内的健康与安全问题而采取的系统性措施，以及遵守客户健康与安全法规及自愿性守则的情况。\n\n经济合作与发展组织的重要文件中介绍了这些概念：参见参考文件。",
+     "content": "",
+     "source": "GRI 416（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "eff",
+   "title": "生效日期",
+   "groupTitle": "标准定位",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "生效日期",
+     "content_cn": "本标准对 2018年7月1日 或之后出版的报告或其他材料有效。",
+     "content": "",
+     "source": "GRI 416（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "d-1",
+   "title": "披露项 416-1 评估产品和服务类别的健康与安全影响",
+   "groupTitle": "披露要求",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "披露项 416-1 评估产品和服务类别的健康与安全影响",
+     "content_cn": "要求 组织应报告以下信息：\n\na. 被评估为需要改善健康与安全影响的重要产品和服务类别的百分比。\n\n披露项416-1指南指南这项措施有助于确认组织是否为处理产品或服务生命周期内的健康与安全问题而采取了系统性措施及措施的范围。报告披露项416-1中的信息时，组织也可说明评估所使用的标准。",
+     "content": "",
+     "source": "GRI 416（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "d-2",
+   "title": "披露项 416-2 涉及产品和服务的健康与安全影响的违规事件",
+   "groupTitle": "披露要求",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "披露项 416-2 涉及产品和服务的健康与安全影响的违规事件",
+     "content_cn": "a. 在报告期内，违反有关产品和服务的健康与安全影响的法规和 / 或自愿性守则的事件总数，按以下项目分类：\n\ni. 违反法规而受到罚款或处罚的事件；\n\nii. 违反法规而受到警告的事件；\n\niii. 违反自愿性守则的事件。\n\nb. 如果组织未发现任何违反法规和 / 或自愿性守则的情况，简要说明这一事实即可。\n\n编制要求：\n\n2.1 编制披露项416-2中规定的信息时，组织应：\n\n2.1.1 排除被判定为非组织过失而导致的违规事件；\n\n排除与标识有关的违规事件。与标识有关的事件在 的披2.1.2露项417-2中报告；\n\n2.1.3 确定与报告期之前期间的事件有关的任何违规事件（如适用）。\n\n指南",
+     "content": "",
+     "source": "GRI 416（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [
+   {
+    "id": "gri-1",
+    "title": "GRI 1：基础"
+   },
+   {
+    "id": "gri-2",
+    "title": "GRI 2：一般披露"
+   },
+   {
+    "id": "gri-3",
+    "title": "GRI 3：重要性议题"
+   }
+  ],
+  "external": []
+ }
+}

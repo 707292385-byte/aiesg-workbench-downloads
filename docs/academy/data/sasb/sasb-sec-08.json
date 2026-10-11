@@ -1,0 +1,325 @@
+{
+ "id": "sasb-sec-08",
+ "title": "资源转化板块（Resource Transformation）",
+ "eyebrow": "SICS 板块 · 5 个行业",
+ "summary": "覆盖 资源转化板块 5 个行业（RT-AD, RT-CH, RT-CP, RT-EE, RT-IM）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "航空航天与国防（Aerospace & Defence）",
+   "groupTitle": "资源转化",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RT-AD · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 15 项：RT-AE-130a.1、RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1…"
+      },
+      {
+       "title": "Hazardous Waste Management",
+       "content": "会计指标 14 项：RT-AE-150a.1、RT-AE-150a.2、RT-AE-230a.1、RT-AE-230a.2…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 12 项：RT-AE-230a.1、RT-AE-230a.2、RT-AE-250a.1、RT-AE-250a.2…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 10 项：RT-AE-250a.1、RT-AE-250a.2、RT-AE-250a.3、RT-AE-250a.4…"
+      },
+      {
+       "title": "Fuel Economy & Emissions in Use-phase",
+       "content": "会计指标 6 项：RT-AE-410a.1、RT-AE-410a.2、RT-AE-440a.1、RT-AE-510a.1…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 4 项：RT-AE-440a.1、RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 3 项：RT-AE-510a.1、RT-AE-510a.2、RT-AE-510a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RT-AD Aerospace & Defence 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "化工（Chemicals）",
+   "groupTitle": "资源转化",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RT-CH · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 18 项：RT-CH-110a.1、RT-CH-110a.2、RT-CH-120a.1、RT-CH-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 16 项：RT-CH-120a.1、RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 15 项：RT-CH-130a.1、RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 14 项：RT-CH-140a.1、RT-CH-140a.2、RT-CH-140a.3、RT-CH-150a.1…"
+      },
+      {
+       "title": "Hazardous Waste Management",
+       "content": "会计指标 11 项：RT-CH-150a.1、RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2…"
+      },
+      {
+       "title": "Community Relations",
+       "content": "会计指标 10 项：RT-CH-210a.1、RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 9 项：RT-CH-320a.1、RT-CH-320a.2、RT-CH-410a.1、RT-CH-410b.1…"
+      },
+      {
+       "title": "Product Design for Use-phase Efficiency",
+       "content": "会计指标 7 项：RT-CH-410a.1、RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1…"
+      },
+      {
+       "title": "Safety & Environmental Stewardship of Chemicals",
+       "content": "会计指标 6 项：RT-CH-410b.1、RT-CH-410b.2、RT-CH-410c.1、RT-CH-530a.1…"
+      },
+      {
+       "title": "Genetically Modified Organisms",
+       "content": "会计指标 4 项：RT-CH-410c.1、RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2"
+      },
+      {
+       "title": "Management of the Legal & Regulatory Environment",
+       "content": "会计指标 3 项：RT-CH-530a.1、RT-CH-540a.1、RT-CH-540a.2"
+      },
+      {
+       "title": "Operational Safety, Emergency Preparedness & Response",
+       "content": "会计指标 2 项：RT-CH-540a.1、RT-CH-540a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RT-CH Chemicals 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "容器与包装（Containers & Packaging）",
+   "groupTitle": "资源转化",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RT-CP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 15 项：RT-CP-110a.1、RT-CP-110a.2、RT-CP-120a.1、RT-CP-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 13 项：RT-CP-120a.1、RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 12 项：RT-CP-130a.1、RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 11 项：RT-CP-140a.1、RT-CP-140a.2、RT-CP-140a.3、RT-CP-150a.1…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 8 项：RT-CP-150a.1、RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 7 项：RT-CP-250a.1、RT-CP-250a.2、RT-CP-410a.1、RT-CP-410a.2…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 5 项：RT-CP-410a.1、RT-CP-410a.2、RT-CP-410a.3、RT-CP-430a.1…"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 2 项：RT-CP-430a.1、RT-CP-430a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RT-CP Containers & Packaging 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "电气与电子设备（Electrical & Electronic Equipment）",
+   "groupTitle": "资源转化",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RT-EE · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 12 项：RT-EE-130a.1、RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1…"
+      },
+      {
+       "title": "Hazardous Waste Management",
+       "content": "会计指标 11 项：RT-EE-150a.1、RT-EE-150a.2、RT-EE-250a.1、RT-EE-250a.2…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 9 项：RT-EE-250a.1、RT-EE-250a.2、RT-EE-410a.1、RT-EE-410a.2…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 7 项：RT-EE-410a.1、RT-EE-410a.2、RT-EE-410a.3、RT-EE-440a.1…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 4 项：RT-EE-440a.1、RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 3 项：RT-EE-510a.1、RT-EE-510a.2、RT-EE-510a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RT-EE Electrical & Electronic Equipment 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "工业机械与商品（Industrial Machinery & Goods）",
+   "groupTitle": "资源转化",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RT-IM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 8 项：RT-IG-130a.1、RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 7 项：RT-IG-320a.1、RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3…"
+      },
+      {
+       "title": "Fuel Economy & Emissions in Use-phase",
+       "content": "会计指标 6 项：RT-IG-410a.1、RT-IG-410a.2、RT-IG-410a.3、RT-IG-410a.4…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 2 项：RT-IG-440a.1、RT-IG-440b.1"
+      },
+      {
+       "title": "Remanufacturing Design & Services",
+       "content": "会计指标 1 项：RT-IG-440b.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RT-IM Industrial Machinery & Goods 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

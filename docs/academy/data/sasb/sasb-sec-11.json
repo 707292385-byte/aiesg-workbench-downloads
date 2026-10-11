@@ -1,0 +1,477 @@
+{
+ "id": "sasb-sec-11",
+ "title": "交通运输板块（Transportation）",
+ "eyebrow": "SICS 板块 · 9 个行业",
+ "summary": "覆盖 交通运输板块 9 个行业（TR-AF, TR-AL, TR-AP, TR-AU, TR-CR, TR-CL, TR-MT, TR-RT, TR-RD）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "航空货运与物流（Air Freight & Logistics）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-AF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 12 项：TR-AF-110a.1、TR-AF-110a.2、TR-AF-110a.3、TR-AF-120a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 9 项：TR-AF-120a.1、TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：TR-AF-310a.1、TR-AF-310a.2、TR-AF-320a.1、TR-AF-430a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 6 项：TR-AF-320a.1、TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1…"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 5 项：TR-AF-430a.2、TR-AF-430a.3、TR-AF-540a.1、TR-AF-540a.2…"
+      },
+      {
+       "title": "Accident & Safety Management",
+       "content": "会计指标 3 项：TR-AF-540a.1、TR-AF-540a.2、TR-AF-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-AF Air Freight & Logistics 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "航空公司（Airlines）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-AL · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 9 项：TR-AL-110a.1、TR-AL-110a.2、TR-AL-110a.3、TR-AL-310a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 6 项：TR-AL-310a.1、TR-AL-310a.2、TR-AL-520a.1、TR-AL-540a.1…"
+      },
+      {
+       "title": "Competitive Behaviour",
+       "content": "会计指标 4 项：TR-AL-520a.1、TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3"
+      },
+      {
+       "title": "Accident & Safety Management",
+       "content": "会计指标 3 项：TR-AL-540a.1、TR-AL-540a.2、TR-AL-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-AL Airlines 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "汽车零部件（Auto Parts）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-AP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 8 项：TR-AP-130a.1、TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 7 项：TR-AP-150a.1、TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 6 项：TR-AP-250a.1、TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1…"
+      },
+      {
+       "title": "Design for Fuel Efficiency",
+       "content": "会计指标 5 项：TR-AP-410a.1、TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 4 项：TR-AP-440a.1、TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1"
+      },
+      {
+       "title": "Materials Efficiency",
+       "content": "会计指标 3 项：TR-AP-440b.1、TR-AP-440b.2、TR-AP-520a.1"
+      },
+      {
+       "title": "Competitive Behaviour",
+       "content": "会计指标 1 项：TR-AP-520a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-AP Auto Parts 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "汽车制造（Automobiles）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-AU · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Product Safety",
+       "content": "会计指标 12 项：TR-AU-250a.1、TR-AU-250a.2、TR-AU-250a.3、TR-AU-310a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 9 项：TR-AU-310a.1、TR-AU-310a.2、TR-AU-410a.1、TR-AU-410a.2…"
+      },
+      {
+       "title": "Fuel Economy & Use-phase Emissions",
+       "content": "会计指标 7 项：TR-AU-410a.1、TR-AU-410a.2、TR-AU-410a.3、TR-AU-440a.1…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 4 项：TR-AU-440a.1、TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3"
+      },
+      {
+       "title": "Materials Efficiency & Recycling",
+       "content": "会计指标 3 项：TR-AU-440b.1、TR-AU-440b.2、TR-AU-440b.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-AU Automobiles 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "汽车租赁（Car Rental & Leasing）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-CR · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Customer Safety",
+       "content": "会计指标 4 项：TR-CR-250a.1、TR-CR-250a.2、TR-CR-410a.1、TR-CR-410a.2"
+      },
+      {
+       "title": "Fleet Fuel Economy & Utilisation",
+       "content": "会计指标 2 项：TR-CR-410a.1、TR-CR-410a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-CR Car Rental & Leasing 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "邮轮公司（Cruise Lines）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-CL · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 20 项：TR-CL-110a.1、TR-CL-110a.2、TR-CL-110a.3、TR-CL-110a.4…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 16 项：TR-CL-120a.1、TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3…"
+      },
+      {
+       "title": "Discharge Management & Ecological Impacts",
+       "content": "会计指标 15 项：TR-CL-160a.1、TR-CL-160a.2、TR-CL-160a.3、TR-CL-160a.4…"
+      },
+      {
+       "title": "Customer Health & Safety",
+       "content": "会计指标 11 项：TR-CL-250a.1、TR-CL-250a.2、TR-CL-250a.3、TR-CL-310a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：TR-CL-310a.1、TR-CL-310a.2、TR-CL-310a.3、TR-CL-310a.4…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 4 项：TR-CL-320a.1、TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3"
+      },
+      {
+       "title": "Accident Management",
+       "content": "会计指标 3 项：TR-CL-540a.1、TR-CL-540a.2、TR-CL-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-CL Cruise Lines 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "海上运输（Marine Transportation）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-MT · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 14 项：TR-MT-110a.1、TR-MT-110a.2、TR-MT-110a.3、TR-MT-110a.4…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 10 项：TR-MT-120a.1、TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3…"
+      },
+      {
+       "title": "Ecological Impacts",
+       "content": "会计指标 9 项：TR-MT-160a.1、TR-MT-160a.2、TR-MT-160a.3、TR-MT-320a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 6 项：TR-MT-320a.1、TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 5 项：TR-MT-510a.1、TR-MT-510a.2、TR-MT-540a.1、TR-MT-540a.2…"
+      },
+      {
+       "title": "Accident & Safety Management",
+       "content": "会计指标 3 项：TR-MT-540a.1、TR-MT-540a.2、TR-MT-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-MT Marine Transportation 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-8",
+   "title": "铁路运输（Rail Transportation）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-RT · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 10 项：TR-RA-110a.1、TR-RA-110a.2、TR-RA-110a.3、TR-RA-120a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 7 项：TR-RA-120a.1、TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 6 项：TR-RA-320a.1、TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2…"
+      },
+      {
+       "title": "Competitive Behaviour",
+       "content": "会计指标 5 项：TR-RA-520a.1、TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3…"
+      },
+      {
+       "title": "Accident & Safety Management",
+       "content": "会计指标 4 项：TR-RA-540a.1、TR-RA-540a.2、TR-RA-540a.3、TR-RA-540a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-RT Rail Transportation 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-9",
+   "title": "公路运输（Road Transportation）",
+   "groupTitle": "交通运输",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "TR-RD · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 9 项：TR-RO-110a.1、TR-RO-110a.2、TR-RO-110a.3、TR-RO-120a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 6 项：TR-RO-120a.1、TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3…"
+      },
+      {
+       "title": "Workforce Conditions, Health & Safety",
+       "content": "会计指标 5 项：TR-RO-320a.1、TR-RO-320a.2、TR-RO-320a.3、TR-RO-540a.1…"
+      },
+      {
+       "title": "Accident & Safety Management",
+       "content": "会计指标 2 项：TR-RO-540a.1、TR-RO-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB TR-RD Road Transportation 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

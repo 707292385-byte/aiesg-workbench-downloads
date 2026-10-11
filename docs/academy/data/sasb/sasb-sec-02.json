@@ -1,0 +1,547 @@
+{
+ "id": "sasb-sec-02",
+ "title": "采掘与矿物加工板块（Extractives & Minerals Processing）",
+ "eyebrow": "SICS 板块 · 8 个行业",
+ "summary": "覆盖 采掘与矿物加工板块 8 个行业（EM-CO, EM-CM, EM-IS, EM-MM, EM-EP, EM-OM, EM-RM, EM-OS）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "煤炭运营（Coal Operations）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-CO · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 28 项：EM-CO-110a.1、EM-CO-110a.2、EM-CO-140a.1、EM-CO-140a.2…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 26 项：EM-CO-140a.1、EM-CO-140a.2、EM-CO-150a.2、EM-CO-150a.3…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 24 项：EM-CO-150a.2、EM-CO-150a.3、EM-CO-150a.4、EM-CO-150a.5…"
+      },
+      {
+       "title": "Biodiversity Impacts",
+       "content": "会计指标 17 项：EM-CO-160a.1、EM-CO-160a.2、EM-CO-160a.3、EM-CO-210a.1…"
+      },
+      {
+       "title": "Rights of Indigenous Peoples",
+       "content": "会计指标 14 项：EM-CO-210a.1、EM-CO-210a.2、EM-CO-210b.1、EM-CO-210b.2…"
+      },
+      {
+       "title": "Community Relations",
+       "content": "会计指标 12 项：EM-CO-210b.1、EM-CO-210b.2、EM-CO-310a.1、EM-CO-310a.2…"
+      },
+      {
+       "title": "Labour Relations",
+       "content": "会计指标 10 项：EM-CO-310a.1、EM-CO-310a.2、EM-CO-320a.1、EM-CO-320a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 8 项：EM-CO-320a.1、EM-CO-320a.2、EM-CO-420a.1、EM-CO-420a.2…"
+      },
+      {
+       "title": "Reserves Valuation & Capital Expenditures",
+       "content": "会计指标 6 项：EM-CO-420a.1、EM-CO-420a.2、EM-CO-420a.3、EM-CO-540a.1…"
+      },
+      {
+       "title": "Tailings Storage Facilities Management",
+       "content": "会计指标 3 项：EM-CO-540a.1、EM-CO-540a.2、EM-CO-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-CO Coal Operations 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "建筑材料（Construction Materials）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-CM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 13 项：EM-CM-110a.1、EM-CM-110a.2、EM-CM-120a.1、EM-CM-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 11 项：EM-CM-120a.1、EM-CM-130a.1、EM-CM-140a.1、EM-CM-150a.1…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 10 项：EM-CM-130a.1、EM-CM-140a.1、EM-CM-150a.1、EM-CM-160a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 9 项：EM-CM-140a.1、EM-CM-150a.1、EM-CM-160a.1、EM-CM-160a.2…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 8 项：EM-CM-150a.1、EM-CM-160a.1、EM-CM-160a.2、EM-CM-320a.1…"
+      },
+      {
+       "title": "Biodiversity Impacts",
+       "content": "会计指标 7 项：EM-CM-160a.1、EM-CM-160a.2、EM-CM-320a.1、EM-CM-320a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 5 项：EM-CM-320a.1、EM-CM-320a.2、EM-CM-410a.1、EM-CM-410a.2…"
+      },
+      {
+       "title": "Product Innovation",
+       "content": "会计指标 3 项：EM-CM-410a.1、EM-CM-410a.2、EM-CM-520a.1"
+      },
+      {
+       "title": "Pricing Integrity & Transparency",
+       "content": "会计指标 1 项：EM-CM-520a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-CM Construction Materials 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "钢铁生产商（Iron & Steel Producers）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-IS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 9 项：EM-IS-110a.1、EM-IS-110a.2、EM-IS-120a.1、EM-IS-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 7 项：EM-IS-120a.1、EM-IS-130a.1、EM-IS-130a.2、EM-IS-140a.1…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 6 项：EM-IS-130a.1、EM-IS-130a.2、EM-IS-140a.1、EM-IS-150a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 4 项：EM-IS-140a.1、EM-IS-150a.1、EM-IS-320a.1、EM-IS-430a.1"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 3 项：EM-IS-150a.1、EM-IS-320a.1、EM-IS-430a.1"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 2 项：EM-IS-320a.1、EM-IS-430a.1"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 1 项：EM-IS-430a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-IS Iron & Steel Producers 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "金属与采矿（Metals & Mining）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-MM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 29 项：EM-MM-110a.1、EM-MM-110a.2、EM-MM-120a.1、EM-MM-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 27 项：EM-MM-120a.1、EM-MM-130a.1、EM-MM-140a.1、EM-MM-140a.2…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 26 项：EM-MM-130a.1、EM-MM-140a.1、EM-MM-140a.2、EM-MM-150a.10…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 25 项：EM-MM-140a.1、EM-MM-140a.2、EM-MM-150a.10、EM-MM-150a.4…"
+      },
+      {
+       "title": "Waste & Hazardous Materials Management",
+       "content": "会计指标 23 项：EM-MM-150a.10、EM-MM-150a.4、EM-MM-150a.5、EM-MM-150a.6…"
+      },
+      {
+       "title": "Biodiversity Impacts",
+       "content": "会计指标 16 项：EM-MM-160a.1、EM-MM-160a.2、EM-MM-160a.3、EM-MM-210a.1…"
+      },
+      {
+       "title": "Security, Human Rights & Rights of Indigenous Peoples",
+       "content": "会计指标 13 项：EM-MM-210a.1、EM-MM-210a.2、EM-MM-210a.3、EM-MM-210b.1…"
+      },
+      {
+       "title": "Community Relations",
+       "content": "会计指标 10 项：EM-MM-210b.1、EM-MM-210b.2、EM-MM-310a.1、EM-MM-310a.2…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：EM-MM-310a.1、EM-MM-310a.2、EM-MM-320a.1、EM-MM-510a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 6 项：EM-MM-320a.1、EM-MM-510a.1、EM-MM-510a.2、EM-MM-540a.1…"
+      },
+      {
+       "title": "Business Ethics & Transparency",
+       "content": "会计指标 5 项：EM-MM-510a.1、EM-MM-510a.2、EM-MM-540a.1、EM-MM-540a.2…"
+      },
+      {
+       "title": "Tailings Storage Facilities Management",
+       "content": "会计指标 3 项：EM-MM-540a.1、EM-MM-540a.2、EM-MM-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-MM Metals & Mining 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "油气勘探与生产（Oil & Gas - Exploration & Production）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-EP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 27 项：EM-EP-110a.1、EM-EP-110a.2、EM-EP-110a.3、EM-EP-120a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 24 项：EM-EP-120a.1、EM-EP-140a.1、EM-EP-140a.2、EM-EP-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 23 项：EM-EP-140a.1、EM-EP-140a.2、EM-EP-140a.3、EM-EP-140a.4…"
+      },
+      {
+       "title": "Biodiversity Impacts",
+       "content": "会计指标 19 项：EM-EP-160a.1、EM-EP-160a.2、EM-EP-160a.3、EM-EP-210a.1…"
+      },
+      {
+       "title": "Security, Human Rights & Rights of Indigenous Peoples",
+       "content": "会计指标 16 项：EM-EP-210a.1、EM-EP-210a.2、EM-EP-210a.3、EM-EP-210b.1…"
+      },
+      {
+       "title": "Community Relations",
+       "content": "会计指标 13 项：EM-EP-210b.1、EM-EP-210b.2、EM-EP-320a.1、EM-EP-320a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 11 项：EM-EP-320a.1、EM-EP-320a.2、EM-EP-420a.1、EM-EP-420a.2…"
+      },
+      {
+       "title": "Reserves Valuation & Capital Expenditures",
+       "content": "会计指标 9 项：EM-EP-420a.1、EM-EP-420a.2、EM-EP-420a.3、EM-EP-420a.4…"
+      },
+      {
+       "title": "Business Ethics & Transparency",
+       "content": "会计指标 5 项：EM-EP-510a.1、EM-EP-510a.2、EM-EP-530a.1、EM-EP-540a.1…"
+      },
+      {
+       "title": "Management of the Legal & Regulatory Environment",
+       "content": "会计指标 3 项：EM-EP-530a.1、EM-EP-540a.1、EM-EP-540a.2"
+      },
+      {
+       "title": "Critical Incident Risk Management",
+       "content": "会计指标 2 项：EM-EP-540a.1、EM-EP-540a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-EP Oil & Gas - Exploration & Production 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "油气中游（Oil & Gas - Midstream）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-OM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 12 项：EM-MD-110a.1、EM-MD-110a.2、EM-MD-120a.1、EM-MD-160a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 10 项：EM-MD-120a.1、EM-MD-160a.1、EM-MD-160a.2、EM-MD-160a.3…"
+      },
+      {
+       "title": "Ecological Impacts",
+       "content": "会计指标 9 项：EM-MD-160a.1、EM-MD-160a.2、EM-MD-160a.3、EM-MD-160a.4…"
+      },
+      {
+       "title": "Competitive Behaviour",
+       "content": "会计指标 5 项：EM-MD-520a.1、EM-MD-540a.1、EM-MD-540a.2、EM-MD-540a.3…"
+      },
+      {
+       "title": "Operational Safety, Emergency Preparedness & Response",
+       "content": "会计指标 4 项：EM-MD-540a.1、EM-MD-540a.2、EM-MD-540a.3、EM-MD-540a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-OM Oil & Gas - Midstream 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "油气炼化与营销（Oil & Gas - Refining & Marketing）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-RM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 17 项：EM-RM-110a.1、EM-RM-110a.2、EM-RM-120a.1、EM-RM-120a.2…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 15 项：EM-RM-120a.1、EM-RM-120a.2、EM-RM-140a.1、EM-RM-140a.2…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 13 项：EM-RM-140a.1、EM-RM-140a.2、EM-RM-150a.1、EM-RM-150a.2…"
+      },
+      {
+       "title": "Hazardous Materials Management",
+       "content": "会计指标 11 项：EM-RM-150a.1、EM-RM-150a.2、EM-RM-320a.1、EM-RM-320a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 9 项：EM-RM-320a.1、EM-RM-320a.2、EM-RM-410a.2、EM-RM-410a.3…"
+      },
+      {
+       "title": "Product Specifications & Clean Fuel Blends",
+       "content": "会计指标 7 项：EM-RM-410a.2、EM-RM-410a.3、EM-RM-520a.1、EM-RM-530a.1…"
+      },
+      {
+       "title": "Pricing Integrity & Transparency",
+       "content": "会计指标 5 项：EM-RM-520a.1、EM-RM-530a.1、EM-RM-540a.1、EM-RM-540a.2…"
+      },
+      {
+       "title": "Management of the Legal & Regulatory Environment",
+       "content": "会计指标 4 项：EM-RM-530a.1、EM-RM-540a.1、EM-RM-540a.2、EM-RM-540a.3"
+      },
+      {
+       "title": "Critical Incident Risk Management",
+       "content": "会计指标 3 项：EM-RM-540a.1、EM-RM-540a.2、EM-RM-540a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-RM Oil & Gas - Refining & Marketing 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-8",
+   "title": "油气服务（Oil & Gas - Services）",
+   "groupTitle": "采掘与矿物加工",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "EM-OS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Emissions Reduction Services & Fuels Management",
+       "content": "会计指标 16 项：EM-SV-110a.1、EM-SV-110a.2、EM-SV-110a.3、EM-SV-140a.1…"
+      },
+      {
+       "title": "Water Management Services",
+       "content": "会计指标 13 项：EM-SV-140a.1、EM-SV-140a.2、EM-SV-150a.1、EM-SV-150a.2…"
+      },
+      {
+       "title": "Chemicals Management",
+       "content": "会计指标 11 项：EM-SV-150a.1、EM-SV-150a.2、EM-SV-160a.1、EM-SV-160a.2…"
+      },
+      {
+       "title": "Ecological Impact Management",
+       "content": "会计指标 9 项：EM-SV-160a.1、EM-SV-160a.2、EM-SV-320a.1、EM-SV-320a.2…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 7 项：EM-SV-320a.1、EM-SV-320a.2、EM-SV-320a.3、EM-SV-510a.1…"
+      },
+      {
+       "title": "Business Ethics & Payments Transparency",
+       "content": "会计指标 4 项：EM-SV-510a.1、EM-SV-510a.2、EM-SV-530a.1、EM-SV-540a.1"
+      },
+      {
+       "title": "Management of the Legal & Regulatory Environment",
+       "content": "会计指标 2 项：EM-SV-530a.1、EM-SV-540a.1"
+      },
+      {
+       "title": "Critical Incident Risk Management",
+       "content": "会计指标 1 项：EM-SV-540a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB EM-OS Oil & Gas - Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

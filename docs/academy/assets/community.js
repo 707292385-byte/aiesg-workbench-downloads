@@ -44,7 +44,14 @@
   }
   const standards = [
     { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
+    { id: 'csa', type: '可持续评估', title: '标普全球CSA企业可持续发展评估', detail: '62行业问卷 · 34标准 · 三大维度' },
+    { id: 'ecovadis', type: '评级方法', title: 'EcoVadis 可持续评级方法学', detail: '奖牌徽章 · 碳评级 · 供应链' },
+    { id: 'guozheng', type: '评级方法', title: '国证ESG评价体系', detail: 'E/S/G三维度 · 15主题 · 本土指标' },
+    { id: 'gri', type: '披露规则', title: 'GRI 可持续发展报告标准', detail: '通用标准 · 33项议题标准 · 行业标准' },
+    { id: 'ifrs', type: '披露规则', title: 'ISSB准则（IFRS S1/S2）', detail: '一般要求 · 气候披露 · 四支柱' },
+    { id: 'sasb', type: '披露规则', title: 'SASB 行业可持续会计标准', detail: '11板块 · 77行业 · 财务重要性' },
     { id: 'ashare', type: '披露规则', title: 'A股可持续发展报告指引', detail: '三所指引 · 25项议题 · 编制指南' },
+    { id: 'mof', type: '披露规则', title: '财政部企业可持续披露准则体系', detail: '基本准则 · 气候准则 · 行业指南' },
     { id: 'hkex', type: '披露规则', title: '港交所ESG披露体系', detail: '报告守则 · KPI体系 · 气候披露' }
   ];
 
@@ -295,7 +302,7 @@
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多　→</a></div><div class="co-items">'
-      + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
+      + standards.slice(0, 6).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div></div></article>'
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多　→</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))

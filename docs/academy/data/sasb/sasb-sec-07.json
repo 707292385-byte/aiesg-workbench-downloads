@@ -1,0 +1,323 @@
+{
+ "id": "sasb-sec-07",
+ "title": "可再生资源与替代能源板块（Renewable Resources & Alternative Energy）",
+ "eyebrow": "SICS 板块 · 6 个行业",
+ "summary": "覆盖 可再生资源与替代能源板块 6 个行业（RR-BF, RR-FM, RR-FC, RR-PP, RR-ST, RR-WT）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "生物燃料（Biofuels）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-BF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Air Quality",
+       "content": "会计指标 11 项：RR-BI-120a.1、RR-BI-120a.2、RR-BI-140a.1、RR-BI-140a.2…"
+      },
+      {
+       "title": "Water Management in Manufacturing",
+       "content": "会计指标 9 项：RR-BI-140a.1、RR-BI-140a.2、RR-BI-140a.3、RR-BI-410a.1…"
+      },
+      {
+       "title": "Lifecycle Emissions Balance",
+       "content": "会计指标 6 项：RR-BI-410a.1、RR-BI-430a.1、RR-BI-430a.2、RR-BI-530a.1…"
+      },
+      {
+       "title": "Sourcing & Environmental Impacts of Feedstock Production",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Management of the Legal & Regulatory Environment",
+       "content": "会计指标 3 项：RR-BI-530a.1、RR-BI-530a.2、RR-BI-540a.1"
+      },
+      {
+       "title": "Operational Safety, Emergency Preparedness & Response",
+       "content": "会计指标 1 项：RR-BI-540a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-BF Biofuels 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "林业管理（Forestry Management）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-FM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Ecosystem Services & Impacts",
+       "content": "会计指标 7 项：RR-FM-160a.1、RR-FM-160a.2、RR-FM-160a.3、RR-FM-160a.4…"
+      },
+      {
+       "title": "Rights of Indigenous Peoples",
+       "content": "会计指标 3 项：RR-FM-210a.1、RR-FM-210a.2、RR-FM-450a.1"
+      },
+      {
+       "title": "Climate Change Adaptation",
+       "content": "会计指标 1 项：RR-FM-450a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-FM Forestry Management 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "燃料电池与工业电池（Fuel Cells & Industrial Batteries）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-FC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 12 项：RR-FC-130a.1、RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 11 项：RR-FC-320a.1、RR-FC-320a.2、RR-FC-410a.1、RR-FC-410a.2…"
+      },
+      {
+       "title": "Product Efficiency",
+       "content": "会计指标 9 项：RR-FC-410a.1、RR-FC-410a.2、RR-FC-410a.3、RR-FC-410a.4…"
+      },
+      {
+       "title": "Product End-of-life Management",
+       "content": "会计指标 4 项：RR-FC-410b.1、RR-FC-410b.2、RR-FC-410b.3、RR-FC-440a.1"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 1 项：RR-FC-440a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-FC Fuel Cells & Industrial Batteries 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "纸浆与纸制品（Pulp & Paper Products）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-PP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 8 项：RR-PP-110a.1、RR-PP-110a.2、RR-PP-120a.1、RR-PP-130a.1…"
+      },
+      {
+       "title": "Air Quality",
+       "content": "会计指标 6 项：RR-PP-120a.1、RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 5 项：RR-PP-130a.1、RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 4 项：RR-PP-140a.1、RR-PP-140a.2、RR-PP-430a.1、RR-PP-430a.2"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 2 项：RR-PP-430a.1、RR-PP-430a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-PP Pulp & Paper Products 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "太阳能技术与项目开发商（Solar Technology & Project Developers）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-ST · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management in Manufacturing",
+       "content": "会计指标 15 项：RR-ST-130a.1、RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1…"
+      },
+      {
+       "title": "Water Management in Manufacturing",
+       "content": "会计指标 14 项：RR-ST-140a.1、RR-ST-140a.2、RR-ST-150a.1、RR-ST-150a.2…"
+      },
+      {
+       "title": "Hazardous Waste Management",
+       "content": "会计指标 12 项：RR-ST-150a.1、RR-ST-150a.2、RR-ST-160a.1、RR-ST-160a.2…"
+      },
+      {
+       "title": "Ecological Impacts of Project Development",
+       "content": "会计指标 10 项：RR-ST-160a.1、RR-ST-160a.2、RR-ST-410a.1、RR-ST-410a.2…"
+      },
+      {
+       "title": "Management of Energy Infrastructure Integration & Related Regulations",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Product End-of-life Management",
+       "content": "会计指标 6 项：RR-ST-410b.1、RR-ST-410b.2、RR-ST-410b.3、RR-ST-410b.4…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 2 项：RR-ST-440a.1、RR-ST-440a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-ST Solar Technology & Project Developers 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "风能技术与项目开发商（Wind Technology & Project Developers）",
+   "groupTitle": "可再生资源与替代能源",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "RR-WT · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 8 项：RR-WT-320a.1、RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3…"
+      },
+      {
+       "title": "Ecological Impacts of Project Development",
+       "content": "会计指标 7 项：RR-WT-410a.1、RR-WT-410a.2、RR-WT-410a.3、RR-WT-440a.1…"
+      },
+      {
+       "title": "Materials Sourcing",
+       "content": "会计指标 4 项：RR-WT-440a.1、RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3"
+      },
+      {
+       "title": "Materials Efficiency",
+       "content": "会计指标 3 项：RR-WT-440b.1、RR-WT-440b.2、RR-WT-440b.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB RR-WT Wind Technology & Project Developers 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

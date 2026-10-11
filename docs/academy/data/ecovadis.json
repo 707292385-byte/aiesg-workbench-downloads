@@ -1,0 +1,196 @@
+{
+ "id": "ecovadis",
+ "title": "EcoVadis 可持续评级方法学",
+ "titleEn": "EcoVadis Sustainability Rating Methodology",
+ "eyebrow": "供应链可持续评级",
+ "accent": "#0f7c8c",
+ "description": "EcoVadis 公开方法学披露文件全套：可持续评级主方法与奖牌、徽章、碳评级、碳风险、IQ Plus、Vitals 专项规则。",
+ "issuer": "EcoVadis",
+ "version": "官方公开披露文件（2026 在库）",
+ "updated": "2026-10",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "notice": "页面内容为官方英文方法学文件的结构化整理；评级结论请以 EcoVadis 官方现行版本为准。",
+ "officialFiles": [
+  {
+   "name": "EcoVadis Methodology 官方页面",
+   "url": "https://ecovadis.com/"
+  }
+ ],
+ "hub": {
+  "brandChar": "E",
+  "brandText": "EcoVadis 方法学知识体系",
+  "tags": [
+   "评级方法",
+   "奖牌与徽章",
+   "碳评级",
+   "供应链"
+  ],
+  "stats": [
+   {
+    "label": "方法学文件",
+    "value": "7"
+   },
+   {
+    "label": "评级主题",
+    "value": "4"
+   },
+   {
+    "label": "知识主题",
+    "value": "7"
+   },
+   {
+    "label": "语种",
+    "value": "英文原件"
+   }
+  ],
+  "arch": [
+   {
+    "no": "01",
+    "layer": "评级方法主文件",
+    "id": "eco-rating",
+    "file": "Sustainability Rating Methodology",
+    "note": "重要性界定、评级范围、0-100 分制与管理体系指标评分",
+    "gate": "配套规则"
+   },
+   {
+    "no": "02",
+    "layer": "评分与认可",
+    "id": "eco-medals",
+    "file": "Medals · Badges",
+    "note": "奖牌与徽章的授予规则",
+    "gate": "专项扩展"
+   },
+   {
+    "no": "03",
+    "layer": "碳与专项方法学",
+    "id": "eco-carbon-rating",
+    "file": "Carbon Rating · Carbon Risk · IQ Plus · Vitals",
+    "note": "碳评级、碳风险评估与专项产品方法学",
+    "gate": ""
+   }
+  ],
+  "archTitle": "EcoVadis 方法学文件结构",
+  "archDesc": "主方法学定义评级框架，奖牌/徽章与碳方法学在其上定义认可与专项规则"
+ },
+ "groups": [
+  {
+   "id": "评级方法",
+   "title": "评级方法",
+   "badge": "1 项",
+   "items": [
+    {
+     "id": "eco-rating",
+     "title": "EcoVadis 可持续评级方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "23 节"
+     ],
+     "detailFile": "data/ecovadis/eco-rating.json"
+    }
+   ]
+  },
+  {
+   "id": "评分与认可",
+   "title": "评分与认可",
+   "badge": "2 项",
+   "items": [
+    {
+     "id": "eco-medals",
+     "title": "EcoVadis 奖牌方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "23 节"
+     ],
+     "detailFile": "data/ecovadis/eco-medals.json"
+    },
+    {
+     "id": "eco-badges",
+     "title": "EcoVadis 徽章方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "23 节"
+     ],
+     "detailFile": "data/ecovadis/eco-badges.json"
+    }
+   ]
+  },
+  {
+   "id": "碳方法学",
+   "title": "碳方法学",
+   "badge": "2 项",
+   "items": [
+    {
+     "id": "eco-carbon-rating",
+     "title": "EcoVadis 碳评级方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "24 节"
+     ],
+     "detailFile": "data/ecovadis/eco-carbon-rating.json"
+    },
+    {
+     "id": "eco-carbon-risk",
+     "title": "EcoVadis 碳风险方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "23 节"
+     ],
+     "detailFile": "data/ecovadis/eco-carbon-risk.json"
+    }
+   ]
+  },
+  {
+   "id": "专项方法学",
+   "title": "专项方法学",
+   "badge": "2 项",
+   "items": [
+    {
+     "id": "eco-iq-plus",
+     "title": "EcoVadis IQ Plus 方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "23 节"
+     ],
+     "detailFile": "data/ecovadis/eco-iq-plus.json"
+    },
+    {
+     "id": "eco-vitals",
+     "title": "EcoVadis Vitals 方法学",
+     "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rati…",
+     "eyebrow": "方法学披露文件",
+     "tags": [
+      "EcoVadis"
+     ],
+     "meta": [
+      "24 节"
+     ],
+     "detailFile": "data/ecovadis/eco-vitals.json"
+    }
+   ]
+  }
+ ]
+}

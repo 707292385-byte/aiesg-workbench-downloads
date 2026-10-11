@@ -53,3 +53,10 @@ body[data-page=knowledge-detail]>.skip,body[data-page=knowledge-detail]>.site-he
 .kd-status{display:inline-block;margin-left:7px;padding:1px 7px;border-radius:999px;font-size:9.5px;font-weight:700;letter-spacing:.02em;vertical-align:1px}
 .kd-status.is-draft{background:#fdece9;color:#b3261e;box-shadow:inset 0 0 0 1px #f0c4bc}
 .kd-status.is-live{background:#eaf4ee;color:#1f6b45;box-shadow:inset 0 0 0 1px #c6e0d1}
+
+/* 新五套体系色：GRI / SASB / IFRS / EcoVadis / 国证ESG */
+.kd-page[data-system=gri]{--kd:#2f7d4f;--kd-soft:#eef6f0}
+.kd-page[data-system=sasb]{--kd:#1f6f6b;--kd-soft:#edf5f4}
+.kd-page[data-system=ifrs]{--kd:#12508f;--kd-soft:#edf3f9}
+.kd-page[data-system=ecovadis]{--kd:#0f7c8c;--kd-soft:#ecf5f6}
+.kd-page[data-system=guozheng]{--kd:#8a2e2e;--kd-soft:#f8efee}

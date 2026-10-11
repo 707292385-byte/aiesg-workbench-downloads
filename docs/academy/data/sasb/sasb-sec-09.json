@@ -1,0 +1,329 @@
+{
+ "id": "sasb-sec-09",
+ "title": "服务业板块（Services）",
+ "eyebrow": "SICS 板块 · 7 个行业",
+ "summary": "覆盖 服务业板块 7 个行业（SV-AM, SV-CG, SV-ED, SV-HL, SV-LF, SV-ME, SV-PC）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "广告与营销（Advertising & Marketing）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-AM · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Data Privacy",
+       "content": "会计指标 7 项：SV-AD-220a.1、SV-AD-220a.2、SV-AD-220a.3、SV-AD-270a.1…"
+      },
+      {
+       "title": "Advertising Integrity",
+       "content": "会计指标 4 项：SV-AD-270a.1、SV-AD-270a.2、SV-AD-270a.3、SV-AD-330a.1"
+      },
+      {
+       "title": "Workforce Diversity & Inclusion",
+       "content": "会计指标 1 项：SV-AD-330a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-AM Advertising & Marketing 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "赌场与博彩（Casinos & Gaming）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-CG · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 7 项：SV-CA-130a.1、SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1…"
+      },
+      {
+       "title": "Responsible Gaming",
+       "content": "会计指标 6 项：SV-CA-260a.1、SV-CA-260a.2、SV-CA-320a.1、SV-CA-320a.2…"
+      },
+      {
+       "title": "Smoke-free Casinos",
+       "content": "会计指标 4 项：SV-CA-320a.1、SV-CA-320a.2、SV-CA-510a.1、SV-CA-510a.2"
+      },
+      {
+       "title": "Internal Controls on Money Laundering",
+       "content": "会计指标 2 项：SV-CA-510a.1、SV-CA-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-CG Casinos & Gaming 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "教育（Education）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-ED · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Data Security",
+       "content": "会计指标 11 项：SV-ED-230a.1、SV-ED-230a.2、SV-ED-230a.3、SV-ED-260a.1…"
+      },
+      {
+       "title": "Quality of Education & Gainful Employment",
+       "content": "会计指标 8 项：SV-ED-260a.1、SV-ED-260a.2、SV-ED-260a.3、SV-ED-260a.6…"
+      },
+      {
+       "title": "Marketing & Recruiting Practices",
+       "content": "会计指标 4 项：SV-ED-270a.1、SV-ED-270a.2、SV-ED-270a.3、SV-ED-270a.4"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-ED Education 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "酒店与住宿（Hotels & Lodging）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-HL · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 9 项：SV-HL-130a.1、SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 8 项：SV-HL-140a.1、SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1…"
+      },
+      {
+       "title": "Ecological Impacts",
+       "content": "会计指标 7 项：SV-HL-160a.1、SV-HL-160a.2、SV-HL-310a.1、SV-HL-310a.2…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 5 项：SV-HL-310a.1、SV-HL-310a.2、SV-HL-310a.3、SV-HL-310a.4…"
+      },
+      {
+       "title": "Climate Change Adaptation",
+       "content": "会计指标 1 项：SV-HL-450a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-HL Hotels & Lodging 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "休闲设施（Leisure Facilities）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-LF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 4 项：SV-LF-130a.1、SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1"
+      },
+      {
+       "title": "Customer Safety",
+       "content": "会计指标 3 项：SV-LF-250a.1、SV-LF-250a.2、SV-LF-320a.1"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 1 项：SV-LF-320a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-LF Leisure Facilities 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "媒体与娱乐（Media & Entertainment）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-ME · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Media Pluralism",
+       "content": "会计指标 6 项：SV-ME-260a.1、SV-ME-260a.2、SV-ME-270a.1、SV-ME-270a.2…"
+      },
+      {
+       "title": "Journalistic Integrity & Sponsorship Identification",
+       "content": "会计指标 4 项：SV-ME-270a.1、SV-ME-270a.2、SV-ME-270a.3、SV-ME-520a.1"
+      },
+      {
+       "title": "Intellectual Property Protection & Media Piracy",
+       "content": "会计指标 1 项：SV-ME-520a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-ME Media & Entertainment 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "专业与商业服务（Professional & Commercial Services）",
+   "groupTitle": "服务业",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "SV-PC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Data Security",
+       "content": "会计指标 8 项：SV-PS-230a.1、SV-PS-230a.2、SV-PS-230a.3、SV-PS-330a.1…"
+      },
+      {
+       "title": "Workforce Diversity & Engagement",
+       "content": "会计指标 5 项：SV-PS-330a.1、SV-PS-330a.2、SV-PS-330a.3、SV-PS-510a.1…"
+      },
+      {
+       "title": "Professional Integrity",
+       "content": "会计指标 2 项：SV-PS-510a.1、SV-PS-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB SV-PC Professional & Commercial Services 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

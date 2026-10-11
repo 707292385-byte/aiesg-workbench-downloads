@@ -1,0 +1,499 @@
+{
+ "id": "sasb-sec-04",
+ "title": "食品与饮料板块（Food & Beverage）",
+ "eyebrow": "SICS 板块 · 8 个行业",
+ "summary": "覆盖 食品与饮料板块 8 个行业（FB-AP, FB-AB, FB-FR, FB-MP, FB-NB, FB-PF, FB-RS, FB-TB）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "农产品（Agricultural Products）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-AP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 17 项：FB-AG-110a.1、FB-AG-110a.2、FB-AG-110a.3、FB-AG-130a.1…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 14 项：FB-AG-130a.1、FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 13 项：FB-AG-140a.1、FB-AG-140a.2、FB-AG-140a.3、FB-AG-250a.1…"
+      },
+      {
+       "title": "Food Safety",
+       "content": "会计指标 10 项：FB-AG-250a.1、FB-AG-250a.2、FB-AG-250a.3、FB-AG-320a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 7 项：FB-AG-320a.1、FB-AG-430a.1、FB-AG-430a.2、FB-AG-430a.3…"
+      },
+      {
+       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "GMO Management",
+       "content": "会计指标 3 项：FB-AG-430b.1、FB-AG-440a.1、FB-AG-440a.2"
+      },
+      {
+       "title": "Ingredient Sourcing",
+       "content": "会计指标 2 项：FB-AG-440a.1、FB-AG-440a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-AP Agricultural Products 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "酒精饮料（Alcoholic Beverages）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-AB · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 12 项：FB-AB-130a.1、FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 11 项：FB-AB-140a.1、FB-AB-140a.2、FB-AB-270a.1、FB-AB-270a.2…"
+      },
+      {
+       "title": "Responsible Drinking & Marketing",
+       "content": "会计指标 9 项：FB-AB-270a.1、FB-AB-270a.2、FB-AB-270a.3、FB-AB-270a.4…"
+      },
+      {
+       "title": "Packaging Lifecycle Management",
+       "content": "会计指标 5 项：FB-AB-410a.1、FB-AB-410a.2、FB-AB-430a.1、FB-AB-440a.1…"
+      },
+      {
+       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Ingredient Sourcing",
+       "content": "会计指标 2 项：FB-AB-440a.1、FB-AB-440a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-AB Alcoholic Beverages 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "食品零售商与分销商（Food Retailers & Distributors）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-FR · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Fleet Fuel Management",
+       "content": "会计指标 23 项：FB-FR-110a.1、FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3…"
+      },
+      {
+       "title": "Air Emissions from Refrigeration",
+       "content": "会计指标 22 项：FB-FR-110b.1、FB-FR-110b.2、FB-FR-110b.3、FB-FR-130a.1…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 19 项：FB-FR-130a.1、FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2…"
+      },
+      {
+       "title": "Food Waste Management",
+       "content": "会计指标 18 项：FB-FR-150a.1、FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1…"
+      },
+      {
+       "title": "Data Security",
+       "content": "会计指标 17 项：FB-FR-230a.1、FB-FR-230a.2、FB-FR-250a.1、FB-FR-250a.2…"
+      },
+      {
+       "title": "Food Safety",
+       "content": "会计指标 15 项：FB-FR-250a.1、FB-FR-250a.2、FB-FR-260a.1、FB-FR-260a.2…"
+      },
+      {
+       "title": "Product Health & Nutrition",
+       "content": "会计指标 13 项：FB-FR-260a.1、FB-FR-260a.2、FB-FR-270a.1、FB-FR-270a.2…"
+      },
+      {
+       "title": "Product Labelling & Marketing",
+       "content": "会计指标 11 项：FB-FR-270a.1、FB-FR-270a.2、FB-FR-270a.3、FB-FR-310a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 8 项：FB-FR-310a.1、FB-FR-310a.2、FB-FR-310a.3、FB-FR-310a.4…"
+      },
+      {
+       "title": "Management of Environmental & Social Impacts in the Supply Chain",
+       "content": "披露主题（指标见原件）"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-FR Food Retailers & Distributors 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "肉类、家禽与乳制品（Meat, Poultry & Dairy）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-MP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Greenhouse Gas Emissions",
+       "content": "会计指标 24 项：FB-MP-110a.1、FB-MP-110a.2、FB-MP-130a.1、FB-MP-140a.1…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 22 项：FB-MP-130a.1、FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 21 项：FB-MP-140a.1、FB-MP-140a.2、FB-MP-140a.3、FB-MP-160a.1…"
+      },
+      {
+       "title": "Land Use & Ecological Impacts",
+       "content": "会计指标 18 项：FB-MP-160a.1、FB-MP-160a.2、FB-MP-160a.3、FB-MP-250a.1…"
+      },
+      {
+       "title": "Food Safety",
+       "content": "会计指标 15 项：FB-MP-250a.1、FB-MP-250a.2、FB-MP-250a.3、FB-MP-250a.4…"
+      },
+      {
+       "title": "Antibiotic Use in Animal Production",
+       "content": "会计指标 11 项：FB-MP-260a.1、FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 10 项：FB-MP-320a.1、FB-MP-320a.2、FB-MP-410a.1、FB-MP-410a.2…"
+      },
+      {
+       "title": "Animal Care & Welfare",
+       "content": "会计指标 8 项：FB-MP-410a.1、FB-MP-410a.2、FB-MP-410a.3、FB-MP-430a.1…"
+      },
+      {
+       "title": "Environmental & Social Impacts of Animal Supply Chain",
+       "content": "会计指标 5 项：FB-MP-430a.1、FB-MP-430a.2、FB-MP-440a.1、FB-MP-440a.2…"
+      },
+      {
+       "title": "Animal & Feed Sourcing",
+       "content": "会计指标 3 项：FB-MP-440a.1、FB-MP-440a.2、FB-MP-440a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-MP Meat, Poultry & Dairy 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "非酒精饮料（Non-Alcoholic Beverages）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-NB · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Fleet Fuel Management",
+       "content": "会计指标 15 项：FB-NB-110a.1、FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2…"
+      },
+      {
+       "title": "Energy Management",
+       "content": "会计指标 14 项：FB-NB-130a.1、FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 13 项：FB-NB-140a.1、FB-NB-140a.2、FB-NB-260a.1、FB-NB-260a.2…"
+      },
+      {
+       "title": "Health & Nutrition",
+       "content": "会计指标 11 项：FB-NB-260a.1、FB-NB-260a.2、FB-NB-270a.1、FB-NB-270a.2…"
+      },
+      {
+       "title": "Product Labelling & Marketing",
+       "content": "会计指标 9 项：FB-NB-270a.1、FB-NB-270a.2、FB-NB-270a.3、FB-NB-270a.4…"
+      },
+      {
+       "title": "Packaging Lifecycle Management",
+       "content": "会计指标 5 项：FB-NB-410a.1、FB-NB-410a.2、FB-NB-430a.1、FB-NB-440a.1…"
+      },
+      {
+       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Ingredient Sourcing",
+       "content": "会计指标 2 项：FB-NB-440a.1、FB-NB-440a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-NB Non-Alcoholic Beverages 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "加工食品（Processed Foods）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-PF · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 20 项：FB-PF-130a.1、FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 19 项：FB-PF-140a.1、FB-PF-140a.2、FB-PF-140a.3、FB-PF-250a.1…"
+      },
+      {
+       "title": "Food Safety",
+       "content": "会计指标 16 项：FB-PF-250a.1、FB-PF-250a.2、FB-PF-250a.3、FB-PF-250a.4…"
+      },
+      {
+       "title": "Health & Nutrition",
+       "content": "会计指标 12 项：FB-PF-260a.1、FB-PF-260a.2、FB-PF-270a.1、FB-PF-270a.2…"
+      },
+      {
+       "title": "Product Labelling & Marketing",
+       "content": "会计指标 10 项：FB-PF-270a.1、FB-PF-270a.2、FB-PF-270a.3、FB-PF-270a.4…"
+      },
+      {
+       "title": "Packaging Lifecycle Management",
+       "content": "会计指标 6 项：FB-PF-410a.1、FB-PF-410a.2、FB-PF-430a.1、FB-PF-430a.2…"
+      },
+      {
+       "title": "Environmental & Social Impacts of Ingredient Supply Chain",
+       "content": "披露主题（指标见原件）"
+      },
+      {
+       "title": "Ingredient Sourcing",
+       "content": "会计指标 2 项：FB-PF-440a.1、FB-PF-440a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-PF Processed Foods 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-7",
+   "title": "餐厅（Restaurants）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-RS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 16 项：FB-RN-130a.1、FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2…"
+      },
+      {
+       "title": "Water Management",
+       "content": "会计指标 15 项：FB-RN-140a.1、FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1…"
+      },
+      {
+       "title": "Food & Packaging Waste Management",
+       "content": "会计指标 14 项：FB-RN-150a.1、FB-RN-150a.2、FB-RN-250a.1、FB-RN-250a.2…"
+      },
+      {
+       "title": "Food Safety",
+       "content": "会计指标 12 项：FB-RN-250a.1、FB-RN-250a.2、FB-RN-250a.3、FB-RN-260a.1…"
+      },
+      {
+       "title": "Nutritional Content",
+       "content": "会计指标 9 项：FB-RN-260a.1、FB-RN-260a.2、FB-RN-260a.3、FB-RN-310a.1…"
+      },
+      {
+       "title": "Labour Practices",
+       "content": "会计指标 6 项：FB-RN-310a.1、FB-RN-310a.2、FB-RN-310a.3、FB-RN-430a.1…"
+      },
+      {
+       "title": "Supply Chain Management & Food Sourcing",
+       "content": "会计指标 3 项：FB-RN-430a.1、FB-RN-430a.2、FB-RN-430a.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-RS Restaurants 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-8",
+   "title": "烟草（Tobacco）",
+   "groupTitle": "食品与饮料",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "FB-TB · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Public Health",
+       "content": "会计指标 4 项：FB-TB-260a.1、FB-TB-260a.2、FB-TB-270a.1、FB-TB-270a.2"
+      },
+      {
+       "title": "Marketing Practices",
+       "content": "会计指标 2 项：FB-TB-270a.1、FB-TB-270a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB FB-TB Tobacco 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

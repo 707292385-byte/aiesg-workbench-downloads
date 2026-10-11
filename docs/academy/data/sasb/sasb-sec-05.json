@@ -1,0 +1,367 @@
+{
+ "id": "sasb-sec-05",
+ "title": "医疗保健板块（Health Care）",
+ "eyebrow": "SICS 板块 · 6 个行业",
+ "summary": "覆盖 医疗保健板块 6 个行业（HC-BP, HC-DR, HC-HD, HC-HC, HC-MC, HC-MS）；逐行业列出披露主题、会计指标代码与活动指标。本板块行业标准版本：2023-12。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "11 个板块",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "ind-1",
+   "title": "生物技术与制药（Biotechnology & Pharmaceuticals）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-BP · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Safety of Clinical Trial Participants",
+       "content": "会计指标 22 项：HC-BP-210a.1、HC-BP-210a.2、HC-BP-210a.3、HC-BP-240a.1…"
+      },
+      {
+       "title": "Access to Medicines",
+       "content": "会计指标 19 项：HC-BP-240a.1、HC-BP-240a.2、HC-BP-240b.2、HC-BP-240b.3…"
+      },
+      {
+       "title": "Affordability & Pricing",
+       "content": "会计指标 17 项：HC-BP-240b.2、HC-BP-240b.3、HC-BP-250a.1、HC-BP-250a.2…"
+      },
+      {
+       "title": "Drug Safety",
+       "content": "会计指标 15 项：HC-BP-250a.1、HC-BP-250a.2、HC-BP-250a.3、HC-BP-250a.4…"
+      },
+      {
+       "title": "Counterfeit Drugs",
+       "content": "会计指标 10 项：HC-BP-260a.1、HC-BP-260a.2、HC-BP-260a.3、HC-BP-270a.1…"
+      },
+      {
+       "title": "Ethical Marketing",
+       "content": "会计指标 7 项：HC-BP-270a.1、HC-BP-270a.2、HC-BP-330a.1、HC-BP-330a.2…"
+      },
+      {
+       "title": "Employee Recruitment, Development & Retention",
+       "content": "会计指标 5 项：HC-BP-330a.1、HC-BP-330a.2、HC-BP-430a.1、HC-BP-510a.1…"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 3 项：HC-BP-430a.1、HC-BP-510a.1、HC-BP-510a.2"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 2 项：HC-BP-510a.1、HC-BP-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-BP Biotechnology & Pharmaceuticals 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-2",
+   "title": "药品零售商（Drug Retailers）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-DR · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management in Retail",
+       "content": "会计指标 10 项：HC-DR-130a.1、HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3…"
+      },
+      {
+       "title": "Data Security & Privacy",
+       "content": "会计指标 9 项：HC-DR-230a.1、HC-DR-230a.2、HC-DR-230a.3、HC-DR-250a.1…"
+      },
+      {
+       "title": "Drug Supply Chain Integrity",
+       "content": "会计指标 6 项：HC-DR-250a.1、HC-DR-250a.2、HC-DR-260a.2、HC-DR-260b.1…"
+      },
+      {
+       "title": "Management of Controlled Substances",
+       "content": "会计指标 4 项：HC-DR-260a.2、HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3"
+      },
+      {
+       "title": "Patient Health Outcomes",
+       "content": "会计指标 3 项：HC-DR-260b.1、HC-DR-260b.2、HC-DR-260b.3"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-DR Drug Retailers 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-3",
+   "title": "医疗服务提供（Health Care Delivery）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-HD · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Energy Management",
+       "content": "会计指标 19 项：HC-DY-130a.1、HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2…"
+      },
+      {
+       "title": "Waste Management",
+       "content": "会计指标 18 项：HC-DY-150a.1、HC-DY-150a.2、HC-DY-230a.2、HC-DY-230a.3…"
+      },
+      {
+       "title": "Patient Privacy & Electronic Health Records",
+       "content": "会计指标 16 项：HC-DY-230a.2、HC-DY-230a.3、HC-DY-230a.4、HC-DY-240a.1…"
+      },
+      {
+       "title": "Access for Low-Income Patients",
+       "content": "会计指标 13 项：HC-DY-240a.1、HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6…"
+      },
+      {
+       "title": "Quality of Care & Patient Satisfaction",
+       "content": "会计指标 12 项：HC-DY-250a.2、HC-DY-250a.3、HC-DY-250a.6、HC-DY-260a.1…"
+      },
+      {
+       "title": "Management of Controlled Substances",
+       "content": "会计指标 9 项：HC-DY-260a.1、HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3…"
+      },
+      {
+       "title": "Pricing & Billing Transparency",
+       "content": "会计指标 8 项：HC-DY-270a.1、HC-DY-270a.2、HC-DY-270a.3、HC-DY-320a.1…"
+      },
+      {
+       "title": "Workforce Health & Safety",
+       "content": "会计指标 5 项：HC-DY-320a.1、HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1…"
+      },
+      {
+       "title": "Employee Recruitment, Development & Retention",
+       "content": "会计指标 4 项：HC-DY-330a.1、HC-DY-330a.2、HC-DY-450a.1、HC-DY-510a.1"
+      },
+      {
+       "title": "Climate Change Impacts on Human Health & Infrastructure",
+       "content": "会计指标 2 项：HC-DY-450a.1、HC-DY-510a.1"
+      },
+      {
+       "title": "Fraud & Unnecessary Procedures",
+       "content": "会计指标 1 项：HC-DY-510a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-HD Health Care Delivery 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-4",
+   "title": "医疗保健分销商（Health Care Distributors）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-HC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Fleet Fuel Management",
+       "content": "会计指标 11 项：HC-DI-110a.1、HC-DI-110a.2、HC-DI-250a.1、HC-DI-250a.2…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 9 项：HC-DI-250a.1、HC-DI-250a.2、HC-DI-260a.1、HC-DI-260a.2…"
+      },
+      {
+       "title": "Counterfeit Drugs",
+       "content": "会计指标 7 项：HC-DI-260a.1、HC-DI-260a.2、HC-DI-260a.3、HC-DI-410a.1…"
+      },
+      {
+       "title": "Product Lifecycle Management",
+       "content": "会计指标 4 项：HC-DI-410a.1、HC-DI-410a.2、HC-DI-510a.1、HC-DI-510a.2"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 2 项：HC-DI-510a.1、HC-DI-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-HC Health Care Distributors 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-5",
+   "title": "管理式医疗（Managed Care）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-MC · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Customer Privacy & Technology Standards",
+       "content": "会计指标 12 项：HC-MC-230a.1、HC-MC-230a.2、HC-MC-230a.3、HC-MC-240a.1…"
+      },
+      {
+       "title": "Access to Coverage",
+       "content": "会计指标 9 项：HC-MC-240a.1、HC-MC-240a.4、HC-MC-250a.2、HC-MC-250a.3…"
+      },
+      {
+       "title": "Plan Performance",
+       "content": "会计指标 7 项：HC-MC-250a.2、HC-MC-250a.3、HC-MC-250a.4、HC-MC-250a.5…"
+      },
+      {
+       "title": "Improved Outcomes",
+       "content": "会计指标 3 项：HC-MC-260a.1、HC-MC-260a.4、HC-MC-450a.1"
+      },
+      {
+       "title": "Climate Change Impacts on Human Health",
+       "content": "会计指标 1 项：HC-MC-450a.1"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-MC Managed Care 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "ind-6",
+   "title": "医疗设备与用品（Medical Equipment & Supplies）",
+   "groupTitle": "医疗保健",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本与生效",
+     "content_cn": "HC-MS · 原件版本页标注 Version 2023-12",
+     "content": "",
+     "source": "SASB 行业标准原件",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Affordability & Pricing",
+       "content": "会计指标 15 项：HC-MS-240a.2、HC-MS-240a.3、HC-MS-250a.1、HC-MS-250a.2…"
+      },
+      {
+       "title": "Product Safety",
+       "content": "会计指标 13 项：HC-MS-250a.1、HC-MS-250a.2、HC-MS-250a.3、HC-MS-250a.4…"
+      },
+      {
+       "title": "Ethical Marketing",
+       "content": "会计指标 9 项：HC-MS-270a.1、HC-MS-270a.2、HC-MS-410a.1、HC-MS-410a.2…"
+      },
+      {
+       "title": "Product Design & Lifecycle Management",
+       "content": "会计指标 7 项：HC-MS-410a.1、HC-MS-410a.2、HC-MS-430a.1、HC-MS-430a.2…"
+      },
+      {
+       "title": "Supply Chain Management",
+       "content": "会计指标 5 项：HC-MS-430a.1、HC-MS-430a.2、HC-MS-430a.3、HC-MS-510a.1…"
+      },
+      {
+       "title": "Business Ethics",
+       "content": "会计指标 2 项：HC-MS-510a.1、HC-MS-510a.2"
+      }
+     ],
+     "content_cn": "",
+     "content": "",
+     "source": "SASB HC-MS Medical Equipment & Supplies 行业标准原件（Version 2023-12）",
+     "provenance": "official",
+     "language": "en",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

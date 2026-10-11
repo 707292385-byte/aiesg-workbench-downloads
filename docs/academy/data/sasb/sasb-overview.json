@@ -1,0 +1,80 @@
+{
+ "id": "sasb-overview",
+ "title": "SASB 标准体系总览",
+ "eyebrow": "行业标准体系 · 77 行业",
+ "summary": "SASB 标准是一套基于行业的可持续会计标准，按 SICS 分类覆盖 11 个部门 77 个行业，由行业标准描述、披露主题、指标、技术协议和活动指标构成。",
+ "tags": [
+  "SASB",
+  "行业标准"
+ ],
+ "group": "体系与使用",
+ "status": "",
+ "officialUrl": "https://sasb.ifrs.org/standards/download/",
+ "sourceNote": "IFRS 基金会 ISSB《SASB Standards》（SICS 行业标准）；本页为官方文件的结构化整理，请以 ISSB 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "SASB 标准体系概述",
+   "groupTitle": "体系定位",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "SASB 标准体系概述",
+     "content_cn": "SASB标准是一套基于行业的可持续发展会计标准，旨在识别和标准化对投资者决策最相关的可持续发展问题的披露。每个行业标准包含：\n\n• **披露主题（Disclosure Topics）**：每个行业平均5-6个主题，描述与该行业相关的特定可持续发展风险和机会\n• **会计指标（Accounting Metrics）**：每个主题下包含定量和定性指标，共约1,050个指标\n• **技术协议（Technical Protocols）**：定义指标的计算方法、口径和披露要求\n\n**核心原则：**\n• 财务重要性（Financial Materiality）：聚焦对企业财务表现有实质影响的可持续发展问题\n• 行业特定性（Industry-Specific）：基于SICS®（可持续行业分类系统）划分77个行业\n• 决策有用性（Decision-Useful）：为投资者提供可比、可验证的信息\n• 成本效益（Cost-Effective）：在信息价值与披露成本之间取得平衡\n\n---",
+     "content": "",
+     "source": "SASB标准总索引卡（依据 ISSB 官方文件整理）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "版本更新历史",
+   "groupTitle": "体系定位",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "版本更新历史",
+     "content_cn": "| 版本 | 发布时间 | 主要变更 |\n|------|----------|----------|\n| 2023-12 | 2023年12月 | 非气候相关内容修订（国际适用性项目）；生效日期2025年1月1日 |\n| 2023-06 | 2023年6月 | 气候相关内容修订，与IFRS S2行业指南对齐 |\n| 2018 | 2018年11月 | 首套完整77个行业标准发布 |\n| 2016-2017 | 分批发布 | 各部门行业标准分批发布（临时标准） |\n\n---",
+     "content": "",
+     "source": "SASB标准总索引卡",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "官方资源",
+   "groupTitle": "体系定位",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "官方资源",
+     "content_cn": "• **标准下载页**：https://sasb.ifrs.org/standards/download/\n• **重要性查找器**：https://sasb.ifrs.org/standards/materiality-finder/\n• **标准制定档案**：https://sasb.ifrs.org/archive/standard-setting/\n• **实施指南**：https://sasb.ifrs.org/implementation-primer/\n• **XBRL分类标准**：https://sasb.ifrs.org/download-xbrl-taxonomy/\n• **许可信息**：https://sasb.ifrs.org/licensing/\n\n---\n\n*本索引卡创建日期：2026年9月3日；标准版本：2023-12*",
+     "content": "",
+     "source": "SASB标准总索引卡",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

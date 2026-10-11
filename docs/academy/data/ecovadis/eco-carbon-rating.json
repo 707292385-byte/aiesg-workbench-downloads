@@ -1,0 +1,479 @@
+{
+ "id": "eco-carbon-rating",
+ "title": "EcoVadis 碳评级方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rating Scale Type；…",
+ "tags": [
+  "EcoVadis",
+  "碳方法学"
+ ],
+ "group": "碳方法学",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "引言（披露目的）",
+     "content_cn": "EcoVadis Carbon Rating \nMethodology disclosure document for \nthe public, rating users and rated items\n\n \nDocument classification: \n       \nEcoVadis Public\n1/24              \n\n \n \nTable of contents \n \n1. Rating Product Disclosure\n3 \n1.1. Objective and approach to materiality\n3 \n1.2. Scope\n3 \n1.3. Rating Scale Type\n4 \n1.4. Coverage of international agreements\n4 \n2. General Methodological Disclosures\n4 \n2.1. Methodology overview\n4 \n2.2. Methodology assumptions and models\n7 \n2.3. Management system indicators and scoring\n8 \n2.4. Industry classification\n11 \n2.5. Data sources\n11 \n2.6. Data processes\n11 \n2.7. Data quality\n13 \n2.8. Assessment process quality\n14 \n2.9. Monitoring availability of new information in between assessments\n15 \n2.10. Engagement with rated companies\n15 \n2.11. Scientific basis\n16 \n2.12. Usage of AI-based tools\n17 \n3. Limitations in data sources, methodologies and information\n18 \n3.1. Methodology limitations\n18 \n3.2. Data source limitations\n18 \n3.3 Means of addressing limitations in data sources\n19 \n4. Methodology revision\n19 \n5. Organisational Disclosures\n23 \n6. Legal notices\n24 \n \n\n \nDocument classification: \n       \nEcoVadis Public\n2/24              \n\n \nThis disclosure document is intended to ensure compliance with Annex III to the EU \nRegulation 2024/3005 on the transparency and integrity of Environmental, Social and \nGovernance (ESG) rating activities, and the Delegated Regulation supplementing Regulation \n(EU) 2024/3005.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1. Objective and approach to materiality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.1. Objective and approach to materiality",
+     "content_cn": "1.1.\nObjective and approach to materiality  \n \nThe objective of the Carbon Rating is to assess the level of adequacy and comprehensiveness \nof a rated company's greenhouse gas (“GHG”) emissions management system to address \nimpacts on stakeholders. The rating is EcoVadis’ own opinion and can differ from the \nassessments provided by other ESG rating providers. \n \nThe Carbon Rating is designed as a tool for rating users to integrate factors related to GHG \nemissions into their procurement or investment decisions. Carbon Ratings are not solicited by \nrated companies (suppliers). They are requested by buyers to assess their suppliers. The rated \ncompany (supplier) is engaged in this process, and consents to undergo an assessment. \nCompanies can always refuse to undergo an assessment.  \n  \nThe Carbon Rating assessment is based on an impact materiality approach (the \"inside-out\" \nperspective identifying external impacts that a company's operations, products, and services \nhave on the environment and society). The Carbon Rating does not incorporate financial \nmateriality (the \"outside-in\" perspective) and therefore does not measure the financial risks \nposed to the company by external ESG factors. \n \nThe specific impacts covered are centered around GHG emissions within value chains (see \nsection “1.2 Scope” for additional details).",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2. Scope",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.2. Scope",
+     "content_cn": "1.2.\nScope  \n \nThe Carbon Rating covers solely issues related to GHG emissions, a sub-topic within the \nEnvironment aspect of ESG. Social and Governance issues are absent from its results. In \nconsequence, the results of the Carbon Rating fall solely within the “E” category which bears \nfull weight in the final score.  \n \nThe way the Carbon Rating addresses the aforementioned issue does not fully correspond to \nthe topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability \nReporting Directive 2022/2464 (“CSRD”) and detailed in the European Sustainability Reporting \nStandards (“ESRS”). However, it overlaps to a degree and allows for comparison. \n\n \nDocument classification: \n       \nEcoVadis Public\n3/24",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3. Rating Scale Type",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.3. Rating Scale Type",
+     "content_cn": "1.3.\nRating Scale Type \n\nCarbon Rating results are expressed in absolute values. The score ranges from 0 to 100 points \n(see Section 2.3). Carbon Rating scorecards also include information on the percentiles within \nwhich rated companies fall, allowing for relative comparison of performance to other \ncompanies rated by EcoVadis.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4. Coverage of international agreements",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.4. Coverage of international agreements",
+     "content_cn": "1.4.\nCoverage of international agreements \n \nThe Carbon Rating methodology considers the objectives of the following international \nagreements: \n● The Paris Agreement: The methodology considers the agreement”s objective to keep \nthis century’s global temperature rise well below critical thresholds and credits \nscience-aligned reduction targets compatible with the 1.5°C trajectory. \n● The Kyoto Protocol: The methodology considers the Protocol’s objective to reduce global \ngreenhouse gas emissions to combat global warming and mitigate climate change and \nits definition of the scientific perimeter for GHG emissions inventories, mandating the \naccounting of the full list of greenhouse gases (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3) to \nensure comprehensive and standardized reporting. \nThe Carbon Rating does not collect the percentage of companies' activities that are aligned or \nnot with the EU taxonomy.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1. Methodology overview",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.1. Methodology overview",
+     "content_cn": "2.1.\nMethodology overview \n \nThe Carbon Rating methodology is consistently applied to all eligible entities and includes \nadjustments made based on company profile, including industry, size and risk profile. The most \nrecent version of the Carbon Rating Methodology is v2.0, applicable as of January 2026.  \nA full changelog can be accessed here: EcoVadis methodology updates (Login required) \n \n \na) Methodology governance principles \n \nTo deliver Carbon Ratings with the highest levels of quality and integrity, EcoVadis has \ndesigned a methodology governance framework ensuring our methodologies adhere to the \n\n \nDocument classification: \n       \nEcoVadis Public\n4/24              \n\n \nfollowing core principles: \n \ni)\nRigorous \n \nOur methodologies are developed through a rigorous process including research, impact \nassessment and public consultation of proposed changes to ensure the framework is capable \nof capturing complex sustainability risks and accurately reflect the rated entity’s sustainability \nperformance. \n \nii)\nSystematic \n \nWe employ a structured, repeatable methodological framework that ensures every entity is \nevaluated against a consistent set of principles and requirements tailored to their specific \ncontext. This systematic approach eliminates ad-hoc subjectivity and ensures that the \nmethodology provides a stable basis for comparison of rated entities. \n \niii)\nIndependent \n \nThe development and approval of our methodologies are governed by an internal function that \nis structurally and functionally separate from commercial and sales activities. This ensures the \ndesign of the rating framework is driven solely by analytical integrity and is insulated from \nexternal business pressures. \n \niv)\nCapable of justification \n \nThe methodology is built upon a clear, evidence-based rationale that dictates the specific \nweighting and relevance of each sustainability issue. Every component of the framework is \ndocumented for traceability, ensuring the underlying theory assumptions are defensible under \ntechnical scrutiny. \n \nv)\nComparable over time \n \nOur methodology is designed to provide a stable benchmark by maintaining consistent \nevaluation criteria over time. By ensuring the framework remains steady, we enable rating \nusers to accurately compare year-on-year performance. \n \nvi)\nTransparent \n \nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide \ncomprehensive public disclosures regarding the methodology scope, ranking system, key \nassumptions and models, data sources and processes, and its inherent limitations. \n\n \nDocument classification: \n       \nEcoVadis Public\n5/24              \n\n \n \nb) Eligibility for assessment \n \nThe methodology allows for assessment of corporate entities. To be eligible for a Carbon \nRating, an entity must meet three criteria:  \n-\nIt must have a legal entity name or operate under the direct parent legal entity name. \nThe legal entity name is the name under which a company is legally registered and \noperates in the country of operation. \n-\nIt must have 25 or more employees. \n-\nThere must be a relevant level of scope of assessment in terms of carbon impacts. This \nmay for instance not be the case if the scope includes widely different business \nactivities, making it inadequate for a single rating to assess impacts the company is \nconfronted to and the management system it has implemented in response. \n \nThe methodology allows for 3 different scopes of assessment:  \n-\nGroup: Group-level assessments cover a legal entity and its subsidiaries. \n-\nEntity: Entity-level assessmen",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2. Methodology assumptions and models",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.2. Methodology assumptions and models",
+     "content_cn": "2.2.\nMethodology assumptions and models \n \nThe Carbon Rating operates under the following assumptions:  \n \na) Companies with formalized management systems are in a better position to prevent \nand address adverse impacts \n\nThe Carbon Rating assumes that companies that implement formalized management systems \nare significantly better equipped to prevent and address adverse impacts on the planet and \nsociety. As a result, the scoring methodology rewards the formalization of commitments, \nactions and reporting on results on all GHG management issues. \n \nb) Absence of document evidence means absence of management approach \n \nIn case a rated company is not able to provide formalized management system evidence, such \nas policies, procedures and reports, the Carbon Rating considers this as an indication that the \nmanagement system is not effectively implemented, and that the company may not be well \nprepared to address material sustainability issues. The lack of formalized evidence translates \ninto lower scores. \n \nc) The larger the rated company, the greater the risks and impacts and the larger the \nresources it possess, the higher the expectations regarding its management system \n \nThe methodology assumes that larger entities face more risks, generate more significant \nimpacts and are better positioned to address sustainability issues. In consequence, they are \nsystematically expected to demonstrate greater maturity and a more comprehensive \napproach. Conversely smaller entities face lower requirements, adjusted to their context.  \n \nThe Carbon Rating does not employ any additional supporting models, estimations or \nprojections.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3. Management system indicators and scoring",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.3. Management system indicators and scoring",
+     "content_cn": "2.3.\nManagement system indicators and scoring \n \na) Raw scores based on management system indicators\n \nThe Carbon Rating methodology considers an effective sustainability management system to \nbe one that develops commitments, implements actions and reports on results.  \nThese three management layers are further categorized into the following twelve \nmanagement indicators: \n \ni)\nTargets \n\n \nDocument classification: \n       \nEcoVadis Public\n7/24              \n\n \nThis indicator assesses the company's formal objectives to reduce greenhouse gas emissions. \nSetting time-bound, quantified targets allows companies to create a clear trajectory for \ndecarbonization and align their operations with climate science. \n \nii)\nGovernance \nThis indicator evaluates the internal organizational structure dedicated to climate strategy. \nEstablishing clear roles and responsibilities ensures that GHG management is integrated into \ncore business decision-making processes and organizational culture. \n \niii)\nAction Plans \nThis indicator refers to the strategic roadmap designed to achieve defined reduction targets. A \nformalized \ntime-bound \nplan \nenables \ncompanies \nto \ntransition \nfrom \nambition \nto \nimplementation. \n \niv)\nActions Scope 1+2 \nThis indicator covers the operational measures implemented to reduce direct emissions and \nthose from purchased energy. Effective implementation of energy efficiency and renewable \nenergy projects allows companies to deliver tangible reductions within their perimeter of \noperations. \n \nv)\nActions Scope 3 \nThis indicator assesses the engagement strategies deployed to mitigate emissions across the \nvalue chain. Addressing upstream and downstream activities is critical for holistic \ndecarbonization, as significant carbon impacts often lie outside direct operations. \n \nvi)\nPerformance Review \nThis indicator refers to the systematic evaluation of the GHG management system's \neffectiveness. Regular reviews allow management to identify gaps, adjust strategies, and \nensure continuous improvement toward climate goals. \n \nvii)\nMonitoring System \nThis indicator evaluates the mechanisms and tools used to collect and aggregate carbon data. \nRobust data management systems are necessary to ensure the accuracy, consistency, and \nreliability of the emissions inventory used for decision-making. \n \nviii)\nMonitoring Coverage \nThis indicator measures the extent of GHG tracking deployed across the company's operational \nboundaries. Examining the scope of implementation is essential to reflect the real-life impact \nof the company and ensure no significant emission sources are excluded, serving comparability \npurposes. \n \n\n \nDocument classification: \n       \nEcoVadis Public\n8/24              \n\n \nix)\nSupply Chain Monitoring \nThis indicator refers to the processes used to gather primary carbon data directly from the \nvalue chain. Moving beyond estimates to actual data collection allows for more accurate Scope \n3 accounting and enables more efficient collaboration on reduction efforts. \n \nx)\nReporting Practices \nThis indicator assesses the quality framework of a company's climate disclosure, including \nadherence to standards and external assurance. Third-party verification is crucial to provide \nstakeholders with confidence in the credibility of the published data. \n \nxi)\nGHG Reporting \nEnables the disclosure of GHG emissions data. This management indicator isn’t scored. \n \nxii)\n[Small & Medium - Office activities & Wholesale only] Monitoring and Reporting \nPractices \nThis indicator assesses key features of the quality framework of a company's clim",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4. Industry classification",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.4. Industry classification",
+     "content_cn": "2.4.\nIndustry classification  \n \nThe Carbon Rating uses the United Nations International Standard Industrial Classification of \nAll Economic Activities (ISIC), Revision 5, as a basis to classify the economic activities of rated \ncompanies.  \n \nThe official full document is available on the United Nations Statistic Division website.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5. Data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.5. Data sources",
+     "content_cn": "2.5.\nData sources \n \nFor the purpose of the Carbon Rating, rated companies are asked to provide management \nsystem documentation (e.g. policies, procedures, reports, certificates etc.) confirming they have \nimplemented a robust management system to address all material sustainability issues. These \ndocuments can be public or non-public documents, and can be subject or not subject to \nassurance engagement. Whether the data provided has been independently verified is taken \ninto account in the assessment process and influences the final score. \n \nRated companies may provide statements required under Directive 2013/34/EU (“Accounting \nDirective”) or information disclosed under Regulation (EU) 2019/2088 (“Sustainable Finance \nDisclosure Regulation”) or Regulation (EU) 2020/852 (“Taxonomy Regulation”), if available.  \n \nThe Carbon Rating takes into account whether a rated company has a transition plan and a low \ncarbon business plan, however, it does not assess the likelihood of achieving the goals set in \nthese plans.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6. Data processes",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.6. Data processes",
+     "content_cn": "2.6.\nData processes \n \nThe Carbon Rating uses a streamlined data process occurring in a secure and organised digital \nplatform provided by EcoVadis. The process includes: \n \na) Data collection:  \n \nData is first collected from the rated companies themselves. The Carbon Rating does not use \nany estimations nor industry averages to produce inputs in case of absence of data. The lack of \ndata on a given topic is factored in the assessment and influences the final score. A rated \ncompany uploads the relevant documents it wants to provide to support its declarations in the \nEcoVadis questionnaire to the EcoVadis platform. Only questionnaire declarations supported by \ndocument evidence can be credited for the assessment. \n \nb) Data processing  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n11/24              \n\n \nAnalysts proceed with the analysis of all gathered data, which includes qualifying each \ndocument submitted by the company to ensure it is eligible for analysis, as well as verifying its \ncontent to confirm whether it provides reasonable evidence regarding declarations made by \nthe rated company in its questionnaire. \n \nc) Data output \n \nA Carbon Rating scorecard is produced based on the results of the data processing stage by \nautomatically assigning scores to each indicator based on the approved evidence, which \nresults in the computation of the overall score. Qualitative results in the form of strengths and \nimprovement areas regarding the company’s management of GHG issues are also added to \nthe scorecard. The results of the scoring are reviewed by analysts (see section 2.8 Assessment \nprocess quality).  \n \nd) Data storage & historical data updates and revision \n \nData used for each assessment is preserved in the system for traceability purposes. Data used \nfor the purpose of the Carbon Rating is only updated in the context of reassessments \nperformed to update a scorecard, which has a validity period of 1 year.  \nA reassessment occurs only if a rated company decides to renew its rating. In principle, it is at \nthe end of the scorecard validity period to ensure constant availability of a valid scorecard. A \nreassessment creates a new scorecard with a new publication date, allowing to track when \nupdated data was collected: rated companies have an opportunity to update, replace or submit \nadditional new documentation during the reassessment process. During reassessments, \nanalysts also verify the validity period of collected data to ensure the rating considers \ninformation that is up-to-date, and to encourage revision and updates to the management \nsystem documentation. The following validity periods are applied:  \n-\nPolicies, actions and other management system documentation: 8 year validity period \n-\nReporting data: 2 annual reporting cycles \n-\nSpecific documentation with a third-party mandated validity period (e.g. certificates): \nspecific validity period applies  \n \nInformation older than the relevant validity period is no longer considered relevant for the \nCarbon Rating and does not influence the final score.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7. Data quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.7. Data quality",
+     "content_cn": "2.7.\nData quality \n \nThe Carbon Rating relies primarily on data provided by rated companies themselves or \ninformation shared by reputable, trustworthy sources, thus, ensuring high levels of data quality. \nNevertheless, EcoVadis implements additional data quality controls. They are applied \nsystematically in every assessment and reassessment by EcoVadis analysts at the respective \n\n \nDocument classification: \n       \nEcoVadis Public\n12/24              \n\n \nstages of data analysis and include: \n \na) Document eligibility criteria \n \nAll documents provided by rated companies must adhere to specific formal criteria to be \neligible for assessment. Documents have to meet the following criteria: \n-\nformalized (formal, pre-existing, and fully integrated into the company's management \nsystem)  \n-\ncomplete (fully disclosed to make their contents available for the analysis) \n-\ncredible (clearly identifiable as belonging to the company)  \n-\ndated (contain an issue or review date)  \n-\nin an accepted format & size (i.e. have .pdf, .docx, .xlsx, .jpg or .png, format and be smaller \nthan 30 MB) \n-\nmachine-readable (contain digital text, as opposed to a scanned image or photo).  \nDocuments that do not meet these criteria are not taken into account as valid evidence for \nrating purposes. \n \nb) Proactive detection of dubious documentation \n\nEcoVadis has a dedicated process that establishes a critical data quality control framework for \ndocuments submitted by rated companies. Its primary purpose is to ensure the authenticity \nand reliability of documents submitted by companies during the assessment. It provides \nanalysts with systematic procedures to detect, classify, and handle documents prepared \nspecifically for the purpose of the Carbon Rating and that are not a genuine representation of \nan existing management system. The guideline details specific symptoms analysts must look \nfor to identify potentially unreliable data. Dedicated tools, e.g. a plagiarism tool, are provided to \nfurther assist with this task. Documents that do not meet this data quality control framework \nare not considered for the assessment.\n \nc) Emphasis on provision of third-party verified information  \n\nData used by the Carbon Rating is not systematically subject to third party assurance. However, \nEcoVadis proactively encourages rated companies to share verified, quality documentation. \nSources of data such as third-party verified reports, third-party issued certificates confirming \ncompliance with recognized standards or third-party audit reports are indispensable to achieve \nhigher performance bands (see section 2.1 “Methodology overview\" for additional information). \n \nd) Reporting coverage requirements \n \nThe Carbon Rating sets a particularly high threshold for greenhouse gas emissions and energy \nconsumption data used for the purpose of assessment. It has to be provided for 95% of the \n\n \nDocument classification: \n       \nEcoVadis Public\n13/24              \n\n \nassessed scope to be credited.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8. Assessment process quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.8. Assessment process quality",
+     "content_cn": "2.8.\nAssessment process quality \n \nEcoVadis employs a robust, multi-layered approach to ensure the quality and integrity of its \nassessment process. These controls are integrated throughout the evaluation process, from \nanalyst training to final scorecard publication. EcoVadis has a Quality Management System that \nis certified to the ISO 9001:2015 standard. This system includes a formal Quality Policy and a \nQuality Manual that documents all processes and their interactions. The key features of this \nsystem are: \n \na) Human expertise  \n \nQuality begins with highly qualified analysts, most of whom hold master's degrees in relevant \nfields. All new analysts undergo a comprehensive training program, which covers \nmethodology, document analysis, and the rating process, followed by a two-month transition \nperiod with systematic feedback and monitoring. Ongoing upskilling and focused training are \nalso provided for experienced analysts. \n \nb) Multi-layer quality checks \n \nEvery rating undergoes a formal three-step process consisting of document analysis, scoring \nand validation. All analysts use dedicated checklists at each stage to ensure methodology rules \nare followed. In particular, the validation stage serves as a final quality check aimed at verifying \nthe entire assessment for consistency and quality. \n \nc) Effective communication & remediation process of quality issues \n \nWhen quality issues are identified, EcoVadis has processes for remediation, corrective action, \nand continuous improvement. When the review or feedback identifies issues, management \nimplements appropriate corrective actions. Dedicated forms are used to define internal \ncorrective actions and specific training for analysts when quality issues are found. These forms \nare used at each stage of the rating process to systematically identify quality issues and \ncommunicate them to analysts. The goal is to ensure constant improvement.  \n \nd) Individual quality targets \n \nEcoVadis analysts have individual quality targets that form an integral part of their semestral \nand yearly performance reviews. \n \ne) Scorecard audits and reproducibility exercises \n\n \nDocument classification: \n       \nEcoVadis Public\n14/24              \n\n \n \nScorecard audits are performed to check for proper application of guidelines. And yearly \nassessment reproducibility exercises are conducted to assess the robustness of the rating \nprocess and measure the consistency of scorecard outcomes among different analysts. \nEcoVadis performs its quality control activities on a regular and scheduled basis. 1% of all \npublished scorecards are audited on a monthly basis. Non-compliances found during these \naudits, as well as assessment reproducibility exercises are classified by severity and used to \ndevise an action plan to address identified improvement areas. \n \nf) Effective complaint management mechanism \n \nAfter scorecard publication, rated companies can ask questions, raise concerns or share \nadditional information as per separate procedures through a dedicated complaint \nmanagement channel. \n \nThe process is systematically applied in every assessment. The same types of controls are \napplied whenever a company is rated for the first time or when it provides additional data and \ninformation during subsequent reassessments.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9. Monitoring availability of new information in between assessments",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.9. Monitoring availability of new information in between assessments",
+     "content_cn": "2.9.\nMonitoring availability of new information in between assessments  \n \nNew information is considered only during reassessments. Information is updated by rated \ncompanies and systematically re-checked during the reassessment process, which occurs at \nthe end of the validity period of the previous scorecard to ensure continuity.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10. Engagement with rated companies",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.10. Engagement with rated companies",
+     "content_cn": "2.10.\nEngagement with rated companies  \n \nEngagement with rated companies in the context of the Carbon Rating can occur before the \nassessment process begins, as well as after the scorecard publication. At all times, companies \nmay reach out to EcoVadis via a dedicated support channel.  \n \na) Engagement with rated companies before the assessment \n \nA dedicated team within EcoVadis engages with rated companies before the assessment to \nensure that they understand the context of the Carbon Rating, register on EcoVadis platform, \nreceive their questionnaire and are able to submit their answers to it. \n \nb) Engagement with rated companies after scorecard publication \n \n\n \nDocument classification: \n       \nEcoVadis Public\n15/24              \n\n \nFollowing the scorecard publication, rated companies are notified that their assessment is \ncomplete and are given the opportunity to preview their results for a period of  2 business days \nbefore the scorecard becomes available to rating users, with the possibility for them to raise a \nfactual error case. A factual error is a mistake made on the underlying information used for the \nassessment, such as Company name, location or size, industry classification, not applicable 360, \nwrongly rejected document. \n \nFollowing these 2 business days, rated companies retain the possibility to contact EcoVadis via \na dedicated channel to better understand their scorecard or to log a complaint regarding their \nrating. Their queries are handled by a specialized team which responds to questions and \ninitiates a scorecard correction process in case a mistake in fact or methodology application is \nidentified. \n \nEngagement with rated companies throughout the rating process is offsite, as the assessment \nprocess is designed to collect data and input from the rated company without any on-site \nreviews or visits.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11. Scientific basis",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.11. Scientific basis",
+     "content_cn": "2.11.\nScientific basis  \n \nIn order to evaluate how a company manages its sustainability issues, the Carbon Rating \nassesses the quality and effectiveness of the company’s management system through its \ncommitments, actions and reporting on results. This structure is derived from the PDCA \n(Plan–Do–Check–Act) \nscientific \nmethod, \nwhich \noriginates \nfrom \nthe \nscientific \nhypothesis–experiment–evaluation cycle articulated by Francis Bacon and is the foundation of \nmodern management and continuous improvement systems.    \n \nThe methodology integrates climate science as a fundamental assessment component and \nvalues the formalization of science-embedded targets validated by recognized frameworks, \nmost notably the Science Based Targets initiative (SBTi). Furthermore, possession of a validated \nscience-based target is a mandatory prerequisite for achieving the 'Leader' Performance Level, \nensuring that top-tier ratings reflect verifiable scientific ambition.  \nThe GHG Protocol Corporate Standard, which is recognized as the global benchmark for GHG \naccounting and is deeply rooted in climate science, validated through rigorous academic and \ntechnical peer reviews, also plays an especially important role in the Carbon Rating \nmethodology. To guarantee the comparability of computations, the standard integrates the \ncomplete list of Kyoto Protocol Greenhouse Gases and applies the Global Warming Potential \n(GWP) factors defined by the IPCC. \nThe Carbon Rating methodology operationalizes this scientific rigor by strictly mirroring the \nGHG Protocol Corporate Standard’s five core accounting principles: \n\n \nDocument classification: \n       \nEcoVadis Public\n16/24              \n\n \n● Relevance: The methodology accounts for companies’ materiality by enabling the \ndisclosure of emission categories specifically relevant to each company profile. \n● Completeness: The methodology ensures comprehensive tracking by only crediting \nGHG emission monitoring that covers at least 95% of operational boundaries. \n● Consistency: The methodology adopts the standard's definition for tracking Scopes 1, 2, \nand all 15 Scope 3 categories securing data comparability. \n● Transparency: The methodology requires the disclosure of relevant assumptions, \ncomputation methods and data sources. \n● Accuracy: The methodology evaluates the reliability level of data points by auditing \nemissions computations against established best practices. \nWhile the Carbon Rating methodology is aligned with the GHG Protocol, the Carbon Rating \nalso recognizes GHG reporting shared by rated companies based on other GHG accounting \nstandards, such as ISO 14064 or other regional standards.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "2.12. Usage of AI-based tools",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.12. Usage of AI-based tools",
+     "content_cn": "2.12.\nUsage of AI-based tools \n \nEcoVadis leverages machine learning technologies to help deliver the Carbon Rating. EcoVadis \ndesigns, implements, and deploys AI solutions in a responsible manner and within the \nframework of its internal AI Usage Policy, which encompasses accountability, transparency, \nhuman dignity, human control, security, fairness, diversity and inclusion, environmental and \nsocial wellbeing, as well as clear rules on processing of protected and personal data, and \nprotection of intellectual property. AI-based processing is conducted in compliance with data \nprotection and AI-specific laws, ensuring fairness, transparency, and security.  \n \na) AI use in data processing \nAI is leveraged to retrieve information from company-provided documents. Analysts use \nspecialized machine learning tools to scan management system documentation to identify \nrelevant insights and evidence for declarations made by a rated company in the questionnaire. \nThis allows analysts to access information quickly and reliably for their detailed review, ensuring \na comprehensive and accurate evaluation of a company’s sustainability practices. \n \nb) Limitations of AI-based tools \n \nIn order to avoid potential mistakes and inaccuracies from AI-based tools used by EcoVadis for \nthe Carbon Rating, a human expert verifies AI-based recommendations. The human review \nensures reliability of the final ratings results. Human experts apply their knowledge of the \nrating methodology, provide critical context, and make informed decisions that AI alone \ncannot. \n\n \nDocument classification: \n       \nEcoVadis Public\n17/24",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "3. Limitations in data sources, methodologies and information",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3. Limitations in data sources, methodologies and information",
+     "content_cn": "3.\nLimitations in data sources, methodologies and information",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.1. Methodology limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.1. Methodology limitations",
+     "content_cn": "3.1.\nMethodology limitations \n \nThe Carbon Rating does not incorporate financial materiality. In consequence, it cannot be \nused to assess the influence of ESG factors on a rated company's financial performance.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.2. Data source limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.2. Data source limitations",
+     "content_cn": "3.2.\nData source limitations \n \nData sources leveraged for the Carbon Rating include the following limitations: \n \na) Availability and consistency of data used \n \nRated companies are primarily scored based on evidence in the form of management system \ndocumentation. In case a rated company has not formalized its management system \ndocumentation, EcoVadis cannot access such data. Although such lack of written evidence \nmay only indicate a gap in documenting practices, not lack of action on the part of a rated \ncompany, the Carbon Rating requires such documents to exist and be made available. \n \nMoreover, availability of documentation may be an issue in case of assessments of local \nsubsidiaries or sites that form part of a larger group of companies. Documentation may be \navailable mainly at parent company level due to e.g. strong integration of a Carbon \nmanagement system at the group level. In such cases, rated companies have to demonstrate \nits applicability to the specific legal entity or site that is being assessed.  \n \nAdditionally, the Carbon Rating may be affected by self-reporting gaps. In order for \nquestionnaire declarations to be credited, documentary evidence has to be correctly linked to \nthe questionnaire declaration. In consequence, even if rated entities formalized their \nmanagement system documentation and are capable of providing evidence, if it is not \ncorrectly linked to the questionnaire declaration, information contained within it will not be \naccounted for during the rating process. \n \nIn rare cases, availability of data may be affected by rated companies’ confidentiality concerns. \nAlthough EcoVadis is an ISO 27001-certified entity with a robust information security \nmanagement system in place aimed at protecting rated companies’ data and documentation, \nsome are reluctant to disclose sensitive or proprietary information. In such cases, even though \ndata is theoretically available, access to it remains limited. \n \nb) Completeness, timeliness and accuracy of information \n \n\n \nDocument classification: \n       \nEcoVadis Public\n18/24              \n\n \nThe Carbon Rating methodology imposes a document limit (55 files total) for each assessment. \nAlthough internal investigations based on the Carbon Rating’s meta-data found no correlation \nbetween number of documents submitted and score, this limit may preclude rated companies \nfrom submitting the entirety of documentation they may be willing to share.  \n \nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or \nalgorithmic systems or models \n \nThe Carbon Rating does not use any score projections, statistical models, algorithmic systems \nor any other means of estimating the final score.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "3.3. Means of addressing limitations in data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.3. Means of addressing limitations in data sources",
+     "content_cn": "3.3Means of addressing limitations in data sources  \n \nTo address limitations in data sources for the Carbon Rating, EcoVadis implements a number of \nmeasures and processes aimed at reducing related risks to a minimum. These include: \n \na) Transparent communication of requirements and methodology  \n \nTo ensure that rated companies are well-informed and capable of undergoing the rating \nprocess, EcoVadis created a vast database of publicly available support documents and \nexplanations. They are aimed at facilitating the rating process, explaining requirements and \nbuilding capacity of rated companies to truthfully demonstrate the quality of their Carbon \nmanagement system within the provided framework.  \n \nb) Document quality check \n \nAll company-provided documentation is systematically verified in line with formalized \nprocedures to eliminate documents created solely for the purpose of assessment or outright \nfalsified. \n \nc) Human-controlled rating process \n \nThe Carbon Rating is always performed with active participation of human analysts and \nsubject to human validation. The content of submitted documents is critically analyzed in an \nindividual context.",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "4. Methodology revision",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "4. Methodology revision",
+     "content_cn": "4.\nMethodology revision \nThe revision of the methodology of the Carbon Rating follows the steps outlined in the \nMethodology Revision Procedure. \n \nMethodological development and application are independent of all political, economic, or \n\n \nDocument classification: \n       \nEcoVadis Public\n19/24              \n\n \nother external influences, and led by a dedicated methodology team, which handles \nprioritization of methodology developments, research and execution. The methodology team is \nseparate from commercial functions, is managed by the Head of Methodology and reports to \nthe Chief Ratings Officer. \n \na) Methodology Revision Procedure \n \nThe methodology revision process is structured in six phases. Some phases are optional for \nmethodology changes that are not classified as high impact, but can still be considered where \nrelevant.\n \n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, \nwhich is approved by the Head of Methodology during the Quarterly Planning. The \nmethodology owner then drafts a project charter detailing the project's description, \npurpose, rationale, objectives, scope, team and risks, using either a Research or \nImplementation template. Where needed, a dedicated Methodology Research phase \nmay be initiated first to investigate and justify the need for a formal revision before \nproceeding to implementation.\n \n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, \nresearch findings and the proposed specific changes. The proposal is reviewed and \ndiscussed with the project's steering committee to ensure rigor, consistency, and \nalignment with market and regulatory needs. The steering committee is composed of \nrelevant methodology team members and may involve representatives of other \ndepartments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project \nmanager integrates feedback from the steering committee to adjust the proposal \naccordingly.\n \n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level \ndistribution is performed.\n \n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is \nconducted. EcoVadis directly engages a targeted selection of rating users, rated entities \nand external stakeholders to ensure a representative feedback loop.\n \n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final \n\n \nDocument classification: \n       \nEcoVadis Public\n20/24              \n\n \nmethodology revision proposal, as part of its methodology oversight responsibilities. This \nbody is responsible for identifying potential concerns, raising issues, or requesting \nfurther clarification. If any highlighted problems remain unresolved, the Ethics & \nCompliance team escalates the matter to the ESGR Governance Council for final \narbitration and decision-making. \n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for \nregular changes, and by the Chief Rating Officer for high impact changes, and officially \nimplemented. Methodology changes are communicated to rating users and rated \nentities in the quarterly methodology change communication. The methodology \ndisclosure documents are updated accordingly. \n \nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis \nto ensure they remain fit for purpose. Methodology revisions are communic",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "5. Organisational Disclosures",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "5. Organisational Disclosures",
+     "content_cn": "5.\nOrganisational Disclosures \nTo ensure comprehensive transparency and full compliance with European ESG Rating \nRegulation standards, this methodology document is published on the official EcoVadis \nwebsite page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.  \n \nThis page includes all required organisational disclosures in a dedicated section: Ownership \nstructure, Business Model & Pricing, Conflict of Interest, and Complaint management & \nExternal \nstakeholder \nreasoned \nconcern: \nhttps://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "title": "6. Legal notices",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "6. Legal notices",
+     "content_cn": "6.\nLegal notices \n \nThe Carbon Rating is published by Ecovadis SAS, headquartered at 43 avenue de la Grande \narmée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under \ntrade and companies register number 497 842 914 - R.C.S. Paris. \n \n\n \nDocument classification: \n       \nEcoVadis Public\n23/24              \n\n \nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the \nRegulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November \n2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating \nactivities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out \nrequirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as \nwell as applicable Regulatory Technical Standards of 15th October 2025. \n \nCopyright: No part of this document may be reproduced, modified or distributed in any form \nor manner without prior written permission of EcoVadis.  \n \nNo warranty: This document is intended for informational purposes only, and EcoVadis does \nnot warrant the accuracy, reliability, completeness of the information, content, text, and \ngraphics herein, and is subject to change without notice.   \n \nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any \ndirect, indirect, special, incidental or consequential damages arising out of the use of any \nopinion or information expressly or implicitly contained  in this publication.  \n \nCopyright © 2026 EcoVadis SAS (Paris, France)  \nAll Rights Reserved \n \n\n \nDocument classification: \n       \nEcoVadis Public\n24/24",
+     "content": "",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

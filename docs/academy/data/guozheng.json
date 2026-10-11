@@ -1,0 +1,98 @@
+{
+ "id": "guozheng",
+ "title": "国证ESG评价体系",
+ "titleEn": "GuoZheng ESG Rating",
+ "eyebrow": "本土 ESG 评价",
+ "accent": "#8a2e2e",
+ "description": "深圳证券信息有限公司发布的国证ESG评价方法：E/S/G 三维度、15 个主题、32 个领域、200 余个指标，覆盖全部 A 股公司。",
+ "issuer": "深圳证券信息有限公司（国证指数）",
+ "version": "官网发布版（2022 年 7 月文档在库）",
+ "updated": "2026-10",
+ "sourceNote": "深圳证券信息有限公司《国证ESG评价方法》（官网发布）；本页为官方文件的结构化整理，请以国证官网现行文件为准。",
+ "notice": "页面内容整理自官网发布的评价方法文件；评级结果与最新版本请以国证指数官网为准。",
+ "officialFiles": [
+  {
+   "name": "国证指数官网",
+   "url": "http://www.cnindex.com.cn/"
+  }
+ ],
+ "hub": {
+  "brandChar": "国",
+  "brandText": "国证ESG评价知识体系",
+  "tags": [
+   "E/S/G 三维度",
+   "15 主题",
+   "本土指标",
+   "季度更新"
+  ],
+  "stats": [
+   {
+    "label": "评价维度",
+    "value": "3"
+   },
+   {
+    "label": "主题",
+    "value": "15"
+   },
+   {
+    "label": "领域",
+    "value": "32"
+   },
+   {
+    "label": "知识主题",
+    "value": "1"
+   }
+  ],
+  "arch": [
+   {
+    "no": "01",
+    "layer": "评价方法",
+    "id": "gz-method",
+    "file": "《国证ESG评价方法》",
+    "note": "构建目的、原则与特点、评价体系、指标与评级规则",
+    "gate": "按维度展开"
+   },
+   {
+    "no": "02",
+    "layer": "环境（E）维度",
+    "id": "gz-method",
+    "file": "5 主题 · 11 领域",
+    "note": "资源利用、气候变化、污废管理、生态保护、环境机遇",
+    "gate": ""
+   },
+   {
+    "no": "03",
+    "layer": "社会责任（S）与治理（G）维度",
+    "id": "gz-method",
+    "file": "社会责任与治理主题",
+    "note": "供应商、客户、员工、股东权益等议题与治理结构",
+    "gate": ""
+   }
+  ],
+  "archTitle": "国证ESG评价体系结构",
+  "archDesc": "单一评价方法文件覆盖评价逻辑、指标体系与评级规则；在库版本较早，使用前请核对官网最新版"
+ },
+ "groups": [
+  {
+   "id": "method",
+   "title": "评价方法",
+   "badge": "1 项",
+   "items": [
+    {
+     "id": "gz-method",
+     "title": "国证ESG评价方法",
+     "summary": "国证ESG评价从环境、社会责任、公司治理三个维度构建四层级指标体系，评价覆盖全部A股公司，季度更新。",
+     "eyebrow": "官网发布 · E/S/G 三维度",
+     "tags": [
+      "国证ESG"
+     ],
+     "meta": [
+      "E/S/G",
+      "四层级指标体系"
+     ],
+     "detailFile": "data/guozheng/gz-method.json"
+    }
+   ]
+  }
+ ]
+}

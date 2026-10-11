@@ -1,0 +1,460 @@
+{
+ "id": "eco-rating",
+ "title": "EcoVadis 可持续评级方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rating Scale Type；…",
+ "tags": [
+  "EcoVadis",
+  "评级方法"
+ ],
+ "group": "评级方法",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "引言（披露目的）",
+     "content_cn": "EcoVadis Sustainability Rating \nMethodology disclosure document for \nthe public, rating users and rated \nitems\n \n1 \n\n \nTable of contents \n \n1. Rating Product Disclosure\n3 \n1.1. Objective and approach to materiality\n3 \n1.2. Scope\n3 \n1.3. Rating Scale Type\n5 \n1.4. Coverage of international agreements\n5 \n2. General  Methodological Disclosures\n5 \n2.1. Methodology overview\n5 \n2.2. Methodology assumptions and models\n8 \n2.3. Management system indicators and scoring\n9 \n2.4 Industry classification\n13 \n2.5 Data sources\n13 \n2.6 Data processes\n15 \n2.7 Data quality\n17 \n2.8 Assessment process quality\n18 \n2.9 Monitoring availability of new information in between assessments\n20 \n2.10 Engagement with rated companies\n20 \n2.11 Scientific basis\n22 \n2.12 Usage of AI-based tools\n23 \n3. Limitations in data sources, methodologies and information\n24 \n3.1 Methodology limitations\n24 \n3.2 Data source limitations\n25 \n3.3 Means of addressing limitations in data sources\n26 \n4. Methodology revision\n27 \n5. Organisational disclosures\n31 \n6. Legal notices\n31 \n \n2 \n\n \nThis disclosure document is intended to ensure compliance with Annex III to the EU \nRegulation 2024/3005 on the transparency and integrity of Environmental, Social and \nGovernance (ESG) rating activities, and the Delegated Regulation supplementing Regulation \n(EU) 2024/3005.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1. Objective and approach to materiality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.1. Objective and approach to materiality",
+     "content_cn": "1.1.\nObjective and approach to materiality  \n \nThe objective of the Sustainability Rating is to assess the level of adequacy and \ncomprehensiveness of a rated company's ESG management system to address material \nsustainability impacts on stakeholders. The rating is EcoVadis’ own opinion and can differ from \nthe assessments provided by other ESG rating providers. \n \nThe Sustainability Rating is designed as a tool for rating users to integrate ESG factors into their \nprocurement or investment decisions. It is always solicited and never performed without \nknowledge, consent and involvement of a rated company. Companies can always refuse to \nundergo an assessment.  \n  \nTo assess the quality of a company’s management system and its ability to prevent or minimize \nimpacts on company stakeholders, EcoVadis identifies material issues based on an impact \nmateriality approach (the \"inside-out\" perspective identifying external impacts that a \ncompany's operations, products, and services have on the environment and society). EcoVadis \nis progressively evolving its methodology to align with global double materiality standards. Our \nlatest updates introduce resilience-based data points that assess a supplier's operational \npreparedness to external environmental hazards. By evaluating a company’s capacity to detect \nand mitigate these disruptions, we provide vulnerability proxies that can support partners in \nperforming their own financial materiality assessments and managing value chain business \ncontinuity. \n \nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, \nLabor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 \nspecific criteria (see section “1.2 Scope” for additional details).",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2. Scope",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.2. Scope",
+     "content_cn": "1.2.\nScope  \n \nThe Sustainability Rating is an aggregated rating covering four core themes: Environment, \nLabor & Human Rights, Ethics, and Sustainable Procurement. These four themes cover the \nfollowing sustainability issues: \n \n● Environment \n○ Energy Consumption & Greenhouse Gas Emissions \n○ Water \n3 \n\n \n○ Biodiversity \n○ Air Pollution \n○ Materials & Chemicals & Waste \n○ Product Use \n○ Product End-of-Life \n○ Customer Health & Safety \n○ Environmental Services & Advocacy \n● Labor & Human Rights \n○ Employee Health & Safety \n○ Working Conditions \n○ Social Dialogue \n○ Career Management & Training \n○ Child Labor, Forced Labor & Human Trafficking \n○ Discrimination & Harassment \n○ External Stakeholder Human Rights \n● Ethics \n○ Corruption \n○ Anticompetitive Practices \n○ Responsible Information Management \n● Sustainable Procurement \n○ Supplier Environmental Practices \n○ Supplier Social Practices \nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive \n2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (“CSRD”) \nand detailed in the European Sustainability Reporting Standards (“ESRS”). However, they \noverlap to a degree and allow for comparison.  \nAlthough the Sustainability Rating does cover environmental issues, it is not correlated with \nthe percentage of taxonomy alignment under Regulation (EU) 2020/852 (“Taxonomy \nRegulation”).  \nThe Rating provides both a global aggregated score, and granular, disaggregated scores for \neach of the four themes. \n \nEach theme score is presented on a scale of 0-100, allowing for comparability between each \ntheme, and is based on a weighted average of the seven management indicator scores (see \nsection 2.3 “Management system indicators and scoring” for additional information), which are \ndesigned to assess the quality of the company’s management approach on each of the four \nthemes.  \n \nThe overall score is based on a weighted average of the four theme scores and is also presented \non a scale of 0-100. The weight of each theme is determined for each assessment depending \n4 \n\n \non the materiality of the theme for the rated company, based on its industry, size and risk \nprofile, and may range from 1 to 4.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3. Rating Scale Type",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.3. Rating Scale Type",
+     "content_cn": "1.3.\nRating Scale Type  \n \nThe Sustainability Rating score is expressed in absolute value: the score ranges from 0 to 100 \npoints. Sustainability Rating scorecards also include information on the percentiles within \nwhich rated companies fall, allowing for relative comparison of performance to other \ncompanies rated by EcoVadis.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4. Coverage of international agreements",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.4. Coverage of international agreements",
+     "content_cn": "1.4.\nCoverage of international agreements \n \nThe Sustainability Rating methodology considers the objectives of the following international \nagreements: \n-\nInternational Labor Organization (ILO) conventions: The methodology is aligned with the \nconventions’ objective of promoting decent work, protecting fundamental human rights \nat work and leveling the international playing field. \n-\nBasel Convention: The methodology is aligned with the convention’s objective of \nprotecting human health and the environment from the adverse impacts of hazardous \nand other wastes. \n-\nStockholm Convention: The methodology is aligned with the convention’s objective of \nprotecting human health and the environment from risks posed by persistent organic \npollutants (POPs). The rating does not, however, systematically verify whether \ncompanies align with the phase-out targets of the Stockholm convention.   \n-\nMinamata Convention: The methodology is aligned with the convention’s objective of \nprotecting human health and the environment from man-made emissions and releases \nof mercury and mercury compounds. The rating does not, however, systematically verify \nwhether companies align with the phase-out targets of the Stockholm convention.  \nThese conventions have informed the structure and issue coverage of the Environment and \nLabor & Human Rights themes, and the management system of companies is assessed based \non its alignment with these objectives.   \n \nWhile rated companies are asked whether they have carbon reduction targets, the \nSustainability Rating methodology does not specifically refer to the targets and objectives of \nthe Paris Agreement.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1. Methodology overview",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.1. Methodology overview",
+     "content_cn": "2.1.\nMethodology overview \n \nThe Sustainability Rating methodology is consistently applied to all eligible entities and \nincludes adjustments made based on company profile, including industry, size and risk profile. \nThe most recent version of the Sustainability Rating Methodology is V10.0, applicable as of \n5 \n\n \nJanuary 2026.  \nA full changelog can be accessed here: EcoVadis methodology updates (Login required) \n \n \n \na) Methodology governance principles \n \nTo deliver Sustainability Ratings with the highest levels of quality and integrity, EcoVadis has \ndesigned a methodology governance framework ensuring our methodologies adhere to the \nfollowing core principles: \n \ni)\nRigorous \n \nOur methodologies are developed through a rigorous process including research, impact \nassessment and public consultation of proposed changes to ensure the framework is capable \nof capturing complex sustainability risks and accurately reflect the rated entity’s sustainability \nperformance. \n \nii)\nSystematic \n \nWe employ a structured, repeatable methodological framework that ensures every entity is \nevaluated against a consistent set of principles and requirements tailored to their specific \ncontext. This systematic approach eliminates ad-hoc subjectivity and ensures that the \nmethodology provides a stable basis for comparison of rated entities. \n \niii)\nIndependent \n \nThe development and approval of our methodologies are governed by an internal function that \nis structurally and functionally separate from commercial and sales activities. This ensures the \ndesign of the rating framework is driven solely by analytical integrity and is insulated from \nexternal business pressures. \n \niv)\nCapable of justification \n \nThe methodology is built upon a clear, evidence-based rationale that dictates the specific \nweighting and relevance of each sustainability issue. Every component of the framework is \ndocumented for traceability, ensuring the underlying theory assumptions are defensible under \ntechnical scrutiny. \n \nv)\nComparable over time \n \nOur methodology is designed to provide a stable benchmark by maintaining consistent \nevaluation criteria over time. By ensuring the framework remains steady, we enable rating \n6 \n\n \nusers to accurately compare year-on-year performance. \n \nvi)\nTransparent \n \nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide \ncomprehensive public disclosures regarding the methodology scope, ranking system, key \nassumptions and models, data sources and processes, and its inherent limitations. \n \nb) Eligibility for assessment \n \nThe methodology allows for assessment of corporate entities. To be eligible for a Sustainability \nRating, an entity must meet two criteria:  \n-\nIt must have a legal entity name or operate under the direct parent legal entity name. \nThe legal entity name is the name under which a company is legally registered and \noperates in the country of operation. \n-\nThere must be a relevant level of scope of assessment in terms of sustainability risks. This \nmay for instance not be the case if the scope includes widely different business \nactivities, making it inadequate for a single rating to assess material issues the company \nis confronted to and the management system it has implemented in response. \n \nThe methodology allows for 3 different scopes of assessment:  \n-\nGroup: Group-level assessments cover a legal entity and its subsidiaries. \n-\nEntity: Entity-level assessments cover a legal entity with no subsidiaries. \n-\nSite: Site-level assessments cover a specific geographic site or facility of a",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2. Methodology assumptions and models",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.2. Methodology assumptions and models",
+     "content_cn": "2.2.\nMethodology assumptions and models \n \nThe Sustainability Rating operates under the following assumptions:  \n \na) Companies with formalized management systems are in a better position to prevent and \naddress adverse impacts  \n \nThe Sustainability Rating assumes that companies that implement formalized management \nsystems are significantly better equipped to prevent and address adverse impacts on the \nplanet and society. As a result, the scoring methodology rewards the formalization of policies, \nactions and reporting on results on all material sustainability issues. \n \nb) The absence of stakeholder feedback indicates that no significant management system \ndeficiency occurred \n \nExternal stakeholder feedback is collected and analyzed under the 360° Watch indicator (see \nsection 2.3 “Management system performance indicators and scoring”), which integrates \nexternal stakeholder feedback regarding the performance of rated companies' management \nsystems. In case no news items that could be considered as negative as per EcoVadis \nmethodology are found, the Sustainability Rating perceives the absence of controversies as \nevidence that the management system in question functions well. In consequence, it results in \na default score for the 360° Watch indicator which increases the number of points awarded to \nthe rated entity.  \n \nc) Absence of document evidence means absence of management approach \n \nIn case a rated company is not able to provide formalized management system evidence, such \nas policies, procedures and reports, the Sustainability Rating considers this as an indication \nthat the management system is not effectively implemented, and that the company may not \nbe well prepared to address material sustainability issues. The lack of formalized evidence \ntranslates into lower scores. \n \nd) The larger the rated company, the greater the risks and impacts and the larger the resources \nit possess, the higher the expectations regarding its management system \n \nThe methodology assumes that larger entities face more risks, generate more significant \nimpacts and are better positioned to address sustainability issues. In consequence, they are \nsystematically expected to demonstrate greater maturity and a more comprehensive \napproach. Conversely, smaller entities, extra small companies in particular, face lower \n8 \n\n \nrequirements, adjusted to their context.  \n \nThe Sustainability Rating does not employ any additional supporting models, estimations or \nprojections.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3. Management system indicators and scoring",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.3. Management system indicators and scoring",
+     "content_cn": "2.3.\nManagement system indicators and scoring\n \na) Raw scores based on management system indicators\n \nThe Sustainability Rating methodology considers an effective sustainability management \nsystem to be one that develops policies, implements actions and reports on results. These \nthree management layers are further categorized into the following seven management \nindicators: \n \n-\nPolicy: This indicator assesses the company's objectives and commitments to mitigating \nsustainability impacts. Internal value statements and targets allow companies to create a \nframework for their activities and create grounds for long-term accountability for \nachieving sustainability goals. \n-\nEndorsement: This indicator refers to a company's formal public commitment to \nexternal sustainability initiatives. Participation in such initiatives and frameworks can \nbolster planning efforts and facilitate public scrutiny.   \n-\nMeasure: This indicator covers the actions a company implements to ensure its \nsustainability policies and targets are effectively implemented. \n-\nCertifications: This indicator refers to valid certifications, labels, and third-party audits \nthat confirm a company's compliance with international sustainability standards. Valid \ncertificates issued by an independent and accredited body confirm the high quality of a \nmanagement system. \n-\nCoverage: Applicable only to large companies (1,000+ employees), this indicator \nmeasures the deployment level of sustainability actions and certifications across a \ncompany's workforce and sites. In case of larger organizations, examining the scope of \nwhat is implemented is essential to reflect the real-life impact of undertaken actions.  \n-\nReporting: This indicator evaluates the quality of a company's reporting on sustainability \nmetrics. Quality sustainability reporting is the cornerstone of each ESG management \nsystem, as it allows to evaluate progress and provide transparency to stakeholders. The \nSustainability Rating establishes strict requirements related to the reporting it considers \nvalid: it must cover at least 80% of the scope of assessment (except for greenhouse gas \nemissions and energy consumption, which have to be provided for 95% of the scope to \nbe credited). \n-\n360° Watch: This indicator integrates external stakeholder viewpoints into the rating. \nPublications from verified, legitimate sources that reflect both positive and negative \nfindings from NGOs, trade unions, government bodies, grievance mechanisms and other \nthird parties are considered in the rating. Such feedback is taken into account by the \nSustainability Rating to provide real-life insights on the functioning of a management \n9 \n\n \nsystem and allow verification of its effectiveness. \n \nEcoVadis allocates a score between 0 and 100 for each of these management indicators, based \non the document evidence provided by the rated company or the stakeholder feedback \ncollected for the 360° Watch Indicator and analyzed by analysts by following detailed scoring \nguidelines.  \n \nA theme score for each of the four themes (Environment, Labor & Human Rights, Ethics and \nSustainable Procurement) is then produced by combining the indicator scores, based on the \nfollowing weights:  \n-\nPolicies: 20%  \n-\nEndorsements: 5%  \n-\nActions (including (Measures 60% + Certificate 40%)*Coverage): 40%  \n-\nReporting: 14%  \n-\n360° Watch: 21%  \n \nThe resulting raw theme score is further refined with two adjusting factors to account for a \ncompany's specific context: company size and the risk of countries it operates in. \nThe scoring formula for theme sco",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4. Industry classification",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.4. Industry classification",
+     "content_cn": "2.4 Industry classification  \n \nThe Sustainability Rating uses the United Nations International Standard Industrial \nClassification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic \nactivities of rated companies.  \n \nThe official full document is available on the United Nations Statistic Division website.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5. Data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.5. Data sources",
+     "content_cn": "2.5 Data sources \n \nThe Sustainability Rating uses several types of data sources.  \n \n13 \n\n \na) Data used by EcoVadis to determine the materiality of sustainability issues \n \nEcoVadis uses a data-based framework to determine the materiality of sustainability issues \nbased on the industry it operates in, with some adjustments based on company size and \ncountry of operations.  \nMateriality assessments of industries are performed based on qualitative research using a wide \nvariety of sources, ranging from articles, analyses, reports and policy papers from different \nstakeholders including international organizations, public institutions, non-governmental \norganizations, think-tanks, academia and scientific press. All sources are disclosed on the \nIndustry Risk profiles available on the EcoVadis platform. \nMateriality assessments of countries are based on a selection of publicly available sources, \nincluding, among others, sources such as: \n-\nOcean Health Index \n-\nAqueduct Water Risk Atlas \n-\nHuman Development Index \n-\nWorld Press Freedom Index \n-\nWorld Justice Project \n-\nCorruption Perception Index \nData is analyzed for all countries eligible for a Sustainability Rating and data sources are \ndisclosed on the Country Risk profiles available on the EcoVadis platform.  \n \nb) Data provided to EcoVadis by rated companies for the purpose of the Sustainability \nRating \n \nRated companies are asked to provide management system documentation (e.g. policies, \nprocedures, \nreports, \ncertificates \netc.) \nconfirming they have implemented a robust \nmanagement system to address all material sustainability issues. These documents can be \npublic or non-public documents, and can be subject or not subject to assurance engagement. \nWhether the data provided has been independently verified is taken into account in the \nassessment process and influences the final score. \nRated companies may provide sustainability statements required under Directive 2013/34/EU \n(“Accounting \nDirective”) \nor \ninformation \ndisclosed \nunder \nRegulation \n(EU) 2019/2088 \n(“Sustainable Finance Disclosure Regulation”) or Regulation (EU) 2020/852 (“Taxonomy \nRegulation”), if available.  \nIf rated companies share information on their transition plans, this information is used to \nconfirm they have a transition plan in place, but the Rating does not assess the content or \nquality of this plan. \n \nc) Data collected from external stakeholders \n \nBesides data provided by the rated company itself, the Sustainability Rating also considers data \ncollected by EcoVadis from external stakeholders, which is analyzed and scored under the 360° \nWatch indicator. Data sources include news items from the media, NGO reports, governmental \n14 \n\n \ndatabases, as well as data extracted from specialized databases, including proprietary \ncompliance and sanctions screening databases allowing to flag sanction infringements and \nrelationships with Politically Exposed Persons on rated companies' scorecards. \nAll external data sources are listed on the scorecard of the rated company.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6. Data processes",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.6. Data processes",
+     "content_cn": "2.6 Data processes \n \nThe Sustainability Rating uses a streamlined data process occurring in a secure and organised \ndigital platform provided by EcoVadis. The process includes: \n \na) Data collection \n \nData is first collected from the rated companies themselves, and then supplemented by \nscreening additional sources to collect additional stakeholder feedback. The Sustainability \nRating does not use any estimations nor industry averages to produce inputs in case of \nabsence of data. The lack of data on a given topic is factored in the assessment and influences \nthe final score.  \nThe data collection stage includes the following steps: \n \ni)\nSubmission of documents by rated companies  \n \nRated companies upload the relevant documents to support their declarations in the EcoVadis \nquestionnaire to the EcoVadis platform. Only questionnaire declarations supported by \ndocument evidence can be credited for the assessment.  \n \nii)\nScreening for stakeholder feedback  \n \nEcoVadis collects stakeholder feedback by the means of: \n-\nthe Live News Monitoring, a proprietary AI-powered tool which constantly screens \npre-defined and reliable public sources in several selected languages for any negative \nand positive developments regarding the sustainability performance of the company \n(see section 2.12 “Usage of AI-based tools” for additional information  \n-\nmanual screening performed by a team of specialized analysts based on a dedicated \nresearch protocol covering publicly available sources in all relevant languages \n \nb) Data processing  \n \nAnalysts proceed with the analysis of all gathered data, which includes qualifying each \ndocument submitted by the company to ensure it is eligible for analysis, as well as verifying its \ncontent to confirm whether it provides reasonable evidence regarding declarations made by \nthe rated company in its questionnaire. Analysts also review all identified stakeholder feedback \nbased on a dedicated set of guidelines to define the severity level of the finding and whether it \nshould have an impact on the company’s score. \n15 \n\n \n \nc) Data output \n \nA Sustainability Rating scorecard is produced based on the results of the data processing stage \nby automatically assigning scores to each indicator based on the approved evidence, which \nresults in the computation of four theme scores (Environment, Labor & Human Rights, Ethics \nand Sustainable Procurement) and the overall score. Qualitative results in the form of strengths \nand improvement areas regarding the company’s management of material issues are also \nadded to the scorecard. The results of the scoring are reviewed by analysts (see section 2.8 \nAssessment process quality).  \n \nd) Data storage & historical data updates and revision \n \nData used for each assessment is preserved in the system for traceability purposes. The data is \nonly updated in the context of reassessments performed to update a scorecard, which has a \nvalidity period of 1 year.  \nA reassessment occurs either when a rated company decides to or is required by the buyer to \nrenew its rating. In principle, it is at the end of the validity period to ensure constant availability \nof a valid scorecard. A reassessment creates a new scorecard with a new publication date, \nallowing to track when updated data was collected: rated companies have an opportunity to \nupdate, replace or submit additional new documentation during the reassessment process. \nScreening for stakeholder feedback is also performed again.  \nDuring reassessments, analysts verify the validity period of collected data to ensure the rating \ncon",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7. Data quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.7. Data quality",
+     "content_cn": "2.7 Data quality \n \nThe Sustainability Rating relies primarily on data provided by rated companies themselves or \ninformation shared by reputable, trustworthy sources, thus, ensuring high levels of data quality. \nNevertheless, EcoVadis implements additional data quality controls. They are applied \nsystematically in every assessment and reassessment by EcoVadis analysts at the respective \nstages of data analysis and include: \n \na) Document eligibility criteria \n \nAll documents provided by rated companies must adhere to specific formal criteria to be \neligible for assessment. Documents have to meet the following criteria: \n-\nformalized (formal, pre-existing, and fully integrated into the company's management \nsystem) \n-\ncomplete (fully disclosed to make their contents available for the analysis) \n-\ncredible (clearly identifiable as belonging to the company) \n-\ndated (contain an issue or review date) \n-\nin an accepted format & size (i.e. have .pdf, .docx, .xlsx, .jpg or .png, format and be smaller \nthan 30 MB)  \n-\nmachine-readable (contain digital text, as opposed to a scanned image or photo).  \nDocuments that do not meet these criteria are not taken into account as valid evidence for \nrating purposes. \n \nb) Proactive detection of dubious documentation \n\nEcoVadis has a dedicated process that establishes a critical data quality control framework for \ndocuments submitted by rated companies. Its primary purpose is to ensure the authenticity \nand reliability of documents submitted by companies during the assessment. It provides \nanalysts with systematic procedures to detect, classify, and handle documents prepared \nspecifically for the purpose of the Sustainability Rating and that are not a genuine \nrepresentation of an existing management system. The guideline details specific symptoms \nanalysts must look for to identify potentially unreliable data. Dedicated tools, e.g. a plagiarism \ntool, are provided to further assist with this task. Documents that do not meet this data quality \ncontrol framework are not considered for the assessment.\n \nc) Emphasis on provision of third-party verified information  \n\nData used by the Sustainability Rating is not systematically subject to third party assurance. \nHowever, EcoVadis actively encourages rated companies to share third party verified \n17 \n\n \ndocumentation.  \nDocuments such as third-party verified sustainability reports, third-party issued certificates \nconfirming compliance with recognized standards or third-party audit reports are either \nindispensable to score points in certain indicators (eg. Certifications) or help increase the \nindicator score in comparison to situations where non-verified data is provided (eg. Reporting).  \n \nd) Validation of third-party information \n \nWhile declarations regarding external certifications and endorsements are initially provided by \nthe rated company, EcoVadis analysts do not rely solely on company-submitted evidence. To \nensure data integrity, analysts perform a secondary validation step using an established \ninternal repository of identified external websites and official certification body databases. This \nexternal cross-checking acts as a strict quality control to verify the authenticity, scope, and \nvalidity period of the provided certificates and public commitments before any points are \nawarded. \n \ne) Source verification for stakeholder feedback \n \nIn order to ensure only credible sources are used to collect stakeholder feedback under the \n360° Watch indicator, EcoVadis has implemented a source verification procedure.  Analysts use \na specialized, AI-",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8. Assessment process quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.8. Assessment process quality",
+     "content_cn": "2.8 Assessment process quality \n \nEcoVadis employs a robust, multi-layered approach to ensure the quality and integrity of its \nassessment process. These controls are integrated throughout the evaluation process, from \nanalyst training to final scorecard publication. EcoVadis has a Quality Management System \ncertified against the ISO 9001:2015 standard. This management system includes a formal \nQuality Policy and a Quality Manual that documents all processes and their interactions. The \nkey features of this system are: \n \na) Human expertise  \n \nQuality begins with highly qualified analysts, most of whom hold master's degrees in relevant \n18 \n\n \nfields. All new analysts undergo a comprehensive training program on the rating methodology, \nfollowed by a two-month transition period with systematic feedback and monitoring. Ongoing \nupskilling and focused training are also provided for experienced analysts. \n \nb) Multi-layer quality checks \n \nEvery rating undergoes a formal three-step process consisting of document analysis, scoring \nand validation. All analysts use dedicated checklists at each stage to ensure methodology rules \nare followed. In particular, the validation stage serves as a final quality check aimed at verifying \nthe entire assessment for consistency and quality. \n \nc) Effective communication & remediation process of quality issues \n \nWhen quality issues are identified, EcoVadis has processes for remediation, corrective action, \nand continuous improvement. When the review or feedback identifies issues, management \nimplements appropriate corrective actions. Dedicated forms are used to define internal \ncorrective actions and specific training for analysts when quality issues are found. These forms \nare used at each stage of the rating process to systematically identify quality issues and \ncommunicate them to analysts. The goal is to ensure constant improvement.  \n \nd) Individual quality targets \n \nEcoVadis analysts have individual quality targets that form an integral part of their semestral \nand yearly performance reviews. \n \ne) Scorecard audits and reproducibility exercises \n \nScorecard audits are performed to check for proper application of guidelines and yearly \nassessment reproducibility exercises are conducted to assess the robustness of the rating \nprocess and measure the consistency of scorecard outcomes among different analysts. \nEcoVadis performs its quality control activities on a regular and scheduled basis. 1% of all \npublished scorecards are audited on a monthly basis. Non-compliances found during these \naudits and in assessment reproducibility exercises are classified by severity and used to devise \nan action plan to address identified improvement areas. \n \nf) Effective complaint management mechanism \n \nAfter scorecard publication, rated companies can ask questions, raise complaints or share \nadditional information as per separate procedures through a dedicated complaint \nmanagement channel. \n \nThe process is systematically applied in every assessment. The same types of controls are \napplied whenever a company is rated for the first time or when it provides additional data and \n19 \n\n \ninformation during subsequent reassessments.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9. Monitoring availability of new information in between assessments",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.9. Monitoring availability of new information in between assessments",
+     "content_cn": "2.9 Monitoring availability of new information in between assessments  \n \nNew information is considered only during reassessments, with the exception of severe or \nmajor controversies. EcoVadis monitors severe controversies in between assessments through \nthe Live news Monitoring screening and through grievance mechanism screening, to identify if \nthe scorecard needs to be exceptionally revised due to the occurrence of severe or major \ncontroversies that cast doubt on the quality of a rated company’s management system \nefficiency and warrant a review of the score.  \n \na) Screening for severe controversies with Live News Monitoring \n \nThe Live News Monitoring, a proprietary AI-powered tool, conducts ongoing screening of \npre-defined and reliable public sources in between assessments. If the Live News Monitoring \ndetects a controversy of sufficient severity, EcoVadis reserves the right to exceptionally revise a \nrated company's valid scorecard to integrate such feedback immediately with an aim of \nproviding an accurate rating, which may also result in suspension or removal of a rated \ncompany’s Medal or Badge.  \nUpon identification of a critical adverse impact occurring after scorecard publication, an \ninternal review committee reviews the finding and validates the need for a scorecard revision. \nThe scorecard is unpublished and the rated company is invited to provide input on the finding \n(see section 2.10 “Engagement with rated companies”). Once the final score is decided, the \nscorecard is republished and users of the rating are notified of the change. \n \nb) Screening for severe controversies with grievance mechanisms \n \nRated companies which adopt the EcoVadis Worker Voice Connect mechanism provide their \nworkers with a channel to report grievances. Severe grievances on Labor and Human Rights \ntopics, such as child labor, forced labor, & human trafficking, regular excessive working hours or \nretaliation against grievances, that remain unremediated for over 3 months by the rated \ncompany will result in a temporary Medal or Badge restriction. Upon remediation of the severe \ngrievance, the medal restriction will be removed from the supplier.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10. Engagement with rated companies",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.10. Engagement with rated companies",
+     "content_cn": "2.10 Engagement with rated companies  \n \nEngagement with rated companies in the context of the Sustainability Rating occurs at three \ndifferent stages: before the assessment process begins, in the course of the rating process, and \nafter scorecard publication. At all times, companies may reach out to EcoVadis via a dedicated \nsupport channel: https://getsupport.ecovadis.com/ .  \n \na) Engagement with rated companies before the assessment \n \n20 \n\n \nA dedicated team within EcoVadis engages with rated companies before the assessment to \nensure that they understand the context of the Sustainability Rating, register on EcoVadis \nplatform, receive their questionnaire and are able to submit their answers to it.  \n \nb) Engagement with rated companies during the assessment \n \nEngagement with rated companies is limited to safeguard the Sustainability Rating \nindependence and integrity. EcoVadis therefore engages rated companies in the context of \ntheir rating process only in specified, exceptional situations requiring additional information \nfrom the rated company to deliver an accurate rating. Such engagement occurs in the context \nof the 360° Watch indicator in case sufficiently grave controversies are identified. Because of \nthe significant weight the 360° Watch indicator has on the final score and the fact that data \nused to determine results is acquired from external stakeholders, EcoVadis finds it justified to \nengage a rated entity and verify accuracy and completeness of the sources it uses before the \nscorecard is published.  An official letter is sent in case the 360° Watch indicator score is 0/100 \nfor at least one theme or 25/100 for at least two themes (such results make a rated company \nineligible for a Medal regardless of their total score). A rated company can provide additional \nexplanation or context to the detected controversies, which may result in an adjustment of the \nseverity level initially assigned to the finding. \n \nc) Engagement with rated companies after scorecard publication \n \nEngagement with rated companies after scorecard publication can occur in 2 cases:  \n \n \ni)\nInquiries from rated companies regarding their scorecard and complaints \n \nFollowing the scorecard publication, rated companies are notified that their assessment is \ncomplete and are given the opportunity to preview their results for a period of 2 business days \nbefore the scorecard becomes available to rating users, with the possibility for them to raise a \nfactual error case. A factual error is a mistake made on the underlying information used for the \nassessment, such as Company name, location or size, industry classification, not applicable 360, \nwrongly rejected document. \n \nFollowing these 2 business days, rated companies retain the possibility to contact EcoVadis via \na dedicated channel to better understand their scorecard or to log a complaint regarding their \nrating. Their inquiries are handled by a specialized team which responds to questions and \ninitiates a scorecard correction process in case a mistake in fact or methodology application is \nidentified.  \n \nii)\nIdentification of severe or major controversies in between assessments \n \n21 \n\n \nIf significant negative stakeholder feedback is identified in between assessments (see section \n2.9 “Monitoring availability of new information in between assessments”), EcoVadis engages \nwith the rated company, consults it to fully understand the context of any ongoing controversy \nand communicates decisions on the impact of the identified controversy on the rating before \nmaking amendments. \n \nIn princi",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11. Scientific basis",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.11. Scientific basis",
+     "content_cn": "2.11 Scientific basis  \n \nIn order to evaluate how a company manages its sustainability issues, the Sustainability Rating \nassesses the quality and effectiveness of the company’s management system through its \npolicies, actions and reporting on results. This structure is derived from the PDCA \n(Plan–Do–Check–Act) \nscientific \nmethod, \nwhich \noriginates \nfrom \nthe \nscientific \nhypothesis–experiment–evaluation cycle articulated by Francis Bacon and is the foundation of \n22 \n\n \nmodern management and continuous improvement systems.    \n \nThe Sustainability Rating methodology is also aligned with international sustainability \nstandards that are themselves anchored in scientific research, empirical evidence and decades \nof multilateral consensus. These standards and frameworks include:  \n-\nthe ISO 26000 Guidance on Social Responsibility standard \n-\nthe Global Reporting Initiative (GRI) and European Sustainability Reporting Standards \n(ESRS) standard \n-\nthe Ten Principles of the United Nations Global Compact (UNGC) \n-\nthe International Labour Organization (ILO) conventions (including conventions on \nOccupational Health and Safety, Wages and Working Time, Social Dialogue, Freedom of \nAssociation, and Collective Bargaining, Child Labor and Forced Labor, Equality of \nOpportunity and Treatment)  \nAll 21 sustainability criteria are fully mapped and referenced in the content of the ISO 26000 \nStandard, the GRI Standard and United Nations Sustainable Development Goals. \n  \nAdditionally, certain specific guidelines pertaining to individual sustainability criteria or \nmanagement indicators are based on or incorporate elements of best practices or \nrecommendations from other sources: \n-\nthe scoring guidelines used for the purpose of the 360° Watch indicator are built on the \nframework for assessing severity of adverse impacts endorsed in the OECD Due \nDiligence Guidance for Responsible Business Conduct; \n-\nthe Labour and Human Rights theme methodology takes into account the UN Guiding \nPrinciples on Business and Human Rights; \n-\nthe Sustainable Procurement theme methodology takes into account the OECD Due \nDiligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected \nand High-Risk Areas.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "2.12. Usage of AI-based tools",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.12. Usage of AI-based tools",
+     "content_cn": "2.12 Usage of AI-based tools \n \nEcoVadis leverages machine learning technologies to help deliver the Sustainability Rating. \nEcoVadis designs, implements, and deploys AI solutions in a responsible manner and within \nthe framework of its internal AI Usage Policy, which encompasses accountability, transparency, \nhuman dignity, human control, security, fairness, diversity and inclusion, environmental and \nsocial wellbeing, as well as clear rules on processing of protected and personal data, and \nprotection of intellectual property. AI-based processing is conducted in compliance with data \nprotection and AI-specific laws, ensuring fairness, transparency, and security.  \n \na) AI use in data collection \n \nIn the context of data collection, AI is used in the following cases: \n \ni)\nthe Live News Monitoring: it is a specialized, AI-based tool which automatically \n23 \n\n \ncollects items containing relevant external stakeholder feedback on rated \ncompanies’ sustainability performance. It scans over 100,000 public sources and \nprovides an around-the-clock overview of sustainability-related news items in \nseveral selected languages. Relevant news pieces are added immediately to rated \ncompanies’ scorecards between assessments, but are not scored unless they \npertain to severe controversies. Once a rated company renews its scorecard, \nhuman-based verification follows as the part of regular analysis of the 360° Watch \nindicator.  \n \nii)\nStakeholder feedback reliability check: Information items used for the purpose of \nthe 360° Watch indicator are subject to credibility checks (see section 2.7 “Data \nquality” for additional information). Trustworthiness of sources is performed \nthrough an AI-assisted process, where a dedicated agent provides analysts with \nan overview of factors that should be taken into account before a final decision on \ncredibility and eligibility of the data source is made.  \n \nb) AI use in data processing \n \nAI is leveraged to retrieve information from company-provided documents. Analysts use \nspecialized machine learning tools to scan management system documentation to identify \nrelevant insights and evidence for declarations made by a rated company in the questionnaire. \nThis allows analysts to access information quickly and reliably, ensuring a comprehensive and \naccurate evaluation of a company’s sustainability practices. \n \nc) Limitations of AI-based tools \n \nIn order to avoid potential mistakes and inaccuracies from AI-based tools used by EcoVadis for \nthe Sustainability Rating, a human expert verifies AI-based recommendations. The human \nreview ensures reliability of the final ratings results. Human experts apply their knowledge of \nthe rating methodology, provide critical context, and make informed decisions that AI alone \ncannot.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "3. Limitations in data sources, methodologies and information",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3. Limitations in data sources, methodologies and information",
+     "content_cn": "3. Limitations in data sources, methodologies and information",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.1. Methodology limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.1. Methodology limitations",
+     "content_cn": "3.1 Methodology limitations \n \nThe Sustainability Rating methodology includes the following limitations: \n \na) Financial materiality  \n \nThe \nSustainability \nRating does not incorporate financial materiality dimensions. In \nconsequence, it cannot be used to assess the influence of ESG factors on a rated company's \nfinancial performance. \n24 \n\n \n \nb) Inability to perform heightened due diligence for countries with extreme levels of \nconflict and risk of complicity in human rights abuses: \n \nTo ensure the quality and integrity of the Sustainability Ratings, Ecovadis restricts Sustainability \nRatings for companies headquartered in a shortlist of countries with extreme levels of conflict \nand risk of complicity in human rights abuses. Sustainability Ratings are not tailored to provide \nthe level of heightened due diligence recommended by the OECD Guidelines for Multinational \nEnterprises on Responsible Business Conduct for companies based in countries with ongoing \narmed conflict and high fragility. The decision to restrict ratings for companies headquartered \nin these countries aligns with the OECD guidance on disengagement from conflict-affected \nareas when heightened due diligence is not feasible.  \n \nThe list of countries with extreme levels of conflict is compiled based on reputable external \nindices measuring country levels of armed conflict and institutional fragility, and is updated on \nan annual basis. Companies with operations in these countries but are headquartered \nelsewhere are still eligible for a Sustainability Rating.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.2. Data source limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.2. Data source limitations",
+     "content_cn": "3.2 Data source limitations \n \nData sources leveraged for the Sustainability Rating include the following limitations: \n \na) Availability and consistency of data used \n \nRated companies are scored based primarily on evidence in the form of management system \ndocumentation. In case a rated company has not formalized its management system \ndocumentation, EcoVadis cannot access such data. Although such lack of written evidence \nmay only indicate a gap in documenting practices, not lack of action on the part of a rated \ncompany, the Sustainability Rating requires such documents to exist and be made available. \n \nMoreover, availability of documentation may be an issue in case of assessments of local \nsubsidiaries or sites that form part of a larger group of companies. Documentation may be \navailable mainly at parent company level due to e.g. strong integration of a sustainability \nmanagement system at the group level. In such cases, rated companies have to demonstrate \nits applicability to the specific legal entity or site that is being assessed.  \n \nAdditionally, the Sustainability Rating may be affected by self-reporting gaps. In order for \nquestionnaire declarations to be credited, documentary evidence has to be correctly linked to \nthe questionnaire declaration. In consequence, even if rated entities formalized their \nmanagement system documentation and are capable of providing evidence, if it is not \ncorrectly linked to the questionnaire declaration, information contained within it will not be \naccounted for during the rating process. \n \n25 \n\n \nIn rare cases, availability of data may be affected by rated companies’ confidentiality concerns. \nAlthough EcoVadis is an ISO 27001-certified entity with a robust information security \nmanagement system in place aimed at protecting rated companies’ data and documentation, \nsome are reluctant to disclose sensitive or proprietary information. In such cases, even though \ndata is theoretically available, access to it remains limited. \n \nLastly, as far as external stakeholder feedback is concerned, the Sustainability Rating relies \nprimarily on publicly-available news items and media publications. As this information is \nproduced by third parties, its availability may differ depending on the country of incorporation \nand freedom of expression of stakeholders, level of public scrutiny a rated company is subject \nto, as well as transparency and accessibility of public registers.  \n \nb) Completeness, timeliness and accuracy of information \n \nThe Sustainability Rating methodology imposes a document limit (55 files total) for each \nassessment. Although internal investigations based on the Sustainability Rating’s meta-data \nfound no correlation between number of documents submitted and score, this limit may \npreclude rated companies from submitting the entirety of documentation they may be willing \nto share.  \n \nAs far as external stakeholder feedback is concerned, the Sustainability Rating relies primarily \non publicly-available news items and media publications. As this information is gathered from \na broad range of actors, items may differ in terms of trustworthiness, potential bias and \ncomprehensiveness of information provided, which is why EcoVadis has implemented \nadditional data source credibility checks (see section 2.7 “Data quality” for additional \ninformation). \n \nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or \nalgorithmic systems or models \n \nThe Sustainability Rating does not use any score projections, statistical models, algorithmic \nsystems o",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "3.3. Means of addressing limitations in data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.3. Means of addressing limitations in data sources",
+     "content_cn": "3.3Means of addressing limitations in data sources  \n \nTo address limitations in data sources for the Sustainability Rating, EcoVadis implements a \nnumber of measures and processes aimed at reducing related risks to a minimum. These steps \ninclude: \n \na) Transparent communication of requirements and methodology  \n \nTo ensure that rated companies are well-informed and capable of undergoing the rating \nprocess, EcoVadis created a vast database of publicly available support documents and \n26 \n\n \nexplanations. They are aimed at facilitating the rating process, explaining requirements \nregarding supporting evidence of rated companies to truthfully demonstrate the quality of \ntheir sustainability management system within the provided framework.  \n \nb) Document quality check \n \nAll company-provided documentation is systematically verified in line with formalized \nprocedures to eliminate documents created solely for the purpose of assessment or outright \nfalsified. \n \nc) Diversification of external stakeholder feedback sources \n \nThe freedom for stakeholders to express themselves is not universally present across all \ncountries, limiting access to stakeholder input on the rated company’s sustainability \nmanagement system and performance. EcoVadis attempts to mitigate this limitation by \nproactively seeking and incorporating the maximum number of external stakeholder feedback \nsources in its screening process, including through investigative journalism sources, NGO \nreports, worker voice surveys, etc. \n \nd) External stakeholder feedback reliability check  \n \nInformation items used for the purpose of the 360° Watch indicator are subject to credibility \nchecks. In case any dubious item is identified, it is subject to a formalized check aimed at \neliminating items coming from untrustworthy sources (see section 2.7 “Data quality” for \nadditional information).  \n \ne) Human-controlled rating process \n \nThe Sustainability Rating is always performed with active participation of human analysts and \nsubject to human validation. Contents of submitted documents and external stakeholder \nfeedback is critically analyzed in an individual context.",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "4. Methodology revision",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "4. Methodology revision",
+     "content_cn": "4. Methodology revision \nThe revision of the methodology of the Sustainability Rating follows the steps outlined in the \nMethodology Revision Procedure. \n \nMethodological development and application are independent of all political, economic, or \nother external influences, and led by a dedicated methodology team, which handles \nprioritization of methodology developments, research and execution. The methodology team is \nseparate from commercial functions, is managed by the Head of Methodology and reports to \nthe Chief Ratings Officer. \n \na) Methodology Revision Procedure \n27 \n\n \n \nThe methodology revision process is structured in six phases. Some phases are optional for \nmethodology changes that are not classified as high impact, but can still be considered where \nrelevant.\n \n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, \nwhich is approved by the Head of Methodology during the Quarterly Planning. The \nmethodology owner then drafts a project charter detailing the project's description, \npurpose, rationale, objectives, scope, team and risks, using either a Research or \nImplementation template. Where needed, a dedicated Methodology Research phase \nmay be initiated first to investigate and justify the need for a formal revision before \nproceeding to implementation.\n \n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, \nresearch findings and the proposed specific changes. The proposal is reviewed and \ndiscussed with the project's steering committee to ensure rigor, consistency, and \nalignment with market and regulatory needs. The steering committee is composed of \nrelevant methodology team members and may involve representatives of other \ndepartments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project \nmanager integrates feedback from the steering committee to adjust the proposal \naccordingly.\n \n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level \ndistribution is performed.\n \n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is \nconducted. EcoVadis directly engages a targeted selection of rating users, rated entities \nand external stakeholders to ensure a representative feedback loop.\n \n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final \nmethodology revision proposal, as part of its methodology oversight responsibilities. This \nbody is responsible for identifying potential concerns, raising issues, or requesting \nfurther clarification. If any highlighted problems remain unresolved, the Ethics & \nCompliance team escalates the matter to the ESGR Governance Council for final \narbitration and decision-making. \n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for \nregular changes, and by the Chief Rating Officer for high impact changes, and officially \n28 \n\n \nimplemented. Methodology changes are communicated to rating users and rated \nentities in the quarterly methodology change communication. The methodology \ndisclosure documents are updated accordingly. \n \nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis \nto ensure they remain fit for purpose. Methodology revisions are communicated to rating users \nand rated entities via the quarterly methodology change communication, which is released in \nJanuary, April,",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "5. Organisational disclosures",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "5. Organisational disclosures",
+     "content_cn": "5. Organisational disclosures \nTo ensure comprehensive transparency and full compliance with European ESG Rating \nRegulation standards, this methodology document is published on the official EcoVadis \nwebsite page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.  \n \nThis  includes: \n● Chart of EcoVadis’ ownership structure: \nhttp://ecovadis.com/wp-content/uploads/2026/03/EVFR_Group-organization-chart-AS-AT\n-13.01.2026-signed.pdf,  \n● Business Model & Pricing, Conflicts of Interest Management and Complaint \nManagement procedures: \nhttps://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures  \n 6. Legal notices \n \nThe Sustainability Rating is published by Ecovadis SAS, headquartered at 43 avenue de la \nGrande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France \nunder trade and companies register number 497 842 914 - R.C.S. Paris. \n \nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the \nRegulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November \n2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating \nactivities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out \nrequirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as \nwell as applicable Regulatory Technical Standards of 15th October 2025.  \n \n31 \n\n \nCopyright: No part of this document may be reproduced, modified or distributed in any form \nor manner without prior written permission of EcoVadis.  \n \nNo warranty: This document is intended for informational purposes only, and EcoVadis does \nnot warrant the accuracy, reliability, completeness of the information, content, text, and \ngraphics herein, and is subject to change without notice.   \n \nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any \ndirect, indirect, special, incidental or consequential damages arising out of the use of any \nopinion or information expressly or implicitly contained  in this publication.  \n \nCopyright © 2026 EcoVadis SAS (Paris, France)  \nAll Rights Reserved \n32",
+     "content": "",
+     "source": "EcoVadis 可持续评级方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}

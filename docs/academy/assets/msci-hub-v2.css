@@ -176,3 +176,9 @@ body[data-page=csa-standard] .mh-topic-card h4{margin-top:0}
 .cs-dim-more{margin-top:auto;align-self:flex-start;color:var(--accent);font-size:11.5px;font-weight:700;text-decoration:none}
 .cs-dim-more:hover{text-decoration:underline}
 @media(max-width:980px){.cs-dims{grid-template-columns:1fr}}
+
+/* 通用知识体系首页（standards-hub-v2）：GRI / SASB / IFRS / EcoVadis / 国证ESG */
+body[data-page=hub-standard]>.skip,body[data-page=hub-standard]>.site-header,body[data-page=hub-standard]>.site-footer{display:none}
+body[data-page=hub-standard]{margin:0;background:#f3f6f4;color:#17241f}
+body[data-page=hub-standard] .mh-topic-card{min-height:118px}
+body[data-page=hub-standard] .mh-topic-card h4{margin-top:0}

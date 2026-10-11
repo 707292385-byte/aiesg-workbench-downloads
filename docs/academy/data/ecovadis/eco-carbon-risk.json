@@ -1,0 +1,460 @@
+{
+ "id": "eco-carbon-risk",
+ "title": "EcoVadis 碳风险方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "章节：引言（披露目的）；1.1. Objective and approach to materiality；1.2. Scope；1.3. Rating Scale Type；…",
+ "tags": [
+  "EcoVadis",
+  "碳方法学"
+ ],
+ "group": "碳方法学",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "引言（披露目的）",
+     "content_cn": "EcoVadis Carbon Risk \nMethodology disclosure document for \nthe public, rating users and rated items\n\n \nDocument classification: \n       \nEcoVadis Public\n1/20              \n\n \n \nTable of contents \n \n1. Rating Product Disclosure\n3 \n1.1. Objective and approach to materiality\n3 \n1.2. Scope\n3 \n1.3. Rating Scale Type\n4 \n1.4. Coverage of international agreements\n4 \n2. General Methodological Disclosures\n4 \n2.1. Methodology overview\n4 \n2.2. Methodology assumptions and models\n6 \n2.3. Risk factors and scoring\n7 \n2.4. Industry classification\n10 \n2.5. Data sources\n10 \n2.6. Data processes\n11 \n2.7. Data quality\n12 \n2.8. Monitoring availability of new information in between assessments\n13 \n2.9. Engagement with rated companies\n13 \n2.10. Scientific basis\n13 \n2.11. Usage of AI-based tools\n14 \n3. Limitations in data sources, methodologies and information\n14 \n3.1. Methodology limitations\n14 \n3.2. Data source limitations\n14 \n3.3 Means of addressing limitations in data sources\n15 \n4. Methodology revision\n16 \n5. Organisational Disclosures\n19 \n6. Legal notices\n20 \n \n\n \nDocument classification: \n       \nEcoVadis Public\n2/20              \n\n \nThis disclosure document is intended to ensure compliance with Annex III to the EU \nRegulation 2024/3005 on the transparency and integrity of Environmental, Social and \nGovernance (ESG) rating activities, and the Delegated Regulation supplementing Regulation \n(EU) 2024/3005.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1. Objective and approach to materiality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.1. Objective and approach to materiality",
+     "content_cn": "1.1.\nObjective and approach to materiality  \n \nThe objective of the Carbon Risk is to assess a rated company’s carbon risk, based on its current \ncarbon footprint (GHG intensity) and its capacity to decarbonize its operations over the \nmedium term (Transition Risk). The rating is EcoVadis’ own opinion and can differ from the \nassessments provided by other ESG rating providers. \n \nThe Carbon Risk is designed as a tool for users to identify which suppliers they should engage \nin priority on decarbonization action, based on a low-touch, high-volume mapping. The Carbon \nRisk calculation is not solicited by rated companies, and the methodology does not require the \ncollection of company-specific information from rated entities. \n \nTo assess a company’s Overall risk (Carbon), the Carbon Risk methodology considers both \nimpact materiality and financial materiality dimensions: while the GHG intensity factor \nconsiders how a rated company’s GHG emissions impact stakeholders (“inside-out \nperspective”), the Transition Risk considers how external factors impact the rated company \n(“outside-in perspective”).",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2. Scope",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.2. Scope",
+     "content_cn": "1.2.\nScope  \n \nThe Carbon Risk covers solely issues related to greenhouse gas (“GHG”) emissions, a sub-topic \nwithin the Environment aspect of ESG. Social and Governance issues are not taken into \naccount. In consequence, the results of the Carbon Risk fall solely within the “E” category which \nbears full weight in the final score.  \n \nThe methodology is designed to assess the company’s Overall risk (Carbon), based on two risk \nfactors (see Section 2.3 “Risk factors and scoring” for additional details): \n● Inherent risk, including:  \n○ Transition risk, based on the company’s industry and country of operations \n○ GHG intensity, based on the company’s industry and country of operations \n● Procurement Risk  \n \nThe way the Carbon Risk addresses the aforementioned issue does not fully correspond to the \ntopics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability \n\n \nDocument classification: \n       \nEcoVadis Public\n3/20              \n\n \nReporting Directive 2022/2464 (“CSRD”) and detailed in the European Sustainability Reporting \nStandards (“ESRS”). However, it overlaps to a degree and allows for comparison. \nAlthough the Carbon Risk does cover environmental issues, it is not correlated with the \npercentage of taxonomy alignment under Regulation (EU) 2020/852 (“Taxonomy Regulation”).",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3. Rating Scale Type",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.3. Rating Scale Type",
+     "content_cn": "1.3.\nRating Scale Type \n \nThe Carbon Risk results are expressed in absolute values. All Carbon Risk indicators use a static \n1 (very low risk) to 6 (very high risk) scale. They are combined with a weighted average formula \ninto a 1 to 6 scale Overall Carbon Risk.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4. Coverage of international agreements",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "1.4. Coverage of international agreements",
+     "content_cn": "1.4.\nCoverage of international agreements \n \nThe Carbon Risk methodology aligns with the Paris Agreement objectives. In particular, the \nmethodology integrates national decarbonization commitments into the Country Transition \nRisk calculation, specifically adjusting transition risk levels based on the ambition and timeline \nof each country’s climate targets. \n \nThe Carbon Risk does not collect the percentage of companies' activities that are aligned or \nnot with the EU Taxonomy. However, the EU Taxonomy classification is used to assess the \nindustry transition risk, which is one of the Carbon Risk score components (see Section 2.3 “Risk \nfactors and scoring” for additional details).",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1. Methodology overview",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.1. Methodology overview",
+     "content_cn": "2.1.\nMethodology overview \n \nThe Carbon Risk methodology is consistently applied to all eligible entities. The most recent \nversion of the Carbon Risk Methodology is V1.0, applicable as of April 2024. Any changes to the \nmethodology will be communicated via email.  \n \n \na) Methodology governance principles \n \nTo deliver Carbon Risk results with the highest levels of quality and integrity, EcoVadis has \ndesigned a methodology governance framework ensuring our methodologies adhere to the \nfollowing core principles: \n \ni)\nRigorous \n\n \nDocument classification: \n       \nEcoVadis Public\n4/20              \n\n \n \nOur methodologies are developed through a rigorous process including research, impact \nassessment and public consultation of proposed changes to ensure the framework is capable \nof capturing complex sustainability risks and accurately reflect the rated entity’s sustainability \nperformance. \n \nii)\nSystematic \n \nWe employ a structured, repeatable methodological framework that ensures every entity is \nevaluated against a consistent set of principles and requirements tailored to their specific \ncontext. This systematic approach eliminates ad-hoc subjectivity and ensures that the \nmethodology provides a stable basis for comparison of rated entities. \n \niii)\nIndependent \n \nThe development and approval of our methodologies are governed by an internal function that \nis structurally and functionally separate from commercial and sales activities. This ensures the \ndesign of the rating framework is driven solely by analytical integrity and is insulated from \nexternal business pressures. \n \niv)\nCapable of justification \n \nThe methodology is built upon a clear, evidence-based rationale that dictates the specific \nweighting and relevance of each sustainability issue. Every component of the framework is \ndocumented for traceability, ensuring the underlying theory assumptions are defensible under \ntechnical scrutiny. \n \nv)\nComparable over time \n \nOur methodology is designed to provide a stable benchmark by maintaining consistent \nevaluation criteria over time. By ensuring the framework remains steady, we enable rating \nusers to accurately compare year-on-year performance. \n \nvi)\nTransparent \n \nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide \ncomprehensive public disclosures regarding the methodology scope, ranking system, key \nassumptions and models, data sources and processes, and its inherent limitations. \n \nb) Eligibility for evaluation \n \n\n \nDocument classification: \n       \nEcoVadis Public\n5/20              \n\n \nThe methodology allows for evaluation of corporate entities. To be eligible for a Carbon Risk \ncalculation, an entity must meet two criteria:  \n-\nIt must have a legal entity name or operate under the direct parent legal entity name. \nThe legal entity name is the name under which a company is legally registered and \noperates in the country of operation. \n-\nThere must be a relevant level of scope of assessment in terms of carbon risks. This may \nfor instance not be the case if the scope includes widely different business activities, \nmaking it inadequate for a single rating to provide a consolidated overview of risks the \ncompany is confronted to. \n \nThe following organizational and operational structures and items are not eligible for risk \ncalculation: conglomerates (understood as groups offering a variety of divisions that differ in \nterms of activity), business units or divisions without any legal entity name, product names and \ncommercial brands, and cooperatives. \n \nThe legal entity name is the",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2. Methodology assumptions and models",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.2. Methodology assumptions and models",
+     "content_cn": "2.2.\nMethodology assumptions and models \n \nThe Carbon Risk operates under the following assumptions: \n\n \nDocument classification: \n       \nEcoVadis Public\n6/20              \n\n \n \na) Industry and geographical location serve as reliable proxies for carbon risk\n \nThe methodology assumes that a company's specific industrial activity and its geographic \nlocation are the strongest drivers of its potential carbon footprint. As a result, the methodology \nuses these two factors to calculate an inherent risk level, allowing Carbon Risk users to identify \nhotspots in their supply chain or portfolio and to engage suppliers on their carbon \nmanagement practices. \n \nb) External data provides a sufficient basis for initial risk screening\n\nCarbon Risk assumes that high-quality secondary data, such as a country’s energy grid mix or \nan industry's average carbon intensity, is accurate enough to estimate a company’s exposure to \nclimate transition hurdles. This allows for the effective prioritization of suppliers without \nrequiring immediate primary data disclosure from the companies themselves. \nThe Carbon Risk does not employ any additional supporting models or speculative estimations.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3. Risk factors and scoring",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.3. Risk factors and scoring",
+     "content_cn": "2.3.\nRisk factors and scoring \n \na) Risk factors considered in the Carbon Risk methodology \n \nThe Overall risk of a company is based on two risk factors, the Inherent risk and the \nProcurement Risk, which are broken down as follows: \n \ni)\nInherent risk\n \n1) GHG intensity\n \nThis risk factor assesses the intensity of a company’s GHG emissions, based on the average \nGHG emissions of both its industry and country of operation:  \n-\nIndustry GHG intensity (75%)\nThe Industry GHG intensity is based on the weighted average of the following two risk \nfactors: \n-\nObserved Risk (35%) : Each industry is assigned an Observed Risk from 1-6, based \non the industry’s median Scope 1 and Scope 2 GHG emissions according to \nemission data collected by EcoVadis. \n-\nClimate Intensity Factor (65%): Each industry is also assigned a Climate Intensity \nFactor on a scale from 1-6, based on the industry’s ranking across all industries \ncovered by EcoVadis, according to its baseline carbon footprint. This Climate \nIntensity Factor is based on qualitative research and academic data. \n-\nCountry GHG intensity (25%)\n\n \nDocument classification: \n       \nEcoVadis Public\n7/20              \n\n \nThis factor assesses the carbon footprint of a country’s total primary energy supply, \nencompassing all energy uses (e.g., transport, heating, industry), based on the country's \nGHG emissions per unit of primary energy consumption. Other factors such as economic \ncarbon intensity (country's GHG emissions per unit of GDP) or electricity grid carbon \nintensity (GHG emissions per unit of kWh generated) are utilized as secondary proxies \nwhen energy data is unavailable.\n \n2) Transition risk (25%)\n \nThis risk factor assesses the likelihood of a company succeeding in decarbonizing its \noperations, based on the decarbonization likelihood of both its industry and country of \noperation.  \n-\nIndustry transition risk (75%)\nThe industry  \ntransition risk factor is based on a mix of qualitative research and \nquantitative indicators. Quantitative indicators considered for this risk factor include the \nindustry’s inclusion in the list of eligible activities of Regulation (EU) 2020/852 \n(“Taxonomy Regulation”). This is complemented by qualitative research assessing the \nindustry’s ability to successfully address transition risks outlined by the TCFD framework \nand related to policy and regulations, technology, as well as market and reputation. \n-\nCountry transition risk (25%)\nThe country transition risk factor is based on qualitative research regarding the ambition \nof a country’s Net Zero commitments, supplemented by quantitative indicators, such as  \nthe share of renewable energy consumption out of the total national energy \nconsumption. \n \nii)\nProcurement risk (30%) \n \nThe user-specific procurement risk factors, such as spend amount and supplier criticality, while \noptional for generating the initial Carbon Risk rating, significantly improve the usefulness of \nthe results for users. By integrating this additional layer of data, the Carbon Risk helps users \nmore effectively prioritize their supplier engagement strategy. This enables them to focus their \ndecarbonization efforts and Scope 3 emissions reduction initiatives on the most strategically \nimportant and impactful suppliers within their supply chain or portfolio. The factors help shift \nthe focus from a purely inherent carbon risk perspective to a risk assessment that is \ncontextualized by the user's business relationship with the supplier. \n \nb) Scoring of risk factors \n \nThe Inherent risk results from the weighted average of the GHG inten",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4. Industry classification",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.4. Industry classification",
+     "content_cn": "2.4.\nIndustry classification  \n \nThe Carbon Risk uses the United Nations International Standard Industrial Classification of All \nEconomic Activities (ISIC), Revision 5, as a basis to classify the economic activities of rated \ncompanies.  \n \nThe official full document is available on the United Nations Statistic Division website.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5. Data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.5. Data sources",
+     "content_cn": "2.5.\nData sources \nThe Carbon Risk uses different types of data sources depending on the risk factor. \na) Data used by EcoVadis to define the Inherent risk (Carbon)\n \nEcoVadis defines the GHG Intensity and Transition Risks by leveraging a selection of publicly \navailable data sources. These sources include, but are not limited to: \n-\nIPCC \n-\nOur World in Data \n-\nClimate Watch \n-\nNet Zero Tracker \n-\nInternational Energy Agency, etc.\n \nIn addition to this public data, EcoVadis integrates its own proprietary data, which reflects \nactual emission metrics derived from EcoVadis Sustainability Ratings and EcoVadis Carbon \nRatings (see Section 2.3 “Risk factors and scoring” for additional details). \n \nb) Data used by EcoVadis to define the Procurement Risk\n \n\n \nDocument classification: \n       \nEcoVadis Public\n10/20              \n\n \nEcoVadis uses data supplied by Carbon Risk users to determine the Procurement Risk. Users \ncan provide their own non-public data related to supplier spend and criticality. This \nuser-provided information allows EcoVadis to contextualize the Overall risk results by factoring \nin the supplier's strategic importance to the user. \n \nSince no company-provided data is used, sustainability statements required under Directive \n2013/34/EU (“Accounting Directive”), information disclosed under Regulation (EU) 2019/2088 \n(“Sustainable Finance Disclosure Regulation”), or transition plans are not taken into account.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6. Data processes",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.6. Data processes",
+     "content_cn": "2.6.\nData processes \n \nThe Carbon Risk uses a streamlined data process occurring in a secure and organised digital \nplatform provided by EcoVadis. The process includes: \n \na) Data collection \nEvaluated entity data is collected from the Carbon Risk user, and no primary data is collected \nfrom evaluated companies themselves. Users upload the list of entities to evaluate to the \nEcoVadis platform, including the company's unique identifier and the country (optional). \nEvaluated entity’s country & industry are defined by a proprietary matching algorithm.  \nOptionally, users can provide their own data regarding spend amount or companycriticality to \nprovide input for the Procurement risk factor (see Section 2.3 “Risk factors and scoring” for \nadditional details). \nb) Data processing  \n \nThe data collected from the Carbon Action Manager (including Carbon Risk) users enables \nEcoVadis to match the company to a given industry and country. A risk level is then \nautomatically assigned to the company based on an established scoring methodology (see \nSection 2.3 “Risk factors and scoring” for additional details). \n \nc) Data output \n \nThe aggregation of individual risk factor scores (see section 2.3 “Risk factors and scoring”) \nresults in a final Overall risk level, expressed on a scale from 1 (Very Low) to 6 (Very High), which \nserves as the primary metric for prioritization of company engagement on decarbonization. \n \nIn addition to the overall risk level, the Carbon Risk displays a granular breakdown of the \nunderlying risk factors, including the following: \n-\nGHG intensity \n-\nTransition Risk \n-\nProcurement Risk, including spend or criticality \n\n \nDocument classification: \n       \nEcoVadis Public\n11/20              \n\n \n \nd) Data storage & historical data updates and revision \nData from users regarding rated companies is stored in the system for traceability. Users have \nthe ability to edit country information for unidentified evaluated companies, which will prompt \nan automatic recalculation of the risk level. \nApart from user edits, changes to the Carbon Risk levels occur only after the annual update of \nquantitative indicators that underpin the risk factors. The datasets currently in use incorporate \nthe most recent data source update, implemented in April 2024.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7. Data quality",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.7. Data quality",
+     "content_cn": "2.7.\nData quality \nTo secure the quality of Carbon Risk results, EcoVadis implements the following data quality \ncontrol mechanisms: \na. Selection of authoritative data sources \nTo ensure the rigor and relevance of our risk calculations, EcoVadis’ external sources must \nadhere to stringent criteria. These criteria guarantee the data is based on authoritative, \nup-to-date consensus and maintains high scientific rigor and global coverage. \nb. Input standardization (ISIC & ISO Codes) \nTo ensure a standardized and rigorous risk assessment, the methodology mandates the use of \nspecific classification systems for input data. All company profiles are mapped against the ISIC \nclassification for industries (refer to Section 2.4 \"Industry classification\" for further details) and \nISO codes for countries. This strict adherence to standardized codes prevents ambiguity and \nmisclassification errors, which are essential to avoid distortions in the final risk assessment. \nc. Traceable and standardized calculation \nCarbon Risk employs a deterministic computation model with standardized calculation rules. \nThis approach guarantees full traceability and consistency of results throughout the entire \ndatabase, bypassing the unpredictability associated with \"black box\" prediction methods. \n \nThe data on rated companies collected for the Carbon Risk, primarily focused on a company's \nindustry and country of operation, is not subject to systematic assurance engagement.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8. Monitoring availability of new information in between assessments",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.8. Monitoring availability of new information in between assessments",
+     "content_cn": "2.8.\nMonitoring availability of new information in between assessments \n \nThe Carbon Risk does not involve screening for additional data between assessments.  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n12/20",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9. Engagement with rated companies",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.9. Engagement with rated companies",
+     "content_cn": "2.9.\nEngagement with rated companies  \n \nCompanies for which a contact mail has been identified receive a notification for a 2 business \ndays grace period to review and submit any factual error1. After the grace period ends, the \nCarbon Risk score is delivered to Carbon Action Manager (commercial product including \nCarbon Risk tool) users. Any company can access their score and submit a factual error claim at \nany time via EcoVadis dedicated page (https://portal.ecovadis-survey.com/registration/#/) \n \nThe rating process does not involve any off-site or on-site engagement with the rated \ncompanies, as it relies primarily on externally-sourced data. \n \nAs the Carbon Risk does not take into account company-specific information, no management \nsystem documentation or relevant internal documents of the rated company are used for the \npurpose of the rating.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10. Scientific basis",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.10. Scientific basis",
+     "content_cn": "2.10.\nScientific basis  \n \nThe Carbon Risk methodology is based on key climate science concepts.  \n \nThe methodology calculating a company’s GHG intensity accounts for the full spectrum of \ngreenhouse gases defined by Kyoto Protocol and uses the IPCC Global Warming Potential \n(GWP) factors, ensuring scientific robustness & comparability.  \nThe accuracy of GHG intensity calculations is ensured by supplementing academic research on \nindustry GHG emissions with benchmarks of verified emissions data from tens of thousands of \ncompanies within the EcoVadis Network. \n \nThe methodology assessing a company’s Transition Risk is aligned with the Paris Agreement \nand integrates national Net Zero commitments compatible with 1.5°C mitigation pathways.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11. Usage of AI-based tools",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "2.11. Usage of AI-based tools",
+     "content_cn": "2.11.\nUsage of AI-based tools \n \nEcoVadis does not leverage machine learning technologies or any other AI-based solutions to \nproduce the Carbon Risk.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "3. Limitations in data sources, methodologies and information",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3. Limitations in data sources, methodologies and information",
+     "content_cn": "3.\nLimitations in data sources, methodologies and information",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "3.1. Methodology limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.1. Methodology limitations",
+     "content_cn": "3.1.\nMethodology limitations \n \n1 This notification will be live with the launch of EcoVadis upgraded buyer’s platform by the end of December 2026 \n\n \nDocument classification: \n       \nEcoVadis Public\n13/20              \n\n \nThe Carbon Risk methodology includes the following limitations: \na. Exclusion of physical climate risks \nTCFD’s Climate risk definition encompasses both transition and physical risks. The Carbon Risk \nmethodology focuses exclusively on Transition Risk (regulatory, market, and technological \nshifts) and GHG Intensity. Consequently, it does not assess a company's vulnerability to acute or \nchronic physical climate hazards, such as extreme weather events, changing temperature \npatterns, or rising sea levels. \nb. Reliance on inherent risk proxies \nThe Carbon Risk utilizes industry and country-level proxies which, while providing a \nstandardized baseline, are not designed to capture company-specific nuances. Because the \nmodel relies on statistical averages rather than primary company disclosures, it isn’t designed \nto distinguish the actual performance of companies within the same sector and region. \nThe Carbon Risk is intended primarily as a screening tool for managing risks across an entire \nportfolio. The deliberate exclusion of company-specific data from its methodology is addressed \nby the fact that the EcoVadis product suite offers other tools to assess a company's specific \ncarbon management. Suppliers flagged as high-risk by the Carbon Risk are subsequently \nrecommended for the EcoVadis Carbon Rating. This two-step process ensures that initial risk \nestimations, based on industry and country proxies, are ultimately validated and refined \nthrough an evidence-based assessment of the company's actual management maturity.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.2. Data source limitations",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.2. Data source limitations",
+     "content_cn": "3.2.\nData source limitations \n \nData sources leveraged for the Carbon Risk include the following limitations: \n \na) Availability and consistency of data used \n \nConstructing granular benchmarks across 240+ industries and 210+ countries requires \nextensive data, leading to gaps in niche sectors.  \nFurthermore, the methodology utilizes aggregated data from the EcoVadis Network, resulting \nin benchmarks that are inherently skewed toward the performance of companies already \nparticipating in sustainability reporting.  \nFinally, the consolidation of global datasets entails an inherent time lag between the \npublication of raw statistics and their integration into the risk methodology. \n \nb) Completeness of country-level metrics \n \nThe Country GHG intensity methodology relies on primary energy consumption metrics. These \nnational-level statistics may not fully account for cross-border energy flows or technical \n\n \nDocument classification: \n       \nEcoVadis Public\n14/20              \n\n \ninefficiencies in electricity transmission and distribution. Consequently, for countries with \nsignificant energy imports/exports or highly inefficient grid infrastructure, the standard primary \nenergy metrics may result in a marginal distortion of the calculated carbon intensity.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.3. Means of addressing limitations in data sources",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "3.3. Means of addressing limitations in data sources",
+     "content_cn": "3.3Means of addressing limitations in data sources  \n \nTo address limitations in data sources for the Carbon Risk, EcoVadis implements a number of \nmeasures and processes aimed at reducing related risks to a minimum. These include: \n \na) Scientifically rooted proxy hierarchy  \n \nTo address potential gaps in global data coverage, the methodology employs a strictly defined \nhierarchy of reliability. Missing primary data points are substituted with the next most \nstatistically correlated proxy (e.g., carbon intensity of electricity or regional clusters), ensuring \nthat risk calculations remain grounded in the best available scientific evidence rather than \ndefault assumptions.  \n \nb) Transparency and ongoing review \n \nTo ensure users correctly interpret the predictive nature of the results, EcoVadis provides \nextensive documentation detailing the data sources and calculation logic. Furthermore, the \nrisk models undergo rigorous testing and user feedback loops to verify that the theoretical risk \nlevels align with observed realities in the Carbon Rating database, ensuring the tool’s \ncontinued relevance and accuracy.",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "4. Methodology revision",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "4. Methodology revision",
+     "content_cn": "4.\nMethodology revision \n \nThe revision of the methodology of the Carbon Risk follows the steps outlined in the \nMethodology Revision Procedure. \n \nMethodological development and application are independent of all political, economic, or \nother external influences, and led by a dedicated methodology team, which handles \nprioritization of methodology developments, research and execution. The methodology team is \nseparate from commercial functions, is managed by the Head of Methodology and reports to \nthe Chief Ratings Officer. \n \na) Methodology Revision Procedure \n \nThe methodology revision process is structured in six phases. Some phases are optional for \nmethodology changes that are not classified as high impact, but can still be considered where \nrelevant.\n\n \nDocument classification: \n       \nEcoVadis Public\n15/20              \n\n \n \n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, \nwhich is approved by the Head of Methodology during the Quarterly Planning. The \nmethodology owner then drafts a project charter detailing the project's description, \npurpose, rationale, objectives, scope, team and risks, using either a Research or \nImplementation template. Where needed, a dedicated Methodology Research phase \nmay be initiated first to investigate and justify the need for a formal revision before \nproceeding to implementation.\n \n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, \nresearch findings and the proposed specific changes. The proposal is reviewed and \ndiscussed with the project's steering committee to ensure rigor, consistency, and \nalignment with market and regulatory needs. The steering committee is composed of \nrelevant methodology team members and may involve representatives of other \ndepartments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project \nmanager integrates feedback from the steering committee to adjust the proposal \naccordingly.\n \n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level \ndistribution is performed.\n \n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is \nconducted. EcoVadis directly engages a targeted selection of rating users, rated entities \nand external stakeholders to ensure a representative feedback loop.\n \n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final \nmethodology revision proposal, as part of its methodology oversight responsibilities. This \nbody is responsible for identifying potential concerns, raising issues, or requesting \nfurther clarification. If any highlighted problems remain unresolved, the Ethics & \nCompliance team escalates the matter to the ESGR Governance Council for final \narbitration and decision-making. \n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for \nregular changes, and by the Chief Rating Officer for high impact changes, and officially \nimplemented. Methodology changes are communicated to rating users and rated \nentities in the quarterly methodology change communication. The methodology \n\n \nDocument classification: \n       \nEcoVadis Public\n16/20              \n\n \ndisclosure documents are updated accordingly. \n \nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis \nto ensure they remain fit for purpose. Methodology revisions are communic",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "5. Organisational Disclosures",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "5. Organisational Disclosures",
+     "content_cn": "5.\nOrganisational Disclosures \nTo ensure comprehensive transparency and full compliance with European ESG Rating \nRegulation standards, this methodology document is published on the official EcoVadis \nwebsite page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.  \n \nThis page includes all required organisational disclosures in a dedicated section: Ownership \nstructure, Business Model & Pricing, Conflict of Interest, and Complaint management & \nExternal \nstakeholder \nreasoned \nconcern: \nhttps://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "6. Legal notices",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "title": "6. Legal notices",
+     "content_cn": "6.\nLegal notices \n \nThe Carbon Risk is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée \n75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and \ncompanies register number 497 842 914 - R.C.S. Paris. \n \nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the \nRegulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November \n2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating \nactivities (‘the Regulation’), in particular, Articles 23 and 24 of the Regulation setting out \nrequirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as \nwell as applicable Regulatory Technical Standards of 15th October 2025. \n \nCopyright: No part of this document may be reproduced, modified or distributed in any form \nor manner without prior written permission of EcoVadis.  \n \n\n \nDocument classification: \n       \nEcoVadis Public\n19/20              \n\n \nNo warranty: This document is intended for informational purposes only, and EcoVadis does \nnot warrant the accuracy, reliability, completeness of the information, content, text, and \ngraphics herein, and is subject to change without notice.   \n \nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any \ndirect, indirect, special, incidental or consequential damages arising out of the use of any \nopinion or information expressly or implicitly contained  in this publication.  \n \nCopyright © 2026 EcoVadis SAS (Paris, France)  \nAll Rights Reserved \n \n\n \nDocument classification: \n       \nEcoVadis Public\n20/20",
+     "content": "",
+     "source": "EcoVadis 碳风险方法学（官方公开方法学披露文件）",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
+}
