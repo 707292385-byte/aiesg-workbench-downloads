@@ -118,10 +118,11 @@ function guideVisual(value,esc,availableAssets=[],digest={}){
 }
 function practicalBlock(block,key,esc,renderBlock){let body='';if(block.type==='process_flow')body=processFlow(block,esc);else if(block.type==='four_pillars')body=pillarGrid(block,esc);else if(block.type==='card_grid')body=cardGrid(block,esc);else if(block.type==='external')body=externalGrid(block,esc);else if(block.type==='guidance')body=structuredGuidance(block.content_cn||block.content||'',esc);else{const next={...block,content_cn:block.content_cn||block.content||''};delete next.content;body=renderBlock(next,key);}return body+refs(block,esc);}
 function sectionCard(section,index,layer,esc,renderBlock,guideAssets){
- const block=(section.blocks||[])[0]||{},provenance=block.provenance||'';
+ const allBlocks=(section.blocks||[]),block=allBlocks[0]||{},provenance=block.provenance||'';
  const label=layer==='original'?'指引原文':layer==='guide'?'官方编制指南':provenance==='authority_explanation'?'权威标准辅助解读':provenance==='ai_assistance'?'AI辅助建议':'条文结构化整理';
  let body='',hasFigure=false;
-if(layer==='original')body=officialBlock(block,`official-${index}`,esc,renderBlock,section.title);
+if(layer==='original'&&allBlocks.length>1){body=allBlocks.map((b,bi)=>(b.exchangeVariants||[]).length?officialBlock(b,`official-${index}-${bi}`,esc,renderBlock,section.title):practicalBlock(b,`practice-${index}-${bi}`,esc,renderBlock)).join('');}
+ else if(layer==='original')body=officialBlock(block,`official-${index}`,esc,renderBlock,section.title);
  else if(layer==='guide'){
   const original=block.content_cn||block.content||'',source=String(block.source||'').trim(),cleanedFigure=stripFigureNotice(original),cleaned=source&&cleanedFigure.startsWith(source)?cleanedFigure.slice(source.length).replace(/^[:：\s]+/,'').trim():cleanedFigure;
   hasFigure=cleanedFigure!==original;
