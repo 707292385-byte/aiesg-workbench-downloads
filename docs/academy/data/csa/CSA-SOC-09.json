@@ -16,7 +16,7 @@
    "title": "标准定位",
    "blocks": [
     {
-     "type": "text",
+     "type": "standard",
      "content_cn": "普惠金融属于社会维度。该标准只在部分行业适用。",
      "provenance": "knowledge_note"
     }
@@ -53,7 +53,7 @@
    "title": "使用提示",
    "blocks": [
     {
-     "type": "text",
+     "type": "standard",
      "content_cn": "本页梳理标准的关系和关注方向；具体当期问卷、权重与评分口径应以S&P Global发布的适用版本为准。",
      "provenance": "knowledge_note"
     }

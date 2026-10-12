@@ -36,6 +36,8 @@
   const TIME_NOTES = {
     '财会〔2024〕17号': '2024年12月起施行',
     '财会〔2025〕21号': '2025年9月印发 · 企业自愿实施',
+    '财会〔2025〕34号': '2025年印发 · 已施行',
+    '财办会〔2026〕34号': '征求意见中 · 反馈截止 2026年10月26日',
   };
   const shortFile = name => SHORT_NAMES[clean(name)] || clean(name);
   const docNo = name => { const m = clean(name).match(/财[会办会]*〔\d{4}〕\d+号/); return m ? m[0] : ''; };
@@ -50,6 +52,7 @@
     const industryCount = Math.max(0, industryGroup.items.length - 1);
     const homeUrl = href('index.html');
     const topicHref = id => href('topic.html', { standard: standard.id, id });
+    const industryCards = standard.industryCards || [];
 
     const topbar = `<header class="mp-topbar"><div class="mp-topbar-inner">
       <a class="mp-brand" href="${homeUrl}"><span>财</span>财政部可持续披露准则解读</a>
@@ -80,18 +83,30 @@
       ${index < ARCH.length - 1 ? `<div class="mo-arch-gate"><i>↓</i><span>${esc(ARCH[index + 1].gate)}</span></div>` : ''}`).join('');
 
     /* 02 文件状态：已发布 / 征求意见中 */
-    const fileList = (list, pendingFlag) => list.length ? `<ul>${list.map(file => `
-      <li><a href="${esc(file.url)}" target="_blank" rel="noreferrer"><span>${esc(shortFile(file.name))}</span><small>${esc(TIME_NOTES[docNo(file.name)] || docNo(file.name))}</small></a></li>`).join('')}</ul>` : '';
+    /* 文件行元信息：有文号取文号与对应注记；无文号的随文文件（如起草说明）按随征求意见稿印发处理 */
+    const fileMeta = file => {
+      const no = docNo(file.name);
+      if (no) return [TIME_NOTES[no] || no, no];
+      return [TIME_NOTES['财办会〔2026〕34号'] || '', '随文印发'];
+    };
+    const fileList = list => list.length ? `<ul>${list.map(file => {
+      const [note, chip] = fileMeta(file);
+      return `<li><a href="${esc(file.url)}" target="_blank" rel="noreferrer"><div><span class="mo-file-name">${esc(shortFile(file.name))}</span><small>${esc(note)}</small></div><code>${esc(chip)}</code></a></li>`;
+    }).join('')}</ul>` : '';
     const fileBoard = `<div class="mo-files">
-      <section class="mp-card"><header><b>已发布</b><span>${released.length} 份</span></header>${fileList(released)}</section>
-      <section class="mp-card is-pending"><header><b>征求意见中</b><span>${pending.length} 份</span></header>${fileList(pending)}<p class="mo-files-note">财办会〔2026〕34号，2026年9月28日印发，反馈截止2026年10月26日；尚未生效。准则应用指南聚焦征求意见中的共性问题，对气候准则部分条款进行解释说明；行业应用指南聚焦行业特定事项——两者相互衔接、各有侧重。</p></section>
+      <section class="mp-card is-released"><header><b>已发布</b><span>${released.length} 份</span></header>${fileList(released)}</section>
+      <section class="mp-card is-pending"><header><b>征求意见中</b><span>${pending.length} 份</span></header>${fileList(pending)}</section>
+      <p class="mo-files-note">征求意见稿（财办会〔2026〕34号）2026年9月28日印发，反馈截止2026年10月26日，尚未生效。准则应用指南聚焦共性问题、对气候准则部分条款解释说明；行业应用指南聚焦行业特定事项——两者相互衔接、各有侧重。</p>
     </div>`;
 
     /* 03 主题目录 */
+    const industryOverview = group => group.id === 'industry' && industryCards.length ? `
+        <div class="mh-ind-grid">${industryCards.map(card => `
+          <a class="mh-ind-card" href="${topicHref(card.id)}"><b>${esc(card.title)}</b><p>${esc(card.content)}</p></a>`).join('')}</div>` : '';
     const pillars = groups.map((group, groupIndex) => `
       <section class="mh-pillar mp-card" id="group-${groupIndex}">
         <header><div><small>${number(groupIndex + 1)} · ${group.id === 'industry' ? '征求意见稿' : '已发布'}</small><h3>${esc(group.title)}</h3></div><strong>${group.items.length} 个主题</strong></header>
-        <div class="mh-theme"><div class="mh-topic-grid">${group.items.map(item => `
+        <div class="mh-theme">${industryOverview(group)}<div class="mh-topic-grid">${group.items.map(item => `
           <a class="mh-topic-card" href="${topicHref(item.id)}">
             <h4>${esc(item.title)}</h4><p>${esc(clip(item.summary, 72))}</p>
             <div><span>${esc(item.eyebrow || '')}</span><b>查看解读 →</b></div>
@@ -113,11 +128,22 @@
         <section class="mp-section" id="files">
           <div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>文件状态</h2></div><p>先分清已发布文件与征求意见稿，再决定准备工作的口径</p></div>
           ${fileBoard}
-        </section>
-
-        <section class="mp-card mo-exchange" style="margin-top:10px">
-          <header><b>与交易所指引的关系</b></header>
-          <p style="margin:0;color:#587064;font-size:12.5px;line-height:1.75">财政部企业可持续披露准则是<b>面向各类企业的国家统一可持续披露准则</b>，由财政部会同相关部门制定；上海、深圳、北京证券交易所发布的上市公司可持续发展报告指引是<b>上市公司层面的具体披露规则</b>。两者层级和适用范围不同，企业在编制报告时需要分别核对。</p>
+          <section class="mp-card mo-exchange">
+            <header><b>与交易所指引的关系</b><span>两级规则 · 编制报告时分别核对</span></header>
+            <div class="mo-exchange-grid">
+              <div class="mo-exchange-col">
+                <small>国家统一可持续披露准则</small>
+                <b>财政部企业可持续披露准则</b>
+                <p>由财政部会同相关部门制定，面向各类企业</p>
+              </div>
+              <div class="mo-exchange-vs"><span>对照</span></div>
+              <div class="mo-exchange-col">
+                <small>上市公司层面的具体披露规则</small>
+                <b>交易所可持续发展报告指引</b>
+                <p>由上海、深圳、北京证券交易所发布，适用于上市公司</p>
+              </div>
+            </div>
+          </section>
         </section>
 
         <section class="mp-section" id="topics">

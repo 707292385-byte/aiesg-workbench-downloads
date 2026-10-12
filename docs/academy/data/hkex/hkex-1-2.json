@@ -141,7 +141,7 @@
    "title": "实践建议",
    "blocks": [
     {
-     "type": "text",
+     "type": "standard",
      "content_cn": "重要性评估应文档化，保留评估过程和依据。目标设定应遵循SMART原则。变更统计方法时须说明原因和影响，确保数据可比较。",
      "provenance": "knowledge_note"
     },

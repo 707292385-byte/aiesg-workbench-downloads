@@ -1,441 +1,928 @@
 {
-  "id": "eco-vitals",
-  "title": "EcoVadis Vitals 方法学",
-  "eyebrow": "公开方法学披露文件",
-  "summary": "EcoVadis Vitals 方法学披露：评级目标与重要性方法、四大主题、0–60 分评分、数据来源与质量、AI 应用、局限性与方法学修订。",
-  "tags": [
-    "EcoVadis",
-    "专项方法学"
-  ],
-  "group": "专项方法学",
-  "status": "",
-  "officialUrl": "https://ecovadis.com/",
-  "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
-  "learningLayers": [
-    "original"
-  ],
-  "sections": [
+ "id": "eco-vitals",
+ "title": "EcoVadis Vitals 方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "EcoVadis Vitals 方法学披露：评级目标与重要性方法、四大主题、0–60 分评分、数据来源与质量、AI 应用、局限性与方法学修订。",
+ "tags": [
+  "EcoVadis",
+  "专项方法学"
+ ],
+ "group": "专项方法学",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
     {
-      "id": "s1",
-      "title": "引言（披露目的）",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "引言（披露目的）",
-          "content_cn": "EcoVadis Vitals\n面向公众、评级用户（rating users）与被评级对象（rated items）的方法学披露文件\n\n本披露文件旨在确保符合欧盟第 2024/3005 号法规（关于环境、社会和治理（ESG）评级活动的透明度与完整性）附件三，以及补充第 (EU) 2024/3005 号法规的授权法规的要求。\n\n1. 评级产品披露",
-          "content": "EcoVadis Vitals\nMethodology disclosure document for the public, rating users and rated items\n\nThis disclosure document is intended to ensure compliance with Annex III to the EU Regulation 2024/3005 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities, and the Delegated Regulation supplementing Regulation (EU) 2024/3005.\n\n1. Rating Product Disclosure",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "title": "1.1 重要性的目标与方法",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.1 重要性的目标与方法",
-          "content_cn": "1.1 重要性的目标与方法\n\nVitals 评级的目标，是评估被评级公司应对其对利益相关方实质性可持续影响的能力。该评级是 EcoVadis 自身的独立意见，可能不同于其他 ESG 评级机构所提供的评估。\n\nVitals 评级被设计为用户将 ESG 因素纳入其采购决策、开展供应链尽职调查的工具。Vitals 评分并非由被评级公司（供应商）主动申请；而是由采购方为评估其供应商而发起。被评级公司（供应商）参与此过程，并同意接受评估。公司始终可以拒绝接受评估。\n\n为评估公司管理体系的质量，EcoVadis 基于影响重要性（impact materiality）方法识别实质性议题（即\"由内而外\"的视角，识别公司运营、产品和服务对环境与社会产生的外部影响）。Vitals 评级不包含财务重要性（financial materiality，即\"由外而内\"的视角），因此不衡量外部 ESG 因素对公司构成的财务风险。\n\n评估所涵盖的具体影响归为 4 个主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），它们共同涵盖 15 项具体标准（详见\"1.2 评级范围\"）。",
-          "content": "1.1. Objective and approach to materiality\n\nThe objective of the Vitals rating is to assess the ability of a rated company to address material sustainability impacts on stakeholders. The rating is EcoVadis' own opinion and can differ from the assessments provided by other ESG rating providers.\n\nThe Vitals rating is designed as a tool for users to integrate ESG factors into their procurement decisions and to exercise supply chain due diligence. Vitals scores are not solicited by rated companies (suppliers). They are requested by buyers to rate their suppliers. The rated company (supplier) is engaged in this process, and consents to undergo an assessment. Companies can always refuse to undergo an assessment.\n\nTo assess the quality of a company's management system, EcoVadis identifies material issues based on an impact materiality approach (the \"inside-out\" perspective identifying external impacts that a company's operations, products, and services have on the environment and society). The Vitals rating does not incorporate financial materiality (the \"outside-in\" perspective) and therefore does not measure the financial risks posed to the company by external ESG factors.\n\nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, Labor & Human Rights, Ethics and Sustainable Procurement, which together encompass 15 specific criteria (see section \"1.2 Scope\" for additional details).",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "title": "1.2 评级范围",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.2 评级范围",
-          "content_cn": "1.2 评级范围\n\nVitals 评级是一项综合评级，涵盖四个核心主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement）。这四个主题涵盖以下可持续议题：\n\n● 环境\n○ 空气污染\n○ 水\n○ 生物多样性\n○ 材料、化学品与废弃物\n● 劳工与人权\n○ 员工健康与安全\n○ 工作条件\n○ 社会对话\n○ 童工、强迫劳动与人口贩卖\n○ 多元、公平与包容\n○ 外部利益相关方人权\n● 商业行为\n○ 腐败\n○ 负责任的信息管理\n● 可持续采购\n○ 供应商环境实践\n○ 供应商社会实践\n\nVitals 评级范围因行业而异，涵盖上述议题的全部或子集。因此，对于归类为\"制造业（Manufacturing）\"\"批发业（Wholesaler）\"或\"其他及办公服务（Other & Office Services）\"的公司，其评级及相应问卷各不相同。各行业中被视为相关的议题如下表所示：\n\n标准 | 制造业 | 批发业 | 其他及办公服务\n空气污染 | X | X |\n水 | X | |\n生物多样性 | X | X |\n材料、化学品与废弃物 | X | X |\n员工健康与安全 | X | X | X\n工作条件 | X | X | X\n社会对话 | X | X | X\n童工、强迫劳动与人口贩卖 | X | | X\n多元、公平与包容 | X | X | X\n外部利益相关方人权 | X | |\n腐败 | X | X | X\n负责任的信息管理 | X | X | X\n供应商环境实践 | X | X | X\n供应商社会实践 | X | X | X\n\n上述议题与第 2013/34/EU 号会计准则指令（Accounting Directive，经第 2022/2464 号《企业可持续报告指令》（CSRD）修订，并在《欧洲可持续报告准则》（ESRS）中详述）的主题并不完全对应。但二者存在一定程度的重叠，可以进行比较。\n\n尽管 Vitals 评级确实涵盖环境议题，但其与第 (EU) 2020/852 号法规（《分类法条例》，Taxonomy Regulation）下的分类法对齐百分比并不相关。\n\n每个主题的风险等级均以六级风险等级呈现，范围从\"极低\"到\"极高\"风险，便于各主题之间进行比较，并基于各管理体系指标（management indicator）所获点数而定（详见第 2.3 节\"管理体系指标与评分\"），这些指标用于评估公司在四个主题上管理方法的成熟度。\n\n整体风险等级基于四个主题风险等级的平均值，同样以从\"极低\"到\"极高\"风险的六级风险等级呈现。",
-          "content": "1.2. Scope\n\nThe Vitals rating is an aggregated rating covering four core themes: Environment, Labor & Human Rights, Ethics, and Sustainable Procurement. These four themes cover the following sustainability issues:\n\n● Environment\n○ Air Pollution\n○ Water\n○ Biodiversity\n○ Materials, chemicals and waste\n● Labor & Human Rights\n○ Employee Health & Safety\n○ Working conditions\n○ Social dialogue\n○ Child labor, forced labor and human trafficking\n○ Diversity, equity and inclusion\n○ External stakeholder human rights\n● Ethics\n○ Corruption\n○ Responsible Information Management\n● Sustainable Procurement\n○ Supplier Environmental Practices\n○ Supplier Social Practices\n\nThe Vitals rating scope varies by industry, addressing all or a subset of the issues outlined above. Consequently, the rating and its corresponding questionnaire are distinct for companies categorized as \"Manufacturing,\" \"Wholesaler,\" or \"Other & Office Services\". The issues considered relevant for each industry category are summarized in the table below:\n\nCriteria | Manufacturing | Wholesaler | Other & Office Services\nAir Pollution | X | X |\nWater | X | |\nBiodiversity | X | X |\nMaterials, chemicals and waste | X | X |\nEmployee Health & Safety | X | X | X\nWorking conditions | X | X | X\nSocial dialogue | X | X | X\nChild labor, forced labor and human trafficking | X | | X\nDiversity, equity and inclusion | X | X | X\nExternal stakeholder human rights | X | |\nCorruption | X | X | X\nResponsible Information Management | X | X | X\nSupplier Environmental Practices | X | X | X\nSupplier Social Practices | X | X | X\n\nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (\"CSRD\") and detailed in the European Sustainability Reporting Standards (\"ESRS\"). However, they overlap to a degree and allow for comparison.\n\nAlthough the Vitals rating does cover environmental issues, it is not correlated with the percentage of taxonomy alignment under Regulation (EU) 2020/852 (\"Taxonomy Regulation\").\n\nEach theme risk level is presented on a scale of six risk levels ranging from Very Low to Very High Risk, allowing for comparability between each theme, and is based on the number of points received for each management indicator (see section 2.3 \"Management system indicators and scoring\" for additional information), which are designed to assess the quality of the company's management approach on each of the four themes.\n\nThe overall risk level is based on an average of the four theme risk levels and is also presented on a scale of six risk levels ranging from Very Low to Very High Risk.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "title": "1.3 评分等级类型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.3 评分等级类型",
-          "content_cn": "1.3 评分等级类型\n\nVitals 评级结果以绝对值表示。评分范围为 0 至 60 分，为每个风险等级设定预定义区间，点数越高对应风险等级越低。\n\n● 高风险（High Risk）：0 至 13 分\n● 中风险（Medium Risk）：14 至 28 分\n● 低风险（Low Risk）：29 至 60 分\n风险等级在单个主题层面计算（环境、劳工与人权、商业行为与可持续采购主题），整体得分（Overall Score）为所有主题的平均值。\nVitals 评级既提供全局综合风险等级，也提供四个主题各自的细分风险等级。有关评分计算方式及 ESG 得分因素权重公式的更多细节，请参阅第 2.3 节（b）。",
-          "content": "1.3. Rating Scale Type\n\nThe Vitals rating results are expressed in absolute values. The score ranges from 0 to 60, with pre-defined ranges set for each risk level, with higher levels of points corresponding to lower levels of risk.\n\n● High Risk: 0 to 13 points\n● Medium Risk: 14 to 28 points\n● Low Risk: 29 to 60 points\nRisk levels are calculated at the individual theme level (Environment, Labor and Human Rights, Ethics and Sustainable Procurement themes), and the Overall Score is the average of all themes.\nThe Vitals rating provides both a global aggregated risk level, and granular, disaggregated risk levels for each of the four themes. For more details on how the scoring is calculated, and ESG score factors weight formulas, refer to the Section 2.3 (b)",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "title": "1.4 国际协议的覆盖",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.4 国际协议的覆盖",
-          "content_cn": "1.4 国际协议的覆盖\n\nVitals 方法学考虑了以下国际协议的目标：\n- 国际劳工组织（ILO）公约：该方法学与公约促进体面劳动、保护工作基本人权、平衡国际竞争环境的目标保持一致。\n- 《巴塞尔公约》（Basel Convention）：该方法学与公约保护人类健康与环境免受危险废弃物及其他废弃物不利影响的目标保持一致。\n- 《斯德哥尔摩公约》（Stockholm Convention）：该方法学与公约保护人类健康与环境免受持久性有机污染物（POPs）风险的目标保持一致。但评级不会系统性核查企业是否符合《斯德哥尔摩公约》的淘汰目标。\n- 《水俣公约》（Minamata Convention）：该方法学与公约保护人类健康与环境免受人为汞及汞化合物排放与释放影响的目标保持一致。但评级不会系统性核查企业是否符合《斯德哥尔摩公约》的淘汰目标。\n这些公约影响了环境（Environment）与劳工与人权（Labor & Human Rights）主题的结构与议题覆盖，公司的管理体系根据其与这些目标的一致性进行评估。\n\n尽管会询问被评级公司是否设有碳减排目标，Vitals 方法学并未具体提及《巴黎协定》（Paris Agreement）的目标与宗旨。",
-          "content": "1.4. Coverage of international agreements\n\nThe Vitals methodology considers the objectives of the following international agreements:\n- International Labor Organization (ILO) conventions: The methodology is aligned with the conventions' objective of promoting decent work, protecting fundamental human rights at work and leveling the international playing field.\n- Basel Convention: The methodology is aligned with the convention's objective of protecting human health and the environment from the adverse impacts of hazardous and other wastes.\n- Stockholm Convention: The methodology is aligned with the convention's objective of protecting human health and the environment from risks posed by persistent organic pollutants (POPs). The rating does not, however, systematically verify whether companies align with the phase-out targets of the Stockholm convention.\n- Minamata Convention: The methodology is aligned with the convention's objective of protecting human health and the environment from man-made emissions and releases of mercury and mercury compounds. The rating does not, however, systematically verify whether companies align with the phase-out targets of the Stockholm convention.\nThese conventions have informed the structure and issue coverage of the Environment and Labor & Human Rights themes, and the management system of companies is assessed based on its alignment with these objectives.\n\nWhile rated companies are asked whether they have carbon reduction targets, the Vitals methodology does not specifically refer to the targets and objectives of the Paris Agreement.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s6",
-      "title": "2.1 方法学概述",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.1 方法学概述",
-          "content_cn": "2.1 方法学概述\n\nVitals 方法学一贯适用于所有符合条件的实体，并会根据公司概况（尤其是所在行业）进行调整。Vitals 评级方法学的最新版本为 V2.0，自 2025 年 1 月起适用。方法学的任何变更都将通过电子邮件告知。\n\na) 方法学治理原则\n\n为以最高质量和诚信交付 Vitals 评级，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：\n\ni) 严谨（Rigorous）\n我们的方法学通过严谨的流程制定，包括研究、影响评估以及对拟议变更的公开咨询，以确保该框架能够捕捉复杂的可持续风险，并准确反映被评级实体的可持续表现。\n\nii) 系统化（Systematic）\n我们采用结构化、可重复的方法学框架，确保每个实体都按照一套与其特定背景相一致的、统一的原则和要求进行评估。这种系统化的方法消除了临时性的主观判断，并确保方法学为被评级实体之间的比较提供稳定的基础。\n\niii) 独立（Independent）\n我们方法学的制定与审批由一个在结构和职能上均独立于商业与销售活动的内部职能负责。这确保评级框架的设计完全由分析诚信驱动，不受外部业务压力影响。\n\niv) 可论证（Capable of justification）\n该方法学建立在清晰、基于证据的论证基础之上，明确各可持续议题的具体权重与相关性。框架的每个组成部分均有文档记录以便追溯，确保底层理论假设在技术审查下经得起推敲。\n\nv) 跨期可比（Comparable over time）\n我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确比较年度同比表现。\n\nvi) 透明（Transparent）\n为符合欧盟 ESG 评级法规设定的透明度标准，我们就方法学范围、分级体系、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。\n\nb) 评估资格\n\n该方法学允许对企业实体进行评估。要获得 Vitals 评级资格，实体必须具有法定实体名称。法定实体名称是指公司在运营所在国合法注册并开展业务所用的名称。\n\n以下组织和运营结构及项目不具备评估资格：企业集团（指提供多种业务各异的部门的集团）、无任何法定实体名称的业务部门或分部、产品名称与商业品牌、非政府组织、国有或政府组织、无任何运营子公司的控股公司，以及合作社。\n\nc) 有效期与时间范围\n\nVitals 评级方法学是向后看（backward-looking）的，因为它主要评估过往表现与历史数据。该方法学通常分析最多 8 年的历史数据，其默认有效期为管理……（原文在此处截断）",
-          "content": "2.1. Methodology overview\n\nThe Vitals methodology is consistently applied to all eligible entities and includes adjustments made based on company profile, in particular, its industry. The most recent version of the Vitals rating methodology is V2.0, applicable as of January 2025. Any changes to the methodology will be communicated via email.\n\na) Methodology governance principles\n\nTo deliver Vitals Ratings with the highest levels of quality and integrity, EcoVadis has designed a methodology governance framework ensuring our methodologies adhere to the following core principles:\n\ni) Rigorous\nOur methodologies are developed through a rigorous process including research, impact assessment and public consultation of proposed changes to ensure the framework is capable of capturing complex sustainability risks and accurately reflect the rated entity's sustainability performance.\n\nii) Systematic\nWe employ a structured, repeatable methodological framework that ensures every entity is evaluated against a consistent set of principles and requirements tailored to their specific context. This systematic approach eliminates ad-hoc subjectivity and ensures that the methodology provides a stable basis for comparison of rated entities.\n\niii) Independent\nThe development and approval of our methodologies are governed by an internal function that is structurally and functionally separate from commercial and sales activities. This ensures the design of the rating framework is driven solely by analytical integrity and is insulated from external business pressures.\n\niv) Capable of justification\nThe methodology is built upon a clear, evidence-based rationale that dictates the specific weighting and relevance of each sustainability issue. Every component of the framework is documented for traceability, ensuring the underlying theory assumptions are defensible under technical scrutiny.\n\nv) Comparable over time\nOur methodology is designed to provide a stable benchmark by maintaining consistent evaluation criteria over time. By ensuring the framework remains steady, we enable rating users to accurately compare year-on-year performance.\n\nvi) Transparent\nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide comprehensive public disclosures regarding the methodology scope, ranking system, key assumptions and models, data sources and processes, and its inherent limitations.\n\nb) Eligibility for assessment\n\nThe methodology allows for assessment of corporate entities. To be eligible for a Vitals Rating, an entity must have a legal entity name. The legal entity name is the name under which a company is legally registered and operates in the country of operation.\n\nThe following organizational and operational structures and items are not eligible for assessment: conglomerates (understood as groups offering a variety of divisions that differ in terms of activity), business units or divisions without any legal entity name, product names and commercial brands, NGOs, state-owned or governmental organizations, holdings without any operational subsidiaries and cooperatives.\n\nc) Validity and time horizon\n\nThe Vitals rating methodology is backward-looking, as it primarily assesses past performance and historical data. The methodology typically analyzes up to 8 years of historical data, which is the default validity period for managem",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s7",
-      "title": "2.2 方法学假设与模型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.2 方法学假设与模型",
-          "content_cn": "2.2 方法学假设与模型\n\nVitals 评级基于以下假设：\n\na) 拥有规范化管理体系的公司更有能力预防并应对不利影响\n\nVitals 评级假设，实施规范化管理体系的公司更有能力预防并应对对地球与社会的不利影响。因此，评分方法学会对实质性可持续议题上政策规范化及取得认证给予奖励。提供规范化政策与证书的公司会获得更多点数，并达到更低的可持续风险等级。\n\nb) 缺乏文件证据即意味着缺乏管理方法\n\n若被评级公司无法提供规范化的管理体系证据（如政策与证书），Vitals 评级将此视为管理体系未有效实施的迹象，并表明该公司可能未做好充分准备来应对实质性可持续议题。缺乏规范化证据会导致更高的风险评分。",
-          "content": "2.2. Methodology assumptions and models\n\nThe Vitals rating operates under the following assumptions:\n\na) Companies with formalized management systems are in a better position to prevent and address adverse impacts\n\nThe Vitals rating assumes that companies that implement formalized management systems are significantly better equipped to prevent and address adverse impacts on the planet and society. As a result, the scoring methodology rewards the formalization of policies and the obtention of certification on material sustainability issues. Companies that provide formalized policies and certificates are awarded more points and achieve a lower sustainability risk level.\n\nb) Absence of document evidence means absence of management approach\n\nIn case a rated company is not able to provide formalized management system evidence, such as policies and certificates, the Vitals rating considers this as an indication that the management system is not effectively implemented, and that the company may not be well prepared to address material sustainability issues. The lack of formalized evidence translates into higher risk scores.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s8",
-      "title": "2.3 管理体系指标与评分",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.3 管理体系指标与评分",
-          "content_cn": "2.3 管理体系指标与评分\n\na) 基于管理体系指标的整体与主题风险等级\n\nVitals 评级方法学认为，有效的可持续管理体系应具备以下特征：制定政策、落实行动，并取得其管理方法的外审认证。该方法学考量以下管理体系指标（management system indicators）：\n- 政策（Policy）：该指标评估公司缓解可持续影响的目标与承诺。内部价值声明与目标使公司能够为其活动建立框架，并为达成可持续目标奠定长期问责基础。\n- 措施（Measures）：该指标涵盖公司为确保其可持续政策与目标得到有效落实所实施的行动。\n- 认证（Certifications）：该指标指确认公司符合国际可持续标准的有效认证。由独立且获得认可的机构颁发有效证书，可证明管理体系的高质量。\n\n四个主题（环境、劳工与人权、商业行为与可持续采购）各自的得分，由被评级公司在 Vitals 问卷三大问题类别中所获总点数决定。\n- 政策（Policies）类问题最多计 15 分，并要求提交配套政策文件作为证据。\n- 措施（Measures）类问题同样最多计 15 分，但问题为声明式，无需提交文件证据。\n- 认证（Certifications）类问题最多计 30 分，并要求提交配套认证文件作为证据。\n\n公司基于其声明及所提交文件证据的核验，最高可获得 60 分。若某一具体问题或类别被认为与被评级公司的特定行业无关，则该被评级公司在该部分获得满分。这确保最终得分只真实反映与其实际业务运营相关的环境与社会影响的表现。\n相应的主题层面风险与特定分数区间挂钩：\n\n2. 低（Low）：29 分\n3. 中低（Medium Low）：15–28 分\n4. 中高（Medium High）：14 分\n5. 高（High）：1–13 分\n6. 极高（Very High）：0 分\nVitals 整体风险等级基于四个主题得分的平均值确定。\n\n已接受过 EcoVadis 可持续评级（Sustainability Rating）评估的公司，将自动获得其 Vitals 评级结果。此转换无需单独的 Vitals 评级流程。EcoVadis 通过映射可持续评级中的既有发现，来确定特定管理体系要素的存在与否，从而实现转换。这些映射后的发现随后套用与标准 Vitals 方法学相同的评分逻辑，以计算主题层面及整体的 Vitals 风险。\n\nb) E、S 与 G 得分\n\n鉴于四个 Vitals 主题与 E、S、G 主题并非完全对应，为让关注 ESG 因素的用户获得可见性，方法学基于以下公式从主题风险等级中推导出额外的 E、S、G 得分：\n\nE 得分 =（2 × Vitals 环境风险 + Vitals 可持续采购风险）/ 3。\nS 得分 =（2 × Vitals 劳工与人权风险 + Vitals 可持续采购风险）/ 3。\nG 得分 = Vitals 商业行为风险。\n\nc) 分级体系\nVitals 区分六个反映被评级公司管理体系成熟度的风险等级：\n1. 极低（Very Low）：表明成熟可持续管理体系，在大多数或全部主题上均有卓越实践与认证证据。\n2. 低（Low）：表明稳健可持续管理体系，具备明确政策、具体行动，并在若干主题上有认证证据。\n3. 中低（Medium Low）：表明令人满意的可持续管理体系，在部分主题上有政策，且实际行动覆盖大部分议题。\n4. 中高（Medium High）：表明基础性的可持续管理体系，包含具体行动，但在多数主题上缺乏既定政策与认证。\n5. 高（High）：表明在政策、行动与认证方面存在显著缺口的可持续管理体系。\n6. 极高（Very High）：表明高风险，其特征是存在重大缺陷或完全缺乏结构化管理体系。",
-          "content": "2.3. Management system indicators and scoring\n\na) Overall and theme risk levels based on management system indicators\n\nThe Vitals rating methodology considers an effective sustainability management system to be one that develops policies, implements actions and achieves external certification of its management approach. The methodology consider the following management system indicators:\n- Policy: This indicator assesses the company's objectives and commitments to mitigating sustainability impacts. Internal value statements and targets allow companies to create a framework for their activities and create grounds for long-term accountability for achieving sustainability goals.\n- Measures: This indicator covers the actions a company implements to ensure its sustainability policies and targets are effectively implemented.\n- Certifications: This indicator refers to valid certifications that confirm a company's compliance with international sustainability standards. Valid certificates issued by an independent and accredited body confirm the high quality of a management system.\n\nA score is determined for each of the four themes (Environment, Labor & Human Rights, Ethics and Sustainable Procurement) by the total points a rated company earns across three question categories in the Vitals questionnaire.\n- Questions in the Policies category account for a maximum of 15 points and require the submission of supporting policy documents as evidence.\n- Questions in the Measures category also account for a maximum of 15 points, but the questions are declarative and no document evidence is required.\n- Questions in the Certifications category account for a maximum of 30 points and require the submission of supporting certification documents as evidence.\n\nA company can achieve a maximum score of 60 points based on their declarations and the verification of their submitted document evidence. If a specific question or category is deemed irrelevant to the rated company's specific industry, the rated company is awarded the full points for that section. This ensures that the final score accurately reflects performance relative only to the environmental and social impacts that are actually applicable to their business operations.\nThe corresponding theme level risks are linked to specific score ranges:\n\n2. Low: 29 points\n3. Medium Low: 15-28 points\n4. Medium High: 14 points\n5. High: 1-13 points\n6. Very High: 0 points\nThe overall Vitals risk level is defined based on an average of the four theme scores.\n\nCompanies that have already undergone an EcoVadis Sustainability Rating assessment will automatically receive their Vitals rating results. This conversion does not require a separate Vitals rating process. EcoVadis achieves this by mapping existing findings from the Sustainability Ratings to determine the presence or absence of specific management system elements. These mapped findings then populate the same scoring logic as the standard Vitals methodology to calculate a theme-level and overall Vitals risk.\n\nb) E, S and G scores\n\nGiven the four Vitals themes do not exactly correspond to E, S and G themes, additional E, S and G scores are derived from the theme risk levels, to provide visibility to users interested in ESG factors, based on the following formulas:\n\nE score = (2*Vitals Environment Risk + Vitals Sustainable Procurement Risk) / 3.\nS score = (2*Vitals Labor & Human Rights Risk + Vitals Sustainable Procurement Risk) / 3.\nG score = Vitals Ethics Risk.\n\nc) Ranking System\nVitals distinguishes six risk levels that reflect the maturity of a rated company's management system:\n1. Very Low: Indicates a mature sustainability management system with evidence of exceptional practices and certifications across most or all themes.\n2. Low: Indicates a strong sustainability management system with defined policies, concrete actions, and evidence of certification in several themes.\n3. Medium Low: Indicates a satisfactory sustainability management system including policies in some themes and practical actions covering the majority of topics.\n4. Medium High: Indicates a foundational sustainability management system that includes concrete actions but lacks established policies and certifications in most themes.\n5. High: Indicates a sustainability management system with significant gaps in policies, actions, and certifications.\n6. Very High: Indicates high risk, characterized by significant deficiencies or the complete absence of a structured management system.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s10",
-      "title": "2.4 行业分类",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.4 行业分类",
-          "content_cn": "2.4 行业分类\n\nVitals 评级以联合国《所有经济活动的国际标准行业分类》（ISIC）第 4 修订版为基础，对被评级公司的经济活动进行分类。\n\n该官方完整文件可在联合国统计司（United Nations Statistic Division）网站上获取。",
-          "content": "2.4. Industry classification\n\nThe Vitals rating uses the United Nations International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic activities of rated companies.\n\nThe official full document is available on the United Nations Statistic Division website.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s11",
-      "title": "2.5 数据来源",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.5 数据来源",
-          "content_cn": "2.5 数据来源\n\nVitals 评级使用多种类型的数据来源。\n\na) EcoVadis 用于确定可持续议题重要性的数据\n\nEcoVadis 使用基于数据的框架，根据公司所在行业来确定可持续议题的重要性（Materiality）。\n行业的重要性评估基于定性研究开展，使用的来源广泛，包括国际组织、公共机构、非政府组织、智库、学术界和科学媒体的各类文章、分析、报告与政策文件等不同利益相关方提供的资料。所有来源均在 EcoVadis 平台上的行业风险概况（Industry Risk profiles）中披露。\n\nb) 被评级公司为接受评级而向 EcoVadis 提供的数据\n\n被评级公司需提供政策与证书，以证明其已实施稳健的管理体系来应对实质性可持续议题。这些文件可以是公开或非公开文件。证书本质上由第三方在独立核查管理体系稳健性后颁发，而政策通常不经鉴证。\n\n若可提供，被评级公司可提交第 2013/34/EU 号指令（《会计准则指令》，Accounting Directive）所要求的可持续声明，或根据第 (EU) 2019/2088 号法规（《可持续金融披露法规》，SFDR）或第 (EU) 2020/852 号法规（《分类法条例》，Taxonomy Regulation）披露的信息。\n\nVitals 评级不要求公司分享其转型计划相关信息。\n\nc) 来自 EcoVadis 可持续评级的数据\n\n已完成可持续评级（Sustainability Rating）评估的公司，其评估结果将自动转换为 Vitals 评级结果（参见第 2.3 节\"管理体系指标与评分\"）。因此，这些被评级公司无需填写 Vitals 问卷或提交任何支持性文件。\n\n在某些情况下，已完成可持续评级评估的公司可能会被邀请向其作为 Vitals 客户的采购方分享结果。若评级评估足够新近，通过同意分享其结果，这些结果将被转换为 Vitals 评级结果（参见第 2.3 节\"管理体系指标与评分\"）。因此，这些被评级公司无需填写 Vitals 问卷或提交任何支持性文件。",
-          "content": "2.5. Data sources\n\nThe Vitals rating uses several types of data sources.\n\na) Data used by EcoVadis to determine the materiality of sustainability issues\n\nEcoVadis uses a data-based framework to determine the materiality of sustainability issues based on the industry the company operates in.\nMateriality assessments of industries are performed based on qualitative research using a wide variety of sources, ranging from articles, analyses, reports and policy papers from different stakeholders including international organizations, public institutions, non-governmental organizations, think-tanks, academia and scientific press. All sources are disclosed on the Industry Risk profiles available on the EcoVadis platform.\n\nb) Data provided to EcoVadis by rated companies for the purpose of undergoing a rating\n\nRated companies are asked to provide policies and certificates confirming they have implemented a robust management system to address material sustainability issues. These documents can be public or non-public documents. Certificates are by nature delivered by third parties following an independent verification of the management system's robustness, but policies are typically not subject to assurance engagement.\n\nRated companies may provide sustainability statements required under Directive 2013/34/EU (\"Accounting Directive\") or information disclosed under Regulation (EU) 2019/2088 (\"Sustainable Finance Disclosure Regulation\") or Regulation (EU) 2020/852 (\"Taxonomy Regulation\"), if available.\n\nThe Vitals rating does not require companies to share information on their transition plans.\n\nc) Data from EcoVadis Sustainability Ratings\n\nCompanies that have already completed the Sustainability Rating assessment will have their results automatically converted into Vitals rating results (refer to Section 2.3, \"Management system indicators and scoring\"). Consequently, these rated companies are not required to complete the Vitals questionnaire or submit any supporting documentation.\n\nIn some cases, companies that have already completed the Sustainability Rating assessment may be invited to share their results with buyers that are Vitals customers. If the Rating assessment is recent enough, by accepting to share their results, those will be converted into Vitals rating results (refer to Section 2.3, \"Management system indicators and scoring\"). Consequently, these rated companies are not required to complete the Vitals questionnaire or submit any supporting documentation.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s12",
-      "title": "2.6 数据处理流程",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.6 数据处理流程",
-          "content_cn": "2.6 数据处理流程\n\nVitals 评级采用精简的数据流程，运行在 EcoVadis 提供的安全、有序的数字平台上。该流程包括：\n\na) 数据收集：\n\n数据直接来自被评级公司自身。在缺乏数据时，Vitals 评级不使用任何估算或行业平均值来生成输入。某一议题的数据缺失会被计入评估，并影响最终评分。\n\nb) 数据处理\n\n分析被评级公司所分享文件证据的过程包括若干自动化步骤。首先，每份文件会自动进行资格判定，以确保其符合正式资格标准（详见第 2.7 节\"数据质量\"）。此后，EcoVadis 利用基于 AI 的内容审查，确认其与公司在问卷中的声明一致。数据获批后，该信息会根据既定的评分方法学自动评分（详见第 2.3 节\"管理体系指标与评分\"）。\n\nc) 数据输出\n\n评级结果显示在平台上，包括一个整体风险等级，以及四个主题（环境、劳工与人权、商业行为与可持续采购）各自的独立主题风险等级。\n\nd) 数据存储与历史数据更新及修订\n\n每次评估所用数据均保留在系统中以备追溯。用于 Vitals 评级的数据仅在进行以更新结果为目的的重新评估时更新。\n只有当被评级公司决定续期其评级时，才会进行重新评估。重新评估会生成带新发布日期的新结果，从而可追踪更新数据的收集时间：被评级公司有机会在重新评估过程中更新、替换或提交额外的新的文件。在此阶段还会核查所收集文件的有效期，以确保评级仅考虑最新信息。适用以下有效期：\n- 政策：8 年有效期\n- 证书：适用特定有效期\n\n超出相关有效期的资料不再被视为与 Vitals 评级相关，也不会影响最终评分。",
-          "content": "2.6. Data processes\n\nThe Vitals rating uses a streamlined data process occurring in a secure and organised digital platform provided by EcoVadis. The process includes:\n\na) Data collection:\n\nData is collected from the rated companies themselves. The Vitals rating does not use any estimations nor industry averages to produce inputs in case of absence of data. The lack of data on a given topic is factored in the assessment and influences the final score.\n\nb) Data processing\n\nThe process for analyzing document evidence shared by rated companies involves several automated steps. Initially, each document is automatically qualified to ensure it meets formal eligibility criteria (see Section 2.7 \"Data quality\" for additional information). Following this, EcoVadis performs an AI-based review of the content to confirm its alignment with the rated company's declarations in the questionnaire. Once the data is approved, this information is automatically scored based on an established scoring methodology (see Section 2.3 \"Management system indicators and scoring\" for additional details).\n\nc) Data output\n\nThe rating results are displayed on the platform and include an overall risk level, as well as an individual theme risk level for each of the four themes (Environment, Labor & Human Rights, Ethics and Sustainable Procurement).\n\nd) Data storage & historical data updates and revision\n\nData used for each assessment is preserved in the system for traceability purposes. Data used for the purpose of the Vitals rating is only updated in the context of reassessments performed to update results.\nA reassessment occurs only if a rated company decides to renew its rating. A reassessment creates new results with a new publication date, allowing to track when updated data was collected: rated companies have an opportunity to update, replace or submit additional new documentation during the reassessment process. Checks of validity periods of collected documents are also performed at that stage to ensure the rating takes into account only information that is up-to-date. The following validity periods are applied:\n- Policies: 8 year validity period\n- Certificates: specific validity periods apply\n\nInformation older than the relevant validity period is no longer considered relevant for the Vitals rating and does not influence the final score.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s13",
-      "title": "2.7 数据质量",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.7 数据质量",
-          "content_cn": "2.7 数据质量\n\nEcoVadis 采用稳健的多层方法来确保其评估过程的质量与诚信。这些控制措施贯穿整个评估过程。EcoVadis 拥有通过 ISO 9001:2015 标准认证的质量管理体系。该体系包含一份正式的质量方针与质量手册，记录所有流程及其相互作用。\n\nVitals 评级主要依赖被评级公司自身提供的数据或其声明，以确保高水平的数据质量。尽管如此，EcoVadis 还实施了额外的数据质量控制。这些措施在每次评估与重新评估中系统化地应用，包括：\n\na) 文件资格标准\n\n被评级公司提供的所有文件必须符合特定正式标准才具备评估资格。文件须满足以下标准：\n- 规范化（formalized，即正式、既有，并完全融入公司管理体系）\n- 完整（complete，即完全披露以便分析其内容）\n- 可信（credible，即清晰可辨识为属于该公司）\n- 注明日期（dated，即包含发布或复核日期）\n- 符合可接受的格式与大小（即采用 .pdf、.docx、.xlsx、.jpg 或 .png 格式，且小于 30 MB）\n- 机器可读（machine-readable，即包含数字文本，而非扫描图像或照片）。\n不符合这些标准的文件不被视为评级目的的有效证据。\n\nb) 强调提供第三方核验信息\n\nVitals 评级所用的数据并非系统性地接受第三方鉴证。然而，EcoVadis 主动鼓励被评级公司分享经过核验的优质文件。诸如由第三方颁发、确认符合公认标准的证书等数据来源，是被评为\"极低\"风险等级公司所不可或缺的。",
-          "content": "2.7. Data quality\n\nEcoVadis employs a robust, multi-layered approach to ensure the quality and integrity of its assessment process. These controls are integrated throughout the evaluation process. EcoVadis has a Quality Management System that is certified to the ISO 9001:2015 standard. This system includes a formal Quality Policy and a Quality Manual that documents all processes and their interactions.\n\nThe Vitals rating relies primarily on data provided by rated companies themselves or their declarations, ensuring high levels of data quality. Nevertheless, EcoVadis implements additional data quality controls. They are applied systematically in every assessment and reassessment and include:\n\na) Document eligibility criteria\n\nAll documents provided by rated companies must adhere to specific formal criteria to be eligible for assessment. Documents have to meet the following criteria:\n- formalized (formal, pre-existing, and fully integrated into the company's management system)\n- complete (fully disclosed to make their contents available for the analysis)\n- credible (clearly identifiable as belonging to the company)\n- dated (contain an issue or review date)\n- in an accepted format & size (i.e. have .pdf, .docx, .xlsx, .jpg or .png, format and be smaller than 30 MB)\n- machine-readable (contain digital text, as opposed to a scanned image or photo).\nDocuments that do not meet these criteria are not taken into account as valid evidence for rating purposes.\n\nb) Emphasis on provision of third-party verified information\n\nData used by the Vitals rating is not systematically subject to third party assurance. However, EcoVadis proactively encourages rated companies to share verified, quality documentation. Sources of data such as third-party issued certificates confirming compliance with recognized standards are indispensable to be classified as a Very Low risk level company.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s14",
-      "title": "2.8 评估间隙期间新信息的监测",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.8 评估间隙期间新信息的监测",
-          "content_cn": "2.8 评估间隙期间新信息的监测\n\n在两次 Vitals 评估之间，不考虑任何新信息。与被评级公司相关的新信息仅在重新评估期间予以考虑。",
-          "content": "2.8. Monitoring availability of new information in between assessments\n\nNo new information is considered in between Vitals assessments. New information pertaining to the rating company is only considered during reassessments.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s15",
-      "title": "2.9 与被评级公司的互动",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.9 与被评级公司的互动",
-          "content_cn": "2.9 与被评级公司的互动\n\n在 Vitals 评级背景下，由 EcoVadis 发起的与被评级公司的互动发生在两个阶段：评估流程开始前，以及评级结果发布后。公司可随时通过专属支持渠道联系 EcoVadis。\n\na) 评估前与被评级公司的互动\n\nEcoVadis 在评估前通过电子邮件与被评级公司互动，以确保其在 EcoVadis 平台注册、收到问卷，并能够提交答复及支持性证据。\n\nb) 评估后与被评级公司的互动\n\n被评级公司会收到通知，享有 2 个工作日的宽限期以审阅并提交任何事实性错误。宽限期结束后，Vitals 评分将交付给采购方。任何公司均可随时通过 EcoVadis 专属页面查看其评分并提交事实性错误主张。\n\n结果发布后，被评级公司可通过专属投诉管理渠道提出问题、表达关切或分享补充信息。\n\n在 Vitals 评级背景下，与被评级公司的互动为远程（offsite）形式，因为评估流程旨在从被评级公司收集数据，而无需任何现场审查或拜访。",
-          "content": "2.9. Engagement with rated companies\n\nEngagement with rated companies initiated by EcoVadis in the context of the Vitals rating occurs at two stages: before the assessment process begins and after the publication of the rating results. At all times, companies may reach out to EcoVadis via a dedicated support channel.\n\na) Engagement with rated companies before the assessment\n\nEcoVadis engages with rated companies before the assessment via e-mail to ensure that they register on EcoVadis platform, receive their questionnaire and are able to submit their answers and supporting evidence to it.\n\nb) Engagement with rated companies after the assessment\n\nRated companies receive a notification for a 2 business days grace period to review and submit any factual error. After the grace period ends, the Vitals Scores are delivered to buyers. Any company can access their score and submit a factual error claim at any time via EcoVadis dedicated page.\n\nAfter the results' publication, rated companies can ask questions, raise concerns or share additional information through a dedicated complaint management channel.\n\nEngagement with rated companies in the context of the Vitals rating is offsite, as the assessment process is designed to collect data from the rated company without any on-site reviews or visits.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s16",
-      "title": "2.10 科学基础",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.10 科学基础",
-          "content_cn": "2.10 科学基础\n\nVitals 评级方法学与若干国际可持续标准保持一致，这些标准本身建立在科学研究、实证证据和数十年的多边共识之上。这些标准与框架包括：\n- ISO 26000《社会责任指南》标准\n- 全球报告倡议组织（GRI）与《欧洲可持续报告准则》（ESRS）标准\n- 联合国全球契约（UNGC）十项原则\n- 国际劳工组织（ILO）公约（包括关于职业安全与健康、工资与工作时间、社会对话、结社自由与集体谈判、童工与强迫劳动、机会与待遇平等方面的公约）\n全部 15 项可持续标准均在 ISO 26000 标准、GRI 标准以及联合国可持续发展目标（SDGs）的内容中得到完整映射与引用。",
-          "content": "2.10. Scientific basis\n\nThe Vitals rating methodology is aligned with international sustainability standards that are themselves anchored in scientific research, empirical evidence and decades of multilateral consensus. These standards and frameworks include:\n- the ISO 26000 Guidance on Social Responsibility standard\n- the Global Reporting Initiative (GRI) and European Sustainability Reporting Standards (ESRS) standard\n- the Ten Principles of the United Nations Global Compact (UNGC)\n- the International Labour Organization (ILO) conventions (including conventions on Occupational Health and Safety, Wages and Working Time, Social Dialogue, Freedom of Association, and Collective Bargaining, Child Labor and Forced Labor, Equality of Opportunity and Treatment)\nAll 15 sustainability criteria are fully mapped and referenced in the content of the ISO 26000 Standard, the GRI Standard and United Nations Sustainable Development Goals.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s17",
-      "title": "2.11 基于 AI 工具的使用",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.11 基于 AI 工具的使用",
-          "content_cn": "2.11 基于 AI 工具的使用\n\nEcoVadis 利用机器学习技术协助交付 Vitals 评级。EcoVadis 以其内部《AI 使用政策》为框架，以负责任的方式设计、实施和部署 AI 解决方案，该政策涵盖问责、透明、人的尊严、人的掌控、安全、公平、多元与包容、环境与社会福祉，以及对受保护数据与个人数据的处理规则和对知识产权的保护。基于 AI 的处理在遵守数据保护与 AI 专项法律的前提下进行，确保公平、透明与安全。\n\na) 评级流程中的 AI 使用\n\nVitals 问卷利用 AI 分析与核验公司所提供文件中的数据，自动识别关键元数据，如实体名称、签发日期、文件类型，以及所涉及的具体可持续议题。随后，AI 技术对检索到的信息进行分析，以确定其与公司在 Vitals 问卷中声明的一致性。\n\nb) 基于 AI 工具的局限性\n\n与任何技术一样，EcoVadis 使用的基于 AI 的工具有时可能缺乏完美数据处理所需的特定情境分析，这有可能导致错误的通过或拒绝。EcoVadis 持续致力于改进我们的 AI 工具，以确保尽可能低的误差空间。",
-          "content": "2.11. Usage of AI-based tools\n\nEcoVadis leverages machine learning technologies to help deliver the Vitals rating. EcoVadis designs, implements, and deploys AI solutions in a responsible manner and within the framework of its internal AI Usage Policy, which encompasses accountability, transparency, human dignity, human control, security, fairness, diversity and inclusion, environmental and social wellbeing, as well as clear rules on processing of protected and personal data, and protection of intellectual property. AI-based processing is conducted in compliance with data protection and AI-specific laws, ensuring fairness, transparency, and security.\n\na) AI use in the rating process\n\nThe Vitals questionnaire leverages AI to analyze and validate data from company-supplied documentation, automatically identifying key metadata such as the entity name, issuance date, document type, and the specific sustainability issues addressed. This retrieved information is then analyzed by the AI technology to determine its consistency with the company's declarations within the Vitals questionnaire.\n\nb) Limitations of AI-based tools\n\nLike any technology, the AI-based tools used by EcoVadis may sometimes lack the context-specific analysis needed for flawless data processing, which could potentially lead to incorrect approvals or rejections. EcoVadis is continuously dedicated to refining our AI tools to ensure the lowest possible margin for error.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s19",
-      "title": "3.1 方法学局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.1 方法学局限性",
-          "content_cn": "3.1 方法学局限性\n\nVitals 评级方法学存在以下局限性：\n\na) 财务重要性（Financial materiality）\n\nVitals 评级不包含财务重要性（Financial materiality）。因此，它不能用于评估 ESG 因素对被评级公司财务表现的影响。\n\nb) 可持续议题覆盖有限\n\nEcoVadis Vitals 提供对公司管理体系的聚焦评估。其范围是有意受限的，仅聚焦于选定的可持续议题，而将其他议题（例如与产品使用及报废相关的议题）排除在外。同样，对管理质量的评估仅限于关键政策、行动与认证，忽略了报告等其他重要管理方面。如需更全面的评估，EcoVadis 提供可持续评级（Sustainability Ratings），其对公司管理体系的审查要详尽得多。",
-          "content": "3.1. Methodology limitations\n\nThe Vitals rating methodology includes the following limitations:\n\na) Financial materiality\n\nThe Vitals rating does not incorporate financial materiality. In consequence, it cannot be used to assess the influence of ESG factors on a rated company's financial performance.\n\nb) Limited coverage of sustainability issues\n\nEcoVadis Vitals offers a focused assessment of a company's management system. The scope is intentionally limited, concentrating only on select sustainability issues and excluding others, for instance those related to product use and end-of-life. Similarly, the assessment of management quality is restricted to key policies, actions, and certifications, omitting other significant management aspects such as reporting. For a more comprehensive evaluation, EcoVadis provides the Sustainability Ratings, which review a company's management system in much greater detail.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s20",
-      "title": "3.2 数据来源局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.2 数据来源局限性",
-          "content_cn": "3.2 数据来源局限性\n\nVitals 所利用的数据来源存在以下局限性：\n\na) 所用数据的可得性与一致性\n\n被评级公司的评分主要基于管理体系文件形式的证据。若被评级公司未将其管理体系文件规范化，EcoVadis 无法获取此类数据。尽管缺乏书面证据可能仅表明在记录实践方面存在缺口，而并非被评级公司缺乏行动，但 Vitals 评级要求此类文件必须存在并可提供。\n\n此外，Vitals 评级可能受到自我报告缺口的影响。为使问卷声明获得采信，文件证据必须正确关联到相应的问卷声明。因此，即使被评级实体已将其管理体系文件规范化并能够提供证据，若其未正确关联到问卷声明，其中包含的信息在评级过程中也将不被计入。\n\n在极少数情况下，数据的可得性可能受到被评级公司保密顾虑的影响。尽管 EcoVadis 是获得 ISO 27001 认证的实体，并建立了稳健的信息安全管理体系以保护被评级公司的数据与文件，但部分公司仍不愿披露敏感或专有信息。在此类情况下，即便数据在理论上可得，对其的访问仍受到限制。\n\nb) 信息的完整性、及时性与准确性\n\nVitals 评级部分依赖被评级公司的声明，而这些声明无需提交任何文件证据。尽管 EcoVadis 鼓励公司真实、善意地填写问卷，但在这种情况下，所声明的信息仍可能存在不准确甚至完全错误的情况。\n\nc) 假设、替代参考点、数据估算、预设统计或算法系统或模型的使用\n\nVitals 评级不使用任何分数推算、统计模型、算法系统或任何其他估计最终得分的手段。",
-          "content": "3.2. Data source limitations\n\nData sources leveraged for Vitals include the following limitations:\n\na) Availability and consistency of data used\n\nRated companies are scored based primarily on evidence in the form of management system documentation. In case a rated company has not formalized its management system documentation, EcoVadis cannot access such data. Although such lack of written evidence may only indicate a gap in documenting practices, not lack of action on the part of a rated company, the Vitals rating requires such documents to exist and be made available.\n\nAdditionally, the Vitals rating may be affected by self-reporting gaps. In order for questionnaire declarations to be credited, documentary evidence has to be correctly linked to the questionnaire declaration. In consequence, even if rated entities formalized their management system documentation and are capable of providing evidence, if it is not correctly linked to the questionnaire declaration, information contained within it will not be accounted for during the rating process.\n\nIn rare cases, availability of data may be affected by rated companies' confidentiality concerns. Although EcoVadis is an ISO 27001-certified entity with a robust information security management system in place aimed at protecting rated companies' data and documentation, some are reluctant to disclose sensitive or proprietary information. In such cases, even though data is theoretically available, access to it remains limited.\n\nb) Completeness, timeliness and accuracy of information\n\nThe Vitals rating relies partly on rated companies' declarations which do not require submission of any documented evidence. Although EcoVadis encourages companies to fill the questionnaire truthfully and in good faith, it is possible that in these circumstances information declared will be inaccurate or outright wrong.\n\nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or algorithmic systems or models\n\nThe Vitals rating does not use any score projections, statistical models, algorithmic systems or any other means of estimating the final score.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s21",
-      "title": "3.3 应对数据来源局限性的措施",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.3 应对数据来源局限性的措施",
-          "content_cn": "3.3 应对数据来源局限性的措施\n\n为应对 Vitals 评级中数据来源的局限性，EcoVadis 实施了一系列措施与流程，旨在将相关风险降至最低。这些包括：\n\na) 透明沟通要求与方法学\n\n为确保被评级公司充分了解并能够参与评级流程，EcoVadis 创建了庞大的公开可用支持文件与说明数据库。其目的是便利评级流程、解释各项要求，并能力建设被评级公司，使其能在所提供的框架内真实展现其可持续管理体系的质量。\n\nb) 文件质量核查\n\n所有公司提供的文件均经过系统化的核验流程以确保真实性。这包括将证据中列出的实体名称与注册的公司档案进行交叉比对，以防止提交伪造或第三方的文件。",
-          "content": "3.3. Means of addressing limitations in data sources\n\nTo address limitations in data sources for the Vitals rating, EcoVadis implements a number of measures and processes aimed at reducing related risks to a minimum. These include:\n\na) Transparent communication of requirements and methodology\n\nTo ensure that rated companies are well-informed and capable of undergoing the rating process, EcoVadis created a vast database of publicly available support documents and explanations. They are aimed at facilitating the rating process, explaining requirements and building capacity of rated companies to truthfully demonstrate the quality of their sustainability management system within the provided framework.\n\nb) Document quality check\n\nAll company-provided documentation undergoes a systematic verification process to ensure authenticity. This includes cross-referencing the entity name listed in the evidence against the registered company profile to prevent the submission of falsified or third-party documents.",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s22",
-      "title": "4 方法学修订",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "4 方法学修订",
-          "content_cn": "4 方法学修订\n\nVitals 方法学的修订遵循《方法学修订程序》中列出的步骤。\n\n方法学的制定与应用独立于一切政治、经济或其他外部影响，由一个专门的方法学团队领导，该团队负责方法学开发的优先级排序、研究与执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n\n方法学修订流程分为六个阶段。对于未被归类为\"高影响\"的方法学变更，部分阶段为可选，但在相关时仍可考虑。\n\n● 启动（Initiation）\n方法学团队中的方法学负责人识别修订需求，并在季度规划（Quarterly Planning）期间由方法学负责人批准。随后，方法学负责人起草一份项目章程，详述项目的描述、目的、理由、目标、范围、团队与风险，采用研究或实施模板之一。必要时，可先启动专门的方法学研究阶段，以在实施前调查并论证正式修订的必要性。\n\n● 方法学修订提案（Methodology Revision Proposal）\n方法学负责人将修订提案正式化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会一起审核与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可吸纳其他部门（如产品与技术、市场、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。\n\n● 影响评估（Impact Assessment）\n对当前得分或风险等级分布的潜在影响进行量化评估。\n\n● 利益相关方咨询（若为高影响）（Stakeholder Consultation）\n若变更被确定为高影响，则开展正式的利益相关方咨询。EcoVadis 直接邀请有代表性的评级用户、被评级实体与外部利益相关方参与，以确保反馈回路具有代表性。\n\n● 道德与合规团队的方法学监督审查（Methodology Oversight Review）\n道德与合规（Ethics & Compliance）团队作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在问题、提出疑问或要求进一步澄清。若任何被标注的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council）进行最终仲裁与决策。\n\n● 批准与实施（Approval & Implementation）\n最终的方法学修订提案由方法学负责人对常规变更予以批准，由首席评级官对高影响变更予以批准，并正式实施。方法学变更在季度方法学变更沟通中告知评级用户与被评级实体。方法学披露文件相应更新。\n\n所有方法学均需接受每年一次的强制性内部有效性审查，以确保其持续适用。方法学修订通过季度方法学变更沟通告知评级用户与被评级实体。",
-          "content": "4. Methodology revision\nThe revision of the methodology of Vitals follows the steps outlined in the Methodology Revision Procedure.\n\nMethodological development and application are independent of all political, economic, or other external influences, and led by a dedicated methodology team, which handles prioritization of methodology developments, research and execution. The methodology team is separate from commercial functions, is managed by the Head of Methodology and reports to the Chief Ratings Officer.\n\na) Methodology Revision Procedure\n\nThe methodology revision process is structured in six phases. Some phases are optional for methodology changes that are not classified as high impact, but can still be considered where relevant.\n\n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, which is approved by the Head of Methodology during the Quarterly Planning. The methodology owner then drafts a project charter detailing the project's description, purpose, rationale, objectives, scope, team and risks, using either a Research or Implementation template. Where needed, a dedicated Methodology Research phase may be initiated first to investigate and justify the need for a formal revision before proceeding to implementation.\n\n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, research findings and the proposed specific changes. The proposal is reviewed and discussed with the project's steering committee to ensure rigor, consistency, and alignment with market and regulatory needs. The steering committee is composed of relevant methodology team members and may involve representatives of other departments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project manager integrates feedback from the steering committee to adjust the proposal accordingly.\n\n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level distribution is performed.\n\n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is conducted. EcoVadis directly engages a targeted selection of rating users, rated entities and external stakeholders to ensure a representative feedback loop.\n\n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final methodology revision proposal, as part of its methodology oversight responsibilities. This body is responsible for identifying potential concerns, raising issues, or requesting further clarification. If any highlighted problems remain unresolved, the Ethics & Compliance team escalates the matter to the ESGR Governance Council for final arbitration and decision-making.\n\n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for regular changes, and by the Chief Rating Officer for high impact changes, and officially implemented. Methodology changes are communicated to rating users and rated entities in the quarterly methodology change communication. The methodology disclosure documents are updated accordingly.\n\nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis to ensure they remain fit for purpose. Methodology revisions are communicated to rating users and rated entities via the quarterly methodology change communication",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s23",
-      "title": "5 组织披露",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "5 组织披露",
-          "content_cn": "5 组织披露\n\n为确保全面的透明度并完全符合欧洲 ESG 评级法规标准，本方法学文件发布于 EcoVadis 官网上专用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门板块中包含全部所需的组织披露：所有权结构（Ownership structure）、商业模式与定价（Business Model & Pricing）、利益冲突（Conflict of Interest），以及投诉管理与外部利益相关方合理关切（Complaint management & External stakeholder reasoned concern）：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "content": "5. Organisational Disclosures\n\nTo ensure comprehensive transparency and full compliance with European ESG Rating Regulation standards, this methodology document is published on the official EcoVadis website page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.\n\nThis page includes all required organisational disclosures in a dedicated section: Ownership structure, Business Model & Pricing, Conflict of Interest, and Complaint management & External stakeholder reasoned concern: https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s24",
-      "title": "6 法律声明",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "6 法律声明",
-          "content_cn": "6 法律声明\n\nVitals 由 Ecovadis SAS 发布，总部位于 43 avenue de la Grande armée, 75116 Paris，是一家在法国注册的私人持有的简化股份有限公司（Société à Actions Simplifiée），商业与公司注册号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会和治理（ESG）评级活动透明度与完整性的第 (EU) 2024/3005 号法规（\"该法规\"），特别是该法规中关于向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n无担保：本文件仅用于提供信息之目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，并可在不预先通知的情况下更改。\n\n责任限制：对于因使用本出版物中明确或隐含包含的任何意见或信息而引起的任何直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司概不负责。\n\n版权所有 © 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
-          "content": "6. Legal notices\n\nVitals is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and companies register number 497 842 914 - R.C.S. Paris.\n\nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the Regulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November 2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities ('the Regulation'), in particular, Articles 23 and 24 of the Regulation setting out requirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as well as applicable Regulatory Technical Standards of 15th October 2025.\n\nCopyright: No part of this document may be reproduced, modified or distributed in any form or manner without prior written permission of EcoVadis.\n\nNo warranty: This document is intended for informational purposes only, and EcoVadis does not warrant the accuracy, reliability, completeness of the information, content, text, and graphics herein, and is subject to change without notice.\n\nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any direct, indirect, special, incidental or consequential damages arising out of the use of any opinion or information expressly or implicitly contained in this publication.\n\nCopyright © 2026 EcoVadis SAS (Paris, France)\nAll Rights Reserved",
-          "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
+     "type": "standard",
+     "content_cn": "EcoVadis Vitals\n面向公众、评级用户（rating users）与被评级对象（rated items）的方法学披露文件\n\n本披露文件旨在确保符合欧盟第 2024/3005 号法规（关于环境、社会和治理（ESG）评级活动的透明度与完整性）附件三，以及补充第 (EU) 2024/3005 号法规的授权法规的要求。\n\n1. 评级产品披露",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
     }
-  ],
-  "relations": {
-    "internal": [],
-    "external": []
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1 重要性的目标与方法",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级的目标，是评估被评级公司应对其对利益相关方实质性可持续影响的能力。该评级是 EcoVadis 自身的独立意见，可能不同于其他 ESG 评级机构所提供的评估。\n\nVitals 评级被设计为用户将 ESG 因素纳入其采购决策、开展供应链尽职调查的工具。Vitals 评分并非由被评级公司（供应商）主动申请；而是由采购方为评估其供应商而发起。被评级公司（供应商）参与此过程，并同意接受评估。公司始终可以拒绝接受评估。\n\n为评估公司管理体系的质量，EcoVadis 基于影响重要性（impact materiality）方法识别实质性议题（即\"由内而外\"的视角，识别公司运营、产品和服务对环境与社会产生的外部影响）。Vitals 评级不包含财务重要性（financial materiality，即\"由外而内\"的视角），因此不衡量外部 ESG 因素对公司构成的财务风险。\n\n评估所涵盖的具体影响归为 4 个主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），它们共同涵盖 15 项具体标准（详见\"1.2 评级范围\"）。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2 评级范围",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级是一项综合评级，涵盖四个核心主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement）。这四个主题涵盖以下可持续议题：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "numbered": false,
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "环境",
+        "空气污染",
+        "水",
+        "生物多样性",
+        "材料、化学品与废弃物",
+        "劳工与人权",
+        "员工健康与安全",
+        "工作条件",
+        "社会对话",
+        "童工、强迫劳动与人口贩卖",
+        "多元、公平与包容",
+        "外部利益相关方人权",
+        "商业行为",
+        "腐败",
+        "负责任的信息管理",
+        "可持续采购",
+        "供应商环境实践",
+        "供应商社会实践"
+       ]
+      }
+     ],
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级范围因行业而异，涵盖上述议题的全部或子集。因此，对于归类为\"制造业（Manufacturing）\"\"批发业（Wholesaler）\"或\"其他及办公服务（Other & Office Services）\"的公司，其评级及相应问卷各不相同。各行业中被视为相关的议题如下表所示：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "标准",
+       "制造业",
+       "批发业",
+       "其他及办公服务"
+      ],
+      [
+       "空气污染",
+       "X",
+       "X"
+      ],
+      [
+       "水",
+       "X",
+       ""
+      ],
+      [
+       "生物多样性",
+       "X",
+       "X"
+      ],
+      [
+       "材料、化学品与废弃物",
+       "X",
+       "X"
+      ],
+      [
+       "员工健康与安全",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "工作条件",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "社会对话",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "童工、强迫劳动与人口贩卖",
+       "X",
+       "",
+       "X"
+      ],
+      [
+       "多元、公平与包容",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "外部利益相关方人权",
+       "X",
+       ""
+      ],
+      [
+       "腐败",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "负责任的信息管理",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "供应商环境实践",
+       "X",
+       "X",
+       "X"
+      ],
+      [
+       "供应商社会实践",
+       "X",
+       "X",
+       "X"
+      ]
+     ],
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "上述议题与第 2013/34/EU 号会计准则指令（Accounting Directive，经第 2022/2464 号《企业可持续报告指令》（CSRD）修订，并在《欧洲可持续报告准则》（ESRS）中详述）的主题并不完全对应。但二者存在一定程度的重叠，可以进行比较。\n\n尽管 Vitals 评级确实涵盖环境议题，但其与第 (EU) 2020/852 号法规（《分类法条例》，Taxonomy Regulation）下的分类法对齐百分比并不相关。\n\n每个主题的风险等级均以六级风险等级呈现，范围从\"极低\"到\"极高\"风险，便于各主题之间进行比较，并基于各管理体系指标（management indicator）所获点数而定（详见第 2.3 节\"管理体系指标与评分\"），这些指标用于评估公司在四个主题上管理方法的成熟度。\n\n整体风险等级基于四个主题风险等级的平均值，同样以从\"极低\"到\"极高\"风险的六级风险等级呈现。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3 评分等级类型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级结果以绝对值表示。评分范围为 0 至 60 分，为每个风险等级设定预定义区间，点数越高对应风险等级越低。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "numbered": false,
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "高风险（High Risk）：0 至 13 分",
+        "中风险（Medium Risk）：14 至 28 分",
+        "低风险（Low Risk）：29 至 60 分"
+       ]
+      }
+     ],
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "风险等级在单个主题层面计算（环境、劳工与人权、商业行为与可持续采购主题），整体得分（Overall Score）为所有主题的平均值。\nVitals 评级既提供全局综合风险等级，也提供四个主题各自的细分风险等级。有关评分计算方式及 ESG 得分因素权重公式的更多细节，请参阅第 2.3 节（b）。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4 国际协议的覆盖",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "Vitals 方法学考虑了以下国际协议的目标",
+       "content": "",
+       "items": [
+        "国际劳工组织（ILO）公约：该方法学与公约促进体面劳动、保护工作基本人权、平衡国际竞争环境的目标保持一致。",
+        "《巴塞尔公约》（Basel Convention）：该方法学与公约保护人类健康与环境免受危险废弃物及其他废弃物不利影响的目标保持一致。",
+        "《斯德哥尔摩公约》（Stockholm Convention）：该方法学与公约保护人类健康与环境免受持久性有机污染物（POPs）风险的目标保持一致。但评级不会系统性核查企业是否符合《斯德哥尔摩公约》的淘汰目标。",
+        "《水俣公约》（Minamata Convention）：该方法学与公约保护人类健康与环境免受人为汞及汞化合物排放与释放影响的目标保持一致。但评级不会系统性核查企业是否符合《斯德哥尔摩公约》的淘汰目标。"
+       ],
+       "after": "这些公约影响了环境（Environment）与劳工与人权（Labor & Human Rights）主题的结构与议题覆盖，公司的管理体系根据其与这些目标的一致性进行评估。\n尽管会询问被评级公司是否设有碳减排目标，Vitals 方法学并未具体提及《巴黎协定》（Paris Agreement）的目标与宗旨。"
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1 方法学概述",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 方法学一贯适用于所有符合条件的实体，并会根据公司概况（尤其是所在行业）进行调整。Vitals 评级方法学的最新版本为 V2.0，自 2025 年 1 月起适用。方法学的任何变更都将通过电子邮件告知。\n为以最高质量和诚信交付 Vitals 评级，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "严谨（Rigorous）",
+       "content": "我们的方法学通过严谨的流程制定，包括研究、影响评估以及对拟议变更的公开咨询，以确保该框架能够捕捉复杂的可持续风险，并准确反映被评级实体的可持续表现。",
+       "items": []
+      },
+      {
+       "title": "系统化（Systematic）",
+       "content": "我们采用结构化、可重复的方法学框架，确保每个实体都按照一套与其特定背景相一致的、统一的原则和要求进行评估。这种系统化的方法消除了临时性的主观判断，并确保方法学为被评级实体之间的比较提供稳定的基础。",
+       "items": []
+      },
+      {
+       "title": "独立（Independent）",
+       "content": "我们方法学的制定与审批由一个在结构和职能上均独立于商业与销售活动的内部职能负责。这确保评级框架的设计完全由分析诚信驱动，不受外部业务压力影响。",
+       "items": []
+      },
+      {
+       "title": "可论证（Capable of justification）",
+       "content": "该方法学建立在清晰、基于证据的论证基础之上，明确各可持续议题的具体权重与相关性。框架的每个组成部分均有文档记录以便追溯，确保底层理论假设在技术审查下经得起推敲。",
+       "items": []
+      },
+      {
+       "title": "跨期可比（Comparable over time）",
+       "content": "我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确比较年度同比表现。",
+       "items": []
+      },
+      {
+       "title": "透明（Transparent）",
+       "content": "为符合欧盟 ESG 评级法规设定的透明度标准，我们就方法学范围、分级体系、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。",
+       "items": []
+      }
+     ],
+     "title": "方法学治理原则",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评估资格",
+       "content": "该方法学允许对企业实体进行评估。要获得 Vitals 评级资格，实体必须具有法定实体名称。法定实体名称是指公司在运营所在国合法注册并开展业务所用的名称。\n\n以下组织和运营结构及项目不具备评估资格：企业集团（指提供多种业务各异的部门的集团）、无任何法定实体名称的业务部门或分部、产品名称与商业品牌、非政府组织、国有或政府组织、无任何运营子公司的控股公司，以及合作社。",
+       "items": []
+      },
+      {
+       "title": "有效期与时间范围",
+       "content": "Vitals 评级方法学是向后看（backward-looking）的，因为它主要评估过往表现与历史数据。该方法学通常分析最多 8 年的历史数据，其默认有效期为管理……（原文在此处截断）",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2 方法学假设与模型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级基于以下假设：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "拥有规范化管理体系的公司更有能力预防并应对不利影响",
+       "content": "Vitals 评级假设，实施规范化管理体系的公司更有能力预防并应对对地球与社会的不利影响。因此，评分方法学会对实质性可持续议题上政策规范化及取得认证给予奖励。提供规范化政策与证书的公司会获得更多点数，并达到更低的可持续风险等级。",
+       "items": []
+      },
+      {
+       "title": "缺乏文件证据即意味着缺乏管理方法",
+       "content": "若被评级公司无法提供规范化的管理体系证据（如政策与证书），Vitals 评级将此视为管理体系未有效实施的迹象，并表明该公司可能未做好充分准备来应对实质性可持续议题。缺乏规范化证据会导致更高的风险评分。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3 管理体系指标与评分",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "Vitals 评级方法学认为，有效的可持续管理体系应具备以下特征：制定政策、落实行动，并取得其管理方法的外审认证。该方法学考量以下管理体系指标（management system indicators）：",
+       "items": [
+        "政策（Policy）：该指标评估公司缓解可持续影响的目标与承诺。内部价值声明与目标使公司能够为其活动建立框架，并为达成可持续目标奠定长期问责基础。",
+        "措施（Measures）：该指标涵盖公司为确保其可持续政策与目标得到有效落实所实施的行动。",
+        "认证（Certifications）：该指标指确认公司符合国际可持续标准的有效认证。由独立且获得认可的机构颁发有效证书，可证明管理体系的高质量。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "四个主题（环境、劳工与人权、商业行为与可持续采购）各自的得分，由被评级公司在 Vitals 问卷三大问题类别中所获总点数决定。",
+       "items": [
+        "政策（Policies）类问题最多计 15 分，并要求提交配套政策文件作为证据。",
+        "措施（Measures）类问题同样最多计 15 分，但问题为声明式，无需提交文件证据。",
+        "认证（Certifications）类问题最多计 30 分，并要求提交配套认证文件作为证据。"
+       ],
+       "after": "公司基于其声明及所提交文件证据的核验，最高可获得 60 分。若某一具体问题或类别被认为与被评级公司的特定行业无关，则该被评级公司在该部分获得满分。这确保最终得分只真实反映与其实际业务运营相关的环境与社会影响的表现。\n相应的主题层面风险与特定分数区间挂钩：\n2. 低（Low）：29 分\n3. 中低（Medium Low）：15–28 分\n4. 中高（Medium High）：14 分\n5. 高（High）：1–13 分\n6. 极高（Very High）：0 分\nVitals 整体风险等级基于四个主题得分的平均值确定。\n已接受过 EcoVadis 可持续评级（Sustainability Rating）评估的公司，将自动获得其 Vitals 评级结果。此转换无需单独的 Vitals 评级流程。EcoVadis 通过映射可持续评级中的既有发现，来确定特定管理体系要素的存在与否，从而实现转换。这些映射后的发现随后套用与标准 Vitals 方法学相同的评分逻辑，以计算主题层面及整体的 Vitals 风险。"
+      }
+     ],
+     "title": "基于管理体系指标的整体与主题风险等级",
+     "cols": "1",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "Vitals 区分六个反映被评级公司管理体系成熟度的风险等级：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "E、S 与 G 得分",
+       "content": "鉴于四个 Vitals 主题与 E、S、G 主题并非完全对应，为让关注 ESG 因素的用户获得可见性，方法学基于以下公式从主题风险等级中推导出额外的 E、S、G 得分：\n\nE 得分 =（2 × Vitals 环境风险 + Vitals 可持续采购风险）/ 3。\nS 得分 =（2 × Vitals 劳工与人权风险 + Vitals 可持续采购风险）/ 3。\nG 得分 = Vitals 商业行为风险。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "极低（Very Low）：表明成熟可持续管理体系，在大多数或全部主题上均有卓越实践与认证证据。",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "低（Low）：表明稳健可持续管理体系，具备明确政策、具体行动，并在若干主题上有认证证据。",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "中低（Medium Low）：表明令人满意的可持续管理体系，在部分主题上有政策，且实际行动覆盖大部分议题。",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "中高（Medium High）：表明基础性的可持续管理体系，包含具体行动，但在多数主题上缺乏既定政策与认证。",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "高（High）：表明在政策、行动与认证方面存在显著缺口的可持续管理体系。",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "极高（Very High）：表明高风险，其特征是存在重大缺陷或完全缺乏结构化管理体系。",
+       "content": "",
+       "items": []
+      }
+     ],
+     "title": "分级体系",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.4 行业分类",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级以联合国《所有经济活动的国际标准行业分类》（ISIC）第 4 修订版为基础，对被评级公司的经济活动进行分类。\n\n该官方完整文件可在联合国统计司（United Nations Statistic Division）网站上获取。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.5 数据来源",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级使用多种类型的数据来源。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "EcoVadis 用于确定可持续议题重要性的数据",
+       "content": "EcoVadis 使用基于数据的框架，根据公司所在行业来确定可持续议题的重要性（Materiality）。\n行业的重要性评估基于定性研究开展，使用的来源广泛，包括国际组织、公共机构、非政府组织、智库、学术界和科学媒体的各类文章、分析、报告与政策文件等不同利益相关方提供的资料。所有来源均在 EcoVadis 平台上的行业风险概况（Industry Risk profiles）中披露。",
+       "items": []
+      },
+      {
+       "title": "被评级公司为接受评级而向 EcoVadis 提供的数据",
+       "content": "被评级公司需提供政策与证书，以证明其已实施稳健的管理体系来应对实质性可持续议题。这些文件可以是公开或非公开文件。证书本质上由第三方在独立核查管理体系稳健性后颁发，而政策通常不经鉴证。\n\n若可提供，被评级公司可提交第 2013/34/EU 号指令（《会计准则指令》，Accounting Directive）所要求的可持续声明，或根据第 (EU) 2019/2088 号法规（《可持续金融披露法规》，SFDR）或第 (EU) 2020/852 号法规（《分类法条例》，Taxonomy Regulation）披露的信息。\n\nVitals 评级不要求公司分享其转型计划相关信息。",
+       "items": []
+      },
+      {
+       "title": "来自 EcoVadis 可持续评级的数据",
+       "content": "已完成可持续评级（Sustainability Rating）评估的公司，其评估结果将自动转换为 Vitals 评级结果（参见第 2.3 节\"管理体系指标与评分\"）。因此，这些被评级公司无需填写 Vitals 问卷或提交任何支持性文件。\n\n在某些情况下，已完成可持续评级评估的公司可能会被邀请向其作为 Vitals 客户的采购方分享结果。若评级评估足够新近，通过同意分享其结果，这些结果将被转换为 Vitals 评级结果（参见第 2.3 节\"管理体系指标与评分\"）。因此，这些被评级公司无需填写 Vitals 问卷或提交任何支持性文件。",
+       "items": []
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.6 数据处理流程",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级采用精简的数据流程，运行在 EcoVadis 提供的安全、有序的数字平台上。该流程包括：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据收集",
+       "content": "数据直接来自被评级公司自身。在缺乏数据时，Vitals 评级不使用任何估算或行业平均值来生成输入。某一议题的数据缺失会被计入评估，并影响最终评分。",
+       "items": []
+      },
+      {
+       "title": "数据处理",
+       "content": "分析被评级公司所分享文件证据的过程包括若干自动化步骤。首先，每份文件会自动进行资格判定，以确保其符合正式资格标准（详见第 2.7 节\"数据质量\"）。此后，EcoVadis 利用基于 AI 的内容审查，确认其与公司在问卷中的声明一致。数据获批后，该信息会根据既定的评分方法学自动评分（详见第 2.3 节\"管理体系指标与评分\"）。",
+       "items": []
+      },
+      {
+       "title": "数据输出",
+       "content": "评级结果显示在平台上，包括一个整体风险等级，以及四个主题（环境、劳工与人权、商业行为与可持续采购）各自的独立主题风险等级。",
+       "items": []
+      },
+      {
+       "title": "数据存储与历史数据更新及修订 · 每次评估所用数据均保留在系统中以备追溯",
+       "content": "用于 Vitals 评级的数据仅在进行以更新结果为目的的重新评估时更新。 只有当被评级公司决定续期其评级时，才会进行重新评估。重新评估会生成带新发布日期的新结果，从而可追踪更新数据的收集时间：被评级公司有机会在重新评估过程中更新、替换或提交额外的新的文件。在此阶段还会核查所收集文件的有效期，以确保评级仅考虑最新信息。适用以下有效期：",
+       "items": [
+        "政策：8 年有效期",
+        "证书：适用特定有效期"
+       ],
+       "after": "超出相关有效期的资料不再被视为与 Vitals 评级相关，也不会影响最终评分。"
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.7 数据质量",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 采用稳健的多层方法来确保其评估过程的质量与诚信。这些控制措施贯穿整个评估过程。EcoVadis 拥有通过 ISO 9001:2015 标准认证的质量管理体系。该体系包含一份正式的质量方针与质量手册，记录所有流程及其相互作用。\n\nVitals 评级主要依赖被评级公司自身提供的数据或其声明，以确保高水平的数据质量。尽管如此，EcoVadis 还实施了额外的数据质量控制。这些措施在每次评估与重新评估中系统化地应用，包括：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "文件资格标准 · 被评级公司提供的所有文件必须符合特定正式标准才具备评估资格。文件须满足以下标准",
+       "content": "",
+       "items": [
+        "规范化（formalized，即正式、既有，并完全融入公司管理体系）",
+        "完整（complete，即完全披露以便分析其内容）",
+        "可信（credible，即清晰可辨识为属于该公司）",
+        "注明日期（dated，即包含发布或复核日期）",
+        "符合可接受的格式与大小（即采用 .pdf、.docx、.xlsx、.jpg 或 .png 格式，且小于 30 MB）",
+        "机器可读（machine-readable，即包含数字文本，而非扫描图像或照片）。"
+       ],
+       "after": "不符合这些标准的文件不被视为评级目的的有效证据。"
+      },
+      {
+       "title": "强调提供第三方核验信息",
+       "content": "Vitals 评级所用的数据并非系统性地接受第三方鉴证。然而，EcoVadis 主动鼓励被评级公司分享经过核验的优质文件。诸如由第三方颁发、确认符合公认标准的证书等数据来源，是被评为\"极低\"风险等级公司所不可或缺的。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.8 评估间隙期间新信息的监测",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "在两次 Vitals 评估之间，不考虑任何新信息。与被评级公司相关的新信息仅在重新评估期间予以考虑。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.9 与被评级公司的互动",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "在 Vitals 评级背景下，由 EcoVadis 发起的与被评级公司的互动发生在两个阶段：评估流程开始前，以及评级结果发布后。公司可随时通过专属支持渠道联系 EcoVadis。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评估前与被评级公司的互动",
+       "content": "EcoVadis 在评估前通过电子邮件与被评级公司互动，以确保其在 EcoVadis 平台注册、收到问卷，并能够提交答复及支持性证据。",
+       "items": []
+      },
+      {
+       "title": "评估后与被评级公司的互动",
+       "content": "被评级公司会收到通知，享有 2 个工作日的宽限期以审阅并提交任何事实性错误。宽限期结束后，Vitals 评分将交付给采购方。任何公司均可随时通过 EcoVadis 专属页面查看其评分并提交事实性错误主张。\n\n结果发布后，被评级公司可通过专属投诉管理渠道提出问题、表达关切或分享补充信息。\n\n在 Vitals 评级背景下，与被评级公司的互动为远程（offsite）形式，因为评估流程旨在从被评级公司收集数据，而无需任何现场审查或拜访。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.10 科学基础",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "Vitals 评级方法学与若干国际可持续标准保持一致，这些标准本身建立在科学研究、实证证据和数十年的多边共识之上。这些标准与框架包括：",
+       "items": [
+        "ISO 26000《社会责任指南》标准",
+        "全球报告倡议组织（GRI）与《欧洲可持续报告准则》（ESRS）标准",
+        "联合国全球契约（UNGC）十项原则",
+        "国际劳工组织（ILO）公约（包括关于职业安全与健康、工资与工作时间、社会对话、结社自由与集体谈判、童工与强迫劳动、机会与待遇平等方面的公约）"
+       ],
+       "after": "全部 15 项可持续标准均在 ISO 26000 标准、GRI 标准以及联合国可持续发展目标（SDGs）的内容中得到完整映射与引用。"
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "2.11 基于 AI 工具的使用",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 利用机器学习技术协助交付 Vitals 评级。EcoVadis 以其内部《AI 使用政策》为框架，以负责任的方式设计、实施和部署 AI 解决方案，该政策涵盖问责、透明、人的尊严、人的掌控、安全、公平、多元与包容、环境与社会福祉，以及对受保护数据与个人数据的处理规则和对知识产权的保护。基于 AI 的处理在遵守数据保护与 AI 专项法律的前提下进行，确保公平、透明与安全。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评级流程中的 AI 使用",
+       "content": "Vitals 问卷利用 AI 分析与核验公司所提供文件中的数据，自动识别关键元数据，如实体名称、签发日期、文件类型，以及所涉及的具体可持续议题。随后，AI 技术对检索到的信息进行分析，以确定其与公司在 Vitals 问卷中声明的一致性。",
+       "items": []
+      },
+      {
+       "title": "基于 AI 工具的局限性",
+       "content": "与任何技术一样，EcoVadis 使用的基于 AI 的工具有时可能缺乏完美数据处理所需的特定情境分析，这有可能导致错误的通过或拒绝。EcoVadis 持续致力于改进我们的 AI 工具，以确保尽可能低的误差空间。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.1 方法学局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 评级方法学存在以下局限性：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "财务重要性（Financial materiality）",
+       "content": "Vitals 评级不包含财务重要性（Financial materiality）。因此，它不能用于评估 ESG 因素对被评级公司财务表现的影响。",
+       "items": []
+      },
+      {
+       "title": "可持续议题覆盖有限",
+       "content": "EcoVadis Vitals 提供对公司管理体系的聚焦评估。其范围是有意受限的，仅聚焦于选定的可持续议题，而将其他议题（例如与产品使用及报废相关的议题）排除在外。同样，对管理质量的评估仅限于关键政策、行动与认证，忽略了报告等其他重要管理方面。如需更全面的评估，EcoVadis 提供可持续评级（Sustainability Ratings），其对公司管理体系的审查要详尽得多。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.2 数据来源局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 所利用的数据来源存在以下局限性：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "所用数据的可得性与一致性",
+       "content": "被评级公司的评分主要基于管理体系文件形式的证据。若被评级公司未将其管理体系文件规范化，EcoVadis 无法获取此类数据。尽管缺乏书面证据可能仅表明在记录实践方面存在缺口，而并非被评级公司缺乏行动，但 Vitals 评级要求此类文件必须存在并可提供。\n\n此外，Vitals 评级可能受到自我报告缺口的影响。为使问卷声明获得采信，文件证据必须正确关联到相应的问卷声明。因此，即使被评级实体已将其管理体系文件规范化并能够提供证据，若其未正确关联到问卷声明，其中包含的信息在评级过程中也将不被计入。\n\n在极少数情况下，数据的可得性可能受到被评级公司保密顾虑的影响。尽管 EcoVadis 是获得 ISO 27001 认证的实体，并建立了稳健的信息安全管理体系以保护被评级公司的数据与文件，但部分公司仍不愿披露敏感或专有信息。在此类情况下，即便数据在理论上可得，对其的访问仍受到限制。",
+       "items": []
+      },
+      {
+       "title": "信息的完整性、及时性与准确性",
+       "content": "Vitals 评级部分依赖被评级公司的声明，而这些声明无需提交任何文件证据。尽管 EcoVadis 鼓励公司真实、善意地填写问卷，但在这种情况下，所声明的信息仍可能存在不准确甚至完全错误的情况。",
+       "items": []
+      },
+      {
+       "title": "假设、替代参考点、数据估算、预设统计或算法系统或模型的使用",
+       "content": "Vitals 评级不使用任何分数推算、统计模型、算法系统或任何其他估计最终得分的手段。",
+       "items": []
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "3.3 应对数据来源局限性的措施",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为应对 Vitals 评级中数据来源的局限性，EcoVadis 实施了一系列措施与流程，旨在将相关风险降至最低。这些包括：",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "透明沟通要求与方法学",
+       "content": "为确保被评级公司充分了解并能够参与评级流程，EcoVadis 创建了庞大的公开可用支持文件与说明数据库。其目的是便利评级流程、解释各项要求，并能力建设被评级公司，使其能在所提供的框架内真实展现其可持续管理体系的质量。",
+       "items": []
+      },
+      {
+       "title": "文件质量核查",
+       "content": "所有公司提供的文件均经过系统化的核验流程以确保真实性。这包括将证据中列出的实体名称与注册的公司档案进行交叉比对，以防止提交伪造或第三方的文件。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "4 方法学修订",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 方法学的修订遵循《方法学修订程序》中列出的步骤。\n\n方法学的制定与应用独立于一切政治、经济或其他外部影响，由一个专门的方法学团队领导，该团队负责方法学开发的优先级排序、研究与执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n\n方法学修订流程分为六个阶段。对于未被归类为\"高影响\"的方法学变更，部分阶段为可选，但在相关时仍可考虑。",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "启动（Initiation）",
+       "content": "方法学团队中的方法学负责人识别修订需求，并在季度规划（Quarterly Planning）期间由方法学负责人批准。随后，方法学负责人起草一份项目章程，详述项目的描述、目的、理由、目标、范围、团队与风险，采用研究或实施模板之一。必要时，可先启动专门的方法学研究阶段，以在实施前调查并论证正式修订的必要性。",
+       "items": []
+      },
+      {
+       "title": "方法学修订提案（Methodology Revision Proposal）",
+       "content": "方法学负责人将修订提案正式化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会一起审核与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可吸纳其他部门（如产品与技术、市场、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。",
+       "items": []
+      },
+      {
+       "title": "影响评估（Impact Assessment）",
+       "content": "对当前得分或风险等级分布的潜在影响进行量化评估。",
+       "items": []
+      },
+      {
+       "title": "利益相关方咨询（若为高影响）（Stakeholder Consultation）",
+       "content": "若变更被确定为高影响，则开展正式的利益相关方咨询。EcoVadis 直接邀请有代表性的评级用户、被评级实体与外部利益相关方参与，以确保反馈回路具有代表性。",
+       "items": []
+      },
+      {
+       "title": "道德与合规团队的方法学监督审查（Methodology Oversight Review）",
+       "content": "道德与合规（Ethics & Compliance）团队作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在问题、提出疑问或要求进一步澄清。若任何被标注的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council）进行最终仲裁与决策。",
+       "items": []
+      },
+      {
+       "title": "批准与实施（Approval & Implementation）",
+       "content": "最终的方法学修订提案由方法学负责人对常规变更予以批准，由首席评级官对高影响变更予以批准，并正式实施。方法学变更在季度方法学变更沟通中告知评级用户与被评级实体。方法学披露文件相应更新。\n\n所有方法学均需接受每年一次的强制性内部有效性审查，以确保其持续适用。方法学修订通过季度方法学变更沟通告知评级用户与被评级实体。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "5 组织披露",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级法规标准，本方法学文件发布于 EcoVadis 官网上专用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门板块中包含全部所需的组织披露：所有权结构（Ownership structure）、商业模式与定价（Business Model & Pricing）、利益冲突（Conflict of Interest），以及投诉管理与外部利益相关方合理关切（Complaint management & External stakeholder reasoned concern）：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "title": "6 法律声明",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "Vitals 由 Ecovadis SAS 发布，总部位于 43 avenue de la Grande armée, 75116 Paris，是一家在法国注册的私人持有的简化股份有限公司（Société à Actions Simplifiée），商业与公司注册号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会和治理（ESG）评级活动透明度与完整性的第 (EU) 2024/3005 号法规（\"该法规\"），特别是该法规中关于向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n无担保：本文件仅用于提供信息之目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，并可在不预先通知的情况下更改。\n\n责任限制：对于因使用本出版物中明确或隐含包含的任何意见或信息而引起的任何直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司概不负责。\n\n版权所有 © 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
+     "source": "EcoVadis Vitals 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
   }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
 }

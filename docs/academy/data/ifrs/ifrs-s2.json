@@ -24,9 +24,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "目标",
      "content_cn": "1 《国际财务报告准则S2号气候相关披露》的目标是要求主体披露其关于气候相关风险和机遇的信息，以帮助通用目的财务报告主要使用者做出与向主体提供资源相关的决策。①\n\n2 本准则要求主体披露可合理预期会在短期、中期或长期对主体的现金流量、融资渠道或资本成本产生影响的有关气候相关风险和机遇的信息。就本准则而言，这些风险和机遇统称为“可合理预期会影响主体发展前景的气候相关风险和机遇”。",
-     "content": "",
      "source": "《国际财务报告准则S2号》（2023）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -43,14 +41,39 @@
    "blocks": [
     {
      "type": "standard",
+     "content_cn": "3 本准则适用于：",
      "title": "范 围",
-     "content_cn": "3 本准则适用于：\n\n(a)主体面临的气候相关风险，包括：\n\n(i) 气候相关物理风险；以及\n\n(ii)气候相关转型风险；以及\n\n(b)主体可获得的气候相关机遇。\n\n4 不可合理预期会影响主体发展前景的气候相关风险和机遇不在本准则范围内。",
-     "content": "",
      "source": "《国际财务报告准则S2号》（2023）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "气候相关物理风险；以及",
+       "content": "",
+       "items": []
+      },
+      {
+       "title": "气候相关转型风险；以及",
+       "content": "",
+       "items": []
+      }
+     ],
+     "title": "主体面临的气候相关风险，包括"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "主体可获得的气候相关机遇。",
+       "content": "4 不可合理预期会影响主体发展前景的气候相关风险和机遇不在本准则范围内。",
+       "items": []
+      }
+     ]
     }
    ]
   },

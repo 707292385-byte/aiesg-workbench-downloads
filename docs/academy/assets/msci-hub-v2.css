@@ -126,15 +126,37 @@ body[data-page=mof-standard] .mh-topic-card{min-height:118px}
 .mo-files{display:grid;grid-template-columns:1fr 1fr;gap:13px}
 .mo-files>section{padding:15px 17px}
 .mo-files>section>header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:9px;border-bottom:1px solid #efe8e4}
-.mo-files>section>header b{color:#33241f;font-size:13.5px}
+.mo-files>section>header b{display:flex;align-items:center;gap:7px;color:#33241f;font-size:13.5px}
+.mo-files>section>header b::before{content:'';width:7px;height:7px;border-radius:50%;background:#4d8a63}
+.mo-files>section.is-pending>header b::before{background:#d85e58}
 .mo-files>section>header span{color:#8b7a72;font-size:11px}
-.mo-files ul{margin:9px 0 0;padding:0;list-style:none;display:grid;gap:8px}
-.mo-files li a{display:flex;align-items:baseline;justify-content:space-between;gap:10px;color:#4a3a33;font-size:12px;line-height:1.55}
-.mo-files li a:hover span{color:var(--accent)}
-.mo-files li small{flex:none;color:#9b8b83;font-size:10px;white-space:nowrap}
-.mo-files>section.is-pending{border-color:#eccfc8;background:#fdf8f7}
-.mo-files-note{margin:10px 0 0;color:#a8503f;font-size:10.5px;line-height:1.6}
-@media(max-width:820px){.mo-files{grid-template-columns:1fr}.mo-arch-row{grid-template-columns:32px minmax(0,1fr);row-gap:8px}.mo-arch-link{grid-column:2;justify-self:start}}
+.mo-files ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:7px}
+.mo-files li a{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:8px 12px;border:1px solid #efe7e2;border-radius:9px;background:#fff;transition:border-color .15s}
+.mo-files li a:hover{border-color:#d9c6bb}
+.mo-file-name{display:block;color:#3a2b24;font-size:12px;font-weight:600;line-height:1.5}
+.mo-files li small{display:block;margin-top:1px;color:#a08f85;font-size:10px;font-weight:400;line-height:1.5}
+.mo-files li code{padding:3px 8px;border-radius:6px;background:#f6f1ed;color:#8a6f5f;font-size:9.5px;font-family:inherit;white-space:nowrap}
+.mo-files>section.is-pending li a{border-color:#f1ddd7;background:#fdfaf9}
+.mo-files>section.is-pending li code{background:#f6e7e2;color:#a8503f}
+.mo-files-note{grid-column:1/-1;margin:0;padding:10px 14px;border-left:2px solid #cf9488;border-radius:0 8px 8px 0;background:#faf1ee;color:#96553f;font-size:11px;line-height:1.7}
+.mo-exchange{margin-top:13px;padding:15px 17px}
+.mo-exchange>header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding-bottom:9px;border-bottom:1px solid #efe8e4}
+.mo-exchange>header b{color:#33241f;font-size:13.5px}
+.mo-exchange>header span{color:#8b7a72;font-size:11px}
+.mo-exchange-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:stretch;margin-top:12px}
+.mo-exchange-col{padding:11px 14px;border:1px solid #e6ded9;border-radius:10px;background:#fbf8f6}
+.mo-exchange-col small{display:block;color:#a08f85;font-size:10px}
+.mo-exchange-col b{display:block;margin-top:4px;color:#33241f;font-size:13px}
+.mo-exchange-col p{margin:5px 0 0;color:#7a6b64;font-size:11px;line-height:1.65}
+.mo-exchange-vs{display:grid;place-items:center}
+.mo-exchange-vs span{display:grid;min-width:34px;min-height:34px;place-items:center;border-radius:50%;background:color-mix(in srgb,var(--accent) 10%,white);color:var(--accent);font-size:10px;font-weight:700}
+.mh-ind-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.mh-ind-card{display:block;padding:11px 13px;border:1px solid #e6ded9;border-radius:10px;background:#fbf8f6;transition:border-color .15s}
+.mh-ind-card:hover{border-color:#cbb7ab}
+.mh-ind-card b{display:block;color:#33241f;font-size:12.5px}
+.mh-ind-card p{margin:4px 0 0;color:#7a6b64;font-size:10.5px;line-height:1.6}
+@media(max-width:820px){.mo-files{grid-template-columns:1fr}.mo-exchange-grid{grid-template-columns:1fr}.mo-exchange-vs{padding:2px 0}.mh-ind-grid{grid-template-columns:1fr}.mo-arch-row{grid-template-columns:32px minmax(0,1fr);row-gap:8px}.mo-arch-link{grid-column:2;justify-self:start}}
+@media(min-width:601px) and (max-width:980px){.mh-ind-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* 港交所ESG披露体系 */
 body[data-page=hkex-standard]>.skip,body[data-page=hkex-standard]>.site-header,body[data-page=hkex-standard]>.site-footer{display:none}

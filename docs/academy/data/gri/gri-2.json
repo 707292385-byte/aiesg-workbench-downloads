@@ -23,9 +23,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "简介",
      "content_cn": "包含一系列披露项，用于组织说明报告做法；活动和工作者；管治；战略、政策和实践以及利益相关方参与。此等信息有助于深入说明组织的概况和规模，并为理解组织的影响提供背景资料。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -42,9 +40,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "1.组织及其报告做法",
      "content_cn": "本节中的披露项概述组织的概况、可持续发展报告实践，以及可持续发展报告中被纳入的实体。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -61,9 +57,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-1-a指南指南 指南",
      "content_cn": "如果组织使用不同于法定名称的通称商号名或商业名，则除了法定名称，也宜报告该等商号名或商业名。",
-     "content": "",
+     "title": "2-1-a指南指南 指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -80,9 +75,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-1-b指南",
      "content_cn": "组织的所有权性质和法律形式即公有还是私有，属法人实体、合伙企业、独资企业还是其他类型的实体，如非营利组织、协会或慈善组织。",
-     "content": "",
+     "title": "2-1-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -99,9 +93,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-1-c指南",
      "content_cn": "总部是指组织的全球行政中心，发挥控制或管理功能。",
-     "content": "",
+     "title": "2-1-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -118,9 +111,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-1-d指南",
      "content_cn": "如果组织已在别处（如经审计的合并财务报表或公开备案的财务信息）报告运营所在国家，组织可提供该信息的链接或引用。如果能为理解组织的影响提供背景信息，组织也可报告其运营所在地区或国家的具体地点（如省/州、市）。",
-     "content": "",
+     "title": "2-1-d指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -137,9 +129,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-2-a指南",
      "content_cn": "根据2-2-a报告的实体构成了报告本标准下披露项和确定组织实质性议题的基础。\n\n要求2-2-a包括组织控制或拥有权益并在可持续发展报告中纳入的实体，如子公司、合资企业和关联机构，包括少数股东权益。组织宜报告其财务报告中涵盖的同一组实体的信息。\n\n在确定实质性议题时，组织宜考虑与其存在业务关系但未纳入2-2-a项清单中的其他实体的影响。参见 的第1节，了解更多信息。",
-     "content": "",
+     "title": "2-2-a指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -156,9 +147,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-2-a和2-2-b指南",
      "content_cn": "如果组织的财务报告中的所有实体也纳入到可持续发展报告，为符合2-2-a和2-2-b的要求，只需简要说明这一事实，包括添加链接或引用经审计的合并财务报表或公开备案的财务信息中所包括的实体清单。\n\n组织宜单独说明可持续发展报告中纳入、但财务报告中未纳入的任何其他实体。",
-     "content": "",
+     "title": "2-2-a和2-2-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -175,9 +165,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-2-c指南",
      "content_cn": "少数股东权益是指在不受上级实体控制的实体中的所有权权益。",
-     "content": "",
+     "title": "2-2-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -194,9 +183,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-3-a指南",
      "content_cn": "组织可将可持续发展报告的报告频率定为“年度”。参见 ，了解更多信息。",
-     "content": "",
+     "title": "2-3-a指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -213,9 +201,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-3-a和2-3-b指南",
      "content_cn": "报告期是指报告信息所对应的时间段，宜包括开始和结束日期（例如，2022年1月1日至2022年12月31日，2022年7月1日至2023年6月30日）。\n\n组织报告的信息宜与财务报告属同一报告期。如果可能，组织还宜与财务报告同时发布信息。",
-     "content": "",
+     "title": "2-3-a和2-3-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -231,15 +218,75 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "信息重述的原因可包括",
+       "content": "",
+       "items": [
+        "基准期或报告期长度的变化；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-4-a-i指南",
-     "content_cn": "信息重述的原因可包括：\n\n• 基准期或报告期长度的变化；\n\n• 业务性质的变化；\n\n• 衡量方法或所用定义的变化；\n\n• 资产处置、兼并或收购；\n\n• 在先前报告期内出现的错误。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "业务性质的变化；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "衡量方法或所用定义的变化；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "资产处置、兼并或收购；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "在先前报告期内出现的错误。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -251,9 +298,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-4-a-ii指南",
      "content_cn": "重述的影响是指修改或更正先前报告信息的影响。如果重述涉及定量信息，组织宜说明重述信息的定量变化（例如，温室气体排放量比先前报告的水平低10%）。",
-     "content": "",
+     "title": "2-4-a-ii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -269,15 +315,75 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "如果组织根据2-5-b-i提供链接或引用的外部鉴证报告或声明中涵盖此等信息，简要说明这一事实即可。 组织还可用通俗易懂的语言说明：",
+       "items": [
+        "涵盖的信息范围和程序；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-5-b-ii指南",
-     "content_cn": "如果组织根据2-5-b-i提供链接或引用的外部鉴证报告或声明中涵盖此等信息，简要说明这一事实即可。\n\n组织还可用通俗易懂的语言说明：\n\n• 涵盖的信息范围和程序；\n\n• 组织相对于鉴证机构的责任；\n\n• 由鉴证机构正式签署的意见或结论；\n\n• 所履行工作的概要；\n\n• 关于鉴证机构经验和资质的信息，例如，有关人员的简介和专业水平。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "组织相对于鉴证机构的责任；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "由鉴证机构正式签署的意见或结论；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "所履行工作的概要；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "关于鉴证机构经验和资质的信息，例如，有关人员的简介和专业水平。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -289,9 +395,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-5-b-iii指南",
      "content_cn": "进行外部鉴证的鉴证机构需要证明其独立于组织，能够就组织的可持续发展报告达成并发布客观公正的结论。",
-     "content": "",
+     "title": "2-5-b-iii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -308,9 +413,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.活动和工作者",
      "content_cn": "本节中的披露项说明组织活动、员工，以及其他工作者的概况。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -326,15 +429,50 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "行业的确定可依据一般类别，如公共或私营行业；或具体行业类别，如教育行业或金融行业。",
+       "content": "根据组织的活动，行业的确定可使用GRI行业标准或分类体系，例如全球行业分类标准（GICS®）、行业分类基准（ICB）、所有经济活动的国际标准行业分类（ISIC）以及可持续行业分类系统（SICS®）。 2-6-b指南 组织的价值链包括组织以及组织的上下游实体为将组织的产品或服务从概念转化为最终用途所开展的一系列活动。组织的上游实体提供产品或服务，用于组织开发自有产品或服务。组织的下游实体从组织获得产品或服务。价值链的实体不限于上游和下游的第一级别实体。 2-6-b项下报告的信息为了解组织在整个价值链的影响提供背景，包括使用其产品和服务产生的影响。关于所服务的市场的信息有助于进一步说明组织的产品和服务面对的客户群体。 不要求组织详细说明价值链上的每项活动。相反，组织可总体概括价值链的情况。 2-6-b-i指南 在描述活动时，组织宜说明其运营点的总数及其如何定义“运营点”。 在说明产品和服务时，组织宜报告： 报告期内提供的产品或服务的数字（例如，提供的产品或服务的数量，提供的产品或服务的净销•售额）； 所销售的产品或服务是否在某些市场上被禁止，或是成为利益相关方关切或广泛讨论的对象，包•括禁止或关切的原因以及组织是如何回应这些关切的。 在描述所服务的市场时，组织可说明：",
+       "items": [
+        "提供产品和服务的地理区域；"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "title": "2-6-a指南 指南 行业的确宝",
-     "content_cn": "行业的确定可依据一般类别，如公共或私营行业；或具体行业类别，如教育行业或金融行业。\n\n根据组织的活动，行业的确定可使用GRI行业标准或分类体系，例如全球行业分类标准（GICS®）、行业分类基准（ICB）、所有经济活动的国际标准行业分类（ISIC）以及可持续行业分类系统（SICS®）。\n\n2-6-b指南\n\n组织的价值链包括组织以及组织的上下游实体为将组织的产品或服务从概念转化为最终用途所开展的一系列活动。组织的上游实体提供产品或服务，用于组织开发自有产品或服务。组织的下游实体从组织获得产品或服务。价值链的实体不限于上游和下游的第一级别实体。\n\n2-6-b项下报告的信息为了解组织在整个价值链的影响提供背景，包括使用其产品和服务产生的影响。关于所服务的市场的信息有助于进一步说明组织的产品和服务面对的客户群体。\n\n不要求组织详细说明价值链上的每项活动。相反，组织可总体概括价值链的情况。\n\n2-6-b-i指南\n\n在描述活动时，组织宜说明其运营点的总数及其如何定义“运营点”。\n\n在说明产品和服务时，组织宜报告：\n\n报告期内提供的产品或服务的数字（例如，提供的产品或服务的数量，提供的产品或服务的净销•售额）；\n\n所销售的产品或服务是否在某些市场上被禁止，或是成为利益相关方关切或广泛讨论的对象，包•括禁止或关切的原因以及组织是如何回应这些关切的。\n\n在描述所服务的市场时，组织可说明：\n\n• 提供产品和服务的地理区域；\n\n• 市场的人口或其他特征；\n\n• 市场规模和相对重要性的信息（例如，净销售额、净收入）。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "市场的人口或其他特征；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "市场规模和相对重要性的信息（例如，净销售额、净收入）。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -345,15 +483,101 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "组织可说明",
+       "content": "",
+       "items": [
+        "供应商的类型（例如，经纪人、承包商、批发商）；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-6-b-ii指南",
-     "content_cn": "组织可说明：\n\n• 供应商的类型（例如，经纪人、承包商、批发商）；\n\n• 整个供应链和各级（例如，第一级、第二级）供应商的估计数量；\n\n• 供应商开展的与组织的产品和服务有关的活动类型（例如，制造、提供咨询服务）；\n\n• 与供应商的业务关系的性质（例如，长期或短期，合同或非合同，基于项目或基于事件）；\n\n• 供应链的具体行业特征（例如，劳动密集型）；\n\n• 对供应商所付款项的估计货币价值；\n\n• 供应商的地理位置。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "整个供应链和各级（例如，第一级、第二级）供应商的估计数量；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "供应商开展的与组织的产品和服务有关的活动类型（例如，制造、提供咨询服务）；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "与供应商的业务关系的性质（例如，长期或短期，合同或非合同，基于项目或基于事件）；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "供应链的具体行业特征（例如，劳动密集型）；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "对供应商所付款项的估计货币价值；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "供应商的地理位置。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -364,15 +588,75 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "组织可说明",
+       "content": "",
+       "items": [
+        "下游实体的类型（例如，客户、受益人）；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-6-b-iii指南",
-     "content_cn": "组织可说明：\n\n• 下游实体的类型（例如，客户、受益人）；\n\n• 下游实体的估计数量；\n\n• 下游实体开展的与组织的产品和服务有关的活动类型（例如，制造、批发、零售）；\n\n• 与下游实体的业务关系的性质（例如，长期或短期，合同或非合同，基于项目或基于事件）；\n\n• 下游实体的地理位置。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "下游实体的估计数量；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "下游实体开展的与组织的产品和服务有关的活动类型（例如，制造、批发、零售）；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "与下游实体的业务关系的性质（例如，长期或短期，合同或非合同，基于项目或基于事件）；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "下游实体的地理位置。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -384,9 +668,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-6-c指南",
      "content_cn": "其他相关业务关系包括组织与2-6-b下价值链中未提及的实体之间的关系。这些关系可能包括业务伙伴（例如，合资企业）和其他与组织的运营、产品或服务直接相关的实体（示例参见“业务关系”定义中的说明）。\n\n组织可说明实体的类型、活动以及地理位置。",
-     "content": "",
+     "title": "2-6-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -403,9 +686,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-6-d指南",
      "content_cn": "要求2-6-d需要说明组织的行业、价值链和其他业务关系与先前报告期相比的重大变化。这些信息有助于解释组织影响的变化。本披露项下报告的重大变化可包括：活动的变化，如设施的开设、关闭或扩大；组织的供应链结构或与供应商关系的变化，包括选择和终止；或供应商位置的变化。",
-     "content": "",
+     "title": "2-6-d指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -422,9 +704,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-7-a指南",
      "content_cn": "员工是指根据国家法律或惯例，与组织存在雇佣关系的个人。\n\n按性别说明有助于深入说明整个组织的性别代表性。按地区说明有助于深入说明地区差异。地区可指国家或其他地理位置，如城市或世界区域。\n\n参见本标准的表1和表2，了解如何呈现这一信息。",
-     "content": "",
+     "title": "2-7-a指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -441,9 +722,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-7-b指南",
      "content_cn": "各国对长期、临时、非保证工时、全职和兼职员工的定义不同。如果组织在一个以上国家雇有员工，宜使用员工所在国法律规定的定义来计算国家层面的数据，再将国家层面的数据相加，计算总人数，不考虑国家法律定义的差异。\n\n非保证工时的员工受雇于组织，没有最低或固定工作时间的保证。员工可能需要按要求工作，但组织没有合同义务为员工提供每天、每周或每月的最低或固定工作时间。临时员工、签订零工时合同的员工和待命员工均属于此类。\n\n如果组织无法报告准确的数字，可估计并说明员工数量，精确到10人，如果员工数量超过1,000人，则精确到100人，并在2-7-c项下说明。\n\n参见本标准的表1和表2，了解如何呈现这一信息。",
-     "content": "",
+     "title": "2-7-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -460,9 +740,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-7-c指南",
      "content_cn": "组织可用人数或全职等同人数（FTE）报告员工总数以及长期、临时、非保证工时、全职和兼职员工的数量。按人数报告有助于说明个人员工的数量，无论是全职还是兼职员工。按FTE报告有助于说明工作的时间。\n\n组织可使用另一种方法来报告这些数字。\n\n说明报告期结束时的员工数量，可反映这一时点的信息，但无法反映报告期内的波动。按整个报告期的平均数报告则可反映报告期内的波动。",
-     "content": "",
+     "title": "2-7-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -479,9 +758,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-7-d指南",
      "content_cn": "定量数据，如临时或兼职员工的数量，本身可能不够充分。例如，临时或兼职员工比例高可能表明员工缺乏就业保障，但如果是自愿选择，也可能表明工作场所的灵活性。为此，组织需要说明背景\n\n信息，以帮助信息使用者解读这些数据。\n\n组织可解释临时雇佣的原因。例如，招聘员工承担临时或季节性项目或活动的工作，也可能是在长期雇佣之前向新员工提供临时合同（如6个月）的通行做法。组织也可解释非保证工时雇佣的原因。\n\n组织可说明对全职雇佣的定义。如果组织在一个以上的国家雇有员工，可报告对覆盖这些国家的地区所用的全职雇佣的定义。组织还可解释非全职雇佣的原因。例如，为了满足员工减少工作时间的要求，或由于组织无法向所有员工提供全职工作。\n\n如果不同性别或不同地区在长期、临时、非保证工时、全职和兼职雇佣方面存在差异，组织可解释差异的原因。",
-     "content": "",
+     "title": "2-7-d指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -497,15 +775,98 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
      "title": "2-7-e指南",
-     "content_cn": "要求2-7-e使组织能够解释报告期内的员工数量与先前报告期相比有何变化（即，增加还是减少），还可包括人数波动的原因。例如，报告期内员工增加可能是由于季节性事件。反之，与上一报告期相比，员工减少可能是由于完成了一个临时项目。\n\n组织可自行判断哪些员工数量的波动属于重大，以在2-7-e下报告。组织宜说明其判断重大波动的阈值。\n\n如果在报告期内或报告期之间，员工数量没有重大波动，简要说明这一事实即可。\n\n表1：按性别列示员工信息的示例\n<table><tr><td rowspan=1 colspan=5>[报告期]</td></tr><tr><td rowspan=1 colspan=1>女性</td><td rowspan=1 colspan=1>男性</td><td rowspan=1 colspan=1>其他*</td><td rowspan=1 colspan=1>未披露</td><td rowspan=1 colspan=1>总计</td></tr><tr><td rowspan=1 colspan=5>员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5>长期员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5>临时员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5>非保证工时员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5>全职员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=5>兼职员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>\n\n\\* 员工自定义性别。\n\n表2：按地区列示员工信息的示例\n\n<table><tr><td rowspan=1 colspan=3>[报告期]</td></tr><tr><td rowspan=1 colspan=1>区域A</td><td rowspan=1 colspan=1>区域B</td><td rowspan=1 colspan=1>总计</td></tr><tr><td rowspan=1 colspan=3>员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>长期员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>临时员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>非保证工时员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>全职员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=3>兼职员工数量（人数/FTE）</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
-     "learningLayer": "original"
+     "learningLayer": "original",
+     "type": "standard",
+     "content_cn": "要求2-7-e使组织能够解释报告期内的员工数量与先前报告期相比有何变化（即，增加还是减少），还可包括人数波动的原因。例如，报告期内员工增加可能是由于季节性事件。反之，与上一报告期相比，员工减少可能是由于完成了一个临时项目。\n\n组织可自行判断哪些员工数量的波动属于重大，以在2-7-e下报告。组织宜说明其判断重大波动的阈值。\n\n如果在报告期内或报告期之间，员工数量没有重大波动，简要说明这一事实即可。\n\n表1：按性别列示员工信息的示例"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "[报告期]"
+      ],
+      [
+       "女性",
+       "男性",
+       "其他*",
+       "未披露",
+       "总计"
+      ],
+      [
+       "员工数量（人数/FTE）"
+      ],
+      [
+       "长期员工数量（人数/FTE）"
+      ],
+      [
+       "临时员工数量（人数/FTE）"
+      ],
+      [
+       "非保证工时员工数量（人数/FTE）"
+      ],
+      [
+       "全职员工数量（人数/FTE）"
+      ],
+      [
+       "兼职员工数量（人数/FTE）"
+      ]
+     ],
+     "source": "GRI 2（2021）官方中文版",
+     "provenance": "official",
+     "learningLayer": "original",
+     "language": "zh",
+     "sourceScope": "official"
+    },
+    {
+     "title": "2-7-e指南",
+     "source": "GRI 2（2021）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original",
+     "type": "standard",
+     "content_cn": "\\* 员工自定义性别。\n\n表2：按地区列示员工信息的示例"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "[报告期]"
+      ],
+      [
+       "区域A",
+       "区域B",
+       "总计"
+      ],
+      [
+       "员工数量（人数/FTE）"
+      ],
+      [
+       "长期员工数量（人数/FTE）"
+      ],
+      [
+       "临时员工数量（人数/FTE）"
+      ],
+      [
+       "非保证工时员工数量（人数/FTE）"
+      ],
+      [
+       "全职员工数量（人数/FTE）"
+      ],
+      [
+       "兼职员工数量（人数/FTE）"
+      ]
+     ],
+     "source": "GRI 2（2021）官方中文版",
+     "provenance": "official",
+     "learningLayer": "original",
+     "language": "zh",
+     "sourceScope": "official"
     }
    ]
   },
@@ -516,15 +877,39 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "员工之外的工作者是指为组织工作但与组织没有雇佣关系的人员。",
+       "content": "本披露项要求组织说明员工之外但工作受组织控制的工作者数量。控制工作意味着组织对工作发出指令，或控制工作的手段或方法。 组织可能单独控制工作，或与一个或多个组织（如供应商、客户或其他业务伙伴，如合资企业）共同控制。员工之外但工作由组织控制的工作者类型包括派遣工作者、学徒、承包商、家庭工作者、实习生、自雇人士、分包商和志愿者。组织宜说明是如何确定在何时对员工之外的工作者进行工作控制的。 以下是员工之外但工作由组织控制的工作者的示例。本披露项包含如下工作者： 受雇于组织的承包商，在组织的工作场所、公共区域（如道路上）或直接在组织的客户工作场所•工作。 组织的供应商的工作者，前提是组织指示供应商使用特定的材料或工作方法来制造产品或提供服•务。",
+       "items": [
+        "为组织工作的志愿者或实习生。"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "title": "2-8-a指南",
-     "content_cn": "员工之外的工作者是指为组织工作但与组织没有雇佣关系的人员。\n\n本披露项要求组织说明员工之外但工作受组织控制的工作者数量。控制工作意味着组织对工作发出指令，或控制工作的手段或方法。\n\n组织可能单独控制工作，或与一个或多个组织（如供应商、客户或其他业务伙伴，如合资企业）共同控制。员工之外但工作由组织控制的工作者类型包括派遣工作者、学徒、承包商、家庭工作者、实习生、自雇人士、分包商和志愿者。组织宜说明是如何确定在何时对员工之外的工作者进行工作控制的。\n\n以下是员工之外但工作由组织控制的工作者的示例。本披露项包含如下工作者：\n\n受雇于组织的承包商，在组织的工作场所、公共区域（如道路上）或直接在组织的客户工作场所•工作。\n\n组织的供应商的工作者，前提是组织指示供应商使用特定的材料或工作方法来制造产品或提供服•务。\n\n• 为组织工作的志愿者或实习生。\n\n以下是员工之外且工作不受组织控制的工作者的示例。本披露项不包含如下工作者：\n\n• 组织的设备供应商的工作者，按照设备供应商和组织之间的合同规定，对供应商的设备（例如，组织工作场所的复印机）进行定期维护。\n\n组织的供应商的工作者，前提是组织采购供应商以其生产方法制造的标准产品（例如，采购属于•供应商标准产品的文具）。\n\n如果组织无法报告准确数字，可估计并说明员工之外的工作者数量，精确到10，如果员工之外的工作者数量超过1,000人，精确到100，并在2-8-b项下解释。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "以下是员工之外且工作不受组织控制的工作者的示例。本披露项不包含如下工作者",
+       "content": "",
+       "items": [
+        "组织的设备供应商的工作者，按照设备供应商和组织之间的合同规定，对供应商的设备（例如，组织工作场所的复印机）进行定期维护。"
+       ],
+       "after": "组织的供应商的工作者，前提是组织采购供应商以其生产方法制造的标准产品（例如，采购属于•供应商标准产品的文具）。\n如果组织无法报告准确数字，可估计并说明员工之外的工作者数量，精确到10，如果员工之外的工作者数量超过1,000人，精确到100，并在2-8-b项下解释。"
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
     }
    ]
   },
@@ -536,9 +921,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-8-a-i和2-8-a-ii指南",
      "content_cn": "在报告与最常见类型的工作者的合同关系时，组织宜说明是直接还是通过第三方间接聘用他们，如果是后者，第三方是谁（例如，职业介绍所、承包商）。\n\n组织只需概括说明即可，不要求逐一报告每个员工之外的工作者的类型、合同关系和所从事的工作。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -555,9 +938,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-8-b指南",
      "content_cn": "组织可用人数或全职等同人数（FTE）来报告员工之外的工作者数量。按人数报告有助于说明个人工作者的数量，无论是全职还是兼职工作者。按FTE报告有助于说明工作的时间。组织可使用另一种方法来报告这一数字。\n\n说明报告期结束时员工之外的工作者数量，可提供这一时点的信息，但无法反映报告期内的波动。\n按整个报告期的平均数报告则可反映报告期内的波动。",
-     "content": "",
+     "title": "2-8-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -574,9 +956,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-8-c指南",
      "content_cn": "要求2-8-c使组织能够说明在报告期内或与先前报告期相比，员工之外的工作者数量有何变化（即，增加还是减少），还可包括人数波动的原因。例如，报告期内员工之外的工作者增加可能是由于季节性事件。反之，与上一报告期相比，员工之外的工作者减少可能是由于完成了一个临时项目。\n\n组织可自行判断哪些工作者数量的波动属于重大影响，以在2-8-c下报告。组织宜说明其判断重大波动的阈值。\n\n如果在报告期内或报告期之间，员工之外的工作者数量没有重大波动，简要说明这一事实即可。",
-     "content": "",
+     "title": "2-8-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -593,9 +974,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "3.管治",
      "content_cn": "本节中的披露项可说明组织的管治架构、组成、知识、角色和薪酬。\n\n这些披露项下报告的信息对于了解组织如何在战略和运营中管理对经济、环境和人的影响（包括对人权的影响）非常重要，涉及到管治机构的建立方式，在组织的影响管理方面监督能力如何，还有助于理解管治机构对于这些影响的作用和责任。\n\n如果组织计划发布单独的可持续发展报告，那么无需重复已在别处公开报告的信息，例如网页或年度报告。在这种情况下，组织可在GRI内容索引中提供参考，说明何处可找到该等信息（例如，提供网页链接或引用年度报告中已发布信息的页面），从而报告规定的披露项。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -612,9 +991,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-9-c指南指南",
      "content_cn": "组织可通过其他多样性指标来说明最高管治机构及其委员会的构成，如年龄、血统和种族、公民身份、信仰、残障或任何其他与报告有关的多样性指标。",
-     "content": "",
+     "title": "2-9-c指南指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -631,9 +1009,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-9-c-ii指南",
      "content_cn": "“独立性”是指使最高管治机构的成员在不受任何外部影响或利益冲突的情况下做出独立判断的情况。关于管治机构的独立性标准，参见参考文件[20]，了解更多信息。",
-     "content": "",
+     "title": "2-9-c-ii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -650,9 +1027,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-9-c-iv指南",
      "content_cn": "当最高管治机构成员担任的职位或承诺所需要的时间和精力损害到成员在组织中履行职责的能力时，该等职位或承诺就是重要的。重要职位可包括董事会交叉任职。",
-     "content": "",
+     "title": "2-9-c-iv指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -669,9 +1045,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-9-c-vii指南",
      "content_cn": "与组织的影响相关的胜任能力包括涉及组织所在行业、产品和地理位置之普遍相关影响的胜任能力。",
-     "content": "",
+     "title": "2-9-c-vii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -688,9 +1063,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-10-b-iii指南",
      "content_cn": "“独立性”是指使最高管治机构的成员在不受任何外部影响或利益冲突的情况下做出独立判断的情况。关于管治机构的独立性标准，参见参考文件[20]，了解更多信息。",
-     "content": "",
+     "title": "2-10-b-iii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -707,9 +1081,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-10-b-iv指南",
      "content_cn": "与组织的影响相关的胜任能力包括涉及组织所在行业、产品和地理位置之普遍相关影响的能力。",
-     "content": "",
+     "title": "2-10-b-iv指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -726,9 +1099,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-12-b-i指南",
      "content_cn": "要求2-12-b-i涉及最高管治机构在利益相关方参与方面的作用。组织还需要在其他披露项下报告有关利益相关方参与的信息，例如，本标准第5节下的披露项。\n\n组织可说明最高管治机构与利益相关方的沟通频率与方式。如果利益相关方参与是授权执行，组织可说明向何人授权，以及如何将收到的反馈提供给最高管治机构。",
-     "content": "",
+     "title": "2-12-b-i指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -745,9 +1117,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-19-a-i指南",
      "content_cn": "固定工资和浮动工资可包括绩效薪酬、股权薪酬、奖金以及递延和已归属股份。\n\n如果组织采用绩效薪酬，宜说明高管的薪酬是如何设计以鼓励长期绩效。",
-     "content": "",
+     "title": "2-19-a-i指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -764,9 +1135,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-19-a-iii指南",
      "content_cn": "退职金是指给予被终止任命的最高管治机构的离任成员或高管的所有付款和福利。退职金不仅仅是货币给付，还包括从转让财产到自动或加快奖励的发放。",
-     "content": "",
+     "title": "2-19-a-iii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -783,9 +1153,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-19-a-iv指南",
      "content_cn": "回拨是指最高管治机构成员或高管在没有达到某些雇佣条件或目标的情况下，需要向雇主偿还先前获得的薪酬。",
-     "content": "",
+     "title": "2-19-a-iv指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -802,9 +1171,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-19-a-v指南",
      "content_cn": "组织宜说明最高管治机构成员、高管和所有其他员工的退休福利计划和缴费率之间的差异。",
-     "content": "",
+     "title": "2-19-a-v指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -821,9 +1189,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-21-a和2-21-b指南",
      "content_cn": "本披露项涵盖本标准披露项2-7下报告的所有员工。\n\n年度总薪酬包括工资、奖金、股票奖励、期权奖励、非股权激励计划、养老金价值的变化以及一年中提供的非限定递延薪酬收入。在计算比率时，组织宜根据其薪酬政策和数据的可用性，考虑以下所有因素：\n\n• 基本工资，是指有保证的短期非可变现金薪酬的总和。\n\n现金薪酬总额，是指基本工资和现金津贴、奖金、佣金、现金利润分享以及其他形式的可变现金•付款的总和。\n\n直接补偿，是指现金薪酬总额和所有年度长期奖励（例如，股票期权奖励、限制性股票份额或单•位、绩效股票份额或单位、虚拟股票份额、股票增值权和长期现金奖励）的公允价值总额。\n\n年度总薪酬比率可用以下公式计算：\n\n组织所有员工（不包括收入最高个人）的年度总薪酬中位数\n\n年度总薪酬比率的变化可用以下公式计算：\n\n组织中收入最高个人的年度总薪酬增长百分比\n\n组织所有员工（不包括收入最高个人）的年度总薪酬增长百分比中位数",
-     "content": "",
+     "title": "2-21-a和2-21-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -839,15 +1206,63 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "定量数据（如年度总薪酬比率）本身可能不足以理解薪酬差距及其原因。",
+       "content": "例如，薪酬比率可能受到组织的规模（如收入、员工数量）、行业、雇佣策略（如依赖外包工作者或兼职员工、高度自动化）或货币波动的影响。 长期的薪酬差异可能是由于组织的薪酬政策或最高薪酬的个人或员工薪酬水平的变化，计算方法的变化（例如，排除或不排除年度总薪酬中位数的选择）或数据收集过程的改进。为此，组织需要说明背景信息，帮助信息使用者解读数据并了解数据的编制方法。 组织宜提供以下背景信息：",
+       "items": [
+        "根据本标准披露项2-7报告的任何员工是否被排除于计算过程。"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "title": "2-21-c指南",
-     "content_cn": "定量数据（如年度总薪酬比率）本身可能不足以理解薪酬差距及其原因。例如，薪酬比率可能受到组织的规模（如收入、员工数量）、行业、雇佣策略（如依赖外包工作者或兼职员工、高度自动化）或货币波动的影响。\n\n长期的薪酬差异可能是由于组织的薪酬政策或最高薪酬的个人或员工薪酬水平的变化，计算方法的变化（例如，排除或不排除年度总薪酬中位数的选择）或数据收集过程的改进。为此，组织需要说明背景信息，帮助信息使用者解读数据并了解数据的编制方法。\n\n组织宜提供以下背景信息：\n\n• 根据本标准披露项2-7报告的任何员工是否被排除于计算过程。\n\n• 是否对每个兼职员工使用全职等同人数（FTE）薪酬率。\n\n• 包括的薪酬类型的清单。\n\n• 收入最高个人的头衔。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "是否对每个兼职员工使用全职等同人数（FTE）薪酬率。"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "包括的薪酬类型的清单。"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "收入最高个人的头衔。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -859,9 +1274,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "4.战略、政策和实践",
      "content_cn": "本节中的披露项可说明组织的可持续发展战略以及负责任商业行为的政策和实践。披露项的内容是基于权威性政府间文件中对企业的期望。<sup>1</sup>\n\n对负责任商业行为的期望包括遵守法律法规，尊重所有国际公认的人权，包括工作者的权利，以及保护环境和公共健康及安全。这些期望还包括打击贿赂、索贿、敲诈和其他形式的腐败；遵守良好税务实践；以及进行尽职调查，以识别、预防、减缓并说明组织如何处理对经济、环境和人的负面影响，包括对人权的影响。\n\n在本节的披露项中，组织需要说明负责任商业行为的总体政策和实践，而不是具体的实质性议题。中的披露项3-3要求说明组织如何管理每个实质性议题。如果组织已在本节下的披露项中说明对某一实质性议题的政策和实践，那么可在 的披露项3-3中引用此等信息，无需重复报告。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -878,9 +1291,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-a指南",
      "content_cn": "组织宜说明政策承诺中列出的期望、价值观、原则和行为规范。\n\n组织还可说明政策承诺是如何制定的，包括参考的内部和外部专家意见。",
-     "content": "",
+     "title": "2-23-a指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -897,9 +1309,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-a-i指南",
      "content_cn": "参见参考文件 ，了解负责任商业行为的权威性政府间文件清单。\n\n组织还可引用所参与的其他标准或倡议。",
-     "content": "",
+     "title": "2-23-a-i指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -916,9 +1327,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-a-iii指南",
      "content_cn": "预防原则载于 [18]的原则15。其中指出：“当存在严重或不可逆转的损害威胁时，不得以缺乏充分科学确定性为由推迟采取具有成本效益的措施来预防环境退化。”\n\n预防原则是指在缺乏确凿的科学认识或证据，但有充足的理由预期会出现严重或不可逆损害的情况下，及早采取行动，预防和减缓潜在负面影响。\n\n虽然预防原则最常与环境保护联系在一起，但也可应用于其他领域，如健康和安全。组织可说明其应用预防原则的领域。\n\n组织可在 的3-3-d-i项下报告预防原则的应用，作为预防或减缓每项实质性议题潜在负面影响的举措。",
-     "content": "",
+     "title": "2-23-a-iii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -935,9 +1345,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-b-i指南",
      "content_cn": "人权是所有人类与生俱来的权利，相互关联、相互依存、不可分割。\n\n国际公认的人权至少包括联合国《国际人权法案》[15]以及国际劳工组织(ILO)《工作中的基本原则和权利宣言》[5]的基本权利原则所规定的人权。联合国《国际人权法案》包括《世界人权宣言》、《经济、社会和文化权利国际盟约》、《公民权利和政治权利国际盟约》及其两项任择议定书。\n\n其他联合国文件进一步阐述了原住民、妇女、民族或族裔、宗教和语言上的少数群体、儿童、残障人士以及移徙工作者及其家人的权利。还有一些适用于武装冲突的国际人道主义法律标准，如红十字国际委员会（ICRC）《1949年日内瓦公约》[1] 。<sup>2</sup>\n\n在区域层面，具约束力的条约和不具约束力的文件提供区域性人权框架。<sup>3</sup>\n\n如果政策承诺涵盖所有国际公认的人权，简要说明这一事实即可。组织还可说明政策承诺是否提及需要特别注意的某些权利。例如，组织可说明其政策承诺涵盖所有国际公认的人权，并特别提及隐私权和言论自由权（如组织确认其活动对这些权利有影响）。\n\n如果政策承诺只涉及部分国际公认的人权，组织需说明此等权利，并解释为何政策承诺只限于这些权利。",
-     "content": "",
+     "title": "2-23-b-i指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -954,9 +1363,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-b-ii指南",
      "content_cn": "组织特别关注的利益相关方类别，可包括消费者、客户、员工和其他工作者，以及当地社区。还可包括被认为是高风险或弱势群体的个人，如儿童；人权捍卫者；原住民；移徙工作者及其家人；民族或族裔、宗教和语言上的少数群体；可能因性取向、性别认同、性别表达或性特征而受到歧视的人；残障人士；或妇女。\n\n例如，银行可在政策承诺中特别注意避免歧视特定类别的客户，采矿组织可特别注意避免侵犯原住民的权利。",
-     "content": "",
+     "title": "2-23-b-ii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -973,9 +1381,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-d指南",
      "content_cn": "不同组织的最高层级可能不同。例如，组织最高层级可能是最高管治机构（如董事会）或最高管（如首席执行官）。\n\n组织还可说明批准和通过政策承诺的日期，以及对承诺进行审核的频率。",
-     "content": "",
+     "title": "2-23-d指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -992,9 +1399,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-23-e指南",
      "content_cn": "如果政策承诺同等适用于组织的所有活动和业务关系，简要说明这一事实即可。\n\n如果政策承诺只适用于组织的某些活动（例如，只适用于位于某些国家的实体或某些子公司），组织宜具体说明这些承诺适用于哪些活动，还可解释为何承诺只限于这些活动。\n\n如果政策承诺仅适用于组织的某些业务关系，则组织宜具体说明承诺适用于哪类业务关系（例如，分销商、特许经营商、合资企业、供应商），还可解释为何承诺只限于这些业务关系。组织还宜说明这些业务关系方是否有义务遵守政策承诺，或受到鼓励（但无义务）这样做。",
-     "content": "",
+     "title": "2-23-e指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1010,15 +1416,37 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "组织可说明： 政策承诺是否需要所有工作者、业务伙伴及其他相关方（如管治机构成员）阅读、同意并定期签•署；",
+       "items": [
+        "组织沟通政策承诺的方式（例如，简报、正式或非正式会议、专门网站、合同协议）；"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2",
      "title": "2-23-f指南",
-     "content_cn": "组织可说明：\n\n政策承诺是否需要所有工作者、业务伙伴及其他相关方（如管治机构成员）阅读、同意并定期签•署；\n\n• 组织沟通政策承诺的方式（例如，简报、正式或非正式会议、专门网站、合同协议）；\n\n• 组织如何识别并消除沟通或传播政策承诺的潜在障碍（例如，以通俗易懂的相关语言提供）。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "组织如何识别并消除沟通或传播政策承诺的潜在障碍（例如，以通俗易懂的相关语言提供）。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -1029,15 +1457,38 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "组织内不同层级的示例包括最高管治机构、高管以及运营层级。 组织可报告",
+       "content": "",
+       "items": [
+        "对履行政策承诺进行监督或问责的最高层级；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-24-a-i指南",
-     "content_cn": "组织内不同层级的示例包括最高管治机构、高管以及运营层级。\n\n组织可报告：\n\n• 对履行政策承诺进行监督或问责的最高层级；\n\n组织中对履行每项政策承诺负有日常责任的职能部门（例如，人力资源部负责履行尊重工作者权•利的承诺），包括：\n\n\\- 他们对高级决策层的汇报关系；\n\n\\- 将责任分配给他们的原因；\n\n• 负责任商业行为是否在最高管治机构或高管的会议上正式讨论，如果是，讨论了哪些议题；\n\n是否有其他正式或系统性方法，以在组织内不同层级或职能部门之间讨论负责任商业行为（例如，跨职能工作组）。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "组织中对履行每项政策承诺负有日常责任的职能部门（例如，人力资源部负责履行尊重工作者权•利的承诺），包括： \\- 他们对高级决策层的汇报关系； \\- 将责任分配给他们的原因；",
+       "items": [
+        "负责任商业行为是否在最高管治机构或高管的会议上正式讨论，如果是，讨论了哪些议题；"
+       ],
+       "after": "是否有其他正式或系统性方法，以在组织内不同层级或职能部门之间讨论负责任商业行为（例如，跨职能工作组）。"
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
     }
    ]
   },
@@ -1049,9 +1500,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-24-a-ii指南",
      "content_cn": "组织可说明：\n\n如何将政策承诺与以下方面保持一致：•\n\n\\- 更广泛的风险管理体系和管理政策；\n\n\\- 经济、环境、社会和人权影响评估，以及其他尽职调查程序；\n\n\\- 为管理层或工作者设定财务和其他绩效激励的政策和程序；\n\n• 如何将政策承诺应用于决策，例如关于采购和运营地点的决定；\n\n组织监测在活动（不同职能和地理位置）和业务关系中对政策承诺遵守情况的系统（例如，内部•审计）。",
-     "content": "",
+     "title": "2-24-a-ii指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1067,15 +1517,39 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "组织可说明： 其采购或投资政策和实践，以及与业务关系方的沟通情况，包括：• 是否以及如何应用与负责任商业行为政策承诺中所列期望一致的资格预审程序、投标标准或筛选标准； \\- 是否以及如何考虑合同或投资协议中的政策承诺，或针对供应商的具体政策或行为守则；",
+       "items": [
+        "在决定是否发起、继续或终止业务关系的过程中，是否以及如何考虑政策承诺；"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2",
      "title": "2-24-a-iii指南",
-     "content_cn": "组织可说明：\n\n其采购或投资政策和实践，以及与业务关系方的沟通情况，包括：•\n\n是否以及如何应用与负责任商业行为政策承诺中所列期望一致的资格预审程序、投标标准或筛选标准；\n\n\\- 是否以及如何考虑合同或投资协议中的政策承诺，或针对供应商的具体政策或行为守则；\n\n• 在决定是否发起、继续或终止业务关系的过程中，是否以及如何考虑政策承诺；\n\n• 促使或支持业务伙伴和其他各方履行政策承诺的过程（例如，能力建设、同行分享）；\n\n向业务伙伴和其他各方提供的履行政策承诺的激励措施（例如，价格溢价、增加订单、长期合同）。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "促使或支持业务伙伴和其他各方履行政策承诺的过程（例如，能力建设、同行分享）；"
+       ],
+       "after": "向业务伙伴和其他各方提供的履行政策承诺的激励措施（例如，价格溢价、增加订单、长期合同）。"
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
     }
    ]
   },
@@ -1086,15 +1560,64 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "组织可报告",
+       "content": "",
+       "items": [
+        "培训的内容；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-24-a-iv指南",
-     "content_cn": "组织可报告：\n\n• 培训的内容；\n\n• 向谁提供培训，培训是否为强制性；\n\n• 培训的形式（例如，面对面，在线）和频率；\n\n• 举例说明组织如何确定培训有效。\n\n组织可说明培训是否涵盖在一般或具体情况下履行政策承诺的方法（例如，处理客户个人数据时确保隐私承诺，在采购中确保考虑政策承诺）。\n\n组织可具体说明是否向那些对履行政策承诺负有日常责任和监督或问责的人员提供培训。组织也可说明是否向存在业务关系的各方（如分销商、特许经营商、合资企业、供应商）提供培训。组织可说明在报告期内接受培训的员工、业务伙伴及其他各方的数量或百分比。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "向谁提供培训，培训是否为强制性；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "培训的形式（例如，面对面，在线）和频率；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "举例说明组织如何确定培训有效。"
+       ],
+       "after": "组织可说明培训是否涵盖在一般或具体情况下履行政策承诺的方法（例如，处理客户个人数据时确保隐私承诺，在采购中确保考虑政策承诺）。\n组织可具体说明是否向那些对履行政策承诺负有日常责任和监督或问责的人员提供培训。组织也可说明是否向存在业务关系的各方（如分销商、特许经营商、合资企业、供应商）提供培训。组织可说明在报告期内接受培训的员工、业务伙伴及其他各方的数量或百分比。"
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
     }
    ]
   },
@@ -1105,15 +1628,92 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "申诉机制是指任何常规化、国家或非国家、司法或非司法的程序，利益相关方可通过这些程序提出申诉并寻求补救。 国家司法和非司法申诉机制的示例包括法院（刑事和民事诉讼）、劳动法庭、国家人权机 构、 下的国家联系人、监察员办公室、消费者保护机构、监管监督机构和政府管理的投诉办公室。 非国家申诉机制包括由组织单独或与利益相关方一起管理的申诉机制，如运营层面的申诉机制和集体谈判，包括通过集体谈判建立的机制。还包括由行业协会、国际组织、公民社会组织或多利益相关方团体管理的机制。 运营层面的申诉机制由组织单独或与其他方合作管理，且组织的利益相关方可直接使用。通过这些机制，组织能够及时、直接识别和处理申诉，从而预防伤害和申诉升级，还能提供直接受影响者对组织尽职调查有效性的重要反馈。 组织可说明： 申诉机制的预期目的和使用者（即，是否针对具体利益相关方类别、议题或地区），以及能否让•使用者提出与人权有关的关切。例如，组织可说明已建立机制，供社区成员提出有关重新安置的投诉，以及提供单独热线，让工作者提出影响其权利的关切，如健康和安全条件；",
+       "items": [
+        "申诉机制如何运作，由谁管理（组织或另一方）；"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "title": "2-25-b指南",
-     "content_cn": "申诉机制是指任何常规化、国家或非国家、司法或非司法的程序，利益相关方可通过这些程序提出申诉并寻求补救。\n\n国家司法和非司法申诉机制的示例包括法院（刑事和民事诉讼）、劳动法庭、国家人权机\n\n构、 下的国家联系人、监察员办公室、消费者保护机构、监管监督机构和政府管理的投诉办公室。\n\n非国家申诉机制包括由组织单独或与利益相关方一起管理的申诉机制，如运营层面的申诉机制和集体谈判，包括通过集体谈判建立的机制。还包括由行业协会、国际组织、公民社会组织或多利益相关方团体管理的机制。\n\n运营层面的申诉机制由组织单独或与其他方合作管理，且组织的利益相关方可直接使用。通过这些机制，组织能够及时、直接识别和处理申诉，从而预防伤害和申诉升级，还能提供直接受影响者对组织尽职调查有效性的重要反馈。\n\n组织可说明：\n\n申诉机制的预期目的和使用者（即，是否针对具体利益相关方类别、议题或地区），以及能否让•使用者提出与人权有关的关切。例如，组织可说明已建立机制，供社区成员提出有关重新安置的投诉，以及提供单独热线，让工作者提出影响其权利的关切，如健康和安全条件；\n\n• 申诉机制如何运作，由谁管理（组织或另一方）；\n\n运营层面的申诉机制是在组织层面还是较低层面（现场或项目中）管理，如果是后者，组织如何•汇集这些机制中的信息；\n\n申诉机制是如何设计的，依据了哪些原则和准则，包括是否旨在符合 [14]中•所列的有效性原则;\n\n• 对申诉进行调查的程序；\n\n• 申诉是否传达至最高管治机构；\n\n• 申诉是否得到保密处理；\n\n• 利益相关方是否可通过第三方的代表，匿名使用这些机制；\n\n• 组织是否要求或鼓励在供应商的工作场所建立或改进运营层面的申诉机制；\n\n如果供应商的工作场所没有运营层面的申诉机制，或这些工作场所的现有申诉机制无法解决问题，组织是否提供备用程序。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "运营层面的申诉机制是在组织层面还是较低层面（现场或项目中）管理，如果是后者，组织如何•汇集这些机制中的信息； 申诉机制是如何设计的，依据了哪些原则和准则，包括是否旨在符合 [14]中•所列的有效性原则;",
+       "items": [
+        "对申诉进行调查的程序；"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "申诉是否传达至最高管治机构；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "申诉是否得到保密处理；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "利益相关方是否可通过第三方的代表，匿名使用这些机制；"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "组织是否要求或鼓励在供应商的工作场所建立或改进运营层面的申诉机制；"
+       ],
+       "after": "如果供应商的工作场所没有运营层面的申诉机制，或这些工作场所的现有申诉机制无法解决问题，组织是否提供备用程序。"
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
     }
    ]
   },
@@ -1125,9 +1725,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-25-c指南",
      "content_cn": "要求2-25-c涵盖申诉机制之外的补救程序。此等程序可在没有正式投诉机制的情况下补救影响。\n\n例如组织采取行动，补救在影响评估或公民社会组织的报告中所证实的实际影响。",
-     "content": "",
+     "title": "2-25-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1144,9 +1743,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-25-d指南",
      "content_cn": "组织可说明，如何与作为申诉机制目标使用者的利益相关方沟通，以了解他们希望如何通过该机制提出关切，以及对机制运作方式的期望。",
-     "content": "",
+     "title": "2-25-d指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1163,9 +1761,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-25-e指南",
      "content_cn": "根据 [14]，有效的申诉机制应合法、易于使用、可预测、公平、透明、与权利相\n\n容，并有助于持续积累经验教训。除这些标准之外，运营层面的有效申诉机制也应基于沟通和对\n\n话。与组织自己建立的申诉机制相比，要评估其参与的申诉机制的有效性可能更加困难。",
-     "content": "",
+     "title": "2-25-e指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1182,9 +1779,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-27-c指南",
      "content_cn": "对重大违规事例的说明可包括事例发生的地理位置，涉及的事项（如税务欺诈或泄漏）。组织需要报告充足信息，以便信息使用者了解重大违规事例的类型和背景。\n\n组织还可解释这些重大事例是否重复发生或反复出现。",
-     "content": "",
+     "title": "2-27-c指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1200,15 +1796,36 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "在确定重大违规事例时，组织可评估",
+       "content": "",
+       "items": [
+        "事例所产生影响的严重性；"
+       ]
+      }
+     ],
+     "numbered": false,
      "title": "2-27-d指南",
-     "content_cn": "在确定重大违规事例时，组织可评估：\n\n• 事例所产生影响的严重性；\n\n• 行业中用于确定重大违规事例的外部基准。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "行业中用于确定重大违规事例的外部基准。"
+       ]
+      }
+     ],
+     "numbered": false
     }
    ]
   },
@@ -1220,9 +1837,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "5.利益相关方参与",
      "content_cn": "本节中的披露项可说明组织的利益相关方参与实践，包括如何进行与员工的集体谈判。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1238,15 +1853,40 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
      "title": "2-30-a指南",
-     "content_cn": "组织需要说明工作条件和雇佣条款受一个或多个集体谈判协议规范的员工的百分比。\n\n集体谈判协议所涵盖的员工的百分比采用以下公式计算：\n\n<table><tr><td>集体谈判协议所涵盖的员工数量</td></tr><tr><td>在2-7-a下报告的员工总数</td></tr></table>\n\n集体谈判协议所涵盖的员工是指组织有义务对其履行协议的员工。这意味着如果没有员工受集体谈判协议涵盖，则上述百分比为零。多项集体谈判协议涵盖的员工只需计算一次。\n\n不需要提供由工作委员会代表或属于工会的员工的百分比，此等数字可能与上述计算结果不同。当集体谈判协议同时适用于工会和非工会成员时，集体谈判协议所涵盖的员工百分比可能高于工会员工的百分比。相反，如果没有集体谈判协议或集体谈判协议未涵盖所有工会员工，集体谈判协议覆盖的员工百分比可能低于工会员工的百分比。\n\n组织还可按地区划分集体谈判协议所涵盖的员工百分比，或提供与行业基准的比较。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
      "language": "zh",
-     "learningLayer": "original"
+     "learningLayer": "original",
+     "type": "standard",
+     "content_cn": "组织需要说明工作条件和雇佣条款受一个或多个集体谈判协议规范的员工的百分比。\n\n集体谈判协议所涵盖的员工的百分比采用以下公式计算："
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "集体谈判协议所涵盖的员工数量"
+      ],
+      [
+       "在2-7-a下报告的员工总数"
+      ]
+     ],
+     "source": "GRI 2（2021）官方中文版",
+     "provenance": "official",
+     "learningLayer": "original",
+     "language": "zh",
+     "sourceScope": "official"
+    },
+    {
+     "title": "2-30-a指南",
+     "source": "GRI 2（2021）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original",
+     "type": "standard",
+     "content_cn": "集体谈判协议所涵盖的员工是指组织有义务对其履行协议的员工。这意味着如果没有员工受集体谈判协议涵盖，则上述百分比为零。多项集体谈判协议涵盖的员工只需计算一次。\n\n不需要提供由工作委员会代表或属于工会的员工的百分比，此等数字可能与上述计算结果不同。当集体谈判协议同时适用于工会和非工会成员时，集体谈判协议所涵盖的员工百分比可能高于工会员工的百分比。相反，如果没有集体谈判协议或集体谈判协议未涵盖所有工会员工，集体谈判协议覆盖的员工百分比可能低于工会员工的百分比。\n\n组织还可按地区划分集体谈判协议所涵盖的员工百分比，或提供与行业基准的比较。"
     }
    ]
   },
@@ -1258,9 +1898,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2-30-b指南",
      "content_cn": "可能会有这样的情况：集体谈判协议涵盖了组织的部分员工或未涵盖任何员工。但基于其他集体谈判协议（如涵盖其他员工的协议或来自其他组织的协议），这些员工的工作条件和雇佣条款可能会受到组织的影响或由组织决定。如果是这样，组织需在2-30-b下报告。如果不是这样，且这些员工的工作条件和雇佣条款没有基于其他集体谈判协议受到影响或决定，简要说明这一事实即可。",
-     "content": "",
+     "title": "2-30-b指南",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",
@@ -1277,9 +1916,7 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "生效日期",
      "content_cn": "本标准对 2023年1月1日 或之后出版的报告或其他材料有效。",
-     "content": "",
      "source": "GRI 2（2021）官方中文版",
      "sourceScope": "official",
      "provenance": "official",

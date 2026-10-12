@@ -1,6 +1,6 @@
 (function () {
-  const cleanTitle = section => String(section?.title_cn || section?.title_en || '')
-    .replace(/^[•◦■]\s*/, '')
+  const cleanTitle = section => String(section?.title_cn || section?.title_en || section?.title || '')
+    .replace(/^[•◦■●○◎〇□]\s*/, '')
     .trim();
 
   const firstText = section => {

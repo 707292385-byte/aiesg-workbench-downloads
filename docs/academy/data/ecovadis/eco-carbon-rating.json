@@ -1,479 +1,811 @@
 {
-  "id": "eco-carbon-rating",
-  "title": "EcoVadis 碳评级方法学",
-  "eyebrow": "公开方法学披露文件",
-  "summary": "本文档为EcoVadis碳评级方法学公开披露，说明其以温室气体排放为核心的重要性评估方法、0–100分制评分与十二项管理体系指标、数据质量控制及修订流程。",
-  "tags": [
-    "EcoVadis",
-    "碳方法学"
-  ],
-  "group": "碳方法学",
-  "status": "",
-  "officialUrl": "https://ecovadis.com/",
-  "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
-  "learningLayers": [
-    "original"
-  ],
-  "sections": [
+ "id": "eco-carbon-rating",
+ "title": "EcoVadis 碳评级方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "本文档为EcoVadis碳评级方法学公开披露，说明其以温室气体排放为核心的重要性评估方法、0–100分制评分与十二项管理体系指标、数据质量控制及修订流程。",
+ "tags": [
+  "EcoVadis",
+  "碳方法学"
+ ],
+ "group": "碳方法学",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
     {
-      "id": "s1",
-      "title": "引言（披露目的）",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "引言（披露目的）",
-          "content_cn": "本披露文件旨在确保符合欧盟第 2024/3005 号法规（关于环境、社会和治理（ESG）评级活动的透明度与诚信）附件三，以及补充第 (EU) 2024/3005 号法规的授权法规。",
-          "content": "The disclosure document is intended to ensure compliance with Annex III to the EU Regulation 2024/3005 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities, and the Delegated Regulation supplementing Regulation (EU) 2024/3005.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "title": "1.1 重要性的目标与方法",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.1 重要性的目标与方法",
-          "content_cn": "碳评级（Carbon Rating）的目标是评估被评级公司的温室气体（\"GHG\"）排放管理体系在应对利益相关方影响方面的充分性与完整性。该评级是 EcoVadis 的独立意见，可能不同于其他 ESG 评级机构提供的评估。\n\n碳评级是作为评级用户（rating users）将温室气体排放相关因素纳入其采购或投资决策的工具而设计的。碳评级并非由被评级公司（供应商）主动申请，而是由采购方为评估其供应商而发起。被评级公司（供应商）参与此流程，并同意接受评估；公司始终可以拒绝接受评估。\n\n碳评级评估基于影响重要性（impact materiality）方法（即\"由内向外\"的视角，识别公司运营、产品与服务对环境和社会产生的外部影响）。碳评级不纳入财务重要性（\"由外向内\"的视角），因此不衡量外部 ESG 因素给公司带来的财务风险。\n\n所涵盖的具体影响以价值链内的温室气体排放为核心（详见\"1.2 范围\"一节）。",
-          "content": "The objective of the Carbon Rating is to assess the level of adequacy and comprehensiveness of a rated company's greenhouse gas (\"GHG\") emissions management system to address impacts on stakeholders. The rating is EcoVadis' own opinion and can differ from the assessments provided by other ESG rating providers.\n\nThe Carbon Rating is designed as a tool for rating users to integrate factors related to GHG emissions into their procurement or investment decisions. Carbon Ratings are not solicited by rated companies (suppliers). They are requested by buyers to assess their suppliers. The rated company (supplier) is engaged in this process, and consents to undergo an assessment. Companies can always refuse to undergo an assessment.\n\nThe Carbon Rating assessment is based on an impact materiality approach (the \"inside-out\" perspective identifying external impacts that a company's operations, products, and services have on the environment and society). The Carbon Rating does not incorporate financial materiality (the \"outside-in\" perspective) and therefore does not measure the financial risks posed to the company by external ESG factors.\n\nThe specific impacts covered are centered around GHG emissions within value chains (see section \"1.2 Scope\" for additional details).",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "title": "1.2 范围",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.2 范围",
-          "content_cn": "碳评级仅涵盖与温室气体排放相关的问题，该问题属于 ESG 中环境（Environment）层面的子议题。其评级结果不包含社会（Social）与治理（Governance）议题。因此，碳评级的结果仅归入\"E\"（环境）类别，并在最终得分中占有全部权重。\n\n碳评级对上述议题的处理方式，与《会计指令》（Accounting Directive 2013/34/EU，经《企业可持续发展报告指令》2022/2464（\"CSRD\"）修订，并在《欧洲可持续发展报告准则》（\"ESRS\"）中细化）所列议题并不完全对应。但两者存在一定程度的重叠，可用于比较。",
-          "content": "The Carbon Rating covers solely issues related to GHG emissions, a sub-topic within the Environment aspect of ESG. Social and Governance issues are absent from its results. In consequence, the results of the Carbon Rating fall solely within the \"E\" category which bears full weight in the final score.\n\nThe way the Carbon Rating addresses the aforementioned issue does not fully correspond to the topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (\"CSRD\") and detailed in the European Sustainability Reporting Standards (\"ESRS\"). However, it overlaps to a degree and allows for comparison.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "title": "1.3 评级量表类型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.3 评级量表类型",
-          "content_cn": "碳评级结果以绝对值表示。得分范围为 0 至 100 分（参见第 2.3 节）。碳评级记分卡还包含被评级公司所处的百分位信息，从而可将其表现与 EcoVadis 评级的其他公司进行相对比较。",
-          "content": "Carbon Rating results are expressed in absolute values. The score ranges from 0 to 100 points (see Section 2.3). Carbon Rating scorecards also include information on the percentiles within which rated companies fall, allowing for relative comparison of performance to other companies rated by EcoVadis.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "title": "1.4 对国际协定的覆盖",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.4 对国际协定的覆盖",
-          "content_cn": "碳评级方法学考虑了以下国际协定的目标：\n● 《巴黎协定》（Paris Agreement）：方法学考虑了该协定将本世纪全球温升控制在关键阈值以下的目标，并对符合 1.5°C 路径、与科学目标一致的减排目标给予认可。\n● 《京都议定书》（Kyoto Protocol）：方法学考虑了该议定书为应对全球变暖、减缓气候变化而减少全球温室气体排放的目标，以及其对温室气体排放清单科学边界的定义，要求核算完整温室气体清单（CO2、CH4、N2O、HFCs、PFCs、SF6、NF3），以确保全面、标准化的报告。\n碳评级不收集公司活动中符合或不符合欧盟分类法（EU taxonomy）的百分比。",
-          "content": "The Carbon Rating methodology considers the objectives of the following international agreements:\n● The Paris Agreement: The methodology considers the agreement's objective to keep this century's global temperature rise well below critical thresholds and credits science-aligned reduction targets compatible with the 1.5°C trajectory.\n● The Kyoto Protocol: The methodology considers the Protocol's objective to reduce global greenhouse gas emissions to combat global warming and mitigate climate change and its definition of the scientific perimeter for GHG emissions inventories, mandating the accounting of the full list of greenhouse gases (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3) to ensure comprehensive and standardized reporting.\nThe Carbon Rating does not collect the percentage of companies' activities that are aligned or not with the EU taxonomy.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s6",
-      "title": "2.1 方法学概览",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.1 方法学概览",
-          "content_cn": "碳评级方法学一致地适用于所有符合条件的主体，并会根据公司概况（包括行业、规模与风险概况）进行调整。碳评级方法学的最新版本为 v2.0，自 2026 年 1 月起适用。\n完整变更日志可在此查阅：EcoVadis 方法学更新（需登录）。\n\na) 方法学治理原则\n\n为提供具有最高质量与诚信的碳评级，EcoVadis 设计了方法学治理框架，确保我们的方法学遵循以下核心原则：\n\ni) 严谨性\n\n我们的方法学通过严谨的流程开发，包括研究、影响评估以及对拟议变更的公开征询，以确保该框架能够捕捉复杂的可持续发展风险，并准确反映被评级主体的可持续发展表现。\n\nii) 系统性\n\n我们采用结构化、可重复的方法学框架，确保每个主体都依据一套与其具体情境相适应的、一致的原则与要求接受评估。这种系统性方法消除了临时性的主观判断，并确保方法学为被评级主体之间的比较提供了稳定的基础。\n\niii) 独立性\n\n我们方法学的开发与批准由一个在组织架构与职能上均独立于商务和销售活动的内部职能负责。这确保了评级框架的设计完全由分析诚信驱动，并免受外部商业压力的影响。\n\niv) 可论证性\n\n方法学建立在清晰、以证据为基础的原理之上，该原理规定了每个可持续发展议题的具体权重与相关性。框架的每个组成部分均有文档记录以追溯，确保底层理论假设在技术审查下站得住脚。\n\nv) 随时间可比\n\n我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确比较逐年表现。\n\nvi) 透明性\n\n依据欧盟 ESG 评级机构法规（EU ESG Rater regulation）设定的透明度标准，我们就方法学范围、排名体系、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。\n\nb) 评估资格\n\n方法学允许对企业主体进行评估。要获得碳评级资格，主体必须满足三项标准：\n- 必须具有法定实体名称，或在直接母公司的法定实体名称下运营。法定实体名称是公司在运营所在国依法注册并开展业务的名称。\n- 必须具有 25 名或以上员工。\n- 在碳影响方面必须具备相关的评估范围水平。例如，若范围包含差异极大的业务活动，使得单次评级不足以评估公司所面临的影响及其为应对影响而实施的管理体系，则不符合此要求。\n\n方法学允许 3 种不同的评估范围：\n- 集团（Group）：集团层面的评估覆盖一个法定实体及其子公司。\n- 实体（Entity）：实体层面的评",
-          "content": "The Carbon Rating methodology is consistently applied to all eligible entities and includes adjustments made based on company profile, including industry, size and risk profile. The most recent version of the Carbon Rating Methodology is v2.0, applicable as of January 2026.\nA full changelog can be accessed here: EcoVadis methodology updates (Login required)\n\na) Methodology governance principles\n\nTo deliver Carbon Ratings with the highest levels of quality and integrity, EcoVadis has designed a methodology governance framework ensuring our methodologies adhere to the following core principles:\n\ni) Rigorous\n\nOur methodologies are developed through a rigorous process including research, impact assessment and public consultation of proposed changes to ensure the framework is capable of capturing complex sustainability risks and accurately reflect the rated entity's sustainability performance.\n\nii) Systematic\n\nWe employ a structured, repeatable methodological framework that ensures every entity is evaluated against a consistent set of principles and requirements tailored to their specific context. This systematic approach eliminates ad-hoc subjectivity and ensures that the methodology provides a stable basis for comparison of rated entities.\n\niii) Independent\n\nThe development and approval of our methodologies are governed by an internal function that is structurally and functionally separate from commercial and sales activities. This ensures the design of the rating framework is driven solely by analytical integrity and is insulated from external business pressures.\n\niv) Capable of justification\n\nThe methodology is built upon a clear, evidence-based rationale that dictates the specific weighting and relevance of each sustainability issue. Every component of the framework is documented for traceability, ensuring the underlying theory assumptions are defensible under technical scrutiny.\n\nv) Comparable over time\n\nOur methodology is designed to provide a stable benchmark by maintaining consistent evaluation criteria over time. By ensuring the framework remains steady, we enable rating users to accurately compare year-on-year performance.\n\nvi) Transparent\n\nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide comprehensive public disclosures regarding the methodology scope, ranking system, key assumptions and models, data sources and processes, and its inherent limitations.\n\nb) Eligibility for assessment\n\nThe methodology allows for assessment of corporate entities. To be eligible for a Carbon Rating, an entity must meet three criteria:\n- It must have a legal entity name or operate under the direct parent legal entity name. The legal entity name is the name under which a company is legally registered and operates in the country of operation.\n- It must have 25 or more employees.\n- There must be a relevant level of scope of assessment in terms of carbon impacts. This may for instance not be the case if the scope includes widely different business activities, making it inadequate for a single rating to assess impacts the company is confronted to and the management system it has implemented in response.\n\nThe methodology allows for 3 different scopes of assessment:\n- Group: Group-level assessments cover a legal entity and its subsidiaries.\n- Entity: Entity-level assessmen",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s7",
-      "title": "2.2 方法学假设与模型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.2 方法学假设与模型",
-          "content_cn": "碳评级基于以下假设运行：\n\na) 拥有规范化管理体系的公司更能预防和应对不利影响\n\n碳评级假设，实施规范化管理体系的公司更有能力预防和应对对环境与社会造成的不利影响。因此，评分方法学会就所有温室气体管理议题上承诺、行动与结果报告的规范化给予加分。\n\nb) 缺乏文件证据即意味着缺乏管理方法\n\n若被评级公司无法提供规范化的管理体系证据（如政策、程序与报告），碳评级将此视作管理体系未有效实施的迹象，并可能表明该公司未做好充分准备来应对重大可持续发展议题。缺乏规范化证据会导致较低的得分。\n\nc) 被评级公司规模越大、风险与影响越大、所掌握资源越多，对其管理体系的要求越高\n\n方法学假设，较大的主体面临更多风险、产生更重大的影响，且更有能力应对可持续发展议题。因此，系统性地要求它们展现出更高的成熟度与更全面的方法。反之，较小的主体面临较低的要求，并据其具体情境相应调整。\n\n碳评级不采用任何额外的辅助模型、估算或预测。",
-          "content": "The Carbon Rating operates under the following assumptions:\n\na) Companies with formalized management systems are in a better position to prevent and address adverse impacts\n\nThe Carbon Rating assumes that companies that implement formalized management systems are significantly better equipped to prevent and address adverse impacts on the planet and society. As a result, the scoring methodology rewards the formalization of commitments, actions and reporting on results on all GHG management issues.\n\nb) Absence of document evidence means absence of management approach\n\nIn case a rated company is not able to provide formalized management system evidence, such as policies, procedures and reports, the Carbon Rating considers this as an indication that the management system is not effectively implemented, and that the company may not be well prepared to address material sustainability issues. The lack of formalized evidence translates into lower scores.\n\nc) The larger the rated company, the greater the risks and impacts and the larger the resources it possess, the higher the expectations regarding its management system\n\nThe methodology assumes that larger entities face more risks, generate more significant impacts and are better positioned to address sustainability issues. In consequence, they are systematically expected to demonstrate greater maturity and a more comprehensive approach. Conversely smaller entities face lower requirements, adjusted to their context.\n\nThe Carbon Rating does not employ any additional supporting models, estimations or projections.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s8",
-      "title": "2.3 管理体系指标与评分",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.3 管理体系指标与评分",
-          "content_cn": "a) 基于管理体系指标的原始得分\n\n碳评级方法学认为，有效的可持续发展管理体系应当是制定承诺、落实行动并报告结果的体系。\n这三个管理层级进一步细分为以下十二项管理体系指标：\n\ni) 目标\n\n该指标评估公司减少温室气体排放的正式目标。设定有时限、可量化的目标，使公司能够建立清晰的脱碳路径，并使运营与气候科学保持一致。\n\nii) 治理\n该指标评估专用于气候战略的内部组织架构。建立清晰的角色与职责，可确保温室气体管理融入核心业务决策流程与组织文化。\n\niii) 行动计划\n该指标指为实现既定减排目标而设计的战略路线图。规范化的、有时限的计划使公司能够从雄心转向实施。\n\niv) 范围一+二行动（Actions Scope 1+2）\n该指标涵盖为减少直接排放及外购能源所产生的排放而实施的操作措施。有效实施能效与可再生能源项目，可使公司在运营边界内实现切实的减排。\n\nv) 范围三行动（Actions Scope 3）\n该指标评估为缓解价值链排放而采取的参与策略。解决上游与下游活动对于整体脱碳至关重要，因为重大碳影响往往存在于直接运营之外。\n\nvi) 绩效评审\n该指标指对温室气体管理体系有效性的系统性评估。定期评审使管理层能够识别差距、调整战略，并确保持续朝气候目标改进。\n\nvii) 监测系统\n该指标评估用于收集和汇总碳数据的机制与工具。稳健的数据管理系统对于确保决策所用排放清单的准确性、一致性与可靠性必不可少。\n\nviii) 监测覆盖\n该指标衡量公司在运营边界内部署温室气体追踪的范围。审视实施范围对于反映公司的实际影响、并确保不遗漏重大排放源、以实现可比性至关重要。\n\nix) 供应链监测\n该指标指从价值链直接收集一手碳数据的过程。从估算转向实际数据收集，有助于更准确地核算范围三排放，并提升减排协作效率。\n\nx) 报告实践\n该指标评估公司气候披露的质量框架，包括对标标准与外部鉴证的情况。第三方核验对于让利益相关方对公开数据的可信度建立信心至关重要。\n\nxi) 温室气体报告（GHG Reporting）\n用于披露温室气体排放数据。该管理体系指标不计入评分。\n\nxii) [仅适用于中小企业——办公活动与批发] 监测与报告实践（Monitoring and Reporting Practices）\n该指标评估公司气候披露质量框架的关键特",
-          "content": "a) Raw scores based on management system indicators\n\nThe Carbon Rating methodology considers an effective sustainability management system to be one that develops commitments, implements actions and reports on results.\nThese three management layers are further categorized into the following twelve management indicators:\n\ni) Targets\n\nThis indicator assesses the company's formal objectives to reduce greenhouse gas emissions. Setting time-bound, quantified targets allows companies to create a clear trajectory for decarbonization and align their operations with climate science.\n\nii) Governance\nThis indicator evaluates the internal organizational structure dedicated to climate strategy. Establishing clear roles and responsibilities ensures that GHG management is integrated into core business decision-making processes and organizational culture.\n\niii) Action Plans\nThis indicator refers to the strategic roadmap designed to achieve defined reduction targets. A formalized time-bound plan enables companies to transition from ambition to implementation.\n\niv) Actions Scope 1+2\nThis indicator covers the operational measures implemented to reduce direct emissions and those from purchased energy. Effective implementation of energy efficiency and renewable energy projects allows companies to deliver tangible reductions within their perimeter of operations.\n\nv) Actions Scope 3\nThis indicator assesses the engagement strategies deployed to mitigate emissions across the value chain. Addressing upstream and downstream activities is critical for holistic decarbonization, as significant carbon impacts often lie outside direct operations.\n\nvi) Performance Review\nThis indicator refers to the systematic evaluation of the GHG management system's effectiveness. Regular reviews allow management to identify gaps, adjust strategies, and ensure continuous improvement toward climate goals.\n\nvii) Monitoring System\nThis indicator evaluates the mechanisms and tools used to collect and aggregate carbon data. Robust data management systems are necessary to ensure the accuracy, consistency, and reliability of the emissions inventory used for decision-making.\n\nviii) Monitoring Coverage\nThis indicator measures the extent of GHG tracking deployed across the company's operational boundaries. Examining the scope of implementation is essential to reflect the real-life impact of the company and ensure no significant emission sources are excluded, serving comparability purposes.\n\nix) Supply Chain Monitoring\nThis indicator refers to the processes used to gather primary carbon data directly from the value chain. Moving beyond estimates to actual data collection allows for more accurate Scope 3 accounting and enables more efficient collaboration on reduction efforts.\n\nx) Reporting Practices\nThis indicator assesses the quality framework of a company's climate disclosure, including adherence to standards and external assurance. Third-party verification is crucial to provide stakeholders with confidence in the credibility of the published data.\n\nxi) GHG Reporting\nEnables the disclosure of GHG emissions data. This management indicator isn't scored.\n\nxii) [Small & Medium - Office activities & Wholesale only] Monitoring and Reporting Practices\nThis indicator assesses key features of the quality framework of a company's clim",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s9",
-      "title": "2.4 行业分类",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.4 行业分类",
-          "content_cn": "碳评级以联合国《全部经济活动的国际标准行业分类》（ISIC）第 5 版（Revision 5）为基础，对被评级公司的经济活动进行分类。\n\n完整官方文件可在联合国统计司（Statistic Division）网站上获取。",
-          "content": "The Carbon Rating uses the United Nations International Standard Industrial Classification of All Economic Activities (ISIC), Revision 5, as a basis to classify the economic activities of rated companies.\n\nThe official full document is available on the United Nations Statistic Division website.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s10",
-      "title": "2.5 数据来源",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.5 数据来源",
-          "content_cn": "就碳评级而言，会要求被评级公司提供管理体系文档（如政策、程序、报告、证书等），以确认其已实施健全的管理体系来应对所有重大可持续发展议题。这些文档可以是公开或非公开文件，可以接受或可以不接受鉴证。所提供数据是否经过独立核验，会在评估过程中被纳入考量，并影响最终得分。\n\n被评级公司可提供《会计指令》（Directive 2013/34/EU，即\"Accounting Directive\"）所要求的陈述，或在《可持续金融披露条例》（Regulation (EU) 2019/2088，即\"SFDR\"）或《分类法条例》（Regulation (EU) 2020/852，即\"Taxonomy Regulation\"）下披露的信息（如适用）。\n\n碳评级会考虑被评级公司是否制定了转型计划与低碳业务计划，但不会评估这些计划所设目标实现的可能性。",
-          "content": "For the purpose of the Carbon Rating, rated companies are asked to provide management system documentation (e.g. policies, procedures, reports, certificates etc.) confirming they have implemented a robust management system to address all material sustainability issues. These documents can be public or non-public documents, and can be subject or not subject to assurance engagement. Whether the data provided has been independently verified is taken into account in the assessment process and influences the final score.\n\nRated companies may provide statements required under Directive 2013/34/EU (\"Accounting Directive\") or information disclosed under Regulation (EU) 2019/2088 (\"Sustainable Finance Disclosure Regulation\") or Regulation (EU) 2020/852 (\"Taxonomy Regulation\"), if available.\n\nThe Carbon Rating takes into account whether a rated company has a transition plan and a low carbon business plan, however, it does not assess the likelihood of achieving the goals set in these plans.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s11",
-      "title": "2.6 数据处理流程",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.6 数据处理流程",
-          "content_cn": "碳评级采用精简的数据处理流程，运行在 EcoVadis 提供的安全、有序的数字平台上。该流程包括：\n\na) 数据收集：\n\n数据首先由被评级公司自身提供。在缺少数据的情况下，碳评级不使用任何估算值或行业平均值来生成输入。某一议题数据的缺失会被纳入评估考量并影响最终得分。被评级公司将其希望提供、用以支持其在 EcoVadis 问卷中所作声明的相关文档上传至 EcoVadis 平台。只有获得文件证据支持的问卷声明才能在评估中获得认可。\n\nb) 数据处理\n\n分析师对所有收集到的数据进行分析，包括确认公司提交的每份文件是否符合分析资格，并核实其内容，以确认其是否为被评级公司在问卷中所作声明提供了合理证据。\n\nc) 数据输出\n\n基于数据处理阶段的结果生成碳评级记分卡，依据经认可的证据自动为每个指标赋分，进而计算出总体得分。记分卡中还加入了关于公司温室气体议题管理情况的定性结果，以优势领域与待改进领域的形式呈现。评分结果由分析师复核（参见第 2.8 节\"评估流程质量\"）。\n\nd) 数据存储与历史数据更新及修订\n\n每次评估所用的数据均在系统中留存，以便追溯。用于碳评级的数据仅在为更新记分卡而进行的复评（reassessment）情境下更新，记分卡的有效期为 1 年。\n复评仅在被评级公司决定续期其评级时发生。原则上，复评在记分卡有效期结束时进行，以确保始终有有效的记分卡可用。复评会生成带有新发布日期的新记分卡，从而可追踪更新数据的收集时间：被评级公司可在复评过程中更新、替换或提交额外的全新文档。在复评期间，分析师还会核实所收集数据的有效期，以确保评级考虑的是最新信息，并鼓励对管理体系文档进行修订与更新。适用以下有效期：\n- 政策、行动及其他管理体系文档：8 年有效期\n- 报告数据：2 个年度报告周期\n- 带有第三方规定有效期的特定文档（如证书）：适用该特定有效期\n\n超出相关有效期的旧信息不再被视为与碳评级相关，也不影响最终得分。",
-          "content": "The Carbon Rating uses a streamlined data process occurring in a secure and organised digital platform provided by EcoVadis. The process includes:\n\na) Data collection:\n\nData is first collected from the rated companies themselves. The Carbon Rating does not use any estimations nor industry averages to produce inputs in case of absence of data. The lack of data on a given topic is factored in the assessment and influences the final score. A rated company uploads the relevant documents it wants to provide to support its declarations in the EcoVadis questionnaire to the EcoVadis platform. Only questionnaire declarations supported by document evidence can be credited for the assessment.\n\nb) Data processing\n\nAnalysts proceed with the analysis of all gathered data, which includes qualifying each document submitted by the company to ensure it is eligible for analysis, as well as verifying its content to confirm whether it provides reasonable evidence regarding declarations made by the rated company in its questionnaire.\n\nc) Data output\n\nA Carbon Rating scorecard is produced based on the results of the data processing stage by automatically assigning scores to each indicator based on the approved evidence, which results in the computation of the overall score. Qualitative results in the form of strengths and improvement areas regarding the company's management of GHG issues are also added to the scorecard. The results of the scoring are reviewed by analysts (see section 2.8 Assessment process quality).\n\nd) Data storage & historical data updates and revision\n\nData used for each assessment is preserved in the system for traceability purposes. Data used for the purpose of the Carbon Rating is only updated in the context of reassessments performed to update a scorecard, which has a validity period of 1 year.\nA reassessment occurs only if a rated company decides to renew its rating. In principle, it is at the end of the scorecard validity period to ensure constant availability of a valid scorecard. A reassessment creates a new scorecard with a new publication date, allowing to track when updated data was collected: rated companies have an opportunity to update, replace or submit additional new documentation during the reassessment process. During reassessments, analysts also verify the validity period of collected data to ensure the rating considers information that is up-to-date, and to encourage revision and updates to the management system documentation. The following validity periods are applied:\n- Policies, actions and other management system documentation: 8 year validity period\n- Reporting data: 2 annual reporting cycles\n- Specific documentation with a third-party mandated validity period (e.g. certificates): specific validity period applies\n\nInformation older than the relevant validity period is no longer considered relevant for the Carbon Rating and does not influence the final score.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s12",
-      "title": "2.7 数据质量",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.7 数据质量",
-          "content_cn": "碳评级主要依赖被评级公司自身提供的数据，或来自声誉良好、可信来源的信息，从而确保高水平的数据质量。尽管如此，EcoVadis 还实施了额外的数据质量控制。这些控制由 EcoVadis 分析师在数据分析的相应阶段，系统性地应用于每次评估与复评，包括：\n\na) 文件资格标准\n\n被评级公司提供的所有文件必须符合特定形式标准，方有评估资格。文件须满足以下标准：\n- 规范化（正式的、既有的，并完全融入公司管理体系）\n- 完整（充分披露以使内容可供分析）\n- 可信（可明确识别为属于该公司）\n- 注明日期（包含发布或审核日期）\n- 符合可接受的格式与大小（即格式为 .pdf、.docx、.xlsx、.jpg 或 .png，且小于 30 MB）\n- 机器可读（包含数字文本，而非扫描图像或照片）。\n不符合这些标准的文件不被视为评级的有效证据。\n\nb) 主动识别可疑文档\n\nEcoVadis 设有一套专门的流程，为被评级公司提交的文件建立关键的数据质量控制框架。其主要目的是确保公司在评估期间所提交文件的真实性与可靠性。该框架为分析师提供系统性程序，以检测、分类和处理那些专为碳评级目的而编制、并不能真实反映现有管理体系的文件。该指南详述了分析师必须留意的、用于识别潜在不可靠数据的具体征兆。还提供专门工具（例如查重工具）以进一步协助此项工作。不符合该数据质量控制框架的文件不纳入评估。\n\nc) 强调提供第三方核验信息\n\n碳评级所使用的数据并非系统性地接受第三方鉴证。但 EcoVadis 主动鼓励被评级公司分享经过核验的优质文档。诸如第三方核验报告、确认符合公认标准的第三方颁发的证书，或第三方审计报告等数据来源，对于达到更高的表现等级不可或缺（详见第 2.1 节\"方法学概览\"）。\n\nd) 报告覆盖要求\n\n碳评级对用于评估目的的温室气体排放与能源消耗数据设定了特别高的门槛。相关数据须覆盖被评估范围的 95% 方能获得认可。",
-          "content": "The Carbon Rating relies primarily on data provided by rated companies themselves or information shared by reputable, trustworthy sources, thus, ensuring high levels of data quality. Nevertheless, EcoVadis implements additional data quality controls. They are applied systematically in every assessment and reassessment by EcoVadis analysts at the respective stages of data analysis and include:\n\na) Document eligibility criteria\n\nAll documents provided by rated companies must adhere to specific formal criteria to be eligible for assessment. Documents have to meet the following criteria:\n- formalized (formal, pre-existing, and fully integrated into the company's management system)\n- complete (fully disclosed to make their contents available for the analysis)\n- credible (clearly identifiable as belonging to the company)\n- dated (contain an issue or review date)\n- in an accepted format & size (i.e. have .pdf, .docx, .xlsx, .jpg or .png, format and be smaller than 30 MB)\n- machine-readable (contain digital text, as opposed to a scanned image or photo).\nDocuments that do not meet these criteria are not taken into account as valid evidence for rating purposes.\n\nb) Proactive detection of dubious documentation\n\nEcoVadis has a dedicated process that establishes a critical data quality control framework for documents submitted by rated companies. Its primary purpose is to ensure the authenticity and reliability of documents submitted by companies during the assessment. It provides analysts with systematic procedures to detect, classify, and handle documents prepared specifically for the purpose of the Carbon Rating and that are not a genuine representation of an existing management system. The guideline details specific symptoms analysts must look for to identify potentially unreliable data. Dedicated tools, e.g. a plagiarism tool, are provided to further assist with this task. Documents that do not meet this data quality control framework are not considered for the assessment.\n\nc) Emphasis on provision of third-party verified information\n\nData used by the Carbon Rating is not systematically subject to third party assurance. However, EcoVadis proactively encourages rated companies to share verified, quality documentation. Sources of data such as third-party verified reports, third-party issued certificates confirming compliance with recognized standards or third-party audit reports are indispensable to achieve higher performance bands (see section 2.1 \"Methodology overview\" for additional information).\n\nd) Reporting coverage requirements\n\nThe Carbon Rating sets a particularly high threshold for greenhouse gas emissions and energy consumption data used for the purpose of assessment. It has to be provided for 95% of the assessed scope to be credited.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s13",
-      "title": "2.8 评估流程质量",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.8 评估流程质量",
-          "content_cn": "EcoVadis 采用稳健、多层的方法来确保其评估流程的质量与诚信。这些控制贯穿整个评估过程，从分析师培训到最终记分卡发布。EcoVadis 拥有通过 ISO 9001:2015 标准认证的质量管理体系（Quality Management System）。该体系包含正式的质量方针（Quality Policy）与质量手册（Quality Manual），记录所有流程及其相互作用。该体系的主要特征如下：\n\na) 人力专业能力\n\n质量始于高素质的分析师，其中大多数人拥有相关领域的硕士学位。所有新分析师都要接受全面的培训计划，内容涵盖方法学、文档分析与评级流程，之后还有为期两个月的过渡期，期间提供系统性反馈与监督。此外，也为资深分析师提供持续的技能提升与专项培训。\n\nb) 多层质量检查\n\n每次评级都经过由文档分析、评分与验证构成的三步正式流程。所有分析师在每个阶段都使用专门的检查清单，以确保遵循方法学规则。特别是验证阶段，作为最终质量检查，旨在核实整个评估的一致性与质量。\n\nc) 质量问题的高效沟通与整改流程\n\n一旦发现质量问题，EcoVadis 拥有整改、纠正措施与持续改进流程。当审查或反馈识别出问题时，管理层会实施适当的纠正措施。发现质量问题时，会使用专门的表单来界定内部纠正措施和针对分析师的专项培训。这些表单用于评级流程的每个阶段，系统性地识别质量问题并传达给分析师。目标是确保持续改进。\n\nd) 个人质量目标\n\nEcoVadis 分析师设有个人质量目标，构成其半年度与年度绩效评估的有机组成部分。\n\ne) 记分卡审计与可复现性演练\n\n开展记分卡审计，以检查指南是否得到正确应用。每年还进行评级可复现性演练，以评估评级流程的稳健性，并衡量不同分析师之间记分卡结果的一致性。EcoVadis 定期、按计划在既定节奏下开展质量控制活动。每月对全部已发布记分卡的 1% 进行审计。在这些审计以及评级可复现性演练中发现的不合规项，会按严重程度分类，并用于制定行动计划以解决已识别的改进领域。\n\nf) 高效的投诉管理机制\n\n记分卡发布后，被评级公司可依据单独的流程，通过专门的投诉管理渠道提出问题、表达关切或分享额外信息。\n\n该流程系统性地应用于每次评估。无论公司是首次接受评级，还是在后续复评中提供额外数据与信息，都适用同样类型的控制。",
-          "content": "EcoVadis employs a robust, multi-layered approach to ensure the quality and integrity of its assessment process. These controls are integrated throughout the evaluation process, from analyst training to final scorecard publication. EcoVadis has a Quality Management System that is certified to the ISO 9001:2015 standard. This system includes a formal Quality Policy and a Quality Manual that documents all processes and their interactions. The key features of this system are:\n\na) Human expertise\n\nQuality begins with highly qualified analysts, most of whom hold master's degrees in relevant fields. All new analysts undergo a comprehensive training program, which covers methodology, document analysis, and the rating process, followed by a two-month transition period with systematic feedback and monitoring. Ongoing upskilling and focused training are also provided for experienced analysts.\n\nb) Multi-layer quality checks\n\nEvery rating undergoes a formal three-step process consisting of document analysis, scoring and validation. All analysts use dedicated checklists at each stage to ensure methodology rules are followed. In particular, the validation stage serves as a final quality check aimed at verifying the entire assessment for consistency and quality.\n\nc) Effective communication & remediation process of quality issues\n\nWhen quality issues are identified, EcoVadis has processes for remediation, corrective action, and continuous improvement. When the review or feedback identifies issues, management implements appropriate corrective actions. Dedicated forms are used to define internal corrective actions and specific training for analysts when quality issues are found. These forms are used at each stage of the rating process to systematically identify quality issues and communicate them to analysts. The goal is to ensure constant improvement.\n\nd) Individual quality targets\n\nEcoVadis analysts have individual quality targets that form an integral part of their semestral and yearly performance reviews.\n\ne) Scorecard audits and reproducibility exercises\n\nScorecard audits are performed to check for proper application of guidelines. And yearly assessment reproducibility exercises are conducted to assess the robustness of the rating process and measure the consistency of scorecard outcomes among different analysts. EcoVadis performs its quality control activities on a regular and scheduled basis. 1% of all published scorecards are audited on a monthly basis. Non-compliances found during these audits, as well as assessment reproducibility exercises are classified by severity and used to devise an action plan to address identified improvement areas.\n\nf) Effective complaint management mechanism\n\nAfter scorecard publication, rated companies can ask questions, raise concerns or share additional information as per separate procedures through a dedicated complaint management channel.\n\nThe process is systematically applied in every assessment. The same types of controls are applied whenever a company is rated for the first time or when it provides additional data and information during subsequent reassessments.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s14",
-      "title": "2.9 评估间隔期间新信息的可获得性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.9 评估间隔期间新信息的可获得性",
-          "content_cn": "新信息仅在复评期间被考虑。信息由被评级公司更新，并在复评过程中被系统性地重新核查；复评在前一记分卡有效期结束时进行，以确保连续性。",
-          "content": "New information is considered only during reassessments. Information is updated by rated companies and systematically re-checked during the reassessment process, which occurs at the end of the validity period of the previous scorecard to ensure continuity.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s15",
-      "title": "2.10 与被评级公司的互动",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.10 与被评级公司的互动",
-          "content_cn": "在碳评级框架下，与被评级公司的互动可发生在评估流程启动之前，也可发生在记分卡发布之后。任何时候，公司都可通过专门的支助渠道联系 EcoVadis。\n\na) 评估前与被评级公司的互动\n\nEcoVadis 内部专门团队会在评估前与被评级公司接洽，以确保他们理解碳评级的背景、在 EcoVadis 平台完成注册、收到问卷并能够提交答复。\n\nb) 记分卡发布后与被评级公司的互动\n\n记分卡发布后，被评级公司会被告知其评估已完成，并有机会在记分卡向评级用户开放之前的 2 个工作日期间预览其结果，并可提出事实错误申诉。事实错误是指用于评估的基础信息中出现的错误，例如公司名称、所在地或规模、行业分类、不适用项 360、被错误拒绝的文档。\n\n在这 2 个工作日之后，被评级公司仍可通过专门渠道联系 EcoVadis，以更好地理解其记分卡或就评级提出投诉。其询问由专门团队处理，该团队负责回应问题，并在发现事实或方法学应用方面的错误时启动记分卡更正流程。\n\n整个评级流程中与被评级公司的互动均为异地（offsite）进行，因为评估流程的设计是在无任何现场审查或走访的情况下，从被评级公司处收集数据与信息。",
-          "content": "Engagement with rated companies in the context of the Carbon Rating can occur before the assessment process begins, as well as after the scorecard publication. At all times, companies may reach out to EcoVadis via a dedicated support channel.\n\na) Engagement with rated companies before the assessment\n\nA dedicated team within EcoVadis engages with rated companies before the assessment to ensure that they understand the context of the Carbon Rating, register on EcoVadis platform, receive their questionnaire and are able to submit their answers to it.\n\nb) Engagement with rated companies after scorecard publication\n\nFollowing the scorecard publication, rated companies are notified that their assessment is complete and are given the opportunity to preview their results for a period of 2 business days before the scorecard becomes available to rating users, with the possibility for them to raise a factual error case. A factual error is a mistake made on the underlying information used for the assessment, such as Company name, location or size, industry classification, not applicable 360, wrongly rejected document.\n\nFollowing these 2 business days, rated companies retain the possibility to contact EcoVadis via a dedicated channel to better understand their scorecard or to log a complaint regarding their rating. Their queries are handled by a specialized team which responds to questions and initiates a scorecard correction process in case a mistake in fact or methodology application is identified.\n\nEngagement with rated companies throughout the rating process is offsite, as the assessment process is designed to collect data and input from the rated company without any on-site reviews or visits.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s16",
-      "title": "2.11 科学依据",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.11 科学依据",
-          "content_cn": "为评估公司如何管理其可持续发展议题，碳评级通过其承诺、行动与结果报告，评估公司管理体系的质量与有效性。这一结构源自 PDCA（计划—执行—检查—处理，Plan–Do–Check–Act）科学方法，该方法脱胎于弗朗西斯·培根（Francis Bacon）所阐述的科学假设—实验—评估循环，是现代管理与持续改进体系的基础。\n\n方法学将气候科学作为基本评估要素，并重视经公认框架验证、嵌入科学的目标的规范化，最显著的便是科学碳目标倡议（Science Based Targets initiative，SBTi）。此外，拥有经验证的科学碳目标是达到\"领导者\"（Leader）表现等级的强制性前提，从而确保顶级评级能够反映可验证的科学雄心。\n《温室气体核算体系企业标准》（GHG Protocol Corporate Standard）被公认为温室气体核算的全球基准，深植于气候科学，并经严格的学术与技术同行评审验证，在碳评级方法学中也扮演着尤为重要的角色。为保证计算的可比性，该标准整合了《京都议定书》所列完整温室气体清单，并采用 IPCC 定义的全球变暖潜势（Global Warming Potential，GWP）系数。\n碳评级方法学通过严格镜像《温室气体核算体系企业标准》的五大核心核算原则，将这一科学严谨性落到实处：\n\n● 相关性（Relevance）：方法学通过允许披露与各公司概况特别相关的排放类别，来考量公司的重要性。\n● 完整性（Completeness）：方法学仅认可覆盖至少 95% 运营边界的温室气体排放监测，从而确保全面追踪。\n● 一致性（Consistency）：方法学采用该标准的定义来追踪范围一、范围二以及全部 15 个范围三类别，以保障数据可比性。\n● 透明度（Transparency）：方法学要求披露相关假设、计算方法与数据来源。\n● 准确性（Accuracy）：方法学通过依据既定最佳实践审计排放计算，来评估数据点的可靠程度。\n尽管碳评级方法学与《温室气体核算体系》保持一致，碳评级也认可被评级公司基于其他温室气体核算标准（如 ISO 14064 或其他区域标准）所分享的温室气体报告。",
-          "content": "In order to evaluate how a company manages its sustainability issues, the Carbon Rating assesses the quality and effectiveness of the company's management system through its commitments, actions and reporting on results. This structure is derived from the PDCA (Plan–Do–Check–Act) scientific method, which originates from the scientific hypothesis–experiment–evaluation cycle articulated by Francis Bacon and is the foundation of modern management and continuous improvement systems.\n\nThe methodology integrates climate science as a fundamental assessment component and values the formalization of science-embedded targets validated by recognized frameworks, most notably the Science Based Targets initiative (SBTi). Furthermore, possession of a validated science-based target is a mandatory prerequisite for achieving the 'Leader' Performance Level, ensuring that top-tier ratings reflect verifiable scientific ambition.\nThe GHG Protocol Corporate Standard, which is recognized as the global benchmark for GHG accounting and is deeply rooted in climate science, validated through rigorous academic and technical peer reviews, also plays an especially important role in the Carbon Rating methodology. To guarantee the comparability of computations, the standard integrates the complete list of Kyoto Protocol Greenhouse Gases and applies the Global Warming Potential (GWP) factors defined by the IPCC.\nThe Carbon Rating methodology operationalizes this scientific rigor by strictly mirroring the GHG Protocol Corporate Standard's five core accounting principles:\n\n● Relevance: The methodology accounts for companies' materiality by enabling the disclosure of emission categories specifically relevant to each company profile.\n● Completeness: The methodology ensures comprehensive tracking by only crediting GHG emission monitoring that covers at least 95% of operational boundaries.\n● Consistency: The methodology adopts the standard's definition for tracking Scopes 1, 2, and all 15 Scope 3 categories securing data comparability.\n● Transparency: The methodology requires the disclosure of relevant assumptions, computation methods and data sources.\n● Accuracy: The methodology evaluates the reliability level of data points by auditing emissions computations against established best practices.\nWhile the Carbon Rating methodology is aligned with the GHG Protocol, the Carbon Rating also recognizes GHG reporting shared by rated companies based on other GHG accounting standards, such as ISO 14064 or other regional standards.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s17",
-      "title": "2.12 AI 工具的使用",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.12 AI 工具的使用",
-          "content_cn": "EcoVadis 利用机器学习技术来协助交付碳评级。EcoVadis 以负责任的方式，在其内部《AI 使用政策》（AI Usage Policy）框架内设计、实施和部署 AI 解决方案；该政策涵盖问责、透明、人的尊严、人为控制、安全、公平、多元与包容、环境与社会福祉，以及对受保护数据和个人数据的处理规则与知识产权保护。基于 AI 的处理在遵守数据保护与 AI 专门法律的前提下进行，确保公平、透明与安全。\n\na) 数据处理中的 AI 应用\n利用 AI 从公司提供的文档中检索信息。分析师使用专门的机器学习工具扫描管理体系文档，以识别与被评级公司在问卷中所作声明相关的洞见与证据。这使分析师能够快速、可靠地获取信息以进行细致审查，从而确保对公司可持续发展实践作出全面而准确的评估。\n\nb) 基于 AI 工具的局限性\n\n为避免 EcoVadis 用于碳评级的 AI 工具可能出现错误与不准确，由人类专家对 AI 给出的建议进行核验。人工审查确保了最终评级结果的可靠性。人类专家运用其对评级方法学的知识，提供关键背景，并作出 AI 单独无法作出的明智决策。",
-          "content": "EcoVadis leverages machine learning technologies to help deliver the Carbon Rating. EcoVadis designs, implements, and deploys AI solutions in a responsible manner and within the framework of its internal AI Usage Policy, which encompasses accountability, transparency, human dignity, human control, security, fairness, diversity and inclusion, environmental and social wellbeing, as well as clear rules on processing of protected and personal data, and protection of intellectual property. AI-based processing is conducted in compliance with data protection and AI-specific laws, ensuring fairness, transparency, and security.\n\na) AI use in data processing\nAI is leveraged to retrieve information from company-provided documents. Analysts use specialized machine learning tools to scan management system documentation to identify relevant insights and evidence for declarations made by a rated company in the questionnaire. This allows analysts to access information quickly and reliably for their detailed review, ensuring a comprehensive and accurate evaluation of a company's sustainability practices.\n\nb) Limitations of AI-based tools\n\nIn order to avoid potential mistakes and inaccuracies from AI-based tools used by EcoVadis for the Carbon Rating, a human expert verifies AI-based recommendations. The human review ensures reliability of the final ratings results. Human experts apply their knowledge of the rating methodology, provide critical context, and make informed decisions that AI alone cannot.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s18",
-      "title": "3. 数据来源、方法与信息的局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3. 数据来源、方法与信息的局限性",
-          "content_cn": "3. 数据来源、方法与信息的局限性",
-          "content": "3. Limitations in data sources, methodologies and information",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s19",
-      "title": "3.1 方法学局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.1 方法学局限性",
-          "content_cn": "碳评级不纳入财务重要性（financial materiality）。因此，它不能用于评估 ESG 因素对被评级公司财务表现的影响。",
-          "content": "The Carbon Rating does not incorporate financial materiality. In consequence, it cannot be used to assess the influence of ESG factors on a rated company's financial performance.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s20",
-      "title": "3.2 数据来源局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.2 数据来源局限性",
-          "content_cn": "碳评级所利用的数据来源存在以下局限性：\n\na) 所使用数据的可得性与一致性\n\n被评级公司主要依据管理体系文档形式的证据进行评分。若被评级公司未将管理体系文档规范化，EcoVadis 无法获取此类数据。尽管这种书面证据的缺失可能仅表明文档化实践的缺口，而非被评级公司缺乏行动，但碳评级要求此类文件必须存在并提供。\n\n此外，在对隶属于更大企业集团的本地子公司或场所进行评估时，文档的可得性可能存在问题。例如，由于碳管理体系在集团层面高度整合，文档可能主要存在于母公司层面。在此情况下，被评级公司须证明该文档适用于正在被评估的特定法定实体或场所。\n\n另外，碳评级还可能受到自行报告缺口的影响。要使问卷声明获得认可，文件证据必须正确关联到该问卷声明。因此，即便被评级主体已将其管理体系文档规范化且能够提供证据，若未能正确关联到问卷声明，其中包含的信息在评级过程中将不被计入。\n\n在极少数情况下，数据的可得性可能受到被评级公司保密顾虑的影响。尽管 EcoVadis 是获得 ISO 27001 认证的实体，并设有健全的信息安全管理体系以保护被评级公司的数据与文档，但部分公司仍不愿披露敏感或专有信息。在此情况下，即便数据在理论上可得，其获取仍受限制。\n\nb) 信息的完整性、及时性与准确性\n\n碳评级方法学对每次评估设定了文档上限（总计 55 份文件）。尽管基于碳评级元数据开展的內部调研未发现提交文件数量与得分之间存在相关性，但该上限可能阻碍被评级公司提交其愿意分享的全部文档。\n\nc) 假设、代理参考点、数据估算、预设统计或算法系统或模型的使用\n\n碳评级不使用任何得分预测、统计模型、算法系统或任何其他用于估算最终得分的手段。",
-          "content": "Data sources leveraged for the Carbon Rating include the following limitations:\n\na) Availability and consistency of data used\n\nRated companies are primarily scored based on evidence in the form of management system documentation. In case a rated company has not formalized its management system documentation, EcoVadis cannot access such data. Although such lack of written evidence may only indicate a gap in documenting practices, not lack of action on the part of a rated company, the Carbon Rating requires such documents to exist and be made available.\n\nMoreover, availability of documentation may be an issue in case of assessments of local subsidiaries or sites that form part of a larger group of companies. Documentation may be available mainly at parent company level due to e.g. strong integration of a Carbon management system at the group level. In such cases, rated companies have to demonstrate its applicability to the specific legal entity or site that is being assessed.\n\nAdditionally, the Carbon Rating may be affected by self-reporting gaps. In order for questionnaire declarations to be credited, documentary evidence has to be correctly linked to the questionnaire declaration. In consequence, even if rated entities formalized their management system documentation and are capable of providing evidence, if it is not correctly linked to the questionnaire declaration, information contained within it will not be accounted for during the rating process.\n\nIn rare cases, availability of data may be affected by rated companies' confidentiality concerns. Although EcoVadis is an ISO 27001-certified entity with a robust information security management system in place aimed at protecting rated companies' data and documentation, some are reluctant to disclose sensitive or proprietary information. In such cases, even though data is theoretically available, access to it remains limited.\n\nb) Completeness, timeliness and accuracy of information\n\nThe Carbon Rating methodology imposes a document limit (55 files total) for each assessment. Although internal investigations based on the Carbon Rating's meta-data found no correlation between number of documents submitted and score, this limit may preclude rated companies from submitting the entirety of documentation they may be willing to share.\n\nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or algorithmic systems or models\n\nThe Carbon Rating does not use any score projections, statistical models, algorithmic systems or any other means of estimating the final score.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s21",
-      "title": "3.3 应对数据来源局限性的措施",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.3 应对数据来源局限性的措施",
-          "content_cn": "为应对碳评级的数据来源局限性，EcoVadis 实施了若干措施与流程，旨在将相关风险降至最低。这些包括：\n\na) 透明沟通要求与方法学\n\n为确保被评级公司充分了解并能够顺利开展评级流程，EcoVadis 建立了庞大的公开支助文档与说明数据库。其目的在于便利评级流程、解释各项要求，并提升被评级公司的能力，使其能在所涉框架内真实展示其碳管理体系的质量。\n\nb) 文档质量检查\n\n所有公司提供的文档均依据规范化程序进行系统性核验，以剔除仅为评估目的而编制或公然伪造的文档。\n\nc) 人工控制的评级流程\n\n碳评级始终在人类分析师的积极参与下开展，并接受人工验证。所提交文档的内容会在个别情境下被批判性分析。",
-          "content": "To address limitations in data sources for the Carbon Rating, EcoVadis implements a number of measures and processes aimed at reducing related risks to a minimum. These include:\n\na) Transparent communication of requirements and methodology\n\nTo ensure that rated companies are well-informed and capable of undergoing the rating process, EcoVadis created a vast database of publicly available support documents and explanations. They are aimed at facilitating the rating process, explaining requirements and building capacity of rated companies to truthfully demonstrate the quality of their Carbon management system within the provided framework.\n\nb) Document quality check\n\nAll company-provided documentation is systematically verified in line with formalized procedures to eliminate documents created solely for the purpose of assessment or outright falsified.\n\nc) Human-controlled rating process\n\nThe Carbon Rating is always performed with active participation of human analysts and subject to human validation. The content of submitted documents is critically analyzed in an individual context.",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s22",
-      "title": "4. 方法学修订",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "4. 方法学修订",
-          "content_cn": "碳评级方法学的修订遵循《方法学修订程序》（Methodology Revision Procedure）所列步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由专门的方法学团队领导，该团队负责方法学开发的优先级排序、研究及执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n\n方法学修订流程由六个阶段构成。对于未被归类为重大影响的（high impact）方法学变更，部分阶段为可选，但在相关时仍可考虑。\n\n● 启动\n方法学团队内的方法学所有者识别修订需求，该需求由方法学负责人在季度规划（Quarterly Planning）期间批准。随后，方法学所有者起草项目章程，详述项目描述、目的、理由、目标、范围、团队与风险，采用研究或实施模板之一。必要时，可先启动专门的方法学研究（Methodology Research）阶段，以在转入实施前调查并论证正式修订的必要性。\n\n● 方法学修订提案\n方法学所有者将详细的修订提案规范化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会（steering committee）一起接受审查与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可纳入其他部门代表（如产品与技术、市场、一线）。项目经理整合指导委员会的反馈，相应调整提案。\n\n● 影响评估\n对当前得分或风险等级分布的潜在影响进行量化评估。\n\n● 利益相关方征询（若属重大影响）\n若变更被确定为重大影响，则开展正式的利益相关方征询。EcoVadis 直接接洽有针对性地选取的评级用户、被评级主体与外部利益相关方，以确保具有代表性的反馈闭环。\n\n● 道德与合规团队的方法学监督审查\n道德与合规团队（Ethics & Compliance team）作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在关切、提出疑问或要求进一步澄清。若任何被突显的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council）进行最终仲裁与决策。\n\n● 批准与实施\n最终的方法学修订提案，对于常规变更由方法学负责人批准，对于重大影响变更由首席评级官（Chief Rating Officer）批准，并正式实施。方法学变更通过季度方法学变更沟通告知评级用户与被评级主体。方法学披露文件相应更新。\n\n所有方法学均须每年接受强制性的内部有效性审查，以确保其持续适用。方法学修订通过",
-          "content": "The revision of the methodology of the Carbon Rating follows the steps outlined in the Methodology Revision Procedure.\n\nMethodological development and application are independent of all political, economic, or other external influences, and led by a dedicated methodology team, which handles prioritization of methodology developments, research and execution. The methodology team is separate from commercial functions, is managed by the Head of Methodology and reports to the Chief Ratings Officer.\n\na) Methodology Revision Procedure\n\nThe methodology revision process is structured in six phases. Some phases are optional for methodology changes that are not classified as high impact, but can still be considered where relevant.\n\n● Initiation\nThe methodology owner within the methodology team identifies the need for a revision, which is approved by the Head of Methodology during the Quarterly Planning. The methodology owner then drafts a project charter detailing the project's description, purpose, rationale, objectives, scope, team and risks, using either a Research or Implementation template. Where needed, a dedicated Methodology Research phase may be initiated first to investigate and justify the need for a formal revision before proceeding to implementation.\n\n● Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, research findings and the proposed specific changes. The proposal is reviewed and discussed with the project's steering committee to ensure rigor, consistency, and alignment with market and regulatory needs. The steering committee is composed of relevant methodology team members and may involve representatives of other departments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project manager integrates feedback from the steering committee to adjust the proposal accordingly.\n\n● Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level distribution is performed.\n\n● Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is conducted. EcoVadis directly engages a targeted selection of rating users, rated entities and external stakeholders to ensure a representative feedback loop.\n\n● Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final methodology revision proposal, as part of its methodology oversight responsibilities. This body is responsible for identifying potential concerns, raising issues, or requesting further clarification. If any highlighted problems remain unresolved, the Ethics & Compliance team escalates the matter to the ESGR Governance Council for final arbitration and decision-making.\n\n● Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for regular changes, and by the Chief Rating Officer for high impact changes, and officially implemented. Methodology changes are communicated to rating users and rated entities in the quarterly methodology change communication. The methodology disclosure documents are updated accordingly.\n\nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis to ensure they remain fit for purpose. Methodology revisions are communic",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s23",
-      "title": "5. 组织披露",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "5. 组织披露",
-          "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级法规（European ESG Rating Regulation）标准，本方法学文件发布于 EcoVadis 官网专门用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门板块中包含全部所需的组织披露：所有权结构、商业模式与定价、利益冲突，以及投诉管理与外部利益相关方合理关切：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "content": "To ensure comprehensive transparency and full compliance with European ESG Rating Regulation standards, this methodology document is published on the official EcoVadis website page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.\n\nThis page includes all required organisational disclosures in a dedicated section: Ownership structure, Business Model & Pricing, Conflict of Interest, and Complaint management & External stakeholder reasoned concern: https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s24",
-      "title": "6. 法律声明",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "6. 法律声明",
-          "content_cn": "碳评级由 Ecovadis SAS 发布，其总部位于 43 avenue de la Grande armée 75116 Paris（巴黎），是一家在法国注册的私人持股简化股份有限公司（Société à Actions Simplifiée），商业与公司登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会和治理（ESG）评级活动透明度与诚信的第 (EU) 2024/3005 号法规（\"该法规\"），特别是该法规中针对向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的要求所设的第 23 条与第 24 条，以及适用的 2025 年 10 月 15 日监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或传播。\n\n无担保：本文件仅用于提供信息之目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，且可能在不另行通知的情况下变更。\n\n责任限制：对于因使用本出版物中明确或隐含包含的任何意见或信息而引起的任何直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司均不承担责任。\n\n版权所有 © 2026 EcoVadis SAS（法国，巴黎）\n保留所有权利",
-          "content": "The Carbon Rating is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and companies register number 497 842 914 - R.C.S. Paris.\n\nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the Regulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November 2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities ('the Regulation'), in particular, Articles 23 and 24 of the Regulation setting out requirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as well as applicable Regulatory Technical Standards of 15th October 2025.\n\nCopyright: No part of this document may be reproduced, modified or distributed in any form or manner without prior written permission of EcoVadis.\n\nNo warranty: This document is intended for informational purposes only, and EcoVadis does not warrant the accuracy, reliability, completeness of the information, content, text, and graphics herein, and is subject to change without notice.\n\nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any direct, indirect, special, incidental or consequential damages arising out of the use of any opinion or information expressly or implicitly contained in this publication.\n\nCopyright © 2026 EcoVadis SAS (Paris, France)\nAll Rights Reserved",
-          "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
+     "type": "standard",
+     "content_cn": "本披露文件旨在确保符合欧盟第 2024/3005 号法规（关于环境、社会和治理（ESG）评级活动的透明度与诚信）附件三，以及补充第 (EU) 2024/3005 号法规的授权法规。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
     }
-  ],
-  "relations": {
-    "internal": [],
-    "external": []
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1 重要性的目标与方法",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级（Carbon Rating）的目标是评估被评级公司的温室气体（\"GHG\"）排放管理体系在应对利益相关方影响方面的充分性与完整性。该评级是 EcoVadis 的独立意见，可能不同于其他 ESG 评级机构提供的评估。\n\n碳评级是作为评级用户（rating users）将温室气体排放相关因素纳入其采购或投资决策的工具而设计的。碳评级并非由被评级公司（供应商）主动申请，而是由采购方为评估其供应商而发起。被评级公司（供应商）参与此流程，并同意接受评估；公司始终可以拒绝接受评估。\n\n碳评级评估基于影响重要性（impact materiality）方法（即\"由内向外\"的视角，识别公司运营、产品与服务对环境和社会产生的外部影响）。碳评级不纳入财务重要性（\"由外向内\"的视角），因此不衡量外部 ESG 因素给公司带来的财务风险。\n\n所涵盖的具体影响以价值链内的温室气体排放为核心（详见\"1.2 范围\"一节）。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2 范围",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级仅涵盖与温室气体排放相关的问题，该问题属于 ESG 中环境（Environment）层面的子议题。其评级结果不包含社会（Social）与治理（Governance）议题。因此，碳评级的结果仅归入\"E\"（环境）类别，并在最终得分中占有全部权重。\n\n碳评级对上述议题的处理方式，与《会计指令》（Accounting Directive 2013/34/EU，经《企业可持续发展报告指令》2022/2464（\"CSRD\"）修订，并在《欧洲可持续发展报告准则》（\"ESRS\"）中细化）所列议题并不完全对应。但两者存在一定程度的重叠，可用于比较。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3 评级量表类型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级结果以绝对值表示。得分范围为 0 至 100 分（参见第 2.3 节）。碳评级记分卡还包含被评级公司所处的百分位信息，从而可将其表现与 EcoVadis 评级的其他公司进行相对比较。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4 对国际协定的覆盖",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级方法学考虑了以下国际协定的目标：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "numbered": false,
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "《巴黎协定》（Paris Agreement）：方法学考虑了该协定将本世纪全球温升控制在关键阈值以下的目标，并对符合 1.5°C 路径、与科学目标一致的减排目标给予认可。",
+        "《京都议定书》（Kyoto Protocol）：方法学考虑了该议定书为应对全球变暖、减缓气候变化而减少全球温室气体排放的目标，以及其对温室气体排放清单科学边界的定义，要求核算完整温室气体清单（CO2、CH4、N2O、HFCs、PFCs、SF6、NF3），以确保全面、标准化的报告。"
+       ]
+      }
+     ],
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "碳评级不收集公司活动中符合或不符合欧盟分类法（EU taxonomy）的百分比。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1 方法学概览",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级方法学一致地适用于所有符合条件的主体，并会根据公司概况（包括行业、规模与风险概况）进行调整。碳评级方法学的最新版本为 v2.0，自 2026 年 1 月起适用。\n完整变更日志可在此查阅：EcoVadis 方法学更新（需登录）。\n为提供具有最高质量与诚信的碳评级，EcoVadis 设计了方法学治理框架，确保我们的方法学遵循以下核心原则：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "严谨性",
+       "content": "我们的方法学通过严谨的流程开发，包括研究、影响评估以及对拟议变更的公开征询，以确保该框架能够捕捉复杂的可持续发展风险，并准确反映被评级主体的可持续发展表现。",
+       "items": []
+      },
+      {
+       "title": "系统性",
+       "content": "我们采用结构化、可重复的方法学框架，确保每个主体都依据一套与其具体情境相适应的、一致的原则与要求接受评估。这种系统性方法消除了临时性的主观判断，并确保方法学为被评级主体之间的比较提供了稳定的基础。",
+       "items": []
+      },
+      {
+       "title": "独立性",
+       "content": "我们方法学的开发与批准由一个在组织架构与职能上均独立于商务和销售活动的内部职能负责。这确保了评级框架的设计完全由分析诚信驱动，并免受外部商业压力的影响。",
+       "items": []
+      },
+      {
+       "title": "可论证性",
+       "content": "方法学建立在清晰、以证据为基础的原理之上，该原理规定了每个可持续发展议题的具体权重与相关性。框架的每个组成部分均有文档记录以追溯，确保底层理论假设在技术审查下站得住脚。",
+       "items": []
+      },
+      {
+       "title": "随时间可比",
+       "content": "我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确比较逐年表现。",
+       "items": []
+      },
+      {
+       "title": "透明性",
+       "content": "依据欧盟 ESG 评级机构法规（EU ESG Rater regulation）设定的透明度标准，我们就方法学范围、排名体系、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。",
+       "items": []
+      }
+     ],
+     "title": "方法学治理原则",
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "方法学允许对企业主体进行评估。要获得碳评级资格，主体必须满足三项标准",
+       "content": "",
+       "items": [
+        "必须具有法定实体名称，或在直接母公司的法定实体名称下运营。法定实体名称是公司在运营所在国依法注册并开展业务的名称。",
+        "必须具有 25 名或以上员工。",
+        "在碳影响方面必须具备相关的评估范围水平。例如，若范围包含差异极大的业务活动，使得单次评级不足以评估公司所面临的影响及其为应对影响而实施的管理体系，则不符合此要求。"
+       ]
+      },
+      {
+       "title": "方法学允许 3 种不同的评估范围",
+       "content": "",
+       "items": [
+        "集团（Group）：集团层面的评估覆盖一个法定实体及其子公司。",
+        "实体（Entity）：实体层面的评"
+       ]
+      }
+     ],
+     "title": "评估资格",
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2 方法学假设与模型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级基于以下假设运行：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "拥有规范化管理体系的公司更能预防和应对不利影响",
+       "content": "碳评级假设，实施规范化管理体系的公司更有能力预防和应对对环境与社会造成的不利影响。因此，评分方法学会就所有温室气体管理议题上承诺、行动与结果报告的规范化给予加分。",
+       "items": []
+      },
+      {
+       "title": "缺乏文件证据即意味着缺乏管理方法",
+       "content": "若被评级公司无法提供规范化的管理体系证据（如政策、程序与报告），碳评级将此视作管理体系未有效实施的迹象，并可能表明该公司未做好充分准备来应对重大可持续发展议题。缺乏规范化证据会导致较低的得分。",
+       "items": []
+      },
+      {
+       "title": "被评级公司规模越大、风险与影响越大、所掌握资源越多，对其管理体系的要求越高",
+       "content": "方法学假设，较大的主体面临更多风险、产生更重大的影响，且更有能力应对可持续发展议题。因此，系统性地要求它们展现出更高的成熟度与更全面的方法。反之，较小的主体面临较低的要求，并据其具体情境相应调整。\n\n碳评级不采用任何额外的辅助模型、估算或预测。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3 管理体系指标与评分",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "a) 基于管理体系指标的原始得分\n\n碳评级方法学认为，有效的可持续发展管理体系应当是制定承诺、落实行动并报告结果的体系。\n这三个管理层级进一步细分为以下十二项管理体系指标：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "目标",
+       "content": "该指标评估公司减少温室气体排放的正式目标。设定有时限、可量化的目标，使公司能够建立清晰的脱碳路径，并使运营与气候科学保持一致。",
+       "items": []
+      },
+      {
+       "title": "治理",
+       "content": "该指标评估专用于气候战略的内部组织架构。建立清晰的角色与职责，可确保温室气体管理融入核心业务决策流程与组织文化。",
+       "items": []
+      },
+      {
+       "title": "行动计划",
+       "content": "该指标指为实现既定减排目标而设计的战略路线图。规范化的、有时限的计划使公司能够从雄心转向实施。",
+       "items": []
+      },
+      {
+       "title": "范围一+二行动（Actions Scope 1+2）",
+       "content": "该指标涵盖为减少直接排放及外购能源所产生的排放而实施的操作措施。有效实施能效与可再生能源项目，可使公司在运营边界内实现切实的减排。",
+       "items": []
+      },
+      {
+       "title": "范围三行动（Actions Scope 3）",
+       "content": "该指标评估为缓解价值链排放而采取的参与策略。解决上游与下游活动对于整体脱碳至关重要，因为重大碳影响往往存在于直接运营之外。",
+       "items": []
+      },
+      {
+       "title": "绩效评审",
+       "content": "该指标指对温室气体管理体系有效性的系统性评估。定期评审使管理层能够识别差距、调整战略，并确保持续朝气候目标改进。",
+       "items": []
+      },
+      {
+       "title": "监测系统",
+       "content": "该指标评估用于收集和汇总碳数据的机制与工具。稳健的数据管理系统对于确保决策所用排放清单的准确性、一致性与可靠性必不可少。",
+       "items": []
+      },
+      {
+       "title": "监测覆盖",
+       "content": "该指标衡量公司在运营边界内部署温室气体追踪的范围。审视实施范围对于反映公司的实际影响、并确保不遗漏重大排放源、以实现可比性至关重要。",
+       "items": []
+      },
+      {
+       "title": "供应链监测",
+       "content": "该指标指从价值链直接收集一手碳数据的过程。从估算转向实际数据收集，有助于更准确地核算范围三排放，并提升减排协作效率。",
+       "items": []
+      },
+      {
+       "title": "报告实践",
+       "content": "该指标评估公司气候披露的质量框架，包括对标标准与外部鉴证的情况。第三方核验对于让利益相关方对公开数据的可信度建立信心至关重要。",
+       "items": []
+      },
+      {
+       "title": "温室气体报告（GHG Reporting）",
+       "content": "用于披露温室气体排放数据。该管理体系指标不计入评分。\n\nxii) [仅适用于中小企业——办公活动与批发] 监测与报告实践（Monitoring and Reporting Practices）\n该指标评估公司气候披露质量框架的关键特",
+       "items": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4 行业分类",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级以联合国《全部经济活动的国际标准行业分类》（ISIC）第 5 版（Revision 5）为基础，对被评级公司的经济活动进行分类。\n\n完整官方文件可在联合国统计司（Statistic Division）网站上获取。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5 数据来源",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "就碳评级而言，会要求被评级公司提供管理体系文档（如政策、程序、报告、证书等），以确认其已实施健全的管理体系来应对所有重大可持续发展议题。这些文档可以是公开或非公开文件，可以接受或可以不接受鉴证。所提供数据是否经过独立核验，会在评估过程中被纳入考量，并影响最终得分。\n\n被评级公司可提供《会计指令》（Directive 2013/34/EU，即\"Accounting Directive\"）所要求的陈述，或在《可持续金融披露条例》（Regulation (EU) 2019/2088，即\"SFDR\"）或《分类法条例》（Regulation (EU) 2020/852，即\"Taxonomy Regulation\"）下披露的信息（如适用）。\n\n碳评级会考虑被评级公司是否制定了转型计划与低碳业务计划，但不会评估这些计划所设目标实现的可能性。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6 数据处理流程",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级采用精简的数据处理流程，运行在 EcoVadis 提供的安全、有序的数字平台上。该流程包括：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据收集",
+       "content": "数据首先由被评级公司自身提供。在缺少数据的情况下，碳评级不使用任何估算值或行业平均值来生成输入。某一议题数据的缺失会被纳入评估考量并影响最终得分。被评级公司将其希望提供、用以支持其在 EcoVadis 问卷中所作声明的相关文档上传至 EcoVadis 平台。只有获得文件证据支持的问卷声明才能在评估中获得认可。",
+       "items": []
+      },
+      {
+       "title": "数据处理",
+       "content": "分析师对所有收集到的数据进行分析，包括确认公司提交的每份文件是否符合分析资格，并核实其内容，以确认其是否为被评级公司在问卷中所作声明提供了合理证据。",
+       "items": []
+      },
+      {
+       "title": "数据输出",
+       "content": "基于数据处理阶段的结果生成碳评级记分卡，依据经认可的证据自动为每个指标赋分，进而计算出总体得分。记分卡中还加入了关于公司温室气体议题管理情况的定性结果，以优势领域与待改进领域的形式呈现。评分结果由分析师复核（参见第 2.8 节\"评估流程质量\"）。",
+       "items": []
+      },
+      {
+       "title": "数据存储与历史数据更新及修订 · 每次评估所用的数据均在系统中留存，以便追溯",
+       "content": "用于碳评级的数据仅在为更新记分卡而进行的复评（reassessment）情境下更新，记分卡的有效期为 1 年。 复评仅在被评级公司决定续期其评级时发生。原则上，复评在记分卡有效期结束时进行，以确保始终有有效的记分卡可用。复评会生成带有新发布日期的新记分卡，从而可追踪更新数据的收集时间：被评级公司可在复评过程中更新、替换或提交额外的全新文档。在复评期间，分析师还会核实所收集数据的有效期，以确保评级考虑的是最新信息，并鼓励对管理体系文档进行修订与更新。适用以下有效期：",
+       "items": [
+        "政策、行动及其他管理体系文档：8 年有效期",
+        "报告数据：2 个年度报告周期",
+        "带有第三方规定有效期的特定文档（如证书）：适用该特定有效期"
+       ],
+       "after": "超出相关有效期的旧信息不再被视为与碳评级相关，也不影响最终得分。"
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7 数据质量",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级主要依赖被评级公司自身提供的数据，或来自声誉良好、可信来源的信息，从而确保高水平的数据质量。尽管如此，EcoVadis 还实施了额外的数据质量控制。这些控制由 EcoVadis 分析师在数据分析的相应阶段，系统性地应用于每次评估与复评，包括：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "文件资格标准 · 被评级公司提供的所有文件必须符合特定形式标准，方有评估资格。文件须满足以下标准",
+       "content": "",
+       "items": [
+        "规范化（正式的、既有的，并完全融入公司管理体系）",
+        "完整（充分披露以使内容可供分析）",
+        "可信（可明确识别为属于该公司）",
+        "注明日期（包含发布或审核日期）",
+        "符合可接受的格式与大小（即格式为 .pdf、.docx、.xlsx、.jpg 或 .png，且小于 30 MB）",
+        "机器可读（包含数字文本，而非扫描图像或照片）。"
+       ],
+       "after": "不符合这些标准的文件不被视为评级的有效证据。"
+      },
+      {
+       "title": "主动识别可疑文档",
+       "content": "EcoVadis 设有一套专门的流程，为被评级公司提交的文件建立关键的数据质量控制框架。其主要目的是确保公司在评估期间所提交文件的真实性与可靠性。该框架为分析师提供系统性程序，以检测、分类和处理那些专为碳评级目的而编制、并不能真实反映现有管理体系的文件。该指南详述了分析师必须留意的、用于识别潜在不可靠数据的具体征兆。还提供专门工具（例如查重工具）以进一步协助此项工作。不符合该数据质量控制框架的文件不纳入评估。",
+       "items": []
+      },
+      {
+       "title": "强调提供第三方核验信息",
+       "content": "碳评级所使用的数据并非系统性地接受第三方鉴证。但 EcoVadis 主动鼓励被评级公司分享经过核验的优质文档。诸如第三方核验报告、确认符合公认标准的第三方颁发的证书，或第三方审计报告等数据来源，对于达到更高的表现等级不可或缺（详见第 2.1 节\"方法学概览\"）。",
+       "items": []
+      },
+      {
+       "title": "报告覆盖要求",
+       "content": "碳评级对用于评估目的的温室气体排放与能源消耗数据设定了特别高的门槛。相关数据须覆盖被评估范围的 95% 方能获得认可。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8 评估流程质量",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 采用稳健、多层的方法来确保其评估流程的质量与诚信。这些控制贯穿整个评估过程，从分析师培训到最终记分卡发布。EcoVadis 拥有通过 ISO 9001:2015 标准认证的质量管理体系（Quality Management System）。该体系包含正式的质量方针（Quality Policy）与质量手册（Quality Manual），记录所有流程及其相互作用。该体系的主要特征如下：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "人力专业能力",
+       "content": "质量始于高素质的分析师，其中大多数人拥有相关领域的硕士学位。所有新分析师都要接受全面的培训计划，内容涵盖方法学、文档分析与评级流程，之后还有为期两个月的过渡期，期间提供系统性反馈与监督。此外，也为资深分析师提供持续的技能提升与专项培训。",
+       "items": []
+      },
+      {
+       "title": "多层质量检查",
+       "content": "每次评级都经过由文档分析、评分与验证构成的三步正式流程。所有分析师在每个阶段都使用专门的检查清单，以确保遵循方法学规则。特别是验证阶段，作为最终质量检查，旨在核实整个评估的一致性与质量。",
+       "items": []
+      },
+      {
+       "title": "质量问题的高效沟通与整改流程",
+       "content": "一旦发现质量问题，EcoVadis 拥有整改、纠正措施与持续改进流程。当审查或反馈识别出问题时，管理层会实施适当的纠正措施。发现质量问题时，会使用专门的表单来界定内部纠正措施和针对分析师的专项培训。这些表单用于评级流程的每个阶段，系统性地识别质量问题并传达给分析师。目标是确保持续改进。",
+       "items": []
+      },
+      {
+       "title": "个人质量目标",
+       "content": "EcoVadis 分析师设有个人质量目标，构成其半年度与年度绩效评估的有机组成部分。",
+       "items": []
+      },
+      {
+       "title": "记分卡审计与可复现性演练",
+       "content": "开展记分卡审计，以检查指南是否得到正确应用。每年还进行评级可复现性演练，以评估评级流程的稳健性，并衡量不同分析师之间记分卡结果的一致性。EcoVadis 定期、按计划在既定节奏下开展质量控制活动。每月对全部已发布记分卡的 1% 进行审计。在这些审计以及评级可复现性演练中发现的不合规项，会按严重程度分类，并用于制定行动计划以解决已识别的改进领域。",
+       "items": []
+      },
+      {
+       "title": "高效的投诉管理机制",
+       "content": "记分卡发布后，被评级公司可依据单独的流程，通过专门的投诉管理渠道提出问题、表达关切或分享额外信息。\n\n该流程系统性地应用于每次评估。无论公司是首次接受评级，还是在后续复评中提供额外数据与信息，都适用同样类型的控制。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9 评估间隔期间新信息的可获得性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "新信息仅在复评期间被考虑。信息由被评级公司更新，并在复评过程中被系统性地重新核查；复评在前一记分卡有效期结束时进行，以确保连续性。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10 与被评级公司的互动",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "在碳评级框架下，与被评级公司的互动可发生在评估流程启动之前，也可发生在记分卡发布之后。任何时候，公司都可通过专门的支助渠道联系 EcoVadis。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评估前与被评级公司的互动",
+       "content": "EcoVadis 内部专门团队会在评估前与被评级公司接洽，以确保他们理解碳评级的背景、在 EcoVadis 平台完成注册、收到问卷并能够提交答复。",
+       "items": []
+      },
+      {
+       "title": "记分卡发布后与被评级公司的互动",
+       "content": "记分卡发布后，被评级公司会被告知其评估已完成，并有机会在记分卡向评级用户开放之前的 2 个工作日期间预览其结果，并可提出事实错误申诉。事实错误是指用于评估的基础信息中出现的错误，例如公司名称、所在地或规模、行业分类、不适用项 360、被错误拒绝的文档。\n\n在这 2 个工作日之后，被评级公司仍可通过专门渠道联系 EcoVadis，以更好地理解其记分卡或就评级提出投诉。其询问由专门团队处理，该团队负责回应问题，并在发现事实或方法学应用方面的错误时启动记分卡更正流程。\n\n整个评级流程中与被评级公司的互动均为异地（offsite）进行，因为评估流程的设计是在无任何现场审查或走访的情况下，从被评级公司处收集数据与信息。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11 科学依据",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为评估公司如何管理其可持续发展议题，碳评级通过其承诺、行动与结果报告，评估公司管理体系的质量与有效性。这一结构源自 PDCA（计划—执行—检查—处理，Plan–Do–Check–Act）科学方法，该方法脱胎于弗朗西斯·培根（Francis Bacon）所阐述的科学假设—实验—评估循环，是现代管理与持续改进体系的基础。\n\n方法学将气候科学作为基本评估要素，并重视经公认框架验证、嵌入科学的目标的规范化，最显著的便是科学碳目标倡议（Science Based Targets initiative，SBTi）。此外，拥有经验证的科学碳目标是达到\"领导者\"（Leader）表现等级的强制性前提，从而确保顶级评级能够反映可验证的科学雄心。\n《温室气体核算体系企业标准》（GHG Protocol Corporate Standard）被公认为温室气体核算的全球基准，深植于气候科学，并经严格的学术与技术同行评审验证，在碳评级方法学中也扮演着尤为重要的角色。为保证计算的可比性，该标准整合了《京都议定书》所列完整温室气体清单，并采用 IPCC 定义的全球变暖潜势（Global Warming Potential，GWP）系数。\n碳评级方法学通过严格镜像《温室气体核算体系企业标准》的五大核心核算原则，将这一科学严谨性落到实处：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "numbered": false,
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "相关性（Relevance）：方法学通过允许披露与各公司概况特别相关的排放类别，来考量公司的重要性。",
+        "完整性（Completeness）：方法学仅认可覆盖至少 95% 运营边界的温室气体排放监测，从而确保全面追踪。",
+        "一致性（Consistency）：方法学采用该标准的定义来追踪范围一、范围二以及全部 15 个范围三类别，以保障数据可比性。",
+        "透明度（Transparency）：方法学要求披露相关假设、计算方法与数据来源。",
+        "准确性（Accuracy）：方法学通过依据既定最佳实践审计排放计算，来评估数据点的可靠程度。"
+       ]
+      }
+     ],
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "standard",
+     "content_cn": "尽管碳评级方法学与《温室气体核算体系》保持一致，碳评级也认可被评级公司基于其他温室气体核算标准（如 ISO 14064 或其他区域标准）所分享的温室气体报告。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "2.12 AI 工具的使用",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 利用机器学习技术来协助交付碳评级。EcoVadis 以负责任的方式，在其内部《AI 使用政策》（AI Usage Policy）框架内设计、实施和部署 AI 解决方案；该政策涵盖问责、透明、人的尊严、人为控制、安全、公平、多元与包容、环境与社会福祉，以及对受保护数据和个人数据的处理规则与知识产权保护。基于 AI 的处理在遵守数据保护与 AI 专门法律的前提下进行，确保公平、透明与安全。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据处理中的 AI 应用",
+       "content": "利用 AI 从公司提供的文档中检索信息。分析师使用专门的机器学习工具扫描管理体系文档，以识别与被评级公司在问卷中所作声明相关的洞见与证据。这使分析师能够快速、可靠地获取信息以进行细致审查，从而确保对公司可持续发展实践作出全面而准确的评估。",
+       "items": []
+      },
+      {
+       "title": "基于 AI 工具的局限性",
+       "content": "为避免 EcoVadis 用于碳评级的 AI 工具可能出现错误与不准确，由人类专家对 AI 给出的建议进行核验。人工审查确保了最终评级结果的可靠性。人类专家运用其对评级方法学的知识，提供关键背景，并作出 AI 单独无法作出的明智决策。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "3. 数据来源、方法与信息的局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": []
+  },
+  {
+   "id": "s19",
+   "title": "3.1 方法学局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级不纳入财务重要性（financial materiality）。因此，它不能用于评估 ESG 因素对被评级公司财务表现的影响。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.2 数据来源局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级所利用的数据来源存在以下局限性：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "所使用数据的可得性与一致性",
+       "content": "被评级公司主要依据管理体系文档形式的证据进行评分。若被评级公司未将管理体系文档规范化，EcoVadis 无法获取此类数据。尽管这种书面证据的缺失可能仅表明文档化实践的缺口，而非被评级公司缺乏行动，但碳评级要求此类文件必须存在并提供。\n\n此外，在对隶属于更大企业集团的本地子公司或场所进行评估时，文档的可得性可能存在问题。例如，由于碳管理体系在集团层面高度整合，文档可能主要存在于母公司层面。在此情况下，被评级公司须证明该文档适用于正在被评估的特定法定实体或场所。\n\n另外，碳评级还可能受到自行报告缺口的影响。要使问卷声明获得认可，文件证据必须正确关联到该问卷声明。因此，即便被评级主体已将其管理体系文档规范化且能够提供证据，若未能正确关联到问卷声明，其中包含的信息在评级过程中将不被计入。\n\n在极少数情况下，数据的可得性可能受到被评级公司保密顾虑的影响。尽管 EcoVadis 是获得 ISO 27001 认证的实体，并设有健全的信息安全管理体系以保护被评级公司的数据与文档，但部分公司仍不愿披露敏感或专有信息。在此情况下，即便数据在理论上可得，其获取仍受限制。",
+       "items": []
+      },
+      {
+       "title": "信息的完整性、及时性与准确性",
+       "content": "碳评级方法学对每次评估设定了文档上限（总计 55 份文件）。尽管基于碳评级元数据开展的內部调研未发现提交文件数量与得分之间存在相关性，但该上限可能阻碍被评级公司提交其愿意分享的全部文档。",
+       "items": []
+      },
+      {
+       "title": "假设、代理参考点、数据估算、预设统计或算法系统或模型的使用",
+       "content": "碳评级不使用任何得分预测、统计模型、算法系统或任何其他用于估算最终得分的手段。",
+       "items": []
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "3.3 应对数据来源局限性的措施",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为应对碳评级的数据来源局限性，EcoVadis 实施了若干措施与流程，旨在将相关风险降至最低。这些包括：",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "透明沟通要求与方法学",
+       "content": "为确保被评级公司充分了解并能够顺利开展评级流程，EcoVadis 建立了庞大的公开支助文档与说明数据库。其目的在于便利评级流程、解释各项要求，并提升被评级公司的能力，使其能在所涉框架内真实展示其碳管理体系的质量。",
+       "items": []
+      },
+      {
+       "title": "文档质量检查",
+       "content": "所有公司提供的文档均依据规范化程序进行系统性核验，以剔除仅为评估目的而编制或公然伪造的文档。",
+       "items": []
+      },
+      {
+       "title": "人工控制的评级流程",
+       "content": "碳评级始终在人类分析师的积极参与下开展，并接受人工验证。所提交文档的内容会在个别情境下被批判性分析。",
+       "items": []
+      }
+     ],
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "4. 方法学修订",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级方法学的修订遵循《方法学修订程序》（Methodology Revision Procedure）所列步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由专门的方法学团队领导，该团队负责方法学开发的优先级排序、研究及执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n\n方法学修订流程由六个阶段构成。对于未被归类为重大影响的（high impact）方法学变更，部分阶段为可选，但在相关时仍可考虑。",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "启动",
+       "content": "方法学团队内的方法学所有者识别修订需求，该需求由方法学负责人在季度规划（Quarterly Planning）期间批准。随后，方法学所有者起草项目章程，详述项目描述、目的、理由、目标、范围、团队与风险，采用研究或实施模板之一。必要时，可先启动专门的方法学研究（Methodology Research）阶段，以在转入实施前调查并论证正式修订的必要性。",
+       "items": []
+      },
+      {
+       "title": "方法学修订提案",
+       "content": "方法学所有者将详细的修订提案规范化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会（steering committee）一起接受审查与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可纳入其他部门代表（如产品与技术、市场、一线）。项目经理整合指导委员会的反馈，相应调整提案。",
+       "items": []
+      },
+      {
+       "title": "影响评估",
+       "content": "对当前得分或风险等级分布的潜在影响进行量化评估。",
+       "items": []
+      },
+      {
+       "title": "利益相关方征询（若属重大影响）",
+       "content": "若变更被确定为重大影响，则开展正式的利益相关方征询。EcoVadis 直接接洽有针对性地选取的评级用户、被评级主体与外部利益相关方，以确保具有代表性的反馈闭环。",
+       "items": []
+      },
+      {
+       "title": "道德与合规团队的方法学监督审查",
+       "content": "道德与合规团队（Ethics & Compliance team）作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在关切、提出疑问或要求进一步澄清。若任何被突显的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council）进行最终仲裁与决策。",
+       "items": []
+      },
+      {
+       "title": "批准与实施",
+       "content": "最终的方法学修订提案，对于常规变更由方法学负责人批准，对于重大影响变更由首席评级官（Chief Rating Officer）批准，并正式实施。方法学变更通过季度方法学变更沟通告知评级用户与被评级主体。方法学披露文件相应更新。\n\n所有方法学均须每年接受强制性的内部有效性审查，以确保其持续适用。方法学修订通过",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "5. 组织披露",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级法规（European ESG Rating Regulation）标准，本方法学文件发布于 EcoVadis 官网专门用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门板块中包含全部所需的组织披露：所有权结构、商业模式与定价、利益冲突，以及投诉管理与外部利益相关方合理关切：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "title": "6. 法律声明",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "碳评级由 Ecovadis SAS 发布，其总部位于 43 avenue de la Grande armée 75116 Paris（巴黎），是一家在法国注册的私人持股简化股份有限公司（Société à Actions Simplifiée），商业与公司登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会和治理（ESG）评级活动透明度与诚信的第 (EU) 2024/3005 号法规（\"该法规\"），特别是该法规中针对向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的要求所设的第 23 条与第 24 条，以及适用的 2025 年 10 月 15 日监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或传播。\n\n无担保：本文件仅用于提供信息之目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，且可能在不另行通知的情况下变更。\n\n责任限制：对于因使用本出版物中明确或隐含包含的任何意见或信息而引起的任何直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司均不承担责任。\n\n版权所有 © 2026 EcoVadis SAS（法国，巴黎）\n保留所有权利",
+     "source": "EcoVadis 碳评级方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
   }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
 }

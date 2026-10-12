@@ -23,9 +23,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "使用步骤说明",
      "content_cn": "使用 SASB 行业标准可按以下五个步骤执行：从确定行业归属开始，到组织披露与鉴证准备，每一步都有对应的官方文件支撑。",
-     "content": "",
+     "title": "使用步骤说明",
      "source": "SASB 行业标准原件；Implementation Primer",
      "sourceScope": "official",
      "provenance": "official",
@@ -79,9 +78,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "SASB 标准的构成",
      "content_cn": "SASB 标准是一套由 77 项基于行业的可持续会计标准组成的体系（合称「SASB Standards」或「行业标准」），按可持续行业分类系统®（SICS®）归类。每项标准包括五部分：1. 行业描述（Industry descriptions）；2. 披露主题（Disclosure topics）；3. 指标（Metrics）；4. 技术协议（Technical protocols）；5. 活动指标（Activity metrics）。\n\n原件原文（英文）：The SASB Standards are a set of 77 industry-specific sustainability accounting standards (\"SASB Standards\" or \"Industry Standards\"), categorised pursuant to the Sustainable Industry Classification System® (SICS®). SASB Standards include: 1. Industry descriptions; 2. Disclosure topics; 3. Metrics; 4. Technical protocols; 5. Activity metrics.",
-     "content": "",
+     "title": "SASB 标准的构成",
      "source": "SASB 行业标准原件 Page 4（Overview of SASB Standards）",
      "sourceScope": "official",
      "provenance": "official",

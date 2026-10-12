@@ -15,18 +15,8 @@
    "title": "目标设定概述",
    "blocks": [
     {
-     "type": "text",
-     "content_cn": "ESG目标设定是推动企业持续改进的重要机制。目标应遵循 SMART原则 ，明确具体、可衡量、可实现、相关且有时限。",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "text",
-     "content_cn": "对于难以量化的目标，可采用 方向性声明 ，描述努力方向和预期成果，并分阶段设定里程碑。",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "text",
-     "content_cn": "目标设定后须建立 跟踪机制 ，定期评估进展，在ESG报告中披露目标完成情况。",
+     "type": "standard",
+     "content_cn": "ESG目标设定是推动企业持续改进的重要机制。目标应遵循 SMART原则 ，明确具体、可衡量、可实现、相关且有时限。\n对于难以量化的目标，可采用 方向性声明 ，描述努力方向和预期成果，并分阶段设定里程碑。\n目标设定后须建立 跟踪机制 ，定期评估进展，在ESG报告中披露目标完成情况。",
      "provenance": "knowledge_note"
     }
    ],
@@ -172,7 +162,7 @@
    "title": "报告结构要点",
    "blocks": [
     {
-     "type": "text",
+     "type": "standard",
      "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
      "provenance": "knowledge_note"
     },

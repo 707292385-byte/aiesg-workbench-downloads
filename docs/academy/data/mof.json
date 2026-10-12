@@ -124,10 +124,6 @@
        {
         "id": "mof-climate-guide",
         "title": "《第1号——气候（试行）》应用指南"
-       },
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
        }
       ],
       "external": []
@@ -152,10 +148,6 @@
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
-       },
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
        }
       ],
       "external": []
@@ -167,38 +159,6 @@
    "id": "industry",
    "title": "行业应用指南",
    "items": [
-    {
-     "id": "mof-industry-overview",
-     "title": "气候准则行业应用指南（九行业）",
-     "eyebrow": "财办会〔2026〕34号",
-     "summary": "电力、钢铁、煤炭、石油、化肥、铝、氢、水泥、汽车九个行业的应用指南，统一按行业介绍、行业特定气候相关信息、财务影响、温室气体排放、行业特定指标和目标的五章框架展开。",
-     "tags": [
-      "行业指南",
-      "九行业"
-     ],
-     "status": "征求意见稿",
-     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm",
-     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
-     "detailFile": "data/mof/mof-industry-overview.json",
-     "group": "行业应用指南",
-     "relations": {
-      "internal": [
-       {
-        "id": "mof-climate",
-        "title": "企业可持续披露准则第1号——气候（试行）"
-       },
-       {
-        "id": "mof-climate-guide",
-        "title": "《第1号——气候（试行）》应用指南"
-       },
-       {
-        "id": "mof-ind-power",
-        "title": "电力行业应用指南"
-       }
-      ],
-      "external": []
-     }
-    },
     {
      "id": "mof-ind-power",
      "title": "电力行业应用指南",
@@ -215,10 +175,6 @@
      "group": "行业应用指南",
      "relations": {
       "internal": [
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
@@ -244,10 +200,6 @@
      "relations": {
       "internal": [
        {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
-       {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
        }
@@ -271,10 +223,6 @@
      "group": "行业应用指南",
      "relations": {
       "internal": [
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
@@ -300,10 +248,6 @@
      "relations": {
       "internal": [
        {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
-       {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
        }
@@ -327,10 +271,6 @@
      "group": "行业应用指南",
      "relations": {
       "internal": [
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
@@ -356,10 +296,6 @@
      "relations": {
       "internal": [
        {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
-       {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
        }
@@ -383,10 +319,6 @@
      "group": "行业应用指南",
      "relations": {
       "internal": [
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
@@ -412,10 +344,6 @@
      "relations": {
       "internal": [
        {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
-       {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
        }
@@ -439,10 +367,6 @@
      "group": "行业应用指南",
      "relations": {
       "internal": [
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       },
        {
         "id": "mof-climate",
         "title": "企业可持续披露准则第1号——气候（试行）"
@@ -478,6 +402,53 @@
   {
    "name": "《〈企业可持续披露准则第1号——气候（试行）〉应用指南（征求意见稿）》及电力等9项行业应用指南（征求意见稿）起草说明",
    "url": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/gongzuotongzhi/202609/t20260929_3998329.htm"
+  }
+ ],
+ "industryCards": [
+  {
+   "id": "mof-ind-power",
+   "title": "第101号 · 电力",
+   "content": "以火力、水力、核力、风力、太阳能、生物质能发电为主营业务的发电企业，以及输电、配电和电网运营企业。"
+  },
+  {
+   "id": "mof-ind-steel",
+   "title": "第102号 · 钢铁",
+   "content": "以铁矿石冶炼、炼钢、轧钢等为主营业务的钢铁企业。"
+  },
+  {
+   "id": "mof-ind-coal",
+   "title": "第103号 · 煤炭",
+   "content": "以煤炭开采、洗选为主营业务的煤炭企业。"
+  },
+  {
+   "id": "mof-ind-oil",
+   "title": "第104号 · 石油",
+   "content": "以油气勘探开发、油气储运、炼化及销售为主营业务的石油企业。"
+  },
+  {
+   "id": "mof-ind-fertilizer",
+   "title": "第105号 · 化肥",
+   "content": "以氮肥、磷肥、钾肥及复合肥生产为主营业务的化肥企业。"
+  },
+  {
+   "id": "mof-ind-aluminium",
+   "title": "第106号 · 铝",
+   "content": "以氧化铝、电解铝生产及铝加工为主营业务的铝企业。"
+  },
+  {
+   "id": "mof-ind-hydrogen",
+   "title": "第107号 · 氢",
+   "content": "以氢气制备、储运及加注为主营业务的氢企业。"
+  },
+  {
+   "id": "mof-ind-cement",
+   "title": "第108号 · 水泥",
+   "content": "以水泥熟料、水泥生产为主营业务的水泥企业。"
+  },
+  {
+   "id": "mof-ind-auto",
+   "title": "第109号 · 汽车",
+   "content": "以乘用车、商用车整车制造为主营业务的汽车企业。"
   }
  ]
 }

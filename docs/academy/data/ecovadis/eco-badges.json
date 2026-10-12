@@ -1,441 +1,725 @@
 {
-  "id": "eco-badges",
-  "title": "EcoVadis 徽章方法学",
-  "eyebrow": "公开方法学披露文件",
-  "summary": "本文档公开披露 EcoVadis 徽章（Badge）方法学：基于可持续发展评级，按环境、劳工与人权、商业行为、可持续采购四大主题评估企业 ESG 管理体系，并列出评分门槛、行业排除规则与治理原则。",
-  "tags": [
-    "EcoVadis",
-    "评分与认可"
-  ],
-  "group": "评分与认可",
-  "status": "",
-  "officialUrl": "https://ecovadis.com/",
-  "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
-  "learningLayers": [
-    "original"
-  ],
-  "sections": [
+ "id": "eco-badges",
+ "title": "EcoVadis 徽章方法学",
+ "eyebrow": "公开方法学披露文件",
+ "summary": "本文档公开披露 EcoVadis 徽章（Badge）方法学：基于可持续发展评级，按环境、劳工与人权、商业行为、可持续采购四大主题评估企业 ESG 管理体系，并列出评分门槛、行业排除规则与治理原则。",
+ "tags": [
+  "EcoVadis",
+  "评分与认可"
+ ],
+ "group": "评分与认可",
+ "status": "",
+ "officialUrl": "https://ecovadis.com/",
+ "sourceNote": "EcoVadis Methodology Disclosure Documents（公开方法学披露文件）；本页为官方文件的结构化整理，请以 EcoVadis 现行文件为准。",
+ "learningLayers": [
+  "original"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "title": "引言（披露目的）",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
     {
-      "id": "s1",
-      "title": "引言（披露目的）",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "引言（披露目的）",
-          "content_cn": "本披露文件旨在确保符合欧盟《2024/3005 条例》（EU Regulation 2024/3005）附件三关于环境、社会与治理（ESG）评级活动透明度与完整性的要求，以及对该条例进行补充的授权条例。",
-          "content": "This disclosure document is intended to ensure compliance with Annex III to the EU Regulation 2024/3005 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities, and the Delegated Regulation supplementing Regulation (EU) 2024/3005.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s2",
-      "title": "1.1 重要性的目标与方法",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.1 重要性的目标与方法",
-          "content_cn": "EcoVadis 徽章（Badge）的目标，是评估被评级公司的 ESG 管理体系在应对对利益相关方具有重要性（material）的可持续发展影响方面的充分性与全面性。该评级是 EcoVadis 自身的观点，可能与其他 ESG 评级机构提供的评估有所不同。\n\n徽章被设计为一种工具，供评级用户（rating user）将 ESG 因素纳入其采购或投资决策。它并非由被评级对象（rated item）或采购方主动发起，且绝不会在被评级公司不知情、未同意或未参与的情况下开展。公司始终可以拒绝接受评估。\n\n为评估一家公司管理体系的质量及其预防或最小化对利益相关方影响的能力，EcoVadis 基于影响重要性（impact materiality）方法识别重要议题（即从“由内向外”的视角，识别公司运营、产品与服务对环境和社会产生的外部影响）。\n\n评估所涵盖的具体影响归为 4 大主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），共包含 21 项具体标准（更多细节见“1.2 范围”一节）。",
-          "content": "The objective of the EcoVadis Badges is to assess the level of adequacy and comprehensiveness of a rated company's ESG management system to address material sustainability impacts on stakeholders. The rating is EcoVadis' own opinion and can differ from the assessments provided by other ESG rating providers.\n\nThe Badges are designed as a tool for rating users to integrate ESG factors into their procurement or investment decisions. It is not solicited by rated companies or buyers, and never performed without knowledge, consent and involvement of a rated company. Companies can always refuse to undergo an assessment.\n\nTo assess the quality of a company's management system and its ability to prevent or minimize impacts on company stakeholders, EcoVadis identifies material issues based on an impact materiality approach (the \"inside-out\" perspective identifying external impacts that a company's operations, products, and services have on the environment and society).\n\nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, Labor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 specific criteria (see section \"1.2 Scope\" for additional details).",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s3",
-      "title": "1.2 范围",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.2 范围",
-          "content_cn": "徽章（Badge）是基于 EcoVadis 评级方法学得出的综合评级，涵盖四大核心主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement）。徽章方法学认为，有效的可持续发展管理体系应能制定政策、落实行动并报告结果。这三个管理层级通过七项管理体系指标（management indicator）在可持续发展评级中接受评估：政策（Policy）、认可（Endorsement）、措施（Measure）、认证（Certifications）、覆盖（Coverage）、报告（Reporting）与 360° Watch。关于这些主题与指标所涵盖的内容，以及 ESG 得分因素公式的更多细节，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 2.3 节“管理体系指标与评分”）。\n\n上述议题并未完全对应《2013/34/EU 会计指令》（经《2022/2464 公司可持续发展报告指令》“CSRD”修订，并在《欧洲可持续发展报告准则》“ESRS”中细化）中的主题。不过，它们在某种程度上相互重叠，可进行比较。\n\n尽管徽章确实涵盖环境问题，但它与《2020/852 条例》（“分类法规”Taxonomy Regulation）下的分类对齐百分比并无关联。",
-          "content": "A Badge is an aggregated rating based on Ecovadis rating's methodology that covers four core themes: Environment, Labor & Human Rights, Ethics, and Sustainable Procurement. The Badges methodology considers an effective sustainability management system to be one that develops policies, implements actions, and reports on results. These three management layers are evaluated in the Sustainability Rating through seven management indicators: Policy, Endorsement, Measure, Certifications, Coverage, Reporting, and 360° Watch. For more details on what these themes and indicators cover, and ESG score factors formulas, refer to the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items (Section 2.3 Management system indicators and scoring).\n\nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (\"CSRD\") and detailed in the European Sustainability Reporting Standards (\"ESRS\"). However, they overlap to a degree and allow for comparison.\n\nAlthough a Badge does cover environmental issues, it is not correlated with the percentage of taxonomy alignment under Regulation (EU) 2020/852 (\"Taxonomy Regulation\").",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s4",
-      "title": "1.3 评级量表类型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.3 评级量表类型",
-          "content_cn": "徽章评级表现为一个相对值，它取决于个体在 EcoVadis 可持续发展评级中的表现，并以过去滚动 12 个月内所有受评公司的表现为基准进行比较。\n\n评分计算的具体细节与 ESG 得分因素的权重，可参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 2.3 节“管理体系指标与评分”）。",
-          "content": "The Badge rating is expressed as a relative value, which is tied to individual performance in the Ecovadis Sustainability Rating benchmarked against the performance of all companies rated in the past rolling 12 months.\n\nThe details of the scoring calculation and the weight of ESG score factors can be found in the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items (Section 2.3 Management system indicators and scoring).",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s5",
-      "title": "1.4 国际协议的覆盖",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "1.4 国际协议的覆盖",
-          "content_cn": "徽章方法学基于 EcoVadis 可持续发展评级的输入，该评级考量了国际劳工组织公约、巴塞尔公约、《斯德哥尔摩公约》与《水俣公约》等国际协议的目标，但并未具体参照《巴黎协定》的目标与宗旨。\n\n关于可持续发展评级方法学对国际协议覆盖情况的更多信息，可参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 1.4 节）。",
-          "content": "The Badge methodology is based on input from the EcoVadis Sustainability Rating, which considers the objectives of international agreements such as the International Labour Organization Conventions, Basel Convention, the Stockholm Convention and the Minamata Convention, but does not specifically refer to the targets and objectives of the Paris Agreement.\n\nAdditional information on the coverage of international agreements of the Sustainability Rating methodology can be found in the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items (Section 1.4).",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s6",
-      "title": "2.1 方法学概述",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.1 方法学概述",
-          "content_cn": "徽章方法学一致适用于所有符合条件的主体。徽章方法学的最新版本为 V1.0，自 2026 年 1 月起适用。\n\n完整更新日志可在此查阅：EcoVadis 方法学更新（需登录）。\n\na) 方法学治理原则\n\n为以最高水平的质量与完整性交付徽章，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：\n\ni) 严谨（Rigorous）\n\n我们的方法学通过包括研究、影响评估以及对拟议变更的公开征询在内的严谨流程开发，以确保该框架能够捕捉复杂的可持续发展风险，并准确反映被评级主体的可持续发展绩效。\n\nii) 系统性（Systematic）\n\n我们采用结构化、可重复的方法学框架，确保每一个主体都依据一套与其具体情境相适应的、一致的原则与要求接受评估。这种系统化的方法消除了临时性的主观判断，并确保方法学为被评级主体之间的比较提供稳定的基础。\n\niii) 独立性（Independent）\n\n我们方法学的开发与审批由一个在结构与职能上均独立于商业和销售活动的内部职能负责管理。这确保评级框架的设计纯粹由分析完整性驱动，并免受外部商业压力的影响。\n\niv) 可论证（Capable of justification）\n\n方法学建立在清晰、基于证据的依据之上，该依据规定了每个可持续发展议题的具体权重与相关度。框架的每个组成部分均予以记录以实现可追溯性，确保底层理论假设在技术审查下具有可辩护性。\n\nv) 跨期可比（Comparable over time）\n\n我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确地对年度绩效进行比较。\n\nvi) 透明（Transparent）\n\n根据欧盟 ESG 评级机构法规所设定的透明度标准，我们就方法学范围、排名系统、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。\n\nb) 方法学所适用的被评级对象类型\n\n该方法学适用于公司主体，前提是它们满足以下两项标准：\n\n- 必须具有法律实体名称，或以其直接母法律实体的名称运营。法律实体名称是指公司在运营所在国合法注册并开展业务所用的名称。\n\n- 在可持续发展风险方面必须具有相关的评估范围水平。例如，若评估范围包含差异极大的业务活动，导致单一评级不足以评估公司所面临的重要议题及其所实施的管理体系，则不属于此情形。\n\n该方法学允许三种不同的评估范围：\n\n- 集团（Group）：集团级评估覆盖一个法律实体及其子公司。\n\n- 实体（Entity）：实体级评估覆盖一个无子公司的法律实体。\n\n- 场所（Site）：场所级评估覆盖法律实体的特定地理位置场所或设施。该场所不",
-          "content": "The Badges methodology is consistently applied to all eligible entities. The most recent version of the Badges Methodology is V1.0, applicable as of January 2026.\n\nA full changelog can be accessed here: EcoVadis methodology updates (Login required)\n\na) Methodology governance principles\n\nTo deliver Badges with the highest levels of quality and integrity, EcoVadis has designed a methodology governance framework ensuring our methodologies adhere to the following core principles:\n\ni) Rigorous\n\nOur methodologies are developed through a rigorous process including research, impact assessment and public consultation of proposed changes to ensure the framework is capable of capturing complex sustainability risks and accurately reflect the rated entity's sustainability performance.\n\nii) Systematic\n\nWe employ a structured, repeatable methodological framework that ensures every entity is evaluated against a consistent set of principles and requirements tailored to their specific context. This systematic approach eliminates ad-hoc subjectivity and ensures that the methodology provides a stable basis for comparison of rated entities.\n\niii) Independent\n\nThe development and approval of our methodologies are governed by an internal function that is structurally and functionally separate from commercial and sales activities. This ensures the design of the rating framework is driven solely by analytical integrity and is insulated from external business pressures.\n\niv) Capable of justification\n\nThe methodology is built upon a clear, evidence-based rationale that dictates the specific weighting and relevance of each sustainability issue. Every component of the framework is documented for traceability, ensuring the underlying theory assumptions are defensible under technical scrutiny.\n\nv) Comparable over time\n\nOur methodology is designed to provide a stable benchmark by maintaining consistent evaluation criteria over time. By ensuring the framework remains steady, we enable rating users to accurately compare year-on-year performance.\n\nvi) Transparent\n\nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide comprehensive public disclosures regarding the methodology scope, ranking system, key assumptions and models, data sources and processes, and its inherent limitations.\n\nb) Type of rated items to which the methodology applies\n\nThe methodology is applied to corporate entities, provided they meet the following two criteria:\n\n- It must have a legal entity name or operate under the direct parent legal entity name. The legal entity name is the name under which a company is legally registered and operates in the country of operation.\n\n- There must be a relevant level of scope of assessment in terms of sustainability risks. This may for instance not be the case if the scope includes widely different business activities, making it inadequate for a single rating to assess material issues the company is confronted to and the management system it has implemented in response.\n\nThe methodology allows for 3 different scopes of assessment:\n\n- Group: Group-level assessments cover a legal entity and its subsidiaries.\n\n- Entity: Entity-level assessments cover a legal entity with no subsidiaries.\n\n- Site: Site-level assessments cover a specific geographic site or facility of a legal entity. This site does no",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s7",
-      "title": "2.2 方法学假设与模型",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.2 方法学假设与模型",
-          "content_cn": "尽管底层的 EcoVadis 可持续发展评级评估的是一家公司 ESG 管理体系的质量，但徽章方法学建立在一项基本的基线假设之上：某些业务活动带有内在的、系统性的影响，仅凭管理实践无法缓解。为确保公开认可与可持续发展的核心目标及利益相关方期望相一致，我们的方法学纳入了严格的资格边界。\n\n资格排除原则\n\nEcoVadis 徽章的资格排除基于以下标准确立：\n\n- 系统性环境或社会影响：该活动或产品类别与国际法规、条约或共识框架所定义的、有文献记载的、对社会或环境造成的大规模不利影响相关联。\n\n- 与全球可持续发展框架的一致性：核心商业模式与国际可持续发展规范（如联合国全球契约 UN Global Compact）存在结构性错位。具体而言，它与国际裁军条约（包括《渥太华公约》与核不扩散条约）、关于烟草的全球健康数据（IHME 全球疾病负担研究，2019 年）以及气候路径（IPCC 第六次评估报告）相冲突，这一点体现在联合国全球契约“Forward Faster”倡议明确将化石燃料公司排除在外。\n\n被排除的类别（见第 2.3 节“排名系统”）将根据不断演变的市场与监管标准进行定期审查。这些排除并不构成对在相关行业运营公司的道德评判。",
-          "content": "While the underlying EcoVadis Sustainability Rating evaluates the quality of a company's ESG management system, the Badges methodology operates on a fundamental baseline assumption: certain business activities carry inherent, systemic impacts that cannot be mitigated by management practices alone. To ensure that public recognition aligns with the core objectives of sustainable development and stakeholder expectations, our methodology incorporates strict eligibility boundaries.\n\nPrinciples of Eligibility Exclusion\n\nEligibility exclusions for EcoVadis Badges are established based on the following criteria:\n\n- Systemic environmental or social impact: The activity or product category is associated with documented, large-scale adverse impacts on society or the environment, as defined by international regulations, treaties, or consensus frameworks.\n\n- Alignment with global sustainability frameworks: The core business model presents a structural misalignment with international sustainability norms (e.g., the UN Global Compact). Specifically, it conflicts with international disarmament treaties (including the Ottawa Convention, and Nuclear Non-Proliferation treaties), global health data regarding tobacco (IHME Global Burden of Disease, 2019), and climate pathways (IPCC 6th Assessment Report), as reflected in the explicit exclusion of fossil fuel companies from the UN Global Compact's Forward Faster initiative.\n\nExcluded categories (see Section 2.3 \"Ranking system\") are subject to periodic review based on evolving market and regulatory standards. These exclusions do not constitute an ethical judgment on companies operating within these sectors.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s8",
-      "title": "2.3 排名系统",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.3 排名系统",
-          "content_cn": "要获得徽章，被评级公司必须达到特定的绩效门槛，且不得被视为不合格。\n\n1) 徽章门槛：\n\n- 践行者（Committed）：公司必须达到至少 45/100 的分数。\n\n- 快速进步者（Fast Mover）：公司必须达到 34–44 的分数，且在 18 个月期间内相比上一次评估至少有 6 分的提升。\n\n2) 不合格标准：\n\n- 获得 EcoVadis 奖牌（Medal）的公司无资格获得 EcoVadis 徽章（Badge）。\n\n- 可持续发展评级的 360° Watch 指标得分。\n\n- 若公司在过去 5 年内（环境、劳工与人权、可持续采购）或 7 年内（商业行为）存在至少一项严重*发现，则无资格获得徽章。\n\n*仅当该案例被归类为严重时适用；累积案例规则不适用于徽章。\n\n- 在特定行业开展业务的公司可能无资格获得 EcoVadis 徽章。具体的行业类别及其相应的限制规则与门槛详述如下：\n\n武器（Weapons）\n\nEcoVadis 不对所有国防相关活动一概施加限制。排除仅限于：\n\n- 主营业务为制造武器和弹药的主体。对于多业务企业，EcoVadis 将呈现最高可持续发展风险的活动识别为主要活动。若所有活动具有同等程度的可持续发展风险，则根据产生的最高收入确定主要活动。\n\n- 制造违反或规避国际条约与公约（例如规制地雷、集束弹药、生物或化学武器的条约）的武器的主体。\n\n烟草（Tobacco）\n\n国际主管机构将烟草制造归类为重大公共健康危害。根据世界卫生组织（WHO），所有形式的烟草使用均有害，不存在已确立的安全暴露水平。WHO 数据将每年超过 700 万例死亡归因于直接烟草使用，约 130 万例死亡归因于二手烟暴露，这为基于全球公共卫生标准的排除提供了明确依据。\n\n因此，奖牌排除（Medals exclusion）适用于从事烟草产品及烟草替代品制造的公司：香烟、卷烟烟草、雪茄、斗烟丝、嚼烟与鼻烟。\n\n从事“均质化”或“重组”烟草制造的公司。\n\n化石燃料：煤炭与褐煤（Coal & Lignite）\n\n政府间气候变化专门委员会（IPCC）将煤炭确定为驱动全球气候变化的、高度碳密集的能源来源。IPCC 框架表明，要将全球变暖限制在 2°C 或以下，需要在 2050 年前结构性淘汰未减排的煤炭消费。此外，燃煤与采矿会释放大量二氧化硫、颗粒物及其他影响空气质量与公共健康的污染物。\n\n因此，奖牌排除（Medals exclusion）适用于从事煤炭或褐煤开采的公司。为考量市场多元化与能源转型，EcoVadis 对源自煤炭和/或燃煤发电的收入设定 20% 的门槛。该门槛会根据全球脱碳路径接受定期审查并向下调整。\n\n化石燃料：非常规油气生产（Unconventional Oil and Gas Production）\n\n非常规",
-          "content": "To obtain a badge, rated companies must meet specific performance thresholds and must not be considered ineligible.\n\n1) Badges thresholds:\n\n- Committed: Companies must achieve a minimum score of 45/100\n\n- Fast Mover: Companies must achieve a score between 34-44 with a minimum 6-point improvement compared to the previous assessment in an 18-month period.\n\n2) Ineligibility criteria:\n\n- Companies that earn an EcoVadis medal are not eligible for an EcoVadis badge.\n\n- The 360° Watch indicator score of the Sustainability Rating\n\n- A company is ineligible for a badge if it has at least one severe* finding within the past 5 years (Environment, Labor & Human Rights, Sustainable Procurement) or 7 years (Ethics).\n\n*Only if the case is categorized as severe; cumulative case rules do not apply to badges.\n\n- Companies doing business in specific industries may not be eligible for Ecovadis Badges. The specific sector categories and their corresponding restriction rules and thresholds are detailed below:\n\nWeapons\n\nEcoVadis does not apply a blanket restriction to all defense-related activities. Exclusions are limited to:\n\n- Entities whose main business operation consists of manufacturing weapons and ammunition. For multi-activity enterprises, EcoVadis identifies the primary activity as the one presenting the highest sustainability risk. Should all activities share an equal degree of sustainability risk, the primary activity is established according to the highest generated revenue.\n\n- Entities manufacturing weapons that violate or circumvent international treaties and conventions, such as those governing landmines, cluster munitions, biological or chemical weapons.\n\nTobacco\n\nTobacco manufacturing is classified as a critical public health hazard by international authorities. According to the World Health Organization (WHO), all forms of tobacco use are harmful, with no established safe level of exposure. WHO data attributes over 7 million annual deaths to direct tobacco use and approximately 1.3 million deaths to second-hand smoke exposure, establishing a clear basis for exclusion based on global public health standards.\n\nAs a result, Medals exclusion apply to companies involved in the manufacture of tobacco products and products of tobacco substitutes: cigarettes, cigarette tobacco, cigars, pipe tobacco, chewing tobacco, and snuff.\n\nCompanies involved in the manufacture of \"homogenized\" or \"reconstituted\" tobacco.\n\nFossil Fuels: Coal & Lignite\n\nCoal is identified by the Intergovernmental Panel on Climate Change (IPCC) as a highly carbon-intensive energy source driving global climate change. IPCC frameworks indicate that limiting global warming to 2°C or below requires a structural phase-out of unabated coal consumption by 2050. Additionally, coal combustion and mining release significant volumes of sulfur dioxide, particulate matter, and other pollutants that impact air quality and public health.\n\nMedals exclusion therefore apply to companies involved in the mining of coal or lignite. To account for market diversification and the energy transition, EcoVadis applies a 20% threshold on revenue derived from coal sources and/or coal-based power generation. This threshold is subject to regular review and downward adjustment in accordance with global decarbonization trajectories.\n\nFossil Fuels: Unconventional Oil and Gas Production\n\nUnconvention",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s9",
-      "title": "2.4 行业分类",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.4 行业分类",
-          "content_cn": "徽章方法学采用联合国《全部经济活动的国际标准行业分类》（ISIC）第 4 修订版，作为对被评级公司经济活动进行分类的基础。\n\n官方完整文件可在联合国统计司网站上查阅。",
-          "content": "The Badges methodology uses the United Nations International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic activities of rated companies.\n\nThe official full document is available on the United Nations Statistic Division website.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s10",
-      "title": "2.5 数据来源",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.5 数据来源",
-          "content_cn": "徽章方法学的主要输入来自 EcoVadis 可持续发展评级的得分。\n\n为适用排除规则，该数据由额外的数据来源加以补充。这包括公司自行申报或从公开文件（如收入细分）中收集的信息。也会核查外部来源，以确保不满足徽章特定的排除标准（如涉及烟草、武器或煤电）。\n\n徽章方法学不考虑《2019/2088 条例》（“可持续金融披露条例”Sustainable Finance Disclosure Regulation）或《2020/852 条例》（“分类法规”Taxonomy Regulation）。",
-          "content": "The main input for the Badges methodology are scores from the EcoVadis Sustainability Rating.\n\nThis data is supplemented by additional data sources to apply the exclusion rules. This includes information self-reported by the company or gathered from public documents, such as revenue breakdowns. External sources are also checked to ensure that badge-specific exclusion criteria (such as involvement in tobacco, weapons, or coal power) are not met.\n\nThe Badges methodology does not take into account the Regulation (EU) 2019/2088 (\"Sustainable Finance Disclosure Regulation\") or Regulation (EU) 2020/852 (\"Taxonomy Regulation\").",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s11",
-      "title": "2.6 数据流程",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.6 数据流程",
-          "content_cn": "徽章评级依托集成于 EcoVadis 数字平台之内、结构化、安全且自动化的数据生命周期。为确保分析严谨性，同时避免重复报告，数据工作流被精简为三个关键阶段：数据收集、数据处理与数据输出。\n\na) 数据收集\n\n徽章方法学不独立收集 ESG 管理体系的一手数据。相反，它利用两条不同的数据流：\n\n- 主要输入：EcoVadis 徽章以 EcoVadis 可持续发展评级数据（包括主题得分与 360° Watch 发现）作为基础输入。可持续发展评级的数据收集细节详见《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。\n\n- 次要输入：行业特定排除（如武器、烟草、煤炭、非常规油气）通过收集有针对性的补充数据来执行。这包括：\n\n○ 公司披露：被评级公司自行申报的财务明细与精确的收入细分。\n\n○ 额外的外部筛查：公开可用的领域数据、监管登记册、开放获取来源与媒体情报，用于识别潜在的排除风险与行业信号。\n\nb) 数据处理\n\n数据收集之后，处理阶段依赖自动化系统规则与分析师驱动验证的组合：\n\n- 行业资格核查：为确定初步资格，将主体的收入与活动数据对照严格的、特定行业的排除门槛进行分析。该核查过程确保符合预定义的徽章限制，例如煤炭或非常规油气参与程度最高 20% 的上限（详见“排名系统”一节）。\n\n- 评分限制的应用：在行业审查之后，将主体的可持续发展得分对照既定的绩效最低值进行评估。系统核查以下参数：\n\n○ 若在 360° Watch 评估期间自动标记出任何负面指标（详见“排名系统”一节）\n\n- 得分基准比较与徽章授予：一旦确认符合所有排除与不合格标准，经校验的总体得分即被纳入计算系统。主体的最终总体得分将对照特定的徽章规则进行基准比较，以确定适当的徽章。\n\nc) 数据输出\n\n最终输出要么是一个徽章，要么是没有徽章，要么是“不合格”状态。被授予的徽章在 EcoVadis 平台上正式发布。\n\nd) 数据存储与历史数据更新及修订\n\n每次徽章授予所使用的数据均保留在系统中，以实现可追溯性。生成的徽章自授予之日起严格保持 12 个月的有效期。所有最终输出得分、基准比较与资格决定均直接归档于平台之内，以保证完整的历史可追溯性与可审计性。\n\n数据与徽章状态仅在进行用于更新记分卡的重新评估时才予更新。不过，在常规评估周期之间，活跃的徽章状态可能因正式的记分卡更正（例如由正式投诉管理流程所导致者）而更新。\n\n除例外性的记分卡更正外，标准的重新评估仅",
-          "content": "The Badges rating relies on a structured, secure, and automated data lifecycle integrated within the Ecovadis digital platform. To ensure analytical rigor while avoiding duplicative reporting, the data workflow is streamlined into three key phases: data collection, data processing, and data output.\n\na) Data collection\n\nThe badges methodology does not collect primary ESG management system data independently. Instead, it leverages two distinct data streams:\n\n- Primary input: Ecovadis Badges use EcoVadis Sustainability Rating data, including theme scores, and 360° watch findings, as its foundational input. Details on data collection for the Sustainability Rating are detailed in the Ecovadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.\n\n- Secondary input: Industry-specific exclusions (e.g., weapons, tobacco, coal, unconventional oil and gas) are enforced by collecting targeted supplementary data. This includes:\n\n○ Company disclosures: self-reported financial details and precise revenue breakdowns established by the rated company.\n\n○ Additional external screening: publicly available domain data, regulatory registries, open-access sources, and media intelligence to identify potential exclusion risks and industry signals\n\nb) Data processing\n\nFollowing data collection, the processing phase relies on a combination of automated system rules and analyst-driven validation:\n\n- Sector eligibility verification: To establish preliminary eligibility, the entity's revenue and activity data are analyzed against strict sector-specific exclusion thresholds. This verification process ensures compliance with predefined Badges restrictions, such as the maximum 20% limit on coal or unconventional oil and gas involvement (see Ranking system section for more details).\n\n- Application of score restrictions: Following the sector review, the entity's sustainability scores are evaluated against defined performance minimums. The system checks the following parameter:\n\n○ If any negative indicators are flagged during the 360° watch assessment automatically (see Ranking system section for more details)\n\n- Score Benchmarking and Badge Assignment: Once compliance with all exclusion and ineligibility criteria is confirmed, the validated overall scores are integrated into the calculation system. The entity's final overall score is benchmarked against the specific badges rules to determine the appropriate Badge.\n\nc) Data output\n\nThe final output is either a Badge, the absence of a badge or a status of ineligibility. The allocated badge is officially published on the Ecovadis platform.\n\nd) Data storage & historical data updates and revision\n\nData used for each badge allocation is preserved in the system for traceability purposes. The generated badge remains valid for a strict period of 12 months from the date of allocation. All final output scores, benchmarks, and eligibility decisions are archived directly within the platform to guarantee complete historical traceability and auditability.\n\nThe data and badge status are only updated in the context of reassessments performed to update a scorecard. However, an active badge status may be updated in between regular assessment cycles in the case of an official scorecard correction (such as those resulting from the formal complaint management process).\n\nOutside of exceptional scorecard corrections, a standard reassessment occurs only",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s12",
-      "title": "2.7 数据质量",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.7 数据质量",
-          "content_cn": "为确保所授予徽章的完整性，所有数据及支撑证据都必须通过 EcoVadis 可持续发展评级所确立的严格数据质量控制框架，以及对用于确定特定行业排除（如来自煤炭、烟草或武器的收入门槛）的数据进行的针对性质量检查。该数据使用经核实的公司财务报告进行严格交叉核对，以消除自行申报中的错误或遗漏。",
-          "content": "To ensure the integrity of awarded Badges, all data and supporting evidence must pass the strict data quality control framework established by the EcoVadis Sustainability Rating, alongside targeted quality checks for the data used to determine sector-specific exclusions (such as revenue thresholds from coal, tobacco, or weapons). This data is rigorously cross-checked using verified corporate financial reports to eliminate self-reporting errors or gaps.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s13",
-      "title": "2.8 评估流程质量",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.8 评估流程质量",
-          "content_cn": "由于 EcoVadis 徽章是基于 EcoVadis 可持续发展评级的结果授予的，因此徽章的完整性直接依赖于施加于底层评估的严格质量控制流程。\n\n每一驱动徽章的评估都要经历正式的三步流程：文件收集与核实、专家分析，以及在记分卡发布并判定徽章资格之前的最终质量保证审查。\n\n为进一步确保决定徽章授予的得分的持续可靠性，一个专门的独立质量保证团队每月对全部已发布记分卡中随机抽取约 1% 的样本进行审计。此外，执行这些基础评估的人工分析师需接受全面培训与持续校准，以保证方法学的一致应用，从而维护最终徽章分布的公平性与准确性。\n\n关于内部质量管理体系、分析师认证计划以及月度审计期间所追踪的具体指标的详尽说明，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。",
-          "content": "Because EcoVadis Badges are awarded based on the results of the EcoVadis Sustainability Rating, the integrity of the Badges relies directly on the rigorous quality control processes applied to the underlying assessment.\n\nEvery assessment driving a Badge undergoes a formal three-step process: document collection and verification, expert analysis, and a final quality assurance review before the scorecard is published and Badge eligibility is determined.\n\nTo further ensure the ongoing reliability of the scores that dictate Badge allocation, a dedicated independent Quality Assurance team audits a randomized sample of approximately 1% of all published scorecards monthly. Furthermore, the human analysts conducting these foundational assessments undergo comprehensive training and continuous calibration to guarantee the consistent application of the methodology, thereby safeguarding the fairness and accuracy of the final Badges distribution.\n\nFor an exhaustive breakdown of the internal quality management systems, analyst certification programs, and the specific metrics tracked during the monthly audits, please refer to the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s14",
-      "title": "2.9 评估间隙新信息的监测",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.9 评估间隙新信息的监测",
-          "content_cn": "尽管新信息会在周期性重新评估期间得到评估，但 EcoVadis 在两次评估之间也会持续监测严重的或重大的争议，这些争议可能需要对徽章授予进行例外审查。在以下情形会触发徽章的暂停或撤销：\n\n- 持续监测发现严重程度足够的争议时，EcoVadis 保留例外修订底层得分的权利，这可能导致已授予徽章被立即暂停或撤销。\n\n- 申诉机制限制：通过 EcoVadis Worker Voice Connect 等申诉渠道标记的、涉及劳工与人权议题（如童工、强迫劳动或人口贩卖）的严重申诉，若公司在超过三个月内未予补救，将导致临时性的徽章限制。该限制仅在经核实的补救完成之后，或自徽章限制之日起一年之后解除。",
-          "content": "While new information is evaluated during periodic reassessments, EcoVadis continuously monitors severe or major controversies in between assessments that may warrant an exceptional review of a Badge allocation. Badge suspension or removal is triggered in the following cases:\n\n- Ongoing monitoring detects a controversy of sufficient severity, EcoVadis reserves the right to exceptionally revise the underlying score, which may result in the immediate suspension or removal of an allocated Badge.\n\n- Grievance mechanism restrictions: Severe grievances on Labor & Human Rights topics (such as child labor, forced labor, or human trafficking) flagged via grievance channels like the EcoVadis Worker Voice Connect mechanism that remain unremediated by the company for over three months will result in a temporary Badge restriction. The restriction is lifted only upon verified remediation or after one year from the badge restriction date.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s15",
-      "title": "2.10 与被评级公司的互动",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.10 与被评级公司的互动",
-          "content_cn": "a) 评估期间与被评级公司的互动\n\n为维护评估的独立性与完整性，与被评级公司的互动受到限制。若一家公司的 360° Watch 指标得分下降至某一水平，EcoVadis 会在评估阶段主动联系，并主动发出正式信函，告知被评级公司其不符合徽章资格。这使得公司能够在最终评估确定之前，就所发现的争议提供必要说明或背景信息。\n\nb) 记分卡发布后与被评级公司的互动\n\n记分卡发布后，被评级公司会被告知其评估已完成，并可在记分卡向评级用户开放之前，获得为期 2 个工作日的预览其结果的权限，期间可提出事实错误（factual error）案件。事实错误是指对所使用底层信息（如公司名称、所在地或规模、行业分类、不适用 360、被错误拒绝的文件）所犯的错误。\n\n在这 2 个工作日之后，被评级公司仍可通过专门渠道联系 EcoVadis，以更好地理解其记分卡，或就其所获评级提出投诉。它们的问询由专门团队处理，在确认存在事实或方法学应用方面的错误时，将回应问题并启动记分卡更正流程。",
-          "content": "a) Engagement with rated companies during the assessment\n\nTo safeguard the independence and integrity of the assessment, engagement with rated companies is limited. EcoVadis proactively reaches out during the assessment phase if a company's 360° Watch indicator score drops to a level, EcoVadis proactively issues an official letter informing the rated company of the Badge ineligibility. This allows the company to provide necessary explanations or context regarding the detected controversies before the final evaluation is finalized.\n\nb) Engagement with rated companies after scorecard publication\n\nFollowing the scorecard publication, rated companies are notified that their assessment is complete and are given the opportunity to preview their results for a period of 2 business days before the scorecard becomes available to rating users, with the possibility for them to raise a factual error case. A factual error is a mistake made on the underlying information used for the assessment, such as Company name, location or size, industry classification, not applicable 360, wrongly rejected document.\n\nFollowing these 2 business days, rated companies retain the possibility to contact EcoVadis via a dedicated channel to better understand their scorecard or to log a complaint regarding their rating. Their inquiries are handled by a specialized team which responds to questions and initiates a scorecard correction process in case a mistake in fact or methodology application is identified.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s16",
-      "title": "2.11 科学基础",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.11 科学基础",
-          "content_cn": "EcoVadis 徽章并不基于科学模型。相反，徽章授予规则用于为战略性采购与投资决断提供信息。相应地，用于分配的百分位门槛起到的是比较基准的作用，而非经验推导出的指标。",
-          "content": "The EcoVadis badges are not based on a scientific model. Instead, badge allocation rules serve to inform strategic procurement and investment decisions. Accordingly, the percentile thresholds used for distribution act as comparative benchmarks rather than empirically derived metrics.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s17",
-      "title": "2.12 基于 AI 工具的使用",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "2.12 基于 AI 工具的使用",
-          "content_cn": "EcoVadis 徽章不使用基于 AI 的工具。",
-          "content": "The EcoVadis Badges do not use AI-based tools.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s19",
-      "title": "3.1 方法学局限性",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.1 方法学局限性",
-          "content_cn": "确定公司针对行业排除参数（如煤炭、烟草或武器的特定收入门槛）的资格，在很大程度上依赖于公开公司报告的精细程度与二级筛查数据库。在公司（尤其是私营实体）未公开披露详细收入细分的情形下，核实这些确切门槛可能存在数据可用性方面的局限。\n\n由于 EcoVadis 徽章直接源自 EcoVadis 可持续发展评级，它们也继承了与其底层方法学和数据源相关的固有局限性。这些包括与财务重要性相关的局限、在冲突极度激烈的地区无法执行强化尽职调查，以及一般数据可用性或自行申报完整性方面的变数。\n\n关于一般方法学与数据源局限性的全面披露，以及 EcoVadis 为缓解这些局限所实施的严格措施，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。",
-          "content": "Determining a company's eligibility against industry exclusion parameters (e.g., specific revenue thresholds for coal, tobacco, or weapons) relies heavily on the granularity of public corporate reporting and secondary screening databases. In cases where companies, particularly private entities, do not publicly disclose detailed revenue breakdowns, verifying these exact thresholds can present a limitation in data availability.\n\nAs the EcoVadis Badges are derived directly from the EcoVadis Sustainability Rating, they also inherit the inherent limitations associated with its underlying methodology and data sources. These include limitations related to financial materiality, the inability to perform heightened due diligence in areas with extreme levels of conflict, and variables in general data availability or self-reporting completeness.\n\nFor a comprehensive disclosure of the general methodological and data source limitations, alongside the strict measures EcoVadis implements to mitigate them, please refer to the EcoVadis Sustainability Rating - Methodology disclosure document for the public, rating users and rated items.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s20",
-      "title": "3.2 应对数据来源局限性的方法",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "3.2 应对数据来源局限性的方法",
-          "content_cn": "为应对徽章评级中数据来源的局限性，EcoVadis 实施了一系列旨在将相关风险降至最低的措置与流程。这些步骤包括：\n\n借助核心评估质量控制：\n\n徽章方法学依赖内嵌于 EcoVadis 可持续发展评级引擎之中的稳健缓解策略。这包括严格的文件质量检查、外部利益相关方反馈来源的主动多元化、算法与人工的源可靠性检查，以及人工控制的验证流程。\n\n针对排除参数的二级筛查：\n\n为专门解决公开公司报告中有关行业排除（如来自煤炭、烟草或武器的收入门槛）的数据缺口，分析师会系统性地交叉参照多个二级合规数据库，以彻底核实资格。",
-          "content": "To address limitations in data sources for the Badges rating, EcoVadis implements a number of measures and processes aimed at reducing related risks to a minimum. These steps include:\n\nLeveraging core assessment quality controls:\n\nThe Badges methodology relies on the robust mitigation strategies embedded within the EcoVadis Sustainability Rating engine. This includes strict document quality checks, the proactive diversification of external stakeholder feedback sources, algorithmic and manual source reliability checks, and a human-controlled validation process.\n\nSecondary screening for exclusion parameters:\n\nTo specifically address data gaps in public corporate reporting regarding industry exclusions (e.g., revenue thresholds from coal, tobacco, or weapons), analysts systematically cross-reference multiple secondary compliance databases to thoroughly verify eligibility.",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s21",
-      "title": "4. 方法学修订",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "4. 方法学修订",
-          "content_cn": "徽章评级方法学的修订遵循《方法学审查程序》中列出的步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由一个专门的方法学团队领导，该团队负责方法学开发的优先排序、研究与执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学审查流程步骤\n\n方法学审查流程分为六个阶段。这六个阶段对所有重大变更均为强制性，但在相关时也可用于微小更新。\n\n- 启动（Initiation）\n\n方法学团队内的方法学所有者识别审查需求。审查需求由方法学负责人批准。\n\n- 提案（Proposal）\n\n一经批准，方法学所有者即起草详细的审查提案，包括理由、研究发现与拟议的具体变更。\n\n- 提案的内部预验证（Internal Pre-validation of Proposal）\n\n方法学所有者将详细的修订提案规范化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会一起被审查与讨论，以确保严谨性、一致性及与市场及监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可吸纳其他部门（如产品与技术、市场营销、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。\n\n- 影响评估（若影响被视为重大）（Impact Assessment）\n\n对现有评级的潜在影响进行量化评估。\n\n- 利益相关方征询（若影响为高）（Stakeholder Consultation）\n\n若变更被确定为高影响，则开展正式的利益相关方征询。EcoVadis 直接接洽定向选取的评级用户、被评级主体与外部利益相关方，以确保具有代表性的反馈闭环。\n\n- 批准与实施（Approval & Implementation）\n\n最终拟议的、经审查的方法学，对于低至中影响的变更由方法学负责人批准，对于高影响的变更由首席评级官批准，并正式实施。低至中影响的变更通过季度方法学变更沟通传达给评级用户与被评级主体。高影响的变更通过季度方法学变更沟通并向公众传达。\n\n所有方法学核心原则须在每个日历年至少接受一次强制性内部审查。该审查旨在主动识别改进领域、确保持续相关性，并确认数据源的完整性。方法学审查通过我们的季度方法学变更沟通传达给评级用户与被评级主体，该沟通于每年 1 月、4 月、7 月与 10 月发布。\n\nb) 方法学审查流程的启动：\n\n方法学审查流程可在发生以下任一情形时启动：\n\n- 监管变更（Regulatory Changes）\n\n引入直接冲击 ESG 数据定义、计量或披露的新国际或国家法规或经修订的法规。\n\n- 市场或行业演进（Market or Industry Evolution）\n\n市场实践、技术方面的重大变化，",
-          "content": "The revision of the methodology of the Badges rating follows the steps outlined in the Methodology Review Procedure.\n\nMethodological development and application are independent of all political, economic, or other external influences, and led by a dedicated methodology team, which handles prioritization of methodology developments, research and execution. The methodology team is separate from commercial functions, is managed by the Head of Methodology and reports to the Chief Ratings Officer.\n\na) Methodology Review Process steps\n\nThe methodology review process is structured in six phases. The six phases are mandatory for all material changes, but can still be considered, where relevant, for minor updates.\n\n- Initiation\nThe methodology owner within the methodology team identifies the need for a review. The need for a review is approved by the Head of Methodology.\n\n- Proposal\nOnce approved, the methodology owner drafts a detailed review proposal, including rationale, research findings and the proposed specific changes.\n\n- Internal Pre-validation of Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, research findings and the proposed specific changes. The proposal is reviewed and discussed with the project's steering committee to ensure rigor, consistency, and alignment with market and regulatory needs. The steering committee is composed of relevant methodology team members and may involve representatives of other departments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project manager integrates feedback from the steering committee to adjust the proposal accordingly.\n\n- Impact Assessment (if impact is deemed material)\nA quantitative assessment of the potential impact on existing ratings is performed.\n\n- Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is conducted. EcoVadis directly engages a targeted selection of rating users, rated entities and external stakeholders to ensure a representative feedback loop.\n\n- Approval & Implementation\nThe final proposed reviewed methodology is approved by the Head of Methodology for low to medium impact changes, and by the Chief Rating Officer for high-impact changes, and officially implemented. Low to medium impact changes are communicated to rating users and rated entities in the quarterly methodology change communication. High-Impact changes are communicated in the quarterly methodology change communication and to the public.\n\nAll methodology core principles are subject to a mandatory internal review at least once per calendar year. This review is designed to proactively identify areas for improvement, ensure continued relevance, and confirm data source integrity. Methodology reviews are communicated to rating users and rated entities via our quarterly methodology change communication, which are released in January, April, July and October.\n\nb) Initiation of methodology review process:\n\nA methodology review process may be initiated upon the occurrence of any of the following conditions:\n\n- Regulatory Changes\nIntroduction of new or amended international or national regulations that directly impact the definition, measurement, or disclosure of ESG data.\n\n- Market or Industry Evolution\nSignificant changes in market practices, technologic",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s22",
-      "title": "5. 组织披露",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "5. 组织披露",
-          "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级监管标准，本方法学文件发布于 EcoVadis 官方网站专门用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门章节中包含全部要求的组织披露：所有权结构（Ownership structure）、商业模式与定价（Business Model & Pricing）、利益冲突（Conflict of Interest），以及投诉管理与外部利益相关方合理关切（Complaint management & External stakeholder reasoned concern）：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "content": "To ensure comprehensive transparency and full compliance with European ESG Rating Regulation standards, this methodology document is published on the official EcoVadis website page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.\n\nThis page includes all required organisational disclosures in a dedicated section: Ownership structure, Business Model & Pricing, Conflict of Interest, and Complaint management & External stakeholder reasoned concern: https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
-    },
-    {
-      "id": "s23",
-      "title": "6. 法律声明",
-      "groupTitle": "方法学正文",
-      "learningLayer": "original",
-      "blocks": [
-        {
-          "type": "standard",
-          "title": "6. 法律声明",
-          "content_cn": "徽章评级由 EcoVadis SAS 发布，其总部位于 43 avenue de la Grande Armée 75116 Paris（巴黎），是一家在法国注册的私人持有的简化股份有限公司（Société à Actions Simplifiée），商业与公司登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据的是欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会与治理（ESG）评级活动透明度与完整性的《2024/3005 条例》（EU Regulation 2024/3005）（“该条例”），特别是该条例中针对向 ESG 评级用户、被评级对象及被评级对象发行方进行披露的要求所设定的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n无担保：本文件仅用于信息目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，并可能在不另行通知的情况下更改。\n\n责任限制：在任何情况下，EcoVadis 或其子公司均不对因使用本出版物中明确或隐含包含的任何观点或信息而引起的任何直接、间接、特殊、偶然或后果性损害承担责任。\n\n版权所有 © 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
-          "content": "The Badges rating is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and companies register number 497 842 914 - R.C.S. Paris.\n\nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the Regulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November 2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities ('the Regulation'), in particular, Articles 23 and 24 of the Regulation setting out requirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as well as applicable Regulatory Technical Standards of 15th October 2025.\n\nCopyright: No part of this document may be reproduced, modified or distributed in any form or manner without prior written permission of EcoVadis.\n\nNo warranty: This document is intended for informational purposes only, and EcoVadis does not warrant the accuracy, reliability, completeness of the information, content, text, and graphics herein, and is subject to change without notice.\n\nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any direct, indirect, special, incidental or consequential damages arising out of the use of any opinion or information expressly or implicitly contained in this publication.\n\nCopyright © 2026 EcoVadis SAS (Paris, France)\nAll Rights Reserved",
-          "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
-          "sourceScope": "official",
-          "provenance": "official",
-          "language": "zh",
-          "learningLayer": "original"
-        }
-      ]
+     "type": "standard",
+     "content_cn": "本披露文件旨在确保符合欧盟《2024/3005 条例》（EU Regulation 2024/3005）附件三关于环境、社会与治理（ESG）评级活动透明度与完整性的要求，以及对该条例进行补充的授权条例。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
     }
-  ],
-  "relations": {
-    "internal": [],
-    "external": []
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "1.1 重要性的目标与方法",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 徽章（Badge）的目标，是评估被评级公司的 ESG 管理体系在应对对利益相关方具有重要性（material）的可持续发展影响方面的充分性与全面性。该评级是 EcoVadis 自身的观点，可能与其他 ESG 评级机构提供的评估有所不同。\n\n徽章被设计为一种工具，供评级用户（rating user）将 ESG 因素纳入其采购或投资决策。它并非由被评级对象（rated item）或采购方主动发起，且绝不会在被评级公司不知情、未同意或未参与的情况下开展。公司始终可以拒绝接受评估。\n\n为评估一家公司管理体系的质量及其预防或最小化对利益相关方影响的能力，EcoVadis 基于影响重要性（impact materiality）方法识别重要议题（即从“由内向外”的视角，识别公司运营、产品与服务对环境和社会产生的外部影响）。\n\n评估所涵盖的具体影响归为 4 大主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），共包含 21 项具体标准（更多细节见“1.2 范围”一节）。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "1.2 范围",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章（Badge）是基于 EcoVadis 评级方法学得出的综合评级，涵盖四大核心主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement）。徽章方法学认为，有效的可持续发展管理体系应能制定政策、落实行动并报告结果。这三个管理层级通过七项管理体系指标（management indicator）在可持续发展评级中接受评估：政策（Policy）、认可（Endorsement）、措施（Measure）、认证（Certifications）、覆盖（Coverage）、报告（Reporting）与 360° Watch。关于这些主题与指标所涵盖的内容，以及 ESG 得分因素公式的更多细节，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 2.3 节“管理体系指标与评分”）。\n\n上述议题并未完全对应《2013/34/EU 会计指令》（经《2022/2464 公司可持续发展报告指令》“CSRD”修订，并在《欧洲可持续发展报告准则》“ESRS”中细化）中的主题。不过，它们在某种程度上相互重叠，可进行比较。\n\n尽管徽章确实涵盖环境问题，但它与《2020/852 条例》（“分类法规”Taxonomy Regulation）下的分类对齐百分比并无关联。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "1.3 评级量表类型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章评级表现为一个相对值，它取决于个体在 EcoVadis 可持续发展评级中的表现，并以过去滚动 12 个月内所有受评公司的表现为基准进行比较。\n\n评分计算的具体细节与 ESG 得分因素的权重，可参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 2.3 节“管理体系指标与评分”）。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "1.4 国际协议的覆盖",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章方法学基于 EcoVadis 可持续发展评级的输入，该评级考量了国际劳工组织公约、巴塞尔公约、《斯德哥尔摩公约》与《水俣公约》等国际协议的目标，但并未具体参照《巴黎协定》的目标与宗旨。\n\n关于可持续发展评级方法学对国际协议覆盖情况的更多信息，可参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》（第 1.4 节）。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "2.1 方法学概述",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章方法学一致适用于所有符合条件的主体。徽章方法学的最新版本为 V1.0，自 2026 年 1 月起适用。\n\n完整更新日志可在此查阅：EcoVadis 方法学更新（需登录）。\n为以最高水平的质量与完整性交付徽章，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "严谨（Rigorous）",
+       "content": "我们的方法学通过包括研究、影响评估以及对拟议变更的公开征询在内的严谨流程开发，以确保该框架能够捕捉复杂的可持续发展风险，并准确反映被评级主体的可持续发展绩效。",
+       "items": []
+      },
+      {
+       "title": "系统性（Systematic）",
+       "content": "我们采用结构化、可重复的方法学框架，确保每一个主体都依据一套与其具体情境相适应的、一致的原则与要求接受评估。这种系统化的方法消除了临时性的主观判断，并确保方法学为被评级主体之间的比较提供稳定的基础。",
+       "items": []
+      },
+      {
+       "title": "独立性（Independent）",
+       "content": "我们方法学的开发与审批由一个在结构与职能上均独立于商业和销售活动的内部职能负责管理。这确保评级框架的设计纯粹由分析完整性驱动，并免受外部商业压力的影响。",
+       "items": []
+      },
+      {
+       "title": "可论证（Capable of justification）",
+       "content": "方法学建立在清晰、基于证据的依据之上，该依据规定了每个可持续发展议题的具体权重与相关度。框架的每个组成部分均予以记录以实现可追溯性，确保底层理论假设在技术审查下具有可辩护性。",
+       "items": []
+      },
+      {
+       "title": "跨期可比（Comparable over time）",
+       "content": "我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使评级用户能够准确地对年度绩效进行比较。",
+       "items": []
+      },
+      {
+       "title": "透明（Transparent）",
+       "content": "根据欧盟 ESG 评级机构法规所设定的透明度标准，我们就方法学范围、排名系统、关键假设与模型、数据来源与流程及其固有局限性提供全面的公开披露。",
+       "items": []
+      }
+     ],
+     "title": "方法学治理原则",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "该方法学适用于公司主体，前提是它们满足以下两项标准",
+       "content": "",
+       "items": [
+        "必须具有法律实体名称，或以其直接母法律实体的名称运营。法律实体名称是指公司在运营所在国合法注册并开展业务所用的名称。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "在可持续发展风险方面必须具有相关的评估范围水平。例如，若评估范围包含差异极大的业务活动，导致单一评级不足以评估公司所面临的重要议题及其所实施的管理体系，则不属于此情形。"
+       ]
+      },
+      {
+       "title": "该方法学允许三种不同的评估范围",
+       "content": "",
+       "items": [
+        "集团（Group）：集团级评估覆盖一个法律实体及其子公司。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "实体（Entity）：实体级评估覆盖一个无子公司的法律实体。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "场所（Site）：场所级评估覆盖法律实体的特定地理位置场所或设施。该场所不"
+       ]
+      }
+     ],
+     "title": "方法学所适用的被评级对象类型",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "2.2 方法学假设与模型",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "尽管底层的 EcoVadis 可持续发展评级评估的是一家公司 ESG 管理体系的质量，但徽章方法学建立在一项基本的基线假设之上：某些业务活动带有内在的、系统性的影响，仅凭管理实践无法缓解。为确保公开认可与可持续发展的核心目标及利益相关方期望相一致，我们的方法学纳入了严格的资格边界。 资格排除原则 EcoVadis 徽章的资格排除基于以下标准确立：",
+       "items": [
+        "系统性环境或社会影响：该活动或产品类别与国际法规、条约或共识框架所定义的、有文献记载的、对社会或环境造成的大规模不利影响相关联。"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "与全球可持续发展框架的一致性：核心商业模式与国际可持续发展规范（如联合国全球契约 UN Global Compact）存在结构性错位。具体而言，它与国际裁军条约（包括《渥太华公约》与核不扩散条约）、关于烟草的全球健康数据（IHME 全球疾病负担研究，2019 年）以及气候路径（IPCC 第六次评估报告）相冲突，这一点体现在联合国全球契约“Forward Faster”倡议明确将化石燃料公司排除在外。"
+       ],
+       "after": "被排除的类别（见第 2.3 节“排名系统”）将根据不断演变的市场与监管标准进行定期审查。这些排除并不构成对在相关行业运营公司的道德评判。"
+      }
+     ],
+     "numbered": false,
+     "cols": "1"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "2.3 排名系统",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "要获得徽章，被评级公司必须达到特定的绩效门槛，且不得被视为不合格。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "践行者（Committed）：公司必须达到至少 45/100 的分数。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "快速进步者（Fast Mover）：公司必须达到 34–44 的分数，且在 18 个月期间内相比上一次评估至少有 6 分的提升。"
+       ]
+      }
+     ],
+     "title": "徽章门槛",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "获得 EcoVadis 奖牌（Medal）的公司无资格获得 EcoVadis 徽章（Badge）。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "可持续发展评级的 360° Watch 指标得分。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "若公司在过去 5 年内（环境、劳工与人权、可持续采购）或 7 年内（商业行为）存在至少一项严重*发现，则无资格获得徽章。"
+       ]
+      },
+      {
+       "title": "*仅当该案例被归类为严重时适用；累积案例规则不适用于徽章。",
+       "content": "",
+       "items": [
+        "在特定行业开展业务的公司可能无资格获得 EcoVadis 徽章。具体的行业类别及其相应的限制规则与门槛详述如下："
+       ]
+      },
+      {
+       "title": "武器（Weapons） EcoVadis 不对所有国防相关活动一概施加限制",
+       "content": "排除仅限于：",
+       "items": [
+        "主营业务为制造武器和弹药的主体。对于多业务企业，EcoVadis 将呈现最高可持续发展风险的活动识别为主要活动。若所有活动具有同等程度的可持续发展风险，则根据产生的最高收入确定主要活动。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "制造违反或规避国际条约与公约（例如规制地雷、集束弹药、生物或化学武器的条约）的武器的主体。"
+       ],
+       "after": "烟草（Tobacco）\n国际主管机构将烟草制造归类为重大公共健康危害。根据世界卫生组织（WHO），所有形式的烟草使用均有害，不存在已确立的安全暴露水平。WHO 数据将每年超过 700 万例死亡归因于直接烟草使用，约 130 万例死亡归因于二手烟暴露，这为基于全球公共卫生标准的排除提供了明确依据。\n因此，奖牌排除（Medals exclusion）适用于从事烟草产品及烟草替代品制造的公司：香烟、卷烟烟草、雪茄、斗烟丝、嚼烟与鼻烟。\n从事“均质化”或“重组”烟草制造的公司。\n化石燃料：煤炭与褐煤（Coal & Lignite）\n政府间气候变化专门委员会（IPCC）将煤炭确定为驱动全球气候变化的、高度碳密集的能源来源。IPCC 框架表明，要将全球变暖限制在 2°C 或以下，需要在 2050 年前结构性淘汰未减排的煤炭消费。此外，燃煤与采矿会释放大量二氧化硫、颗粒物及其他影响空气质量与公共健康的污染物。\n因此，奖牌排除（Medals exclusion）适用于从事煤炭或褐煤开采的公司。为考量市场多元化与能源转型，EcoVadis 对源自煤炭和/或燃煤发电的收入设定 20% 的门槛。该门槛会根据全球脱碳路径接受定期审查并向下调整。\n化石燃料：非常规油气生产（Unconventional Oil and Gas Production）\n非常规"
+      }
+     ],
+     "title": "不合格标准",
+     "cols": "1",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "2.4 行业分类",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章方法学采用联合国《全部经济活动的国际标准行业分类》（ISIC）第 4 修订版，作为对被评级公司经济活动进行分类的基础。\n\n官方完整文件可在联合国统计司网站上查阅。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "2.5 数据来源",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章方法学的主要输入来自 EcoVadis 可持续发展评级的得分。\n\n为适用排除规则，该数据由额外的数据来源加以补充。这包括公司自行申报或从公开文件（如收入细分）中收集的信息。也会核查外部来源，以确保不满足徽章特定的排除标准（如涉及烟草、武器或煤电）。\n\n徽章方法学不考虑《2019/2088 条例》（“可持续金融披露条例”Sustainable Finance Disclosure Regulation）或《2020/852 条例》（“分类法规”Taxonomy Regulation）。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "2.6 数据流程",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章评级依托集成于 EcoVadis 数字平台之内、结构化、安全且自动化的数据生命周期。为确保分析严谨性，同时避免重复报告，数据工作流被精简为三个关键阶段：数据收集、数据处理与数据输出。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "徽章方法学不独立收集 ESG 管理体系的一手数据。相反，它利用两条不同的数据流",
+       "content": "",
+       "items": [
+        "主要输入：EcoVadis 徽章以 EcoVadis 可持续发展评级数据（包括主题得分与 360° Watch 发现）作为基础输入。可持续发展评级的数据收集细节详见《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "次要输入：行业特定排除（如武器、烟草、煤炭、非常规油气）通过收集有针对性的补充数据来执行。这包括："
+       ],
+       "after": "• 公司披露：被评级公司自行申报的财务明细与精确的收入细分。\n• 额外的外部筛查：公开可用的领域数据、监管登记册、开放获取来源与媒体情报，用于识别潜在的排除风险与行业信号。"
+      }
+     ],
+     "title": "数据收集",
+     "cols": "2",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据收集之后，处理阶段依赖自动化系统规则与分析师驱动验证的组合",
+       "content": "",
+       "items": [
+        "行业资格核查：为确定初步资格，将主体的收入与活动数据对照严格的、特定行业的排除门槛进行分析。该核查过程确保符合预定义的徽章限制，例如煤炭或非常规油气参与程度最高 20% 的上限（详见“排名系统”一节）。"
+       ]
+      },
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "评分限制的应用：在行业审查之后，将主体的可持续发展得分对照既定的绩效最低值进行评估。系统核查以下参数："
+       ]
+      },
+      {
+       "title": "",
+       "content": "• 若在 360° Watch 评估期间自动标记出任何负面指标（详见“排名系统”一节）",
+       "items": [
+        "得分基准比较与徽章授予：一旦确认符合所有排除与不合格标准，经校验的总体得分即被纳入计算系统。主体的最终总体得分将对照特定的徽章规则进行基准比较，以确定适当的徽章。"
+       ]
+      }
+     ],
+     "title": "数据处理",
+     "cols": "2",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据输出",
+       "content": "最终输出要么是一个徽章，要么是没有徽章，要么是“不合格”状态。被授予的徽章在 EcoVadis 平台上正式发布。",
+       "items": []
+      },
+      {
+       "title": "数据存储与历史数据更新及修订",
+       "content": "每次徽章授予所使用的数据均保留在系统中，以实现可追溯性。生成的徽章自授予之日起严格保持 12 个月的有效期。所有最终输出得分、基准比较与资格决定均直接归档于平台之内，以保证完整的历史可追溯性与可审计性。\n\n数据与徽章状态仅在进行用于更新记分卡的重新评估时才予更新。不过，在常规评估周期之间，活跃的徽章状态可能因正式的记分卡更正（例如由正式投诉管理流程所导致者）而更新。\n\n除例外性的记分卡更正外，标准的重新评估仅",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "2.7 数据质量",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为确保所授予徽章的完整性，所有数据及支撑证据都必须通过 EcoVadis 可持续发展评级所确立的严格数据质量控制框架，以及对用于确定特定行业排除（如来自煤炭、烟草或武器的收入门槛）的数据进行的针对性质量检查。该数据使用经核实的公司财务报告进行严格交叉核对，以消除自行申报中的错误或遗漏。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "2.8 评估流程质量",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "由于 EcoVadis 徽章是基于 EcoVadis 可持续发展评级的结果授予的，因此徽章的完整性直接依赖于施加于底层评估的严格质量控制流程。\n\n每一驱动徽章的评估都要经历正式的三步流程：文件收集与核实、专家分析，以及在记分卡发布并判定徽章资格之前的最终质量保证审查。\n\n为进一步确保决定徽章授予的得分的持续可靠性，一个专门的独立质量保证团队每月对全部已发布记分卡中随机抽取约 1% 的样本进行审计。此外，执行这些基础评估的人工分析师需接受全面培训与持续校准，以保证方法学的一致应用，从而维护最终徽章分布的公平性与准确性。\n\n关于内部质量管理体系、分析师认证计划以及月度审计期间所追踪的具体指标的详尽说明，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "2.9 评估间隙新信息的监测",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "尽管新信息会在周期性重新评估期间得到评估，但 EcoVadis 在两次评估之间也会持续监测严重的或重大的争议，这些争议可能需要对徽章授予进行例外审查。在以下情形会触发徽章的暂停或撤销：",
+       "items": [
+        "持续监测发现严重程度足够的争议时，EcoVadis 保留例外修订底层得分的权利，这可能导致已授予徽章被立即暂停或撤销。"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "",
+       "items": [
+        "申诉机制限制：通过 EcoVadis Worker Voice Connect 等申诉渠道标记的、涉及劳工与人权议题（如童工、强迫劳动或人口贩卖）的严重申诉，若公司在超过三个月内未予补救，将导致临时性的徽章限制。该限制仅在经核实的补救完成之后，或自徽章限制之日起一年之后解除。"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "2.10 与被评级公司的互动",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评估期间与被评级公司的互动",
+       "content": "为维护评估的独立性与完整性，与被评级公司的互动受到限制。若一家公司的 360° Watch 指标得分下降至某一水平，EcoVadis 会在评估阶段主动联系，并主动发出正式信函，告知被评级公司其不符合徽章资格。这使得公司能够在最终评估确定之前，就所发现的争议提供必要说明或背景信息。",
+       "items": []
+      },
+      {
+       "title": "记分卡发布后与被评级公司的互动",
+       "content": "记分卡发布后，被评级公司会被告知其评估已完成，并可在记分卡向评级用户开放之前，获得为期 2 个工作日的预览其结果的权限，期间可提出事实错误（factual error）案件。事实错误是指对所使用底层信息（如公司名称、所在地或规模、行业分类、不适用 360、被错误拒绝的文件）所犯的错误。\n\n在这 2 个工作日之后，被评级公司仍可通过专门渠道联系 EcoVadis，以更好地理解其记分卡，或就其所获评级提出投诉。它们的问询由专门团队处理，在确认存在事实或方法学应用方面的错误时，将回应问题并启动记分卡更正流程。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "2.11 科学基础",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 徽章并不基于科学模型。相反，徽章授予规则用于为战略性采购与投资决断提供信息。相应地，用于分配的百分位门槛起到的是比较基准的作用，而非经验推导出的指标。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "2.12 基于 AI 工具的使用",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "EcoVadis 徽章不使用基于 AI 的工具。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "3.1 方法学局限性",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "确定公司针对行业排除参数（如煤炭、烟草或武器的特定收入门槛）的资格，在很大程度上依赖于公开公司报告的精细程度与二级筛查数据库。在公司（尤其是私营实体）未公开披露详细收入细分的情形下，核实这些确切门槛可能存在数据可用性方面的局限。\n\n由于 EcoVadis 徽章直接源自 EcoVadis 可持续发展评级，它们也继承了与其底层方法学和数据源相关的固有局限性。这些包括与财务重要性相关的局限、在冲突极度激烈的地区无法执行强化尽职调查，以及一般数据可用性或自行申报完整性方面的变数。\n\n关于一般方法学与数据源局限性的全面披露，以及 EcoVadis 为缓解这些局限所实施的严格措施，请参阅《EcoVadis 可持续发展评级——面向公众、评级用户与被评级对象的公开方法学披露文件》。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "3.2 应对数据来源局限性的方法",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为应对徽章评级中数据来源的局限性，EcoVadis 实施了一系列旨在将相关风险降至最低的措置与流程。这些步骤包括：\n\n借助核心评估质量控制：\n\n徽章方法学依赖内嵌于 EcoVadis 可持续发展评级引擎之中的稳健缓解策略。这包括严格的文件质量检查、外部利益相关方反馈来源的主动多元化、算法与人工的源可靠性检查，以及人工控制的验证流程。\n\n针对排除参数的二级筛查：\n\n为专门解决公开公司报告中有关行业排除（如来自煤炭、烟草或武器的收入门槛）的数据缺口，分析师会系统性地交叉参照多个二级合规数据库，以彻底核实资格。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "4. 方法学修订",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章评级方法学的修订遵循《方法学审查程序》中列出的步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由一个专门的方法学团队领导，该团队负责方法学开发的优先排序、研究与执行。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "方法学审查流程分为六个阶段",
+       "content": "这六个阶段对所有重大变更均为强制性，但在相关时也可用于微小更新。",
+       "items": [
+        "启动（Initiation）"
+       ]
+      },
+      {
+       "title": "方法学团队内的方法学所有者识别审查需求。审查需求由方法学负责人批准。",
+       "content": "",
+       "items": [
+        "提案（Proposal）"
+       ]
+      },
+      {
+       "title": "一经批准，方法学所有者即起草详细的审查提案，包括理由、研究发现与拟议的具体变更。",
+       "content": "",
+       "items": [
+        "提案的内部预验证（Internal Pre-validation of Proposal）"
+       ]
+      },
+      {
+       "title": "方法学所有者将详细的修订提案规范化，包括理由、研究发现与拟议的具体变更",
+       "content": "该提案与项目指导委员会一起被审查与讨论，以确保严谨性、一致性及与市场及监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可吸纳其他部门（如产品与技术、市场营销、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。",
+       "items": [
+        "影响评估（若影响被视为重大）（Impact Assessment）"
+       ]
+      },
+      {
+       "title": "对现有评级的潜在影响进行量化评估。",
+       "content": "",
+       "items": [
+        "利益相关方征询（若影响为高）（Stakeholder Consultation）"
+       ]
+      },
+      {
+       "title": "若变更被确定为高影响，则开展正式的利益相关方征询",
+       "content": "EcoVadis 直接接洽定向选取的评级用户、被评级主体与外部利益相关方，以确保具有代表性的反馈闭环。",
+       "items": [
+        "批准与实施（Approval & Implementation）"
+       ],
+       "after": "最终拟议的、经审查的方法学，对于低至中影响的变更由方法学负责人批准，对于高影响的变更由首席评级官批准，并正式实施。低至中影响的变更通过季度方法学变更沟通传达给评级用户与被评级主体。高影响的变更通过季度方法学变更沟通并向公众传达。\n所有方法学核心原则须在每个日历年至少接受一次强制性内部审查。该审查旨在主动识别改进领域、确保持续相关性，并确认数据源的完整性。方法学审查通过我们的季度方法学变更沟通传达给评级用户与被评级主体，该沟通于每年 1 月、4 月、7 月与 10 月发布。"
+      }
+     ],
+     "title": "方法学审查流程步骤",
+     "cols": "1",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "方法学审查流程可在发生以下任一情形时启动",
+       "content": "",
+       "items": [
+        "监管变更（Regulatory Changes）"
+       ]
+      },
+      {
+       "title": "引入直接冲击 ESG 数据定义、计量或披露的新国际或国家法规或经修订的法规。",
+       "content": "",
+       "items": [
+        "市场或行业演进（Market or Industry Evolution）"
+       ],
+       "after": "市场实践、技术方面的重大变化，"
+      }
+     ],
+     "title": "方法学审查流程的启动",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "5. 组织披露",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级监管标准，本方法学文件发布于 EcoVadis 官方网站专门用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门章节中包含全部要求的组织披露：所有权结构（Ownership structure）、商业模式与定价（Business Model & Pricing）、利益冲突（Conflict of Interest），以及投诉管理与外部利益相关方合理关切（Complaint management & External stakeholder reasoned concern）：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "6. 法律声明",
+   "groupTitle": "方法学正文",
+   "learningLayer": "original",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "徽章评级由 EcoVadis SAS 发布，其总部位于 43 avenue de la Grande Armée 75116 Paris（巴黎），是一家在法国注册的私人持有的简化股份有限公司（Société à Actions Simplifiée），商业与公司登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据的是欧洲议会和理事会 2024 年 11 月 27 日关于环境、社会与治理（ESG）评级活动透明度与完整性的《2024/3005 条例》（EU Regulation 2024/3005）（“该条例”），特别是该条例中针对向 ESG 评级用户、被评级对象及被评级对象发行方进行披露的要求所设定的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准（Regulatory Technical Standards）。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n无担保：本文件仅用于信息目的，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，并可能在不另行通知的情况下更改。\n\n责任限制：在任何情况下，EcoVadis 或其子公司均不对因使用本出版物中明确或隐含包含的任何观点或信息而引起的任何直接、间接、特殊、偶然或后果性损害承担责任。\n\n版权所有 © 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
+     "source": "EcoVadis 徽章方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    }
+   ]
   }
+ ],
+ "relations": {
+  "internal": [],
+  "external": []
+ }
 }

@@ -23,13 +23,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "引言（披露目的）",
      "content_cn": "EcoVadis IQ Plus 方法学披露文件，面向公众、评级用户与被评级对象。\n\n本披露文件旨在确保符合欧盟《2024/3005 号条例》（关于环境、社会与治理（ESG）评级活动的透明度与完整性）的附件三，以及补充《欧盟条例 2024/3005》的授权条例。",
-     "content": "EcoVadis IQ Plus Methodology disclosure document for the public, rating users and rated items.\n\nThis disclosure document is intended to ensure compliance with Annex III to the EU Regulation 2024/3005 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities, and the Delegated Regulation supplementing Regulation (EU) 2024/3005.",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -42,13 +38,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "1.1 重要性的目标与方法",
-     "content_cn": "1.1 重要性的目标与方法\n\nIQ Plus 的目标是评估被评级公司对环境、社会与治理（ESG）议题的影响。该评级是 EcoVadis 自身的观点，可能不同于其他 ESG 评级机构提供的评估。\n\nIQ Plus 被设计为一种工具，供用户基于低接触、大批量的映射，识别应优先就可持续议题与之互动的被评级公司。IQ Plus 的风险评估并非由被评级公司主动申请，且该方法学不要求从被评级公司收集公司层面的具体信息。\n\nEcoVadis 基于影响重要性（impact materiality，即\"由内向外\"视角，识别公司运营、产品及服务对环境造成的外部影响）方法，识别对被评级公司具有重要性的可持续议题。但该方法学不纳入财务重要性（\"由外向内\"视角），因此不衡量外部 ESG 因素对公司构成的财务风险。\n\n本评估涵盖的具体影响归为 4 大主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），合计涵盖 21 项具体标准（详见\"1.2 范围\"）。",
-     "content": "1.1. Objective and approach to materiality\n\nThe objective of IQ Plus is to assess a rated company's impact on sustainability issues. The rating is EcoVadis' own opinion and can differ from the assessments provided by other ESG rating providers.\n\nIQ Plus is designed as a tool for users to identify which rated companies they should engage in priority on sustainability issues, based on a low-touch, high-volume mapping. The IQ Plus risk assessment is not solicited by rated companies, and the methodology does not require the collection of company-specific information from rated companies.\n\nEcoVadis identifies sustainability issues material for the rated company based on an impact materiality approach (the \"inside-out\" perspective identifying external impacts that a company's operations, products, and services have on the environment). However, it does not incorporate financial materiality (the \"outside-in\" perspective), therefore, the financial risks posed to the company by external ESG factors are not measured.\n\nThe specific impacts covered by the assessment are grouped into 4 themes: Environment, Labor & Human Rights, Ethics and Sustainable Procurement, which together encompass 21 specific criteria (see section \"1.2 Scope\" for additional details).",
+     "content_cn": "IQ Plus 的目标是评估被评级公司对环境、社会与治理（ESG）议题的影响。该评级是 EcoVadis 自身的观点，可能不同于其他 ESG 评级机构提供的评估。\n\nIQ Plus 被设计为一种工具，供用户基于低接触、大批量的映射，识别应优先就可持续议题与之互动的被评级公司。IQ Plus 的风险评估并非由被评级公司主动申请，且该方法学不要求从被评级公司收集公司层面的具体信息。\n\nEcoVadis 基于影响重要性（impact materiality，即\"由内向外\"视角，识别公司运营、产品及服务对环境造成的外部影响）方法，识别对被评级公司具有重要性的可持续议题。但该方法学不纳入财务重要性（\"由外向内\"视角），因此不衡量外部 ESG 因素对公司构成的财务风险。\n\n本评估涵盖的具体影响归为 4 大主题：环境（Environment）、劳工与人权（Labor & Human Rights）、商业行为（Ethics）与可持续采购（Sustainable Procurement），合计涵盖 21 项具体标准（详见\"1.2 范围\"）。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -60,14 +52,24 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
-     "title": "1.2 范围",
-     "content_cn": "1.2 范围\n\nIQ Plus 是一项涵盖环境（E）、社会（S）与治理（G）议题的聚合评级，可拆解为四大核心主题：环境、劳工与人权、商业行为（Ethics）与可持续采购。这四大主题涵盖以下可持续议题：\n\n- 环境：能源消耗与温室气体排放；水资源；生物多样性；空气污染；材料、化学品与废弃物；产品使用；产品报废；客户健康与安全；环境服务与倡导。\n- 劳工与人权：员工健康与安全；工作条件；社会对话；职业管理与培训；童工、强迫劳动与人口贩运；歧视与骚扰；外部利益相关者人权。\n- 商业行为：腐败；反竞争行为；负责任的信息管理。\n- 可持续采购：供应商环境实践；供应商社会实践。\n\n上述议题并未完全对应《2013/34/EU 会计指令》（经《2022/2464 公司可持续发展报告指令》（\"CSRD\"）修订，并在《欧洲可持续发展报告准则》（\"ESRS\"）中细化）中的议题。但二者存在一定程度的重叠，可进行对比。\n\n尽管 IQ Plus 确实涵盖环境议题，但其与《欧盟条例 2020/852》（\"分类法规\"）下的分类对齐百分比并不相关。\n\nIQ Plus 既提供全球聚合得分，也提供四大主题各自的细化、拆解得分（详见第 2.3 节\"风险因子与评分\"）。",
-     "content": "1.2. Scope\n\nIQ Plus is an aggregated rating covering E, S and G topics, which are broken down into four core themes: Environment, Labor & Human Rights, Ethics, and Sustainable Procurement. These four themes cover the following sustainability issues:\n\n- Environment: Energy Consumption & Greenhouse Gas Emissions; Water; Biodiversity; Air Pollution; Materials & Chemicals & Waste; Product Use; Product End-of-Life; Customer Health & Safety; Environmental Services & Advocacy.\n- Labor & Human Rights: Employee Health & Safety; Working Conditions; Social Dialogue; Career Management & Training; Child Labor, Forced Labor & Human Trafficking; Discrimination & Harassment; External Stakeholder Human Rights.\n- Ethics: Corruption; Anticompetitive Practices; Responsible Information Management.\n- Sustainable Procurement: Supplier Environmental Practices; Supplier Social Practices.\n\nThe aforementioned issues do not fully correspond to the topics from the Accounting Directive 2013/34/EU, amended by the Corporate Sustainability Reporting Directive 2022/2464 (\"CSRD\") and detailed in the European Sustainability Reporting Standards (\"ESRS\"). However, they overlap to a degree and allow for comparison.\n\nAlthough IQ Plus does cover environmental issues, it is not correlated with the percentage of taxonomy alignment under Regulation (EU) 2020/852 (\"Taxonomy Regulation\").\n\nIQ Plus provides both a global aggregated score, and granular, disaggregated scores for each of the four themes (see Section 2.3 \"Risk factors and scoring\" for additional details).",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "IQ Plus 是一项涵盖环境（E）、社会（S）与治理（G）议题的聚合评级，可拆解为四大核心主题：环境、劳工与人权、商业行为（Ethics）与可持续采购。这四大主题涵盖以下可持续议题：",
+       "items": [
+        "环境：能源消耗与温室气体排放；水资源；生物多样性；空气污染；材料、化学品与废弃物；产品使用；产品报废；客户健康与安全；环境服务与倡导。",
+        "劳工与人权：员工健康与安全；工作条件；社会对话；职业管理与培训；童工、强迫劳动与人口贩运；歧视与骚扰；外部利益相关者人权。",
+        "商业行为：腐败；反竞争行为；负责任的信息管理。",
+        "可持续采购：供应商环境实践；供应商社会实践。"
+       ],
+       "after": "上述议题并未完全对应《2013/34/EU 会计指令》（经《2022/2464 公司可持续发展报告指令》（\"CSRD\"）修订，并在《欧洲可持续发展报告准则》（\"ESRS\"）中细化）中的议题。但二者存在一定程度的重叠，可进行对比。\n尽管 IQ Plus 确实涵盖环境议题，但其与《欧盟条例 2020/852》（\"分类法规\"）下的分类对齐百分比并不相关。\nIQ Plus 既提供全球聚合得分，也提供四大主题各自的细化、拆解得分（详见第 2.3 节\"风险因子与评分\"）。"
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -80,13 +82,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "1.3 评级量表类型",
-     "content_cn": "1.3 评级量表类型\n\nIQ Plus 的结果以绝对值表示，区分六个总体风险等级（1 至 6）。",
-     "content": "1.3. Rating Scale Type\n\nIQ Plus results are expressed in absolute values, which distinguishes six overall risk levels (1 to 6).",
+     "content_cn": "IQ Plus 的结果以绝对值表示，区分六个总体风险等级（1 至 6）。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -99,13 +97,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "1.4 国际协议的覆盖范围",
-     "content_cn": "1.4 国际协议的覆盖范围\n\nIQ Plus 方法学考量国际劳工组织（ILO）公约的目标。该方法学与公约关于促进体面工作、保护工作中基本人权以及平衡国际竞争环境的目标保持一致。\n\n这影响了环境与劳工与人权两大主题的结构与议题覆盖，并且公司的管理体系根据其是否符合这些目标进行评估。\n\nIQ Plus 方法学并未具体提及《巴黎协定》的目标与宗旨。",
-     "content": "1.4. Coverage of international agreements\n\nThe IQ Plus methodology considers the objectives of the International Labor Organization (ILO) conventions. The methodology is aligned with the conventions' objective of promoting decent work, protecting fundamental human rights at work and leveling the international playing field.\n\nIt has informed the structure and issue coverage of the Environment and Labor & Human Rights themes, and the management system of companies is assessed based on its alignment with these objectives.\n\nThe IQ Plus methodology does not specifically refer to the targets and objectives of the Paris Agreement.",
+     "content_cn": "IQ Plus 方法学考量国际劳工组织（ILO）公约的目标。该方法学与公约关于促进体面工作、保护工作中基本人权以及平衡国际竞争环境的目标保持一致。\n\n这影响了环境与劳工与人权两大主题的结构与议题覆盖，并且公司的管理体系根据其是否符合这些目标进行评估。\n\nIQ Plus 方法学并未具体提及《巴黎协定》的目标与宗旨。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -118,13 +112,66 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.1 方法学概述",
-     "content_cn": "2.1 方法学概述\n\nIQ Plus 方法学一致地适用于所有符合条件的实体。IQ Plus 方法学的最新版本为 V3.0，自 2025 年 1 月起适用。任何方法学变更都将通过电子邮件告知。\n\na) 方法学治理原则\n\n为以最高水平的质量与诚信交付 IQ Plus 结果，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：\n\ni) 严谨\n我们的方法学通过严谨的流程开发，包括研究、影响评估以及对拟议变更的公众咨询，以确保该框架能够捕捉复杂的可持续风险，并准确反映被评级实体的可持续绩效。\n\nii) 系统性\n我们采用结构化、可重复的方法学框架，确保每一实体都依据一套与其特定情境相贴合的一致原则与要求进行评估。这种系统性方法消除了临时性的主观判断，并确保方法学为被评级实体之间的比较提供稳定基础。\n\niii) 独立性\n我们方法学的开发与审批由一项内部职能负责，该职能在结构上与职能上均独立于商业与销售活动。这确保评级框架的设计仅由分析诚信驱动，并免受外部业务压力的影响。\n\niv) 可论证\n方法学建立于清晰、循证的理论基础之上，该基础规定了每一项可持续议题的具体权重与相关性。框架的每一组成部分都有文档记录以确保可追溯性，保证其底层理论假设在技术审查下具有可辩护性。\n\nv) 跨期可比\n我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使 IQ 用户能够准确比较年度同比绩效。\n\nvi) 透明\n为符合欧盟 ESG 评级机构法规设定的透明度标准，我们就方法学范围、排名体系、关键假设与模型、数据来源与流程及其固有局限提供全面的公开披露。\n\nb) 评估资格\n\n该方法学允许对公司实体进行评估。要获得 IQ Plus 评估资格，实体必须满足两项标准：\n- 必须具有法定实体名称，或在直接母公司法定实体名称下运营。法定实体名称是指公司在经营所在国合法注册并运营所用的名称。\n- 在可持续风险方面必须具有相关的评估范围水平。例如，若范围包含差异极大的业务活动，则单一评级不足以提供公司所面临风险的整合概览，此时即不满足该条件。\n\n以下组织与运营结构及项目不具备评估资格：企业集团（指提供业务各异的多个部门组合的集团）、无任何法定实体名称的业务部门或分部、产品名称与商业品牌，以及合作社。\n\n法定实体名称是指公司在经营所在国合法注册并运营所用的名称。",
-     "content": "2.1. Methodology overview\n\nThe IQ Plus methodology is consistently applied to all eligible entities. The most recent version of the IQ Plus Methodology is V3.0, applicable as of January 2025. Any changes to the methodology will be communicated via email.\n\na) Methodology governance principles\n\nTo deliver IQ Plus results with the highest levels of quality and integrity, EcoVadis has designed a methodology governance framework ensuring our methodologies adhere to the following core principles:\n\ni) Rigorous\nOur methodologies are developed through a rigorous process including research, impact assessment and public consultation of proposed changes to ensure the framework is capable of capturing complex sustainability risks and accurately reflect the rated entity's sustainability performance.\n\nii) Systematic\nWe employ a structured, repeatable methodological framework that ensures every entity is evaluated against a consistent set of principles and requirements tailored to their specific context. This systematic approach eliminates ad-hoc subjectivity and ensures that the methodology provides a stable basis for comparison of rated entities.\n\niii) Independent\nThe development and approval of our methodologies are governed by an internal function that is structurally and functionally separate from commercial and sales activities. This ensures the design of the rating framework is driven solely by analytical integrity and is insulated from external business pressures.\n\niv) Capable of justification\nThe methodology is built upon a clear, evidence-based rationale that dictates the specific weighting and relevance of each sustainability issue. Every component of the framework is documented for traceability, ensuring the underlying theory assumptions are defensible under technical scrutiny.\n\nv) Comparable over time\nOur methodology is designed to provide a stable benchmark by maintaining consistent evaluation criteria over time. By ensuring the framework remains steady, we enable IQ users to accurately compare year-on-year performance.\n\nvi) Transparent\nIn alignment with transparency standards set by the EU ESG Rater regulation, we provide comprehensive public disclosures regarding the methodology scope, ranking system, key assumptions and models, data sources and processes, and its inherent limitations.\n\nb) Eligibility for assessment\n\nThe methodology allows for assessment of corporate entities. To be eligible for an IQ Plus assessment, an entity must meet two criteria:\n- It must have a legal entity name or operate under the direct parent legal entity name. The legal entity name is the name under which a company is legally registered and operates in the country of operation.\n- There must be a relevant level of scope of assessment in terms of sustainability risks. This may for instance not be the case if the scope includes widely different business activities, making it inadequate for a single rating to provide a consolidated overview of risks the company is confronted to.\n\nThe following organizational and operational structures and items are not eligible for assessment: conglomerates (understood as groups offering a variety of divisions that differ in terms of activity), business units or divisions without any legal entity name, product names and commercial brands, and cooperatives.\n\nThe legal entity name is the name under which a company is legally registered and operates in the country of operation.",
+     "content_cn": "IQ Plus 方法学一致地适用于所有符合条件的实体。IQ Plus 方法学的最新版本为 V3.0，自 2025 年 1 月起适用。任何方法学变更都将通过电子邮件告知。\n为以最高水平的质量与诚信交付 IQ Plus 结果，EcoVadis 设计了一套方法学治理框架，确保我们的方法学遵循以下核心原则：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "严谨",
+       "content": "我们的方法学通过严谨的流程开发，包括研究、影响评估以及对拟议变更的公众咨询，以确保该框架能够捕捉复杂的可持续风险，并准确反映被评级实体的可持续绩效。",
+       "items": []
+      },
+      {
+       "title": "系统性",
+       "content": "我们采用结构化、可重复的方法学框架，确保每一实体都依据一套与其特定情境相贴合的一致原则与要求进行评估。这种系统性方法消除了临时性的主观判断，并确保方法学为被评级实体之间的比较提供稳定基础。",
+       "items": []
+      },
+      {
+       "title": "独立性",
+       "content": "我们方法学的开发与审批由一项内部职能负责，该职能在结构上与职能上均独立于商业与销售活动。这确保评级框架的设计仅由分析诚信驱动，并免受外部业务压力的影响。",
+       "items": []
+      },
+      {
+       "title": "可论证",
+       "content": "方法学建立于清晰、循证的理论基础之上，该基础规定了每一项可持续议题的具体权重与相关性。框架的每一组成部分都有文档记录以确保可追溯性，保证其底层理论假设在技术审查下具有可辩护性。",
+       "items": []
+      },
+      {
+       "title": "跨期可比",
+       "content": "我们的方法学旨在通过长期保持一致的评估标准来提供稳定的基准。通过确保框架保持稳定，我们使 IQ 用户能够准确比较年度同比绩效。",
+       "items": []
+      },
+      {
+       "title": "透明",
+       "content": "为符合欧盟 ESG 评级机构法规设定的透明度标准，我们就方法学范围、排名体系、关键假设与模型、数据来源与流程及其固有局限提供全面的公开披露。",
+       "items": []
+      }
+     ],
+     "title": "方法学治理原则",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "评估资格 · 该方法学允许对公司实体进行评估",
+       "content": "要获得 IQ Plus 评估资格，实体必须满足两项标准：",
+       "items": [
+        "必须具有法定实体名称，或在直接母公司法定实体名称下运营。法定实体名称是指公司在经营所在国合法注册并运营所用的名称。",
+        "在可持续风险方面必须具有相关的评估范围水平。例如，若范围包含差异极大的业务活动，则单一评级不足以提供公司所面临风险的整合概览，此时即不满足该条件。"
+       ],
+       "after": "以下组织与运营结构及项目不具备评估资格：企业集团（指提供业务各异的多个部门组合的集团）、无任何法定实体名称的业务部门或分部、产品名称与商业品牌，以及合作社。\n法定实体名称是指公司在经营所在国合法注册并运营所用的名称。"
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -137,13 +184,28 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.2 方法学假设与模型",
-     "content_cn": "2.2 方法学假设与模型\n\nIQ Plus 在以下假设下运行：\n\na) 行业与地理位置可作为可持续影响的可靠替代指标\n该方法学假设，一家公司的特定工业活动及其地理位置是其潜在可持续影响的最强驱动因素。因此，该方法学利用这两个因素计算固有风险水平，使 IQ Plus 用户能够识别其供应链中的热点，并就可持终管理实践与公司开展互动。\n\nb) 外部数据足以作为初步风险筛查的基础\nIQ Plus 假设高质量的二手数据（如某国的基线水资源压力或某行业的平均空气排放）足够准确，可用于估算公司对环境与社会议题的影响。这使得能够有效对公司进行优先级排序，而无需公司立即披露一手数据。IQ Plus 不采用任何额外的辅助模型、推测性估计或预测。",
-     "content": "2.2. Methodology assumptions and models\n\nIQ Plus operates under the following assumptions:\n\na) Industry and geographical location serve as reliable proxies for sustainability impacts\nThe methodology assumes that a company's specific industrial activity and its geographic location are the strongest drivers of its potential sustainability impacts. As a result, the methodology uses these two factors to calculate an inherent risk level, allowing IQ Plus users to identify hotspots in their supply chain and to engage companies on their sustainability management practices.\n\nb) External data provides a sufficient basis for initial risk screening\nIQ Plus assumes that high-quality secondary data, such as a country's baseline water stress or an industry's average air emissions, is accurate enough to estimate a company's impact on environmental and social issues. This allows for the effective prioritization of companies without requiring immediate primary data disclosure from the companies themselves. IQ Plus does not employ any additional supporting models, speculative estimations, or projections.",
+     "content_cn": "IQ Plus 在以下假设下运行：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "行业与地理位置可作为可持续影响的可靠替代指标",
+       "content": "该方法学假设，一家公司的特定工业活动及其地理位置是其潜在可持续影响的最强驱动因素。因此，该方法学利用这两个因素计算固有风险水平，使 IQ Plus 用户能够识别其供应链中的热点，并就可持终管理实践与公司开展互动。",
+       "items": []
+      },
+      {
+       "title": "外部数据足以作为初步风险筛查的基础",
+       "content": "IQ Plus 假设高质量的二手数据（如某国的基线水资源压力或某行业的平均空气排放）足够准确，可用于估算公司对环境与社会议题的影响。这使得能够有效对公司进行优先级排序，而无需公司立即披露一手数据。IQ Plus 不采用任何额外的辅助模型、推测性估计或预测。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -156,13 +218,42 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.3 风险因子与评分",
-     "content_cn": "2.3 风险因子与评分\n\n被评级公司的总体风险（Overall Risk）基于三个风险因子：可持续风险（Sustainability Risk）、采购风险（Procurement Risk）与扫描风险（Scan Risk），其拆解如下：\n\na) IQ Plus 方法学考量的风险因子\n\ni) 公共风险因子：可持续风险\n针对四大主题（环境、劳工与人权、商业行为与可持续采购），为每家被评级公司分别赋予一项可持续风险。可持续风险基于两个风险因子：行业风险与国家风险。被评级公司的行业风险依据其主要业务活动确定，而国家风险则依据公司合法注册所在国确定。\n\n1) 行业风险（50%）\n行业风险计算过程遵循四个关键步骤：\n- 评估潜在影响：针对每个行业，EcoVadis 审视四大主要可持续主题，并为底层可持续议题赋予权重（高、中或低）（详见第 1.2 节\"范围\"）。该权重基于各议题可能造成的潜在不利影响。\n- 确定行业强度因子：尽管某些可持续议题在各行业普遍存在，强度因子（Intensity Factor）识别使某一议题在某一行业中比其他行业更为关键的特定驱动因素。我们分析每个行业的独有特征，以确定对其运营最为\"强烈\"的议题（例如，纺织厂的水资源使用强度高于会计师事务所）。强度因子的等级为低、中、高或严重。\n- 计算初始主题风险：此步骤将前两步的结果合并，生成原始行业风险得分。原始风险得分是潜在影响之和与行业特定权重（强度因子）之和的乘积。该计算得出初始主题层面的行业风险，置于\"极低\"至\"极高\"的量表上。\n- 提供实证绩效修正：最后阶段利用 EcoVadis 可持续发展评级中有据可查的绩效数据，对初始主题层面的行业风险进行调整。EcoVadis 通过将特定行业与 EcoVadis 全球平均值进行基准比对，使理论风险与实际可持续绩效相校准。这可能导致对初始风险的正向或负向调整。\n- 正向绩效调整：若某行业的平均绩效显著超过 EcoVadis 全球基准，表明其对可持续影响的管理优于平均水平，则该行业主题风险下调一级（例如从\"极高\"降至\"高\"）。\n- 负向绩效调整：反之，若某行业绩效显著低于全球平均，反映出影响管理不力，则该行业主题风险上调一级（例如从\"高\"升至\"极高\"）。\n\n2) 国家风险（50%）\n为每个国家就以下三个主题赋予国家风险：环境、劳工与人权以及商业行为。国家风险基于国际指标，例如：\n- 世界资源研究所（World Resources Institute）的 Aqueduct 4.0 基线水资源压力\n- 海洋健康指数（Ocean Health Index）得分\n- 世界正义工程（World Justice Project）的基本权利因子 4\n- 联合国开发计划署（United Nations Development Program）的性别不平等指数\n- 世界银行（World Bank）的法治指标\n- 等",
-     "content": "2.3. Risk factors and scoring\n\nThe Overall Risk of a rated company is based on three risk factors, the Sustainability Risk, the Procurement Risk, and the Scan Risk, which are broken down as follows:\n\na) Risk factors considered in the IQ Plus methodology\n\ni) Public risk factor: Sustainability Risk\nRated companies are assigned a Sustainability Risk for each of the four themes (Environment, Labor & Human Rights, Ethics and Sustainable Procurement). The Sustainability risk is based on two risk factors, the industry risk and the country risk. The industry risk of the rated company is assigned based on its primary activity, while the country risk is selected based on the country in which the company is legally registered.\n\n1) Industry Risk (50%)\nThe Industry Risk calculation process follows four key steps:\n- Assessing Potential Impact: For each industry, EcoVadis examines the four main sustainability themes and assigns a weight (High, Medium, or Low) to the underlying sustainability issues (see Section 1.3 \"Scope\" for more details). This weighting is based on the potential adverse impact each issue could cause.\n- Determining the Industry Intensity Factor: While some sustainability issues are common across sectors, the Intensity Factor identifies specific drivers that make an issue more critical in one industry than another. We analyze the unique characteristics of each sector to determine which issues are most \"intense\" for their operations (e.g., water usage is more intense for a textile mill than for an accounting firm). The intensity factor scale is Low, Medium, High, or Severe.\n- Calculating the Initial Theme Risk: This step combines the results from the first two steps to generate a raw Industry risk score. The raw risk score is the product of the sum of the potential impact and the sum of the industry-specific weights (Intensity Factor). This calculation yields the initial theme-level Industry Risk, which is placed on a scale from Very Low to Very High.\n- Providing Empirical Performance Refinement: The final stage adjusts the initial theme-level Industry Risk using documented performance data from EcoVadis Sustainability Ratings. EcoVadis calibrates the theoretical risk against actual sustainability performance by benchmarking the specific industry against the EcoVadis global average. This can lead to positive or negative adjustments of the initial risk.\n- Positive Performance Adjustment: If an industry's average performance significantly exceeds the EcoVadis global benchmark, indicating superior management of sustainability impacts, the industry theme risk is decreased by one level (e.g., from Very High to High).\n- Negative Performance Adjustment: Conversely, if an industry performs significantly below the global average, reflecting ineffective impact management, the industry theme risk is increased by one level (e.g., from High to Very High).\n\n2) Country Risk (50%)\nEach country is assigned a Country Risk for the following three themes: Environment, Labor & Human Rights, and Ethics. The Country Risk is based on international indicators, such as:\n- The World Resources Institute's Aqueduct 4.0 Baseline Water Stress\n- The Ocean Health Index Scores\n- The World Justice Project's Factor 4 on Fundamental Rights\n- The United Nations Development Program's Gender Inequality Index\n- The World Bank Rule of Law\n- etc.",
+     "content_cn": "被评级公司的总体风险（Overall Risk）基于三个风险因子：可持续风险（Sustainability Risk）、采购风险（Procurement Risk）与扫描风险（Scan Risk），其拆解如下：\n\na) IQ Plus 方法学考量的风险因子\n\ni) 公共风险因子：可持续风险\n针对四大主题（环境、劳工与人权、商业行为与可持续采购），为每家被评级公司分别赋予一项可持续风险。可持续风险基于两个风险因子：行业风险与国家风险。被评级公司的行业风险依据其主要业务活动确定，而国家风险则依据公司合法注册所在国确定。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "行业风险（50%） · 行业风险计算过程遵循四个关键步骤",
+       "content": "",
+       "items": [
+        "评估潜在影响：针对每个行业，EcoVadis 审视四大主要可持续主题，并为底层可持续议题赋予权重（高、中或低）（详见第 1.2 节\"范围\"）。该权重基于各议题可能造成的潜在不利影响。",
+        "确定行业强度因子：尽管某些可持续议题在各行业普遍存在，强度因子（Intensity Factor）识别使某一议题在某一行业中比其他行业更为关键的特定驱动因素。我们分析每个行业的独有特征，以确定对其运营最为\"强烈\"的议题（例如，纺织厂的水资源使用强度高于会计师事务所）。强度因子的等级为低、中、高或严重。",
+        "计算初始主题风险：此步骤将前两步的结果合并，生成原始行业风险得分。原始风险得分是潜在影响之和与行业特定权重（强度因子）之和的乘积。该计算得出初始主题层面的行业风险，置于\"极低\"至\"极高\"的量表上。",
+        "提供实证绩效修正：最后阶段利用 EcoVadis 可持续发展评级中有据可查的绩效数据，对初始主题层面的行业风险进行调整。EcoVadis 通过将特定行业与 EcoVadis 全球平均值进行基准比对，使理论风险与实际可持续绩效相校准。这可能导致对初始风险的正向或负向调整。",
+        "正向绩效调整：若某行业的平均绩效显著超过 EcoVadis 全球基准，表明其对可持续影响的管理优于平均水平，则该行业主题风险下调一级（例如从\"极高\"降至\"高\"）。",
+        "负向绩效调整：反之，若某行业绩效显著低于全球平均，反映出影响管理不力，则该行业主题风险上调一级（例如从\"高\"升至\"极高\"）。"
+       ]
+      },
+      {
+       "title": "国家风险（50%） · 为每个国家就以下三个主题赋予国家风险：环境、劳工与人权以及商业行为",
+       "content": "国家风险基于国际指标，例如：",
+       "items": [
+        "世界资源研究所（World Resources Institute）的 Aqueduct 4.0 基线水资源压力",
+        "海洋健康指数（Ocean Health Index）得分",
+        "世界正义工程（World Justice Project）的基本权利因子 4",
+        "联合国开发计划署（United Nations Development Program）的性别不平等指数",
+        "世界银行（World Bank）的法治指标",
+        "等"
+       ]
+      }
+     ],
+     "cols": "1",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -175,13 +266,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.4 行业分类",
-     "content_cn": "2.4 行业分类\n\nIQ Plus 以联合国《全部经济活动的国际标准行业分类》（ISIC）第 4 修订版为基础，对被评级公司的经济活动进行分类。\n\n完整官方文件可在联合国统计司网站获取。",
-     "content": "2.4. Industry classification\n\nIQ Plus uses the United Nations International Standard Industrial Classification of All Economic Activities (ISIC), Revision 4, as a basis to classify the economic activities of rated companies.\n\nThe official full document is available on the United Nations Statistic Division website.",
+     "content_cn": "IQ Plus 以联合国《全部经济活动的国际标准行业分类》（ISIC）第 4 修订版为基础，对被评级公司的经济活动进行分类。\n\n完整官方文件可在联合国统计司网站获取。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -194,13 +281,41 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.5 数据来源",
-     "content_cn": "2.5 数据来源\n\nIQ Plus 根据风险因子的不同使用不同类型的数据来源。\n\na) EcoVadis 用于界定可持续风险的数据\nEcoVadis 借助一组公开可用的数据来源界定行业风险与国家风险。这些来源包括但不限于：\n- 海洋健康指数\n- Aqueduct 水资源风险地图集\n- 人类发展指数\n- 世界新闻自由指数\n- 世界正义工程\n- 腐败感知指数\n\n除这些公开数据外，EcoVadis 还整合其自有专有数据，该数据反映了源自 EcoVadis 可持续发展评级的实际绩效指标（详见第 2.3 节\"风险因子与评分\"）。\n\nb) EcoVadis 用于界定采购风险的数据\nEcoVadis 使用由 IQ Plus 用户提供的数据来确定采购风险。用户可提供其自身关于被评级公司支出与关键度的非公开数据。该用户提供的信息使 EcoVadis 能够将被评级公司对用户的战略重要性作为考量因素，从而将总体风险结果置于具体情境中。\n\nc) EcoVadis 用于界定扫描风险的数据\nEcoVadis 使用公开可用的公司可持续相关政策和认证来确定扫描风险。若在公共领域中被识别，则可考虑《2013/34/EU 指令》（\"会计指令\"）所要求的可持续声明，或《欧盟条例 2019/2088》（\"可持续金融披露条例\"）下披露的信息。",
-     "content": "2.5. Data sources\n\nIQ Plus uses different types of data sources depending on the risk factor.\n\na) Data used by EcoVadis to define the Sustainability Risk\nEcoVadis defines Industry and Country Risk by leveraging a selection of publicly available data sources. These sources include, but are not limited to:\n- Ocean Health Index\n- Aqueduct Water Risk Atlas\n- Human Development Index\n- World Press Freedom Index\n- World Justice Project\n- Corruption Perception Index\n\nIn addition to this public data, EcoVadis integrates its own proprietary data, which reflects actual performance metrics derived from EcoVadis Sustainability Ratings (see Section 2.3 \"Risk factors and scoring\" for additional details).\n\nb) Data used by EcoVadis to define the Procurement Risk\nEcoVadis uses data supplied by IQ Plus users to determine the Procurement Risk. Users can provide their own non-public data related to rated company spend and criticality. This user-provided information allows EcoVadis to contextualize the Overall Risk results by factoring in the rated-company's strategic importance to the user.\n\nc) Data used by EcoVadis to define the Scan Risk\nEcoVadis uses publicly available company sustainability-related policies and certifications to determine the Scan Risk. Sustainability statements required under Directive 2013/34/EU (\"Accounting Directive\") or information disclosed under Regulation (EU) 2019/2088 (\"Sustainable Finance Disclosure Regulation\") can be taken into account if identified in the public domain.",
+     "content_cn": "IQ Plus 根据风险因子的不同使用不同类型的数据来源。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "EcoVadis 用于界定可持续风险的数据 · EcoVadis 借助一组公开可用的数据来源界定行业风险与国家风险",
+       "content": "这些来源包括但不限于：",
+       "items": [
+        "海洋健康指数",
+        "Aqueduct 水资源风险地图集",
+        "人类发展指数",
+        "世界新闻自由指数",
+        "世界正义工程",
+        "腐败感知指数"
+       ],
+       "after": "除这些公开数据外，EcoVadis 还整合其自有专有数据，该数据反映了源自 EcoVadis 可持续发展评级的实际绩效指标（详见第 2.3 节\"风险因子与评分\"）。"
+      },
+      {
+       "title": "EcoVadis 用于界定采购风险的数据",
+       "content": "EcoVadis 使用由 IQ Plus 用户提供的数据来确定采购风险。用户可提供其自身关于被评级公司支出与关键度的非公开数据。该用户提供的信息使 EcoVadis 能够将被评级公司对用户的战略重要性作为考量因素，从而将总体风险结果置于具体情境中。",
+       "items": []
+      },
+      {
+       "title": "EcoVadis 用于界定扫描风险的数据",
+       "content": "EcoVadis 使用公开可用的公司可持续相关政策和认证来确定扫描风险。若在公共领域中被识别，则可考虑《2013/34/EU 指令》（\"会计指令\"）所要求的可持续声明，或《欧盟条例 2019/2088》（\"可持续金融披露条例\"）下披露的信息。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -213,13 +328,42 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.6 数据流程",
-     "content_cn": "2.6 数据流程\n\nIQ Plus 采用由 EcoVadis 提供的、安全且有序的数字平台上的精简数据流程。该流程包括：\n\na) 数据收集\n被评级实体数据由 IQ Plus 用户收集，不通过直接接触被评级公司本身来收集任何一手数据。用户将待评级实体清单上传至 EcoVadis 平台，其中包括被评级公司的标识符（DUNS 编码、税号或带国家代码的法定实体名称），系统自动将其匹配至所属行业（基于 ISIC 分类，详见第 2.4 节\"行业分类\"）及其经营所在国。用户也可选择性地提供关于支出水平或被评级公司关键度的自有数据，为采购风险因子提供输入（详见第 2.3 节\"风险因子与评分\"）。\n\nb) 数据处理\n从 IQ Plus 用户处收集的数据使 EcoVadis 能够将被评级公司匹配至特定行业与国家。随后，基于既定的评分方法学，系统自动为被评级公司赋予总体风险等级，以及底层的行业风险、国家风险、可持续风险、采购风险（如适用）与扫描风险（如适用）（详见\"2.3 风险因子与评分\"）。\n\nc) 数据输出\n总体风险等级以 1（极低）至 6（极高）的量表表示。总体风险是确定被评级公司互动优先级的首要指标。\n\n除总体风险外，IQ Plus 还展示底层风险因子的细化分解，包括：\n- 主题层面的可持续风险，进一步拆解为行业风险与国家风险\n- 采购风险（如适用），含支出或关键度\n- 主题层面的扫描风险\n\nd) 数据存储与历史数据更新及修订\n来自 IQ Plus 用户、关于被评级公司的数据存储在系统中以便追溯。用户能够编辑其输入，这将触发风险等级的自动重新计算。除用户编辑外，IQ Plus 风险等级的变更仅在支撑风险因子的定量指标更新之后才会发生。当前使用的数据集已纳入最新一次数据源更新，该更新于 2026 年 7 月实施。",
-     "content": "2.6. Data processes\n\nIQ Plus uses a streamlined data process occurring in a secure and organised digital platform provided by EcoVadis. The process includes:\n\na) Data collection\nRated entity data is collected from the IQ Plus user, and no primary data is collected by engaging rated companies themselves. Users upload the list of entities to rate to the EcoVadis platform, including the rated-company's identifier (DUNS, Tax ID or legal entity name with country code) and is automatically matched to its industry (based on the ISIC classification, see Section 2.4 \"Industry classification\" for additional details) and its country of operation. Optionally, users can provide their own data regarding spend level or rated company criticality to provide input for the Procurement risk factor (see Section 2.3 \"Risk factors and scoring\" for additional details).\n\nb) Data processing\nThe data collected from IQ Plus users enables EcoVadis to match the rated company to a given industry and country. An Overall Risk level, as well as the underlying Industry Risk, Country Risk, Sustainability Risk, Procurement Risk (if applicable) and Scan Risk (if applicable), are then automatically assigned to the rated company based on an established scoring methodology (see Section \"2.3 Risk factors and scoring\" for additional details).\n\nc) Data output\nThe Overall Risk level is expressed on a scale from 1 (Very Low) to 6 (Very High). The Overall Risk serves as the primary metric for prioritization of rated company engagement.\n\nIn addition to the Overall Risk, IQ Plus displays a granular breakdown of the underlying risk factors, including the following:\n- Theme-level Sustainability Risk, broken down into theme-level Industry Risk and Country Risk\n- Procurement Risk (if applicable) including spend or criticality\n- Theme-level Scan Risk\n\nd) Data storage & historical data updates and revision\nData from IQ Plus users regarding rated companies is stored in the system for traceability. Users have the ability to edit their input which will prompt an automatic recalculation of the risk level. Apart from user edits, changes to the IQ Plus risk levels occur only after updates of the quantitative indicators that underpin the risk factors. The datasets currently in use incorporate the most recent data source update, implemented in July 2026.",
+     "content_cn": "IQ Plus 采用由 EcoVadis 提供的、安全且有序的数字平台上的精简数据流程。该流程包括：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "数据收集",
+       "content": "被评级实体数据由 IQ Plus 用户收集，不通过直接接触被评级公司本身来收集任何一手数据。用户将待评级实体清单上传至 EcoVadis 平台，其中包括被评级公司的标识符（DUNS 编码、税号或带国家代码的法定实体名称），系统自动将其匹配至所属行业（基于 ISIC 分类，详见第 2.4 节\"行业分类\"）及其经营所在国。用户也可选择性地提供关于支出水平或被评级公司关键度的自有数据，为采购风险因子提供输入（详见第 2.3 节\"风险因子与评分\"）。",
+       "items": []
+      },
+      {
+       "title": "数据处理",
+       "content": "从 IQ Plus 用户处收集的数据使 EcoVadis 能够将被评级公司匹配至特定行业与国家。随后，基于既定的评分方法学，系统自动为被评级公司赋予总体风险等级，以及底层的行业风险、国家风险、可持续风险、采购风险（如适用）与扫描风险（如适用）（详见\"2.3 风险因子与评分\"）。",
+       "items": []
+      },
+      {
+       "title": "数据输出 · 总体风险等级以 1（极低）至 6（极高）的量表表示",
+       "content": "总体风险是确定被评级公司互动优先级的首要指标。 除总体风险外，IQ Plus 还展示底层风险因子的细化分解，包括：",
+       "items": [
+        "主题层面的可持续风险，进一步拆解为行业风险与国家风险",
+        "采购风险（如适用），含支出或关键度",
+        "主题层面的扫描风险"
+       ]
+      },
+      {
+       "title": "数据存储与历史数据更新及修订",
+       "content": "来自 IQ Plus 用户、关于被评级公司的数据存储在系统中以便追溯。用户能够编辑其输入，这将触发风险等级的自动重新计算。除用户编辑外，IQ Plus 风险等级的变更仅在支撑风险因子的定量指标更新之后才会发生。当前使用的数据集已纳入最新一次数据源更新，该更新于 2026 年 7 月实施。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -232,14 +376,36 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.7 数据质量",
-     "content_cn": "2.7 数据质量\n\n为确保 IQ Plus 结果的质量，EcoVadis 实施以下数据质量控制机制：\n\na. 权威数据源的选择\n为确保风险计算的严谨性与相关性，EcoVadis 仅使用符合严格标准的外部数据集。这些标准保证数据基于权威、最新的共识，并保持高度的学术严谨性与全球覆盖。\n\nb. 输入标准化（ISIC 与 ISO 代码）\n为确保标准化且严谨的风险评估，该方法学强制要求对输入数据使用特定的分类系统。所有被评级公司档案均对照行业 ISIC 分类（详见第 1.4 节\"行业分类\"）与国家 ISO 代码进行映射。这种对标准代码的严格遵循可防止歧义与错误分类，而这对于避免最终风险评估中的扭曲至关重要。\n\nc. 被评级公司档案数据的验证\n为确保风险模型准确确定被评级公司的风险等级，网络中所有新加入的公司均经过人工核验。该流程对照模型所使用的正确行业数据，验证其被赋予的行业分类的一致性。\n\nd. 可追溯且标准化的计算\nIQ Plus 采用具有标准化计算规则的确定性计算模型。这种方法保证了整个数据库中结果的完全可追溯性与一致性，有效规避了与\"黑箱\"预测方法相关的不可预测性。\n\n为 IQ Plus 收集的、主要聚焦于被评级公司行业与经营所在国的被评级公司数据，不受系统性鉴证业务的约束。",
-     "content": "2.7. Data quality\n\nTo secure the quality of IQ Plus results, EcoVadis implements the following data quality control mechanisms:\n\na. Selection of authoritative data sources\nTo ensure the rigor and relevance of our risk calculations, EcoVadis only utilizes external datasets that adhere to stringent criteria. These criteria guarantee the data is based on authoritative, up-to-date consensus and maintains high scientific rigor and global coverage.\n\nb. Input standardization (ISIC & ISO Codes)\nTo ensure a standardized and rigorous risk assessment, the methodology mandates the use of specific classification systems for input data. All rated company profiles are mapped against the ISIC classification for industries (refer to Section 1.4 \"Industry classification\" for further details) and ISO codes for countries. This strict adherence to standardized codes prevents ambiguity and misclassification errors, which are essential to avoid distortions in the final risk assessment.\n\nc. Validation of rated company profile data\nTo ensure the risk model accurately determines a rated company's risk level, all newly added companies to the network are manually verified. This process validates the coherence of their assigned industry categorization against the correct industry data used by the model.\n\nd. Traceable and standardized calculation\nIQ Plus employs a deterministic computation model with standardized calculation rules. This approach guarantees full traceability and consistency of results throughout the entire database, effectively bypassing the unpredictability associated with \"black box\" prediction methods.\n\nData on rated companies collected for the IQ Plus, primarily focused on a rated-company's industry and country of operation, is not subject to systematic assurance engagement.",
+     "content_cn": "为确保 IQ Plus 结果的质量，EcoVadis 实施以下数据质量控制机制：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "权威数据源的选择",
+       "content": "为确保风险计算的严谨性与相关性，EcoVadis 仅使用符合严格标准的外部数据集。这些标准保证数据基于权威、最新的共识，并保持高度的学术严谨性与全球覆盖。",
+       "items": []
+      },
+      {
+       "title": "输入标准化（ISIC 与 ISO 代码）",
+       "content": "为确保标准化且严谨的风险评估，该方法学强制要求对输入数据使用特定的分类系统。所有被评级公司档案均对照行业 ISIC 分类（详见第 1.4 节\"行业分类\"）与国家 ISO 代码进行映射。这种对标准代码的严格遵循可防止歧义与错误分类，而这对于避免最终风险评估中的扭曲至关重要。",
+       "items": []
+      },
+      {
+       "title": "被评级公司档案数据的验证",
+       "content": "为确保风险模型准确确定被评级公司的风险等级，网络中所有新加入的公司均经过人工核验。该流程对照模型所使用的正确行业数据，验证其被赋予的行业分类的一致性。",
+       "items": []
+      },
+      {
+       "title": "可追溯且标准化的计算",
+       "content": "IQ Plus 采用具有标准化计算规则的确定性计算模型。这种方法保证了整个数据库中结果的完全可追溯性与一致性，有效规避了与\"黑箱\"预测方法相关的不可预测性。\n\n为 IQ Plus 收集的、主要聚焦于被评级公司行业与经营所在国的被评级公司数据，不受系统性鉴证业务的约束。",
+       "items": []
+      }
+     ],
+     "cols": "2"
     }
    ]
   },
@@ -251,13 +417,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.8 评估期间新信息的监测可用性",
-     "content_cn": "2.8 评估期间新信息的监测可用性\n\nIQ Plus 不在各次评估之间进行额外的数据筛查。",
-     "content": "2.8. Monitoring availability of new information in between assessments\n\nIQ Plus does not involve screening for additional data between assessments.",
+     "content_cn": "IQ Plus 不在各次评估之间进行额外的数据筛查。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -270,13 +432,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.9 与被评级公司的互动",
-     "content_cn": "2.9 与被评级公司的互动\n\n对于已识别联系邮箱的被评级公司，会收到一份通知，给予 2 个工作日的宽限期以审阅并提交任何事实性错误。宽限期结束后，IQ Plus 评分将交付给采购方。任何公司均可随时通过 EcoVadis 的专用页面访问其评分并提交事实性错误主张。\n\n注 1：该通知将在 EcoVadis 升级后的采购方平台于 2026 年 12 月底前上线时生效。",
-     "content": "2.9. Engagement with rated companies\n\nRated companies for which a contact mail has been identified receive a notification for a 2 business days grace period to review and submit any factual error. After the grace period ends, the IQ Plus score is delivered to buyers. Any company can access their score and submit a factual error claim at any time via EcoVadis dedicated page.",
+     "content_cn": "对于已识别联系邮箱的被评级公司，会收到一份通知，给予 2 个工作日的宽限期以审阅并提交任何事实性错误。宽限期结束后，IQ Plus 评分将交付给采购方。任何公司均可随时通过 EcoVadis 的专用页面访问其评分并提交事实性错误主张。\n\n注 1：该通知将在 EcoVadis 升级后的采购方平台于 2026 年 12 月底前上线时生效。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -289,13 +447,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.10 科学基础",
-     "content_cn": "2.10 科学基础\n\n支撑行业风险与国家风险的数据与分析，均源自经过审阅的外部来源，例如非政府组织的报告、以及国际组织的出版物或指数。",
-     "content": "2.10. Scientific basis\n\nThe data and analysis underpinning both Industry Risk and Country Risk are derived from reviewed external sources, such as reports from NGOs and publications or indexes from international organizations.",
+     "content_cn": "支撑行业风险与国家风险的数据与分析，均源自经过审阅的外部来源，例如非政府组织的报告、以及国际组织的出版物或指数。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -308,13 +462,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "2.11 AI 工具的使用",
-     "content_cn": "2.11 AI 工具的使用\n\nIQ Plus 使用一项名为\"Doc Scan\"的 AI 技术，从公共领域收集公司文档，用于扫描风险的计算（详见第 2.3 节\"风险因子与评分\"）。Doc Scan 系统抓取被评级公司的网站以检索相关文档。借助机器学习模型，Doc Scan 分析内容以对文档类型（例如 ISO 14001 或行为准则）进行分类，并提取关键数据属性（如有效期）以验证有效性。最后，这些经过处理的文档被直接整合进 IQ，用于扫描风险的计算。",
-     "content": "2.11. Usage of AI-based tools\n\nIQ Plus uses an AI technology called \"Doc Scan\" to collect company documentation from the public domain for the calculation of the Scan Risk (see Section 2.3 \"Risk factors and scoring\" for additional details). The Doc Scan system scrapes rated company websites to retrieve relevant documentation. Utilizing a machine learning model, Doc Scan analyzes the content to classify the document type (e.g., ISO 14001 or Code of Conduct) and extract key data attributes, such as expiration dates, to verify validity. Finally, these processed documents are integrated directly into IQ to be used for the Scan Risk calculation.",
+     "content_cn": "IQ Plus 使用一项名为\"Doc Scan\"的 AI 技术，从公共领域收集公司文档，用于扫描风险的计算（详见第 2.3 节\"风险因子与评分\"）。Doc Scan 系统抓取被评级公司的网站以检索相关文档。借助机器学习模型，Doc Scan 分析内容以对文档类型（例如 ISO 14001 或行为准则）进行分类，并提取关键数据属性（如有效期）以验证有效性。最后，这些经过处理的文档被直接整合进 IQ，用于扫描风险的计算。",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -324,19 +474,7 @@
    "title": "3. 数据来源、方法学与信息的局限性",
    "groupTitle": "方法学正文",
    "learningLayer": "original",
-   "blocks": [
-    {
-     "type": "standard",
-     "title": "3. 数据来源、方法学与信息的局限性",
-     "content_cn": "3. 数据来源、方法学与信息的局限性",
-     "content": "3. Limitations in data sources, methodologies and information",
-     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
-    }
-   ]
+   "blocks": []
   },
   {
    "id": "s18",
@@ -346,14 +484,26 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "3.1 方法学的局限性",
-     "content_cn": "3.1 方法学的局限性\n\nIQ Plus 方法学包含以下局限性：\n\na. 排除财务重要性\nIQ Plus 不纳入财务重要性维度。因此，它无法用于评估 ESG 因素对被评级公司财务绩效的影响。\n\nb. 依赖固有风险替代指标\nIQ Plus 使用行业与国家层面的替代指标，虽然提供了标准化基线，但并未设计用于捕捉公司层面的细微差异。由于该模型依赖统计平均值而非公司一手披露，它并非设计用于区分同一行业与地区内公司的实际绩效。\n\nIQ Plus 主要作为一种筛查工具，用于管理整个投资组合的风险。其方法学中有意排除公司特定数据这一点，由以下事实予以弥补：EcoVadis 产品套件提供了其他工具，用于评估公司对重大可持续议题的特定管理。被 IQ Plus 标记为高风险的被评级公司，随后会被推荐进行 EcoVadis 可持续发展评级。这一两步流程确保基于行业与国家替代指标的初始风险估计，最终通过对被评级公司实际管理成熟度的循证评估得到验证与细化。",
-     "content": "3.1. Methodology limitations\n\nThe IQ Plus methodology includes the following limitations:\n\na. Exclusion of financial materiality\nIQ Plus does not incorporate financial materiality dimensions. In consequence, it cannot be used to assess the influence of ESG factors on a rated company's financial performance.\n\nb. Reliance on inherent risk proxies\nIQ Plus utilizes industry and country-level proxies which, while providing a standardized baseline, are not designed to capture company-specific nuances. Because the model relies on statistical averages rather than primary company disclosures, it is not designed to distinguish the actual performance of companies within the same industry and region.\n\nIQ Plus is intended primarily as a screening tool for managing risks across an entire portfolio. The deliberate exclusion of company-specific data from its methodology is addressed by the fact that the EcoVadis product suite offers other tools to assess a company's specific management of material sustainability issues. Rated companies flagged as high-risk by IQ Plus are subsequently recommended for the EcoVadis Sustainability Rating. This two-step process ensures that initial risk estimations, based on industry and country proxies, are ultimately validated and refined through an evidence-based assessment of the rated-company's actual management maturity.",
+     "content_cn": "IQ Plus 方法学包含以下局限性：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "排除财务重要性",
+       "content": "IQ Plus 不纳入财务重要性维度。因此，它无法用于评估 ESG 因素对被评级公司财务绩效的影响。",
+       "items": []
+      },
+      {
+       "title": "依赖固有风险替代指标",
+       "content": "IQ Plus 使用行业与国家层面的替代指标，虽然提供了标准化基线，但并未设计用于捕捉公司层面的细微差异。由于该模型依赖统计平均值而非公司一手披露，它并非设计用于区分同一行业与地区内公司的实际绩效。\n\nIQ Plus 主要作为一种筛查工具，用于管理整个投资组合的风险。其方法学中有意排除公司特定数据这一点，由以下事实予以弥补：EcoVadis 产品套件提供了其他工具，用于评估公司对重大可持续议题的特定管理。被 IQ Plus 标记为高风险的被评级公司，随后会被推荐进行 EcoVadis 可持续发展评级。这一两步流程确保基于行业与国家替代指标的初始风险估计，最终通过对被评级公司实际管理成熟度的循证评估得到验证与细化。",
+       "items": []
+      }
+     ],
+     "cols": "2"
     }
    ]
   },
@@ -365,13 +515,33 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "3.2 数据来源的局限性",
-     "content_cn": "3.2 数据来源的局限性\n\nIQ Plus 所利用的数据来源包含以下局限：\n\na) 所使用数据的可用性与一致性\n在超过 250 个行业与 240 个国家之间构建细化基准需要海量数据，导致小众行业存在数据缺口。此外，该方法学利用来自 EcoVadis 网络的聚合数据，导致基准天然偏向已参与可持续报告的公司绩效。最后，全球数据集的整合带来了原始统计数据的发布与其融入风险方法学之间的固有时间滞后。\n\nb) Doc Scan 的准确性与覆盖率\nDoc Scan 需要在准确性（正确的分类与提取）与覆盖率（检索所有公开可用文档）之间不断权衡。这对政策文档而言尤其具有挑战性，因为政策文档往往是非结构化且非标准化的。这种复杂性偶尔会导致 AI 错误地接受某份文档。类似地，政策文档的日期提取也很困难，因为日期往往在文本中多处出现。此外，我们在爬取实践中力求谨慎，并尊重网站设定的边界。最后，由于较小的被评级公司可能缺乏网站或选择不公开分享文档，我们已决定：当未找到任何文档时，总体风险得分不受扫描风险的影响。\n\nc) 假设、替代参考点、数据估计、预设统计或算法系统或模型的使用\nIQ Plus 不使用任何得分预测、统计模型、算法系统或任何其他估算最终得分的手段。",
-     "content": "3.2. Data source limitations\n\nData sources leveraged for IQ Plus include the following limitations:\n\na) Availability and consistency of data used\nConstructing granular benchmarks across more than 250 industries and 240 countries requires extensive data, leading to gaps in niche sectors. Furthermore, the methodology utilizes aggregated data from the EcoVadis Network, resulting in benchmarks that are inherently skewed toward the performance of companies already participating in sustainability reporting. Finally, the consolidation of global datasets entails an inherent time lag between the publication of raw statistics and their integration into the risk methodology.\n\nb) Doc Scan accuracy and coverage\nDoc Scan requires a constant trade-off between accuracy (correct classification and extraction) and coverage (retrieving all publicly available documents). This is particularly challenging for policy documents, which are often unstructured and non-standardized. This complexity can occasionally lead the AI to incorrectly accept a document. Similarly, date extraction for policies is difficult, as dates often appear in multiple locations throughout the text. In addition, we strive to be careful and cautious with our crawling practices and respect boundaries set within websites. Finally, because smaller rated companies may lack a website or choose not to share documents publicly, we have decided that the overall Risk score will not be impacted by the Scan Risk when no documents are found.\n\nc) Use of assumptions, proxy reference points, data estimation, preestablished statistical or algorithmic systems or models\nIQ Plus does not use any score projections, statistical models, algorithmic systems or any other means of estimating the final score.",
+     "content_cn": "IQ Plus 所利用的数据来源包含以下局限：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "所使用数据的可用性与一致性",
+       "content": "在超过 250 个行业与 240 个国家之间构建细化基准需要海量数据，导致小众行业存在数据缺口。此外，该方法学利用来自 EcoVadis 网络的聚合数据，导致基准天然偏向已参与可持续报告的公司绩效。最后，全球数据集的整合带来了原始统计数据的发布与其融入风险方法学之间的固有时间滞后。",
+       "items": []
+      },
+      {
+       "title": "Doc Scan 的准确性与覆盖率",
+       "content": "Doc Scan 需要在准确性（正确的分类与提取）与覆盖率（检索所有公开可用文档）之间不断权衡。这对政策文档而言尤其具有挑战性，因为政策文档往往是非结构化且非标准化的。这种复杂性偶尔会导致 AI 错误地接受某份文档。类似地，政策文档的日期提取也很困难，因为日期往往在文本中多处出现。此外，我们在爬取实践中力求谨慎，并尊重网站设定的边界。最后，由于较小的被评级公司可能缺乏网站或选择不公开分享文档，我们已决定：当未找到任何文档时，总体风险得分不受扫描风险的影响。",
+       "items": []
+      },
+      {
+       "title": "假设、替代参考点、数据估计、预设统计或算法系统或模型的使用",
+       "content": "IQ Plus 不使用任何得分预测、统计模型、算法系统或任何其他估算最终得分的手段。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -384,13 +554,28 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "3.3 应对数据来源局限性的措施",
-     "content_cn": "3.3 应对数据来源局限性的措施\n\n为应对 IQ Plus 的数据来源局限性，EcoVadis 实施了一系列措施与流程，旨在将相关风险降至最低。这些措施包括：\n\na) 植根科学的替代指标层级\n为应对全球数据覆盖的潜在缺口，该方法学采用严格定义的可靠性层级。在国家风险计算中，缺失的一手数据点由统计相关性次高的替代指标替代（例如邻国基线水资源压力的平均值），确保风险计算始终立足于最佳可用的科学证据，而非默认假设。\n\nb) 被评级公司档案的人工核验\n由于 IQ Plus 方法学依赖行业与国家替代指标，被评级公司档案的准确性至关重要。EcoVadis 通过对新被评级公司进行人工核验流程，降低错误分类的风险。分析师验证关键的档案属性，特别是行业（ISIC），以确保风险模型将正确的替代指标应用于公司的实际业务活动。",
-     "content": "3.3. Means of addressing limitations in data sources\n\nTo address limitations in data sources for IQ Plus, EcoVadis implements a number of measures and processes aimed at reducing related risks to a minimum. These include:\n\na) Scientifically rooted proxy hierarchy\nTo address potential gaps in global data coverage, the methodology employs a strictly defined hierarchy of reliability. Missing primary data points are substituted in the country risk calculation with the next most statistically correlated proxy (e.g., average of baseline water stress in neighboring countries), ensuring that risk calculations remain grounded in the best available scientific evidence rather than default assumptions.\n\nb) Manual verification of rated company profiles\nSince the IQ Plus methodology relies on industry and country proxies, the accuracy of the rated company's profile is paramount. EcoVadis mitigates the risk of misclassification through a human verification process for new rated companies. Analysts validate key profile attributes, specifically Industry (ISIC), to ensure the risk model applies the correct proxies to the company's actual business activities.",
+     "content_cn": "为应对 IQ Plus 的数据来源局限性，EcoVadis 实施了一系列措施与流程，旨在将相关风险降至最低。这些措施包括：",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "植根科学的替代指标层级",
+       "content": "为应对全球数据覆盖的潜在缺口，该方法学采用严格定义的可靠性层级。在国家风险计算中，缺失的一手数据点由统计相关性次高的替代指标替代（例如邻国基线水资源压力的平均值），确保风险计算始终立足于最佳可用的科学证据，而非默认假设。",
+       "items": []
+      },
+      {
+       "title": "被评级公司档案的人工核验",
+       "content": "由于 IQ Plus 方法学依赖行业与国家替代指标，被评级公司档案的准确性至关重要。EcoVadis 通过对新被评级公司进行人工核验流程，降低错误分类的风险。分析师验证关键的档案属性，特别是行业（ISIC），以确保风险模型将正确的替代指标应用于公司的实际业务活动。",
+       "items": []
+      }
+     ],
+     "cols": "2",
+     "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
+     "provenance": "official",
      "learningLayer": "original"
     }
    ]
@@ -402,15 +587,90 @@
    "learningLayer": "original",
    "blocks": [
     {
-     "type": "standard",
-     "title": "4. 方法学的修订",
-     "content_cn": "4. 方法学的修订\n\nIQ Plus 方法学的修订遵循《方法学修订程序》中列出的步骤。\n\n方法学的开发与应用独立于一切政治、经济或其他外部影响，并由一个专门的方法学团队领导，该团队负责方法学开发、研究与执行的优先级排序。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。\n\na) 方法学修订程序\n方法学修订流程分为六个阶段。对于未被归类为重大影响的修订，部分阶段为可选，但在相关时仍可予以考虑。\n\n- 启动\n方法学团队中的方法学负责人（methodology owner）识别修订需求，该需求由方法学负责人在季度规划期间批准。随后，方法学负责人起草项目章程，详述项目的描述、目的、理由、目标、范围、团队与风险，使用研究或实施模板之一。必要时，可首先启动专门的方法学研究阶段，以在着手实施前调查并论证正式修订的需求。\n\n- 方法学修订提案\n方法学负责人将详细的修订提案正式化，包括理由、研究发现与拟议的具体变更。该提案与项目指导委员会一起审阅与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可涉及其他部门（例如产品与技术、市场、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。\n\n- 影响评估\n对当前得分或风险等级分布的潜在影响进行量化评估。\n\n- 利益相关方咨询（若为重大影响）\n若变更被确定为重大影响，则开展正式的利益相关方咨询。EcoVadis 直接接洽经过针对性筛选的评级用户、被评级实体与外部利益相关方，以确保具有代表性的反馈闭环。\n\n- 道德与合规团队的方法学监督审查\n道德与合规团队（Ethics & Compliance team）作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在关切、提出问题或要求进一步澄清。若任何被突出的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council），由其作出最终仲裁与决策。\n\n- 批准与实施\n最终的方法学修订提案由方法学负责人对常规变更进行批准，由首席评级官对重大影响变更进行批准，并正式实施。方法学披露文件相应更新。\n\n所有方法学均须接受强制性的内部有效性年度审查，以确保其持续适用。方法学修订通过方法学变更通报传达给评级用户与被评级实体，该通报于 1 月与 7 月发布。",
-     "content": "4. Methodology revision\n\nThe revision of the methodology of IQ Plus follows the steps outlined in the Methodology Revision Procedure.\n\nMethodological development and application are independent of all political, economic, or other external influences, and led by a dedicated methodology team, which handles prioritization of methodology developments, research and execution. The methodology team is separate from commercial functions, is managed by the Head of Methodology and reports to the Chief Ratings Officer.\n\na) Methodology Revision Procedure\n\nThe methodology revision process is structured in six phases. Some phases are optional for methodology changes that are not classified as high impact, but can still be considered where relevant.\n\n- Initiation\nThe methodology owner within the methodology team identifies the need for a revision, which is approved by the Head of Methodology during the Quarterly Planning. The methodology owner then drafts a project charter detailing the project's description, purpose, rationale, objectives, scope, team and risks, using either a Research or Implementation template. Where needed, a dedicated Methodology Research phase may be initiated first to investigate and justify the need for a formal revision before proceeding to implementation.\n\n- Methodology Revision Proposal\nThe methodology owner formalizes a detailed revision proposal, including rationale, research findings and the proposed specific changes. The proposal is reviewed and discussed with the project's steering committee to ensure rigor, consistency, and alignment with market and regulatory needs. The steering committee is composed of relevant methodology team members and may involve representatives of other departments (e.g. Product & Tech, Marketing, Frontline) if necessary. The project manager integrates feedback from the steering committee to adjust the proposal accordingly.\n\n- Impact Assessment\nA quantitative assessment of the potential impact on the current score or risk level distribution is performed.\n\n- Stakeholder Consultation (if high impact)\nIf the change is determined to be high impact, a formal stakeholder consultation is conducted. EcoVadis directly engages a targeted selection of rating users, rated entities and external stakeholders to ensure a representative feedback loop.\n\n- Methodology Oversight Review by Ethics & Compliance Team\nThe Ethics & Compliance team conducts an independent review of the final methodology revision proposal, as part of its methodology oversight responsibilities. This body is responsible for identifying potential concerns, raising issues, or requesting further clarification. If any highlighted problems remain unresolved, the Ethics & Compliance team escalates the matter to the ESGR Governance Council for final arbitration and decision-making.\n\n- Approval & Implementation\nThe final methodology revision proposal is approved by the Head of Methodology for regular changes, and by the Chief Rating Officer for high impact changes, and officially implemented. The methodology disclosure documents are updated accordingly.\n\nAll methodologies are subject to a mandatory internal effectiveness review on an annual basis to ensure they remain fit for purpose. Methodology revisions are communicated to rating users and rated entities via the methodology change communication, which is released in January, and July.",
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "IQ Plus 方法学的修订遵循《方法学修订程序》中列出的步骤。",
+       "content": "方法学的开发与应用独立于一切政治、经济或其他外部影响，并由一个专门的方法学团队领导，该团队负责方法学开发、研究与执行的优先级排序。方法学团队独立于商业职能，由方法学负责人（Head of Methodology）管理，并向首席评级官（Chief Ratings Officer）汇报。 a) 方法学修订程序 方法学修订流程分为六个阶段。对于未被归类为重大影响的修订，部分阶段为可选，但在相关时仍可予以考虑。",
+       "items": [
+        "启动"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "1",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "方法学团队中的方法学负责人（methodology owner）识别修订需求，该需求由方法学负责人在季度规划期间批准。随后，方法学负责人起草项目章程，详述项目的描述、目的、理由、目标、范围、团队与风险，使用研究或实施模板之一。必要时，可首先启动专门的方法学研究阶段，以在着手实施前调查并论证正式修订的需求。",
+       "items": [
+        "方法学修订提案"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "方法学负责人将详细的修订提案正式化，包括理由、研究发现与拟议的具体变更。",
+       "content": "该提案与项目指导委员会一起审阅与讨论，以确保严谨性、一致性以及与市场和监管需求的契合。指导委员会由相关方法学团队成员组成，必要时可涉及其他部门（例如产品与技术、市场、一线）的代表。项目经理整合指导委员会的反馈，相应调整提案。",
+       "items": [
+        "影响评估"
+       ]
+      }
+     ],
+     "numbered": false,
+     "cols": "2"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "对当前得分或风险等级分布的潜在影响进行量化评估。",
+       "content": "",
+       "items": [
+        "利益相关方咨询（若为重大影响）"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "若变更被确定为重大影响，则开展正式的利益相关方咨询。",
+       "content": "EcoVadis 直接接洽经过针对性筛选的评级用户、被评级实体与外部利益相关方，以确保具有代表性的反馈闭环。",
+       "items": [
+        "道德与合规团队的方法学监督审查"
+       ]
+      }
+     ],
+     "numbered": false
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "",
+       "content": "道德与合规团队（Ethics & Compliance team）作为方法学监督职责的一部分，对最终的方法学修订提案进行独立审查。该机构负责识别潜在关切、提出问题或要求进一步澄清。若任何被突出的问题仍未解决，道德与合规团队将事项上报至 ESGR 治理委员会（ESGR Governance Council），由其作出最终仲裁与决策。",
+       "items": [
+        "批准与实施"
+       ],
+       "after": "最终的方法学修订提案由方法学负责人对常规变更进行批准，由首席评级官对重大影响变更进行批准，并正式实施。方法学披露文件相应更新。\n所有方法学均须接受强制性的内部有效性年度审查，以确保其持续适用。方法学修订通过方法学变更通报传达给评级用户与被评级实体，该通报于 1 月与 7 月发布。"
+      }
+     ],
+     "numbered": false,
+     "cols": "1"
     }
    ]
   },
@@ -422,13 +682,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "5. 组织披露",
-     "content_cn": "5. 组织披露\n\n为确保全面的透明度并完全符合欧洲 ESG 评级监管标准，本方法学文件发布于 EcoVadis 官方网站上专用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门版块中包含全部所需的组织披露：所有权结构、商业模式与定价、利益冲突，以及投诉管理与外部利益相关方合理关切：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
-     "content": "5. Organisational Disclosures\n\nTo ensure comprehensive transparency and full compliance with European ESG Rating Regulation standards, this methodology document is published on the official EcoVadis website page dedicated to regulatory disclosures: https://ecovadis.com/trust-center/esma/.\n\nThis page includes all required organisational disclosures in a dedicated section: Ownership structure, Business Model & Pricing, Conflict of Interest, and Complaint management & External stakeholder reasoned concern: https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
+     "content_cn": "为确保全面的透明度并完全符合欧洲 ESG 评级监管标准，本方法学文件发布于 EcoVadis 官方网站上专用于监管披露的页面：https://ecovadis.com/trust-center/esma/。\n\n该页面在专门版块中包含全部所需的组织披露：所有权结构、商业模式与定价、利益冲突，以及投诉管理与外部利益相关方合理关切：https://ecovadis.com/trust-center/esma/?active-tab=organisational-disclosures",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]
@@ -441,13 +697,9 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "6. 法律声明",
-     "content_cn": "6. 法律声明\n\nIQ Plus 由 Ecovadis SAS 出版，总部位于 43 avenue de la Grande armée 75116 Paris（巴黎），是一家在法国注册的私人股份有限公司（Société à Actions Simplifiée），公司商事登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会与理事会 2024 年 11 月 27 日关于环境、社会与治理（ESG）评级活动透明度与完整性的《欧盟条例 2024/3005》（\"该条例\"），特别是该条例中针对向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的要求所设定的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n不提供担保：本文件仅供信息参考之用，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，且可能在不另行通知的情况下变更。\n\n责任限制：对于任何因使用本出版物中明确或隐含包含的任何观点或信息而引起的直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司均不承担责任。\n\n版权所有 (c) 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
-     "content": "6. Legal notices\n\nIQ Plus is published by Ecovadis SAS, headquartered at 43 avenue de la Grande armée 75116 Paris, a privately-held Société à Actions Simplifiée incorporated in France under trade and companies register number 497 842 914 - R.C.S. Paris.\n\nThis document is aligned with disclosure requirements applicable to EcoVadis SAS as per the Regulation (EU) 2024/3005 of the European Parliament and of the Council of 27 November 2024 on the transparency and integrity of Environmental, Social and Governance (ESG) rating activities ('the Regulation'), in particular, Articles 23 and 24 of the Regulation setting out requirements on disclosures to users of ESG ratings, rated items and issuers of rated items, as well as applicable Regulatory Technical Standards of 15th October 2025.\n\nCopyright: No part of this document may be reproduced, modified or distributed in any form or manner without prior written permission of EcoVadis.\n\nNo warranty: This document is intended for informational purposes only, and EcoVadis does not warrant the accuracy, reliability, completeness of the information, content, text, and graphics herein, and is subject to change without notice.\n\nLimitation of liability: In no event shall EcoVadis or its subsidiary companies be liable for any direct, indirect, special, incidental or consequential damages arising out of the use of any opinion or information expressly or implicitly contained in this publication.\n\nCopyright (c) 2026 EcoVadis SAS (Paris, France)\nAll Rights Reserved",
+     "content_cn": "IQ Plus 由 Ecovadis SAS 出版，总部位于 43 avenue de la Grande armée 75116 Paris（巴黎），是一家在法国注册的私人股份有限公司（Société à Actions Simplifiée），公司商事登记号为 497 842 914 - R.C.S. Paris。\n\n本文件符合适用于 EcoVadis SAS 的披露要求，依据为欧洲议会与理事会 2024 年 11 月 27 日关于环境、社会与治理（ESG）评级活动透明度与完整性的《欧盟条例 2024/3005》（\"该条例\"），特别是该条例中针对向 ESG 评级用户、被评级对象（rated items）及被评级对象发行人进行披露的要求所设定的第 23 条与第 24 条，以及 2025 年 10 月 15 日适用的监管技术标准。\n\n版权：未经 EcoVadis 事先书面许可，本文件的任何部分不得以任何形式或方式复制、修改或分发。\n\n不提供担保：本文件仅供信息参考之用，EcoVadis 不保证其中信息、内容、文本与图形的准确性、可靠性、完整性，且可能在不另行通知的情况下变更。\n\n责任限制：对于任何因使用本出版物中明确或隐含包含的任何观点或信息而引起的直接、间接、特殊、偶然或后果性损害，EcoVadis 或其子公司均不承担责任。\n\n版权所有 (c) 2026 EcoVadis SAS（法国巴黎）\n保留所有权利",
      "source": "EcoVadis IQ Plus 方法学（官方公开方法学披露文件）",
-     "sourceScope": "official",
      "provenance": "official",
-     "language": "zh",
      "learningLayer": "original"
     }
    ]

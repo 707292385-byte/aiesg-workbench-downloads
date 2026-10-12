@@ -23,9 +23,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "体系定位",
      "content_cn": "SASB 标准是一套基于行业的可持续会计标准，按 SICS®（可持续行业分类系统®）归类为 11 个板块 77 个行业，旨在识别和标准化对投资者决策最相关的可持续问题的披露。SASB 标准暂无官方中文版，本页及本体系各页为英文原件的结构化整理，行业与披露主题中文名为通译参考。",
-     "content": "",
+     "title": "体系定位",
      "source": "SASB Standards 原件（Overview of SASB Standards）",
      "sourceScope": "official",
      "provenance": "official",
@@ -70,9 +69,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "构成说明",
      "content_cn": "每项行业标准由以下五个部分组成；配套指标统一以「行业代码-主题代码.序号」格式编号（如 CG-AA-250a.1）。",
-     "content": "",
+     "title": "构成说明",
      "source": "SASB Standards 原件 Page 4（Overview of SASB Standards）",
      "sourceScope": "official",
      "provenance": "official",
@@ -122,9 +120,8 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "版本演进说明",
      "content_cn": "SASB 标准的版本演进分为五个阶段：从 SASB 基金会时期的行业覆盖，到 ISSB 接管后的持续修订，现行通行版为 2023-12（2025 年 1 月 1 日起生效），金融三行业修订版 2025-12 将于 2027 年 1 月 1 日起适用。",
-     "content": "",
+     "title": "版本演进说明",
      "source": "SASB Standards 版本页；ISSB 2025-12 修订文件",
      "sourceScope": "official",
      "provenance": "official",
