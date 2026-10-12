@@ -60,3 +60,10 @@ body[data-page=knowledge-detail]>.skip,body[data-page=knowledge-detail]>.site-he
 .kd-page[data-system=ifrs]{--kd:#12508f;--kd-soft:#edf3f9}
 .kd-page[data-system=ecovadis]{--kd:#0f7c8c;--kd-soft:#ecf5f6}
 .kd-page[data-system=guozheng]{--kd:#8a2e2e;--kd-soft:#f8efee}
+
+/* 正文行内结构化：散行列表与编号行（20261012） */
+.kd-content-card .kd-blist,.kd-main .kd-blist{margin:.45em 0 .55em;padding-left:1.25em;list-style:disc}
+.kd-blist li{margin:.28em 0;line-height:1.75}
+.kd-blist li::marker{color:var(--kd,#2f7d4f)}
+.kd-numrow{margin:.5em 0;line-height:1.75}
+.kd-numrow .kd-num{font-weight:700;color:var(--kd,#2f7d4f);margin-right:.45em;font-variant-numeric:tabular-nums}

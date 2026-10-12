@@ -16,8 +16,8 @@
  ],
  "sections": [
   {
-   "id": "bc0",
-   "title": "概 述（BC2）",
+   "id": "s1bc2",
+   "title": "S1 结论基础 · BC2 概述",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -35,8 +35,8 @@
    ]
   },
   {
-   "id": "bc1",
-   "title": "合理及可支持的信息（BC10）",
+   "id": "s1bc10",
+   "title": "S1 结论基础 · BC10 合理及可支持的信息",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -54,8 +54,8 @@
    ]
   },
   {
-   "id": "bc2",
-   "title": "合理及可支持的信息（BC11）",
+   "id": "s1bc11",
+   "title": "S1 结论基础 · BC11 合理及可支持的信息",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -73,8 +73,8 @@
    ]
   },
   {
-   "id": "bc3",
-   "title": "合理及可支持的信息（BC12）",
+   "id": "s1bc12",
+   "title": "S1 结论基础 · BC12 合理及可支持的信息",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -92,8 +92,8 @@
    ]
   },
   {
-   "id": "bc4",
-   "title": "背 景（BC26）",
+   "id": "s1bc26",
+   "title": "S1 结论基础 · BC26 背景",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -111,8 +111,8 @@
    ]
   },
   {
-   "id": "bc5",
-   "title": "全球基线以及与国家或地区和监管规则的互操作性（BC27）",
+   "id": "s1bc27",
+   "title": "S1 结论基础 · BC27 全球基线以及与国家或地区和监管规则的互操作性",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -130,8 +130,8 @@
    ]
   },
   {
-   "id": "bc6",
-   "title": "全球基线以及与国家或地区和监管规则的互操作性（BC36）",
+   "id": "s2bc36",
+   "title": "S2 结论基础 · BC36 全球基线以及与国家或地区和监管规则的互操作性",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -149,8 +149,8 @@
    ]
   },
   {
-   "id": "bc7",
-   "title": "目标（BC44）",
+   "id": "s1bc44",
+   "title": "S1 结论基础 · BC44 目标",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -168,8 +168,8 @@
    ]
   },
   {
-   "id": "bc8",
-   "title": "目标（BC45）",
+   "id": "s1bc45",
+   "title": "S1 结论基础 · BC45 目标",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -187,8 +187,8 @@
    ]
   },
   {
-   "id": "bc9",
-   "title": "目标（BC49）",
+   "id": "s1bc49",
+   "title": "S1 结论基础 · BC49 目标",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -206,8 +206,8 @@
    ]
   },
   {
-   "id": "bc10",
-   "title": "概念基础（BC63）",
+   "id": "s1bc63",
+   "title": "S1 结论基础 · BC63 概念基础",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -225,8 +225,8 @@
    ]
   },
   {
-   "id": "bc11",
-   "title": "概念基础（BC68）",
+   "id": "s1bc68",
+   "title": "S1 结论基础 · BC68 概念基础",
    "groupTitle": "S1 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -244,8 +244,8 @@
    ]
   },
   {
-   "id": "bc0",
-   "title": "引言（BC1）",
+   "id": "s2bc1",
+   "title": "S2 结论基础 · BC1 引言",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -263,8 +263,8 @@
    ]
   },
   {
-   "id": "bc1",
-   "title": "概述（BC2）",
+   "id": "s2bc2",
+   "title": "S2 结论基础 · BC2 概述",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -282,8 +282,8 @@
    ]
   },
   {
-   "id": "bc2",
-   "title": "概述（BC3）",
+   "id": "s2bc3",
+   "title": "S2 结论基础 · BC3 概述",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -301,8 +301,8 @@
    ]
   },
   {
-   "id": "bc3",
-   "title": "重要性（BC7）",
+   "id": "s2bc7",
+   "title": "S2 结论基础 · BC7 重要性",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -320,8 +320,8 @@
    ]
   },
   {
-   "id": "bc4",
-   "title": "重要性（BC8）",
+   "id": "s2bc8",
+   "title": "S2 结论基础 · BC8 重要性",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -339,8 +339,8 @@
    ]
   },
   {
-   "id": "bc5",
-   "title": "背景（BC9）",
+   "id": "s2bc9",
+   "title": "S2 结论基础 · BC9 背景",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -358,8 +358,8 @@
    ]
   },
   {
-   "id": "bc6",
-   "title": "背景（BC10）",
+   "id": "s2bc10",
+   "title": "S2 结论基础 · BC10 背景",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -377,8 +377,8 @@
    ]
   },
   {
-   "id": "bc7",
-   "title": "背景（BC12）",
+   "id": "s2bc12",
+   "title": "S2 结论基础 · BC12 背景",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -396,8 +396,8 @@
    ]
   },
   {
-   "id": "bc8",
-   "title": "背景（BC13）",
+   "id": "s2bc13",
+   "title": "S2 结论基础 · BC13 背景",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -415,8 +415,8 @@
    ]
   },
   {
-   "id": "bc9",
-   "title": "相称性（BC15）",
+   "id": "s2bc15",
+   "title": "S2 结论基础 · BC15 相称性",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -434,8 +434,8 @@
    ]
   },
   {
-   "id": "bc10",
-   "title": "气候相关风险和机遇（BC17）",
+   "id": "s2bc17",
+   "title": "S2 结论基础 · BC17 气候相关风险和机遇",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
@@ -453,8 +453,8 @@
    ]
   },
   {
-   "id": "bc11",
-   "title": "气候相关风险和机遇（BC18）",
+   "id": "s2bc18",
+   "title": "S2 结论基础 · BC18 气候相关风险和机遇",
    "groupTitle": "S2 结论基础",
    "learningLayer": "original",
    "blocks": [
