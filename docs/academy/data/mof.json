@@ -36,44 +36,6 @@
  ],
  "groups": [
   {
-   "id": "system",
-   "title": "体系与定位",
-   "items": [
-    {
-     "id": "mof-framework",
-     "title": "准则体系与实施安排",
-     "eyebrow": "体系总览",
-     "summary": "基本准则、具体准则与应用指南的三层结构，已发布文件与征求意见中的文件，以及与交易所指引的关系。",
-     "tags": [
-      "准则体系",
-      "实施安排"
-     ],
-     "status": "已发布",
-     "officialUrl": "https://kjs.mof.gov.cn/kjs.mof.gov.cn/",
-     "sourceNote": "财政部官方发布文件；本页为 AI 整理的解析内容，请以官方现行文件为准。",
-     "detailFile": "data/mof/mof-framework.json",
-     "group": "体系与定位",
-     "relations": {
-      "internal": [
-       {
-        "id": "mof-basic",
-        "title": "企业可持续披露准则——基本准则（试行）"
-       },
-       {
-        "id": "mof-climate",
-        "title": "企业可持续披露准则第1号——气候（试行）"
-       },
-       {
-        "id": "mof-industry-overview",
-        "title": "气候准则行业应用指南（九行业）"
-       }
-      ],
-      "external": []
-     }
-    }
-   ]
-  },
-  {
    "id": "basic",
    "title": "基本准则",
    "items": [
@@ -93,10 +55,6 @@
      "group": "基本准则",
      "relations": {
       "internal": [
-       {
-        "id": "mof-framework",
-        "title": "准则体系与实施安排"
-       },
        {
         "id": "mof-basic-guide",
         "title": "《基本准则（试行）》应用指南"

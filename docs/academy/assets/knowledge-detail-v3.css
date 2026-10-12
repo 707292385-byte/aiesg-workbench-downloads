@@ -67,3 +67,26 @@ body[data-page=knowledge-detail]>.skip,body[data-page=knowledge-detail]>.site-he
 .kd-blist li::marker{color:var(--kd,#2f7d4f)}
 .kd-numrow{margin:.5em 0;line-height:1.75}
 .kd-numrow .kd-num{font-weight:700;color:var(--kd,#2f7d4f);margin-right:.45em;font-variant-numeric:tabular-nums}
+
+/* 相关文件：单列紧凑行式（20261012） */
+.kd-rel-list{display:grid;gap:6px}
+.kd-rel-list a,.kd-rel-list article{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 13px;border:1px solid #dce7e1;border-radius:10px;background:#fff;text-decoration:none;color:#254135}
+.kd-rel-list a{transition:border-color .15s,background .15s}
+.kd-rel-list a:hover{border-color:var(--kd);background:var(--kd-soft)}
+.kd-rel-list b{font-size:13px;font-weight:600;line-height:1.5}
+.kd-rel-list a span{flex:none;color:var(--kd);font-size:11px;font-weight:700;white-space:nowrap}
+/* 官方发布文件：单列行式、收紧 */
+.kd-file-list{display:grid;gap:6px;margin-top:13px}
+.kd-file-list a{display:flex;align-items:baseline;justify-content:space-between;gap:14px;border:1px solid #dce7e1;border-radius:10px;padding:9px 13px;color:#315342;text-decoration:none}
+.kd-file-list a.is-current{border-color:var(--kd);background:var(--kd-soft)}
+.kd-file-list b{font-size:12.5px;font-weight:600;line-height:1.55}
+.kd-file-list small{flex:none;color:var(--kd);font-size:10px;font-weight:700;white-space:nowrap}
+/* 定性描述/定量指标/目标设定：标签行 */
+.kd-tagrow{display:flex;gap:9px;align-items:flex-start;margin:.5em 0}
+.kd-tagrow b{flex:none;background:var(--kd-soft);color:var(--kd);border-radius:5px;padding:2px 8px;font-size:11px;font-weight:800;line-height:1.5;margin-top:1px}
+.kd-tagrow span{min-width:0;color:#3b5748;font-size:13px;line-height:1.75;white-space:pre-line}
+/* 财政部体系正文收紧 */
+.kd-page[data-system=mof] .kd-card-body p{font-size:13.5px;line-height:1.72}
+.kd-page[data-system=mof] .kd-gt-lead p,.kd-page[data-system=mof] .kd-gt-body>p{font-size:12.5px;line-height:1.7}
+.kd-page[data-system=mof] .kd-gt-node>h4{line-height:1.45}
+.kd-card-grid p{white-space:pre-line}
