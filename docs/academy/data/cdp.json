@@ -1,0 +1,117 @@
+{
+  "id": "cdp",
+  "title": "CDP 企业披露与评分",
+  "titleEn": "CDP (Carbon Disclosure Project)",
+  "eyebrow": "全球环境信息披露与评分平台",
+  "accent": "#00843d",
+  "description": "CDP 运营全球环境信息披露平台，代表投资者与采购方邀请企业披露气候、水安全、森林等环境数据，并给出从 D- 到 A 的字母评分。2026 年起问卷与 ISSB 气候标准保持一致。",
+  "issuer": "CDP (formerly Carbon Disclosure Project)",
+  "version": "2026 披露周期：问卷与方法学 V1.0（2026 年 4 月发布）",
+  "updated": "2026.10.14",
+  "category": "assessment",
+  "topics": 6,
+  "sourceNote": "官方文件：CDP_Full_Corporate_Questionnaire_Overview_2026、CDP_Full_Corporate_Scoring_Introduction_2026、CDP_Scoring_Category_Weightings_2026_-_Climate_Change、CDP_Climate_Change_Scoring_Essential_Criteria_2026、CDP_Water_Security_Scoring_Essential_Criteria_2026、CDP_Forests_Scoring_Essential_Criteria_2026、Why_disclose_to_CDP_in_2026_-_China。",
+  "notice": "本页为个人整理的学习索引，不是 CDP 官方产品。CDP 每年更新问卷与评分方法；2026 年新增海洋（Ocean）议题数据点，并首次为金融服务部门给出公开的水安全与森林评分。正式填报请以 CDP 当期官方材料为准。",
+  "goals": [
+    "理解 CDP 平台定位与评分价值",
+    "掌握整合企业问卷的 13 个模块结构",
+    "搞清 D- 到 A 的四级评分与字母等级",
+    "了解气候、水、森林三大议题的评分要点"
+  ],
+  "groups": [
+    {
+      "title": "入门与基础",
+      "items": [
+        {
+          "id": "cdp-basics",
+          "title": "CDP 是什么",
+          "titleEn": "About CDP",
+          "summary": "平台定位、使用方、评分价值与框架一致性。",
+          "detailFile": "data/cdp/cdp-basics.json"
+        },
+        {
+          "id": "cdp-questionnaire",
+          "title": "整合企业问卷",
+          "titleEn": "Full Corporate Questionnaire",
+          "summary": "2026 年 13 个模块与 6 类环境议题。",
+          "detailFile": "data/cdp/cdp-questionnaire.json"
+        }
+      ]
+    },
+    {
+      "title": "评分机制",
+      "items": [
+        {
+          "id": "cdp-scoring",
+          "title": "评分怎么算",
+          "titleEn": "Scoring Methodology",
+          "summary": "四级阶梯、字母等级、阈值与加权。",
+          "detailFile": "data/cdp/cdp-scoring.json"
+        }
+      ]
+    },
+    {
+      "title": "环境议题评分",
+      "items": [
+        {
+          "id": "cdp-climate",
+          "title": "气候评分",
+          "titleEn": "Climate Change",
+          "summary": "17 个评分类别、权重与 essential criteria。",
+          "detailFile": "data/cdp/cdp-climate.json"
+        },
+        {
+          "id": "cdp-water",
+          "title": "水安全评分",
+          "titleEn": "Water Security",
+          "summary": "独立水安全评分与领导力/A 名单封顶。",
+          "detailFile": "data/cdp/cdp-water.json"
+        },
+        {
+          "id": "cdp-forest",
+          "title": "森林评分",
+          "titleEn": "Forests",
+          "summary": "七大森林风险大宗与单一森林评分。",
+          "detailFile": "data/cdp/cdp-forest.json"
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "收到邀请或自主披露",
+      "desc": "资本市场联署机构、供应链成员或政府发出披露邀请；企业也可自主选择披露。"
+    },
+    {
+      "step": "2",
+      "title": "问卷设置选议题",
+      "desc": "在问卷设置阶段选择最相关的环境议题，决定呈现哪些数据点。"
+    },
+    {
+      "step": "3",
+      "title": "填报整合问卷",
+      "desc": "按 13 个模块填报；气候为必答，森林/水安全按邀请或自选呈现。"
+    },
+    {
+      "step": "4",
+      "title": "提交回复",
+      "desc": "回复窗口 6 月 15 日当周开启，有资格获评分的截止为 9 月 14 日当周。"
+    },
+    {
+      "step": "5",
+      "title": "CDP 评分",
+      "desc": "CDP 联合经认证的评分伙伴，按四级方法与类别权重给出字母评分。"
+    },
+    {
+      "step": "6",
+      "title": "发布与查看",
+      "desc": "评分于 11 月 30 日当周在 CDP 门户可查看，A 名单公开。"
+    },
+    {
+      "step": "7",
+      "title": "用于资本市场",
+      "desc": "投资者、银行、交易所与指数使用 CDP 数据与评分支撑决策。"
+    }
+  ]
+}

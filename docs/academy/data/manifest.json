@@ -1,6 +1,6 @@
 {
  "version": "1.0.0",
- "generatedAt": "2026-10-13T10:00:00.000Z",
+ "generatedAt": "2026-10-14T00:30:00.000Z",
  "standards": [
   {
    "id": "msci",
@@ -155,6 +155,76 @@
    "groups": 3,
    "topics": 7,
    "data": "data/sbti.json"
+  },
+  {
+   "id": "ghg",
+   "title": "温室气体核算体系（GHG Protocol）企业标准",
+   "titleEn": "GHG Protocol — Corporate Accounting and Reporting Standard",
+   "eyebrow": "企业温室气体排放核算方法学",
+   "accent": "#1d7a8c",
+   "description": "由世界资源研究所（WRI）与世界可持续发展工商理事会（WBCSD）开发的《温室气体核算体系：企业核算与报告标准》，是企业编制与报告温室气体排放清单的国际通行基础方法。它界定了组织边界、运营边界与范围一/二/三的核算框架。",
+   "issuer": "世界资源研究所（WRI）与世界可持续发展工商理事会（WBCSD）",
+   "version": "《企业核算与报告标准（修订版）》（2004 年修订版，现行企业核算基础）",
+   "updated": "2026.10.14",
+   "groups": 2,
+   "topics": 6,
+   "data": "data/ghg.json"
+  },
+  {
+   "id": "tcfd",
+   "title": "TCFD 气候相关财务信息披露",
+   "titleEn": "Task Force on Climate-related Financial Disclosures — Recommendations",
+   "eyebrow": "气候披露框架原型 · 四支柱与 11 项建议",
+   "accent": "#0f5e8c",
+   "description": "金融稳定理事会（FSB）下设的 TCFD 于 2017 年发布气候相关财务信息披露建议，以治理、战略、风险管理、指标和目标四大支柱组织披露，是现行气候披露框架的原型与基础。",
+   "issuer": "金融稳定理事会（FSB）气候相关财务信息披露工作组（TCFD）",
+   "version": "2017 年 6 月《最终建议》；2021 年 10 月《指标、目标与转型计划指南》；2023 年发布最后一份《进展报告》后解散",
+   "updated": "2026.10.14",
+   "groups": 3,
+   "topics": 6,
+   "data": "data/tcfd.json"
+  },
+  {
+   "id": "cdp",
+   "title": "CDP 企业披露与评分",
+   "titleEn": "CDP (Carbon Disclosure Project)",
+   "eyebrow": "全球环境信息披露与评分平台",
+   "accent": "#00843d",
+   "description": "CDP 运营全球环境信息披露平台，代表投资者与采购方邀请企业披露气候、水安全、森林等环境数据，并给出从 D- 到 A 的字母评分。2026 年起问卷与 ISSB 气候标准保持一致。",
+   "issuer": "CDP (formerly Carbon Disclosure Project)",
+   "version": "2026 披露周期：问卷与方法学 V1.0（2026 年 4 月发布）",
+   "updated": "2026.10.14",
+   "groups": 3,
+   "topics": 6,
+   "data": "data/cdp.json"
+  },
+  {
+   "id": "assurance",
+   "title": "ESG 鉴证与审验",
+   "titleEn": "ESG Assurance & Verification",
+   "eyebrow": "可持续信息鉴证方法体系",
+   "accent": "#0e7c86",
+   "description": "覆盖 AA1000AS v3、ISSA 5000 与中国财政部可持续信息鉴证业务准则第 6101 号的鉴证与审验框架：从原则遵循与类型划分，到保证程度、结论形式与鉴证实务。",
+   "issuer": "AccountAbility（AA1000 系列）· IAASB（ISSA 5000）· 中华人民共和国财政部（第 6101 号）",
+   "version": "AA1000AS v3（现行）/ ISSA 5000（2024 年 11 月发布，2026 年 12 月 15 日起生效）/ 财政部 6101 号（财会〔2026〕1 号，2026 年 1 月 9 日印发，试行、自愿实施）",
+   "updated": "2026.10.14",
+   "groups": 3,
+   "topics": 6,
+   "data": "data/assurance.json"
+  },
+  {
+   "id": "tnfd",
+   "title": "TNFD 自然相关财务披露",
+   "titleEn": "Taskforce on Nature-related Financial Disclosures",
+   "eyebrow": "自然相关风险、依赖与影响的披露框架",
+   "accent": "#1f7a5c",
+   "description": "TNFD（自然相关财务披露工作组）于 2023 年 9 月发布建议，沿用 TCFD 四大支柱结构，将披露从气候扩展到自然，覆盖组织对自然的依赖、影响、风险与机遇，并提供 LEAP 识别评估方法与核心全球指标。",
+   "issuer": "自然相关财务披露工作组（TNFD）",
+   "version": "TNFD 建议（2023 年 9 月）",
+   "updated": "2026.10.14",
+   "groups": 2,
+   "topics": 6,
+   "data": "data/tnfd.json"
   }
  ]
 }

@@ -1,0 +1,287 @@
+{
+  "id": "assur-issa5000",
+  "title": "ISSA 5000",
+  "eyebrow": "IAASB · 合理/有限保证",
+  "summary": "ISSA 5000 是 IAASB 发布的国际可持续鉴证通用准则，覆盖合理保证与有限保证两类业务及报告要素。",
+  "tags": [
+    "ISSA 5000",
+    "合理保证",
+    "有限保证"
+  ],
+  "group": "三大标准",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.iaasb.org/",
+  "sourceNote": "本页按 ISSA 5000 官方英文原文整理；悬浮「原文」可查看英文原文。",
+  "sections": [
+    {
+      "id": "scope",
+      "title": "适用范围与生效",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "ISSA 5000 处理针对可持续信息的鉴证业务，适用于所有类型的可持续信息与所有实体，无论信息如何呈现；同时处理合理保证与有限保证两类业务。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "适用于所有可持续信息",
+              "content": "无论信息以何种形式呈现，准则均适用。",
+              "quote": {
+                "text": "This ISSA applies to all assurance engagements on sustainability information. It applies to all types of sustainability information, regardless of how that information is presented.",
+                "source": "ISSA 5000, Scope, para. 8"
+              }
+            },
+            {
+              "title": "合理与有限保证并重",
+              "content": "除非另说明，每条要求同时适用于两类保证业务。",
+              "quote": {
+                "text": "This ISSA deals with both reasonable and limited assurance engagements. Unless otherwise stated, each requirement of this ISSA applies to both reasonable and limited assurance engagements.",
+                "source": "ISSA 5000, Scope, para. 9"
+              }
+            },
+            {
+              "title": "仅规范鉴证（attestation）业务",
+              "content": "准则只处理由其他方计量/评价事项的鉴证业务，不含直接鉴证。",
+              "quote": {
+                "text": "This ISSA deals only with attestation engagements. Therefore, references in this ISSA to \"assurance engagement\" or \"engagement\" mean an attestation engagement.",
+                "source": "ISSA 5000, Scope, para. 10"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "standard",
+          "content_cn": "ISSA 5000 自 2026 年 12 月 15 日起对报告期开始日或特定日期在此之后的可持续信息鉴证业务生效，允许提前采用。",
+          "quote": {
+            "text": "This ISSA is effective for assurance engagements on sustainability information reported: (a) for periods beginning on or after December 15, 2026; or (b) as at a specific date on or after December 15, 2026. Earlier application of this ISSA is permitted.",
+            "source": "ISSA 5000, Effective Date, para. 15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "objectives",
+      "title": "鉴证业务的目标",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "执业者（practitioner）开展可持续鉴证业务的目标有三：获取合理或有限保证、通过书面报告发表结论、并按准则要求进一步沟通。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "获取保证",
+              "content": "就可持续信息是否不存在重大错报，获取合理或有限保证。"
+            },
+            {
+              "title": "发表结论",
+              "content": "通过书面报告表达合理或有限保证结论，并说明结论基础。"
+            },
+            {
+              "title": "进一步沟通",
+              "content": "按 ISSA 5000 及其他相关准则要求作进一步沟通。"
+            },
+            {
+              "title": "无法获保证时",
+              "content": "当无法获得保证且保留结论不足时，应免责结论或在允许时退出业务。",
+              "quote": {
+                "text": "In all cases when reasonable assurance or limited assurance, as applicable, cannot be obtained and a qualified conclusion in the practitioner’s assurance report is insufficient in the circumstances for purposes of reporting to the intended users, this ISSA requires the practitioner to disclaim a conclusion or withdraw from the engagement, where withdrawal is possible under applicable law or regulation.",
+                "source": "ISSA 5000, Objectives, para. 17"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "目标原文（a）–（c）概括如下：",
+              "title": "目标原文（a）–（c）概括如下",
+              "quote": {
+                "text": "In conducting a sustainability assurance engagement, the objectives of the practitioner are: (a) To obtain reasonable assurance or limited assurance, as applicable, about whether the sustainability information is free from material misstatement; (b) To express a conclusion on the sustainability information through a written report that conveys a reasonable assurance or a limited assurance conclusion, as applicable, and describes the basis for the conclusion; and (c) To communicate further as required by this ISSA and any other relevant ISSA.",
+                "source": "ISSA 5000, Objectives, para. 16"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defs",
+      "title": "关键定义：合理保证与有限保证",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "鉴证业务",
+              "quote": {
+                "text": "An engagement in which a practitioner aims to obtain sufficient appropriate evidence in order to express a conclusion designed to enhance the degree of confidence of the intended users about the sustainability information.",
+                "source": "ISSA 5000, Definitions, para. 18"
+              },
+              "desc": "执业者获取充分适当证据以发表结论、增进预期使用者信心的业务。"
+            },
+            {
+              "title": "合理保证",
+              "quote": {
+                "text": "Reasonable assurance engagement – An assurance engagement in which the practitioner reduces engagement risk to an acceptably low level in the circumstances of the engagement as the basis for the practitioner’s conclusion. The practitioner’s conclusion is expressed in a form that conveys the practitioner’s opinion on the outcome of the measurement or evaluation, including presentation and disclosure, of the sustainability matters against the applicable criteria;",
+                "source": "ISSA 5000, Definitions, para. 18(a)"
+              },
+              "desc": "将业务风险降至可接受的低水平，以意见形式表达对计量/评价结果的结论。"
+            },
+            {
+              "title": "有限保证",
+              "quote": {
+                "text": "Limited assurance engagement – An assurance engagement in which the practitioner reduces engagement risk to a level that is acceptable in the circumstances of the engagement but where that risk is greater than for a reasonable assurance engagement as the basis for expressing a conclusion in a form that conveys whether, based on the procedures performed and evidence obtained, a matter(s) has come to the practitioner’s attention to cause the practitioner to believe the sustainability information is materially misstated.",
+                "source": "ISSA 5000, Definitions, para. 18(b)"
+              },
+              "desc": "将风险降至可接受水平（高于合理保证），以“是否注意到重大错报”形式表达。"
+            },
+            {
+              "title": "证据",
+              "quote": {
+                "text": "Information, after applying assurance procedures, that the practitioner uses to draw conclusions that form the basis for the practitioner’s assurance conclusion and report. Sufficiency of evidence is the measure of the quantity of evidence. Appropriateness of evidence is the measure of the quality of evidence.",
+                "source": "ISSA 5000, Definitions, para. 18"
+              },
+              "desc": "执业者用以形成结论的信息；充分性衡量数量，适当性衡量质量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "title": "鉴证报告的形式要素",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "标题",
+              "content": "明确为独立执业者的有限、合理或二者结合的鉴证报告。",
+              "quote": {
+                "text": "A title that clearly indicates the report is an independent practitioner’s limited, reasonable or combined limited and reasonable assurance report.",
+                "source": "ISSA 5000, Assurance Report Content, para. 190(a)"
+              }
+            },
+            {
+              "title": "书面与清晰",
+              "content": "报告须为书面，清晰表达合理保证意见或有限保证结论。",
+              "quote": {
+                "text": "The assurance report shall be in writing and shall contain a clear expression of the practitioner’s reasonable assurance opinion or limited assurance conclusion about the sustainability information.",
+                "source": "ISSA 5000, Preparing the Assurance Report, para. 188"
+              }
+            },
+            {
+              "title": "结论须分离",
+              "content": "结论须与强调事项、其他事项、建议等不影响结论的信息明确区分。",
+              "quote": {
+                "text": "The practitioner’s conclusion shall be clearly separated from information or explanations that are not intended to affect the practitioner’s conclusion, including any:",
+                "source": "ISSA 5000, Preparing the Assurance Report, para. 189"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "ISSA 5000 规定鉴证报告须为书面，并至少包含标题、收件人、结论、结论基础、其他信息、责任划分、固有限制、执业者责任、工作概述（有限保证）、签名、地点与日期等要素。",
+              "title": "ISSA 5000 规定鉴证报告…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conclusion-form",
+      "title": "结论的两种表达形式",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "保证类型",
+              "表达形式",
+              "措辞要点"
+            ],
+            [
+              "合理保证",
+              "积极方式（positive form）",
+              "可持续信息在所有重大方面按适用准则编制或公允列报"
+            ],
+            [
+              "有限保证",
+              "消极方式",
+              "基于已实施程序与证据，是否注意到使信息重大错报的事项"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "合理保证以积极方式表达，有限保证以“是否注意到重大错报事项”的消极方式表达；二者均须指明实体、信息、保证水平、期间与适用准则。",
+              "title": "合理保证以积极方式表达…",
+              "quote": {
+                "text": "For reasonable assurance, shall be expressed in a positive form, that the sustainability information is prepared or fairly presented, in all material respects, in accordance with the applicable criteria; or b. for limited assurance, shall be expressed in a form that conveys whether, based on the procedures performed and evidence obtained, a matter(s) has come to the practitioner’s attention to cause the practitioner to believe that the sustainability information is not prepared or not fairly presented, in all material respects, in accordance with the applicable criteria;",
+                "source": "ISSA 5000, Assurance Report Content, para. 190(c)(vi)",
+                "related": {
+                  "label": "关联知识：IFRS S2 气候相关指标",
+                  "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                  "text": "主体应披露关于其设定和复核每个目标的方法以及如何监控每个目标实现进展的信息，包括：",
+                  "source": "IFRS S2：指标和目标（官方中文版）"
+                }
+              }
+            },
+            {
+              "content": "ISSA 5000 可与特定司法管辖区的其他鉴证准则一并遵守；只有当二者无冲突、且另一准则的报告包含 ISSA 5000 第 190 段全部要素时，报告方可同时提及两套准则（第 197 段）。",
+              "title": "ISSA 5000 可与特定司法…"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "assur-mof6101",
+        "title": "中国准则 6101 号"
+      },
+      {
+        "id": "assur-practice",
+        "title": "鉴证实务"
+      }
+    ],
+    "external": [
+      {
+        "title": "IAASB 官网",
+        "url": "https://www.iaasb.org/"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 指标和目标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      }
+    ]
+  }
+}

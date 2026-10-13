@@ -1,0 +1,297 @@
+{
+  "id": "tnfd-metrics",
+  "title": "指标与目标",
+  "eyebrow": "核心与补充指标 · 目标设定",
+  "summary": "披露评估管理自然相关问题的指标（核心全球指标）与目标，及实现进展。",
+  "tags": [
+    "指标",
+    "目标",
+    "核心全球指标"
+  ],
+  "group": "四大支柱",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）及 Annex 1/2 整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "指标与目标支柱是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "指标与目标支柱披露组织在自然相关问题上的绩效，含已实现或依法须达成的目标进展。TNFD 采用「领先指标」思路。",
+          "quote": {
+            "text": "Metrics and targets: The organisation’s performance in relation to nature-related issues, including progress towards any targets the organisation has set or is required to meet by law or regulation.",
+            "source": "TNFD Recommendations, September 2023, p.958"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "披露用于评估和管理重大自然相关依赖、影响、风险与机遇的指标与目标。",
+          "quote": {
+            "text": "Disclose the metrics and targets used to assess and manage material nature-related dependencies, impacts, risks and opportunities.",
+            "source": "TNFD Recommendations, September 2023, p.1012"
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "核心全球指标（建议 A/B）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "TNFD 核心披露指标共 14 项，围绕依赖与影响（9 项，对应影响驱动因素）及风险与机遇。按「遵守或解释」基础披露。",
+          "quote": {
+            "text": "The TNFD’s recommended core disclosure metrics are organised around 14 core global indicators relating to:",
+            "source": "TNFD Recommendations, September 2023, p.1846"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "指标类别",
+              "示例指标",
+              "对应界域/驱动"
+            ],
+            [
+              "依赖与影响 C1",
+              "总空间足迹（km²）",
+              "土地/淡水/海洋用地变化"
+            ],
+            [
+              "依赖与影响",
+              "土地利用变化范围（km²）",
+              "生态系统类型与活动"
+            ],
+            [
+              "依赖与影响",
+              "水体取用/排放/质量",
+              "淡水"
+            ],
+            [
+              "依赖与影响",
+              "GHG 排放",
+              "大气（气候）"
+            ],
+            [
+              "依赖与影响 C5",
+              "生态系统状况 / 物种灭绝风险（占位）",
+              "状态指标"
+            ],
+            [
+              "风险与机遇 C7",
+              "受转型/物理风险影响的资产与收支",
+              "汇总风险"
+            ],
+            [
+              "风险与机遇 C7",
+              "自然相关机遇的资本支出",
+              "汇总机遇"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "指标披露要求",
+          "cards": [
+            {
+              "title": "A 风险与机遇指标",
+              "content": "按战略与风险管理流程，披露评估管理自然相关风险与机遇的指标。",
+              "quote": {
+                "text": "A. Disclose the metrics used by the organisation to assess and manage material nature-related risks and opportunities in line with its strategy and risk management process .",
+                "source": "TNFD Recommendations, September 2023, p.1016"
+              }
+            },
+            {
+              "title": "B 依赖与影响指标",
+              "content": "披露评估管理对自然的依赖与影响的指标，含空间足迹与状态指标。",
+              "quote": {
+                "text": "B. Disclose the metrics used by the organisation to assess and manage dependencies and impacts on nature .",
+                "source": "TNFD Recommendations, September 2023, p.1018"
+              }
+            },
+            {
+              "title": "遵守或解释",
+              "content": "核心指标按「遵守或解释」基础披露，无法报告须说明原因与改进计划。",
+              "quote": {
+                "text": "These metrics should be reported on a comply or explain basis, with the exception of the placeholder metrics identified below.",
+                "source": "TNFD Recommendations, September 2023, p.1864"
+              }
+            },
+            {
+              "title": "九项依赖影响指标",
+              "content": "九项核心依赖与影响指标对应 IPBES 识别的自然变化驱动因素。",
+              "quote": {
+                "text": "The nine core global dependency and impact indicators relate to impact drivers.",
+                "source": "TNFD Recommendations, September 2023, p.1878"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "气候指标与 ISSB S2 衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "范围1/2/3 排放衔接",
+              "content": "TNFD 气候指标沿用 GHG Protocol 范围1/2/3，与 IFRS S2、财政部气候准则口径一致。",
+              "quote": {
+                "text": "Refer to ISSB’s IFRS-S2 Climate-related Disclosures Standard",
+                "source": "TNFD Recommendations, September 2023, Annex 1 Table 6"
+              },
+              "related": {
+                "label": "关联知识：IFRS S2 指标和目标",
+                "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                "text": "目标是温室气体排放总量目标还是温室气体净排放量目标；如果主体披露温室气体净排放量目标，则还需单独披露相关温室气体排放总量目标（参见 B68 段至 B69 段）",
+                "source": "《国际财务报告准则S1号》（2023）官方中文版"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候驱动的核心指标（GHG 排放）直接引用 ISSB 的 IFRS S2 气候披露准则，实现气候与自然一体报告。",
+              "title": "气候驱动的核心指标（GHG 排放…",
+              "quote": {
+                "text": "Refer to ISSB’s IFRS-S2 Climate-related Disclosures Standard",
+                "source": "TNFD Recommendations, September 2023, Annex 1 Table 6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "targets",
+      "title": "建议 C：目标设定与进展",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "目标披露要点",
+          "cards": [
+            {
+              "title": "目标类型",
+              "content": "含组织自设目标与法律法规要求目标，覆盖依赖、影响、风险与机遇。"
+            },
+            {
+              "title": "进展绩效",
+              "content": "披露实现进展，含量化与定性信息。"
+            },
+            {
+              "title": "科学基础",
+              "content": "可参考 SBTN 自然目标方法与 TNFD 目标设定补充指南。"
+            },
+            {
+              "title": "跨体系衔接",
+              "content": "与 IFRS S2、财政部气候准则的目标披露口径相互参照。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "描述组织用于管理自然相关问题的目标，以及相对于这些目标的实现进展。TNFD 鼓励设定科学基础的自然目标（与 SBTN 协同）。",
+              "title": "描述组织用于管理自然相关问题的目标…",
+              "quote": {
+                "text": "C. Describe the targets and goals used by the organisation to manage nature-related dependencies, impacts, risks and opportunities and its performance against these.",
+                "source": "TNFD Recommendations, September 2023, p.1020"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "title": "补充指标（Annex 2）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "title": "补充指标示例",
+          "cards": [
+            {
+              "title": "影响驱动",
+              "content": "土地利用强度、废水处理与再利用、污染物去除。"
+            },
+            {
+              "title": "生态系统服务",
+              "content": "依赖或影响的生态服务提供能力与健康状况。"
+            },
+            {
+              "title": "响应指标",
+              "content": "有时限与可量化目标的比例、站点覆盖比例、自然相关投资。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "组织在核心指标之外，可据行业与生物群系披露补充指标（如土地利用强度、废水处理、生态系统服务、响应指标），以更准确表达其重大自然问题。",
+              "title": "组织在核心指标之外…",
+              "quote": {
+                "text": "A small set of core metrics – ‘core global metrics’ that apply to all sectors and ‘core sector metrics’ for each sector – to be disclosed on a comply or explain basis; and",
+                "source": "TNFD Recommendations, September 2023, p.1549"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-leap",
+        "title": "LEAP 方法"
+      },
+      {
+        "id": "tnfd-risk",
+        "title": "风险管理"
+      }
+    ],
+    "external": [
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 指标和目标",
+        "standard": "ifrs",
+        "system": "ISSB"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof",
+        "system": "财政部准则"
+      },
+      {
+        "id": "gri-101",
+        "title": "GRI 101：生物多样性",
+        "standard": "gri",
+        "system": "GRI"
+      }
+    ]
+  }
+}

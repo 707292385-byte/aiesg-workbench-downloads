@@ -1,0 +1,264 @@
+{
+  "id": "tcfd-metrics",
+  "title": "指标与目标",
+  "eyebrow": "范围 1/2/3 与目标",
+  "summary": "指标与目标支柱要求披露评估气候风险的指标，包括范围 1/2/3 温室气体排放，以及相关目标与进展。",
+  "tags": [
+    "气候指标",
+    "范围 1/2/3",
+    "气候目标"
+  ],
+  "group": "四支柱详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+  "sourceNote": "本页按 TCFD《最终建议》指标和目标章节整理；悬浮「原文」可查看官方中译原文。现行温室气体核算请以 GHG Protocol、IFRS S2 与财政部气候准则为准。",
+  "sections": [
+    {
+      "id": "position",
+      "title": "指标与目标支柱的定位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "指标与目标支柱披露用于评估和管理气候相关风险与机遇的指标和目标。",
+          "quote": {
+            "text": "披露用于评估和管理气候相关风险和机遇的重要指标和目标。",
+            "source": "《TCFD 建议最终报告》表 4 指标和目标"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indicators",
+      "title": "气候相关指标",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "战略与风险流程指标",
+              "content": "披露组织依战略和风险管理流程评估气候风险与机遇所使用的指标。",
+              "quote": {
+                "text": "披露组织根据其战略和风险管理流程，评估与气候相关风险和机遇所使用的指标。",
+                "source": "《TCFD 建议最终报告》表 4 指标和目标 a"
+              }
+            },
+            {
+              "title": "水、能源、土地与废弃物",
+              "content": "如相关且适用，纳入与水、能源、土地利用和废弃物管理相关的气候风险指标。"
+            },
+            {
+              "title": "薪酬挂钩",
+              "content": "若气候相关问题足够重要，考虑是否及如何将相关绩效指标纳入薪酬政策。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "范围 1/2/3 温室气体排放",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "范围",
+              "定义（GHG Protocol）",
+              "TCFD 建议"
+            ],
+            [
+              "范围 1 直接排放",
+              "组织拥有或控制之来源的直接温室气体排放",
+              "建议披露直接排放（范围1）"
+            ],
+            [
+              "范围 2 间接排放",
+              "外购电力、蒸汽、供暖或制冷产生的间接排放",
+              "建议披露间接排放（范围2）"
+            ],
+            [
+              "范围 3 其他间接排放",
+              "价值链中除范围2外的间接排放（如需）",
+              "建议披露其他间接排放（范围3）（如需）"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "温室气体排放量应根据《温室气体核算体系》的方法计算，以便在组织和管辖范围内汇总与比较。",
+          "quote": {
+            "text": "披露直接排放（范围1）、间接排放（范围2）、其他间接排放（范围3）（如需）的温室气体（GHG）排放及相关风险。",
+            "source": "《TCFD 建议最终报告》表 4 指标和目标 b"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "温室气体排放量应按照《温室气体核算体系》方法计算，以支持跨组织与跨管辖区的汇总比较。",
+          "quote": {
+            "text": "温室气体排放量应根据《温室气体核算体系》的方法进行计算，以便在组织和管辖范围内进行汇总和比较。",
+            "source": "《TCFD 建议最终报告》C 指标和目标 b"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "范围 1 与范围 2 温室气体排放量是评估气候相关风险的基础信息，所有组织均应披露其绝对值，无需考虑重要性评估。",
+              "title": "范围 1 与范围 2 温室气体排…",
+              "quote": {
+                "text": "在重要性评估的应用方面，工作组认为，所有组织均应披露范围1和范围2的温室气体排放量绝对值，无需考虑重要性评估。",
+                "source": "TCFD《指标、目标与转型计划指南》"
+              }
+            },
+            {
+              "content": "除直接排放（范围 1）与间接排放（范围 2）外，组织还应视需要提供其他间接排放（范围 3）及其相关风险的信息。",
+              "title": "除直接排放（范围 1）与间接排放…",
+              "quote": {
+                "text": "组织应提供直接排放和间接排放的温室气体相关信息。如有需要，还需提供其他间接排放的温室气体以及相关风险的信息。",
+                "source": "《TCFD 建议最终报告》C 指标和目标 b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "targets",
+      "title": "气候相关目标",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "绝对或强度",
+              "content": "说明目标是绝对目标还是按强度分级。"
+            },
+            {
+              "title": "时间框架",
+              "content": "说明目标所用的时间框架与计量进度的基准年。"
+            },
+            {
+              "title": "关键绩效指标",
+              "content": "说明用于评估目标进展的关键绩效指标与计算方法。"
+            },
+            {
+              "title": "目标类型",
+              "content": "可包括温室气体排放、用水、能源使用，或低碳产品净收入等。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2,
+          "title": "建议披露 c：目标应考虑"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "组织应描述其管理气候相关风险与机遇的关键目标，以及针对目标的绩效对照情况。",
+              "title": "组织应描述其管理气候相关风险与机…",
+              "quote": {
+                "text": "描述组织用来管理与气候相关风险和机遇所使用的目标，和绩效与目标的对照情况。",
+                "source": "《TCFD 建议最终报告》表 4 指标和目标 c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "与现行准则衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "IFRS S2 指标",
+              "content": "要求按范围 1/2/3 分类披露温室气体绝对排放总量，并说明计量方法。",
+              "quote": {
+                "text": "披露直接排放（范围1）、间接排放（范围2）、其他间接排放（范围3）（如需）的温室气体（GHG）排放及相关风险。",
+                "source": "《TCFD 建议最终报告》表 4 指标和目标 b",
+                "related": {
+                  "label": "关联知识：IFRS S2 指标与目标",
+                  "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                  "text": "目标是否涵盖范围一、范围二或范围三温室气体排放",
+                  "source": "IFRS S2：气候相关披露（指标）"
+                }
+              }
+            },
+            {
+              "title": "GRI 305 排放",
+              "content": "GRI 305 以独立披露项覆盖范围 1/2/3 温室气体排放，方法同源 GHG Protocol。",
+              "quote": {
+                "text": "温室气体排放量应根据《温室气体核算体系》的方法进行计算，以便在组织和管辖范围内进行汇总和比较。",
+                "source": "《TCFD 建议最终报告》C 指标和目标 b",
+                "related": {
+                  "label": "关联知识：GRI 305 排放",
+                  "url": "topic.html?standard=gri&id=gri-305",
+                  "text": "本标准是关于气体排放，即某种来源的物质排放到大气。排放物的类型包括：温室气体（GHG）、臭氧消耗物质（ODS）、氮氧化物 (NOx) 、硫氧化物 (SOx) 以及其他重大气体排放。",
+                  "source": "GRI 305（2016）"
+                }
+              }
+            },
+            {
+              "title": "SBTi 范围边界",
+              "content": "SBTi 对范围 3 设定门槛：占比超 40% 时必须设目标并覆盖至少 67%。",
+              "quote": {
+                "text": "披露直接排放（范围1）、间接排放（范围2）、其他间接排放（范围3）（如需）的温室气体（GHG）排放及相关风险。",
+                "source": "《TCFD 建议最终报告》表 4 指标和目标 b",
+                "related": {
+                  "label": "关联知识：SBTi 覆盖范围",
+                  "url": "topic.html?standard=sbti&id=sbti-boundary",
+                  "text": "scope 3 emissions make up 40% or more of total emissions (scope 1, 2, and 3 emissions), companies must set one or more emission reduction targets and/or supplier or customer engagement targets that collectively cover(s) at least 67% of total scope 3",
+                  "source": "SBTi《企业净零标准》V1.3.1"
+                }
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "指标与排放的承接关系"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tcfd-transition",
+        "title": "转型计划与国际准则承接"
+      },
+      {
+        "id": "tcfd-basics",
+        "title": "建议框架总览"
+      }
+    ],
+    "external": [
+      {
+        "title": "IFRS S2 指标和目标",
+        "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+        "standard": "ifrs",
+        "system": "ISSB 准则体系"
+      },
+      {
+        "title": "GRI 305 排放",
+        "url": "topic.html?standard=gri&id=gri-305",
+        "standard": "gri",
+        "system": "GRI 标准"
+      },
+      {
+        "title": "SBTi 覆盖范围",
+        "url": "topic.html?standard=sbti&id=sbti-boundary",
+        "standard": "sbti",
+        "system": "SBTi 科学碳目标"
+      }
+    ]
+  }
+}

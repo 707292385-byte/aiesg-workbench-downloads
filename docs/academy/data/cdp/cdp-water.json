@@ -1,0 +1,246 @@
+{
+  "id": "cdp-water",
+  "title": "水安全评分：独立评分与领导力封顶",
+  "eyebrow": "环境议题评分",
+  "summary": "水安全是独立评分；essential criteria 仅限领导力与 A 名单两层，并据此封顶最终等级。",
+  "tags": [
+    "水安全",
+    "独立评分",
+    "封顶规则"
+  ],
+  "group": "环境议题评分",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式填报请以 CDP 当期水安全评分方法为准。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "水安全评分是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "CDP 持续给出独立的气候变化、森林与水安全评分，每个议题有各自的方法学。",
+          "quote": {
+            "text": "CDP will continue to award separate Climate Change, Forests and Water Security scores in 2026. Each environmental issue area has its own separate methodology.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Scoring of the Full Corporate Questionnaire)"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "2026 年金融服务部门首次获得公开的水安全与森林评分（除非符合私评条件）。",
+          "quote": {
+            "text": "In 2026, organizations in the financial services sector will receive public Forests and Water Security scores for the first time, unless the organization is otherwise eligible to receive a private score in line with CDP’s scoring policies.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (CDP questionnaire sectors and scoring)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bands",
+      "title": "等级与封顶规则",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "层级",
+              "区间",
+              "等级"
+            ],
+            [
+              "Disclosure",
+              "1–49%",
+              "D- / D"
+            ],
+            [
+              "Awareness",
+              "1–44% / 45–80%",
+              "C- / C"
+            ],
+            [
+              "Management",
+              "1–44% / 45–75%",
+              "B- / B"
+            ],
+            [
+              "Leadership",
+              "1–69% / 70–100%",
+              "A- / A"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "水安全 essential criteria 仅应用于领导力与 A 名单层；未满足则封顶。",
+          "quote": {
+            "text": "If a criterion is applied to Leadership level and the check is not met, this will limit an organization’s final score to a B. Similarly, if the A-list criteria are not met then the final score will be limited to an A-.",
+            "source": "CDP_Water_Security_Scoring_Essential_Criteria_2026 (How to use this document)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essential",
+      "title": "essential criteria 仅限两层",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "水安全 essential criteria 仅应用于领导力与 A 名单层，须全部满足才能进阶。",
+              "title": "水安全 essential cr…",
+              "quote": {
+                "text": "Essential criteria for Water Security are applied across Leadership and A list levels.",
+                "source": "CDP_Water_Security_Scoring_Essential_Criteria_2026 (Introduction)"
+              }
+            },
+            {
+              "content": "essential criteria 作用于整体评分，不会封顶或限制类别分数。",
+              "title": "essential criter…",
+              "quote": {
+                "text": "Essential criteria are applied to the organization’s overall score in a particular environmental issue, and do not cap or limit category scores.",
+                "source": "CDP_Water_Security_Scoring_Essential_Criteria_2026 (Introduction)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "评分方法与气候一致",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "水安全评分与气候同源的机制",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "四层阶梯",
+              "content": "同样采用披露/认知/管理/领导力四级评分。"
+            },
+            {
+              "title": "类别权重",
+              "content": "类别权重仅用于管理与领导力层计算。"
+            },
+            {
+              "title": "essential criteria",
+              "content": "仅作用于整体评分，不封顶类别分。"
+            },
+            {
+              "title": "独立评分",
+              "content": "水安全有独立方法学，与气候评分分开。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "水安全同样以评分类别与权重组织，权重仅用于管理与领导力层，与气候方法同源。",
+              "title": "水安全同样以评分类别与权重组织…",
+              "quote": {
+                "text": "Weightings are applied to scoring categories at the Management and Leadership levels only.",
+                "source": "CDP_Scoring_Category_Weightings_2026_-_Climate_Change (Introduction)"
+              }
+            },
+            {
+              "content": "除气候外，森林与水安全也按类别权重计算管理与领导力层分数。",
+              "title": "除气候外…",
+              "quote": {
+                "text": "At the Management and Leadership levels, weightings are applied using category scores as they are for Climate Change and Water Security.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Forests scoring)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "align",
+      "title": "与 GRI 等框架对齐",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "水安全对接的框架",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "GRI 303",
+              "content": "与 GRI《水与污水：303》部分对齐。"
+            },
+            {
+              "title": "ISSB / IFRS S2",
+              "content": "气候数据自 2024 年起与 IFRS S2 一致。"
+            },
+            {
+              "title": "ESRS E1",
+              "content": "与 ESRS E1 具有高度互操作性。"
+            },
+            {
+              "title": "TNFD",
+              "content": "2026 年扩大与 TNFD 自然相关披露的对齐。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "CDP 整合企业问卷，与 ISSB 气候标准保持一致并扩大与 TNFD 的一致性。",
+              "title": "CDP 整合企业问卷…",
+              "quote": {
+                "text": "CDP 整合企业问卷，与 ISSB 气候标准保持一致，并扩大与 TNFD 的一致性。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (CDP 简介时间线)",
+                "related": {
+                  "text": "其他间接（范围3）温室气体排放总量，以CO2当量公吨数表示。",
+                  "source": "GRI 305（2016）官方中文版",
+                  "label": "关联知识：GRI 305 排放",
+                  "url": "topic.html?standard=gri&id=gri-305",
+                  "standard": "gri"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      },
+      {
+        "id": "csa",
+        "title": "标普全球 CSA",
+        "standard": "csa"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 水安全评分方法 2026",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

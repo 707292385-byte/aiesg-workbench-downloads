@@ -1,0 +1,239 @@
+{
+  "id": "tcfd-transition",
+  "title": "转型计划与国际准则承接",
+  "eyebrow": "转型计划 · ISSB 承接",
+  "summary": "TCFD 在 2021 年补充转型计划指南，并于 2023 年解散后将气候披露职能移交 ISSB（IFRS S2）。",
+  "tags": [
+    "转型计划",
+    "ISSB",
+    "IFRS S2"
+  ],
+  "group": "转型与准则承接",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+  "sourceNote": "本页按 TCFD《指标、目标与转型计划指南》（2021 中译版）及《2023 年进展报告》整理。TCFD 已解散，现行转型计划披露请以 IFRS S2、A 股指引与财政部气候准则为准。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "转型计划是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "若组织已作出减排承诺、位于相关司法管辖区，或已同意满足投资者减排预期，则应描述其向低碳经济转型的计划。",
+          "quote": {
+            "text": "工作组认为，如果组织已经做出温室气体减排的承诺、位于已做出该等承诺的司法管辖区，或者已同意满足投资者对于温室气体减排的预期，则应当描述自身向低碳经济转型的相关计划。",
+            "source": "TCFD《指标、目标与转型计划指南》E.3 披露转型计划信息"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "转型计划应嵌入组织应对气候相关风险与机遇的更广泛活动，并与整体业务战略保持一致。",
+          "quote": {
+            "text": "转型计划应该成为组织应对气候相关风险和机遇的更广泛活动的一部分，并与这些活动保持一致，而这些活动又应该是组织整体业务战略的一部分，并与这些战略保持一致。",
+            "source": "TCFD《指标、目标与转型计划指南》E.1 有效转型计划"
+          }
+        }
+      ]
+    },
+    {
+      "id": "features",
+      "title": "有效转型计划的七个特征",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "与战略一致",
+              "content": "转型计划应成为应对气候风险与机遇的更广泛活动的一部分，并与整体业务战略一致。"
+            },
+            {
+              "title": "量化要素",
+              "content": "以气候相关指标和目标为基础，定期跟踪目标进展，与经济或部门低碳路径一致。"
+            },
+            {
+              "title": "有效管理流程",
+              "content": "描述审批、监督与内部问责，包括董事会与高管在监督中的角色。"
+            },
+            {
+              "title": "可执行",
+              "content": "阐明具体举措与行动（如投资新技术、鼓励供应商减排），并定期审查。"
+            },
+            {
+              "title": "可信度",
+              "content": "提供足够信息让使用者评估可信度，含能力、技术、路径与财务计划。"
+            },
+            {
+              "title": "定期审查更新",
+              "content": "至少每五年审查一次转型计划，并在必要时更新。",
+              "quote": {
+                "text": "各组织至少应每五年审查一次转型计划，并在必要时进行更新。",
+                "source": "TCFD《指标、目标与转型计划指南》E.1"
+              }
+            },
+            {
+              "title": "每年报告",
+              "content": "公开或向利益相关者报告初始计划、重大改变及每年进展。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3,
+          "title": "有效转型计划的特征"
+        }
+      ]
+    },
+    {
+      "id": "elements",
+      "title": "转型计划考虑要素",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "要素",
+              "说明"
+            ],
+            [
+              "与战略一致",
+              "转型计划与整体战略一致，说明如何在规定时间范围内实现目标。"
+            ],
+            [
+              "优先机遇",
+              "说明组织如何在全球低碳转型中最大化其优先气候机遇。"
+            ],
+            [
+              "行动计划",
+              "概述短期和中期战术与行动，说明如何解决排放来源。"
+            ],
+            [
+              "财务计划",
+              "描述支持脱碳战略的资本与其他支出金额。"
+            ],
+            [
+              "情景分析",
+              "使用多种气候相关情景测试计划与目标的可实现性。"
+            ],
+            [
+              "风险与不确定性",
+              "描述转型面临的风险、假设、不确定性与挑战。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disclose",
+      "title": "披露转型计划信息",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "当前排放绩效",
+              "content": "披露当前的温室气体排放绩效，作为转型基线。"
+            },
+            {
+              "title": "转型影响",
+              "content": "说明低碳转型对业务、战略和财务规划造成的影响。"
+            },
+            {
+              "title": "行动与活动",
+              "content": "支持转型的行动，包括减排目标与对业务、战略的变更。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "鼓励披露的关键信息"
+        },
+        {
+          "type": "standard",
+          "content_cn": "组织还应每年报告执行转型计划的进展情况，并说明目标的日期、范围与覆盖范围。",
+          "quote": {
+            "text": "在描述自身的温室气体减排目标时，组织应阐明目标日期以及范围和覆盖范围。各组织还应考虑描述与自身转型计划相关的假设、不确定性和关键方法。除此之外，各组织还应每年报告执行转型计划的进展情况。",
+            "source": "TCFD《指标、目标与转型计划指南》E.3 披露转型计划信息"
+          }
+        }
+      ]
+    },
+    {
+      "id": "issb",
+      "title": "TCFD 移交 ISSB（IFRS S2）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "A 股指引 第23条",
+              "content": "要求披露应对气候相关风险与机遇的转型计划、措施及其进展。",
+              "quote": {
+                "text": "Shortly after the release of the standards, the FSB indicated that the ISSB standards represent a culmination of the Task Force’s work and that the TCFD would be disbanded upon release of its 2023 status report.",
+                "source": "TCFD《2023 年进展报告》",
+                "related": {
+                  "label": "关联知识：A股指引 转型计划",
+                  "url": "topic.html?standard=ashare&id=ashare-climate",
+                  "text": "第23条披露主体应当披露为应对气候相关风险和机遇的转型计划、措施及其进展，包括但不限于下列内容：",
+                  "source": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）》第23条"
+                }
+              }
+            },
+            {
+              "title": "IFRS S2",
+              "content": "ISSB 在 S2 中承接 TCFD 四支柱，并细化为具有强制效力的气候相关披露准则。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2,
+          "title": "转型计划的现行承接"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "TCFD 于 2023 年发布最后一份进展报告后解散，其气候披露职能由 ISSB 通过 IFRS S2 承接。企业现行披露应以 IFRS S2 及所在地监管要求为准。",
+              "title": "TCFD 于 2023 年发布最…",
+              "quote": {
+                "text": "Shortly after the release of the standards, the FSB indicated that the ISSB standards represent a culmination of the Task Force’s work and that the TCFD would be disbanded upon release of its 2023 status report.",
+                "source": "TCFD《2023 年进展报告》"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tcfd-metrics",
+        "title": "指标与目标"
+      },
+      {
+        "id": "tcfd-basics",
+        "title": "建议框架总览"
+      }
+    ],
+    "external": [
+      {
+        "title": "A股指引 应对气候变化",
+        "url": "topic.html?standard=ashare&id=ashare-climate",
+        "standard": "ashare",
+        "system": "A股知识体系"
+      },
+      {
+        "title": "IFRS S2 气候相关披露",
+        "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/",
+        "external": true
+      },
+      {
+        "title": "财政部气候准则",
+        "url": "topic.html?standard=mof&id=mof-climate",
+        "standard": "mof",
+        "system": "财政部准则体系"
+      }
+    ]
+  }
+}

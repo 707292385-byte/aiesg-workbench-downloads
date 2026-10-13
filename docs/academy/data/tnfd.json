@@ -1,0 +1,151 @@
+{
+ "id": "tnfd",
+ "title": "TNFD 自然相关财务披露",
+ "titleEn": "Taskforce on Nature-related Financial Disclosures",
+ "eyebrow": "自然相关风险、依赖与影响的披露框架",
+ "accent": "#1f7a5c",
+ "description": "TNFD（自然相关财务披露工作组）于 2023 年 9 月发布建议，沿用 TCFD 四大支柱结构，将披露从气候扩展到自然，覆盖组织对自然的依赖、影响、风险与机遇，并提供 LEAP 识别评估方法与核心全球指标。",
+ "issuer": "自然相关财务披露工作组（TNFD）",
+ "version": "TNFD 建议（2023 年 9 月）",
+ "updated": "2026.10.14",
+ "topics": 6,
+ "sourceNote": "TNFD 官方文件《Recommendations of the Taskforce on Nature-related Financial Disclosures》（2023 年 9 月），含 LEAP 方法、四大支柱与 14 项建议披露、核心全球指标（Annex 1）。",
+ "notice": "TNFD 建议为自愿性、市场主导框架，与 TCFD、ISSB（IFRS S1/S2）及 GRI 对齐；TCFD 的气候披露职能已于 2023 年并入 ISSB，TNFD 在其基础上扩展至自然。使用时应以组织所在司法管辖区现行强制要求为准。",
+ "goals": [
+  "将 TCFD 的四支柱结构扩展到自然，保留全部 11 项 TCFD 建议并新增自然相关建议，共 14 项",
+  "让企业披露对自然的依赖、影响、风险与机遇，覆盖土地、海洋、淡水与大气四大界域",
+  "提供 LEAP 方法（定位-评价-评估-准备）帮助企业识别评估自然相关问题",
+  "给出核心全球指标（依赖与影响 9 项、风险与机遇若干项），按「遵守或解释」基础披露",
+  "对齐《昆明-蒙特利尔全球生物多样性框架》目标 15，支持自然向好转型"
+ ],
+ "groups": [
+  {
+   "title": "TNFD 基础与方法",
+   "items": [
+    {
+     "id": "tnfd-basics",
+     "title": "TNFD 与自然相关披露",
+     "eyebrow": "为什么从气候扩展到自然",
+     "summary": "TNFD 沿用 TCFD 结构，将披露从气候扩展到自然，覆盖组织对自然的依赖、影响、风险与机遇。",
+     "tags": [
+      "TNFD",
+      "自然相关披露",
+      "TCFD对齐"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-basics.json"
+    },
+    {
+     "id": "tnfd-leap",
+     "title": "LEAP 方法",
+     "eyebrow": "定位·评价·评估·准备",
+     "summary": "LEAP 是 TNFD 推荐的识别评估方法：定位（Locate）、评价（Evaluate）、评估（Assess）、准备（Prepare）。",
+     "tags": [
+      "LEAP",
+      "识别评估",
+      "自然相关议题"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-leap.json"
+    }
+   ]
+  },
+  {
+   "title": "四大支柱",
+   "items": [
+    {
+     "id": "tnfd-governance",
+     "title": "治理支柱",
+     "eyebrow": "董事会与管理层职责",
+     "summary": "披露组织对自然相关依赖、影响、风险与机遇的治理：董事会监督、管理层角色、原住民与社区参与。",
+     "tags": [
+      "治理",
+      "董事会监督",
+      "管理层职责"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-governance.json"
+    },
+    {
+     "id": "tnfd-strategy",
+     "title": "战略支柱",
+     "eyebrow": "对业务模式与战略的影响",
+     "summary": "披露自然相关依赖、影响、风险与机遇对业务模式、价值链、战略与财务规划的影响及自然韧性。",
+     "tags": [
+      "战略",
+      "业务模式",
+      "自然韧性"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-strategy.json"
+    },
+    {
+     "id": "tnfd-risk",
+     "title": "风险管理",
+     "eyebrow": "识别·评估·管理自然相关问题",
+     "summary": "披露识别、评估、排序和监控自然相关依赖、影响、风险与机遇的流程，并融入整体风险管理。",
+     "tags": [
+      "风险管理",
+      "识别评估",
+      "整体风险管理"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-risk.json"
+    },
+    {
+     "id": "tnfd-metrics",
+     "title": "指标与目标",
+     "eyebrow": "核心与补充指标·目标设定",
+     "summary": "披露评估管理自然相关问题的指标（核心全球指标）与目标，及实现进展。",
+     "tags": [
+      "指标",
+      "目标",
+      "核心全球指标"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://tnfd.global/publications/",
+     "sourceNote": "本页按 TNFD 官方建议整理；悬浮「原文」可查看对应英文原文。",
+     "detailFile": "data/tnfd/tnfd-metrics.json"
+    }
+   ]
+  }
+ ],
+ "process": [
+  {
+   "step": "1",
+   "title": "定位 Locate",
+   "desc": "确定组织与自然接触的界面：地理、行业与价值链"
+  },
+  {
+   "step": "2",
+   "title": "评价 Evaluate",
+   "desc": "评价组织对自然的依赖与影响"
+  },
+  {
+   "step": "3",
+   "title": "评估 Assess",
+   "desc": "评估自然相关风险与机遇"
+  },
+  {
+   "step": "4",
+   "title": "准备 Prepare",
+   "desc": "准备应对并报告重大自然相关问题"
+  }
+ ],
+ "officialFiles": [
+  {
+   "name": "TNFD Recommendations (September 2023)",
+   "url": "https://tnfd.global/publications/"
+  }
+ ]
+}

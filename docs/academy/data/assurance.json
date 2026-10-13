@@ -1,0 +1,168 @@
+{
+  "id": "assurance",
+  "title": "ESG 鉴证与审验",
+  "titleEn": "ESG Assurance & Verification",
+  "eyebrow": "可持续信息鉴证方法体系",
+  "accent": "#0e7c86",
+  "description": "覆盖 AA1000AS v3、ISSA 5000 与中国财政部可持续信息鉴证业务准则第 6101 号的鉴证与审验框架：从原则遵循与类型划分，到保证程度、结论形式与鉴证实务。",
+  "issuer": "AccountAbility（AA1000 系列）· IAASB（ISSA 5000）· 中华人民共和国财政部（第 6101 号）",
+  "version": "AA1000AS v3（现行）/ ISSA 5000（2024 年 11 月发布，2026 年 12 月 15 日起生效）/ 财政部 6101 号（财会〔2026〕1 号，2026 年 1 月 9 日印发，试行、自愿实施）",
+  "updated": "2026.10.14",
+  "topics": 6,
+  "sourceNote": "AccountAbility《AA1000 审验标准第三版》(AA1000AS v3) 及《AA1000 审验原则(2018)》(AA1000AP)；IAASB《国际可持续鉴证准则第 5000 号》(ISSA 5000, 2024)；财政部《可持续信息鉴证业务准则第 6101 号——基本准则（试行）》(财会〔2026〕1 号)。三份均为官方原文，中文源用中文、ISSA 5000 用英文逐字引用。",
+  "notice": "三套标准并行、定位不同：AA1000AS v3 为基于原则的审验标准（分类型 1/类型 2、中度/深度审验），ISSA 5000 为国际通用可持续鉴证准则（分合理保证/有限保证），财政部 6101 号为我国现行鉴证基本准则（试行、自愿实施）。使用时以最新官方文件为准；若企业同时适用多套准则，需对照各自的结论形式与报告要素。",
+  "goals": [
+    "鉴证（assurance）通过独立第三方获取充分、适当的证据，增强信息使用者对可持续信息的信任程度。",
+    "AA1000AS v3 以包容性、实质性、回应性、影响性四项原则为核心，评估组织遵循原则的程度与绩效信息的可靠性。",
+    "保证程度分为合理保证与有限保证：前者以积极方式发表意见，后者以消极方式表达，有限保证提供的保证程度低于合理保证。",
+    "中国财政部 6101 号将可持续信息鉴证业务准则体系分为基本准则、具体准则与应用指南三层，目前基本准则先行试行。"
+  ],
+  "groups": [
+    {
+      "title": "鉴证是什么",
+      "items": [
+        {
+          "id": "assur-basics",
+          "title": "ESG 鉴证是什么",
+          "eyebrow": "作用 · 边界 · 实务格局",
+          "summary": "鉴证是独立第三方对可持续信息获取证据、发表结论以增进信任的专业活动；本页讲清它的作用、边界与当前并行的标准格局。",
+          "tags": [
+            "鉴证作用",
+            "保证程度",
+            "标准格局"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.accountability.org/standards/",
+          "sourceNote": "本页按 AA1000AS v3、ISSA 5000 与财政部 6101 号官方文件整理；悬浮「原文」可查看对应官方原文。",
+          "detailFile": "data/assurance/assur-basics.json"
+        },
+        {
+          "id": "assur-types",
+          "title": "审验类型与程度",
+          "eyebrow": "类型 1/类型 2 · 中度/深度",
+          "summary": "AA1000AS v3 用类型 1（原则遵循）与类型 2（绩效信息）区分审验对象，用中度与深度审验区分证据充分性。",
+          "tags": [
+            "类型1",
+            "类型2",
+            "中度审验",
+            "深度审验"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.accountability.org/standards/",
+          "sourceNote": "本页按 AA1000AS v3 官方中文版整理；悬浮「原文」可查看对应官方原文。",
+          "detailFile": "data/assurance/assur-types.json"
+        }
+      ]
+    },
+    {
+      "title": "三大标准",
+      "items": [
+        {
+          "id": "assur-aa1000",
+          "title": "AA1000 系列",
+          "eyebrow": "AA1000AP(2018) · AA1000AS v3",
+          "summary": "AA1000 系列由审验原则（2018）与审验标准（第三版）组成，以原则遵循与绩效信息可靠性为两条审验主线。",
+          "tags": [
+            "AA1000AP",
+            "AA1000AS",
+            "四原则"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.accountability.org/standards/",
+          "sourceNote": "本页按 AA1000AS v3 官方中文版整理；悬浮「原文」可查看对应官方原文。",
+          "detailFile": "data/assurance/assur-aa1000.json"
+        },
+        {
+          "id": "assur-issa5000",
+          "title": "ISSA 5000",
+          "eyebrow": "IAASB · 合理/有限保证",
+          "summary": "ISSA 5000 是 IAASB 发布的国际可持续鉴证通用准则，覆盖合理保证与有限保证两类业务及报告要素。",
+          "tags": [
+            "ISSA 5000",
+            "合理保证",
+            "有限保证"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.iaasb.org/",
+          "sourceNote": "本页按 ISSA 5000 官方英文原文整理；悬浮「原文」可查看英文原文。",
+          "detailFile": "data/assurance/assur-issa5000.json"
+        },
+        {
+          "id": "assur-mof6101",
+          "title": "中国准则 6101 号",
+          "eyebrow": "财政部 · 基本准则（试行）",
+          "summary": "财政部第 6101 号是可持续信息鉴证业务基本准则（试行），规定鉴证目标、合理/有限保证与鉴证报告要素。",
+          "tags": [
+            "财政部",
+            "6101号",
+            "基本准则"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://kjs.mof.gov.cn/zhengcefabu/202601/t20260127_3982643.htm",
+          "sourceNote": "本页按财政部 6101 号官方正文整理；悬浮「原文」可查看对应官方原文。",
+          "detailFile": "data/assurance/assur-mof6101.json"
+        }
+      ]
+    },
+    {
+      "title": "鉴证实务",
+      "items": [
+        {
+          "id": "assur-practice",
+          "title": "鉴证实务",
+          "eyebrow": "范围 · 证据 · 结论",
+          "summary": "从确定鉴证范围与报告边界，到获取充分、适当的鉴证证据，再到形成结论与出具鉴证报告，串起一次鉴证的全流程。",
+          "tags": [
+            "鉴证范围",
+            "鉴证证据",
+            "鉴证结论"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://kjs.mof.gov.cn/zhengcefabu/202601/t20260127_3982643.htm",
+          "sourceNote": "本页综合三份官方文件整理；悬浮「原文」可查看对应官方原文。",
+          "detailFile": "data/assurance/assur-practice.json"
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "确定业务前提",
+      "description": "评价披露标准是否适当、业务是否具有合理目的、能否获取充分适当的证据。"
+    },
+    {
+      "title": "约定鉴证条款",
+      "description": "就鉴证目标、范围、保证程度、适用标准与报告形式与委托方达成一致并书面记录。"
+    },
+    {
+      "title": "计划与风险评估",
+      "description": "制定总体策略与具体计划，实施风险评估程序识别重大错报风险。"
+    },
+    {
+      "title": "获取与评价证据",
+      "description": "设计与实施进一步程序，获取充分、适当的证据，既不偏重支持性也不排斥矛盾证据。"
+    },
+    {
+      "title": "形成结论并报告",
+      "description": "评价证据后形成合理/有限保证结论，出具含明确保证程度与责任划分的鉴证报告。"
+    }
+  ],
+  "officialFiles": [
+    {
+      "name": "AA1000 审验标准第三版 (AA1000AS v3)",
+      "url": "https://www.accountability.org/standards/"
+    },
+    {
+      "name": "AA1000 审验原则 (2018) (AA1000AP)",
+      "url": "https://www.accountability.org/standards/"
+    },
+    {
+      "name": "ISSA 5000 General Requirements for Sustainability Assurance Engagements (IAASB, 2024)",
+      "url": "https://www.iaasb.org/"
+    },
+    {
+      "name": "可持续信息鉴证业务准则第 6101 号——基本准则（试行）(财政部 财会〔2026〕1号)",
+      "url": "https://kjs.mof.gov.cn/zhengcefabu/202601/t20260127_3982643.htm"
+    }
+  ]
+}

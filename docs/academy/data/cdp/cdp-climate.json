@@ -1,0 +1,269 @@
+{
+  "id": "cdp-climate",
+  "title": "气候评分：类别、权重与 essential criteria",
+  "eyebrow": "环境议题评分",
+  "summary": "气候评分含 17 个评分类别，权重仅用于管理与领导力层；essential criteria 横跨 Awareness 到 A 名单四层。",
+  "tags": [
+    "气候",
+    "评分类别",
+    "essential criteria"
+  ],
+  "group": "环境议题评分",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式填报请以 CDP 当期气候评分方法为准。",
+  "sections": [
+    {
+      "id": "categories",
+      "title": "气候评分的 17 个评分类别",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "高权重代表类别（全部共 17 类）",
+          "numbered": false,
+          "cols": 3,
+          "cards": [
+            {
+              "title": "Targets 目标",
+              "content": "定量目标与进展，权重最高之一。"
+            },
+            {
+              "title": "Governance 治理",
+              "content": "董事会层面的气候监督与职责。"
+            },
+            {
+              "title": "Business Strategy 战略",
+              "content": "将气候纳入前瞻战略与财务决策。"
+            },
+            {
+              "title": "Scope 1 & 2 排放",
+              "content": "范围一、范围二排放核算与绩效。"
+            },
+            {
+              "title": "Scope 3 排放",
+              "content": "价值链范围三排放披露。"
+            },
+            {
+              "title": "Verification 核查",
+              "content": "排放第三方核证，保障数据质量。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "气候评分共 17 个类别，2025 与 2026 之间类别与权重未变；金融服务业另含 Portfolio Impact 共 18 类。",
+          "quote": {
+            "text": "There are 17 categories in CDP’s full corporate scoring methodology for climate change - general. No changes were made to the climate change scoring category weightings between 2025 and 2026.",
+            "source": "CDP_Scoring_Category_Weightings_2026_-_Climate_Change (general)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "weighting",
+      "title": "权重怎么用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "评分类别是问题按主题的分组；权重仅应用于管理与领导力两层，反映各类别对行业的重要性。",
+          "quote": {
+            "text": "Scoring categories are groupings of questions by topic. They are sub-groups of the 2026 questionnaire modules and are consistent across all sectors. Weightings are applied to scoring categories at the Management and Leadership levels only.",
+            "source": "CDP_Scoring_Category_Weightings_2026_-_Climate_Change (Introduction)"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "金融服务业有 18 个类别，含独有的高权重 Portfolio Impact 类别。",
+          "quote": {
+            "text": "There are 18 categories in CDP’s full corporate scoring methodology for financial services.",
+            "source": "CDP_Scoring_Category_Weightings_2026_-_Climate_Change (financial services)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essential",
+      "title": "气候 essential criteria 四层级",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "Awareness",
+              "desc": "基础认知层，需满足最低披露门槛"
+            },
+            {
+              "title": "Management",
+              "desc": "有行动与流程证据"
+            },
+            {
+              "title": "Leadership",
+              "desc": "最佳实践透明度与绩效"
+            },
+            {
+              "title": "A List",
+              "desc": "榜单级，体现全面领先"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候的 essential criteria 横跨 Awareness、Management、Leadership 与 A 名单四层，用于设定一致的披露基线。",
+              "title": "气候的 essential cr…",
+              "quote": {
+                "text": "Essential criteria are present for Climate Change across Awareness, Management, Leadership and A list.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Essential criteria)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec-table",
+      "title": "关键 essential criteria 速查",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "编号",
+              "要求",
+              "适用层"
+            ],
+            [
+              "EC-CC3",
+              "董事会层对气候议题的监督与胜任",
+              "Awareness / Management / Leadership"
+            ],
+            [
+              "EC-CC7",
+              "拥有温控对齐转型计划或两年内制定",
+              "Leadership / A List"
+            ],
+            [
+              "EC-CC14",
+              "披露范围一、范围二（含位置法）排放",
+              "Leadership"
+            ],
+            [
+              "EC-CC15",
+              "披露范围三各相关类别的基准年排放",
+              "Leadership"
+            ],
+            [
+              "EC-CC17",
+              "范围一、二核证≥95%（领导层）/100%（A 名单）",
+              "Leadership / A List"
+            ],
+            [
+              "EC-CC25",
+              "近期减排目标获 SBTi 认证或年降≥4.2%",
+              "Leadership / A List"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "2026 年移除了 EC-CC1 与 EC-CC2 在管理与领导力层的要求，其余内容基本不变。",
+              "title": "2026 年移除了 EC-CC1…",
+              "quote": {
+                "text": "Organizations must have a temperature aligned transition plan or plans to develop a climate transition plan within two years.",
+                "source": "CDP_Climate_Change_Scoring_Essential_Criteria_2026 (EC-CC7)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sbti-link",
+      "title": "与 SBTi 净零目标衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候 A 名单的近期目标可被 SBTi 认证的科学碳目标满足；范围三目标亦与净零路径挂钩。",
+              "title": "气候 A 名单的近期目标可被 S…",
+              "quote": {
+                "text": "The Scope 1 and 2 target(s) has/(have) been approved as science-based by the Science Based Target initiative in question 7.53.1.",
+                "source": "CDP_Climate_Change_Scoring_Essential_Criteria_2026 (EC-CC25)"
+              }
+            },
+            {
+              "content": "范围一、二披露是气候评分的硬门槛；这与各准则对范围一、二计量的要求一致。",
+              "title": "范围一、二披露是气候评分的硬门槛…",
+              "quote": {
+                "text": "Organization must disclose Scope 1 emissions figures and Scope 2 emissions figures for the reporting year, including Scope 2 location-based emissions figures and, if applicable to the organizations, Scope 2 market-based figures.",
+                "source": "CDP_Climate_Change_Scoring_Essential_Criteria_2026 (EC-CC14)",
+                "related": {
+                  "text": "直接（范围1）温室气体排放总量以二氧化碳(CO2)当量公吨数表示。",
+                  "source": "GRI 305（2016）官方中文版",
+                  "label": "关联知识：GRI 305 排放",
+                  "url": "topic.html?standard=gri&id=gri-305",
+                  "standard": "gri"
+                }
+              }
+            },
+            {
+              "content": "披露净排放量目标时，须同时单独披露排放总量目标——这与财政部准则口径一致。",
+              "title": "披露净排放量目标时…",
+              "quote": {
+                "text": "At Leadership level, organizations must have at least 95% of reported Scope 1 and Scope 2 emissions and at least one Scope 3 category verified/assured by third-party.",
+                "source": "CDP_Climate_Change_Scoring_Essential_Criteria_2026 (EC-CC17)",
+                "related": {
+                  "text": "目标是温室气体排放总量目标还是净排放量目标。如果企业披露温室气体净排放量目标，则还应当单独披露相关温室气体排放总量目标。",
+                  "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十二条",
+                  "label": "关联知识：财政部气候准则 第四十二条",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "standard": "mof"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-boundary",
+        "title": "SBTi 覆盖范围与门槛",
+        "standard": "sbti"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 气候评分方法 2026",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

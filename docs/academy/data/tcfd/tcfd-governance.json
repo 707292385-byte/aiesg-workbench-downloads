@@ -1,0 +1,202 @@
+{
+  "id": "tcfd-governance",
+  "title": "治理支柱",
+  "eyebrow": "董事会与管理的角色",
+  "summary": "治理支柱要求披露董事会对气候相关风险和机遇的监督，以及管理层在评估与管理中的作用。",
+  "tags": [
+    "董事会监督",
+    "管理层职责",
+    "治理架构"
+  ],
+  "group": "四支柱详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+  "sourceNote": "本页按 TCFD《最终建议》治理章节整理；悬浮「原文」可查看官方中译原文。现行治理披露请以 IFRS S2 与财政部气候准则为准。",
+  "sections": [
+    {
+      "id": "position",
+      "title": "治理支柱的定位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "治理支柱回答组织对气候相关问题的治理架构：谁监督、谁执行、如何监控目标进展。",
+          "quote": {
+            "text": "披露组织关于气候相关风险和机遇的治理。",
+            "source": "《TCFD 建议最终报告》表 4 治理"
+          }
+        }
+      ]
+    },
+    {
+      "id": "board",
+      "title": "董事会的监督",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "使用者希望了解董事会在监督气候相关问题上的作用，用以判断问题是否获得适当关注。",
+          "quote": {
+            "text": "投资者，贷款人，和其他与气候相关的财务披露的其他使用者（统称为“投资者和其他利益相关方”）有兴趣了解一个机构的董事会在监督与气候相关的问题上的作用以及管理层在评估和管理那些问题上的作用。",
+            "source": "《TCFD 建议最终报告》C 治理"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "告知与频率",
+              "content": "披露董事会及下设委员会被告知气候相关问题的流程与频率（审计、风险或其他委员会）。"
+            },
+            {
+              "title": "纳入议程",
+              "content": "气候相关问题如何纳入战略审查、重大行动计划、风险管理政策、年度预算与绩效目标。"
+            },
+            {
+              "title": "监控目标",
+              "content": "董事会如何监控与监督处理气候相关问题的目标与指标进展。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "建议披露 a：董事会监督应考虑"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层的作用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "职责分配",
+              "content": "是否将气候相关责任分配给具体管理层或委员会，并说明其结构。",
+              "quote": {
+                "text": "在描述管理层与气候相关问题评估和管理有关的作用时，组织应考虑包括以下信息：该组织是否将气候相关责任分配给管理层或委员会；",
+                "source": "《TCFD 建议最终报告》表 4 治理 b"
+              }
+            },
+            {
+              "title": "向上报告",
+              "content": "管理层或委员会是否向董事会报告，职责是否包括评估与/或管理气候相关问题。"
+            },
+            {
+              "title": "了解流程",
+              "content": "管理层了解气候相关问题的流程，以及通过人员或管理委员会监控问题的机制。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "建议披露 b：管理层作用应考虑"
+        },
+        {
+          "type": "standard",
+          "content_cn": "管理层在评估和管理气候相关风险与机遇方面承担具体作用，并应向董事会或下设委员会报告。",
+          "quote": {
+            "text": "描述管理层在评估和管理与气候相关风险和机遇方面所起的作用。",
+            "source": "《TCFD 建议最终报告》表 4 治理 b"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "管理层的作用与董事会监督相互衔接，共同构成气候相关问题的治理闭环。",
+              "title": "管理层的作用与董事会监督相互衔接…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "title": "与主流财务报告治理衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候相关披露应受内部治理流程适当管理；因纳入年度报告，治理流程与现有财务报告相似，可由首席财务官与审计委员会审查。",
+              "title": "气候相关披露应受内部治理流程适当管理…",
+              "quote": {
+                "text": "工作组了解，一些组织可能在财务报告之外的报告中提供部分或全部与气候相关的财务披露。会出现这一情况可能是因为这类组织不需要发布公开财务报告（例如，一些资产管理公司和资产所有者）。在这种情况下，组织应遵循与在财务报告流程中所采用的相同或基本相似的内部治理流程。",
+                "source": "《TCFD 建议最终报告》C 披露的地点和重要性"
+              }
+            },
+            {
+              "content": "将气候相关信息纳入主流财务披露，有助于确保所需信息的产生与披露受到适当控制。",
+              "title": "将气候相关信息纳入主流财务披露…",
+              "quote": {
+                "text": "工作组还相信公布主流财务披露中的气候相关财务信息将会帮助确保对所需信息的产生及披露进行适当控制。",
+                "source": "《TCFD 建议最终报告》C 主流财务报告披露"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "与现行准则衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "财政部气候准则",
+              "content": "要求披露负责监督气候相关风险和机遇的治理机构（含董事会及其下设委员会）的情况。",
+              "quote": {
+                "text": "描述董事会对与气候相关风险和机遇的监督。",
+                "source": "《TCFD 建议最终报告》表 4 治理 a",
+                "related": {
+                  "label": "关联知识：财政部气候准则 治理",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "企业应当披露负责监督气候相关风险和机遇的治理机构（包括董事会及其下设委员会或者其他类似机构）或者人员的情况，包括下列信息：",
+                  "source": "财政部《企业可持续披露准则第1号——气候（试行）》"
+                }
+              }
+            },
+            {
+              "title": "IFRS S2 治理",
+              "content": "ISSB 在 S2 中承接并细化治理披露，要求描述董事会与高管在监督与风险管理中的职责。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2,
+          "title": "治理披露的承接关系"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tcfd-strategy",
+        "title": "战略支柱"
+      },
+      {
+        "id": "tcfd-basics",
+        "title": "建议框架总览"
+      }
+    ],
+    "external": [
+      {
+        "title": "财政部气候准则 治理章节",
+        "url": "topic.html?standard=mof&id=mof-climate",
+        "standard": "mof",
+        "system": "财政部准则体系"
+      },
+      {
+        "title": "IFRS S2 治理",
+        "url": "topic.html?standard=ifrs&id=ifrs-s2-governance",
+        "standard": "ifrs",
+        "system": "ISSB 准则体系"
+      }
+    ]
+  }
+}

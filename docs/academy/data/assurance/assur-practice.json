@@ -1,0 +1,301 @@
+{
+  "id": "assur-practice",
+  "title": "鉴证实务",
+  "eyebrow": "范围 · 证据 · 结论",
+  "summary": "从确定鉴证范围与报告边界，到获取充分、适当的鉴证证据，再到形成结论与出具鉴证报告，串起一次鉴证的全流程。",
+  "tags": [
+    "鉴证范围",
+    "鉴证证据",
+    "鉴证结论"
+  ],
+  "group": "鉴证实务",
+  "status": "官方文件整理",
+  "officialUrl": "https://kjs.mof.gov.cn/zhengcefabu/202601/t20260127_3982643.htm",
+  "sourceNote": "本页综合三份官方文件整理；悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "scope",
+      "title": "第一步：确定鉴证范围与边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "鉴证者应先初步了解业务环境，确定鉴证范围是全部还是部分可持续信息，并评价报告边界适当；边界取决于编制信息所使用的披露标准。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "全部或部分信息",
+              "content": "范围可覆盖拟报告的全部信息，也可仅覆盖部分。",
+              "quote": {
+                "text": "本准则所规范的可持续信息鉴证业务，是指鉴证者接受委托，对被鉴证单位依据企业可持续披露准则等披露标准编制的可持续信息执行鉴证工作，获取充分、适当的鉴证证据，得出鉴证意见并出具鉴证报告，以增强可持续信息使用者对可持续信息信任程度的业务。",
+                "source": "财政部 6101 号 第二条"
+              }
+            },
+            {
+              "title": "评价前提条件",
+              "content": "评价可持续事项可否识别、可否一致计量、能否获取充分证据等。",
+              "quote": {
+                "text": "鉴证者应当评价鉴证范围内的可持续事项是否适当。在评价时，鉴证者应当考虑以下方面：（一）鉴证范围内的可持续事项是否可识别；（二）鉴证范围内的可持续事项是否能够按照所使用的披露标准进行一致计量或评价；（三）鉴证者是否能够对与这些事项相关的可持续信息执行鉴证程序并获取充分、适当的鉴证证据。",
+                "source": "财政部 6101 号 第五十八条"
+              }
+            },
+            {
+              "title": "合理目的",
+              "content": "业务须有合理目的，不会误导使用者、范围适当。",
+              "quote": {
+                "text": "鉴证者应当确定鉴证业务是否存在合理的目的。在确定时，鉴证者应当考虑下列事项：（一）对于有限保证业务，预期是否能够获得有意义的保证程度；（二）鉴证业务在整体上是否有用，是否不会误导信息使用者；（三）鉴证范围是否适当。",
+                "source": "财政部 6101 号 第六十一条"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "第二步：获取与评价鉴证证据",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "鉴证证据须从充分性（数量）与适当性（质量）两个角度评价；设计与实施程序时，既不偏向支持性证据，也不排斥相矛盾的证据。"
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "充分性",
+              "quote": {
+                "text": "鉴证证据：在本准则中有时简称证据，是指鉴证者为得出鉴证意见和出具鉴证报告而使用的信息。鉴证者通过实施鉴证程序获取鉴证证据。鉴证者需要从充分性和适当性两个角度评价鉴证证据，其中，充分性是对证据数量的衡量，适当性是对证据质量的衡量。",
+                "source": "财政部 6101 号 附录术语表"
+              },
+              "desc": "对证据数量的衡量；与选取项目的审计风险相关。"
+            },
+            {
+              "title": "适当性",
+              "quote": {
+                "text": "在设计和实施程序时，鉴证者应当评价拟用作证据的信息的相关性和可靠性，包括从被鉴证单位外部获取的信息的相关性和可靠性。",
+                "source": "财政部 6101 号 第十八条"
+              },
+              "desc": "对证据质量的衡量，含相关性与可靠性。"
+            },
+            {
+              "title": "不偏不倚",
+              "quote": {
+                "text": "既不偏向于获取支持性证据，也不排斥相矛盾的证据；（二）程序的性质、时间安排和范围符合实际情况，获取的鉴证证据能够满足程序的预期目的。",
+                "source": "财政部 6101 号 第十七条"
+              },
+              "desc": "既不偏重支持性，也不排斥矛盾证据。"
+            },
+            {
+              "title": "矛盾须追查",
+              "quote": {
+                "text": "如果对拟用作鉴证证据的信息的相关性或可靠性产生疑虑，鉴证者应当确定是否有必要调整程序或追加实施程序以消除疑虑。如果不能消除疑虑，鉴证者应当考虑对鉴证业务的影响，包括是否可能存在舞弊导致的重大错报。",
+                "source": "财政部 6101 号 第二十二条"
+              },
+              "desc": "发现矛盾或存疑时，须进一步调查并评估影响。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "ISSA 5000 对证据的定义与我国准则一致：充分性衡量数量，适当性衡量质量。",
+          "quote": {
+            "text": "Information, after applying assurance procedures, that the practitioner uses to draw conclusions that form the basis for the practitioner’s assurance conclusion and report. Sufficiency of evidence is the measure of the quantity of evidence. Appropriateness of evidence is the measure of the quality of evidence.",
+            "source": "ISSA 5000, Definitions, para. 18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "第三步：流程——计划、风险、程序",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "计划",
+              "desc": "制定总体策略与具体计划，确定重要性。"
+            },
+            {
+              "title": "风险评估",
+              "desc": "实施风险评估程序，识别与评估重大错报风险。"
+            },
+            {
+              "title": "进一步程序",
+              "desc": "针对评估风险设计和实施控制测试与实质性程序。",
+              "quote": {
+                "text": "评估的风险越高，需要获取越有说服力的鉴证证据。",
+                "source": "财政部 6101 号 第一百二十二条"
+              }
+            },
+            {
+              "title": "形成结论",
+              "desc": "评价证据后，形成合理或有限保证结论。"
+            }
+          ],
+          "layout": "h"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "职业怀疑",
+              "content": "全程保持职业怀疑，警惕舞弊导致的重大错报。",
+              "quote": {
+                "text": "在计划和执行鉴证业务时，鉴证者应当保持职业怀疑，对可能导致可持续信息发生重大错报的情形保持警觉。",
+                "source": "财政部 6101 号 第十三条"
+              }
+            },
+            {
+              "title": "职业判断",
+              "content": "在计划、程序性质与时间安排上运用职业判断。",
+              "quote": {
+                "text": "在计划和执行鉴证业务，包括确定鉴证程序的性质、时间安排和范围时，鉴证者应当运用职业判断。",
+                "source": "财政部 6101 号 第十六条"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "第四步：形成结论与出具报告",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "评价证据",
+              "content": "评价证据是否达到程序预期目的，并考虑所有证据（含矛盾证据）。",
+              "quote": {
+                "text": "The practitioner shall evaluate the sufficiency and appropriateness of the evidence obtained, including evidence from the work performed by a practitioner’s external expert, another practitioner or internal audit function, and, if necessary in the circumstances, attempt to obtain further evidence.",
+                "source": "ISSA 5000, Forming the Assurance Conclusion, para. 178"
+              }
+            },
+            {
+              "title": "范围受限",
+              "content": "无法获取充分适当证据时，可保留、免责或退出。",
+              "quote": {
+                "text": "If the practitioner is unable to obtain sufficient appropriate evidence, a scope limitation exists, and the practitioner shall either: (Ref: Para. A530-A531) (a) Express a qualified conclusion; (b) Disclaim a conclusion;",
+                "source": "ISSA 5000, Forming the Assurance Conclusion, para. 185"
+              }
+            },
+            {
+              "title": "报告签署",
+              "content": "我国准则要求报告由项目负责人与另一名鉴证者签名盖章。",
+              "quote": {
+                "text": "鉴证报告应当由项目负责人和该项目的另一名鉴证者签名和盖章。",
+                "source": "财政部 6101 号 第二百零八条"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "形成结论前，执业者/鉴证者须评价证据的充分性与适当性；若无法获取充分适当证据即构成范围受限，可发表保留结论、免责结论或在允许时退出业务。",
+              "title": "形成结论前…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross",
+      "title": "跨标准衔接与选用提示",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "同一次鉴证可多标准",
+              "content": "AA1000AS v3 可与 ISSA 5000 等框架互补引用，但须满足各自要求。"
+            },
+            {
+              "title": "我国自愿实施",
+              "content": "6101 号目前自愿实施，正式实施范围待后续文件明确。"
+            },
+            {
+              "title": "强制趋势",
+              "content": "部分司法管辖区已对气候等披露实施强制鉴证，需提前布局。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "选择标准时，应同时对照披露对象（如 IFRS S2、GRI 305、财政部气候准则）的鉴证要求与可用保证程度；气候相关信息的第三方鉴证已被多套披露规则鼓励或要求。",
+              "title": "选择标准时…",
+              "quote": {
+                "text": "AA1000ASv3可以与其他国际认可的框架互补使用，进一步提高整体审验过程的稳健性和质量。",
+                "source": "AA1000AS v3 互补使用",
+                "related": {
+                  "label": "财政部气候准则第九条（第三方鉴证）",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "鼓励企业利用内部审计部门、法律部门或者其他负有监督职责的部门对气候相关风险和机遇进行监督，并聘请独立第三方机构对气候相关信息进行鉴证。",
+                  "source": "财政部《企业可持续披露准则第 1 号——气候（试行）》第九条"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "assur-mof6101",
+        "title": "中国准则 6101 号"
+      },
+      {
+        "id": "assur-issa5000",
+        "title": "ISSA 5000"
+      }
+    ],
+    "external": [
+      {
+        "title": "财政部 6101 号官方正文",
+        "url": "https://kjs.mof.gov.cn/zhengcefabu/202601/t20260127_3982643.htm"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 指标和目标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则第九条",
+        "standard": "mof"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "A 股双重重要性评估",
+        "standard": "ashare"
+      }
+    ]
+  }
+}

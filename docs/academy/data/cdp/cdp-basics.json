@@ -1,0 +1,259 @@
+{
+  "id": "cdp-basics",
+  "title": "CDP 是什么：平台、使用方与评分价值",
+  "eyebrow": "入门与基础",
+  "summary": "CDP 运营全球环境信息披露平台，连接披露企业与资本、采购方，并给出 D- 到 A 的评分。",
+  "tags": [
+    "披露平台",
+    "评分价值",
+    "框架对齐"
+  ],
+  "group": "入门与基础",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式使用请核对 CDP 当期材料。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "CDP 是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "CDP 运营全球环境信息披露平台，推动企业、资本市场、城市、州和地区披露环境信息。",
+          "quote": {
+            "text": "CDP works with market forces to motivate companies to disclose their impacts on the environment and natural resources and take action to reduce negative impacts, highlighting the business case to do so.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Principles of scoring)"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "评分通过衡量与激励企业披露，促使其测算并管理环境影响。"
+        }
+      ]
+    },
+    {
+      "id": "users",
+      "title": "谁在使用 CDP",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "四类使用方与平台规模",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "540+ 金融机构",
+              "content": "全球管理资产达 110 万亿美元，以投资者身份使用 CDP 数据。",
+              "quote": {
+                "text": "540+ 金融机构，全球管理资产达 110 万亿美元",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP)"
+              }
+            },
+            {
+              "title": "270+ 大型采购方",
+              "content": "总市值约占全球市值五分之一，以供应链方式邀请供应商披露。",
+              "quote": {
+                "text": "270+ 大型采购方， 总市值约占全球市值五分之一",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP)"
+              }
+            },
+            {
+              "title": "22,100+ 披露企业",
+              "content": "市值占全球总市值三分之二，通过 CDP 披露环境数据。",
+              "quote": {
+                "text": "22,100+ 披露企业，市值占全球总市值三分之二",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP)"
+              }
+            },
+            {
+              "title": "1,000+ 城市、州和地区",
+              "content": "公共部门也通过 CDP 平台参与环境信息披露。",
+              "quote": {
+                "text": "1,000+ 城市、州和地区参与披露",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "CDP 代表资本与采购方收集全球最大型企业的环境数据。",
+          "quote": {
+            "text": "CDP collects environmental data from the world’s largest organizations on behalf of over 640 institutional capital markets signatories with a combined US$127 trillion in assets, and 270+ major purchasers with over US$6.4 trillion in procurement spend.",
+            "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Overview)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "title": "CDP 评分的价值",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "评分呈现企业披露与环境绩效的概览，反映报告年度内的行动水平。",
+              "title": "评分呈现企业披露与环境绩效的概览…",
+              "quote": {
+                "text": "CDP 评分呈现企业披露和环境绩效的概览。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP 评分)"
+              }
+            },
+            {
+              "content": "评分并非可持续性的综合指标，而是企业评估与管理环境影响的行动信号。",
+              "title": "评分并非可持续性的综合指标…",
+              "quote": {
+                "text": "评分反映企业在报告年度内为评估和管理其环境影响而报告的行动水平。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (关于 CDP 评分)"
+              }
+            },
+            {
+              "content": "过去十年，入选 A 名单企业的股票收益较市场基准高出 6%。",
+              "title": "过去十年…",
+              "quote": {
+                "text": "过去十年，CDP A List 企业的股票收益较市场基准高出 6%。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (推动商业绩效)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "align",
+      "title": "与其他框架的一致性",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "CDP 持续扩大与主流框架的对齐",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "与 IFRS S2 一致",
+              "content": "自 2024 年起与 ISSB 气候标准保持一致。",
+              "quote": {
+                "text": "自 2024 年起与 IFRS S2 保持一致",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (Alignment)"
+              }
+            },
+            {
+              "title": "与 TCFD 建议一致",
+              "content": "自 2018 年起与 TCFD 建议保持一致。",
+              "quote": {
+                "text": "自 2018 年起与 TCFD 建议保持一致",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (Alignment)"
+              }
+            },
+            {
+              "title": "与 ESRS E1 互操作",
+              "content": "与 ESRS E1 具有高度互操作性。",
+              "quote": {
+                "text": "与 ESRS E1 具有高度互操作性。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (Alignment)"
+              }
+            },
+            {
+              "title": "与 GRI 部分对齐",
+              "content": "与 GRI 气候变化、能源、水与污水标准部分对齐。",
+              "quote": {
+                "text": "与 GRI《气候变化：102》《能源：103》和《水与污水：303》部分对齐",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (Alignment)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "CDP 是 ISSB 的关键全球气候披露合作伙伴，ISSB 气候标准是 CDP 气候披露的基线。",
+              "title": "CDP 是 ISSB 的关键全球…",
+              "quote": {
+                "text": "CDP 是 ISSB 的关键全球气候披露合作伙伴，ISSB 气候标准是 CDP 气候披露的基础基线。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (通过 CDP 披露，与 ISSB 保持一致)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "2026 披露时间线",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "4 月 20 日当周",
+              "desc": "问卷发布"
+            },
+            {
+              "title": "6 月 15 日当周",
+              "desc": "披露方回复窗口开启"
+            },
+            {
+              "title": "9 月 14 日当周",
+              "desc": "有资格获评分的回复提交截止"
+            },
+            {
+              "title": "11 月 30 日当周",
+              "desc": "2026 年评分可在门户查看"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "未获评分的问卷回复截止为 10 月 26 日当周；评分在同一日历年内发布。",
+              "title": "未获评分的问卷回复截止为 10 …",
+              "quote": {
+                "text": "10 月 26 日当周 不获得评分的问卷回复提交截止日期",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (2026 披露时间线)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "sbti-basics",
+        "title": "SBTi 净零标准",
+        "standard": "sbti"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 官方门户",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "tcfd",
+  "title": "TCFD 气候相关财务信息披露",
+  "titleEn": "Task Force on Climate-related Financial Disclosures — Recommendations",
+  "eyebrow": "气候披露框架原型 · 四支柱与 11 项建议",
+  "accent": "#0f5e8c",
+  "description": "金融稳定理事会（FSB）下设的 TCFD 于 2017 年发布气候相关财务信息披露建议，以治理、战略、风险管理、指标和目标四大支柱组织披露，是现行气候披露框架的原型与基础。",
+  "issuer": "金融稳定理事会（FSB）气候相关财务信息披露工作组（TCFD）",
+  "version": "2017 年 6 月《最终建议》；2021 年 10 月《指标、目标与转型计划指南》；2023 年发布最后一份《进展报告》后解散",
+  "updated": "2026.10.14",
+  "topics": 6,
+  "sourceNote": "TCFD《最终建议》（2017 中译版）、《实施指南》（2021 中译版）、《指标、目标与转型计划指南》（2021 中译版）以及《2023 年进展报告》（英文）。TCFD 已于 2023 年解散，相关职能由 ISSB（IFRS S2）承接。",
+  "notice": "TCFD 已于 2023 年发布最后一份进展报告后正式解散，其气候披露职能由国际可持续准则理事会（ISSB）通过《IFRS S2 号——气候相关披露》承接。TCFD 建议是气候披露框架的原型与基础，企业现行披露应以 IFRS S2 及所在地监管要求为准；本体系仅供理解框架脉络与历史定位，不表示 TCFD 仍是当前强制要求。",
+  "goals": [
+    "以治理、战略、风险管理、指标和目标四大支柱组织气候相关财务信息披露，覆盖所有经济部门",
+    "建议披露应纳入主流（公开）年度财务报告，帮助投资者、贷款人和保险承保人评估气候相关风险与机遇",
+    "鼓励组织使用情景分析评估战略在 2°C 或更低升温情景下的韧性",
+    "建议披露范围 1、范围 2 与范围 3 温室气体排放及相关气候指标与目标",
+    "框架已被 IFRS S2、A 股指引、财政部气候准则等现行规则广泛承接，作为气候披露的共同基础"
+  ],
+  "groups": [
+    {
+      "title": "建议框架总览",
+      "items": [
+        {
+          "id": "tcfd-basics",
+          "title": "建议框架总览",
+          "eyebrow": "四支柱与 11 项建议",
+          "summary": "TCFD 以治理、战略、风险管理、指标和目标四大支柱组织披露，下设 11 项具体建议披露。",
+          "tags": [
+            "四支柱",
+            "11 项建议",
+            "主流财务报告"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《最终建议》（2017 中译版）整理；悬浮「原文」可查看官方中译原文。",
+          "detailFile": "data/tcfd/tcfd-basics.json"
+        }
+      ]
+    },
+    {
+      "title": "四支柱详解",
+      "items": [
+        {
+          "id": "tcfd-governance",
+          "title": "治理支柱",
+          "eyebrow": "董事会与管理的角色",
+          "summary": "披露董事会对气候相关风险和机遇的监督，以及管理层在评估与管理中所起的作用。",
+          "tags": [
+            "董事会监督",
+            "管理层职责",
+            "治理架构"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《最终建议》治理章节整理；悬浮「原文」可查看官方中译原文。",
+          "detailFile": "data/tcfd/tcfd-governance.json"
+        },
+        {
+          "id": "tcfd-strategy",
+          "title": "战略支柱",
+          "eyebrow": "风险机遇与 2°C 情景",
+          "summary": "披露气候相关风险与机遇对业务、战略和财务规划的影响，以及战略在 2°C 情景下的韧性。",
+          "tags": [
+            "风险与机遇",
+            "2°C 情景",
+            "战略韧性"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《最终建议》战略章节整理；悬浮「原文」可查看官方中译原文。",
+          "detailFile": "data/tcfd/tcfd-strategy.json"
+        },
+        {
+          "id": "tcfd-risk",
+          "title": "风险管理支柱",
+          "eyebrow": "识别·评估·管理·整合",
+          "summary": "披露组织识别、评估与管理气候相关风险的流程，以及如何纳入全面风险管理。",
+          "tags": [
+            "风险识别",
+            "风险评估",
+            "全面风险管理"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《最终建议》风险管理章节整理；悬浮「原文」可查看官方中译原文。",
+          "detailFile": "data/tcfd/tcfd-risk.json"
+        },
+        {
+          "id": "tcfd-metrics",
+          "title": "指标与目标",
+          "eyebrow": "范围 1/2/3 与目标",
+          "summary": "披露评估与管理气候风险的指标，包括范围 1、范围 2、范围 3 温室气体排放，以及相关目标。",
+          "tags": [
+            "气候指标",
+            "范围 1/2/3",
+            "气候目标"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《最终建议》指标和目标章节整理；悬浮「原文」可查看官方中译原文。",
+          "detailFile": "data/tcfd/tcfd-metrics.json"
+        }
+      ]
+    },
+    {
+      "title": "转型与准则承接",
+      "items": [
+        {
+          "id": "tcfd-transition",
+          "title": "转型计划与国际准则承接",
+          "eyebrow": "转型计划 · ISSB 承接",
+          "summary": "TCFD 对转型计划的补充指南，以及其职能由 ISSB（IFRS S2）承接的关系。",
+          "tags": [
+            "转型计划",
+            "ISSB",
+            "IFRS S2"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+          "sourceNote": "本页按 TCFD《指标、目标与转型计划指南》（2021 中译版）及《2023 年进展报告》整理。",
+          "detailFile": "data/tcfd/tcfd-transition.json"
+        }
+      ]
+    }
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "治理",
+      "desc": "董事会监督、管理层负责，建立气候相关问题的治理架构"
+    },
+    {
+      "step": "2",
+      "title": "战略",
+      "desc": "识别短中长期风险与机遇，评估对业务与财务规划的影响及情景韧性"
+    },
+    {
+      "step": "3",
+      "title": "风险管理",
+      "desc": "识别、评估、管理气候相关风险，并纳入全面风险管理流程"
+    },
+    {
+      "step": "4",
+      "title": "指标和目标",
+      "desc": "披露范围 1/2/3 排放等指标，以及管理气候风险的定量与定性目标"
+    }
+  ],
+  "officialFiles": [
+    {
+      "name": "TCFD《最终建议》（2017 中译版）",
+      "url": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/"
+    },
+    {
+      "name": "TCFD《实施指南》（2021 中译版）",
+      "url": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/"
+    },
+    {
+      "name": "TCFD《指标、目标与转型计划指南》（2021 中译版）",
+      "url": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/"
+    },
+    {
+      "name": "TCFD《2023 年进展报告》（英文）",
+      "url": "https://www.fsb.org/2023/09/14/2023-status-report/"
+    },
+    {
+      "name": "ISSB《IFRS S2 号——气候相关披露》",
+      "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/"
+    }
+  ]
+}

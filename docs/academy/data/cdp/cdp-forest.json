@@ -1,0 +1,254 @@
+{
+  "id": "cdp-forest",
+  "title": "森林评分：七大风险大宗与单一评分",
+  "eyebrow": "环境议题评分",
+  "summary": "非金融部门企业披露七大森林风险大宗；2026 年新增可可、咖啡、橡胶计分，单一森林评分用于 A 名单。",
+  "tags": [
+    "森林",
+    "风险大宗",
+    "单一评分"
+  ],
+  "group": "环境议题评分",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式填报请以 CDP 当期森林评分方法为准。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "森林评分是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "非金融部门且披露森林的企业须报告七类森林风险大宗，并披露所采购或生产的所有大宗。",
+          "quote": {
+            "text": "Organizations that are not in the financial services sector and that are disclosing to Forests are requested to report on seven forest risk commodities.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Forests scoring)"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "2026 年全部森林风险大宗均计分，可可、咖啡、橡胶为首年计分。",
+          "quote": {
+            "text": "In 2026, all forest risk commodities will be scored, with rubber, cocoa and coffee for the first time.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Forests scoring)"
+          }
+        },
+        {
+          "type": "card_grid",
+          "title": "森林评分的适用对象",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "非金融部门",
+              "content": "披露森林的企业须报告七类风险大宗。"
+            },
+            {
+              "title": "金融部门",
+              "content": "适用金融专属模块与 EC-F2 等金融 criteria。"
+            },
+            {
+              "title": "完整版问卷",
+              "content": "森林 essential criteria 仅适用完整版。"
+            },
+            {
+              "title": "A 名单",
+              "content": "单一森林评分是 A 名单评定依据。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commodities",
+      "title": "七大森林风险大宗",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "CDP 森林评分覆盖的七类大宗",
+          "numbered": false,
+          "cols": 3,
+          "cards": [
+            {
+              "title": "木材制品",
+              "content": "Timber products"
+            },
+            {
+              "title": "棕榈油",
+              "content": "Palm oil"
+            },
+            {
+              "title": "牛类制品",
+              "content": "Cattle products"
+            },
+            {
+              "title": "大豆",
+              "content": "Soy"
+            },
+            {
+              "title": "橡胶",
+              "content": "Rubber（2026 新增计分）"
+            },
+            {
+              "title": "可可",
+              "content": "Cocoa（2026 新增计分）"
+            },
+            {
+              "title": "咖啡",
+              "content": "Coffee（2026 新增计分）"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "2026 年在原有四类基础上新增可可、咖啡、橡胶三种评分大宗。",
+          "quote": {
+            "text": "In 2026, CDP introduced scoring for an additional three commodities; cocoa, coffee and rubber, in addition to the previously scored commodities (timber products, palm oil, cattle products and soy).",
+            "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (Introduction)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essential",
+      "title": "essential criteria 与封顶",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "森林 essential criteria 仅应用于领导力与 A 名单层，未满足则相应封顶。",
+              "title": "森林 essential cri…",
+              "quote": {
+                "text": "essential criteria for Forests are applied across Leadership and A list levels.",
+                "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (Introduction)"
+              }
+            },
+            {
+              "content": "森林 essential criteria 仅适用于完整版问卷，金融部门为例外（EC-F2 仅适用金融）。",
+              "title": "森林 essential cri…",
+              "quote": {
+                "text": "If a criterion is applied to Leadership level and the check is not met, this will limit an organization’s final score to a B. Similarly, if the A list criteria are not met then the final score will be limited to an A-.",
+                "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (How to use this document)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single",
+      "title": "单一森林评分的构成",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "商品子分",
+              "desc": "各大宗分别评分"
+            },
+            {
+              "title": "平均汇聚",
+              "desc": "形成单一森林评分"
+            },
+            {
+              "title": "A 名单",
+              "desc": "用于评定 A 名单"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "各类大宗先算出商品子分，再平均形成单一森林评分，后者是 A 名单评定的官方评分。",
+              "title": "各类大宗先算出商品子分…",
+              "quote": {
+                "text": "Alongside the single Forests score and category scores, commodity sub-scores are calculated to provide additional feedback to disclosers on their performance on an individual commodity level.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Commodity sub-scores)"
+              }
+            },
+            {
+              "content": "除气候外，森林也按类别权重计算管理与领导力层分数。",
+              "title": "除气候外…",
+              "quote": {
+                "text": "At the Management and Leadership levels, weightings are applied using category scores as they are for Climate Change and Water Security.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Forests scoring)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply",
+      "title": "与供应链及毁林议题关联",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "森林评分关注企业对驱动毁林的大宗商品的依赖，以及向无毁林供应链转型的进展。",
+              "title": "森林评分关注企业对驱动毁林的大宗…",
+              "quote": {
+                "text": "CDP recognizes the importance of environmental transparency in incentivizing positive and effective actions to mitigate risks due to climate change, water security, and deforestation.",
+                "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (Introduction)"
+              }
+            },
+            {
+              "content": "CSA 亦设可持续原材料标准，关注森林经营与监管链认证，与 CDP 森林评分互补。",
+              "title": "CSA 亦设可持续原材料标准…",
+              "quote": {
+                "text": "CDP 整合企业问卷，与 ISSB 气候标准保持一致，并扩大与 TNFD 的一致性。",
+                "source": "Why_disclose_to_CDP_in_2026_-_China (CDP 简介时间线)",
+                "related": {
+                  "text": "可持续原材料属于环境维度。该标准只在部分行业适用。",
+                  "source": "标普全球 CSA（CSA-ENV-08 可持续原材料）",
+                  "label": "关联知识：标普全球 CSA 可持续原材料",
+                  "url": "topic.html?standard=csa&id=CSA-ENV-08",
+                  "standard": "csa"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "csa",
+        "title": "标普全球 CSA",
+        "standard": "csa"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 森林评分方法 2026",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

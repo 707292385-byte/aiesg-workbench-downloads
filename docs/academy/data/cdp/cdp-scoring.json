@@ -1,0 +1,232 @@
+{
+  "id": "cdp-scoring",
+  "title": "评分怎么算：四级阶梯、字母等级与加权",
+  "eyebrow": "评分机制",
+  "summary": "回复按披露、认知、管理、领导力四级评估；最终给 D- 到 A 的字母分，阈值与 essential criteria 共同决定进阶。",
+  "tags": [
+    "评分方法",
+    "四级阶梯",
+    "字母等级"
+  ],
+  "group": "评分机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式评分请以 CDP 当期评分介绍为准。",
+  "sections": [
+    {
+      "id": "levels",
+      "title": "四级评分阶梯",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "Disclosure 披露",
+              "desc": "开始披露环境影响，完整性不足"
+            },
+            {
+              "title": "Awareness 认知",
+              "desc": "理解环境议题与业务的关联"
+            },
+            {
+              "title": "Management 管理",
+              "desc": "有管理环境影响的行动与流程"
+            },
+            {
+              "title": "Leadership 领导力",
+              "desc": "最佳实践的透明度与绩效"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "企业沿披露、认知、管理、领导力四级递进，体现迈向环境管理的过程。",
+          "quote": {
+            "text": "Responding organizations are assessed and scored across four consecutive levels which represent the steps an organization moves through as it progresses towards environmental stewardship. These four levels are Disclosure, Awareness, Management and Leadership.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Scoring levels)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "letter",
+      "title": "字母等级 D- 到 A",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "层级",
+              "区间",
+              "等级"
+            ],
+            [
+              "Disclosure",
+              "1–49%",
+              "D- / D"
+            ],
+            [
+              "Awareness",
+              "1–44% / 45–80%",
+              "C- / C"
+            ],
+            [
+              "Management",
+              "1–44% / 45–75%",
+              "B- / B"
+            ],
+            [
+              "Leadership",
+              "1–69% / 70–100%",
+              "A- / A"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "每个议题按得分百分比给出从 A 到 D- 的最终字母评分，层内再分两档。",
+          "quote": {
+            "text": "Responders are allocated a final letter score for each environmental issue area on which they have been scored, ranging from A to D-.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Calculation of a final score)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "threshold",
+      "title": "阈值与 essential criteria 进阶",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "须在某一层达到最低分才能进入上一层；即便越过阈值，未满足该层 essential criteria 也不能获评该层。",
+          "quote": {
+            "text": "As well as achieving a minimum score in a level to be able to move to the next level, CDP also utilizes a system of essential criteria. To be able to achieve a score within a given score level, these criteria must be met within the response.",
+            "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Essential criteria)"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候的 essential criteria 横跨四层；森林与水安全仅用于领导力与 A 名单层。",
+              "title": "气候的 essential cr…",
+              "quote": {
+                "text": "Essential criteria are present for Climate Change across Awareness, Management, Leadership and A list.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Essential criteria)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weighting",
+      "title": "加权计算（管理与领导力层）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "三类主要评分方式",
+          "numbered": false,
+          "cols": 3,
+          "cards": [
+            {
+              "title": "比例评分",
+              "content": "按披露信息量比例给分，激励完整填报。"
+            },
+            {
+              "title": "最优行评分",
+              "content": "仅取得分最高的一行参与计分。"
+            },
+            {
+              "title": "整合评分",
+              "content": "多议题数据按行分别计分，避免重复。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露与认知层用简单百分比；管理与领导力层用类别权重计算百分比。",
+              "title": "披露与认知层用简单百分比…",
+              "quote": {
+                "text": "For Management and Leadership scoring levels, a weighted percentage is calculated.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Calculation of scores per scoring level)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "评分说明与边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "CDP 评分基于回复中披露的活动与立场，并非可持续性的综合度量或“绿色”指标。",
+              "title": "CDP 评分基于回复中披露的活动…",
+              "quote": {
+                "text": "The CDP score is based on activities and positions disclosed in the CDP response. The score is not a comprehensive metric of an organization’s level of sustainability or ‘green-ness’, or a specific metric on the environmental footprint, but rather an indication of the level of action taken by the organization to assess and manage its impacts on, and from, environmental related issues during the reporting year.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Disclaimer Surrounding Scores)"
+              }
+            },
+            {
+              "content": "CDP 与其评分伙伴均不核证单个企业回复中的信息，仅依据回复内容评分。",
+              "title": "CDP 与其评分伙伴均不核证单个…",
+              "quote": {
+                "text": "Neither CDP nor CDP’s scoring partners verify the information in any individual organization’s response.",
+                "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Scoring of responses)",
+                "related": {
+                  "text": "目标是温室气体排放总量目标还是温室气体净排放量目标；如果主体披露温室气体净排放量目标，则还需单独披露相关温室气体排放总量目标（参见 B68 段至 B69 段）",
+                  "source": "IFRS S2：气候相关披露（气候相关目标）",
+                  "label": "关联知识：IFRS S2 气候指标",
+                  "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                  "standard": "ifrs"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "csa",
+        "title": "标普全球 CSA",
+        "standard": "csa"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 评分介绍 2026",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

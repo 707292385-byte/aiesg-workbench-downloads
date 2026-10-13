@@ -1,0 +1,226 @@
+{
+  "id": "cdp-questionnaire",
+  "title": "整合企业问卷：2026 年的 13 个模块",
+  "eyebrow": "入门与基础",
+  "summary": "2024 年起气候、森林、水安全整合为一份企业问卷；2026 年含 13 个模块与 6 类环境议题。",
+  "tags": [
+    "问卷结构",
+    "13 模块",
+    "议题覆盖"
+  ],
+  "group": "入门与基础",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本页按 CDP 官方文件整理；悬浮「原文」可查看对应官方原文。正式填报请以 CDP 当期问卷与指南为准。",
+  "sections": [
+    {
+      "id": "integrated",
+      "title": "整合问卷的由来",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "2024 年起，CDP 将气候、森林、水安全三套问卷整合为一份企业问卷，鼓励更整体的报告。",
+          "quote": {
+            "text": "In 2024, the CDP corporate questionnaires on climate change, forests, and water security were integrated into one corporate questionnaire.",
+            "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Overview)"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "2026 年首次引入海洋（Ocean）议题数据点，自然议题覆盖范围扩大。",
+          "quote": {
+            "text": "In 2026, datapoints on ocean disclosure are introduced for the first time.",
+            "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Overview)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "title": "13 个模块怎么分",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "模块",
+              "类型",
+              "说明"
+            ],
+            [
+              "1–6、13",
+              "整合模块",
+              "覆盖多个环境议题，按议题分别评分"
+            ],
+            [
+              "7–11",
+              "环境绩效",
+              "各模块仅对应单一环境议题"
+            ],
+            [
+              "12",
+              "金融服务专属",
+              "金融部门的整合型环境绩效模块"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "整合模块的问题会被多个议题评分；环境绩效模块仅由对应议题评分。",
+          "quote": {
+            "text": "There are 13 modules in the full corporate questionnaire. Modules 1 to 6, and 13 are integrated, which means that questions in these modules cover more than one environmental issue area.",
+            "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Full corporate questionnaire structure)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "issues",
+      "title": "哪些议题会被问到",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "六类环境议题的呈现规则",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "气候变化",
+              "content": "所有披露方必答，并完成评分。"
+            },
+            {
+              "title": "森林 / 水安全",
+              "content": "仅在被邀请或自选披露时呈现并评分。"
+            },
+            {
+              "title": "生物多样性",
+              "content": "所有披露方呈现补充数据点，2026 年不计分。"
+            },
+            {
+              "title": "海洋 / 塑料",
+              "content": "仅在自选披露时呈现，2026 年不计分。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "气候为必备议题，森林与水安全按邀请或自选呈现，其余为补充或自选。",
+              "title": "气候为必备议题…",
+              "quote": {
+                "text": "All disclosers will be presented with datapoints on climate change, as well as supplementary datapoints on biodiversity.",
+                "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Full corporate questionnaire structure)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sme",
+      "title": "完整版 vs 中小企业版",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "员工超 1000 人或年收入超 2.5 亿美元的企业只能填完整版；其余可填中小企业版。",
+              "title": "员工超 1000 人或年收入超 …",
+              "quote": {
+                "text": "Organizations with a headcount of more than 1,000 total employees or annual revenue of more than US$250 million can only complete the full corporate questionnaire.",
+                "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Eligibility to complete the SME questionnaire)"
+              }
+            },
+            {
+              "content": "中小企业版问题更少、更简化，低于门槛的企业也可自选完整版。",
+              "title": "中小企业版问题更少、更简化…",
+              "quote": {
+                "text": "The SME questionnaire is tailored to the needs of SMEs and contains fewer and simplified datapoints.",
+                "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Full and SME corporate questionnaires)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "title": "与主流框架对齐",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "title": "问卷对接的主要框架",
+          "numbered": false,
+          "cols": 2,
+          "cards": [
+            {
+              "title": "IFRS S2 / ISSB",
+              "content": "气候标准作为 CDP 气候披露的基线。"
+            },
+            {
+              "title": "TCFD",
+              "content": "自 2018 年起与 TCFD 建议保持一致。"
+            },
+            {
+              "title": "TNFD",
+              "content": "2026 年更新对自然相关财务披露框架的对齐。"
+            },
+            {
+              "title": "GRI / ESRS / EMF",
+              "content": "与 GRI、ESRS E1、艾伦·麦克阿瑟基金会承诺对齐。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "CDP 问卷跟随最新科学，并与高质量披露框架和标准保持一致。",
+              "title": "CDP 问卷跟随最新科学…",
+              "quote": {
+                "text": "The CDP full corporate questionnaire follows the latest science and aligns with new high-quality disclosure frameworks and standards.",
+                "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Overview)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 气候指标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放",
+        "standard": "gri"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof"
+      },
+      {
+        "id": "sbti-basics",
+        "title": "SBTi 净零标准",
+        "standard": "sbti"
+      }
+    ],
+    "external": [
+      {
+        "title": "CDP 问卷概览 2026",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

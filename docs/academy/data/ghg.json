@@ -1,0 +1,153 @@
+{
+  "id": "ghg",
+  "title": "温室气体核算体系（GHG Protocol）企业标准",
+  "titleEn": "GHG Protocol — Corporate Accounting and Reporting Standard",
+  "eyebrow": "企业温室气体排放核算方法学",
+  "accent": "#1d7a8c",
+  "description": "由世界资源研究所（WRI）与世界可持续发展工商理事会（WBCSD）开发的《温室气体核算体系：企业核算与报告标准》，是企业编制与报告温室气体排放清单的国际通行基础方法。它界定了组织边界、运营边界与范围一/二/三的核算框架。",
+  "issuer": "世界资源研究所（WRI）与世界可持续发展工商理事会（WBCSD）",
+  "version": "《企业核算与报告标准（修订版）》（2004 年修订版，现行企业核算基础）",
+  "updated": "2026.10.14",
+  "topics": 6,
+  "sourceNote": "本体系依据《温室气体核算体系：企业核算与报告标准（修订版）》官方中文版整理；逐字引文均来自该官方译本。正式使用请核对 GHG Protocol 现行文件与本地法规衔接要求。",
+  "notice": "本标准为排放「核算与报告」方法，不提供核查准则；核查应另行参照 ISSA 5000、财政部 6101 号等。范围三为选择性核算。与中国财政部《企业可持续披露准则第1号——气候（试行）》及 IFRS S2 衔接时，以本国/本准则要求为准。",
+  "goals": [
+    "为企业提供标准化、可核查的温室气体排放清单编制方法",
+    "通过组织边界与合并方法，避免集团内重复或遗漏核算",
+    "以范围一/二/三清晰划分直接与间接排放，定位减排机会",
+    "以五项原则（相关性、完整性、一致性、透明性、准确性）保障清单质量"
+  ],
+  "process": [
+    {
+      "title": "确定组织边界",
+      "desc": "用股权比例法或控制权法合并下属业务，划定纳入核算的组织范围。"
+    },
+    {
+      "title": "设定运营边界",
+      "desc": "识别直接与间接排放，并选定间接排放的核算与报告范围（范围一/二/三）。"
+    },
+    {
+      "title": "识别与计算排放",
+      "desc": "按范围识别排放源，选用排放因子等方法计算量化结果。"
+    },
+    {
+      "title": "管理清单质量",
+      "desc": "应用五项原则，开展基准年设定与不确定性评估。"
+    },
+    {
+      "title": "报告与核查",
+      "desc": "编制报告并可由独立第三方开展核查，提升可信度。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系基础与边界",
+      "items": [
+        {
+          "id": "ghg-basics",
+          "title": "温室气体核算体系基础",
+          "eyebrow": "方法学总览",
+          "summary": "GHG Protocol 企业标准的定位、五项原则与适用范围。",
+          "tags": [
+            "GHG Protocol",
+            "核算原则",
+            "企业标准"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第1章与前言整理。",
+          "detailFile": "data/ghg/ghg-basics.json"
+        },
+        {
+          "id": "ghg-boundary",
+          "title": "组织边界与合并方法",
+          "eyebrow": "边界划定",
+          "summary": "股权比例法与控制权法如何决定哪些业务纳入合并核算。",
+          "tags": [
+            "组织边界",
+            "合并方法",
+            "股权比例法",
+            "控制权法"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第3章、第4章整理。",
+          "detailFile": "data/ghg/ghg-boundary.json"
+        }
+      ]
+    },
+    {
+      "title": "排放范围与报告",
+      "items": [
+        {
+          "id": "ghg-scopes",
+          "title": "三个范围总览",
+          "eyebrow": "范围一/二/三",
+          "summary": "直接排放与间接排放如何在范围一、二、三之间划分。",
+          "tags": [
+            "范围一",
+            "范围二",
+            "范围三",
+            "运营边界"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第4章整理。",
+          "detailFile": "data/ghg/ghg-scopes.json"
+        },
+        {
+          "id": "ghg-scope2",
+          "title": "范围二：外购电力与间接排放",
+          "eyebrow": "外购能源 · 间接",
+          "summary": "外购电力、蒸汽、热与冷所产生的间接排放及其核算要点。",
+          "tags": [
+            "范围二",
+            "外购电力",
+            "间接排放"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第4章整理。",
+          "detailFile": "data/ghg/ghg-scope2.json"
+        },
+        {
+          "id": "ghg-scope3",
+          "title": "范围三：价值链间接排放",
+          "eyebrow": "价值链 · 选择性",
+          "summary": "范围三的 15 类上下游间接排放与识别、报告逻辑。",
+          "tags": [
+            "范围三",
+            "价值链",
+            "上下游排放"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第4章、第6章整理。",
+          "detailFile": "data/ghg/ghg-scope3.json"
+        },
+        {
+          "id": "ghg-report",
+          "title": "核算、报告与核查",
+          "eyebrow": "基准年 · 质量 · 核查",
+          "summary": "基准年、质量管理、不确定性评估与独立核查的要求。",
+          "tags": [
+            "基准年",
+            "质量管理",
+            "核查",
+            "不确定性"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://ghgprotocol.org/corporate-standard",
+          "sourceNote": "本页按《企业核算与报告标准（修订版）》官方中文版第5章、第7章、第9章、第10章整理。",
+          "detailFile": "data/ghg/ghg-report.json"
+        }
+      ]
+    }
+  ],
+  "officialFiles": [
+    {
+      "title": "《温室气体核算体系：企业核算与报告标准（修订版）》",
+      "url": "https://ghgprotocol.org/corporate-standard"
+    }
+  ]
+}

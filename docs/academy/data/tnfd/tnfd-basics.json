@@ -1,0 +1,302 @@
+{
+  "id": "tnfd-basics",
+  "title": "TNFD 与自然相关披露",
+  "eyebrow": "基础 · 为什么从气候扩展到自然",
+  "summary": "TNFD 沿用 TCFD 结构，将披露从气候扩展到自然，覆盖组织对自然的依赖、影响、风险与机遇。",
+  "tags": [
+    "TNFD",
+    "自然相关披露",
+    "TCFD对齐"
+  ],
+  "group": "TNFD 基础与方法",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "什么是自然相关财务披露",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "TNFD 是自愿、市场主导的框架，与 TCFD、ISSB 的语言和结构保持一致。它沿用 TCFD 四大支柱，把企业披露从气候扩展到自然。",
+          "quote": {
+            "text": "The TNFD recommendations retain all four pillars of the TCFD, as do the ISSB’s IFRS Standards’ and the jurisdictional regulations of the EU’s Corporate Sustainability Reporting Directive (CSRD).",
+            "source": "TNFD Recommendations, September 2023, p.366"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "title": "TNFD 建议的骨架",
+          "cards": [
+            {
+              "title": "四大披露支柱",
+              "content": "治理、战略、风险与影响管理、指标与目标，沿用 TCFD。",
+              "quote": {
+                "text": "Building on the approach developed by the TCFD and incorporated into the ISSB’s IFRS-S1 General Requirements, the TNFD has organised its recommended disclosures around the four pillars of:",
+                "source": "TNFD Recommendations, September 2023, p.761"
+              }
+            },
+            {
+              "title": "14 项建议披露",
+              "content": "在 TCFD 11 项基础上新增自然相关建议，覆盖依赖、影响、风险与机遇。",
+              "quote": {
+                "text": "The TNFD replicates all 11 TCFD recommended disclosures for nature-related issues, only adding additional recommended disclosures where there is a clear rationale to do so.",
+                "source": "TNFD Recommendations, September 2023, p.366"
+              }
+            },
+            {
+              "title": "四类自然相关问题",
+              "content": "组织对自然的依赖、影响、风险与机遇，需逐项区分并说明关联。",
+              "quote": {
+                "text": "the identification and assessment of all four types of nature-related issues – dependencies, impacts, risks and opportunities.",
+                "source": "TNFD Recommendations, September 2023, p.787"
+              }
+            },
+            {
+              "title": "给资本提供方的信息",
+              "content": "向投资者等提供决策有用的重大信息，提升组织韧性。",
+              "quote": {
+                "text": "Like the TCFD and ISSB, the TNFD enables the disclosure of decision-useful material information from companies (report preparers) to investors and other capital providers (the primary users of sustainability reporting) to enhance the resilience of organisations to climate and nature-related risks.",
+                "source": "TNFD Recommendations, September 2023, p.383"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "title": "自然与生物多样性的定义",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "TNFD 以权威共识定义自然：自然由土地、海洋、淡水与大气四大界域组成，生物多样性和其相互交织。",
+          "quote": {
+            "text": "Nature refers to the natural world, emphasising the diversity of living organisms, including people, and their interactions with each other and their environment.",
+            "source": "TNFD Recommendations, September 2023, p.443"
+          }
+        },
+        {
+          "type": "four_pillars",
+          "cols": 2,
+          "numbered": true,
+          "title": "自然的四大界域",
+          "pillars": [
+            {
+              "title": "土地 Land",
+              "desc": "森林、农田、湿地等陆地生态系统，提供木材、食物与碳储存。"
+            },
+            {
+              "title": "海洋 Ocean",
+              "desc": "海洋生态系统提供食物、海岸防护与气候调节服务。"
+            },
+            {
+              "title": "淡水 Freshwater",
+              "desc": "河流、湖泊与地下水，提供饮用水、灌溉与水文调节。"
+            },
+            {
+              "title": "大气 Atmosphere",
+              "desc": "大气界域承接气候变化等驱动因素，与温室气体排放相连。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "自然由四大界域组成，是理解组织与自然互动的入口；生物多样性是使生态系统多产、韧性与适应的关键特征。",
+          "quote": {
+            "text": "It is made up of four realms: land, ocean, freshwater and atmosphere (Figure 8).",
+            "source": "TNFD Recommendations, September 2023, p.443"
+          },
+          "related": null
+        },
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "生物多样性区别于自然",
+              "content": "政策与市场常混用「自然」与「生物多样性」，二者含义不同：生物多样性是界域中生物的可变性与多样性。",
+              "quote": {
+                "text": "Biodiversity refers to the variability among living organisms across these realms. It is an essential and integral characteristic of nature that enables ecosystems to be productive, resilient and able to adapt.",
+                "source": "TNFD Recommendations, September 2023, p.445"
+              },
+              "related": {
+                "label": "关联知识：GRI 101 生物多样性",
+                "url": "topic.html?standard=gri&id=gri-101",
+                "text": "组织可能通过自身活动、业务关系的活动或两者同时对生物多样性产生影响。这些影响也可能超出组织活动的地理范围。",
+                "source": "GRI 101（2024）官方中文版"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "title": "为什么从气候扩展到自然",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "维度",
+              "TCFD（气候）",
+              "TNFD（自然）"
+            ],
+            [
+              "核心对象",
+              "气候变化带来的财务影响",
+              "组织对自然的依赖、影响、风险与机遇"
+            ],
+            [
+              "结构",
+              "治理、战略、风险管理、指标与目标",
+              "同四支柱，扩展至自然"
+            ],
+            [
+              "覆盖界域",
+              "大气（温室气体）",
+              "土地、海洋、淡水、大气四大界域"
+            ],
+            [
+              "变化驱动",
+              "气候变化",
+              "气候、土地利用、污染、外来物种等"
+            ],
+            [
+              "位置属性",
+              "按范围1/2/3排放",
+              "按具体生态系统与区位（空间显式）"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "title": "自然问题的位置属性",
+          "cards": [
+            {
+              "title": "空间显式",
+              "content": "自然依赖与影响发生在特定生态系统，需按区位披露，异于按范围1/2/3的气候分析。"
+            },
+            {
+              "title": "临界点",
+              "content": "自然变化非线性和累积，存在临界点与复合效应，区位差异显著。"
+            },
+            {
+              "title": "价值链延伸",
+              "content": "多数重大自然问题在上游与下游价值链，依赖供应商与客户数据。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "TCFD 聚焦气候，TNFD 在其结构上扩展，纳入土地、海洋、淡水与大气界域，并覆盖气候之外的自然变化驱动因素（IPBES 识别）。",
+              "title": "TCFD 聚焦气候…",
+              "quote": {
+                "text": "While building on the TCFD structure, the TNFD goes beyond the TCFD in incorporating naturerelated issues across the realms of nature – ocean, freshwater, land and atmosphere – and drivers of nature change beyond climate change, as identified by the IPBES.",
+                "source": "TNFD Recommendations, September 2023, p.381"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "align",
+      "title": "与全球可持续披露基线对齐",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "title": "TNFD 与哪些框架对齐",
+          "cards": [
+            {
+              "title": "ISSB（IFRS S1/S2）",
+              "content": "TNFD 与 ISSB 语言结构一致，ISSB 已表示将借鉴 TNFD 制定自然相关准则。",
+              "quote": {
+                "text": "The International Sustainability Standards Board (ISSB), the GRI and other standards and reporting organisations have worked closely with the Taskforce as knowledge partners.",
+                "source": "TNFD Recommendations, September 2023, p.362"
+              }
+            },
+            {
+              "title": "GRI 标准",
+              "content": "TNFD 同时支持影响重要性信息，与 GRI 的影响披露方法对齐。",
+              "quote": {
+                "text": "Like GRI and the ESRS in the European Union, the TNFD also enables the disclosure of decision-useful impact-related information.",
+                "source": "TNFD Recommendations, September 2023, p.385"
+              },
+              "related": {
+                "label": "关联知识：GRI 101 生态敏感区域",
+                "url": "topic.html?standard=gri&id=gri-101",
+                "text": "自然相关财务披露工作组 (TNFD) 将生态敏感区域定义为具有生物多样性重要性的区域、生态系统完整性高的区域、生态系统完整性快速下降的区域、实体水风险高的区域，以及对于向原住民、当地社区和其他利益相关方提供生态系统服务惠益十分重要的区域。",
+                "source": "GRI 101（2024）官方中文版"
+              }
+            },
+            {
+              "title": "昆明-蒙特利尔 GBF",
+              "content": "TNFD 对齐 GBF 四项目标与 23 项具体目标，支持目标 15 的企业披露要求。",
+              "quote": {
+                "text": "Align with the global policy goals and targets of the GBF, agreed by almost 200 countries in December 2022, and enable corporate reporting as required by Target 15 of the GBF.",
+                "source": "TNFD Recommendations, September 2023, p.374"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "TNFD 采纳两种重要性视角：满足资本提供方风险视角（对标 ISSB/TCFD），以及满足利益相关方影响视角（对标 GRI 影响重要性）。",
+              "title": "TNFD 采纳两种重要性视角"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-leap",
+        "title": "LEAP 方法"
+      },
+      {
+        "id": "tnfd-governance",
+        "title": "治理支柱"
+      }
+    ],
+    "external": [
+      {
+        "id": "ifrs-s2",
+        "title": "IFRS S2：气候相关披露",
+        "standard": "ifrs",
+        "system": "ISSB"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof",
+        "system": "财政部准则"
+      },
+      {
+        "id": "gri-101",
+        "title": "GRI 101：生物多样性",
+        "standard": "gri",
+        "system": "GRI"
+      }
+    ]
+  }
+}

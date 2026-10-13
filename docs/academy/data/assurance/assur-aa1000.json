@@ -1,0 +1,274 @@
+{
+  "id": "assur-aa1000",
+  "title": "AA1000 系列",
+  "eyebrow": "AA1000AP(2018) · AA1000AS v3",
+  "summary": "AA1000 系列由审验原则（2018）与审验标准（第三版）组成，以原则遵循与绩效信息可靠性为两条审验主线。",
+  "tags": [
+    "AA1000AP",
+    "AA1000AS",
+    "四原则"
+  ],
+  "group": "三大标准",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.accountability.org/standards/",
+  "sourceNote": "本页按 AA1000AS v3 官方中文版整理；悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "family",
+      "title": "AA1000 系列的两层结构",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "AA1000 系列以审验原则（AA1000AP, 2018）为内核，审验标准（AA1000AS v3）在其上组织对原则遵循与绩效信息的审验，并可与利益相关方参与标准（AA1000SES）衔接。"
+        },
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "AA1000AP (2018)",
+              "desc": "提出包容性、实质性、回应性、影响性四项原则，作为评价组织可持续发展管理的基准。"
+            },
+            {
+              "title": "AA1000AS v3",
+              "desc": "规定如何对报告组织遵循四项原则的程度，以及（类型2）特定绩效信息的可靠性与质量进行审验。",
+              "quote": {
+                "text": "AA1000AS v3 旨在成为全球领先的基准，为组织遵守其声明的可持续性目标和原则提供外部保证。它对外部审验机构应采用的方法和程序提供了重要指导，从而在评估组织对其可持续发展绩效和潜在的可持续性相关信息、流程和系统的披露信息时，最大限度地提高调查结果的可信度，以及通过正式的审验声明发布调查结果。",
+                "source": "AA1000AS v3 简介"
+              }
+            },
+            {
+              "title": "AA1000SES",
+              "desc": "利益相关方参与标准，当用于评估包容性原则时须在审验协议中注明。"
+            }
+          ],
+          "layout": "h"
+        },
+        {
+          "type": "standard",
+          "content_cn": "AA1000AS v3 可由许可审验机构用于外部审验，也可免费供组织内部自我评估；但自我评估结果不获 AccountAbility 公开认可。"
+        }
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "四项审验原则（AA1000AP 2018）",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "包容性 Inclusivity",
+              "quote": {
+                "text": "包容性-人们应该对那些影响到他们的决定拥有发言权。",
+                "source": "AA1000AS v3 译本·AccountAbility 标准委员会"
+              },
+              "desc": "人们应对影响其的决定拥有发言权。"
+            },
+            {
+              "title": "实质性 Materiality",
+              "quote": {
+                "text": "实质性-决策者应识别并清楚明白重要的可持续发展议题。",
+                "source": "AA1000AS v3 译本·AccountAbility 标准委员会"
+              },
+              "desc": "决策者应识别并清楚明白重要的可持续发展议题。"
+            },
+            {
+              "title": "回应性 Responsiveness",
+              "quote": {
+                "text": "回应性-组织应就实质性可持续发展议题及其相关影响采取透明的行动。",
+                "source": "AA1000AS v3 译本·AccountAbility 标准委员会"
+              },
+              "desc": "组织应就实质性议题及其影响采取透明的行动。"
+            },
+            {
+              "title": "影响性 Impact",
+              "quote": {
+                "text": "影响性-组织应对其行为如何影响更广泛的生态系统进行监测、衡量和当责。",
+                "source": "AA1000AS v3 译本·AccountAbility 标准委员会"
+              },
+              "desc": "组织应监测、衡量并就其行为对更广泛生态系统的影响负责。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "审验机构必须根据四项原则的调查结果得出结论，超越简单的“是/否”判断；类型 2 还须就特定绩效信息的可靠性与质量给出结论。",
+          "quote": {
+            "text": "审验机构应审查和评估报告组织对四个AA1000 AccountAbility原则各方面的遵循程度，并提供相关调查结果和结论。",
+            "source": "AA1000AS v3 4.2.1.1 类型 1 遵循审验"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "审验前提：独立、能力与协议",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "独立性与公正性",
+              "content": "审验机构须评估与委托方或重要利益相关方是否存在利益冲突，存在则不应接受邀约。",
+              "quote": {
+                "text": "若审验机构自身与委托组织或者利益相关方的关系会对达成健全的、独立的客观的、公正的审验声明形成阻碍，审验机构不应接受审验邀约。",
+                "source": "AA1000AS v3 3.1 独立性和公正性"
+              }
+            },
+            {
+              "title": "审验能力",
+              "content": "机构须具备实施审验的必要能力；人员至少胜任 AA1000 原则、报告与审验实践、可持续议题等。",
+              "quote": {
+                "text": "审验机构必须具备提供审验的各方面要求的必要能力，才能接受审验邀约",
+                "source": "AA1000AS v3 3.2 审验能力"
+              }
+            },
+            {
+              "title": "审验协议",
+              "content": "职责、范围、议题、类型与深度应在审验开始前书面约定。",
+              "quote": {
+                "text": "审验机构和报告组织之间的合同条款和内容应在审验开始之前以书面形式达成协议。",
+                "source": "AA1000AS v3 3.3 审验协议"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "审验人员能力可由 AccountAbility 认证的可持续发展审验人员（CSAP）资格确认，分助理审验员、审验员、高级审验员三级。",
+              "title": "审验人员能力可由 Account…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "审验结论：遵循原则与信息可靠性",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "结论维度",
+              "适用审验类型",
+              "说明"
+            ],
+            [
+              "遵循四项原则的程度",
+              "类型 1 与类型 2 均适用",
+              "对包容性、实质性、回应性、影响性的遵循程度给出调查结论"
+            ],
+            [
+              "特定绩效信息的可靠性与质量",
+              "仅类型 2",
+              "对选定议题的绩效与披露信息进行评估和证明"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "AA1000AS v3 的审验结论始终围绕两条主线：组织对四项原则的遵循程度，以及在审验范围内披露信息的可靠性与质量。",
+              "title": "AA1000AS v3 的审验结…"
+            },
+            {
+              "content": "审验机构应就遵循四项原则的程度提供结论，类型 2 还须就信息的完整性与准确性给出结论；声明可进一步处理深层信息系统与流程、公开主张。",
+              "title": "审验机构应就遵循四项原则的程度提…",
+              "quote": {
+                "text": "判断遵循包容性、实质性、回应性和影响性四项AA1000原则程度的调查结果和结论（适用于所有类型的审验）",
+                "source": "AA1000AS v3 5.1.12"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statement",
+      "title": "审验声明应包含什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "目标用户与职责",
+              "content": "声明须注明目标用户，及报告组织与审验机构的双方职责。"
+            },
+            {
+              "title": "范围、类型与深度",
+              "content": "明确审验范围、议题、类型（1/2）及不同深度（中度/深度）。"
+            },
+            {
+              "title": "所用标准",
+              "content": "列明 AA1000AS v3 及可能互补的其他审验标准。"
+            },
+            {
+              "title": "局限与胜任力",
+              "content": "说明审验局限、缓解方法，以及机构的胜任力与独立性。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "符合 AA1000AS v3 的审验声明至少应包含审验信息、目标用户、双方职责、所用标准、范围与类型、披露来源、方法、局限、胜任力与独立性说明、机构名称、日期与地点等。",
+              "title": "符合 AA1000AS v3 的…",
+              "quote": {
+                "text": "符合 AA1000AS v3 的审验声明应当至少包括",
+                "source": "AA1000AS v3 5.1 审验声明",
+                "related": {
+                  "label": "关联知识：GRI 305 排放披露",
+                  "url": "topic.html?standard=gri&id=gri-305",
+                  "text": "本标准是关于气体排放，即某种来源的物质排放到大气。排放物的类型包括：温室气体（GHG）、臭氧消耗物质（ODS）、氮氧化物 (NOx) 、硫氧化物 (SOx) 以及其他重大气体排放。",
+                  "source": "GRI 305（2016）官方中文版"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "assur-basics",
+        "title": "ESG 鉴证是什么"
+      },
+      {
+        "id": "assur-types",
+        "title": "审验类型与程度"
+      }
+    ],
+    "external": [
+      {
+        "title": "AccountAbility 官网标准",
+        "url": "https://www.accountability.org/standards/"
+      },
+      {
+        "id": "gri-305",
+        "title": "GRI 305 排放（绩效信息审验对象）",
+        "standard": "gri"
+      },
+      {
+        "id": "sbti-validation",
+        "title": "SBTi 目标独立验证",
+        "standard": "sbti"
+      }
+    ]
+  }
+}

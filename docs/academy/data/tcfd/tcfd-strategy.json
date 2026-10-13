@@ -1,0 +1,219 @@
+{
+  "id": "tcfd-strategy",
+  "title": "战略支柱",
+  "eyebrow": "风险机遇与 2°C 情景",
+  "summary": "战略支柱要求披露气候风险与机遇对业务、战略和财务规划的影响，以及战略在 2°C 情景下的韧性。",
+  "tags": [
+    "风险与机遇",
+    "2°C 情景",
+    "战略韧性"
+  ],
+  "group": "四支柱详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+  "sourceNote": "本页按 TCFD《最终建议》战略章节整理；悬浮「原文」可查看官方中译原文。情景分析建议请以 IFRS S2 与财政部气候准则为准。",
+  "sections": [
+    {
+      "id": "position",
+      "title": "战略支柱的定位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "战略支柱披露气候相关风险与机遇对业务、战略和财务规划的实际与潜在重大影响。",
+          "quote": {
+            "text": "披露气候相关风险和机遇对组织业务、战略和财务规划的实际和潜在重大影响。",
+            "source": "《TCFD 建议最终报告》表 4 战略"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identify",
+      "title": "识别短中长期的风险与机遇",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "短期",
+              "desc": "通常 1–2 年；物理事件与政策变化的即时影响。"
+            },
+            {
+              "title": "中期",
+              "desc": "资本支出与战略调整的主要周期，考虑资产寿命。"
+            },
+            {
+              "title": "长期",
+              "desc": "通常 2050 年前后；与《巴黎协定》路径一致的转型影响。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "组织应说明如何厘定短中长期时间范围，并描述每个范围内可能带来重大财务影响的具体气候相关问题。",
+          "quote": {
+            "text": "描述组织在短期、中期和长期中识别的气候相关风险和机遇。",
+            "source": "《TCFD 建议最终报告》表 4 战略 a"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "在评估气候变化的潜在财务影响时，组织应同时做历史与前瞻性分析，并更重视前瞻性分析。",
+          "quote": {
+            "text": "工作组鼓励各组织在考虑气候变化的潜在财务影响时，同时进行历史和前瞻性的分析，且应更加重视前瞻性分析，因为没有缓释和适应气候变化的历史可循。",
+            "source": "《TCFD 建议最终报告》D 情景分析"
+          }
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "对业务与财务规划的影响",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "损益表",
+              "content": "收入与支出受转型及物理风险影响；应同时做历史与前瞻性分析，更重前瞻性。"
+            },
+            {
+              "title": "资产负债表",
+              "content": "资产与负债估值、资本与融资结构可能因政策、技术与市场动态改变。"
+            },
+            {
+              "title": "业务与战略",
+              "content": "影响产品服务、供应链、适应与缓释活动、研发投入与设施位置。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "建议披露 b：影响体现在"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "对气候相关问题的前瞻性评估，能让投资者和其他利益相关方了解组织应对转型与物理风险时的薄弱环节及解决方式。",
+              "title": "对气候相关问题的前瞻性评估…",
+              "quote": {
+                "text": "组织披露自身对气候相关问题的前瞻性评估十分重要，能让投资者和其他利益相关方了解个别组织应对转型和物理风险时的薄弱环节以及解决方式。",
+                "source": "《TCFD 建议最终报告》D 情景分析"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scenario",
+      "title": "2°C 情景下的战略韧性",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "2°C 或更低情景",
+              "content": "组织应说明战略在 2°C 或更低升温情景下的韧性，并视情况考虑物理风险情景。"
+            },
+            {
+              "title": "多情景组合",
+              "content": "除最相关情景外，建议使用 2°C 或更低情景，以及 NDC、物理或其他挑战性情景。"
+            },
+            {
+              "title": "披露关键假设",
+              "content": "重大气候相关风险组织应披露所用情景、关键输入参数与假设及敏感性。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3,
+          "title": "建议披露 c：战略韧性"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "工作组建议的主要披露内容之一，是组织战略在不同气候相关情景下的韧性，包括 2°C 或更低气温情景。",
+              "title": "工作组建议的主要披露内容之一…",
+              "quote": {
+                "text": "在考虑到不同气候相关条件、包括2C或更低温度的情景下，描述组织战略的韧性。",
+                "source": "《TCFD 建议最终报告》表 4 战略 c"
+              }
+            },
+            {
+              "content": "气候韧性指组织发展应对气候变化的适应能力，以更好地管理相关风险并抓住机遇。",
+              "title": "气候韧性指组织发展应对气候变化的…",
+              "quote": {
+                "text": "气候变化韧性指的是各组织发展应对气候变化的适应能力，以更好地管理相关风险并抓住机遇，包括应对转型风险和物理风险的能力。",
+                "source": "《TCFD 建议最终报告》D 情景分析"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "与现行准则衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "A 股指引 第22条",
+              "content": "要求评估战略与商业模式对气候变化的适应性，并披露相关事项。",
+              "quote": {
+                "text": "描述与气候相关风险和机遇对组织经营、战略和财务规划的影响。",
+                "source": "《TCFD 建议最终报告》表 4 战略 b",
+                "related": {
+                  "label": "关联知识：A股指引 战略适应性",
+                  "url": "topic.html?standard=ashare&id=ashare-climate",
+                  "text": "第22条披露主体应当结合所识别的气候相关风险和机遇，评估公司的战略、商业模式等对气候变化的适应性，并披露下列事项：",
+                  "source": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告（试行）》第22条"
+                }
+              }
+            },
+            {
+              "title": "财政部气候准则",
+              "content": "要求披露气候相关风险和机遇对战略与决策的影响，并使用情景分析评估气候韧性。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2,
+          "title": "战略披露的承接关系"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tcfd-risk",
+        "title": "风险管理支柱"
+      },
+      {
+        "id": "tcfd-metrics",
+        "title": "指标与目标"
+      }
+    ],
+    "external": [
+      {
+        "title": "A股指引 应对气候变化",
+        "url": "topic.html?standard=ashare&id=ashare-climate",
+        "standard": "ashare",
+        "system": "A股知识体系"
+      },
+      {
+        "title": "财政部气候准则 战略章节",
+        "url": "topic.html?standard=mof&id=mof-climate",
+        "standard": "mof",
+        "system": "财政部准则体系"
+      }
+    ]
+  }
+}

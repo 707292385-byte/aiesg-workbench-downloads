@@ -1,0 +1,253 @@
+{
+  "id": "tnfd-strategy",
+  "title": "战略支柱",
+  "eyebrow": "对业务模式与战略的影响",
+  "summary": "披露自然相关依赖、影响、风险与机遇对业务模式、价值链、战略与财务规划的影响及自然韧性。",
+  "tags": [
+    "战略",
+    "业务模式",
+    "自然韧性"
+  ],
+  "group": "四大支柱",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "战略支柱是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "战略支柱披露组织管理自然相关问题的方法，以及自然相关问题对其业务模式、战略与财务规划的影响（重大时披露）。",
+          "quote": {
+            "text": "Strategy: The approach the organisation uses to manage nature-related issues;",
+            "source": "TNFD Recommendations, September 2023, p.954"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "投资者与其他利益相关方关注组织管理自然相关问题的方法，以及这些问题如何在短中长期影响其业务模式、战略与财务规划。",
+          "quote": {
+            "text": "Investors and other stakeholders are interested in understanding the approach the organisation uses to manage nature-related issues",
+            "source": "TNFD Recommendations, September 2023, p.1124"
+          },
+          "related": {
+            "label": "关联知识：IFRS S2 战略",
+            "url": "topic.html?standard=ifrs&id=ifrs-s2-strategy",
+            "text": "在战略方面，气候相关财务信息披露的目标是使通用目的财务报告使用者了解主体为管理气候相关风险和机遇所制定的战略。",
+            "source": "《国际财务报告准则S2号》（2023）官方中文版"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identify",
+      "title": "建议 A：识别依赖、影响、风险与机遇",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "描述组织在短、中、长期识别出的自然相关依赖、影响、风险与机遇，并区分直接运营与上下游价值链。",
+          "quote": {
+            "text": "A. Describe the nature-related dependencies, impacts, risks and opportunities the organisation has identified over the short, medium and long term .",
+            "source": "TNFD Recommendations, September 2023, p.980"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "识别应区分",
+          "cards": [
+            {
+              "title": "依赖与影响",
+              "content": "描述重大自然依赖与影响，含区位、影响路径与依赖路径。"
+            },
+            {
+              "title": "风险与机遇",
+              "content": "描述由依赖与影响引发、可能影响业务模式与财务的重大风险与机遇。"
+            },
+            {
+              "title": "直接运营",
+              "content": "区分直接运营内的依赖、影响、风险与机遇。"
+            },
+            {
+              "title": "价值链",
+              "content": "区分上游与下游价值链中的依赖、影响、风险与机遇。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露应区分组织对自然的依赖与影响，在直接运营与上下游价值链中分别列示。",
+              "title": "披露应区分组织对自然的依赖与影响…",
+              "quote": {
+                "text": "The disclosures should distinguish between dependencies and impacts in the organisation’s direct operations and upstream and downstream value chain(s).",
+                "source": "TNFD Recommendations, September 2023, p.1162"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "title": "建议 B：对业务模式与价值链的影响",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "影响披露要素",
+          "cards": [
+            {
+              "title": "业务模式",
+              "content": "自然相关问题对当前与预期业务模式的影响。"
+            },
+            {
+              "title": "价值链",
+              "content": "对上游与下游价值链活动的影响。"
+            },
+            {
+              "title": "战略与财务",
+              "content": "对战略与财务规划的影响。"
+            },
+            {
+              "title": "转型计划",
+              "content": "已制定或正在制定的转型计划与分析。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露自然相关依赖、影响、风险与机遇已对业务模式、价值链、战略与财务规划造成的影响，以及现有的转型计划或分析。",
+              "title": "披露自然相关依赖、影响、风险与机…",
+              "quote": {
+                "text": "B. Describe the efect",
+                "source": "TNFD Recommendations, September 2023, p.982"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resilience",
+      "title": "建议 C：自然韧性",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "韧性考量维度",
+              "content": "考虑短期、中期与长期调整战略与业务模式的能力，含财务资源可得性、资产重新配置与停用能力、减缓适应投资影响。",
+              "quote": {
+                "text": "C. Describe the resilience of the organisation’s strategy to nature-related risks and opportunities, taking into consideration diferent scenarios .",
+                "source": "TNFD Recommendations, September 2023, p.986"
+              },
+              "related": {
+                "label": "关联知识：财政部气候准则 第十条",
+                "url": "topic.html?standard=mof&id=mof-climate",
+                "text": "在战略方面，企业气候相关信息披露的目标，是使可持续信息基本使用者了解企业管理气候相关风险和机遇所制定的战略和可能结果。",
+                "source": "财政部《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "描述组织战略对自然相关风险与机遇的韧性，考虑不同情景下的适应能力。",
+              "title": "描述组织战略对自然相关风险与机遇…",
+              "quote": {
+                "text": "C. Describe the resilience of the organisation’s strategy to nature-related risks and opportunities, taking into consideration diferent scenarios .",
+                "source": "TNFD Recommendations, September 2023, p.986"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "title": "建议 D：优先区位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "title": "优先区位判定",
+          "cards": [
+            {
+              "title": "生态敏感",
+              "content": "位于生态敏感或高完整性区域的运营点。"
+            },
+            {
+              "title": "高依赖",
+              "content": "高度依赖特定生态服务或自然资本的活动。"
+            },
+            {
+              "title": "高影响",
+              "content": "对自然造成重大影响的活动与资产。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露直接运营及（尽可能）上下游价值链中，符合优先区位标准的资产与活动位置。位置属性是自然披露的核心差异。",
+              "title": "披露直接运营及（尽可能）上下游价…",
+              "quote": {
+                "text": "D. Disclose the locations of assets and/or activities in the organisation’s direct operations and, where possible, upstream and downstream value chain(s) that meet the criteria for priority locations.",
+                "source": "TNFD Recommendations, September 2023, p.988"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-governance",
+        "title": "治理支柱"
+      },
+      {
+        "id": "tnfd-risk",
+        "title": "风险管理"
+      },
+      {
+        "id": "tnfd-metrics",
+        "title": "指标与目标"
+      }
+    ],
+    "external": [
+      {
+        "id": "ifrs-s2-strategy",
+        "title": "IFRS S2 战略",
+        "standard": "ifrs",
+        "system": "ISSB"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof",
+        "system": "财政部准则"
+      }
+    ]
+  }
+}

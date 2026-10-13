@@ -1,0 +1,311 @@
+{
+  "id": "tnfd-leap",
+  "title": "LEAP 方法",
+  "eyebrow": "定位 · 评价 · 评估 · 准备",
+  "summary": "LEAP 是 TNFD 推荐的识别评估方法：定位（Locate）、评价（Evaluate）、评估（Assess）、准备（Prepare）。",
+  "tags": [
+    "LEAP",
+    "识别评估",
+    "自然相关议题"
+  ],
+  "group": "TNFD 基础与方法",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）及 LEAP 补充指南整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "LEAP 是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "LEAP 是 TNFD 推荐的「识别与评估自然相关问题」方法，由组织内分析师团队使用，分四个阶段，借鉴自然资本议定书与 SBTN 方法。",
+          "quote": {
+            "text": "This approach is called LEAP. It is designed to be used by a team of analysts in an organisation and involves four phases of assessment:",
+            "source": "TNFD Recommendations, September 2023, p.1648"
+          }
+        },
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "L 定位 Locate",
+              "desc": "确定组织与自然接触的界面：地理、行业与价值链。",
+              "quote": {
+                "text": "Locate the interfaces with nature across geographies, sectors and value chains;",
+                "source": "TNFD Recommendations, September 2023, p.1650"
+              }
+            },
+            {
+              "title": "E 评价 Evaluate",
+              "desc": "评价组织对自然的依赖与影响。",
+              "quote": {
+                "text": "Evaluate dependencies and impacts on nature;",
+                "source": "TNFD Recommendations, September 2023, p.1652"
+              }
+            },
+            {
+              "title": "A 评估 Assess",
+              "desc": "评估自然相关风险与机遇。",
+              "quote": {
+                "text": "Assess nature-related risks and opportunities to your organisation; and",
+                "source": "TNFD Recommendations, September 2023, p.1654"
+              }
+            },
+            {
+              "title": "P 准备 Prepare",
+              "desc": "准备应对并报告重大自然相关问题。",
+              "quote": {
+                "text": "Prepare to respond to nature-related risks and opportunities, including reporting on material naturerelated issues to the primary users of financial reports and other stakeholders, aligned with the TNFD’s recommended disclosures.",
+                "source": "TNFD Recommendations, September 2023, p.1656"
+              }
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "LEAP 不是采用 TNFD 建议的强制要求，仅作为指导，帮助各类组织识别潜在重大自然相关问题。",
+          "quote": {
+            "text": "The LEAP approach is not a requirement to adopt the TNFD recommended disclosures. It is provided by the TNFD as guidance to support the identification and assessment of nature-related issues and ultimately to support disclosure of those issues deemed material.",
+            "source": "TNFD Recommendations, September 2023, p.1669"
+          },
+          "related": {
+            "label": "关联知识：GRI 101 引用 TNFD LEAP",
+            "url": "topic.html?standard=gri&id=gri-101",
+            "text": "组织可参考自然相关财务披露工作组(TNFD)《自然相关问题识别与评估指南：LEAP方法》",
+            "source": "GRI 101（2024）官方中文版"
+          }
+        }
+      ]
+    },
+    {
+      "id": "locate",
+      "title": "L 定位：找到与自然的界面",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "定位阶段按三个维度确定组织与自然接触的界面，这是后续评价与评估的基础。",
+          "quote": {
+            "text": "Locate the interfaces with nature across geographies, sectors and value chains;",
+            "source": "TNFD Recommendations, September 2023, p.1650"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "title": "定位的三个维度",
+          "cards": [
+            {
+              "title": "地理 Geographies",
+              "content": "运营点所在生态区域、水压力与生物多样性敏感度。"
+            },
+            {
+              "title": "行业 Sectors",
+              "content": "行业特有的自然依赖与影响，参考 TNFD 行业指引。"
+            },
+            {
+              "title": "价值链 Value chains",
+              "content": "上游供应商与下游客户活动中的自然界面。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "自然相关问题的位置属性很关键：依赖与影响发生在特定生态系统，风险也随区位而变（如取水地的水压力）。",
+              "title": "自然相关问题的位置属性很关键"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluate",
+      "title": "E 评价：依赖与影响",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "four_pillars",
+          "cols": 2,
+          "numbered": true,
+          "title": "依赖与影响的不同",
+          "pillars": [
+            {
+              "title": "依赖 Dependency",
+              "desc": "组织依赖的自然资本与生态系统服务，如水源、授粉、原材料。"
+            },
+            {
+              "title": "影响 Impact",
+              "desc": "组织活动导致的生态状态变化，如土地利用改变、污染、物种减少。"
+            },
+            {
+              "title": "影响驱动因素",
+              "desc": "土地利用变化、资源开发、气候变化、污染、外来物种等直接驱动因素。"
+            },
+            {
+              "title": "生态系统服务",
+              "desc": "供给、调节维护、文化三类服务，是自然资本流向人类福祉的惠益。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "依赖与影响常超出组织边界",
+              "content": "组织可通过自身活动、业务关系活动或两者同时对生物多样性产生影响，且可能超出地理范围。",
+              "quote": {
+                "text": "Evaluate dependencies and impacts on nature;",
+                "source": "TNFD Recommendations, September 2023, p.1652"
+              },
+              "related": {
+                "label": "关联知识：GRI 101 生物多样性",
+                "url": "topic.html?standard=gri&id=gri-101",
+                "text": "组织可能通过自身活动、业务关系的活动或两者同时对生物多样性产生影响。这些影响也可能超出组织活动的地理范围。",
+                "source": "GRI 101（2024）官方中文版"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "评价阶段厘清组织对自然的依赖（依赖哪些生态资产与服务）与影响（造成哪些生态变化），二者通过影响驱动因素相连。",
+              "title": "评价阶段厘清组织对自然的依赖（依…",
+              "quote": {
+                "text": "Evaluate dependencies and impacts on nature;",
+                "source": "TNFD Recommendations, September 2023, p.1652"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assess",
+      "title": "A 评估：风险与机遇",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "风险与机遇的来源",
+          "cards": [
+            {
+              "title": "物理风险",
+              "content": "依赖的自然资产退化或生态服务丧失，导致运营中断与成本上升。"
+            },
+            {
+              "title": "转型风险",
+              "content": "政策、法律、市场与声誉变化带来的合规成本与资产重估。"
+            },
+            {
+              "title": "机遇",
+              "content": "自然向好产品、服务与投资带来的新业务与收入。"
+            },
+            {
+              "title": "源于依赖与影响",
+              "content": "风险与机遇由组织对自然的依赖和影响所引发，须说明传导路径。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "评估阶段把依赖与影响转化为组织的自然相关风险与机遇：风险来自依赖受损或影响引发的责任与转型压力。",
+              "title": "评估阶段把依赖与影响转化为组织的…",
+              "quote": {
+                "text": "Assess nature-related risks and opportunities to your organisation; and",
+                "source": "TNFD Recommendations, September 2023, p.1654"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepare",
+      "title": "P 准备：应对与报告",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "title": "准备阶段的设计原则",
+          "cards": [
+            {
+              "title": "先界定范围",
+              "content": "鉴于成本、时间与数据约束，开始前先界定 LEAP 评估范围。",
+              "quote": {
+                "text": "LEAP has been designed and developed with three overarching considerations in mind:",
+                "source": "TNFD Recommendations, September 2023, p.1671"
+              }
+            },
+            {
+              "title": "迭代可重复",
+              "content": "按企业风险管理与披露周期，跨地点与业务线、跨组合与资产类别迭代进行。",
+              "quote": {
+                "text": "LEAP is designed as an iterative and repeatable process – across business locations and business lines for corporates, and across investment portfolios and asset classes for financial institutions – in line with enterprise risk management processes and reporting and disclosure cycles.",
+                "source": "TNFD Recommendations, September 2023, p.1677"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "准备阶段形成应对方案，并将重大自然相关问题按 TNFD 建议向财务报告主要使用者与其他利益相关方报告。",
+              "title": "准备阶段形成应对方案…",
+              "quote": {
+                "text": "Prepare to respond to nature-related risks and opportunities, including reporting on material naturerelated issues to the primary users of financial reports and other stakeholders, aligned with the TNFD’s recommended disclosures.",
+                "source": "TNFD Recommendations, September 2023, p.1656"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-basics",
+        "title": "TNFD 与自然相关披露"
+      },
+      {
+        "id": "tnfd-governance",
+        "title": "治理支柱"
+      },
+      {
+        "id": "tnfd-risk",
+        "title": "风险管理"
+      }
+    ],
+    "external": [
+      {
+        "id": "gri-101",
+        "title": "GRI 101：生物多样性",
+        "standard": "gri",
+        "system": "GRI"
+      },
+      {
+        "id": "sbti-boundary",
+        "title": "SBTi 覆盖范围与 FLAG",
+        "standard": "sbti",
+        "system": "SBTi"
+      }
+    ]
+  }
+}

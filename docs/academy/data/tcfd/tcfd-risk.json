@@ -1,0 +1,190 @@
+{
+  "id": "tcfd-risk",
+  "title": "风险管理支柱",
+  "eyebrow": "识别·评估·管理·整合",
+  "summary": "风险管理支柱要求披露识别、评估与管理气候相关风险的流程，以及如何纳入全面风险管理。",
+  "tags": [
+    "风险识别",
+    "风险评估",
+    "全面风险管理"
+  ],
+  "group": "四支柱详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.fsb.org/2017/06/29/tcfd-publishes-recommendations/",
+  "sourceNote": "本页按 TCFD《最终建议》风险管理章节整理；悬浮「原文」可查看官方中译原文。风险管理整合请以 IFRS S2 与财政部气候准则为准。",
+  "sections": [
+    {
+      "id": "position",
+      "title": "风险管理支柱的定位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "风险管理支柱披露组织识别、评估及管理气候相关风险时采用的流程，以及是否纳入全面风险管理。",
+          "quote": {
+            "text": "披露组织如何识别、评估和管理气候相关风险。",
+            "source": "《TCFD 建议最终报告》表 4 风险管理"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identify-assess",
+      "title": "识别与评估流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "识别",
+              "desc": "说明如何识别气候相关风险，及其相对于其他风险的相对重要性。"
+            },
+            {
+              "title": "评估",
+              "desc": "评估已识别风险的潜在规模与范围，参考现有风险分类框架。"
+            },
+            {
+              "title": "考虑要求",
+              "desc": "考虑与气候变化相关的现有及新出现监管要求（如排放限制）。"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "组织应说明识别和评估气候相关风险的风险管理流程，以及风险相对重要性的判断方式。",
+          "quote": {
+            "text": "描述组织识别和评估气候相关风险的流程。",
+            "source": "《TCFD 建议最终报告》表 4 风险管理 a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manage",
+      "title": "管理流程的四种应对",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "缓释",
+              "content": "降低或削弱气候相关风险的发生概率或影响。"
+            },
+            {
+              "title": "转移",
+              "content": "通过保险、合约等将风险后果转移给第三方。"
+            },
+            {
+              "title": "接受",
+              "content": "在评估后选择承担风险，纳入资本与预算安排。"
+            },
+            {
+              "title": "控制",
+              "content": "通过治理与流程控制风险敞口与决策。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2,
+          "title": "建议披露 b：如何管理"
+        },
+        {
+          "type": "standard",
+          "content_cn": "在组织描述如何管理气候相关风险时，应说明其用以缓释、转移、接受或控制风险的流程。",
+          "quote": {
+            "text": "描述组织管理与气候相关风险的流程。",
+            "source": "《TCFD 建议最终报告》表 4 风险管理 b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "integrate",
+      "title": "纳入全面风险管理",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "组织应说明如何把识别、评估和管理气候相关风险的流程纳入其全面风险管理当中。",
+              "title": "组织应说明如何把识别、评估和管理…",
+              "quote": {
+                "text": "描述识别、评估和管理气候相关风险的流程是如何纳入组织全面风险管理当中。",
+                "source": "《TCFD 建议最终报告》表 4 风险管理 c"
+              }
+            },
+            {
+              "content": "组织应将识别、评估和管理气候相关风险的流程纳入其全面风险管理，使气候风险成为整体风险管理的一部分。",
+              "title": "组织应将识别、评估和管理气候相关…",
+              "quote": {
+                "text": "组织应说明他们如何将识别、评估和管理气候相关风险的流程纳入其全面风险管理中。",
+                "source": "《TCFD 建议最终报告》表 4 风险管理 c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "与现行准则衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "财政部气候准则",
+              "content": "要求披露识别、评估、排序和监控气候相关风险的流程，及与整体风险管理的融合。",
+              "quote": {
+                "text": "描述识别、评估和管理气候相关风险的流程是如何纳入组织全面风险管理当中。",
+                "source": "《TCFD 建议最终报告》表 4 风险管理 c",
+                "related": {
+                  "label": "关联知识：财政部气候准则 风险管理",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "在风险和机遇管理方面，气候相关信息披露的目标，是使可持续信息基本使用者了解企业识别、评估、排序和监控气候相关风险和机遇的流程（包括这些流程是否以及如何融入企业的整体风险管理流程）。",
+                  "source": "财政部《企业可持续披露准则第1号——气候（试行）》"
+                }
+              }
+            },
+            {
+              "title": "IFRS S2 风险管理",
+              "content": "ISSB 要求描述识别、评估、排序和监控气候相关风险的流程，及与整体风险管理的整合。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2,
+          "title": "风险管理的承接关系"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tcfd-strategy",
+        "title": "战略支柱"
+      },
+      {
+        "id": "tcfd-metrics",
+        "title": "指标与目标"
+      }
+    ],
+    "external": [
+      {
+        "title": "财政部气候准则 风险管理章节",
+        "url": "topic.html?standard=mof&id=mof-climate",
+        "standard": "mof",
+        "system": "财政部准则体系"
+      },
+      {
+        "title": "IFRS S2 风险管理",
+        "url": "topic.html?standard=ifrs&id=ifrs-s2-riskmgmt",
+        "standard": "ifrs",
+        "system": "ISSB 准则体系"
+      }
+    ]
+  }
+}

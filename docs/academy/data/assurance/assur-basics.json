@@ -1,0 +1,316 @@
+{
+  "id": "assur-basics",
+  "title": "ESG 鉴证是什么",
+  "eyebrow": "作用 · 边界 · 实务格局",
+  "summary": "鉴证是独立第三方对可持续信息获取证据、发表结论以增进信任的专业活动；本页讲清它的作用、边界与当前并行的标准格局。",
+  "tags": [
+    "鉴证作用",
+    "保证程度",
+    "标准格局"
+  ],
+  "group": "鉴证是什么",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.accountability.org/standards/",
+  "sourceNote": "本页按 AA1000AS v3、ISSA 5000 与财政部 6101 号官方文件整理；悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "鉴证的定义与核心目的",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "可持续信息鉴证，是独立第三方（鉴证者）对被鉴证单位依据披露标准编制的可持续信息执行鉴证工作，获取证据、形成结论，以增强信息使用者的信任程度。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "增进使用者信任",
+              "content": "鉴证连接信息编制方与使用者：通过独立证据，把“企业自述”提升为“可置信信息”。",
+              "quote": {
+                "text": "可持续信息鉴证业务：是指鉴证者设计和实施鉴证程序，以获取充分、适当的鉴证证据并发表鉴证意见，从而增强信息使用者对可持续信息信任程度的业务。",
+                "source": "财政部《可持续信息鉴证业务准则第 6101 号——基本准则（试行）》附录术语表"
+              }
+            },
+            {
+              "title": "独立第三方执行",
+              "content": "鉴证由独立于被鉴证单位的机构或人员执行，其与委托方、重要利益相关方不得存在利益冲突。",
+              "quote": {
+                "text": "审验是指审验机构通过采取一定的方法和流程，根据适用的准则和标准，对组织公开披露的绩效信息及其基本数据、流程和系统作出评估，以提高组织公开披露信息的可信度。它还包括通过发布审验声明披露审验过程和结果。",
+                "source": "AA1000AS v3 附录 A 定义"
+              }
+            },
+            {
+              "title": "面向可持续信息",
+              "content": "鉴证对象是环境、社会、治理等方面的可持续议题相关风险、机遇与影响的信息，而非财务报表本身。",
+              "quote": {
+                "text": "This International Standard on Sustainability Assurance (ISSA) deals with assurance engagements on sustainability information.",
+                "source": "ISSA 5000, Introduction, para. 1"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        },
+        {
+          "type": "standard",
+          "content_cn": "三套标准并行：AA1000AS v3 侧重原则遵循与绩效信息可靠性；ISSA 5000 是国际通用鉴证准则；财政部 6101 号是我国现行基本准则。它们都围绕“获取证据→发表结论→增进信任”这一核心目的。"
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "title": "鉴证的边界：全范围与部分范围",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "鉴证范围可以是被鉴证单位拟报告的全部可持续信息，也可以是其中部分信息；仅对部分信息鉴证时，需确定范围适当，不会误导使用者。"
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "主体边界",
+              "desc": "被鉴证单位可能是法律实体、经济实体或可识别部分，甚至是实体组合。"
+            },
+            {
+              "title": "信息边界",
+              "desc": "范围覆盖全部或部分可持续信息，由鉴证者与委托方在约定书中明确。"
+            },
+            {
+              "title": "报告边界",
+              "quote": {
+                "text": "报告边界：是指被鉴证单位可持续信息中应当包含的活动、业务、关系或资源。就可持续信息鉴证业务准则而言，报告边界取决于编制可持续信息所使用的标准。",
+                "source": "财政部 6101 号 附录术语表"
+              },
+              "desc": "报告边界取决于编制信息所使用的标准，是应纳入信息的活动、业务、关系或资源。"
+            },
+            {
+              "title": "保证边界",
+              "quote": {
+                "text": "本准则既适用于对鉴证范围内的所有可持续信息均获取合理保证或有限保证的情形，也适用于对部分可持续信息获取合理保证，对部分可持续信息获取有限保证的情形。",
+                "source": "财政部 6101 号 第四条"
+              },
+              "desc": "同一业务中可对不同信息分别给出合理保证或有限保证，须逐项说明。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "若按企业会计准则某些可持续信息须包含在财务报表中，对其审计适用中国注册会计师审计准则，不适用本可持续信息鉴证准则（财政部 6101 号 第六条）。这与 ISSA 5000 第 12 段“不与已审财务报表中的可持续信息重叠”的边界一致。",
+              "title": "若按企业会计准则某些可持续信息须…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assurance-level",
+      "title": "两种保证程度：合理与有限",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "保证程度",
+              "风险水平与意见方式",
+              "证据与程序",
+              "报告表述"
+            ],
+            [
+              "合理保证",
+              "将鉴证业务风险降至可接受的低水平，积极方式发表意见",
+              "程序与证据较充分",
+              "“在所有重大方面按标准编制”"
+            ],
+            [
+              "有限保证",
+              "风险降至可接受水平（高于合理保证），消极方式发表意见",
+              "程序与证据较有限，但有意义的保证",
+              "“未发现使信息重大错报的事项”"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "合理保证 = 积极方式",
+              "content": "以积极方式提出鉴证意见，表明信息是否在所有重大方面符合披露标准。",
+              "quote": {
+                "text": "合理保证是将鉴证业务风险降至可接受的低水平，并以积极方式提出鉴证意见；有限保证是将鉴证业务风险降至可接受的水平，并以消极方式提出鉴证意见。有限保证情形下的鉴证业务风险高于合理保证。",
+                "source": "财政部 6101 号 第四条"
+              }
+            },
+            {
+              "title": "有限保证仍有意义",
+              "content": "有限保证程序较有限，但必须提供“明显高于无关紧要”的保证程度。",
+              "quote": {
+                "text": "与合理保证相比，有限保证情形下实施的鉴证程序和获取的鉴证证据较为有限，但有限保证仍应提供有意义的保证，即该保证程度应当很可能能够将信息使用者对可持续信息的信任程度提高到明显高于无关紧要的水平。",
+                "source": "财政部 6101 号 第四条"
+              }
+            },
+            {
+              "title": "ISSA 5000 同口径",
+              "content": "ISSA 5000 同样处理合理与有限保证，有限保证程序在性质、时间上不同于合理保证且范围更小。",
+              "quote": {
+                "text": "This ISSA deals with both reasonable and limited assurance engagements. Unless otherwise stated, each requirement of this ISSA applies to both reasonable and limited assurance engagements.",
+                "source": "ISSA 5000, Scope, para. 9"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "当前并行的标准格局",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "AA1000AS v3",
+              "content": "基于原则的审验标准，由 AccountAbility 许可的审验机构使用，分类型 1 与类型 2。",
+              "quote": {
+                "text": "AA1000AS v3 旨在成为全球领先的基准，为组织遵守其声明的可持续性目标和原则提供外部保证。它对外部审验机构应采用的方法和程序提供了重要指导，从而在评估组织对其可持续发展绩效和潜在的可持续性相关信息、流程和系统的披露信息时，最大限度地提高调查结果的可信度，以及通过正式的审验声明发布调查结果。",
+                "source": "AA1000AS v3 简介"
+              }
+            },
+            {
+              "title": "ISSA 5000",
+              "content": "IAASB 发布的国际通用可持续鉴证准则，适用于所有类型的可持续信息与所有实体。",
+              "quote": {
+                "text": "This ISSA applies to all assurance engagements on sustainability information. It applies to all types of sustainability information, regardless of how that information is presented.",
+                "source": "ISSA 5000, Scope, para. 8"
+              }
+            },
+            {
+              "title": "财政部 6101 号",
+              "content": "我国可持续信息鉴证业务基本准则（试行），目前由机构自愿实施，体系含基本/具体准则与应用指南。",
+              "quote": {
+                "text": "可持续信息鉴证业务准则体系包括基本准则、具体准则和应用指南。具体准则和应用指南的制定应当遵循基本准则。",
+                "source": "财政部 6101 号 第五条"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "三者并非互斥：企业可依据披露对象选择标准，也可在同一鉴证声明中引用 AA1000AS v3 并与其他框架互补（ISSA 5000 第 197 段、AA1000AS v3 第 3.3.3.1 段均有衔接规定）。",
+              "title": "三者并非互斥",
+              "quote": {
+                "text": "在所界定的审验范围内，可持续发展表现的披露信息的可靠性和质量。",
+                "source": "AA1000AS v3 5.1 审验声明",
+                "related": {
+                  "label": "关联知识：IFRS S2 气候相关目标",
+                  "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                  "text": "主体应披露关于其设定和复核每个目标的方法以及如何监控每个目标实现进展的信息，包括：",
+                  "source": "IFRS S2：指标和目标（官方中文版）"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "title": "为什么需要鉴证：使用者的视角",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "投资者",
+              "content": "将鉴证后的可持续信息作为资本配置与风险判断的可靠输入。"
+            },
+            {
+              "title": "监管与交易所",
+              "content": "部分司法管辖区已要求对气候等特定披露实施强制鉴证（如 IFRS 管辖区、我国 A 股指引鼓励第三方鉴证）。"
+            },
+            {
+              "title": "供应链与客户",
+              "content": "以供应商的审验声明作为合作与尽调依据。"
+            },
+            {
+              "title": "组织自身",
+              "content": "以审验倒推数据收集、内控与披露质量，提升治理水平。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "财政部气候准则明确鼓励聘请独立第三方对气候相关信息进行鉴证；A 股指引也提示妥善保存文件记录便于接受第三方鉴证或审验。",
+              "title": "财政部气候准则明确鼓励聘请独立第…",
+              "quote": {
+                "text": "提供久经考验和国际公认的可持续发展审验方法。",
+                "source": "AA1000AS v3 目的与内容范围",
+                "related": {
+                  "label": "财政部气候准则第九条（第三方鉴证）",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "鼓励企业利用内部审计部门、法律部门或者其他负有监督职责的部门对气候相关风险和机遇进行监督，并聘请独立第三方机构对气候相关信息进行鉴证。",
+                  "source": "财政部《企业可持续披露准则第 1 号——气候（试行）》第九条"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "assur-types",
+        "title": "审验类型与程度"
+      },
+      {
+        "id": "assur-aa1000",
+        "title": "AA1000 系列"
+      }
+    ],
+    "external": [
+      {
+        "title": "AccountAbility AA1000 标准",
+        "url": "https://www.accountability.org/standards/"
+      },
+      {
+        "title": "IAASB ISSA 5000",
+        "url": "https://www.iaasb.org/"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则第九条（第三方鉴证）",
+        "standard": "mof"
+      },
+      {
+        "id": "ifrs-s2-metrics",
+        "title": "IFRS S2 指标和目标",
+        "standard": "ifrs"
+      },
+      {
+        "id": "ashare-materiality",
+        "title": "A 股双重重要性评估",
+        "standard": "ashare"
+      }
+    ]
+  }
+}

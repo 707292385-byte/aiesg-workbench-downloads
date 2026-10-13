@@ -1,0 +1,205 @@
+{
+  "id": "tnfd-governance",
+  "title": "治理支柱",
+  "eyebrow": "董事会与管理层职责",
+  "summary": "披露组织对自然相关依赖、影响、风险与机遇的治理：董事会监督、管理层角色、原住民与社区参与。",
+  "tags": [
+    "治理",
+    "董事会监督",
+    "管理层职责"
+  ],
+  "group": "四大支柱",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "治理支柱是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "治理支柱披露组织用于监控和管理自然相关问题的治理流程、控制与程序。资本提供方关注董事会与管理层是否给予适当关注。",
+          "quote": {
+            "text": "Governance: The governance processes, controls and procedures the organisation uses to monitor and manage nature-related issues;",
+            "source": "TNFD Recommendations, September 2023, p.952"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "投资者、贷款人、保险承保人等希望了解组织的治理流程、控制与程序，以及董事会与管理层在自然相关议题上的角色。",
+          "quote": {
+            "text": "Investors, lenders, insurance underwriters and other users of nature-related financial disclosures are interested in understanding the governance processes, controls and procedures the organisation uses to monitor and manage nature-related issues.",
+            "source": "TNFD Recommendations, September 2023, p.1026"
+          },
+          "related": {
+            "label": "关联知识：IFRS S2 治理",
+            "url": "topic.html?standard=ifrs&id=ifrs-s2-governance",
+            "text": "在治理方面，气候相关财务信息披露的目标是使通用目的财务报告使用者了解主体监控、管理和监督气候相关风险和机遇时所用的治理流程、控制和程序。",
+            "source": "《国际财务报告准则S2号》（2023）官方中文版"
+          }
+        }
+      ]
+    },
+    {
+      "id": "board",
+      "title": "建议 A：董事会监督",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "披露董事会对自然相关依赖、影响、风险与机遇的监督，包括信息获取频率、战略与重大支出审议、目标进展监控、薪酬挂钩等。",
+          "quote": {
+            "text": "A. Describe the board’s oversight of nature-related dependencies, impacts, risks and opportunities.",
+            "source": "TNFD Recommendations, September 2023, p.968"
+          },
+          "related": {
+            "label": "关联知识：财政部气候准则 第五条",
+            "url": "topic.html?standard=mof&id=mof-climate",
+            "text": "在治理方面，企业气候相关信息披露的目标，是使可持续信息基本使用者了解企业管理和监督气候相关风险和机遇所采用的治理架构、控制措施和程序。",
+            "source": "财政部《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "董事会监督应涵盖",
+          "cards": [
+            {
+              "title": "信息频率",
+              "content": "董事会/委员会通过何种频率获知直接运营与价值链的自然相关问题。"
+            },
+            {
+              "title": "战略与预算",
+              "content": "审议指导战略、行动计划、风险管理政策与年度预算时是否考虑自然相关问题。"
+            },
+            {
+              "title": "重大支出",
+              "content": "监督重大资本支出、并购与剥离时是否考虑自然相关影响。"
+            },
+            {
+              "title": "目标与薪酬",
+              "content": "监控自然相关目标进展，以及绩效指标是否纳入薪酬政策。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "建议 B：管理层角色",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "管理层披露要点",
+          "cards": [
+            {
+              "title": "职责归属",
+              "content": "是否将自然相关职责分配给管理层岗位或委员会，并向董事会报告。"
+            },
+            {
+              "title": "组织结构",
+              "content": "描述相关的组织结构。"
+            },
+            {
+              "title": "控制程序",
+              "content": "管理层通过何种控制与程序获知并监控自然相关问题。"
+            },
+            {
+              "title": "支持指标",
+              "content": "如自然政策最高责任层级、向管理层沟通优先区位进展的频率。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露管理层在评估和管理自然相关依赖、影响、风险与机遇中的角色、责任归属与组织结构。",
+              "title": "披露管理层在评估和管理自然相关依…",
+              "quote": {
+                "text": "B. Describe management’s role in assessing and managing nature-related dependencies, impacts, risks and opportunities .",
+                "source": "TNFD Recommendations, September 2023, p.970"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "建议 C：原住民与社区参与",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "参与披露要点",
+          "cards": [
+            {
+              "title": "人权承诺",
+              "content": "参照《联合国原住民权利宣言》、UNGP 等国际人权标准。"
+            },
+            {
+              "title": "识别与同意",
+              "content": "是否基于自由、事先和知情同意（FPIC）开展参与。"
+            },
+            {
+              "title": "惠益共享",
+              "content": "说明如何达成公平获取与惠益分享（ABS）。"
+            },
+            {
+              "title": "结果纳入决策",
+              "content": "参与结果如何纳入重大性评估与决策。"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "披露组织在评估与应对自然相关问题时，对原住民、当地社区及其他利益相关方的人权政策、参与活动与监督。原住民守护全球 80% 的剩余生物多样性。",
+              "title": "披露组织在评估与应对自然相关问题时…",
+              "quote": {
+                "text": "Efective and meaningful engagement with people is an important aspect of any robust identification, assessment and management of nature-related issues (see Box 1 above).",
+                "source": "TNFD Recommendations, September 2023, p.917"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-strategy",
+        "title": "战略支柱"
+      },
+      {
+        "id": "tnfd-risk",
+        "title": "风险管理"
+      }
+    ],
+    "external": [
+      {
+        "id": "ifrs-s2-governance",
+        "title": "IFRS S2 治理",
+        "standard": "ifrs",
+        "system": "ISSB"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof",
+        "system": "财政部准则"
+      }
+    ]
+  }
+}

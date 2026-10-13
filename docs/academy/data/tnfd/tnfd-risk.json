@@ -1,0 +1,193 @@
+{
+  "id": "tnfd-risk",
+  "title": "风险管理",
+  "eyebrow": "识别 · 评估 · 管理自然相关问题",
+  "summary": "披露识别、评估、排序和监控自然相关依赖、影响、风险与机遇的流程，并融入整体风险管理。",
+  "tags": [
+    "风险管理",
+    "识别评估",
+    "整体风险管理"
+  ],
+  "group": "四大支柱",
+  "status": "官方文件整理",
+  "officialUrl": "https://tnfd.global/publications/",
+  "sourceNote": "本页按 TNFD 官方建议（2023 年 9 月）整理；悬浮「原文」可查看对应英文原文。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "风险管理支柱是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "风险管理支柱披露组织用于识别、评估、排序和监控自然相关问题的流程，覆盖依赖、影响、风险与机遇。",
+          "quote": {
+            "text": "Risk and impact management: The processes the organisation uses to identify, assess, prioritise and monitor nature-related issues; and",
+            "source": "TNFD Recommendations, September 2023, p.956"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "整体披露要求强调：组织应描述识别、评估、排序与监控自然相关问题的流程，并融入整体风险管理。",
+          "quote": {
+            "text": "Describe the processes used by the organisation to identify, assess, prioritise and monitor nature-related dependencies, impacts, risks and opportunities.",
+            "source": "TNFD Recommendations, September 2023, p.990"
+          },
+          "related": {
+            "label": "关联知识：IFRS S2 风险管理",
+            "url": "topic.html?standard=ifrs&id=ifrs-s2-riskmgmt",
+            "text": "在风险管理方面，气候相关财务信息披露的目标是使通用目的财务报告使用者了解主体识别、评估、优先考虑和监控气候相关风险和机遇的流程，包括这些流程是否以及如何被整合至并影响主体的整体风险管理流程。",
+            "source": "《国际财务报告准则S1号》（2023）官方中文版"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identify",
+      "title": "建议 A(i)/(ii)：识别与评估流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "直接运营 A(i)",
+              "desc": "描述在直接运营中识别、评估与排序自然相关问题的流程。",
+              "quote": {
+                "text": "A(i) Describe the organisation’s processes for identifying, assessing and prioritising nature-related dependencies, impacts, risks and opportunities in its direct operations.",
+                "source": "TNFD Recommendations, September 2023, p.998"
+              }
+            },
+            {
+              "title": "价值链 A(ii)",
+              "desc": "描述在上游与下游价值链中识别、评估与排序的流程。",
+              "quote": {
+                "text": "A(ii) Describe the organisation’s processes for identifying, assessing and prioritising nature-related dependencies, impacts, risks and opportunities in its upstream and downstream value chain(s) .",
+                "source": "TNFD Recommendations, September 2023, p.1002"
+              }
+            },
+            {
+              "title": "排序优先",
+              "desc": "在直接运营与价值链中确定最重大的依赖、影响、风险与机遇。"
+            },
+            {
+              "title": "监控",
+              "desc": "建立持续监控机制，随数据与时间更新评估。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manage",
+      "title": "建议 B：管理流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "描述组织管理自然相关依赖、影响、风险与机遇的流程，并将管理措施落实到运营与价值链。",
+          "quote": {
+            "text": "B. Describe the organisation’s processes for managing nature-related dependencies, impacts, risks and opportunities .",
+            "source": "TNFD Recommendations, September 2023, p.1004"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "title": "管理流程要点",
+          "cards": [
+            {
+              "title": "减缓层级",
+              "content": "优先避免与最小化影响，再恢复重建，最后抵消残余影响。"
+            },
+            {
+              "title": "责任落实",
+              "content": "明确管理自然相关问题的岗位、委员会与问责。"
+            },
+            {
+              "title": "价值链协同",
+              "content": "与客户、供应商协作管理上下游自然问题。"
+            },
+            {
+              "title": "目标衔接",
+              "content": "管理措施与设定目标及进展监控相衔接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integrate",
+      "title": "建议 C：融入整体风险管理",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "与整体风险一体",
+              "content": "自然相关流程应融入企业整体风险管理，并为其提供信息，而非孤立运作。",
+              "quote": {
+                "text": "C. Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes.",
+                "source": "TNFD Recommendations, September 2023, p.1008"
+              },
+              "related": {
+                "label": "关联知识：财政部气候准则 第二十一条",
+                "url": "topic.html?standard=mof&id=mof-climate",
+                "text": "在风险和机遇管理方面，气候相关信息披露的目标，是使可持续信息基本使用者了解企业识别、评估、排序和监控气候相关风险和机遇的流程（包括这些流程是否以及如何融入企业的整体风险管理流程）。",
+                "source": "财政部《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号"
+              }
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "content": "描述自然相关风险的识别、评估、排序与监控流程如何融入并支撑组织整体风险管理流程。",
+              "title": "描述自然相关风险的识别、评估、排…",
+              "quote": {
+                "text": "C. Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes.",
+                "source": "TNFD Recommendations, September 2023, p.1008"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "tnfd-governance",
+        "title": "治理支柱"
+      },
+      {
+        "id": "tnfd-strategy",
+        "title": "战略支柱"
+      },
+      {
+        "id": "tnfd-metrics",
+        "title": "指标与目标"
+      }
+    ],
+    "external": [
+      {
+        "id": "ifrs-s2-riskmgmt",
+        "title": "IFRS S2 风险管理",
+        "standard": "ifrs",
+        "system": "ISSB"
+      },
+      {
+        "id": "mof-climate",
+        "title": "财政部气候准则",
+        "standard": "mof",
+        "system": "财政部准则"
+      }
+    ]
+  }
+}
