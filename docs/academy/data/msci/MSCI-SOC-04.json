@@ -391,7 +391,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nE X P _ {S L S, i} = C O M _ {S L S, i}\n$$"
+     "content": "$$\nE X P _ {S L S, i} = C O M _ {S L S, i}$$"
     },
     {
      "type": "card_grid",
@@ -409,7 +409,7 @@
      "numbered": false,
      "cols": "2",
      "translation_origin": "ai",
-     "content": "Where:\n\n\\- $EXP_{SLS,i}$ is the Supply Chain Labor Standards Exposure Score of company $i$ .\n\n\\- $COM_{SLS,i}$ is the Company-Specific Exposure Score of company $i$ .\n\nSupply Chain Labor Standards\nExposure Score\n\nCompany-Specific Exposure Score\n\nEstimate of Sales from Developing Markets, Brands Listed on Interbrand Top 100"
+     "content": "Where:\n\n\\- $EXP_{SLS,i}$ is the Supply Chain Labor Standards Exposure Score of company $i$ .\n\n\\- $COM_{SLS,i}$ is the Company-Specific Exposure Score of company $i$ .\n\nSupply Chain Labor StandardsExposure Score\n\nCompany-Specific Exposure Score\n\nEstimate of Sales from Developing Markets, Brands Listed on Interbrand Top 100"
     }
    ]
   },

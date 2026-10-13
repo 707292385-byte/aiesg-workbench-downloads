@@ -287,7 +287,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "standard",
@@ -305,7 +305,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }\n$$"
+     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -335,7 +335,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "standard",
@@ -602,7 +602,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB U S _ { B I O , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { A s s e t , i , j } B S E _ { B I O , j }\n$$"
+     "content": "$$\nB U S _ { B I O , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { A s s e t , i , j } B S E _ { B I O , j }$$"
     },
     {
      "type": "standard",
@@ -632,7 +632,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ { B I O , j } = \\frac { B B I S _ { j } + C S _ { j } } { 2 }\n$$"
+     "content": "$$\nB S E _ { B I O , j } = \\frac { B B I S _ { j } + C S _ { j } } { 2 }$$"
     },
     {
      "type": "standard",
@@ -662,7 +662,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nG E O _ { B I O , i } = \\sum _ { r = 1 } ^ { n _ { i } } w _ { A s s e t , i , r } G S E _ { B I O , r }\n$$"
+     "content": "$$\nG E O _ { B I O , i } = \\sum _ { r = 1 } ^ { n _ { i } } w _ { A s s e t , i , r } G S E _ { B I O , r }$$"
     },
     {
      "type": "standard",
@@ -680,7 +680,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nG S E _ { B I O , r } = \\sum _ { c = 1 } ^ { n _ { r } } w _ { G D P , r , c } G S E _ { B I O , c }\n$$"
+     "content": "$$\nG S E _ { B I O , r } = \\sum _ { c = 1 } ^ { n _ { r } } w _ { G D P , r , c } G S E _ { B I O , c }$$"
     },
     {
      "type": "standard",
@@ -702,7 +702,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nG S E _ { B I O , c } = { \\frac { A F L _ { c } + N T S _ { c } } { 2 } }\n$$"
+     "content": "$$\nG S E _ { B I O , c } = { \\frac { A F L _ { c } + N T S _ { c } } { 2 } }$$"
     },
     {
      "type": "standard",

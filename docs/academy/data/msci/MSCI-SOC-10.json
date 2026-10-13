@@ -290,7 +290,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nE X P _ {C R E, i} = B U S _ {C R E, i} + C O M _ {C R E, i}\n$$"
+     "content": "$$\nE X P _ {C R E, i} = B U S _ {C R E, i} + C O M _ {C R E, i}$$"
     },
     {
      "type": "card_grid",
@@ -309,7 +309,7 @@
      "numbered": false,
      "cols": "2",
      "translation_origin": "ai",
-     "content": "Where:\n\n\\- $EXP_{CRE,i}$ is the Community Relations Exposure Score of company $i$ .\n\n\\- $BUS_{CRE,i}$ is the Business Exposure Score of company $i$ .\n\n\\- $COM_{CRE,i}$ is the Company-Specific Exposure Score of company $i$ .\n\nExhibit 2: Exposure Score components\n\nCommunity Relations\nExposure Score\n\nBusiness Exposure Score\n\nCompany-Specific Exposure Score\n\nBusiness Segment\nExposure Scores\n\nMajor Expansion Plans\nUnder Development\n\nRights Controversies, Intensity of Resource Use, Emissions"
+     "content": "Where:\n\n\\- $EXP_{CRE,i}$ is the Community Relations Exposure Score of company $i$ .\n\n\\- $BUS_{CRE,i}$ is the Business Exposure Score of company $i$ .\n\n\\- $COM_{CRE,i}$ is the Company-Specific Exposure Score of company $i$ .\n\nExhibit 2: Exposure Score components\n\nCommunity Relations\nExposure Score\n\nBusiness Exposure Score\n\nCompany-Specific Exposure Score\n\nBusiness Segment\nExposure Scores\n\nMajor Expansion PlansUnder Development\n\nRights Controversies, Intensity of Resource Use, Emissions"
     }
    ]
   },
@@ -325,7 +325,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB U S _ {C R E, i} = \\sum_ {j = 1} ^ {n _ {i}} w _ {A s s e t, i, j} B S E _ {C R E, j}\n$$"
+     "content": "$$\nB U S _ {C R E, i} = \\sum_ {j = 1} ^ {n _ {i}} w _ {A s s e t, i, j} B S E _ {C R E, j}$$"
     },
     {
      "type": "card_grid",
@@ -359,7 +359,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ {C R E, j} = \\frac {H R _ {j} + 0 . 5 (L D _ {j} + M a x (W S _ {j} , T E _ {j}))}{2}\n$$"
+     "content": "$$\nB S E _ {C R E, j} = \\frac {H R _ {j} + 0 . 5 (L D _ {j} + M a x (W S _ {j} , T E _ {j}))}{2}$$"
     },
     {
      "type": "card_grid",

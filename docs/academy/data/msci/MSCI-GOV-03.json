@@ -149,7 +149,7 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "表明公司涉及反竞争及商业道德争议的情况。\n商业道德争议关键指标评估将考虑董事会关键议题下“证券违规”和“高管不当行为”两项关键指标相关案例，详见《MSCI ESG 评级方法论：董事会关键议题》。\n典型扣分：根据争议严重程度、状态（持续中、部分结束或已结束），以及公司角色（直接或间接参与）变化。$^{3}$\n范围：0 至 -7.0\n参见下文“企业行为争议扣分对照表”。",
+     "content_cn": "表明公司涉及反竞争及商业道德争议的情况。\n商业道德争议关键指标评估将考虑董事会关键议题下“证券违规”和“高管不当行为”两项关键指标相关案例，详见《MSCI ESG 评级方法论：董事会关键议题》。\n典型扣分：根据争议严重程度、状态（持续中、部分结束或已结束），以及公司角色（直接或间接参与）变化。$^{3}$范围：0 至 -7.0参见下文“企业行为争议扣分对照表”。",
      "translation_origin": "ai",
      "content": "Indicates the company's involvement in anticompetitive and business ethics controversies.\n\nCases related to the two Board Key Issue-related Key Metrics Securities Violations and Executive Misconduct (See the \"MSCI ESG Ratings Methodology: Board Key Issue\" document for details) will be taken into consideration in the assessment of the Business Ethics Controversies Key Metric.\n\nTypical scoring deduction: Variable, based on Severity, Status (Ongoing, Partially Concluded, or Concluded), and the company's Role (Direct vs. Indirect Involvement) in the controversy. $^{3}$\n\nRange: 0 to -7.0\n\nRefer to the Corporate Behavior Controversy Deduction Key, below."
     }

@@ -88,6 +88,15 @@
    "learningLayer": "original",
    "blocks": [
     {
+     "type": "standard",
+     "content_cn": "按重要运营点划分，对组织的全职员工提供，但不对临时或兼职员工提供的标准福利。这些福利至少包括",
+     "source": "GRI 401（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -126,7 +135,6 @@
        "items": []
       }
      ],
-     "title": "按重要运营点划分，对组织的全职员工提供，但不对临时或兼职员工提供的标准福利。这些福利至少包括",
      "source": "GRI 401（2016）官方中文版",
      "sourceScope": "official",
      "provenance": "official",

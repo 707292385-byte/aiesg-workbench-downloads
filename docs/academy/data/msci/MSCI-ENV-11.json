@@ -286,7 +286,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -316,7 +316,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }\n$$"
+     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -346,7 +346,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -502,13 +502,13 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "清洁技术机遇敞口得分评估公司在此关键议题上的机遇敞口，仅以业务敞口得分为基础。业务敞口得分采用 0—10 分制，10 分对应最高机遇水平，0 分对应最低\n机遇水平。详情参见《ESG 评级方法论》的“风险敞口分析”章节。敞口得分按以下公式计算：",
+     "content_cn": "清洁技术机遇敞口得分评估公司在此关键议题上的机遇敞口，仅以业务敞口得分为基础。业务敞口得分采用 0—10 分制，10 分对应最高机遇水平，0 分对应最低机遇水平。详情参见《ESG 评级方法论》的“风险敞口分析”章节。敞口得分按以下公式计算：",
      "translation_origin": "ai",
      "content": "The Opportunities in Clean Tech Exposure score evaluates the company’s exposure to opportunities on this Key Issue. It is based on the Business Exposure score only. The Business Exposure score is scored on a 0-10 scale, with 10 corresponding to the highest opportunity and 0 corresponding to the lowest\n\nopportunity. Refer to the Analyzing risk exposure section of “ESG Ratings Methodology” for additional details. The following formula is used in the Exposure score calculation:"
     },
     {
      "type": "formula",
-     "content": "$$\nE X P _ { O C T , i } = B U S _ { O C T , i }\n$$"
+     "content": "$$\nE X P _ { O C T , i } = B U S _ { O C T , i }$$"
     },
     {
      "type": "standard",
@@ -594,7 +594,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB U S _ { O C T , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { R e v e n u e , i , j } B S E _ { O C T , j }\n$$"
+     "content": "$$\nB U S _ { O C T , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { R e v e n u e , i , j } B S E _ { O C T , j }$$"
     },
     {
      "type": "standard",
@@ -624,7 +624,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ { O C T , j } = 0 . 3 R D F _ { j } + 0 . 7 C O C T _ { j }\n$$"
+     "content": "$$\nB S E _ { O C T , j } = 0 . 3 R D F _ { j } + 0 . 7 C O C T _ { j }$$"
     },
     {
      "type": "standard",

@@ -286,7 +286,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nM G M T _ { i } = \\ \\sum I n d i c a t o r \\_ S c o r e _ { j , i } \\ast I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -316,7 +316,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }\n$$"
+     "content": "$$\nC O M P _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ S c o r e _ { j , i } * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ { j , i }$$"
     },
     {
      "type": "card_grid",
@@ -347,7 +347,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }\n$$"
+     "content": "$$\nC O M P \\_ W e i g h t _ { c , i } = \\sum _ { j \\in c } I n d i c a t o r \\_ W e i g h t _ { j , i }$$"
     },
     {
      "type": "standard",
@@ -686,7 +686,7 @@
       "content_type": "校核整理"
      },
      "translation_origin": "ai",
-     "content": "$E X P _ { C B N , i }$ is the Carbon Emissions Exposure score of company i.\n\n$B U S _ { C B N , i }$ is the Business Exposure score of company i.\n\n$G E O _ { C B N , i }$ is the Geographic Exposure score of company i.\n\nExhibit 2: Exposure score components\n\nCarbon Emissions Exposure score\n\nBusiness Exposure score\n\nBusiness Segment Exposure scores\n\nGHG Emissions Intensity\n\nGeographic Exposure score\n\nGeographic Segment Exposure scores\n\nAnnual Reduction in Carbon \nEmissions to Meet Emission \nTargets, Net Zero targets, Fossil Fuel Subsidies, Carbon Pricing"
+     "content": "$E X P _ { C B N , i }$ is the Carbon Emissions Exposure score of company i.\n\n$B U S _ { C B N , i }$ is the Business Exposure score of company i.\n\n$G E O _ { C B N , i }$ is the Geographic Exposure score of company i.\n\nExhibit 2: Exposure score components\n\nCarbon Emissions Exposure score\n\nBusiness Exposure score\n\nBusiness Segment Exposure scores\n\nGHG Emissions Intensity\n\nGeographic Exposure score\n\nGeographic Segment Exposure scores\n\nAnnual Reduction in CarbonEmissions to Meet EmissionTargets, Net Zero targets, Fossil Fuel Subsidies, Carbon Pricing"
     }
    ]
   },
@@ -702,7 +702,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB U S _ { C B N , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { A s s e t , i , j } B S E _ { C B N , j }\n$$"
+     "content": "$$\nB U S _ { C B N , i } = \\sum _ { j = 1 } ^ { n _ { i } } w _ { A s s e t , i , j } B S E _ { C B N , j }$$"
     },
     {
      "type": "standard",
@@ -732,7 +732,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ { C B N , j } = \\ E I _ { j , S 1 + S 2 }\n$$"
+     "content": "$$\nB S E _ { C B N , j } = \\ E I _ { j , S 1 + S 2 }$$"
     },
     {
      "type": "standard",
@@ -770,7 +770,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ { C B N , j } = E I _ { j , M S C I }\n$$"
+     "content": "$$\nB S E _ { C B N , j } = E I _ { j , M S C I }$$"
     }
    ]
   },
@@ -786,7 +786,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nG E O _ { C B N , i } = \\sum _ { r = 1 } ^ { n _ { i } } w _ { A s s e t , i , r } G S E _ { C B N , r }\n$$"
+     "content": "$$\nG E O _ { C B N , i } = \\sum _ { r = 1 } ^ { n _ { i } } w _ { A s s e t , i , r } G S E _ { C B N , r }$$"
     },
     {
      "type": "standard",
@@ -804,7 +804,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nG S E _ { C B N , r } = \\sum _ { c = 1 } ^ { n _ { r } } w _ { G D P , r , c } G S E _ { C B N , c }\n$$"
+     "content": "$$\nG S E _ { C B N , r } = \\sum _ { c = 1 } ^ { n _ { r } } w _ { G D P , r , c } G S E _ { C B N , c }$$"
     },
     {
      "type": "standard",

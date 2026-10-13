@@ -65,6 +65,10 @@
      "learningLayer": "original"
     },
     {
+     "type": "standard",
+     "content_cn": "组织的产品和服务信息与标识程序是否要求以下每种类型的信息"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -92,8 +96,7 @@
        "content": "",
        "items": []
       }
-     ],
-     "title": "组织的产品和服务信息与标识程序是否要求以下每种类型的信息"
+     ]
     },
     {
      "type": "card_grid",
@@ -152,6 +155,15 @@
    "learningLayer": "original",
    "blocks": [
     {
+     "type": "standard",
+     "content_cn": "违反有关营销传播（包括广告、促销和赞助）的法规和 / 或自愿性守则的事件总数，按以下项目分类",
+     "source": "GRI 417（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -170,7 +182,6 @@
        "items": []
       }
      ],
-     "title": "违反有关营销传播（包括广告、促销和赞助）的法规和 / 或自愿性守则的事件总数，按以下项目分类",
      "source": "GRI 417（2016）官方中文版",
      "sourceScope": "official",
      "provenance": "official",

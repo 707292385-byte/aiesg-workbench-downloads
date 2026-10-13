@@ -65,6 +65,10 @@
      "learningLayer": "original"
     },
     {
+     "type": "standard",
+     "content_cn": "以下信息：工作者行使结社自由或集体谈判的权利受到侵犯或处于重大风险的运营点和供应商，按以下方面列示"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -77,8 +81,7 @@
        "content": "",
        "items": []
       }
-     ],
-     "title": "以下信息：工作者行使结社自由或集体谈判的权利受到侵犯或处于重大风险的运营点和供应商，按以下方面列示"
+     ]
     },
     {
      "type": "card_grid",

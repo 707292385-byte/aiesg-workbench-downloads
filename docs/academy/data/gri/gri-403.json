@@ -97,6 +97,10 @@
      "learningLayer": "original"
     },
     {
+     "type": "standard",
+     "content_cn": "用于识别工作相关危害和评估风险的常规和非常规流程，以及应用控制体系消除危害并将风险最小化的流程，包括"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -109,8 +113,7 @@
        "content": "",
        "items": []
       }
-     ],
-     "title": "用于识别工作相关危害和评估风险的常规和非常规流程，以及应用控制体系消除危害并将风险最小化的流程，包括"
+     ]
     },
     {
      "type": "card_grid",

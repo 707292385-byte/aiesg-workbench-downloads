@@ -122,7 +122,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nM G M T _ {i} = \\sum I n d i c a t o r \\_ S c o r e _ {j, i} * I n d i c a t o r \\_ W e i g h t _ {j, i}\n$$"
+     "content": "$$\nM G M T _ {i} = \\sum I n d i c a t o r \\_ S c o r e _ {j, i} * I n d i c a t o r \\_ W e i g h t _ {j, i}$$"
     },
     {
      "type": "card_grid",
@@ -145,7 +145,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P _ {c, i} = \\sum_ {j \\in c} I n d i c a t o r \\_ S c o r e _ {j, i} * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ {j, i}\n$$"
+     "content": "$$\nC O M P _ {c, i} = \\sum_ {j \\in c} I n d i c a t o r \\_ S c o r e _ {j, i} * I n d i c a t o r \\_ W e i g h t \\_ S c a l e d _ {j, i}$$"
     },
     {
      "type": "card_grid",
@@ -169,7 +169,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M P \\_ W e i g h t _ {c, i} = \\sum_ {j \\in c} I n d i c a t o r \\_ W e i g h t _ {j, i}\n$$"
+     "content": "$$\nC O M P \\_ W e i g h t _ {c, i} = \\sum_ {j \\in c} I n d i c a t o r \\_ W e i g h t _ {j, i}$$"
     },
     {
      "type": "card_grid",
@@ -433,7 +433,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nE X P _ {H C D, i} = B U S _ {H C D, i} + C O M _ {H C D, i}\n$$"
+     "content": "$$\nE X P _ {H C D, i} = B U S _ {H C D, i} + C O M _ {H C D, i}$$"
     },
     {
      "type": "card_grid",
@@ -522,7 +522,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB U S _ {H C D, i} = \\sum_ {j = 1} ^ {n _ {i}} w _ {A s s e t, i, j} B S E _ {H C D, j}\n$$"
+     "content": "$$\nB U S _ {H C D, i} = \\sum_ {j = 1} ^ {n _ {i}} w _ {A s s e t, i, j} B S E _ {H C D, j}$$"
     },
     {
      "type": "card_grid",
@@ -556,7 +556,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nB S E _ {H C D, j} = \\frac {A S _ {j} + H E W _ {j}}{2}\n$$"
+     "content": "$$\nB S E _ {H C D, j} = \\frac {A S _ {j} + H E W _ {j}}{2}$$"
     },
     {
      "type": "card_grid",
@@ -590,7 +590,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M _ {H C D, i} = I L O _ {H C D, i} + I M A _ {H C D, i}\n$$"
+     "content": "$$\nC O M _ {H C D, i} = I L O _ {H C D, i} + I M A _ {H C D, i}$$"
     },
     {
      "type": "card_grid",

@@ -73,6 +73,15 @@
    "learningLayer": "original",
    "blocks": [
     {
+     "type": "standard",
+     "content_cn": "在报告期内，违反有关产品和服务的健康与安全影响的法规和 / 或自愿性守则的事件总数，按以下项目分类",
+     "source": "GRI 416（2016）官方中文版",
+     "sourceScope": "official",
+     "provenance": "official",
+     "language": "zh",
+     "learningLayer": "original"
+    },
+    {
      "type": "card_grid",
      "cards": [
       {
@@ -91,7 +100,6 @@
        "items": []
       }
      ],
-     "title": "在报告期内，违反有关产品和服务的健康与安全影响的法规和 / 或自愿性守则的事件总数，按以下项目分类",
      "source": "GRI 416（2016）官方中文版",
      "sourceScope": "official",
      "provenance": "official",

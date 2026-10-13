@@ -192,7 +192,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nE X P _ {C O S, i} = C O M _ {C O S, i}\n$$"
+     "content": "$$\nE X P _ {C O S, i} = C O M _ {C O S, i}$$"
     },
     {
      "type": "card_grid",
@@ -226,7 +226,7 @@
     },
     {
      "type": "formula",
-     "content": "$$\nC O M _ {C O S, i} = \\frac {D S _ {C O S , i} + F S _ {C O S , i}}{2}\n$$"
+     "content": "$$\nC O M _ {C O S, i} = \\frac {D S _ {C O S , i} + F S _ {C O S , i}}{2}$$"
     },
     {
      "type": "card_grid",

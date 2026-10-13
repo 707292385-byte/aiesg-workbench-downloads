@@ -127,7 +127,7 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "公司现行高管薪酬政策是否未与可持续发展绩效挂钩？\n若是，则作出标记。\n该指标完全依据公司自身报告，考察是否使用一项或多项可持续发展指标确定年度和／或长期激励薪酬政策，不评估这些指标的有效性。评估对象为首席执行官和／或其他执行董事。完全不发放激励薪酬的公司也会被标记。\n适用范围：除外部管理公司之外的所有发行人。$^{1}$\n典型计分贡献：0.2",
+     "content_cn": "公司现行高管薪酬政策是否未与可持续发展绩效挂钩？\n若是，则作出标记。\n该指标完全依据公司自身报告，考察是否使用一项或多项可持续发展指标确定年度和／或长期激励薪酬政策，不评估这些指标的有效性。评估对象为首席执行官和／或其他执行董事。完全不发放激励薪酬的公司也会被标记。\n适用范围：除外部管理公司之外的所有发行人。$^{1}$典型计分贡献：0.2",
      "translation_origin": "ai",
      "content": "Has the company failed to incorporate links to sustainability performance in its current executive pay policies?\n\nFlagged if yes.\n\nThis metric is based entirely on the company's own reporting. It considers whether one or more sustainability metrics are used to determine annual and/or long-term incentive pay policy and does not consider the effectiveness of those metrics. This metric is evaluated for the CEO and/or other executive directors. Companies that do not issue any incentive pay will also be flagged under this Key Metric.\n\nScope: All issuers other than externally managed companies. $^{1}$\n\nTypical Scoring Contribution: 0.2"
     }
@@ -211,7 +211,7 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "最近报告的首席执行官实际实现薪酬总额，相对于公司薪酬同业组是否处于极端区间？$^{2}$\n若是，则作出标记。\n若首席执行官实际薪酬总额位于公司薪酬同业组首席执行官实际实现薪酬的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。\n适用范围：所有发行人\n典型计分贡献：0.2",
+     "content_cn": "最近报告的首席执行官实际实现薪酬总额，相对于公司薪酬同业组是否处于极端区间？$^{2}$若是，则作出标记。\n若首席执行官实际薪酬总额位于公司薪酬同业组首席执行官实际实现薪酬的最高十分位，则作出标记，参见下文“薪酬同业组”。由于公司在一年中不同时间提交委托投票文件，同业报告金额变化也可能导致本公司该指标变化。\n适用范围：所有发行人\n典型计分贡献：0.2",
      "translation_origin": "ai",
      "content": "Does the most recently reported total realized CEO pay figure fall into an extreme range relative to the company's pay peer group? $^{2}$\n\nFlagged if yes.\n\nFlagged if CEO total actual pay falls within the top decile of CEO realized pay values for the company's pay peer group (see Pay Peer Groups, below). Because companies file their proxies at different times throughout the year, a company could see this metric change due to changes in reported figures for its peers.\n\nScope: All issuers\n\nTypical Scoring Contribution: 0.2"
     }
