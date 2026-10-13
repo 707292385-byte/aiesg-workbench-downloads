@@ -150,3 +150,21 @@ details[open]>summary .st-caret{transform:rotate(-135deg) translateY(-2px);}
 
 /* 旧 st-question ＋/－ 折叠符与新箭头重复，覆盖掉 */
 .st-qgroup>summary:after,.st-question>summary:after,.st-guide>summary:after{content:none!important;}
+
+/* —— 悬浮显示官方原文 —— */
+.kd-q-btn{display:inline-flex;align-items:center;gap:3px;margin-left:6px;padding:1px 7px;border:1px solid color-mix(in srgb,var(--kd) 32%,#cfe0d7);border-radius:999px;background:color-mix(in srgb,var(--kd) 7%,#fff);color:var(--kd);font:inherit;font-size:9.5px;font-weight:800;letter-spacing:.04em;line-height:1.7;vertical-align:middle;cursor:help;transition:background .15s,border-color .15s}
+.kd-q-btn::before{content:"";width:4px;height:4px;border-radius:50%;background:currentColor;opacity:.75}
+.kd-q-btn:hover,.kd-q-btn:focus-visible{background:color-mix(in srgb,var(--kd) 15%,#fff);border-color:color-mix(in srgb,var(--kd) 55%,#cfe0d7);outline:none}
+.kd-grid-title .kd-q-btn{margin-left:8px;font-size:9.5px}
+.kd-qtip{position:fixed;z-index:900;top:0;left:0;width:min(430px,82vw);max-height:min(72vh,470px);overflow:auto;overscroll-behavior:contain;padding:13px 15px 12px;border-radius:13px;background:#132a20;color:#eaf4ee;box-shadow:0 16px 44px rgba(12,32,23,.34);font-size:12.5px;line-height:1.72;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .16s ease,transform .16s ease;pointer-events:none}
+.kd-qtip.is-on{opacity:1;visibility:visible;transform:none;pointer-events:auto}
+.kd-qtip-tag{display:inline-block;margin-bottom:7px;padding:1px 8px;border-radius:999px;background:rgba(255,255,255,.14);color:#bfe6d2;font-size:9.5px;font-weight:800;letter-spacing:.1em}
+.kd-qtip-text{margin:0;color:#f2f8f4;font-size:12.5px;line-height:1.75}
+.kd-qtip-src{display:block;margin-top:9px;padding-top:8px;border-top:1px solid rgba(255,255,255,.15);color:#9dc4b1;font-size:10.5px;font-style:normal}
+.kd-qtip-related{margin-top:9px;padding:9px 11px;border-radius:9px;background:rgba(255,255,255,.08)}
+.kd-qtip-related b{display:block;margin-bottom:4px;color:#bfe6d2;font-size:10px;letter-spacing:.06em}
+.kd-qtip-related p{margin:0;color:#dfeee6;font-size:11.5px;line-height:1.7;white-space:pre-line}
+.kd-qtip-related .kd-qtip-src{margin-top:7px;padding-top:6px;border-top-color:rgba(255,255,255,.12)}
+.kd-qtip-related a{display:inline-block;margin-top:6px;color:#8fd8b0;font-size:11px;text-decoration:none}
+.kd-qtip-related a:hover{text-decoration:underline}
+@media(max-width:640px){.kd-qtip{width:calc(100vw - 24px);font-size:12px}}

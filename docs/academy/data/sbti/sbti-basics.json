@@ -1,0 +1,246 @@
+{
+ "id": "sbti-basics",
+ "title": "科学碳目标与 SBTi",
+ "eyebrow": "基础 · 参与规模 · 路径选择",
+ "summary": "科学碳目标把全球温控目标换算成企业可执行的减排目标；SBTi 制定标准与工具，SBTi Services 负责独立验证。",
+ "tags": [
+  "科学碳目标",
+  "SBTi",
+  "跨行业路径"
+ ],
+ "group": "科学碳目标与体系",
+ "status": "官方文件整理",
+ "officialUrl": "https://sciencebasedtargets.org/net-zero",
+ "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+ "sections": [
+  {
+   "id": "what",
+   "title": "什么是科学碳目标",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "科学碳目标（science-based targets）是企业按气候科学所需的减排幅度设定的温室气体减排目标。它把《巴黎协定》的全球温控目标，换算成企业在一定年限内必须完成的减排比例。",
+     "quote": {
+      "text": "Science-based targets give your business a clear path to reduce its greenhouse gas (GHG) emissions in line with climate science.",
+      "source": "SBTi 官网《How to set science-based targets》"
+     }
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "目标从科学路径推导，不是自定比例",
+       "content": "减排幅度来自 IPCC、IEA 等机构建立的减排路径，企业选择路径后按工具计算，而不是自行决定减多少。"
+      },
+      {
+       "title": "两层目标结构",
+       "content": "近期目标解决未来 5–10 年的减排，长期目标指向 2050 年或更早实现净零，两者必须同时具备。",
+       "quote": {
+        "text": "Near-term targets aim to address emissions reductions over the next 5-10 years, whereas net-zero targets require immediate action while implementing long-term strategies aligned with achieving net-zero emissions by 2050 or earlier.",
+        "source": "SBTi 官网《How to set science-based targets》",
+        "related": {
+         "label": "关联知识：IFRS S2 气候相关目标",
+         "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+         "text": "目标是温室气体排放总量目标还是温室气体净排放量目标；如果主体披露温室气体净排放量目标，则还需单独披露相关温室气体排放总量目标（参见 B68 段至 B69 段）",
+         "source": "IFRS S2：气候相关披露（气候相关目标）"
+        }
+       }
+      },
+      {
+       "title": "验证由独立机构执行",
+       "content": "SBTi 制定标准与工具，目标的核查与验证由全资子公司 SBTi Services 执行，通过后公开在目标仪表盘。"
+      }
+     ],
+     "numbered": false,
+     "cols": 3
+    }
+   ]
+  },
+  {
+   "id": "ecosystem",
+   "title": "SBTi 体系：谁制定标准，谁做验证",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "标准与准则",
+       "content": "《企业净零标准》与《企业近期准则》规定目标必须满足的要求（criteria）与建议（recommendations）。",
+       "quote": {
+        "text": "It includes all criteria that must be met for net-zero target(s) to be validated by the Science Based Targets initiative (SBTi), as well as recommendations which are important for transparency and best practice.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "工具与指南",
+       "content": "目标设定工具、行业指南与核算指引，用于把路径换算为具体企业的减排比例。"
+      },
+      {
+       "title": "验证服务",
+       "content": "SBTi Services 受理并核查企业与金融机构提交的近期目标与净零目标。"
+      },
+      {
+       "title": "目标仪表盘",
+       "content": "公开已承诺与已验证的企业名单、目标类型、范围、基准年、目标年与温控分类。"
+      }
+     ],
+     "numbered": true,
+     "title": "四个组成部分",
+     "cols": 2
+    },
+    {
+     "type": "standard",
+     "content_cn": "可以提交验证的主体是企业、金融机构以及符合 SBTi 定义的中小企业（SME）。城市、地方政府、公共部门机构、教育机构、非营利组织与化石燃料企业不通过 SBTi 验证目标，但可采用同类方法自行推进减排。"
+    }
+   ]
+  },
+  {
+   "id": "scale",
+   "title": "参与规模（官方目标仪表盘）",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "以下数字来自 SBTi 目标仪表盘公开企业数据，按 2026 年 10 月 13 日提取的记录统计；同一条记录可同时持有近期目标与净零目标，因此各项占比之和不等于 100%。"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "统计项",
+       "数量",
+       "占在册记录比例"
+      ],
+      [
+       "在册企业/机构记录总数",
+       "15,770",
+       "100%"
+      ],
+      [
+       "近期目标：已验证（Validated Targets）",
+       "12,121",
+       "76.9%"
+      ],
+      [
+       "近期目标：已承诺待提交（Commitment to Set Targets）",
+       "2,148",
+       "13.6%"
+      ],
+      [
+       "近期目标：承诺已移除（Commitment Removed）",
+       "1,501",
+       "9.5%"
+      ],
+      [
+       "净零目标：已验证",
+       "2,841",
+       "18.0%"
+      ],
+      [
+       "长期目标：已验证",
+       "2,787",
+       "17.7%"
+      ],
+      [
+       "组织类型：企业（Corporate）",
+       "8,768",
+       "55.6%"
+      ],
+      [
+       "组织类型：中小企业（SME）",
+       "6,685",
+       "42.4%"
+      ],
+      [
+       "组织类型：金融机构（Financial Institution）",
+       "317",
+       "2.0%"
+      ]
+     ]
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "东亚",
+       "content": "4,213 家，占 26.7%，是参与数量最多的地区。"
+      },
+      {
+       "title": "北欧",
+       "content": "3,565 家，占 22.6%。"
+      },
+      {
+       "title": "西欧",
+       "content": "3,032 家，占 19.2%。"
+      }
+     ],
+     "numbered": false,
+     "title": "地区分布前三位",
+     "cols": 3
+    },
+    {
+     "type": "standard",
+     "content_cn": "SBTi 在 V2.0 前言中提到全球已有超过 1.1 万家企业通过验证。",
+     "quote": {
+      "text": "more than 11,000 companies with validated targets worldwide",
+      "source": "SBTi《企业净零标准》V2.0（2026年6月）"
+     }
+    }
+   ]
+  },
+  {
+   "id": "path",
+   "title": "两条路径：跨行业与行业特定",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "跨行业路径（cross-sector pathway）",
+       "content": "绝大多数企业适用的通用路径，覆盖范围一、范围二与范围三的减排要求。",
+       "quote": {
+        "text": "The cross-sector pathway is used by 90% of companies that set science-based targets.",
+        "source": "SBTi 官网《How to set science-based targets》"
+       }
+      },
+      {
+       "title": "行业特定准则（sector-specific criteria）",
+       "content": "排放量大、作业方式特殊的行业必须使用对应行业准则，例如水泥、钢铁、海运等；这些行业的准则不是可选项。"
+      }
+     ],
+     "numbered": true,
+     "cols": 2
+    },
+    {
+     "type": "standard",
+     "content_cn": "不在强制行业准则范围内的企业，使用《企业近期准则》设定近期目标，使用《企业净零标准》设定净零目标。判断自己该走哪条路径，可用 SBTi 官网的 Getting Started Navigator。"
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [
+   {
+    "id": "sbti-framework",
+    "title": "净零目标的四大要素"
+   },
+   {
+    "id": "sbti-process",
+    "title": "制定流程：五步与时限"
+   }
+  ],
+  "external": [
+   {
+    "title": "SBTi 官网 · How to set science-based targets",
+    "url": "https://sciencebasedtargets.org/how-it-works"
+   },
+   {
+    "title": "SBTi 目标仪表盘",
+    "url": "https://sciencebasedtargets.org/target-dashboard"
+   }
+  ]
+ }
+}

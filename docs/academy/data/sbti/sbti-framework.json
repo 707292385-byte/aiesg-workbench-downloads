@@ -1,0 +1,221 @@
+{
+ "id": "sbti-framework",
+ "title": "净零目标的四大要素",
+ "eyebrow": "官方定义 · 组成结构",
+ "summary": "SBTi 把企业净零定义为一个组合：先把排放降到剩余水平，再永久中和剩余排放；组合由四个要素构成。",
+ "tags": [
+  "净零定义",
+  "四大要素",
+  "剩余排放中和"
+ ],
+ "group": "科学碳目标与体系",
+ "status": "官方文件整理",
+ "officialUrl": "https://sciencebasedtargets.org/net-zero",
+ "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+ "sections": [
+  {
+   "id": "definition",
+   "title": "企业净零的官方定义",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "SBTi 对「企业净零」给出的定义由两句话组成：先把范围一、二、三的排放降到零，或降到与 1.5°C 路径下全球或行业净零一致的剩余水平；再永久中和剩余排放，以及此后向大气排放的任何温室气体。"
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "第一句：把排放降下来",
+       "content": "把范围一、范围二、范围三排放降到零，或降到与合格 1.5°C 路径下全球/行业净零一致的剩余水平。",
+       "quote": {
+        "text": "Reducing scope 1, 2, and 3 emissions to zero or a residual level consistent with reaching net-zero emissions at the global or sector level in eligible 1.5°C-aligned pathways",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "第二句：把剩下的中和掉",
+       "content": "在净零目标年，以及此后任何排入大气的温室气体，都要永久中和。",
+       "quote": {
+        "text": "Permanently neutralizing any residual emissions at the net-zero target year and any GHG emissions released into the atmosphere thereafter",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      }
+     ],
+     "numbered": true,
+     "cols": 2
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "大多数企业的长期目标至少减排 90%",
+       "content": "长期目标的雄心由路径推导；多数企业需要通过长期目标把排放削减至少 90%，剩余部分才谈中和。"
+      },
+      {
+       "title": "未达到长期目标并中和，不能宣称净零",
+       "content": "两件事都完成之前，企业不能对外宣称已经实现净零。",
+       "quote": {
+        "text": "A company cannot claim to have reached net-zero until it has achieved its long-term science-based target across all scopes and neutralized residual emissions.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
+        "related": {
+         "label": "关联知识：财政部气候准则 第四十二条",
+         "url": "topic.html?standard=mof&id=mof-climate",
+         "text": "目标是温室气体排放总量目标还是净排放量目标。如果企业披露温室气体净排放量目标，则还应当单独披露相关温室气体排放总量目标。",
+         "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十二条"
+        }
+       }
+      }
+     ],
+     "numbered": false,
+     "cols": 2
+    }
+   ]
+  },
+  {
+   "id": "four",
+   "title": "四大要素",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "一个完整的企业净零目标由四个部分组成。",
+     "quote": {
+      "text": "The Corporate Net-Zero Standard sets out four key elements that make up a corporate net-zero target",
+      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+     }
+    },
+    {
+     "type": "four_pillars",
+     "pillars": [
+      {
+       "title": "近期科学碳目标",
+       "desc": "覆盖未来 5–10 年的温室气体减排目标，与 1.5°C 路径一致。到期后必须重新计算新的近期目标，作为通往长期目标的节点。",
+       "quote": {
+        "text": "These are 5-10 year GHG mitigation targets in line with 1.5°C pathways.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "长期科学碳目标",
+       "desc": "说明价值链排放需要削减多少，才能与 2050 年或更早实现全球或行业净零的 1.5°C 路径一致。",
+       "quote": {
+        "text": "These targets show companies how much they must reduce value chain emissions to align with reaching net-zero at the global or sector level in eligible 1.5°C pathways by 2050 or sooner.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "剩余排放中和",
+       "desc": "通过从大气中移除碳并永久封存，抵消长期目标实现后仍未削减的排放。被排除在长期目标边界和排放清单之外的排放，同样需要中和。",
+       "quote": {
+        "text": "Measures companies take to remove carbon from the atmosphere and permanently store it, counterbalancing the impact of emissions that remain unabated after the long-term science-based target is achieved.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "价值链外减缓（BVCM）",
+       "desc": "发生在企业价值链之外的减缓行动或投资，包括避免或减少排放的活动，以及从大气中移除并封存温室气体的活动。它是鼓励项，不能替代企业自身减排。",
+       "quote": {
+        "text": "Mitigation action or investments that fall outside of a company’s value chain. This includes activities that avoid or reduce GHG emissions, and those that remove and store GHGs from the atmosphere.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      }
+     ],
+     "numbered": true,
+     "cols": 2
+    }
+   ]
+  },
+  {
+   "id": "confuse",
+   "title": "三个容易混淆的边界",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "中和不等于抵消",
+       "content": "中和是真实移除并永久封存碳；购买抵消额度不构成中和，也不能用来抵消减排义务。"
+      },
+      {
+       "title": "碳排放额度不计入减排",
+       "content": "碳额度必须与排放清单分开报告，不能计入近期或长期目标的减排成果；只可用于中和剩余排放，或为价值链外的额外减缓提供资金。",
+       "quote": {
+        "text": "Carbon credits must be reported separately from the GHG inventory and do not count as reductions toward meeting near-term or long-term science-based targets.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
+        "related": {
+         "label": "关联知识：财政部气候准则 第四十五条",
+         "url": "topic.html?standard=mof&id=mof-climate",
+         "text": "企业计划使用外购减排量作为补充手段抵销其温室气体排放量，以实现温室气体净排放量目标的，应当在说明其计划使用的减排量时披露下列信息：\n实现温室气体净排放量目标依赖外购减排量使用的程度和方式；\n对减排量进行认证的独立第三方名称及认证体系；\n减排量所属的自愿减排交易机制名称，产生减排量的项目所处国别；\n减排量的类型，包括抵销所用减排量源自何种自愿减排项目；\n为使可持续信息基本使用者了解企业计划使用的减排量的可信度和完整性所需的其他因素（如项目业主对所提供材料真实性、完整性和有效性负责的承诺书）。",
+         "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十五条"
+        }
+       }
+      },
+      {
+       "title": "避免排放不算自身减排",
+       "content": "产品在使用时帮客户减少了排放，这类「避免排放」属于另一套核算体系，不计入近期或长期减排目标的进展。",
+       "quote": {
+        "text": "Avoided emissions fall under a separate accounting system from corporate inventories and do not count toward near-term or long-term science-based emission reduction targets.",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      }
+     ],
+     "numbered": false,
+     "cols": 3
+    }
+   ]
+  },
+  {
+   "id": "wording",
+   "title": "目标怎么表述",
+   "learningLayer": "practical",
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "净零目标的表述由三部分构成：总体净零目标、近期科学碳目标、长期科学碳目标。总体净零目标的年份由最晚的长期目标年决定。",
+     "quote": {
+      "text": "The company net-zero date is determined by the latest long-term SBT target date.",
+      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+     }
+    },
+    {
+     "type": "card_grid",
+     "cards": [
+      {
+       "title": "总体净零目标的表述模板",
+       "quote": {
+        "text": "Company X commits to reach net-zero GHG emissions across the value chain by [insert latest long-term SBT target date].",
+        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+       }
+      },
+      {
+       "title": "近期与长期目标必须写入总目标",
+       "content": "近期目标与长期目标的表述必须包含在总体净零目标之内；具体格式见 SBTi 目标验证标准作业程序。"
+      }
+     ],
+     "numbered": false,
+     "cols": 2
+    }
+   ]
+  }
+ ],
+ "relations": {
+  "internal": [
+   {
+    "id": "sbti-basics",
+    "title": "科学碳目标与 SBTi"
+   },
+   {
+    "id": "sbti-boundary",
+    "title": "覆盖范围与雄心门槛"
+   }
+  ],
+  "external": [
+   {
+    "title": "SBTi Corporate Net-Zero Standard V1.3.1 §2",
+    "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
+   }
+  ]
+ }
+}

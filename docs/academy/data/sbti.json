@@ -1,0 +1,190 @@
+{
+ "id": "sbti",
+ "title": "SBTi 科学碳目标（企业净零标准）",
+ "titleEn": "Science Based Targets initiative — Corporate Net-Zero Standard",
+ "eyebrow": "企业气候目标设定方法学",
+ "accent": "#1f6b3a",
+ "description": "科学碳目标倡议（SBTi）的企业净零标准与近期准则：从排放基线与目标边界，到目标设定方法、验证与五年复核的完整制定流程。",
+ "issuer": "科学碳目标倡议（Science Based Targets initiative, SBTi）",
+ "version": "企业净零标准 V1.3.1（2026年4月）· V2.0 已发布（2026年6月）",
+ "updated": "2026.10.13",
+ "topics": 7,
+ "sourceNote": "SBTi 官方发布的《企业净零标准》V1.3.1 与 V2.0、官网目标设定流程说明、SBTi Services 验证服务说明，以及 SBTi 目标仪表盘公开企业数据。",
+ "notice": "SBTi 标准处于版本过渡期：V1.3.1 可用于设定目标的截止日为 2028 年 1 月 31 日，自 2028 年 2 月 1 日起新提交的目标须符合 V2.0。正式使用请核对 SBTi 官网现行文件。",
+ "goals": [
+  "企业净零＝把范围1、2、3排放降到与 1.5°C 路径下全球或行业净零一致的水平，并永久中和剩余排放",
+  "目标分两层：近期目标覆盖 5–10 年，长期目标不晚于 2050 年，二者不能互相替代",
+  "目标边界随期限扩大：范围3近期覆盖 67%、长期覆盖 90%；碳排放额度不能计入减排成果",
+  "目标须经 SBTi Services 独立验证，企业每年报告进展、每五年复核一次"
+ ],
+ "process": [
+  {
+   "title": "选定基准年",
+   "description": "排放数据可核实、能代表企业常态；基准年不早于 2015 年"
+  },
+  {
+   "title": "核算排放清单",
+   "description": "覆盖至少 95% 的范围一、范围二排放，并建立完整的范围三清单"
+  },
+  {
+   "title": "划定目标边界",
+   "description": "范围一、二至少 95%；范围三超过总排放 40% 时必须设目标并覆盖至少 67%"
+  },
+  {
+   "title": "选定目标年",
+   "description": "近期目标年为 2030 年或提交日起 5–10 年；长期目标不晚于 2050 年"
+  },
+  {
+   "title": "选择方法并计算",
+   "description": "从许可方法中选择，工具输出为最低要求，计算后提交 SBTi 验证"
+  }
+ ],
+ "groups": [
+  {
+   "title": "科学碳目标与体系",
+   "items": [
+    {
+     "id": "sbti-basics",
+     "title": "科学碳目标与 SBTi",
+     "eyebrow": "参与规模 · 两条路径",
+     "summary": "科学碳目标把全球温控目标换算成企业可执行的减排目标；SBTi 负责制定标准、工具并组织独立验证。",
+     "tags": [
+      "科学碳目标",
+      "SBTi",
+      "跨行业路径"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-basics.json"
+    },
+    {
+     "id": "sbti-framework",
+     "title": "净零目标的四大要素",
+     "eyebrow": "官方定义 · 组成结构",
+     "summary": "SBTi 把企业净零目标定义为四个组成部分：近期目标、长期目标、剩余排放中和与价值链外减缓。",
+     "tags": [
+      "净零定义",
+      "四大要素",
+      "剩余排放中和"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-framework.json"
+    }
+   ]
+  },
+  {
+   "title": "目标怎么定",
+   "items": [
+    {
+     "id": "sbti-boundary",
+     "title": "覆盖范围与雄心门槛",
+     "eyebrow": "95% · 40% · 67% → 90%",
+     "summary": "范围一、范围二至少覆盖 95%；范围三超过总排放 40% 时必须设定目标，近期覆盖 67%、长期覆盖 90%。",
+     "tags": [
+      "目标边界",
+      "范围三",
+      "FLAG"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-boundary.json"
+    },
+    {
+     "id": "sbti-process",
+     "title": "制定流程：五步与时限",
+     "eyebrow": "基准年 → 清单 → 边界 → 目标年 → 计算",
+     "summary": "SBTi 在标准第四章用五个步骤组织制定流程，并给出从注册、承诺到公开发布的时限。",
+     "tags": [
+      "制定流程",
+      "基准年",
+      "排放清单"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-process.json"
+    },
+    {
+     "id": "sbti-methods",
+     "title": "目标设定方法",
+     "eyebrow": "绝对减排 · 强度趋同 · 参与式",
+     "summary": "范围一、范围二与范围三各有许可的方法，工具算出的百分比只是最低要求。",
+     "tags": [
+      "绝对减排法",
+      "SDA",
+      "方法选择"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-methods.json"
+    }
+   ]
+  },
+  {
+   "title": "验证与运行",
+   "items": [
+    {
+     "id": "sbti-validation",
+     "title": "验证、披露与复核",
+     "eyebrow": "SBTi Services · 年度报告 · 五年复核",
+     "summary": "目标须经 SBTi Services 独立验证后公布，企业每年报告进展，并每五年复核、必要时更新目标。",
+     "tags": [
+      "目标验证",
+      "承诺合规",
+      "五年复核"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-validation.json"
+    },
+    {
+     "id": "sbti-versions",
+     "title": "版本演进与 V2.0 过渡",
+     "eyebrow": "V1.3.1 → V2.0",
+     "summary": "现行版为 V1.3.1；V2.0 已发布，2027 年第一季度起可用于验证，2028 年 2 月 1 日起新提交目标必须符合 V2.0。",
+     "tags": [
+      "版本过渡",
+      "V2.0",
+      "关键日期"
+     ],
+     "status": "官方文件整理",
+     "officialUrl": "https://sciencebasedtargets.org/net-zero",
+     "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。",
+     "detailFile": "data/sbti/sbti-versions.json"
+    }
+   ]
+  }
+ ],
+ "officialFiles": [
+  {
+   "name": "SBTi Corporate Net-Zero Standard V1.3.1（2026年4月）",
+   "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
+  },
+  {
+   "name": "SBTi Corporate Net-Zero Standard V2.0（2026年6月）",
+   "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf"
+  },
+  {
+   "name": "How to set science-based targets（SBTi 官网流程说明）",
+   "url": "https://sciencebasedtargets.org/how-it-works"
+  },
+  {
+   "name": "The Corporate Net-Zero Standard（SBTi 官网）",
+   "url": "https://sciencebasedtargets.org/net-zero"
+  },
+  {
+   "name": "Target Dashboard（官方企业与目标数据库）",
+   "url": "https://sciencebasedtargets.org/target-dashboard"
+  },
+  {
+   "name": "Target Validation Services（SBTi Services 验证服务）",
+   "url": "https://sbtiservices.com/services/corporates_fi"
+  }
+ ]
+}

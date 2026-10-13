@@ -4,12 +4,14 @@
   const structures = {
     ashare: ['沪 · 深 · 北交易所版本', '披露四要素', '环境 · 社会 · 治理议题', '对应条款与证据'],
     hkex: ['ESG报告守则与气候规定', '披露模块', 'KPI与气候主题', '对应规则与指引'],
-    csa: ['行业特定问卷', '治理 · 环境 · 社会维度', '可持续发展标准', '评估问题与依据']
+    csa: ['行业特定问卷', '治理 · 环境 · 社会维度', '可持续发展标准', '评估问题与依据'],
+    sbti: ['科学碳目标与参与路径', '排放基线 · 目标边界', '目标设定方法与雄心', '提交SBTi验证', '披露 · 复核 · 版本过渡']
   };
   const labels = {
     ashare: { short: 'A股', type: '交易所披露规则', group: '披露主题' },
     hkex: { short: '港交所', type: 'ESG披露体系', group: '知识模块' },
-    csa: { short: 'CSA', type: '企业可持续发展评估', group: '评估标准' }
+    csa: { short: 'CSA', type: '企业可持续发展评估', group: '评估标准' },
+    sbti: { short: 'SBTi', type: '科学碳目标方法学', group: '知识模块' }
   };
   const clip = (value, limit = 105) => {
     const text = String(value || '').replace(/\s+/g, ' ').trim();
