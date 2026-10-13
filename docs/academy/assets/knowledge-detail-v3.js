@@ -150,9 +150,9 @@ if(layer==='original'&&allBlocks.length>1){body=allBlocks.map((b,bi)=>(b.exchang
   const guideText=blk=>{const original=blk.content_cn||blk.content||'',source=String(blk.source||'').trim(),cleanedFigure=stripFigureNotice(original),cleaned=source&&cleanedFigure.startsWith(source)?cleanedFigure.slice(source.length).replace(/^[:：\s]+/,'').trim():cleanedFigure;hasFigure=hasFigure||cleanedFigure!==original;return guideVisual(cleaned,esc,guideAssets,blk.digest||{})+refs(blk,esc);};
   if(allBlocks.length>1)body=allBlocks.map((b,bi)=>['process_flow','card_grid','four_pillars','external'].includes(b.type)?practicalBlock(b,`guide-vis-${index}-${bi}`,esc,renderBlock):guideText(b)).join('');
   else body=guideText(block);
- }else body=practicalBlock(block,`practice-${index}`,esc,renderBlock);
+ }else body=allBlocks.length>1?allBlocks.map((b,bi)=>practicalBlock(b,`practice-${index}-${bi}`,esc,renderBlock)).join(''):practicalBlock(block,`practice-${index}`,esc,renderBlock);
  const notes=[];
- if(layer==='practical'&&block.source)notes.push(block.source);
+ if(layer==='practical')allBlocks.forEach(b=>{if(b.source&&!notes.includes(b.source))notes.push(b.source);});
  if(hasFigure)notes.push('原件包含表格、图示或公式；本页呈现已核对正文，表图结构请按原件入口核对。');
  const hoverNote=notes.length?`<button class="kd-meta-note" type="button" title="${esc(notes.join(' '))}" aria-label="查看来源与呈现说明">ⓘ</button>`:'';
 const sourceLine=layer==='guide'&&block.source?`<small>${esc(block.source)}</small>`:'';

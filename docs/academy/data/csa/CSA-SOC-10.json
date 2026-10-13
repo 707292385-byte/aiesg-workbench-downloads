@@ -46,7 +46,32 @@
   },
   {
    "title": "关注主题",
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "健康与营养政策",
+     "source": "S&P Global CSA 方法论手册（中文版）·健康与营养",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "健康与营养计划",
+     "source": "S&P Global CSA 方法论手册（中文版）·健康与营养",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "健康与营养收入",
+     "source": "S&P Global CSA 方法论手册（中文版）·健康与营养",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "健康与营养属社会维度的行业特定标准，适用行业为饮料、食品零售及食品（BVG、FDR、FOA）。标准关注公司如何在负责任营销和标签方面的策略、管理健康和营养风险的计划，以及与产品营养特性相关的信息披露的清晰度。",
+     "source": "S&P Global CSA 方法论手册（中文版）·健康与营养",
+     "provenance": "knowledge_note"
+    }
+   ],
    "id": "关注主题"
   },
   {

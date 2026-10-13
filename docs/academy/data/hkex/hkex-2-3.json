@@ -26,136 +26,101 @@
    "title": "SMART目标五要素",
    "blocks": [
     {
-     "type": "point",
-     "content_cn": "Specific 具体的",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "明确目标内容和范围",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "明确目标涉及的业务领域",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "界定目标覆盖的范围",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "说明目标的具体内容",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "Measurable 可衡量的",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "有量化指标和基线",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "确定衡量指标",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "设定基线数据",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "明确目标值",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "Achievable 可实现的",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "基于实际能力和资源",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "评估资源和能力",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "参考行业标杆",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "分阶段设定目标",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "Relevant 相关的",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "与业务战略和重要议题相关",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "对齐企业战略",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "聚焦重要性议题",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "回应持份者关切",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "Time-bound 有时限的",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "明确完成时间和里程碑",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "设定目标完成时间",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "分阶段设定里程碑",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "建立定期跟踪机制",
-     "provenance": "knowledge_note"
+     "type": "card_grid",
+     "cols": 2,
+     "cards": [
+      {
+       "title": "Specific 具体的",
+       "items": [
+        "明确目标内容和范围",
+        "明确目标涉及的业务领域",
+        "界定目标覆盖的范围",
+        "说明目标的具体内容"
+       ]
+      },
+      {
+       "title": "Measurable 可衡量的",
+       "items": [
+        "有量化指标和基线",
+        "确定衡量指标",
+        "设定基线数据",
+        "明确目标值"
+       ]
+      },
+      {
+       "title": "Achievable 可实现的",
+       "items": [
+        "基于实际能力和资源",
+        "评估资源和能力",
+        "参考行业标杆",
+        "分阶段设定目标"
+       ]
+      },
+      {
+       "title": "Relevant 相关的",
+       "items": [
+        "与业务战略和重要议题相关",
+        "对齐企业战略",
+        "聚焦重要性议题",
+        "回应持份者关切"
+       ]
+      },
+      {
+       "title": "Time-bound 有时限的",
+       "items": [
+        "明确完成时间和里程碑",
+        "设定目标完成时间",
+        "分阶段设定里程碑",
+        "建立定期跟踪机制"
+       ]
+      }
+     ]
     }
    ],
    "id": "SMART目标五要素"
   },
   {
    "title": "ESG报告撰写流程",
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "standard",
+     "content_cn": "撰写ESG报告阶段（第六步）须按固定内容框架落笔。《环境、社会及管治汇报指南》列明报告须包括六部分内容，前四项为强制披露与「不遵守就解释」条文的落地，后两项为验证与信息传达。",
+     "source": "《环境、社会及管治汇报指南》第六步「撰写环境、社会及管治报告」",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "card_grid",
+     "cols": 2,
+     "cards": [
+      {
+       "title": "A. 管治情况",
+       "content": "陈述发行人在ESG事宜方面的管治情况，须载有董事会就下列事项作出的声明：披露董事会对ESG事宜的监管（整体愿景及短中长期管理策略，若有设立ESG委员会或工作小组，披露其架构及职能）；董事会的ESG管理方针及策略，包括评估、优次排序及管理重要ESG相关事宜（包括对发行人业务的风险）的过程；以及董事会如何按ESG相关目标检讨进度，并解释它们如何与发行业务有关连（应集中于董事会对进展而非目标本身的评估，并可提供未来三至五年的主要挑战及目标展望）。"
+      },
+      {
+       "title": "B. 汇报范围与过程",
+       "content": "阐释ESG报告的汇报范围，并陈述识别报告内所汇报实体或营运范围的过程；有关范围如有更改，应阐释不同之处及变更理由。发行人若就不同「层面」／条文规定采纳了不同汇报范围，报告内亦应披露有关资料，并可按相关分类（例如类型、地点或规模）整合有关实体、业务及／或业务伙伴的陈述。"
+      },
+      {
+       "title": "C. 汇报原则的应用",
+       "content": "守则第14段规定发行人须解释其如何应用「重要性」、「量化」及「一致性」汇报原则。重要性：陈述如何厘定重要事宜，并利用重要性矩阵展示内部及外部层面各项事宜的轻重优次，指出是否有任何「不遵守就解释」条文因发行人认为不重要而未有披露并解释判断。量化：此原则适用于报告内所有资料，若于编备特定关键绩效指标时采纳了认可的国际标准，只须陈述或提及所采纳的标准便可。一致性：加入声明确认报告编备方式与往年无异，或陈述任何可能影响与过往报告作有意义比较的变更。"
+      },
+      {
+       "title": "D. 逐项「不遵守就解释」条文",
+       "content": "对每条「不遵守就解释」条文，一是作出披露，一是提供经审慎考虑的理由说明为何不披露；不遵守又不作解释将违反上市规则。就政策应提供涵盖有关「层面」的政策概要（连同相关文件链接），含政策发布日期及最后审阅日期、所涵盖实体范围及所在地、负责批准及实施的人士或委员会、所参照的国际标准及公认措施。就合规资料，应具体说明相关法律及规例、其可能造成的影响，以及确保遵守的方法；如无须披露则应表明并无法律及规例对发行人有重大影响。切勿笼统陈述或使用总括式合规声明。"
+      },
+      {
+       "title": "E. 独立验证",
+       "content": "发行人若取得独立验证，应在ESG报告中清晰陈述验证的水平、范围及所采用过程。发行人可自行决定是否披露提供验证者的名称。"
+      },
+      {
+       "title": "F. 主要信息",
+       "content": "陈述发行人拟向投资者及其他持份者传达的主要信息。报告行文宜浅白易明、精要准确；解释图表呈列的数据；利用图片强调或釐清文字重点；并提供简短的个案研究，概述发行人如何已实施ESG政策或做法。"
+      }
+     ],
+     "source": "《环境、社会及管治汇报指南》第六步「撰写环境、社会及管治报告」A-F",
+     "provenance": "knowledge_note"
+    }
+   ],
    "id": "ESG报告撰写流程"
   },
   {
@@ -163,11 +128,6 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
      "content_cn": "ESG报告应包含：董事会声明、管治架构、汇报范围及过程、汇报原则应用说明、环境范畴披露（按层面逐项）、社会范畴披露（按层面逐项）、气候相关披露（D部分）、独立验证声明（如适用）。每项「不遵守就解释」条文须逐一汇报。",
      "provenance": "knowledge_note"
     }
@@ -178,34 +138,44 @@
    "title": "目标披露要素清单",
    "blocks": [
     {
-     "type": "point",
-     "content_cn": "目标内容｜明确目标涉及的领域和具体内容｜减少范围1温室气体排放",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "基线数据｜目标设定时的基准数据｜2023年范围1排放10,000吨CO2e",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "目标值｜希望达到的具体数值｜2030年减少30%至7,000吨",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "时间框架｜目标完成的时间节点｜2024-2030年",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "责任人｜负责目标执行的部门或人员｜EHS部门 / 可持续发展总监",
-     "provenance": "knowledge_note"
-    },
-    {
-     "type": "point",
-     "content_cn": "进展情况｜定期更新目标完成进度｜2024年已减少8%，进度符合预期",
-     "provenance": "knowledge_note"
+     "type": "table",
+     "rows": [
+      [
+       "要素",
+       "说明",
+       "示例"
+      ],
+      [
+       "目标内容",
+       "明确目标涉及的领域和具体内容",
+       "减少范围1温室气体排放"
+      ],
+      [
+       "基线数据",
+       "目标设定时的基准数据",
+       "2023年范围1排放10,000吨CO2e"
+      ],
+      [
+       "目标值",
+       "希望达到的具体数值",
+       "2030年减少30%至7,000吨"
+      ],
+      [
+       "时间框架",
+       "目标完成的时间节点",
+       "2024-2030年"
+      ],
+      [
+       "责任人",
+       "负责目标执行的部门或人员",
+       "EHS部门 / 可持续发展总监"
+      ],
+      [
+       "进展情况",
+       "定期更新目标完成进度",
+       "2024年已减少8%，进度符合预期"
+      ]
+     ]
     }
    ],
    "id": "目标披露要素清单"

@@ -46,7 +46,32 @@
   },
   {
    "title": "关注主题",
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "融资排放净零目标",
+     "source": "S&P Global CSA 方法论手册（中文版）·脱碳战略",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "范围3融资绝对排放量",
+     "source": "S&P Global CSA 方法论手册（中文版）·脱碳战略",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "范围3融资排放强度",
+     "source": "S&P Global CSA 方法论手册（中文版）·脱碳战略",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "脱碳战略属环境维度的行业特定标准，适用行业为银行、多元金融与资本市场及保险（BNK、FBN、INS）。标准关注金融机构如何削减对化石燃料的融资并做出净零排放承诺：金融机构在运营过程中排放的温室气体水平较低，但通过贷款、投资和保险承保活动为其他公司的排放提供了资金支持，这些融资排放可能远高于其直接排放。",
+     "source": "S&P Global CSA 方法论手册（中文版）·脱碳战略",
+     "provenance": "knowledge_note"
+    }
+   ],
    "id": "关注主题"
   },
   {

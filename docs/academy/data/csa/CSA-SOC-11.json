@@ -46,7 +46,38 @@
   },
   {
    "title": "关注主题",
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "交通安全",
+     "source": "S&P Global CSA 方法论手册（中文版）·交通安全",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "安全管理系统",
+     "source": "S&P Global CSA 方法论手册（中文版）·交通安全",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "事故率",
+     "source": "S&P Global CSA 方法论手册（中文版）·交通安全",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "乘客死亡人数",
+     "source": "S&P Global CSA 方法论手册（中文版）·交通安全",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "运输安全属社会维度的行业特定标准，适用行业为航空及运输（AIR、TRA）。标准关注潜在事故可能导致的致命后果：安全事故会对声誉和收入增长产生长期影响，并导致更高的补救和受害者赔偿成本；为确保安全，除及时且充分地维护设备外，提供适当的人员培训也至关重要。",
+     "source": "S&P Global CSA 方法论手册（中文版）·交通安全",
+     "provenance": "knowledge_note"
+    }
+   ],
    "id": "关注主题"
   },
   {

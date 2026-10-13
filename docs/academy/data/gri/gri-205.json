@@ -57,14 +57,21 @@
    "blocks": [
     {
      "type": "standard",
-     "title": "披露项 205-1 已进行腐败风险评估的运营点",
-     "content_cn": "",
-     "content": "",
-     "source": "GRI 205（2016）官方中文版",
-     "sourceScope": "official",
-     "provenance": "official",
-     "language": "zh",
-     "learningLayer": "original"
+     "content_cn": "要求：组织应报告以下信息：(a) 已进行腐败风险评估的运营点的总数及百分比；(b) 通过风险评估确认的重大腐败风险。",
+     "source": "GRI 205：反腐败（2016）官方中文版·披露项 205-1",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "指南：本披露项可包括以腐败为重点的风险评估，或将腐败作为风险因素列入总体风险评估。「运营点」一词是指组织用于生产、储存和／或配送其货物和服务，或用于行政管理的单一地点。在单一运营点中，可以有多条生产线、多个仓库或多种其他活动，例如单独一家工厂可生产多种产品，单独一个零售店可包括由组织拥有或管理的多种不同零售业务。",
+     "source": "GRI 205：反腐败（2016）官方中文版·披露项 205-1 指南",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "背景：本披露项衡量在整个组织中实施风险评估的程度。风险评估有助于评估组织内部及与组织相关的腐败事件的可能性，并帮助组织制定打击腐败的政策和程序。",
+     "source": "GRI 205：反腐败（2016）官方中文版·披露项 205-1 背景",
+     "provenance": "knowledge_note"
     }
    ]
   },

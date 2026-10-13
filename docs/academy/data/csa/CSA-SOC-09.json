@@ -46,7 +46,32 @@
   },
   {
    "title": "关注主题",
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "point",
+     "content_cn": "普惠金融承诺",
+     "source": "S&P Global CSA 方法论手册（中文版）·普惠金融",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "普惠金融产品与服务",
+     "source": "S&P Global CSA 方法论手册（中文版）·普惠金融",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "point",
+     "content_cn": "普惠金融——非金融支持",
+     "source": "S&P Global CSA 方法论手册（中文版）·普惠金融",
+     "provenance": "knowledge_note"
+    },
+    {
+     "type": "standard",
+     "content_cn": "普惠金融属社会维度的行业特定标准，适用行业为银行、多元金融与资本市场及保险（BNK、FBN、INS）。标准关注金融公司如何通过小额保险或小额信贷等服务，将其产品和服务扩展到弱势客户群体。",
+     "source": "S&P Global CSA 方法论手册（中文版）·普惠金融",
+     "provenance": "knowledge_note"
+    }
+   ],
    "id": "关注主题"
   },
   {
