@@ -2,7 +2,15 @@
   'use strict';
 
   const number = value => String(value).padStart(2, '0');
-  const clean = value => String(value || '').replace(/^[•◦]\s*/, '').trim();
+  const clean = value => String(value || '').replace(/^[•◦●○◎〇□]\s*/, '').trim();
+  // 体系标签：品牌行用短名，返回链接用全名。之前写死成 ashare/hkex/其它=CSA，
+  // 导致 IFRS/GRI/SASB 等页面的返回链接都显示成 CSA。
+  const systemLabel = {
+    msci: ['MSCI', 'MSCI 方法论'], ashare: ['A股', 'A股知识体系'], mof: ['财政部', '财政部准则体系'],
+    hkex: ['港交所', '港交所ESG体系'], csa: ['CSA', '标普全球CSA'], gri: ['GRI', 'GRI 标准'],
+    sasb: ['SASB', 'SASB 行业标准'], ifrs: ['ISSB', 'ISSB 准则体系'],
+    ecovadis: ['EcoVadis', 'EcoVadis 方法论'], guozheng: ['国证', '国证 ESG 体系']
+  };
   const clip = (value, limit = 100) => {
     const text = String(value || '').replace(/\s+/g, ' ').trim();
     return text.length > limit ? `${text.slice(0, limit)}…` : text;
@@ -56,9 +64,9 @@
     const groupTitle = detail.group || group?.title || '';
     const facts = [...new Set([groupTitle, ...(detail.tags || item.tags || []).slice(0, 3)].filter(Boolean))];
     return `<div class="structured-topic-page" data-system="${esc(standard.id)}">
-      <header class="mp-topbar"><div class="mp-topbar-inner"><a class="mp-brand" href="${href('index.html')}"><span>${esc(standard.id.slice(0, 1).toUpperCase())}</span>${esc(standard.id === 'ashare' ? 'A股' : standard.id === 'hkex' ? '港交所' : 'CSA')} 知识体系</a><nav><a href="#overview">概览</a><a href="#route">结构</a><a href="#reading">解读</a>${detail.questionGroups?.length ? '<a href="#questions">问题组</a>' : ''}<a href="#sources">来源</a></nav></div></header>
+      <header class="mp-topbar"><div class="mp-topbar-inner"><a class="mp-brand" href="${href('index.html')}"><span>${esc(standard.id.slice(0, 1).toUpperCase())}</span>${esc((systemLabel[standard.id] || [standard.title || '知识学堂'])[0])} 知识体系</a><nav><a href="#overview">概览</a><a href="#route">结构</a><a href="#reading">解读</a>${detail.questionGroups?.length ? '<a href="#questions">问题组</a>' : ''}<a href="#sources">来源</a></nav></div></header>
       <section class="st-hero"><div class="st-hero-inner"><div><div class="mh-crumb"><a href="${href('index.html')}">知识学堂</a><span>/</span><a href="${href('standard.html', { id: standard.id })}">${esc(standard.title)}</a><span>/</span>${esc(detail.title || item.title)}</div><span class="mp-eyebrow">${esc(detail.eyebrow || item.eyebrow || groupTitle || '知识主题')} · 结构化解读</span><h1>${esc(detail.title || item.title)}</h1><p>${esc(detail.summary || item.summary || '')}</p><div class="mp-hero-tags">${facts.map(value => `<span>${esc(value)}</span>`).join('')}</div></div><div class="st-hero-stats"><article><small>内容章节</small><strong>${sections.length}</strong></article><article><small>知识内容</small><strong>${contentBlocks}</strong></article><article><small>核心要点</small><strong>${sections.reduce((sum, section) => sum + (section.blocks || []).filter(block => block.type === 'point').length, 0)}</strong></article><article><small>${questionCount ? '问题条目' : '所属模块'}</small><strong>${questionCount || esc(groupTitle || '—')}</strong></article></div></div></section>
-      <main class="st-main"><a class="mh-back" href="${href('standard.html', { id: standard.id })}">← 返回${esc(standard.id === 'ashare' ? 'A股' : standard.id === 'hkex' ? '港交所' : 'CSA')}方法论</a>
+      <main class="st-main"><a class="mh-back" href="${href('standard.html', { id: standard.id })}">← 返回${esc((systemLabel[standard.id] || [null, standard.title || '知识学堂'])[1])}</a>
         <section class="st-overview" id="overview"><header class="st-section-heading"><div><span>01 · 主题定位</span><h2>先理解这个主题解决什么问题</h2></div><p>从适用范围、关键判断和资料依据进入完整内容。</p></header><div class="st-overview-grid"><article><small>所属体系</small><strong>${esc(standard.title)}</strong><p>${esc(standard.issuer || '')}</p></article><article><small>所属模块</small><strong>${esc(groupTitle || '—')}</strong><p>${esc(detail.eyebrow || item.eyebrow || '')}</p></article><article><small>阅读重点</small><strong>${sections.length} 个内容节点</strong><p>${esc(clip((detail.tags || item.tags || []).join(' · ') || '查看要求、判断路径和对应资料'))}</p></article><article><small>使用边界</small><strong>以现行原文为准</strong><p>本页用于理解结构与定位，不替代发布机构的正式文件。</p></article></div></section>
         <section class="st-route" id="route"><header class="st-section-heading"><div><span>02 · 内容结构</span><h2>沿着这条路径理解主题</h2></div><p>入口用于定位，下面保留连续、完整的正文与要点。</p></header><div class="st-route-map">${route}</div></section>
         <section class="st-reading" id="reading"><header class="st-section-heading"><div><span>03 · 主题解读</span><h2>要求、方法与证据</h2></div><p>完整内容按原有逻辑连续展开，便于依次阅读和回到具体依据。</p></header>${sections.map((section, index) => sectionBody(section, index, renderBlock, esc)).join('')}</section>

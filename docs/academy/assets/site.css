@@ -287,3 +287,21 @@ body[data-page=msci-topic]>.site-main{min-height:100vh}
 .reading-paper p,.reading-paper li,.concept-card p,.topic-dark-hero p{overflow-wrap:anywhere;word-break:break-word}
 @media(max-width:850px){.knowledge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.knowledge-home{padding-bottom:30px}.knowledge-library-head{align-items:flex-start;flex-direction:column}.knowledge-grid{grid-template-columns:1fr}.knowledge-card{min-height:0}}
+
+/* ISSB 行业实施指南·首页行业索引（2026-10-13） */
+.industry-index{border-top:1px solid var(--line);padding-top:20px;margin-top:28px}
+.industry-index-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px}
+.industry-index-head h2{margin:0 0 6px;font-size:20px;letter-spacing:-.02em}
+.industry-index-head p{margin:0;color:var(--muted);font-size:13px;line-height:1.7;max-width:780px}
+.industry-index-head .kicker{margin:0 0 8px}
+.industry-index-more{flex:none;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(var(--accent-rgb),.35);padding-bottom:2px}
+.industry-index-parts{display:grid;gap:14px}
+.industry-part{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:14px 16px}
+.industry-part-head{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
+.industry-part-head strong{font-size:14px}
+.industry-part-head span{color:var(--muted);font-size:12px}
+.industry-chips{display:flex;flex-wrap:wrap;gap:6px}
+.industry-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px 4px 6px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);font-size:12.5px;text-decoration:none;line-height:1.5}
+.industry-chip b{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 5px;border-radius:999px;background:rgba(var(--accent-rgb),.12);color:var(--accent);font-size:11px;font-weight:700}
+.industry-chip:hover{border-color:rgba(var(--accent-rgb),.5);background:var(--tint)}
+@media(max-width:640px){.industry-index-head{flex-direction:column;align-items:flex-start}}
