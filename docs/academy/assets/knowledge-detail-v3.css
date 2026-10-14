@@ -62,6 +62,12 @@ body[data-page=knowledge-detail]>.skip,body[data-page=knowledge-detail]>.site-he
 .kd-page[data-system=ifrs]{--kd:#12508f;--kd-soft:#edf3f9}
 .kd-page[data-system=ecovadis]{--kd:#0f7c8c;--kd-soft:#ecf5f6}
 .kd-page[data-system=guozheng]{--kd:#8a2e2e;--kd-soft:#f8efee}
+.kd-page[data-system=sbti]{--kd:#1f6b3a;--kd-soft:#eef6f0}
+.kd-page[data-system=ghg]{--kd:#1d7a8c;--kd-soft:#edf5f6}
+.kd-page[data-system=tcfd]{--kd:#0f5e8c;--kd-soft:#edf3f8}
+.kd-page[data-system=cdp]{--kd:#00843d;--kd-soft:#eef6f0}
+.kd-page[data-system=assurance]{--kd:#0e7c86;--kd-soft:#ecf5f6}
+.kd-page[data-system=tnfd]{--kd:#1f7a5c;--kd-soft:#eef6f0}
 
 /* 正文行内结构化：散行列表与编号行（20261012） */
 .kd-content-card .kd-blist,.kd-main .kd-blist{margin:.45em 0 .55em;padding-left:1.25em;list-style:disc}
