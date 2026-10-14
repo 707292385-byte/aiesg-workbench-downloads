@@ -95,7 +95,11 @@
             },
             {
               "title": "目标仪表盘",
-              "content": "公开已承诺与已验证的企业名单、目标类型、范围、基准年、目标年与温控分类。"
+              "content": "公开已承诺与已验证的企业名单、目标类型、范围、基准年、目标年与温控分类。",
+              "quote": {
+                "text": "Temperature alignment is identified in the target dashboard on the SBTi website with one of the following values: 1.5°C, well-below 2°C, and 2°C.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
             }
           ],
           "numbered": true,

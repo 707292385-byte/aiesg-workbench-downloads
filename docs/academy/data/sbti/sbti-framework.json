@@ -140,7 +140,11 @@
           "cards": [
             {
               "title": "中和不等于抵消",
-              "content": "中和是真实移除并永久封存碳；购买抵消额度不构成中和，也不能用来抵消减排义务。"
+              "content": "中和是真实移除并永久封存碳；购买抵消额度不构成中和，也不能用来抵消减排义务。",
+              "quote": {
+                "text": "Measures companies take to remove carbon from the atmosphere and permanently store it, counterbalancing the impact of emissions that remain unabated after the long-term science-based target is achieved.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
             },
             {
               "title": "碳排放额度不计入减排",
