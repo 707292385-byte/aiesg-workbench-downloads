@@ -1,186 +1,194 @@
 {
- "id": "sbti-validation",
- "title": "验证、披露与复核",
- "eyebrow": "SBTi Services · 年度报告 · 五年复核",
- "summary": "目标须经 SBTi Services 独立验证后公布，企业每年报告进展，并每五年复核、必要时更新目标。",
- "tags": [
-  "目标验证",
-  "承诺合规",
-  "五年复核"
- ],
- "group": "验证与运行",
- "status": "官方文件整理",
- "officialUrl": "https://sciencebasedtargets.org/net-zero",
- "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
- "sections": [
-  {
-   "id": "flow",
-   "title": "验证流程",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "SBTi 制定标准与工具，目标的核查与验证由 SBTi Services 执行。企业先在验证门户注册，再提交目标；评估通过后目标公开在目标仪表盘上。"
-    },
-    {
-     "type": "process_flow",
-     "steps": [
-      {
-       "title": "注册企业信息",
-       "desc": "在验证门户建立账号并完成企业注册，确认主体类型（企业、金融机构或中小企业）与适用路径。"
-      },
-      {
-       "title": "提交目标与支撑材料",
-       "desc": "提交清单、目标计算、方法依据，以及逐条对照准则的说明材料。"
-      },
-      {
-       "title": "SBTi Services 评估",
-       "desc": "对照现行准则逐条评估，通常在 12 周内完成；未达门槛的退回修改后重新提交。",
-       "quote": {
-        "text": "the assessment is usually finished within 12 weeks",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      },
-      {
-       "title": "公开发布",
-       "desc": "验证通过后 6 个月内公开目标，进入目标仪表盘，列明目标类型、范围、基准年、目标年与温控分类。",
-       "quote": {
-        "text": "companies have 6 months to announce their targets publicly",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      }
-     ],
-     "layout": "h"
-    },
-    {
-     "type": "standard",
-     "content_cn": "可以提交验证的是企业、金融机构以及符合 SBTi 定义的中小企业（SME）。SBTi Services 为中小企业提供为其作业特点设计的验证路径，设定目标更精简。来源：SBTi Services《Target Validation Services》。"
-    }
-   ]
-  },
-  {
-   "id": "compliance",
-   "title": "承诺合规政策",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "承诺后 24 个月内必须提交",
-       "content": "承诺是意向表达。自作出承诺起 24 个月内必须提交经核证的目标，否则状态会被改为「承诺已移除」。",
-       "quote": {
-        "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      },
-      {
-       "title": "未达标不是永久出局",
-       "content": "状态被改为「承诺已移除」的企业，在目标成功通过验证后会重新变为「目标已设定」。"
-      },
-      {
-       "title": "承诺与目标可以并存",
-       "content": "许多企业在净零承诺被移除后仍保留原先的近期目标，两者是独立的记录。"
-      }
-     ],
-     "numbered": false,
-     "cols": 3
-    }
-   ]
-  },
-  {
-   "id": "status",
-   "title": "目标仪表盘的三种状态",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "公开数据库用三种状态描述企业的进展。理解口径，才不会把「已承诺」误读为「已达标」。"
-    },
-    {
-     "type": "table",
-     "rows": [
-      [
-       "状态",
-       "含义",
-       "近期目标记录数"
-      ],
-      [
-       "已验证目标（Validated Targets）",
-       "目标已通过 SBTi Services 验证",
-       "12,121"
-      ],
-      [
-       "已承诺待提交（Commitment to Set Targets）",
-       "已作出承诺，按承诺合规政策在规定期限内提交目标",
-       "2,148"
-      ],
-      [
-       "承诺已移除（Commitment Removed）",
-       "未满足承诺合规要求，承诺状态被移除；通过验证后可恢复",
-       "1,501"
-      ]
-     ]
-    },
-    {
-     "type": "standard",
-     "content_cn": "净零目标维度：已验证 2,841 家、已承诺待提交 992 家、承诺已移除 1,246 家。数据按 2026 年 10 月 13 日从 SBTi 目标仪表盘提取的记录统计。"
-    }
-   ]
-  },
-  {
-   "id": "review",
-   "title": "年度报告与五年复核",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "每年报告进展",
-       "content": "企业需每年报告目标进展，通常通过 CDP 披露或其他公开报告渠道。"
-      },
-      {
-       "title": "五年复核并更新目标",
-       "content": "企业需定期复核目标，必要时按最新准则更新；目标周期结束时需设定新的目标。V2.0 把过渡计划一并纳入：企业至少每五年复核一次过渡计划，并在必要时更新。",
-       "quote": {
-        "text": "Companies shall review their transition plans at least every five years and update them as necessary.",
-        "source": "SBTi《企业净零标准》V2.0（2026年6月）",
-        "related": {
-         "label": "关联知识：IFRS S2 气候相关目标",
-         "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
-         "text": "主体应披露关于其设定和复核每个目标的方法以及如何监控每个目标实现进展的信息，包括：\n目标及设定目标的方法是否经第三方验证\n主体复核目标的流程\n用于监控目标实现进展的指标\n对目标的修订以及对修订的解释",
-         "source": "IFRS S2：气候相关披露（气候相关目标）"
-        }
-       }
-      }
-     ],
-     "numbered": false,
-     "cols": 2
-    }
-   ]
-  }
- ],
- "relations": {
-  "internal": [
-   {
-    "id": "sbti-versions",
-    "title": "版本演进与 V2.0 过渡"
-   },
-   {
-    "id": "sbti-process",
-    "title": "制定流程：五步与时限"
-   }
+  "id": "sbti-validation",
+  "title": "验证、披露与复核",
+  "eyebrow": "SBTi Services · 年度报告 · 五年复核",
+  "summary": "目标须经 SBTi Services 独立验证后公布，企业每年报告进展，并每五年复核、必要时更新目标。",
+  "tags": [
+    "目标验证",
+    "承诺合规",
+    "五年复核"
   ],
-  "external": [
-   {
-    "title": "SBTi Target Dashboard（官方企业与目标数据库）",
-    "url": "https://sciencebasedtargets.org/target-dashboard"
-   },
-   {
-    "title": "SBTi Services · Target Validation Services",
-    "url": "https://sbtiservices.com/services/corporates_fi"
-   }
-  ]
- }
+  "group": "验证与运行",
+  "status": "官方文件整理",
+  "officialUrl": "https://sciencebasedtargets.org/net-zero",
+  "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+  "sections": [
+    {
+      "id": "flow",
+      "title": "验证流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "SBTi 制定标准与工具，目标的核查与验证由 SBTi Services 执行。企业先在验证门户注册，再提交目标；评估通过后目标公开在目标仪表盘上。"
+        },
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "注册企业信息",
+              "desc": "在验证门户建立账号并完成企业注册，确认主体类型（企业、金融机构或中小企业）与适用路径。",
+              "quote": {
+                "text": "When you are ready, you can create an account on the Validation Portal and register your company with SBTi Services.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "提交目标与支撑材料",
+              "desc": "提交清单、目标计算、方法依据，以及逐条对照准则的说明材料。"
+            },
+            {
+              "title": "SBTi Services 评估",
+              "desc": "对照现行准则逐条评估，通常在 12 周内完成；未达门槛的退回修改后重新提交。",
+              "quote": {
+                "text": "the assessment is usually finished within 12 weeks",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "公开发布",
+              "desc": "验证通过后 6 个月内公开目标，进入目标仪表盘，列明目标类型、范围、基准年、目标年与温控分类。",
+              "quote": {
+                "text": "companies have 6 months to announce their targets publicly",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            }
+          ],
+          "layout": "h"
+        },
+        {
+          "type": "standard",
+          "content_cn": "可以提交验证的是企业、金融机构以及符合 SBTi 定义的中小企业（SME）。SBTi Services 为中小企业提供为其作业特点设计的验证路径，设定目标更精简。来源：SBTi Services《Target Validation Services》。"
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "承诺合规政策",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "承诺后 24 个月内必须提交",
+              "content": "承诺是意向表达。自作出承诺起 24 个月内必须提交经核证的目标，否则状态会被改为「承诺已移除」。",
+              "quote": {
+                "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "未达标不是永久出局",
+              "content": "状态被改为「承诺已移除」的企业，在目标成功通过验证后会重新变为「目标已设定」。"
+            },
+            {
+              "title": "承诺与目标可以并存",
+              "content": "许多企业在净零承诺被移除后仍保留原先的近期目标，两者是独立的记录。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "title": "目标仪表盘的三种状态",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "公开数据库用三种状态描述企业的进展。理解口径，才不会把「已承诺」误读为「已达标」。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "状态",
+              "含义",
+              "近期目标记录数"
+            ],
+            [
+              "已验证目标（Validated Targets）",
+              "目标已通过 SBTi Services 验证",
+              "12,121"
+            ],
+            [
+              "已承诺待提交（Commitment to Set Targets）",
+              "已作出承诺，按承诺合规政策在规定期限内提交目标",
+              "2,148"
+            ],
+            [
+              "承诺已移除（Commitment Removed）",
+              "未满足承诺合规要求，承诺状态被移除；通过验证后可恢复",
+              "1,501"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "净零目标维度：已验证 2,841 家、已承诺待提交 992 家、承诺已移除 1,246 家。数据按 2026 年 10 月 13 日从 SBTi 目标仪表盘提取的记录统计。"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "年度报告与五年复核",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "每年报告进展",
+              "content": "企业需每年报告目标进展，通常通过 CDP 披露或其他公开报告渠道。",
+              "quote": {
+                "text": "Companies shall track and report progress against targets annually.",
+                "source": "SBTi《企业净零标准》V2.0（2026年6月）"
+              }
+            },
+            {
+              "title": "五年复核并更新目标",
+              "content": "企业需定期复核目标，必要时按最新准则更新；目标周期结束时需设定新的目标。V2.0 把过渡计划一并纳入：企业至少每五年复核一次过渡计划，并在必要时更新。",
+              "quote": {
+                "text": "Companies shall review their transition plans at least every five years and update them as necessary.",
+                "source": "SBTi《企业净零标准》V2.0（2026年6月）",
+                "related": {
+                  "label": "关联知识：IFRS S2 气候相关目标",
+                  "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+                  "text": "主体应披露关于其设定和复核每个目标的方法以及如何监控每个目标实现进展的信息，包括：\n目标及设定目标的方法是否经第三方验证\n主体复核目标的流程\n用于监控目标实现进展的指标\n对目标的修订以及对修订的解释",
+                  "source": "IFRS S2：气候相关披露（气候相关目标）"
+                }
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-versions",
+        "title": "版本演进与 V2.0 过渡"
+      },
+      {
+        "id": "sbti-process",
+        "title": "制定流程：五步与时限"
+      }
+    ],
+    "external": [
+      {
+        "title": "SBTi Target Dashboard（官方企业与目标数据库）",
+        "url": "https://sciencebasedtargets.org/target-dashboard"
+      },
+      {
+        "title": "SBTi Services · Target Validation Services",
+        "url": "https://sbtiservices.com/services/corporates_fi"
+      }
+    ]
+  }
 }

@@ -1,234 +1,258 @@
 {
- "id": "sbti-boundary",
- "title": "覆盖范围与雄心门槛",
- "eyebrow": "95% · 40% · 67% → 90%",
- "summary": "范围一、范围二至少覆盖 95%；范围三超过总排放 40% 时必须设目标，近期覆盖 67%、长期覆盖 90%。",
- "tags": [
-  "目标边界",
-  "范围三",
-  "FLAG"
- ],
- "group": "目标怎么定",
- "status": "官方文件整理",
- "officialUrl": "https://sciencebasedtargets.org/net-zero",
- "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
- "sections": [
-  {
-   "id": "s12",
-   "title": "范围一与范围二：95% 的底线，1.5°C 的雄心",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "近期目标与长期目标对范围一、范围二的要求一致：目标边界必须覆盖企业全口径范围一、范围二排放的至少 95%，雄心水平为 1.5°C。",
-     "quote": {
-      "text": "Near-term science-based targets must cover at least 95% of company-wide scope 1 and 2 emissions.",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    },
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "近期与长期都用 1.5°C",
-       "content": "自 2022 年 7 月起，SBTi 要求覆盖范围一、范围二的近期目标与 1.5°C 路径一致。"
-      },
-      {
-       "title": "长期目标同样 95%",
-       "content": "长期目标的边界要求不放松：范围一、范围二至少 95%，范围三至少 90%。",
-       "quote": {
-        "text": "Long-term SBTs must cover at least 95% of company-wide scope 1 and 2 emissions and 90% of scope 3 emissions.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "电力使用需同时设位置法与市场法目标",
-       "content": "范围二需要按位置法核算；同时以市场法或零碳电力目标覆盖采购的电力，两者都要有。"
-      }
-     ],
-     "numbered": false,
-     "cols": 3
-    }
-   ]
-  },
-  {
-   "id": "s3",
-   "title": "范围三：什么时候必须设目标",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "范围三不是一律强制。先用清单判断占比，再决定是否必须设定、以及要覆盖多少。",
-     "quote": {
-      "text": "When scope 3 emissions make up 40% or more of total emissions (scope 1, 2, and 3 emissions), companies must set one or more emission reduction targets and/or supplier or customer engagement targets that collectively cover(s) at least 67% of total scope 3",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
-      "related": {
-       "label": "关联知识：财政部气候准则 第三十四条",
-       "url": "topic.html?standard=mof&id=mof-climate",
-       "text": "企业应当基于其价值链以及范围三温室气体排放的类别，确定并披露其范围三温室气体排放计量中所包含的类别。企业可以将其范围三第十五类“投资”的温室气体排放的计量限定在融资排放范围内。",
-       "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第三十四条"
-      }
-     }
-    },
-    {
-     "type": "process_flow",
-     "steps": [
-      {
-       "title": "先算清范围三清单",
-       "desc": "按 GHG Protocol 范围三标准建立完整清单，识别各门类的排放规模。"
-      },
-      {
-       "title": "判断是否触发强制",
-       "desc": "范围三排放达到范围一、二、三合计的 40% 及以上，就必须设定范围三目标。",
-       "quote": {
-        "text": "When scope 3 emissions make up 40% or more of total emissions",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "近期目标：覆盖 67%",
-       "desc": "近期范围三目标（减排目标和/或供应商、客户参与目标）合计至少覆盖范围三排放的 67%。",
-       "quote": {
-        "text": "For near-term science-based targets, companies must include 67% of mandatory scope 3 emissions",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "近期雄心：至少 well-below 2°C",
-       "desc": "自 2022 年 7 月起，范围三近期目标至少与远低于 2°C 的路径一致。"
-      },
-      {
-       "title": "长期目标：覆盖 90%",
-       "desc": "长期目标把范围三边界扩大到排放门槛 90% 的所有重大排放源，并按 1.5°C 情景减排。",
-       "quote": {
-        "text": "companies must include 90% of mandatory scope 3 emissions",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      }
-     ],
-     "layout": "h"
-    },
-    {
-     "type": "standard",
-     "content_cn": "边界从近期的 67% 扩到长期的 90%，SBTi 称之为「扩展边界」思路：近期先聚焦最重大的排放源，长期再覆盖价值链其余部分。",
-     "quote": {
-      "text": "Increasing scope 3 target boundary coverage from 67% for near-term SBTs to 90% for long-term SBTs may be challenging",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    }
-   ]
-  },
-  {
-   "id": "compare",
-   "title": "近期目标与长期目标：完整对照",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "下面这张表按 SBTi 官方对照表整理：边界要覆盖多少、雄心多高、时限多长、可用哪些方法。"
-    },
-    {
-     "type": "table",
-     "rows": [
-      [
-       "维度",
-       "近期科学碳目标",
-       "长期科学碳目标"
-      ],
-      [
-       "范围一、二边界",
-       "至少 95%",
-       "至少 95%"
-      ],
-      [
-       "范围一、二雄心",
-       "1.5°C",
-       "1.5°C"
-      ],
-      [
-       "范围三边界",
-       "范围三超过总排放 40% 时，覆盖至少 67%",
-       "覆盖至少 90%"
-      ],
-      [
-       "范围三雄心",
-       "至少远低于 2°C（well-below 2°C）",
-       "1.5°C"
-      ],
-      [
-       "时限",
-       "目标年为 2030 年，或提交日起 5–10 年",
-       "不晚于 2050 年（电力、海运行业路径为 2040 年）"
-      ],
-      [
-       "范围一、二可用方法",
-       "跨行业绝对减排法、行业绝对减排法、行业强度趋同法（SDA）、可再生电力法",
-       "同左（可再生电力仅作为维持性目标）"
-      ],
-      [
-       "范围三可用方法",
-       "跨行业绝对减排法、行业绝对减排法、SDA、供应商/客户参与法、经济强度法、物理强度法",
-       "跨行业绝对减排法、行业绝对减排法、SDA、经济强度法、物理强度法"
-      ]
-     ]
-    },
-    {
-     "type": "standard",
-     "content_cn": "目标年的官方表述：近期目标年为 2030 年，或自提交给 SBTi 之日起 5–10 年；长期目标不晚于 2050 年，使用电力与海运行业路径的目标为 2040 年。",
-     "quote": {
-      "text": "Near-term targets must have a target year of 2030, or 5-10 years from the date of submission to the SBTi, while long-term targets must have a target year of 2050 or sooner (2040 for targets using the power and maritime transport sector pathways).",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    }
-   ]
-  },
-  {
-   "id": "extra",
-   "title": "三类必须额外纳入的排放",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "FLAG 目标",
-       "content": "两类企业必须单独设定 FLAG（森林、土地与农业）目标：SBTi 指定的林纸、农业生产、畜牧、食品加工、食品零售、烟草等行业；以及其他行业但 FLAG 相关排放超过范围一、二、三合计 20% 的企业。该 20% 按毛排放计，不扣移除量。",
-       "quote": {
-        "text": "Companies in any other sector with FLAG-related emissions that total more than 20% of overall emissions across scopes 1, 2, and 3.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "生物能源",
-       "content": "使用生物能源的企业，必须把生物质燃烧、加工与配送产生的直接二氧化碳排放，以及生物能源原料相关的土地利用排放与移除，纳入目标边界——即便这些排放在清单中是单独报告的。"
-      },
-      {
-       "title": "化石燃料的使用阶段排放",
-       "content": "销售、输送或配送化石燃料的企业，必须把使用阶段排放计入范围三第 11 类（售出产品的使用）并用目标覆盖；只运输或配送而不销售的企业，这些排放也要计算并被目标覆盖。"
-      }
-     ],
-     "numbered": false,
-     "cols": 1
-    }
-   ]
-  }
- ],
- "relations": {
-  "internal": [
-   {
-    "id": "sbti-framework",
-    "title": "净零目标的四大要素"
-   },
-   {
-    "id": "sbti-methods",
-    "title": "目标设定方法"
-   }
+  "id": "sbti-boundary",
+  "title": "覆盖范围与雄心门槛",
+  "eyebrow": "95% · 40% · 67% → 90%",
+  "summary": "范围一、范围二至少覆盖 95%；范围三超过总排放 40% 时必须设目标，近期覆盖 67%、长期覆盖 90%。",
+  "tags": [
+    "目标边界",
+    "范围三",
+    "FLAG"
   ],
-  "external": [
-   {
-    "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4.3",
-    "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
-   }
-  ]
- }
+  "group": "目标怎么定",
+  "status": "官方文件整理",
+  "officialUrl": "https://sciencebasedtargets.org/net-zero",
+  "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+  "sections": [
+    {
+      "id": "s12",
+      "title": "范围一与范围二：95% 的底线，1.5°C 的雄心",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "近期目标与长期目标对范围一、范围二的要求一致：目标边界必须覆盖企业全口径范围一、范围二排放的至少 95%，雄心水平为 1.5°C。",
+          "quote": {
+            "text": "Near-term science-based targets must cover at least 95% of company-wide scope 1 and 2 emissions.",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "近期与长期都用 1.5°C",
+              "content": "自 2022 年 7 月起，SBTi 要求覆盖范围一、范围二的近期目标与 1.5°C 路径一致。",
+              "quote": {
+                "text": "At a minimum, scope 1 and scope 2 targets shall be consistent with the level of decarbonization required to keep global temperature increase to 1.5°C compared to pre-industrial temperatures. This applies to both near-term and long-term targets.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "长期目标同样 95%",
+              "content": "长期目标的边界要求不放松：范围一、范围二至少 95%，范围三至少 90%。",
+              "quote": {
+                "text": "Long-term SBTs must cover at least 95% of company-wide scope 1 and 2 emissions and 90% of scope 3 emissions.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "电力使用需同时设位置法与市场法目标",
+              "content": "范围二需要按位置法核算；同时以市场法或零碳电力目标覆盖采购的电力，两者都要有。",
+              "quote": {
+                "text": "Companies reporting scope 2 emissions using location-based methods can still set a renewable electricity target provided they have the capacity to demonstrate active sourcing of renewable electricity through market instruments.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "范围三：什么时候必须设目标",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "范围三不是一律强制。先用清单判断占比，再决定是否必须设定、以及要覆盖多少。",
+          "quote": {
+            "text": "When scope 3 emissions make up 40% or more of total emissions (scope 1, 2, and 3 emissions), companies must set one or more emission reduction targets and/or supplier or customer engagement targets that collectively cover(s) at least 67% of total scope 3",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
+            "related": {
+              "label": "关联知识：财政部气候准则 第三十四条",
+              "url": "topic.html?standard=mof&id=mof-climate",
+              "text": "企业应当基于其价值链以及范围三温室气体排放的类别，确定并披露其范围三温室气体排放计量中所包含的类别。企业可以将其范围三第十五类“投资”的温室气体排放的计量限定在融资排放范围内。",
+              "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第三十四条"
+            }
+          }
+        },
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "先算清范围三清单",
+              "desc": "按 GHG Protocol 范围三标准建立完整清单，识别各门类的排放规模。",
+              "quote": {
+                "text": "Companies shall complete a scope 3 inventory covering gross scope 3 emissions for all its relevant emissions sources according to the GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "判断是否触发强制",
+              "desc": "范围三排放达到范围一、二、三合计的 40% 及以上，就必须设定范围三目标。",
+              "quote": {
+                "text": "When scope 3 emissions make up 40% or more of total emissions",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "近期目标：覆盖 67%",
+              "desc": "近期范围三目标（减排目标和/或供应商、客户参与目标）合计至少覆盖范围三排放的 67%。",
+              "quote": {
+                "text": "For near-term science-based targets, companies must include 67% of mandatory scope 3 emissions",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "近期雄心：至少 well-below 2°C",
+              "desc": "自 2022 年 7 月起，范围三近期目标至少与远低于 2°C 的路径一致。",
+              "quote": {
+                "text": "Since July 2022, the SBTi has required near-term targets covering scope 1 and 2 emissions to be aligned with 1.5°C pathways and scope 3 targets to be aligned with well-below 2°C pathways.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "长期目标：覆盖 90%",
+              "desc": "长期目标把范围三边界扩大到排放门槛 90% 的所有重大排放源，并按 1.5°C 情景减排。",
+              "quote": {
+                "text": "companies must include 90% of mandatory scope 3 emissions",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "layout": "h"
+        },
+        {
+          "type": "standard",
+          "content_cn": "边界从近期的 67% 扩到长期的 90%，SBTi 称之为「扩展边界」思路：近期先聚焦最重大的排放源，长期再覆盖价值链其余部分。",
+          "quote": {
+            "text": "Increasing scope 3 target boundary coverage from 67% for near-term SBTs to 90% for long-term SBTs may be challenging",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "近期目标与长期目标：完整对照",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "下面这张表按 SBTi 官方对照表整理：边界要覆盖多少、雄心多高、时限多长、可用哪些方法。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "维度",
+              "近期科学碳目标",
+              "长期科学碳目标"
+            ],
+            [
+              "范围一、二边界",
+              "至少 95%",
+              "至少 95%"
+            ],
+            [
+              "范围一、二雄心",
+              "1.5°C",
+              "1.5°C"
+            ],
+            [
+              "范围三边界",
+              "范围三超过总排放 40% 时，覆盖至少 67%",
+              "覆盖至少 90%"
+            ],
+            [
+              "范围三雄心",
+              "至少远低于 2°C（well-below 2°C）",
+              "1.5°C"
+            ],
+            [
+              "时限",
+              "目标年为 2030 年，或提交日起 5–10 年",
+              "不晚于 2050 年（电力、海运行业路径为 2040 年）"
+            ],
+            [
+              "范围一、二可用方法",
+              "跨行业绝对减排法、行业绝对减排法、行业强度趋同法（SDA）、可再生电力法",
+              "同左（可再生电力仅作为维持性目标）"
+            ],
+            [
+              "范围三可用方法",
+              "跨行业绝对减排法、行业绝对减排法、SDA、供应商/客户参与法、经济强度法、物理强度法",
+              "跨行业绝对减排法、行业绝对减排法、SDA、经济强度法、物理强度法"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "目标年的官方表述：近期目标年为 2030 年，或自提交给 SBTi 之日起 5–10 年；长期目标不晚于 2050 年，使用电力与海运行业路径的目标为 2040 年。",
+          "quote": {
+            "text": "Near-term targets must have a target year of 2030, or 5-10 years from the date of submission to the SBTi, while long-term targets must have a target year of 2050 or sooner (2040 for targets using the power and maritime transport sector pathways).",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "title": "三类必须额外纳入的排放",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "FLAG 目标",
+              "content": "两类企业必须单独设定 FLAG（森林、土地与农业）目标：SBTi 指定的林纸、农业生产、畜牧、食品加工、食品零售、烟草等行业；以及其他行业但 FLAG 相关排放超过范围一、二、三合计 20% 的企业。该 20% 按毛排放计，不扣移除量。",
+              "quote": {
+                "text": "Companies in any other sector with FLAG-related emissions that total more than 20% of overall emissions across scopes 1, 2, and 3.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "生物能源",
+              "content": "使用生物能源的企业，必须把生物质燃烧、加工与配送产生的直接二氧化碳排放，以及生物能源原料相关的土地利用排放与移除，纳入目标边界——即便这些排放在清单中是单独报告的。",
+              "quote": {
+                "text": "Companies that use bioenergy or have biogenic emissions within their operations or value chain shall report all CO2 emissions and removals in line with GHG Protocol guidance. Include net CO2 emissions from biogenic sources in the target boundary for scopes 1, 2 and 3, and track these net emissions when reporting progress against science-based targets.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "化石燃料的使用阶段排放",
+              "content": "销售、输送或配送化石燃料的企业，必须把使用阶段排放计入范围三第 11 类（售出产品的使用）并用目标覆盖；只运输或配送而不销售的企业，这些排放也要计算并被目标覆盖。",
+              "quote": {
+                "text": "Companies that sell, transmit, or distribute natural gas (or other fossil fuel products) shall set separate emission reduction targets for scope 3 category 11 \"use of sold products\" - covering emissions from the combustion of the sold, transmitted, or distributed fossil fuels - that are at a minimum consistent with the level of decarbonization required to keep global temperature increase to 1.5C compared to pre-industrial temperatures, irrespective of the share of these emissions compared to the total scope 1, 2, and 3 emissions of the company, company's sector classification, or whether fossil fuel sale/distribution is the company's primary business.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 1
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-framework",
+        "title": "净零目标的四大要素"
+      },
+      {
+        "id": "sbti-methods",
+        "title": "目标设定方法"
+      }
+    ],
+    "external": [
+      {
+        "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4.3",
+        "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
+      }
+    ]
+  }
 }

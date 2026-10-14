@@ -1,170 +1,174 @@
 {
- "id": "sbti-versions",
- "title": "版本演进与 V2.0 过渡",
- "eyebrow": "V1.3.1 → V2.0",
- "summary": "现行版为 V1.3.1；V2.0 已发布，2027 年第一季度起可用于验证，2028 年 2 月 1 日起新提交目标必须符合 V2.0。",
- "tags": [
-  "版本过渡",
-  "V2.0",
-  "关键日期"
- ],
- "group": "验证与运行",
- "status": "官方文件整理",
- "officialUrl": "https://sciencebasedtargets.org/net-zero",
- "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
- "sections": [
-  {
-   "id": "timeline",
-   "title": "关键日期",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "process_flow",
-     "steps": [
-      {
-       "title": "V1.0（2021 年 10 月）",
-       "desc": "首个企业净零标准发布，确立「近期目标＋长期目标＋中和剩余排放」的框架。"
-      },
-      {
-       "title": "V1.3.1（2026 年 4 月）",
-       "desc": "现行适用版本。2026 年设定目标应直接使用 V1.3.1。",
-       "quote": {
-        "text": "Throughout 2026, Version 1.3.1 remains the applicable framework for target validation.",
-        "source": "SBTi 官网《The Corporate Net-Zero Standard》"
-       }
-      },
-      {
-       "title": "V2.0 已发布（2026 年 6 月）",
-       "desc": "新增治理与过渡计划、基准年评估、目标实施与进度评估等内容。企业可用 V2.0 提交目标。",
-       "quote": {
-        "text": "Companies can use Version 2.0 to submit targets for validation from early 2027.",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      },
-      {
-       "title": "2027 年第一季度起",
-       "desc": "V2.0 开放目标验证受理。",
-       "quote": {
-        "text": "Target validation under Version 2.0 will begin in Q1 2027.",
-        "source": "SBTi 官网《The Corporate Net-Zero Standard》"
-       }
-      },
-      {
-       "title": "2028 年 2 月 1 日起",
-       "desc": "所有新提交的目标都必须与 V2.0 保持一致；V1.3.1 可用于设定目标的截止日为 2028 年 1 月 31 日。",
-       "quote": {
-        "text": "From February 1, 2028, all new target submissions will be required to align with Version 2.0.",
-        "source": "SBTi 官网《The Corporate Net-Zero Standard》",
-        "related": {
-         "label": "关联知识：财政部气候准则 第四十三条",
-         "url": "topic.html?standard=mof&id=mof-climate",
-         "text": "企业应当披露其设定和复核每项目标的方法，以及如何监控每项目标的实现进展，包括下列信息：\n目标及设定目标的方法是否经独立第三方验证；\n复核目标的流程；\n用于监控目标实现进展的指标；\n目标的修订及原因（如适用）。",
-         "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十三条"
-        }
-       }
-      }
-     ],
-     "layout": "v"
-    },
-    {
-     "type": "standard",
-     "content_cn": "现有近期目标在其目标期限内继续有效。为帮助企业平稳过渡，SBTi 另发布了 V1.3.1 与 V2.0 的衔接说明，以及面向已设定目标企业的过渡指南。"
-    }
-   ]
-  },
-  {
-   "id": "whatsnew",
-   "title": "V2.0 的六章结构",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "V2.0 把标准范围从「目标设定」扩展到覆盖治理、基准年评估、目标设定、实施、进度评估与剩余责任的全周期。"
-    },
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "第一章 · 净零治理",
-       "content": "领导层对科学碳目标的问责，以及过渡计划的制定与复核要求。"
-      },
-      {
-       "title": "第二章 · 目标基准年评估",
-       "content": "组织与运营边界、基准年选择、基准年排放清单、排放密集型活动识别、第三方鉴证与基准年重算。"
-      },
-      {
-       "title": "第三章 · 目标设定",
-       "content": "范围一、范围二、范围三目标与净零目标的设定规则，目标信息披露与修订。"
-      },
-      {
-       "title": "第四章 · 目标实施",
-       "content": "实施层级、行动与市场工具的完整性准则、电力消费的实施安排、范围二逐时匹配、生物基原料的可持续性。"
-      },
-      {
-       "title": "第五章 · 报告与进度评估",
-       "content": "进展追踪，以及目标周期结束时的进度评估方法。"
-      },
-      {
-       "title": "第六章 · 持续排放责任",
-       "content": "自愿认可计划的结构与完整性准则、2035 年后的责任要求，以及剩余排放的中和。"
-      }
-     ],
-     "numbered": true,
-     "cols": 2
-    }
-   ]
-  },
-  {
-   "id": "choose",
-   "title": "现在该用哪个版本",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "2026 年设定目标",
-       "content": "直接使用 V1.3.1。它仍是 2026 年适用的验证框架，同时可享受 V2.0 的部分创新安排。"
-      },
-      {
-       "title": "2026–2027 年更新或续设目标",
-       "content": "可继续使用 V1.3.1 的弹性安排（如范围一、二合并目标），并为进入 V2.0 打好基础。"
-      },
-      {
-       "title": "2028 年及以后更新目标",
-       "content": "应直接按 V2.0 准备。自 2028 年 2 月 1 日起，新提交目标必须与 V2.0 一致。"
-      }
-     ],
-     "numbered": false,
-     "cols": 3
-    },
-    {
-     "type": "standard",
-     "content_cn": "V2.0 按企业规模与所在地引入类别划分：类别 A 覆盖所有国家的大型企业，以及高收入国家的中型企业；类别 B 覆盖所有国家的小型企业，以及中低收入国家的中型企业。"
-    }
-   ]
-  }
- ],
- "relations": {
-  "internal": [
-   {
-    "id": "sbti-validation",
-    "title": "验证、披露与复核"
-   },
-   {
-    "id": "sbti-basics",
-    "title": "科学碳目标与 SBTi"
-   }
+  "id": "sbti-versions",
+  "title": "版本演进与 V2.0 过渡",
+  "eyebrow": "V1.3.1 → V2.0",
+  "summary": "现行版为 V1.3.1；V2.0 已发布，2027 年第一季度起可用于验证，2028 年 2 月 1 日起新提交目标必须符合 V2.0。",
+  "tags": [
+    "版本过渡",
+    "V2.0",
+    "关键日期"
   ],
-  "external": [
-   {
-    "title": "SBTi Corporate Net-Zero Standard V2.0（2026年6月）",
-    "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf"
-   },
-   {
-    "title": "SBTi 官网 · The Corporate Net-Zero Standard（版本与过渡说明）",
-    "url": "https://sciencebasedtargets.org/net-zero"
-   }
-  ]
- }
+  "group": "验证与运行",
+  "status": "官方文件整理",
+  "officialUrl": "https://sciencebasedtargets.org/net-zero",
+  "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+  "sections": [
+    {
+      "id": "timeline",
+      "title": "关键日期",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "V1.0（2021 年 10 月）",
+              "desc": "首个企业净零标准发布，确立「近期目标＋长期目标＋中和剩余排放」的框架。",
+              "quote": {
+                "text": "1.0 Corporate Net-Zero Standard 28 October 2021",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "V1.3.1（2026 年 4 月）",
+              "desc": "现行适用版本。2026 年设定目标应直接使用 V1.3.1。",
+              "quote": {
+                "text": "Throughout 2026, Version 1.3.1 remains the applicable framework for target validation.",
+                "source": "SBTi 官网《The Corporate Net-Zero Standard》"
+              }
+            },
+            {
+              "title": "V2.0 已发布（2026 年 6 月）",
+              "desc": "新增治理与过渡计划、基准年评估、目标实施与进度评估等内容。企业可用 V2.0 提交目标。",
+              "quote": {
+                "text": "Companies can use Version 2.0 to submit targets for validation from early 2027.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "2027 年第一季度起",
+              "desc": "V2.0 开放目标验证受理。",
+              "quote": {
+                "text": "Target validation under Version 2.0 will begin in Q1 2027.",
+                "source": "SBTi 官网《The Corporate Net-Zero Standard》"
+              }
+            },
+            {
+              "title": "2028 年 2 月 1 日起",
+              "desc": "所有新提交的目标都必须与 V2.0 保持一致；V1.3.1 可用于设定目标的截止日为 2028 年 1 月 31 日。",
+              "quote": {
+                "text": "From February 1, 2028, all new target submissions will be required to align with Version 2.0.",
+                "source": "SBTi 官网《The Corporate Net-Zero Standard》",
+                "related": {
+                  "label": "关联知识：财政部气候准则 第四十三条",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "企业应当披露其设定和复核每项目标的方法，以及如何监控每项目标的实现进展，包括下列信息：\n目标及设定目标的方法是否经独立第三方验证；\n复核目标的流程；\n用于监控目标实现进展的指标；\n目标的修订及原因（如适用）。",
+                  "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十三条"
+                }
+              }
+            }
+          ],
+          "layout": "v"
+        },
+        {
+          "type": "standard",
+          "content_cn": "现有近期目标在其目标期限内继续有效。为帮助企业平稳过渡，SBTi 另发布了 V1.3.1 与 V2.0 的衔接说明，以及面向已设定目标企业的过渡指南。"
+        }
+      ]
+    },
+    {
+      "id": "whatsnew",
+      "title": "V2.0 的六章结构",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "V2.0 把标准范围从「目标设定」扩展到覆盖治理、基准年评估、目标设定、实施、进度评估与剩余责任的全周期。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "第一章 · 净零治理",
+              "content": "领导层对科学碳目标的问责，以及过渡计划的制定与复核要求。"
+            },
+            {
+              "title": "第二章 · 目标基准年评估",
+              "content": "组织与运营边界、基准年选择、基准年排放清单、排放密集型活动识别、第三方鉴证与基准年重算。"
+            },
+            {
+              "title": "第三章 · 目标设定",
+              "content": "范围一、范围二、范围三目标与净零目标的设定规则，目标信息披露与修订。"
+            },
+            {
+              "title": "第四章 · 目标实施",
+              "content": "实施层级、行动与市场工具的完整性准则、电力消费的实施安排、范围二逐时匹配、生物基原料的可持续性。"
+            },
+            {
+              "title": "第五章 · 报告与进度评估",
+              "content": "进展追踪，以及目标周期结束时的进度评估方法。"
+            },
+            {
+              "title": "第六章 · 持续排放责任",
+              "content": "自愿认可计划的结构与完整性准则、2035 年后的责任要求，以及剩余排放的中和。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "title": "现在该用哪个版本",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "2026 年设定目标",
+              "content": "直接使用 V1.3.1。它仍是 2026 年适用的验证框架，同时可享受 V2.0 的部分创新安排。"
+            },
+            {
+              "title": "2026–2027 年更新或续设目标",
+              "content": "可继续使用 V1.3.1 的弹性安排（如范围一、二合并目标），并为进入 V2.0 打好基础。"
+            },
+            {
+              "title": "2028 年及以后更新目标",
+              "content": "应直接按 V2.0 准备。自 2028 年 2 月 1 日起，新提交目标必须与 V2.0 一致。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        },
+        {
+          "type": "standard",
+          "content_cn": "V2.0 按企业规模与所在地引入类别划分：类别 A 覆盖所有国家的大型企业，以及高收入国家的中型企业；类别 B 覆盖所有国家的小型企业，以及中低收入国家的中型企业。"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-validation",
+        "title": "验证、披露与复核"
+      },
+      {
+        "id": "sbti-basics",
+        "title": "科学碳目标与 SBTi"
+      }
+    ],
+    "external": [
+      {
+        "title": "SBTi Corporate Net-Zero Standard V2.0（2026年6月）",
+        "url": "https://files.sciencebasedtargets.org/production/files/Corporate-Net-Zero-Standard-version-2.pdf"
+      },
+      {
+        "title": "SBTi 官网 · The Corporate Net-Zero Standard（版本与过渡说明）",
+        "url": "https://sciencebasedtargets.org/net-zero"
+      }
+    ]
+  }
 }

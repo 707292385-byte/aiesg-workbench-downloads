@@ -69,11 +69,19 @@
             },
             {
               "title": "排序优先",
-              "desc": "在直接运营与价值链中确定最重大的依赖、影响、风险与机遇。"
+              "desc": "在直接运营与价值链中确定最重大的依赖、影响、风险与机遇。",
+              "quote": {
+                "text": "How the organisation determines the relative significance of nature-related risks and opportunities in relation to other risks and opportunities and prioritises risks and opportunities to inform risk and opportunity responses and risk and opportunity management decision-making.",
+                "source": "TNFD 建议 A(i)（2023 年 9 月版）"
+              }
             },
             {
               "title": "监控",
-              "desc": "建立持续监控机制，随数据与时间更新评估。"
+              "desc": "建立持续监控机制，随数据与时间更新评估。",
+              "quote": {
+                "text": "Investors and other stakeholders are interested in understanding how an organisation’s nature-related dependencies, impacts, risks and opportunities are identified, assessed, prioritised and monitored, and whether those processes are integrated into existing risk management processes.",
+                "source": "TNFD 建议（2023 年 9 月版）"
+              }
             }
           ]
         }

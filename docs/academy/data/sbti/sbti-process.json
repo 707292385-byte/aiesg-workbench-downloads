@@ -1,278 +1,298 @@
 {
- "id": "sbti-process",
- "title": "制定流程：五步与时限",
- "eyebrow": "基准年 → 清单 → 边界 → 目标年 → 计算",
- "summary": "SBTi 在标准第四章用五个步骤组织制定流程，并给出从注册、承诺到公开发布的时限安排。",
- "tags": [
-  "制定流程",
-  "基准年",
-  "排放清单",
-  "时限"
- ],
- "group": "目标怎么定",
- "status": "官方文件整理",
- "officialUrl": "https://sciencebasedtargets.org/net-zero",
- "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
- "sections": [
-  {
-   "id": "five",
-   "title": "五步制定流程",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "开发近期与长期科学碳目标有多种做法，SBTi 建议按标准第四章的五个步骤推进。",
-     "quote": {
-      "text": "the SBTi recommends following the five steps described in this section",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    },
-    {
-     "type": "process_flow",
-     "steps": [
-      {
-       "title": "选定基准年",
-       "desc": "确认基准年排放数据可核实、能代表企业常态，并满足基准年不得早于 2015 年的要求。"
-      },
-      {
-       "title": "核算排放清单",
-       "desc": "建立覆盖至少 95% 范围一、二排放的完整清单，并完成完整的范围三清单。"
-      },
-      {
-       "title": "划定目标边界",
-       "desc": "范围一、二至少 95%；范围三超过总排放 40% 时必须设目标，近期覆盖至少 67%。"
-      },
-      {
-       "title": "选定目标年",
-       "desc": "近期目标年为 2030 年或提交日起 5–10 年；长期目标不晚于 2050 年。"
-      },
-      {
-       "title": "选择方法并计算目标",
-       "desc": "从许可方法中选择并计算减排比例，工具输出为最低要求，随后整理目标表述并提交验证。"
-      }
-     ],
-     "layout": "h"
-    }
-   ]
-  },
-  {
-   "id": "baseyear",
-   "title": "第一步：基准年的硬性约束",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "不早于 2015 年",
-       "quote": {
-        "text": "The base year must be no earlier than 2015.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "范围一、二必须同一基准年",
-       "quote": {
-        "text": "Scope 1 and scope 2 targets must use the same base year.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "已设近期目标者，长期目标沿用同一基准年",
-       "quote": {
-        "text": "Companies that have already set near-term science-based targets must use the same base year for their long-term science-based target.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "不接受多年平均基准年",
-       "content": "除非企业适用的行业指南另有规定。",
-       "quote": {
-        "text": "The SBTi does not accept multi-year average base years, unless this is specified in the sector-guidance relevant to the company.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "数据要可核实、可代表常态",
-       "content": "范围一、二、三数据应当准确且可核实；基准年排放应能代表企业典型的温室气体状况。"
-      },
-      {
-       "title": "范围三基准年可另行选择",
-       "content": "范围三目标的基准年建议但不强制与范围一、二一致；不同范围三目标之间的基准年则必须一致。"
-      }
-     ],
-     "numbered": true,
-     "cols": 2
-    }
-   ]
-  },
-  {
-   "id": "inventory",
-   "title": "第二步：排放清单的四个要求",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "覆盖至少 95% 的范围一、二排放",
-       "quote": {
-        "text": "Companies are required to have a comprehensive emissions inventory that covers at least 95% of company-wide scope 1 and 2 GHG emissions and includes a complete scope 3 inventory.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "排除合计不超过范围三的 10%",
-       "content": "清单与目标边界的排除量合并计算，不得超过范围三排放总量的 10%。",
-       "quote": {
-        "text": "Exclusions in the GHG inventory and target boundary combined must not exceed 10% of total scope 3 emissions.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "合并口径只能选一种",
-       "content": "按 GHG Protocol 企业标准在运营控制、财务控制或股权比例中选定一种，用于确定组织边界、核算清单与目标边界。",
-       "quote": {
-        "text": "A company must select a single consolidation approach as outlined in the GHG Protocol Corporate Standard",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "覆盖七种温室气体",
-       "content": "清单与目标边界都必须覆盖《联合国气候变化框架公约》与《京都议定书》涵盖的七种温室气体。",
-       "quote": {
-        "text": "Both the emissions inventory and target boundary must cover all seven GHGs",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
-        "related": {
-         "label": "关联知识：GRI 305：排放",
-         "url": "topic.html?standard=gri&id=gri-305",
-         "text": "纳入计算的气体（如适用）：是 CO₂、CH₄、N₂O、HFCs、PFCs、SF₆、NF₃ ，还是全部包括在内。",
-         "source": "GRI 305：排放（2016） 披露项 305-2 编制要求"
-        }
-       }
-      },
-      {
-       "title": "不得用代用数据",
-       "content": "不允许把一个报告年度的数据套用到另一个报告年度，例如把基准年排放当作最近年度排放。",
-       "quote": {
-        "text": "Using proxy data i.e., applying one reporting year",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "数据质量要持续改善",
-       "content": "高影响门类应收集供应商与价值链伙伴的一手数据；排放因子至少应使用国别因子，并披露数据不确定性。"
-      }
-     ],
-     "numbered": true,
-     "cols": 2
-    }
-   ]
-  },
-  {
-   "id": "timeline",
-   "title": "从注册到公开的时间线",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "企业有两种起点：先作承诺，或直接提交目标。承诺提供 24 个月窗口用于提交目标；提交后评估通常在 12 周内完成；验证通过后，企业需在 6 个月内公开发布目标。",
-     "quote": {
-      "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
-      "source": "SBTi 官网《How to set science-based targets》"
-     }
-    },
-    {
-     "type": "process_flow",
-     "steps": [
-      {
-       "title": "注册账号",
-       "desc": "在 SBTi Services 验证门户注册企业信息，确认适用主体类型（企业、金融机构或中小企业）。"
-      },
-      {
-       "title": "作出承诺（可选）",
-       "desc": "承诺提供 24 个月窗口提交目标；也可以跳过承诺直接提交目标。",
-       "quote": {
-        "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      },
-      {
-       "title": "提交目标",
-       "desc": "在验证门户提交目标，随附清单、目标计算、方法依据与逐条准则的支撑材料。"
-      },
-      {
-       "title": "SBTi Services 评估",
-       "desc": "按准则逐项评估，通常 12 周内完成；未达雄心或覆盖门槛的会被退回修改。",
-       "quote": {
-        "text": "the assessment is usually finished within 12 weeks",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      },
-      {
-       "title": "公开发布",
-       "desc": "验证通过后，企业需在 6 个月内公开目标，名单进入目标仪表盘。",
-       "quote": {
-        "text": "companies have 6 months to announce their targets publicly",
-        "source": "SBTi 官网《How to set science-based targets》"
-       }
-      }
-     ],
-     "layout": "v"
-    }
-   ]
-  },
-  {
-   "id": "toyear",
-   "title": "第四步：目标年怎么选",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "近期目标年为 2030 年，或自提交之日起 5–10 年；长期目标不晚于 2050 年，使用电力与海运行业路径的目标为 2040 年。",
-     "quote": {
-      "text": "Near-term targets must have a target year of 2030, or 5-10 years from the date of submission to the SBTi, while long-term targets must have a target year of 2050 or sooner (2040 for targets using the power and maritime transport sector pathways).",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    },
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "长期目标的雄心与目标年无关",
-       "content": "长期目标的减排幅度由路径决定，不取决于所选的年份；企业可先选一个合格年份，算完结果后再调整。"
-      },
-      {
-       "title": "海运路径的近期目标年不得早于 2030 年",
-       "content": "使用海运行业指南及其路径的企业，近期目标年不能早于 2030 年。"
-      }
-     ],
-     "numbered": false,
-     "cols": 2
-    }
-   ]
-  }
- ],
- "relations": {
-  "internal": [
-   {
-    "id": "sbti-boundary",
-    "title": "覆盖范围与雄心门槛"
-   },
-   {
-    "id": "sbti-methods",
-    "title": "目标设定方法"
-   }
+  "id": "sbti-process",
+  "title": "制定流程：五步与时限",
+  "eyebrow": "基准年 → 清单 → 边界 → 目标年 → 计算",
+  "summary": "SBTi 在标准第四章用五个步骤组织制定流程，并给出从注册、承诺到公开发布的时限安排。",
+  "tags": [
+    "制定流程",
+    "基准年",
+    "排放清单",
+    "时限"
   ],
-  "external": [
-   {
-    "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4",
-    "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
-   },
-   {
-    "title": "SBTi 官网 · 目标设定流程与时限说明",
-    "url": "https://sciencebasedtargets.org/how-it-works"
-   }
-  ]
- }
+  "group": "目标怎么定",
+  "status": "官方文件整理",
+  "officialUrl": "https://sciencebasedtargets.org/net-zero",
+  "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+  "sections": [
+    {
+      "id": "five",
+      "title": "五步制定流程",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "开发近期与长期科学碳目标有多种做法，SBTi 建议按标准第四章的五个步骤推进。",
+          "quote": {
+            "text": "the SBTi recommends following the five steps described in this section",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        },
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "选定基准年",
+              "desc": "确认基准年排放数据可核实、能代表企业常态，并满足基准年不得早于 2015 年的要求。"
+            },
+            {
+              "title": "核算排放清单",
+              "desc": "建立覆盖至少 95% 范围一、二排放的完整清单，并完成完整的范围三清单。"
+            },
+            {
+              "title": "划定目标边界",
+              "desc": "范围一、二至少 95%；范围三超过总排放 40% 时必须设目标，近期覆盖至少 67%。"
+            },
+            {
+              "title": "选定目标年",
+              "desc": "近期目标年为 2030 年或提交日起 5–10 年；长期目标不晚于 2050 年。"
+            },
+            {
+              "title": "选择方法并计算目标",
+              "desc": "从许可方法中选择并计算减排比例，工具输出为最低要求，随后整理目标表述并提交验证。"
+            }
+          ],
+          "layout": "h"
+        }
+      ]
+    },
+    {
+      "id": "baseyear",
+      "title": "第一步：基准年的硬性约束",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "不早于 2015 年",
+              "quote": {
+                "text": "The base year must be no earlier than 2015.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "范围一、二必须同一基准年",
+              "quote": {
+                "text": "Scope 1 and scope 2 targets must use the same base year.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "已设近期目标者，长期目标沿用同一基准年",
+              "quote": {
+                "text": "Companies that have already set near-term science-based targets must use the same base year for their long-term science-based target.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "不接受多年平均基准年",
+              "content": "除非企业适用的行业指南另有规定。",
+              "quote": {
+                "text": "The SBTi does not accept multi-year average base years, unless this is specified in the sector-guidance relevant to the company.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "数据要可核实、可代表常态",
+              "content": "范围一、二、三数据应当准确且可核实；基准年排放应能代表企业典型的温室气体状况。",
+              "quote": {
+                "text": "1. Scope 1, 2, and 3 emissions data should be accurate and verifiable. 2. Base year emissions should be representative of a company’s typical GHG profile.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "范围三基准年可另行选择",
+              "content": "范围三目标的基准年建议但不强制与范围一、二一致；不同范围三目标之间的基准年则必须一致。",
+              "quote": {
+                "text": "Scope 3 targets are recommended but not required to use the same base year as scope 1 and scope 2 targets. Base years across different scope 3 targets must be the same.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "title": "第二步：排放清单的四个要求",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "覆盖至少 95% 的范围一、二排放",
+              "quote": {
+                "text": "Companies are required to have a comprehensive emissions inventory that covers at least 95% of company-wide scope 1 and 2 GHG emissions and includes a complete scope 3 inventory.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "排除合计不超过范围三的 10%",
+              "content": "清单与目标边界的排除量合并计算，不得超过范围三排放总量的 10%。",
+              "quote": {
+                "text": "Exclusions in the GHG inventory and target boundary combined must not exceed 10% of total scope 3 emissions.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "合并口径只能选一种",
+              "content": "按 GHG Protocol 企业标准在运营控制、财务控制或股权比例中选定一种，用于确定组织边界、核算清单与目标边界。",
+              "quote": {
+                "text": "A company must select a single consolidation approach as outlined in the GHG Protocol Corporate Standard",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "覆盖七种温室气体",
+              "content": "清单与目标边界都必须覆盖《联合国气候变化框架公约》与《京都议定书》涵盖的七种温室气体。",
+              "quote": {
+                "text": "Both the emissions inventory and target boundary must cover all seven GHGs",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
+                "related": {
+                  "label": "关联知识：GRI 305：排放",
+                  "url": "topic.html?standard=gri&id=gri-305",
+                  "text": "纳入计算的气体（如适用）：是 CO₂、CH₄、N₂O、HFCs、PFCs、SF₆、NF₃ ，还是全部包括在内。",
+                  "source": "GRI 305：排放（2016） 披露项 305-2 编制要求"
+                }
+              }
+            },
+            {
+              "title": "不得用代用数据",
+              "content": "不允许把一个报告年度的数据套用到另一个报告年度，例如把基准年排放当作最近年度排放。",
+              "quote": {
+                "text": "Using proxy data i.e., applying one reporting year",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "数据质量要持续改善",
+              "content": "高影响门类应收集供应商与价值链伙伴的一手数据；排放因子至少应使用国别因子，并披露数据不确定性。",
+              "quote": {
+                "text": "Companies should report on how they plan to bridge data gaps, exclusions and improve data quality.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "从注册到公开的时间线",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "企业有两种起点：先作承诺，或直接提交目标。承诺提供 24 个月窗口用于提交目标；提交后评估通常在 12 周内完成；验证通过后，企业需在 6 个月内公开发布目标。",
+          "quote": {
+            "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
+            "source": "SBTi 官网《How to set science-based targets》"
+          }
+        },
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "注册账号",
+              "desc": "在 SBTi Services 验证门户注册企业信息，确认适用主体类型（企业、金融机构或中小企业）。",
+              "quote": {
+                "text": "When you are ready, you can create an account on the Validation Portal and register your company with SBTi Services.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "作出承诺（可选）",
+              "desc": "承诺提供 24 个月窗口提交目标；也可以跳过承诺直接提交目标。",
+              "quote": {
+                "text": "A commitment provides companies with a 24-month window to submit targets for assessment.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "提交目标",
+              "desc": "在验证门户提交目标，随附清单、目标计算、方法依据与逐条准则的支撑材料。",
+              "quote": {
+                "text": "Companies can also skip straight to submitting targets.",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "SBTi Services 评估",
+              "desc": "按准则逐项评估，通常 12 周内完成；未达雄心或覆盖门槛的会被退回修改。",
+              "quote": {
+                "text": "the assessment is usually finished within 12 weeks",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            },
+            {
+              "title": "公开发布",
+              "desc": "验证通过后，企业需在 6 个月内公开目标，名单进入目标仪表盘。",
+              "quote": {
+                "text": "companies have 6 months to announce their targets publicly",
+                "source": "SBTi 官网《How to set science-based targets》"
+              }
+            }
+          ],
+          "layout": "v"
+        }
+      ]
+    },
+    {
+      "id": "toyear",
+      "title": "第四步：目标年怎么选",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "近期目标年为 2030 年，或自提交之日起 5–10 年；长期目标不晚于 2050 年，使用电力与海运行业路径的目标为 2040 年。",
+          "quote": {
+            "text": "Near-term targets must have a target year of 2030, or 5-10 years from the date of submission to the SBTi, while long-term targets must have a target year of 2050 or sooner (2040 for targets using the power and maritime transport sector pathways).",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "长期目标的雄心与目标年无关",
+              "content": "长期目标的减排幅度由路径决定，不取决于所选的年份；企业可先选一个合格年份，算完结果后再调整。"
+            },
+            {
+              "title": "海运路径的近期目标年不得早于 2030 年",
+              "content": "使用海运行业指南及其路径的企业，近期目标年不能早于 2030 年。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-boundary",
+        "title": "覆盖范围与雄心门槛"
+      },
+      {
+        "id": "sbti-methods",
+        "title": "目标设定方法"
+      }
+    ],
+    "external": [
+      {
+        "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4",
+        "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
+      },
+      {
+        "title": "SBTi 官网 · 目标设定流程与时限说明",
+        "url": "https://sciencebasedtargets.org/how-it-works"
+      }
+    ]
+  }
 }

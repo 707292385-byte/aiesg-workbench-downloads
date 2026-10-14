@@ -77,15 +77,27 @@
           "cards": [
             {
               "title": "获取保证",
-              "content": "就可持续信息是否不存在重大错报，获取合理或有限保证。"
+              "content": "就可持续信息是否不存在重大错报，获取合理或有限保证。",
+              "quote": {
+                "text": "(a) To obtain reasonable assurance or limited assurance, as applicable, about whether the sustainability information is free from material misstatement;",
+                "source": "ISSA 5000, Objectives, para. 16(a)"
+              }
             },
             {
               "title": "发表结论",
-              "content": "通过书面报告表达合理或有限保证结论，并说明结论基础。"
+              "content": "通过书面报告表达合理或有限保证结论，并说明结论基础。",
+              "quote": {
+                "text": "(b) To express a conclusion on the sustainability information through a written report that conveys a reasonable assurance or a limited assurance conclusion, as applicable, and describes the basis for the conclusion;",
+                "source": "ISSA 5000, Objectives, para. 16(b)"
+              }
             },
             {
               "title": "进一步沟通",
-              "content": "按 ISSA 5000 及其他相关准则要求作进一步沟通。"
+              "content": "按 ISSA 5000 及其他相关准则要求作进一步沟通。",
+              "quote": {
+                "text": "(c) To communicate further as required by this ISSA and any other relevant ISSA.",
+                "source": "ISSA 5000, Objectives, para. 16(c)"
+              }
             },
             {
               "title": "无法获保证时",
@@ -246,7 +258,11 @@
               }
             },
             {
-              "content": "ISSA 5000 可与特定司法管辖区的其他鉴证准则一并遵守；只有当二者无冲突、且另一准则的报告包含 ISSA 5000 第 190 段全部要素时，报告方可同时提及两套准则（第 197 段）。"
+              "content": "ISSA 5000 可与特定司法管辖区的其他鉴证准则一并遵守；只有当二者无冲突、且另一准则的报告包含 ISSA 5000 第 190 段全部要素时，报告方可同时提及两套准则（第 197 段）。",
+              "quote": {
+                "text": "197. A practitioner may be required to conduct an assurance engagement in accordance with the assurance standards of a specific jurisdiction (the “other assurance standards”), and has additionally complied with this ISSA in the conduct of the engagement. If this is the case, the assurance report may refer to this ISSA in addition to the other assurance standards, but the practitioner shall do so only if:",
+                "source": "ISSA 5000, Other Assurance Standards, para. 197"
+              }
             }
           ]
         }

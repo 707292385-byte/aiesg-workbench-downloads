@@ -1,178 +1,186 @@
 {
- "id": "sbti-methods",
- "title": "目标设定方法",
- "eyebrow": "绝对减排 · 强度趋同 · 参与式",
- "summary": "范围一、二与范围三各有许可的方法；工具算出的百分比只是最低要求，企业应选择累计排放最少的方法。",
- "tags": [
-  "绝对减排法",
-  "SDA",
-  "方法选择"
- ],
- "group": "目标怎么定",
- "status": "官方文件整理",
- "officialUrl": "https://sciencebasedtargets.org/net-zero",
- "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
- "sections": [
-  {
-   "id": "allowed",
-   "title": "许可的方法",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "table",
-     "rows": [
-      [
-       "适用对象",
-       "可选方法",
-       "方法要点"
-      ],
-      [
-       "范围一、二（近期与长期）",
-       "跨行业绝对减排法",
-       "按统一的年减排率削减绝对排放量，适用于大多数行业"
-      ],
-      [
-       "",
-       "行业绝对减排法",
-       "按行业路径削减绝对排放量"
-      ],
-      [
-       "",
-       "行业强度趋同法（SDA）",
-       "把排放强度收敛到行业路径，适用于发电、钢铁、水泥等排放强度可比行业"
-      ],
-      [
-       "",
-       "可再生电力法",
-       "以电力脱碳单独设定目标；长期目标中作为维持性目标"
-      ],
-      [
-       "范围三（近期）",
-       "跨行业绝对减排法 / 行业绝对减排法 / SDA",
-       "与范围一、二同名方法，用于价值链排放"
-      ],
-      [
-       "",
-       "供应商与客户参与法",
-       "要求供应商或客户设定自身科学碳目标，覆盖相应排放门类"
-      ],
-      [
-       "",
-       "范围三经济强度法 / 物理强度法",
-       "按单位经济产出或单位物理产出的排放强度设定目标"
-      ],
-      [
-       "范围三（长期）",
-       "跨行业绝对减排法 / 行业绝对减排法 / SDA / 经济强度法 / 物理强度法",
-       "参与式目标不属于长期目标的许可方法"
-      ]
-     ]
-    },
-    {
-     "type": "standard",
-     "content_cn": "金融机构适用另有一套方法，需参考金融行业科学碳目标指南，不在上述范围内。"
-    }
-   ]
-  },
-  {
-   "id": "choose",
-   "title": "怎么选：三条判断规则",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "工具输出是最低要求",
-       "content": "用 SBTi 工具算出的减排比例是下限，鼓励设定更进取的目标。",
-       "quote": {
-        "text": "When using SBTi tools and resources to model targets, companies should note that the outputs are minimum requirements.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      },
-      {
-       "title": "同一企业不同方法结果不同",
-       "content": "由于目标形式与可接受路径的差异，强度趋同法（SDA）要求的最低雄心可能高于或低于绝对减排率；应比较后再选定。"
-      },
-      {
-       "title": "选累计排放最少的方法",
-       "content": "为支持全球净零转型，企业应比较可选方法，选择减排时间最早、累计排放最少的那一种。",
-       "quote": {
-        "text": "companies should screen the available methods and choose those that lead to the earliest reductions and the least cumulative emissions.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
-        "related": {
-         "label": "关联知识：财政部气候准则 第四十二条",
-         "url": "topic.html?standard=mof&id=mof-climate",
-         "text": "目标实现是否来源于行业脱碳方法、方法来源，以及目标与基于最新气候变化国际协议或者国家相关部门发布的行业脱碳路线图的方法是否一致。",
-         "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十二条"
-        }
-       }
-      },
-      {
-       "title": "不允许按质量计的目标",
-       "content": "按指定质量减排的目标（例如「到 2030 年减排 500 万吨」）无法透明体现排放绩效变化，不能被接受。",
-       "quote": {
-        "text": "Certain types of target-setting methods are not permitted because of the difficulty in establishing whether these targets result in the necessary reductions, as they do not transparently demonstrate changes in emissions performance.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      }
-     ],
-     "numbered": true,
-     "cols": 2
-    }
-   ]
-  },
-  {
-   "id": "calc",
-   "title": "计算方式与前瞻雄心调整",
-   "learningLayer": "practical",
-   "blocks": [
-    {
-     "type": "card_grid",
-     "cards": [
-      {
-       "title": "近期目标：看基准年与目标年",
-       "content": "近期目标的雄心取决于所选基准年与目标年；若基准年早于最近报告年度，部分范围一、二目标还需应用前瞻雄心调整。"
-      },
-      {
-       "title": "长期目标：用官方工具计算",
-       "content": "企业必须使用 Corporate Net-Zero Tool 计算长期目标，航空、海运、钢铁等行业也可选择对应行业工具。",
-       "quote": {
-        "text": "Companies must either use the Corporate Net-Zero Tool to calculate long-term science-based targets, or, in some cases the relevant sector-specific tool.",
-        "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-       }
-      }
-     ],
-     "numbered": false,
-     "cols": 2
-    },
-    {
-     "type": "standard",
-     "content_cn": "前瞻雄心调整（FLA）用于计算那些未以最近报告年度为基准年的部分范围一、二目标。它一方面奖励提前减排，允许企业把过去的减排计入近期目标；另一方面确保目标不会在设定时就已经达成，避免雄心被稀释。",
-     "quote": {
-      "text": "The forward-looking ambition (FLA) adjustment is an adjustment that must be applied to calculate the ambition of some near-term scope 1 and 2 absolute and intensity targets that do not use the most recent reporting year as the base year.",
-      "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
-     }
-    }
-   ]
-  }
- ],
- "relations": {
-  "internal": [
-   {
-    "id": "sbti-boundary",
-    "title": "覆盖范围与雄心门槛"
-   },
-   {
-    "id": "sbti-process",
-    "title": "制定流程：五步与时限"
-   }
+  "id": "sbti-methods",
+  "title": "目标设定方法",
+  "eyebrow": "绝对减排 · 强度趋同 · 参与式",
+  "summary": "范围一、二与范围三各有许可的方法；工具算出的百分比只是最低要求，企业应选择累计排放最少的方法。",
+  "tags": [
+    "绝对减排法",
+    "SDA",
+    "方法选择"
   ],
-  "external": [
-   {
-    "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4.5–4.6 与附件 B",
-    "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
-   }
-  ]
- }
+  "group": "目标怎么定",
+  "status": "官方文件整理",
+  "officialUrl": "https://sciencebasedtargets.org/net-zero",
+  "sourceNote": "本页按 SBTi 官方文件整理；需核对措辞时，悬浮「原文」可查看对应官方英文原文。正式使用请核对 SBTi 现行文件。",
+  "sections": [
+    {
+      "id": "allowed",
+      "title": "许可的方法",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "适用对象",
+              "可选方法",
+              "方法要点"
+            ],
+            [
+              "范围一、二（近期与长期）",
+              "跨行业绝对减排法",
+              "按统一的年减排率削减绝对排放量，适用于大多数行业"
+            ],
+            [
+              "",
+              "行业绝对减排法",
+              "按行业路径削减绝对排放量"
+            ],
+            [
+              "",
+              "行业强度趋同法（SDA）",
+              "把排放强度收敛到行业路径，适用于发电、钢铁、水泥等排放强度可比行业"
+            ],
+            [
+              "",
+              "可再生电力法",
+              "以电力脱碳单独设定目标；长期目标中作为维持性目标"
+            ],
+            [
+              "范围三（近期）",
+              "跨行业绝对减排法 / 行业绝对减排法 / SDA",
+              "与范围一、二同名方法，用于价值链排放"
+            ],
+            [
+              "",
+              "供应商与客户参与法",
+              "要求供应商或客户设定自身科学碳目标，覆盖相应排放门类"
+            ],
+            [
+              "",
+              "范围三经济强度法 / 物理强度法",
+              "按单位经济产出或单位物理产出的排放强度设定目标"
+            ],
+            [
+              "范围三（长期）",
+              "跨行业绝对减排法 / 行业绝对减排法 / SDA / 经济强度法 / 物理强度法",
+              "参与式目标不属于长期目标的许可方法"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "金融机构适用另有一套方法，需参考金融行业科学碳目标指南，不在上述范围内。"
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "title": "怎么选：三条判断规则",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "工具输出是最低要求",
+              "content": "用 SBTi 工具算出的减排比例是下限，鼓励设定更进取的目标。",
+              "quote": {
+                "text": "When using SBTi tools and resources to model targets, companies should note that the outputs are minimum requirements.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "同一企业不同方法结果不同",
+              "content": "由于目标形式与可接受路径的差异，强度趋同法（SDA）要求的最低雄心可能高于或低于绝对减排率；应比较后再选定。",
+              "quote": {
+                "text": "In some cases, the minimum target ambition output will vary by different methods for a given company. This is due to the differences in target formulation and variation among the acceptable reduction pathways. For example, the minimum ambition required for a sector by the intensity convergence method (i.e., SDA) may require more or less emission reductions than the absolute reduction rate.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "选累计排放最少的方法",
+              "content": "为支持全球净零转型，企业应比较可选方法，选择减排时间最早、累计排放最少的那一种。",
+              "quote": {
+                "text": "companies should screen the available methods and choose those that lead to the earliest reductions and the least cumulative emissions.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）",
+                "related": {
+                  "label": "关联知识：财政部气候准则 第四十二条",
+                  "url": "topic.html?standard=mof&id=mof-climate",
+                  "text": "目标实现是否来源于行业脱碳方法、方法来源，以及目标与基于最新气候变化国际协议或者国家相关部门发布的行业脱碳路线图的方法是否一致。",
+                  "source": "财政部《企业可持续披露准则第1号——气候（试行）》 第四十二条"
+                }
+              }
+            },
+            {
+              "title": "不允许按质量计的目标",
+              "content": "按指定质量减排的目标（例如「到 2030 年减排 500 万吨」）无法透明体现排放绩效变化，不能被接受。",
+              "quote": {
+                "text": "Certain types of target-setting methods are not permitted because of the difficulty in establishing whether these targets result in the necessary reductions, as they do not transparently demonstrate changes in emissions performance.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "title": "计算方式与前瞻雄心调整",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "近期目标：看基准年与目标年",
+              "content": "近期目标的雄心取决于所选基准年与目标年；若基准年早于最近报告年度，部分范围一、二目标还需应用前瞻雄心调整。",
+              "quote": {
+                "text": "The reduction rate is adjusted dynamically according to the time remaining between the company's base year and the pathway's net-zero year (or the company's own net-zero target year, if earlier).",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            },
+            {
+              "title": "长期目标：用官方工具计算",
+              "content": "企业必须使用 Corporate Net-Zero Tool 计算长期目标，航空、海运、钢铁等行业也可选择对应行业工具。",
+              "quote": {
+                "text": "Companies must either use the Corporate Net-Zero Tool to calculate long-term science-based targets, or, in some cases the relevant sector-specific tool.",
+                "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+              }
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        },
+        {
+          "type": "standard",
+          "content_cn": "前瞻雄心调整（FLA）用于计算那些未以最近报告年度为基准年的部分范围一、二目标。它一方面奖励提前减排，允许企业把过去的减排计入近期目标；另一方面确保目标不会在设定时就已经达成，避免雄心被稀释。",
+          "quote": {
+            "text": "The forward-looking ambition (FLA) adjustment is an adjustment that must be applied to calculate the ambition of some near-term scope 1 and 2 absolute and intensity targets that do not use the most recent reporting year as the base year.",
+            "source": "SBTi《企业净零标准》V1.3.1（2026年4月）"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sbti-boundary",
+        "title": "覆盖范围与雄心门槛"
+      },
+      {
+        "id": "sbti-process",
+        "title": "制定流程：五步与时限"
+      }
+    ],
+    "external": [
+      {
+        "title": "SBTi Corporate Net-Zero Standard V1.3.1 §4.5–4.6 与附件 B",
+        "url": "https://files.sciencebasedtargets.org/production/files/Net-Zero-Standard.pdf"
+      }
+    ]
+  }
 }
