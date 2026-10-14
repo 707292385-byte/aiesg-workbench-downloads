@@ -148,7 +148,7 @@
           "cards": [
             {
               "title": "韧性考量维度",
-              "content": "考虑短期、中期与长期调整战略与业务模式的能力，含财务资源可得性、资产重新配置与停用能力、减缓适应投资影响。",
+              "content": "描述组织战略对自然相关风险与机遇的韧性，包括不同情景下的适应能力，以及短、中、长期调整战略与业务模式的能力（财务资源可得性、资产重新配置与停用、减缓与适应投资）。",
               "quote": {
                 "text": "C. Describe the resilience of the organisation’s strategy to nature-related risks and opportunities, taking into consideration diferent scenarios .",
                 "source": "TNFD Recommendations, September 2023, p.986"
@@ -158,18 +158,6 @@
                 "url": "topic.html?standard=mof&id=mof-climate",
                 "text": "在战略方面，企业气候相关信息披露的目标，是使可持续信息基本使用者了解企业管理气候相关风险和机遇所制定的战略和可能结果。",
                 "source": "财政部《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号"
-              }
-            }
-          ]
-        },
-        {
-          "type": "card_grid",
-          "cards": [
-            {
-              "content": "描述组织战略对自然相关风险与机遇的韧性，考虑不同情景下的适应能力。",
-              "quote": {
-                "text": "C. Describe the resilience of the organisation’s strategy to nature-related risks and opportunities, taking into consideration diferent scenarios .",
-                "source": "TNFD Recommendations, September 2023, p.986"
               }
             }
           ]

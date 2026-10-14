@@ -130,7 +130,7 @@
           "cards": [
             {
               "title": "与整体风险一体",
-              "content": "自然相关流程应融入企业整体风险管理，并为其提供信息，而非孤立运作。",
+              "content": "自然相关风险的识别、评估、排序与监控流程须融入企业整体风险管理并为其提供信息，而非孤立运作。",
               "quote": {
                 "text": "C. Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes.",
                 "source": "TNFD Recommendations, September 2023, p.1008"
@@ -140,18 +140,6 @@
                 "url": "topic.html?standard=mof&id=mof-climate",
                 "text": "在风险和机遇管理方面，气候相关信息披露的目标，是使可持续信息基本使用者了解企业识别、评估、排序和监控气候相关风险和机遇的流程（包括这些流程是否以及如何融入企业的整体风险管理流程）。",
                 "source": "财政部《企业可持续披露准则第1号——气候（试行）》财会〔2025〕34号"
-              }
-            }
-          ]
-        },
-        {
-          "type": "card_grid",
-          "cards": [
-            {
-              "content": "描述自然相关风险的识别、评估、排序与监控流程如何融入并支撑组织整体风险管理流程。",
-              "quote": {
-                "text": "C. Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes.",
-                "source": "TNFD Recommendations, September 2023, p.1008"
               }
             }
           ]

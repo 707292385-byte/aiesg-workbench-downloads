@@ -143,30 +143,9 @@
       "blocks": [
         {
           "type": "card_grid",
-          "cols": 1,
-          "numbered": false,
           "cards": [
             {
-              "title": "范围1/2/3 排放衔接",
-              "content": "TNFD 气候指标沿用 GHG Protocol 范围1/2/3，与 IFRS S2、财政部气候准则口径一致。",
-              "quote": {
-                "text": "Refer to ISSB’s IFRS-S2 Climate-related Disclosures Standard",
-                "source": "TNFD Recommendations, September 2023, Annex 1 Table 6"
-              },
-              "related": {
-                "label": "关联知识：IFRS S2 指标和目标",
-                "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
-                "text": "目标是温室气体排放总量目标还是温室气体净排放量目标；如果主体披露温室气体净排放量目标，则还需单独披露相关温室气体排放总量目标（参见 B68 段至 B69 段）",
-                "source": "《国际财务报告准则S1号》（2023）官方中文版"
-              }
-            }
-          ]
-        },
-        {
-          "type": "card_grid",
-          "cards": [
-            {
-              "content": "气候驱动的核心指标（GHG 排放）直接引用 ISSB 的 IFRS S2 气候披露准则，实现气候与自然一体报告。",
+              "content": "气候驱动的核心指标（GHG 排放）直接引用 ISSB 的 IFRS S2 气候披露准则，沿用 GHG Protocol 范围 1/2/3 口径，与财政部气候准则一致。",
               "quote": {
                 "text": "Refer to ISSB’s IFRS-S2 Climate-related Disclosures Standard",
                 "source": "TNFD Recommendations, September 2023, Annex 1 Table 6"
