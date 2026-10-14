@@ -198,8 +198,7 @@
           "type": "card_grid",
           "cards": [
             {
-              "content": "ISSA 5000 规定鉴证报告须为书面，并至少包含标题、收件人、结论、结论基础、其他信息、责任划分、固有限制、执业者责任、工作概述（有限保证）、签名、地点与日期等要素。",
-              "title": "ISSA 5000 规定鉴证报告…"
+              "content": "ISSA 5000 规定鉴证报告须为书面，并至少包含标题、收件人、结论、结论基础、其他信息、责任划分、固有限制、执业者责任、工作概述（有限保证）、签名、地点与日期等要素。"
             }
           ]
         }
@@ -235,7 +234,6 @@
           "cards": [
             {
               "content": "合理保证以积极方式表达，有限保证以“是否注意到重大错报事项”的消极方式表达；二者均须指明实体、信息、保证水平、期间与适用准则。",
-              "title": "合理保证以积极方式表达…",
               "quote": {
                 "text": "For reasonable assurance, shall be expressed in a positive form, that the sustainability information is prepared or fairly presented, in all material respects, in accordance with the applicable criteria; or b. for limited assurance, shall be expressed in a form that conveys whether, based on the procedures performed and evidence obtained, a matter(s) has come to the practitioner’s attention to cause the practitioner to believe that the sustainability information is not prepared or not fairly presented, in all material respects, in accordance with the applicable criteria;",
                 "source": "ISSA 5000, Assurance Report Content, para. 190(c)(vi)",
@@ -248,8 +246,7 @@
               }
             },
             {
-              "content": "ISSA 5000 可与特定司法管辖区的其他鉴证准则一并遵守；只有当二者无冲突、且另一准则的报告包含 ISSA 5000 第 190 段全部要素时，报告方可同时提及两套准则（第 197 段）。",
-              "title": "ISSA 5000 可与特定司法…"
+              "content": "ISSA 5000 可与特定司法管辖区的其他鉴证准则一并遵守；只有当二者无冲突、且另一准则的报告包含 ISSA 5000 第 190 段全部要素时，报告方可同时提及两套准则（第 197 段）。"
             }
           ]
         }

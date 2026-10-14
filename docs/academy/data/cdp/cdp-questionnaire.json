@@ -110,7 +110,6 @@
           "cards": [
             {
               "content": "气候为必备议题，森林与水安全按邀请或自选呈现，其余为补充或自选。",
-              "title": "气候为必备议题…",
               "quote": {
                 "text": "All disclosers will be presented with datapoints on climate change, as well as supplementary datapoints on biodiversity.",
                 "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Full corporate questionnaire structure)"
@@ -130,7 +129,6 @@
           "cards": [
             {
               "content": "员工超 1000 人或年收入超 2.5 亿美元的企业只能填完整版；其余可填中小企业版。",
-              "title": "员工超 1000 人或年收入超 …",
               "quote": {
                 "text": "Organizations with a headcount of more than 1,000 total employees or annual revenue of more than US$250 million can only complete the full corporate questionnaire.",
                 "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Eligibility to complete the SME questionnaire)"
@@ -138,7 +136,6 @@
             },
             {
               "content": "中小企业版问题更少、更简化，低于门槛的企业也可自选完整版。",
-              "title": "中小企业版问题更少、更简化…",
               "quote": {
                 "text": "The SME questionnaire is tailored to the needs of SMEs and contains fewer and simplified datapoints.",
                 "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Full and SME corporate questionnaires)"
@@ -182,7 +179,6 @@
           "cards": [
             {
               "content": "CDP 问卷跟随最新科学，并与高质量披露框架和标准保持一致。",
-              "title": "CDP 问卷跟随最新科学…",
               "quote": {
                 "text": "The CDP full corporate questionnaire follows the latest science and aligns with new high-quality disclosure frameworks and standards.",
                 "source": "CDP_Full_Corporate_Questionnaire_Overview_2026 (Overview)"

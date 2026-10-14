@@ -175,7 +175,7 @@ function guideVisual(value,esc,availableAssets=[],digest={}){
 function practicalBlock(block,key,esc,renderBlock){let body='';if(block.type==='process_flow')body=processFlow(block,esc);else if(block.type==='four_pillars')body=pillarGrid(block,esc);else if(block.type==='card_grid')body=cardGrid(block,esc);else if(block.type==='external')body=externalGrid(block,esc);else if(block.type==='guidance')body=structuredGuidance(block.content_cn||block.content||'',esc);else{const next={...block,content_cn:block.content_cn||block.content||''};delete next.content;body=renderBlock(next,key);}return body+refs(block,esc);}
 function sectionCard(section,index,layer,esc,renderBlock,guideAssets){
  const allBlocks=(section.blocks||[]),block=allBlocks[0]||{},provenance=block.provenance||'';
- const label=layer==='original'?'指引原文':layer==='guide'?'官方编制指南':provenance==='authority_explanation'?'权威标准辅助解读':provenance==='ai_assistance'?'AI辅助建议':'条文结构化整理';
+ const label=layer==='original'?'指引原文':layer==='guide'?'官方编制指南':provenance==='authority_explanation'?'权威标准辅助解读':provenance==='ai_assistance'?'AI辅助建议':'';
  let body='',hasFigure=false;
 if(layer==='original'&&allBlocks.length>1){body=allBlocks.map((b,bi)=>(b.exchangeVariants||[]).length?officialBlock(b,`official-${index}-${bi}`,esc,renderBlock,section.title):practicalBlock(b,`practice-${index}-${bi}`,esc,renderBlock)).join('');}
  else if(layer==='original')body=officialBlock(block,`official-${index}`,esc,renderBlock,section.title);
@@ -189,7 +189,7 @@ if(layer==='original'&&allBlocks.length>1){body=allBlocks.map((b,bi)=>(b.exchang
  if(hasFigure)notes.push('原件包含表格、图示或公式；本页呈现已核对正文，表图结构请按原件入口核对。');
  const hoverNote=notes.length?`<button class="kd-meta-note" type="button" title="${esc(notes.join(' '))}" aria-label="查看来源与呈现说明">ⓘ</button>`:'';
 const sourceLine=layer==='guide'&&block.source?`<small>${esc(block.source)}</small>`:'';
-const showLabel=layer==='practical';const heading=esc(section.title||block.title||`内容 ${index+1}`);return `<article class="kd-content-card kd-${layer}" id="source-${index+1}"><header>${showLabel?`<span>${label}${hoverNote}</span><h3>${heading}</h3>`:`<h3>${heading}${hoverNote}</h3>`}${sourceLine}</header><div class="kd-card-body">${body}</div></article>`;
+const showLabel=layer==='practical'&&!!label;const heading=esc(section.title||block.title||`内容 ${index+1}`);return `<article class="kd-content-card kd-${layer}" id="source-${index+1}"><header>${showLabel?`<span>${label}${hoverNote}</span><h3>${heading}</h3>`:`<h3>${heading}${hoverNote}</h3>`}${sourceLine}</header><div class="kd-card-body">${body}</div></article>`;
 }
 function layerSection(layer,sections,esc,renderBlock,guideAssets,meta){if(!sections.length)return'';meta=meta||sourceLayers[layer];let lastGroup='';const list=sections.map(({section,index})=>{const group=String(section.groupTitle||'').trim(),head=group&&group!==lastGroup?`<div class="kd-group-head"><span>${esc(group)}</span></div>`:'';if(group)lastGroup=group;return head+sectionCard(section,index,layer,esc,renderBlock,guideAssets);}).join('');return `<section class="kd-sec" id="${layer}"><header><span>${meta.eyebrow}</span><h2>${meta.title}</h2><p>${meta.desc}</p></header><div class="kd-layer-list">${list}</div></section>`;}
 function relationData(relations){if(Array.isArray(relations))return{internal:relations,external:[]};return{internal:relations?.internal||[],external:relations?.external||[]};}

@@ -121,7 +121,6 @@
           "cards": [
             {
               "content": "森林 essential criteria 仅应用于领导力与 A 名单层，未满足则相应封顶。",
-              "title": "森林 essential cri…",
               "quote": {
                 "text": "essential criteria for Forests are applied across Leadership and A list levels.",
                 "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (Introduction)"
@@ -129,7 +128,6 @@
             },
             {
               "content": "森林 essential criteria 仅适用于完整版问卷，金融部门为例外（EC-F2 仅适用金融）。",
-              "title": "森林 essential cri…",
               "quote": {
                 "text": "If a criterion is applied to Leadership level and the check is not met, this will limit an organization’s final score to a B. Similarly, if the A list criteria are not met then the final score will be limited to an A-.",
                 "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (How to use this document)"
@@ -167,7 +165,6 @@
           "cards": [
             {
               "content": "各类大宗先算出商品子分，再平均形成单一森林评分，后者是 A 名单评定的官方评分。",
-              "title": "各类大宗先算出商品子分…",
               "quote": {
                 "text": "Alongside the single Forests score and category scores, commodity sub-scores are calculated to provide additional feedback to disclosers on their performance on an individual commodity level.",
                 "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Commodity sub-scores)"
@@ -175,7 +172,6 @@
             },
             {
               "content": "除气候外，森林也按类别权重计算管理与领导力层分数。",
-              "title": "除气候外…",
               "quote": {
                 "text": "At the Management and Leadership levels, weightings are applied using category scores as they are for Climate Change and Water Security.",
                 "source": "CDP_Full_Corporate_Scoring_Introduction_2026 (Forests scoring)"
@@ -195,7 +191,6 @@
           "cards": [
             {
               "content": "森林评分关注企业对驱动毁林的大宗商品的依赖，以及向无毁林供应链转型的进展。",
-              "title": "森林评分关注企业对驱动毁林的大宗…",
               "quote": {
                 "text": "CDP recognizes the importance of environmental transparency in incentivizing positive and effective actions to mitigate risks due to climate change, water security, and deforestation.",
                 "source": "CDP_Forests_Scoring_Essential_Criteria_2026 (Introduction)"
@@ -203,7 +198,6 @@
             },
             {
               "content": "CSA 亦设可持续原材料标准，关注森林经营与监管链认证，与 CDP 森林评分互补。",
-              "title": "CSA 亦设可持续原材料标准…",
               "quote": {
                 "text": "CDP 整合企业问卷，与 ISSB 气候标准保持一致，并扩大与 TNFD 的一致性。",
                 "source": "Why_disclose_to_CDP_in_2026_-_China (CDP 简介时间线)",
