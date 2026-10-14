@@ -91,7 +91,11 @@
             },
             {
               "title": "验证服务",
-              "content": "SBTi Services 受理并核查企业与金融机构提交的近期目标与净零目标。"
+              "content": "SBTi Services 受理并核查企业与金融机构提交的近期目标与净零目标。",
+              "quote": {
+                "text": "The SBTi is incorporated as a UK charity, with a subsidiary SBTi Services Limited, which hosts our target validation services.",
+                "source": "SBTi《企业净零标准》V2.0（2026年6月）"
+              }
             },
             {
               "title": "目标仪表盘",
