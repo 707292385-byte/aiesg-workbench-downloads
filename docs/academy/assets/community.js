@@ -67,31 +67,34 @@
     { image: 'assets/community/offer-ai-practice.png', title: 'AI实践带练', description: '从真实工作场景练习AI整理、分析与复核。' },
     { image: 'assets/community/offer-business.png', title: '商务合作', description: '欢迎内容共创、培训合作、产品试用与沟通。' }
   ];
-  const projectTools = {
-    current: {
+  const projectTools = [
+    {
+      key: 'workbench',
       title: 'AI×ESG 工作台',
-      label: '当前主项目',
-      status: '持续开发 · 可下载体验',
+      label: 'PROJECT 01',
+      status: '可下载体验',
       description: '面向 ESG 咨询与企业实践的本地工作平台，把项目、任务、客户、知识和 AI 工具放进同一套工作流程。',
       features: ['项目与任务协同', '客户与项目资料', '知识学堂与报告查询', '可扩展的 AI Skill'],
       help: '../help/',
       download: 'https://github.com/707292385-byte/aiesg-workbench-downloads/releases'
     },
-    upcoming: [
-      {
-        title: '双重重要性问卷',
-        status: '规划中',
-        description: '围绕影响重要性和财务重要性，支持利益相关方问卷、议题归类与结果汇总。',
-        icon: 'methods'
-      },
-      {
-        title: 'PPT Skill',
-        status: '筹备中',
-        description: '把结构化内容转成可编辑、可复核的咨询演示文稿，减少重复排版工作。',
-        icon: 'ai'
-      }
-    ]
-  };
+    {
+      key: 'materiality',
+      title: '双重重要性评估',
+      label: 'PROJECT 02',
+      status: '正在推进',
+      description: '围绕影响重要性和财务重要性，逐步连接议题库、利益相关方问卷、评估过程与结果展示。',
+      features: ['利益相关方问卷', '议题识别与归类', '双重重要性矩阵']
+    },
+    {
+      key: 'ppt',
+      title: 'PPT Skill',
+      label: 'TOOL 03',
+      status: '筹备中',
+      description: '把结构化内容转成可编辑、可复核的咨询演示文稿，让内容逻辑与视觉表达同步完成。',
+      features: ['可编辑演示文稿', '咨询风格模板', '结构与视觉复核']
+    }
+  ];
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -299,16 +302,20 @@
   }
 
   function renderProjects() {
-    const current = projectTools.current;
-    const featureItems = current.features.map(item => '<li><span aria-hidden="true">✓</span>' + escapeHtml(item) + '</li>').join('');
-    const upcoming = projectTools.upcoming.map((item, index) => '<article class="co-upcoming-card">'
-      + '<div class="co-upcoming-icon">' + svgIcon(item.icon) + '</div><div class="co-upcoming-copy"><div class="co-project-label"><small>接下来 · ' + String(index + 1).padStart(2, '0') + '</small><span>' + escapeHtml(item.status) + '</span></div>'
-      + '<h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p></div></article>').join('');
-    return '<div class="co-projects">'
-      + '<article class="co-project-featured"><div class="co-project-preview" aria-hidden="true"><div class="co-preview-bar"><i></i><i></i><i></i><strong>AI×ESG</strong></div><div class="co-preview-body"><div class="co-preview-nav"><b></b><i></i><i></i><i></i><i></i></div><div class="co-preview-canvas"><span>今日工作</span><div class="co-preview-stats"><b></b><b></b><b></b></div><div class="co-preview-panel"><i></i><i></i><i></i><i></i></div></div></div></div>'
-      + '<div class="co-project-copy"><div class="co-project-label"><small>' + escapeHtml(current.label) + '</small><span>' + escapeHtml(current.status) + '</span></div><h3>' + escapeHtml(current.title) + '</h3><p>' + escapeHtml(current.description) + '</p><ul>' + featureItems + '</ul><div class="co-project-actions"><a class="co-project-primary" href="' + current.help + '" target="_blank" rel="noopener">查看功能介绍 <b aria-hidden="true">↗</b></a><a href="' + current.download + '" target="_blank" rel="noopener noreferrer">下载安装包 <span aria-hidden="true">→</span></a></div></div></article>'
-      + '<div class="co-project-roadmap"><div class="co-project-roadmap-head"><span>COMING NEXT</span><h3>接下来会加入</h3><p>先把正在做的方向放在这里，达到可体验状态后再开放入口。</p></div><div class="co-upcoming-list">' + upcoming + '</div></div>'
-      + '</div>';
+    const visual = item => item.key === 'workbench'
+      ? '<div class="co-tool-visual co-tool-visual--workbench" aria-hidden="true"><div class="co-mini-appbar"><i></i><i></i><i></i><strong>AI×ESG</strong></div><div class="co-mini-workspace"><aside><b></b><i></i><i></i><i></i></aside><main><span>今日工作</span><div><b></b><b></b><b></b></div><p><i></i><i></i><i></i></p></main></div></div>'
+      : item.key === 'materiality'
+        ? '<div class="co-tool-visual co-tool-visual--materiality" aria-hidden="true"><div class="co-materiality-axis"><span>影响重要性</span><small>财务重要性</small><i></i><i></i><i></i><i></i><i></i><i></i></div></div>'
+        : '<div class="co-tool-visual co-tool-visual--ppt" aria-hidden="true"><div class="co-slide-stack"><i></i><i></i><article><span></span><b></b><b></b><b></b></article></div></div>';
+    const cards = projectTools.map(item => {
+      const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
+      const actions = item.help
+        ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + item.help + '" target="_blank" rel="noopener">查看介绍 <b aria-hidden="true">↗</b></a><a href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装 <span aria-hidden="true">→</span></a></div>'
+        : '<small class="co-tool-note">完善到可体验状态后开放入口</small>';
+      return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
+        + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
+    }).join('');
+    return '<div class="co-projects">' + cards + '</div>';
   }
   async function initializeReportEntry() {
     const form = document.getElementById('co-report-form');
@@ -344,7 +351,7 @@
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多　→</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
       + '</div></div></article></section>'
-      + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '正在推进的项目与工具', '从真实工作问题出发，逐步做成可使用的工具') + renderProjects() + '</section>'
+      + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
       + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
