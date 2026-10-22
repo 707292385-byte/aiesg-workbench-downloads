@@ -84,7 +84,8 @@
       label: 'PROJECT 02',
       status: '正在推进',
       description: '围绕影响重要性和财务重要性，逐步连接议题库、利益相关方问卷、评估过程与结果展示。',
-      features: ['利益相关方问卷', '议题识别与归类', '双重重要性矩阵']
+      features: ['行业议题推荐', '标准来源追溯', '动态评分与矩阵'],
+      tool: 'materiality.html'
     },
     {
       key: 'ppt',
@@ -311,7 +312,9 @@
       const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
       const actions = item.help
         ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + item.help + '" target="_blank" rel="noopener">查看介绍 <b aria-hidden="true">↗</b></a><a href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装 <span aria-hidden="true">→</span></a></div>'
-        : '<small class="co-tool-note">完善到可体验状态后开放入口</small>';
+        : item.tool
+          ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + pageHref(item.tool) + '">开始体验 <b aria-hidden="true">→</b></a></div>'
+          : '<small class="co-tool-note">完善到可体验状态后开放入口</small>';
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
