@@ -201,6 +201,48 @@
     return axis === 'x' ? 72 + ((score - 1) / 4) * 468 : 522 - ((score - 1) / 4) * 438;
   }
 
+  function spreadPoints(points, minDistance = 31, bounds = { minX: 88, maxX: 524, minY: 100, maxY: 506 }) {
+    const offsets = [{ x: 0, y: 0 }];
+    for (let ring = 1; ring <= 4; ring += 1) {
+      const count = ring * 8;
+      const radius = ring * minDistance;
+      for (let index = 0; index < count; index += 1) {
+        const angle = (Math.PI * 2 * index) / count - Math.PI / 2;
+        offsets.push({ x: Math.cos(angle) * radius, y: Math.sin(angle) * radius });
+      }
+    }
+    const placed = [];
+    return points.map(point => {
+      let chosen = null;
+      for (const offset of offsets) {
+        const candidate = { x: point.baseX + offset.x, y: point.baseY + offset.y };
+        const inside = candidate.x >= bounds.minX && candidate.x <= bounds.maxX && candidate.y >= bounds.minY && candidate.y <= bounds.maxY;
+        const clear = placed.every(item => Math.hypot(item.x - candidate.x, item.y - candidate.y) >= minDistance);
+        if (inside && clear) { chosen = candidate; break; }
+      }
+      if (!chosen) chosen = {
+        x: Math.min(bounds.maxX, Math.max(bounds.minX, point.baseX)),
+        y: Math.min(bounds.maxY, Math.max(bounds.minY, point.baseY))
+      };
+      const result = Object.assign({}, point, chosen);
+      placed.push(result);
+      return result;
+    });
+  }
+
+  function matrixPointLayout(topics) {
+    return spreadPoints(topics.map((topic, index) => {
+      const scores = ensureScores(topic);
+      return {
+        topic,
+        index,
+        scores,
+        baseX: matrixPosition(scores.financial, 'x'),
+        baseY: matrixPosition(scores.impact, 'y')
+      };
+    }));
+  }
+
   function renderMatrix() {
     const topics = selectedTopics();
     const thresholdX = matrixPosition(state.threshold, 'x');
@@ -210,13 +252,12 @@
       const y = matrixPosition(value, 'y');
       return '<line x1="' + x + '" x2="' + x + '" y1="84" y2="522"/><line x1="72" x2="540" y1="' + y + '" y2="' + y + '"/><text x="' + x + '" y="548">' + value + '</text><text x="53" y="' + (y + 4) + '">' + value + '</text>';
     }).join('');
-    const points = topics.map((topic, index) => {
-      const scores = ensureScores(topic);
-      const x = matrixPosition(scores.financial, 'x');
-      const y = matrixPosition(scores.impact, 'y');
+    const points = matrixPointLayout(topics).map(point => {
+      const { topic, index, scores, baseX, baseY, x, y } = point;
       const label = displayName(topic);
       const number = index + 1;
-      return '<g class="dm-point dm-point--' + topic.category.toLowerCase() + '" tabindex="0" role="button" data-matrix-topic="' + topic.id + '" aria-label="' + escapeHtml(label) + '，影响重要性' + scores.impact + '，财务重要性' + scores.financial + '"><circle cx="' + x + '" cy="' + y + '" r="13"></circle><text x="' + x + '" y="' + (y + 4) + '">' + number + '</text><title>' + escapeHtml(label) + '｜影响 ' + scores.impact + '｜财务 ' + scores.financial + '</title></g>';
+      const leader = Math.hypot(x - baseX, y - baseY) > 2 ? '<line class="dm-point-leader" x1="' + baseX + '" y1="' + baseY + '" x2="' + x + '" y2="' + y + '"></line>' : '';
+      return leader + '<g class="dm-point dm-point--' + topic.category.toLowerCase() + '" tabindex="0" role="button" data-matrix-topic="' + topic.id + '" aria-label="' + escapeHtml(label) + '，影响重要性' + scores.impact + '，财务重要性' + scores.financial + '"><circle cx="' + x + '" cy="' + y + '" r="13"></circle><text x="' + x + '" y="' + (y + 4) + '">' + number + '</text><title>' + escapeHtml(label) + '｜影响 ' + scores.impact + '｜财务 ' + scores.financial + '</title></g>';
     }).join('');
     return '<svg class="dm-matrix" viewBox="0 0 600 590" role="img" aria-labelledby="dm-matrix-title dm-matrix-desc">'
       + '<title id="dm-matrix-title">双重重要性矩阵</title><desc id="dm-matrix-desc">横轴是财务重要性，纵轴是影响重要性，虚线为当前阈值。</desc>'
@@ -255,18 +296,29 @@
       + '<div class="dm-score-rows">' + topics.map((topic, index) => renderScoreRow(topic, index)).join('') + '</div></section>';
   }
 
+  function renderAssessmentProcess() {
+    const steps = [
+      ['01', '确定评估边界', '企业、行业与适用标准'],
+      ['02', '识别候选议题', '业务活动、价值链与利益相关方'],
+      ['03', '收集判断证据', '影响、风险、机遇与反馈'],
+      ['04', '开展双维评分', '影响重要性 × 财务重要性'],
+      ['05', '审议并形成披露', '阈值、矩阵、清单与报告映射']
+    ];
+    return '<section class="dm-assessment-process dm-panel"><div class="dm-process-head"><div><small>方法流程</small><h2>双重重要性评估怎样完成</h2></div><p>先形成可解释的证据链，再确定分数、阈值和披露结论。</p></div><div class="dm-process-flow">'
+      + steps.map((step, index) => '<div class="dm-process-step' + (index < 2 ? ' is-done' : index < 4 ? ' is-current' : '') + '"><b>' + step[0] + '</b><span><strong>' + step[1] + '</strong><small>' + step[2] + '</small></span></div>').join('')
+      + '</div></section>';
+  }
+
   function renderResults() {
     const summary = scoreSummary();
     return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix">导出矩阵图片</button><button type="button" data-action="export-list">导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
-      + '<div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div></div>'
-      + '<div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较，落入对应的重要性区域。阈值应由企业批准并保持年度间可解释。</p></div>'
-      + '<div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div>'
-      + '<div class="dm-legend"><span><i class="e"></i>环境</span><span><i class="s"></i>社会</span><span><i class="g"></i>治理</span><small>圆点编号对应下方议题顺序</small></div>'
+      + '<div class="dm-result-layout"><div class="dm-matrix-column"><div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div><div class="dm-legend"><span><i class="e"></i>环境</span><span><i class="s"></i>社会</span><span><i class="g"></i>治理</span><small>引导线连接原始得分坐标，圆点编号对应下方议题顺序</small></div></div>'
+      + '<aside class="dm-result-side"><div class="dm-side-title"><small>结果概览</small><strong>' + state.selected.length + ' 个议题</strong></div><div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div></div><div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较。阈值应由企业批准，并保留判断依据。</p></div><div class="dm-result-rule"><b>判定方式</b><span>双维均达阈值：双重重要</span><span>单维达阈值：影响或财务重要</span></div></aside></div>'
       + '</section>';
   }
 
   function renderStepTwo() {
-    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题清单</button><p><strong>' + state.selected.length + ' 个议题进入评估</strong><span>建议在评分前明确参与人员、评分尺度和证据要求。</span></p></div>' + renderResults() + renderScoreList()
+    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题清单</button><p><strong>' + state.selected.length + ' 个议题进入评估</strong><span>建议在评分前明确参与人员、评分尺度和证据要求。</span></p></div>' + renderAssessmentProcess() + renderResults() + renderScoreList()
       + '<section class="dm-method-note"><strong>评分建议</strong><p>影响重要性可从影响规模、范围、不可补救性与发生可能性判断；财务重要性可从风险或机遇的金额、发生可能性和时间范围判断。当前分数是启动值，应由跨部门与利益相关方证据校准。</p></section></div>';
   }
 
@@ -394,10 +446,24 @@
     context.fillText('双重重要', thresholdX + 24, chart.top + 38);
     context.fillText('财务重要', thresholdX + 24, thresholdY + 38);
 
-    selectedTopics().forEach((topic, index) => {
-      const scores = ensureScores(topic);
-      const x = scoreX(scores.financial);
-      const y = scoreY(scores.impact);
+    const exportPoints = matrixPointLayout(selectedTopics()).map(point => ({
+      ...point,
+      x: chart.left + ((point.x - 72) / 468) * chart.width,
+      y: chart.top + ((point.y - 84) / 438) * chart.height,
+      baseX: chart.left + ((point.baseX - 72) / 468) * chart.width,
+      baseY: chart.top + ((point.baseY - 84) / 438) * chart.height
+    }));
+    exportPoints.forEach(point => {
+      if (Math.hypot(point.x - point.baseX, point.y - point.baseY) <= 2) return;
+      context.beginPath();
+      context.moveTo(point.baseX, point.baseY);
+      context.lineTo(point.x, point.y);
+      context.strokeStyle = '#9aaca3';
+      context.lineWidth = 2;
+      context.stroke();
+    });
+    exportPoints.forEach(point => {
+      const { topic, index, x, y } = point;
       context.beginPath();
       context.arc(x, y, 21, 0, Math.PI * 2);
       context.fillStyle = pointColors[topic.category] || '#607d72';
@@ -572,6 +638,7 @@
   window.MaterialityTool = {
     clampScore,
     csvCell,
+    spreadPoints,
     classify(scores, threshold) {
       const impact = scores.impact >= threshold;
       const financial = scores.financial >= threshold;
