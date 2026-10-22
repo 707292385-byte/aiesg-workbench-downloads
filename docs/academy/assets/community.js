@@ -67,6 +67,31 @@
     { image: 'assets/community/offer-ai-practice.png', title: 'AI实践带练', description: '从真实工作场景练习AI整理、分析与复核。' },
     { image: 'assets/community/offer-business.png', title: '商务合作', description: '欢迎内容共创、培训合作、产品试用与沟通。' }
   ];
+  const projectTools = {
+    current: {
+      title: 'AI×ESG 工作台',
+      label: '当前主项目',
+      status: '持续开发 · 可下载体验',
+      description: '面向 ESG 咨询与企业实践的本地工作平台，把项目、任务、客户、知识和 AI 工具放进同一套工作流程。',
+      features: ['项目与任务协同', '客户与项目资料', '知识学堂与报告查询', '可扩展的 AI Skill'],
+      help: '../help/',
+      download: 'https://github.com/707292385-byte/aiesg-workbench-downloads/releases'
+    },
+    upcoming: [
+      {
+        title: '双重重要性问卷',
+        status: '规划中',
+        description: '围绕影响重要性和财务重要性，支持利益相关方问卷、议题归类与结果汇总。',
+        icon: 'methods'
+      },
+      {
+        title: 'PPT Skill',
+        status: '筹备中',
+        description: '把结构化内容转成可编辑、可复核的咨询演示文稿，减少重复排版工作。',
+        icon: 'ai'
+      }
+    ]
+  };
 
   const escapeHtml = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -226,7 +251,7 @@
 
   function renderOffers() {
     return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer co-offer--compact"><div class="co-offer-illustration"><img src="' + item.image + '" alt="' + item.title + '服务场景插画"></div><div class="co-offer-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p></div><span class="co-offer-paid">付费</span></article>').join('') + '</div>'
-      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>选择交流方向，说明想交流的问题，并留下微信号、电话或邮箱中的一种。</p></div><button type="button" class="co-action-btn" data-open-community-form="contact">打开联系表单 <b aria-hidden="true">↗</b></button></div>';
+      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>可以提出一个问题，也可以选择合作方向并留下回复方式。</p></div><div class="co-contact-actions"><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button><button type="button" class="co-action-btn" data-open-community-form="contact">联系与合作 <b aria-hidden="true">↗</b></button></div></div>';
   }
 
   function publicQuestions(publicData) {
@@ -272,6 +297,19 @@
       + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告 <span aria-hidden="true">→</span></button></div></form>'
       + '<p class="co-report-hint">企业与行业筛选 · 在线查看原文 · 报告清单导出</p></div></div></section>';
   }
+
+  function renderProjects() {
+    const current = projectTools.current;
+    const featureItems = current.features.map(item => '<li><span aria-hidden="true">✓</span>' + escapeHtml(item) + '</li>').join('');
+    const upcoming = projectTools.upcoming.map((item, index) => '<article class="co-upcoming-card">'
+      + '<div class="co-upcoming-icon">' + svgIcon(item.icon) + '</div><div class="co-upcoming-copy"><div class="co-project-label"><small>接下来 · ' + String(index + 1).padStart(2, '0') + '</small><span>' + escapeHtml(item.status) + '</span></div>'
+      + '<h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p></div></article>').join('');
+    return '<div class="co-projects">'
+      + '<article class="co-project-featured"><div class="co-project-preview" aria-hidden="true"><div class="co-preview-bar"><i></i><i></i><i></i><strong>AI×ESG</strong></div><div class="co-preview-body"><div class="co-preview-nav"><b></b><i></i><i></i><i></i><i></i></div><div class="co-preview-canvas"><span>今日工作</span><div class="co-preview-stats"><b></b><b></b><b></b></div><div class="co-preview-panel"><i></i><i></i><i></i><i></i></div></div></div></div>'
+      + '<div class="co-project-copy"><div class="co-project-label"><small>' + escapeHtml(current.label) + '</small><span>' + escapeHtml(current.status) + '</span></div><h3>' + escapeHtml(current.title) + '</h3><p>' + escapeHtml(current.description) + '</p><ul>' + featureItems + '</ul><div class="co-project-actions"><a class="co-project-primary" href="' + current.help + '" target="_blank" rel="noopener">查看功能介绍 <b aria-hidden="true">↗</b></a><a href="' + current.download + '" target="_blank" rel="noopener noreferrer">下载安装包 <span aria-hidden="true">→</span></a></div></div></article>'
+      + '<div class="co-project-roadmap"><div class="co-project-roadmap-head"><span>COMING NEXT</span><h3>接下来会加入</h3><p>先把正在做的方向放在这里，达到可体验状态后再开放入口。</p></div><div class="co-upcoming-list">' + upcoming + '</div></div>'
+      + '</div>';
+  }
   async function initializeReportEntry() {
     const form = document.getElementById('co-report-form');
     if (!form) return;
@@ -294,11 +332,10 @@
   function render(publicData) {
     const root = document.getElementById('community-page');
     if (!root) return;
-    const questions = publicQuestions(publicData);
     const observations = publicObservations(publicData);
     const recentObservations = observations.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也记录这个工作台如何慢慢做出来。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-community"><span>' + svgIcon('map') + '</span>共创社区</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-projects"><span>' + svgIcon('ai') + '</span>项目与工具</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多　→</a></div><div class="co-items">'
@@ -307,11 +344,7 @@
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多　→</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
       + '</div></div></article></section>'
-      + '<section class="co-section" id="co-community">' + sectionHead('02', 'map', '共创社区', '感谢伙伴，整理大家关心的问题')
-      + renderMap(publicData)
-      + '<div class="co-questions"><div class="co-question-head"><div><h3>大家关注的问题</h3><p>只展示完成整理、适合公开讨论的内容。</p></div><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button></div><div class="co-question-grid">'
-      + (questions.length ? questions.map(renderQuestion).join('') : emptyState('暂未公开问题。'))
-      + '</div></div></section>'
+      + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '正在推进的项目与工具', '从真实工作问题出发，逐步做成可使用的工具') + renderProjects() + '</section>'
       + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
