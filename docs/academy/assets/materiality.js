@@ -257,7 +257,7 @@
 
   function renderResults() {
     const summary = scoreSummary();
-    return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2></div><div class="dm-toolbar-actions"><button type="button" data-action="export">导出结果</button><button type="button" data-action="print">打印</button></div></div>'
+    return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix">导出矩阵图片</button><button type="button" data-action="export-list">导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
       + '<div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div></div>'
       + '<div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较，落入对应的重要性区域。阈值应由企业批准并保持年度间可解释。</p></div>'
       + '<div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div>'
@@ -294,31 +294,151 @@
     });
   }
 
-  function exportResult() {
-    const map = topicMap();
-    const payload = {
-      exportedAt: new Date().toISOString(),
-      companyName: state.companyName,
-      industry: library.industries.find(item => item.id === state.industry)?.name || state.industry,
-      standards: state.standards.map(id => standardById(id)?.name || id),
-      threshold: state.threshold,
-      topics: state.selected.map(id => {
-        const topic = map.get(id);
-        const scores = topic ? ensureScores(topic) : { impact: 3, financial: 3 };
-        return topic ? {
-          name: displayName(topic), category: CATEGORY_NAMES[topic.category], description: topic.description,
-          impactScore: scores.impact, financialScore: scores.financial,
-          result: classification(topic).label, evidence: state.notes[id] || '', source: topic.source
-        } : null;
-      }).filter(Boolean)
-    };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json;charset=utf-8' });
+  function safeFilename(value) {
+    return String(value || '双重重要性评估').replace(/[\\/:*?"<>|]+/g, '_').slice(0, 80);
+  }
+
+  function downloadBlob(blob, filename) {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = (state.companyName || '双重重要性评估') + '_结果.json';
+    link.download = filename;
     link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function csvCell(value) {
+    return '"' + String(value == null ? '' : value).replace(/"/g, '""') + '"';
+  }
+
+  function exportTopicList() {
+    const industry = library.industries.find(item => item.id === state.industry)?.name || state.industry;
+    const standards = state.standards.map(id => standardById(id)?.name || id).join('；');
+    const rows = [['序号', '企业名称', '所属行业', '采用标准', '议题类别', '议题名称', '议题说明', '影响重要性得分', '财务重要性得分', '重要性结论', '重要性阈值', '评分依据与备注', '参考来源']];
+    selectedTopics().forEach((topic, index) => {
+      const scores = ensureScores(topic);
+      rows.push([
+        index + 1, state.companyName || '', industry, standards, CATEGORY_NAMES[topic.category], displayName(topic),
+        topic.description, scores.impact.toFixed(1), scores.financial.toFixed(1), classification(topic).label,
+        Number(state.threshold).toFixed(1), state.notes[topic.id] || '', topic.source || '企业自定义'
+      ]);
+    });
+    const csv = '\ufeff' + rows.map(row => row.map(csvCell).join(',')).join('\r\n');
+    downloadBlob(new Blob([csv], { type: 'text/csv;charset=utf-8' }), safeFilename(state.companyName) + '_双重重要性议题清单.csv');
+  }
+
+  function exportMatrixImage() {
+    const canvas = document.createElement('canvas');
+    canvas.width = 1400;
+    canvas.height = 1180;
+    const context = canvas.getContext('2d');
+    const chart = { left: 190, top: 190, width: 1050, height: 800 };
+    const pointColors = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
+    const scoreX = score => chart.left + ((score - 1) / 4) * chart.width;
+    const scoreY = score => chart.top + chart.height - ((score - 1) / 4) * chart.height;
+    const thresholdX = scoreX(state.threshold);
+    const thresholdY = scoreY(state.threshold);
+    const industry = library.industries.find(item => item.id === state.industry)?.name || state.industry;
+
+    context.fillStyle = '#ffffff';
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.fillStyle = '#17382e';
+    context.font = '700 42px sans-serif';
+    context.fillText((state.companyName || '本次评估') + '｜双重重要性矩阵', 70, 68);
+    context.fillStyle = '#667c72';
+    context.font = '22px sans-serif';
+    context.fillText('行业：' + industry + '　阈值：' + Number(state.threshold).toFixed(1) + '　议题：' + state.selected.length + '项', 70, 108);
+
+    context.fillStyle = '#e9f5ee';
+    context.fillRect(chart.left, chart.top, thresholdX - chart.left, thresholdY - chart.top);
+    context.fillStyle = '#dff2e7';
+    context.fillRect(thresholdX, chart.top, chart.left + chart.width - thresholdX, thresholdY - chart.top);
+    context.fillStyle = '#edf2f8';
+    context.fillRect(thresholdX, thresholdY, chart.left + chart.width - thresholdX, chart.top + chart.height - thresholdY);
+
+    context.strokeStyle = '#dfe8e2';
+    context.lineWidth = 2;
+    context.fillStyle = '#768a80';
+    context.font = '20px sans-serif';
+    context.textAlign = 'center';
+    for (let score = 1; score <= 5; score += 1) {
+      const x = scoreX(score);
+      const y = scoreY(score);
+      context.beginPath();
+      context.moveTo(x, chart.top);
+      context.lineTo(x, chart.top + chart.height);
+      context.moveTo(chart.left, y);
+      context.lineTo(chart.left + chart.width, y);
+      context.stroke();
+      context.fillText(String(score), x, chart.top + chart.height + 35);
+      context.textAlign = 'right';
+      context.fillText(String(score), chart.left - 22, y + 7);
+      context.textAlign = 'center';
+    }
+
+    context.strokeStyle = '#a97039';
+    context.lineWidth = 3;
+    context.setLineDash([12, 10]);
+    context.beginPath();
+    context.moveTo(thresholdX, chart.top);
+    context.lineTo(thresholdX, chart.top + chart.height);
+    context.moveTo(chart.left, thresholdY);
+    context.lineTo(chart.left + chart.width, thresholdY);
+    context.stroke();
+    context.setLineDash([]);
+
+    context.fillStyle = '#587064';
+    context.font = '700 22px sans-serif';
+    context.textAlign = 'left';
+    context.fillText('影响重要', chart.left + 24, chart.top + 38);
+    context.fillText('双重重要', thresholdX + 24, chart.top + 38);
+    context.fillText('财务重要', thresholdX + 24, thresholdY + 38);
+
+    selectedTopics().forEach((topic, index) => {
+      const scores = ensureScores(topic);
+      const x = scoreX(scores.financial);
+      const y = scoreY(scores.impact);
+      context.beginPath();
+      context.arc(x, y, 21, 0, Math.PI * 2);
+      context.fillStyle = pointColors[topic.category] || '#607d72';
+      context.fill();
+      context.strokeStyle = '#ffffff';
+      context.lineWidth = 4;
+      context.stroke();
+      context.fillStyle = '#ffffff';
+      context.font = '700 16px sans-serif';
+      context.textAlign = 'center';
+      context.fillText(String(index + 1), x, y + 6);
+    });
+
+    context.fillStyle = '#355f4b';
+    context.font = '700 24px sans-serif';
+    context.textAlign = 'center';
+    context.fillText('财务重要性 →', chart.left + chart.width / 2, 1068);
+    context.save();
+    context.translate(62, chart.top + chart.height / 2);
+    context.rotate(-Math.PI / 2);
+    context.fillText('影响重要性 →', 0, 0);
+    context.restore();
+
+    context.textAlign = 'left';
+    context.font = '18px sans-serif';
+    const legend = [['#138a61', '环境'], ['#2878b8', '社会'], ['#d48a24', '治理']];
+    let legendX = 70;
+    legend.forEach(item => {
+      context.beginPath();
+      context.arc(legendX, 1140, 8, 0, Math.PI * 2);
+      context.fillStyle = item[0];
+      context.fill();
+      context.fillStyle = '#6e8178';
+      context.fillText(item[1], legendX + 15, 1146);
+      legendX += 90;
+    });
+    context.fillText('圆点编号对应导出议题清单中的序号', legendX + 15, 1146);
+
+    canvas.toBlob(blob => {
+      if (blob) downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性矩阵.png');
+    }, 'image/png');
   }
 
   function handleInput(event) {
@@ -415,7 +535,8 @@
     if (action === 'apply-recommendations') { applyRecommendations(); render(); }
     if (action === 'go-scores') { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-topics') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
-    if (action === 'export') exportResult();
+    if (action === 'export-matrix') exportMatrixImage();
+    if (action === 'export-list') exportTopicList();
     if (action === 'print') window.print();
     if (button.dataset.category) { state.categoryFilter = button.dataset.category; saveState(); render(); }
     if (button.dataset.matrixTopic) {
@@ -450,6 +571,7 @@
 
   window.MaterialityTool = {
     clampScore,
+    csvCell,
     classify(scores, threshold) {
       const impact = scores.impact >= threshold;
       const financial = scores.financial >= threshold;
