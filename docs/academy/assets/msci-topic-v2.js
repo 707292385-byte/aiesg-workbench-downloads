@@ -201,17 +201,14 @@
     const fourthStat = hasFramework
       ? ['管理维度', groups.length]
       : ['核心章节', Math.max(0, sections.length - sourceIndices.length)];
-    const readingNotice = hasFramework
-      ? '阅读顺序：先看评分结构，再看管理框架，最后进入各指标定义与原文。'
-      : '阅读顺序：先看议题概览与核心内容，再看评分说明和来源。';
     return `
       <div class="msci-prototype-page">
         <header class="mp-topbar"><div class="mp-topbar-inner"><a class="mp-brand" href="${backUrl}"><span>M</span>MSCI 方法论解读</a><nav>${nav.map(([target, label]) => `<a href="${target}">${label}</a>`).join('')}</nav></div></header>
         <section class="mp-hero" id="top"><div class="mp-hero-inner"><div class="mp-crumb"><a href="${homeUrl}">知识学堂</a>　/　<a href="${backUrl}">MSCI ESG评级方法论</a>　/　${esc(detail.title)}</div><div class="mp-hero-grid"><div><span class="mp-eyebrow">关键议题 · ${esc(detail.titleEn || '')}</span><h1>${esc(detail.title)}</h1><p>${esc(detail.summary || '')}</p><div class="mp-hero-tags">${[detail.pillar, detail.theme, detail.type, '完整方法论', '中英对照'].filter(Boolean).map(value => `<span>${esc(value)}</span>`).join('')}</div></div><div class="mp-hero-side"><article><small>内容章节</small><strong>${sections.length}</strong></article><article><small>内容块</small><strong>${blockCount(sections)}</strong></article><article><small>公式</small><strong>${stats.formulas}</strong></article><article><small>${fourthStat[0]}</small><strong>${fourthStat[1]}</strong></article></div></div></div></section>
         <div class="mp-page">
           <a class="mh-back" href="${backUrl}">← 返回 MSCI 方法论</a>
-          <section class="mp-section" id="overview"><div class="mp-section-head"><div class="mp-section-title"><span>01</span><h2>议题概览</h2></div><p>先判断适用范围，再进入评分和指标</p></div><div class="mp-overview-grid">${overview.map(item => `<article class="mp-metric mp-card"><small>${esc(item[0])}</small><strong>${esc(item[1])}</strong><span>${esc(item[2])}</span></article>`).join('')}</div><div class="mp-notice">${readingNotice}</div></section>
-          <section class="mp-section" id="core"><div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>核心内容</h2></div><p>折叠时便于扫描，展开后完整保留原始内容</p></div><div class="mp-accordion-stack">${coreContent(sections, groups, sourceIndices, renderBlock, esc)}</div></section>
+          <section class="mp-section" id="overview"><div class="mp-section-head"><div class="mp-section-title"><span>01</span><h2>议题概览</h2></div><p>先判断适用范围，再进入评分和指标</p></div><div class="mp-overview-grid">${overview.map(item => `<article class="mp-metric mp-card"><small>${esc(item[0])}</small><strong>${esc(item[1])}</strong><span>${esc(item[2])}</span></article>`).join('')}</div></section>
+          <section class="mp-section" id="core"><div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>核心内容</h2></div></div><div class="mp-accordion-stack">${coreContent(sections, groups, sourceIndices, renderBlock, esc)}</div></section>
           ${bodySections.join('')}
         </div>
         <footer class="mp-footer"><div><span>AI × ESG 工作台 · 方法论拆解与知识关联</span><span>正式内容以发布机构现行文件为准</span></div></footer>
