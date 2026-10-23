@@ -97,16 +97,17 @@
       description: '从议题识别、问卷收集到双维评分和动态矩阵，形成可调整、可导出的双重重要性评估底稿。',
       features: ['行业与标准议题库', '问卷包与答卷回导', '双阈值与动态矩阵'],
       tool: 'materiality.html',
-      skillDownload: ''
+      skillDownload: 'https://github.com/707292385-byte/double-materiality-assessment'
     },
     {
       key: 'todo',
       title: '待办清单',
       label: 'TOOL 03',
-      status: '待发布',
-      description: '把日常任务、优先级、截止时间与完成状态集中到一张清晰、可执行的个人待办清单。',
-      features: ['快速记录', '优先级与截止时间', '完成进度'],
-      note: '页面已完成，正式推送后补充入口'
+      status: '可自行部署',
+      description: '个人待办应用：中文一句话录入自动解析日期时间，桌面端是可增删组件的看板，手机端是随时记录的标签页。每人一套独立部署，数据不共享。',
+      features: ['一句话录入自动解析时间', '桌面组件看板', '手机标签页', '一人一实例数据隔离'],
+      repo: 'https://github.com/707292385-byte/personal-todo-app',
+      guide: 'https://github.com/707292385-byte/personal-todo-app#readme-ov-file'
     }
   ];
 
@@ -334,7 +335,13 @@
               ? '<a href="' + escapeHtml(item.skillDownload) + '" target="_blank" rel="noopener noreferrer">Skill 下载</a>'
               : '<span class="co-tool-action-placeholder" aria-disabled="true"><b>Skill 下载</b><small>整理中</small></span>')
             + '</div>'
-          : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
+          : item.repo
+            ? '<div class="co-tool-actions co-tool-actions--dual"><a class="co-tool-primary" href="' + escapeHtml(item.repo) + '" target="_blank" rel="noopener noreferrer">获取源码</a>'
+              + (item.guide
+                ? '<a href="' + escapeHtml(item.guide) + '" target="_blank" rel="noopener noreferrer">部署指南</a>'
+                : '')
+              + '</div>'
+            : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
