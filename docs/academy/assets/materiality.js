@@ -6,6 +6,7 @@
   const CATEGORY_COLORS = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
   const DEFAULT_MATRIX_COLORS = { double: '#1f5b45', single: '#dceee3', none: '#ffffff' };
   const DEFAULT_STANDARDS = ['ashare', 'esrs'];
+  const FULL_SCOPE_STANDARDS = new Set(['ashare', 'esrs', 'hkex', 'gri', 'cass']);
   const embedded = new URLSearchParams(location.search).get('embed') === '1';
   let library = null;
   let state = null;
@@ -115,19 +116,25 @@
     return value;
   }
 
+  function hasFullScopeStandard(topic) {
+    return topic.standards.some(standard => state.standards.includes(standard) && FULL_SCOPE_STANDARDS.has(standard));
+  }
+
+  function topicRecommendationLabel(topic) {
+    if (state.industry !== 'general' && topic.industries.includes(state.industry)) return '行业重点';
+    if (topic.industries.includes('general')) return '通用基础';
+    return hasFullScopeStandard(topic) ? '标准覆盖' : '行业相关';
+  }
+
   function recommendedIds() {
-    const official = library.topics
-      .filter(topic => state.standards.some(standard => topic.standardRefs && topic.standardRefs[standard]))
-      .map(topic => topic.id);
-    const relevant = library.topics
+    return library.topics
       .filter(matchesStandards)
-      .filter(topic => state.industry === 'general'
-        ? topic.industries.includes('general') || recommendationStrength(topic) >= 2
-        : topic.industries.includes(state.industry) || topic.industries.includes('general') || recommendationStrength(topic) >= 3)
+      .filter(topic => hasFullScopeStandard(topic)
+        || state.industry === 'general'
+        || topic.industries.includes(state.industry)
+        || topic.industries.includes('general'))
       .sort((left, right) => recommendationStrength(right) - recommendationStrength(left) || right.impact + right.financial - left.impact - left.financial)
-      .slice(0, state.industry === 'general' ? 18 : 22)
       .map(topic => topic.id);
-    return [...new Set([...official, ...relevant])];
   }
 
   function ensureScores(topic, baseline) {
@@ -225,7 +232,7 @@
       + '<div class="dm-form-grid"><label><span>企业名称</span><input type="text" name="companyName" maxlength="80" placeholder="例如：某某科技股份有限公司" value="' + escapeHtml(state.companyName) + '"></label>'
       + '<label><span>所属行业</span><select name="industry">' + industries + '</select></label></div>'
       + '<fieldset class="dm-standard-field"><legend>披露标准（可多选）</legend><div class="dm-standards">' + standards + '</div></fieldset>'
-      + '<div class="dm-recommend-bar"><div><strong>当前可推荐 ' + recommendedIds().length + ' 个议题</strong><small>完整纳入所选标准的官方议题，并结合行业相关性补充</small></div><button type="button" data-action="next-topics">生成议题清单 <span>→</span></button></div>'
+      + '<div class="dm-recommend-bar"><div><strong>当前将载入 ' + recommendedIds().length + ' 个议题</strong><small>通用披露框架按现有映射完整载入并标记行业重点；SASB按行业筛选</small></div><button type="button" data-action="next-topics">生成议题清单 <span>→</span></button></div>'
       + '</section>';
   }
 
@@ -244,7 +251,7 @@
   function renderTopicCard(topic, recommended) {
     const selected = state.selected.includes(topic.id);
     return '<article class="dm-topic dm-topic--' + topic.category.toLowerCase() + (selected ? ' is-selected' : '') + '" data-topic-card="' + topic.id + '">'
-      + '<div class="dm-topic-select"><label><input type="checkbox" data-topic-select="' + topic.id + '"' + (selected ? ' checked' : '') + '><span aria-hidden="true"></span></label><b>' + escapeHtml(CATEGORY_NAMES[topic.category]) + '</b>' + (recommended ? '<small>推荐</small>' : '') + '</div>'
+      + '<div class="dm-topic-select"><label><input type="checkbox" data-topic-select="' + topic.id + '"' + (selected ? ' checked' : '') + '><span aria-hidden="true"></span></label><b>' + escapeHtml(CATEGORY_NAMES[topic.category]) + '</b>' + (recommended ? '<small>' + topicRecommendationLabel(topic) + '</small>' : '') + '</div>'
       + '<input class="dm-topic-name" data-topic-name="' + topic.id + '" value="' + escapeHtml(displayName(topic)) + '" aria-label="修改' + escapeHtml(topic.name) + '的名称">'
       + '<p>' + escapeHtml(topic.description) + '</p><div class="dm-topic-sources">' + (topic.custom ? '<span class="dm-topic-ref"><b>企业自定义</b><i>新增议题</i></span>' : sourceTags(topic)) + '</div>'
       + '</article>';
@@ -277,7 +284,7 @@
     }).join('');
     return '<section class="dm-library dm-panel"><div class="dm-panel-head dm-topic-head"><div><small>候选议题库</small><h2>按环境、社会、治理校准议题</h2></div><div class="dm-topic-tools"><div class="dm-view-switch" role="group" aria-label="议题布局"><button type="button" data-topic-view="cards" class="' + (state.topicView === 'cards' ? 'is-active' : '') + '">卡片</button><button type="button" data-topic-view="list" class="' + (state.topicView === 'list' ? 'is-active' : '') + '">列表</button></div><div class="dm-selection-count"><strong>' + selectedCount + '</strong><span>已选议题</span></div></div></div>'
       + renderCustomTopicForm()
-      + '<div class="dm-library-note"><span>名称可直接修改</span><p>标准标签后的编号用于本工具稳定映射，不替代交易所条款号。A股标准选择后完整显示官方 21 项议题。</p></div>'
+      + '<div class="dm-library-note"><span>名称可直接修改</span><p>通用披露框架先完整载入本议题库已有映射，再用“行业重点／通用基础／标准覆盖”说明推荐原因；标准标签后的编号用于本工具稳定映射，不替代正式条款号。</p></div>'
       + '<div class="dm-topic-groups dm-topic-groups--' + state.topicView + '">' + groups + '</div>'
       + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div><div class="dm-step-action-buttons"><button type="button" class="dm-secondary" data-action="back-setup">← 返回评估范围</button><button type="button" class="dm-primary" data-action="next-questionnaire"' + (selectedCount ? '' : ' disabled') + '>进入问卷收集 <span>→</span></button></div></footer>'
       + '</section>';
