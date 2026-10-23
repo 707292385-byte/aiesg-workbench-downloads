@@ -526,3 +526,35 @@ body{background:#f3f5f3;color:#17261f}
 @media(max-width:760px){
   .co-section-head{align-items:center;flex-wrap:nowrap}.co-section-head p{width:auto}.co-band-intro{min-height:215px;padding:34px 24px}.co-band-content{padding:27px 20px 31px}.co-band--reports .co-band-intro{min-height:225px}.co-band--reports .co-band-content{padding:27px 20px 31px}
 }
+
+/* 2026-10-23 第三轮：前三个入口采用紧凑的产品卡片，避免连续整页大色块。 */
+.co-report-entry .co-band{overflow:visible;min-height:0;border-radius:28px;background:transparent;box-shadow:none}
+.co-report-entry .co-band-intro{position:relative;overflow:hidden;min-height:176px;padding:34px clamp(28px,4vw,58px);border-radius:28px 28px 0 0;background:linear-gradient(125deg,#1f5f4e 0%,#4a9475 68%,#78b595 100%)}
+.co-report-entry .co-band-intro:after,#co-knowledge .co-band-intro:after{content:"";position:absolute;width:320px;height:320px;right:-80px;top:-230px;border:1px solid rgba(255,255,255,.2);border-radius:50%;box-shadow:0 0 0 48px rgba(255,255,255,.035),0 0 0 96px rgba(255,255,255,.02);pointer-events:none}
+.co-report-entry .co-band-intro h3,.co-report-entry .co-band-intro p,#co-knowledge .co-band-intro h3,#co-knowledge .co-band-intro p{position:relative;z-index:1}
+.co-report-entry .co-band-intro h3{margin:0;font-size:clamp(30px,3vw,42px)}
+.co-report-entry .co-band-intro p{margin-top:12px}
+.co-report-entry .co-band-content{min-height:196px;margin:0;padding:32px clamp(28px,4vw,56px) 38px;border-radius:0 0 28px 28px;background:rgba(255,255,255,.84);box-shadow:0 22px 54px rgba(25,60,40,.075);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.co-report-entry .co-band-head{margin-bottom:16px}
+
+#co-knowledge{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#co-knowledge .co-section-head{grid-column:1/-1;margin-bottom:6px}
+#co-knowledge .co-band{display:grid;grid-template-columns:1fr;align-content:start;overflow:hidden;min-height:0;border:0;border-radius:28px;background:rgba(255,255,255,.82);box-shadow:0 18px 50px rgba(25,60,40,.07);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+#co-knowledge .co-band+.co-band{margin-top:0}
+#co-knowledge .co-band-intro{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:178px;padding:32px 34px;border-radius:0;background:linear-gradient(132deg,#2b725c,#63a384)}
+#co-knowledge .co-band--news .co-band-intro{background:linear-gradient(132deg,#386b69,#70a98f)}
+#co-knowledge .co-band-intro h3{margin:0;font-size:clamp(27px,2.4vw,35px)}
+#co-knowledge .co-band-intro p{max-width:470px;margin:11px auto 0;font-size:14px;line-height:1.7}
+#co-knowledge .co-band-content{display:block;min-height:0;padding:25px 26px 28px;background:transparent}
+#co-knowledge .co-band-head{margin-bottom:14px}
+#co-knowledge .co-items{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+#co-knowledge .co-item{min-height:132px;padding:15px;border:1px solid rgba(207,222,213,.65);border-radius:14px;background:rgba(247,250,248,.78);box-shadow:none}
+#co-knowledge .co-item strong{margin-top:9px;font-size:14px;line-height:1.4}
+#co-knowledge .co-item span{display:-webkit-box;margin-top:7px;overflow:hidden;font-size:11px;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+#co-knowledge .co-band--news .co-items{grid-template-columns:1fr}
+#co-knowledge .co-band--news .co-item{min-height:80px;padding:13px 15px}
+#co-knowledge .co-band--news .co-item strong{margin-top:5px}
+#co-knowledge .co-band--news .co-item span{margin-top:5px;-webkit-line-clamp:1}
+
+@media(max-width:1100px){#co-knowledge{grid-template-columns:1fr}#co-knowledge .co-band-intro{min-height:164px}#co-knowledge .co-band+.co-band{margin-top:0}}
+@media(max-width:760px){.co-report-entry .co-band-intro{min-height:158px;padding:30px 24px}.co-report-entry .co-band-content{padding:26px 22px 30px}#co-knowledge{gap:18px}#co-knowledge .co-section-head{margin-bottom:4px}#co-knowledge .co-band-intro{min-height:152px;padding:28px 22px}#co-knowledge .co-band-content{padding:22px}#co-knowledge .co-items{grid-template-columns:1fr}#co-knowledge .co-item{min-height:0}}
