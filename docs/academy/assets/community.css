@@ -558,3 +558,23 @@ body{background:#f3f5f3;color:#17261f}
 
 @media(max-width:1100px){#co-knowledge{grid-template-columns:1fr}#co-knowledge .co-band-intro{min-height:164px}#co-knowledge .co-band+.co-band{margin-top:0}}
 @media(max-width:760px){.co-report-entry .co-band-intro{min-height:158px;padding:30px 24px}.co-report-entry .co-band-content{padding:26px 22px 30px}#co-knowledge{gap:18px}#co-knowledge .co-section-head{margin-bottom:4px}#co-knowledge .co-band-intro{min-height:152px;padding:28px 22px}#co-knowledge .co-band-content{padding:22px}#co-knowledge .co-items{grid-template-columns:1fr}#co-knowledge .co-item{min-height:0}}
+
+/* 2026-10-23 第四轮：清理 Hero 信息，首页知识与观察均只保留一行三列。 */
+.co-hero{min-height:360px;padding-top:52px;padding-bottom:52px}
+.co-hero h2{margin-top:0}
+.co-hero-nav a{justify-content:center;min-width:108px}
+.co-hero-group-qr{gap:9px;padding:10px 10px 9px;border-radius:16px}
+.co-hero-group-qr img{width:116px;height:116px}
+@media(min-width:1101px){.co-hero{grid-template-columns:160px minmax(0,1fr) 160px}}
+
+#co-knowledge .co-items,#co-knowledge .co-band--news .co-items{grid-template-columns:repeat(3,minmax(0,1fr))}
+#co-knowledge .co-items .co-item:last-child:nth-child(odd){grid-column:auto}
+#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{display:flex;min-height:138px;flex-direction:column;padding:17px;border:1px solid rgba(201,218,208,.72);background:linear-gradient(145deg,rgba(255,255,255,.82),rgba(242,247,244,.72));transition:transform .22s,box-shadow .22s,border-color .22s}
+#co-knowledge .co-item:hover,#co-knowledge .co-item:focus-visible,#co-knowledge .co-band--news .co-item:hover,#co-knowledge .co-band--news .co-item:focus-visible{border-color:rgba(151,190,166,.9);background:rgba(255,255,255,.94);transform:translateY(-3px);box-shadow:0 12px 24px rgba(32,75,53,.08)}
+#co-knowledge .co-item small{font-size:10px;letter-spacing:.03em}
+#co-knowledge .co-item strong,#co-knowledge .co-band--news .co-item strong{margin-top:9px;font-size:14px;line-height:1.45}
+#co-knowledge .co-item span,#co-knowledge .co-band--news .co-item span{display:-webkit-box;margin-top:auto;padding-top:8px;overflow:hidden;font-size:11px;line-height:1.5;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.co-site-footer .co-view-count{display:block;margin:0 0 4px;padding:0;border:0;background:transparent;color:#667d6c;font-size:11px;box-shadow:none}
+
+@media(max-width:1100px){.co-hero{min-height:340px}.co-hero-group-qr img{width:108px;height:108px}}
+@media(max-width:760px){.co-hero{min-height:0;padding-top:34px;padding-bottom:34px}.co-hero-group-qr img{width:100px;height:100px}#co-knowledge .co-items,#co-knowledge .co-band--news .co-items{grid-template-columns:1fr}#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{min-height:0}}
