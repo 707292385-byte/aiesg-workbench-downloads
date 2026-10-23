@@ -578,3 +578,28 @@ body{background:#f3f5f3;color:#17261f}
 
 @media(max-width:1100px){.co-hero{min-height:340px}.co-hero-group-qr img{width:108px;height:108px}}
 @media(max-width:760px){.co-hero{min-height:0;padding-top:34px;padding-bottom:34px}.co-hero-group-qr img{width:100px;height:100px}#co-knowledge .co-items,#co-knowledge .co-band--news .co-items{grid-template-columns:1fr}#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{min-height:0}}
+
+/* 2026-10-23 第五轮：报告标题改为纯文字，绿色只用于检索面板。 */
+.co-report-entry .co-band-intro{min-height:0;padding:0 24px 28px;border-radius:0;background:transparent;color:#1f392d}
+.co-report-entry .co-band-intro:after{display:none}
+.co-report-entry .co-band-intro h3{color:#1f392d;font-size:clamp(30px,3vw,42px)}
+.co-report-entry .co-band-intro p{margin-top:9px;color:#6f8177;font-size:15px;line-height:1.7}
+.co-report-entry .co-band-content{min-height:0;padding:34px clamp(28px,4vw,56px) 38px;border-radius:28px;background:linear-gradient(125deg,#1f5f4e 0%,#4a9475 68%,#72ae8e 100%);box-shadow:0 20px 48px rgba(25,72,49,.13)}
+.co-report-entry .co-band-head strong,.co-report-entry .co-more{color:#fff}
+.co-report-entry .co-more:hover,.co-report-entry .co-more:focus-visible{color:#e6f7ec}
+.co-report-search{border:1px solid rgba(255,255,255,.98);background:#fff;box-shadow:0 10px 28px rgba(17,56,38,.13)}
+.co-report-search input{color:#203b2f;font-size:14px}
+.co-report-search input::placeholder{color:#718178;opacity:1}
+.co-report-search>span{color:#3f7458}
+.co-report-filters select{border:1px solid rgba(255,255,255,.98);background:#fff;color:#2f4a3d;box-shadow:0 8px 22px rgba(17,56,38,.1)}
+.co-report-filters button{border-color:#153f31;background:#153f31;box-shadow:0 8px 22px rgba(17,46,34,.18)}
+.co-report-filters button:hover,.co-report-filters button:focus-visible{background:#0f3327}
+.co-report-hint{color:rgba(246,255,249,.78)}
+
+#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{position:relative;min-height:176px;padding:21px 20px;border-color:rgba(190,211,198,.8);background:linear-gradient(150deg,#fff 0%,#f2f7f4 100%);box-shadow:0 8px 22px rgba(28,69,47,.055)}
+#co-knowledge .co-item small{display:inline-flex;align-items:center;align-self:flex-start;min-height:24px;padding:4px 9px;border-radius:999px;background:#e6f2ea;color:#347553;font-size:10px;font-weight:750}
+#co-knowledge .co-band--news .co-item small{background:#e8f1ef;color:#3f716d}
+#co-knowledge .co-item strong,#co-knowledge .co-band--news .co-item strong{margin-top:14px;font-size:15px;line-height:1.5}
+#co-knowledge .co-item span,#co-knowledge .co-band--news .co-item span{padding-top:12px;color:#6c7d73;font-size:12px;line-height:1.6}
+
+@media(max-width:760px){.co-report-entry .co-band-intro{padding:0 18px 22px}.co-report-entry .co-band-content{padding:27px 20px 31px;border-radius:22px}#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{min-height:150px}}
