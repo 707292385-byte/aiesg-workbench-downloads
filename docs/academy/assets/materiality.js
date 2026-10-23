@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = 'aiesg-double-materiality-v1';
   const CATEGORY_NAMES = { E: '环境', S: '社会', G: '治理' };
-  const CATEGORY_COLORS = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
+  const CATEGORY_COLORS = { E: '#138a61', S: '#d48a24', G: '#2878b8' };
   const DEFAULT_MATRIX_COLORS = { double: '#1f5b45', single: '#dceee3', none: '#ffffff' };
   const DEFAULT_STANDARDS = ['ashare', 'esrs'];
   const FULL_SCOPE_STANDARDS = new Set(['ashare', 'esrs', 'hkex', 'gri', 'cass']);
@@ -1093,7 +1093,7 @@
     canvas.height = 1180;
     const context = canvas.getContext('2d');
     const chart = { left: 190, top: 190, width: 1050, height: 800 };
-    const pointColors = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
+    const pointColors = { E: '#138a61', S: '#d48a24', G: '#2878b8' };
     const colors = matrixColors();
     const scoreX = score => chart.left + ((score - 1) / 4) * chart.width;
     const scoreY = score => chart.top + chart.height - ((score - 1) / 4) * chart.height;
@@ -1193,7 +1193,7 @@
     });
     context.fillText('议题', legendX + 12, 1146);
     legendX += 68;
-    [['#138a61', '环境'], ['#2878b8', '社会'], ['#d48a24', '治理']].forEach(item => {
+    [['#138a61', '环境'], ['#d48a24', '社会'], ['#2878b8', '治理']].forEach(item => {
       context.beginPath();
       context.arc(legendX, 1140, 8, 0, Math.PI * 2);
       context.fillStyle = item[0];
