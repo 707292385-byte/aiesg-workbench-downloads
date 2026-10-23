@@ -30,6 +30,7 @@
   function emptyState() {
     return {
       step: 1,
+      flowStateVersion: 4,
       companyName: '',
       industry: 'general',
       standards: DEFAULT_STANDARDS.slice(),
@@ -43,6 +44,7 @@
       notes: {},
       threshold: 3,
       categoryFilter: 'all',
+      topicView: 'cards',
       assessmentId: createAssessmentId(),
       questionnaireVersion: 1,
       questionnaireSignature: '',
@@ -66,6 +68,11 @@
           loaded.scoringStarted = false;
         }
       }
+      if (Number(parsed?.flowStateVersion) !== 4) {
+        loaded.step = Number(parsed?.step) === 2 && (loaded.scoringStarted || loaded.surveyImport) ? 4 : 1;
+        loaded.flowStateVersion = 4;
+      }
+      if (!['cards', 'list'].includes(loaded.topicView)) loaded.topicView = 'cards';
       return loaded;
     } catch (_) {
       return emptyState();
@@ -97,7 +104,10 @@
   }
 
   function recommendedIds() {
-    return library.topics
+    const official = library.topics
+      .filter(topic => state.standards.some(standard => topic.standardRefs && topic.standardRefs[standard]))
+      .map(topic => topic.id);
+    const relevant = library.topics
       .filter(matchesStandards)
       .filter(topic => state.industry === 'general'
         ? topic.industries.includes('general') || recommendationStrength(topic) >= 2
@@ -105,6 +115,7 @@
       .sort((left, right) => recommendationStrength(right) - recommendationStrength(left) || right.impact + right.financial - left.impact - left.financial)
       .slice(0, state.industry === 'general' ? 18 : 22)
       .map(topic => topic.id);
+    return [...new Set([...official, ...relevant])];
   }
 
   function ensureScores(topic, baseline) {
@@ -178,11 +189,13 @@
   }
 
   function renderStepper() {
-    return '<nav class="dm-stepper" aria-label="评估步骤">'
-      + '<button type="button" class="' + (state.step === 1 ? 'is-active' : 'is-complete') + '" data-step="1"><b>01</b><span><strong>议题与问卷</strong><small>确定范围、导出与回收</small></span></button>'
-      + '<i aria-hidden="true"></i>'
-      + '<button type="button" class="' + (state.step === 2 ? 'is-active' : '') + '" data-step="2" ' + (state.selected.length && canOpenScores() ? '' : 'disabled') + '><b>02</b><span><strong>复核评分与矩阵</strong><small>问卷建议、人工校准与结论</small></span></button>'
-      + '</nav>';
+    const steps = [
+      [1, '评估范围', '企业、行业与标准', true],
+      [2, '议题清单', '分组筛选与校准', Boolean(state.standards.length)],
+      [3, '问卷收集', '导出、回收与导入', Boolean(state.selected.length)],
+      [4, '评分与矩阵', '复核分数与输出', Boolean(state.selected.length && canOpenScores())]
+    ];
+    return '<nav class="dm-stepper" aria-label="评估步骤">' + steps.map(item => '<button type="button" class="' + (state.step === item[0] ? 'is-active' : state.step > item[0] ? 'is-complete' : '') + '" data-step="' + item[0] + '" ' + (item[3] ? '' : 'disabled') + '><b>0' + item[0] + '</b><span><strong>' + item[1] + '</strong><small>' + item[2] + '</small></span></button>').join('') + '</nav>';
   }
 
   function renderCompanySetup() {
@@ -195,12 +208,20 @@
       + '<div class="dm-form-grid"><label><span>企业名称</span><input type="text" name="companyName" maxlength="80" placeholder="例如：某某科技股份有限公司" value="' + escapeHtml(state.companyName) + '"></label>'
       + '<label><span>所属行业</span><select name="industry">' + industries + '</select></label></div>'
       + '<fieldset class="dm-standard-field"><legend>披露标准（可多选）</legend><div class="dm-standards">' + standards + '</div></fieldset>'
-      + '<div class="dm-recommend-bar"><div><strong>当前可推荐 ' + recommendedIds().length + ' 个议题</strong><small>综合标准覆盖、行业相关性和通用治理要求</small></div><button type="button" data-action="apply-recommendations">应用本次推荐</button></div>'
+      + '<div class="dm-recommend-bar"><div><strong>当前可推荐 ' + recommendedIds().length + ' 个议题</strong><small>完整纳入所选标准的官方议题，并结合行业相关性补充</small></div><button type="button" data-action="next-topics">生成议题清单 <span>→</span></button></div>'
       + '</section>';
   }
 
   function sourceTags(topic) {
-    return topic.standards.map(id => standardById(id)).filter(Boolean).map(item => '<span>' + escapeHtml(item.short) + '</span>').join('');
+    const aliases = { ashare: 'A股', esrs: 'ESRS', hkex: '港交所', gri: 'GRI', sasb: 'SASB', cass: 'CASS' };
+    const fragments = String(topic.source || '').split('；');
+    return topic.standards.filter(id => state.standards.includes(id)).map(id => {
+      const standard = standardById(id);
+      if (!standard) return '';
+      const ref = topic.standardRefs?.[id] || fragments.find(fragment => fragment.includes(aliases[id]))?.replace(aliases[id], '').trim() || '相关议题';
+      const title = standard.name + (topic.standardRefs?.[id] ? ' · 本工具稳定映射编号 ' : ' · ') + ref;
+      return '<span class="dm-topic-ref" title="' + escapeHtml(title) + '"><b>' + escapeHtml(standard.short) + '</b><i>' + escapeHtml(ref) + '</i></span>';
+    }).join('');
   }
 
   function renderTopicCard(topic, recommended) {
@@ -208,7 +229,7 @@
     return '<article class="dm-topic dm-topic--' + topic.category.toLowerCase() + (selected ? ' is-selected' : '') + '" data-topic-card="' + topic.id + '">'
       + '<div class="dm-topic-select"><label><input type="checkbox" data-topic-select="' + topic.id + '"' + (selected ? ' checked' : '') + '><span aria-hidden="true"></span></label><b>' + escapeHtml(CATEGORY_NAMES[topic.category]) + '</b>' + (recommended ? '<small>推荐</small>' : '') + '</div>'
       + '<input class="dm-topic-name" data-topic-name="' + topic.id + '" value="' + escapeHtml(displayName(topic)) + '" aria-label="修改' + escapeHtml(topic.name) + '的名称">'
-      + '<p>' + escapeHtml(topic.description) + '</p><div class="dm-topic-sources">' + (topic.custom ? '<span>企业自定义</span>' : sourceTags(topic)) + '</div>'
+      + '<p>' + escapeHtml(topic.description) + '</p><div class="dm-topic-sources">' + (topic.custom ? '<span class="dm-topic-ref"><b>企业自定义</b><i>新增议题</i></span>' : sourceTags(topic)) + '</div>'
       + '</article>';
   }
 
@@ -224,15 +245,24 @@
     const recommended = new Set(recommendedIds());
     const visible = allTopics().filter(matchesStandards).sort((a, b) => {
       if (a.category !== b.category) return a.category.localeCompare(b.category);
-      return Number(recommended.has(b.id)) - Number(recommended.has(a.id));
+      const recommendedOrder = Number(recommended.has(b.id)) - Number(recommended.has(a.id));
+      if (recommendedOrder) return recommendedOrder;
+      const selectedStandard = state.standards.find(id => a.standardRefs?.[id] && b.standardRefs?.[id]);
+      if (selectedStandard) return a.standardRefs[selectedStandard].localeCompare(b.standardRefs[selectedStandard], 'zh-CN', { numeric: true });
+      return displayName(a).localeCompare(displayName(b), 'zh-CN');
     });
-    const cards = visible.map(topic => renderTopicCard(topic, recommended.has(topic.id))).join('');
     const selectedCount = state.selected.length;
-    return '<section class="dm-library dm-panel"><div class="dm-panel-head dm-topic-head"><div><small>候选议题库</small><h2>选择并校准议题清单</h2></div><div class="dm-selection-count"><strong>' + selectedCount + '</strong><span>已选议题</span></div></div>'
+    const groups = ['E', 'S', 'G'].map(category => {
+      const topics = visible.filter(topic => topic.category === category);
+      if (!topics.length) return '';
+      const count = topics.filter(topic => state.selected.includes(topic.id)).length;
+      return '<section class="dm-topic-group dm-topic-group--' + category.toLowerCase() + '"><header><div><b>' + escapeHtml(CATEGORY_NAMES[category]) + '</b><small>' + count + '／' + topics.length + ' 项已选</small></div><span>' + (category === 'G' ? '可持续发展相关治理' : CATEGORY_NAMES[category] + '议题') + '</span></header><div class="dm-topic-grid">' + topics.map(topic => renderTopicCard(topic, recommended.has(topic.id))).join('') + '</div></section>';
+    }).join('');
+    return '<section class="dm-library dm-panel"><div class="dm-panel-head dm-topic-head"><div><small>候选议题库</small><h2>按环境、社会、治理校准议题</h2></div><div class="dm-topic-tools"><div class="dm-view-switch" role="group" aria-label="议题布局"><button type="button" data-topic-view="cards" class="' + (state.topicView === 'cards' ? 'is-active' : '') + '">卡片</button><button type="button" data-topic-view="list" class="' + (state.topicView === 'list' ? 'is-active' : '') + '">列表</button></div><div class="dm-selection-count"><strong>' + selectedCount + '</strong><span>已选议题</span></div></div></div>'
       + renderCustomTopicForm()
-      + '<div class="dm-library-note"><span>名称可直接修改</span><p>议题说明与来源标签保留在卡片中，避免同名议题的边界被误解。</p></div>'
-      + '<div class="dm-topic-grid">' + cards + '</div>'
-      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div></footer>'
+      + '<div class="dm-library-note"><span>名称可直接修改</span><p>标准标签后的编号用于本工具稳定映射，不替代交易所条款号。A股标准选择后完整显示官方 21 项议题。</p></div>'
+      + '<div class="dm-topic-groups dm-topic-groups--' + state.topicView + '">' + groups + '</div>'
+      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div><div class="dm-step-action-buttons"><button type="button" class="dm-secondary" data-action="back-setup">← 返回评估范围</button><button type="button" class="dm-primary" data-action="next-questionnaire"' + (selectedCount ? '' : ' disabled') + '>进入问卷收集 <span>→</span></button></div></footer>'
       + '</section>';
   }
 
@@ -255,11 +285,12 @@
       + '<div><b>发给客户确认</b><p>直接下载 Word，补充对象、时间和联系人后发送，也可另存为 PDF 或打印填写。</p><button type="button" data-action="export-questionnaire-word"' + (state.selected.length ? '' : ' disabled') + '>只下载客户版 Word</button></div>'
       + '<div><b>自己创建问卷星</b><p>打开 <strong>02_问卷星创建</strong>。人工录入看 TXT；交给智能体或官方工具使用 JSONL。</p></div>'
       + '<div><b>回收后生成结果</b><p>从问卷星下载原始 Excel／CSV，不改题目代码，再回到本页导入答卷。</p></div></div>'
-      + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
+      + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-link-button" data-action="back-library">← 返回议题清单</button><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
   }
 
   function renderStepOne() {
-    return '<div class="dm-page dm-page--topics">' + renderCompanySetup() + renderTopicLibrary() + renderQuestionnaireWorkflow() + '</div>';
+    const content = state.step === 1 ? renderCompanySetup() : state.step === 2 ? renderTopicLibrary() : renderQuestionnaireWorkflow();
+    return '<div class="dm-page dm-page--topics">' + content + '</div>';
   }
 
   function matrixPosition(score, axis) {
@@ -385,15 +416,15 @@
   }
 
   function renderStepTwo() {
-    if (!canOpenScores()) return '<div class="dm-page dm-page--scores"><section class="dm-score-gate dm-panel"><strong>尚未选择评分来源</strong><p>请先在第一步导入问卷答卷，或者明确开始内部评分。</p><button type="button" class="dm-primary" data-action="back-topics">返回议题与问卷</button></section></div>';
-    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题与问卷</button><p><strong>' + state.selected.length + ' 个议题进入复核</strong><span>先查看评分来源，再调整阈值和逐项分数。</span></p></div>' + renderSurveyEvidence() + renderResults() + renderScoreList()
+    if (!canOpenScores()) return '<div class="dm-page dm-page--scores"><section class="dm-score-gate dm-panel"><strong>尚未选择评分来源</strong><p>请先在第三步导入问卷答卷，或者明确开始内部评分。</p><button type="button" class="dm-primary" data-action="back-topics">返回问卷收集</button></section></div>';
+    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回问卷收集</button><p><strong>' + state.selected.length + ' 个议题进入复核</strong><span>先查看评分来源，再调整阈值和逐项分数。</span></p></div>' + renderSurveyEvidence() + renderResults() + renderScoreList()
       + '<section class="dm-method-note"><strong>评分边界</strong><p>影响重要性从影响规模、范围、不可补救性与发生可能性判断；财务重要性从风险或机遇的金额、发生可能性和时间范围判断。问卷均值或内部起始值都不是最终结论，调整应保留依据并经过企业审议。</p></section></div>';
   }
 
   function render() {
     const root = document.getElementById('materiality-app');
     if (!root) return;
-    root.innerHTML = '<div class="dm-shell">' + renderHeader() + renderStepper() + (state.step === 1 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer><div class="dm-toast" data-toast role="status" aria-live="polite"></div></div>';
+    root.innerHTML = '<div class="dm-shell">' + renderHeader() + renderStepper() + (state.step < 4 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer><div class="dm-toast" data-toast role="status" aria-live="polite"></div></div>';
   }
 
   function updateResultsOnly() {
@@ -1227,22 +1258,27 @@
     if (!button) return;
     if (button.dataset.step) {
       const step = Number(button.dataset.step);
-      if (step === 1 || (step === 2 && state.selected.length && canOpenScores())) { state.step = step; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+      const allowed = step === 1 || (step === 2 && state.standards.length) || (step === 3 && state.selected.length) || (step === 4 && state.selected.length && canOpenScores());
+      if (allowed) { state.step = step; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
       return;
     }
     const action = button.dataset.action;
     if (action === 'apply-recommendations') { applyRecommendations(); render(); }
+    if (action === 'next-topics') { applyRecommendations(); state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'back-setup') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'next-questionnaire') { state.step = 3; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'back-library') { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'start-internal-scoring') {
       selectedTopics().forEach(topic => { ensureScores(topic, 3); state.scoreOrigins[topic.id] = 'internal'; });
       state.scoringStarted = true;
-      state.step = 2;
+      state.step = 4;
       saveState();
       render();
       window.scrollTo({ top: 0, behavior: 'smooth' });
       showToast('已进入内部评分，3.0 仅作为人工调整起点');
     }
-    if (action === 'go-scores' && canOpenScores()) { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
-    if (action === 'back-topics') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'go-scores' && canOpenScores()) { state.step = 4; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'back-topics') { state.step = 3; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'export-questionnaire') exportQuestionnairePackage().catch(error => showToast(error.message || '问卷包导出失败', 'error'));
     if (action === 'export-questionnaire-word') exportQuestionnaireWord().catch(error => showToast(error.message || 'Word 导出失败', 'error'));
     if (action === 'select-survey-file') document.querySelector('[data-survey-file]')?.click();
@@ -1251,6 +1287,7 @@
     if (action === 'export-list') exportTopicList();
     if (action === 'print') window.print();
     if (button.dataset.category) { state.categoryFilter = button.dataset.category; saveState(); render(); }
+    if (button.dataset.topicView) { state.topicView = button.dataset.topicView; saveState(); render(); }
     if (button.dataset.matrixTopic) {
       const row = document.querySelector('[data-score-row="' + button.dataset.matrixTopic + '"]');
       if (row) { row.scrollIntoView({ behavior: 'smooth', block: 'center' }); row.classList.add('is-highlighted'); setTimeout(() => row.classList.remove('is-highlighted'), 1400); }
@@ -1271,7 +1308,7 @@
       const ids = new Set(allTopics().map(topic => topic.id));
       state.selected = state.selected.filter(id => ids.has(id));
       if (!state.selected.length) applyRecommendations();
-      if (state.step === 2 && !canOpenScores()) state.step = 1;
+      if (state.step === 4 && !canOpenScores()) state.step = 3;
       render();
       root.addEventListener('input', handleInput);
       root.addEventListener('change', handleChange);
