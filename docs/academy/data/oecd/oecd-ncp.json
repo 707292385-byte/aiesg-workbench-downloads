@@ -1,0 +1,209 @@
+{
+  "id": "oecd-ncp",
+  "title": "国家联络点机制",
+  "eyebrow": "七项有效性准则 · 具体实例 · 斡旋",
+  "summary": "每个加入国设一个国家联络点，负责推广准则并以非司法方式处理“具体实例”：提供对话平台、促成协议、发表声明，但不作裁决、不判赔偿。",
+  "tags": [
+    "NCP",
+    "具体实例",
+    "斡旋"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+  "sourceNote": "本页按 2023 年英文官方文本第二部分“实施程序”整理；流程图为程序条文的顺序化呈现。",
+  "sections": [
+    {
+      "id": "role",
+      "title": "NCP 是干什么的",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "国家联络点不是监管机构，它的职责是让准则在现实中起作用：推广、答复询问，并在具体争议中帮助各方把问题谈下去。",
+          "quote": {
+            "text": "The role of National Contact Points for Responsible Business Conduct (NCPs) is to further the effectiveness of the Guidelines.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 实施程序 第 I 节"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "推广与询问",
+              "content": "让准则和 OECD 尽调指南为企业、工会、NGO 和公众所知，并答复相关询问。"
+            },
+            {
+              "title": "处理具体实例",
+              "content": "以非司法申诉机制的方式，推动具体问题的解决。"
+            },
+            {
+              "title": "跨国有合作",
+              "content": "涉及多国时，先在本国层面讨论，再与其他 NCP 协调，必要时指定牵头 NCP。"
+            },
+            {
+              "title": "接受同行评审",
+              "content": "加入国按工作组采纳的方式，定期对本国 NCP 进行同行评审。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "criteria",
+      "title": "七项有效性准则",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "七个词看起来是程序要求，实际决定了 NCP 处理案件时的行为边界：能不能被找到、说不说清楚、会不会偏。",
+          "quote": {
+            "text": "NCPs will operate in a manner that is: 1. visible, 2. accessible, 3. transparent, 4. accountable, 5. impartial and equitable, 6. predictable, and 7. compatible with the Guidelines.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 实施程序 第 I 节"
+          }
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "可见",
+              "desc": "让相关方知道 NCP 存在、能做什么。"
+            },
+            {
+              "title": "可及",
+              "desc": "有便捷的联系与提交渠道，包括对弱势群体。"
+            },
+            {
+              "title": "透明",
+              "desc": "程序、时间表和结果对外公开。"
+            },
+            {
+              "title": "担责",
+              "desc": "对加入国政府负责，接受评审。"
+            },
+            {
+              "title": "公正公平",
+              "desc": "对各方一视同仁，不受政府或企业不当影响。"
+            },
+            {
+              "title": "可预期",
+              "desc": "按公开的程序和时限办事。"
+            },
+            {
+              "title": "与准则一致",
+              "desc": "以准则条文为唯一判断依据。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        },
+        {
+          "type": "standard",
+          "content_cn": "七项准则合起来构成核心有效性指标。各国 NCP 的组织形式可以不同，但追求的是“功能等同”：通过达到这些准则，实现同等程度的有效性。",
+          "quote": {
+            "text": "NCPs, considering their particular circumstances, will pursue functional equivalence, meaning that all NCPs function with an equivalent degree of effectiveness, through achieving the core effectiveness criteria.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 实施程序 第 I 节"
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "具体实例怎么走",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "具体实例是一个有明确步骤的程序，从提交到后续跟进大致五步。它不产生有法律约束力的裁决。",
+          "quote": {
+            "text": "The NCP will, serving as a non-judicial grievance mechanism, contribute to the resolution of issues that arise relating to the implementation of the Guidelines in specific instances in a manner that is consistent with the core effectiveness criteria listed in Section I.A. above.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 实施程序 第 I.C 节"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "具体实例的处理流程",
+          "steps": [
+            {
+              "title": "提交",
+              "desc": "由受影响方、工会、NGO 或其他相关方提出，说明涉及的企业与问题。",
+              "icon": "1"
+            },
+            {
+              "title": "初步评估",
+              "desc": "NCP 判断问题是否实质、是否有据、企业是否在覆盖范围内、与活动是否有联系。",
+              "icon": "2"
+            },
+            {
+              "title": "斡旋与调解",
+              "desc": "提供对话平台，必要时引入第三方调解，协助各方达成一致。",
+              "icon": "3"
+            },
+            {
+              "title": "发表声明",
+              "desc": "无论是否达成协议，NCP 都会公开声明，并可提出建议。",
+              "icon": "4"
+            },
+            {
+              "title": "后续跟进",
+              "desc": "跟踪协议或建议的执行情况，必要时发表后续声明。",
+              "icon": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misread",
+      "title": "三个容易误解的点",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "把 NCP 当成法院或监管机构，是最常见的误读。它的力量来自公开与对话，不来自强制。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "不作裁决",
+              "content": "NCP 不就企业是否违法作出结论，也不判赔偿；它促成对话并可提出建议。"
+            },
+            {
+              "title": "并行程序不当然阻断",
+              "content": "已有或可能有司法、行政程序时，NCP 仍可提供斡旋，但要评估是否会造成严重损害或藐视法庭。"
+            },
+            {
+              "title": "结果公开",
+              "content": "声明与建议原则上公开，同时要保护敏感商业信息与当事方身份。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-duediligence",
+        "title": "尽责管理六步"
+      },
+      {
+        "id": "oecd-linkage",
+        "title": "与其他框架的衔接"
+      }
+    ],
+    "external": [
+      {
+        "title": "ESG 鉴证与审验",
+        "url": "topic.html?standard=assurance&id=assur-basics",
+        "standard": "assurance",
+        "system": "ESG 鉴证"
+      }
+    ]
+  }
+}

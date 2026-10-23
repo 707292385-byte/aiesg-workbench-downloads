@@ -22,6 +22,11 @@
     return Number.isFinite(number) ? Math.min(5, Math.max(1, Math.round(number * 10) / 10)) : 3;
   }
 
+  function createAssessmentId() {
+    const date = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+    return 'DM-' + date + '-' + Math.random().toString(36).slice(2, 8).toUpperCase();
+  }
+
   function emptyState() {
     return {
       step: 1,
@@ -34,7 +39,13 @@
       scores: {},
       notes: {},
       threshold: 3,
-      categoryFilter: 'all'
+      categoryFilter: 'all',
+      assessmentId: createAssessmentId(),
+      questionnaireVersion: 1,
+      questionnaireSignature: '',
+      questionnaireMap: [],
+      questionnaireExportedAt: '',
+      surveyImport: null
     };
   }
 
@@ -189,7 +200,7 @@
       + renderCustomTopicForm()
       + '<div class="dm-library-note"><span>名称可直接修改</span><p>议题说明与来源标签保留在卡片中，避免同名议题的边界被误解。</p></div>'
       + '<div class="dm-topic-grid">' + cards + '</div>'
-      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div><button type="button" class="dm-primary" data-action="go-scores"' + (selectedCount ? '' : ' disabled') + '>进入评分与矩阵 <span>→</span></button></footer>'
+      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div><div class="dm-step-action-buttons"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (selectedCount ? '' : ' disabled') + '>导出问卷包</button><button type="button" class="dm-primary" data-action="go-scores"' + (selectedCount ? '' : ' disabled') + '>进入评分与矩阵 <span>→</span></button></div></footer>'
       + '</section>';
   }
 
@@ -281,8 +292,12 @@
     const scores = ensureScores(topic);
     const result = classification(topic);
     const note = state.notes[topic.id] || '';
+    const survey = state.surveyImport && state.surveyImport.topicStats ? state.surveyImport.topicStats[topic.id] : null;
+    const surveyNote = survey ? '<div class="dm-survey-score-note"><span>问卷 ' + Math.max(survey.impactCount || 0, survey.financialCount || 0) + ' 份</span>'
+      + (survey.impactCount ? '<small>影响均值 ' + Number(survey.impactMean).toFixed(1) + '</small>' : '')
+      + (survey.financialCount ? '<small>财务均值 ' + Number(survey.financialMean).toFixed(1) + '</small>' : '') + '</div>' : '';
     return '<article class="dm-score-row dm-score-row--' + topic.category.toLowerCase() + '" data-score-row="' + topic.id + '">'
-      + '<div class="dm-score-topic"><span>' + (index + 1) + '</span><div><small>' + CATEGORY_NAMES[topic.category] + '</small><strong>' + escapeHtml(displayName(topic)) + '</strong></div><b class="dm-result dm-result--' + result.key + '" data-result="' + topic.id + '">' + result.label + '</b></div>'
+      + '<div class="dm-score-topic"><span>' + (index + 1) + '</span><div><small>' + CATEGORY_NAMES[topic.category] + '</small><strong>' + escapeHtml(displayName(topic)) + '</strong>' + surveyNote + '</div><b class="dm-result dm-result--' + result.key + '" data-result="' + topic.id + '">' + result.label + '</b></div>'
       + '<label class="dm-score-control"><span>影响重要性 <output data-score-output="' + topic.id + ':impact">' + scores.impact.toFixed(1) + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + scores.impact + '" data-score="' + topic.id + ':impact"></label>'
       + '<label class="dm-score-control"><span>财务重要性 <output data-score-output="' + topic.id + ':financial">' + scores.financial.toFixed(1) + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + scores.financial + '" data-score="' + topic.id + ':financial"></label>'
       + '<details class="dm-evidence"><summary>评分依据与备注</summary><textarea data-note="' + topic.id + '" rows="3" placeholder="记录利益相关方反馈、风险事件、数据证据或管理层判断…">' + escapeHtml(note) + '</textarea></details>'
@@ -309,6 +324,20 @@
       + '</div></section>';
   }
 
+  function renderSurveyEvidence() {
+    const imported = state.surveyImport;
+    const exportStatus = state.questionnaireExportedAt
+      ? '问卷包 V' + state.questionnaireVersion + ' · ' + state.selected.length + ' 个议题'
+      : '尚未导出问卷包';
+    const result = imported
+      ? '<div class="dm-survey-result"><div><small>有效答卷</small><strong>' + imported.responseCount + '</strong></div><div><small>已匹配题列</small><strong>' + imported.mappedColumns + '</strong></div><div><small>有影响得分</small><strong>' + imported.impactTopicCount + '</strong></div><div><small>有财务得分</small><strong>' + imported.financialTopicCount + '</strong></div></div>'
+        + '<p class="dm-survey-file">已导入：' + escapeHtml(imported.fileName) + ' · ' + escapeHtml(imported.importedAt) + (imported.warning ? ' · ' + escapeHtml(imported.warning) : '') + '</p>'
+      : '<div class="dm-survey-empty"><b>回收完成后导入原始答卷</b><span>支持问卷星下载的 .xlsx、CSV；旧版 .xls 如为网页表格或 XML 也可读取。</span></div>';
+    return '<section class="dm-survey-panel dm-panel"><div class="dm-survey-copy"><small>问卷证据</small><h2>从问卷包到答卷统计</h2><p>题目内置简短识别码。导入时按识别码匹配议题，不依赖问卷题序。</p><div class="dm-survey-flow"><span><b>1</b>导出问卷包</span><i>→</i><span><b>2</b>问卷星回收</span><i>→</i><span><b>3</b>导入 Excel</span><i>→</i><span><b>4</b>更新矩阵</span></div></div>'
+      + '<div class="dm-survey-actions"><div><small>当前状态</small><strong>' + escapeHtml(exportStatus) + '</strong></div><button type="button" data-action="export-questionnaire">导出问卷包</button><button type="button" class="dm-primary" data-action="select-survey-file">导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '</div>'
+      + '<div class="dm-survey-summary">' + result + '</div></section>';
+  }
+
   function renderResults() {
     const summary = scoreSummary();
     return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix">导出矩阵图片</button><button type="button" data-action="export-list">导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
@@ -318,14 +347,14 @@
   }
 
   function renderStepTwo() {
-    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题清单</button><p><strong>' + state.selected.length + ' 个议题进入评估</strong><span>建议在评分前明确参与人员、评分尺度和证据要求。</span></p></div>' + renderAssessmentProcess() + renderResults() + renderScoreList()
+    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题清单</button><p><strong>' + state.selected.length + ' 个议题进入评估</strong><span>建议在评分前明确参与人员、评分尺度和证据要求。</span></p></div>' + renderAssessmentProcess() + renderSurveyEvidence() + renderResults() + renderScoreList()
       + '<section class="dm-method-note"><strong>评分建议</strong><p>影响重要性可从影响规模、范围、不可补救性与发生可能性判断；财务重要性可从风险或机遇的金额、发生可能性和时间范围判断。当前分数是启动值，应由跨部门与利益相关方证据校准。</p></section></div>';
   }
 
   function render() {
     const root = document.getElementById('materiality-app');
     if (!root) return;
-    root.innerHTML = '<div class="dm-shell">' + renderHeader() + renderStepper() + (state.step === 1 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer></div>';
+    root.innerHTML = '<div class="dm-shell">' + renderHeader() + renderStepper() + (state.step === 1 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer><div class="dm-toast" data-toast role="status" aria-live="polite"></div></div>';
   }
 
   function updateResultsOnly() {
@@ -361,6 +390,395 @@
 
   function csvCell(value) {
     return '"' + String(value == null ? '' : value).replace(/"/g, '""') + '"';
+  }
+
+  function showToast(message, type) {
+    const toast = document.querySelector('[data-toast]');
+    if (!toast) return;
+    toast.textContent = message;
+    toast.className = 'dm-toast is-visible' + (type === 'error' ? ' is-error' : '');
+    clearTimeout(showToast.timer);
+    showToast.timer = setTimeout(() => { toast.className = 'dm-toast'; }, 4200);
+  }
+
+  function shortHash(value) {
+    let hash = 2166136261;
+    const text = String(value || '');
+    for (let index = 0; index < text.length; index += 1) {
+      hash ^= text.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return (hash >>> 0).toString(36).toUpperCase();
+  }
+
+  function assessmentCode() {
+    return String(state.assessmentId || '').replace(/[^a-z0-9]/gi, '').slice(-8).toUpperCase() || shortHash(state.companyName).slice(0, 8);
+  }
+
+  function questionnaireSignature() {
+    return shortHash(JSON.stringify({
+      company: state.companyName,
+      industry: state.industry,
+      standards: state.standards,
+      topics: selectedTopics().map(topic => [topic.id, displayName(topic), topic.description])
+    }));
+  }
+
+  function buildQuestionnaireMap() {
+    const entries = [];
+    selectedTopics().forEach((topic, index) => {
+      const number = String(index + 1).padStart(2, '0');
+      entries.push({ code: 'I' + number, dimension: 'impact', topicId: topic.id, name: displayName(topic) });
+      entries.push({ code: 'F' + number, dimension: 'financial', topicId: topic.id, name: displayName(topic) });
+    });
+    return entries;
+  }
+
+  function prepareQuestionnaireVersion() {
+    const signature = questionnaireSignature();
+    if (state.questionnaireSignature && state.questionnaireSignature !== signature) {
+      state.questionnaireVersion = Math.max(1, Number(state.questionnaireVersion) || 1) + 1;
+      state.surveyImport = null;
+    }
+    state.questionnaireSignature = signature;
+    state.questionnaireMap = buildQuestionnaireMap();
+    state.questionnaireExportedAt = new Date().toISOString();
+    saveState();
+  }
+
+  function questionnaireMarker() {
+    return '【DM-' + assessmentCode() + '-V' + state.questionnaireVersion + '】';
+  }
+
+  function questionnairePackageFiles() {
+    prepareQuestionnaireVersion();
+    const topics = selectedTopics();
+    const marker = questionnaireMarker();
+    const company = state.companyName || '本企业';
+    const title = company + '双重重要性利益相关方问卷';
+    const optionalTitles = ['【OPEN-EVIDENCE】请补充您作出判断的依据、案例或建议', '【OPEN-MISSING】您认为还遗漏了哪些重要议题'];
+    const impactRows = state.questionnaireMap.filter(item => item.dimension === 'impact').map(item => '【' + item.code + '】' + item.name);
+    const financialRows = state.questionnaireMap.filter(item => item.dimension === 'financial').map(item => '【' + item.code + '】' + item.name);
+    const choices = ['无法判断', '1', '2', '3', '4', '5'];
+    const jsonlObjects = [
+      { qtype: '问卷基础信息', title, introduction: marker + ' 本问卷用于收集双重重要性评估证据。请根据了解程度作答；不具备判断条件时选择“无法判断”。', atype: 1 },
+      { qtype: '单选', title: '【ROLE】您属于哪类利益相关方', select: ['董事会或管理层', '业务或职能部门', '员工', '客户或消费者', '供应商或合作伙伴', '投资者或金融机构', '社区或其他受影响群体', '其他'] },
+      { qtype: '单选', title: '【FAMILIARITY】您对本企业经营及可持续发展情况的熟悉程度', select: ['非常熟悉', '比较熟悉', '一般', '不太熟悉', '不了解'] },
+      { qtype: '矩阵量表', title: marker + '影响重要性评价：企业对经济、环境和人的影响程度', rowtitle: impactRows, select: choices, minvaluetext: '影响很低', maxvaluetext: '影响很高' },
+      { qtype: '矩阵量表', title: marker + '财务重要性评价：议题对企业发展、财务状况和经营成果的影响程度', rowtitle: financialRows, select: choices, minvaluetext: '影响很低', maxvaluetext: '影响很高' },
+      { qtype: '简答题', title: optionalTitles[0], requir: false },
+      { qtype: '简答题', title: optionalTitles[1], requir: false }
+    ];
+    const jsonl = jsonlObjects.map(item => JSON.stringify(item)).join('\n') + '\n';
+    const textLines = [title, marker + ' 本问卷用于收集双重重要性评估证据。不了解或不具备判断条件时请选择“无法判断”。', '===',
+      '1. 【ROLE】您属于哪类利益相关方 [单选题]', '董事会或管理层', '业务或职能部门', '员工', '客户或消费者', '供应商或合作伙伴', '投资者或金融机构', '社区或其他受影响群体', '其他',
+      '2. 【FAMILIARITY】您对本企业经营及可持续发展情况的熟悉程度 [单选题]', '非常熟悉', '比较熟悉', '一般', '不太熟悉', '不了解',
+      '3. ' + marker + '影响重要性评价 [矩阵量表题]', '行：', ...impactRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
+      '4. ' + marker + '财务重要性评价 [矩阵量表题]', '行：', ...financialRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
+      '5. ' + optionalTitles[0] + ' [简答题]', '6. ' + optionalTitles[1] + ' [简答题]'];
+    const industry = library.industries.find(item => item.id === state.industry)?.name || state.industry;
+    const manifest = {
+      schemaVersion: '1.0', assessmentId: state.assessmentId, assessmentCode: assessmentCode(), questionnaireVersion: state.questionnaireVersion,
+      questionnaireMarker: marker, createdAt: state.questionnaireExportedAt, companyName: state.companyName || '', industry,
+      standards: state.standards.map(id => ({ id, name: standardById(id)?.name || id })), topicLibraryVersion: library.version,
+      topics: topics.map((topic, index) => ({ order: index + 1, topicId: topic.id, category: topic.category, name: displayName(topic), description: topic.description, impactCode: 'I' + String(index + 1).padStart(2, '0'), financialCode: 'F' + String(index + 1).padStart(2, '0'), source: topic.source || '企业自定义' }))
+    };
+    const mapRows = [['问卷版本', '维度', '题目代码', '议题ID', '议题类别', '议题名称', '议题说明', '参考来源']];
+    manifest.topics.forEach(topic => {
+      mapRows.push([state.questionnaireVersion, '影响重要性', topic.impactCode, topic.topicId, CATEGORY_NAMES[topic.category], topic.name, topic.description, topic.source]);
+      mapRows.push([state.questionnaireVersion, '财务重要性', topic.financialCode, topic.topicId, CATEGORY_NAMES[topic.category], topic.name, topic.description, topic.source]);
+    });
+    const importHeaders = ['序号', '提交时间', marker + '【ROLE】利益相关方类型', ...manifest.topics.map(topic => marker + '【' + topic.impactCode + '】' + topic.name), ...manifest.topics.map(topic => marker + '【' + topic.financialCode + '】' + topic.name)];
+    const scoring = {
+      schemaVersion: '1.0', scale: { min: 1, max: 5, ignoredValues: ['无法判断', '不了解', '不适用', ''] },
+      aggregation: { method: 'arithmetic_mean', rounding: 1, show: ['count', 'mean', 'median', 'standardDeviation'] },
+      dimensions: { impact: '影响重要性', financial: '财务重要性' },
+      decisionBoundary: '问卷均值作为建议分，最终分数、权重和阈值由企业审议确认。'
+    };
+    const optionalJson = JSON.stringify(optionalTitles);
+    const readme = '# ' + title + '｜问卷包使用说明\n\n'
+      + '- 评估编号：`' + state.assessmentId + '`\n- 问卷版本：`V' + state.questionnaireVersion + '`\n- 识别标记：`' + marker + '`\n- 议题数量：' + topics.length + '\n\n'
+      + '## 推荐：交给问卷星智能体\n\n1. 安装并连接问卷星官方 `wjx-cli`。\n2. 先执行预检，不创建问卷：\n\n```bash\nwjx survey create --file questionnaire.jsonl --optional_titles ' + "'" + optionalJson + "'" + ' --dry-run\n```\n\n3. 人工核对标题、题目数量、矩阵行、量表和选填题。\n4. 确认后再执行实际创建。问卷星当前 CLI 对普通题型可能直接发布，因此实际创建前必须获得使用者确认；如需草稿，请让智能体使用支持 `publish:false` 的 SDK／MCP 路径。\n5. 回收完成后，在问卷星下载原始答卷 `.xlsx` 或 CSV，再回到双重重要性页面导入。\n\n'
+      + '## 文件说明\n\n- `questionnaire.jsonl`：问卷星官方 JSONL 创建文件。\n- `questionnaire-import.txt`：人工阅读或文本导入兜底稿。\n- `topic-question-map.csv`：题目代码与议题的对应关系。\n- `scoring-config.json`：量表和统计口径。\n- `assessment-manifest.json`：企业、标准、议题和问卷版本。\n- `response-import-template.csv`：答卷导入字段示例。\n\n'
+      + '## 回导要求\n\n不要删除题目或矩阵行中的 `【I01】`、`【F01】` 等代码，也不要删除问卷标题中的版本标记。题序可以调整；代码和版本标记用于防止答卷错配。\n';
+    return {
+      'questionnaire.jsonl': jsonl,
+      'questionnaire-import.txt': '\ufeff' + textLines.join('\r\n') + '\r\n',
+      'topic-question-map.csv': '\ufeff' + mapRows.map(row => row.map(csvCell).join(',')).join('\r\n'),
+      'scoring-config.json': JSON.stringify(scoring, null, 2) + '\n',
+      'assessment-manifest.json': JSON.stringify(manifest, null, 2) + '\n',
+      'response-import-template.csv': '\ufeff' + importHeaders.map(csvCell).join(',') + '\r\n',
+      'README.md': readme
+    };
+  }
+
+  async function exportQuestionnairePackage() {
+    if (!window.JSZip) throw new Error('问卷打包组件未加载，请刷新页面后重试');
+    const files = questionnairePackageFiles();
+    const zip = new window.JSZip();
+    Object.entries(files).forEach(([name, content]) => zip.file(name, content));
+    const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } });
+    downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性问卷包_V' + state.questionnaireVersion + '.zip');
+    render();
+    showToast('问卷包 V' + state.questionnaireVersion + ' 已导出');
+  }
+
+  function parseCsvText(text) {
+    const rows = [];
+    let row = [];
+    let cell = '';
+    let quoted = false;
+    const input = String(text || '').replace(/^\ufeff/, '');
+    for (let index = 0; index < input.length; index += 1) {
+      const char = input[index];
+      if (quoted) {
+        if (char === '"' && input[index + 1] === '"') { cell += '"'; index += 1; }
+        else if (char === '"') quoted = false;
+        else cell += char;
+      } else if (char === '"') quoted = true;
+      else if (char === ',') { row.push(cell); cell = ''; }
+      else if (char === '\n') { row.push(cell.replace(/\r$/, '')); rows.push(row); row = []; cell = ''; }
+      else cell += char;
+    }
+    if (cell || row.length) { row.push(cell.replace(/\r$/, '')); rows.push(row); }
+    return rows;
+  }
+
+  function xmlDocument(text, type) {
+    const doc = new DOMParser().parseFromString(text, type || 'application/xml');
+    if (doc.getElementsByTagName('parsererror').length) throw new Error('Excel 文件中的 XML 无法解析');
+    return doc;
+  }
+
+  function localElements(node, name) {
+    return [...node.getElementsByTagNameNS('*', name)];
+  }
+
+  function nodeText(node) {
+    return localElements(node, 't').map(item => item.textContent || '').join('') || node.textContent || '';
+  }
+
+  function resolveZipPath(basePath, target) {
+    if (String(target).startsWith('/')) return String(target).replace(/^\/+/, '');
+    const parts = String(basePath).split('/');
+    parts.pop();
+    String(target).split('/').forEach(part => {
+      if (!part || part === '.') return;
+      if (part === '..') parts.pop(); else parts.push(part);
+    });
+    return parts.join('/');
+  }
+
+  function excelColumnIndex(reference) {
+    const letters = String(reference || '').match(/^[A-Z]+/i)?.[0] || 'A';
+    return [...letters.toUpperCase()].reduce((value, char) => value * 26 + char.charCodeAt(0) - 64, 0) - 1;
+  }
+
+  async function parseXlsxBuffer(buffer, zipConstructor) {
+    const JSZipClass = zipConstructor || window.JSZip;
+    if (!JSZipClass) throw new Error('Excel 读取组件未加载');
+    const zip = await JSZipClass.loadAsync(buffer);
+    const workbookFile = zip.file('xl/workbook.xml');
+    const relsFile = zip.file('xl/_rels/workbook.xml.rels');
+    if (!workbookFile || !relsFile) throw new Error('不是可识别的 .xlsx 工作簿');
+    const [workbookText, relsText] = await Promise.all([workbookFile.async('string'), relsFile.async('string')]);
+    const workbook = xmlDocument(workbookText);
+    const rels = xmlDocument(relsText);
+    const relationships = new Map(localElements(rels, 'Relationship').map(item => [item.getAttribute('Id'), item.getAttribute('Target')]));
+    const firstSheet = localElements(workbook, 'sheet')[0];
+    if (!firstSheet) throw new Error('工作簿中没有工作表');
+    const relationId = firstSheet.getAttribute('r:id') || [...firstSheet.attributes].find(item => item.localName === 'id')?.value;
+    const target = relationships.get(relationId);
+    if (!target) throw new Error('无法定位答卷工作表');
+    const sheetFile = zip.file(resolveZipPath('xl/workbook.xml', target));
+    if (!sheetFile) throw new Error('答卷工作表不存在');
+    let sharedStrings = [];
+    const sharedFile = zip.file('xl/sharedStrings.xml');
+    if (sharedFile) {
+      const sharedDoc = xmlDocument(await sharedFile.async('string'));
+      sharedStrings = localElements(sharedDoc, 'si').map(nodeText);
+    }
+    const sheet = xmlDocument(await sheetFile.async('string'));
+    return localElements(sheet, 'row').map(rowNode => {
+      const row = [];
+      localElements(rowNode, 'c').forEach(cellNode => {
+        const index = excelColumnIndex(cellNode.getAttribute('r'));
+        const type = cellNode.getAttribute('t');
+        const raw = localElements(cellNode, 'v')[0]?.textContent || '';
+        let value = raw;
+        if (type === 's') value = sharedStrings[Number(raw)] ?? '';
+        else if (type === 'inlineStr') value = nodeText(cellNode);
+        else if (type === 'b') value = raw === '1' ? 'TRUE' : 'FALSE';
+        row[index] = value;
+      });
+      return row;
+    });
+  }
+
+  function parseHtmlTable(text) {
+    const doc = new DOMParser().parseFromString(text, 'text/html');
+    const table = doc.querySelector('table');
+    if (!table) throw new Error('旧版 Excel 文件中没有可识别的表格');
+    return [...table.rows].map(row => [...row.cells].map(cell => (cell.textContent || '').trim()));
+  }
+
+  function parseSpreadsheetXml(text) {
+    const doc = xmlDocument(text);
+    const rows = [];
+    localElements(doc, 'Row').forEach(rowNode => {
+      const row = [];
+      let cursor = 0;
+      localElements(rowNode, 'Cell').forEach(cellNode => {
+        const indexAttribute = [...cellNode.attributes].find(item => item.localName === 'Index');
+        if (indexAttribute) cursor = Math.max(0, Number(indexAttribute.value) - 1);
+        row[cursor] = localElements(cellNode, 'Data')[0]?.textContent || '';
+        cursor += 1;
+      });
+      rows.push(row);
+    });
+    return rows;
+  }
+
+  async function spreadsheetRows(file) {
+    const extension = String(file.name || '').split('.').pop().toLowerCase();
+    if (extension === 'csv') return parseCsvText(await file.text());
+    const buffer = await file.arrayBuffer();
+    const bytes = new Uint8Array(buffer.slice(0, 8));
+    if (bytes[0] === 0x50 && bytes[1] === 0x4b) return parseXlsxBuffer(buffer);
+    let text = new TextDecoder('utf-8').decode(buffer);
+    if ((text.match(/�/g) || []).length > 4) {
+      try { text = new TextDecoder('gb18030').decode(buffer); } catch (_) {}
+    }
+    if (/<table[\s>]/i.test(text)) return parseHtmlTable(text);
+    if (/<(?:\w+:)?Workbook[\s>]/i.test(text)) return parseSpreadsheetXml(text);
+    throw new Error('暂不支持二进制 .xls，请在问卷星下载 .xlsx 或 CSV 后导入');
+  }
+
+  function parseSurveyScore(value) {
+    const text = String(value == null ? '' : value).trim();
+    if (!text || /无法判断|不了解|不适用|未选择|空白/i.test(text)) return null;
+    const direct = Number(text);
+    if (Number.isFinite(direct) && direct >= 1 && direct <= 5) return direct;
+    const match = text.match(/(?:^|[^0-9])([1-5](?:\.0)?)(?:[^0-9]|$)/);
+    return match ? Number(match[1]) : null;
+  }
+
+  function summarizeScores(values) {
+    const sorted = values.slice().sort((a, b) => a - b);
+    const count = sorted.length;
+    if (!count) return { count: 0, mean: null, median: null, standardDeviation: null };
+    const mean = sorted.reduce((sum, value) => sum + value, 0) / count;
+    const median = count % 2 ? sorted[(count - 1) / 2] : (sorted[count / 2 - 1] + sorted[count / 2]) / 2;
+    const variance = sorted.reduce((sum, value) => sum + Math.pow(value - mean, 2), 0) / count;
+    return { count, mean: Math.round(mean * 100) / 100, median: Math.round(median * 100) / 100, standardDeviation: Math.round(Math.sqrt(variance) * 100) / 100 };
+  }
+
+  function parseSurveyRows(rows, expected) {
+    if (!Array.isArray(rows) || !rows.length) throw new Error('答卷文件没有数据');
+    const config = expected || {};
+    const mapEntries = (config.questionnaireMap || state.questionnaireMap || []).length ? (config.questionnaireMap || state.questionnaireMap) : buildQuestionnaireMap();
+    const codeMap = new Map(mapEntries.map(item => [item.code, item]));
+    const columnCount = rows.slice(0, 12).reduce((max, row) => Math.max(max, row.length || 0), 0);
+    const columnHeaders = Array.from({ length: columnCount }, (_, column) => rows.slice(0, 12).map(row => String(row[column] == null ? '' : row[column]).trim()).filter(Boolean).join('｜'));
+    const mappedColumns = new Map();
+    let roleColumn = -1;
+    columnHeaders.forEach((header, column) => {
+      if (header.includes('【ROLE】')) roleColumn = column;
+      const matches = [...header.matchAll(/【([IF]\d{2,3})】/g)];
+      matches.forEach(match => { if (codeMap.has(match[1]) && ![...mappedColumns.values()].some(item => item.code === match[1])) mappedColumns.set(column, codeMap.get(match[1])); });
+    });
+    if (!mappedColumns.size) throw new Error('没有找到问卷包生成的题目代码，请确认导入的是原始答卷');
+    const headerText = columnHeaders.join('｜');
+    const marker = headerText.match(/【DM-([A-Z0-9]+)-V(\d+)】/i);
+    const expectedCode = String(config.assessmentCode || assessmentCode()).toUpperCase();
+    const expectedVersion = Number(config.questionnaireVersion || state.questionnaireVersion || 1);
+    if (marker && marker[1].toUpperCase() !== expectedCode) throw new Error('答卷属于另一项评估，评估编号不一致');
+    if (marker && Number(marker[2]) !== expectedVersion) throw new Error('答卷版本为 V' + marker[2] + '，当前页面需要 V' + expectedVersion);
+    let dataStart = -1;
+    for (let rowIndex = 0; rowIndex < rows.length; rowIndex += 1) {
+      if ([...mappedColumns.keys()].some(column => parseSurveyScore(rows[rowIndex][column]) != null)) { dataStart = rowIndex; break; }
+    }
+    if (dataStart < 0) throw new Error('已识别题目，但没有找到 1—5 分的有效答卷');
+    const raw = {};
+    mapEntries.forEach(item => {
+      raw[item.topicId] = raw[item.topicId] || { impact: [], financial: [] };
+    });
+    const roleCounts = {};
+    let responseCount = 0;
+    for (let rowIndex = dataStart; rowIndex < rows.length; rowIndex += 1) {
+      const row = rows[rowIndex] || [];
+      let hasScore = false;
+      mappedColumns.forEach((item, column) => {
+        const score = parseSurveyScore(row[column]);
+        if (score == null) return;
+        raw[item.topicId] = raw[item.topicId] || { impact: [], financial: [] };
+        raw[item.topicId][item.dimension].push(score);
+        hasScore = true;
+      });
+      if (hasScore) {
+        responseCount += 1;
+        const role = roleColumn >= 0 ? String(row[roleColumn] || '').trim() : '';
+        if (role) roleCounts[role] = (roleCounts[role] || 0) + 1;
+      }
+    }
+    const topicStats = {};
+    Object.entries(raw).forEach(([topicId, dimensions]) => {
+      const impact = summarizeScores(dimensions.impact);
+      const financial = summarizeScores(dimensions.financial);
+      topicStats[topicId] = {
+        impactCount: impact.count, impactMean: impact.mean, impactMedian: impact.median, impactStandardDeviation: impact.standardDeviation,
+        financialCount: financial.count, financialMean: financial.mean, financialMedian: financial.median, financialStandardDeviation: financial.standardDeviation
+      };
+    });
+    const mappedCodes = new Set([...mappedColumns.values()].map(item => item.code));
+    const missingCodes = mapEntries.filter(item => !mappedCodes.has(item.code)).map(item => item.code);
+    return {
+      responseCount, mappedColumns: mappedColumns.size, markerFound: Boolean(marker), topicStats, roleCounts, missingCodes,
+      impactTopicCount: Object.values(topicStats).filter(item => item.impactCount).length,
+      financialTopicCount: Object.values(topicStats).filter(item => item.financialCount).length,
+      warning: !marker ? '未读取到版本标记，已按题目代码匹配' : missingCodes.length ? '缺少 ' + missingCodes.length + ' 个题目列' : ''
+    };
+  }
+
+  async function importSurveyFile(file) {
+    if (!file) return;
+    const rows = await spreadsheetRows(file);
+    const parsed = parseSurveyRows(rows);
+    if (!parsed.responseCount) throw new Error('没有可导入的有效答卷');
+    const previousScores = {};
+    Object.entries(parsed.topicStats).forEach(([topicId, stats]) => {
+      const topic = topicMap().get(topicId);
+      if (!topic) return;
+      const scores = ensureScores(topic);
+      previousScores[topicId] = { impact: scores.impact, financial: scores.financial };
+      if (stats.impactCount) scores.impact = clampScore(stats.impactMean);
+      if (stats.financialCount) scores.financial = clampScore(stats.financialMean);
+    });
+    state.surveyImport = Object.assign(parsed, {
+      fileName: file.name || '问卷答卷', importedAt: new Date().toLocaleString('zh-CN', { hour12: false }),
+      questionnaireVersion: state.questionnaireVersion, previousScores,
+      appliedScores: Object.fromEntries(Object.entries(parsed.topicStats).map(([topicId, stats]) => [topicId, { impact: stats.impactCount ? clampScore(stats.impactMean) : null, financial: stats.financialCount ? clampScore(stats.financialMean) : null }]))
+    });
+    saveState();
+    render();
+    showToast('已导入 ' + parsed.responseCount + ' 份有效答卷，矩阵已更新');
+  }
+
+  function clearSurveyImport() {
+    const imported = state.surveyImport;
+    if (!imported) return;
+    Object.entries(imported.previousScores || {}).forEach(([topicId, previous]) => {
+      const topic = topicMap().get(topicId);
+      if (!topic) return;
+      const current = ensureScores(topic);
+      const applied = imported.appliedScores?.[topicId] || {};
+      if (applied.impact != null && current.impact === applied.impact) current.impact = previous.impact;
+      if (applied.financial != null && current.financial === applied.financial) current.financial = previous.financial;
+    });
+    state.surveyImport = null;
+    saveState();
+    render();
+    showToast('本次问卷统计已清除');
   }
 
   function exportTopicList() {
@@ -546,6 +964,12 @@
 
   function handleChange(event) {
     const target = event.target;
+    if (target.matches('[data-survey-file]')) {
+      const file = target.files && target.files[0];
+      target.value = '';
+      importSurveyFile(file).catch(error => showToast(error.message || '答卷导入失败', 'error'));
+      return;
+    }
     if (target.matches('[name="industry"]')) {
       state.industry = target.value;
       saveState();
@@ -601,6 +1025,9 @@
     if (action === 'apply-recommendations') { applyRecommendations(); render(); }
     if (action === 'go-scores') { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-topics') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'export-questionnaire') exportQuestionnairePackage().catch(error => showToast(error.message || '问卷包导出失败', 'error'));
+    if (action === 'select-survey-file') document.querySelector('[data-survey-file]')?.click();
+    if (action === 'clear-survey-import') clearSurveyImport();
     if (action === 'export-matrix') exportMatrixImage();
     if (action === 'export-list') exportTopicList();
     if (action === 'print') window.print();
@@ -618,6 +1045,9 @@
       library = window.MaterialityTopicLibrary;
       if (!library || !Array.isArray(library.topics)) throw new Error('议题库读取失败');
       state = loadState();
+      if (!state.assessmentId) state.assessmentId = createAssessmentId();
+      state.questionnaireVersion = Math.max(1, Number(state.questionnaireVersion) || 1);
+      if (!Array.isArray(state.questionnaireMap)) state.questionnaireMap = [];
       const ids = new Set(allTopics().map(topic => topic.id));
       state.selected = state.selected.filter(id => ids.has(id));
       if (!state.selected.length) applyRecommendations();
@@ -638,6 +1068,11 @@
   window.MaterialityTool = {
     clampScore,
     csvCell,
+    parseCsvText,
+    parseSurveyScore,
+    summarizeScores,
+    parseSurveyRows,
+    questionnairePackageFiles,
     spreadPoints,
     classify(scores, threshold) {
       const impact = scores.impact >= threshold;

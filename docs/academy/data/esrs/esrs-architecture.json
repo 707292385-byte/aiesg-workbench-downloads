@@ -1,0 +1,205 @@
+{
+  "id": "esrs-architecture",
+  "title": "12 项准则的架构",
+  "eyebrow": "两项横贯准则 · 十项议题准则",
+  "summary": "修订版 ESRS 保留 12 项准则：ESRS 1 一般要求、ESRS 2 一般披露，环境 E1–E5、社会 S1–S4、治理 G1；以披露要求（DR）与应用要求（AR）组织条文。",
+  "tags": [
+    "ESRS 1",
+    "ESRS 2",
+    "议题准则"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按 (EU) 2026/1563 附件一的准则清单整理；准则编号与名称以官方英文文本为准。",
+  "sections": [
+    {
+      "id": "twelve",
+      "title": "12 项准则一览",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "修订后仍为 12 项准则：两项横贯准则解决“怎么报”，十项议题准则解决“报什么”。行业专项准则（原 Set 2）已取消。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "类别",
+              "准则",
+              "内容"
+            ],
+            [
+              "横贯",
+              "ESRS 1",
+              "一般要求：重要性、价值链、列报与结构"
+            ],
+            [
+              "横贯",
+              "ESRS 2",
+              "一般披露：治理、战略、管理与绩效"
+            ],
+            [
+              "环境",
+              "E1–E5",
+              "气候变化、污染、水与海洋、生物多样性与生态系统、资源利用与循环经济"
+            ],
+            [
+              "社会",
+              "S1–S4",
+              "自有员工、价值链工人、受影响社区、消费者与终端用户"
+            ],
+            [
+              "治理",
+              "G1",
+              "商业行为"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "两类准则的分工写在 ESRS 1 里：横贯准则定一般要求与一般披露，议题准则在各自议题上补充披露要求；两者要一起适用。",
+          "quote": {
+            "text": "The undertaking shall apply this Standard in conjunction with ESRS 2 General Disclosures (both referred to as 'cross-cutting standards') and with the topical standards.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 附件一 ESRS 1 第 8 段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "layers",
+      "title": "条文怎么组织",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "每项准则由披露要求（DR）与应用要求（AR）组成：DR 是“必须披露什么”，AR 是“怎么计算、怎么列报”。"
+        },
+        {
+          "type": "process_flow",
+          "title": "阅读一项准则的顺序",
+          "steps": [
+            {
+              "title": "目标与范围",
+              "desc": "先看该准则覆盖哪些影响、风险与机遇，以及与哪些准则交互。",
+              "icon": "1"
+            },
+            {
+              "title": "披露要求 DR",
+              "desc": "逐条列出必须披露的内容，编号形如 E1-1、E1-8。",
+              "icon": "2"
+            },
+            {
+              "title": "应用要求 AR",
+              "desc": "给出计算方法、边界与列报口径，是数据可核对的依据。",
+              "icon": "3"
+            },
+            {
+              "title": "与其他准则的交互",
+              "desc": "跨议题影响在对应准则中交叉引用，避免重复披露。",
+              "icon": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "三个层级的披露单元",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "理解 DR、数据点与实体特定信息的关系，才能判断“哪些必须报、哪些可以不报”。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "披露要求 DR",
+              "content": "准则规定的最小披露单元，按议题与子议题组织。"
+            },
+            {
+              "title": "数据点",
+              "content": "DR 之下可量化或可叙述的具体信息项；修订的重点就是压缩这一层。"
+            },
+            {
+              "title": "实体特定信息",
+              "content": "准则未覆盖但重大时，企业须自行补充披露。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "与 ISSB 的结构差异",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "两套准则都要求披露治理、战略、风险管理与指标目标，但组织方式不同：ESRS 按议题分册，ISSB 按准则分册并以行业指南补充。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "维度",
+              "ESRS",
+              "ISSB（IFRS S1/S2）"
+            ],
+            [
+              "组织方式",
+              "两项横贯准则 + 十项议题准则",
+              "S1 一般要求 + S2 气候 + 行业指南"
+            ],
+            [
+              "重要性",
+              "双重重要性（影响 + 财务）",
+              "财务重要性为主，兼顾对企业前景的影响"
+            ],
+            [
+              "气候",
+              "E1 独立成册，含转型计划与能源结构",
+              "S2 覆盖治理、战略、风险、指标目标"
+            ],
+            [
+              "行业要求",
+              "行业准则已取消，改由议题准则与实体特定信息处理",
+              "以行业实施指南提供指标参考"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-basics",
+        "title": "准则定位与法律链条"
+      },
+      {
+        "id": "esrs-climate",
+        "title": "气候专项 E1"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：披露框架",
+        "url": "topic.html?standard=ashare&id=ashare-framework",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      },
+      {
+        "title": "IFRS S2 气候相关披露",
+        "url": "topic.html?standard=ifrs&id=ifrs-s2",
+        "standard": "ifrs",
+        "system": "ISSB 准则"
+      }
+    ]
+  }
+}

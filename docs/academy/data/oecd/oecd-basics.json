@@ -1,0 +1,183 @@
+{
+  "id": "oecd-basics",
+  "title": "准则性质与约束力",
+  "eyebrow": "政府间建议 · 自愿遵守 · 2023 修订版",
+  "summary": "这是加入国政府向跨国企业提出的共同建议，企业自愿遵守、不具法律强制力；加入国则作出有约束力的承诺，通过国家联络点推动落实。",
+  "tags": [
+    "自愿性",
+    "国内法优先",
+    "51 个加入方"
+  ],
+  "group": "体系总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+  "sourceNote": "本页按 OECD 2023 年英文官方文本（79 页）整理；引用块为英文原文，正文为中文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "它是什么，不是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "发布者是加入国政府，约束对象是企业，方式是建议。它对企业不具法律强制力，但加入国政府对推动它有效实施作出了有约束力的承诺。",
+          "quote": {
+            "text": "Observance of the Guidelines by enterprises is voluntary and not legally enforceable.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第二章评注 第 1 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "发布主体",
+              "content": "加入国政府共同提出，不是某个国际组织的秘书处文件。"
+            },
+            {
+              "title": "约束对象",
+              "content": "在其领土内经营或来自其领土的跨国企业，集团内各实体都在范围内。"
+            },
+            {
+              "title": "文件性质",
+              "content": "政府间建议。不是条约，不是认证标准，也不替代国内立法。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "与国内法的关系",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "遵守经营所在国的法律是企业的首要义务。准则不能替代国内法，也不能被理解为凌驾于国内法之上；在准则要求高于法律的地方，企业应尽量在不违法的前提下最大限度遵守。",
+          "quote": {
+            "text": "Obeying domestic laws is the first obligation of enterprises. The Guidelines are not a substitute for, nor should they be considered to, override domestic law and regulation.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第二章 第 2 段"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "情形",
+              "怎么处理"
+            ],
+            [
+              "国内法要求低于准则",
+              "按准则执行，把更高标准作为自律要求。"
+            ],
+            [
+              "国内法与准则原则冲突",
+              "在不违反国内法的前提下，尽量最大限度地遵守准则。"
+            ],
+            [
+              "政府未落实准则",
+              "不减轻对企业遵守准则的期望。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "覆盖哪些企业",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则不对“跨国企业”作精确界定，判断标准是企业结构或活动的国际性质。一旦属于覆盖范围，集团内所有实体都要按实际职责分工相互配合。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "所有制",
+              "content": "私有、国有、混合所有制一视同仁，国有跨国企业同样适用。"
+            },
+            {
+              "title": "规模",
+              "content": "中小企业能力有限，但仍被鼓励尽可能充分遵守。"
+            },
+            {
+              "title": "国内企业",
+              "content": "准则无意区别对待，凡同时适用的情形，对二者基于同样的期望。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "版本沿革与 2023 修订",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则 1976 年推出，2011 年做过上一次修订，现行版本是 2023 年修订版；这次修订由 51 个加入方与欧盟共同完成。",
+          "quote": {
+            "text": "The update was conducted by the 51 Adherents to the OECD Declaration on International Investment and Multinational Enterprises and the European Union who participate in the OECD Working Party on Responsible Business Conduct and the OECD Investment Committee.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 序言"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "时间",
+              "节点",
+              "意义"
+            ],
+            [
+              "1976",
+              "首次通过",
+              "与《国际投资与跨国企业宣言》配套，确立政府建议企业的基本形式。"
+            ],
+            [
+              "2011",
+              "上一次修订",
+              "引入人权章与尽责管理概念，形成此后十余年的框架。"
+            ],
+            [
+              "2023",
+              "现行修订版",
+              "回应气候与生物多样性、技术使用、产品与服务影响、披露与 NCP 程序等议题。"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-structure",
+        "title": "十一章结构"
+      },
+      {
+        "id": "oecd-duediligence",
+        "title": "尽责管理六步"
+      }
+    ],
+    "external": [
+      {
+        "title": "ISO 26000：指南性标准",
+        "url": "topic.html?standard=iso26000&id=iso-basics",
+        "standard": "iso26000",
+        "system": "ISO 26000 / GB/T 36000"
+      },
+      {
+        "title": "GRI 1：基础",
+        "url": "topic.html?standard=gri&id=gri-1",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}

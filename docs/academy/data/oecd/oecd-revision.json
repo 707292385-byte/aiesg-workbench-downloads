@@ -1,0 +1,165 @@
+{
+  "id": "oecd-revision",
+  "title": "2023 修订要点",
+  "eyebrow": "气候与技术 · 产品使用 · 反报复",
+  "summary": "2023 年修订集中在八个方向：气候与生物多样性目标一致、技术开发与数据使用、产品与服务相关影响、高危群体保护、披露、腐败范围、游说、NCP 程序。",
+  "tags": [
+    "2023 修订",
+    "气候一致",
+    "技术尽调"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+  "sourceNote": "修订清单取自 2023 年英文官方文本序言；气候条款细节取自第六章评注第 76–77 段。",
+  "sections": [
+    {
+      "id": "list",
+      "title": "八项变化",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "这次修订回应的是 2011 年以来十余年的经验，重点不在增加章节，而在把气候、技术、产品使用这些新出现的风险纳入同一套尽调逻辑。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "气候与生物多样性",
+              "content": "建议企业与国际商定的气候变化和生物多样性目标保持一致。"
+            },
+            {
+              "title": "技术与数据",
+              "content": "把尽调预期扩展到技术的开发、融资、销售、许可、贸易和使用，包括数据的收集与使用。"
+            },
+            {
+              "title": "产品与服务的影响",
+              "content": "明确企业对产品和服务被如何使用所产生的影响负有尽调责任。"
+            },
+            {
+              "title": "高危群体与反报复",
+              "content": "加强对处于风险中的个人和群体的保护，包括对企业行为提出关切的人。"
+            },
+            {
+              "title": "披露",
+              "content": "更新负责任商业行为信息的披露建议。"
+            },
+            {
+              "title": "腐败范围",
+              "content": "把尽调建议扩展到所有形式的腐败行为，不再限于贿赂。"
+            },
+            {
+              "title": "游说",
+              "content": "要求企业确保游说活动与准则下的承诺一致。"
+            },
+            {
+              "title": "NCP 程序",
+              "content": "强化程序，确保国家联络点的可见性、有效性与功能等同。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "气候条款写了什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "企业要确保温室气体排放和对碳汇的影响，与国际商定的全球温控目标一致，判断依据是最佳可得科学，包括 IPCC 的评估结论。",
+          "quote": {
+            "text": "Enterprises should ensure that their greenhouse gas emissions and impact on carbon sinks are consistent with internationally agreed global temperature goals based on best available science, including as assessed by the Intergovernmental Panel on Climate Change (IPCC).",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第六章评注 第 76 段"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "目标要科学、要含绝对减排量（相关时也含强度目标），覆盖范围一、范围二，并在信息允许时尽可能覆盖范围三；减排优先于抵消。",
+          "quote": {
+            "text": "Enterprises should prioritise eliminating or reducing sources of emissions over offsetting, compensation, or neutralization measures.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第六章评注 第 77 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "过渡计划",
+              "content": "要有基于科学的气候减缓与适应政策、战略和过渡计划，不是一句承诺。"
+            },
+            {
+              "title": "目标管理",
+              "content": "短、中、长期目标都要设定、监测并报告，并随科学和行业路径更新。"
+            },
+            {
+              "title": "抵消的边界",
+              "content": "碳信用或抵消只能作为未减排量的最后手段，且要单独披露依赖程度。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "meaning",
+      "title": "对企业的直接含义",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "修订把“气候”从环境章的一个议题，变成了需要独立成篇、可被外部核对的内容。写报告时如果只有一句“重视气候变化”，在新版下基本等于没有回应。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "要有绝对量",
+              "content": "只有强度目标不足以说明与温控目标一致。"
+            },
+            {
+              "title": "要能对上方法",
+              "content": "基准年、边界、折算系数要能追溯到公认方法。"
+            },
+            {
+              "title": "要说清抵消",
+              "content": "用了多少碳信用、什么类型、什么质量，要与减排成果分开报告。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-duediligence",
+        "title": "尽责管理六步"
+      },
+      {
+        "id": "oecd-linkage",
+        "title": "与其他框架的衔接"
+      }
+    ],
+    "external": [
+      {
+        "title": "TCFD：四支柱",
+        "url": "topic.html?standard=tcfd&id=tcfd-basics",
+        "standard": "tcfd",
+        "system": "TCFD"
+      },
+      {
+        "title": "ESRS E1：气候变化",
+        "url": "topic.html?standard=esrs&id=esrs-climate",
+        "standard": "esrs",
+        "system": "欧盟 ESRS"
+      }
+    ]
+  }
+}

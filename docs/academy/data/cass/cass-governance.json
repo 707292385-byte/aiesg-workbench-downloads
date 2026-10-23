@@ -1,0 +1,156 @@
+{
+  "id": "cass-governance",
+  "title": "治理与前后记（G/P/A）",
+  "eyebrow": "治理机制 · 商业行为 · 报告收口",
+  "summary": "治理板块分 G1 可持续发展相关治理机制与 G2 商业行为；P 前言确定报告边界，A 后记以绩效表、指标索引与鉴证报告收口。",
+  "tags": [
+    "G1",
+    "G2",
+    "指标索引"
+  ],
+  "group": "指标详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "本页按 6.0 第二章、第五章与第六章整理。",
+  "sections": [
+    {
+      "id": "g1",
+      "title": "G1 治理机制",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "G1 关注的不是财务治理，而是可持续议题如何进入治理结构、决策流程与考核。",
+          "quote": {
+            "text": "治理（G）维度主要描述企业可持续发展理念融入公司治理的各项制度和流程，分为可持续发展相关治理机制、商业行为2个二级议题。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第五章 治理（G 系列）导语"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "治理结构",
+              "content": "董事会、专门委员会与高管的可持续职责。"
+            },
+            {
+              "title": "治理机制",
+              "content": "议题识别、目标设定、绩效考核与信息报告机制。"
+            },
+            {
+              "title": "利益相关方",
+              "content": "识别、沟通与反馈机制。"
+            },
+            {
+              "title": "尽职调查与风险",
+              "content": "尽职调查流程、风险管理与内控。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "G2 商业行为",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "G2 覆盖反腐败、反不正当竞争与合规管理，是治理板块中数据最硬的一部分。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "反商业贿赂",
+              "content": "制度、培训、举报与查处情况。"
+            },
+            {
+              "title": "反不正当竞争",
+              "content": "诉讼与处罚、公平竞争审查。"
+            },
+            {
+              "title": "合规管理",
+              "content": "合规体系、重大违规事件与整改。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "pa",
+      "title": "P 与 A：两头的工作",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "P 定边界，A 做收口；两头做不好，中间的指标再全也无法核对。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "板块",
+              "内容",
+              "作用"
+            ],
+            [
+              "P1 报告规范",
+              "边界、周期、数据口径、编制依据",
+              "确定“报什么范围”"
+            ],
+            [
+              "P2 高管致辞",
+              "战略承诺与年度重点",
+              "确定“谁负责”"
+            ],
+            [
+              "P3 企业简介",
+              "业务、规模、所有权与供应链变化",
+              "确定“报告主体”"
+            ],
+            [
+              "A2 关键绩效表",
+              "三年绩效数据",
+              "提供可核对的数据底表"
+            ],
+            [
+              "A3 指标索引",
+              "报告内容与指引条款对应",
+              "证明披露完整性"
+            ],
+            [
+              "A4 鉴证报告",
+              "第三方鉴证意见",
+              "提供外部保证"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-indicators",
+        "title": "四级指标体系"
+      },
+      {
+        "id": "cass-process",
+        "title": "编制流程与评级"
+      }
+    ],
+    "external": [
+      {
+        "title": "财政部：鉴证准则 6101 号",
+        "url": "topic.html?standard=mof&id=mof-basic",
+        "standard": "mof",
+        "system": "财政部准则"
+      }
+    ]
+  }
+}

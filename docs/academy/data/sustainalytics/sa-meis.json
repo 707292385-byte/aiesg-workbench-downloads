@@ -1,0 +1,135 @@
+{
+  "id": "sa-meis",
+  "title": "重大议题与三大构件",
+  "eyebrow": "公司治理 · 重大议题 · 特有事件",
+  "summary": "评级由三个构件组成：公司治理作为基础项、按子行业识别的重大 ESG 议题（MEIs）、以及不可预测的特有事件（Idiosyncratic Issues）。",
+  "tags": [
+    "MEIs",
+    "公司治理",
+    "特有事件"
+  ],
+  "group": "评级机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "本页按方法论摘要“三个构件”章节整理。",
+  "sections": [
+    {
+      "id": "three",
+      "title": "三个构件",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "重大议题是评级核心，公司治理是所有公司共有的基础项，特有事件处理行业逻辑之外的意外风险。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "公司治理",
+              "content": "对所有公司适用，不因子行业而异，是评级的基础构件。"
+            },
+            {
+              "title": "重大 ESG 议题",
+              "content": "按子行业识别，是分数的主体；公司层面不相关的议题可被移除。"
+            },
+            {
+              "title": "特有事件",
+              "content": "与行业无关的意外事件，达到第 4 或第 5 类才升级为该公司层面的重大议题。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "mei",
+      "title": "重大议题怎么选",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "议题选择基于子行业的典型商业模式与经营环境，具有前瞻性，而不是等事件发生后才纳入。",
+          "quote": {
+            "text": "The Material ESG Issues building block of the ESG Risk Ratings forms the core and center of our methodology. It rests on the assumption that ESG issues can influence the economic value of a company in a given subindustry in a fairly predictable manner.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 构件二：重大 ESG 议题"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "评估层级",
+              "content": "先在子行业层面确定议题与敞口，再在公司层面细化。"
+            },
+            {
+              "title": "数量",
+              "content": "议题在子行业层面确定，公司层面若某议题不相关可被移除；议题与指标集合会随年度评估调整。"
+            },
+            {
+              "title": "权重",
+              "content": "治理平均贡献未管理风险的约 20%，其余按各议题的敞口与可管理程度分配。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "gov",
+      "title": "为什么治理单列",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "治理被视为所有公司的共同基础风险，不随行业变化。",
+          "quote": {
+            "text": "Corporate Governance is a foundational element in the ESG Risk Ratings and reflects our conviction that poor Corporate Governance poses material risks for companies.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 构件一：公司治理"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "适用方式",
+              "content": "对所有公司统一评估，敞口差异小。"
+            },
+            {
+              "title": "分数贡献",
+              "content": "平均约占未管理风险的 20%，具体取决于该公司议题组合。"
+            },
+            {
+              "title": "事件影响",
+              "content": "仅第 4、5 类事件会调整公司的敞口分数。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-framework",
+        "title": "评分框架"
+      },
+      {
+        "id": "sa-management",
+        "title": "管理与事件调整"
+      }
+    ],
+    "external": [
+      {
+        "title": "MSCI：关键议题与权重",
+        "url": "topic.html?standard=msci&id=MSCI-ENV-02",
+        "standard": "msci",
+        "system": "MSCI 评级"
+      }
+    ]
+  }
+}

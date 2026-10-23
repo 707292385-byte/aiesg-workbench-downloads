@@ -1,0 +1,150 @@
+{
+  "id": "cass-indicators",
+  "title": "四级指标体系",
+  "eyebrow": "5 项一级 · 9 项二级 · 26 项三级 · 165 项四级",
+  "summary": "6.0 设置四级指标：P/E/S/G/A 五项一级指标，9 项二级指标，26 项三级指标，165 项四级指标，覆盖交易所指引的全部议题。",
+  "tags": [
+    "四级指标",
+    "P/E/S/G/A",
+    "165 项"
+  ],
+  "group": "体系总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "指标数量与层级取自 CASS-ESG 6.0 一般框架“指标说明”章节。",
+  "sections": [
+    {
+      "id": "structure",
+      "title": "指标怎么分层",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "四级结构的作用是把“议题”变成“可填写的数据项”，每一级都能对应到指引条款。",
+          "quote": {
+            "text": "《ESG指南6.0》严格参照《交易所指引》原文及其结构顺序，设置四级指标，包含环境（E）、社会（S）、治理（G）和“前言”（P）、“后记”（A）等5项一级指标，9项二级指标，26项三级指标，165项四级指标，提供详细的指标解释，并辅以最新的企业案例。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 序言"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "层级",
+              "数量",
+              "示例"
+            ],
+            [
+              "一级指标",
+              "5 项",
+              "P 前言、E 环境、S 社会、G 治理、A 后记"
+            ],
+            [
+              "二级指标",
+              "9 项",
+              "E1 应对气候变化、E2 污染防治与生态系统保护、E3 资源利用与循环经济……"
+            ],
+            [
+              "三级指标",
+              "26 项",
+              "E2.1 污染物排放、E2.2 废弃物处理、E2.3 生态系统与生物多样性保护"
+            ],
+            [
+              "四级指标",
+              "165 项",
+              "E2.1.2 污染物排放总量、E2.2.1 有害废弃物产生量……"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "五大板块一览",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "板块顺序与交易所指引一致，便于逐条对照。"
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "P 前言",
+              "desc": "报告规范、高管致辞、企业简介，解决“谁在报告、报告边界是什么”。"
+            },
+            {
+              "title": "E 环境",
+              "desc": "应对气候变化、污染防治与生态系统保护、资源利用与循环经济三大二级指标。"
+            },
+            {
+              "title": "S 社会",
+              "desc": "乡村振兴与社会贡献、创新驱动、供应商与客户、员工四项二级指标。"
+            },
+            {
+              "title": "G 治理",
+              "desc": "可持续发展相关治理机制、商业行为两项二级指标。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        },
+        {
+          "type": "standard",
+          "content_cn": "A 后记包括未来计划、关键绩效表、指标索引、鉴证报告、评级报告与意见反馈，是报告的收口部分。"
+        }
+      ]
+    },
+    {
+      "id": "usage",
+      "title": "怎么用这套指标",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "指标不是清单式打勾：每项四级指标都配指标释义与案例，环境类指标另有计算方法。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "先定边界",
+              "content": "按 P1 报告规范确定组织边界、报告周期与数据口径。"
+            },
+            {
+              "title": "再填指标",
+              "content": "按四级指标逐项填报，缺数据的项说明原因。"
+            },
+            {
+              "title": "后做索引",
+              "content": "用 A3 指标索引把报告内容与指引条款逐条对应。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-environment",
+        "title": "环境指标"
+      },
+      {
+        "id": "cass-social",
+        "title": "社会指标"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：披露框架",
+        "url": "topic.html?standard=ashare&id=ashare-framework",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      }
+    ]
+  }
+}

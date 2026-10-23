@@ -1,0 +1,142 @@
+{
+  "id": "sa-exposure",
+  "title": "敞口怎么打分",
+  "eyebrow": "子行业定级 · 公司细化",
+  "summary": "敞口先在子行业层面确定，再按公司特征细化；敞口高低取决于商业模式、财务实力、地理分布与争议情况。",
+  "tags": [
+    "子行业",
+    "敞口因子",
+    "beta"
+  ],
+  "group": "评级机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "本页按方法论摘要“Exposure”章节整理。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "敞口是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "敞口可以理解为公司对 ESG 风险的敏感度或脆弱性，是潜在经济风险的来源。",
+          "quote": {
+            "text": "Exposure can be considered as a set of ESG-related factors that pose potential economic risks for companies. Another way to think of exposure is as a company’s sensitivity or vulnerability to ESG risks. Material ESG issues and their exposure scores are assessed at the subindustry level and then refined at the company level.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 敞口"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "行业共性",
+              "content": "同一子行业的公司面临相似的 ESG 风险结构。"
+            },
+            {
+              "title": "公司差异",
+              "content": "同一行业内，业务组合、资产位置与财务韧性会造成敞口差异。"
+            },
+            {
+              "title": "用途",
+              "content": "敞口决定“最多可能损失多少”，管理决定“实际损失多少”。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "factors",
+      "title": "四个敞口因子",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "敞口不是单一指标，而是若干因子的组合判断。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "商业模式",
+              "content": "收入与资产对高影响活动的依赖程度。"
+            },
+            {
+              "title": "财务实力",
+              "content": "现金流与资产负债表能否吸收风险冲击。"
+            },
+            {
+              "title": "地理分布",
+              "content": "资产与收入所在地区的监管强度与生态敏感度。"
+            },
+            {
+              "title": "争议情况",
+              "content": "已发生争议事件反映的暴露程度。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "title": "从子行业到公司",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "评估分两段：先给子行业定基线，再用公司特征调整。"
+        },
+        {
+          "type": "process_flow",
+          "title": "敞口评估流程",
+          "steps": [
+            {
+              "title": "子行业基线",
+              "desc": "按行业风险清单确定每个议题的初始敞口。",
+              "icon": "1"
+            },
+            {
+              "title": "公司特征调整",
+              "desc": "按业务组合、财务、地理与争议调整。",
+              "icon": "2"
+            },
+            {
+              "title": "议题级敞口",
+              "desc": "形成各重大议题的敞口分数。",
+              "icon": "3"
+            },
+            {
+              "title": "公司级敞口",
+              "desc": "汇总为整体敞口，用于与管理分数相减。",
+              "icon": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-management",
+        "title": "管理与事件调整"
+      },
+      {
+        "id": "sa-meis",
+        "title": "重大议题与三大构件"
+      }
+    ],
+    "external": [
+      {
+        "title": "标普 CSA：行业方法",
+        "url": "topic.html?standard=csa&id=CSA-GOV-02",
+        "standard": "csa",
+        "system": "标普 CSA"
+      }
+    ]
+  }
+}

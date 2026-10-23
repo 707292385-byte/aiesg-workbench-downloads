@@ -1,0 +1,202 @@
+{
+  "id": "oecd-duediligence",
+  "title": "尽责管理六步",
+  "eyebrow": "风险为本 · 相称性 · 影响力",
+  "summary": "准则的核心方法是以风险为本的尽责管理：嵌入政策与体系、识别评估影响、终止防范减轻、跟踪结果、沟通、必要时提供补救。",
+  "tags": [
+    "六步框架",
+    "风险为本",
+    "影响力"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+  "sourceNote": "六步框架取自 2023 年英文官方文本第二章评注第 15 段，与《经合组织负责任商业行为尽责管理指南》一致。",
+  "sections": [
+    {
+      "id": "six",
+      "title": "六步框架",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "六步不是线性流程，而是循环：识别出的影响会改变政策，跟踪结果又会触发新一轮识别。准则把它写成政府承诺支持并监督的统一框架。",
+          "quote": {
+            "text": "It outlines the following measures: 1. embedding responsible business conduct into policies and management systems; 2. identifying and assessing actual and potential adverse impacts associated with the enterprise's operations, products or services; 3. ceasing, preventing and mitigating adverse impacts; 4. tracking implementation and results; 5. communicating how impacts are addressed; and 6. providing for or co-operating in remediation when appropriate.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第二章评注 第 15 段"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "尽责管理的六个措施",
+          "steps": [
+            {
+              "title": "嵌入政策与体系",
+              "desc": "把负责任商业行为写进政策、管理体系和绩效考核。",
+              "icon": "1"
+            },
+            {
+              "title": "识别与评估影响",
+              "desc": "针对运营、产品和服务，识别实际与潜在的不利影响并评估严重性。",
+              "icon": "2"
+            },
+            {
+              "title": "终止、防范、减轻",
+              "desc": "按影响性质采取措施：能终止的终止，不能终止的防范和减轻。",
+              "icon": "3"
+            },
+            {
+              "title": "跟踪实施与结果",
+              "desc": "用指标和复核验证措施是否真的起作用。",
+              "icon": "4"
+            },
+            {
+              "title": "沟通如何应对",
+              "desc": "对外说明识别了什么、做了什么、还有什么没解决。",
+              "icon": "5"
+            },
+            {
+              "title": "提供或合作补救",
+              "desc": "在适当时候自行提供补救，或与相关方合作开展补救。",
+              "icon": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relation",
+      "title": "三类影响关系决定义务",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则按企业与影响的关系分三类，义务强度不同。这是尽调报告里最容易被写混的一段。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "关系",
+              "含义",
+              "企业该做什么"
+            ],
+            [
+              "造成",
+              "企业活动本身足以造成不利影响",
+              "终止或防范该影响。"
+            ],
+            [
+              "助长",
+              "与其它实体共同造成，或导致、促成、激励其造成",
+              "终止或防范，并用影响力尽可能减轻剩余影响。"
+            ],
+            [
+              "直接相关",
+              "未造成也未助长，但经业务关系与运营、产品或服务直接相关",
+              "不承担提供补救的责任，但可在补救中发挥作用。"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "尽调可以并入企业风险管理体系，前提是它不止于管理企业自身的重大风险，还要覆盖准则所涉事项的不利影响风险。",
+          "quote": {
+            "text": "Due diligence can be included within broader enterprise risk management systems, provided that it goes beyond simply identifying and managing material risks to the enterprise itself, to include the risks of adverse impacts related to matters covered by the Guidelines.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第二章评注 第 16 段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "proportion",
+      "title": "相称性与优先级",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "尽调的深度不是统一的：取决于经营背景、相关章节的具体建议，并与企业规模、卷入程度、影响严重性相称。无法一次消除全部影响时，按严重性和可能性排序。",
+          "quote": {
+            "text": "The nature and extent of due diligence, such as the specific steps to be taken, appropriate to a particular situation will be affected by factors such as the context of an enterprise's operations, the specific recommendations in the Guidelines, and should be proportionate to the size of the enterprise, its involvement with an adverse impact and the severity of adverse impacts.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第二章评注 第 19 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "先做粗筛",
+              "content": "业务关系数量大时，先识别风险最集中的领域，再在领域内做深。"
+            },
+            {
+              "title": "严重性优先",
+              "content": "严重性高于可能性：不可挽回的影响先处理，哪怕发生概率不高。"
+            },
+            {
+              "title": "杠杆有限时",
+              "content": "没有足够影响力时，先想办法提高影响力，而不是直接退出。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "exit",
+      "title": "关系怎么处置",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "处置业务关系有三档：继续并缓解、暂时中止、终止。终止是最后手段，且要以负责任的方式退出。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "继续并缓解",
+              "content": "能保持关系并展示现实改善前景时，通常优于脱钩。"
+            },
+            {
+              "title": "暂时中止",
+              "content": "在缓解风险的同时暂停合作，保留恢复可能。"
+            },
+            {
+              "title": "负责任退出",
+              "content": "缓解失败或不可行时才终止，并顾及退出本身的社会、环境和经济影响。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-revision",
+        "title": "2023 修订要点"
+      },
+      {
+        "id": "oecd-ncp",
+        "title": "国家联络点机制"
+      }
+    ],
+    "external": [
+      {
+        "title": "ESRS：双重重要性与价值链",
+        "url": "topic.html?standard=esrs&id=esrs-materiality",
+        "standard": "esrs",
+        "system": "欧盟 ESRS"
+      },
+      {
+        "title": "ISO 26000：尽职调查",
+        "url": "topic.html?standard=iso26000&id=iso-integration",
+        "standard": "iso26000",
+        "system": "ISO 26000 / GB/T 36000"
+      }
+    ]
+  }
+}

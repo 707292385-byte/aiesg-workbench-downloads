@@ -1,0 +1,146 @@
+{
+  "id": "iso-stakeholders",
+  "title": "辨识与利益相关方参与",
+  "eyebrow": "两项基本实践 · 八个提示问题 · 双向沟通",
+  "summary": "标准把“社会责任辨识”和“利益相关方识别与参与”定为两项基本实践：先弄清影响与议题，再让相关方进入对话。",
+  "tags": [
+    "基本实践",
+    "利益相关方",
+    "双向沟通"
+  ],
+  "group": "核心内容",
+  "status": "官方文件整理",
+  "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+  "sourceNote": "本页按 GB/T 36000—2015 第 6 章整理；八个提示问题为 6.3.1 原文列举。",
+  "sections": [
+    {
+      "id": "two",
+      "title": "两项基本实践",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "这两项实践之所以叫“基本”，是因为它们不隶属任何单一议题，却决定了所有议题能不能被找对、谈透。",
+          "quote": {
+            "text": "社会责任辨识不仅包含了对因组织决策和活动的影响而引起的议题的识别，还包含了为致力于可持续发展而对处理这些议题的方式的识别。",
+            "source": "《社会责任指南》GB/T 36000—2015 6.1 概述"
+          }
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "社会责任辨识",
+              "desc": "识别组织决策和活动带来的议题，也识别处理这些议题的方式。"
+            },
+            {
+              "title": "利益相关方识别与参与",
+              "desc": "找出与组织有利益关系的人与团体，并与之建立双向对话。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "title": "谁是利益相关方",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "判断标准不是“有没有合同”，而是“有没有利益受到影响”。这种关系不需要正式确认，甚至不需要当事方知晓。",
+          "quote": {
+            "text": "利益相关方是在组织的决策或活动中有一项或多项利益的个人或团体。",
+            "source": "《社会责任指南》GB/T 36000—2015 6.3.1"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "组织对谁有法定义务",
+              "content": "员工、客户、监管机构等。"
+            },
+            {
+              "title": "谁受到积极或消极影响",
+              "content": "社区居民、供应链上的工人。"
+            },
+            {
+              "title": "谁可能表示关切",
+              "content": "NGO、媒体、投资者。"
+            },
+            {
+              "title": "谁若不参与就会处于不利地位",
+              "content": "弱势群体、后代人、无法自我组织的一方。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        },
+        {
+          "type": "standard",
+          "content_cn": "标准还提醒：并非所有利益相关方都能组织起来，弱势群体、后代人、野生动植物往往没有代言人，组织要主动关注可信赖的代言团体。"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "title": "参与怎么做才算数",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "参与的本质是双向沟通，不是单向告知。开个发布会念稿子，不构成参与。",
+          "quote": {
+            "text": "利益相关方参与的本质特征就是双向沟通。",
+            "source": "《社会责任指南》GB/T 36000—2015 6.3.2"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "参与要建立在信任之上，并且超越公共关系层面；只挑“友好”的团体对话，等于没有对话。",
+          "quote": {
+            "text": "只有基于良好的信任并超越了公共关系，利益相关方参与才能取得成效。",
+            "source": "《社会责任指南》GB/T 36000—2015 6.3.2"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "沉默不等于没有意见。标准明确反对因为某一方不发声就将其忽略——这恰恰是弱势群体最常遇到的处境。",
+          "quote": {
+            "text": "组织不宜仅因为利益相关方沉默而忽略他们。",
+            "source": "《社会责任指南》GB/T 36000—2015 6.3.2"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "iso-integration",
+        "title": "融入整个组织"
+      },
+      {
+        "id": "iso-subjects",
+        "title": "七大核心主题"
+      }
+    ],
+    "external": [
+      {
+        "title": "ESRS：双重重要性与价值链",
+        "url": "topic.html?standard=esrs&id=esrs-materiality",
+        "standard": "esrs",
+        "system": "欧盟 ESRS"
+      },
+      {
+        "title": "GRI 3：重大主题",
+        "url": "topic.html?standard=gri&id=gri-3",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}

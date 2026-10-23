@@ -1,0 +1,161 @@
+{
+  "id": "iso26000",
+  "title": "ISO 26000 / GB/T 36000 社会责任指南",
+  "titleEn": "ISO 26000:2010 / GB/T 36000-2015 Guidance on Social Responsibility",
+  "eyebrow": "指南性标准 · 不可认证 · 七大核心主题",
+  "accent": "#5f6f52",
+  "description": "社会责任领域的指南性标准：七项原则、七大核心主题、两项基本实践和一条融入路径；明确不适用于认证，也不替代披露标准。",
+  "issuer": "国际标准化组织（ISO）；国家标准化管理委员会（GB/T 36000—2015 修改采用）",
+  "version": "GB/T 36000—2015：2015-06-02 发布、2016-01-01 实施，现行；修改采用 ISO 26000:2010（MOD）",
+  "updated": "2026.10.22",
+  "topics": 6,
+  "sourceNote": "GB/T 36000—2015 标准正文；ISO 26000:2010 英文原版仅用于条款对照。",
+  "notice": "本标准是指南性标准，不适用于认证目的，也不规定披露指标。做披露请配合 GB/T 36001 或适用的交易所指引；其气候内容成文较早，不宜作为气候披露的唯一依据。",
+  "goals": [
+    "说清指南性标准的定位与不可认证的边界",
+    "梳理七项原则及常见偏差",
+    "列出七大核心主题与议题清单",
+    "还原社会责任辨识与利益相关方参与两项基本实践",
+    "拆解第 8 章的融入路径与尽职调查",
+    "划清与披露标准、评级体系的分工"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "理解组织特征",
+      "desc": "分析类型、宗旨、规模、所在地特征、用工特点与价值链。"
+    },
+    {
+      "step": "2",
+      "title": "识别议题",
+      "desc": "七项核心主题全过一遍，判断哪些议题与自身决策和活动相关。"
+    },
+    {
+      "step": "3",
+      "title": "识别利益相关方",
+      "desc": "用八个提示问题找出受影响方，以及没有代言人的群体。"
+    },
+    {
+      "step": "4",
+      "title": "评估影响范围",
+      "desc": "看所有权与治理、经济关系、法律授权、公众意见四个来源。"
+    },
+    {
+      "step": "5",
+      "title": "排优先事项",
+      "desc": "按影响程度、关切程度与社会期望排出即时与未来事项。"
+    },
+    {
+      "step": "6",
+      "title": "融入与评审",
+      "desc": "嵌入治理、体系与沟通，定期监视、评审并更新优先事项。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系总览",
+      "items": [
+        {
+          "id": "iso-basics",
+          "title": "指南性标准定位",
+          "eyebrow": "指南不是要求 · 不可认证 · 与 ISO 26000 的关系",
+          "summary": "GB/T 36000—2015 修改采用 ISO 26000:2010，为组织理解并管理社会责任提供指南；适用于所有类型的组织，并明确不适用于认证目的。",
+          "tags": [
+            "指南性标准",
+            "不可认证",
+            "MOD ISO 26000"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "本页按 GB/T 36000—2015 标准正文（前 46 页含附录）整理；引用块为标准原文。官方查询入口：国家标准全文公开系统（openstd.samr.gov.cn）。",
+          "detailFile": "data/iso26000/iso-basics.json"
+        },
+        {
+          "id": "iso-principles",
+          "title": "七项原则",
+          "eyebrow": "担责 · 透明 · 合乎道德 · 尊重利益相关方",
+          "summary": "标准把社会责任的原则定为七项：担责、透明、合乎道德的行为、尊重利益相关方的利益、尊重法治、尊重国际行为规范、尊重人权。",
+          "tags": [
+            "七项原则",
+            "担责",
+            "透明"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "本页按 GB/T 36000—2015 第 5 章整理；每条原则的引文为对应条款首句原文。",
+          "detailFile": "data/iso26000/iso-principles.json"
+        }
+      ]
+    },
+    {
+      "title": "核心内容",
+      "items": [
+        {
+          "id": "iso-subjects",
+          "title": "七大核心主题",
+          "eyebrow": "组织治理 · 人权 · 劳工 · 环境 · 公平运行 · 消费者 · 社区",
+          "summary": "七项核心主题与所有组织都相关，但每项主题下的具体议题并非都相关；组织要通过辨识与评价，找出对自己重要的那些议题。",
+          "tags": [
+            "七大主题",
+            "议题清单",
+            "相关性"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "主题与议题清单取自 GB/T 36000—2015 表 1 与第 7 章；议题名称为标准原文表述。",
+          "detailFile": "data/iso26000/iso-subjects.json"
+        },
+        {
+          "id": "iso-stakeholders",
+          "title": "辨识与利益相关方参与",
+          "eyebrow": "两项基本实践 · 八个提示问题 · 双向沟通",
+          "summary": "标准把“社会责任辨识”和“利益相关方识别与参与”定为两项基本实践：先弄清影响与议题，再让相关方进入对话。",
+          "tags": [
+            "基本实践",
+            "利益相关方",
+            "双向沟通"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "本页按 GB/T 36000—2015 第 6 章整理；八个提示问题为 6.3.1 原文列举。",
+          "detailFile": "data/iso26000/iso-stakeholders.json"
+        }
+      ]
+    },
+    {
+      "title": "落地路径",
+      "items": [
+        {
+          "id": "iso-integration",
+          "title": "融入整个组织",
+          "eyebrow": "理解特征 · 尽职调查 · 影响范围 · 优先事项",
+          "summary": "第 8 章给出把社会责任落到组织里的路径：先理解自身特征与影响，再做尽职调查、确定相关性与重要性、排优先事项，最后嵌入治理、体系与沟通。",
+          "tags": [
+            "尽职调查",
+            "影响范围",
+            "优先事项"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "本页按 GB/T 36000—2015 第 8 章整理；流程图按 8.2–8.7 的顺序归纳。",
+          "detailFile": "data/iso26000/iso-integration.json"
+        },
+        {
+          "id": "iso-boundary",
+          "title": "与披露标准的边界",
+          "eyebrow": "不做认证 · 不替代报告标准 · 当自检表用",
+          "summary": "这份标准管“怎么理解和做”，不管“披露什么”。披露在 GB/T 36001，量化绩效在 GB/T 36002；把三者混用，会做出既不完整也不可核对的报告。",
+          "tags": [
+            "标准边界",
+            "三件套",
+            "自检表"
+          ],
+          "status": "官方文件整理 + 平台对照",
+          "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+          "sourceNote": "引用块为标准原文；“分工对照”表与用法建议为本平台整理，非标准原文。",
+          "detailFile": "data/iso26000/iso-boundary.json"
+        }
+      ]
+    }
+  ]
+}

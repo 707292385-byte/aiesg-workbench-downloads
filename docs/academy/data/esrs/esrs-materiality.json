@@ -1,0 +1,179 @@
+{
+  "id": "esrs-materiality",
+  "title": "双重重要性与价值链",
+  "eyebrow": "两个视角 · 自上而下 · 价值链限制",
+  "summary": "ESRS 以影响重要性与财务重要性两个视角界定双重重要性；修订版允许自上而下按议题得出结论，并允许在无法取得价值链数据时使用区域或行业数据。",
+  "tags": [
+    "双重重要性",
+    "自上而下",
+    "价值链"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按 (EU) 2026/1563 附件一 ESRS 1 第 2、21、27、30、32、33 段整理。",
+  "sections": [
+    {
+      "id": "double",
+      "title": "双重重要性是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "双重重要性不是两套报告，而是一次评估的两个视角：企业对人和社会的影响，以及可持续议题对企业财务的影响。",
+          "quote": {
+            "text": "ESRS require the undertaking to disclose information about its material impacts on people and the environment and about its material sustainability-related risks and opportunities (collectively ‘impacts, risks and opportunities’). Reporting under these two perspectives constitutes the double materiality principle (see Chapter 3).",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 2 段"
+          }
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "影响重要性",
+              "desc": "企业活动对人（含员工、社区、价值链工人）和环境造成的实际或潜在影响，不论是否影响财务。"
+            },
+            {
+              "title": "财务重要性",
+              "desc": "可持续议题可能带来的资源流入或流出、风险与机遇，进而影响企业前景。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "topdown",
+      "title": "自上而下怎么用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "修订版允许先从战略、商业模式、行业与地理、价值链特征入手，在议题层级得出结论；只有结论不明显时，才需逐项评估。",
+          "quote": {
+            "text": "Without prejudice to the criteria in Chapters 3.2.1 and 3.2.2, the undertaking may derive a conclusion, without further assessment, on the materiality or non-materiality of its impacts, risks or opportunities for a topic or sub-topic, on the basis of an analysis of its strategy and business model including its sector(s) of operations, its geographies, and the features of its upstream and downstream value chain (‘top-down’ approach to materiality assessment).",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 27 段"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "自上而下的四步",
+          "steps": [
+            {
+              "title": "看战略与商业模式",
+              "desc": "明确主营业务、收入结构与关键依赖。",
+              "icon": "1"
+            },
+            {
+              "title": "看行业与地理",
+              "desc": "定位行业共性议题与高敏感地区。",
+              "icon": "2"
+            },
+            {
+              "title": "看价值链特征",
+              "desc": "识别上下游环节的影响集中点。",
+              "icon": "3"
+            },
+            {
+              "title": "在议题层级下结论",
+              "desc": "结论不明显时，再对具体影响、风险与机遇做专项评估。",
+              "icon": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valuechain",
+      "title": "价值链可以做到什么程度",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "修订版明确不要求穷尽所有影响，并允许在无法取得价值链主体直接信息时使用替代数据。",
+          "quote": {
+            "text": "(b) is not required to assess every possible impact, risk or opportunity across all areas of its operations and upstream and downstream value chain, but shall focus on areas where material impacts, risks or opportunities are deemed likely to arise based on the undertaking’s strategy and business model, geographies, sectors, business relationships, nature of the activities, or other factors.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 32 段"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "替代数据不是“拍脑袋”：可使用区域均值、行业数据或公开信息，但须与议题情境相匹配。",
+          "quote": {
+            "text": "The undertaking may be able to conduct the materiality assessment regarding upstream and downstream value chain without direct input from value chain actors, using instead average regional data, sector data or generally available information about the existence of impacts, risks and opportunities in the context in question.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 33 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "可以做的",
+              "content": "按议题聚焦高概率发生重大影响的环节，用区域或行业数据估算。"
+            },
+            {
+              "title": "不能做的",
+              "content": "以“拿不到数据”为由完全不评估价值链。"
+            },
+            {
+              "title": "要写清的",
+              "content": "所用替代数据的来源、口径与局限。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "title": "只报重大信息",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则把“不重大不披露”写成硬规则，同时要求整体列报公平。",
+          "quote": {
+            "text": "When a material impact, risk or opportunity concerns a sub-topic, the undertaking shall report only the material information for that sub-topic.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 30 段"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "整体公平列报（fair presentation）是对整份可持续报告的判断，不是逐条打分。",
+          "quote": {
+            "text": "Applying ESRS, including the materiality filter as set out in paragraph 24, and with entity-specific disclosures when necessary (see paragraph 11), results in a sustainability statement that achieves fair presentation.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS 1 第 21 段"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-climate",
+        "title": "气候专项 E1"
+      },
+      {
+        "id": "esrs-revision",
+        "title": "修订前后变化"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：重要性议题",
+        "url": "topic.html?standard=ashare&id=ashare-materiality",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      },
+      {
+        "title": "GRI 3：重大议题",
+        "url": "topic.html?standard=gri&id=gri-3",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}

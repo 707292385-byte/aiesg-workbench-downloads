@@ -1,0 +1,134 @@
+{
+  "id": "cass-social",
+  "title": "社会指标（S1–S4）",
+  "eyebrow": "乡村振兴 · 创新 · 供应链 · 员工",
+  "summary": "社会板块分四项二级指标：S1 乡村振兴与社会贡献、S2 创新驱动、S3 供应商与客户、S4 员工，覆盖指引中的六项社会议题。",
+  "tags": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "group": "指标详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "本页按 6.0 第四章“社会（S 系列）”整理。",
+  "sections": [
+    {
+      "id": "s1s2",
+      "title": "S1–S2：乡村振兴与创新",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "S1 与 S2 是中国语境下特有的社会议题设置，前者对应共同富裕与社会贡献，后者对应研发与创新绩效。",
+          "quote": {
+            "text": "社会（S）维度主要描述企业对社会责任的承担与贡献，包括乡村振兴与社会贡献、创新驱动、供应商与客户、员工4个二级议题。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第四章 社会（S 系列）导语"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "S1 乡村振兴与社会贡献",
+              "content": "帮扶投入、产业带动、公益捐赠、志愿服务、社区沟通。"
+            },
+            {
+              "title": "S2 创新驱动",
+              "content": "研发投入与强度、研发人员占比、专利与标准、科技成果转化。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "S3 供应商与客户",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "S3 是供应链尽调在报告中的落点：既要写供应商管理，也要写产品责任与客户权益。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "方向",
+              "主要披露内容"
+            ],
+            [
+              "供应商管理",
+              "供应商准入与审核、ESG 评价、冲突矿产、供应链风险"
+            ],
+            [
+              "产品与服务质量",
+              "质量管理体系、召回与投诉、客户满意度"
+            ],
+            [
+              "数据与隐私",
+              "数据安全制度、泄露事件、客户信息保护"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "S4 员工",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "员工议题覆盖雇佣、健康安全、发展与权益四个方向，指标以量化为主。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "雇佣",
+              "content": "员工总数与结构、劳动合同签订率、流失率。"
+            },
+            {
+              "title": "健康安全",
+              "content": "工伤率、职业病、安全培训、应急演练。"
+            },
+            {
+              "title": "发展",
+              "content": "培训时长、晋升通道、薪酬与绩效。"
+            },
+            {
+              "title": "权益",
+              "content": "工会与集体协商、女员工保护、反歧视与申诉。"
+            }
+          ],
+          "numbered": true,
+          "cols": 2
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-environment",
+        "title": "环境指标"
+      },
+      {
+        "id": "cass-governance",
+        "title": "治理与前后记"
+      }
+    ],
+    "external": [
+      {
+        "title": "GRI 401：雇佣",
+        "url": "topic.html?standard=gri&id=gri-401",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}

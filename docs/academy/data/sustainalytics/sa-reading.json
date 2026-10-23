@@ -1,0 +1,156 @@
+{
+  "id": "sa-reading",
+  "title": "分数怎么读",
+  "eyebrow": "五档区间 · 可比性 · 使用禁忌",
+  "summary": "分数区间为 0–10 可忽略、10–20 低、20–30 中、30–40 高、40 以上严重；档位是绝对判断，但不能当作影响评价或投资建议。",
+  "tags": [
+    "分数区间",
+    "五档",
+    "使用边界"
+  ],
+  "group": "解读与应用",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "分数区间与档位定义取自 Sustainalytics 样本报告图例；引用块为英文原文。",
+  "sections": [
+    {
+      "id": "bands",
+      "title": "五档区间",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "分数越低越好，档位由分数区间直接决定，不做行业调整。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "档位",
+              "分数区间",
+              "含义"
+            ],
+            [
+              "可忽略 Negligible",
+              "0–10",
+              "ESG 因素驱动的重大财务影响风险可忽略"
+            ],
+            [
+              "低 Low",
+              "10–20",
+              "风险较低"
+            ],
+            [
+              "中 Medium",
+              "20–30",
+              "风险中等"
+            ],
+            [
+              "高 High",
+              "30–40",
+              "风险较高"
+            ],
+            [
+              "严重 Severe",
+              "40 以上",
+              "风险严重"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "档位定义以企业价值受 ESG 因素驱动的重大财务影响风险为准。",
+          "quote": {
+            "text": "Negligible risk: enterprise value is considered to have a negligible risk of material financial impacts driven by ESG factors",
+            "source": "《Summary ESG Risk Ratings Report（样本报告）》 图例"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "怎么比较才有效",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "同一档位可跨行业比较，但分数差异小的公司不宜过度解读。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "可比",
+              "content": "绝对档位，可跨子行业比较风险高低。"
+            },
+            {
+              "title": "谨慎",
+              "content": "同档内 1–2 分差异通常不具实质意义。"
+            },
+            {
+              "title": "看构成",
+              "content": "要判断风险来自敞口还是管理缺口，需看议题级分解。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "三条使用边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "评级是风险视角的工具，不是影响评价，也不是投资建议。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "不是影响评价",
+              "content": "评级不衡量企业对人和环境的实际影响大小。"
+            },
+            {
+              "title": "不是合规结论",
+              "content": "高分或低分都不代表企业是否满足披露或鉴证要求。"
+            },
+            {
+              "title": "注意版本",
+              "content": "方法摘要为 2021 年 v2.1，具体评分规则以官网现行说明为准。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-framework",
+        "title": "评分框架"
+      },
+      {
+        "id": "sa-meis",
+        "title": "重大议题与三大构件"
+      }
+    ],
+    "external": [
+      {
+        "title": "MSCI ESG 评级方法论",
+        "url": "topic.html?standard=msci&id=MSCI-ENV-01",
+        "standard": "msci",
+        "system": "MSCI 评级"
+      },
+      {
+        "title": "Sustainalytics 官方产品页",
+        "url": "https://www.sustainalytics.com/esg-ratings",
+        "external": true
+      }
+    ]
+  }
+}

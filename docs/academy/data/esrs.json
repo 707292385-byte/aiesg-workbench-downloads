@@ -1,0 +1,160 @@
+{
+  "id": "esrs",
+  "title": "欧盟可持续报告准则（ESRS）",
+  "titleEn": "European Sustainability Reporting Standards",
+  "eyebrow": "CSRD 下的披露准则 · 2026 年修订版",
+  "accent": "#1b4f9c",
+  "description": "欧盟 CSRD 指令下的可持续报告准则，2026 年修订版压缩数据点、放开自上而下重要性评估，2027 财年起强制适用。",
+  "issuer": "欧盟委员会（EFRAG 提供技术建议）",
+  "version": "授权条例 (EU) 2026/1563：2026-09-21 刊登公报、2026-11-10 生效、2027 财年起适用",
+  "updated": "2026.10.22",
+  "topics": 6,
+  "sourceNote": "(EU) 2026/1563 官方英文文本（163 页）；2023 年版 (EU) 2023/2772 仅用于对照。",
+  "notice": "本体系按 2026 年修订版整理。2023 年版 ESRS 已被替换，仅在 2026 财年过渡期内可作为选择之一；具体适用以企业所在成员国转化文本与欧委会官方文本为准。",
+  "goals": [
+    "说明 ESRS 在 CSRD 体系中的法律位阶与适用门槛",
+    "梳理 12 项准则的架构与披露单元",
+    "解释 2026 年修订的六项目标与 2026 财年过渡安排",
+    "拆解双重重要性与价值链限制的操作方法",
+    "对照 ESRS 与 ISSB、A 股指引、中国气候准则的衔接点"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "确认适用",
+      "desc": "先判断是否落在 CSRD 适用门槛内，以及本财年适用 2023 版还是 2026 修订版。"
+    },
+    {
+      "step": "2",
+      "title": "做双重重要性",
+      "desc": "从影响重要性与财务重要性两个维度识别重大议题，形成议题清单。"
+    },
+    {
+      "step": "3",
+      "title": "定位准则",
+      "desc": "按 ESRS 1/2 与 E1–E5、S1–S4、G1 找到对应的披露要求（DR）。"
+    },
+    {
+      "step": "4",
+      "title": "准备数据点",
+      "desc": "依 DR 与应用要求（AR）准备定性描述、定量数据与计算方法。"
+    },
+    {
+      "step": "5",
+      "title": "划价值链边界",
+      "desc": "按价值链限制条款确定上下游覆盖范围，并说明数据缺口。"
+    },
+    {
+      "step": "6",
+      "title": "处理过渡与衔接",
+      "desc": "按过渡期安排处理首年豁免，并与 ISSB、GRI 做互操作对照。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系总览",
+      "items": [
+        {
+          "id": "esrs-basics",
+          "title": "准则定位与法律链条",
+          "eyebrow": "从 CSRD 到 ESRS · 谁要适用",
+          "summary": "ESRS 是 CSRD 指令下的可持续报告准则，由授权条例 (EU) 2026/1563 修订，2026-11-10 生效、2027 财年起适用；适用门槛为员工超过 1000 人且净营业额超过 4.5 亿欧元。",
+          "tags": [
+            "CSRD",
+            "授权条例",
+            "适用门槛"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按《委员会授权条例 (EU) 2026/1563》官方英文文本整理；引用块为英文原文，正文为中文。适用门槛来自 Omnibus I 指令 (EU) 2026/470。",
+          "detailFile": "data/esrs/esrs-basics.json"
+        }
+      ]
+    },
+    {
+      "title": "核心机制",
+      "items": [
+        {
+          "id": "esrs-architecture",
+          "title": "12 项准则的架构",
+          "eyebrow": "两项横贯准则 · 十项议题准则",
+          "summary": "修订版 ESRS 保留 12 项准则：ESRS 1 一般要求、ESRS 2 一般披露，环境 E1–E5、社会 S1–S4、治理 G1；以披露要求（DR）与应用要求（AR）组织条文。",
+          "tags": [
+            "ESRS 1",
+            "ESRS 2",
+            "议题准则"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按 (EU) 2026/1563 附件一的准则清单整理；准则编号与名称以官方英文文本为准。",
+          "detailFile": "data/esrs/esrs-architecture.json"
+        },
+        {
+          "id": "esrs-revision",
+          "title": "修订前后变化",
+          "eyebrow": "六项目标 · 数据点压缩 · 2026 财年过渡",
+          "summary": "2026 年修订围绕减少数据点、优先量化、区分强制与自愿、明确重要性操作、法规一致性与全球互操作六项目标；2026 财年可在原版、修订版、原版加宽免之间选择，并须声明所用版本。",
+          "tags": [
+            "数据点",
+            "过渡安排",
+            "生效"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按 (EU) 2026/1563 序言第 (2) 段与第 2、3 条整理；数据点削减比例以欧委会说明为准，条例本身未给出百分比。",
+          "detailFile": "data/esrs/esrs-revision.json"
+        },
+        {
+          "id": "esrs-materiality",
+          "title": "双重重要性与价值链",
+          "eyebrow": "两个视角 · 自上而下 · 价值链限制",
+          "summary": "ESRS 以影响重要性与财务重要性两个视角界定双重重要性；修订版允许自上而下按议题得出结论，并允许在无法取得价值链数据时使用区域或行业数据。",
+          "tags": [
+            "双重重要性",
+            "自上而下",
+            "价值链"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按 (EU) 2026/1563 附件一 ESRS 1 第 2、21、27、30、32、33 段整理。",
+          "detailFile": "data/esrs/esrs-materiality.json"
+        }
+      ]
+    },
+    {
+      "title": "专项与适用",
+      "items": [
+        {
+          "id": "esrs-climate",
+          "title": "气候专项 E1",
+          "eyebrow": "11 项披露 · 排放边界 · 转型计划",
+          "summary": "ESRS E1 覆盖转型计划、情景分析、政策与行动、目标、能源、温室气体排放、碳信用、内部碳价与预期财务影响；排放边界默认财务控制，也可选股权比例或运营控制。",
+          "tags": [
+            "E1",
+            "转型计划",
+            "排放边界"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按 (EU) 2026/1563 附件一 ESRS E1 整理；E1-8 为温室气体排放披露要求（2023 年版编号为 E1-6）。",
+          "detailFile": "data/esrs/esrs-climate.json"
+        },
+        {
+          "id": "esrs-application",
+          "title": "生效适用与衔接",
+          "eyebrow": "关键时点 · 非欧盟集团 · 互操作",
+          "summary": "修订版 ESRS 于 2026-11-10 生效、2027 财年起适用；非欧盟集团按 ESRS-40a 轨道，2028 财年起适用；与 ISSB 的互操作是本轮修订的六项目标之一。",
+          "tags": [
+            "生效时点",
+            "ESRS-40a",
+            "互操作"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+          "sourceNote": "本页按 (EU) 2026/1563 第 2、3 条与序言整理；ESRS-40a 时间表来自 EFRAG 征求意见稿。",
+          "detailFile": "data/esrs/esrs-application.json"
+        }
+      ]
+    }
+  ]
+}

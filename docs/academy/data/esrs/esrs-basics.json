@@ -1,0 +1,192 @@
+{
+  "id": "esrs-basics",
+  "title": "准则定位与法律链条",
+  "eyebrow": "从 CSRD 到 ESRS · 谁要适用",
+  "summary": "ESRS 是 CSRD 指令下的可持续报告准则，由授权条例 (EU) 2026/1563 修订，2026-11-10 生效、2027 财年起适用；适用门槛为员工超过 1000 人且净营业额超过 4.5 亿欧元。",
+  "tags": [
+    "CSRD",
+    "授权条例",
+    "适用门槛"
+  ],
+  "group": "体系总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按《委员会授权条例 (EU) 2026/1563》官方英文文本整理；引用块为英文原文，正文为中文。适用门槛来自 Omnibus I 指令 (EU) 2026/470。",
+  "sections": [
+    {
+      "id": "origin",
+      "title": "准则从哪来",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "ESRS 不是独立立法，而是欧盟会计指令体系下的技术准则：由 CSRD 指令授权、欧盟委员会以授权条例采纳，具体条文由 EFRAG 提供技术建议。",
+          "quote": {
+            "text": "The European Sustainability Reporting Standards (ESRS) specify the sustainability information that undertakings are required to disclose in accordance with Directive 2013/34/EU (Accounting Directive) as amended by Directive (EU) 2022/2464 (Corporate Sustainability Reporting Directive – CSRD) and by Directive (EU) 2026/470 (Omnibus I Directive).",
+            "source": "《委员会授权条例 (EU) 2026/1563》 附件一 ESRS 1 第 1 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "法律位阶",
+              "content": "授权条例（Delegated Regulation），在成员国直接适用，无需逐条转化。"
+            },
+            {
+              "title": "技术来源",
+              "content": "EFRAG 提出技术建议，欧委会在重要性、列报、温室气体等 13 个方面作了调整后定稿。"
+            },
+            {
+              "title": "文本关系",
+              "content": "2026 年条例替换 2023 年条例（(EU) 2023/2772）的附件一，并非另立一套新准则。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "chain",
+      "title": "一部准则背后的四层结构",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "理解 ESRS 的关键，是分清“指令—授权条例—准则文本—成员国适用”四层，各层改动节奏不同。"
+        },
+        {
+          "type": "process_flow",
+          "title": "从指令到企业报告",
+          "steps": [
+            {
+              "title": "CSRD 指令",
+              "desc": "规定谁报告、报告什么、何时报告，并由 Omnibus I 指令 (EU) 2026/470 收缩范围。",
+              "icon": "1"
+            },
+            {
+              "title": "授权条例",
+              "desc": "欧委会以 (EU) 2026/1563 采纳修订后的准则文本，2026-09-21 刊登欧盟公报。",
+              "icon": "2"
+            },
+            {
+              "title": "ESRS 文本",
+              "desc": "ESRS 1、ESRS 2 与 10 项议题准则，规定具体披露要求与应用指南。",
+              "icon": "3"
+            },
+            {
+              "title": "成员国适用",
+              "desc": "成员国按本国转化文本执行，企业以财年为适用单位。",
+              "icon": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "谁要适用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "Omnibus I 之后，CSRD 的适用门槛提高：需同时超过员工人数与净营业额两项标准；上市中小企业移出强制范围。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "大型企业",
+              "content": "员工平均超过 1000 人，且净营业额超过 4.5 亿欧元（合并口径）。"
+            },
+            {
+              "title": "上市中小企业",
+              "content": "已移出 CSRD 强制范围，可按自愿标准 (EU) 2026/1560 披露。"
+            },
+            {
+              "title": "非欧盟集团",
+              "content": "在欧盟有实质业务的非欧盟母公司另按 ESRS-40a 轨道，预计 2028 财年起适用。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "timing",
+      "title": "版本与时点",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "版本判断只有一条现行标准：以 (EU) 2026/1563 为准；2023 年版文本已被替换，只能用于 2026 财年的过渡选择。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "事项",
+              "2023 年版",
+              "2026 年修订版"
+            ],
+            [
+              "法律文件",
+              "(EU) 2023/2772 附件一",
+              "(EU) 2026/1563 附件一"
+            ],
+            [
+              "生效",
+              "2024-01-01",
+              "2026-11-10"
+            ],
+            [
+              "适用",
+              "2024 财年起分批",
+              "2027-01-01 或之后开始的财年"
+            ],
+            [
+              "2026 财年",
+              "可按原版执行",
+              "可在原版、修订版、原版加部分宽免三者中选择"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "生效与适用条款写在同一处，避免混用“公布日”“生效日”“适用财年”三个概念。",
+          "quote": {
+            "text": "This Regulation shall enter into force on 10 November 2026. It shall apply to the financial years beginning on or after 1 January 2027.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 第 3 条"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-architecture",
+        "title": "12 项准则的架构"
+      },
+      {
+        "id": "esrs-revision",
+        "title": "修订前后变化"
+      }
+    ],
+    "external": [
+      {
+        "title": "EUR-Lex：(EU) 2026/1563 官方文本",
+        "url": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+        "external": true
+      },
+      {
+        "title": "IFRS S1 一般要求（对照）",
+        "url": "topic.html?standard=ifrs&id=ifrs-s1",
+        "standard": "ifrs",
+        "system": "ISSB 准则"
+      }
+    ]
+  }
+}

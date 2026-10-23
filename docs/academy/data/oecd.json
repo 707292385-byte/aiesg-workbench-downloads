@@ -1,0 +1,161 @@
+{
+  "id": "oecd",
+  "title": "经合组织跨国企业负责任商业行为准则",
+  "titleEn": "OECD Guidelines for Multinational Enterprises on Responsible Business Conduct",
+  "eyebrow": "政府间建议 · 尽责管理六步 · 国家联络点",
+  "accent": "#0b4f6c",
+  "description": "加入国政府向跨国企业提出的共同建议：自愿遵守、不具法律强制力，以风险为本的尽责管理为核心方法，由各国国家联络点处理具体实例。",
+  "issuer": "经济合作与发展组织（OECD）加入国政府",
+  "version": "2023 年修订版（上一次修订为 2011 年）",
+  "updated": "2026.10.22",
+  "topics": 6,
+  "sourceNote": "OECD 2023 年英文官方文本（79 页）；中文通译参考 OECD 官方中译本（doi:10.1787/12182cb3-zh），以英文版为准。",
+  "notice": "本准则是政府间建议，企业自愿遵守，不具法律强制力，也不是认证标准。涉及具体国家的适用，以该国 NCP 公布的案件处理程序为准。",
+  "goals": [
+    "说清准则的约束力边界与覆盖范围",
+    "梳理十一章结构与三层读法",
+    "拆解以风险为本的尽责管理六步",
+    "列出 2023 年修订的八项变化与气候条款",
+    "还原国家联络点处理具体实例的程序",
+    "对照 UNGP、GRI、ESRS、ISO 26000 的分工"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "判断是否覆盖",
+      "desc": "确认企业是否属于准则所指的跨国企业，集团内哪些实体在范围内。"
+    },
+    {
+      "step": "2",
+      "title": "嵌入政策与体系",
+      "desc": "把负责任商业行为写进政策、管理体系和风险管理流程。"
+    },
+    {
+      "step": "3",
+      "title": "识别与评估影响",
+      "desc": "按“造成、助长、直接相关”三类关系判断影响性质与严重性。"
+    },
+    {
+      "step": "4",
+      "title": "采取措施",
+      "desc": "终止、防范、减轻影响，无法一次消除时按严重性与可能性排序。"
+    },
+    {
+      "step": "5",
+      "title": "跟踪与沟通",
+      "desc": "用指标复核措施效果，并对外说明识别了什么、做了什么。"
+    },
+    {
+      "step": "6",
+      "title": "补救与申诉",
+      "desc": "必要时提供或合作提供补救；出现争议时进入国家联络点程序。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系总览",
+      "items": [
+        {
+          "id": "oecd-basics",
+          "title": "准则性质与约束力",
+          "eyebrow": "政府间建议 · 自愿遵守 · 2023 修订版",
+          "summary": "这是加入国政府向跨国企业提出的共同建议，企业自愿遵守、不具法律强制力；加入国则作出有约束力的承诺，通过国家联络点推动落实。",
+          "tags": [
+            "自愿性",
+            "国内法优先",
+            "51 个加入方"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "本页按 OECD 2023 年英文官方文本（79 页）整理；引用块为英文原文，正文为中文。",
+          "detailFile": "data/oecd/oecd-basics.json"
+        },
+        {
+          "id": "oecd-structure",
+          "title": "十一章结构",
+          "eyebrow": "原则层 · 九个专题章 · 实施程序",
+          "summary": "正文十一章：前两章定概念原则与一般性政策，第三至十一章分专题给建议，第二部分是实施程序，包括国家联络点的设立与运作规则。",
+          "tags": [
+            "十一章",
+            "专题章",
+            "实施程序"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "章名与章序取自 2023 年英文官方文本目录；“实务落点”一列为本平台整理。",
+          "detailFile": "data/oecd/oecd-structure.json"
+        }
+      ]
+    },
+    {
+      "title": "核心机制",
+      "items": [
+        {
+          "id": "oecd-duediligence",
+          "title": "尽责管理六步",
+          "eyebrow": "风险为本 · 相称性 · 影响力",
+          "summary": "准则的核心方法是以风险为本的尽责管理：嵌入政策与体系、识别评估影响、终止防范减轻、跟踪结果、沟通、必要时提供补救。",
+          "tags": [
+            "六步框架",
+            "风险为本",
+            "影响力"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "六步框架取自 2023 年英文官方文本第二章评注第 15 段，与《经合组织负责任商业行为尽责管理指南》一致。",
+          "detailFile": "data/oecd/oecd-duediligence.json"
+        },
+        {
+          "id": "oecd-revision",
+          "title": "2023 修订要点",
+          "eyebrow": "气候与技术 · 产品使用 · 反报复",
+          "summary": "2023 年修订集中在八个方向：气候与生物多样性目标一致、技术开发与数据使用、产品与服务相关影响、高危群体保护、披露、腐败范围、游说、NCP 程序。",
+          "tags": [
+            "2023 修订",
+            "气候一致",
+            "技术尽调"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "修订清单取自 2023 年英文官方文本序言；气候条款细节取自第六章评注第 76–77 段。",
+          "detailFile": "data/oecd/oecd-revision.json"
+        },
+        {
+          "id": "oecd-ncp",
+          "title": "国家联络点机制",
+          "eyebrow": "七项有效性准则 · 具体实例 · 斡旋",
+          "summary": "每个加入国设一个国家联络点，负责推广准则并以非司法方式处理“具体实例”：提供对话平台、促成协议、发表声明，但不作裁决、不判赔偿。",
+          "tags": [
+            "NCP",
+            "具体实例",
+            "斡旋"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "本页按 2023 年英文官方文本第二部分“实施程序”整理；流程图为程序条文的顺序化呈现。",
+          "detailFile": "data/oecd/oecd-ncp.json"
+        }
+      ]
+    },
+    {
+      "title": "应用衔接",
+      "items": [
+        {
+          "id": "oecd-linkage",
+          "title": "与其他框架的衔接",
+          "eyebrow": "UNGP · GRI · ESRS · ISO 26000",
+          "summary": "人权章承接联合国“保护、尊重和补救”框架；披露章与 GRI 等报告标准互补；与 ISO 26000 的最大区别是它有国家联络点这套申诉机制。",
+          "tags": [
+            "UNGP",
+            "GRI",
+            "框架对照"
+          ],
+          "status": "官方文件整理 + 平台对照",
+          "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+          "sourceNote": "引用块为准则原文；“框架对照”表与“怎么用”部分为本平台整理，非准则原文。",
+          "detailFile": "data/oecd/oecd-linkage.json"
+        }
+      ]
+    }
+  ]
+}

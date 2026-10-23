@@ -1,0 +1,140 @@
+{
+  "id": "sa-basics",
+  "title": "评级定位与用途",
+  "eyebrow": "投资端风险评级 · 绝对分数",
+  "summary": "Sustainalytics ESG 风险评级衡量企业经济价值受 ESG 因素威胁的程度，分数越低风险越小，分五档；它是绝对风险度量，可用于跨行业比较。",
+  "tags": [
+    "ESG 风险评级",
+    "五档",
+    "绝对度量"
+  ],
+  "group": "评级总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "本页按 Sustainalytics《ESG Risk Ratings Methodology Abstract》v2.1 与官方产品页整理；引用块为英文原文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "它衡量的不是“好坏”，是风险",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "ESG 风险评级衡量企业经济价值受 ESG 因素影响的风险大小，输出一个分数和一个风险档位，而不是 ESG 绩效排名。",
+          "quote": {
+            "text": "The ESG Risk Ratings measure the degree to which a company’s economic value is at risk driven by ESG factors or, more technically speaking, the magnitude of a company’s unmanaged ESG risks. A company’s ESG Risk Rating is comprised of a quantitative score and a risk category. The quantitative score represents units of unmanaged ESG risk with lower scores representing less unmanaged risk.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 引言"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "分数",
+              "content": "从 0 起算的未管理风险单位，越低表示风险越小；95% 的案例分数在 50 以下。"
+            },
+            {
+              "title": "档位",
+              "content": "按分数落入五档：可忽略、低、中、高、严重。"
+            },
+            {
+              "title": "对象",
+              "content": "主要为机构投资者、资产所有者与银行，用于组合构建与监控。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "absolute",
+      "title": "为什么可以跨行业比较",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "多数 ESG 评分是行业内相对排名，Sustainalytics 强调其档位是绝对判断：不同子行业的高风险含义可比。",
+          "quote": {
+            "text": "Unmanaged Risk is measured on an open-ended scale starting at zero (no risk) and, for 95% of cases, a maximum score below 50. Based on their quantitative scores, companies are grouped into one of five risk categories (negligible, low, medium, high, severe). These risk categories are absolute, meaning that a ‘high risk’ assessment reflects a comparable degree of unmanaged ESG risk across all subindustries covered.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 引言"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "绝对的含义",
+              "content": "同一档位在不同行业代表相近程度的未管理 ESG 风险。"
+            },
+            {
+              "title": "直接后果",
+              "content": "银行可以与石油公司直接比较风险档位。"
+            },
+            {
+              "title": "使用边界",
+              "content": "绝对风险不等于影响大小，也不代表企业对社会贡献的高低。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "覆盖与方法版本",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "方法摘要为 2.1 版（2021 年 1 月）；评级范围覆盖 16000 余家公司，含上市、非上市与固定收益发行人，并加强了对 A/B 股中国公司的覆盖。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "覆盖范围",
+              "content": "公开股票、固定收益与私募领域的大型与中型公司。"
+            },
+            {
+              "title": "方法版本",
+              "content": "ESG Risk Ratings Methodology Abstract v2.1，2021 年 1 月。"
+            },
+            {
+              "title": "更新机制",
+              "content": "评分随公司披露、事件与年度评估更新，历史分数可追溯。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-framework",
+        "title": "评分框架"
+      },
+      {
+        "id": "sa-reading",
+        "title": "分数怎么读"
+      }
+    ],
+    "external": [
+      {
+        "title": "MSCI ESG 评级方法论",
+        "url": "topic.html?standard=msci&id=MSCI-ENV-01",
+        "standard": "msci",
+        "system": "MSCI 评级"
+      },
+      {
+        "title": "Sustainalytics 官方产品页",
+        "url": "https://www.sustainalytics.com/esg-ratings",
+        "external": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "esrs-application",
+  "title": "生效适用与衔接",
+  "eyebrow": "关键时点 · 非欧盟集团 · 互操作",
+  "summary": "修订版 ESRS 于 2026-11-10 生效、2027 财年起适用；非欧盟集团按 ESRS-40a 轨道，2028 财年起适用；与 ISSB 的互操作是本轮修订的六项目标之一。",
+  "tags": [
+    "生效时点",
+    "ESRS-40a",
+    "互操作"
+  ],
+  "group": "专项与适用",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按 (EU) 2026/1563 第 2、3 条与序言整理；ESRS-40a 时间表来自 EFRAG 征求意见稿。",
+  "sections": [
+    {
+      "id": "dates",
+      "title": "关键时点",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "四个日期分别对应四件事，混用会导致合规判断错误。"
+        },
+        {
+          "type": "standard",
+          "content_cn": "生效日与适用期是两个不同的日期：条例本身 2026 年 11 月 10 日生效，但适用起点是 2027 年 1 月 1 日或之后开始的财年。",
+          "quote": {
+            "text": "This Regulation shall enter into force on 10 November 2026. It shall apply to the financial years beginning on or after 1 January 2027.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 第 3 条"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "日期",
+              "事项"
+            ],
+            [
+              "2026-07-03",
+              "欧委会采纳修订版 ESRS"
+            ],
+            [
+              "2026-09-21",
+              "刊登欧盟公报，文本定稿"
+            ],
+            [
+              "2026-11-10",
+              "条例生效，成员国直接适用"
+            ],
+            [
+              "2027-01-01",
+              "2027 财年起强制适用修订版"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noneu",
+      "title": "非欧盟集团走另一条轨道",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "在欧盟有实质业务的非欧盟母公司不直接适用 ESRS，而按会计指令第 40a 条制定的 ESRS-40a 披露；该准则只覆盖影响重要性。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "适用对象",
+              "content": "欧盟净营业额超过 4.5 亿欧元，且在欧盟设有子公司或分支（营业额超过 2 亿欧元）的非欧盟集团。"
+            },
+            {
+              "title": "时间表",
+              "content": "预计 2028 财年起适用，2029 年首次报告；EFRAG 征求意见已于 2026-10-31 截止。"
+            },
+            {
+              "title": "对中国企业",
+              "content": "在欧盟有子公司的中资集团需提前决定报告边界与重要性方法。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "interop",
+      "title": "与全球准则的互操作",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "互操作不是等同：修订版在重要性、价值链与气候披露上向 ISSB 靠拢，但保留双重重要性与欧盟特有的分类法披露。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "与 ISSB",
+              "content": "同样要求治理、战略、风险管理与指标目标；ESRS 额外要求影响视角与欧盟分类法信息。"
+            },
+            {
+              "title": "与 GRI",
+              "content": "GRI 以影响重要性为基础，ESRS 的影响部分与之高度重合，可作为影响披露的底稿。"
+            },
+            {
+              "title": "与 A 股指引",
+              "content": "沪深北交易所指引在气候、污染物、能源与水资源上与 ESRS 议题设置相近，可共用底层数据。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "企业现在可以做的五件事",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "在 2027 财年强制适用之前，编制工作的重点不是写报告，而是把数据与流程准备好。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "定版本",
+              "content": "明确 2026 财年采用哪个版本，并在报告中声明。"
+            },
+            {
+              "title": "重做重要性",
+              "content": "用自上而下方法重跑一遍议题结论，记录判断依据。"
+            },
+            {
+              "title": "核排放边界",
+              "content": "确认财务控制、股权比例或运营控制的选择，并回溯历史数据。"
+            },
+            {
+              "title": "补转型计划",
+              "content": "按五项要素补齐目标、杠杆、投资、治理批准与进度。"
+            },
+            {
+              "title": "建映射表",
+              "content": "建立 ESRS、ISSB、A 股指引与中国气候准则的数据点映射。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-revision",
+        "title": "修订前后变化"
+      },
+      {
+        "id": "esrs-climate",
+        "title": "气候专项 E1"
+      }
+    ],
+    "external": [
+      {
+        "title": "EFRAG：ESRS-40a 征求意见稿",
+        "url": "https://www.efrag.org/en/esrs-for-certain-noneu-undertakings-in-accordance-with-article-40a-of-the-accounting-directive",
+        "external": true
+      },
+      {
+        "title": "A 股指引：应对气候变化",
+        "url": "topic.html?standard=ashare&id=ashare-climate",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      }
+    ]
+  }
+}

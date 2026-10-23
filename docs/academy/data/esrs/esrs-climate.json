@@ -1,0 +1,217 @@
+{
+  "id": "esrs-climate",
+  "title": "气候专项 E1",
+  "eyebrow": "11 项披露 · 排放边界 · 转型计划",
+  "summary": "ESRS E1 覆盖转型计划、情景分析、政策与行动、目标、能源、温室气体排放、碳信用、内部碳价与预期财务影响；排放边界默认财务控制，也可选股权比例或运营控制。",
+  "tags": [
+    "E1",
+    "转型计划",
+    "排放边界"
+  ],
+  "group": "专项与适用",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按 (EU) 2026/1563 附件一 ESRS E1 整理；E1-8 为温室气体排放披露要求（2023 年版编号为 E1-6）。",
+  "sections": [
+    {
+      "id": "list",
+      "title": "E1 要披露的 11 项",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "E1 把气候披露拆成 11 项披露要求，从治理与战略延伸到指标与财务影响。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "编号",
+              "披露要求"
+            ],
+            [
+              "E1-1",
+              "气候减缓转型计划"
+            ],
+            [
+              "E1-2",
+              "气候相关风险识别与情景分析"
+            ],
+            [
+              "E1-3",
+              "气候变化的韧性"
+            ],
+            [
+              "E1-4",
+              "减缓与适应相关政策"
+            ],
+            [
+              "E1-5",
+              "减缓与适应相关行动与资源"
+            ],
+            [
+              "E1-6",
+              "气候相关目标"
+            ],
+            [
+              "E1-7",
+              "能源消耗与结构"
+            ],
+            [
+              "E1-8",
+              "温室气体范围一、二、三排放总量"
+            ],
+            [
+              "E1-9",
+              "温室气体清除与碳信用融资的减排项目"
+            ],
+            [
+              "E1-10",
+              "内部碳定价"
+            ],
+            [
+              "E1-11",
+              "重大物理风险与转型风险的预期财务影响"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "title": "排放边界怎么定",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "排放边界不是企业自选口径，而是与财务报告边界挂钩：默认财务控制法，允许改用股权比例法或运营控制法。",
+          "quote": {
+            "text": "Chapter 5 of ESRS 1 General Requirements defines the reporting boundary to be applied, corresponding to financial control as per the GHG Protocol Corporate Accounting and Reporting Standard (2004). Alternatively, the undertaking may use the equity share or operational control approach as defined in the GHG Protocol Corporate Accounting and Reporting Standard (2004).",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS E1 应用要求 AR 19"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "财务控制法（默认）",
+              "content": "覆盖企业财务上控制的实体，与合并报表范围一致。"
+            },
+            {
+              "title": "股权比例法",
+              "content": "按持股比例计算排放，适合合资较多的集团。"
+            },
+            {
+              "title": "运营控制法",
+              "content": "覆盖企业运营上控制的设施，适合经营权与所有权分离的场景。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "title": "转型计划的五项要素",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "转型计划不是一句承诺，准则要求披露目标、脱碳杠杆、行动与投资、治理批准与业务战略嵌入。",
+          "quote": {
+            "text": "This includes GHG emission reduction targets, the decarbonisation levers, key actions, investments and funding needed to support the implementation of the plan, the approval of the plan by the administrative, management and supervisory bodies, and how the plan is embedded in and aligned with the undertaking’s overall business strategy.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 ESRS E1 第 12 段"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "一份可披露的转型计划",
+          "steps": [
+            {
+              "title": "减排目标",
+              "desc": "中期与长期温室气体减排目标及基准年。",
+              "icon": "1"
+            },
+            {
+              "title": "脱碳杠杆",
+              "desc": "能效、能源结构、工艺替代、产品与商业模式调整。",
+              "icon": "2"
+            },
+            {
+              "title": "行动与投资",
+              "desc": "所需资本开支、资金来源与时间表。",
+              "icon": "3"
+            },
+            {
+              "title": "治理批准",
+              "desc": "董事会与管理层对计划的审批与监督安排。",
+              "icon": "4"
+            },
+            {
+              "title": "进度与锁定排放",
+              "desc": "实施进度、锁定排放风险与依赖假设。",
+              "icon": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "title": "与中国气候准则的对照",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "中国《企业可持续披露准则第 1 号——气候（试行）》在框架上与之同源，但披露颗粒度与过渡安排不同；跨境集团需准备两套口径的映射表。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "共同点",
+              "content": "均以治理、战略、风险管理、指标与目标组织气候披露，均要求范围一、二、三排放。"
+            },
+            {
+              "title": "差异点",
+              "content": "ESRS 要求转型计划五项要素与内部碳定价；中国准则按试行阶段分步实施。"
+            },
+            {
+              "title": "实务做法",
+              "content": "以一套底层数据同时支撑两套披露，差异只在列报口径与补充说明。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-architecture",
+        "title": "12 项准则的架构"
+      },
+      {
+        "id": "esrs-materiality",
+        "title": "双重重要性与价值链"
+      }
+    ],
+    "external": [
+      {
+        "title": "财政部：气候准则第 1 号（试行）",
+        "url": "topic.html?standard=mof&id=mof-climate",
+        "standard": "mof",
+        "system": "财政部准则"
+      },
+      {
+        "title": "IFRS S2：指标与目标",
+        "url": "topic.html?standard=ifrs&id=ifrs-s2-metrics",
+        "standard": "ifrs",
+        "system": "ISSB 准则"
+      }
+    ]
+  }
+}

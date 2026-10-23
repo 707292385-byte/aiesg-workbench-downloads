@@ -1,0 +1,161 @@
+{
+  "id": "cass",
+  "title": "中国企业可持续发展报告指南（CASS-ESG 6.0）",
+  "titleEn": "CASS-ESG 6.0 — China Enterprise Sustainability Reporting Guidelines",
+  "eyebrow": "对接交易所指引的本土编制工具 · 四级指标",
+  "accent": "#b45309",
+  "description": "以沪深北交易所指引为基准编制的报告工具书，用 5 项一级、9 项二级、26 项三级、165 项四级指标把披露要求落到可填写的表格。",
+  "issuer": "中国企业改革与发展研究会、责任云研究院",
+  "version": "CASS-ESG 6.0（2024 年 6 月），取代 2022 年发布的 5.0",
+  "updated": "2026.10.22",
+  "topics": 6,
+  "sourceNote": "CASS-ESG 6.0 一般框架（298 页）与配套 CSR 6.0；5.0 仅用于版本对照。",
+  "notice": "本指南是编制工具，不是监管规则；报告是否合规仍以交易所指引及监管口径为准。6.0 已取代 5.0，引用时请勿混用两版指标编号。",
+  "goals": [
+    "说明 6.0 与交易所指引、5.0 的关系",
+    "拆解四级指标的数量与层级",
+    "按 E/S/G 三个板块给出指标地图",
+    "说明 P/A 两头的工作与指标索引的作用",
+    "还原八步编制流程与第三方评级"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "定边界与口径",
+      "desc": "按 P1 报告规范确定组织边界、报告周期与数据口径。"
+    },
+    {
+      "step": "2",
+      "title": "按四级指标填报",
+      "desc": "以 5 项一级、9 项二级、26 项三级、165 项四级指标逐项填报。"
+    },
+    {
+      "step": "3",
+      "title": "写环境板块",
+      "desc": "E1–E3 三个二级议题，共 59 项指标，含气候、污染与资源循环。"
+    },
+    {
+      "step": "4",
+      "title": "写社会板块",
+      "desc": "S1–S4 四个二级议题，共 64 项指标，覆盖乡村振兴到员工。"
+    },
+    {
+      "step": "5",
+      "title": "写治理板块",
+      "desc": "G1–G2 两个二级议题，共 29 项指标，覆盖治理机制与商业行为。"
+    },
+    {
+      "step": "6",
+      "title": "编索引与评级",
+      "desc": "用 A3 指标索引对回指引条款，按需申请 A4 鉴证与 A5 评级。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系总览",
+      "items": [
+        {
+          "id": "cass-basics",
+          "title": "指南定位与版本",
+          "eyebrow": "对接交易所指引 · 6.0 与 5.0",
+          "summary": "CASS-ESG 6.0 由中企研与责任云研究院于 2024 年 6 月发布，严格参照沪深北交易所指引的原文与结构，是央企控股上市公司等编制可持续发展报告的实用工具。",
+          "tags": [
+            "交易所指引",
+            "6.0",
+            "央企报告"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "本页按 CASS-ESG 6.0 一般框架（2024 年 6 月，298 页）整理；引用块为指南原文。",
+          "detailFile": "data/cass/cass-basics.json"
+        },
+        {
+          "id": "cass-indicators",
+          "title": "四级指标体系",
+          "eyebrow": "5 项一级 · 9 项二级 · 26 项三级 · 165 项四级",
+          "summary": "6.0 设置四级指标：P/E/S/G/A 五项一级指标，9 项二级指标，26 项三级指标，165 项四级指标，覆盖交易所指引的全部议题。",
+          "tags": [
+            "四级指标",
+            "P/E/S/G/A",
+            "165 项"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "指标数量与层级取自 CASS-ESG 6.0 一般框架“指标说明”章节。",
+          "detailFile": "data/cass/cass-indicators.json"
+        }
+      ]
+    },
+    {
+      "title": "指标详解",
+      "items": [
+        {
+          "id": "cass-environment",
+          "title": "环境指标（E1–E3）",
+          "eyebrow": "气候 · 污染防治 · 资源循环",
+          "summary": "环境板块分三项二级指标：E1 应对气候变化、E2 污染防治与生态系统保护、E3 资源利用与循环经济，覆盖指引中的八项环境议题。",
+          "tags": [
+            "E1",
+            "E2",
+            "E3"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "本页按 6.0 第三章“环境（E 系列）”整理，指标编号与名称以指南原文为准。",
+          "detailFile": "data/cass/cass-environment.json"
+        },
+        {
+          "id": "cass-social",
+          "title": "社会指标（S1–S4）",
+          "eyebrow": "乡村振兴 · 创新 · 供应链 · 员工",
+          "summary": "社会板块分四项二级指标：S1 乡村振兴与社会贡献、S2 创新驱动、S3 供应商与客户、S4 员工，覆盖指引中的六项社会议题。",
+          "tags": [
+            "S1",
+            "S2",
+            "S3",
+            "S4"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "本页按 6.0 第四章“社会（S 系列）”整理。",
+          "detailFile": "data/cass/cass-social.json"
+        },
+        {
+          "id": "cass-governance",
+          "title": "治理与前后记（G/P/A）",
+          "eyebrow": "治理机制 · 商业行为 · 报告收口",
+          "summary": "治理板块分 G1 可持续发展相关治理机制与 G2 商业行为；P 前言确定报告边界，A 后记以绩效表、指标索引与鉴证报告收口。",
+          "tags": [
+            "G1",
+            "G2",
+            "指标索引"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "本页按 6.0 第二章、第五章与第六章整理。",
+          "detailFile": "data/cass/cass-governance.json"
+        }
+      ]
+    },
+    {
+      "title": "编制实务",
+      "items": [
+        {
+          "id": "cass-process",
+          "title": "编制流程与评级",
+          "eyebrow": "八个环节 · 第三方评级",
+          "summary": "指南把报告编制分为组织、研究、识别、启动、编制、评级、发布、总结八个环节，并配套“中国企业可持续发展报告评级”。",
+          "tags": [
+            "八步流程",
+            "报告评级",
+            "流程管理"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.crg6.net",
+          "sourceNote": "本页按 6.0 第七章“可持续发展报告流程管理”与第八章“可持续发展报告评级”整理。",
+          "detailFile": "data/cass/cass-process.json"
+        }
+      ]
+    }
+  ]
+}

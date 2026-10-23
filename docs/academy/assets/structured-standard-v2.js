@@ -10,7 +10,12 @@
     tcfd: ['TCFD 与气候相关财务披露', '治理支柱', '战略支柱', '风险管理支柱', '指标与目标', '转型计划与国际准则承接'],
     cdp: ['CDP 是什么', '企业问卷结构', '气候评分方法', '水安全评分', '森林评分', '评分等级与披露实务'],
     assurance: ['ESG 鉴证是什么', 'AA1000 系列', '审验类型与程度', 'ISSA 5000', '中国准则 6101 号', '鉴证实务'],
-    tnfd: ['TNFD 与自然相关披露', 'LEAP 方法', '治理支柱', '战略支柱', '风险管理', '指标与目标']
+    tnfd: ['TNFD 与自然相关披露', 'LEAP 方法', '治理支柱', '战略支柱', '风险管理', '指标与目标'],
+    esrs: ['CSRD 与授权条例', '双重重要性', '12 项准则架构', '披露要求与应用要求', '价值链边界', '过渡与衔接'],
+    sustainalytics: ['风险评级的两个维度', '敞口评估', '管理评估', '不可管理风险', '五个风险等级', '读分与实践'],
+    cass: ['对接交易所指引', '四级指标体系', '环境板块', '社会板块', '治理板块', '编制流程与评级'],
+    oecd: ['政府间建议', '十一章结构', '尽责管理六步', '影响关系与相称性', '国家联络点', '与其他框架衔接'],
+    iso26000: ['指南性标准定位', '七项原则', '七大核心主题', '社会责任辨识', '融入组织路径', '与披露标准的边界']
   };
   const labels = {
     ashare: { short: 'A股', type: '交易所披露规则', group: '披露主题' },
@@ -21,7 +26,12 @@
     tcfd: { short: 'TCFD', type: '气候相关财务披露框架', group: '国际披露准则' },
     cdp: { short: 'CDP', type: '全球环境信息披露与评分平台', group: '评估标准' },
     assurance: { short: '鉴证', type: '可持续信息鉴证准则', group: '知识模块' },
-    tnfd: { short: 'TNFD', type: '自然相关财务披露框架', group: '国际披露准则' }
+    tnfd: { short: 'TNFD', type: '自然相关财务披露框架', group: '国际披露准则' },
+    esrs: { short: 'ESRS', type: '欧盟可持续报告准则', group: '知识模块' },
+    sustainalytics: { short: 'Sustainalytics', type: 'ESG 风险评级方法学', group: '知识模块' },
+    cass: { short: 'CASS', type: '中国企业可持续报告指南', group: '知识模块' },
+    oecd: { short: 'OECD', type: '负责任商业行为准则', group: '知识模块' },
+    iso26000: { short: 'ISO 26000', type: '社会责任指南', group: '知识模块' }
   };
   const clip = (value, limit = 105) => {
     const text = String(value || '').replace(/\s+/g, ' ').trim();

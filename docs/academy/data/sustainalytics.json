@@ -1,0 +1,160 @@
+{
+  "id": "sustainalytics",
+  "title": "Sustainalytics ESG 风险评级",
+  "titleEn": "Morningstar Sustainalytics ESG Risk Ratings",
+  "eyebrow": "投资端 ESG 风险评级 · 五档风险等级",
+  "accent": "#0f766e",
+  "description": "以敞口与管理两个维度衡量企业未管理 ESG 风险，输出 0–100 分数与五档风险等级，是投资端使用最广的 ESG 风险度量之一。",
+  "issuer": "Morningstar Sustainalytics",
+  "version": "ESG Risk Ratings Methodology Abstract v2.1（2021-01）；评分细则以官网现行版本为准",
+  "updated": "2026.10.22",
+  "topics": 6,
+  "sourceNote": "方法论摘要 v2.1、重大议题说明、系统性事件说明与样本报告（均为官方公开材料）。",
+  "notice": "本体系整理的是评级方法与读法，不构成投资建议。评级结果随公司披露与事件动态更新，具体分数请以 Sustainalytics 官方平台为准。",
+  "goals": [
+    "说明 ESG 风险评级衡量的是风险而非绩效",
+    "拆解敞口、管理、未管理风险的计算链条",
+    "解释重大议题与公司治理在评级中的位置",
+    "给出五档分数区间与读法",
+    "提示与其他评级比较时的边界"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "划分行业",
+      "desc": "按行业分类确定适用的敞口模块与权重，不同子行业暴露的议题不同。"
+    },
+    {
+      "step": "2",
+      "title": "评估敞口",
+      "desc": "识别子行业暴露的 ESG 议题，给出敞口分值（Exposure）。"
+    },
+    {
+      "step": "3",
+      "title": "评估管理",
+      "desc": "看治理、政策、管理体系与绩效证据，给出管理分值（Management）。"
+    },
+    {
+      "step": "4",
+      "title": "计算未管理风险",
+      "desc": "敞口减去可管理部分，得到未管理风险（Unmanaged Risk）。"
+    },
+    {
+      "step": "5",
+      "title": "落入风险等级",
+      "desc": "按 0–100 分值归入五个风险等级，形成评级结论。"
+    },
+    {
+      "step": "6",
+      "title": "读分与使用",
+      "desc": "区分“风险有多大”与“管理得好不好”，避免把等级当成绩效评分。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "评级总览",
+      "items": [
+        {
+          "id": "sa-basics",
+          "title": "评级定位与用途",
+          "eyebrow": "投资端风险评级 · 绝对分数",
+          "summary": "Sustainalytics ESG 风险评级衡量企业经济价值受 ESG 因素威胁的程度，分数越低风险越小，分五档；它是绝对风险度量，可用于跨行业比较。",
+          "tags": [
+            "ESG 风险评级",
+            "五档",
+            "绝对度量"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "本页按 Sustainalytics《ESG Risk Ratings Methodology Abstract》v2.1 与官方产品页整理；引用块为英文原文。",
+          "detailFile": "data/sustainalytics/sa-basics.json"
+        },
+        {
+          "id": "sa-framework",
+          "title": "评分框架：两步三维",
+          "eyebrow": "敞口 × 管理 · 未管理风险",
+          "summary": "评分分三步：先定敞口，再评管理，最后算未管理风险；未管理风险由不可管理风险与管理缺口构成。",
+          "tags": [
+            "敞口",
+            "管理",
+            "未管理风险"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "本页按方法论摘要第 7–12 页“Two Rating Dimensions”与“Calculating the ESG Risk Ratings”整理。",
+          "detailFile": "data/sustainalytics/sa-framework.json"
+        }
+      ]
+    },
+    {
+      "title": "评级机制",
+      "items": [
+        {
+          "id": "sa-meis",
+          "title": "重大议题与三大构件",
+          "eyebrow": "公司治理 · 重大议题 · 特有事件",
+          "summary": "评级由三个构件组成：公司治理作为基础项、按子行业识别的重大 ESG 议题（MEIs）、以及不可预测的特有事件（Idiosyncratic Issues）。",
+          "tags": [
+            "MEIs",
+            "公司治理",
+            "特有事件"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "本页按方法论摘要“三个构件”章节整理。",
+          "detailFile": "data/sustainalytics/sa-meis.json"
+        },
+        {
+          "id": "sa-exposure",
+          "title": "敞口怎么打分",
+          "eyebrow": "子行业定级 · 公司细化",
+          "summary": "敞口先在子行业层面确定，再按公司特征细化；敞口高低取决于商业模式、财务实力、地理分布与争议情况。",
+          "tags": [
+            "子行业",
+            "敞口因子",
+            "beta"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "本页按方法论摘要“Exposure”章节整理。",
+          "detailFile": "data/sustainalytics/sa-exposure.json"
+        },
+        {
+          "id": "sa-management",
+          "title": "管理与事件调整",
+          "eyebrow": "管理指标 · 结果指标 · 五类事件",
+          "summary": "管理维度由管理指标与结果指标共同打分；争议事件按 1–5 类分级，会拉低管理得分并可能调整敞口。",
+          "tags": [
+            "管理指标",
+            "争议事件",
+            "Category 1–5"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "本页按方法论摘要“Management”与“Event Indicators”章节整理。",
+          "detailFile": "data/sustainalytics/sa-management.json"
+        }
+      ]
+    },
+    {
+      "title": "解读与应用",
+      "items": [
+        {
+          "id": "sa-reading",
+          "title": "分数怎么读",
+          "eyebrow": "五档区间 · 可比性 · 使用禁忌",
+          "summary": "分数区间为 0–10 可忽略、10–20 低、20–30 中、30–40 高、40 以上严重；档位是绝对判断，但不能当作影响评价或投资建议。",
+          "tags": [
+            "分数区间",
+            "五档",
+            "使用边界"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+          "sourceNote": "分数区间与档位定义取自 Sustainalytics 样本报告图例；引用块为英文原文。",
+          "detailFile": "data/sustainalytics/sa-reading.json"
+        }
+      ]
+    }
+  ]
+}

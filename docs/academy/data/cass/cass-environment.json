@@ -1,0 +1,139 @@
+{
+  "id": "cass-environment",
+  "title": "环境指标（E1–E3）",
+  "eyebrow": "气候 · 污染防治 · 资源循环",
+  "summary": "环境板块分三项二级指标：E1 应对气候变化、E2 污染防治与生态系统保护、E3 资源利用与循环经济，覆盖指引中的八项环境议题。",
+  "tags": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "group": "指标详解",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "本页按 6.0 第三章“环境（E 系列）”整理，指标编号与名称以指南原文为准。",
+  "sections": [
+    {
+      "id": "e1",
+      "title": "E1 应对气候变化",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "气候议题按治理、战略、影响与风险管理、指标与目标四条线展开，与交易所指引的气候章节对应。",
+          "quote": {
+            "text": "环境（E）维度主要描述企业对环境的影响，以及为避免负面影响而进行的积极实践和成效，包含应对气候变化、污染防治与生态系统保护、资源利用与循环经济3个二级议题。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第三章 环境（E 系列）导语"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "治理",
+              "content": "董事会与管理层对气候议题的监督与职责安排。"
+            },
+            {
+              "title": "战略",
+              "content": "气候相关风险与机遇对业务、战略与财务规划的影响。"
+            },
+            {
+              "title": "指标与目标",
+              "content": "温室气体范围一、二、三排放，减排目标与进度。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "title": "E2 污染防治与生态系统保护",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "E2 是 6.0 中指标最多的一项二级指标，覆盖污染物、废弃物与生物多样性三条线。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "三级指标",
+              "主要四级指标"
+            ],
+            [
+              "E2.1 污染物排放",
+              "排放总量、超标情况、分类统计、治理技术、减排目标、对周边群体影响、监测与风险缺陷"
+            ],
+            [
+              "E2.2 废弃物处理",
+              "有害/无害废弃物产生量与密度、处理处置方式、减排目标与措施"
+            ],
+            [
+              "E2.3 生态系统与生物多样性",
+              "生态保护措施、生物多样性保护、产品全周期影响与依赖"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "title": "E3 资源利用与循环经济",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "E3 把能源、水资源与循环经济放在一起，重点是强度指标与结构指标。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "能源利用",
+              "content": "能源消耗总量与强度、能源使用结构、清洁能源比例。"
+            },
+            {
+              "title": "水资源",
+              "content": "取水量、耗水量、水重复利用率、水资源风险。"
+            },
+            {
+              "title": "循环经济",
+              "content": "原材料消耗、可再生材料比例、废弃物综合利用。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-indicators",
+        "title": "四级指标体系"
+      },
+      {
+        "id": "cass-social",
+        "title": "社会指标"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：应对气候变化",
+        "url": "topic.html?standard=ashare&id=ashare-climate",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      },
+      {
+        "title": "A 股指引：污染物排放",
+        "url": "topic.html?standard=ashare&id=ashare-pollution",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      }
+    ]
+  }
+}

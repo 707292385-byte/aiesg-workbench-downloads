@@ -1,0 +1,160 @@
+{
+  "id": "iso-boundary",
+  "title": "与披露标准的边界",
+  "eyebrow": "不做认证 · 不替代报告标准 · 当自检表用",
+  "summary": "这份标准管“怎么理解和做”，不管“披露什么”。披露在 GB/T 36001，量化绩效在 GB/T 36002；把三者混用，会做出既不完整也不可核对的报告。",
+  "tags": [
+    "标准边界",
+    "三件套",
+    "自检表"
+  ],
+  "group": "落地路径",
+  "status": "官方文件整理 + 平台对照",
+  "officialUrl": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=83344903824DCAB8C107D5350077EE2E",
+  "sourceNote": "引用块为标准原文；“分工对照”表与用法建议为本平台整理，非标准原文。",
+  "sections": [
+    {
+      "id": "line",
+      "title": "三条边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "第一条边界是认证：标准明确不适用于认证目的。任何声称依据本标准颁发的证书，都不是标准本身设定的。",
+          "quote": {
+            "text": "本标准不适用于认证目的。",
+            "source": "《社会责任指南》GB/T 36000—2015 第 1 章 范围"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "第二条边界是披露：标准负责“是什么、如何做”，披露由 GB/T 36001 承担，绩效衡量由 GB/T 36002 承担。",
+          "quote": {
+            "text": "本标准主要强调“是什么、如何做、做哪些”;GB/T36002—2015主要强调“做得怎样、结果如何”;GB/T36001—2015主要强调如何通过社会责任报告形式将活动过程和结果向利益相关方披露出来。",
+            "source": "《社会责任指南》GB/T 36000—2015 引言"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "第三条边界是强制力：标准通篇用“宜”，是期望不是义务；一旦被写入法律法规、监管规则或合同，才产生外部约束。"
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "分工对照",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "几份文件常被放在一起比较，但它们的产出物完全不同：有的产出管理体系，有的产出报告，有的产出评级。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "文件",
+              "产出物",
+              "管什么",
+              "不管什么"
+            ],
+            [
+              "GB/T 36000",
+              "管理体系与行动",
+              "原则、核心主题、融入路径",
+              "具体披露指标、评分"
+            ],
+            [
+              "GB/T 36001",
+              "社会责任报告",
+              "披露内容与形式",
+              "组织内部如何实施"
+            ],
+            [
+              "GB/T 36002",
+              "绩效分类与指标",
+              "怎么衡量结果",
+              "怎么披露、怎么改进"
+            ],
+            [
+              "GRI 标准",
+              "可持续发展报告",
+              "披露什么、怎么披露",
+              "组织内部治理安排"
+            ],
+            [
+              "交易所指引 / ESRS",
+              "合规报告",
+              "强制或准强制的披露要求",
+              "管理方法本身"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "与 OECD 准则的差别也值得记一笔：两者主题高度重叠，但 OECD 准则配有国家联络点这套申诉机制，ISO 26000 没有。需要外部问责渠道时，前者更实用。"
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "实际怎么用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "最实用的用法，是把七项主题和议题清单当作内部自检表：对着它问“这一项我们有没有做、做到什么程度”，比对着别人的报告抄目录有效。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "做自检",
+              "content": "用第 7 章议题清单逐项打分，找出空白项。"
+            },
+            {
+              "title": "定路径",
+              "content": "用第 8 章六步，把空白项排进年度计划。"
+            },
+            {
+              "title": "再披露",
+              "content": "把自检和行动结果，按 GB/T 36001 或交易所指引写成报告。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        },
+        {
+          "type": "standard",
+          "content_cn": "需要提醒的是：本标准成文于 2010 年，气候议题在其中的分量远低于今天的 ESRS 或 ISSB 准则。做气候披露时，不能只依赖本标准第 7.5 章的框架。"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "iso-integration",
+        "title": "融入整个组织"
+      },
+      {
+        "id": "iso-subjects",
+        "title": "七大核心主题"
+      }
+    ],
+    "external": [
+      {
+        "title": "OECD 准则：国家联络点",
+        "url": "topic.html?standard=oecd&id=oecd-ncp",
+        "standard": "oecd",
+        "system": "OECD 准则"
+      },
+      {
+        "title": "ESRS：准则定位与法律链条",
+        "url": "topic.html?standard=esrs&id=esrs-basics",
+        "standard": "esrs",
+        "system": "欧盟 ESRS"
+      }
+    ]
+  }
+}

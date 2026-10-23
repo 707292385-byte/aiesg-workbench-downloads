@@ -1,0 +1,160 @@
+{
+  "id": "sa-framework",
+  "title": "评分框架：两步三维",
+  "eyebrow": "敞口 × 管理 · 未管理风险",
+  "summary": "评分分三步：先定敞口，再评管理，最后算未管理风险；未管理风险由不可管理风险与管理缺口构成。",
+  "tags": [
+    "敞口",
+    "管理",
+    "未管理风险"
+  ],
+  "group": "评级总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "本页按方法论摘要第 7–12 页“Two Rating Dimensions”与“Calculating the ESG Risk Ratings”整理。",
+  "sections": [
+    {
+      "id": "two",
+      "title": "两个维度",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "评级用两个维度刻画风险：企业暴露在哪些 ESG 风险中（敞口），以及企业管理得怎么样（管理）。",
+          "quote": {
+            "text": "The ESG Risk Ratings’ approach to materiality required a departure from the traditional, one-dimensional rating concepts. We introduced a two-dimensional architecture with the first dimension, exposure, reflecting the extent to which a company is exposed to material ESG risks at the overall and the individual MEI level, and the second one, Management, reflecting how well a company is managing its exposure.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 两个评级维度"
+          }
+        },
+        {
+          "type": "four_pillars",
+          "pillars": [
+            {
+              "title": "敞口 Exposure",
+              "desc": "行业与公司层面的 ESG 风险敏感度，先按子行业评估，再按公司细化。"
+            },
+            {
+              "title": "管理 Management",
+              "desc": "公司的承诺、行动与结果，体现其管理 ESG 风险的能力。"
+            }
+          ],
+          "numbered": false,
+          "cols": 2
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "title": "三步计算",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "计算顺序固定：敞口 → 管理 → 未管理风险，三个层级（议题、公司、组合）用同一结构。",
+          "quote": {
+            "text": "The starting point is determining exposure. The next stage is assessing management and the degree to which risk is managed, and the final stage is calculating unmanaged risk.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 计算章节"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "从敞口到分数",
+          "steps": [
+            {
+              "title": "定敞口",
+              "desc": "按子行业确定每个重大议题的敞口分数，再按公司特征调整。",
+              "icon": "1"
+            },
+            {
+              "title": "评管理",
+              "desc": "用管理指标与结果指标打分，争议事件会拉低管理得分。",
+              "icon": "2"
+            },
+            {
+              "title": "算未管理",
+              "desc": "用敞口减去已管理部分，得到管理缺口。",
+              "icon": "3"
+            },
+            {
+              "title": "汇总",
+              "desc": "各重大议题未管理风险加总，得到公司总分。",
+              "icon": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pieces",
+      "title": "六个组成件",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "理解六个组成件，才能看懂分数变化来自哪里。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "组成件",
+              "含义"
+            ],
+            [
+              "总敞口",
+              "公司在各重大议题上的风险暴露总量"
+            ],
+            [
+              "可管理风险",
+              "理论上可通过管理措施降低的部分"
+            ],
+            [
+              "不可管理风险",
+              "行业固有、企业难以通过自身行动消除的部分"
+            ],
+            [
+              "已管理风险",
+              "企业实际管理掉的部分"
+            ],
+            [
+              "管理缺口",
+              "可管理但未管理好的部分"
+            ],
+            [
+              "未管理风险",
+              "不可管理风险 + 管理缺口，即最终分数"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "最终分数是各重大议题未管理风险的加总。",
+          "quote": {
+            "text": "The final ESG Risk Ratings score is calculated as the sum of the individual material ESG issues’ unmanaged risk scores. It is the overall unmanaged risk of a company.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 未管理风险"
+          }
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-exposure",
+        "title": "敞口怎么打分"
+      },
+      {
+        "id": "sa-management",
+        "title": "管理与事件调整"
+      }
+    ],
+    "external": [
+      {
+        "title": "标普 CSA：评分框架",
+        "url": "topic.html?standard=csa&id=CSA-GOV-01",
+        "standard": "csa",
+        "system": "标普 CSA"
+      }
+    ]
+  }
+}

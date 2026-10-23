@@ -1,0 +1,172 @@
+{
+  "id": "cass-process",
+  "title": "编制流程与评级",
+  "eyebrow": "八个环节 · 第三方评级",
+  "summary": "指南把报告编制分为组织、研究、识别、启动、编制、评级、发布、总结八个环节，并配套“中国企业可持续发展报告评级”。",
+  "tags": [
+    "八步流程",
+    "报告评级",
+    "流程管理"
+  ],
+  "group": "编制实务",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "本页按 6.0 第七章“可持续发展报告流程管理”与第八章“可持续发展报告评级”整理。",
+  "sections": [
+    {
+      "id": "eight",
+      "title": "八个环节",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "流程管理的价值在于把报告从“年底突击”变成全年运转的工作。",
+          "quote": {
+            "text": "可持续发展报告编制的完整流程包括组织、研究、识别、启动、编制、评级、发布、总结八个环节。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第七章"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "报告编制的八个环节",
+          "steps": [
+            {
+              "title": "组织",
+              "desc": "搭建高层挂帅、关键部门参与的组织体系。",
+              "icon": "1"
+            },
+            {
+              "title": "研究",
+              "desc": "文献研究、调研访谈、对标研究，梳理企业特点。",
+              "icon": "2"
+            },
+            {
+              "title": "识别",
+              "desc": "评估议题重要性，形成重大议题矩阵。",
+              "icon": "3"
+            },
+            {
+              "title": "启动",
+              "desc": "召开启动会，统一口径并下发资料清单。",
+              "icon": "4"
+            },
+            {
+              "title": "编制",
+              "desc": "收集素材、撰写内容、完成可视化设计。",
+              "icon": "5"
+            },
+            {
+              "title": "评级",
+              "desc": "可申请第三方报告评级。",
+              "icon": "6"
+            },
+            {
+              "title": "发布",
+              "desc": "高层审议后对外发布，开展利益相关方沟通。",
+              "icon": "7"
+            },
+            {
+              "title": "总结",
+              "desc": "复盘流程、梳理意见，形成闭环改进。",
+              "icon": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "title": "报告评级是什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "评级是对报告编制过程与质量的第三方评价，不是对企业的 ESG 绩效打分。",
+          "quote": {
+            "text": "可持续发展报告评级是由“中国企业社会责任报告评级专家委员会”对企业可持续发展报告的编制过程及质量所进行的系统评价。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第八章"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "评级对象",
+              "content": "报告本身：完整性、实质性、可比性、可读性等。"
+            },
+            {
+              "title": "评级机构",
+              "content": "中国企业社会责任报告评级专家委员会。"
+            },
+            {
+              "title": "评级结果",
+              "content": "形成评级结论与改进建议，可作为下一年度编制依据。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "discipline",
+      "title": "流程落到执行的三条纪律",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "指南强调按流程完成各环节工作，避免只做“写”这一步。",
+          "quote": {
+            "text": "企业按照《ESG指南6.0》的报告编制流程，扎实完成各环节具体工作，确保报告编制的规范性。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 第二章 指南应用"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "资料清单前置",
+              "content": "启动会即下发清单，给数据部门留出采集时间。"
+            },
+            {
+              "title": "口径一次定死",
+              "content": "边界、单位、折算系数在编制前确定，避免返工。"
+            },
+            {
+              "title": "索引同步做",
+              "content": "编制过程中同步维护指标索引，发布前即可自查完整性。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-basics",
+        "title": "指南定位与版本"
+      },
+      {
+        "id": "cass-governance",
+        "title": "治理与前后记"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：披露流程",
+        "url": "topic.html?standard=ashare&id=ashare-process",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      },
+      {
+        "title": "GRI 2：一般披露",
+        "url": "topic.html?standard=gri&id=gri-2",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}

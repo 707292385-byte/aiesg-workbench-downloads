@@ -1,0 +1,194 @@
+{
+  "id": "oecd-linkage",
+  "title": "与其他框架的衔接",
+  "eyebrow": "UNGP · GRI · ESRS · ISO 26000",
+  "summary": "人权章承接联合国“保护、尊重和补救”框架；披露章与 GRI 等报告标准互补；与 ISO 26000 的最大区别是它有国家联络点这套申诉机制。",
+  "tags": [
+    "UNGP",
+    "GRI",
+    "框架对照"
+  ],
+  "group": "应用衔接",
+  "status": "官方文件整理 + 平台对照",
+  "officialUrl": "https://www.oecd.org/en/publications/oecd-guidelines-for-multinational-enterprises-on-responsible-business-conduct_81f92357-en.html",
+  "sourceNote": "引用块为准则原文；“框架对照”表与“怎么用”部分为本平台整理，非准则原文。",
+  "sections": [
+    {
+      "id": "ungp",
+      "title": "人权章与联合国框架",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则人权章的写法直接来自联合国“保护、尊重和补救”框架，并与《工商企业与人权指导原则》保持一致，同时对接国际劳工组织的三方宣言。",
+          "quote": {
+            "text": "is in line with the Guiding Principles on Business and Human Rights for its implementation",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第四章评注 第 41 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "国家保护",
+              "content": "国家有保护人权的义务，这一层不由企业替代。"
+            },
+            {
+              "title": "企业尊重",
+              "content": "企业不论规模、行业、所有制，都应尊重人权。"
+            },
+            {
+              "title": "获得补救",
+              "content": "企业造成或助长影响时，应通过正当程序提供或合作提供补救。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "title": "与报告标准的关系",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "准则管的是行为，报告标准管的是披露。准则自己也承认这一点：环境影响的沟通可以借助 GRI 等报告标准，但标准不能替企业做尽调。",
+          "quote": {
+            "text": "Reporting standards such as the Global Reporting Initiative and other environmental reporting standards provide useful references.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第六章评注 第 72 段"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "披露章把负责任商业行为信息写成尽调的一部分：识别了什么影响、做了什么、还有什么没解决，都要说清楚。",
+          "quote": {
+            "text": "It is also important that enterprises communicate responsible business conduct information including as part of their responsibility to carry out due diligence.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第三章 第 3 段"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "准则还明确，企业可以就负责任商业行为信息寻求外部鉴证，以提高可信度。",
+          "quote": {
+            "text": "In order to enhance the credibility of responsible business conduct information, enterprises may seek external assurance attestation of such information.",
+            "source": "《经合组织跨国企业负责任商业行为准则》（2023 年修订版） 第三章 第 4 段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "框架对照",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "同样是“可持续”议题，这几份文件的发力点完全不同：有的定行为，有的定披露，有的只给指南。放在一张表里看，才不会互相替代。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "文件",
+              "性质",
+              "有无申诉机制",
+              "与本准则的关系"
+            ],
+            [
+              "OECD 准则",
+              "政府间建议，自愿遵守",
+              "有，国家联络点处理具体实例",
+              "—"
+            ],
+            [
+              "UNGP",
+              "联合国框架",
+              "无专门机制",
+              "人权章承接其三大支柱"
+            ],
+            [
+              "GRI 标准",
+              "报告标准",
+              "无",
+              "披露章与之互补，可同时使用"
+            ],
+            [
+              "ISO 26000",
+              "指南性标准，不可用于认证",
+              "无",
+              "核心主题高度重叠，方法更偏管理"
+            ],
+            [
+              "ESRS",
+              "欧盟披露准则（依 CSRD）",
+              "由成员国监管与司法体系处理",
+              "披露要求方向一致，覆盖面更窄但更细"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "欧盟另有专门的尽责管理立法（CSDDD），其尽调逻辑与本准则六步框架同源；具体义务与时间表以欧盟官方文本和成员国转化文本为准。"
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "中国企业怎么用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "对中国企业来说，这份文件最现实的用处不在写报告，而在跨境经营的风险排查：投资目的地、供应链上游、合资伙伴，都可能把准则作为对话依据。"
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "出海前查 NCP",
+              "content": "先看东道国 NCP 是否活跃、有无涉华案例，评估被提起具体实例的可能性。"
+            },
+            {
+              "title": "供应链按六步做",
+              "content": "把六步框架套到一级供应商，重点补“跟踪结果”和“沟通”两步。"
+            },
+            {
+              "title": "披露接现有报告",
+              "content": "披露章的两组建议可直接映射到现有可持续报告的重大性与治理章节。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-ncp",
+        "title": "国家联络点机制"
+      },
+      {
+        "id": "oecd-revision",
+        "title": "2023 修订要点"
+      }
+    ],
+    "external": [
+      {
+        "title": "ISO 26000：指南性标准定位",
+        "url": "topic.html?standard=iso26000&id=iso-basics",
+        "standard": "iso26000",
+        "system": "ISO 26000 / GB/T 36000"
+      },
+      {
+        "title": "ESRS：准则定位与法律链条",
+        "url": "topic.html?standard=esrs&id=esrs-basics",
+        "standard": "esrs",
+        "system": "欧盟 ESRS"
+      }
+    ]
+  }
+}

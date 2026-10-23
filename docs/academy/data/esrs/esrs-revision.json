@@ -1,0 +1,205 @@
+{
+  "id": "esrs-revision",
+  "title": "修订前后变化",
+  "eyebrow": "六项目标 · 数据点压缩 · 2026 财年过渡",
+  "summary": "2026 年修订围绕减少数据点、优先量化、区分强制与自愿、明确重要性操作、法规一致性与全球互操作六项目标；2026 财年可在原版、修订版、原版加宽免之间选择，并须声明所用版本。",
+  "tags": [
+    "数据点",
+    "过渡安排",
+    "生效"
+  ],
+  "group": "核心机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_del/2026/1563/oj",
+  "sourceNote": "本页按 (EU) 2026/1563 序言第 (2) 段与第 2、3 条整理；数据点削减比例以欧委会说明为准，条例本身未给出百分比。",
+  "sections": [
+    {
+      "id": "goals",
+      "title": "修订要解决什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "修订不是重写准则体系，而是在保留双重重要性与 12 项准则架构的前提下，压缩披露量、提高可操作性。",
+          "quote": {
+            "text": "it is necessary to amend the existing sustainability reporting standards by: (i) reducing the number of datapoints; (ii) prioritising quantitative datapoints over narrative text; (iii) further distinguishing between mandatory and voluntary datapoints; (iv) providing clear instructions on how to apply the materiality principle; (v) improving consistency with other Union legislation; and (vi) taking account, to the greatest extent possible, of interoperability with global sustainability reporting standards.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 序言第 (2) 段"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "减少数据点",
+              "content": "删减非必要、重复与叙述性过强的披露项。"
+            },
+            {
+              "title": "优先量化",
+              "content": "同等条件下优先保留可量化的数据点。"
+            },
+            {
+              "title": "区分强制与自愿",
+              "content": "明确哪些必须披露、哪些可以自愿提供。"
+            },
+            {
+              "title": "明确重要性操作",
+              "content": "给出自上而下等可执行的重要性评估方法。"
+            },
+            {
+              "title": "法规一致性",
+              "content": "与欧盟其他立法（如尽职调查指令）对齐。"
+            },
+            {
+              "title": "全球互操作",
+              "content": "尽可能与 ISSB 等全球准则衔接。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "title": "具体改了什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "对编制者影响最大的三项：数据点总量下降、自愿披露项取消、行业专项准则不再单列。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "变化",
+              "2023 年版",
+              "2026 年修订版"
+            ],
+            [
+              "数据点",
+              "约 1000 余项，强制与自愿混排",
+              "总量与强制项均大幅压缩，自愿项取消"
+            ],
+            [
+              "行业准则",
+              "规划中的行业专项准则（Set 2）",
+              "取消，改由议题准则与实体特定信息处理"
+            ],
+            [
+              "重要性",
+              "要求逐项评估",
+              "允许自上而下，按议题层级得出结论"
+            ],
+            [
+              "价值链",
+              "原则上需价值链数据",
+              "允许使用区域均值、行业数据等合理信息"
+            ],
+            [
+              "气候",
+              "转型计划披露要求较原则",
+              "明确转型计划五项要素与不披露声明"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transition",
+      "title": "2026 财年怎么过渡",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "2026 财年不是“一刀切”：符合条件的企业可在三个版本中选一个，但必须在可持续报告中写明所用版本。",
+          "quote": {
+            "text": "For the financial years starting between 1 January 2026 and 31 December 2026, undertakings falling within the scope of Delegated Regulation (EU) 2023/2772 may apply either of the following:",
+            "source": "《委员会授权条例 (EU) 2026/1563》 第 2 条第 1 款"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "选项一",
+              "content": "继续适用 (EU) 2023/2772（经 (EU) 2025/1416 修订）的原版准则。"
+            },
+            {
+              "title": "选项二",
+              "content": "直接适用 2026 年修订版，提前对齐 2027 财年口径。"
+            },
+            {
+              "title": "选项三",
+              "content": "适用原版，但采用修订版中的部分宽免（如自上而下、价值链限制等）。"
+            }
+          ],
+          "numbered": true,
+          "cols": 3
+        },
+        {
+          "type": "standard",
+          "content_cn": "无论选哪一种，都须在报告中明确声明适用版本，以保证可比性。"
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "title": "生效之后",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "生效日与适用财年分开写，是阅读欧盟法规的固定动作。",
+          "quote": {
+            "text": "This Regulation shall enter into force on 10 November 2026.",
+            "source": "《委员会授权条例 (EU) 2026/1563》 第 3 条"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "2026-09-21",
+              "content": "刊登欧盟公报，文本定稿。"
+            },
+            {
+              "title": "2026-11-10",
+              "content": "条例生效，成员国直接适用。"
+            },
+            {
+              "title": "2027 财年",
+              "content": "所有范围内企业强制适用修订版。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "esrs-materiality",
+        "title": "双重重要性与价值链"
+      },
+      {
+        "id": "esrs-application",
+        "title": "生效适用与衔接"
+      }
+    ],
+    "external": [
+      {
+        "title": "EFRAG：修订版 ESRS 技术建议",
+        "url": "https://www.efrag.org/en/draft-simplified-esrs",
+        "external": true
+      },
+      {
+        "title": "欧盟委员会：2026-07-03 采纳新闻",
+        "url": "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-2026-07-03_en",
+        "external": true
+      }
+    ]
+  }
+}

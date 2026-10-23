@@ -1,0 +1,153 @@
+{
+  "id": "sa-management",
+  "title": "管理与事件调整",
+  "eyebrow": "管理指标 · 结果指标 · 五类事件",
+  "summary": "管理维度由管理指标与结果指标共同打分；争议事件按 1–5 类分级，会拉低管理得分并可能调整敞口。",
+  "tags": [
+    "管理指标",
+    "争议事件",
+    "Category 1–5"
+  ],
+  "group": "评级机制",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.sustainalytics.com/esg-ratings",
+  "sourceNote": "本页按方法论摘要“Management”与“Event Indicators”章节整理。",
+  "sections": [
+    {
+      "id": "def",
+      "title": "管理维度评什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "管理维度看公司的承诺、行动与结果，判断其是否把敞口管住了。",
+          "quote": {
+            "text": "The ESG Risk Ratings’ second dimension is Management. It can be considered as a set of company commitments, actions and outcomes that demonstrate how well a company is managing the ESG risks it is exposed to.",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 管理"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "管理指标",
+              "content": "政策、管理体系、认证等制度化安排。"
+            },
+            {
+              "title": "结果指标",
+              "content": "以量化结果衡量，如排放强度、事故率。"
+            },
+            {
+              "title": "争议参与",
+              "content": "公司卷入争议事件的程度，作为管理不足的信号。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "score",
+      "title": "指标怎么打分",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "每项指标按 1–100 打分，议题得分由指标加权汇总；结果指标直接用量化表现或争议参与情况衡量。"
+        },
+        {
+          "type": "process_flow",
+          "title": "管理评分三步",
+          "steps": [
+            {
+              "title": "选指标",
+              "desc": "按议题选取对应的管理指标与结果指标。",
+              "icon": "1"
+            },
+            {
+              "title": "逐项打分",
+              "desc": "每项指标 1–100 分。",
+              "icon": "2"
+            },
+            {
+              "title": "加权汇总",
+              "desc": "汇总为议题管理得分，再折算为已管理风险。",
+              "icon": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "title": "争议事件的五级分类",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "事件分级看影响严重程度，级别越高对管理得分的拖累越大。",
+          "quote": {
+            "text": "Each event is categorized from Category 1 (low impact on environment and society, posing negligible risks to the company) to Category 5 (severe impact on the environment and society, posing serious risks to the company).",
+            "source": "《Sustainalytics ESG Risk Ratings Methodology Abstract》v2.1（2021-01） 事件指标"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "类别",
+              "影响程度",
+              "对评级的作用"
+            ],
+            [
+              "第 1 类",
+              "对环境和社会的低影响",
+              "对公司的风险可忽略"
+            ],
+            [
+              "第 2 类",
+              "轻度影响",
+              "有限风险"
+            ],
+            [
+              "第 3 类",
+              "中度影响",
+              "中等风险"
+            ],
+            [
+              "第 4 类",
+              "重大影响",
+              "可能调整公司敞口分数"
+            ],
+            [
+              "第 5 类",
+              "严重影响",
+              "调整敞口并显著拉低管理得分"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "sa-exposure",
+        "title": "敞口怎么打分"
+      },
+      {
+        "id": "sa-reading",
+        "title": "分数怎么读"
+      }
+    ],
+    "external": [
+      {
+        "title": "MSCI：争议事件与调整",
+        "url": "topic.html?standard=msci&id=MSCI-ENV-03",
+        "standard": "msci",
+        "system": "MSCI 评级"
+      }
+    ]
+  }
+}

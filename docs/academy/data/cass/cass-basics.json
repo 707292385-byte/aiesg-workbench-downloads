@@ -1,0 +1,154 @@
+{
+  "id": "cass-basics",
+  "title": "指南定位与版本",
+  "eyebrow": "对接交易所指引 · 6.0 与 5.0",
+  "summary": "CASS-ESG 6.0 由中企研与责任云研究院于 2024 年 6 月发布，严格参照沪深北交易所指引的原文与结构，是央企控股上市公司等编制可持续发展报告的实用工具。",
+  "tags": [
+    "交易所指引",
+    "6.0",
+    "央企报告"
+  ],
+  "group": "体系总览",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.crg6.net",
+  "sourceNote": "本页按 CASS-ESG 6.0 一般框架（2024 年 6 月，298 页）整理；引用块为指南原文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "这份指南解决什么问题",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "它不是监管规则，而是编制工具：把交易所指引的整体要求、关键议题与通用指标拆成可填写的四级指标。",
+          "quote": {
+            "text": "《ESG指南6.0》严格遵循《交易所指引》，系统总结其中的整体性要求、关键性议题和通用性指标，构建中国企业可持续发展报告指标体系，并提供详尽清晰的指标释义和生动具体的指标示例。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 序言"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cards": [
+            {
+              "title": "发布机构",
+              "content": "中国企业改革与发展研究会、责任云研究院。"
+            },
+            {
+              "title": "版本时间",
+              "content": "2024 年 6 月发布 6.0，取代 2022 年的 5.0。"
+            },
+            {
+              "title": "适用对象",
+              "content": "按交易所指引编制可持续发展报告的企业，央企控股上市公司使用最广。"
+            }
+          ],
+          "numbered": false,
+          "cols": 3
+        }
+      ]
+    },
+    {
+      "id": "relation",
+      "title": "与交易所指引的关系",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "指南不创设新要求，只把指引落到指标层，因此指标顺序与指引保持一致。",
+          "quote": {
+            "text": "《ESG指南6.0》严格遵循《交易所指引》，为需要或希望按照《交易所指引》编制可持续发展报告的企业提供最为核心和基础性的指导，为投资人和利益相关方提供准确、透明的非财务信息。",
+            "source": "《中国企业可持续发展报告指南（CASS-ESG 6.0）》 序言"
+          }
+        },
+        {
+          "type": "process_flow",
+          "title": "三层对应关系",
+          "steps": [
+            {
+              "title": "交易所指引",
+              "desc": "规定议题、披露要求与适用范围，具有强制或自愿约束力。",
+              "icon": "1"
+            },
+            {
+              "title": "CASS-ESG 6.0",
+              "desc": "把指引拆成 5 项一级、9 项二级、26 项三级、165 项四级指标。",
+              "icon": "2"
+            },
+            {
+              "title": "企业报告",
+              "desc": "按指标填报，形成可核对的报告内容与绩效表。",
+              "icon": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "versions",
+      "title": "6.0 与 5.0 的差别",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "6.0 的最大变化是对齐交易所指引的结构：5.0 以“三位一体”ESG 模型组织内容，6.0 改为按指引议题顺序展开。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "维度",
+              "5.0（2022）",
+              "6.0（2024）"
+            ],
+            [
+              "对标对象",
+              "GRI 等国际框架为主",
+              "沪深北交易所指引为基准"
+            ],
+            [
+              "结构",
+              "三位一体 ESG 模型",
+              "P/E/S/G/A 五大板块，顺序同指引"
+            ],
+            [
+              "指标",
+              "议题式指标",
+              "四级指标，共 165 项四级指标"
+            ],
+            [
+              "配套",
+              "单一指南",
+              "ESG 指南 + CSR 指南两套并行"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "cass-indicators",
+        "title": "四级指标体系"
+      },
+      {
+        "id": "cass-process",
+        "title": "编制流程与评级"
+      }
+    ],
+    "external": [
+      {
+        "title": "A 股指引：披露框架",
+        "url": "topic.html?standard=ashare&id=ashare-framework",
+        "standard": "ashare",
+        "system": "A 股知识体系"
+      },
+      {
+        "title": "GRI 1：基础",
+        "url": "topic.html?standard=gri&id=gri-1",
+        "standard": "gri",
+        "system": "GRI 标准"
+      }
+    ]
+  }
+}
