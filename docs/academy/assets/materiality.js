@@ -1023,7 +1023,7 @@
     const target = event.target;
     if (target.matches('[name="companyName"],[data-topic-name]')) {
       saveState();
-      render();
+      setTimeout(render, 0);
       return;
     }
     if (target.matches('[data-survey-file]')) {
