@@ -82,18 +82,20 @@
       key: 'materiality',
       title: '双重重要性评估',
       label: 'PROJECT 02',
-      status: '正在推进',
-      description: '围绕影响重要性和财务重要性，逐步连接议题库、利益相关方问卷、评估过程与结果展示。',
-      features: ['行业议题推荐', '标准来源追溯', '动态评分与矩阵'],
-      tool: 'materiality.html'
+      status: '在线可用',
+      description: '从议题识别、问卷收集到双维评分和动态矩阵，形成可调整、可导出的双重重要性评估底稿。',
+      features: ['行业与标准议题库', '问卷包与答卷回导', '双阈值与动态矩阵'],
+      tool: 'materiality.html',
+      skillDownload: ''
     },
     {
-      key: 'ppt',
-      title: 'PPT Skill',
+      key: 'todo',
+      title: '待办清单',
       label: 'TOOL 03',
-      status: '筹备中',
-      description: '把结构化内容转成可编辑、可复核的咨询演示文稿，让内容逻辑与视觉表达同步完成。',
-      features: ['可编辑演示文稿', '咨询风格模板', '结构与视觉复核']
+      status: '待发布',
+      description: '把日常任务、优先级、截止时间与完成状态集中到一张清晰、可执行的个人待办清单。',
+      features: ['快速记录', '优先级与截止时间', '完成进度'],
+      note: '页面已完成，正式推送后补充入口'
     }
   ];
 
@@ -307,14 +309,18 @@
       ? '<div class="co-tool-visual co-tool-visual--workbench" aria-hidden="true"><div class="co-mini-appbar"><i></i><i></i><i></i><strong>AI×ESG</strong></div><div class="co-mini-workspace"><aside><b></b><i></i><i></i><i></i></aside><main><span>今日工作</span><div><b></b><b></b><b></b></div><p><i></i><i></i><i></i></p></main></div></div>'
       : item.key === 'materiality'
         ? '<div class="co-tool-visual co-tool-visual--materiality" aria-hidden="true"><div class="co-materiality-axis"><span>影响重要性</span><small>财务重要性</small><i></i><i></i><i></i><i></i><i></i><i></i></div></div>'
-        : '<div class="co-tool-visual co-tool-visual--ppt" aria-hidden="true"><div class="co-slide-stack"><i></i><i></i><article><span></span><b></b><b></b><b></b></article></div></div>';
+        : '<div class="co-tool-visual co-tool-visual--todo" aria-hidden="true"><div class="co-todo-board"><div class="co-todo-head"><strong>今日待办</strong><span>3 / 5</span></div><div class="co-todo-progress"><i></i></div><div class="co-todo-row is-done"><b>✓</b><span>整理今日任务</span><small>已完成</small></div><div class="co-todo-row"><b></b><span>复核项目进度</span><small>高优先级</small></div><div class="co-todo-row"><b></b><span>安排下一步</span><small>今天</small></div></div></div>';
     const cards = projectTools.map(item => {
       const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
       const actions = item.help
         ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + item.help + '" target="_blank" rel="noopener">查看介绍 <b aria-hidden="true">↗</b></a><a href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装 <span aria-hidden="true">→</span></a></div>'
         : item.tool
-          ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + pageHref(item.tool) + '">开始体验 <b aria-hidden="true">→</b></a></div>'
-          : '<small class="co-tool-note">完善到可体验状态后开放入口</small>';
+          ? '<div class="co-tool-actions co-tool-actions--dual"><a class="co-tool-primary" href="' + pageHref(item.tool) + '">在线版 <b aria-hidden="true">→</b></a>'
+            + (item.skillDownload
+              ? '<a href="' + escapeHtml(item.skillDownload) + '" target="_blank" rel="noopener noreferrer">Skill 下载 <span aria-hidden="true">↓</span></a>'
+              : '<span class="co-tool-action-placeholder" aria-disabled="true"><b>Skill 下载</b><small>整理中</small></span>')
+            + '</div>'
+          : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
@@ -345,7 +351,7 @@
     const observations = publicObservations(publicData);
     const recentObservations = observations.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-projects"><span>' + svgIcon('ai') + '</span>项目与工具</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group.jpg" alt="ESG工作台反馈交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-projects"><span>' + svgIcon('ai') + '</span>项目与工具</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇微信二维码"><small>扫码添加微信</small></aside></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多　→</a></div><div class="co-items">'
