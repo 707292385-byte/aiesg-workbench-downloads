@@ -42,6 +42,14 @@
     if (embedded) url.searchParams.set('embed', '1');
     return url.pathname.split('/').pop() + url.search;
   }
+  const publicReportsUrl = 'https://707292385-byte.github.io/aiesg-workbench-downloads/academy/reports.html';
+  function reportPageHref(values = {}) {
+    const localPreview = location.protocol === 'file:';
+    const url = new URL(localPreview ? publicReportsUrl : 'reports.html', location.href);
+    Object.entries(values).forEach(([key, value]) => url.searchParams.set(key, value));
+    if (embedded) url.searchParams.set('embed', '1');
+    return localPreview ? url.href : url.pathname.split('/').pop() + url.search;
+  }
   const standards = [
     { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
     { id: 'csa', type: '可持续评估', title: '标普全球CSA企业可持续发展评估', detail: '62行业问卷 · 34标准 · 三大维度' },
@@ -303,7 +311,7 @@
   function reportEntry() {
     return '<section class="co-section co-report-entry" id="co-reports" aria-labelledby="co-reports-title">'
       + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>收录A股港股40000+份ESG报告</p></div>'
-      + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库</a></div>'
+      + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + reportPageHref() + '">进入报告库</a></div>'
       + '<div class="co-report-workspace"><div class="co-report-cloud" aria-hidden="true"><span class="co-report-cloud-main">ESG报告</span><span>可持续发展报告</span><span>社会责任报告</span><span>环境、社会及管治报告</span><span>CSR报告</span><span>气候相关披露</span><span>可持续信息披露</span></div>'
       + '<div class="co-report-controls"><form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
       + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告</button></div></form>'
@@ -362,7 +370,7 @@
     form.addEventListener('submit', event => {
       event.preventDefault();
       const values = Object.fromEntries([...new FormData(form)].filter(([, value]) => value.trim()));
-      location.href = pageHref('reports.html', values);
+      location.href = reportPageHref(values);
     });
     let info = localFallbackData.reports;
     if (location.protocol !== 'file:') {
@@ -655,5 +663,5 @@
   });
 
   document.addEventListener('DOMContentLoaded', mount);
-  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms, notifyActivity, localFallbackData };
+  window.CommunityPage = { mount, pageHref, reportPageHref, renderMap, renderQuestion, communityForms, notifyActivity, localFallbackData };
 })();

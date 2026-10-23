@@ -1,5 +1,13 @@
 (function(){
 'use strict';
+const PUBLIC_REPORTS_URL='https://707292385-byte.github.io/aiesg-workbench-downloads/academy/reports.html';
+if(location.protocol==='file:'){
+  const target=new URL(PUBLIC_REPORTS_URL);
+  new URLSearchParams(location.search).forEach((value,key)=>target.searchParams.append(key,value));
+  target.hash=location.hash;
+  location.replace(target.href);
+  return;
+}
 const EMBEDDED=new URLSearchParams(location.search).get('embed')==='1';
 function initialize(DATA){const LIVE=false;const TOKEN='';
 const $=id=>document.getElementById(id);const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const num=x=>(x||0).toLocaleString('zh-CN');const norm=x=>String(x||'').normalize('NFKC').toLowerCase().replace(/\s+/g,'');
