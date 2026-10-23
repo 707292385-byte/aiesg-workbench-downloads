@@ -251,6 +251,10 @@
     const nextLabel = imported ? '查看问卷结果与矩阵' : state.scoringStarted ? '继续内部评分与矩阵' : '暂不使用问卷，开始内部评分';
     return '<section class="dm-questionnaire-workflow dm-panel"><div class="dm-panel-head"><div><small>问卷收集</small><h2>确定议题后，再收集评分证据</h2></div><p>问卷是形成建议分的一种证据来源。如果本次不开展问卷，也可以明确进入内部评分；系统不会在选择议题时自动生成分数。</p></div>'
       + '<div class="dm-questionnaire-steps"><div class="dm-questionnaire-step' + stepClass(1) + '"><b>1</b><span><strong>确认议题</strong><small>' + state.selected.length + ' 个议题已选</small></span></div><div class="dm-questionnaire-step' + stepClass(2) + '"><b>2</b><span><strong>导出问卷包</strong><small>生成问卷与映射文件</small></span></div><div class="dm-questionnaire-step' + stepClass(3) + '"><b>3</b><span><strong>问卷星发布与回收</strong><small>在问卷星完成外部收集</small></span></div><div class="dm-questionnaire-step' + stepClass(4) + '"><b>4</b><span><strong>导入原始答卷</strong><small>Excel／CSV 生成建议分</small></span></div></div>'
+      + '<div class="dm-package-guide"><div class="dm-package-guide-title"><span>问卷包怎么用</span><small>按你的使用场景，只打开对应目录即可</small></div>'
+      + '<div><b>发给客户确认</b><p>打开 <strong>01_客户沟通</strong> 中的 Word。补充对象、时间和联系人后发送，也可直接打印填写。</p></div>'
+      + '<div><b>自己创建问卷星</b><p>打开 <strong>02_问卷星创建</strong>。人工录入看 TXT；交给智能体或官方工具使用 JSONL。</p></div>'
+      + '<div><b>回收后生成结果</b><p>从问卷星下载原始 Excel／CSV，不改题目代码，再回到本页导入答卷。</p></div></div>'
       + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
   }
 
@@ -490,6 +494,114 @@
     return '【DM-' + assessmentCode() + '-V' + state.questionnaireVersion + '】';
   }
 
+  function wordXml(value) {
+    return String(value == null ? '' : value).replace(/[&<>"']/g, char => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
+    })[char]);
+  }
+
+  function wordRun(text, options = {}) {
+    const properties = [
+      options.bold ? '<w:b/>' : '',
+      options.color ? '<w:color w:val="' + options.color + '"/>' : '',
+      options.size ? '<w:sz w:val="' + options.size + '"/><w:szCs w:val="' + options.size + '"/>' : '',
+      options.font ? '<w:rFonts w:ascii="' + options.font + '" w:hAnsi="' + options.font + '" w:eastAsia="' + options.font + '"/>' : ''
+    ].join('');
+    const parts = String(text == null ? '' : text).split(/\r?\n/);
+    const content = parts.map((part, index) => (index ? '<w:br/>' : '') + '<w:t xml:space="preserve">' + wordXml(part) + '</w:t>').join('');
+    return '<w:r>' + (properties ? '<w:rPr>' + properties + '</w:rPr>' : '') + content + '</w:r>';
+  }
+
+  function wordParagraph(text, style, options = {}) {
+    const properties = [style ? '<w:pStyle w:val="' + style + '"/>' : '', options.keepNext ? '<w:keepNext/>' : '', options.align ? '<w:jc w:val="' + options.align + '"/>' : '', options.after != null ? '<w:spacing w:after="' + options.after + '"/>' : ''].join('');
+    return '<w:p>' + (properties ? '<w:pPr>' + properties + '</w:pPr>' : '') + wordRun(text, options) + '</w:p>';
+  }
+
+  function wordCell(content, width, options = {}) {
+    const fill = options.fill ? '<w:shd w:val="clear" w:color="auto" w:fill="' + options.fill + '"/>' : '';
+    const gridSpan = options.gridSpan ? '<w:gridSpan w:val="' + options.gridSpan + '"/>' : '';
+    const vertical = '<w:vAlign w:val="center"/>';
+    const margin = '<w:tcMar><w:top w:w="90" w:type="dxa"/><w:left w:w="100" w:type="dxa"/><w:bottom w:w="90" w:type="dxa"/><w:right w:w="100" w:type="dxa"/></w:tcMar>';
+    const paragraph = wordParagraph(content, options.style || 'TableText', { bold: options.bold, color: options.color, align: options.align });
+    return '<w:tc><w:tcPr><w:tcW w:w="' + width + '" w:type="dxa"/>' + gridSpan + fill + vertical + margin + '</w:tcPr>' + paragraph + '</w:tc>';
+  }
+
+  function wordRow(cells, options = {}) {
+    return '<w:tr><w:trPr><w:cantSplit/>' + (options.header ? '<w:tblHeader/>' : '') + '</w:trPr>' + cells.join('') + '</w:tr>';
+  }
+
+  function wordTable(rows, widths) {
+    return '<w:tbl><w:tblPr><w:tblW w:w="9000" w:type="dxa"/><w:tblLayout w:type="fixed"/><w:tblBorders><w:top w:val="single" w:sz="4" w:color="C9D6CF"/><w:left w:val="single" w:sz="4" w:color="C9D6CF"/><w:bottom w:val="single" w:sz="4" w:color="C9D6CF"/><w:right w:val="single" w:sz="4" w:color="C9D6CF"/><w:insideH w:val="single" w:sz="4" w:color="DCE5E0"/><w:insideV w:val="single" w:sz="4" w:color="DCE5E0"/></w:tblBorders></w:tblPr><w:tblGrid>' + widths.map(width => '<w:gridCol w:w="' + width + '"/>').join('') + '</w:tblGrid>' + rows.join('') + '</w:tbl>';
+  }
+
+  function questionnaireDocumentXml(manifest) {
+    const standards = manifest.standards.map(item => item.name).join('、') || '未指定';
+    const createdDate = String(manifest.createdAt || '').slice(0, 10);
+    const infoRows = [
+      wordRow([wordCell('企业名称', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(manifest.companyName || '待填写', 3000), wordCell('所属行业', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(manifest.industry || '待填写', 3000)]),
+      wordRow([wordCell('披露标准', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(standards, 7500, { gridSpan: 3 })]),
+      wordRow([wordCell('评估对象', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000), wordCell('回收截止日', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____年__月__日', 3000)]),
+      wordRow([wordCell('联系人', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000), wordCell('联系方式', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000)])
+    ];
+    const respondentRows = [
+      wordRow([wordCell('利益相关方类型', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('□董事会或管理层  □业务或职能部门  □员工  □客户或消费者\n□供应商或合作伙伴  □投资者或金融机构  □社区或其他受影响群体  □其他', 7200)]),
+      wordRow([wordCell('熟悉程度', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('□非常熟悉  □比较熟悉  □一般  □不太熟悉  □不了解', 7200)])
+    ];
+    const assessmentTable = (dimension, codeKey, definition) => {
+      const widths = [650, 1950, 4150, 2250];
+      const rows = [wordRow([
+        wordCell('代码', widths[0], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
+        wordCell('议题', widths[1], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
+        wordCell('议题范围', widths[2], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
+        wordCell('请选择一个评分', widths[3], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' })
+      ], { header: true })];
+      manifest.topics.forEach(topic => rows.push(wordRow([
+        wordCell(topic[codeKey], widths[0], { bold: true, align: 'center' }),
+        wordCell(topic.name, widths[1], { bold: true }),
+        wordCell(topic.description || '请结合企业实际进一步明确议题范围。', widths[2]),
+        wordCell('□ NA 无法判断\n□ 1  □ 2  □ 3\n□ 4  □ 5', widths[3])
+      ])));
+      return wordParagraph(dimension, 'Heading1', { keepNext: true })
+        + wordParagraph(definition, 'BodyText')
+        + wordParagraph('评分：1 很低｜2 较低｜3 一般｜4 较高｜5 很高｜NA 无法判断', 'Instruction', { keepNext: true })
+        + wordTable(rows, widths);
+    };
+    const body = [
+      wordParagraph('双重重要性议题评估问卷方案', 'Title', { align: 'center' }),
+      wordParagraph((manifest.companyName || '本企业') + '｜问卷版本 V' + manifest.questionnaireVersion, 'Subtitle', { align: 'center' }),
+      wordParagraph('本问卷用于收集利益相关方对可持续发展议题的判断，为双重重要性分析提供证据。问卷结果是建议分，最终结论仍需由企业结合事实、专家意见和管理层审议确认。不了解或不具备判断条件时，请选择“NA 无法判断”。', 'Intro'),
+      wordParagraph('一、问卷实施信息', 'Heading1', { keepNext: true }),
+      wordTable(infoRows, [1500, 3000, 1500, 3000]),
+      wordParagraph('二、受访者信息', 'Heading1', { keepNext: true }),
+      wordTable(respondentRows, [1800, 7200]),
+      assessmentTable('三、影响重要性评价', 'impactCode', '请判断企业在该议题上对经济、环境和人产生或可能产生的正面、负面影响程度。评价时可结合影响的规模、范围、不可补救性及发生可能性。'),
+      wordParagraph('', 'BodyText'),
+      assessmentTable('四、财务重要性评价', 'financialCode', '请判断该议题形成的风险或机遇，在短期、中期或长期内对企业发展、财务状况、经营成果、融资成本或现金流产生影响的程度。'),
+      wordParagraph('五、补充意见', 'Heading1', { keepNext: true }),
+      wordParagraph('1. 请补充您作出判断的依据、案例或建议：', 'Heading2'),
+      wordParagraph('________________________________________________________________________________', 'BodyText'),
+      wordParagraph('________________________________________________________________________________', 'BodyText'),
+      wordParagraph('2. 您认为还遗漏了哪些重要议题：', 'Heading2'),
+      wordParagraph('________________________________________________________________________________', 'BodyText'),
+      wordParagraph('________________________________________________________________________________', 'BodyText'),
+      wordParagraph('识别信息：' + manifest.questionnaireMarker + '｜评估编号：' + manifest.assessmentId + '｜生成日期：' + createdDate, 'Meta')
+    ].join('');
+    return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>' + body + '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567"/><w:cols w:space="425"/><w:docGrid w:linePitch="312"/></w:sectPr></w:body></w:document>';
+  }
+
+  async function buildQuestionnaireDocx(manifest) {
+    if (!window.JSZip) throw new Error('Word 生成组件未加载');
+    const docx = new window.JSZip();
+    docx.file('[Content_Types].xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/><Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/><Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/><Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>');
+    docx.file('_rels/.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/></Relationships>');
+    docx.file('word/document.xml', questionnaireDocumentXml(manifest));
+    docx.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>');
+    docx.file('word/styles.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Aptos" w:hAnsi="Aptos" w:eastAsia="Hiragino Sans GB"/><w:sz w:val="21"/><w:szCs w:val="21"/><w:color w:val="24342C"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="100" w:line="300" w:lineRule="auto"/></w:pPr></w:pPrDefault></w:docDefaults><w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style><w:style w:type="paragraph" w:styleId="Title"><w:name w:val="Title"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="0" w:after="160"/><w:jc w:val="center"/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Subtitle"><w:name w:val="Subtitle"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="280"/><w:jc w:val="center"/></w:pPr><w:rPr><w:color w:val="557367"/><w:sz w:val="22"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Heading1"><w:name w:val="heading 1"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="260" w:after="100"/><w:keepNext/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="27"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Heading2"><w:name w:val="heading 2"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="160" w:after="70"/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="22"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Intro"><w:name w:val="Intro"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="180" w:line="330" w:lineRule="auto"/></w:pPr><w:rPr><w:color w:val="40534A"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="BodyText"><w:name w:val="Body Text"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="110"/></w:pPr></w:style><w:style w:type="paragraph" w:styleId="Instruction"><w:name w:val="Instruction"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="100"/><w:keepNext/></w:pPr><w:rPr><w:b/><w:color w:val="176B4A"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="TableText"><w:name w:val="Table Text"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="0" w:line="260" w:lineRule="auto"/></w:pPr><w:rPr><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Meta"><w:name w:val="Meta"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="220" w:after="0"/></w:pPr><w:rPr><w:color w:val="6F7F77"/><w:sz w:val="17"/></w:rPr></w:style></w:styles>');
+    docx.file('docProps/core.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title>' + wordXml((manifest.companyName || '本企业') + '双重重要性议题评估问卷方案') + '</dc:title><dc:creator>AI×ESG 工作台</dc:creator><cp:lastModifiedBy>AI×ESG 工作台</cp:lastModifiedBy><dcterms:created xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:modified></cp:coreProperties>');
+    docx.file('docProps/app.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>AI×ESG 工作台</Application><DocSecurity>0</DocSecurity><ScaleCrop>false</ScaleCrop><Company>' + wordXml(manifest.companyName || '') + '</Company><LinksUpToDate>false</LinksUpToDate><SharedDoc>false</SharedDoc><HyperlinksChanged>false</HyperlinksChanged><AppVersion>1.0</AppVersion></Properties>');
+    return docx.generateAsync({ type: 'uint8array', compression: 'DEFLATE', compressionOptions: { level: 6 } });
+  }
+
   function questionnairePackageFiles() {
     prepareQuestionnaireVersion();
     const topics = selectedTopics();
@@ -537,26 +649,39 @@
     };
     const optionalJson = JSON.stringify(optionalTitles);
     const readme = '# ' + title + '｜问卷包使用说明\n\n'
+      + '> 第一次使用：先打开 `01_客户沟通/双重重要性问卷方案.docx`。它是可直接发客户、也可作为自己录入问卷星底稿的正式版本。\n\n'
       + '- 评估编号：`' + state.assessmentId + '`\n- 问卷版本：`V' + state.questionnaireVersion + '`\n- 识别标记：`' + marker + '`\n- 议题数量：' + topics.length + '\n\n'
-      + '## 推荐：交给问卷星智能体\n\n1. 安装并连接问卷星官方 `wjx-cli`。\n2. 先执行预检，不创建问卷：\n\n```bash\nwjx survey create --file questionnaire.jsonl --optional_titles ' + "'" + optionalJson + "'" + ' --dry-run\n```\n\n3. 人工核对标题、题目数量、矩阵行、量表和选填题。\n4. 确认后再执行实际创建。问卷星当前 CLI 对普通题型可能直接发布，因此实际创建前必须获得使用者确认；如需草稿，请让智能体使用支持 `publish:false` 的 SDK／MCP 路径。\n5. 回收完成后，在问卷星下载原始答卷 `.xlsx` 或 CSV，再回到双重重要性页面导入。\n\n'
-      + '## 文件说明\n\n- `questionnaire.jsonl`：问卷星官方 JSONL 创建文件。\n- `questionnaire-import.txt`：人工阅读或文本导入兜底稿。\n- `topic-question-map.csv`：题目代码与议题的对应关系。\n- `scoring-config.json`：量表和统计口径。\n- `assessment-manifest.json`：企业、标准、议题和问卷版本。\n- `response-import-template.csv`：答卷导入字段示例。\n\n'
-      + '## 回导要求\n\n不要删除题目或矩阵行中的 `【I01】`、`【F01】` 等代码，也不要删除问卷标题中的版本标记。题序可以调整；代码和版本标记用于防止答卷错配。\n';
+      + '## 场景一：发给客户确认或填写\n\n打开 `01_客户沟通/双重重要性问卷方案.docx`，补充评估对象、回收截止日和联系人。可直接发送 Word、另存为 PDF，或打印后线下填写。客户确认内容后，再决定是否转为在线问卷。\n\n'
+      + '## 场景二：自己在问卷星创建\n\n- 人工创建：参照 `02_问卷星创建/questionnaire-import.txt` 录入。\n- 交给智能体或官方工具：使用 `02_问卷星创建/questionnaire.jsonl`。先执行预检：\n\n```bash\nwjx survey create --file "02_问卷星创建/questionnaire.jsonl" --optional_titles ' + "'" + optionalJson + "'" + ' --dry-run\n```\n\n预检后人工核对标题、题目数量、矩阵行、量表和选填题，再确认实际创建或发布。\n\n'
+      + '## 场景三：回收答卷并生成矩阵\n\n1. 在问卷星下载原始答卷 `.xlsx` 或 CSV。\n2. 不修改题目中的 `【I01】`、`【F01】` 等代码及问卷版本标记。\n3. 回到双重重要性页面，在第一步点击“导入答卷 Excel”。\n4. 页面汇总建议分后，再进入第二步复核分数、阈值和矩阵。\n\n'
+      + '## 目录说明\n\n- `01_客户沟通/`：可阅读、可编辑的 Word 问卷方案。\n- `02_问卷星创建/`：人工录入文本和自动创建 JSONL。\n- `03_结果回导/`：题目映射、评分口径、评估清单和导入字段模板。\n\n'
+      + '题序可以调整，但识别代码和版本标记用于防止答卷错配，请保留。\n';
+    const quickStart = '双重重要性问卷包｜快速开始\r\n\r\n'
+      + '发给客户：打开 01_客户沟通/双重重要性问卷方案.docx\r\n'
+      + '自己建问卷星：打开 02_问卷星创建/questionnaire-import.txt\r\n'
+      + '交给智能体创建：使用 02_问卷星创建/questionnaire.jsonl\r\n'
+      + '答卷回导：下载问卷星原始 Excel 或 CSV，在网页第一步导入\r\n\r\n'
+      + '完整说明见 README.md。\r\n';
     return {
-      'questionnaire.jsonl': jsonl,
-      'questionnaire-import.txt': '\ufeff' + textLines.join('\r\n') + '\r\n',
-      'topic-question-map.csv': '\ufeff' + mapRows.map(row => row.map(csvCell).join(',')).join('\r\n'),
-      'scoring-config.json': JSON.stringify(scoring, null, 2) + '\n',
-      'assessment-manifest.json': JSON.stringify(manifest, null, 2) + '\n',
-      'response-import-template.csv': '\ufeff' + importHeaders.map(csvCell).join(',') + '\r\n',
-      'README.md': readme
+      'README.md': readme,
+      '快速开始.txt': '\ufeff' + quickStart,
+      '02_问卷星创建/questionnaire.jsonl': jsonl,
+      '02_问卷星创建/questionnaire-import.txt': '\ufeff' + textLines.join('\r\n') + '\r\n',
+      '03_结果回导/topic-question-map.csv': '\ufeff' + mapRows.map(row => row.map(csvCell).join(',')).join('\r\n'),
+      '03_结果回导/scoring-config.json': JSON.stringify(scoring, null, 2) + '\n',
+      '03_结果回导/assessment-manifest.json': JSON.stringify(manifest, null, 2) + '\n',
+      '03_结果回导/response-import-template.csv': '\ufeff' + importHeaders.map(csvCell).join(',') + '\r\n'
     };
   }
 
   async function exportQuestionnairePackage() {
     if (!window.JSZip) throw new Error('问卷打包组件未加载，请刷新页面后重试');
     const files = questionnairePackageFiles();
+    const manifest = JSON.parse(files['03_结果回导/assessment-manifest.json']);
+    const word = await buildQuestionnaireDocx(manifest);
     const zip = new window.JSZip();
     Object.entries(files).forEach(([name, content]) => zip.file(name, content));
+    zip.file('01_客户沟通/双重重要性问卷方案.docx', word);
     const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } });
     downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性问卷包_V' + state.questionnaireVersion + '.zip');
     render();
