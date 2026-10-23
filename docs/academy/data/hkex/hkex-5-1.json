@@ -2,7 +2,7 @@
  "id": "hkex-5-1",
  "title": "A1 排放物：空气污染物与废弃物",
  "eyebrow": "模块3 · 环境KPI披露细节",
- "summary": "涵盖排放物种类、有害/无害废弃物、减排目标等5项关键绩效指标的完整披露要求、计算方法与实务指引",
+ "summary": "5项关键绩效指标：排放数据、有害与无害废弃物、排放目标及减废管理。",
  "tags": [
   "环境KPI",
   "排放物",
@@ -13,30 +13,23 @@
  "officialUrl": "https://www.hkex.com.hk/Listing/Sustainability/ESG-Academy/Rules-and-Regulations?sc_lang=zh-HK",
  "sections": [
   {
-   "title": "知识点总览",
-   "blocks": [
-    {
-     "type": "standard",
-     "content_cn": "本知识点整合港交所ESG守则C部分对应层面的全部5项关键绩效指标，每项指标均包含守则原文披露要求、附录释义、计算公式、数据收集方法及实务注意事项，帮助完整掌握披露标准。",
-     "provenance": "knowledge_note"
-    }
-   ],
-   "id": "知识点总览"
-  },
-  {
    "title": "A1.1 排放物种类及相关排放数据",
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "关键绩效指标A1.1要求披露「排放物种类及相关排放数据」。层面A1的注明确：废气排放包括氮氧化物（NOx）、硫氧化物（SOx）及其他受国家法律及规例规管的污染物。发行人须先找出会排放空气污染物的营运活动，再按污染物种类呈列相应排放数据。",
+     "content_cn": "披露排放物种类及相关排放数据。废气排放包括氮氧化物（NOx）、硫氧化物（SOx）及其他受国家法律及规例规管的污染物；发行人须识别排放空气污染物的营运活动，并按污染物种类呈列数据。",
      "source": "《环境、社会及管治报告守则》（附录C2）C部分·层面A1·关键绩效指标A1.1",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "requirement",
+     "heading": "披露要求"
     },
     {
      "type": "standard",
      "content_cn": "附录二把本指标的报告事项分为两类：一是气体燃料消耗的排放数据；二是汽车的排放数据。就气体燃料而言，1个气体燃料单位相当于48兆焦耳（以煤气而言）或46兆焦耳（以石油气而言）；就汽车而言，数据来自汽车行驶公里数及消耗燃料单位（公升）。",
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.1「报告事项」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "scope",
+     "heading": "报告口径"
     },
     {
      "type": "table",
@@ -73,7 +66,9 @@
       ]
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.1「(1) 数据收集」「(2) 计算」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "calculation",
+     "heading": "计算与取数"
     },
     {
      "type": "card_grid",
@@ -90,7 +85,9 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.1「有关排放系数的附注」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "parameters",
+     "heading": "排放系数"
     },
     {
      "type": "card_grid",
@@ -103,7 +100,8 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.1「有关排放系数的附注」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "note"
     }
    ],
    "id": "A1-1-排放物种类及相关排放数据"
@@ -113,15 +111,19 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "关键绩效指标A1.3要求披露「所产生有害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）」。注：有害废弃物指受国家法例规管的废弃物。发行人须识别有哪些业务活动会产生有害废弃物。",
+     "content_cn": "披露所产生有害废弃物总量（吨）及适用的密度指标。有害废弃物指受国家法例规管的废弃物；发行人须识别产生有害废弃物的业务活动。",
      "source": "《环境、社会及管治报告守则》（附录C2）C部分·层面A1·关键绩效指标A1.3",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "requirement",
+     "heading": "披露要求"
     },
     {
      "type": "standard",
      "content_cn": "附录二要求披露每年所产生有害废弃物总量及密度，并宜按处理方式（循环再用、回收、其他再生（包括能源再生）、焚化（没有能源再生）、堆填或发行人列明的其他方式）及行业相关的废弃物分类方式（例如建筑废料、电子废物、一般办公室废物）汇报。",
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.3「报告事项」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "scope",
+     "heading": "报告口径"
     },
     {
      "type": "card_grid",
@@ -139,7 +141,9 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.3「(2) 计算」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "formula",
+     "heading": "计算口径"
     },
     {
      "type": "process_flow",
@@ -159,7 +163,9 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.3「(1) 数据收集」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "workflow",
+     "heading": "取数路径"
     }
    ],
    "id": "A1-3-有害废弃物总量"
@@ -169,15 +175,19 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "关键绩效指标A1.4要求披露「所产生无害废弃物总量（以吨计算）及（如适用）密度（如以每产量单位、每项设施计算）」。无害废弃物指对发行人不再有用且遭弃置或释放至环境中者，不包括有害废弃物。发行人须识别有哪些业务活动会产生无害废弃物，其中可能包括建筑／拆迁废弃物、商业废弃物、住宅／家居废弃物、隔油废弃物及园林废弃物。",
+     "content_cn": "披露所产生无害废弃物总量（吨）及适用的密度指标。无害废弃物指对发行人不再有用且遭弃置或释放至环境中、但不属于有害废弃物的物料。",
      "source": "《环境、社会及管治报告守则》（附录C2）C部分·层面A1·关键绩效指标A1.4",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "requirement",
+     "heading": "披露要求"
     },
     {
      "type": "standard",
      "content_cn": "附录二要求披露每年所产生无害废弃物总量（公吨）及密度，并宜按处理方式（循环再用、回收、其他再生（包括能源再生）、焚化（没有能源再生）、堆填或其他）及行业相关的废弃物分类方式（例如建筑废料、厨余、电子废物、一般办公室废物）汇报。若有废弃物种类的数据不齐，须说明未有披露的废弃物种类，并解释何以未有披露。",
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.4「报告事项」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "scope",
+     "heading": "报告口径"
     },
     {
      "type": "card_grid",
@@ -196,7 +206,9 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.4「如何报告」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "formula",
+     "heading": "计算与估算"
     }
    ],
    "id": "A1-4-无害废弃物总量"
@@ -206,9 +218,11 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "关键绩效指标A1.5要求「描述所订立的排放量目标及为达到这些目标所采取的步骤」。就本指标而言，发行人应披露其减少排放的目标以及减少排放所采取的措施，包括为减少按A1.1及A1.2汇报的排放量而设定的目标、减少该等排放采取的措施，以及所采取的行动。",
+     "content_cn": "披露排放量目标及为达到目标采取的步骤。目标应覆盖相关空气污染物及温室气体排放，并与具体行动对应。",
      "source": "《环境、社会及管治报告守则》（附录C2）C部分·层面A1·关键绩效指标A1.5；《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.5",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "requirement",
+     "heading": "披露要求"
     },
     {
      "type": "card_grid",
@@ -227,23 +241,41 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.5「(2) 计算」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "checklist",
+     "heading": "目标披露要素"
+    },
+    {
+     "type": "process_flow",
+     "layout": "v",
+     "steps": [
+      {
+       "title": "设定排放目标",
+       "desc": "明确目标针对的空气污染物或温室气体、基线、范围、预期结果和完成时间。"
+      },
+      {
+       "title": "说明对应行动",
+       "desc": "逐项说明为达成目标已经采取或计划采取的减排措施。"
+      }
+     ],
+     "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.5「(1) 数据收集」「有用参考资料」",
+     "provenance": "knowledge_note",
+     "presentation": "workflow",
+     "heading": "目标与行动对应"
     },
     {
      "type": "card_grid",
-     "cols": 2,
+     "cols": 1,
+     "numbered": false,
      "cards": [
-      {
-       "title": "目标与措施的对应",
-       "content": "目标与为达致目标所采取的行动须成对披露：既要说清排放目标（针对空气污染物NOx、SOx及颗粒物（PM）以及温室气体排放），也要说明为达致目标已采取的具体行动。"
-      },
       {
        "title": "可参考的方法框架",
        "content": "附录二列举了科学基础减量目标倡议（Science Based Targets Initiative）的目标指南，以及全球报告倡议组织与联合国全球盟约《An Analysis of the Goals and Targets》（涉及可持续发展目标3.9及可持续发展目标13：气候行动）作为参考。"
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.5「(1) 数据收集」「有用参考资料」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "note"
     }
    ],
    "id": "A1-5-排放量目标及步骤"
@@ -253,15 +285,57 @@
    "blocks": [
     {
      "type": "standard",
-     "content_cn": "关键绩效指标A1.6要求「描述处理有害及无害废弃物的方法，及描述所订立的减废目标及为达到这些目标所采取的步骤」。本指标关注发行人对废弃物的管理方针，须说明如何处理有害及无害废弃物。",
+     "content_cn": "披露有害及无害废弃物的处理方法，并说明减废目标及达成目标所采取的步骤。",
      "source": "《环境、社会及管治报告守则》（附录C2）C部分·层面A1·关键绩效指标A1.6；《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.6",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "requirement",
+     "heading": "披露要求"
     },
     {
-     "type": "standard",
-     "content_cn": "废弃物管理方式的优次由最环保排列至最不环保：最环保的是源头减废，然后是重用、回收以及能源或其他再生；不进行能源再生而直接堆填及焚化最不环保。汇报目标时应披露（如适用）：基线及背景、所包括实体的范围及位置、预期结果及达成时间表、属自愿还是强制（如属强制，列明相关法例）。",
+     "type": "process_flow",
+     "layout": "v",
+     "steps": [
+      {
+       "title": "源头减废",
+       "desc": "优先减少废弃物数量、危害及产品中的有害物质。"
+      },
+      {
+       "title": "重用与回收",
+       "desc": "延长产品寿命，使材料重新进入使用或回收环节。"
+      },
+      {
+       "title": "能源或其他再生",
+       "desc": "无法直接重用或回收时，再考虑能源回收或其他再生方式。"
+      },
+      {
+       "title": "堆填或无能源焚化",
+       "desc": "环境优先级最低，应作为末端处置方式。"
+      }
+     ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.6「报告事项」「(2) 计算」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "hierarchy",
+     "heading": "废弃物管理优次"
+    },
+    {
+     "type": "card_grid",
+     "cols": 1,
+     "numbered": false,
+     "cards": [
+      {
+       "title": "减废目标应说明",
+       "items": [
+        "基线及背景",
+        "涵盖实体的范围及位置",
+        "预期结果与达成时间表",
+        "属自愿还是强制；如属强制，列明相关法例"
+       ]
+      }
+     ],
+     "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.6「报告事项」「(2) 计算」",
+     "provenance": "knowledge_note",
+     "presentation": "checklist",
+     "heading": "目标披露要素"
     },
     {
      "type": "card_grid",
@@ -278,7 +352,9 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.6「报告事项」「(1) 定义」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "actions",
+     "heading": "两种常见做法"
     },
     {
      "type": "card_grid",
@@ -291,12 +367,14 @@
       }
      ],
      "source": "《环境、社会及管治汇报指南》附录二：环境关键绩效指标汇报指引·A1.6「报告事项」「(1) 定义」",
-     "provenance": "knowledge_note"
+     "provenance": "knowledge_note",
+     "presentation": "note"
     }
    ],
    "id": "A1-6-废弃物处理方法及减废目标"
   }
  ],
  "group": "模块3 · 环境KPI披露细节",
- "titleEn": ""
+ "titleEn": "",
+ "visualMode": "kpi-workbook"
 }

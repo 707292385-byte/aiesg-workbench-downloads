@@ -188,3 +188,48 @@ details[open]>summary .st-caret{transform:rotate(-135deg) translateY(-2px);}
 .kd-content-card.kd-source-curated>header,.kd-content-card.kd-source-mixed>header{background:#f5f7f6}
 .kd-content-card.kd-source-curated .kd-provenance,.kd-content-card.kd-source-mixed .kd-provenance{color:#53665c}
 .kd-content-card .kd-provenance{font-size:9px;font-weight:850;letter-spacing:.08em}
+
+/* KPI 工作页：用披露要求、计算取数、流程与管理提示建立固定层级 */
+.kd-page[data-layout=kpi-workbook] .kd-main{background:#fbfcfc;padding:28px 34px 56px}
+.kd-page[data-layout=kpi-workbook] .kd-head{padding:24px 0 18px;border-bottom:0}
+.kd-page[data-layout=kpi-workbook] .kd-head h1{margin-top:0}
+.kd-page[data-layout=kpi-workbook] .kd-head p{max-width:700px;font-size:14px;line-height:1.65;color:#64776e}
+.kd-kpi-overview{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:2px 0 28px;padding:0}
+.kd-kpi-overview a{min-width:0;padding:13px 12px 12px;border:1px solid #d5e4e9;border-radius:13px;background:#fff;color:#29443a;text-decoration:none;transition:border-color .16s,transform .16s,box-shadow .16s}
+.kd-kpi-overview a:hover{border-color:var(--kd);transform:translateY(-2px);box-shadow:0 8px 20px rgba(25,78,98,.09)}
+.kd-kpi-overview b{display:block;margin-bottom:6px;color:var(--kd);font-size:15px;letter-spacing:-.01em}
+.kd-kpi-overview span{display:block;color:#536b60;font-size:11px;line-height:1.45}
+.kd-page[data-layout=kpi-workbook] .kd-sec#practical{padding:0;border-bottom:0}
+.kd-page[data-layout=kpi-workbook] .kd-sec#practical>header{display:none}
+.kd-page[data-layout=kpi-workbook] .kd-layer-list{gap:22px}
+.kd-page[data-layout=kpi-workbook] .kd-content-card{border:1px solid #d9e5e8;border-left:0;border-radius:17px;background:#fff;box-shadow:0 8px 26px rgba(39,73,61,.055)}
+.kd-page[data-layout=kpi-workbook] .kd-content-card>header{padding:17px 20px 14px;border-bottom:1px solid #e1e9e7;background:#fff}
+.kd-page[data-layout=kpi-workbook] .kd-content-card h3{margin:0;color:#183f4e;font-size:19px;letter-spacing:-.015em}
+.kd-page[data-layout=kpi-workbook] .kd-card-body{display:grid;gap:13px;padding:18px 20px 21px}
+.kd-visual-block{min-width:0}
+.kd-visual-block>h4{margin:0 0 8px;color:#35584a;font-size:13px;line-height:1.4}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block>.knowledge-block{margin:0;padding:0;border:0;background:transparent}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block p{font-size:13px;line-height:1.72;color:#425e51}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-requirement{padding:14px 16px;border-left:4px solid var(--kd);border-radius:11px;background:linear-gradient(120deg,#eef7fa,#f8fbfc)}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-requirement>h4{color:var(--kd)}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-scope{padding:12px 15px;border:1px solid #e2e9e6;border-radius:11px;background:#fafcfb}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-calculation,.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-formula{padding-top:2px}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-calculation .knowledge-block{border:1px solid #d7e5e7;border-radius:11px;overflow:hidden}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-parameters .kd-card-grid article,.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-actions .kd-card-grid article{padding:13px 14px;background:#f8fbfc;border-color:#d9e6e9}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-formula .kd-card-grid article,.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-checklist .kd-card-grid article{padding:14px 16px;border-color:#bcd8e1;background:#f0f8fa}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-note{padding:11px 14px;border-top:1px solid #e1e8e5;background:#fbfcfc}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-note .kd-card-grid article{padding:0;border:0;background:transparent}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-note .kd-card-grid b{color:#5d7168;font-size:12px}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-note .kd-card-grid p{font-size:11.5px;line-height:1.65;color:#71837a}
+.kd-page[data-layout=kpi-workbook] .kd-flow-v{gap:6px}
+.kd-page[data-layout=kpi-workbook] .kd-flow-v article{grid-template-columns:28px minmax(0,170px) minmax(0,1fr);padding:10px 12px;border-color:#d9e6e9;background:#fff}
+.kd-page[data-layout=kpi-workbook] .kd-visual-block.is-hierarchy .kd-flow-v article{background:linear-gradient(90deg,#f0f8fa,#fff 48%)}
+.kd-page[data-layout=kpi-workbook] .kd-refs{display:none}
+@media(max-width:640px){
+ .kd-page[data-layout=kpi-workbook] .kd-main{padding:20px 14px 42px}
+ .kd-kpi-overview{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}
+ .kd-kpi-overview a{scroll-snap-align:start}
+ .kd-page[data-layout=kpi-workbook] .kd-content-card>header,.kd-page[data-layout=kpi-workbook] .kd-card-body{padding-left:14px;padding-right:14px}
+ .kd-page[data-layout=kpi-workbook] .kd-flow-v article{grid-template-columns:27px 1fr;gap:7px 9px}
+ .kd-page[data-layout=kpi-workbook] .kd-flow-v article p{grid-column:2}
+}
