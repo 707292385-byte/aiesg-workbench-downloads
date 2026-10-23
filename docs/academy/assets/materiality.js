@@ -513,7 +513,7 @@
   }
 
   function wordParagraph(text, style, options = {}) {
-    const properties = [style ? '<w:pStyle w:val="' + style + '"/>' : '', options.keepNext ? '<w:keepNext/>' : '', options.align ? '<w:jc w:val="' + options.align + '"/>' : '', options.after != null ? '<w:spacing w:after="' + options.after + '"/>' : ''].join('');
+    const properties = [style ? '<w:pStyle w:val="' + style + '"/>' : '', options.keepNext ? '<w:keepNext/>' : '', options.pageBreakBefore ? '<w:pageBreakBefore/>' : '', options.align ? '<w:jc w:val="' + options.align + '"/>' : '', options.after != null ? '<w:spacing w:after="' + options.after + '"/>' : ''].join('');
     return '<w:p>' + (properties ? '<w:pPr>' + properties + '</w:pPr>' : '') + wordRun(text, options) + '</w:p>';
   }
 
@@ -536,55 +536,70 @@
 
   function questionnaireDocumentXml(manifest) {
     const standards = manifest.standards.map(item => item.name).join('、') || '未指定';
-    const createdDate = String(manifest.createdAt || '').slice(0, 10);
+    const company = manifest.companyName || '';
+    const documentTitle = (company ? company : '') + '可持续发展报告重要性议题调研方案与问卷';
     const infoRows = [
-      wordRow([wordCell('企业名称', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(manifest.companyName || '待填写', 3000), wordCell('所属行业', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(manifest.industry || '待填写', 3000)]),
-      wordRow([wordCell('披露标准', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(standards, 7500, { gridSpan: 3 })]),
-      wordRow([wordCell('评估对象', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000), wordCell('回收截止日', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____年__月__日', 3000)]),
+      wordRow([wordCell('企业名称', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(company || '待填写', 3000), wordCell('所属行业', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(manifest.industry || '待填写', 3000)]),
+      wordRow([wordCell('参考标准', 1500, { bold: true, fill: 'E7F1EB' }), wordCell(standards, 7500, { gridSpan: 3 })]),
+      wordRow([wordCell('调研方式', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('建议采用在线问卷，必要时辅以访谈', 3000), wordCell('计划时间', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____年__月__日至____年__月__日', 3000)]),
       wordRow([wordCell('联系人', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000), wordCell('联系方式', 1500, { bold: true, fill: 'E7F1EB' }), wordCell('____________________', 3000)])
     ];
-    const respondentRows = [
-      wordRow([wordCell('利益相关方类型', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('□董事会或管理层  □业务或职能部门  □员工  □客户或消费者\n□供应商或合作伙伴  □投资者或金融机构  □社区或其他受影响群体  □其他', 7200)]),
+    const audienceRows = [
+      wordRow([wordCell('内部参与者', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('董事会或管理层、业务与职能部门、员工代表', 7200)]),
+      wordRow([wordCell('外部参与者', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('股东与投资者、客户或消费者、供应商与合作伙伴、债权人与金融机构、社区及其他受影响群体', 7200)]),
+      wordRow([wordCell('样本安排', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('根据企业规模、业务分布与利益相关方结构确定；建议兼顾不同职能、地区和业务关系', 7200)])
+    ];
+    const respondentRows = (financialOnly) => [
+      wordRow([wordCell('您的类型', 1800, { bold: true, fill: 'E7F1EB' }), wordCell(financialOnly
+        ? '□董事会或管理层  □战略、财务、风控或业务部门  □股东或投资者  □债权人或金融机构  □其他'
+        : '□董事会或管理层  □业务或职能部门  □员工  □客户或消费者\n□供应商或合作伙伴  □股东、投资者或金融机构  □社区或其他受影响群体  □其他', 7200)]),
       wordRow([wordCell('熟悉程度', 1800, { bold: true, fill: 'E7F1EB' }), wordCell('□非常熟悉  □比较熟悉  □一般  □不太熟悉  □不了解', 7200)])
     ];
-    const assessmentTable = (dimension, codeKey, definition) => {
-      const widths = [650, 1950, 4150, 2250];
+    const assessmentTable = () => {
+      const widths = [650, 1950, 4100, 2300];
       const rows = [wordRow([
-        wordCell('代码', widths[0], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
+        wordCell('序号', widths[0], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
         wordCell('议题', widths[1], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
-        wordCell('议题范围', widths[2], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
+        wordCell('议题说明', widths[2], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' }),
         wordCell('请选择一个评分', widths[3], { bold: true, fill: '176B4A', color: 'FFFFFF', align: 'center' })
       ], { header: true })];
-      manifest.topics.forEach(topic => rows.push(wordRow([
-        wordCell(topic[codeKey], widths[0], { bold: true, align: 'center' }),
+      manifest.topics.forEach((topic, index) => rows.push(wordRow([
+        wordCell(String(index + 1), widths[0], { bold: true, align: 'center' }),
         wordCell(topic.name, widths[1], { bold: true }),
         wordCell(topic.description || '请结合企业实际进一步明确议题范围。', widths[2]),
-        wordCell('□ NA 无法判断\n□ 1  □ 2  □ 3\n□ 4  □ 5', widths[3])
+        wordCell('□ 1  □ 2  □ 3\n□ 4  □ 5  □ 无法判断', widths[3])
       ])));
-      return wordParagraph(dimension, 'Heading1', { keepNext: true })
-        + wordParagraph(definition, 'BodyText')
-        + wordParagraph('评分：1 很低｜2 较低｜3 一般｜4 较高｜5 很高｜NA 无法判断', 'Instruction', { keepNext: true })
+      return wordParagraph('评分：1 很低｜2 较低｜3 一般｜4 较高｜5 很高｜无法判断', 'Instruction', { keepNext: true })
         + wordTable(rows, widths);
     };
     const body = [
-      wordParagraph('双重重要性议题评估问卷方案', 'Title', { align: 'center' }),
-      wordParagraph((manifest.companyName || '本企业') + '｜问卷版本 V' + manifest.questionnaireVersion, 'Subtitle', { align: 'center' }),
-      wordParagraph('本问卷用于收集利益相关方对可持续发展议题的判断，为双重重要性分析提供证据。问卷结果是建议分，最终结论仍需由企业结合事实、专家意见和管理层审议确认。不了解或不具备判断条件时，请选择“NA 无法判断”。', 'Intro'),
-      wordParagraph('一、问卷实施信息', 'Heading1', { keepNext: true }),
+      wordParagraph(documentTitle, 'Title', { align: 'center' }),
+      wordParagraph('用于双重重要性议题识别与判断', 'Subtitle', { align: 'center' }),
+      wordParagraph('本方案用于组织企业内外部利益相关方调研，分别收集对企业外部影响和对企业财务影响的判断。问卷结果作为重要性分析的证据来源，最终结论由企业结合事实依据、专家意见和管理层审议确认。', 'Intro'),
+      wordParagraph('一、调研实施建议', 'Heading1', { keepNext: true }),
       wordTable(infoRows, [1500, 3000, 1500, 3000]),
-      wordParagraph('二、受访者信息', 'Heading1', { keepNext: true }),
-      wordTable(respondentRows, [1800, 7200]),
-      assessmentTable('三、影响重要性评价', 'impactCode', '请判断企业在该议题上对经济、环境和人产生或可能产生的正面、负面影响程度。评价时可结合影响的规模、范围、不可补救性及发生可能性。'),
-      wordParagraph('', 'BodyText'),
-      assessmentTable('四、财务重要性评价', 'financialCode', '请判断该议题形成的风险或机遇，在短期、中期或长期内对企业发展、财务状况、经营成果、融资成本或现金流产生影响的程度。'),
-      wordParagraph('五、补充意见', 'Heading1', { keepNext: true }),
-      wordParagraph('1. 请补充您作出判断的依据、案例或建议：', 'Heading2'),
+      wordParagraph('建议覆盖的参与者', 'Heading2', { keepNext: true }),
+      wordTable(audienceRows, [1800, 7200]),
+      wordParagraph('建议先确认议题清单与问卷对象，再发布问卷。回收后检查样本构成、缺失值与异常评分，并将调研结果与业务事实及管理层判断交叉验证。', 'BodyText'),
+      wordParagraph('二、影响重要性调研问卷', 'Heading1', { keepNext: true, pageBreakBefore: true }),
+      wordParagraph('您好！诚邀您结合对企业及其业务关系的了解，判断企业的活动、产品、服务和业务关系在各议题上对经济、环境和人产生或可能产生的重大正面或负面影响。评价时可结合影响的规模、范围、不可补救性及发生可能性。', 'BodyText'),
+      wordParagraph('填写说明', 'Heading2', { keepNext: true }),
+      wordParagraph('本问卷预计用时2—3分钟。问卷可匿名填写，无需提供敏感个人信息；答案无对错，调研结果将按汇总方式使用。本问卷评价的是影响的重要程度，不是对企业表现打分。请避免对所有议题统一给出高分或低分；不具备判断条件时，请选择“无法判断”。', 'BodyText'),
+      wordTable(respondentRows(false), [1800, 7200]),
+      assessmentTable(),
+      wordParagraph('补充意见：请说明判断依据、案例或建议，以及您认为遗漏的重要议题。', 'Heading2'),
       wordParagraph('________________________________________________________________________________', 'BodyText'),
       wordParagraph('________________________________________________________________________________', 'BodyText'),
-      wordParagraph('2. 您认为还遗漏了哪些重要议题：', 'Heading2'),
+      wordParagraph('三、财务重要性调研问卷', 'Heading1', { keepNext: true, pageBreakBefore: true }),
+      wordParagraph('您好！诚邀您判断各可持续发展议题形成的风险或机遇，在短期、中期或长期内对企业业务模式、运营、战略、财务状况、经营成果、现金流、融资及资金成本产生影响的程度。', 'BodyText'),
+      wordParagraph('填写说明', 'Heading2', { keepNext: true }),
+      wordParagraph('本问卷预计用时2—3分钟，建议由熟悉企业战略、财务、运营或风险管理的人员填写。问卷可匿名填写，结果按汇总方式使用。请结合议题对企业造成资源获取变化、成本上升、收入机会、资产价值变化或融资条件变化的可能性综合判断。', 'BodyText'),
+      wordTable(respondentRows(true), [1800, 7200]),
+      assessmentTable(),
+      wordParagraph('补充意见：请说明判断依据、可能受影响的业务环节或财务项目，以及您认为遗漏的重要议题。', 'Heading2'),
       wordParagraph('________________________________________________________________________________', 'BodyText'),
       wordParagraph('________________________________________________________________________________', 'BodyText'),
-      wordParagraph('识别信息：' + manifest.questionnaireMarker + '｜评估编号：' + manifest.assessmentId + '｜生成日期：' + createdDate, 'Meta')
+      wordParagraph('感谢您的参与。', 'Instruction', { align: 'center' })
     ].join('');
     return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>' + body + '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567"/><w:cols w:space="425"/><w:docGrid w:linePitch="312"/></w:sectPr></w:body></w:document>';
   }
@@ -597,7 +612,7 @@
     docx.file('word/document.xml', questionnaireDocumentXml(manifest));
     docx.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>');
     docx.file('word/styles.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Aptos" w:hAnsi="Aptos" w:eastAsia="Hiragino Sans GB"/><w:sz w:val="21"/><w:szCs w:val="21"/><w:color w:val="24342C"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="100" w:line="300" w:lineRule="auto"/></w:pPr></w:pPrDefault></w:docDefaults><w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/></w:style><w:style w:type="paragraph" w:styleId="Title"><w:name w:val="Title"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="0" w:after="160"/><w:jc w:val="center"/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Subtitle"><w:name w:val="Subtitle"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="280"/><w:jc w:val="center"/></w:pPr><w:rPr><w:color w:val="557367"/><w:sz w:val="22"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Heading1"><w:name w:val="heading 1"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="260" w:after="100"/><w:keepNext/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="27"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Heading2"><w:name w:val="heading 2"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="160" w:after="70"/></w:pPr><w:rPr><w:b/><w:color w:val="111111"/><w:sz w:val="22"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Intro"><w:name w:val="Intro"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="180" w:line="330" w:lineRule="auto"/></w:pPr><w:rPr><w:color w:val="40534A"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="BodyText"><w:name w:val="Body Text"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="110"/></w:pPr></w:style><w:style w:type="paragraph" w:styleId="Instruction"><w:name w:val="Instruction"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="100"/><w:keepNext/></w:pPr><w:rPr><w:b/><w:color w:val="176B4A"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="TableText"><w:name w:val="Table Text"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:after="0" w:line="260" w:lineRule="auto"/></w:pPr><w:rPr><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr></w:style><w:style w:type="paragraph" w:styleId="Meta"><w:name w:val="Meta"/><w:basedOn w:val="Normal"/><w:pPr><w:spacing w:before="220" w:after="0"/></w:pPr><w:rPr><w:color w:val="6F7F77"/><w:sz w:val="17"/></w:rPr></w:style></w:styles>');
-    docx.file('docProps/core.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title>' + wordXml((manifest.companyName || '本企业') + '双重重要性议题评估问卷方案') + '</dc:title><dc:creator>AI×ESG 工作台</dc:creator><cp:lastModifiedBy>AI×ESG 工作台</cp:lastModifiedBy><dcterms:created xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:modified></cp:coreProperties>');
+    docx.file('docProps/core.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title>' + wordXml((manifest.companyName || '') + '可持续发展报告重要性议题调研方案与问卷') + '</dc:title><dc:creator>AI×ESG 工作台</dc:creator><cp:lastModifiedBy>AI×ESG 工作台</cp:lastModifiedBy><dcterms:created xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">' + wordXml(manifest.createdAt) + '</dcterms:modified></cp:coreProperties>');
     docx.file('docProps/app.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>AI×ESG 工作台</Application><DocSecurity>0</DocSecurity><ScaleCrop>false</ScaleCrop><Company>' + wordXml(manifest.companyName || '') + '</Company><LinksUpToDate>false</LinksUpToDate><SharedDoc>false</SharedDoc><HyperlinksChanged>false</HyperlinksChanged><AppVersion>1.0</AppVersion></Properties>');
     return docx.generateAsync({ type: 'uint8array', compression: 'DEFLATE', compressionOptions: { level: 6 } });
   }
@@ -693,9 +708,9 @@
     const files = questionnairePackageFiles();
     const manifest = JSON.parse(files['03_结果回导/assessment-manifest.json']);
     const word = await buildQuestionnaireDocx(manifest);
-    downloadBlob(new Blob([word], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }), safeFilename(state.companyName) + '_双重重要性问卷方案_V' + state.questionnaireVersion + '.docx');
+    downloadBlob(new Blob([word], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }), safeFilename(state.companyName) + '_可持续发展重要性议题调研方案与问卷.docx');
     render();
-    showToast('客户版 Word V' + state.questionnaireVersion + ' 已导出');
+    showToast('客户版 Word 已导出');
   }
 
   function parseCsvText(text) {
