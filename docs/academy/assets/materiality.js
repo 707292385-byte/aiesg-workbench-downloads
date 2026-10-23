@@ -40,7 +40,8 @@
       scores: {},
       scoreOrigins: {},
       scoringStarted: false,
-      scoreStateVersion: 2,
+      scoreStateVersion: 3,
+      activeScoreTopicId: '',
       notes: {},
       threshold: 3,
       categoryFilter: 'all',
@@ -58,14 +59,13 @@
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
       const loaded = parsed && typeof parsed === 'object' ? Object.assign(emptyState(), parsed) : emptyState();
-      if (Number(parsed?.scoreStateVersion) !== 2) {
-        loaded.scoreStateVersion = 2;
-        loaded.scoreOrigins = {};
-        if (loaded.surveyImport) {
-          loaded.scoringStarted = true;
-        } else {
+      if (Number(parsed?.scoreStateVersion) !== 3) {
+        loaded.scoreStateVersion = 3;
+        const scoreEntries = Object.entries(loaded.scores || {});
+        const untouchedPlaceholders = scoreEntries.length && scoreEntries.every(([id, scores]) => loaded.scoreOrigins?.[id] === 'internal' && Number(scores?.impact) === 3 && Number(scores?.financial) === 3 && !loaded.notes?.[id]);
+        if (!loaded.surveyImport && untouchedPlaceholders) {
           loaded.scores = {};
-          loaded.scoringStarted = false;
+          loaded.scoreOrigins = {};
         }
       }
       if (Number(parsed?.flowStateVersion) !== 4) {
@@ -144,6 +144,11 @@
 
   function scoredTopics() {
     return selectedTopics().filter(completeScores);
+  }
+
+  function allScoresComplete() {
+    const topics = selectedTopics();
+    return Boolean(topics.length && topics.every(completeScores));
   }
 
   function canOpenScores() {
@@ -278,14 +283,15 @@
         : exportedBefore
           ? '<div class="dm-questionnaire-state is-warning"><b>议题清单已变化</b><span>旧问卷与当前议题不再一致，请重新导出新版本后再导入答卷。</span></div>'
           : '<div class="dm-questionnaire-state"><b>尚未生成问卷</b><span>确认议题名称与范围后再导出，问卷发布后的议题变动会生成新版本。</span></div>';
-    const nextLabel = imported ? '查看问卷结果与矩阵' : state.scoringStarted ? '继续内部评分与矩阵' : '暂不使用问卷，开始内部评分';
+    const nextLabel = imported ? '进入评分复核' : state.scoringStarted ? '继续内部评分' : '暂不使用问卷，开始内部评分';
     return '<section class="dm-questionnaire-workflow dm-panel"><div class="dm-panel-head"><div><small>问卷收集</small><h2>确定议题后，再收集评分证据</h2></div><p>问卷是形成建议分的一种证据来源。如果本次不开展问卷，也可以明确进入内部评分；系统不会在选择议题时自动生成分数。</p></div>'
       + '<div class="dm-questionnaire-steps"><div class="dm-questionnaire-step' + stepClass(1) + '"><b>1</b><span><strong>确认议题</strong><small>' + state.selected.length + ' 个议题已选</small></span></div><div class="dm-questionnaire-step' + stepClass(2) + '"><b>2</b><span><strong>导出问卷包</strong><small>生成问卷与映射文件</small></span></div><div class="dm-questionnaire-step' + stepClass(3) + '"><b>3</b><span><strong>问卷星发布与回收</strong><small>在问卷星完成外部收集</small></span></div><div class="dm-questionnaire-step' + stepClass(4) + '"><b>4</b><span><strong>导入原始答卷</strong><small>Excel／CSV 生成建议分</small></span></div></div>'
+      + '<div class="dm-questionnaire-download"><div><small>完整问卷资料</small><strong>下载问卷包</strong><p>一个 ZIP 包含客户版 Word、问卷星创建文件和答卷回导模板。</p></div><button type="button" class="dm-primary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新下载问卷包' : '下载问卷包') + ' <span>↓</span></button></div>'
       + '<div class="dm-package-guide"><div class="dm-package-guide-title"><span>问卷包怎么用</span><small>按你的使用场景，只打开对应目录即可</small></div>'
-      + '<div><b>发给客户确认</b><p>直接下载 Word，补充对象、时间和联系人后发送，也可另存为 PDF 或打印填写。</p><button type="button" data-action="export-questionnaire-word"' + (state.selected.length ? '' : ' disabled') + '>只下载客户版 Word</button></div>'
+      + '<div><b>发给客户确认</b><p>打开包内 <strong>01_客户沟通</strong> 的 Word，补充对象、时间和联系人后发送，也可另存为 PDF 或打印填写。</p></div>'
       + '<div><b>自己创建问卷星</b><p>打开 <strong>02_问卷星创建</strong>。人工录入看 TXT；交给智能体或官方工具使用 JSONL。</p></div>'
       + '<div><b>回收后生成结果</b><p>从问卷星下载原始 Excel／CSV，不改题目代码，再回到本页导入答卷。</p></div></div>'
-      + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-link-button" data-action="back-library">← 返回议题清单</button><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
+      + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-link-button" data-action="back-library">← 返回议题清单</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
   }
 
   function renderStepOne() {
@@ -374,36 +380,57 @@
     return counts;
   }
 
-  function renderScoreRow(topic, index) {
-    const scores = topicScores(topic) || { impact: null, financial: null };
-    const result = classification(topic);
-    const note = state.notes[topic.id] || '';
+  function scoreTopicSurveyNote(topic) {
     const survey = state.surveyImport && state.surveyImport.topicStats ? state.surveyImport.topicStats[topic.id] : null;
-    const surveyNote = survey ? '<div class="dm-survey-score-note"><span>问卷 ' + Math.max(survey.impactCount || 0, survey.financialCount || 0) + ' 份</span>'
+    if (!survey) return '';
+    return '<div class="dm-survey-score-note"><span>问卷 ' + Math.max(survey.impactCount || 0, survey.financialCount || 0) + ' 份</span>'
       + (survey.impactCount ? '<small>影响均值 ' + Number(survey.impactMean).toFixed(1) + '</small>' : '')
-      + (survey.financialCount ? '<small>财务均值 ' + Number(survey.financialMean).toFixed(1) + '</small>' : '') + '</div>' : '';
-    const impactReady = validScore(scores.impact);
-    const financialReady = validScore(scores.financial);
-    return '<article class="dm-score-row dm-score-row--' + topic.category.toLowerCase() + '" data-score-row="' + topic.id + '">'
-      + '<div class="dm-score-topic"><span>' + (index + 1) + '</span><div><small>' + CATEGORY_NAMES[topic.category] + '</small><strong>' + escapeHtml(displayName(topic)) + '</strong>' + surveyNote + '</div><b class="dm-result dm-result--' + result.key + '" data-result="' + topic.id + '">' + result.label + '</b></div>'
-      + '<label class="dm-score-control' + (impactReady ? '' : ' is-unset') + '"><span>影响重要性 <output data-score-output="' + topic.id + ':impact">' + (impactReady ? Number(scores.impact).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (impactReady ? scores.impact : 3) + '" data-score="' + topic.id + ':impact"></label>'
-      + '<label class="dm-score-control' + (financialReady ? '' : ' is-unset') + '"><span>财务重要性 <output data-score-output="' + topic.id + ':financial">' + (financialReady ? Number(scores.financial).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (financialReady ? scores.financial : 3) + '" data-score="' + topic.id + ':financial"></label>'
-      + '<details class="dm-evidence"><summary>评分依据与备注</summary><textarea data-note="' + topic.id + '" rows="3" placeholder="记录利益相关方反馈、风险事件、数据证据或管理层判断…">' + escapeHtml(note) + '</textarea></details>'
-      + '</article>';
+      + (survey.financialCount ? '<small>财务均值 ' + Number(survey.financialMean).toFixed(1) + '</small>' : '') + '</div>';
   }
 
-  function renderScoreList() {
+  function activeScoreTopic() {
+    const topics = selectedTopics();
+    return topics.find(topic => topic.id === state.activeScoreTopicId) || topics.find(topic => !completeScores(topic)) || topics[0] || null;
+  }
+
+  function renderScoreTopicButton(topic, index) {
+    const active = activeScoreTopic();
+    const complete = completeScores(topic);
+    return '<button type="button" class="dm-score-topic-button dm-score-topic-button--' + topic.category.toLowerCase() + (active && active.id === topic.id ? ' is-active' : '') + '" data-score-topic="' + topic.id + '">'
+      + '<span>' + (index + 1) + '</span><div><small>' + CATEGORY_NAMES[topic.category] + '</small><strong>' + escapeHtml(displayName(topic)) + '</strong></div>'
+      + '<b class="' + (complete ? 'is-complete' : '') + '" data-score-status="' + topic.id + '">' + (complete ? '已评分' : '待评分') + '</b></button>';
+  }
+
+  function renderScoreEditor(topic) {
+    const scores = topicScores(topic) || { impact: null, financial: null };
+    const note = state.notes[topic.id] || '';
+    const impactReady = validScore(scores.impact);
+    const financialReady = validScore(scores.financial);
+    const topics = selectedTopics();
+    const position = Math.max(0, topics.findIndex(item => item.id === topic.id));
+    return '<article class="dm-score-editor dm-score-editor--' + topic.category.toLowerCase() + '"><header><div><small>' + CATEGORY_NAMES[topic.category] + ' · 第 ' + (position + 1) + '／' + topics.length + ' 项</small><h3>' + escapeHtml(displayName(topic)) + '</h3></div><span>' + (completeScores(topic) ? '双维度已完成' : '请完成两个维度') + '</span></header>'
+      + '<p class="dm-score-description">' + escapeHtml(topic.description) + '</p>' + scoreTopicSurveyNote(topic)
+      + '<div class="dm-score-editor-controls"><label class="dm-score-control' + (impactReady ? '' : ' is-unset') + '"><span>影响重要性 <output data-score-output="' + topic.id + ':impact">' + (impactReady ? Number(scores.impact).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (impactReady ? scores.impact : 3) + '" data-score="' + topic.id + ':impact"><small>对经济、环境和人产生的实际或潜在影响</small></label>'
+      + '<label class="dm-score-control' + (financialReady ? '' : ' is-unset') + '"><span>财务重要性 <output data-score-output="' + topic.id + ':financial">' + (financialReady ? Number(scores.financial).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (financialReady ? scores.financial : 3) + '" data-score="' + topic.id + ':financial"><small>对企业财务状况、经营成果和现金流的影响</small></label></div>'
+      + '<label class="dm-score-note"><span>评分依据与备注</span><textarea data-note="' + topic.id + '" rows="4" placeholder="记录利益相关方反馈、风险事件、数据证据或管理层判断…">' + escapeHtml(note) + '</textarea></label>'
+      + '<footer><button type="button" class="dm-secondary" data-action="previous-score"' + (position ? '' : ' disabled') + '>← 上一议题</button><button type="button" class="dm-primary" data-action="next-score"' + (position < topics.length - 1 ? '' : ' disabled') + '>下一议题 →</button></footer></article>';
+  }
+
+  function renderScoringWorkspace() {
     const topics = selectedTopics().filter(topic => state.categoryFilter === 'all' || topic.category === state.categoryFilter);
-    const sourceText = state.surveyImport ? '当前显示问卷建议分。人工调整后将作为本次复核分，问卷统计仍保留在议题名称下方。' : '当前采用内部评分，3.0 只是已明确选择的评分起点，需结合影响、风险、机遇和证据逐项调整。';
-    return '<section class="dm-score-list dm-panel"><div class="dm-panel-head"><div><small>逐项复核</small><h2>校准议题分数</h2></div><p>' + sourceText + '</p></div>'
+    const active = activeScoreTopic();
+    const completed = scoredTopics().length;
+    const sourceText = state.surveyImport ? '问卷均值已载入，请逐项复核。全部议题完成双维度评分后，才显示矩阵与结果概览。' : '点击左侧议题，在右侧分别完成影响重要性和财务重要性评分。全部完成后显示矩阵。';
+    return '<section class="dm-scoring-workspace dm-panel"><div class="dm-panel-head"><div><small>逐项评分</small><h2>先完成评分，再查看矩阵</h2></div><p>' + sourceText + '</p></div>'
+      + '<div class="dm-scoring-progress"><span><b data-scored-count>' + completed + '</b>／' + state.selected.length + ' 个议题已完成</span><i><b style="width:' + Math.round((completed / Math.max(1, state.selected.length)) * 100) + '%" data-score-progress></b></i></div>'
       + '<div class="dm-filter-tabs" role="group" aria-label="按类别筛选">' + [['all','全部'],['E','环境'],['S','社会'],['G','治理']].map(item => '<button type="button" data-category="' + item[0] + '" class="' + (state.categoryFilter === item[0] ? 'is-active' : '') + '">' + item[1] + '</button>').join('') + '</div>'
-      + '<div class="dm-score-rows">' + topics.map((topic, index) => renderScoreRow(topic, index)).join('') + '</div></section>';
+      + '<div class="dm-scoring-grid"><div class="dm-score-topic-list">' + topics.map((topic, index) => renderScoreTopicButton(topic, state.selected.indexOf(topic.id))).join('') + '</div>' + (active ? renderScoreEditor(active) : '<div class="dm-score-editor-empty">请选择一个议题开始评分</div>') + '</div></section>';
   }
 
   function renderSurveyEvidence() {
     const imported = state.surveyImport;
     if (imported) return '<section class="dm-evidence-summary dm-panel"><div><small>评分来源</small><h2>问卷建议分已导入</h2><p>' + escapeHtml(imported.fileName) + ' · ' + escapeHtml(imported.importedAt) + (imported.warning ? ' · ' + escapeHtml(imported.warning) : '') + '</p></div><div class="dm-survey-result"><div><small>有效答卷</small><strong>' + imported.responseCount + '</strong></div><div><small>已匹配题列</small><strong>' + imported.mappedColumns + '</strong></div><div><small>双维完整议题</small><strong>' + Math.min(imported.impactTopicCount, imported.financialTopicCount) + '</strong></div></div><button type="button" data-action="back-topics">更换问卷或答卷</button></section>';
-    return '<section class="dm-evidence-summary dm-panel"><div><small>评分来源</small><h2>内部评分模式</h2><p>本次未导入问卷答卷。所有议题以 3.0 作为人工评分起点，不代表标准推荐分或既有结论。</p></div><button type="button" data-action="back-topics">返回导出或导入问卷</button></section>';
+    return '<section class="dm-evidence-summary dm-panel"><div><small>评分来源</small><h2>内部评分模式</h2><p>本次未导入问卷答卷。请逐项选择议题并完成两个维度的评分，不预填默认结论。</p></div><button type="button" data-action="back-topics">返回导出或导入问卷</button></section>';
   }
 
   function renderResults() {
@@ -417,7 +444,7 @@
 
   function renderStepTwo() {
     if (!canOpenScores()) return '<div class="dm-page dm-page--scores"><section class="dm-score-gate dm-panel"><strong>尚未选择评分来源</strong><p>请先在第三步导入问卷答卷，或者明确开始内部评分。</p><button type="button" class="dm-primary" data-action="back-topics">返回问卷收集</button></section></div>';
-    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回问卷收集</button><p><strong>' + state.selected.length + ' 个议题进入复核</strong><span>先查看评分来源，再调整阈值和逐项分数。</span></p></div>' + renderSurveyEvidence() + renderResults() + renderScoreList()
+    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回问卷收集</button><p><strong>' + state.selected.length + ' 个议题进入评分</strong><span>全部完成双维度评分后显示矩阵。</span></p></div>' + renderSurveyEvidence() + renderScoringWorkspace() + (allScoresComplete() ? renderResults() : '')
       + '<section class="dm-method-note"><strong>评分边界</strong><p>影响重要性从影响规模、范围、不可补救性与发生可能性判断；财务重要性从风险或机遇的金额、发生可能性和时间范围判断。问卷均值或内部起始值都不是最终结论，调整应保留依据并经过企业审议。</p></section></div>';
   }
 
@@ -434,12 +461,22 @@
     const wrap = document.querySelector('[data-matrix-wrap]');
     if (wrap) wrap.innerHTML = renderMatrix();
     const summary = scoreSummary();
+    const completed = scoredTopics().length;
+    const scoredCount = document.querySelector('[data-scored-count]');
+    const progress = document.querySelector('[data-score-progress]');
+    if (scoredCount) scoredCount.textContent = completed;
+    if (progress) progress.style.width = Math.round((completed / Math.max(1, state.selected.length)) * 100) + '%';
     Object.entries(summary).forEach(([key, value]) => {
       const node = document.querySelector('[data-summary="' + key + '"]');
       if (node) node.textContent = value;
     });
     selectedTopics().forEach(topic => {
       const result = classification(topic);
+      const status = document.querySelector('[data-score-status="' + topic.id + '"]');
+      if (status) {
+        status.className = completeScores(topic) ? 'is-complete' : '';
+        status.textContent = completeScores(topic) ? '已评分' : '待评分';
+      }
       const badge = document.querySelector('[data-result="' + topic.id + '"]');
       if (badge) {
         badge.className = 'dm-result dm-result--' + result.key;
@@ -735,16 +772,6 @@
     downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性问卷包_V' + state.questionnaireVersion + '.zip');
     render();
     showToast('问卷包 V' + state.questionnaireVersion + ' 已导出');
-  }
-
-  async function exportQuestionnaireWord() {
-    if (!window.JSZip) throw new Error('Word 生成组件未加载，请刷新页面后重试');
-    const files = questionnairePackageFiles();
-    const manifest = JSON.parse(files['03_结果回导/assessment-manifest.json']);
-    const word = await buildQuestionnaireDocx(manifest);
-    downloadBlob(new Blob([word], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }), safeFilename(state.companyName) + '_可持续发展重要性议题调研方案与问卷.docx');
-    render();
-    showToast('客户版 Word 已导出');
   }
 
   function parseCsvText(text) {
@@ -1179,6 +1206,7 @@
       const [id, dimension] = target.dataset.score.split(':');
       const topic = topicMap().get(id);
       if (!topic) return;
+      const wasComplete = completeScores(topic);
       ensureScores(topic)[dimension] = clampScore(target.value);
       state.scoringStarted = true;
       state.scoreOrigins[id] = state.surveyImport ? 'reviewed' : 'internal';
@@ -1186,7 +1214,8 @@
       const output = document.querySelector('[data-score-output="' + id + ':' + dimension + '"]');
       if (output) output.textContent = ensureScores(topic)[dimension].toFixed(1);
       saveState();
-      updateResultsOnly();
+      if (!wasComplete && allScoresComplete()) render();
+      else updateResultsOnly();
       return;
     }
     if (target.matches('[data-threshold]')) {
@@ -1272,28 +1301,42 @@
     if (action === 'next-questionnaire') { state.step = 3; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-library') { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'start-internal-scoring') {
-      selectedTopics().forEach(topic => { ensureScores(topic, 3); state.scoreOrigins[topic.id] = 'internal'; });
       state.scoringStarted = true;
+      state.activeScoreTopicId = selectedTopics().find(topic => !completeScores(topic))?.id || selectedTopics()[0]?.id || '';
       state.step = 4;
       saveState();
       render();
       window.scrollTo({ top: 0, behavior: 'smooth' });
-      showToast('已进入内部评分，3.0 仅作为人工调整起点');
+      showToast('已进入内部评分，请逐项完成两个维度');
     }
     if (action === 'go-scores' && canOpenScores()) { state.step = 4; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-topics') { state.step = 3; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'export-questionnaire') exportQuestionnairePackage().catch(error => showToast(error.message || '问卷包导出失败', 'error'));
-    if (action === 'export-questionnaire-word') exportQuestionnaireWord().catch(error => showToast(error.message || 'Word 导出失败', 'error'));
     if (action === 'select-survey-file') document.querySelector('[data-survey-file]')?.click();
     if (action === 'clear-survey-import') clearSurveyImport();
     if (action === 'export-matrix') exportMatrixImage();
     if (action === 'export-list') exportTopicList();
     if (action === 'print') window.print();
-    if (button.dataset.category) { state.categoryFilter = button.dataset.category; saveState(); render(); }
+    if (button.dataset.category) {
+      state.categoryFilter = button.dataset.category;
+      const filtered = selectedTopics().filter(topic => state.categoryFilter === 'all' || topic.category === state.categoryFilter);
+      if (filtered.length && !filtered.some(topic => topic.id === state.activeScoreTopicId)) state.activeScoreTopicId = filtered[0].id;
+      saveState();
+      render();
+    }
     if (button.dataset.topicView) { state.topicView = button.dataset.topicView; saveState(); render(); }
+    if (button.dataset.scoreTopic) { state.activeScoreTopicId = button.dataset.scoreTopic; saveState(); render(); }
+    if (action === 'previous-score' || action === 'next-score') {
+      const topics = selectedTopics();
+      const current = Math.max(0, topics.findIndex(topic => topic.id === state.activeScoreTopicId));
+      const next = action === 'previous-score' ? current - 1 : current + 1;
+      if (topics[next]) { state.activeScoreTopicId = topics[next].id; saveState(); render(); }
+    }
     if (button.dataset.matrixTopic) {
-      const row = document.querySelector('[data-score-row="' + button.dataset.matrixTopic + '"]');
-      if (row) { row.scrollIntoView({ behavior: 'smooth', block: 'center' }); row.classList.add('is-highlighted'); setTimeout(() => row.classList.remove('is-highlighted'), 1400); }
+      state.activeScoreTopicId = button.dataset.matrixTopic;
+      saveState();
+      render();
+      document.querySelector('.dm-score-editor')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 
@@ -1311,6 +1354,7 @@
       const ids = new Set(allTopics().map(topic => topic.id));
       state.selected = state.selected.filter(id => ids.has(id));
       if (!state.selected.length) applyRecommendations();
+      if (!state.selected.includes(state.activeScoreTopicId)) state.activeScoreTopicId = state.selected[0] || '';
       if (state.step === 4 && !canOpenScores()) state.step = 3;
       render();
       root.addEventListener('input', handleInput);
