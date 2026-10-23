@@ -37,6 +37,9 @@
       customTopics: [],
       names: {},
       scores: {},
+      scoreOrigins: {},
+      scoringStarted: false,
+      scoreStateVersion: 2,
       notes: {},
       threshold: 3,
       categoryFilter: 'all',
@@ -52,7 +55,18 @@
   function loadState() {
     try {
       const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
-      return parsed && typeof parsed === 'object' ? Object.assign(emptyState(), parsed) : emptyState();
+      const loaded = parsed && typeof parsed === 'object' ? Object.assign(emptyState(), parsed) : emptyState();
+      if (Number(parsed?.scoreStateVersion) !== 2) {
+        loaded.scoreStateVersion = 2;
+        loaded.scoreOrigins = {};
+        if (loaded.surveyImport) {
+          loaded.scoringStarted = true;
+        } else {
+          loaded.scores = {};
+          loaded.scoringStarted = false;
+        }
+      }
+      return loaded;
     } catch (_) {
       return emptyState();
     }
@@ -93,24 +107,41 @@
       .map(topic => topic.id);
   }
 
-  function ensureScores(topic) {
+  function ensureScores(topic, baseline) {
     if (!state.scores[topic.id]) {
-      const industryBoost = topic.industries.includes(state.industry) && state.industry !== 'general' ? 0.3 : 0;
       state.scores[topic.id] = {
-        impact: clampScore(topic.impact + industryBoost),
-        financial: clampScore(topic.financial + industryBoost)
+        impact: baseline == null ? null : clampScore(baseline),
+        financial: baseline == null ? null : clampScore(baseline)
       };
     }
     return state.scores[topic.id];
   }
 
+  function topicScores(topic) {
+    const scores = state.scores[topic.id];
+    return scores && typeof scores === 'object' ? scores : null;
+  }
+
+  function validScore(value) {
+    return value !== null && value !== '' && Number.isFinite(Number(value));
+  }
+
+  function completeScores(topic) {
+    const scores = topicScores(topic);
+    return Boolean(scores && validScore(scores.impact) && validScore(scores.financial));
+  }
+
+  function scoredTopics() {
+    return selectedTopics().filter(completeScores);
+  }
+
+  function canOpenScores() {
+    return Boolean(state.scoringStarted || state.surveyImport);
+  }
+
   function applyRecommendations() {
     const customSelected = state.selected.filter(id => state.customTopics.some(topic => topic.id === id));
     state.selected = [...new Set([...recommendedIds(), ...customSelected])];
-    state.selected.forEach(id => {
-      const topic = topicMap().get(id);
-      if (topic) ensureScores(topic);
-    });
     saveState();
   }
 
@@ -124,7 +155,8 @@
   }
 
   function classification(topic) {
-    const scores = ensureScores(topic);
+    const scores = topicScores(topic);
+    if (!completeScores(topic)) return { key: 'unscored', label: '待评分' };
     const impact = scores.impact >= state.threshold;
     const financial = scores.financial >= state.threshold;
     if (impact && financial) return { key: 'double', label: '双重重要' };
@@ -147,9 +179,9 @@
 
   function renderStepper() {
     return '<nav class="dm-stepper" aria-label="评估步骤">'
-      + '<button type="button" class="' + (state.step === 1 ? 'is-active' : 'is-complete') + '" data-step="1"><b>01</b><span><strong>识别议题清单</strong><small>企业、行业与标准</small></span></button>'
+      + '<button type="button" class="' + (state.step === 1 ? 'is-active' : 'is-complete') + '" data-step="1"><b>01</b><span><strong>议题与问卷</strong><small>确定范围、导出与回收</small></span></button>'
       + '<i aria-hidden="true"></i>'
-      + '<button type="button" class="' + (state.step === 2 ? 'is-active' : '') + '" data-step="2" ' + (state.selected.length ? '' : 'disabled') + '><b>02</b><span><strong>评分与矩阵</strong><small>阈值、分数与结果</small></span></button>'
+      + '<button type="button" class="' + (state.step === 2 ? 'is-active' : '') + '" data-step="2" ' + (state.selected.length && canOpenScores() ? '' : 'disabled') + '><b>02</b><span><strong>复核评分与矩阵</strong><small>问卷建议、人工校准与结论</small></span></button>'
       + '</nav>';
   }
 
@@ -200,12 +232,30 @@
       + renderCustomTopicForm()
       + '<div class="dm-library-note"><span>名称可直接修改</span><p>议题说明与来源标签保留在卡片中，避免同名议题的边界被误解。</p></div>'
       + '<div class="dm-topic-grid">' + cards + '</div>'
-      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div><div class="dm-step-action-buttons"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (selectedCount ? '' : ' disabled') + '>导出问卷包</button><button type="button" class="dm-primary" data-action="go-scores"' + (selectedCount ? '' : ' disabled') + '>进入评分与矩阵 <span>→</span></button></div></footer>'
+      + '<footer class="dm-step-actions"><div><small>方法来源</small><p>' + escapeHtml(library.methodology) + '</p></div></footer>'
       + '</section>';
   }
 
+  function renderQuestionnaireWorkflow() {
+    const imported = state.surveyImport;
+    const exportedBefore = Boolean(state.questionnaireExportedAt);
+    const exported = exportedBefore && state.questionnaireSignature === questionnaireSignature();
+    const stepClass = index => index === 1 || (index === 2 && exported) || (index >= 3 && imported) ? ' is-done' : (index === 2 && !exported) || (index === 3 && exported && !imported) ? ' is-current' : '';
+    const status = imported
+      ? '<div class="dm-questionnaire-result"><div><small>有效答卷</small><strong>' + imported.responseCount + '</strong></div><div><small>已匹配题列</small><strong>' + imported.mappedColumns + '</strong></div><div><small>形成双维得分</small><strong>' + Math.min(imported.impactTopicCount, imported.financialTopicCount) + '</strong></div></div><p>已导入：' + escapeHtml(imported.fileName) + ' · ' + escapeHtml(imported.importedAt) + '</p>'
+      : exported
+        ? '<div class="dm-questionnaire-state"><b>问卷包 V' + state.questionnaireVersion + ' 已导出</b><span>在问卷星完成发布与回收后，下载原始答卷并在这里导入。</span></div>'
+        : exportedBefore
+          ? '<div class="dm-questionnaire-state is-warning"><b>议题清单已变化</b><span>旧问卷与当前议题不再一致，请重新导出新版本后再导入答卷。</span></div>'
+          : '<div class="dm-questionnaire-state"><b>尚未生成问卷</b><span>确认议题名称与范围后再导出，问卷发布后的议题变动会生成新版本。</span></div>';
+    const nextLabel = imported ? '查看问卷结果与矩阵' : state.scoringStarted ? '继续内部评分与矩阵' : '暂不使用问卷，开始内部评分';
+    return '<section class="dm-questionnaire-workflow dm-panel"><div class="dm-panel-head"><div><small>问卷收集</small><h2>确定议题后，再收集评分证据</h2></div><p>问卷是形成建议分的一种证据来源。如果本次不开展问卷，也可以明确进入内部评分；系统不会在选择议题时自动生成分数。</p></div>'
+      + '<div class="dm-questionnaire-steps"><div class="dm-questionnaire-step' + stepClass(1) + '"><b>1</b><span><strong>确认议题</strong><small>' + state.selected.length + ' 个议题已选</small></span></div><div class="dm-questionnaire-step' + stepClass(2) + '"><b>2</b><span><strong>导出问卷包</strong><small>生成问卷与映射文件</small></span></div><div class="dm-questionnaire-step' + stepClass(3) + '"><b>3</b><span><strong>问卷星发布与回收</strong><small>在问卷星完成外部收集</small></span></div><div class="dm-questionnaire-step' + stepClass(4) + '"><b>4</b><span><strong>导入原始答卷</strong><small>Excel／CSV 生成建议分</small></span></div></div>'
+      + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
+  }
+
   function renderStepOne() {
-    return '<div class="dm-page dm-page--topics">' + renderCompanySetup() + renderTopicLibrary() + '</div>';
+    return '<div class="dm-page dm-page--topics">' + renderCompanySetup() + renderTopicLibrary() + renderQuestionnaireWorkflow() + '</div>';
   }
 
   function matrixPosition(score, axis) {
@@ -242,8 +292,8 @@
   }
 
   function matrixPointLayout(topics) {
-    return spreadPoints(topics.map((topic, index) => {
-      const scores = ensureScores(topic);
+    return spreadPoints(topics.filter(completeScores).map((topic, index) => {
+      const scores = topicScores(topic);
       return {
         topic,
         index,
@@ -255,7 +305,8 @@
   }
 
   function renderMatrix() {
-    const topics = selectedTopics();
+    const topics = scoredTopics();
+    if (!topics.length) return '<div class="dm-matrix-empty"><strong>尚未形成可绘制的双维分数</strong><p>导入问卷答卷，或返回第一步明确开始内部评分后，矩阵才会出现。</p></div>';
     const thresholdX = matrixPosition(state.threshold, 'x');
     const thresholdY = matrixPosition(state.threshold, 'y');
     const grid = [1, 2, 3, 4, 5].map(value => {
@@ -283,72 +334,56 @@
   }
 
   function scoreSummary() {
-    const counts = { double: 0, impact: 0, financial: 0, below: 0 };
+    const counts = { double: 0, impact: 0, financial: 0, below: 0, unscored: 0 };
     selectedTopics().forEach(topic => counts[classification(topic).key] += 1);
     return counts;
   }
 
   function renderScoreRow(topic, index) {
-    const scores = ensureScores(topic);
+    const scores = topicScores(topic) || { impact: null, financial: null };
     const result = classification(topic);
     const note = state.notes[topic.id] || '';
     const survey = state.surveyImport && state.surveyImport.topicStats ? state.surveyImport.topicStats[topic.id] : null;
     const surveyNote = survey ? '<div class="dm-survey-score-note"><span>问卷 ' + Math.max(survey.impactCount || 0, survey.financialCount || 0) + ' 份</span>'
       + (survey.impactCount ? '<small>影响均值 ' + Number(survey.impactMean).toFixed(1) + '</small>' : '')
       + (survey.financialCount ? '<small>财务均值 ' + Number(survey.financialMean).toFixed(1) + '</small>' : '') + '</div>' : '';
+    const impactReady = validScore(scores.impact);
+    const financialReady = validScore(scores.financial);
     return '<article class="dm-score-row dm-score-row--' + topic.category.toLowerCase() + '" data-score-row="' + topic.id + '">'
       + '<div class="dm-score-topic"><span>' + (index + 1) + '</span><div><small>' + CATEGORY_NAMES[topic.category] + '</small><strong>' + escapeHtml(displayName(topic)) + '</strong>' + surveyNote + '</div><b class="dm-result dm-result--' + result.key + '" data-result="' + topic.id + '">' + result.label + '</b></div>'
-      + '<label class="dm-score-control"><span>影响重要性 <output data-score-output="' + topic.id + ':impact">' + scores.impact.toFixed(1) + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + scores.impact + '" data-score="' + topic.id + ':impact"></label>'
-      + '<label class="dm-score-control"><span>财务重要性 <output data-score-output="' + topic.id + ':financial">' + scores.financial.toFixed(1) + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + scores.financial + '" data-score="' + topic.id + ':financial"></label>'
+      + '<label class="dm-score-control' + (impactReady ? '' : ' is-unset') + '"><span>影响重要性 <output data-score-output="' + topic.id + ':impact">' + (impactReady ? Number(scores.impact).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (impactReady ? scores.impact : 3) + '" data-score="' + topic.id + ':impact"></label>'
+      + '<label class="dm-score-control' + (financialReady ? '' : ' is-unset') + '"><span>财务重要性 <output data-score-output="' + topic.id + ':financial">' + (financialReady ? Number(scores.financial).toFixed(1) : '未评分') + '</output></span><input type="range" min="1" max="5" step="0.1" value="' + (financialReady ? scores.financial : 3) + '" data-score="' + topic.id + ':financial"></label>'
       + '<details class="dm-evidence"><summary>评分依据与备注</summary><textarea data-note="' + topic.id + '" rows="3" placeholder="记录利益相关方反馈、风险事件、数据证据或管理层判断…">' + escapeHtml(note) + '</textarea></details>'
       + '</article>';
   }
 
   function renderScoreList() {
     const topics = selectedTopics().filter(topic => state.categoryFilter === 'all' || topic.category === state.categoryFilter);
-    return '<section class="dm-score-list dm-panel"><div class="dm-panel-head"><div><small>逐项校准</small><h2>调整议题分数</h2></div><p>拖动任一维度的分数，矩阵、分类和统计会立即更新。展开备注可保留评分证据。</p></div>'
+    const sourceText = state.surveyImport ? '当前显示问卷建议分。人工调整后将作为本次复核分，问卷统计仍保留在议题名称下方。' : '当前采用内部评分，3.0 只是已明确选择的评分起点，需结合影响、风险、机遇和证据逐项调整。';
+    return '<section class="dm-score-list dm-panel"><div class="dm-panel-head"><div><small>逐项复核</small><h2>校准议题分数</h2></div><p>' + sourceText + '</p></div>'
       + '<div class="dm-filter-tabs" role="group" aria-label="按类别筛选">' + [['all','全部'],['E','环境'],['S','社会'],['G','治理']].map(item => '<button type="button" data-category="' + item[0] + '" class="' + (state.categoryFilter === item[0] ? 'is-active' : '') + '">' + item[1] + '</button>').join('') + '</div>'
       + '<div class="dm-score-rows">' + topics.map((topic, index) => renderScoreRow(topic, index)).join('') + '</div></section>';
   }
 
-  function renderAssessmentProcess() {
-    const steps = [
-      ['01', '确定评估边界', '企业、行业与适用标准'],
-      ['02', '识别候选议题', '业务活动、价值链与利益相关方'],
-      ['03', '收集判断证据', '影响、风险、机遇与反馈'],
-      ['04', '开展双维评分', '影响重要性 × 财务重要性'],
-      ['05', '审议并形成披露', '阈值、矩阵、清单与报告映射']
-    ];
-    return '<section class="dm-assessment-process dm-panel"><div class="dm-process-head"><div><small>方法流程</small><h2>双重重要性评估怎样完成</h2></div><p>先形成可解释的证据链，再确定分数、阈值和披露结论。</p></div><div class="dm-process-flow">'
-      + steps.map((step, index) => '<div class="dm-process-step' + (index < 2 ? ' is-done' : index < 4 ? ' is-current' : '') + '"><b>' + step[0] + '</b><span><strong>' + step[1] + '</strong><small>' + step[2] + '</small></span></div>').join('')
-      + '</div></section>';
-  }
-
   function renderSurveyEvidence() {
     const imported = state.surveyImport;
-    const exportStatus = state.questionnaireExportedAt
-      ? '问卷包 V' + state.questionnaireVersion + ' · ' + state.selected.length + ' 个议题'
-      : '尚未导出问卷包';
-    const result = imported
-      ? '<div class="dm-survey-result"><div><small>有效答卷</small><strong>' + imported.responseCount + '</strong></div><div><small>已匹配题列</small><strong>' + imported.mappedColumns + '</strong></div><div><small>有影响得分</small><strong>' + imported.impactTopicCount + '</strong></div><div><small>有财务得分</small><strong>' + imported.financialTopicCount + '</strong></div></div>'
-        + '<p class="dm-survey-file">已导入：' + escapeHtml(imported.fileName) + ' · ' + escapeHtml(imported.importedAt) + (imported.warning ? ' · ' + escapeHtml(imported.warning) : '') + '</p>'
-      : '<div class="dm-survey-empty"><b>回收完成后导入原始答卷</b><span>支持问卷星下载的 .xlsx、CSV；旧版 .xls 如为网页表格或 XML 也可读取。</span></div>';
-    return '<section class="dm-survey-panel dm-panel"><div class="dm-survey-copy"><small>问卷证据</small><h2>从问卷包到答卷统计</h2><p>题目内置简短识别码。导入时按识别码匹配议题，不依赖问卷题序。</p><div class="dm-survey-flow"><span><b>1</b>导出问卷包</span><i>→</i><span><b>2</b>问卷星回收</span><i>→</i><span><b>3</b>导入 Excel</span><i>→</i><span><b>4</b>更新矩阵</span></div></div>'
-      + '<div class="dm-survey-actions"><div><small>当前状态</small><strong>' + escapeHtml(exportStatus) + '</strong></div><button type="button" data-action="export-questionnaire">导出问卷包</button><button type="button" class="dm-primary" data-action="select-survey-file">导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '</div>'
-      + '<div class="dm-survey-summary">' + result + '</div></section>';
+    if (imported) return '<section class="dm-evidence-summary dm-panel"><div><small>评分来源</small><h2>问卷建议分已导入</h2><p>' + escapeHtml(imported.fileName) + ' · ' + escapeHtml(imported.importedAt) + (imported.warning ? ' · ' + escapeHtml(imported.warning) : '') + '</p></div><div class="dm-survey-result"><div><small>有效答卷</small><strong>' + imported.responseCount + '</strong></div><div><small>已匹配题列</small><strong>' + imported.mappedColumns + '</strong></div><div><small>双维完整议题</small><strong>' + Math.min(imported.impactTopicCount, imported.financialTopicCount) + '</strong></div></div><button type="button" data-action="back-topics">更换问卷或答卷</button></section>';
+    return '<section class="dm-evidence-summary dm-panel"><div><small>评分来源</small><h2>内部评分模式</h2><p>本次未导入问卷答卷。所有议题以 3.0 作为人工评分起点，不代表标准推荐分或既有结论。</p></div><button type="button" data-action="back-topics">返回导出或导入问卷</button></section>';
   }
 
   function renderResults() {
     const summary = scoreSummary();
-    return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix">导出矩阵图片</button><button type="button" data-action="export-list">导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
+    const completed = scoredTopics().length;
+    return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2><p>' + completed + '／' + state.selected.length + ' 个议题已形成双维分数</p></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix"' + (completed ? '' : ' disabled') + '>导出矩阵图片</button><button type="button" data-action="export-list"' + (completed ? '' : ' disabled') + '>导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
       + '<div class="dm-result-layout"><div class="dm-matrix-column"><div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div><div class="dm-legend"><span><i class="e"></i>环境</span><span><i class="s"></i>社会</span><span><i class="g"></i>治理</span><small>引导线连接原始得分坐标，圆点编号对应下方议题顺序</small></div></div>'
-      + '<aside class="dm-result-side"><div class="dm-side-title"><small>结果概览</small><strong>' + state.selected.length + ' 个议题</strong></div><div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div></div><div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较。阈值应由企业批准，并保留判断依据。</p></div><div class="dm-result-rule"><b>判定方式</b><span>双维均达阈值：双重重要</span><span>单维达阈值：影响或财务重要</span></div></aside></div>'
+      + '<aside class="dm-result-side"><div class="dm-side-title"><small>结果概览</small><strong>' + completed + ' 个已评分</strong></div><div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div>' + (summary.unscored ? '<div class="dm-summary-unscored"><strong data-summary="unscored">' + summary.unscored + '</strong><span>待补充评分</span></div>' : '') + '</div><div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较。阈值应由企业批准，并保留判断依据。</p></div><div class="dm-result-rule"><b>判定方式</b><span>双维均达阈值：双重重要</span><span>单维达阈值：影响或财务重要</span></div></aside></div>'
       + '</section>';
   }
 
   function renderStepTwo() {
-    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题清单</button><p><strong>' + state.selected.length + ' 个议题进入评估</strong><span>建议在评分前明确参与人员、评分尺度和证据要求。</span></p></div>' + renderAssessmentProcess() + renderSurveyEvidence() + renderResults() + renderScoreList()
-      + '<section class="dm-method-note"><strong>评分建议</strong><p>影响重要性可从影响规模、范围、不可补救性与发生可能性判断；财务重要性可从风险或机遇的金额、发生可能性和时间范围判断。当前分数是启动值，应由跨部门与利益相关方证据校准。</p></section></div>';
+    if (!canOpenScores()) return '<div class="dm-page dm-page--scores"><section class="dm-score-gate dm-panel"><strong>尚未选择评分来源</strong><p>请先在第一步导入问卷答卷，或者明确开始内部评分。</p><button type="button" class="dm-primary" data-action="back-topics">返回议题与问卷</button></section></div>';
+    return '<div class="dm-page dm-page--scores"><div class="dm-score-intro"><button type="button" data-action="back-topics">← 返回议题与问卷</button><p><strong>' + state.selected.length + ' 个议题进入复核</strong><span>先查看评分来源，再调整阈值和逐项分数。</span></p></div>' + renderSurveyEvidence() + renderResults() + renderScoreList()
+      + '<section class="dm-method-note"><strong>评分边界</strong><p>影响重要性从影响规模、范围、不可补救性与发生可能性判断；财务重要性从风险或机遇的金额、发生可能性和时间范围判断。问卷均值或内部起始值都不是最终结论，调整应保留依据并经过企业审议。</p></section></div>';
   }
 
   function render() {
@@ -438,6 +473,11 @@
     const signature = questionnaireSignature();
     if (state.questionnaireSignature && state.questionnaireSignature !== signature) {
       state.questionnaireVersion = Math.max(1, Number(state.questionnaireVersion) || 1) + 1;
+      if (state.surveyImport) {
+        state.scores = {};
+        state.scoreOrigins = {};
+        state.scoringStarted = false;
+      }
       state.surveyImport = null;
     }
     state.questionnaireSignature = signature;
@@ -755,11 +795,14 @@
     Object.entries(parsed.topicStats).forEach(([topicId, stats]) => {
       const topic = topicMap().get(topicId);
       if (!topic) return;
+      const existing = topicScores(topic);
       const scores = ensureScores(topic);
-      previousScores[topicId] = { impact: scores.impact, financial: scores.financial };
+      previousScores[topicId] = { impact: existing?.impact ?? null, financial: existing?.financial ?? null, origin: state.scoreOrigins[topicId] || '' };
       if (stats.impactCount) scores.impact = clampScore(stats.impactMean);
       if (stats.financialCount) scores.financial = clampScore(stats.financialMean);
+      state.scoreOrigins[topicId] = 'survey';
     });
+    state.scoringStarted = true;
     state.surveyImport = Object.assign(parsed, {
       fileName: file.name || '问卷答卷', importedAt: new Date().toLocaleString('zh-CN', { hour12: false }),
       questionnaireVersion: state.questionnaireVersion, previousScores,
@@ -767,7 +810,7 @@
     });
     saveState();
     render();
-    showToast('已导入 ' + parsed.responseCount + ' 份有效答卷，矩阵已更新');
+    showToast('已导入 ' + parsed.responseCount + ' 份有效答卷，可进入第二步复核评分');
   }
 
   function clearSurveyImport() {
@@ -776,12 +819,16 @@
     Object.entries(imported.previousScores || {}).forEach(([topicId, previous]) => {
       const topic = topicMap().get(topicId);
       if (!topic) return;
-      const current = ensureScores(topic);
+      const current = topicScores(topic);
+      if (!current) return;
       const applied = imported.appliedScores?.[topicId] || {};
       if (applied.impact != null && current.impact === applied.impact) current.impact = previous.impact;
       if (applied.financial != null && current.financial === applied.financial) current.financial = previous.financial;
+      state.scoreOrigins[topicId] = previous.origin || '';
+      if (current.impact == null && current.financial == null) delete state.scores[topicId];
     });
     state.surveyImport = null;
+    state.scoringStarted = selectedTopics().some(topic => completeScores(topic));
     saveState();
     render();
     showToast('本次问卷统计已清除');
@@ -792,10 +839,10 @@
     const standards = state.standards.map(id => standardById(id)?.name || id).join('；');
     const rows = [['序号', '企业名称', '所属行业', '采用标准', '议题类别', '议题名称', '议题说明', '影响重要性得分', '财务重要性得分', '重要性结论', '重要性阈值', '评分依据与备注', '参考来源']];
     selectedTopics().forEach((topic, index) => {
-      const scores = ensureScores(topic);
+      const scores = topicScores(topic) || {};
       rows.push([
         index + 1, state.companyName || '', industry, standards, CATEGORY_NAMES[topic.category], displayName(topic),
-        topic.description, scores.impact.toFixed(1), scores.financial.toFixed(1), classification(topic).label,
+        topic.description, validScore(scores.impact) ? Number(scores.impact).toFixed(1) : '', validScore(scores.financial) ? Number(scores.financial).toFixed(1) : '', classification(topic).label,
         Number(state.threshold).toFixed(1), state.notes[topic.id] || '', topic.source || '企业自定义'
       ]);
     });
@@ -804,6 +851,7 @@
   }
 
   function exportMatrixImage() {
+    if (!scoredTopics().length) { showToast('尚未形成双维分数，无法导出矩阵', 'error'); return; }
     const canvas = document.createElement('canvas');
     canvas.width = 1400;
     canvas.height = 1180;
@@ -870,7 +918,7 @@
     context.fillText('双重重要', thresholdX + 24, chart.top + 38);
     context.fillText('财务重要', thresholdX + 24, thresholdY + 38);
 
-    const exportPoints = matrixPointLayout(selectedTopics()).map(point => ({
+    const exportPoints = matrixPointLayout(scoredTopics()).map(point => ({
       ...point,
       x: chart.left + ((point.x - 72) / 468) * chart.width,
       y: chart.top + ((point.y - 84) / 438) * chart.height,
@@ -948,6 +996,9 @@
       const topic = topicMap().get(id);
       if (!topic) return;
       ensureScores(topic)[dimension] = clampScore(target.value);
+      state.scoringStarted = true;
+      state.scoreOrigins[id] = state.surveyImport ? 'reviewed' : 'internal';
+      target.closest('.dm-score-control')?.classList.remove('is-unset');
       const output = document.querySelector('[data-score-output="' + id + ':' + dimension + '"]');
       if (output) output.textContent = ensureScores(topic)[dimension].toFixed(1);
       saveState();
@@ -970,6 +1021,11 @@
 
   function handleChange(event) {
     const target = event.target;
+    if (target.matches('[name="companyName"],[data-topic-name]')) {
+      saveState();
+      render();
+      return;
+    }
     if (target.matches('[data-survey-file]')) {
       const file = target.files && target.files[0];
       target.value = '';
@@ -993,8 +1049,6 @@
     if (target.matches('[data-topic-select]')) {
       const id = target.dataset.topicSelect;
       state.selected = target.checked ? [...new Set([...state.selected, id])] : state.selected.filter(item => item !== id);
-      const topic = topicMap().get(id);
-      if (topic && target.checked) ensureScores(topic);
       saveState();
       render();
     }
@@ -1014,7 +1068,6 @@
     };
     state.customTopics.push(topic);
     state.selected.push(id);
-    ensureScores(topic);
     saveState();
     render();
   }
@@ -1024,12 +1077,21 @@
     if (!button) return;
     if (button.dataset.step) {
       const step = Number(button.dataset.step);
-      if (step === 1 || (step === 2 && state.selected.length)) { state.step = step; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+      if (step === 1 || (step === 2 && state.selected.length && canOpenScores())) { state.step = step; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
       return;
     }
     const action = button.dataset.action;
     if (action === 'apply-recommendations') { applyRecommendations(); render(); }
-    if (action === 'go-scores') { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (action === 'start-internal-scoring') {
+      selectedTopics().forEach(topic => { ensureScores(topic, 3); state.scoreOrigins[topic.id] = 'internal'; });
+      state.scoringStarted = true;
+      state.step = 2;
+      saveState();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      showToast('已进入内部评分，3.0 仅作为人工调整起点');
+    }
+    if (action === 'go-scores' && canOpenScores()) { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-topics') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'export-questionnaire') exportQuestionnairePackage().catch(error => showToast(error.message || '问卷包导出失败', 'error'));
     if (action === 'select-survey-file') document.querySelector('[data-survey-file]')?.click();
@@ -1054,9 +1116,11 @@
       if (!state.assessmentId) state.assessmentId = createAssessmentId();
       state.questionnaireVersion = Math.max(1, Number(state.questionnaireVersion) || 1);
       if (!Array.isArray(state.questionnaireMap)) state.questionnaireMap = [];
+      if (!state.scoreOrigins || typeof state.scoreOrigins !== 'object') state.scoreOrigins = {};
       const ids = new Set(allTopics().map(topic => topic.id));
       state.selected = state.selected.filter(id => ids.has(id));
       if (!state.selected.length) applyRecommendations();
+      if (state.step === 2 && !canOpenScores()) state.step = 1;
       render();
       root.addEventListener('input', handleInput);
       root.addEventListener('change', handleChange);
@@ -1081,6 +1145,7 @@
     questionnairePackageFiles,
     spreadPoints,
     classify(scores, threshold) {
+      if (!scores || !validScore(scores.impact) || !validScore(scores.financial)) return 'unscored';
       const impact = scores.impact >= threshold;
       const financial = scores.financial >= threshold;
       return impact && financial ? 'double' : impact ? 'impact' : financial ? 'financial' : 'below';
