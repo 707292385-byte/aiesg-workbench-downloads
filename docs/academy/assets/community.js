@@ -55,6 +55,9 @@
     { id: 'hkex', type: '披露规则', title: '港交所ESG披露体系', detail: '报告守则 · KPI体系 · 气候披露' }
   ];
 
+  // 直接双击本地页面时，浏览器会阻止读取相邻 JSON；仅保留首页所需的行业与三条近期资讯作为回退。
+  const localFallbackData = {"reports":{"companyCount":8282,"reportCount":42235,"industryOptions":[["恒生","公用事业(HS)"],["恒生","医疗保健业(HS)"],["恒生","原材料业(HS)"],["恒生","地产建筑业(HS)"],["恒生","工业(HS)"],["恒生","必需性消费(HS)"],["恒生","电讯业(HS)"],["恒生","综合企业(HS)"],["恒生","能源业(HS)"],["恒生","资讯科技业(HS)"],["恒生","金融业(HS)"],["恒生","非必需性消费(HS)"],["申万","交通运输"],["申万","传媒"],["申万","公用事业"],["申万","农林牧渔"],["申万","医药生物"],["申万","商贸零售"],["申万","国防军工"],["申万","基础化工"],["申万","家用电器"],["申万","建筑材料"],["申万","建筑装饰"],["申万","房地产"],["申万","有色金属"],["申万","机械设备"],["申万","汽车"],["申万","煤炭"],["申万","环保"],["申万","电力设备"],["申万","电子"],["申万","石油石化"],["申万","社会服务"],["申万","纺织服饰"],["申万","综合"],["申万","美容护理"],["申万","计算机"],["申万","轻工制造"],["申万","通信"],["申万","钢铁"],["申万","银行"],["申万","非银金融"],["申万","食品饮料"]]},"observations":[{"id":"efrag-agenda-consultation-2026","category":"国际标准","title":"EFRAG启动2027–2029可持续报告议程咨询","summary":"EFRAG于10月16日发布意见征集（RFI），就2027–2029年可持续报告工作优先级公开征求意见，反馈截止2027年2月15日；前提是除欧委会要求的紧急修订外，该期间不安排新的准则制定活动，工作重心转向实施支持、自愿报告与全球互操作，工作计划拟2027年二季度发布。","date":"2026-10-16"},{"id":"us-ca-sb253-initial-regulation-2026","category":"国际监管","title":"加州SB 253/261初始法规获批并生效：首期温室气体报告截止日确定为11月10日","summary":"加州行政法办公室（OAL）于2026年10月12日批准加州空气资源委员会（CARB）就SB 253与SB 261制定的《加州企业温室气体报告与气候相关财务风险披露初始法规》，该法规当日生效，编入加州法规第17篇第96070至96077节。首期范围一、范围二温室气体报告截止日就此确定为2026年11月10日；SB 261仍因法院禁令暂停执行。","date":"2026-10-12"},{"id":"singapore-acra-roadmap-2026","category":"国际标准","title":"新加坡ACRA更新气候报告路线图：鉴证强制时点明确，准则草案咨询10月25日截止","summary":"新加坡会计与企业管制局（ACRA）10月初更新气候报告路线图运行参数：上市发行人范围一/二有限鉴证自FY2029起，大型非上市企业FY2030起报告、FY2032起鉴证。配套的《新加坡可持续披露准则》草案公开咨询将于2026年10月25日截止，草案仅将气候准则SFRS S2设为强制。","date":"2026-10-05"}]};
+
   const socialProfiles = [
     { name: '小红书', image: 'assets/community/qr-xiaohongshu-source.jpg', crop: 'xhs' },
     { name: '微信公众号', image: 'assets/community/qr-wechat-official-tight.jpg', crop: 'official' },
@@ -206,11 +209,13 @@
   }
 
   async function loadPublicData() {
-    try {
-      const response = await fetch('assets/community-public.json', { cache: 'no-store' });
-      if (response.ok) return await response.json();
-    } catch (_) {}
-    return {};
+    if (location.protocol !== 'file:') {
+      try {
+        const response = await fetch('assets/community-public.json', { cache: 'no-store' });
+        if (response.ok) return await response.json();
+      } catch (_) {}
+    }
+    return { observations: localFallbackData.observations };
   }
 
   function renderMap(publicData) {
@@ -358,15 +363,16 @@
       const values = Object.fromEntries([...new FormData(form)].filter(([, value]) => value.trim()));
       location.href = pageHref('reports.html', values);
     });
-    try {
-      const info = await window.ReportCatalogue.manifest();
-      const summary = document.querySelector('[data-report-summary]');
-      if (summary) summary.textContent = info.companyCount.toLocaleString('zh-CN') + ' 家企业 · ' + info.reportCount.toLocaleString('zh-CN') + ' 份报告';
-      const industries = [...new Map(info.industryOptions.filter(i => i[1]).map(i => [i[0] + '|1|' + i[1], i])).entries()].sort((a,b) => a[1][0].localeCompare(b[1][0], 'zh') || a[1][1].localeCompare(b[1][1], 'zh'));
-      for (const [key, ind] of industries) {
-        const option = document.createElement('option');option.value = key;option.textContent = ind[1] + ' · ' + (ind[0] === '申万' ? 'A股' : '港股');form.elements.industry.appendChild(option);
-      }
-    } catch (_) { /* The entry stays usable while the optional counts are unavailable. */ }
+    let info = localFallbackData.reports;
+    if (location.protocol !== 'file:') {
+      try { info = await window.ReportCatalogue.manifest(); } catch (_) { /* Use the embedded home-page fallback. */ }
+    }
+    const summary = document.querySelector('[data-report-summary]');
+    if (summary) summary.textContent = info.companyCount.toLocaleString('zh-CN') + ' 家企业 · ' + info.reportCount.toLocaleString('zh-CN') + ' 份报告';
+    const industries = [...new Map(info.industryOptions.filter(i => i[1]).map(i => [i[0] + '|1|' + i[1], i])).entries()].sort((a,b) => a[1][0].localeCompare(b[1][0], 'zh') || a[1][1].localeCompare(b[1][1], 'zh'));
+    for (const [key, ind] of industries) {
+      const option = document.createElement('option');option.value = key;option.textContent = ind[1] + ' · ' + (ind[0] === '申万' ? 'A股' : '港股');form.elements.industry.appendChild(option);
+    }
   }
 
   function render(publicData) {
@@ -648,5 +654,5 @@
   });
 
   document.addEventListener('DOMContentLoaded', mount);
-  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms, notifyActivity };
+  window.CommunityPage = { mount, pageHref, renderMap, renderQuestion, communityForms, notifyActivity, localFallbackData };
 })();
