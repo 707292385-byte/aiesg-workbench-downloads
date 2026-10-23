@@ -257,7 +257,7 @@
 
   function renderOffers() {
     return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer co-offer--compact"><div class="co-offer-illustration"><img src="' + item.image + '" alt="' + item.title + '服务场景插画"></div><div class="co-offer-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p></div><span class="co-offer-paid">付费</span></article>').join('') + '</div>'
-      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>可以提出一个问题，也可以选择合作方向并留下回复方式。</p></div><div class="co-contact-actions"><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题 <b aria-hidden="true">↗</b></button><button type="button" class="co-action-btn" data-open-community-form="contact">联系与合作 <b aria-hidden="true">↗</b></button></div></div>';
+      + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>可以提出一个问题，也可以选择合作方向并留下回复方式。</p></div><div class="co-contact-actions"><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题</button><button type="button" class="co-action-btn" data-open-community-form="contact">联系与合作</button></div></div>';
   }
 
   function publicQuestions(publicData) {
@@ -298,9 +298,9 @@
   function reportEntry() {
     return '<section class="co-section co-report-entry" id="co-reports" aria-labelledby="co-reports-title">'
       + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>找到一家企业的披露，也看看同行如何回应同一个议题。</p></div>'
-      + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库 →</a></div>'
+      + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库</a></div>'
       + '<form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
-      + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告 <span aria-hidden="true">→</span></button></div></form>'
+      + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告</button></div></form>'
       + '<p class="co-report-hint">企业与行业筛选 · 在线查看原文 · 报告清单导出</p></div></div></section>';
   }
 
@@ -313,11 +313,11 @@
     const cards = projectTools.map(item => {
       const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
       const actions = item.help
-        ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + item.help + '" target="_blank" rel="noopener">查看介绍 <b aria-hidden="true">↗</b></a><a href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装 <span aria-hidden="true">→</span></a></div>'
+        ? '<div class="co-tool-actions"><a class="co-tool-primary" href="' + item.help + '" target="_blank" rel="noopener">查看介绍</a><a href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装</a></div>'
         : item.tool
-          ? '<div class="co-tool-actions co-tool-actions--dual"><a class="co-tool-primary" href="' + pageHref(item.tool) + '">在线版 <b aria-hidden="true">→</b></a>'
+          ? '<div class="co-tool-actions co-tool-actions--dual"><a class="co-tool-primary" href="' + pageHref(item.tool) + '">在线版</a>'
             + (item.skillDownload
-              ? '<a href="' + escapeHtml(item.skillDownload) + '" target="_blank" rel="noopener noreferrer">Skill 下载 <span aria-hidden="true">↓</span></a>'
+              ? '<a href="' + escapeHtml(item.skillDownload) + '" target="_blank" rel="noopener noreferrer">Skill 下载</a>'
               : '<span class="co-tool-action-placeholder" aria-disabled="true"><b>Skill 下载</b><small>整理中</small></span>')
             + '</div>'
           : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
@@ -325,6 +325,30 @@
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
     return '<div class="co-projects">' + cards + '</div>';
+  }
+
+  function initializeHomeMotion() {
+    const root = document.getElementById('community-page');
+    if (!root || typeof root.querySelectorAll !== 'function') return;
+    const targets = [...root.querySelectorAll('.co-section-head, .co-band, .co-tool-card, .co-about-row, .co-social-area, .co-author-actions')];
+    root.classList.add('co-motion-ready');
+    targets.forEach((node, index) => {
+      node.classList.add('co-motion-item');
+      node.style.setProperty('--co-motion-delay', (index % 4) * 70 + 'ms');
+    });
+    const reduceMotion = typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion || typeof window.IntersectionObserver !== 'function') {
+      targets.forEach(node => node.classList.add('is-visible'));
+      return;
+    }
+    const observer = new window.IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+    targets.forEach(node => observer.observe(node));
   }
   async function initializeReportEntry() {
     const form = document.getElementById('co-report-form');
@@ -351,19 +375,19 @@
     const observations = publicObservations(publicData);
     const recentObservations = observations.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-projects"><span>' + svgIcon('ai') + '</span>项目与工具</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇微信二维码"><small>扫码添加微信</small></aside></header>'
+      + '<header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports"><span>' + svgIcon('search') + '</span>查询报告</a><a href="#co-knowledge"><span>' + svgIcon('methods') + '</span>学习知识</a><a href="#co-projects"><span>' + svgIcon('ai') + '</span>项目与工具</a><a href="#co-about"><span>' + svgIcon('person') + '</span>关于 Xiao〇</a></nav><div class="co-hero-meta"><small>社区内容在线更新</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"><small>扫码加入交流群</small></aside></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
-      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多　→</a></div><div class="co-items">'
+      + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
       + standards.slice(0, 6).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多　→</a></div><div class="co-items co-items--news">'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
-      + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页 <b aria-hidden="true">↗</b></a></article><div>' + renderOffers() + '</div></div>'
+      + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页</a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
-      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者　→</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
+      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
       + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
       + '<footer class="co-site-footer" aria-label="社区说明"><div><small>社区内容在线更新 · © 2026 Xiao〇</small><small>版权声明：原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small>信息与隐私：内容按公开资料整理，以官方现行文件为准；浏览和作者点赞只上传计数事件，不上传工作台资料；联系表单用于回复。</small><small>免责声明：个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
@@ -391,14 +415,13 @@
     const date = escapeHtml(item.date || '');
     const meta = [category, date].filter(Boolean).join(' · ');
     const number = String(index).padStart(2, '0');
-    const arrow = '<span class="co-obs-card-arrow" aria-hidden="true">↗</span>';
     const body = '<span class="co-obs-card-body"><small>' + meta + '</small><strong>' + title + '</strong>'
       + (summary ? '<p>' + summary + '</p>' : '') + '</span>';
     if (item.id) {
       return '<a class="co-observation-row" href="' + pageHref('observation.html', { id: item.id }) + '">'
-        + '<span class="co-obs-index">' + number + '</span>' + body + arrow + '</a>';
+        + '<span class="co-obs-index">' + number + '</span>' + body + '</a>';
     }
-    return '<article class="co-observation-row">' + '<span class="co-obs-index">' + number + '</span>' + body + arrow + '</article>';
+    return '<article class="co-observation-row">' + '<span class="co-obs-index">' + number + '</span>' + body + '</article>';
   }
 
   function pageNumbers(page, pageCount) {
@@ -421,9 +444,9 @@
       last = number;
     });
     return '<nav class="co-pagination" aria-label="观察分页">'
-      + '<button type="button" class="co-page-btn' + (page <= 1 ? ' is-disabled' : '') + '" data-page="' + (page - 1) + '"' + (page <= 1 ? ' disabled' : '') + '>← 上一页</button>'
+      + '<button type="button" class="co-page-btn' + (page <= 1 ? ' is-disabled' : '') + '" data-page="' + (page - 1) + '"' + (page <= 1 ? ' disabled' : '') + '>上一页</button>'
       + buttons
-      + '<button type="button" class="co-page-btn' + (page >= pageCount ? ' is-disabled' : '') + '" data-page="' + (page + 1) + '"' + (page >= pageCount ? ' disabled' : '') + '>下一页 →</button>'
+      + '<button type="button" class="co-page-btn' + (page >= pageCount ? ' is-disabled' : '') + '" data-page="' + (page + 1) + '"' + (page >= pageCount ? ' disabled' : '') + '>下一页</button>'
       + '<span class="co-pagination-total">共 ' + total + ' 条 · 第 ' + page + ' / ' + pageCount + ' 页</span>'
       + '</nav>';
   }
@@ -458,7 +481,7 @@
   function renderObservationsPage(publicData) {
     const root = document.getElementById('observations-page');
     if (!root) return;
-    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small data-obs-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-obs-search placeholder="搜索标题、摘要或分类…" aria-label="搜索观察"><button type="button" class="co-obs-search-clear" data-obs-clear hidden>清除</button></div><div id="co-observations-content"></div></section></main>';
+    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small data-obs-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-obs-search placeholder="搜索标题、摘要或分类…" aria-label="搜索观察"><button type="button" class="co-obs-search-clear" data-obs-clear hidden>清除</button></div><div id="co-observations-content"></div></section></main>';
     const search = root.querySelector('[data-obs-search]');
     const clear = root.querySelector('[data-obs-clear]');
     const refresh = () => {
@@ -526,18 +549,18 @@
     const id = new URLSearchParams(location.search).get('id') || '';
     const item = observationById(publicData, id);
     if (!item) {
-      root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">← 返回资讯与观察</a>' + emptyState('未找到该资讯，可能已被移除。') + '</main>';
+      root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯与观察</a>' + emptyState('未找到该资讯，可能已被移除。') + '</main>';
       return;
     }
     const category = escapeHtml(item.category || '观察');
     const title = escapeHtml(item.title || '');
     const summary = escapeHtml(item.summary || '');
     const date = escapeHtml(item.date || '');
-    root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">← 返回资讯与观察</a>'
+    root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯与观察</a>'
       + '<header class="co-observation-hero"><span class="co-eyebrow">' + category + (date ? ' · ' + date : '') + '</span><h1>' + title + '</h1>'
       + (summary ? '<p>' + summary + '</p>' : '') + '</header>'
       + '<div class="co-obs-body">' + renderObservationBlocks(item) + '</div>'
-      + '<footer class="co-observation-foot"><a class="co-observation-back" href="' + pageHref('community.html') + '">← 返回 Xiao〇 ESG社区</a></footer></main>';
+      + '<footer class="co-observation-foot"><a class="co-observation-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a></footer></main>';
   }
 
   function notifyHost(page) {
@@ -550,6 +573,7 @@
     const isCommunityHome = Boolean(document.getElementById('community-page'));
     if (isCommunityHome) {
       render(data);
+      initializeHomeMotion();
       void initializeReportEntry();
       document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
         document.querySelector('[data-form-loading]')?.classList.add('loaded');
