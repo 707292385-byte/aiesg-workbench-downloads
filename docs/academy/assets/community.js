@@ -304,9 +304,10 @@
     return '<section class="co-section co-report-entry" id="co-reports" aria-labelledby="co-reports-title">'
       + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>收录A股港股40000+份ESG报告</p></div>'
       + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库</a></div>'
-      + '<form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
+      + '<div class="co-report-workspace"><div class="co-report-cloud" aria-hidden="true"><span class="co-report-cloud-main">ESG报告</span><span>可持续发展报告</span><span>社会责任报告</span><span>环境、社会及管治报告</span><span>CSR报告</span><span>气候相关披露</span><span>可持续信息披露</span></div>'
+      + '<div class="co-report-controls"><form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
       + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告</button></div></form>'
-      + '<p class="co-report-hint">企业与行业筛选 · 在线查看原文 · 报告清单导出</p></div></div></section>';
+      + '<p class="co-report-hint">企业与行业筛选 · 在线查看原文 · 报告清单导出</p></div></div></div></div></section>';
   }
 
   function renderProjects() {
