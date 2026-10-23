@@ -183,8 +183,8 @@
   function renderHeader() {
     return '<header class="dm-header">'
       + '<div class="dm-header-top"><a class="dm-back" href="' + pageHref('community.html#co-projects') + '">← 返回项目与工具</a><span>体验版 · 浏览器自动保存</span></div>'
-      + '<div class="dm-header-main"><div><span class="dm-eyebrow">DOUBLE MATERIALITY ASSESSMENT</span><h1>双重重要性评估</h1><p>从行业和披露标准形成候选议题，再用影响重要性与财务重要性完成排序和矩阵展示。</p></div>'
-      + '<div class="dm-header-mark" aria-hidden="true"><b>2</b><span>个维度</span></div></div>'
+      + '<div class="dm-header-main"><div><span class="dm-eyebrow">DOUBLE MATERIALITY ASSESSMENT</span><h1>双重重要性评估</h1><p>从行业和披露标准形成候选议题，再用影响重要性与财务重要性完成排序和矩阵展示。</p></div></div>'
+      + renderStepper()
       + '</header>';
   }
 
@@ -195,7 +195,7 @@
       [3, '问卷收集', '导出、回收与导入', Boolean(state.selected.length)],
       [4, '评分与矩阵', '复核分数与输出', Boolean(state.selected.length && canOpenScores())]
     ];
-    return '<nav class="dm-stepper" aria-label="评估步骤">' + steps.map(item => '<button type="button" class="' + (state.step === item[0] ? 'is-active' : state.step > item[0] ? 'is-complete' : '') + '" data-step="' + item[0] + '" ' + (item[3] ? '' : 'disabled') + '><b>0' + item[0] + '</b><span><strong>' + item[1] + '</strong><small>' + item[2] + '</small></span></button>').join('') + '</nav>';
+    return '<nav class="dm-hero-flow" aria-label="评估步骤">' + steps.map(item => '<button type="button" class="' + (state.step === item[0] ? 'is-active' : state.step > item[0] ? 'is-complete' : '') + '" data-step="' + item[0] + '" ' + (item[3] ? '' : 'disabled') + '><b>0' + item[0] + '</b><span><strong>' + item[1] + '</strong><small>' + item[2] + '</small></span></button>').join('') + '</nav>';
   }
 
   function renderCompanySetup() {
@@ -424,7 +424,10 @@
   function render() {
     const root = document.getElementById('materiality-app');
     if (!root) return;
-    root.innerHTML = '<div class="dm-shell">' + renderHeader() + renderStepper() + (state.step < 4 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer><div class="dm-toast" data-toast role="status" aria-live="polite"></div></div>';
+    root.innerHTML = '<div class="dm-shell">' + renderHeader() + (state.step < 4 ? renderStepOne() : renderStepTwo()) + '<footer class="dm-footer"><span>议题库版本 ' + escapeHtml(library.version) + '</span><p>' + escapeHtml(library.notice) + '</p></footer><div class="dm-toast" data-toast role="status" aria-live="polite"></div></div>';
+    const heroFlow = root.querySelector('.dm-hero-flow');
+    const activeStep = heroFlow && heroFlow.querySelector('.is-active');
+    if (heroFlow && activeStep) heroFlow.scrollLeft = Math.max(0, activeStep.offsetLeft - (heroFlow.clientWidth - activeStep.clientWidth) / 2);
   }
 
   function updateResultsOnly() {
