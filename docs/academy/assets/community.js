@@ -297,7 +297,7 @@
 
   function reportEntry() {
     return '<section class="co-section co-report-entry" id="co-reports" aria-labelledby="co-reports-title">'
-      + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>找到一家企业的披露，也看看同行如何回应同一个议题。</p></div>'
+      + '<div class="co-band co-band--reports"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3 id="co-reports-title">ESG 报告查询</h3><p>收录A股港股40000+份ESG报告</p></div>'
       + '<div class="co-band-content"><div class="co-band-head"><strong data-report-summary>A股与港股 · 企业报告检索</strong><a class="co-more" href="' + pageHref('reports.html') + '">进入报告库</a></div>'
       + '<form class="co-report-form" id="co-report-form"><label class="co-report-search"><span>' + svgIcon('search') + '</span><input name="q" type="search" placeholder="搜索企业名称、证券代码或报告名称" aria-label="搜索企业名称、证券代码或报告名称"></label>'
       + '<div class="co-report-filters"><select name="industry" aria-label="报告查询行业"><option value="">全部行业</option></select><select name="year" aria-label="报告查询年度"><option value="">全部年度</option><option value="2025">2025年度</option><option value="2024">2024年度</option><option value="2023">2023年度</option><option value="2022">2022年度</option><option value="2021">2021年度</option></select><button type="submit">查询报告</button></div></form>'
@@ -381,7 +381,7 @@
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
       + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>只展示已经完成整理并准备公开的内容；新的观察会在这里持续更新。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>每天更新ESG最新资讯动态</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
