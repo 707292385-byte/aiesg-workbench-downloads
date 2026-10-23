@@ -252,7 +252,7 @@
     return '<section class="dm-questionnaire-workflow dm-panel"><div class="dm-panel-head"><div><small>问卷收集</small><h2>确定议题后，再收集评分证据</h2></div><p>问卷是形成建议分的一种证据来源。如果本次不开展问卷，也可以明确进入内部评分；系统不会在选择议题时自动生成分数。</p></div>'
       + '<div class="dm-questionnaire-steps"><div class="dm-questionnaire-step' + stepClass(1) + '"><b>1</b><span><strong>确认议题</strong><small>' + state.selected.length + ' 个议题已选</small></span></div><div class="dm-questionnaire-step' + stepClass(2) + '"><b>2</b><span><strong>导出问卷包</strong><small>生成问卷与映射文件</small></span></div><div class="dm-questionnaire-step' + stepClass(3) + '"><b>3</b><span><strong>问卷星发布与回收</strong><small>在问卷星完成外部收集</small></span></div><div class="dm-questionnaire-step' + stepClass(4) + '"><b>4</b><span><strong>导入原始答卷</strong><small>Excel／CSV 生成建议分</small></span></div></div>'
       + '<div class="dm-package-guide"><div class="dm-package-guide-title"><span>问卷包怎么用</span><small>按你的使用场景，只打开对应目录即可</small></div>'
-      + '<div><b>发给客户确认</b><p>打开 <strong>01_客户沟通</strong> 中的 Word。补充对象、时间和联系人后发送，也可直接打印填写。</p></div>'
+      + '<div><b>发给客户确认</b><p>直接下载 Word，补充对象、时间和联系人后发送，也可另存为 PDF 或打印填写。</p><button type="button" data-action="export-questionnaire-word"' + (state.selected.length ? '' : ' disabled') + '>只下载客户版 Word</button></div>'
       + '<div><b>自己创建问卷星</b><p>打开 <strong>02_问卷星创建</strong>。人工录入看 TXT；交给智能体或官方工具使用 JSONL。</p></div>'
       + '<div><b>回收后生成结果</b><p>从问卷星下载原始 Excel／CSV，不改题目代码，再回到本页导入答卷。</p></div></div>'
       + '<div class="dm-questionnaire-bottom"><div class="dm-questionnaire-status">' + status + '</div><div class="dm-questionnaire-actions"><button type="button" class="dm-secondary" data-action="export-questionnaire"' + (state.selected.length ? '' : ' disabled') + '>' + (exported ? '重新导出问卷包' : '导出问卷包') + '</button><button type="button" class="dm-secondary" data-action="select-survey-file"' + (exported ? '' : ' disabled') + '>导入答卷 Excel</button><input type="file" data-survey-file accept=".xlsx,.xls,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>' + (imported ? '<button type="button" class="dm-link-button" data-action="clear-survey-import">清除本次导入</button>' : '') + '<button type="button" class="dm-primary" data-action="' + (imported || state.scoringStarted ? 'go-scores' : 'start-internal-scoring') + '"' + (state.selected.length ? '' : ' disabled') + '>' + nextLabel + ' <span>→</span></button></div></div></section>';
@@ -686,6 +686,16 @@
     downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性问卷包_V' + state.questionnaireVersion + '.zip');
     render();
     showToast('问卷包 V' + state.questionnaireVersion + ' 已导出');
+  }
+
+  async function exportQuestionnaireWord() {
+    if (!window.JSZip) throw new Error('Word 生成组件未加载，请刷新页面后重试');
+    const files = questionnairePackageFiles();
+    const manifest = JSON.parse(files['03_结果回导/assessment-manifest.json']);
+    const word = await buildQuestionnaireDocx(manifest);
+    downloadBlob(new Blob([word], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }), safeFilename(state.companyName) + '_双重重要性问卷方案_V' + state.questionnaireVersion + '.docx');
+    render();
+    showToast('客户版 Word V' + state.questionnaireVersion + ' 已导出');
   }
 
   function parseCsvText(text) {
@@ -1219,6 +1229,7 @@
     if (action === 'go-scores' && canOpenScores()) { state.step = 2; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'back-topics') { state.step = 1; saveState(); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     if (action === 'export-questionnaire') exportQuestionnairePackage().catch(error => showToast(error.message || '问卷包导出失败', 'error'));
+    if (action === 'export-questionnaire-word') exportQuestionnaireWord().catch(error => showToast(error.message || 'Word 导出失败', 'error'));
     if (action === 'select-survey-file') document.querySelector('[data-survey-file]')?.click();
     if (action === 'clear-survey-import') clearSurveyImport();
     if (action === 'export-matrix') exportMatrixImage();
