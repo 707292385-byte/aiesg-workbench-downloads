@@ -459,13 +459,13 @@
     const optionalTitles = ['【OPEN-EVIDENCE】请补充您作出判断的依据、案例或建议', '【OPEN-MISSING】您认为还遗漏了哪些重要议题'];
     const impactRows = state.questionnaireMap.filter(item => item.dimension === 'impact').map(item => '【' + item.code + '】' + item.name);
     const financialRows = state.questionnaireMap.filter(item => item.dimension === 'financial').map(item => '【' + item.code + '】' + item.name);
-    const choices = ['无法判断', '1', '2', '3', '4', '5'];
+    const choices = ['NA 无法判断', '1 很低', '2 较低', '3 一般', '4 较高', '5 很高'];
     const jsonlObjects = [
       { qtype: '问卷基础信息', title, introduction: marker + ' 本问卷用于收集双重重要性评估证据。请根据了解程度作答；不具备判断条件时选择“无法判断”。', atype: 1 },
       { qtype: '单选', title: '【ROLE】您属于哪类利益相关方', select: ['董事会或管理层', '业务或职能部门', '员工', '客户或消费者', '供应商或合作伙伴', '投资者或金融机构', '社区或其他受影响群体', '其他'] },
       { qtype: '单选', title: '【FAMILIARITY】您对本企业经营及可持续发展情况的熟悉程度', select: ['非常熟悉', '比较熟悉', '一般', '不太熟悉', '不了解'] },
-      { qtype: '矩阵量表', title: marker + '影响重要性评价：企业对经济、环境和人的影响程度', rowtitle: impactRows, select: choices, minvaluetext: '影响很低', maxvaluetext: '影响很高' },
-      { qtype: '矩阵量表', title: marker + '财务重要性评价：议题对企业发展、财务状况和经营成果的影响程度', rowtitle: financialRows, select: choices, minvaluetext: '影响很低', maxvaluetext: '影响很高' },
+      { qtype: '矩阵单选', title: marker + '影响重要性评价：企业对经济、环境和人的影响程度', rowtitle: impactRows, select: choices },
+      { qtype: '矩阵单选', title: marker + '财务重要性评价：议题对企业发展、财务状况和经营成果的影响程度', rowtitle: financialRows, select: choices },
       { qtype: '简答题', title: optionalTitles[0], requir: false },
       { qtype: '简答题', title: optionalTitles[1], requir: false }
     ];
@@ -473,8 +473,8 @@
     const textLines = [title, marker + ' 本问卷用于收集双重重要性评估证据。不了解或不具备判断条件时请选择“无法判断”。', '===',
       '1. 【ROLE】您属于哪类利益相关方 [单选题]', '董事会或管理层', '业务或职能部门', '员工', '客户或消费者', '供应商或合作伙伴', '投资者或金融机构', '社区或其他受影响群体', '其他',
       '2. 【FAMILIARITY】您对本企业经营及可持续发展情况的熟悉程度 [单选题]', '非常熟悉', '比较熟悉', '一般', '不太熟悉', '不了解',
-      '3. ' + marker + '影响重要性评价 [矩阵量表题]', '行：', ...impactRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
-      '4. ' + marker + '财务重要性评价 [矩阵量表题]', '行：', ...financialRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
+      '3. ' + marker + '影响重要性评价 [矩阵单选题]', '行：', ...impactRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
+      '4. ' + marker + '财务重要性评价 [矩阵单选题]', '行：', ...financialRows.map(item => '- ' + item), '列：', ...choices.map(item => '- ' + item),
       '5. ' + optionalTitles[0] + ' [简答题]', '6. ' + optionalTitles[1] + ' [简答题]'];
     const industry = library.industries.find(item => item.id === state.industry)?.name || state.industry;
     const manifest = {
