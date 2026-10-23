@@ -110,9 +110,11 @@ body[data-page=knowledge-detail]>.skip,body[data-page=knowledge-detail]>.site-he
 .kd-grid-title:first-child{margin-top:0}
 .kd-card-after{margin:7px 0 0;color:#5e7568;font-size:12px;line-height:1.65}
 .kd-card-grid.cols-2,.kd-pillars.cols-2{grid-template-columns:repeat(2,1fr)}
+.kd-flow.cols-3,.kd-card-grid.cols-3,.kd-pillars.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
 .kd-card-grid.cols-1,.kd-pillars.cols-1{grid-template-columns:1fr}
 .kd-card-grid ul{margin:8px 0 0;padding-left:16px;color:#60776b;font-size:11.5px;line-height:1.6;display:grid;gap:3px}
 .kd-card-grid article>p{white-space:pre-line}
+@media(max-width:640px){.kd-flow.cols-3,.kd-card-grid.cols-3,.kd-pillars.cols-3{grid-template-columns:1fr}}
 
 /* ===== CSA 速览面板 + 问题组两级折叠（2026-10-12 视觉重构） ===== */
 .kd-quick-panel{display:flex;flex-direction:column;gap:16px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:22px 24px;}
