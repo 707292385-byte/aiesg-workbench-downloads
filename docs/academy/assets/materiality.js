@@ -4,6 +4,7 @@
   const STORAGE_KEY = 'aiesg-double-materiality-v1';
   const CATEGORY_NAMES = { E: '环境', S: '社会', G: '治理' };
   const CATEGORY_COLORS = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
+  const DEFAULT_MATRIX_COLORS = { double: '#1f5b45', single: '#dceee3', none: '#ffffff' };
   const DEFAULT_STANDARDS = ['ashare', 'esrs'];
   const embedded = new URLSearchParams(location.search).get('embed') === '1';
   let library = null;
@@ -44,6 +45,7 @@
       activeScoreTopicId: '',
       notes: {},
       threshold: 3,
+      matrixColors: Object.assign({}, DEFAULT_MATRIX_COLORS),
       categoryFilter: 'all',
       topicView: 'cards',
       assessmentId: createAssessmentId(),
@@ -73,6 +75,7 @@
         loaded.flowStateVersion = 4;
       }
       if (!['cards', 'list'].includes(loaded.topicView)) loaded.topicView = 'cards';
+      loaded.matrixColors = Object.fromEntries(Object.entries(DEFAULT_MATRIX_COLORS).map(([key, fallback]) => [key, normalizeColor(loaded.matrixColors?.[key], fallback)]));
       return loaded;
     } catch (_) {
       return emptyState();
@@ -81,6 +84,15 @@
 
   function saveState() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (_) {}
+  }
+
+  function normalizeColor(value, fallback) {
+    const color = String(value || '').trim();
+    return /^#[0-9a-f]{6}$/i.test(color) ? color.toLowerCase() : fallback;
+  }
+
+  function matrixColors() {
+    return Object.fromEntries(Object.entries(DEFAULT_MATRIX_COLORS).map(([key, fallback]) => [key, normalizeColor(state?.matrixColors?.[key], fallback)]));
   }
 
   function topicMap() {
@@ -303,7 +315,7 @@
     return axis === 'x' ? 72 + ((score - 1) / 4) * 468 : 522 - ((score - 1) / 4) * 438;
   }
 
-  function spreadPoints(points, minDistance = 31, bounds = { minX: 88, maxX: 524, minY: 100, maxY: 506 }) {
+  function spreadPoints(points, minDistance = 24, bounds = { minX: 84, maxX: 528, minY: 96, maxY: 510 }) {
     const offsets = [{ x: 0, y: 0 }];
     for (let ring = 1; ring <= 4; ring += 1) {
       const count = ring * 8;
@@ -350,28 +362,34 @@
     if (!topics.length) return '<div class="dm-matrix-empty"><strong>尚未形成可绘制的双维分数</strong><p>导入问卷答卷，或返回第一步明确开始内部评分后，矩阵才会出现。</p></div>';
     const thresholdX = matrixPosition(state.threshold, 'x');
     const thresholdY = matrixPosition(state.threshold, 'y');
+    const colors = matrixColors();
     const grid = [1, 2, 3, 4, 5].map(value => {
       const x = matrixPosition(value, 'x');
       const y = matrixPosition(value, 'y');
       return '<line x1="' + x + '" x2="' + x + '" y1="84" y2="522"/><line x1="72" x2="540" y1="' + y + '" y2="' + y + '"/><text x="' + x + '" y="548">' + value + '</text><text x="53" y="' + (y + 4) + '">' + value + '</text>';
     }).join('');
     const points = matrixPointLayout(topics).map(point => {
-      const { topic, index, scores, baseX, baseY, x, y } = point;
+      const { topic, index, scores, x, y } = point;
       const label = displayName(topic);
       const number = index + 1;
-      const leader = Math.hypot(x - baseX, y - baseY) > 2 ? '<line class="dm-point-leader" x1="' + baseX + '" y1="' + baseY + '" x2="' + x + '" y2="' + y + '"></line>' : '';
-      return leader + '<g class="dm-point dm-point--' + topic.category.toLowerCase() + '" tabindex="0" role="button" data-matrix-topic="' + topic.id + '" aria-label="' + escapeHtml(label) + '，影响重要性' + scores.impact + '，财务重要性' + scores.financial + '"><circle cx="' + x + '" cy="' + y + '" r="13"></circle><text x="' + x + '" y="' + (y + 4) + '">' + number + '</text><title>' + escapeHtml(label) + '｜影响 ' + scores.impact + '｜财务 ' + scores.financial + '</title></g>';
+      return '<g class="dm-point dm-point--' + topic.category.toLowerCase() + '" tabindex="0" role="button" data-matrix-topic="' + topic.id + '" aria-label="' + escapeHtml(label) + '，影响重要性' + scores.impact + '，财务重要性' + scores.financial + '"><circle cx="' + x + '" cy="' + y + '" r="9"></circle><text x="' + x + '" y="' + (y + 3) + '">' + number + '</text><title>' + escapeHtml(label) + '｜影响 ' + scores.impact + '｜财务 ' + scores.financial + '</title></g>';
     }).join('');
     return '<svg class="dm-matrix" viewBox="0 0 600 590" role="img" aria-labelledby="dm-matrix-title dm-matrix-desc">'
       + '<title id="dm-matrix-title">双重重要性矩阵</title><desc id="dm-matrix-desc">横轴是财务重要性，纵轴是影响重要性，虚线为当前阈值。</desc>'
-      + '<rect class="dm-quadrant q-impact" x="72" y="84" width="' + Math.max(0, thresholdX - 72) + '" height="' + Math.max(0, thresholdY - 84) + '"></rect>'
-      + '<rect class="dm-quadrant q-double" x="' + thresholdX + '" y="84" width="' + Math.max(0, 540 - thresholdX) + '" height="' + Math.max(0, thresholdY - 84) + '"></rect>'
-      + '<rect class="dm-quadrant q-financial" x="' + thresholdX + '" y="' + thresholdY + '" width="' + Math.max(0, 540 - thresholdX) + '" height="' + Math.max(0, 522 - thresholdY) + '"></rect>'
+      + '<rect class="dm-quadrant q-single" x="72" y="84" width="' + Math.max(0, thresholdX - 72) + '" height="' + Math.max(0, thresholdY - 84) + '" fill="' + colors.single + '"></rect>'
+      + '<rect class="dm-quadrant q-double" x="' + thresholdX + '" y="84" width="' + Math.max(0, 540 - thresholdX) + '" height="' + Math.max(0, thresholdY - 84) + '" fill="' + colors.double + '"></rect>'
+      + '<rect class="dm-quadrant q-none" x="72" y="' + thresholdY + '" width="' + Math.max(0, thresholdX - 72) + '" height="' + Math.max(0, 522 - thresholdY) + '" fill="' + colors.none + '"></rect>'
+      + '<rect class="dm-quadrant q-single" x="' + thresholdX + '" y="' + thresholdY + '" width="' + Math.max(0, 540 - thresholdX) + '" height="' + Math.max(0, 522 - thresholdY) + '" fill="' + colors.single + '"></rect>'
       + '<g class="dm-grid">' + grid + '</g><line class="dm-threshold-line" x1="' + thresholdX + '" x2="' + thresholdX + '" y1="84" y2="522"></line><line class="dm-threshold-line" x1="72" x2="540" y1="' + thresholdY + '" y2="' + thresholdY + '"></line>'
       + '<line class="dm-axis" x1="72" x2="540" y1="522" y2="522"></line><line class="dm-axis" x1="72" x2="72" y1="84" y2="522"></line>'
       + '<text class="dm-axis-title" x="306" y="579">财务重要性 →</text><text class="dm-axis-title" x="-305" y="20" transform="rotate(-90)">影响重要性 →</text>'
-      + '<text class="dm-quadrant-label" x="88" y="108">影响重要</text><text class="dm-quadrant-label" x="' + (thresholdX + 14) + '" y="108">双重重要</text><text class="dm-quadrant-label" x="' + (thresholdX + 14) + '" y="' + (thresholdY + 25) + '">财务重要</text>'
       + '<g class="dm-points">' + points + '</g></svg>';
+  }
+
+  function renderMatrixLegend() {
+    const colors = matrixColors();
+    const regions = [['double', '双重重要'], ['single', '单一重要'], ['none', '不重要']];
+    return '<div class="dm-matrix-legend"><div class="dm-region-colors"><b>区域颜色</b>' + regions.map(([key, label]) => '<label><input type="color" value="' + colors[key] + '" data-matrix-color="' + key + '" aria-label="修改' + label + '区域颜色"><i style="background:' + colors[key] + '"></i><span>' + label + '</span></label>').join('') + '</div><div class="dm-topic-colors"><b>议题类别</b><span><i class="e"></i>环境</span><span><i class="s"></i>社会</span><span><i class="g"></i>治理</span></div></div>';
   }
 
   function scoreSummary() {
@@ -437,7 +455,7 @@
     const summary = scoreSummary();
     const completed = scoredTopics().length;
     return '<section class="dm-results dm-panel"><div class="dm-result-toolbar"><div><small>结果视图</small><h2>' + escapeHtml(state.companyName || '本次评估') + '</h2><p>' + completed + '／' + state.selected.length + ' 个议题已形成双维分数</p></div><div class="dm-toolbar-actions"><button type="button" data-action="export-matrix"' + (completed ? '' : ' disabled') + '>导出矩阵图片</button><button type="button" data-action="export-list"' + (completed ? '' : ' disabled') + '>导出议题清单</button><button type="button" data-action="print">打印</button></div></div>'
-      + '<div class="dm-result-layout"><div class="dm-matrix-column"><div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div><div class="dm-legend"><span><i class="e"></i>环境</span><span><i class="s"></i>社会</span><span><i class="g"></i>治理</span><small>引导线连接原始得分坐标，圆点编号对应下方议题顺序</small></div></div>'
+      + '<div class="dm-result-layout"><div class="dm-matrix-column"><div class="dm-matrix-wrap" data-matrix-wrap>' + renderMatrix() + '</div>' + renderMatrixLegend() + '</div>'
       + '<aside class="dm-result-side"><div class="dm-side-title"><small>结果概览</small><strong>' + completed + ' 个已评分</strong></div><div class="dm-summary" aria-live="polite"><div><strong data-summary="double">' + summary.double + '</strong><span>双重重要</span></div><div><strong data-summary="impact">' + summary.impact + '</strong><span>仅影响重要</span></div><div><strong data-summary="financial">' + summary.financial + '</strong><span>仅财务重要</span></div><div><strong data-summary="below">' + summary.below + '</strong><span>低于阈值</span></div>' + (summary.unscored ? '<div class="dm-summary-unscored"><strong data-summary="unscored">' + summary.unscored + '</strong><span>待补充评分</span></div>' : '') + '</div><div class="dm-threshold"><label><span>重要性阈值</span><input type="range" min="1.5" max="4.5" step="0.1" value="' + state.threshold + '" data-threshold><output data-threshold-output>' + Number(state.threshold).toFixed(1) + '</output></label><p>两个维度分别与阈值比较。阈值应由企业批准，并保留判断依据。</p></div><div class="dm-result-rule"><b>判定方式</b><span>双维均达阈值：双重重要</span><span>单维达阈值：影响或财务重要</span></div></aside></div>'
       + '</section>';
   }
@@ -1069,26 +1087,23 @@
     const context = canvas.getContext('2d');
     const chart = { left: 190, top: 190, width: 1050, height: 800 };
     const pointColors = { E: '#138a61', S: '#2878b8', G: '#d48a24' };
+    const colors = matrixColors();
     const scoreX = score => chart.left + ((score - 1) / 4) * chart.width;
     const scoreY = score => chart.top + chart.height - ((score - 1) / 4) * chart.height;
     const thresholdX = scoreX(state.threshold);
     const thresholdY = scoreY(state.threshold);
-    const industry = library.industries.find(item => item.id === state.industry)?.name || state.industry;
-
     context.fillStyle = '#ffffff';
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.fillStyle = '#17382e';
     context.font = '700 42px sans-serif';
     context.fillText((state.companyName || '本次评估') + '｜双重重要性矩阵', 70, 68);
-    context.fillStyle = '#667c72';
-    context.font = '22px sans-serif';
-    context.fillText('行业：' + industry + '　阈值：' + Number(state.threshold).toFixed(1) + '　议题：' + state.selected.length + '项', 70, 108);
-
-    context.fillStyle = '#e9f5ee';
+    context.fillStyle = colors.single;
     context.fillRect(chart.left, chart.top, thresholdX - chart.left, thresholdY - chart.top);
-    context.fillStyle = '#dff2e7';
+    context.fillStyle = colors.double;
     context.fillRect(thresholdX, chart.top, chart.left + chart.width - thresholdX, thresholdY - chart.top);
-    context.fillStyle = '#edf2f8';
+    context.fillStyle = colors.none;
+    context.fillRect(chart.left, thresholdY, thresholdX - chart.left, chart.top + chart.height - thresholdY);
+    context.fillStyle = colors.single;
     context.fillRect(thresholdX, thresholdY, chart.left + chart.width - thresholdX, chart.top + chart.height - thresholdY);
 
     context.strokeStyle = '#dfe8e2';
@@ -1122,13 +1137,6 @@
     context.stroke();
     context.setLineDash([]);
 
-    context.fillStyle = '#587064';
-    context.font = '700 22px sans-serif';
-    context.textAlign = 'left';
-    context.fillText('影响重要', chart.left + 24, chart.top + 38);
-    context.fillText('双重重要', thresholdX + 24, chart.top + 38);
-    context.fillText('财务重要', thresholdX + 24, thresholdY + 38);
-
     const exportPoints = matrixPointLayout(scoredTopics()).map(point => ({
       ...point,
       x: chart.left + ((point.x - 72) / 468) * chart.width,
@@ -1137,27 +1145,18 @@
       baseY: chart.top + ((point.baseY - 84) / 438) * chart.height
     }));
     exportPoints.forEach(point => {
-      if (Math.hypot(point.x - point.baseX, point.y - point.baseY) <= 2) return;
-      context.beginPath();
-      context.moveTo(point.baseX, point.baseY);
-      context.lineTo(point.x, point.y);
-      context.strokeStyle = '#9aaca3';
-      context.lineWidth = 2;
-      context.stroke();
-    });
-    exportPoints.forEach(point => {
       const { topic, index, x, y } = point;
       context.beginPath();
-      context.arc(x, y, 21, 0, Math.PI * 2);
+      context.arc(x, y, 14, 0, Math.PI * 2);
       context.fillStyle = pointColors[topic.category] || '#607d72';
       context.fill();
       context.strokeStyle = '#ffffff';
-      context.lineWidth = 4;
+      context.lineWidth = 3;
       context.stroke();
       context.fillStyle = '#ffffff';
-      context.font = '700 16px sans-serif';
+      context.font = '700 12px sans-serif';
       context.textAlign = 'center';
-      context.fillText(String(index + 1), x, y + 6);
+      context.fillText(String(index + 1), x, y + 4);
     });
 
     context.fillStyle = '#355f4b';
@@ -1172,9 +1171,22 @@
 
     context.textAlign = 'left';
     context.font = '18px sans-serif';
-    const legend = [['#138a61', '环境'], ['#2878b8', '社会'], ['#d48a24', '治理']];
-    let legendX = 70;
-    legend.forEach(item => {
+    context.fillStyle = '#4f675c';
+    context.fillText('区域', 70, 1146);
+    let legendX = 125;
+    [['double', '双重重要'], ['single', '单一重要'], ['none', '不重要']].forEach(([key, label]) => {
+      context.fillStyle = colors[key];
+      context.fillRect(legendX, 1128, 24, 18);
+      context.strokeStyle = '#b9c8c0';
+      context.lineWidth = 1;
+      context.strokeRect(legendX, 1128, 24, 18);
+      context.fillStyle = '#4f675c';
+      context.fillText(label, legendX + 34, 1146);
+      legendX += label === '双重重要' ? 142 : 124;
+    });
+    context.fillText('议题', legendX + 12, 1146);
+    legendX += 68;
+    [['#138a61', '环境'], ['#2878b8', '社会'], ['#d48a24', '治理']].forEach(item => {
       context.beginPath();
       context.arc(legendX, 1140, 8, 0, Math.PI * 2);
       context.fillStyle = item[0];
@@ -1183,7 +1195,6 @@
       context.fillText(item[1], legendX + 15, 1146);
       legendX += 90;
     });
-    context.fillText('圆点编号对应导出议题清单中的序号', legendX + 15, 1146);
 
     canvas.toBlob(blob => {
       if (blob) downloadBlob(blob, safeFilename(state.companyName) + '_双重重要性矩阵.png');
@@ -1200,6 +1211,16 @@
     if (target.matches('[data-topic-name]')) {
       state.names[target.dataset.topicName] = target.value.trim();
       saveState();
+      return;
+    }
+    if (target.matches('[data-matrix-color]')) {
+      const key = target.dataset.matrixColor;
+      if (!Object.hasOwn(DEFAULT_MATRIX_COLORS, key)) return;
+      state.matrixColors[key] = normalizeColor(target.value, DEFAULT_MATRIX_COLORS[key]);
+      const swatch = target.parentElement?.querySelector('i');
+      if (swatch) swatch.style.background = state.matrixColors[key];
+      saveState();
+      updateResultsOnly();
       return;
     }
     if (target.matches('[data-score]')) {
