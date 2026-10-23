@@ -490,7 +490,7 @@
     });
     const importHeaders = ['序号', '提交时间', marker + '【ROLE】利益相关方类型', ...manifest.topics.map(topic => marker + '【' + topic.impactCode + '】' + topic.name), ...manifest.topics.map(topic => marker + '【' + topic.financialCode + '】' + topic.name)];
     const scoring = {
-      schemaVersion: '1.0', scale: { min: 1, max: 5, ignoredValues: ['无法判断', '不了解', '不适用', ''] },
+      schemaVersion: '1.0', scale: { min: 1, max: 5, ignoredValues: ['NA 无法判断', '无法判断', '不了解', '不适用', ''] },
       aggregation: { method: 'arithmetic_mean', rounding: 1, show: ['count', 'mean', 'median', 'standardDeviation'] },
       dimensions: { impact: '影响重要性', financial: '财务重要性' },
       decisionBoundary: '问卷均值作为建议分，最终分数、权重和阈值由企业审议确认。'
@@ -679,7 +679,8 @@
     const mapEntries = (config.questionnaireMap || state.questionnaireMap || []).length ? (config.questionnaireMap || state.questionnaireMap) : buildQuestionnaireMap();
     const codeMap = new Map(mapEntries.map(item => [item.code, item]));
     const columnCount = rows.slice(0, 12).reduce((max, row) => Math.max(max, row.length || 0), 0);
-    const columnHeaders = Array.from({ length: columnCount }, (_, column) => rows.slice(0, 12).map(row => String(row[column] == null ? '' : row[column]).trim()).filter(Boolean).join('｜'));
+    const headerRows = rows.slice(0, 12);
+    const columnHeaders = Array.from({ length: columnCount }, (_, column) => headerRows.map(row => String(row[column] == null ? '' : row[column]).trim()).filter(Boolean).join('｜'));
     const mappedColumns = new Map();
     let roleColumn = -1;
     columnHeaders.forEach((header, column) => {
@@ -694,8 +695,13 @@
     const expectedVersion = Number(config.questionnaireVersion || state.questionnaireVersion || 1);
     if (marker && marker[1].toUpperCase() !== expectedCode) throw new Error('答卷属于另一项评估，评估编号不一致');
     if (marker && Number(marker[2]) !== expectedVersion) throw new Error('答卷版本为 V' + marker[2] + '，当前页面需要 V' + expectedVersion);
+    let headerEnd = -1;
+    headerRows.forEach((row, rowIndex) => {
+      const text = (row || []).map(value => String(value == null ? '' : value)).join('｜');
+      if (/【(?:ROLE|[IF]\d{2,3})】|【DM-[A-Z0-9]+-V\d+】/i.test(text)) headerEnd = rowIndex;
+    });
     let dataStart = -1;
-    for (let rowIndex = 0; rowIndex < rows.length; rowIndex += 1) {
+    for (let rowIndex = headerEnd + 1; rowIndex < rows.length; rowIndex += 1) {
       if ([...mappedColumns.keys()].some(column => parseSurveyScore(rows[rowIndex][column]) != null)) { dataStart = rowIndex; break; }
     }
     if (dataStart < 0) throw new Error('已识别题目，但没有找到 1—5 分的有效答卷');
