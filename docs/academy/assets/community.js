@@ -291,6 +291,20 @@
     return '<div class="co-empty-state"><span aria-hidden="true">·</span><p>' + escapeHtml(message) + '</p></div>';
   }
 
+  function publicInsights(publicData) {
+    return (Array.isArray(publicData.insights) ? publicData.insights : [])
+      .filter(item => item && typeof item.title === 'string' && item.title.trim() && typeof item.url === 'string' && /^https:\/\//.test(item.url))
+      .slice()
+      .sort((left, right) => String(right.date || '').localeCompare(String(left.date || ''), 'zh-CN'));
+  }
+
+  function renderInsight(item) {
+    const meta = [item.category, item.org, item.date].map(value => String(value || '').trim()).filter(Boolean).map(escapeHtml).join(' · ');
+    return '<a class="co-item co-item--ext" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">'
+      + '<small>' + meta + '</small><strong>' + escapeHtml(item.title) + '</strong>'
+      + (item.summary ? '<span>' + escapeHtml(item.summary) + '</span>' : '') + '</a>';
+  }
+
   function renderObservation(item) {
     const category = escapeHtml(item.category || '观察');
     const title = escapeHtml(item.title || '');
@@ -396,15 +410,20 @@
     if (!root) return;
     const observations = publicObservations(publicData);
     const recentObservations = observations.slice(0, 3);
+    const insights = publicInsights(publicData);
+    const recentInsights = insights.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><div><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯观察，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + '<header class="co-hero"><div><h2>Xiao〇 ESG社区</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。这里有知识解读、资讯动态，也持续更新正在推进的 ESG 项目与工具。</p><nav class="co-hero-nav" aria-label="社区分区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"><small>扫码加入交流群</small></aside></header>'
       + reportEntry()
-      + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解与资讯观察')
+      + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-icon">' + svgIcon('methods') + '</div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><strong>知识体系</strong><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
       + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
       + '</div></div></article>'
-      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯与观察</h3><p>每天更新ESG最新资讯动态</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
+      + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-icon">' + svgIcon('news') + '</div><h3>资讯动态</h3><p>每天更新ESG领域最新进展</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期关注</strong><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
+      + '</div></div></article>'
+      + '<article class="co-band co-band--insights"><div class="co-band-intro"><div class="co-icon">' + svgIcon('search') + '</div><h3>研究洞察</h3><p>收录研究机构持续发布的 ESG 研究报告，直达官方页面。</p></div><div class="co-band-content"><div class="co-band-head"><strong>近期收录</strong><a class="co-more" href="' + pageHref('insights.html') + '">查看更多</a></div><div class="co-items">'
+      + (recentInsights.length ? recentInsights.map(renderInsight).join('') : emptyState('暂未收录研究报告。'))
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
       + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页</a></article><div>' + renderOffers() + '</div></div>'
@@ -503,7 +522,7 @@
   function renderObservationsPage(publicData) {
     const root = document.getElementById('observations-page');
     if (!root) return;
-    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯与观察</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small data-obs-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-obs-search placeholder="搜索标题、摘要或分类…" aria-label="搜索观察"><button type="button" class="co-obs-search-clear" data-obs-clear hidden>清除</button></div><div id="co-observations-content"></div></section></main>';
+    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · OBSERVATIONS</span><h1>资讯动态</h1><p>只收录完成整理、适合公开阅读的内容。</p></header><section><div class="co-observations-head"><h2>全部观察</h2><small data-obs-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-obs-search placeholder="搜索标题、摘要或分类…" aria-label="搜索观察"><button type="button" class="co-obs-search-clear" data-obs-clear hidden>清除</button></div><div id="co-observations-content"></div></section></main>';
     const search = root.querySelector('[data-obs-search]');
     const clear = root.querySelector('[data-obs-clear]');
     const refresh = () => {
@@ -529,6 +548,100 @@
 
   function observationById(publicData, id) {
     return publicObservations(publicData).find(item => item && item.id === id) || null;
+  }
+
+  const insState = { query: '', page: 1, perPage: 12 };
+
+  function filteredInsights(publicData) {
+    const list = publicInsights(publicData);
+    const query = insState.query.trim().toLowerCase();
+    if (!query) return list;
+    return list.filter(item =>
+      [item.title, item.summary, item.org, item.category, item.date].some(field =>
+        String(field || '').toLowerCase().includes(query)
+      )
+    );
+  }
+
+  function renderInsightRow(item, index) {
+    const meta = [item.category, item.org, item.date].map(value => String(value || '').trim()).filter(Boolean).map(escapeHtml).join(' · ');
+    const number = String(index).padStart(2, '0');
+    return '<a class="co-observation-row" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">'
+      + '<span class="co-obs-index">' + number + '</span>'
+      + '<span class="co-obs-card-body"><small>' + meta + '</small><strong>' + escapeHtml(item.title) + '</strong>'
+      + (item.summary ? '<p>' + escapeHtml(item.summary) + '</p>' : '') + '</span></a>';
+  }
+
+  function renderInsPagination(page, pageCount, total) {
+    if (!total) return '';
+    let buttons = '';
+    let last = 0;
+    pageNumbers(page, pageCount).forEach(number => {
+      if (number - last > 1) buttons += '<span class="co-page-ellipsis">…</span>';
+      buttons += '<button type="button" class="co-page-btn' + (number === page ? ' is-active' : '') + '" data-page="' + number + '"'
+        + (number === page ? ' aria-current="page"' : '') + '>' + number + '</button>';
+      last = number;
+    });
+    return '<nav class="co-pagination" aria-label="研究洞察分页">'
+      + '<button type="button" class="co-page-btn' + (page <= 1 ? ' is-disabled' : '') + '" data-page="' + (page - 1) + '"' + (page <= 1 ? ' disabled' : '') + '>上一页</button>'
+      + buttons
+      + '<button type="button" class="co-page-btn' + (page >= pageCount ? ' is-disabled' : '') + '" data-page="' + (page + 1) + '"' + (page >= pageCount ? ' disabled' : '') + '>下一页</button>'
+      + '<span class="co-pagination-total">共 ' + total + ' 条 · 第 ' + page + ' / ' + pageCount + ' 页</span>'
+      + '</nav>';
+  }
+
+  function renderInsightsContent(publicData) {
+    const container = document.getElementById('co-insights-content');
+    if (!container) return;
+    const filtered = filteredInsights(publicData);
+    const pageCount = Math.max(1, Math.ceil(filtered.length / insState.perPage));
+    insState.page = Math.min(Math.max(1, insState.page), pageCount);
+    const start = (insState.page - 1) * insState.perPage;
+    const pageItems = filtered.slice(start, start + insState.perPage);
+    const resultCount = insState.query.trim()
+      ? '<p class="co-obs-result-count">搜索“' + escapeHtml(insState.query.trim()) + '”找到 ' + filtered.length + ' 条</p>'
+      : '';
+    container.innerHTML = resultCount
+      + '<div class="co-observations-list">'
+      + (pageItems.length
+          ? pageItems.map((item, i) => renderInsightRow(item, start + i + 1)).join('')
+          : emptyState('没有找到匹配的研究报告，换个关键词试试。'))
+      + '</div>'
+      + renderInsPagination(insState.page, pageCount, filtered.length);
+  }
+
+  function updateInsightsTotal(publicData) {
+    const node = document.querySelector('[data-ins-total]');
+    if (!node) return;
+    const total = filteredInsights(publicData).length;
+    node.textContent = total ? total + ' 条' : '暂无内容';
+  }
+
+  function renderInsightsPage(publicData) {
+    const root = document.getElementById('insights-page');
+    if (!root) return;
+    root.innerHTML = '<main class="co-observations-page"><a class="co-observations-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a><header><span class="co-eyebrow">XIAO〇 · RESEARCH INSIGHTS</span><h1>研究洞察</h1><p>收录研究机构持续发布的 ESG 研究报告，点击直达官方页面。</p></header><section><div class="co-observations-head"><h2>全部收录</h2><small data-ins-total>加载中…</small></div><div class="co-observations-toolbar"><span class="co-obs-search-icon">' + svgIcon('search') + '</span><input type="search" data-ins-search placeholder="搜索机构、报告名或分类…" aria-label="搜索研究洞察"><button type="button" class="co-obs-search-clear" data-ins-clear hidden>清除</button></div><div id="co-insights-content"></div></section></main>';
+    const search = root.querySelector('[data-ins-search]');
+    const clear = root.querySelector('[data-ins-clear]');
+    const refresh = () => {
+      insState.query = search ? search.value : '';
+      insState.page = 1;
+      if (clear) clear.hidden = !insState.query;
+      renderInsightsContent(publicData);
+      updateInsightsTotal(publicData);
+    };
+    if (search) {
+      search.addEventListener('input', refresh);
+      search.addEventListener('search', refresh);
+    }
+    if (clear) {
+      clear.addEventListener('click', () => {
+        if (search) { search.value = ''; search.focus(); }
+        refresh();
+      });
+    }
+    updateInsightsTotal(publicData);
+    renderInsightsContent(publicData);
   }
 
   function renderObservationBlocks(item) {
@@ -571,14 +684,14 @@
     const id = new URLSearchParams(location.search).get('id') || '';
     const item = observationById(publicData, id);
     if (!item) {
-      root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯与观察</a>' + emptyState('未找到该资讯，可能已被移除。') + '</main>';
+      root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯动态</a>' + emptyState('未找到该资讯，可能已被移除。') + '</main>';
       return;
     }
     const category = escapeHtml(item.category || '观察');
     const title = escapeHtml(item.title || '');
     const summary = escapeHtml(item.summary || '');
     const date = escapeHtml(item.date || '');
-    root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯与观察</a>'
+    root.innerHTML = '<main class="co-observation-page"><a class="co-observation-back" href="' + pageHref('observations.html') + '">返回资讯动态</a>'
       + '<header class="co-observation-hero"><span class="co-eyebrow">' + category + (date ? ' · ' + date : '') + '</span><h1>' + title + '</h1>'
       + (summary ? '<p>' + summary + '</p>' : '') + '</header>'
       + '<div class="co-obs-body">' + renderObservationBlocks(item) + '</div>'
@@ -606,6 +719,8 @@
       }
     } else if (document.getElementById('observation-page')) {
       renderObservationDetail(data);
+    } else if (document.getElementById('insights-page')) {
+      renderInsightsPage(data);
     } else {
       renderObservationsPage(data);
     }
@@ -613,6 +728,17 @@
   }
 
   document.addEventListener('click', event => {
+    const insPageBtn = event.target.closest('#insights-page .co-page-btn');
+    if (insPageBtn && !insPageBtn.disabled) {
+      const page = Number(insPageBtn.dataset.page);
+      if (Number.isFinite(page) && page > 0) {
+        insState.page = page;
+        renderInsightsContent(cachedPublicData);
+        const head = document.querySelector('#insights-page .co-observations-head');
+        if (head) head.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      }
+      return;
+    }
     const pageBtn = event.target.closest('#observations-page .co-page-btn');
     if (pageBtn && !pageBtn.disabled) {
       const page = Number(pageBtn.dataset.page);

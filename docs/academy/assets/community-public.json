@@ -3428,5 +3428,169 @@
         }
       ]
     }
+  ],
+  "insights": [
+    {
+      "id": "kpmg-sustainability-survey-2024",
+      "org": "毕马威",
+      "category": "会计与鉴证",
+      "title": "可持续发展报告调查：迈向强制披露",
+      "date": "2024-11",
+      "summary": "1993 年起每两年一期；2024 版由 58 个成员所逐一查阅各国前 100 大公司的报告，覆盖 5,800 家企业，是披露口径最老牌的全球基线。",
+      "url": "https://kpmg.com/xx/en/our-insights/esg/the-move-to-mandatory-reporting.html"
+    },
+    {
+      "id": "kpmg-valuation-gap-2026",
+      "org": "毕马威",
+      "category": "会计与鉴证",
+      "title": "缩小可持续估值缺口",
+      "date": "2026-06",
+      "summary": "对 19 国 2,024 位高管的调查：多数高管了解可持续议题，但只有 19% 的企业用稳健量化方法衡量其对财务表现的影响。",
+      "url": "https://kpmg.com/xx/en/our-insights/esg/closing-the-sustainability-valuation-gap.html"
+    },
+    {
+      "id": "deloitte-csuite-sustainability-2026",
+      "org": "德勤",
+      "category": "会计与鉴证",
+      "title": "2026 全球 C-suite 可持续发展报告",
+      "date": "2026-06",
+      "summary": "第五年发布；2026 年 5–6 月调查 29 国 2,100 余位 C-suite：78% 的企业上年增加可持续投入，同时平均项目数从 5.0 个收敛到 3.4 个，转向 ROI 与韧性。",
+      "url": "https://www.deloitte.com/global/en/issues/climate/c-suite-sustainability-report.html"
+    },
+    {
+      "id": "ey-climate-action-barometer",
+      "org": "安永",
+      "category": "会计与鉴证",
+      "title": "全球气候行动晴雨表",
+      "date": "2026-05",
+      "summary": "分析 50 国 13 个行业 857 家气候领先企业：64% 已制定净零转型计划，仅 48% 的目标符合科学口径，63% 依赖碳信用抵消。",
+      "url": "https://www.ey.com/en_sg/newsroom/2026/05/gaps-in-businesses-climate-action-plans-slow-progress-on-net-zero-goals-as-global-uncertainty-remains"
+    },
+    {
+      "id": "pwc-global-investor-survey-2025",
+      "org": "普华永道",
+      "category": "会计与鉴证",
+      "title": "全球投资者调查 2025",
+      "date": "2026-02",
+      "summary": "调查 26 国 1,074 位投资专业人士：84% 希望企业维持或增加气候适应投入；可持续数据的可验证性正在成为估值依据。",
+      "url": "https://www.pwc.be/en/news-publications/2026/global-investor-survey.html"
+    },
+    {
+      "id": "bcg-private-markets-2026",
+      "org": "BCG",
+      "category": "管理咨询",
+      "title": "私募市场可持续报告 2026",
+      "date": "2026-10",
+      "summary": "与 ESG 数据收敛倡议（EDCI）联合发布第四年：300 家 GP 的近 10,000 家组合公司；今年聚焦 AI 治理风险。",
+      "url": "https://www.bcg.com/publications/2026/private-markets-sustainability-ai-risk"
+    },
+    {
+      "id": "bcg-esrs-smart-compliance-2026",
+      "org": "BCG",
+      "category": "管理咨询",
+      "title": "ESRS 可持续报告：从合规到战略",
+      "date": "2026-07",
+      "summary": "基于 EFRAG 对 900 余份 FY2025 报告的现状研究，提出从“合规驱动”转向“战略引导”的三层模型。",
+      "url": "https://www.bcg.com/publications/2026/smart-compliance-esrs-sustainability-reporting"
+    },
+    {
+      "id": "bain-ceo-guide-2026",
+      "org": "贝恩",
+      "category": "管理咨询",
+      "title": "有远见的 CEO 可持续指南 2026",
+      "date": "2026-09",
+      "summary": "第四年发布：过去十年可持续技术投资达 17 万亿美元，37 项技术中仅 3 项超预期，转型进入“分化时代”。",
+      "url": "https://www.bain.com/insights/topics/ceo-sustainability-guide"
+    },
+    {
+      "id": "mckinsey-sustainability-insights",
+      "org": "麦肯锡",
+      "category": "管理咨询",
+      "title": "可持续洞察专栏",
+      "date": "",
+      "summary": "持续更新入口：Global Energy Perspective、Global Materials Perspective 2026 及行业脱碳、循环经济系列研究。",
+      "url": "https://www.mckinsey.com/capabilities/sustainability/our-insights"
+    },
+    {
+      "id": "ms-sustainable-signals-corporates-2026",
+      "org": "摩根士丹利",
+      "category": "投行与资管",
+      "title": "Sustainable Signals：企业篇 2026",
+      "date": "2026-07",
+      "summary": "调查 300 家企业的可持续决策者：62% 将可持续同时视为价值创造与风险管理议题；2026 年另有机构投资者版与个人投资者版。",
+      "url": "https://www.morganstanley.com/insights/articles/sustainable-signals-corporates-2026"
+    },
+    {
+      "id": "wri-sustainable-finance-2026",
+      "org": "WRI",
+      "category": "智库与倡议",
+      "title": "2026 年可持续金融六大机会",
+      "date": "2026-02",
+      "summary": "COP30 后巴库至贝伦融资路线图的落地分析：私人资本流动、南方合作与转型金融等六大机会。",
+      "url": "https://www.wri.org/technical-perspectives/6-opportunities-sustainable-finance-2026"
+    },
+    {
+      "id": "ceres-forging-ahead-2026",
+      "org": "Ceres",
+      "category": "智库与倡议",
+      "title": "Forging Ahead：2026 北美投资者气候行动评估",
+      "date": "2026-09",
+      "summary": "分析 50 家北美最大投资者的 2025 年公开披露：74% 评估气候财务风险并配置气候解决方案。",
+      "url": "https://www.ceres.org/resources/reports/forging-ahead-a-2026-assessment-of-investor-climate-action-across-north-america"
+    },
+    {
+      "id": "wbcsd-kpmg-safeguarding-2026",
+      "org": "WBCSD × 毕马威",
+      "category": "智库与倡议",
+      "title": "Safeguarding Sustainability",
+      "date": "2026-04",
+      "summary": "用动态风险评估（DRA）方法映射可持续议程的 20 个互联风险，“短期主义”位于风险网络中心。",
+      "url": "https://www.wbcsd.org/news/safeguarding-sustainability-in-an-era-of-uncertainty"
+    },
+    {
+      "id": "sp-yearbook-china-2026",
+      "org": "标普全球",
+      "category": "评级与数据",
+      "title": "可持续发展年鉴（中国版）2026",
+      "date": "2026-04",
+      "summary": "基于 2025 年 CSA 评估，内地及港澳近 1,800 家企业参评、190 余家入选；CSA 问卷体系与评分方法是重要参考。",
+      "url": "https://www.spglobal.com/sustainable1/en/csa/yearbook_cn"
+    },
+    {
+      "id": "sustainalytics-methodology-archive",
+      "org": "晨星 Sustainalytics",
+      "category": "评级与数据",
+      "title": "ESG 评级方法论披露档案",
+      "date": "",
+      "summary": "ESG 风险评级、争议评级、低碳转型、国别风险等 7 套方法论与披露表，2026 年内多次版本更新。",
+      "url": "https://www.sustainalytics.com/morningstar-sustainalytics-ratings-transparency/methodology-disclosure-archive"
+    },
+    {
+      "id": "msci-esg-ratings-tool",
+      "org": "MSCI",
+      "category": "评级与数据",
+      "title": "ESG 评级与气候查询工具",
+      "date": "",
+      "summary": "查询 10,000 余家公司的 ESG 评级、行业关键议题与气候指标；另发布年度 Sustainability and Climate Trends。",
+      "url": "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool/esg-ratings-methodology"
+    },
+    {
+      "id": "syntaogf-esg-leaders-2026",
+      "org": "商道融绿",
+      "category": "国内研究",
+      "title": "中国企业 ESG 领先者报告 2026",
+      "date": "2026-07",
+      "summary": "第二年评选，首次纳入港股，159 家上市公司入选；STαR ESG 数据库覆盖 6,000 余家上市公司。",
+      "url": "https://www.syntaogf.com/info-detail/%E3%80%90%E5%88%86%E5%B8%83%E3%80%91%E9%87%8D%E7%A3%85%E5%8F%91%E5%B8%83%EF%BD%9C%E5%95%86%E9%81%93%E8%9E%8D%E7%BB%BF%E5%8F%91%E5%B8%83%E3%80%8A2026%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9Aesg%E9%A2%86%E5%85%88%E8%80%85%E6%8A%A5%E5%91%8A%E3%80%8B%EF%BC%8C159%E5%AE%B6%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%8E%B7%E8%AF%84%E5%B9%B4%E5%BA%A6esg%E9%A2%86%E5%85%88%E8%80%85"
+    },
+    {
+      "id": "cicc-esg-monthly",
+      "org": "中金公司研究部",
+      "category": "国内研究",
+      "title": "ESG 月度观察系列",
+      "date": "2026-03",
+      "summary": "月度追踪国内外 ESG 政策与产品动态，含年度展望（新浪财经转载页，原载于中金点睛）。",
+      "url": "https://finance.sina.com.cn/wm/2026-03-09/doc-inhqknrq7009463.shtml"
+    }
   ]
 }
