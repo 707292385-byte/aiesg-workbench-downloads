@@ -626,3 +626,4 @@ body{background:#f3f5f3;color:#17261f}
 .co-item--ext small::after{content:" ↗"}
 #insights-page .co-observation-row{position:relative}
 #insights-page .co-obs-card-body small::after{content:" ↗"}
+#insights-page .co-obs-card-body p{display:block;overflow:visible}
