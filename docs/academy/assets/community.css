@@ -664,3 +664,7 @@ body{background:#f3f5f3;color:#17261f}
 #co-knowledge .co-more:hover,#co-knowledge .co-more:focus-visible{background:rgba(255,255,255,.94);outline:2px solid #45866a;outline-offset:2px}
 @media(max-width:900px){#co-knowledge .co-items{min-height:0}#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{height:auto;min-height:172px;padding-bottom:24px}#co-knowledge .co-item:last-child{padding-bottom:58px}}
 @media(max-width:600px){#co-knowledge .co-band-content{padding:18px}#co-knowledge .co-band-head{right:18px;bottom:18px}}
+
+/* Consistent three-line summaries across all learning cards. */
+#co-knowledge .co-item span,#co-knowledge .co-band--news .co-item span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;flex:none;height:57.6px;min-height:57.6px;max-height:57.6px;margin-top:auto;padding:0;overflow:hidden;font-size:12px;line-height:19.2px}
+#co-knowledge .co-item strong{margin-bottom:16px}

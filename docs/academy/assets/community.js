@@ -51,9 +51,9 @@
     return localPreview ? url.href : url.pathname.split('/').pop() + url.search;
   }
   const standards = [
-    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程' },
-    { id: 'csa', type: '可持续评估', title: '标普全球CSA企业可持续发展评估', detail: '62行业问卷 · 34标准 · 三大维度' },
-    { id: 'ecovadis', type: '评级方法', title: 'EcoVadis 可持续评级方法学', detail: '奖牌徽章 · 碳评级 · 供应链' },
+    { id: 'msci', type: '评级方法', title: 'MSCI ESG评级方法论', detail: '行业权重 · 关键议题 · 评级流程', summary: '围绕行业关键议题，了解企业面临的环境、社会与治理风险及其管理能力，梳理议题权重、评分逻辑与评级流程。' },
+    { id: 'csa', type: '可持续评估', title: '标普全球CSA企业可持续发展评估', detail: '62行业问卷 · 34标准 · 三大维度', summary: '以行业问卷为入口，了解标普全球企业可持续发展评估的环境、社会与治理维度，梳理评估标准、填报要点和支持材料。' },
+    { id: 'ecovadis', type: '评级方法', title: 'EcoVadis 可持续评级方法学', detail: '奖牌徽章 · 碳评级 · 供应链', summary: '从环境、劳工与人权、商业道德和可持续采购四大主题，了解企业可持续管理体系的评估思路，以及政策、行动和结果的证据要求。' },
     { id: 'guozheng', type: '评级方法', title: '国证ESG评价体系', detail: 'E/S/G三维度 · 15主题 · 本土指标' },
     { id: 'gri', type: '披露规则', title: 'GRI 可持续发展报告标准', detail: '通用标准 · 33项议题标准 · 行业标准' },
     { id: 'ifrs', type: '披露规则', title: 'ISSB准则（IFRS S1/S2）', detail: '一般要求 · 气候披露 · 四支柱' },
@@ -417,7 +417,7 @@
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
-      + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.detail) + '</span></a>').join('')
+      + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.summary || item.detail) + '</span></a>').join('')
       + '</div></div></article>'
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="20" y="23" width="86" height="68" rx="5"/><path d="M32 36h34m-34 10h22m-22 14h60m-60 11h60m-60 10h40M112 48h18v43H35"/><circle cx="84" cy="43" r="9"/><path d="M119 17v10m-5-5h10M12 103h125"/></svg></div><h3>资讯动态</h3><p>每天更新ESG领域最新进展</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
