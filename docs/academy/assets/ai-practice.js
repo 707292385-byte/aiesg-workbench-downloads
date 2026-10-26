@@ -60,7 +60,11 @@
     cards();
   }
   function block(s) {
-    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
+    const cards=s.cards?'<div class="ai-scenario-grid">'+s.cards.map(card=>'<article><h3>'+esc(card.title)+'</h3><p>'+esc(card.text)+'</p></article>').join('')+'</div>':'';
+    const actions=s.actions?'<div class="ai-section-actions">'+s.actions.map(action=>'<a href="'+esc(action.url)+'" target="_blank" rel="noopener noreferrer">'+esc(action.label)+'</a>').join('')+'</div>':'';
+    const cta=s.cta?'<aside class="ai-tool-cta"><div><h3>'+esc(s.cta.title)+'</h3><p>'+esc(s.cta.text)+'</p></div><a href="'+esc(s.cta.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.cta.label)+'</a></aside>':'';
+    const figure=s.image?'<figure class="ai-knowledge-code"><img src="'+esc(s.image.src)+'" alt="'+esc(s.image.alt)+'"><figcaption>'+esc(s.image.caption)+'</figcaption></figure>':'';
+    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+cta+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
   }
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id || (Array.isArray(item.aliases) && item.aliases.includes(id)));
@@ -73,7 +77,7 @@
     document.title=a.title+'｜AI入门与实践';
     const related=data.articles.filter(item=>item.id!==a.id&&item.tags.some(t=>a.tags.includes(t))).slice(0,3);
     const refs=references(a);
-    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.series || a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>':'')+'</article>'+(related.length?'<section class="ai-related"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
+    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article ai-article--'+esc(a.category)+'"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.series || a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>':'')+'</article>'+(related.length?'<section class="ai-related"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
   }
   root.addEventListener('input', e => {
     if(e.target.id!=='ai-search')return;

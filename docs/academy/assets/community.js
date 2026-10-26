@@ -39,7 +39,7 @@
   function pageHref(page, values = {}) {
     const url = new URL(page, location.href);
     if (page === 'profile.html') url.searchParams.set('build', '20261026-actions-v3');
-    if (page === 'ai.html') url.searchParams.set('build', '20261026-card-system-v2');
+    if (page === 'ai.html') url.searchParams.set('build', '20261026-tool-guides-v1');
     Object.entries(values).forEach(([key, value]) => url.searchParams.set(key, value));
     if (embedded) url.searchParams.set('embed', '1');
     return url.pathname.split('/').pop() + url.search;

@@ -104,13 +104,28 @@ button{cursor:pointer}
 .ai-card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--ai-accent)}
 .ai-card-meta span{font-size:11px;color:var(--ai-muted)}
 .ai-article{max-width:840px;margin:auto;padding:46px 54px;background:var(--ai-paper);border:1px solid #fff;border-radius:18px;overflow-wrap:anywhere}
+.ai-article--tools{max-width:980px}
 .ai-article h1{font-size:clamp(26px,4vw,38px);line-height:1.45;margin:22px 0}
 .ai-summary{font-size:17px;color:var(--ai-muted)}
 .ai-article section{margin-top:36px}
 .ai-article h2{font-size:21px;margin-bottom:12px}
+.ai-article h3{margin:0;font-size:16px;line-height:1.55}
 .ai-article p,.ai-article li{font-size:15px}
 .ai-article li{padding:5px 0}
 .ai-article ol{padding-left:24px}
+.ai-scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.ai-scenario-grid article{padding:18px 19px;border:1px solid #d7e5de;border-radius:14px;background:linear-gradient(145deg,#fff,#f0f7f3)}
+.ai-scenario-grid p{margin:7px 0 0;color:var(--ai-muted);font-size:13px;line-height:1.75}
+.ai-section-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.ai-section-actions a{padding:9px 15px;border:1px solid #a8c6b9;border-radius:11px;background:#fff;color:var(--ai-accent);font-size:13px;font-weight:650}
+.ai-section-actions a:hover{background:#edf6f1}
+.ai-tool-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:16px;padding:24px 26px;border-radius:16px;background:linear-gradient(135deg,#163f39,#2f7b69);color:#fff}
+.ai-tool-cta h3{font-size:19px}
+.ai-tool-cta p{margin:7px 0 0;color:rgba(255,255,255,.82);font-size:13px}
+.ai-tool-cta>a{flex:0 0 auto;padding:11px 17px;border-radius:12px;background:#dff75e;color:#173c35;font-size:13px;font-weight:750}
+.ai-knowledge-code{display:grid;grid-template-columns:minmax(220px,340px) 1fr;align-items:center;gap:28px;margin:20px 0 0;padding:22px;border:1px solid #d7e6de;border-radius:18px;background:#fff}
+.ai-knowledge-code img{display:block;width:100%;height:auto;border-radius:13px}
+.ai-knowledge-code figcaption{font-size:16px;font-weight:700;color:var(--ai-ink)}
 .ai-prompt{padding:20px;border-radius:10px;background:#edf3ee}
 .ai-prompt pre{white-space:pre-wrap;overflow-wrap:anywhere;font-family:inherit;font-size:14px;line-height:1.9;margin:0 0 14px}
 .ai-prompt button{min-height:38px;padding:7px 14px;border:1px solid var(--ai-ink);border-radius:12px;background:var(--ai-ink);color:#fff;font-size:12px}
@@ -148,6 +163,10 @@ button{cursor:pointer}
   .ai-article{padding:24px 20px}
   .ai-article p,.ai-article li{font-size:14px}
   .ai-article h2{font-size:19px}
+  .ai-scenario-grid{grid-template-columns:1fr}
+  .ai-tool-cta{display:block;padding:21px}
+  .ai-tool-cta>a{display:inline-block;margin-top:15px}
+  .ai-knowledge-code{grid-template-columns:1fr;padding:14px;text-align:center}
   .ai-back{margin-top:28px}
   .ai-prompt{padding:15px}
 }
