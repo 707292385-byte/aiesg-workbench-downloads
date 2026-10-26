@@ -298,10 +298,17 @@
       .sort((left, right) => String(right.date || '').localeCompare(String(left.date || ''), 'zh-CN'));
   }
 
+  function cardPhoto(item) {
+    const text = [item.title, item.category, item.summary].join(' ');
+    const theme = /生物|自然|森林|生态|TNFD/.test(text) ? 'nature'
+      : /能源|碳|气候|排放|风电|绿色转型/.test(text) ? 'energy' : 'city';
+    return '<img class="co-card-photo" src="assets/community/card-' + theme + '.jpg" alt="" loading="lazy" decoding="async"><i class="co-card-shade" aria-hidden="true"></i>';
+  }
+
   function renderInsight(item) {
     const meta = [item.category, item.org, item.date].map(value => String(value || '').trim()).filter(Boolean).map(escapeHtml).join(' · ');
-    return '<a class="co-item co-item--ext" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">'
-      + '<small>' + meta + '</small><strong>' + escapeHtml(item.title) + '</strong>'
+    return '<a class="co-item co-item--ext co-item--photo" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">'
+      + cardPhoto(item) + '<small>' + meta + '</small><strong>' + escapeHtml(item.title) + '</strong>'
       + (item.summary ? '<span>' + escapeHtml(item.summary) + '</span>' : '') + '</a>';
   }
 
@@ -311,12 +318,12 @@
     const summary = escapeHtml(item.summary || '');
     const date = escapeHtml(item.date || '');
     const meta = [category, date].filter(Boolean).join(' · ');
-    const inner = '<small>' + meta + '</small><strong>' + title + '</strong>'
+    const inner = cardPhoto(item) + '<small>' + meta + '</small><strong>' + title + '</strong>'
       + (summary ? '<span>' + summary + '</span>' : '');
     if (item.id) {
-      return '<a class="co-item co-observation" href="' + pageHref('observation.html', { id: item.id }) + '">' + inner + '</a>';
+      return '<a class="co-item co-observation co-item--photo" href="' + pageHref('observation.html', { id: item.id }) + '">' + inner + '</a>';
     }
-    return '<article class="co-item co-observation">' + inner + '</article>';
+    return '<article class="co-item co-observation co-item--photo">' + inner + '</article>';
   }
 
   function sectionHead(number, icon, title, description) {
@@ -413,7 +420,7 @@
     const insights = publicInsights(publicData);
     const recentInsights = insights.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<div class="co-topbar"><a class="co-brand" href="#community-page">Xiao〇 ESG社区</a><nav aria-label="社区导航"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div><header class="co-hero"><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div><aside class="co-hero-group-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"><small>扫码加入交流群</small></aside></header>'
+      + '<header class="co-hero"><button type="button" class="co-join-trigger" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
@@ -429,9 +436,10 @@
       + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页</a></article><div>' + renderOffers() + '</div></div>'
       + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
+      + '<dialog id="co-join-dialog" class="co-join-dialog" aria-labelledby="co-join-title" aria-describedby="co-join-tip"><div class="co-join-head"><div><small>Xiao〇 ESG社区</small><h3 id="co-join-title">加入交流群</h3></div><button type="button" data-close-community-join aria-label="关闭入群窗口" autofocus>×</button></div><p id="co-join-tip">一起交流 ESG、AI 与工作中的实践。<br>如果二维码过期，请添加微信申请入群。</p><div class="co-join-codes"><section><h4>扫码加入交流群</h4><div class="co-join-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"></div><p>使用微信扫一扫</p></section><section><h4>添加 Xiao〇 微信</h4><div class="co-join-qr co-qr-window co-qr-window--wechat"><img src="assets/community/qr-wechat-source.jpg" alt="Xiao〇个人微信二维码"></div><p>添加时请备注“ESG交流群”</p></section></div></dialog>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
       + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
-      + '<footer class="co-site-footer" aria-label="社区说明"><div><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span><small>© 2026 Xiao〇</small><small>版权声明：原创解读与页面设计归 Xiao〇；引用资料归原作者。</small></div><div><small>信息与隐私：内容按公开资料整理，以官方现行文件为准；浏览和作者点赞只上传计数事件，不上传工作台资料；联系表单用于回复。</small><small>免责声明：个人测试项目可能有未知问题；请用非工作电脑及脱敏资料体验，重要判断自行核对。</small></div></footer>'
+      + '<footer class="co-site-footer co-footer-editorial" aria-label="社区说明"><div class="co-footer-intro"><strong>Xiao〇 ESG社区</strong><p>让知识连接可持续未来。</p></div><div class="co-footer-notes"><section><h4>内容与来源</h4><p>这里分享 ESG 知识、资讯与实践工具，供学习和交流。业务使用请核对官方最新文件；引用资料的权利归原作者，卡片配图为 AI 生成的主题示意。</p></section><section><h4>隐私与反馈</h4><p>浏览与点赞仅用于页面计数，不上传工作台资料。联系表单用于回复与沟通，请勿提交客户或其他敏感信息。</p><button type="button" data-open-community-form="question">内容纠错与反馈</button></section></div><div class="co-footer-bottom"><small>© 2026 Xiao〇 · 原创内容与设计</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></footer>'
       + '</div>';
   }
 
@@ -754,6 +762,19 @@
     if (internalLink) {
       const destination = new URL(internalLink.href, location.href);
       if (destination.origin === location.origin && /\.html$/.test(destination.pathname)) notifyHost(destination.pathname.split('/').pop());
+    }
+    if (event.target.closest('[data-open-community-join]')) {
+      document.getElementById('co-join-dialog')?.showModal();
+      return;
+    }
+    if (event.target.closest('[data-close-community-join]')) {
+      document.getElementById('co-join-dialog')?.close();
+      return;
+    }
+    if (event.target.id === 'co-join-dialog') {
+      const rect = event.target.getBoundingClientRect();
+      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) event.target.close();
+      return;
     }
     const formTrigger = event.target.closest('#community-page [data-open-community-form]');
     if (formTrigger) {
