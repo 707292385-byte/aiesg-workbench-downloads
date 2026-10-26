@@ -119,12 +119,8 @@ button{cursor:pointer}
 .ai-section-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .ai-section-actions a{padding:9px 15px;border:1px solid #a8c6b9;border-radius:11px;background:#fff;color:var(--ai-accent);font-size:13px;font-weight:650}
 .ai-section-actions a:hover{background:#edf6f1}
-.ai-tool-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:16px;padding:24px 26px;border-radius:16px;background:linear-gradient(135deg,#163f39,#2f7b69);color:#fff}
-.ai-tool-cta h3{font-size:19px}
-.ai-tool-cta p{margin:7px 0 0;color:rgba(255,255,255,.82);font-size:13px}
-.ai-tool-cta>a{flex:0 0 auto;padding:11px 17px;border-radius:12px;background:#dff75e;color:#173c35;font-size:13px;font-weight:750}
-.ai-knowledge-code{display:grid;grid-template-columns:minmax(220px,340px) 1fr;align-items:center;gap:28px;margin:20px 0 0;padding:22px;border:1px solid #d7e6de;border-radius:18px;background:#fff}
-.ai-knowledge-code img{display:block;width:100%;height:auto;border-radius:13px}
+.ai-knowledge-code{display:grid;grid-template-columns:180px 1fr;align-items:center;gap:22px;max-width:620px;margin:18px 0 0;padding:16px 18px;border:1px solid #d7e6de;border-radius:16px;background:#fff}
+.ai-knowledge-code img{display:block;width:180px;height:auto;border-radius:10px}
 .ai-knowledge-code figcaption{font-size:16px;font-weight:700;color:var(--ai-ink)}
 .ai-prompt{padding:20px;border-radius:10px;background:#edf3ee}
 .ai-prompt pre{white-space:pre-wrap;overflow-wrap:anywhere;font-family:inherit;font-size:14px;line-height:1.9;margin:0 0 14px}
@@ -164,9 +160,8 @@ button{cursor:pointer}
   .ai-article p,.ai-article li{font-size:14px}
   .ai-article h2{font-size:19px}
   .ai-scenario-grid{grid-template-columns:1fr}
-  .ai-tool-cta{display:block;padding:21px}
-  .ai-tool-cta>a{display:inline-block;margin-top:15px}
-  .ai-knowledge-code{grid-template-columns:1fr;padding:14px;text-align:center}
+  .ai-knowledge-code{grid-template-columns:1fr;max-width:220px;margin-right:auto;padding:12px;text-align:center}
+  .ai-knowledge-code img{width:160px;margin:auto}
   .ai-back{margin-top:28px}
   .ai-prompt{padding:15px}
 }

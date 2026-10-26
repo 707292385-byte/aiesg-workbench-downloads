@@ -62,9 +62,8 @@
   function block(s) {
     const cards=s.cards?'<div class="ai-scenario-grid">'+s.cards.map(card=>'<article><h3>'+esc(card.title)+'</h3><p>'+esc(card.text)+'</p></article>').join('')+'</div>':'';
     const actions=s.actions?'<div class="ai-section-actions">'+s.actions.map(action=>'<a href="'+esc(action.url)+'" target="_blank" rel="noopener noreferrer">'+esc(action.label)+'</a>').join('')+'</div>':'';
-    const cta=s.cta?'<aside class="ai-tool-cta"><div><h3>'+esc(s.cta.title)+'</h3><p>'+esc(s.cta.text)+'</p></div><a href="'+esc(s.cta.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.cta.label)+'</a></aside>':'';
     const figure=s.image?'<figure class="ai-knowledge-code"><img src="'+esc(s.image.src)+'" alt="'+esc(s.image.alt)+'"><figcaption>'+esc(s.image.caption)+'</figcaption></figure>':'';
-    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+cta+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
+    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
   }
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id || (Array.isArray(item.aliases) && item.aliases.includes(id)));
