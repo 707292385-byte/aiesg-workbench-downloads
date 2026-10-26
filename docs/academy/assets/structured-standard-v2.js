@@ -48,9 +48,11 @@
   window.renderStructuredStandardV2 = function ({ standard, esc, href }) {
     const id = standard.id;
     if (!structures[id]) throw new Error('未找到这个知识体系目录');
-    const structure = structures[id], label = labels[id], groups = standard.groups || [], process = (standard.process || []).slice(0, 7);
+    const structure = structures[id], label = labels[id], groups = standard.groups || [];
+    const knowledgeMap = (standard.knowledgeMap || structure).map((node, index) => typeof node === 'string'
+      ? { title: node, desc: '' }
+      : { title: node.title || `结构节点 ${index + 1}`, desc: node.desc || '' });
     const topicCount = groups.reduce((sum, group) => sum + (group.items || []).length, 0);
-    const goals = (standard.goals || []).slice(0, 4);
     const topicCards = groups.map((group, index) => `
       <section class="mh-pillar mp-card structured-group" id="group-${index}">
         <header><div><small>${number(index + 1)} · ${esc(label.group)}</small><h3>${esc(group.title)}</h3></div><strong>${(group.items || []).length} 个主题</strong></header>
@@ -62,21 +64,20 @@
       </section>`).join('');
 
     return `<div class="msci-hub-page structured-standard-page" data-system="${id}">
-      <header class="mp-topbar"><div class="mp-topbar-inner"><a class="mp-brand" href="${href('index.html')}"><span>${esc(label.short.slice(0, 1))}</span>${esc(label.short)} 知识体系</a><nav><a href="#overview">全景</a><a href="#focus">重点</a>${process.length ? '<a href="#process">路径</a>' : ''}<a href="#topics">主题</a><a href="#sources">来源</a></nav></div></header>
+      <header class="mp-topbar"><div class="mp-topbar-inner"><a class="mp-brand" href="${href('index.html')}"><span>${esc(label.short.slice(0, 1))}</span>${esc(label.short)} 知识体系</a><nav><a href="#overview">结构</a><a href="#topics">主题</a><a href="#sources">来源</a></nav></div></header>
       <section class="mh-hero"><div class="mh-hero-inner"><div class="mh-crumb"><a href="${href('index.html')}">知识学堂</a><span>/</span>${esc(standard.title)}</div>
-        <div class="mh-hero-grid"><div><span class="mp-eyebrow">${esc(label.type)} · 知识关系与工作路径</span><h1>${esc(standard.title)}</h1><p>${esc(standard.description)}</p><div class="mp-hero-tags"><span>${esc(standard.issuer || '')}</span><span>框架关系</span><span>主题索引</span></div></div>
-          <div class="mp-hero-side"><article><small>结构层级</small><strong>${structure.length}</strong></article><article><small>知识分组</small><strong>${groups.length}</strong></article><article><small>主题节点</small><strong>${topicCount}</strong></article><article><small>路径节点</small><strong>${process.length || structure.length}</strong></article></div>
+        <div class="mh-hero-grid"><div><span class="mp-eyebrow">${esc(label.type)} · 整体结构与主题索引</span><h1>${esc(standard.title)}</h1><p>${esc(standard.description)}</p><div class="mp-hero-tags"><span>${esc(standard.issuer || '')}</span><span>整体结构</span><span>主题索引</span></div></div>
+          <div class="mp-hero-side"><article><small>结构节点</small><strong>${knowledgeMap.length}</strong></article><article><small>知识分组</small><strong>${groups.length}</strong></article><article><small>主题节点</small><strong>${topicCount}</strong></article></div>
         </div></div></section>
       <main class="mh-page"><a class="mh-back" href="${href('index.html')}">← 返回知识学堂</a>
-      <section class="mp-section" id="overview"><div class="mp-section-head"><div class="mp-section-title"><span>01</span><h2>体系全景</h2></div><p>先理解方法论的判断关系，再进入对应主题和资料依据</p></div>
-          <div class="structured-flow" aria-label="${esc(structure.join('，然后'))}">${structure.map((step, index) => `<div><small>${number(index + 1)}</small><strong>${esc(step)}</strong></div>${index < structure.length - 1 ? '<i aria-hidden="true">→</i>' : ''}`).join('')}</div>
-          <div class="structured-jump">${groups.slice(0, 4).map((group, index) => `<a href="#group-${index}">${esc(group.title)}<span>↓</span></a>`).join('')}</div>
+      <section class="mp-section structured-overview" id="overview"><div class="mp-section-head"><div class="mp-section-title"><span>01</span><h2>知识结构</h2></div></div>
+          <div class="structured-map" aria-label="${esc(`${standard.title}知识结构`)}">
+            <div class="structured-map-root"><small>${esc(label.type)}</small><strong>${esc(standard.title)}</strong></div>
+            <div class="structured-map-branches">${knowledgeMap.map((node, index) => `<article><span>${number(index + 1)}</span><div><strong>${esc(node.title)}</strong>${node.desc ? `<p>${esc(node.desc)}</p>` : ''}</div></article>`).join('')}</div>
+          </div>
         </section>
-        <section class="mp-section" id="focus"><div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>关键判断</h2></div><p>先理解哪些判断会影响披露或评价，再回到对应主题和来源资料</p></div>
-          <div class="structured-focus">${goals.map((goal, index) => `<article class="mp-card"><small>${number(index + 1)} · 关注点</small><p>${esc(goal)}</p></article>`).join('')}</div></section>
-        ${process.length ? `<section class="mp-section" id="process"><div class="mp-section-head"><div class="mp-section-title"><span>03</span><h2>${id === 'csa' ? '评价流程' : '工作路径'}</h2></div><p>把方法论从要求转化为可执行的判断和资料准备顺序</p></div><div class="structured-process">${process.map((step, index) => `<article><span>${number(index + 1)}</span><h3>${esc(step.title)}</h3><p>${esc(step.description || step.desc || '')}</p></article>`).join('')}</div></section>` : ''}
-        <section class="mp-section" id="topics"><div class="mp-section-head"><div class="mp-section-title"><span>${number(process.length ? 4 : 3)}</span><h2>主题解读</h2></div><p>按主题查看知识要点、判断路径和对应来源</p></div><div class="mh-pillar-stack">${topicCards}</div></section>
-        <section class="mp-section" id="sources"><div class="mp-section-head"><div class="mp-section-title"><span>${number(process.length ? 5 : 4)}</span><h2>来源与使用边界</h2></div><p>核对发布机构现行资料</p></div><div class="mh-source mh-source-pair mp-card"><div><small>当前参考</small><p>${esc(standard.sourceNote || '来源信息整理中')}</p></div><div><small>阅读说明</small><p>${esc(standard.notice || '本页为知识关系与主题导航，正式工作请核对官方原文。')}</p></div></div></section>
+        <section class="mp-section" id="topics"><div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>主题解读</h2></div><p>按主题进入具体要求、判断逻辑和官方依据</p></div><div class="mh-pillar-stack">${topicCards}</div></section>
+        <section class="mp-section" id="sources"><div class="mp-section-head"><div class="mp-section-title"><span>03</span><h2>来源与使用边界</h2></div><p>核对发布机构现行资料</p></div><div class="mh-source mh-source-pair mp-card"><div><small>当前参考</small><p>${esc(standard.sourceNote || '来源信息整理中')}</p></div><div><small>阅读说明</small><p>${esc(standard.notice || '本页为知识关系与主题导航，正式工作请核对官方原文。')}</p></div></div></section>
       </main><footer class="mp-footer"><div><span>AI × ESG 工作台 · 知识关系与主题目录</span><span>正式工作请核对发布机构现行资料</span></div></footer>
     </div>`;
   };
