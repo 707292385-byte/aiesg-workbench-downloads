@@ -1,0 +1,148 @@
+{
+  "id": "csddd-governance",
+  "title": "治理、申诉与实施路线",
+  "eyebrow": "职责 · 证据 · 监督",
+  "summary": "把尽调职责、投诉与通知机制、监测、公开沟通和监管应对放进年度管理节奏，并与 OECD、UNGP、ESRS 分工衔接。",
+  "tags": [
+    "治理",
+    "申诉",
+    "实施路线"
+  ],
+  "group": "实施与责任",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://commission.europa.eu/topics/business-and-industry/company-law-and-corporate-governance/corporate-sustainability-due-diligence_en",
+  "sourceNote": "依据 CSDDD 现行义务与欧盟委员会实施说明；路线图为平台整理。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "四项运行机制",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 4,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "职责治理",
+              "content": "董事会/管理层明确责任，业务、采购、法务、可持续与审计协同。"
+            },
+            {
+              "title": "通知与投诉",
+              "content": "让受影响方、工会和社会组织可安全提交信息或投诉。"
+            },
+            {
+              "title": "利益相关方参与",
+              "content": "在识别、行动计划和补救设计等关键阶段开展有意义参与。"
+            },
+            {
+              "title": "监测与沟通",
+              "content": "定期评估措施有效性并公开说明尽调政策与行动。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "参与对象应与当前尽调阶段相关，并包括权利或利益可能被直接影响的工人、代表、个人和社区。",
+          "quote": {
+            "text": "individuals and communities whose rights or interests are or could be directly affected",
+            "source": "Directive (EU) 2026/470, recital 45"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "当前实施边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "事项",
+              "现行判断"
+            ],
+            [
+              "气候转型计划",
+              "CSDDD 原第 22 条义务已由 2026/470 删除；企业仍可能受 CSRD/ESRS 等要求约束。"
+            ],
+            [
+              "行政监督",
+              "成员国指定监督机关，并设置处罚制度。"
+            ],
+            [
+              "民事责任",
+              "2026 年修订取消统一的欧盟责任条款，责任更依赖成员国国内法。"
+            ],
+            [
+              "指南",
+              "欧盟委员会一般尽调指南预计 2027-07-26 前发布。"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "2026 年修订删除 CSDDD 气候转型计划条款，不表示其他欧盟披露或气候法规中的转型计划要求一并消失。",
+          "quote": {
+            "text": "It is necessary to repeal those provisions",
+            "source": "Directive (EU) 2026/470, recital 47"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "企业准备路线",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "0—90天",
+              "desc": "范围判断、责任人、现有制度差距和高风险地图。"
+            },
+            {
+              "title": "3—6个月",
+              "desc": "政策、活动链数据、投诉机制和高风险行动计划。"
+            },
+            {
+              "title": "6—12个月",
+              "desc": "伙伴协作、现场核验、补救流程和监测指标。"
+            },
+            {
+              "title": "持续运行",
+              "desc": "事件触发更新、年度复核、公开沟通和证据归档。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "平台实施路线；法律要求以成员国转化文本为准"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "oecd-duediligence",
+        "title": "OECD 尽责管理六步",
+        "standard": "oecd",
+        "system": "OECD"
+      },
+      {
+        "id": "esrs-application",
+        "title": "ESRS 生效与衔接",
+        "standard": "esrs",
+        "system": "ESRS"
+      }
+    ],
+    "external": []
+  }
+}

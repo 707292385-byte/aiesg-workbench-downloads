@@ -1,0 +1,160 @@
+{
+  "id": "eudr-products",
+  "title": "七类商品与相关产品",
+  "eyebrow": "CN编码决定产品范围",
+  "summary": "法规覆盖牛、可可、咖啡、油棕、橡胶、大豆和木材，但是否受管最终取决于附件 I 的产品描述和 CN 编码。",
+  "tags": [
+    "七类商品",
+    "附件I",
+    "CN编码"
+  ],
+  "group": "适用范围",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1115/oj/eng",
+  "sourceNote": "依据 EUDR 第 1 条、定义与附件 I；2026 新增产品另有过渡日。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "七类相关商品",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 4,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "牛",
+              "content": "cattle"
+            },
+            {
+              "title": "可可",
+              "content": "cocoa"
+            },
+            {
+              "title": "咖啡",
+              "content": "coffee"
+            },
+            {
+              "title": "油棕",
+              "content": "oil palm"
+            },
+            {
+              "title": "橡胶",
+              "content": "rubber"
+            },
+            {
+              "title": "大豆",
+              "content": "soya"
+            },
+            {
+              "title": "木材",
+              "content": "wood"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "范围不仅包含原始商品，也包含以相关商品饲养、制成或含有相关商品的附件 I 产品。",
+          "quote": {
+            "text": "relevant products that contain, have been fed with or have been made using relevant commodities",
+            "source": "Regulation (EU) 2023/1115, Article 1"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "用CN编码判断",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "取得产品编码",
+              "desc": "确认报关所用CN/HS编码和产品描述。"
+            },
+            {
+              "title": "核对附件I",
+              "desc": "逐项匹配编码范围、ex标记和排除项。"
+            },
+            {
+              "title": "识别所含商品",
+              "desc": "确认产品由哪类相关商品制成或饲养。"
+            },
+            {
+              "title": "确定生产信息",
+              "desc": "定位相关商品生产地、日期和数量。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "EUDR Annex I"
+        },
+        {
+          "type": "standard",
+          "content_cn": "“ex” 表示只有该 CN 编码下描述中明确列出的产品受管，不能把整个编码项全部视为范围内。",
+          "quote": {
+            "text": "relevant products as listed in Annex I",
+            "source": "Regulation (EU) 2023/1115, Article 2"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "常见判断",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "产品",
+              "判断重点"
+            ],
+            [
+              "巧克力/可可制品",
+              "核对附件I对应CN编码及可可来源地块"
+            ],
+            [
+              "咖啡制品",
+              "核对是否属于附件I；2026新增可溶咖啡另有过渡"
+            ],
+            [
+              "纸浆/纸/家具",
+              "核对木材产品编码、原料树种和生产地"
+            ],
+            [
+              "橡胶轮胎",
+              "核对附件I产品编码与天然橡胶来源"
+            ],
+            [
+              "牛肉/皮革",
+              "核对动物养殖地点和相关产品编码"
+            ],
+            [
+              "包装材料",
+              "仅作为支撑、保护或承载另一产品时可能适用排除，须结合用途判断"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-conditions",
+        "title": "继续：三项市场条件"
+      }
+    ],
+    "external": []
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "eubr-due-diligence",
+  "title": "电池供应链尽调",
+  "eyebrow": "钴 · 石墨 · 锂 · 镍",
+  "summary": "对达到营业额门槛的经济运营商建立原材料供应链尽调政策、风险管理、第三方核验和年度公开报告，现行适用日为 2027-08-18。",
+  "tags": [
+    "矿产尽调",
+    "第三方核验",
+    "2027-08-18"
+  ],
+  "group": "供应链与实施",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 第 VII 章，经 2025/1561 推迟。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "谁在何时适用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "电池供应链尽调义务自 2027-08-18 起适用，主要面向投放市场或投入使用电池且达到营业额门槛的经济运营商。",
+          "quote": {
+            "text": "From 18 August 2027, economic operators ... shall fulfil the due diligence obligations.",
+            "source": "Regulation (EU) 2023/1542 consolidated, Article 48"
+          },
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "营业额豁免",
+              "content": "通常以上一财年净营业额低于 4,000 万欧元作为豁免门槛，并核对集团口径和排除项。"
+            },
+            {
+              "title": "材料范围",
+              "content": "钴、天然石墨、锂、镍，以及法规列明的相关化合物。"
+            },
+            {
+              "title": "风险范围",
+              "content": "覆盖社会和环境风险，按附件 X 与国际工具识别。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "五步尽调",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "管理体系",
+              "desc": "政策、职责、供应链控制和记录保存。"
+            },
+            {
+              "title": "追溯链条",
+              "desc": "识别原料来源、供应商、交易与加工环节。"
+            },
+            {
+              "title": "风险识别",
+              "desc": "评估社会、环境和治理风险。"
+            },
+            {
+              "title": "风险处置",
+              "desc": "制定并实施缓解计划，必要时暂停或终止。"
+            },
+            {
+              "title": "核验与公开",
+              "desc": "通知机构第三方核验，并每年公开政策和结论。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Regulation (EU) 2023/1542 Articles 48—52",
+          "references": [
+            {
+              "title": "尽调延期修订",
+              "url": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng",
+              "locator": "Article 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "证据与协同",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "证据",
+              "要回答的问题"
+            ],
+            [
+              "矿产供应商清单",
+              "材料来自谁、经过哪些加工与交易环节"
+            ],
+            [
+              "原产地和追溯记录",
+              "是否能定位矿区/国家及保管链"
+            ],
+            [
+              "风险评估",
+              "对附件 X 风险如何评级、依据是什么"
+            ],
+            [
+              "缓解计划",
+              "责任人、措施、期限和结果如何"
+            ],
+            [
+              "第三方核验",
+              "通知机构范围、发现和纠正措施"
+            ],
+            [
+              "年度公开报告",
+              "对外说明政策、风险、措施和核验结果"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "第三方核验不替代企业自身责任，企业仍须维护并实施尽调政策。",
+          "quote": {
+            "text": "without prejudice to the individual responsibility of economic operators",
+            "source": "Regulation (EU) 2023/1542, Article 48"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-process",
+        "title": "对照 CSDDD 尽调流程",
+        "standard": "csddd",
+        "system": "CSDDD"
+      },
+      {
+        "id": "oecd-duediligence",
+        "title": "对照 OECD 六步",
+        "standard": "oecd",
+        "system": "OECD"
+      }
+    ],
+    "external": []
+  }
+}

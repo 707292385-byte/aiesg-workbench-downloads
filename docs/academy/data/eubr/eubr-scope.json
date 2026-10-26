@@ -1,0 +1,144 @@
+{
+  "id": "eubr-scope",
+  "title": "电池类别与责任主体",
+  "eyebrow": "五类电池 · 经济运营商",
+  "summary": "先判断电池类别、是否嵌入产品以及企业在供应链中的角色，再匹配制造商、进口商、分销商、生产者等义务。",
+  "tags": [
+    "五类电池",
+    "制造商",
+    "生产者"
+  ],
+  "group": "体系与对象",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 第 1—3 条及经济运营商章节。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "五类电池",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 5,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "便携式电池",
+              "content": "密封、5kg以内，且不属于其他专门类别。"
+            },
+            {
+              "title": "启动/照明/点火电池",
+              "content": "用于车辆启动、照明或点火等。"
+            },
+            {
+              "title": "轻型交通工具电池",
+              "content": "为轮式轻型交通工具牵引供能。"
+            },
+            {
+              "title": "电动汽车电池",
+              "content": "为混合动力或纯电车辆牵引供能。"
+            },
+            {
+              "title": "工业电池",
+              "content": "为工业用途设计，或不属于其他四类。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "法规适用于所有类别电池，无论其形状、体积、重量、设计、材料组成、用途或目的。",
+          "quote": {
+            "text": "applies to all categories of batteries, regardless of their shape, volume, weight, design",
+            "source": "Regulation (EU) 2023/1542, Article 1"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "先识别企业角色",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "角色",
+              "核心责任"
+            ],
+            [
+              "制造商",
+              "设计、制造、技术文档、合格评定、标识与持续合规"
+            ],
+            [
+              "进口商",
+              "核验制造商合规并保留文件、处理不合规"
+            ],
+            [
+              "分销商",
+              "在供应前核验标识、文件和储运条件"
+            ],
+            [
+              "生产者",
+              "首次在成员国市场供应电池，承担注册和延伸生产者责任"
+            ],
+            [
+              "终端处理/回收主体",
+              "按废电池、回收效率和材料回收目标运行"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "嵌入产品也受管",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "嵌入设备、轻型交通工具或其他车辆中的电池同样在范围内；产品制造商还要核对可拆卸和可更换要求。",
+          "quote": {
+            "text": "batteries that are incorporated into or added to products",
+            "source": "Regulation (EU) 2023/1542, Article 1"
+          },
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "产品BOM",
+              "content": "识别每个电池型号、化学体系、容量和供应商。"
+            },
+            {
+              "title": "角色映射",
+              "content": "按成员国、品牌和首次投放市场主体确认责任。"
+            },
+            {
+              "title": "证据映射",
+              "content": "把声明、测试、标签、护照和回收责任关联到具体SKU。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eubr-product",
+        "title": "继续：产品与标签要求"
+      }
+    ],
+    "external": []
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "csddd",
+  "title": "欧盟企业可持续发展尽职调查指令（CSDDD）",
+  "titleEn": "Corporate Sustainability Due Diligence Directive",
+  "eyebrow": "强制性人权与环境尽调 · 2026 Omnibus I 修订后",
+  "accent": "#174b3a",
+  "description": "面向超大型欧盟及非欧盟企业的强制性人权与环境尽调制度：识别并处置自身、子公司和活动链中的不利影响。",
+  "issuer": "欧洲议会与欧盟理事会",
+  "version": "Directive (EU) 2024/1760，经 (EU) 2025/794、(EU) 2026/470 修订",
+  "updated": "2026.10.26",
+  "topics": 6,
+  "sourceNote": "以欧盟官方公报现行英文文本和欧盟委员会专题页为依据；中文由 AI 翻译并人工校核。",
+  "notice": "CSDDD 是指令，成员国仍须转化为国内法。企业的最终法律义务还要结合适用成员国的转化文本判断。",
+  "goals": [
+    "判断企业是否直接纳入及何时适用",
+    "理解活动链与商业伙伴边界",
+    "掌握风险为本尽调闭环",
+    "区分预防、减轻、终止与补救",
+    "建立治理、申诉、监测和公开沟通机制",
+    "衔接 OECD、UNGP、ESRS 与成员国法律"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "确认范围",
+      "desc": "核对员工、营业额、集团与特许经营条件。"
+    },
+    {
+      "step": "2",
+      "title": "绘制活动链",
+      "desc": "识别自身、子公司与上下游活动边界。"
+    },
+    {
+      "step": "3",
+      "title": "识别并排序",
+      "desc": "按最可能、最严重的不利影响确定深查重点。"
+    },
+    {
+      "step": "4",
+      "title": "采取措施",
+      "desc": "预防、减轻、终止影响，必要时实施补救。"
+    },
+    {
+      "step": "5",
+      "title": "申诉与参与",
+      "desc": "运行通知、投诉和受影响利益相关方参与机制。"
+    },
+    {
+      "step": "6",
+      "title": "监测与沟通",
+      "desc": "复核措施有效性并对外公开尽调信息。"
+    }
+  ],
+  "officialFiles": [
+    {
+      "name": "Directive (EU) 2024/1760",
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj/eng"
+    },
+    {
+      "name": "Directive (EU) 2025/794",
+      "url": "https://eur-lex.europa.eu/eli/dir/2025/794/oj/eng"
+    },
+    {
+      "name": "Directive (EU) 2026/470",
+      "url": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng"
+    }
+  ],
+  "groups": [
+    {
+      "title": "先判断是否适用",
+      "items": [
+        {
+          "id": "csddd-scope",
+          "title": "适用范围与现行时间表",
+          "eyebrow": "谁被直接纳入 · 何时开始适用",
+          "summary": "以 2026 年 Omnibus I 修订后的门槛和统一适用日判断企业是否直接受管；同时区分指令生效、成员国转化和企业适用三个节点。",
+          "tags": [
+            "5000人",
+            "15亿欧元",
+            "2029-07-26"
+          ],
+          "group": "先判断是否适用",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+          "sourceNote": "依据 Directive (EU) 2024/1760、2025/794 与 2026/470 的现行组合文本。",
+          "detailFile": "data/csddd/csddd-scope.json"
+        },
+        {
+          "id": "csddd-architecture",
+          "title": "义务结构与尽调对象",
+          "eyebrow": "自身运营 · 子公司 · 活动链",
+          "summary": "CSDDD 管理的是人权和环境不利影响，覆盖自身运营、子公司和活动链；核心不是提交一张表，而是建立持续尽调制度。",
+          "tags": [
+            "不利影响",
+            "活动链",
+            "持续尽调"
+          ],
+          "group": "先判断是否适用",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj/eng",
+          "sourceNote": "基本义务来自 Directive (EU) 2024/1760，经 2026/470 修订后理解。",
+          "detailFile": "data/csddd/csddd-architecture.json"
+        }
+      ]
+    },
+    {
+      "title": "核心尽调机制",
+      "items": [
+        {
+          "id": "csddd-process",
+          "title": "风险为本的尽调流程",
+          "eyebrow": "识别 · 处置 · 跟踪 · 沟通",
+          "summary": "把政策嵌入、风险识别、优先排序、预防减轻、补救、申诉、监测和公开沟通连成一套循环。",
+          "tags": [
+            "风险为本",
+            "优先排序",
+            "闭环"
+          ],
+          "group": "核心尽调机制",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+          "sourceNote": "流程按 CSDDD 第 7—16 条及 2026 年修订整理，并与 OECD 六步对应。",
+          "detailFile": "data/csddd/csddd-process.json"
+        },
+        {
+          "id": "csddd-chain",
+          "title": "活动链与商业伙伴",
+          "eyebrow": "上游为主 · 有限下游 · 信息分层",
+          "summary": "从产品或服务的生产与供应活动识别活动链，再按最可能、最严重的影响决定深查对象，避免把供应商问卷当成尽调本身。",
+          "tags": [
+            "活动链",
+            "商业伙伴",
+            "信息请求"
+          ],
+          "group": "核心尽调机制",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+          "sourceNote": "依据 CSDDD 的 chain of activities 定义、Article 8 风险识别及 2026 年信息请求限制。",
+          "detailFile": "data/csddd/csddd-chain.json"
+        }
+      ]
+    },
+    {
+      "title": "实施与责任",
+      "items": [
+        {
+          "id": "csddd-response",
+          "title": "预防、减轻与补救",
+          "eyebrow": "行动计划 · 合同保障 · 负责任暂停",
+          "summary": "对潜在影响重在预防和减轻，对实际影响重在终止、最小化和补救；暂停关系前还要评估退出本身是否造成更严重后果。",
+          "tags": [
+            "预防",
+            "补救",
+            "负责任暂停"
+          ],
+          "group": "实施与责任",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+          "sourceNote": "依据 CSDDD 第 10、11、12 条及 2026 年修订。",
+          "detailFile": "data/csddd/csddd-response.json"
+        },
+        {
+          "id": "csddd-governance",
+          "title": "治理、申诉与实施路线",
+          "eyebrow": "职责 · 证据 · 监督",
+          "summary": "把尽调职责、投诉与通知机制、监测、公开沟通和监管应对放进年度管理节奏，并与 OECD、UNGP、ESRS 分工衔接。",
+          "tags": [
+            "治理",
+            "申诉",
+            "实施路线"
+          ],
+          "group": "实施与责任",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://commission.europa.eu/topics/business-and-industry/company-law-and-corporate-governance/corporate-sustainability-due-diligence_en",
+          "sourceNote": "依据 CSDDD 现行义务与欧盟委员会实施说明；路线图为平台整理。",
+          "detailFile": "data/csddd/csddd-governance.json"
+        }
+      ]
+    }
+  ]
+}

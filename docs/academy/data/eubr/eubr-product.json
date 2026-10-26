@@ -1,0 +1,143 @@
+{
+  "id": "eubr-product",
+  "title": "可持续、安全与标签要求",
+  "eyebrow": "限制物质 · 性能 · 标签",
+  "summary": "法规把限制物质、耐久性、可拆换、标签、二维码和合规评定组合成产品准入链条。",
+  "tags": [
+    "安全",
+    "标签",
+    "二维码"
+  ],
+  "group": "产品与数据",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 第 II—VI 章及附件。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "产品合规链",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "限制物质",
+              "desc": "核对汞、镉、铅及附件限制。"
+            },
+            {
+              "title": "性能与耐久",
+              "desc": "按类别满足电化学性能和耐久信息要求。"
+            },
+            {
+              "title": "安全与可拆换",
+              "desc": "处理储能系统安全、便携式和LMT电池可拆换。"
+            },
+            {
+              "title": "合格评定",
+              "desc": "准备技术文件、EU符合性声明和CE标志。"
+            },
+            {
+              "title": "标签与二维码",
+              "desc": "把类别、容量、化学物质、回收等信息送达用户。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Regulation (EU) 2023/1542 Chapters II—VI"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "信息分层",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 4,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "电池本体标签",
+              "content": "承载法规要求的基础识别和性能信息。"
+            },
+            {
+              "title": "分类收集标志",
+              "content": "提示废电池不得进入未分类生活垃圾。"
+            },
+            {
+              "title": "二维码",
+              "content": "把用户带到法规要求的数字信息；不同类别链接内容不同。"
+            },
+            {
+              "title": "电池护照",
+              "content": "针对特定电池提供更完整、可更新的数据记录。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "二维码应明显、清晰、易读，并以不可擦除方式印制或雕刻。",
+          "quote": {
+            "text": "clearly visible, legible and indelibly printed or engraved",
+            "source": "Regulation (EU) 2023/1542, Article 13"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "企业证据包",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "证据",
+              "用途"
+            ],
+            [
+              "型号与BOM清单",
+              "确定适用类别和材料"
+            ],
+            [
+              "风险分析与测试报告",
+              "证明安全、性能和耐久要求"
+            ],
+            [
+              "技术文档与EU声明",
+              "支持合格评定与市场监管"
+            ],
+            [
+              "标签/二维码校样",
+              "验证信息完整与可访问"
+            ],
+            [
+              "变更记录",
+              "供应商、材料或软件更新后持续合规"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eubr-footprint",
+        "title": "继续：碳足迹与再生材料"
+      },
+      {
+        "id": "eubr-passport",
+        "title": "继续：电池护照"
+      }
+    ],
+    "external": []
+  }
+}

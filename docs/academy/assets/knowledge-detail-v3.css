@@ -247,3 +247,5 @@ details[open]>summary .st-caret{transform:rotate(-135deg) translateY(-2px);}
  .kd-page[data-layout=kpi-workbook] .kd-flow-v article{grid-template-columns:27px 1fr;gap:7px 9px}
  .kd-page[data-layout=kpi-workbook] .kd-flow-v article p{grid-column:2}
 }
+
+.kd-translation-note{margin:24px 0 0;padding-top:12px;border-top:1px solid #e1e9e4;color:#7b8e84;font-size:11px;line-height:1.6}

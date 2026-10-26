@@ -1,0 +1,131 @@
+{
+  "id": "eubr-footprint",
+  "title": "碳足迹、再生材料与回收",
+  "eyebrow": "声明 · 等级 · 最低比例",
+  "summary": "重点掌握碳足迹声明与等级、再生材料信息和最低含量、回收效率与材料回收目标之间的分工。",
+  "tags": [
+    "碳足迹",
+    "再生含量",
+    "回收"
+  ],
+  "group": "产品与数据",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 第 7—10、71—72 条及附件。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "三条环境数据链",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "碳足迹",
+              "content": "先做型号/制造工厂层面的声明，再按授权法案进入等级和性能阈值阶段。"
+            },
+            {
+              "title": "再生材料",
+              "content": "披露钴、铅、锂、镍等再生含量，并在后续阶段满足最低比例。"
+            },
+            {
+              "title": "回收绩效",
+              "content": "分别管理废电池收集、回收效率和材料回收率目标。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "碳足迹要求按电动汽车、可充电工业和轻型交通工具电池分阶段实施。",
+          "quote": {
+            "text": "carbon footprint declaration shall apply",
+            "source": "Regulation (EU) 2023/1542, Article 7"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "碳足迹路径",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "界定型号与工厂",
+              "desc": "明确电池型号、生产地点和系统边界。"
+            },
+            {
+              "title": "采集生命周期数据",
+              "desc": "原料、制造、运输、使用和寿命终止。"
+            },
+            {
+              "title": "计算与核验",
+              "desc": "按欧盟方法学形成kg CO2e/kWh等指标。"
+            },
+            {
+              "title": "声明与等级",
+              "desc": "完成声明，并在对应阶段标注等级。"
+            },
+            {
+              "title": "达到阈值",
+              "desc": "后续阶段核对最大生命周期碳足迹阈值。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Regulation (EU) 2023/1542, Article 7 and Annex II"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "再生与回收不要混写",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "概念",
+              "看什么"
+            ],
+            [
+              "再生材料含量",
+              "新电池中来自制造废料或消费后废弃物的材料比例"
+            ],
+            [
+              "收集率",
+              "废便携式/LMT电池被单独收集的比例"
+            ],
+            [
+              "回收效率",
+              "回收工艺产出相对于输入废电池的质量比例"
+            ],
+            [
+              "材料回收率",
+              "从废电池中回收特定材料的比例"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eubr-passport",
+        "title": "继续：二维码与电池护照"
+      }
+    ],
+    "external": []
+  }
+}

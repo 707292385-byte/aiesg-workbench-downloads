@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-23T01:00:00.000Z",
+  "generatedAt": "2026-10-26T07:00:00.000Z",
   "standards": [
     {
       "id": "msci",
@@ -239,6 +239,48 @@
       "groups": 3,
       "topics": 6,
       "data": "data/esrs.json"
+    },
+    {
+      "id": "csddd",
+      "title": "欧盟企业可持续发展尽职调查指令（CSDDD）",
+      "titleEn": "Corporate Sustainability Due Diligence Directive",
+      "eyebrow": "强制性人权与环境尽调 · 2026 Omnibus I 修订后",
+      "accent": "#174b3a",
+      "description": "面向超大型欧盟及非欧盟企业的强制性人权与环境尽调制度：识别并处置自身、子公司和活动链中的不利影响。",
+      "issuer": "欧洲议会与欧盟理事会",
+      "version": "Directive (EU) 2024/1760，经 (EU) 2025/794、(EU) 2026/470 修订",
+      "updated": "2026.10.26",
+      "groups": 3,
+      "topics": 6,
+      "data": "data/csddd.json"
+    },
+    {
+      "id": "eubr",
+      "title": "欧盟电池法规（EUBR）",
+      "titleEn": "EU Batteries Regulation",
+      "eyebrow": "电池全生命周期规则 · Regulation (EU) 2023/1542",
+      "accent": "#365b35",
+      "description": "覆盖电池设计、生产、信息披露、供应链尽调、回收和生产者责任的欧盟统一法规；适用于独立电池及嵌入产品的电池。",
+      "issuer": "欧洲议会与欧盟理事会",
+      "version": "Regulation (EU) 2023/1542，合并至 2026-08-13；尽调日期经 2025/1561 修订",
+      "updated": "2026.10.26",
+      "groups": 3,
+      "topics": 6,
+      "data": "data/eubr.json"
+    },
+    {
+      "id": "eudr",
+      "title": "欧盟零毁林法规（EUDR）",
+      "titleEn": "EU Deforestation Regulation",
+      "eyebrow": "七类商品 · 地理定位 · 风险为本尽调",
+      "accent": "#176f47",
+      "description": "确保特定商品及相关产品进入、供应或出口欧盟市场时不造成毁林和森林退化，并符合生产国相关法律。",
+      "issuer": "欧洲议会与欧盟理事会",
+      "version": "Regulation (EU) 2023/1115，经 (EU) 2024/3234、(EU) 2025/2650 修订",
+      "updated": "2026.10.26",
+      "groups": 3,
+      "topics": 6,
+      "data": "data/eudr.json"
     },
     {
       "id": "sustainalytics",

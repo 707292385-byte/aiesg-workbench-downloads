@@ -1,0 +1,139 @@
+{
+  "id": "eudr-due-diligence",
+  "title": "尽职调查三步",
+  "eyebrow": "信息 · 风险评估 · 风险减轻",
+  "summary": "完整尽调由信息收集、风险评估和风险减轻构成；只有风险为零或可忽略时，经营者才能提交声明并投放产品。",
+  "tags": [
+    "信息收集",
+    "风险评估",
+    "风险减轻"
+  ],
+  "group": "核心合规",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/C/2026/3896/oj/eng",
+  "sourceNote": "依据 EUDR 第 8—11 条与 2026 官方指南。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "三步法",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "收集信息",
+              "desc": "产品、数量、生产国、地块、日期、供应商、客户和零毁林/合法性证据。"
+            },
+            {
+              "title": "评估风险",
+              "desc": "结合国家分类、毁林情况、供应链复杂度、权利争议和信息可靠性。"
+            },
+            {
+              "title": "减轻风险",
+              "desc": "风险非零或不可忽略时，补充证据、独立调查、现场核验或支持供应商改进。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "EUDR Articles 8—11",
+          "references": [
+            {
+              "title": "2026 官方指南",
+              "url": "https://eur-lex.europa.eu/eli/C/2026/3896/oj/eng",
+              "locator": "Due diligence"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "只有在评估结论为零风险或可忽略风险时，经营者才能投放或出口相关产品。",
+          "quote": {
+            "text": "no or only negligible risk",
+            "source": "Regulation (EU) 2023/1115, Article 10"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "风险评估维度",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 4,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "国家与地区",
+              "content": "国家风险级别、森林覆盖、毁林率、治理和执法。"
+            },
+            {
+              "title": "商品与地块",
+              "content": "生产地邻近森林、受保护区或近期土地利用变化。"
+            },
+            {
+              "title": "供应链",
+              "content": "层级、混批、追溯中断、复杂度和规避风险。"
+            },
+            {
+              "title": "权利与事件",
+              "content": "原住民权利、土地争议、腐败、伪造或第三方可信信息。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "简化尽调的边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "从低风险国家或地区采购时，可以免做常规风险评估和风险减轻，但仍须收集第 9 条信息，并确认没有规避、混入或新的风险信息。",
+          "quote": {
+            "text": "shall not be required to fulfil the obligations under Articles 10 and 11",
+            "source": "Regulation (EU) 2023/1115, Article 13"
+          },
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "可以简化",
+              "仍然必须"
+            ],
+            [
+              "常规风险评估和风险减轻步骤",
+              "产品、数量、生产地、地理定位、供应商/客户等信息"
+            ],
+            [
+              "降低部分程序负担",
+              "零毁林和合法生产条件"
+            ],
+            [
+              "利用低风险分类",
+              "对新风险信息作出反应并防止与未知来源混合"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-traceability",
+        "title": "继续：地理定位与信息系统"
+      }
+    ],
+    "external": []
+  }
+}

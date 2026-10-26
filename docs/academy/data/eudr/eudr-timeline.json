@@ -1,0 +1,145 @@
+{
+  "id": "eudr-timeline",
+  "title": "法规定位与现行适用时间",
+  "eyebrow": "零毁林 · 2026/2027",
+  "summary": "EUDR 约束特定商品及产品进入、供应或出口欧盟市场；2025 年修订后，一般经营者自 2026-12-30 适用，多数微型和小型经营者自 2027-06-30 适用。",
+  "tags": [
+    "2026-12-30",
+    "2027-06-30",
+    "现行修订"
+  ],
+  "group": "适用范围",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1115，经 2024/3234 与 2025/2650 修订。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "法规要解决什么",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "相关商品和产品只有在零毁林、符合生产国相关法律并由尽职调查声明覆盖时，才能投放、供应欧盟市场或从欧盟出口。",
+          "quote": {
+            "text": "shall not be placed or made available on the market or exported, unless all the following conditions are fulfilled",
+            "source": "Regulation (EU) 2023/1115, Article 3"
+          },
+          "provenance": "knowledge_note",
+          "references": [
+            {
+              "title": "欧盟委员会实施页",
+              "url": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+              "locator": "Entry into application"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "进口/首次投放",
+              "content": "把相关产品首次投放欧盟市场。"
+            },
+            {
+              "title": "欧盟内供应",
+              "content": "在商业活动中继续供应相关产品。"
+            },
+            {
+              "title": "出口",
+              "content": "把相关产品从欧盟市场出口。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "现行适用日",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "大型和中型经营者",
+              "content": "2026-12-30。"
+            },
+            {
+              "title": "微型和小型经营者",
+              "content": "多数为 2027-06-30。"
+            },
+            {
+              "title": "原已受EUTR约束的小微木材经营者",
+              "content": "2026-12-30。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "EUDR 已在 2023 年生效，但主要实体义务的适用时间经过两次延期；项目计划必须采用修订后的日期。",
+          "quote": {
+            "text": "further postponed its application by an additional year",
+            "source": "EUR-Lex summary of Regulation (EU) 2023/1115"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "实施时间线",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "2023-06-29",
+              "desc": "EUDR 生效。"
+            },
+            {
+              "title": "2025-05-23",
+              "desc": "首批国家风险分类实施条例发布。"
+            },
+            {
+              "title": "2025-12-26",
+              "desc": "简化与再次延期修订生效。"
+            },
+            {
+              "title": "2026-12-30",
+              "desc": "一般经营者和部分小微木材经营者适用。"
+            },
+            {
+              "title": "2027-06-30",
+              "desc": "多数微型和小型经营者适用。"
+            },
+            {
+              "title": "2027-12-30",
+              "desc": "2026/2102 新增产品开始适用。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "欧盟委员会 EUDR 实施页"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-products",
+        "title": "继续：七类商品与产品范围"
+      }
+    ],
+    "external": []
+  }
+}

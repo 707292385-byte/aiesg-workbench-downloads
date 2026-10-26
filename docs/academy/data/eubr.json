@@ -1,0 +1,181 @@
+{
+  "id": "eubr",
+  "title": "欧盟电池法规（EUBR）",
+  "titleEn": "EU Batteries Regulation",
+  "eyebrow": "电池全生命周期规则 · Regulation (EU) 2023/1542",
+  "accent": "#365b35",
+  "description": "覆盖电池设计、生产、信息披露、供应链尽调、回收和生产者责任的欧盟统一法规；适用于独立电池及嵌入产品的电池。",
+  "issuer": "欧洲议会与欧盟理事会",
+  "version": "Regulation (EU) 2023/1542，合并至 2026-08-13；尽调日期经 2025/1561 修订",
+  "updated": "2026.10.26",
+  "topics": 6,
+  "sourceNote": "以欧盟官方公报合并英文文本为依据；EUBR 为行业常用简称，法规正式名称为 Batteries and Waste Batteries Regulation。",
+  "notice": "不同条款适用日并不相同，不能用一个日期代表整部法规。具体义务须按电池类别、用途、角色和条款逐项判断。",
+  "goals": [
+    "判断电池类别与责任主体",
+    "理解分阶段适用时间线",
+    "梳理产品安全、性能、标签和二维码",
+    "掌握碳足迹与再生材料要求",
+    "建立电池护照数据治理",
+    "落实矿产供应链尽调与第三方核验"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "识别电池与角色",
+      "desc": "判断类别、用途、嵌入方式和企业身份。"
+    },
+    {
+      "step": "2",
+      "title": "建立法规矩阵",
+      "desc": "按条款、类别和日期匹配义务。"
+    },
+    {
+      "step": "3",
+      "title": "准备产品证据",
+      "desc": "安全、性能、标签、合规评定与技术文档。"
+    },
+    {
+      "step": "4",
+      "title": "准备环境数据",
+      "desc": "碳足迹、再生含量、回收和生命周期数据。"
+    },
+    {
+      "step": "5",
+      "title": "建设电池护照",
+      "desc": "确定数据责任、标识、权限和接口。"
+    },
+    {
+      "step": "6",
+      "title": "运行供应链尽调",
+      "desc": "矿产追溯、风险处置、第三方核验和公开报告。"
+    }
+  ],
+  "officialFiles": [
+    {
+      "name": "Regulation (EU) 2023/1542",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng"
+    },
+    {
+      "name": "Regulation (EU) 2025/1561",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng"
+    },
+    {
+      "name": "2026-08-13 consolidated text",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系与对象",
+      "items": [
+        {
+          "id": "eubr-timeline",
+          "title": "法规定位与分阶段时间表",
+          "eyebrow": "从产品安全到全生命周期",
+          "summary": "欧盟电池法规是一套直接适用的产品全生命周期法规，不同义务按电池类型和条款分批生效；供应链尽调已推迟到 2027 年。",
+          "tags": [
+            "2023/1542",
+            "分阶段",
+            "2027尽调"
+          ],
+          "group": "体系与对象",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 及 2025/1561 后的合并文本。",
+          "detailFile": "data/eubr/eubr-timeline.json"
+        },
+        {
+          "id": "eubr-scope",
+          "title": "电池类别与责任主体",
+          "eyebrow": "五类电池 · 经济运营商",
+          "summary": "先判断电池类别、是否嵌入产品以及企业在供应链中的角色，再匹配制造商、进口商、分销商、生产者等义务。",
+          "tags": [
+            "五类电池",
+            "制造商",
+            "生产者"
+          ],
+          "group": "体系与对象",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 第 1—3 条及经济运营商章节。",
+          "detailFile": "data/eubr/eubr-scope.json"
+        }
+      ]
+    },
+    {
+      "title": "产品与数据",
+      "items": [
+        {
+          "id": "eubr-product",
+          "title": "可持续、安全与标签要求",
+          "eyebrow": "限制物质 · 性能 · 标签",
+          "summary": "法规把限制物质、耐久性、可拆换、标签、二维码和合规评定组合成产品准入链条。",
+          "tags": [
+            "安全",
+            "标签",
+            "二维码"
+          ],
+          "group": "产品与数据",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 第 II—VI 章及附件。",
+          "detailFile": "data/eubr/eubr-product.json"
+        },
+        {
+          "id": "eubr-footprint",
+          "title": "碳足迹、再生材料与回收",
+          "eyebrow": "声明 · 等级 · 最低比例",
+          "summary": "重点掌握碳足迹声明与等级、再生材料信息和最低含量、回收效率与材料回收目标之间的分工。",
+          "tags": [
+            "碳足迹",
+            "再生含量",
+            "回收"
+          ],
+          "group": "产品与数据",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 第 7—10、71—72 条及附件。",
+          "detailFile": "data/eubr/eubr-footprint.json"
+        },
+        {
+          "id": "eubr-passport",
+          "title": "二维码与电池护照",
+          "eyebrow": "唯一标识 · 数据分层 · 2027",
+          "summary": "电池护照把型号、材料、碳足迹、性能、拆解和供应链信息组织成可交换的数字记录，并按公开/受限权限分层。",
+          "tags": [
+            "电池护照",
+            "二维码",
+            "数据治理"
+          ],
+          "group": "产品与数据",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 第 77—78 条及附件 XIII。",
+          "detailFile": "data/eubr/eubr-passport.json"
+        }
+      ]
+    },
+    {
+      "title": "供应链与实施",
+      "items": [
+        {
+          "id": "eubr-due-diligence",
+          "title": "电池供应链尽调",
+          "eyebrow": "钴 · 石墨 · 锂 · 镍",
+          "summary": "对达到营业额门槛的经济运营商建立原材料供应链尽调政策、风险管理、第三方核验和年度公开报告，现行适用日为 2027-08-18。",
+          "tags": [
+            "矿产尽调",
+            "第三方核验",
+            "2027-08-18"
+          ],
+          "group": "供应链与实施",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1542 第 VII 章，经 2025/1561 推迟。",
+          "detailFile": "data/eubr/eubr-due-diligence.json"
+        }
+      ]
+    }
+  ]
+}

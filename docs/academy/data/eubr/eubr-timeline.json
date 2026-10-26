@@ -1,0 +1,155 @@
+{
+  "id": "eubr-timeline",
+  "title": "法规定位与分阶段时间表",
+  "eyebrow": "从产品安全到全生命周期",
+  "summary": "欧盟电池法规是一套直接适用的产品全生命周期法规，不同义务按电池类型和条款分批生效；供应链尽调已推迟到 2027 年。",
+  "tags": [
+    "2023/1542",
+    "分阶段",
+    "2027尽调"
+  ],
+  "group": "体系与对象",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 及 2025/1561 后的合并文本。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "法规定位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "该法规同时管理投放欧盟市场和投入使用的电池，以及废电池；它取代旧《电池指令》，并把可持续、循环、安全和信息要求放进同一制度。",
+          "quote": {
+            "text": "concerning batteries and waste batteries",
+            "source": "Regulation (EU) 2023/1542 标题"
+          },
+          "provenance": "knowledge_note",
+          "references": [
+            {
+              "title": "法规原文",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng",
+              "locator": "Official Journal"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "产品规则",
+              "content": "设计、安全、性能、限制物质和合格评定。"
+            },
+            {
+              "title": "环境规则",
+              "content": "碳足迹、再生材料、收集和回收。"
+            },
+            {
+              "title": "数据规则",
+              "content": "标签、二维码、电池护照和供应链信息。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "关键时间轴",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "2023-08-17",
+              "desc": "法规生效。"
+            },
+            {
+              "title": "2024-02-18",
+              "desc": "多数一般条款开始适用。"
+            },
+            {
+              "title": "2025-08-18",
+              "desc": "旧电池指令原则上废止，生产者责任等进入新框架。"
+            },
+            {
+              "title": "2027-02-18",
+              "desc": "便携式/LMT电池可拆换要求开始适用。"
+            },
+            {
+              "title": "2027-02-18",
+              "desc": "电池护照适用于 LMT、工业电池>2kWh 和电动汽车电池。"
+            },
+            {
+              "title": "2027-08-18",
+              "desc": "电池供应链尽调开始适用。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Regulation (EU) 2023/1542; 2025/1561"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "不能只记一个日期",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "义务",
+              "判断变量"
+            ],
+            [
+              "碳足迹",
+              "电池类别、欧委会配套授权法案和分阶段日期"
+            ],
+            [
+              "再生含量",
+              "材料种类、电池类别、信息披露与最低比例阶段"
+            ],
+            [
+              "标签/二维码",
+              "电池类别和适用日期"
+            ],
+            [
+              "电池护照",
+              "是否为 LMT、EV 或容量超过 2kWh 的工业电池"
+            ],
+            [
+              "尽调",
+              "经济运营商营业额门槛与原材料范围"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "供应链尽调原定 2025-08-18 适用，2025/1561 正式推迟两年。",
+          "quote": {
+            "text": "the date ... should be postponed by two years",
+            "source": "Regulation (EU) 2025/1561, recital 4"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eubr-scope",
+        "title": "继续：类别与责任主体"
+      }
+    ],
+    "external": []
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "csddd-process",
+  "title": "风险为本的尽调流程",
+  "eyebrow": "识别 · 处置 · 跟踪 · 沟通",
+  "summary": "把政策嵌入、风险识别、优先排序、预防减轻、补救、申诉、监测和公开沟通连成一套循环。",
+  "tags": [
+    "风险为本",
+    "优先排序",
+    "闭环"
+  ],
+  "group": "核心尽调机制",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+  "sourceNote": "流程按 CSDDD 第 7—16 条及 2026 年修订整理，并与 OECD 六步对应。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "尽调闭环",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "嵌入政策",
+              "desc": "纳入政策和风险管理体系。"
+            },
+            {
+              "title": "识别评估",
+              "desc": "绘制业务并识别实际、潜在影响。"
+            },
+            {
+              "title": "优先排序",
+              "desc": "先处理最严重、最可能发生的影响。"
+            },
+            {
+              "title": "预防或终止",
+              "desc": "按潜在/实际影响采取相应行动。"
+            },
+            {
+              "title": "补救与申诉",
+              "desc": "提供或合作补救并保持可访问渠道。"
+            },
+            {
+              "title": "监测与沟通",
+              "desc": "复核有效性并公开说明。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "CSDDD Articles 7—16",
+          "references": [
+            {
+              "title": "CSDDD 现行修订文本",
+              "url": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+              "locator": "Articles 7—16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "风险为本",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "2026 年修订允许企业依据合理可得信息，优先聚焦影响最可能发生、后果最严重的领域；这并不等于只检查一级供应商。",
+          "quote": {
+            "text": "focus on areas where impacts are most likely and most severe",
+            "source": "欧盟委员会 CSDDD 专题页"
+          },
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "广度筛查",
+              "content": "先覆盖自身、子公司和活动链，找出高风险环节。"
+            },
+            {
+              "title": "深度评估",
+              "content": "对高风险环节获取更具体证据，判断影响性质与程度。"
+            },
+            {
+              "title": "动态更新",
+              "content": "经营、地区、伙伴或产品变化时重新识别。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "与 OECD 对照",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "CSDDD 管理动作",
+              "OECD 六步"
+            ],
+            [
+              "政策整合",
+              "嵌入政策与管理体系"
+            ],
+            [
+              "识别、评估和优先排序",
+              "识别并评估实际与潜在影响"
+            ],
+            [
+              "预防、减轻、终止",
+              "终止、防范、减轻"
+            ],
+            [
+              "监测有效性",
+              "跟踪实施与结果"
+            ],
+            [
+              "公开沟通",
+              "沟通如何应对"
+            ],
+            [
+              "补救",
+              "提供或合作补救"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-chain",
+        "title": "继续：活动链与商业伙伴"
+      },
+      {
+        "id": "oecd-duediligence",
+        "title": "对照 OECD 六步",
+        "standard": "oecd",
+        "system": "OECD"
+      }
+    ],
+    "external": []
+  }
+}

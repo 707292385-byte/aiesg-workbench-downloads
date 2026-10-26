@@ -1,0 +1,146 @@
+{
+  "id": "csddd-architecture",
+  "title": "义务结构与尽调对象",
+  "eyebrow": "自身运营 · 子公司 · 活动链",
+  "summary": "CSDDD 管理的是人权和环境不利影响，覆盖自身运营、子公司和活动链；核心不是提交一张表，而是建立持续尽调制度。",
+  "tags": [
+    "不利影响",
+    "活动链",
+    "持续尽调"
+  ],
+  "group": "先判断是否适用",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj/eng",
+  "sourceNote": "基本义务来自 Directive (EU) 2024/1760，经 2026/470 修订后理解。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "管理对象",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "人权影响",
+              "content": "附录所列国际人权文书保护的权利及相关禁止行为。"
+            },
+            {
+              "title": "环境影响",
+              "content": "附录所列环境义务与禁止行为，包括污染、生物多样性等影响。"
+            },
+            {
+              "title": "实际与潜在",
+              "content": "既管已经发生的损害，也管尚未发生但具有风险的影响。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "企业须识别并处理其自身运营、子公司运营以及活动链中的实际和潜在人权与环境不利影响。",
+          "quote": {
+            "text": "identify and address actual and potential adverse human rights and environmental impacts",
+            "source": "欧盟委员会 CSDDD 专题页"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "覆盖层级",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "自身运营",
+              "desc": "公司直接控制的活动。"
+            },
+            {
+              "title": "子公司",
+              "desc": "纳入集团尽调治理和信息体系。"
+            },
+            {
+              "title": "直接商业伙伴",
+              "desc": "以合同和持续关系为起点开展识别。"
+            },
+            {
+              "title": "间接商业伙伴",
+              "desc": "出现可信风险信息时进一步深查。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "CSDDD Articles 3, 8"
+        },
+        {
+          "type": "standard",
+          "content_cn": "活动链并不等同于完整价值链：上游覆盖较广，下游仅覆盖与产品分销、运输和储存有关的限定活动。",
+          "quote": {
+            "text": "activities of a company's downstream business partners related to the distribution, transport and storage of the product",
+            "source": "Directive (EU) 2024/1760, Article 3"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "制度产出",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "制度组件",
+              "应形成的证据"
+            ],
+            [
+              "尽调政策",
+              "职责、原则、流程与行为准则"
+            ],
+            [
+              "风险识别",
+              "风险地图、筛查依据和优先级"
+            ],
+            [
+              "行动管理",
+              "预防/纠正行动计划、合同保障与资源"
+            ],
+            [
+              "申诉与通知",
+              "渠道、案件记录、反馈和防报复"
+            ],
+            [
+              "监测与公开",
+              "有效性复核和年度公开沟通"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-process",
+        "title": "继续：风险为本尽调流程"
+      },
+      {
+        "id": "oecd-duediligence",
+        "title": "对照 OECD 六步",
+        "standard": "oecd",
+        "system": "OECD"
+      }
+    ],
+    "external": []
+  }
+}

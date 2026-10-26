@@ -1,0 +1,185 @@
+{
+  "id": "eudr",
+  "title": "欧盟零毁林法规（EUDR）",
+  "titleEn": "EU Deforestation Regulation",
+  "eyebrow": "七类商品 · 地理定位 · 风险为本尽调",
+  "accent": "#176f47",
+  "description": "确保特定商品及相关产品进入、供应或出口欧盟市场时不造成毁林和森林退化，并符合生产国相关法律。",
+  "issuer": "欧洲议会与欧盟理事会",
+  "version": "Regulation (EU) 2023/1115，经 (EU) 2024/3234、(EU) 2025/2650 修订",
+  "updated": "2026.10.26",
+  "topics": 6,
+  "sourceNote": "以欧盟官方公报、2026 官方指南和国家风险分类实施条例为依据；中文由 AI 翻译并人工校核。",
+  "notice": "产品是否受管须以附件 I 的产品描述和 CN 编码判断，不能只按商品名称判断。法规时间与简化机制已多次修订，历史材料中的 2024/2025 日期不可直接沿用。",
+  "goals": [
+    "确认经营者角色与适用时间",
+    "用附件I和CN编码判断产品范围",
+    "掌握零毁林、合法生产和声明三项条件",
+    "运行信息—评估—减轻三步尽调",
+    "建立地块、批次和声明编号追溯",
+    "理解国家风险分类和简化机制"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "识别产品与角色",
+      "desc": "匹配商品、CN编码、交易动作和经营者身份。"
+    },
+    {
+      "step": "2",
+      "title": "收集来源信息",
+      "desc": "地块、日期、数量、供应商和合法性证据。"
+    },
+    {
+      "step": "3",
+      "title": "评估风险",
+      "desc": "结合国家、商品、供应链和毁林信息判断风险。"
+    },
+    {
+      "step": "4",
+      "title": "减轻风险",
+      "desc": "补证、独立核验、现场检查或调整采购。"
+    },
+    {
+      "step": "5",
+      "title": "提交声明",
+      "desc": "风险降至零或可忽略后提交DDS或适用的简化声明。"
+    },
+    {
+      "step": "6",
+      "title": "保持追溯",
+      "desc": "关联批次与声明编号，留存五年并支持检查。"
+    }
+  ],
+  "officialFiles": [
+    {
+      "name": "Regulation (EU) 2023/1115",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1115/oj/eng"
+    },
+    {
+      "name": "Regulation (EU) 2025/2650",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng"
+    },
+    {
+      "name": "2026 EUDR Guidance",
+      "url": "https://eur-lex.europa.eu/eli/C/2026/3896/oj/eng"
+    },
+    {
+      "name": "Country benchmarking (EU) 2025/1093",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1093/oj/eng"
+    }
+  ],
+  "groups": [
+    {
+      "title": "适用范围",
+      "items": [
+        {
+          "id": "eudr-timeline",
+          "title": "法规定位与现行适用时间",
+          "eyebrow": "零毁林 · 2026/2027",
+          "summary": "EUDR 约束特定商品及产品进入、供应或出口欧盟市场；2025 年修订后，一般经营者自 2026-12-30 适用，多数微型和小型经营者自 2027-06-30 适用。",
+          "tags": [
+            "2026-12-30",
+            "2027-06-30",
+            "现行修订"
+          ],
+          "group": "适用范围",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+          "sourceNote": "依据 Regulation (EU) 2023/1115，经 2024/3234 与 2025/2650 修订。",
+          "detailFile": "data/eudr/eudr-timeline.json"
+        },
+        {
+          "id": "eudr-products",
+          "title": "七类商品与相关产品",
+          "eyebrow": "CN编码决定产品范围",
+          "summary": "法规覆盖牛、可可、咖啡、油棕、橡胶、大豆和木材，但是否受管最终取决于附件 I 的产品描述和 CN 编码。",
+          "tags": [
+            "七类商品",
+            "附件I",
+            "CN编码"
+          ],
+          "group": "适用范围",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1115/oj/eng",
+          "sourceNote": "依据 EUDR 第 1 条、定义与附件 I；2026 新增产品另有过渡日。",
+          "detailFile": "data/eudr/eudr-products.json"
+        }
+      ]
+    },
+    {
+      "title": "核心合规",
+      "items": [
+        {
+          "id": "eudr-conditions",
+          "title": "进入市场的三项条件",
+          "eyebrow": "零毁林 · 合法 · DDS",
+          "summary": "相关产品须同时满足零毁林、符合生产国相关法律并由尽职调查声明覆盖；任何一项缺失都不能进入或离开欧盟市场。",
+          "tags": [
+            "零毁林",
+            "合法生产",
+            "尽调声明"
+          ],
+          "group": "核心合规",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+          "sourceNote": "依据 EUDR 第 3 条及现行修订。",
+          "detailFile": "data/eudr/eudr-conditions.json"
+        },
+        {
+          "id": "eudr-due-diligence",
+          "title": "尽职调查三步",
+          "eyebrow": "信息 · 风险评估 · 风险减轻",
+          "summary": "完整尽调由信息收集、风险评估和风险减轻构成；只有风险为零或可忽略时，经营者才能提交声明并投放产品。",
+          "tags": [
+            "信息收集",
+            "风险评估",
+            "风险减轻"
+          ],
+          "group": "核心合规",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/C/2026/3896/oj/eng",
+          "sourceNote": "依据 EUDR 第 8—11 条与 2026 官方指南。",
+          "detailFile": "data/eudr/eudr-due-diligence.json"
+        }
+      ]
+    },
+    {
+      "title": "数据与检查",
+      "items": [
+        {
+          "id": "eudr-traceability",
+          "title": "地理定位、批次与信息系统",
+          "eyebrow": "地块 · 时间 · 声明编号",
+          "summary": "用地理定位把商品追溯到生产地块，并将批次、商品、数量和供应链主体与尽职调查声明或简化声明标识关联。",
+          "tags": [
+            "地理定位",
+            "批次",
+            "信息系统"
+          ],
+          "group": "数据与检查",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+          "sourceNote": "依据 EUDR 第 9、33 条及 2025/2650 新增简化声明机制。",
+          "detailFile": "data/eudr/eudr-traceability.json"
+        },
+        {
+          "id": "eudr-benchmarking",
+          "title": "国家风险、简化尽调与检查",
+          "eyebrow": "低/标准/高风险",
+          "summary": "国家基准决定风险评估简化程度和主管机关最低检查强度；低风险不等于自动合规，基本信息和零毁林、合法性条件仍须满足。",
+          "tags": [
+            "国家基准",
+            "简化尽调",
+            "检查比例"
+          ],
+          "group": "数据与检查",
+          "status": "欧盟官方现行文件整理",
+          "officialUrl": "https://eur-lex.europa.eu/eli/reg_impl/2025/1093/oj/eng",
+          "sourceNote": "依据 EUDR 第 13、16、29 条及 Implementing Regulation (EU) 2025/1093。",
+          "detailFile": "data/eudr/eudr-benchmarking.json"
+        }
+      ]
+    }
+  ]
+}

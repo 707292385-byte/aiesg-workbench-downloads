@@ -1,0 +1,169 @@
+{
+  "id": "eudr-benchmarking",
+  "title": "国家风险、简化尽调与检查",
+  "eyebrow": "低/标准/高风险",
+  "summary": "国家基准决定风险评估简化程度和主管机关最低检查强度；低风险不等于自动合规，基本信息和零毁林、合法性条件仍须满足。",
+  "tags": [
+    "国家基准",
+    "简化尽调",
+    "检查比例"
+  ],
+  "group": "数据与检查",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg_impl/2025/1093/oj/eng",
+  "sourceNote": "依据 EUDR 第 13、16、29 条及 Implementing Regulation (EU) 2025/1093。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "三级国家风险",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "低风险",
+              "content": "可适用简化尽调；主管机关最低检查强度较低。"
+            },
+            {
+              "title": "标准风险",
+              "content": "实施完整信息收集、风险评估和必要的风险减轻。"
+            },
+            {
+              "title": "高风险",
+              "content": "完整尽调并面临更高监管检查强度。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "所有未被列入低风险或高风险名单的国家维持标准风险级别。",
+          "quote": {
+            "text": "A standard level shall be maintained for all countries not listed in the Annex.",
+            "source": "Implementing Regulation (EU) 2025/1093, Article 1"
+          },
+          "provenance": "knowledge_note",
+          "references": [
+            {
+              "title": "国家风险清单",
+              "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/1093/oj/eng",
+              "locator": "Annex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "风险分类不是合格名单",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "中国被列入 2025 年实施条例的低风险清单，但这只影响尽调简化与监管抽查，并不替代地块追溯、零毁林和合法性证明。",
+          "quote": {
+            "text": "China",
+            "source": "Implementing Regulation (EU) 2025/1093, Annex"
+          },
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "不会自动豁免产品",
+              "content": "产品仍须属于可验证的具体地块和批次。"
+            },
+            {
+              "title": "不会替代合法性",
+              "content": "仍要证明符合生产国相关法律。"
+            },
+            {
+              "title": "新信息会触发深查",
+              "content": "出现毁林、混批、造假或权利争议线索时不能继续简化。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "检查与应对",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "建立检查计划",
+              "desc": "主管机关按风险确定经营者和产品检查。"
+            },
+            {
+              "title": "文件与现场核验",
+              "desc": "核查声明、证据、地块、商品和系统记录。"
+            },
+            {
+              "title": "暂缓或纠正",
+              "desc": "必要时暂停供应、要求纠正、撤回或召回。"
+            },
+            {
+              "title": "处罚与公开",
+              "desc": "成员国设置罚款、没收、禁运或公共采购排除等措施。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "EUDR Articles 16—25"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "企业准备",
+              "证据"
+            ],
+            [
+              "范围和角色判断",
+              "产品编码、交易模式、企业规模"
+            ],
+            [
+              "尽调系统",
+              "程序、责任、风险标准和年度复核"
+            ],
+            [
+              "批次追溯",
+              "地块—商品—批次—声明编号链"
+            ],
+            [
+              "监管响应",
+              "文件索引、联系人、纠正和召回预案"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-due-diligence",
+        "title": "返回：尽调三步"
+      },
+      {
+        "id": "csddd-chain",
+        "title": "对照 CSDDD 活动链",
+        "standard": "csddd",
+        "system": "CSDDD"
+      }
+    ],
+    "external": []
+  }
+}

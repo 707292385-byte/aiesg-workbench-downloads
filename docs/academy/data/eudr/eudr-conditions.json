@@ -1,0 +1,127 @@
+{
+  "id": "eudr-conditions",
+  "title": "进入市场的三项条件",
+  "eyebrow": "零毁林 · 合法 · DDS",
+  "summary": "相关产品须同时满足零毁林、符合生产国相关法律并由尽职调查声明覆盖；任何一项缺失都不能进入或离开欧盟市场。",
+  "tags": [
+    "零毁林",
+    "合法生产",
+    "尽调声明"
+  ],
+  "group": "核心合规",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+  "sourceNote": "依据 EUDR 第 3 条及现行修订。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "三项必须同时满足",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "零毁林",
+              "content": "相关商品生产地自 2020-12-31 后未发生法规意义上的毁林；木材还要判断森林退化。"
+            },
+            {
+              "title": "合法生产",
+              "content": "符合生产国与生产地相关的土地、环境、森林、劳动、人权、税收、贸易和海关等法律。"
+            },
+            {
+              "title": "声明覆盖",
+              "content": "产品由有效尽职调查声明覆盖，或适用小微初级经营者的简化声明机制。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "三项条件是并列且累计的市场准入条件。",
+          "quote": {
+            "text": "deforestation-free; produced in accordance with the relevant legislation ...; covered by a due diligence statement",
+            "source": "Regulation (EU) 2023/1115, Article 3"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "零毁林判断",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "对象",
+              "判断基准"
+            ],
+            [
+              "农产品相关商品",
+              "生产地在 2020-12-31 后未由森林转为农业用途"
+            ],
+            [
+              "木材产品",
+              "除零毁林外，还须确认木材采伐未导致法规定义的森林退化"
+            ],
+            [
+              "复合产品",
+              "识别其中所有受管相关商品并分别证明条件"
+            ],
+            [
+              "混合批次",
+              "任一来源地块无法证明时，整批可能无法达到零或可忽略风险"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "合法性证据",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "列法律主题",
+              "desc": "按生产国和商品形成适用法律清单。"
+            },
+            {
+              "title": "匹配许可证件",
+              "desc": "土地权属、采伐/经营许可、税费和海关等。"
+            },
+            {
+              "title": "核对权利主体",
+              "desc": "识别原住民、社区、劳动者和第三方权利。"
+            },
+            {
+              "title": "验证真实性",
+              "desc": "交叉核验签发机关、期限、地块和主体信息。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "EUDR Article 2(40), Article 9"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-due-diligence",
+        "title": "继续：尽调三步"
+      }
+    ],
+    "external": []
+  }
+}

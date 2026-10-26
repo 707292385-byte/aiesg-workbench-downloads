@@ -1,0 +1,136 @@
+{
+  "id": "csddd-chain",
+  "title": "活动链与商业伙伴",
+  "eyebrow": "上游为主 · 有限下游 · 信息分层",
+  "summary": "从产品或服务的生产与供应活动识别活动链，再按最可能、最严重的影响决定深查对象，避免把供应商问卷当成尽调本身。",
+  "tags": [
+    "活动链",
+    "商业伙伴",
+    "信息请求"
+  ],
+  "group": "核心尽调机制",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+  "sourceNote": "依据 CSDDD 的 chain of activities 定义、Article 8 风险识别及 2026 年信息请求限制。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "边界地图",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "上游活动",
+              "content": "与生产产品或提供服务有关的设计、开采、采购、制造、运输、储存和供应等。"
+            },
+            {
+              "title": "自身与子公司",
+              "content": "纳入统一政策、风险识别、行动和监测。"
+            },
+            {
+              "title": "限定下游",
+              "content": "通常限于代表公司或为公司进行的产品分销、运输和储存。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "金融企业提供金融服务的下游客户活动原则上不纳入活动链；但其自身运营和上游采购仍需判断。",
+          "quote": {
+            "text": "the chain of activities shall not include downstream business partners that receive their services and products",
+            "source": "Directive (EU) 2024/1760, Article 3"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "信息逐层加深",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "桌面筛查",
+              "desc": "用行业、国家、产品和公开事件识别风险集中区。"
+            },
+            {
+              "title": "伙伴信息",
+              "desc": "仅在必要时向相关商业伙伴索取针对性证据。"
+            },
+            {
+              "title": "独立来源",
+              "desc": "结合工会、社区、专家、审计和申诉机制信息。"
+            },
+            {
+              "title": "现场核验",
+              "desc": "重大或高不确定性风险再做访谈、走访或第三方核验。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Directive (EU) 2026/470, Article 8"
+        },
+        {
+          "type": "standard",
+          "content_cn": "向员工少于 5,000 人的商业伙伴索取信息时，应先判断这些信息能否从其他合理渠道取得。",
+          "quote": {
+            "text": "request information only where that information cannot reasonably be obtained by other means",
+            "source": "Directive (EU) 2026/470, recital 41"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "常见误区",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "误区",
+              "正确处理"
+            ],
+            [
+              "只发一份供应商问卷",
+              "问卷只是取证工具，不能代替风险识别和处置。"
+            ],
+            [
+              "只查一级供应商",
+              "有可信信息指向间接伙伴时仍要深入。"
+            ],
+            [
+              "要求所有伙伴交同一套材料",
+              "按风险程度和信息必要性分层。"
+            ],
+            [
+              "把终止合作当首选",
+              "先评估杠杆、改善可能与退出造成的影响。"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-response",
+        "title": "继续：预防、减轻与补救"
+      }
+    ],
+    "external": []
+  }
+}

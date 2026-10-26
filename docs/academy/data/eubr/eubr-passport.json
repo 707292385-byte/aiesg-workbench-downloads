@@ -1,0 +1,141 @@
+{
+  "id": "eubr-passport",
+  "title": "二维码与电池护照",
+  "eyebrow": "唯一标识 · 数据分层 · 2027",
+  "summary": "电池护照把型号、材料、碳足迹、性能、拆解和供应链信息组织成可交换的数字记录，并按公开/受限权限分层。",
+  "tags": [
+    "电池护照",
+    "二维码",
+    "数据治理"
+  ],
+  "group": "产品与数据",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+  "sourceNote": "依据 Regulation (EU) 2023/1542 第 77—78 条及附件 XIII。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "适用对象与日期",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "自 2027-02-18 起，轻型交通工具电池、容量超过 2kWh 的工业电池和电动汽车电池须有电池护照。",
+          "quote": {
+            "text": "From 18 February 2027, each LMT battery, each industrial battery with a capacity greater than 2 kWh and each electric vehicle battery shall have a battery passport.",
+            "source": "Regulation (EU) 2023/1542, Article 77"
+          },
+          "provenance": "knowledge_note",
+          "references": [
+            {
+              "title": "合并文本",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/2026-08-13/eng",
+              "locator": "Article 77"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "唯一标识",
+              "content": "每块电池与唯一标识符相连。"
+            },
+            {
+              "title": "二维码入口",
+              "content": "通过电池上的二维码访问护照。"
+            },
+            {
+              "title": "责任主体",
+              "content": "投放市场或投入使用的经济运营商负责建立。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "数据权限三层",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "公开数据",
+              "content": "型号、化学体系、碳足迹、再生含量和使用/拆解等公众信息。"
+            },
+            {
+              "title": "合法利益主体",
+              "content": "维修、再利用、梯次利用和回收等主体在授权下访问必要数据。"
+            },
+            {
+              "title": "监管数据",
+              "content": "市场监管和欧盟委员会按职责访问合规信息。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "电池护照须可互操作、机器可读、结构化、可检索，并采用开放标准。",
+          "quote": {
+            "text": "interoperable with other product passports required by Union law",
+            "source": "Regulation (EU) 2023/1542, Article 78"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "建设路线",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "数据字典",
+              "desc": "把附件 XIII 字段映射到PLM、ERP、LCA和供应商数据。"
+            },
+            {
+              "title": "责任分工",
+              "desc": "确定静态数据、动态数据及变更审批责任人。"
+            },
+            {
+              "title": "标识与解析",
+              "desc": "建立唯一标识、二维码和稳定解析地址。"
+            },
+            {
+              "title": "权限与接口",
+              "desc": "按公开、授权和监管访问层设计。"
+            },
+            {
+              "title": "版本与审计",
+              "desc": "保留更新来源、时间、责任人和历史版本。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "企业实施路线；字段以法规附件及后续技术规则为准"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eubr-due-diligence",
+        "title": "继续：供应链尽调"
+      }
+    ],
+    "external": []
+  }
+}

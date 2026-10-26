@@ -1,0 +1,134 @@
+{
+  "id": "csddd-response",
+  "title": "预防、减轻与补救",
+  "eyebrow": "行动计划 · 合同保障 · 负责任暂停",
+  "summary": "对潜在影响重在预防和减轻，对实际影响重在终止、最小化和补救；暂停关系前还要评估退出本身是否造成更严重后果。",
+  "tags": [
+    "预防",
+    "补救",
+    "负责任暂停"
+  ],
+  "group": "实施与责任",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+  "sourceNote": "依据 CSDDD 第 10、11、12 条及 2026 年修订。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "先分影响状态",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "潜在不利影响",
+              "content": "采取预防或充分减轻措施，必要时制定预防行动计划。"
+            },
+            {
+              "title": "实际不利影响",
+              "content": "终止影响或把影响程度降到最低，并推进补救。"
+            },
+            {
+              "title": "企业关系",
+              "content": "判断企业是造成、共同造成，还是仅通过商业关系相关。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "措施应与影响严重性、发生可能性及企业对影响的卷入程度相称。",
+          "quote": {
+            "text": "measures proportionate to the severity and likelihood of the adverse impact",
+            "source": "Directive (EU) 2024/1760, Articles 10—11"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "措施梯度",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "调整自身做法",
+              "desc": "改采购条件、排期、价格和内部激励。"
+            },
+            {
+              "title": "行动计划",
+              "desc": "设目标、时间、负责人和效果指标。"
+            },
+            {
+              "title": "合同保障",
+              "desc": "把针对性措施写入合同并提供支持。"
+            },
+            {
+              "title": "增强影响力",
+              "desc": "培训、投资、合作倡议或行业联合行动。"
+            },
+            {
+              "title": "暂停关系",
+              "desc": "改善失败且条件满足时负责任暂停。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "CSDDD Articles 10—11"
+        },
+        {
+          "type": "standard",
+          "content_cn": "继续与商业伙伴合作本身不会当然触发处罚；如果强化行动计划仍有合理成功预期，可以继续推进改善。",
+          "quote": {
+            "text": "continuing to engage with the business partner shall not expose the company to penalties",
+            "source": "Directive (EU) 2026/470, Article 10(6)"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "补救与退出",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "补救目标",
+              "content": "尽可能使受影响的人或环境恢复到影响发生前或等同状态。"
+            },
+            {
+              "title": "暂停前测试",
+              "content": "比较暂停关系造成的后果是否明显重于未能处理的影响。"
+            },
+            {
+              "title": "退出后责任",
+              "content": "给合理通知，减轻退出冲击，并持续复核决定。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-governance",
+        "title": "继续：治理、申诉与实施路线"
+      }
+    ],
+    "external": []
+  }
+}

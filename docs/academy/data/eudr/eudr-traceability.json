@@ -1,0 +1,143 @@
+{
+  "id": "eudr-traceability",
+  "title": "地理定位、批次与信息系统",
+  "eyebrow": "地块 · 时间 · 声明编号",
+  "summary": "用地理定位把商品追溯到生产地块，并将批次、商品、数量和供应链主体与尽职调查声明或简化声明标识关联。",
+  "tags": [
+    "地理定位",
+    "批次",
+    "信息系统"
+  ],
+  "group": "数据与检查",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/reg/2025/2650/oj/eng",
+  "sourceNote": "依据 EUDR 第 9、33 条及 2025/2650 新增简化声明机制。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "地理定位要求",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "单点坐标",
+              "content": "面积不超过4公顷的地块可按经纬度点位记录。"
+            },
+            {
+              "title": "多边形边界",
+              "content": "面积超过4公顷的地块原则上用足够经纬度点描述周界。"
+            },
+            {
+              "title": "牛类特殊路径",
+              "content": "记录动物曾被饲养的所有经营场所地理定位。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "地理定位用于把商品追溯到具体生产地块，并与生产日期或时间范围结合。",
+          "quote": {
+            "text": "geolocation of all plots of land where the relevant commodities ... were produced",
+            "source": "Regulation (EU) 2023/1115, Article 9"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "批次到声明",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "地块主数据",
+              "desc": "坐标、面积、权利主体、生产国和合法性证据。"
+            },
+            {
+              "title": "生产批次",
+              "desc": "关联商品、生产日期/期间、数量和初级经营者。"
+            },
+            {
+              "title": "加工与交易",
+              "desc": "记录拆分、合并、转换和上下游主体。"
+            },
+            {
+              "title": "尽调结论",
+              "desc": "保存风险评估、减轻措施和审批。"
+            },
+            {
+              "title": "系统申报",
+              "desc": "提交DDS或简化声明，取得参考号/声明标识。"
+            },
+            {
+              "title": "交易传递",
+              "desc": "把必要编号与产品批次传给首个下游主体。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "EUDR Articles 4, 4a, 9 and 33"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "数据控制",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "控制点",
+              "最低做法"
+            ],
+            [
+              "唯一性",
+              "地块、批次、供应商和声明编号使用稳定ID"
+            ],
+            [
+              "完整性",
+              "任何拆分或合并后仍能回溯来源地块"
+            ],
+            [
+              "一致性",
+              "数量、日期、产品编码和交易单据相互勾稽"
+            ],
+            [
+              "权限",
+              "敏感地块和个人数据按角色访问"
+            ],
+            [
+              "留存",
+              "尽调声明及相关证据保存至少五年"
+            ],
+            [
+              "变更",
+              "更正声明或来源数据时保留版本和审批轨迹"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "eudr-benchmarking",
+        "title": "继续：国家风险与检查"
+      }
+    ],
+    "external": []
+  }
+}

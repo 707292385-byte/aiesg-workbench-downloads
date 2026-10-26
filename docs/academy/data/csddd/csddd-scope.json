@@ -1,0 +1,155 @@
+{
+  "id": "csddd-scope",
+  "title": "适用范围与现行时间表",
+  "eyebrow": "谁被直接纳入 · 何时开始适用",
+  "summary": "以 2026 年 Omnibus I 修订后的门槛和统一适用日判断企业是否直接受管；同时区分指令生效、成员国转化和企业适用三个节点。",
+  "tags": [
+    "5000人",
+    "15亿欧元",
+    "2029-07-26"
+  ],
+  "group": "先判断是否适用",
+  "status": "欧盟官方现行文件整理",
+  "officialUrl": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+  "sourceNote": "依据 Directive (EU) 2024/1760、2025/794 与 2026/470 的现行组合文本。",
+  "translationNote": "由AI翻译，仅供参考；悬浮句末“原文”可核对欧盟官方英文。",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "现行门槛",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "欧盟公司及合伙企业通常在平均员工至少 5,000 人、全球净营业额超过 15 亿欧元时纳入；非欧盟公司通常按其在欧盟产生的净营业额超过 15 亿欧元判断。集团最终母公司可按合并口径进入范围。",
+          "quote": {
+            "text": "at least 5000 employees and EUR 1.5 billion turnover (net) worldwide",
+            "source": "欧盟委员会 CSDDD 专题页"
+          },
+          "provenance": "knowledge_note",
+          "references": [
+            {
+              "title": "欧盟委员会现行说明",
+              "url": "https://commission.europa.eu/topics/business-and-industry/company-law-and-corporate-governance/corporate-sustainability-due-diligence_en",
+              "locator": "Which companies will the new EU rules apply to?"
+            }
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "欧盟企业",
+              "content": "员工与全球营业额同时达到门槛。"
+            },
+            {
+              "title": "非欧盟企业",
+              "content": "重点看欧盟境内净营业额；无需以欧盟员工人数为门槛。"
+            },
+            {
+              "title": "集团与特许经营",
+              "content": "最终母公司及符合条件的特许经营/许可安排还要单独核对。"
+            }
+          ],
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "三个时间节点",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "layout": "h",
+          "steps": [
+            {
+              "title": "2024-07-25",
+              "desc": "基础指令生效。"
+            },
+            {
+              "title": "2026-03-18",
+              "desc": "Omnibus I 实质修订生效。"
+            },
+            {
+              "title": "2028-07-26",
+              "desc": "成员国完成转化。"
+            },
+            {
+              "title": "2029-07-26",
+              "desc": "经修订义务统一开始适用。"
+            }
+          ],
+          "provenance": "knowledge_note",
+          "source": "Directive (EU) 2026/470",
+          "references": [
+            {
+              "title": "2026 修订指令",
+              "url": "https://eur-lex.europa.eu/eli/dir/2026/470/oj/eng",
+              "locator": "Article 7"
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "第 16 条公开沟通措施适用于 2030 年 1 月 1 日或以后开始的财年。",
+          "quote": {
+            "text": "Article 16 reporting measures apply for financial years starting on or after 1 January 2030.",
+            "source": "欧盟委员会 CSDDD 专题页"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "判断边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "问题",
+              "判断方法"
+            ],
+            [
+              "是否直接受管",
+              "先看企业/集团类型、员工和营业额，再核对连续财年条件。"
+            ],
+            [
+              "是否只是被间接影响",
+              "中小企业不被直接纳入，但可能收到上游客户的信息或合同要求。"
+            ],
+            [
+              "法律是否已经可直接适用",
+              "指令需要成员国转化，不能只读欧盟层面条文。"
+            ]
+          ],
+          "provenance": "knowledge_note"
+        },
+        {
+          "type": "standard",
+          "content_cn": "中小企业不在直接适用范围内，但欧盟规则限制大型企业向较小商业伙伴提出不成比例的信息要求。",
+          "quote": {
+            "text": "Micro companies and SMEs are not covered by the proposed rules.",
+            "source": "欧盟委员会 CSDDD 专题页"
+          },
+          "provenance": "knowledge_note"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "csddd-architecture",
+        "title": "继续：义务结构与尽调对象"
+      }
+    ],
+    "external": []
+  }
+}

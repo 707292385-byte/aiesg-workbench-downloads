@@ -15,7 +15,10 @@
     sustainalytics: ['风险评级的两个维度', '敞口评估', '管理评估', '不可管理风险', '五个风险等级', '读分与实践'],
     cass: ['对接交易所指引', '四级指标体系', '环境板块', '社会板块', '治理板块', '编制流程与评级'],
     oecd: ['政府间建议', '十一章结构', '尽责管理六步', '影响关系与相称性', '国家联络点', '与其他框架衔接'],
-    iso26000: ['指南性标准定位', '七项原则', '七大核心主题', '社会责任辨识', '融入组织路径', '与披露标准的边界']
+    iso26000: ['指南性标准定位', '七项原则', '七大核心主题', '社会责任辨识', '融入组织路径', '与披露标准的边界'],
+    csddd: ['适用范围与时间表', '活动链边界', '风险识别与排序', '预防、减轻与补救', '申诉、监测与监督'],
+    eubr: ['电池分类与责任主体', '安全、性能与循环设计', '碳足迹与再生材料', '标签、二维码与电池护照', '供应链尽职调查'],
+    eudr: ['商品与产品范围', '零毁林、合法性与尽调', '信息、评估与风险减轻', '地理定位与尽调声明', '风险分类与监管检查']
   };
   const labels = {
     ashare: { short: 'A股', type: '交易所披露规则', group: '披露主题' },
@@ -31,7 +34,10 @@
     sustainalytics: { short: 'Sustainalytics', type: 'ESG 风险评级方法学', group: '知识模块' },
     cass: { short: 'CASS', type: '中国企业可持续报告指南', group: '知识模块' },
     oecd: { short: 'OECD', type: '负责任商业行为准则', group: '知识模块' },
-    iso26000: { short: 'ISO 26000', type: '社会责任指南', group: '知识模块' }
+    iso26000: { short: 'ISO 26000', type: '社会责任指南', group: '知识模块' },
+    csddd: { short: 'CSDDD', type: '欧盟企业可持续发展尽职调查指令', group: '尽调模块' },
+    eubr: { short: 'EUBR', type: '欧盟电池及废电池法规', group: '合规模块' },
+    eudr: { short: 'EUDR', type: '欧盟零毁林产品法规', group: '合规模块' }
   };
   const clip = (value, limit = 105) => {
     const text = String(value || '').replace(/\s+/g, ' ').trim();
@@ -68,7 +74,7 @@
         </section>
         <section class="mp-section" id="focus"><div class="mp-section-head"><div class="mp-section-title"><span>02</span><h2>关键判断</h2></div><p>先理解哪些判断会影响披露或评价，再回到对应主题和来源资料</p></div>
           <div class="structured-focus">${goals.map((goal, index) => `<article class="mp-card"><small>${number(index + 1)} · 关注点</small><p>${esc(goal)}</p></article>`).join('')}</div></section>
-        ${process.length ? `<section class="mp-section" id="process"><div class="mp-section-head"><div class="mp-section-title"><span>03</span><h2>${id === 'csa' ? '评价流程' : '工作路径'}</h2></div><p>把方法论从要求转化为可执行的判断和资料准备顺序</p></div><div class="structured-process">${process.map((step, index) => `<article><span>${number(index + 1)}</span><h3>${esc(step.title)}</h3><p>${esc(step.description || '')}</p></article>`).join('')}</div></section>` : ''}
+        ${process.length ? `<section class="mp-section" id="process"><div class="mp-section-head"><div class="mp-section-title"><span>03</span><h2>${id === 'csa' ? '评价流程' : '工作路径'}</h2></div><p>把方法论从要求转化为可执行的判断和资料准备顺序</p></div><div class="structured-process">${process.map((step, index) => `<article><span>${number(index + 1)}</span><h3>${esc(step.title)}</h3><p>${esc(step.description || step.desc || '')}</p></article>`).join('')}</div></section>` : ''}
         <section class="mp-section" id="topics"><div class="mp-section-head"><div class="mp-section-title"><span>${number(process.length ? 4 : 3)}</span><h2>主题解读</h2></div><p>按主题查看知识要点、判断路径和对应来源</p></div><div class="mh-pillar-stack">${topicCards}</div></section>
         <section class="mp-section" id="sources"><div class="mp-section-head"><div class="mp-section-title"><span>${number(process.length ? 5 : 4)}</span><h2>来源与使用边界</h2></div><p>核对发布机构现行资料</p></div><div class="mh-source mh-source-pair mp-card"><div><small>当前参考</small><p>${esc(standard.sourceNote || '来源信息整理中')}</p></div><div><small>阅读说明</small><p>${esc(standard.notice || '本页为知识关系与主题导航，正式工作请核对官方原文。')}</p></div></div></section>
       </main><footer class="mp-footer"><div><span>AI × ESG 工作台 · 知识关系与主题目录</span><span>正式工作请核对发布机构现行资料</span></div></footer>
