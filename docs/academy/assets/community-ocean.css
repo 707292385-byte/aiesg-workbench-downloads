@@ -239,5 +239,9 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-ocean #co-knowledge .co-more.co-glass-action{min-height:34px;margin:0 10px 10px 0;padding:6px 12px;border-radius:12px;background:linear-gradient(135deg,rgba(255,255,255,.88),rgba(231,246,237,.72));color:#285c47}
 .co-ocean .co-ai-all.co-glass-action{width:max-content;margin:20px 0 0 auto;text-align:center}
 .co-ocean .co-personal-back.co-glass-action{margin-bottom:28px}
+.co-ocean .co-hero-nav a.co-glass-action{min-height:40px;padding:8px 16px;border-radius:12px;background:linear-gradient(135deg,rgba(255,255,255,.84),rgba(231,246,237,.58));color:#285c47;box-shadow:inset 0 1px 0 #ffffffdf,0 4px 14px #244f3b10}
+.co-ocean .co-hero-nav a.co-glass-action:hover,.co-ocean .co-hero-nav a.co-glass-action:focus-visible{background:rgba(255,255,255,.94);border-color:#d3e6da;color:#176444}
+.co-ocean .co-hero-nav a.co-glass-action--strong{border-color:#214f3d;background:#214f3d;color:#fff;box-shadow:0 6px 18px rgba(21,63,49,.14)}
+.co-ocean .co-hero-nav a.co-glass-action--strong:hover,.co-ocean .co-hero-nav a.co-glass-action--strong:focus-visible{border-color:#163c2d;background:#163c2d;color:#fff}
 @media(max-width:520px){.co-ocean .co-bio-actions .co-glass-action--equal{flex:1 1 120px;width:auto;min-width:120px}.co-ocean .co-ai-all.co-glass-action{width:100%}}
 @media(prefers-reduced-motion:reduce){.co-ocean .co-glass-action{transition:none}.co-ocean .co-glass-action:hover,.co-ocean .co-glass-action:focus-visible{transform:none}}
