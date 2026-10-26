@@ -214,3 +214,9 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-personal-hero p{max-width:none}
 @media(max-width:760px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 140px;padding:22px;gap:20px}.co-footer-top .co-footer-social{width:140px;padding-left:18px}}
 @media(max-width:520px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 112px;padding:20px 16px;gap:14px}.co-footer-top .co-footer-social{width:112px;padding-left:12px}}
+
+.co-footer-bio .co-bio-actions{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:10px 20px;margin:15px 0 0;padding:0;border:0;background:none;box-shadow:none}
+.co-footer-bio .co-bio-actions a,.co-footer-bio .co-bio-actions button{display:inline-flex;align-items:center;min-height:30px;margin:0;padding:2px 0;border:0;border-radius:0;background:transparent;box-shadow:none;color:#285c47;font-size:12px;font-weight:600;line-height:1.6;cursor:pointer}
+.co-footer-bio .co-bio-actions button:hover{color:#16835b;text-decoration:underline;text-underline-offset:4px}
+.co-footer-bio .co-bio-actions .co-count-status{flex-basis:100%;margin:0;font-size:11px}
+.co-footer-bio .co-bio-actions .co-count-status:empty{display:none}
