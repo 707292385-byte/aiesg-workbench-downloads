@@ -277,6 +277,10 @@
       + '</div></section>';
   }
 
+  function renderContactDialog() {
+    return '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>';
+  }
+
   function renderOffers() {
     return '<div class="co-offers">' + contactOffers.map(item => '<article class="co-offer co-offer--compact"><div class="co-offer-illustration"><img src="' + item.image + '" alt="' + item.title + '服务场景插画"></div><div class="co-offer-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p></div><span class="co-offer-paid">付费</span></article>').join('') + '</div>'
       + '<div class="co-contact-entry"><div><small>联系 Xiao〇</small><p>可以提出一个问题，也可以选择合作方向并留下回复方式。</p></div><div class="co-contact-actions"><button type="button" class="co-action-btn" data-open-community-form="question">提出一个问题</button><button type="button" class="co-action-btn" data-open-community-form="contact">联系与合作</button></div></div>';
@@ -438,7 +442,7 @@
     const insights = publicInsights(publicData);
     const recentInsights = insights.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><button type="button" class="co-join-trigger" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="#co-about">关于 Xiao〇</a></nav></div></header>'
+      + '<header class="co-hero"><button type="button" class="co-join-trigger" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-projects">项目与工具</a><a href="' + pageHref('profile.html') + '">关于 Xiao〇</a></nav></div></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
@@ -451,13 +455,12 @@
       + (recentInsights.length ? recentInsights.map(renderInsight).join('') : emptyState('暂未收录研究报告。'))
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
-      + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页</a></article><div>' + renderOffers() + '</div></div>'
-      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
+      + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div>'
       + '<dialog id="co-join-dialog" class="co-join-dialog" aria-labelledby="co-join-title" aria-describedby="co-join-tip"><div class="co-join-head"><div><small>Xiao〇 ESG社区</small><h3 id="co-join-title">加入交流群</h3></div><button type="button" data-close-community-join aria-label="关闭入群窗口" autofocus>×</button></div><p id="co-join-tip">一起交流 ESG、AI 与工作中的实践。<br>如果二维码过期，请添加微信申请入群。</p><div class="co-join-codes"><section><h4>扫码加入交流群</h4><div class="co-join-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"></div><p>使用微信扫一扫</p></section><section><h4>添加 Xiao〇 微信</h4><div class="co-join-qr co-qr-window co-qr-window--wechat"><img src="assets/community/qr-wechat-source.jpg" alt="Xiao〇个人微信二维码"></div><p>添加时请备注“ESG交流群”</p></section></div></dialog>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
-      + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
+      + renderContactDialog()
       + '<dialog id="co-info-dialog" class="co-join-dialog co-info-dialog" aria-labelledby="co-info-title"><div class="co-join-head"><h3 id="co-info-title"></h3><button type="button" data-close-community-info aria-label="关闭说明" autofocus>×</button></div><div class="co-info-body" id="co-info-body"></div></dialog>'
-      + '<footer class="co-site-footer co-footer-editorial co-footer-compact" aria-label="社区说明"><div class="co-footer-copy"><strong>© 2026 Xiao〇 ESG社区</strong><p>分享 ESG 知识与实践，引用资料权利归原权利人。内容仅供学习交流，业务应用请核对官方最新文件。</p><nav class="co-footer-links" aria-label="网站信息"><button type="button" data-community-info="about">网站说明</button><span aria-hidden="true">·</span><button type="button" data-community-info="copyright">内容来源与版权</button><span aria-hidden="true">·</span><button type="button" data-open-community-form="question" data-feedback="true">纠错与反馈</button></nav><span hidden data-community-views></span></div>' + renderSocial() + '</footer>'
+      + '<footer class="co-site-footer co-footer-editorial co-footer-compact" aria-label="社区说明"><div class="co-footer-copy"><section class="co-footer-bio" aria-label="关于 Xiao〇"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像" width="76" height="76"><div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a href="' + pageHref('profile.html') + '">进入个人主页</a></div></section><strong>© 2026 Xiao〇 ESG社区</strong><p>分享 ESG 知识与实践，引用资料权利归原权利人。内容仅供学习交流，业务应用请核对官方最新文件。</p><nav class="co-footer-links" aria-label="网站信息"><button type="button" data-community-info="about">网站说明</button><span aria-hidden="true">·</span><button type="button" data-community-info="copyright">内容来源与版权</button><span aria-hidden="true">·</span><button type="button" data-open-community-form="question" data-feedback="true">纠错与反馈</button></nav><span hidden data-community-views></span></div>' + renderSocial() + '</footer>'
 
       + '</div>';
   }
@@ -725,11 +728,30 @@
       + '<footer class="co-observation-foot"><a class="co-observation-back" href="' + pageHref('community.html') + '">返回 Xiao〇 ESG社区</a></footer></main>';
   }
 
+  function renderProfile() {
+    const root = document.getElementById('profile-page');
+    if (!root) return;
+    root.innerHTML = '<div class="co-personal-page"><a class="co-personal-back" href="' + pageHref('community.html') + '">返回社区</a><header class="co-personal-hero"><div><span class="co-eyebrow">ABOUT XIAO〇</span><h1>你好，我是 Xiao〇</h1><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><small>ESG 咨询 × AI 实践</small></div><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></header><section class="co-personal-focus" aria-label="关注方向"><article><h2>方法与知识</h2><p>拆解评级、披露和气候相关方法，把定义、计算与适用边界放回原始来源核对。</p></article><article><h2>真实工作</h2><p>从报告编制、项目推进和资料整理中的问题出发，寻找更清楚、可执行的工作方式。</p></article><article><h2>AI 实践</h2><p>用 AI 整理思路与资料，同时保留来源追踪、人工复核和专业判断。</p></article></section><section class="co-personal-services"><header><span class="co-eyebrow">WORK TOGETHER</span><h2>专业交流与合作</h2><p>围绕真实工作，提供四个方向的付费服务。欢迎先沟通需求与合作范围。</p></header>' + renderOffers() + '</section><footer class="co-personal-foot">© 2026 Xiao〇 ESG社区</footer>' + renderContactDialog() + '</div>';
+  }
+
+  function bindContactFrame() {
+    document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
+      document.querySelector('[data-form-loading]')?.classList.add('loaded');
+    });
+  }
+
   function notifyHost(page) {
     if (embedded && window.parent !== window) window.parent.postMessage({ type: 'aiesg-community-navigation', page }, '*');
   }
 
   async function mount() {
+    if (document.getElementById('profile-page')) {
+      renderProfile();
+      bindContactFrame();
+      notifyHost('profile.html');
+      if (new URLSearchParams(location.search).get('open-form') === 'question') document.querySelector('[data-open-community-form="question"]')?.click();
+      return;
+    }
     const data = await loadPublicData();
     cachedPublicData = data;
     const isCommunityHome = Boolean(document.getElementById('community-page'));
@@ -834,7 +856,7 @@
       }
       return;
     }
-    const internalLink = event.target.closest('#community-page a[href], #observation-page a[href]');
+    const internalLink = event.target.closest('#community-page a[href], #profile-page a[href], #observation-page a[href]');
     if (internalLink) {
       const destination = new URL(internalLink.href, location.href);
       if (destination.origin === location.origin && /\.html$/.test(destination.pathname)) notifyHost(destination.pathname.split('/').pop());
@@ -852,7 +874,7 @@
       if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) event.target.close();
       return;
     }
-    const formTrigger = event.target.closest('#community-page [data-open-community-form]');
+    const formTrigger = (event.target.closest('#community-page [data-open-community-form]') || event.target.closest('#profile-page [data-open-community-form]'));
     if (formTrigger) {
       const kind = formTrigger.dataset.openCommunityForm;
       const dialog = document.getElementById('co-form-dialog');
@@ -874,7 +896,7 @@
       frame.src = communityForms[kind];
       return;
     }
-    const formClose = event.target.closest('#community-page [data-close-community-form]');
+    const formClose = (event.target.closest('#community-page [data-close-community-form]') || event.target.closest('#profile-page [data-close-community-form]'));
     if (formClose) { document.getElementById('co-form-dialog')?.close(); return; }
     if (event.target.id === 'co-form-dialog') {
       const rect = event.target.getBoundingClientRect();
