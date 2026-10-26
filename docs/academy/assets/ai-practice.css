@@ -86,6 +86,8 @@ button{cursor:pointer}
 .ai-card--ima{--card-accent:#355d91;--card-accent-2:#6f9dd1;--card-surface:#edf3fb}
 .ai-card--deepseek{--card-accent:#354c8a;--card-accent-2:#6e89c8;--card-surface:#eef1fa}
 .ai-card--github{--card-accent:#252d2c;--card-accent-2:#66736f;--card-surface:#eef1f0}
+.ai-card--mineru{--card-accent:#17657a;--card-accent-2:#61a8a4;--card-surface:#eaf5f5}
+.ai-card--somark{--card-accent:#53467b;--card-accent-2:#968bc2;--card-surface:#f1eff8}
 .ai-card--basic{--card-accent:#426d5c;--card-accent-2:#9bb9a8;--card-surface:#eff5f1}
 .ai-card--basic .ai-card-visual{min-height:120px;background:linear-gradient(145deg,#e5f0e9,#c6ddcf);color:#224d43}
 .ai-card--basic .ai-card-visual-head small,.ai-card--basic .ai-card-visual>p{color:#4e7067}
@@ -93,6 +95,7 @@ button{cursor:pointer}
 .ai-card--basic .ai-card-visual>strong{font-size:30px;font-weight:520}
 .ai-card--feishu{--card-accent:#246787;--card-accent-2:#78b8be;--card-surface:#edf6f7}
 .ai-card--ima-series{--card-accent:#596547;--card-accent-2:#a8b887;--card-surface:#f1f5e9}
+.ai-card--codex-guide{--card-accent:#294d46;--card-accent-2:#7ca797;--card-surface:#edf4f1}
 .ai-card--practice .ai-card-visual{min-height:132px}
 .ai-card--practice .ai-card-visual>strong{position:absolute;right:18px;bottom:6px;font-size:70px;font-weight:780;color:rgba(255,255,255,.15)}
 .ai-card--practice .ai-card-visual>p{margin-top:34px;max-width:78%;font-size:13px;font-weight:650;color:#fff}
@@ -132,6 +135,7 @@ button{cursor:pointer}
 .ai-source-actions a.is-primary{background:var(--ai-ink);border-color:var(--ai-ink);color:#fff}
 .ai-source p{color:var(--ai-muted);font-size:12px}
 .ai-related{max-width:840px;margin:30px auto;padding:24px;background:#f8fcf9e8;border-radius:12px}
+.ai-related--tools{max-width:980px}
 .ai-related h2{font-size:19px;margin-top:0}
 .ai-related a{display:block;padding:10px 0;border-top:1px solid var(--ai-line);font-size:14px}
 
