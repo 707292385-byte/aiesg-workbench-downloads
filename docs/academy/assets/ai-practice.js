@@ -28,7 +28,7 @@
     }
   }, {passive:true,capture:true}));
   const top = () => '<nav class="ai-top" aria-label="页面导航"><a href="'+href({},'community.html')+'">← 返回社区</a><a class="ai-brand" href="'+href()+'">Xiao〇 · AI入门与实践</a></nav>';
-  const footer = '<footer class="ai-footer">© 2026 Xiao〇社区 · 内容供学习交流，工具能力与使用条件请核对官方说明。</footer>';
+  const footer = '<footer class="ai-footer">© 2026 Xiao〇社区</footer>';
   function filtered() {
     const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     return data.articles.filter(a => (category==='all'||a.category===category) && words.every(w => [a.title,a.summary,a.series,a.platform,...a.tags].filter(Boolean).join(' ').toLocaleLowerCase().includes(w)));
@@ -47,7 +47,7 @@
       const descriptor = a.series || a.platform || a.kind;
       return '<article class="ai-card ai-card--'+esc(a.category)+' ai-card--'+esc(tone)+'">'
         +'<div class="ai-card-visual"><div class="ai-card-visual-head"><span>'+esc(cat.name)+'</span><small>'+esc(a.kind)+'</small></div><strong>'+esc(a.mark || cat.mark)+'</strong><p>'+esc(descriptor)+'</p></div>'
-        +'<div class="ai-card-body"><a class="ai-card-main" href="'+href({...listValues(),id:a.id})+'"><h2>'+esc(a.title)+'</h2></a><p class="ai-card-summary">'+esc(a.summary)+'</p><div class="ai-tags">'+a.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'</div>'
+        +'<div class="ai-card-body"><a class="ai-card-main" href="'+href({...listValues(),id:a.id})+'"><h2>'+esc(a.cardTitle || a.title)+'</h2></a><p class="ai-card-summary">'+esc(a.summary)+'</p><div class="ai-tags">'+a.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'</div>'
         +'<div class="ai-card-actions"><span class="ai-card-read">查看介绍</span>'+(a.category==='tools'&&refs[0]?'<a class="ai-card-official" href="'+esc(refs[0].url)+'" target="_blank" rel="noopener noreferrer">'+esc(refs[0].label)+'</a>':'')+'</div></div></article>';
     }).join('') : '<div class="ai-empty"><h2>没有找到相关内容</h2><p>试试“飞书”“待办”或“入门”，也可以清除筛选。</p><button type="button" data-clear>清除筛选</button></div>';
   }
@@ -73,7 +73,7 @@
     document.title=a.title+'｜AI入门与实践';
     const related=data.articles.filter(item=>item.id!==a.id&&item.tags.some(t=>a.tags.includes(t))).slice(0,3);
     const refs=references(a);
-    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.series || a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+(a.kind==='方法示例'?'<aside class="ai-note">这是一份公开的方法示例。实际步骤取决于所用工具、连接方式和访问权限，执行结果需要回读核对。</aside>':'')+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div>'+(a.verified?'<p>官方来源核对：'+esc(a.verified)+'。具体功能和使用条件以官方当前说明为准。</p>':'')+'</section>':'')+'</article>'+(related.length?'<section class="ai-related"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
+    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.series || a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>':'')+'</article>'+(related.length?'<section class="ai-related"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
   }
   root.addEventListener('input', e => {
     if(e.target.id!=='ai-search')return;
