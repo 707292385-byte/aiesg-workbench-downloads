@@ -203,3 +203,14 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-footer-copy>p{max-width:none;margin:10px 0 12px}
 @media(max-width:760px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 150px;gap:22px;padding:26px 22px}.co-footer-top .co-footer-bio{align-items:flex-start;gap:14px}}
 @media(max-width:520px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 118px;gap:16px;padding:22px 16px}.co-footer-top .co-footer-bio{flex-direction:column}.co-footer-top .co-footer-social{width:118px;border-top:0;border-left:1px solid #cdded4;padding:0 0 0 14px}.co-footer-top .co-footer-bio h3{font-size:17px}.co-footer-top .co-footer-bio p{font-size:12px}.co-site-footer.co-footer-compact>.co-footer-copy{padding:22px 4px 0}}
+
+/* Let the approved longer biography use the available width. */
+.co-site-footer.co-footer-compact>.co-footer-top{gap:28px;padding:24px 30px;grid-template-columns:minmax(0,1fr) 174px}
+.co-footer-top .co-footer-bio>div{flex:1;min-width:0}
+.co-footer-top .co-footer-bio p{max-width:none;line-height:1.8;margin-bottom:10px}
+.co-footer-top .co-footer-social{width:174px;padding-left:24px}
+.co-footer-top .co-footer-social h3{margin-bottom:8px}
+.co-footer-top .co-social-trigger{min-height:30px;padding:3px 0}
+.co-personal-hero p{max-width:none}
+@media(max-width:760px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 140px;padding:22px;gap:20px}.co-footer-top .co-footer-social{width:140px;padding-left:18px}}
+@media(max-width:520px){.co-site-footer.co-footer-compact>.co-footer-top{grid-template-columns:minmax(0,1fr) 112px;padding:20px 16px;gap:14px}.co-footer-top .co-footer-social{width:112px;padding-left:12px}}
