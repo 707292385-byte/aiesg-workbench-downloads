@@ -160,3 +160,5 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-info-body p{margin:0 0 14px}
 .co-info-body h4:first-child{margin-top:0}
 @media(max-width:760px){.co-ocean #co-knowledge .co-band-intro{min-height:290px;padding:28px 24px 160px}.co-ocean #co-knowledge .co-band-intro h3{font-size:25px}.co-ocean #co-knowledge .co-band-intro p{max-width:100%;padding-right:8px}.co-ocean #co-knowledge .co-line-art{width:168px;height:136px;right:20px;bottom:12px}.co-info-dialog{padding:22px}}
+
+.co-social-code .co-qr-original{display:inline-block;margin-top:6px;color:#285c47;font-size:11px;text-underline-offset:3px}

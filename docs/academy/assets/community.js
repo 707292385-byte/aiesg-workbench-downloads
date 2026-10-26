@@ -273,7 +273,7 @@
 
   function renderSocial() {
     return '<section class="co-footer-social" aria-label="在这些平台找到 Xiao〇"><h3>FIND ME</h3><div class="co-footer-platforms">'
-      + socialProfiles.map(item => '<div class="co-social-link"><button type="button" class="co-social-trigger" aria-expanded="false">' + socialIcon(item.crop) + '<span>' + item.name + '</span></button><div class="co-social-code"><div class="co-qr-window co-qr-window--' + item.crop + '"><img src="' + item.image + '" alt="' + item.name + '二维码" loading="lazy"></div><small>扫码关注 · ' + item.name + '</small></div></div>').join('')
+      + socialProfiles.map(item => '<div class="co-social-link"><button type="button" class="co-social-trigger" aria-expanded="false">' + socialIcon(item.crop) + '<span>' + item.name + '</span></button><div class="co-social-code"><div class="co-qr-window co-qr-window--' + item.crop + '"><img src="' + item.image + '" alt="' + item.name + '二维码" loading="eager" decoding="async"></div><small>扫码关注 · ' + item.name + '</small><a class="co-qr-original" href="' + item.image + '" target="_blank" rel="noopener">查看原图</a></div></div>').join('')
       + '</div></section>';
   }
 
