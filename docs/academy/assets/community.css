@@ -627,3 +627,16 @@ body{background:#f3f5f3;color:#17261f}
 #insights-page .co-observation-row{position:relative}
 #insights-page .co-obs-card-body small::after{content:" ↗"}
 #insights-page .co-obs-card-body p{display:block;overflow:visible}
+
+/* Learning: three full-width horizontal sections. */
+#co-knowledge{grid-template-columns:minmax(0,1fr);gap:22px}
+#co-knowledge>.co-band{grid-column:1/-1;grid-template-columns:minmax(210px,.27fr) minmax(0,.73fr);align-items:stretch;border-radius:22px}
+#co-knowledge .co-band-intro{min-height:0;padding:28px 24px;flex-direction:column;align-items:flex-start;justify-content:center;text-align:left}
+#co-knowledge .co-band-intro h3{font-size:26px;line-height:1.35}
+#co-knowledge .co-band-intro p{margin:10px 0 0;font-size:13px;line-height:1.7}
+#co-knowledge .co-band-content{min-width:0;padding:24px}
+#co-knowledge .co-items,#co-knowledge .co-band--news .co-items{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#co-knowledge .co-items .co-item:last-child:nth-child(odd){grid-column:auto}
+#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{min-height:158px;padding:16px}
+@media(max-width:900px){#co-knowledge>.co-band{grid-template-columns:190px minmax(0,1fr)}#co-knowledge .co-items,#co-knowledge .co-band--news .co-items{grid-template-columns:1fr}#co-knowledge .co-item,#co-knowledge .co-band--news .co-item{min-height:0}}
+@media(max-width:600px){#co-knowledge>.co-band{grid-template-columns:1fr}#co-knowledge .co-band-intro{padding:22px}#co-knowledge .co-band-intro h3{font-size:23px}#co-knowledge .co-band-content{padding:18px}}
