@@ -27,7 +27,7 @@
       window.parent.postMessage({type:'aiesg:community-activity'}, '*');
     }
   }, {passive:true,capture:true}));
-  const top = () => '<nav class="ai-top" aria-label="页面导航"><a href="'+href({},'community.html')+'">← 返回社区</a><a class="ai-brand" href="'+href()+'">Xiao〇 · AI工具与实践</a></nav>';
+  const top = () => '<nav class="ai-top" aria-label="页面导航"><a href="'+href({},'community.html')+'">← 返回社区</a><a class="ai-brand" href="'+href()+'">Xiao〇 · AI入门与实践</a></nav>';
   const footer = '<footer class="ai-footer">© 2026 Xiao〇社区 · 内容供学习交流，工具能力与使用条件请核对官方说明。</footer>';
   function filtered() {
     const words = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
@@ -42,8 +42,8 @@
     }).join('') : '<div class="ai-empty"><h2>没有找到相关内容</h2><p>试试“飞书”“待办”或“入门”，也可以清除筛选。</p><button type="button" data-clear>清除筛选</button></div>';
   }
   function renderList() {
-    document.title = 'AI工具与实践｜Xiao〇社区';
-    root.innerHTML = '<div class="ai-shell">'+top()+'<header class="ai-hero"><span class="ai-eyebrow">EXPLORE · UNDERSTAND · PRACTICE</span><h1>AI工具与实践<span>让想法，走进日常工作。</span></h1><p>认识常用工具，理解基础概念，交流一步步做出来的经验。</p></header><div class="ai-paths">'+data.categories.map(c=>'<a href="'+href({category:c.id})+'"><span>'+c.mark+'</span><h2>'+c.name+'</h2><p>'+c.lead+'</p></a>').join('')+'</div><section class="ai-library" aria-label="内容浏览"><div class="ai-library-head"><div><span class="ai-eyebrow">THE NOTEBOOK</span><h2>从这里开始探索</h2></div><label class="ai-search">搜索内容<input id="ai-search" type="search" placeholder="搜索工具、知识或实操主题" value="'+esc(query)+'"></label></div><div class="ai-filter" role="group" aria-label="内容分类">'+[{id:'all',name:'全部内容'},...data.categories].map(c=>'<button type="button" data-category="'+c.id+'" aria-pressed="'+(category===c.id)+'">'+c.name+'</button>').join('')+'</div><p id="ai-count" role="status" aria-live="polite"></p><div id="ai-results" class="ai-grid"></div></section>'+footer+'</div>';
+    document.title = 'AI入门与实践｜Xiao〇社区';
+    root.innerHTML = '<div class="ai-shell">'+top()+'<header class="ai-hero"><span class="ai-eyebrow">EXPLORE · UNDERSTAND · PRACTICE</span><h1>AI入门与实践<span>让想法，走进日常工作。</span></h1><p>认识常用工具，理解基础概念，交流一步步做出来的经验。</p></header><div class="ai-paths">'+data.categories.map(c=>'<a class="ai-entry ai-entry--'+c.id+'" href="'+href({category:c.id})+'"><div class="ai-entry-top"><span>'+c.mark+' / '+({tools:'DISCOVER',basics:'UNDERSTAND',practice:'PUT INTO PRACTICE'}[c.id])+'</span><span class="ai-entry-dot" aria-hidden="true"></span></div><div class="ai-entry-art" aria-hidden="true"><img src="assets/ai/'+c.id+'.svg" alt="" width="420" height="190"></div><div class="ai-entry-copy"><h2>'+c.name+'</h2><p>'+c.lead+'</p><small>'+({tools:'对话 · 搜索 · 创作',basics:'提示词 · 上下文 · 工具连接',practice:'飞书 · 调研 · 待办'}[c.id])+'</small></div><div class="ai-entry-foot"><span>'+({tools:'认识工具',basics:'开始学习',practice:'探索实践'}[c.id])+'</span><span class="ai-entry-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></div></a>').join('')+'</div><section class="ai-library" aria-label="内容浏览"><div class="ai-library-head"><div><span class="ai-eyebrow">THE NOTEBOOK</span><h2>从这里开始探索</h2></div><label class="ai-search">搜索内容<input id="ai-search" type="search" placeholder="搜索工具、知识或实操主题" value="'+esc(query)+'"></label></div><div class="ai-filter" role="group" aria-label="内容分类">'+[{id:'all',name:'全部内容'},...data.categories].map(c=>'<button type="button" data-category="'+c.id+'" aria-pressed="'+(category===c.id)+'">'+c.name+'</button>').join('')+'</div><p id="ai-count" role="status" aria-live="polite"></p><div id="ai-results" class="ai-grid"></div></section>'+footer+'</div>';
     cards();
   }
   function block(s) {
@@ -52,12 +52,12 @@
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id);
     if(!a) {
-      document.title = '内容未找到｜AI工具与实践';
+      document.title = '内容未找到｜AI入门与实践';
       root.innerHTML='<div class="ai-shell">'+top()+'<section class="ai-empty"><h1>这篇内容暂时无法找到</h1><p>链接可能已变更，请返回列表继续浏览。</p><a href="'+href(listValues())+'">返回内容列表 →</a></section>'+footer+'</div>';
       return;
     }
     const cat=data.categories.find(c=>c.id===a.category);
-    document.title=a.title+'｜AI工具与实践';
+    document.title=a.title+'｜AI入门与实践';
     const related=data.articles.filter(item=>item.id!==a.id&&item.tags.some(t=>a.tags.includes(t))).slice(0,3);
     root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+(a.kind==='方法示例'?'<aside class="ai-note">这是一份方法示例，用于说明操作思路。具体步骤取决于所用AI工具、连接器与飞书权限；不代表已完成真实账号联调。</aside>':'')+a.sections.map(block).join('')+(a.source?'<section class="ai-source"><h2>参考与官方入口</h2><a href="'+esc(a.source)+'" target="_blank" rel="noopener noreferrer">'+esc(a.sourceName)+' ↗</a>'+(a.verified?'<p>官方来源核对：'+esc(a.verified)+'。具体功能和使用条件以官方当前说明为准。</p>':'')+'</section>':'')+'</article>'+(related.length?'<section class="ai-related"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
   }

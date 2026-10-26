@@ -443,7 +443,7 @@
     const insights = publicInsights(publicData);
     const recentInsights = insights.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><button type="button" class="co-join-trigger" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-ai">AI工具与实践</a><a href="#co-projects">项目与工具</a><a href="' + pageHref('profile.html') + '">关于 Xiao〇</a></nav></div></header>'
+      + '<header class="co-hero"><button type="button" class="co-join-trigger" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a href="#co-reports">查询报告</a><a href="#co-knowledge">学习知识</a><a href="#co-ai">AI入门与实践</a><a href="#co-projects">项目与工具</a><a href="' + pageHref('profile.html') + '">关于 Xiao〇</a></nav></div></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
@@ -455,12 +455,12 @@
       + '<article class="co-band co-band--insights"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h64v77H23zM34 34h28m-28 11h38M34 83V67m12 16V58m12 25V64"/><circle cx="94" cy="64" r="23"/><path d="m111 81 21 21M83 65l8-8 9 5 10-13M13 105h75"/></svg></div><h3>研究洞察</h3><p>收录研究机构持续发布的 ESG 研究报告，直达官方页面。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('insights.html') + '">查看更多</a></div><div class="co-items">'
       + (recentInsights.length ? recentInsights.map(renderInsight).join('') : emptyState('暂未收录研究报告。'))
       + '</div></div></article></section>'
-      + '<section class="co-section co-ai-section" id="co-ai">' + sectionHead('02', 'ai', 'AI工具与实践', '认识工具、理解概念，分享工作中的AI实操方法')
+      + '<section class="co-section co-ai-section" id="co-ai">' + sectionHead('02', 'ai', 'AI入门与实践', '认识工具、理解概念，分享工作中的AI实操方法')
       + '<div class="co-ai-portals">' + [
-        {id:'tools', no:'01', title:'工具介绍', description:'了解常用AI工具的用途与入门方式。', tag:'找到合适的工具'},
-        {id:'basics', no:'02', title:'基础知识', description:'读懂提示词、上下文与工具连接等概念。', tag:'把基础讲清楚'},
-        {id:'practice', no:'03', title:'实操经验', description:'从连接飞书，到调研与待办，探索具体做法。', tag:'从一个需求开始'}
-      ].map(item => '<a class="co-ai-portal" href="' + pageHref('ai.html', {category:item.id}) + '"><span class="co-ai-number">' + item.no + ' / AI NOTEBOOK</span><h3>' + item.title + '</h3><p>' + item.description + '</p><span class="co-ai-portal-foot">' + item.tag + '<b aria-hidden="true">＋</b></span></a>').join('')
+        {id:'tools', no:'01', label:'DISCOVER', title:'工具介绍', description:'找到适合自己的AI工具，让每一次尝试都有方向。', tag:'对话 · 搜索 · 创作', action:'认识工具'},
+        {id:'basics', no:'02', label:'UNDERSTAND', title:'基础知识', description:'把陌生概念变成熟悉的常识，轻松迈出第一步。', tag:'提示词 · 上下文 · 工具连接', action:'开始学习'},
+        {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'从一个真实需求出发，把AI用进日常工作。', tag:'飞书 · 调研 · 待办', action:'探索实践'}
+      ].map(item => '<a class="co-ai-portal ai-entry ai-entry--' + item.id + '" href="' + pageHref('ai.html', {category:item.id}) + '"><div class="ai-entry-top"><span>' + item.no + ' / ' + item.label + '</span><span class="ai-entry-dot" aria-hidden="true"></span></div><div class="ai-entry-art" aria-hidden="true"><img src="assets/ai/' + item.id + '.svg" alt="" width="420" height="190"></div><div class="ai-entry-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p><small>' + item.tag + '</small></div><div class="ai-entry-foot"><span>' + item.action + '</span><span class="ai-entry-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></div></a>').join('')
       + '</div><a class="co-ai-all" href="' + pageHref('ai.html') + '">探索全部AI内容</a></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('03', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
 
