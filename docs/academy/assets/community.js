@@ -261,11 +261,19 @@
       + '</article>';
   }
 
+  function socialIcon(kind) {
+    const shapes = {
+      xhs: '<text x="12" y="16" text-anchor="middle" font-size="9" font-weight="800" fill="currentColor" stroke="none">小红书</text>',
+      official: '<circle cx="7" cy="17" r="2" fill="currentColor" stroke="none"/><path d="M6 10a8 8 0 0 1 8 8M6 4a14 14 0 0 1 14 14"/>',
+      douyin: '<path d="M14 3v12.5a4.5 4.5 0 1 1-4-4.47V15a1.5 1.5 0 1 0 1 1.5V3h3c.7 3 2.4 4.5 5 4.8v3.1a9 9 0 0 1-5-2" fill="currentColor" stroke="none"/>',
+      wechat: '<path d="M14 12c0 3-2.7 5-6 5l-3 2 .7-3C3.4 15 2 13.3 2 11c0-3 2.7-5 6-5s6 2 6 6Z"/><path d="M13 10c4-1 8 1 8 4 0 1.7-1 3-2.5 4l.5 2-2.5-1.5c-3 .5-5.5-1-6-3"/><path d="M6 10h.01M10 10h.01M15 14h.01M18 14h.01" stroke-width="2.5"/>'
+    };
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + shapes[kind] + '</svg>';
+  }
+
   function renderSocial() {
-    return '<section class="co-social-area" aria-label="Xiao〇的平台二维码"><div class="co-social-heading"><span>FIND ME</span><h3>在这些平台找到 Xiao〇</h3><p>扫描二维码，继续交流 ESG、AI 与工作台的开发。</p></div><div class="co-social-grid">'
-      + socialProfiles.map(item => '<article class="co-social-card"><div class="co-qr-window co-qr-window--' + item.crop + '">'
-        + (item.image ? '<img src="' + item.image + '" alt="' + item.name + '二维码" decoding="sync">' : '<span>二维码待补充</span>')
-        + '</div><strong>' + item.name + '</strong></article>').join('')
+    return '<section class="co-footer-social" aria-label="在这些平台找到 Xiao〇"><h3>FIND ME</h3><div class="co-footer-platforms">'
+      + socialProfiles.map(item => '<div class="co-social-link"><button type="button" class="co-social-trigger" aria-expanded="false">' + socialIcon(item.crop) + '<span>' + item.name + '</span></button><div class="co-social-code"><div class="co-qr-window co-qr-window--' + item.crop + '"><img src="' + item.image + '" alt="' + item.name + '二维码" loading="lazy"></div><small>扫码关注 · ' + item.name + '</small></div></div>').join('')
       + '</div></section>';
   }
 
@@ -444,12 +452,12 @@
       + '</div></div></article></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('02', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
       + '<section class="co-section" id="co-about">' + sectionHead('03', 'person', '关于 Xiao〇', '个人介绍、专业交流与合作') + '<div class="co-about-row"><article class="co-profile"><div class="co-avatar"><img src="assets/community/avatar-xiaoyuan.jpg" alt="Xiao〇卡通头像"></div><h3>你好，我是 Xiao〇</h3><p>ESG 咨询师，也是这个工作台的开发者。我想把复杂的方法拆开，让知识和工具更贴近真实工作。</p><a class="co-action-btn co-action-btn--on-dark co-profile-link" href="' + pageHref('profile.html') + '">进入个人主页</a></article><div>' + renderOffers() + '</div></div>'
-      + renderSocial()
       + '<div class="co-author-actions"><button type="button" data-author-like aria-pressed="false">♡ 给作者点赞</button><button type="button" class="co-author-actions--primary" data-open-support>支持作者</button><small class="co-count-status" data-count-status role="status" aria-live="polite"></small></div></section>'
       + '<dialog id="co-join-dialog" class="co-join-dialog" aria-labelledby="co-join-title" aria-describedby="co-join-tip"><div class="co-join-head"><div><small>Xiao〇 ESG社区</small><h3 id="co-join-title">加入交流群</h3></div><button type="button" data-close-community-join aria-label="关闭入群窗口" autofocus>×</button></div><p id="co-join-tip">一起交流 ESG、AI 与工作中的实践。<br>如果二维码过期，请添加微信申请入群。</p><div class="co-join-codes"><section><h4>扫码加入交流群</h4><div class="co-join-qr"><img src="assets/community/qr-wechat-group-20261023.svg" alt="Xiao〇交流群二维码"></div><p>使用微信扫一扫</p></section><section><h4>添加 Xiao〇 微信</h4><div class="co-join-qr co-qr-window co-qr-window--wechat"><img src="assets/community/qr-wechat-source.jpg" alt="Xiao〇个人微信二维码"></div><p>添加时请备注“ESG交流群”</p></section></div></dialog>'
       + '<dialog class="co-support-dialog" id="co-support-dialog"><div class="co-support-head"><div><h3>支持 Xiao〇</h3><p>如果这个项目对你有帮助，可以自愿支持作者继续完善它，请作者喝杯咖啡续命～</p></div><div class="co-support-illustration"><img src="assets/community/gratitude-coffee.png" alt="小圆捧着咖啡说谢谢支持"></div></div><div class="co-support-qr"><img src="assets/community/qr-support-wechat-code.jpg" alt="微信收款码"></div><button type="button" data-close-support>关闭</button></dialog>'
       + '<dialog class="co-form-dialog" id="co-form-dialog" aria-labelledby="co-form-title"><div class="co-form-head"><div><small>飞书表单 · 页面内填写</small><h3 id="co-form-title">联系 Xiao〇</h3></div><button type="button" data-close-community-form aria-label="关闭表单">×</button></div><p class="co-form-intro" data-form-intro></p><div class="co-form-frame"><div class="co-form-loading" data-form-loading>正在打开表单…</div><iframe data-community-form-frame title="飞书表单" referrerpolicy="no-referrer" allow="clipboard-read; clipboard-write"></iframe></div><small class="co-form-foot">提交内容保存在飞书，不会自动显示在社区。请勿填写客户资料。</small></dialog>'
-      + '<footer class="co-site-footer co-footer-editorial" aria-label="社区说明"><div class="co-footer-intro"><strong>Xiao〇 ESG社区</strong><p>让知识连接可持续未来。</p></div><div class="co-footer-notes"><section><h4>内容与来源</h4><p>这里分享 ESG 知识、资讯与实践工具，供学习和交流。业务使用请核对官方最新文件；引用资料的权利归原作者，卡片配图为 AI 生成的主题示意。</p></section><section><h4>隐私与反馈</h4><p>浏览与点赞仅用于页面计数，不上传工作台资料。联系表单用于回复与沟通，请勿提交客户或其他敏感信息。</p><button type="button" data-open-community-form="question">内容纠错与反馈</button></section></div><div class="co-footer-bottom"><small>© 2026 Xiao〇 · 原创内容与设计</small><span class="co-view-count" data-community-views aria-live="polite">页面浏览次数读取中…</span></div></footer>'
+      + '<footer class="co-site-footer co-footer-editorial co-footer-compact" aria-label="社区说明"><div class="co-footer-copy"><strong>© 2026 Xiao〇 ESG社区</strong><p>分享 ESG 知识与实践，引用资料权利归原权利人。内容仅供学习交流，业务应用请核对官方最新文件。</p><nav class="co-footer-links" aria-label="网站信息"><details><summary>网站说明</summary><p>这里分享 ESG 知识、资讯与实践工具，供学习交流。部分内容与配图由 AI 辅助生成，可能存在疏漏；业务应用请核对官方最新文件。联系表单用于回复与沟通，请勿提交客户或其他敏感信息。</p></details><span aria-hidden="true">·</span><details><summary>内容来源与版权</summary><p>引用资料的权利归原权利人，来源以内容标注及原文链接为准。转载、下载和使用请遵守原来源的许可要求。AI 配图为主题示意，不代表新闻现场；如发现来源、署名或版权问题，请通过“纠错与反馈”联系。</p></details><span aria-hidden="true">·</span><button type="button" data-open-community-form="question">纠错与反馈</button></nav><span hidden data-community-views></span></div>' + renderSocial() + '</footer>'
+
       + '</div>';
   }
 
@@ -745,7 +753,41 @@
     notifyHost(location.pathname.split('/').pop() || 'community.html');
   }
 
+  function showSocial(link, open) {
+    if (!link) return;
+    link.classList.toggle('is-open', open);
+    link.querySelector('.co-social-trigger').setAttribute('aria-expanded', String(open));
+  }
+  document.addEventListener('pointerover', event => {
+    if (event.pointerType !== 'mouse') return;
+    showSocial(event.target.closest('.co-social-link'), true);
+  });
+  document.addEventListener('pointerout', event => {
+    if (event.pointerType !== 'mouse') return;
+    const link = event.target.closest('.co-social-link');
+    if (link && !link.contains(event.relatedTarget)) showSocial(link, false);
+  });
+  document.addEventListener('focusin', event => {
+    const button = event.target.closest('.co-social-trigger');
+    if (button && button.matches(':focus-visible')) showSocial(button.closest('.co-social-link'), true);
+  });
+  document.addEventListener('focusout', event => {
+    const link = event.target.closest('.co-social-link');
+    if (link && !link.contains(event.relatedTarget)) showSocial(link, false);
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') document.querySelectorAll('.co-social-link.is-open').forEach(link => showSocial(link, false));
+  });
   document.addEventListener('click', event => {
+    const socialButton = event.target.closest('.co-social-trigger');
+    if (socialButton) {
+      const link = socialButton.closest('.co-social-link');
+      showSocial(link, !link.classList.contains('is-open'));
+      return;
+    }
+    document.querySelectorAll?.('.co-social-link.is-open').forEach(link => {
+      if (!link.contains(event.target)) showSocial(link, false);
+    });
     const insPageBtn = event.target.closest('#insights-page .co-page-btn');
     if (insPageBtn && !insPageBtn.disabled) {
       const page = Number(insPageBtn.dataset.page);
