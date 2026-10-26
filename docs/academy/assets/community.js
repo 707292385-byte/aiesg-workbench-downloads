@@ -298,31 +298,41 @@
       .sort((left, right) => String(right.date || '').localeCompare(String(left.date || ''), 'zh-CN'));
   }
 
-  function cardPhoto(item) {
-    const text = [item.title, item.category, item.summary].join(' ');
-    const theme = /生物|自然|森林|生态|TNFD/.test(text) ? 'nature'
-      : /能源|碳|气候|排放|风电|绿色转型/.test(text) ? 'energy' : 'city';
-    return '<img class="co-card-photo" src="assets/community/card-' + theme + '.jpg" alt="" loading="lazy" decoding="async"><i class="co-card-shade" aria-hidden="true"></i>';
+  const cardPhotos = {
+    methods: ['method-msci', 'method-csa', 'method-ecovadis'],
+    news: ['news-standards', 'news-shipping', 'energy'],
+    insights: ['research-markets', 'nature', 'city']
+  };
+  function cardPhoto(group, index = 0) {
+    const choices = cardPhotos[group] || cardPhotos.news;
+    const key = choices[Math.abs(Number(index) || 0) % choices.length];
+    return '<img class="co-card-photo" src="assets/community/card-' + key + '.jpg" alt="" loading="lazy" decoding="async"><i class="co-card-shade" aria-hidden="true"></i>';
   }
-
-  function renderInsight(item) {
-    const meta = [item.category, item.org, item.date].map(value => String(value || '').trim()).filter(Boolean).map(escapeHtml).join(' · ');
+  function cardPublisher(item) {
+    if (item.org || item.publisher) return String(item.org || item.publisher);
+    const facts = (item.content || []).filter(block => block.type === 'facts').flatMap(block => block.items || []);
+    const publisher = facts.find(fact => /^(发布机构|发布单位|发布方)$/.test(fact.label));
+    return publisher ? String(publisher.value).replace(/[，,]\s*20\d{2}年.*$/, '') : '发布机构未标注';
+  }
+  function cardCopy(category, publisher, date, title, summary) {
+    const meta = [publisher, date].filter(Boolean).join(' · ');
+    return '<small class="co-card-category">' + escapeHtml(category) + '</small>'
+      + '<div class="co-card-meta" title="' + escapeHtml(meta) + '">' + escapeHtml(meta) + '</div>'
+      + '<strong title="' + escapeHtml(title) + '">' + escapeHtml(title) + '</strong>'
+      + '<span>' + escapeHtml(summary || '') + '</span>';
+  }
+  function renderMethod(item, index) {
+    const publisher = { msci: 'MSCI', csa: '标普全球', ecovadis: 'EcoVadis' }[item.id] || '';
+    return '<a class="co-item co-item--photo" href="' + pageHref('standard.html', { id: item.id }) + '">'
+      + cardPhoto('methods', index) + cardCopy(item.type, publisher, '', item.title, item.summary || item.detail) + '</a>';
+  }
+  function renderInsight(item, index = 0) {
     return '<a class="co-item co-item--ext co-item--photo" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">'
-      + cardPhoto(item) + '<small>' + meta + '</small><strong>' + escapeHtml(item.title) + '</strong>'
-      + (item.summary ? '<span>' + escapeHtml(item.summary) + '</span>' : '') + '</a>';
+      + cardPhoto('insights', index) + cardCopy(item.category || '研究报告', cardPublisher(item), item.date, item.title, item.summary) + '</a>';
   }
-
-  function renderObservation(item) {
-    const category = escapeHtml(item.category || '观察');
-    const title = escapeHtml(item.title || '');
-    const summary = escapeHtml(item.summary || '');
-    const date = escapeHtml(item.date || '');
-    const meta = [category, date].filter(Boolean).join(' · ');
-    const inner = cardPhoto(item) + '<small>' + meta + '</small><strong>' + title + '</strong>'
-      + (summary ? '<span>' + summary + '</span>' : '');
-    if (item.id) {
-      return '<a class="co-item co-observation co-item--photo" href="' + pageHref('observation.html', { id: item.id }) + '">' + inner + '</a>';
-    }
+  function renderObservation(item, index = 0) {
+    const inner = cardPhoto('news', index) + cardCopy(item.category || '观察', cardPublisher(item), item.date, item.title, item.summary);
+    if (item.id) return '<a class="co-item co-observation co-item--photo" href="' + pageHref('observation.html', { id: item.id }) + '">' + inner + '</a>';
     return '<article class="co-item co-observation co-item--photo">' + inner + '</article>';
   }
 
@@ -424,7 +434,7 @@
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
-      + standards.slice(0, 3).map(item => '<a class="co-item" href="' + pageHref('standard.html', { id: item.id }) + '"><small>' + escapeHtml(item.type) + '</small><strong>' + escapeHtml(item.title) + '</strong><span>' + escapeHtml(item.summary || item.detail) + '</span></a>').join('')
+      + standards.slice(0, 3).map(renderMethod).join('')
       + '</div></div></article>'
       + '<article class="co-band co-band--news"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="20" y="23" width="86" height="68" rx="5"/><path d="M32 36h34m-34 10h22m-22 14h60m-60 11h60m-60 10h40M112 48h18v43H35"/><circle cx="84" cy="43" r="9"/><path d="M119 17v10m-5-5h10M12 103h125"/></svg></div><h3>资讯动态</h3><p>每天更新ESG领域最新进展</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more" href="' + pageHref('observations.html') + '">查看更多</a></div><div class="co-items co-items--news">'
       + (recentObservations.length ? recentObservations.map(renderObservation).join('') : emptyState('暂未发布观察。'))
