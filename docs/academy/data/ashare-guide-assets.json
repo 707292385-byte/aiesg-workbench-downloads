@@ -27,22 +27,159 @@
    ],
    [
     {
-     "text": "应对气候变化污染物排放废弃物处理生态系统和生物多样性保护环境合规管理能源利用水资源利用循环经济",
+     "text": "应对气候变化",
      "colspan": 1,
      "rowspan": 1
     },
     {
-     "text": "乡村振兴社会贡献创新驱动科技伦理供应链安全平等对待中小企业产品和服务安全与质量数据安全与客户隐私保护员工",
+     "text": "乡村振兴",
      "colspan": 1,
      "rowspan": 1
     },
     {
-     "text": "尽职调查利益相关方沟通反商业贿赂及反贪污反不正当竞争",
+     "text": "尽职调查",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "污染物排放",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "社会贡献",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "利益相关方沟通",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "废弃物处理",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "创新驱动",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "反商业贿赂及反贪污",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "生态系统和生物多样性保护",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "科技伦理",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "反不正当竞争",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "环境合规管理",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "供应链安全",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "能源利用",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "平等对待中小企业",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "水资源利用",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "产品和服务安全与质量",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "循环经济",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "数据安全与客户隐私保护",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "",
+     "colspan": 1,
+     "rowspan": 1
+    }
+   ],
+   [
+    {
+     "text": "",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "员工",
+     "colspan": 1,
+     "rowspan": 1
+    },
+    {
+     "text": "",
      "colspan": 1,
      "rowspan": 1
     }
    ]
-  ]
+  ],
+  "note": "每个单元格一项议题，按官方表格三个维度分列呈现。"
  },
  {
   "id": "sse-guide-cn-07-02",
