@@ -39,6 +39,7 @@
   function pageHref(page, values = {}) {
     const url = new URL(page, location.href);
     if (page === 'profile.html') url.searchParams.set('build', '20261026-actions-v3');
+    if (page === 'ai.html') url.searchParams.set('build', '20261026-card-system-v1');
     Object.entries(values).forEach(([key, value]) => url.searchParams.set(key, value));
     if (embedded) url.searchParams.set('embed', '1');
     return url.pathname.split('/').pop() + url.search;
@@ -457,9 +458,9 @@
       + '</div></div></article></section>'
       + '<section class="co-section co-ai-section" id="co-ai">' + sectionHead('02', 'ai', 'AI入门与实践', '认识工具、理解概念，分享工作中的AI实操方法')
       + '<div class="co-ai-portals">' + [
-        {id:'tools', no:'01', label:'DISCOVER', title:'工具介绍', description:'找到适合自己的AI工具，让每一次尝试都有方向。', tag:'对话 · 搜索 · 创作', action:'认识工具'},
+        {id:'tools', no:'01', label:'DISCOVER', title:'工具介绍', description:'找到适合自己的AI工具，让每一次尝试都有方向。', tag:'Codex · WorkBuddy · IMA', action:'认识工具'},
         {id:'basics', no:'02', label:'UNDERSTAND', title:'基础知识', description:'把陌生概念变成熟悉的常识，轻松迈出第一步。', tag:'提示词 · 上下文 · 工具连接', action:'开始学习'},
-        {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'从一个真实需求出发，把AI用进日常工作。', tag:'飞书 · 调研 · 待办', action:'探索实践'}
+        {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'按系列打通办公协作与知识库迭代。', tag:'飞书协作 · IMA知识库', action:'探索实践'}
       ].map(item => '<a class="co-ai-portal ai-entry ai-entry--' + item.id + '" href="' + pageHref('ai.html', {category:item.id}) + '"><div class="ai-entry-top"><span>' + item.no + ' / ' + item.label + '</span><span class="ai-entry-dot" aria-hidden="true"></span></div><div class="ai-entry-art" aria-hidden="true"><img src="assets/ai/' + item.id + '.svg" alt="" width="420" height="190"></div><div class="ai-entry-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p><small>' + item.tag + '</small></div><div class="ai-entry-foot"><span>' + item.action + '</span><span class="ai-entry-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></div></a>').join('')
       + '</div><a class="co-ai-all co-glass-action" href="' + pageHref('ai.html') + '">探索全部AI内容</a></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('03', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
