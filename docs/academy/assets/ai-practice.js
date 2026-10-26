@@ -62,8 +62,9 @@
   function block(s) {
     const cards=s.cards?'<div class="ai-scenario-grid">'+s.cards.map(card=>'<article><h3>'+esc(card.title)+'</h3><p>'+esc(card.text)+'</p></article>').join('')+'</div>':'';
     const actions=s.actions?'<div class="ai-section-actions">'+s.actions.map(action=>'<a href="'+esc(action.url)+'" target="_blank" rel="noopener noreferrer">'+esc(action.label)+'</a>').join('')+'</div>':'';
+    const contact=s.contactQr?'<div class="ai-contact-qr"><button type="button" data-contact-qr aria-expanded="false">'+esc(s.contactQr.label)+'</button><div class="ai-contact-popover" role="tooltip"><div class="ai-contact-qr-frame"><img src="'+esc(s.contactQr.image)+'" alt="'+esc(s.contactQr.alt)+'"></div><strong>'+esc(s.contactQr.caption)+'</strong><small>咨询注册、套餐选择与会员开通</small></div></div>':'';
     const figure=s.image?'<figure class="ai-knowledge-code"><img src="'+esc(s.image.src)+'" alt="'+esc(s.image.alt)+'"><figcaption>'+esc(s.image.caption)+'</figcaption></figure>':'';
-    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
+    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+contact+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
   }
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id || (Array.isArray(item.aliases) && item.aliases.includes(id)));
@@ -82,6 +83,14 @@
     if(e.target.id!=='ai-search')return;
     query=e.target.value; history.replaceState(null,'',href(listValues())); cards();
   });
+  document.addEventListener('click',e=>{
+    if(e.target.closest('.ai-contact-qr'))return;
+    root.querySelectorAll('[data-contact-qr][aria-expanded="true"]').forEach(button=>button.setAttribute('aria-expanded','false'));
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key!=='Escape')return;
+    root.querySelectorAll('[data-contact-qr][aria-expanded="true"]').forEach(button=>button.setAttribute('aria-expanded','false'));
+  });
   root.addEventListener('click',async e => {
     const tab=e.target.closest('[data-category]');
     if(tab) {
@@ -90,6 +99,12 @@
       history.replaceState(null,'',href(listValues()));cards();return;
     }
     if(e.target.closest('[data-clear]')){category='all';query='';history.replaceState(null,'',href());renderList();document.getElementById('ai-search').focus();return;}
+    const contactQr=e.target.closest('[data-contact-qr]');
+    if(contactQr){
+      const expanded=contactQr.getAttribute('aria-expanded')==='true';
+      root.querySelectorAll('[data-contact-qr][aria-expanded="true"]').forEach(button=>button.setAttribute('aria-expanded','false'));
+      contactQr.setAttribute('aria-expanded',String(!expanded));return;
+    }
     const copy=e.target.closest('[data-copy]');
     if(copy){
       const status=copy.parentElement.querySelector('[role=status]');

@@ -122,6 +122,17 @@ button{cursor:pointer}
 .ai-section-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .ai-section-actions a{padding:9px 15px;border:1px solid #a8c6b9;border-radius:11px;background:#fff;color:var(--ai-accent);font-size:13px;font-weight:650}
 .ai-section-actions a:hover{background:#edf6f1}
+.ai-contact-qr{position:relative;display:inline-block;margin-top:18px}
+.ai-contact-qr>button{min-height:42px;padding:9px 17px;border:1px solid #8cb9a5;border-radius:12px;background:var(--ai-ink);color:#fff;font-size:13px;font-weight:700;cursor:pointer}
+.ai-contact-qr>button:hover,.ai-contact-qr>button:focus-visible{background:var(--ai-accent)}
+.ai-contact-popover{position:absolute;z-index:20;left:0;bottom:calc(100% + 12px);width:220px;padding:14px;border:1px solid #d1e2da;border-radius:16px;background:#fff;box-shadow:0 18px 48px rgba(18,62,46,.2);opacity:0;visibility:hidden;transform:translateY(7px);transition:opacity .18s ease,transform .18s ease,visibility .18s ease;text-align:center}
+.ai-contact-qr:hover .ai-contact-popover,.ai-contact-qr:focus-within .ai-contact-popover,.ai-contact-qr>button[aria-expanded="true"]+.ai-contact-popover{opacity:1;visibility:visible;transform:none}
+.ai-contact-popover::after{content:"";position:absolute;left:24px;top:100%;border:8px solid transparent;border-top-color:#fff}
+.ai-contact-qr-frame{position:relative;overflow:hidden;width:184px;height:184px;margin:0 auto 10px;background:#fff}
+.ai-contact-qr-frame img{position:absolute;width:148%;height:auto;max-width:none;left:-24%;top:-52%}
+.ai-contact-popover strong,.ai-contact-popover small{display:block}
+.ai-contact-popover strong{font-size:14px;color:var(--ai-ink)}
+.ai-contact-popover small{margin-top:4px;color:var(--ai-muted);font-size:11px;line-height:1.5}
 .ai-knowledge-code{display:grid;grid-template-columns:180px 1fr;align-items:center;gap:22px;max-width:620px;margin:18px 0 0;padding:16px 18px;border:1px solid #d7e6de;border-radius:16px;background:#fff}
 .ai-knowledge-code img{display:block;width:180px;height:auto;border-radius:10px}
 .ai-knowledge-code figcaption{font-size:16px;font-weight:700;color:var(--ai-ink)}
@@ -166,6 +177,10 @@ button{cursor:pointer}
   .ai-scenario-grid{grid-template-columns:1fr}
   .ai-knowledge-code{grid-template-columns:1fr;max-width:220px;margin-right:auto;padding:12px;text-align:center}
   .ai-knowledge-code img{width:160px;margin:auto}
+  .ai-contact-popover{position:fixed;left:50%;bottom:24px;width:214px;transform:translate(-50%,7px)}
+  .ai-contact-qr:hover .ai-contact-popover,.ai-contact-qr:focus-within .ai-contact-popover,.ai-contact-qr>button[aria-expanded="true"]+.ai-contact-popover{transform:translate(-50%,0)}
+  .ai-contact-popover::after{display:none}
+  .ai-contact-qr-frame{width:178px;height:178px}
   .ai-back{margin-top:28px}
   .ai-prompt{padding:15px}
 }
