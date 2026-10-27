@@ -261,3 +261,8 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:220px;box-sizing:border-box}
 @media(max-width:1100px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:calc((100% - 24px)/2)}}
 @media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:100%}}
+
+.co-ocean .co-ai-section .co-section-head{flex-direction:row;align-items:center;gap:14px}
+.co-ocean .co-ai-section .co-section-head h2{flex-shrink:0}
+.co-ocean .co-ai-section .co-section-head .co-ai-all{flex-shrink:0;width:auto;margin:0 0 0 auto;white-space:nowrap}
+@media(max-width:760px){.co-ocean .co-ai-section .co-section-head{gap:8px}.co-ocean .co-ai-section .co-section-head h2{font-size:22px}}

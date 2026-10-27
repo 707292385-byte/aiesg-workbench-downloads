@@ -350,8 +350,8 @@
     return '<article class="co-item co-observation co-item--photo">' + inner + '</article>';
   }
 
-  function sectionHead(number, icon, title, description) {
-    return '<div class="co-section-head"><b>' + number + '</b><span class="co-section-icon">' + svgIcon(icon) + '</span><h2>' + title + '</h2><p>' + description + '</p></div>';
+  function sectionHead(number, icon, title, description, action = '') {
+    return '<div class="co-section-head"><b>' + number + '</b><span class="co-section-icon">' + svgIcon(icon) + '</span><h2>' + title + '</h2><p>' + description + '</p>' + action + '</div>';
   }
 
   function reportEntry() {
@@ -490,13 +490,13 @@
       + '<article class="co-band co-band--insights"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h64v77H23zM34 34h28m-28 11h38M34 83V67m12 16V58m12 25V64"/><circle cx="94" cy="64" r="23"/><path d="m111 81 21 21M83 65l8-8 9 5 10-13M13 105h75"/></svg></div><h3>研究洞察</h3><p>收录研究机构持续发布的 ESG 研究报告，直达官方页面。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more co-glass-action co-glass-action--compact" href="' + pageHref('insights.html') + '">查看更多</a></div><div class="co-items">'
       + (recentInsights.length ? recentInsights.map(renderInsight).join('') : emptyState('暂未收录研究报告。'))
       + '</div></div></article></section>'
-      + '<section class="co-section co-ai-section" id="co-ai">' + sectionHead('02', 'ai', 'AI入门与实践', '认识工具、理解概念，分享工作中的AI实操方法')
+      + '<section class="co-section co-ai-section" id="co-ai">' + sectionHead('02', 'ai', 'AI入门与实践', '认识工具、理解概念，分享工作中的AI实操方法', '<a class="co-ai-all co-glass-action co-glass-action--compact" href="' + pageHref('ai.html') + '">查看更多</a>')
       + '<div class="co-ai-portals">' + [
         {id:'tools', no:'01', label:'DISCOVER', title:'工具介绍', description:'找到适合自己的AI工具，让每一次尝试都有方向。', tag:'Codex · WorkBuddy · IMA', action:'认识工具'},
         {id:'basics', no:'02', label:'UNDERSTAND', title:'基础知识', description:'把陌生概念变成熟悉的常识，轻松迈出第一步。', tag:'提示词 · 上下文 · 工具连接', action:'开始学习'},
         {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'从一次真实调研出发：飞书建日程、出问卷、收答卷，最后出一份数据看板。', tag:'飞书问卷 · 数据看板 · IMA知识库', action:'探索实践'}
       ].map(item => '<a class="co-ai-portal ai-entry ai-entry--' + item.id + '" href="' + pageHref('ai.html', {category:item.id}) + '"><div class="ai-entry-top"><span>' + item.no + ' / ' + item.label + '</span><span class="ai-entry-dot" aria-hidden="true"></span></div><div class="ai-entry-art" aria-hidden="true"><img src="assets/ai/' + item.id + '.svg" alt="" width="420" height="190"></div><div class="ai-entry-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p><small>' + item.tag + '</small></div><div class="ai-entry-foot"><span>' + item.action + '</span><span class="ai-entry-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></div></a>').join('')
-      + '</div><a class="co-ai-all co-glass-action" href="' + pageHref('ai.html') + '">探索全部AI内容</a></section>'
+      + '</div></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('03', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
 
       + '<dialog id="co-join-dialog" class="co-join-dialog" aria-labelledby="co-join-title" aria-describedby="co-join-tip"><div class="co-join-head"><div><small>Xiao〇 ESG社区</small><h3 id="co-join-title">加入交流群</h3></div><button type="button" data-close-community-join aria-label="关闭入群窗口" autofocus>×</button></div><p id="co-join-tip">一起交流 ESG、AI 与工作中的实践。<br>群二维码 7 天内有效，过期请添加微信申请入群。</p><div class="co-join-codes"><section><h4>扫码加入交流群</h4><div class="co-join-qr"><img src="assets/community/qr-wechat-group-20261026.png" alt="Xiao〇交流群二维码"></div><p>使用微信扫一扫</p></section><section><h4>添加 Xiao〇 微信</h4><div class="co-join-qr co-qr-window co-qr-window--wechat"><img src="assets/community/qr-wechat-source.jpg" alt="Xiao〇个人微信二维码"></div><p>添加时请备注“ESG交流群”</p></section></div></dialog>'
