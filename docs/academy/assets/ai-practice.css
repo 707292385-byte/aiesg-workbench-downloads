@@ -187,3 +187,45 @@ button{cursor:pointer}
   .ai-prompt{padding:15px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* 系列专题卡：同系列文章合并为一张卡，左侧树状导航 + 右侧内容 */
+.ai-card--series{grid-column:1/-1;min-height:0}
+.ai-card--series:hover{transform:none}
+.ai-card--series .ai-card-visual{min-height:0;padding:18px 22px}
+.ai-card--series .ai-card-visual>strong{position:static;display:inline-block;margin:10px 0 0;font-size:40px}
+.ai-card--series .ai-card-visual>p{margin:6px 0 0;max-width:none;font-size:15px;font-weight:650}
+.ai-series{display:grid;grid-template-columns:250px minmax(0,1fr);flex:1;min-height:0}
+.ai-series-nav{position:relative;display:flex;flex-direction:column;gap:4px;padding:18px 14px 20px;border-right:1px solid #e5eee9;background:linear-gradient(180deg,rgba(255,255,255,.65),rgba(240,247,243,.45))}
+.ai-series-nav::before{content:"";position:absolute;left:24px;top:56px;bottom:26px;width:1px;background:linear-gradient(180deg,color-mix(in srgb,var(--card-accent) 32%,transparent),color-mix(in srgb,var(--card-accent) 12%,transparent))}
+.ai-series-nav>strong{position:relative;padding:0 10px 10px;font-size:13px;letter-spacing:.02em;color:var(--card-accent)}
+.ai-series-nav button{position:relative;display:flex;align-items:baseline;gap:9px;width:100%;padding:10px 12px 10px 26px;border:1px solid transparent;border-radius:11px;background:none;text-align:left;font-size:13px;line-height:1.55;color:var(--ai-ink)}
+.ai-series-nav button::before{content:"";position:absolute;left:11px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:#fff;border:1px solid color-mix(in srgb,var(--card-accent) 45%,transparent)}
+.ai-series-nav button span{flex:none;font-size:11px;font-weight:700;color:var(--card-accent);opacity:.7}
+.ai-series-nav button:hover{background:var(--card-surface)}
+.ai-series-nav button[aria-current="true"]{background:var(--card-surface);border-color:color-mix(in srgb,var(--card-accent) 26%,transparent);color:var(--card-accent);font-weight:650}
+.ai-series-nav button[aria-current="true"]::before{background:var(--card-accent);border-color:var(--card-accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--card-accent) 14%,transparent)}
+.ai-series-pane{min-width:0;padding:20px 22px 24px;overflow-wrap:anywhere}
+.ai-series-pane-head h3{margin:0;font-size:19px;line-height:1.5;letter-spacing:-.01em}
+.ai-series-pane-head p{margin:8px 0 6px;font-size:13px;color:var(--ai-muted)}
+.ai-series-open{font-size:12px;font-weight:650;color:var(--card-accent)}
+.ai-series-open:hover{text-decoration:underline}
+.ai-series-pane section{margin-top:24px}
+.ai-series-pane h2{margin:0 0 8px;font-size:17px}
+.ai-series-pane p{margin:0 0 10px;font-size:14px}
+.ai-series-pane ol{margin:8px 0 0;padding-left:22px}
+.ai-series-pane li{padding:4px 0;font-size:14px}
+.ai-series-pane .ai-scenario-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.ai-series-pane .ai-scenario-grid:has(>article:only-child){grid-template-columns:1fr}
+@media(max-width:900px){
+  .ai-series{grid-template-columns:216px minmax(0,1fr)}
+}
+@media(max-width:700px){
+  .ai-series{grid-template-columns:1fr}
+  .ai-series-nav{flex-direction:row;align-items:center;gap:8px;overflow-x:auto;padding:12px 14px;border-right:0;border-bottom:1px solid #e5eee9}
+  .ai-series-nav::before{display:none}
+  .ai-series-nav>strong{flex:none;padding:0 4px 0 0;white-space:nowrap}
+  .ai-series-nav button{flex:none;width:auto;white-space:nowrap;padding-left:12px}
+  .ai-series-nav button::before{display:none}
+  .ai-series-pane{padding:18px 16px 20px}
+  .ai-series-pane .ai-scenario-grid{grid-template-columns:1fr}
+}

@@ -9,6 +9,7 @@
   const validCategories = new Set(data.categories.map(c => c.id));
   let category = validCategories.has(params.get('category')) ? params.get('category') : 'all';
   let query = params.get('q') || '';
+  const seriesState = {};
   function href(values = {}, page = 'ai.html') {
     const p = new URLSearchParams();
     if (embedded) p.set('embed', '1');
@@ -37,10 +38,37 @@
     if (Array.isArray(a.links)) return a.links;
     return a.source ? [{label:a.sourceName || '官方入口',url:a.source}] : [];
   }
+  function paneBody(a) {
+    const refs=references(a);
+    return '<div class="ai-series-pane-head"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><a class="ai-series-open" href="'+href({id:a.id})+'">在单独页面打开 →</a></div>'
+      + a.sections.map(block).join('');
+  }
+  function seriesCard(list, ordinal) {
+    const cat = data.categories.find(c=>c.id===list[0].category);
+    const seriesName = list[0].series;
+    if (!seriesState[seriesName] || !list.some(a=>a.id===seriesState[seriesName])) seriesState[seriesName]=list[0].id;
+    const selected = list.find(a=>a.id===seriesState[seriesName]);
+    const tone = String(selected.tone || selected.category).replace(/[^a-z0-9-]/gi,'');
+    const nav = '<nav class="ai-series-nav" aria-label="'+esc(seriesName)+' 目录"><strong>'+esc(seriesName)+'</strong>'+list.map(a=>'<button type="button" data-series-tab data-series="'+esc(seriesName)+'" data-article="'+esc(a.id)+'" aria-current="'+(a.id===selected.id)+'"><span>'+esc(a.mark||'')+'</span>'+esc(a.cardTitle||a.title)+'</button>').join('')+'</nav>';
+    const pane = '<div class="ai-series-pane">'+paneBody(selected)+'</div>';
+    return '<article class="ai-card ai-card--series ai-card--'+esc(list[0].category)+' ai-card--'+esc(tone)+'">'
+      +'<div class="ai-card-visual"><div class="ai-card-visual-head"><span>'+esc(cat.name)+'</span><small>'+list.length+' 篇 · 系列内容</small></div><strong>'+String(ordinal).padStart(2,'0')+'</strong><p>'+esc(seriesName)+'</p></div>'
+      +'<div class="ai-series">'+nav+pane+'</div></article>';
+  }
   function cards() {
     const articles = filtered();
     document.getElementById('ai-count').textContent = '共 '+articles.length+' 篇内容';
-    document.getElementById('ai-results').innerHTML = articles.length ? articles.map(a => {
+    const groups = new Map();
+    articles.forEach(a => { if (a.series) { if(!groups.has(a.series)) groups.set(a.series, []); groups.get(a.series).push(a); } });
+    const emitted = new Set();
+    let ordinal = 0;
+    const html = articles.length ? articles.map(a => {
+      if (a.series) {
+        if (emitted.has(a.series)) return '';
+        emitted.add(a.series);
+        ordinal += 1;
+        return seriesCard(groups.get(a.series), ordinal);
+      }
       const cat = data.categories.find(c=>c.id===a.category);
       const refs = references(a);
       const tone = String(a.tone || a.category).replace(/[^a-z0-9-]/gi,'');
@@ -50,6 +78,7 @@
         +'<div class="ai-card-body"><a class="ai-card-main" href="'+href({...listValues(),id:a.id})+'"><h2>'+esc(a.cardTitle || a.title)+'</h2></a><p class="ai-card-summary">'+esc(a.summary)+'</p><div class="ai-tags">'+a.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'</div>'
         +'<div class="ai-card-actions"><span class="ai-card-read">查看介绍</span>'+(a.category==='tools'&&refs[0]?'<a class="ai-card-official" href="'+esc(refs[0].url)+'" target="_blank" rel="noopener noreferrer">'+esc(refs[0].label)+'</a>':'')+'</div></div></article>';
     }).join('') : '<div class="ai-empty"><h2>没有找到相关内容</h2><p>试试“飞书”“待办”或“入门”，也可以清除筛选。</p><button type="button" data-clear>清除筛选</button></div>';
+    document.getElementById('ai-results').innerHTML = html;
   }
   function renderList() {
     document.title = 'AI入门与实践｜Xiao〇社区';
@@ -97,6 +126,18 @@
       category=tab.dataset.category;
       root.querySelectorAll('[data-category]').forEach(b=>b.setAttribute('aria-pressed',String(b===tab)));
       history.replaceState(null,'',href(listValues()));cards();return;
+    }
+    const seriesTab=e.target.closest('[data-series-tab]');
+    if(seriesTab) {
+      const seriesName=seriesTab.dataset.series;
+      const article=data.articles.find(x=>x.id===seriesTab.dataset.article);
+      if(!article||article.series!==seriesName)return;
+      seriesState[seriesName]=article.id;
+      const card=seriesTab.closest('.ai-card--series');
+      card.querySelectorAll('[data-series-tab]').forEach(b=>b.setAttribute('aria-current',String(b===seriesTab)));
+      const pane=card.querySelector('.ai-series-pane');
+      if(pane) pane.innerHTML=paneBody(article);
+      return;
     }
     if(e.target.closest('[data-clear]')){category='all';query='';history.replaceState(null,'',href());renderList();document.getElementById('ai-search').focus();return;}
     const contactQr=e.target.closest('[data-contact-qr]');
