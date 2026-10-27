@@ -64,7 +64,7 @@
     const actions=s.actions?'<div class="ai-section-actions">'+s.actions.map(action=>'<a href="'+esc(action.url)+'" target="_blank" rel="noopener noreferrer">'+esc(action.label)+'</a>').join('')+'</div>':'';
     const contact=s.contactQr?'<div class="ai-contact-qr"><button type="button" data-contact-qr aria-expanded="false">'+esc(s.contactQr.label)+'</button><div class="ai-contact-popover" role="tooltip"><div class="ai-contact-qr-frame"><img src="'+esc(s.contactQr.image)+'" alt="'+esc(s.contactQr.alt)+'"></div><strong>'+esc(s.contactQr.caption)+'</strong><small>咨询注册、套餐选择与会员开通</small></div></div>':'';
     const figure=s.image?'<figure class="ai-knowledge-code"><img src="'+esc(s.image.src)+'" alt="'+esc(s.image.alt)+'"><figcaption>'+esc(s.image.caption)+'</figcaption></figure>':'';
-    return '<section><h2>'+esc(s.heading)+'</h2>'+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+contact+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
+    return '<section>'+(s.heading?'<h2>'+esc(s.heading)+'</h2>':'')+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+contact+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
   }
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id || (Array.isArray(item.aliases) && item.aliases.includes(id)));

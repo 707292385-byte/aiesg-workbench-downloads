@@ -390,7 +390,7 @@
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
-    return '<div class="co-projects">' + cards + '</div>';
+    return '<div class="co-projects">' + cards + '<article class="co-tool-card co-tool-card--reports"><div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">企业 · 行业 · 年度 <b>筛选</b></div><div class="co-report-preview">ESG / 可持续发展报告 <b>PDF</b></div><div class="co-report-preview">批量任务 <b>暂停 · 继续</b></div></div><div class="co-tool-copy"><div class="co-tool-meta"><small>报告工具</small><span>便携版</span></div><h3>ESG 报告批量下载</h3><p>筛选企业、行业与年度，将所需报告批量保存到电脑。</p><ul><li>自动匹配电脑版本</li><li>解压即用，无需 Python</li><li>暂停、继续与失败重试</li></ul><div class="co-tool-actions"><button type="button" class="co-tool-primary co-glass-action co-glass-action--strong" data-open-report-download>下载便携版</button><a class="co-glass-action" href="' + pageHref('reports.html') + '">在线查询</a></div></div></article></div>';
   }
 
   function initializeHomeMotion() {
