@@ -490,7 +490,7 @@
     const insights = publicInsights(publicData);
     const recentInsights = insights.slice(0, 3);
     root.innerHTML = '<div class="co-home">'
-      + '<header class="co-hero"><button type="button" class="co-join-trigger co-glass-action" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a class="co-glass-action co-glass-action--strong" href="#co-reports">查询报告</a><a class="co-glass-action" href="#co-knowledge">学习知识</a><a class="co-glass-action" href="#co-ai">AI入门与实践</a><a class="co-glass-action" href="#co-projects">项目与工具</a><a class="co-glass-action" href="' + pageHref('profile.html') + '">关于 Xiao〇</a></nav></div></header>'
+      + '<header class="co-hero"><button type="button" class="co-member-trigger co-glass-action" data-open-account hidden>登录 / 注册</button><button type="button" class="co-join-trigger co-glass-action" data-open-community-join aria-haspopup="dialog" aria-controls="co-join-dialog"><span aria-hidden="true">' + svgIcon('person') + '</span>加入交流群</button><div><span class="co-eyebrow">XIAO〇 · ESG COMMUNITY</span><h2>让知识连接可持续未来</h2><p>一起看懂 ESG 方法，交流工作中的真实问题。<br>知识解读、资讯动态与实践工具，在这里连接。</p><nav class="co-hero-nav" aria-label="探索社区"><a class="co-glass-action co-glass-action--strong" href="#co-reports">查询报告</a><a class="co-glass-action" href="#co-knowledge">学习知识</a><a class="co-glass-action" href="#co-ai">AI入门与实践</a><a class="co-glass-action" href="#co-projects">项目与工具</a><a class="co-glass-action" href="' + pageHref('profile.html') + '">关于 Xiao〇</a></nav></div></header>'
       + reportEntry()
       + '<section class="co-section" id="co-knowledge">' + sectionHead('01', 'methods', '学习知识', '方法拆解、资讯动态与研究洞察')
       + '<article class="co-band"><div class="co-band-intro"><div class="co-line-art" aria-hidden="true"><svg viewBox="0 0 144 116" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 26q24-10 48 2v57q-24-12-48-2zM68 28q24-12 48-2v57q-24-10-48 0zM30 40l25 2m-25 10 25 2m26-12 24-2m-24 14 24-2"/><path d="M128 30v35m-8-23h16M14 98h116"/><circle cx="130" cy="84" r="7"/></svg></div><h3>方法与知识</h3><p>把评级方法与披露规则拆成可逐页阅读的知识体系。</p></div><div class="co-band-content"><div class="co-band-head"><a class="co-more co-glass-action co-glass-action--compact" href="' + pageHref('index.html') + '">查看更多</a></div><div class="co-items">'
@@ -814,6 +814,7 @@
       render(data);
       initializeHomeMotion();
       initializeProjectCarousel();
+      void window.CommunityAccount?.mount();
       void initializeReportEntry();
       document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
         document.querySelector('[data-form-loading]')?.classList.add('loaded');

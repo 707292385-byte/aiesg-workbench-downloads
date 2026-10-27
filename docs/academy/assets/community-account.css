@@ -1,0 +1,19 @@
+.co-ocean .co-member-trigger{position:absolute;top:0;right:155px;z-index:2;max-width:210px;overflow:hidden;text-overflow:ellipsis}
+.co-account-dialog{width:min(480px,calc(100vw - 32px));max-height:90vh;padding:0;border:1px solid #d8e6df;border-radius:20px;background:#fbfdfb;color:#203d32;box-shadow:0 22px 80px #102c3540;font-family:inherit}
+.co-account-dialog[open]{display:flex;flex-direction:column}
+.co-account-dialog::backdrop{background:#193b3459;backdrop-filter:blur(5px)}
+.co-account-dialog>header{display:flex;justify-content:space-between;align-items:center;padding:22px 24px 18px;border-bottom:1px solid #dce8df}
+.co-account-dialog h2{font-size:23px;line-height:1.4;margin:5px 0 0}.co-account-dialog h3{font-size:15px;margin:18px 0 12px}.co-account-dialog small{font-size:11px;color:#657c70;line-height:1.6}
+.co-account-dialog button,.co-account-dialog input,.co-account-dialog select{box-sizing:border-box;font:inherit;font-size:13px;border-radius:9px;border:1px solid #cdded2}
+.co-account-dialog button{padding:9px 15px;background:#edf5f0;color:#24513e;cursor:pointer;min-height:38px}.co-account-dialog button:disabled{opacity:.55;cursor:wait}
+.co-account-dialog>header button{font-size:21px;padding:3px;width:34px;min-height:34px;background:transparent}
+.co-account-body{overflow:auto;padding:20px 24px 24px}.co-account-body form{display:grid;gap:12px}.co-account-body label{display:grid;gap:7px;font-size:13px;font-weight:600}
+.co-account-body input,.co-account-body select{width:100%;padding:10px 12px;min-height:40px;color:#213d31;background:#fff}.co-account-body p{font-size:12px;line-height:1.8;color:#60796b;margin:12px 0}
+.co-account-body input:focus-visible,.co-account-body button:focus-visible{outline:2px solid #27845c;outline-offset:2px}
+.co-account-tabs{display:flex;gap:8px;margin-bottom:18px}.co-account-tabs button{flex:1}.co-account-tabs button[aria-pressed=true],.co-account-body .co-account-primary{background:#1b6c4d;color:white;border-color:#1b6c4d}
+.co-account-body [hidden]{display:none!important}.co-account-body [data-account-notice]{min-height:20px;color:#256b4b}.co-account-body [data-account-notice].is-error{color:#ac3d32}.co-account-body .co-account-help{border-top:1px solid #dce8df;padding-top:12px;font-size:11px}
+.co-account-body ul{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0;list-style:none;font-size:12px}.co-account-body li{background:#eaf3ed;padding:10px;border-radius:9px}.co-account-actions{display:flex;gap:8px;margin-top:16px;justify-content:space-between}
+.co-account-user{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid #e0e9e3;padding:10px 0;font-size:12px}.co-account-user button{padding:6px 9px;white-space:nowrap}
+@media(max-width:600px){.co-ocean .co-member-trigger{right:145px;max-width:160px;font-size:11px}.co-account-body{padding:18px}.co-account-dialog>header{padding:18px}.co-account-body ul{grid-template-columns:1fr}}
+
+.co-member-trigger[hidden] { display: none !important; }
