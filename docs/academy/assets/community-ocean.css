@@ -246,7 +246,7 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 @media(max-width:520px){.co-ocean .co-bio-actions .co-glass-action--equal{flex:1 1 120px;width:auto;min-width:120px}.co-ocean .co-ai-all.co-glass-action{width:100%}}
 @media(prefers-reduced-motion:reduce){.co-ocean .co-glass-action{transition:none}.co-ocean .co-glass-action:hover,.co-ocean .co-glass-action:focus-visible{transform:none}}
 
-/* Three visible tools, navigable one card at a time. */
+/* A wide centered tool with adjacent cards visible at the edges. */
 .co-project-carousel{min-width:0;position:relative;padding:0 22px}
 .co-project-controls button{position:absolute;top:50%;z-index:3;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:10px;border:1px solid #ffffffed;border-radius:50%;background:#f8fff9e8;color:#285c47;box-shadow:0 4px 16px #244f3b24;backdrop-filter:blur(10px);cursor:pointer}
 .co-project-controls [data-project-prev]{left:0}
@@ -256,11 +256,11 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-project-controls button:focus-visible{outline:2px solid #285c47;outline-offset:3px}
 .co-project-controls button:disabled{opacity:.35;cursor:default;box-shadow:none}
 .co-project-controls [data-project-position]{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-.co-ocean .co-project-carousel .co-projects{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0;scrollbar-width:thin;padding:2px 0 16px;position:relative;overscroll-behavior-x:contain}
-.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex:0 0 calc((100% - 48px)/3);min-width:0;box-sizing:border-box;scroll-snap-align:start;grid-column:auto;min-height:0}
-.co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:220px;box-sizing:border-box}
-@media(max-width:1100px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:calc((100% - 24px)/2)}}
-@media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:100%}}
+.co-ocean .co-project-carousel .co-projects{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0;scrollbar-width:thin;padding:2px 14% 16px;box-sizing:border-box;position:relative;overscroll-behavior-x:contain}
+.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex:0 0 100%;min-width:0;box-sizing:border-box;scroll-snap-align:center;grid-column:auto;min-height:0}
+.co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:280px;box-sizing:border-box}
+
+@media(max-width:760px){.co-ocean .co-project-carousel .co-projects{padding-inline:8%;gap:16px}.co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:220px}}
 
 .co-ocean .co-ai-section .co-section-head{flex-direction:row;align-items:center;gap:14px}
 .co-ocean .co-ai-section .co-section-head h2{flex-shrink:0}
