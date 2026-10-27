@@ -257,7 +257,7 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-project-controls button:disabled{opacity:.35;cursor:default;box-shadow:none}
 .co-project-controls [data-project-position]{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .co-ocean .co-project-carousel .co-projects{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0;scrollbar-width:thin;padding:2px 14% 16px;box-sizing:border-box;position:relative;overscroll-behavior-x:contain}
-.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex:0 0 100%;min-width:0;box-sizing:border-box;scroll-snap-align:center;grid-column:auto;min-height:0}
+.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex:0 0 calc((138.889% - 48px)/3);min-width:0;box-sizing:border-box;scroll-snap-align:center;grid-column:auto;min-height:0}
 .co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:280px;box-sizing:border-box}
 
 @media(max-width:760px){.co-ocean .co-project-carousel .co-projects{padding-inline:8%;gap:16px}.co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:220px}}
@@ -266,3 +266,6 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-ocean .co-ai-section .co-section-head h2{flex-shrink:0}
 .co-ocean .co-ai-section .co-section-head .co-ai-all{flex-shrink:0;width:auto;margin:0 0 0 auto;white-space:nowrap}
 @media(max-width:760px){.co-ocean .co-ai-section .co-section-head{gap:8px}.co-ocean .co-ai-section .co-section-head h2{font-size:22px}}
+
+.co-ocean .co-project-carousel .co-tool-card.is-current{flex-basis:100%}
+@media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:75%}.co-ocean .co-project-carousel .co-tool-card.is-current{flex-basis:100%}}

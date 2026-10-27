@@ -370,7 +370,7 @@
       : item.key === 'materiality'
         ? '<div class="co-tool-visual co-tool-visual--materiality" aria-hidden="true"><div class="co-materiality-axis"><span>影响重要性</span><small>财务重要性</small><i></i><i></i><i></i><i></i><i></i><i></i></div></div>'
         : '<div class="co-tool-visual co-tool-visual--todo" aria-hidden="true"><div class="co-todo-board"><div class="co-todo-head"><strong>今日待办</strong><span>3 / 5</span></div><div class="co-todo-progress"><i></i></div><div class="co-todo-row is-done"><b>✓</b><span>整理今日任务</span><small>已完成</small></div><div class="co-todo-row"><b></b><span>复核项目进度</span><small>高优先级</small></div><div class="co-todo-row"><b></b><span>安排下一步</span><small>今天</small></div></div></div>';
-    const cards = projectTools.map(item => {
+    const cards = [...projectTools].sort((a,b) => ['materiality','workbench','todo'].indexOf(a.key) - ['materiality','workbench','todo'].indexOf(b.key)).map(item => {
       const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
       const actions = item.help
         ? '<div class="co-tool-actions"><a class="co-tool-primary co-glass-action co-glass-action--strong" href="' + item.help + '" target="_blank" rel="noopener">查看介绍</a><a class="co-glass-action" href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装</a></div>'
@@ -390,7 +390,7 @@
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
-    return '<div class="co-project-carousel"><div class="co-project-controls"><button type="button" data-project-prev aria-label="上一个工具" aria-controls="co-project-track" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><span data-project-position aria-live="polite"></span><button type="button" data-project-next aria-label="下一个工具" aria-controls="co-project-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div><div class="co-projects" id="co-project-track" tabindex="0" role="region" aria-label="项目与工具，可横向滚动">' + cards + '<article class="co-tool-card co-tool-card--reports"><div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">企业 · 行业 · 年度 <b>筛选</b></div><div class="co-report-preview">ESG / 可持续发展报告 <b>PDF</b></div><div class="co-report-preview">批量任务 <b>暂停 · 继续</b></div></div><div class="co-tool-copy"><div class="co-tool-meta"><small>报告工具</small><span>便携版</span></div><h3>ESG 报告批量下载</h3><p>筛选企业、行业与年度，将所需报告批量保存到电脑。</p><ul><li>自动匹配电脑版本</li><li>解压即用，无需 Python</li><li>暂停、继续与失败重试</li></ul><div class="co-tool-actions"><button type="button" class="co-tool-primary co-glass-action co-glass-action--strong" data-open-report-download>下载便携版</button><a class="co-glass-action" href="' + pageHref('reports.html') + '">在线查询</a></div></div></article></div></div>';
+    return '<div class="co-project-carousel"><div class="co-project-controls"><button type="button" data-project-prev aria-label="上一个工具" aria-controls="co-project-track" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><span data-project-position aria-live="polite"></span><button type="button" data-project-next aria-label="下一个工具" aria-controls="co-project-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button></div><div class="co-projects" id="co-project-track" tabindex="0" role="region" aria-label="项目与工具，可横向滚动">' + '<article class="co-tool-card co-tool-card--reports"><div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">企业 · 行业 · 年度 <b>筛选</b></div><div class="co-report-preview">ESG / 可持续发展报告 <b>PDF</b></div><div class="co-report-preview">批量任务 <b>暂停 · 继续</b></div></div><div class="co-tool-copy"><div class="co-tool-meta"><small>报告工具</small><span>便携版</span></div><h3>ESG 报告批量下载</h3><p>筛选企业、行业与年度，将所需报告批量保存到电脑。</p><ul><li>自动匹配电脑版本</li><li>解压即用，无需 Python</li><li>暂停、继续与失败重试</li></ul><div class="co-tool-actions"><button type="button" class="co-tool-primary co-glass-action co-glass-action--strong" data-open-report-download>下载便携版</button><a class="co-glass-action" href="' + pageHref('reports.html') + '">在线查询</a></div></div></article>' + cards + '</div></div>';
   }
 
   function initializeProjectCarousel() {
@@ -400,31 +400,43 @@
     const previous = parent.querySelector('[data-project-prev]');
     const next = parent.querySelector('[data-project-next]');
     const status = parent.querySelector('[data-project-position]');
-    const step = () => {
-      const cards = track.children;
-      return cards.length > 1 ? cards[1].offsetLeft - cards[0].offsetLeft : track.clientWidth;
+    const cards = [...track.children];
+    let active = Math.max(0, cards.findIndex(card => card.classList.contains('co-tool-card--workbench')));
+    let settling = false;
+    let timer;
+    const center = index => cards[index].offsetLeft + cards[index].offsetWidth / 2 - track.clientWidth / 2;
+    const select = (index, smooth = true) => {
+      active = Math.max(0, Math.min(cards.length - 1, index));
+      cards.forEach((card, i) => card.classList.toggle('is-current', i === active));
+      previous.disabled = active === 0;
+      next.disabled = active === cards.length - 1;
+      status.textContent = (active + 1) + ' / ' + cards.length;
+      settling = true;
+      track.scrollTo({left:center(active), behavior:smooth && !window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'smooth' : 'instant'});
+      clearTimeout(timer);
+      timer = setTimeout(() => { settling = false; }, 200);
     };
-    const update = () => {
-      const max = Math.max(0, track.scrollWidth - track.clientWidth);
-      previous.disabled = track.scrollLeft <= 2;
-      next.disabled = track.scrollLeft >= max - 2;
-      const width = step();
-      if (!width) return;
-      const first = Math.round(track.scrollLeft / width) + 1;
-      const visible = Math.max(1, Math.round(track.clientWidth / width));
-      status.textContent = first + '–' + Math.min(track.children.length, first + visible - 1) + ' / ' + track.children.length;
-    };
-    const move = direction => track.scrollBy({left:direction * step(),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
-    previous.addEventListener('click', () => move(-1));
-    next.addEventListener('click', () => move(1));
-    track.addEventListener('scroll', update, {passive:true});
+    previous.addEventListener('click', () => select(active - 1));
+    next.addEventListener('click', () => select(active + 1));
+    track.addEventListener('scroll', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        if (settling) { settling = false; return; }
+        let nearest = active;
+        cards.forEach((card, index) => {
+          if (Math.abs(center(index) - track.scrollLeft) < Math.abs(center(nearest) - track.scrollLeft)) nearest = index;
+        });
+        if (nearest !== active) select(nearest);
+      }, 160);
+    }, {passive:true});
     track.addEventListener('keydown', event => {
       if (event.target !== track || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
-      event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1);
+      event.preventDefault(); select(active + (event.key === 'ArrowLeft' ? -1 : 1));
     });
-    if (window.ResizeObserver) new window.ResizeObserver(update).observe(track);
-    else window.addEventListener('resize', update);
-    update();
+    const resize = () => select(active, false);
+    if (window.ResizeObserver) new window.ResizeObserver(resize).observe(track);
+    else window.addEventListener('resize', resize);
+    select(active, false);
   }
 
   function initializeHomeMotion() {
