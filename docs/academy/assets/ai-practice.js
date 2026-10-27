@@ -43,17 +43,34 @@
     return '<div class="ai-series-pane-head"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><a class="ai-series-open" href="'+href({id:a.id})+'">在单独页面打开 →</a></div>'
       + a.sections.map(block).join('');
   }
+  function seriesNav(list, selected) {
+    return '<nav class="ai-series-nav" aria-label="'+esc(list[0].series)+' 目录"><strong>'+esc(list[0].series)+'</strong>'+list.map(a=>'<button type="button" data-series-tab data-series="'+esc(list[0].series)+'" data-article="'+esc(a.id)+'" aria-current="'+(a.id===selected.id)+'"><span>'+esc(a.mark||'')+'</span>'+esc(a.cardTitle||a.title)+'</button>').join('')+'</nav>';
+  }
   function seriesCard(list, ordinal) {
     const cat = data.categories.find(c=>c.id===list[0].category);
     const seriesName = list[0].series;
+    const tone = String(list[0].tone || list[0].category).replace(/[^a-z0-9-]/gi,'');
+    return '<article class="ai-card ai-card--series ai-card--'+esc(list[0].category)+' ai-card--'+esc(tone)+'">'
+      +'<div class="ai-card-visual"><div class="ai-card-visual-head"><span>'+esc(cat.name)+'</span><small>'+list.length+' 篇</small></div><strong>'+String(ordinal).padStart(2,'0')+'</strong><p>实操系列</p></div>'
+      +'<div class="ai-card-body"><a class="ai-card-main" href="'+href({...listValues(),series:list[0].seriesId})+'"><h2>'+esc(seriesName)+'</h2></a>'
+      +'<ol class="ai-series-toc">'+list.map(a=>'<li><span>'+esc(a.mark||'')+'</span>'+esc(a.cardTitle||a.title)+'</li>').join('')+'</ol>'
+      +'<div class="ai-card-actions"><span class="ai-card-read">打开系列 · 共 '+list.length+' 篇</span></div></div></article>';
+  }
+  function renderSeries(seriesId) {
+    const list = data.articles.filter(a=>a.seriesId===seriesId);
+    if(!list.length) {
+      document.title = '内容未找到｜AI入门与实践';
+      root.innerHTML='<div class="ai-shell">'+top()+'<section class="ai-empty"><h1>这个系列暂时无法找到</h1><p>链接可能已变更，请返回列表继续浏览。</p><a href="'+href(listValues())+'">返回内容列表 →</a></section>'+footer+'</div>';
+      return;
+    }
+    const seriesName = list[0].series;
     if (!seriesState[seriesName] || !list.some(a=>a.id===seriesState[seriesName])) seriesState[seriesName]=list[0].id;
     const selected = list.find(a=>a.id===seriesState[seriesName]);
-    const tone = String(selected.tone || selected.category).replace(/[^a-z0-9-]/gi,'');
-    const nav = '<nav class="ai-series-nav" aria-label="'+esc(seriesName)+' 目录"><strong>'+esc(seriesName)+'</strong>'+list.map(a=>'<button type="button" data-series-tab data-series="'+esc(seriesName)+'" data-article="'+esc(a.id)+'" aria-current="'+(a.id===selected.id)+'"><span>'+esc(a.mark||'')+'</span>'+esc(a.cardTitle||a.title)+'</button>').join('')+'</nav>';
-    const pane = '<div class="ai-series-pane">'+paneBody(selected)+'</div>';
-    return '<article class="ai-card ai-card--series ai-card--'+esc(list[0].category)+' ai-card--'+esc(tone)+'">'
-      +'<div class="ai-card-visual"><div class="ai-card-visual-head"><span>'+esc(cat.name)+'</span><small>'+list.length+' 篇 · 系列内容</small></div><strong>'+String(ordinal).padStart(2,'0')+'</strong><p>'+esc(seriesName)+'</p></div>'
-      +'<div class="ai-series">'+nav+pane+'</div></article>';
+    document.title = seriesName+'｜AI入门与实践';
+    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a>'
+      +'<section class="ai-series-view" aria-label="'+esc(seriesName)+'"><header class="ai-series-view-head"><span class="ai-eyebrow">实操系列</span><h1>'+esc(seriesName)+'</h1><p>共 '+list.length+' 篇</p></header>'
+      +'<div class="ai-series ai-series--page">'+seriesNav(list, selected)+'<div class="ai-series-pane">'+paneBody(selected)+'</div></div></section>'
+      +footer+'</div>';
   }
   function cards() {
     const articles = filtered();
@@ -106,7 +123,8 @@
     document.title=a.title+'｜AI入门与实践';
     const related=data.articles.filter(item=>item.id!==a.id&&item.tags.some(t=>a.tags.includes(t))).slice(0,3);
     const refs=references(a);
-    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article ai-article--'+esc(a.category)+'"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a><span>'+esc(a.series || a.kind)+'</span></div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>':'')+'</article>'+(related.length?'<section class="ai-related ai-related--'+esc(a.category)+'"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
+    const seriesMeta = a.seriesId ? '<a href="'+href({...listValues(),series:a.seriesId})+'">'+esc(a.series)+'</a>' : '<span>'+esc(a.series || a.kind)+'</span>';
+    root.innerHTML='<div class="ai-shell">'+top()+'<a class="ai-back" href="'+href(listValues())+'">← 返回内容列表</a><article class="ai-article ai-article--'+esc(a.category)+'"><header><div class="ai-card-meta"><a href="'+href({category:a.category})+'">'+esc(cat.name)+'</a>'+seriesMeta+'</div><h1>'+esc(a.title)+'</h1><p class="ai-summary">'+esc(a.summary)+'</p></header>'+a.sections.map(block).join('')+(refs.length?'<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>':'')+'</article>'+(related.length?'<section class="ai-related ai-related--'+esc(a.category)+'"><h2>继续阅读</h2>'+related.map(r=>'<a href="'+href({...listValues(),id:r.id})+'">'+esc(r.title)+' →</a>').join('')+'</section>':'')+footer+'</div>';
   }
   root.addEventListener('input', e => {
     if(e.target.id!=='ai-search')return;
@@ -133,9 +151,9 @@
       const article=data.articles.find(x=>x.id===seriesTab.dataset.article);
       if(!article||article.series!==seriesName)return;
       seriesState[seriesName]=article.id;
-      const card=seriesTab.closest('.ai-card--series');
-      card.querySelectorAll('[data-series-tab]').forEach(b=>b.setAttribute('aria-current',String(b===seriesTab)));
-      const pane=card.querySelector('.ai-series-pane');
+      const view=seriesTab.closest('.ai-series');
+      view.querySelectorAll('[data-series-tab]').forEach(b=>b.setAttribute('aria-current',String(b===seriesTab)));
+      const pane=view.querySelector('.ai-series-pane');
       if(pane) pane.innerHTML=paneBody(article);
       return;
     }
@@ -153,6 +171,6 @@
     }
   });
   window.addEventListener('popstate',()=>location.reload());
-  if(params.has('id'))renderDetail(params.get('id'));else renderList();
+  if(params.has('id'))renderDetail(params.get('id'));else if(params.get('series'))renderSeries(params.get('series'));else renderList();
   notify();
 })();

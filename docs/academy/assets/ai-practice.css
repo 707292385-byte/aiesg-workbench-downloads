@@ -188,14 +188,19 @@ button{cursor:pointer}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 
-/* 系列专题卡：同系列文章合并为一张卡，左侧树状导航 + 右侧内容 */
-.ai-card--series{grid-column:1/-1;min-height:0}
-.ai-card--series:hover{transform:none}
-.ai-card--series .ai-card-visual{min-height:0;padding:18px 22px}
-.ai-card--series .ai-card-visual>strong{position:static;display:inline-block;margin:10px 0 0;font-size:40px}
-.ai-card--series .ai-card-visual>p{margin:6px 0 0;max-width:none;font-size:15px;font-weight:650}
-.ai-series{display:grid;grid-template-columns:250px minmax(0,1fr);flex:1;min-height:0}
-.ai-series-nav{position:relative;display:flex;flex-direction:column;gap:4px;padding:18px 14px 20px;border-right:1px solid #e5eee9;background:linear-gradient(180deg,rgba(255,255,255,.65),rgba(240,247,243,.45))}
+/* 系列专题卡：列表页只放入口卡，点进去才显示目录与正文 */
+.ai-card--series .ai-card-visual-head small{letter-spacing:0}
+.ai-series-toc{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:6px}
+.ai-series-toc li{display:flex;align-items:baseline;gap:8px;font-size:12px;line-height:1.6;color:var(--ai-muted)}
+.ai-series-toc li span{flex:none;font-size:10px;font-weight:700;color:var(--card-accent);opacity:.75}
+.ai-card--series .ai-card-actions{margin-top:16px}
+
+.ai-series-view-head{padding:34px 0 18px}
+.ai-series-view-head h1{font-size:clamp(26px,3.4vw,38px);line-height:1.35;letter-spacing:-.03em;margin:10px 0 8px}
+.ai-series-view-head p{margin:0;font-size:13px;color:var(--ai-muted)}
+.ai-series--page{--card-accent:#2b6b5d;--card-surface:#eef7f2;background:rgba(255,255,255,.96);border:1px solid rgba(63,111,97,.18);border-radius:22px;box-shadow:0 18px 48px rgba(18,57,49,.1);overflow:hidden}
+.ai-series{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:0}
+.ai-series-nav{position:relative;display:flex;flex-direction:column;gap:4px;padding:18px 14px 20px;border-right:1px solid #e5eee9;background:linear-gradient(180deg,#fbfdfc,#f1f8f4)}
 .ai-series-nav::before{content:"";position:absolute;left:24px;top:56px;bottom:26px;width:1px;background:linear-gradient(180deg,color-mix(in srgb,var(--card-accent) 32%,transparent),color-mix(in srgb,var(--card-accent) 12%,transparent))}
 .ai-series-nav>strong{position:relative;padding:0 10px 10px;font-size:13px;letter-spacing:.02em;color:var(--card-accent)}
 .ai-series-nav button{position:relative;display:flex;align-items:baseline;gap:9px;width:100%;padding:10px 12px 10px 26px;border:1px solid transparent;border-radius:11px;background:none;text-align:left;font-size:13px;line-height:1.55;color:var(--ai-ink)}
@@ -221,10 +226,10 @@ button{cursor:pointer}
 }
 @media(max-width:700px){
   .ai-series{grid-template-columns:1fr}
-  .ai-series-nav{flex-direction:row;align-items:center;gap:8px;overflow-x:auto;padding:12px 14px;border-right:0;border-bottom:1px solid #e5eee9}
+  .ai-series-nav{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px;padding:12px 14px;border-right:0;border-bottom:1px solid #e5eee9}
   .ai-series-nav::before{display:none}
-  .ai-series-nav>strong{flex:none;padding:0 4px 0 0;white-space:nowrap}
-  .ai-series-nav button{flex:none;width:auto;white-space:nowrap;padding-left:12px}
+  .ai-series-nav>strong{display:none}
+  .ai-series-nav button{flex:0 0 auto;width:auto;white-space:nowrap;padding:7px 11px;font-size:12px}
   .ai-series-nav button::before{display:none}
   .ai-series-pane{padding:18px 16px 20px}
   .ai-series-pane .ai-scenario-grid{grid-template-columns:1fr}
