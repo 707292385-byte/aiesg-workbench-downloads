@@ -4,5 +4,3 @@
 [data-report-download]{font-size:13px;line-height:1.8}[data-report-download] .rd-primary{display:block;margin:20px 0;padding:12px 20px;border-radius:12px;background:#24634b;color:white;text-align:center;text-decoration:none;font-weight:600}[data-report-download] .rd-primary[hidden]{display:none}
 [data-report-download] details{margin:16px 0}[data-report-download] summary{cursor:pointer;color:#356d51}[data-report-download] label{display:block;margin-top:12px}[data-report-download] select{display:block;width:100%;box-sizing:border-box;padding:10px;margin-top:6px;border:1px solid #c8dbcf;border-radius:8px;background:white;color:#28503e;font:inherit}.rd-help{color:#61796b;font-size:12px}
 .co-tool-visual--reports{display:grid;align-content:center;gap:12px;padding:24px;background:linear-gradient(135deg,#daeee6,#eef6f1);color:#2d614b}.co-report-preview{padding:10px 14px;border:1px solid #fff;border-radius:10px;background:#ffffff9c;font-size:12px}.co-report-preview b{float:right;color:#5e8b74}
-
-@media(min-width:761px){.co-ocean .co-projects{grid-template-columns:repeat(2,minmax(0,1fr))}.co-ocean .co-projects .co-tool-card:last-child{grid-column:auto}}

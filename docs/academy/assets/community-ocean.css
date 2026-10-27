@@ -245,3 +245,14 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 .co-ocean .co-hero-nav a.co-glass-action--strong:hover,.co-ocean .co-hero-nav a.co-glass-action--strong:focus-visible{border-color:#163c2d;background:#163c2d;color:#fff}
 @media(max-width:520px){.co-ocean .co-bio-actions .co-glass-action--equal{flex:1 1 120px;width:auto;min-width:120px}.co-ocean .co-ai-all.co-glass-action{width:100%}}
 @media(prefers-reduced-motion:reduce){.co-ocean .co-glass-action{transition:none}.co-ocean .co-glass-action:hover,.co-ocean .co-glass-action:focus-visible{transform:none}}
+
+/* Three visible tools, navigable one card at a time. */
+.co-project-carousel{min-width:0}
+.co-project-controls{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin:-8px 0 18px;font-size:12px;color:#537463}
+.co-project-controls button{padding:8px 14px;border:1px solid #fff;border-radius:10px;background:#ffffffa6;color:#285c47;box-shadow:0 3px 12px #244f3b0d;backdrop-filter:blur(10px);font:inherit;cursor:pointer}
+.co-project-controls button:disabled{opacity:.4;cursor:default}
+.co-ocean .co-project-carousel .co-projects{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0;scrollbar-width:thin;padding:2px 0 16px;position:relative;overscroll-behavior-x:contain}
+.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex:0 0 calc((100% - 48px)/3);min-width:0;box-sizing:border-box;scroll-snap-align:start;grid-column:auto;min-height:0}
+.co-ocean .co-project-carousel .co-tool-visual,.co-ocean .co-project-carousel .co-tool-card:last-child .co-tool-visual{height:220px;box-sizing:border-box}
+@media(max-width:1100px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:calc((100% - 24px)/2)}}
+@media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:100%}.co-project-controls{margin-top:0}}

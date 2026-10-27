@@ -390,7 +390,41 @@
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
-    return '<div class="co-projects">' + cards + '<article class="co-tool-card co-tool-card--reports"><div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">企业 · 行业 · 年度 <b>筛选</b></div><div class="co-report-preview">ESG / 可持续发展报告 <b>PDF</b></div><div class="co-report-preview">批量任务 <b>暂停 · 继续</b></div></div><div class="co-tool-copy"><div class="co-tool-meta"><small>报告工具</small><span>便携版</span></div><h3>ESG 报告批量下载</h3><p>筛选企业、行业与年度，将所需报告批量保存到电脑。</p><ul><li>自动匹配电脑版本</li><li>解压即用，无需 Python</li><li>暂停、继续与失败重试</li></ul><div class="co-tool-actions"><button type="button" class="co-tool-primary co-glass-action co-glass-action--strong" data-open-report-download>下载便携版</button><a class="co-glass-action" href="' + pageHref('reports.html') + '">在线查询</a></div></div></article></div>';
+    return '<div class="co-project-carousel"><div class="co-project-controls"><button type="button" data-project-prev aria-label="上一个工具" aria-controls="co-project-track" disabled>上一项</button><span data-project-position aria-live="polite"></span><button type="button" data-project-next aria-label="下一个工具" aria-controls="co-project-track">下一项</button></div><div class="co-projects" id="co-project-track" tabindex="0" role="region" aria-label="项目与工具，可横向滚动">' + cards + '<article class="co-tool-card co-tool-card--reports"><div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">企业 · 行业 · 年度 <b>筛选</b></div><div class="co-report-preview">ESG / 可持续发展报告 <b>PDF</b></div><div class="co-report-preview">批量任务 <b>暂停 · 继续</b></div></div><div class="co-tool-copy"><div class="co-tool-meta"><small>报告工具</small><span>便携版</span></div><h3>ESG 报告批量下载</h3><p>筛选企业、行业与年度，将所需报告批量保存到电脑。</p><ul><li>自动匹配电脑版本</li><li>解压即用，无需 Python</li><li>暂停、继续与失败重试</li></ul><div class="co-tool-actions"><button type="button" class="co-tool-primary co-glass-action co-glass-action--strong" data-open-report-download>下载便携版</button><a class="co-glass-action" href="' + pageHref('reports.html') + '">在线查询</a></div></div></article></div></div>';
+  }
+
+  function initializeProjectCarousel() {
+    const track = document.getElementById('co-project-track');
+    if (!track) return;
+    const parent = track.parentElement;
+    const previous = parent.querySelector('[data-project-prev]');
+    const next = parent.querySelector('[data-project-next]');
+    const status = parent.querySelector('[data-project-position]');
+    const step = () => {
+      const cards = track.children;
+      return cards.length > 1 ? cards[1].offsetLeft - cards[0].offsetLeft : track.clientWidth;
+    };
+    const update = () => {
+      const max = Math.max(0, track.scrollWidth - track.clientWidth);
+      previous.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft >= max - 2;
+      const width = step();
+      if (!width) return;
+      const first = Math.round(track.scrollLeft / width) + 1;
+      const visible = Math.max(1, Math.round(track.clientWidth / width));
+      status.textContent = first + '–' + Math.min(track.children.length, first + visible - 1) + ' / ' + track.children.length;
+    };
+    const move = direction => track.scrollBy({left:direction * step(),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+    previous.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    track.addEventListener('scroll', update, {passive:true});
+    track.addEventListener('keydown', event => {
+      if (event.target !== track || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
+      event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1);
+    });
+    if (window.ResizeObserver) new window.ResizeObserver(update).observe(track);
+    else window.addEventListener('resize', update);
+    update();
   }
 
   function initializeHomeMotion() {
@@ -767,6 +801,7 @@
     if (isCommunityHome) {
       render(data);
       initializeHomeMotion();
+      initializeProjectCarousel();
       void initializeReportEntry();
       document.querySelector('[data-community-form-frame]')?.addEventListener('load', () => {
         document.querySelector('[data-form-loading]')?.classList.add('loaded');
