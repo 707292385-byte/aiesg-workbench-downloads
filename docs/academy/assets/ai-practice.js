@@ -111,7 +111,10 @@
     const actions=s.actions?'<div class="ai-section-actions">'+s.actions.map(action=>'<a href="'+esc(action.url)+'" target="_blank" rel="noopener noreferrer">'+esc(action.label)+'</a>').join('')+'</div>':'';
     const contact=s.contactQr?'<div class="ai-contact-qr"><button type="button" data-contact-qr aria-expanded="false">'+esc(s.contactQr.label)+'</button><div class="ai-contact-popover" role="tooltip"><div class="ai-contact-qr-frame"><img src="'+esc(s.contactQr.image)+'" alt="'+esc(s.contactQr.alt)+'"></div><strong>'+esc(s.contactQr.caption)+'</strong><small>咨询注册、套餐选择与会员开通</small></div></div>':'';
     const figure=s.image?'<figure class="ai-knowledge-code"><img src="'+esc(s.image.src)+'" alt="'+esc(s.image.alt)+'"><figcaption>'+esc(s.image.caption)+'</figcaption></figure>':'';
-    return '<section>'+(s.heading?'<h2>'+esc(s.heading)+'</h2>':'')+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+contact+figure+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
+    const tree=s.tree?'<div class="ai-tree">'+'<p class="ai-tree-root"><code>'+esc(s.tree.root)+'</code><span>'+esc(s.tree.caption||'')+'</span></p>'
+      +'<ol class="ai-tree-list">'+s.tree.nodes.map(node=>'<li><div class="ai-tree-head"><span class="ai-tree-kind'+(node.kind==='dir'?' is-dir':'')+'">'+(node.kind==='dir'?'文件夹':'文件')+'</span><code>'+esc(node.name)+'</code>'+(node.must?'<em>必备</em>':'')+'</div><div class="ai-tree-meta"><p><span>内容</span>'+esc(node.content)+'</p><p><span>作用</span>'+esc(node.role)+'</p></div></li>').join('')+'</ol>'
+      +(s.tree.note?'<p class="ai-tree-note">'+esc(s.tree.note)+'</p>':'')+'</div>':'';
+    return '<section>'+(s.heading?'<h2>'+esc(s.heading)+'</h2>':'')+(s.text?'<p>'+esc(s.text)+'</p>':'')+cards+(s.steps?'<ol>'+s.steps.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ol>':'')+actions+contact+figure+tree+(s.prompt?'<div class="ai-prompt"><pre>'+esc(s.prompt)+'</pre><button type="button" data-copy>复制提示词</button><span role="status" aria-live="polite"></span></div>':'')+'</section>';
   }
   function renderDetail(id) {
     const a = data.articles.find(item=>item.id===id || (Array.isArray(item.aliases) && item.aliases.includes(id)));

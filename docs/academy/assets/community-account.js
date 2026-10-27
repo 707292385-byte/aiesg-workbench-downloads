@@ -2,12 +2,15 @@
   'use strict';
   // Enable only after the account service has passed live verification.
   if(document.documentElement.dataset.communityAccounts !== 'on') return;
-  const endpoint = 'https://aiesg-community-accounts.aiesg-beta-feedback-worker.workers.dev/v1/members/';
-  const storageKey = 'xiaoo-community-session-v1';
+  const serviceOrigin = document.documentElement.dataset.communityAccountOrigin || '';
+  let endpoint = '';
+  try { const url=new URL(serviceOrigin); if(url.protocol==='https:' && url.origin===serviceOrigin) endpoint=url.origin+'/v1/members/'; } catch {}
+  const storageKey = 'xiaoo-community-session-cloudbase-v1';
   let token = '', current = null, dialog, mode = 'login', busy = false;
   try { token = sessionStorage.getItem(storageKey) || ''; } catch {}
   function saveToken(value) {token=value||'';try{token?sessionStorage.setItem(storageKey,token):sessionStorage.removeItem(storageKey);}catch{}}
   async function api(path, body) {
+    if(!endpoint) throw new Error('社区账号服务尚未开通，请稍后再试');
     const controller = new AbortController(), timer = setTimeout(() => controller.abort(),15000);
     try {
       const headers={'content-type':'application/json'};
