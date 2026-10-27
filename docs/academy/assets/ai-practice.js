@@ -40,8 +40,9 @@
   }
   function paneBody(a) {
     const refs=references(a);
-    return '<div class="ai-series-pane-head"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><a class="ai-series-open" href="'+href({id:a.id})+'">在单独页面打开 →</a></div>'
-      + a.sections.map(block).join('');
+    const source = refs.length ? '<section class="ai-source"><h2>参考与官方入口</h2><div class="ai-source-actions">'+refs.map((ref,index)=>'<a class="'+(index===0?'is-primary':'')+'" href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>').join('')+'</div></section>' : '';
+    return '<div class="ai-series-pane-head"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p></div>'
+      + a.sections.map(block).join('') + source;
   }
   function seriesNav(list, selected) {
     return '<nav class="ai-series-nav" aria-label="'+esc(list[0].series)+' 目录"><strong>'+esc(list[0].series)+'</strong>'+list.map(a=>'<button type="button" data-series-tab data-series="'+esc(list[0].series)+'" data-article="'+esc(a.id)+'" aria-current="'+(a.id===selected.id)+'"><span>'+esc(a.mark||'')+'</span>'+esc(a.cardTitle||a.title)+'</button>').join('')+'</nav>';

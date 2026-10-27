@@ -211,9 +211,7 @@ button{cursor:pointer}
 .ai-series-nav button[aria-current="true"]::before{background:var(--card-accent);border-color:var(--card-accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--card-accent) 14%,transparent)}
 .ai-series-pane{min-width:0;padding:20px 22px 24px;overflow-wrap:anywhere}
 .ai-series-pane-head h3{margin:0;font-size:19px;line-height:1.5;letter-spacing:-.01em}
-.ai-series-pane-head p{margin:8px 0 6px;font-size:13px;color:var(--ai-muted)}
-.ai-series-open{font-size:12px;font-weight:650;color:var(--card-accent)}
-.ai-series-open:hover{text-decoration:underline}
+.ai-series-pane-head p{margin:8px 0 0;font-size:13px;color:var(--ai-muted)}
 .ai-series-pane section{margin-top:24px}
 .ai-series-pane h2{margin:0 0 8px;font-size:17px}
 .ai-series-pane p{margin:0 0 10px;font-size:14px}
