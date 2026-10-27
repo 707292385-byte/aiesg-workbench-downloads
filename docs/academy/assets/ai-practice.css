@@ -117,6 +117,7 @@ button{cursor:pointer}
 .ai-article li{padding:5px 0}
 .ai-article ol{padding-left:24px}
 .ai-scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.ai-scenario-grid:has(>article:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}
 .ai-scenario-grid article{padding:18px 19px;border:1px solid #d7e5de;border-radius:14px;background:linear-gradient(145deg,#fff,#f0f7f3)}
 .ai-scenario-grid p{margin:7px 0 0;color:var(--ai-muted);font-size:13px;line-height:1.75}
 .ai-section-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
@@ -175,6 +176,7 @@ button{cursor:pointer}
   .ai-article p,.ai-article li{font-size:14px}
   .ai-article h2{font-size:19px}
   .ai-scenario-grid{grid-template-columns:1fr}
+  .ai-scenario-grid:has(>article:nth-child(3):last-child){grid-template-columns:1fr}
   .ai-knowledge-code{grid-template-columns:1fr;max-width:220px;margin-right:auto;padding:12px;text-align:center}
   .ai-knowledge-code img{width:160px;margin:auto}
   .ai-contact-popover{position:fixed;left:50%;bottom:24px;width:214px;transform:translate(-50%,7px)}
