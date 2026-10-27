@@ -269,3 +269,15 @@ body.co-ocean::after{content:"";position:fixed;inset:0;z-index:-1;background:lin
 
 .co-ocean .co-project-carousel .co-tool-card.is-current{flex-basis:100%}
 @media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card,.co-ocean .co-project-carousel .co-tool-card:last-child{flex-basis:75%}.co-ocean .co-project-carousel .co-tool-card.is-current{flex-basis:100%}}
+
+/* Keep neighboring previews narrow and shorter, vertically centered around the active tool. */
+.co-ocean .co-project-carousel .co-projects{align-items:center}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current){flex:0 0 42%;align-self:center;min-height:0}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-visual{height:160px;min-height:0;flex-shrink:0}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-copy{padding:18px 20px 22px}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-copy h3{font-size:20px;margin:10px 0}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-copy p,.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-copy li{font-size:12px;line-height:1.65}
+.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-copy ul{margin:12px 0;padding-bottom:0}
+.co-ocean .co-project-carousel .co-tool-card.is-current{flex:0 0 100%;min-height:560px;box-shadow:0 18px 40px #193c281c}
+.co-ocean .co-project-carousel .co-tool-card.is-current .co-tool-visual{height:260px;flex-shrink:0}
+@media(max-width:760px){.co-ocean .co-project-carousel .co-tool-card:not(.is-current){flex-basis:64%}.co-ocean .co-project-carousel .co-tool-card.is-current{min-height:520px}.co-ocean .co-project-carousel .co-tool-card.is-current .co-tool-visual{height:220px}.co-ocean .co-project-carousel .co-tool-card:not(.is-current) .co-tool-visual{height:130px}}
