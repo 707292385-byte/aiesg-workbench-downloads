@@ -110,6 +110,15 @@
       features: ['一句话录入自动解析时间', '桌面组件看板', '手机标签页', '一人一实例数据隔离'],
       repo: 'https://github.com/707292385-byte/personal-todo-app',
       guide: 'https://github.com/707292385-byte/personal-todo-app#readme-ov-file'
+    },
+    {
+      key: 'research',
+      title: '公司 ESG 调研 Skill',
+      label: 'SKILL 04',
+      status: 'Skill 可安装',
+      description: '对智能体说「帮我整理某公司的 ESG 资料」，自动采集报告披露、各家机构评级与同业对比、治理制度、新闻奖项和负面舆情，生成逐条可溯源的调研报告。',
+      features: ['正文上标溯源，点击回到原文', '多机构评级与同业排名对照', '近三年 ESG 报告 PDF 一并下载'],
+      skill: 'https://github.com/707292385-byte/esg-company-research'
     }
   ];
 
@@ -369,8 +378,10 @@
       ? '<div class="co-tool-visual co-tool-visual--workbench" aria-hidden="true"><div class="co-mini-appbar"><i></i><i></i><i></i><strong>AI×ESG</strong></div><div class="co-mini-workspace"><aside><b></b><i></i><i></i><i></i></aside><main><span>今日工作</span><div><b></b><b></b><b></b></div><p><i></i><i></i><i></i></p></main></div></div>'
       : item.key === 'materiality'
         ? '<div class="co-tool-visual co-tool-visual--materiality" aria-hidden="true"><div class="co-materiality-axis"><span>影响重要性</span><small>财务重要性</small><i></i><i></i><i></i><i></i><i></i><i></i></div></div>'
+        : item.key === 'research'
+          ? '<div class="co-tool-visual co-tool-visual--reports" aria-hidden="true"><div class="co-report-preview">多机构评级 <b>对照</b></div><div class="co-report-preview">近三年报告 <b>PDF</b></div><div class="co-report-preview">上标编号 <b>溯源</b></div></div>'
         : '<div class="co-tool-visual co-tool-visual--todo" aria-hidden="true"><div class="co-todo-board"><div class="co-todo-head"><strong>今日待办</strong><span>3 / 5</span></div><div class="co-todo-progress"><i></i></div><div class="co-todo-row is-done"><b>✓</b><span>整理今日任务</span><small>已完成</small></div><div class="co-todo-row"><b></b><span>复核项目进度</span><small>高优先级</small></div><div class="co-todo-row"><b></b><span>安排下一步</span><small>今天</small></div></div></div>';
-    const cards = [...projectTools].sort((a,b) => ['materiality','workbench','todo'].indexOf(a.key) - ['materiality','workbench','todo'].indexOf(b.key)).map(item => {
+    const cards = [...projectTools].sort((a,b) => ['materiality','workbench','todo','research'].indexOf(a.key) - ['materiality','workbench','todo','research'].indexOf(b.key)).map(item => {
       const tags = item.features.map(feature => '<li>' + escapeHtml(feature) + '</li>').join('');
       const actions = item.help
         ? '<div class="co-tool-actions"><a class="co-tool-primary co-glass-action co-glass-action--strong" href="' + item.help + '" target="_blank" rel="noopener">查看介绍</a><a class="co-glass-action" href="' + item.download + '" target="_blank" rel="noopener noreferrer">下载安装</a></div>'
@@ -386,7 +397,9 @@
                 ? '<a class="co-glass-action" href="' + escapeHtml(item.guide) + '" target="_blank" rel="noopener noreferrer">部署指南</a>'
                 : '')
               + '</div>'
-            : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
+            : item.skill
+              ? '<div class="co-tool-actions"><a class="co-tool-primary co-glass-action co-glass-action--strong" href="' + escapeHtml(item.skill) + '" target="_blank" rel="noopener noreferrer">安装 Skill</a></div>'
+              : '<small class="co-tool-note">' + escapeHtml(item.note || '完善到可体验状态后开放入口') + '</small>';
       return '<article class="co-tool-card co-tool-card--' + item.key + '">' + visual(item)
         + '<div class="co-tool-copy"><div class="co-tool-meta"><small>' + escapeHtml(item.label) + '</small><span>' + escapeHtml(item.status) + '</span></div><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.description) + '</p><ul>' + tags + '</ul>' + actions + '</div></article>';
     }).join('');
@@ -506,7 +519,7 @@
       + '<div class="co-ai-portals">' + [
         {id:'tools', no:'01', label:'DISCOVER', title:'工具介绍', description:'找到适合自己的AI工具，让每一次尝试都有方向。', tag:'Codex · WorkBuddy · IMA', action:'认识工具'},
         {id:'basics', no:'02', label:'UNDERSTAND', title:'基础知识', description:'把陌生概念变成熟悉的常识，轻松迈出第一步。', tag:'提示词 · 上下文 · 工具连接', action:'开始学习'},
-        {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'从一次真实调研出发：飞书建日程、出问卷、收答卷，最后出一份数据看板。', tag:'飞书问卷 · 数据看板 · IMA知识库', action:'探索实践'}
+        {id:'practice', no:'03', label:'PUT INTO PRACTICE', title:'实操经验', description:'从一次真实调研出发：飞书建日程、出问卷、收答卷、出看板，一句话拿到一份逐条溯源的 ESG 调研报告。', tag:'ESG调研 · 飞书问卷 · IMA知识库', action:'探索实践'}
       ].map(item => '<a class="co-ai-portal ai-entry ai-entry--' + item.id + '" href="' + pageHref('ai.html', {category:item.id}) + '"><div class="ai-entry-top"><span>' + item.no + ' / ' + item.label + '</span><span class="ai-entry-dot" aria-hidden="true"></span></div><div class="ai-entry-art" aria-hidden="true"><img src="assets/ai/' + item.id + '.svg" alt="" width="420" height="190"></div><div class="ai-entry-copy"><h3>' + item.title + '</h3><p>' + item.description + '</p><small>' + item.tag + '</small></div><div class="ai-entry-foot"><span>' + item.action + '</span><span class="ai-entry-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></div></a>').join('')
       + '</div></section>'
       + '<section class="co-section" id="co-projects">' + sectionHead('03', 'ai', '项目与工具', '从真实工作问题出发，逐步做成可直接使用的工具') + renderProjects() + '</section>'
