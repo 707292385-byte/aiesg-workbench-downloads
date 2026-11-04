@@ -110,19 +110,6 @@
           ],
           "numbered": true,
           "cols": 2
-        },
-        {
-          "type": "card_grid",
-          "cards": [
-            {
-              "content": "目标原文（a）–（c）概括如下：",
-              "title": "目标原文（a）–（c）概括如下",
-              "quote": {
-                "text": "In conducting a sustainability assurance engagement, the objectives of the practitioner are: (a) To obtain reasonable assurance or limited assurance, as applicable, about whether the sustainability information is free from material misstatement; (b) To express a conclusion on the sustainability information through a written report that conveys a reasonable assurance or a limited assurance conclusion, as applicable, and describes the basis for the conclusion; and (c) To communicate further as required by this ISSA and any other relevant ISSA.",
-                "source": "ISSA 5000, Objectives, para. 16"
-              }
-            }
-          ]
         }
       ]
     },
