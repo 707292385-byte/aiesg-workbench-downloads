@@ -1,0 +1,124 @@
+{
+  "id": "carbonpricing-linkage",
+  "title": "衔接与边界：碳定价在披露体系中的位置",
+  "eyebrow": "衔接 · 边界 · 使用注意",
+  "summary": "碳定价知识横跨政策与披露两端：对内连接 TCFD 建议与内部碳价设计，对外连接 ETS/碳税法规与 CBAM。本页说明它与 CDP、TCFD、SBTi 等体系的关系，以及使用这些材料时的约束力边界。",
+  "tags": [
+    "衔接",
+    "边界",
+    "TCFD"
+  ],
+  "group": "衔接与边界",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "links",
+      "title": "与其他体系怎么衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "碳定价不是孤立的机制：CDP 问卷用 C3.5/C5.10 两问采集数据；TCFD 建议把内部碳价作为气候风险管理的推荐工具；SBTi 减排目标的落地也常借助内部碳价做投资排序；CBAM 则把 EU ETS 碳价延伸到贸易端。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "关联体系",
+              "衔接点",
+              "入口"
+            ],
+            [
+              "CDP 披露与评分",
+              "C3.5 系列报外部监管敞口，C5.10 系列报内部碳价",
+              "carbonpricing-disclosure / carbonpricing-internal"
+            ],
+            [
+              "TCFD 建议",
+              "内部碳价是识别与管理转型风险的多维度工具",
+              "carbonpricing-practice"
+            ],
+            [
+              "SBTi 科学碳目标",
+              "内部碳价用于对齐 1.5°C 情景、排序减排投资",
+              "carbonpricing-internal"
+            ],
+            [
+              "CBAM（欧盟法规）",
+              "2026 年起对输欧商品施加 EU ETS 对齐碳价；CDP 问卷尚未要求披露",
+              "carbonpricing-disclosure"
+            ],
+            [
+              "世界银行数据",
+              "State and Trends of Carbon Pricing 与 Carbon Pricing Dashboard 是法规清单与全球数据的权威来源",
+              "carbonpricing-basics"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "title": "约束力与使用边界",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "碳定价法规（ETS、碳税、CBAM）本身具有法律强制力，不遵守面临处罚；而 CDP 披露是自愿性机制——CDP 只要求受强制碳定价监管的企业在 3.5 节报告，披露本身不产生认证或评级担保。本体系是对官方技术说明的学习整理，不是 CDP 官方产品，正式填报以 CDP 当期问卷与技术说明为准。",
+          "quote": {
+            "text": "CDP requests companies subject to mandatory carbon pricing regulations to report on these in section 3.5.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1. Carbon pricing systems"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "强制 vs 自愿",
+              "content": "ETS/碳税合规是法定义务；向 CDP 披露碳定价信息属自愿披露，但可能受投资者与采购方的合同性要求驱动。"
+            },
+            {
+              "title": "时效性",
+              "content": "全球版图数据来自世界银行 2025 年出版物，CDP 问卷每年更新；数字（如 55 个国家级辖区、14.7 GtCO2e）随年度报告变化，引用时注明版本。"
+            },
+            {
+              "title": "本页性质",
+              "content": "学习索引，非官方文件；中文为通译参考，引用原文以英文为准。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-basics",
+        "title": "碳定价是什么",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      },
+      {
+        "title": "CDP 是什么（CDP 体系）",
+        "url": "topic.html?standard=cdp&id=cdp-basics"
+      },
+      {
+        "title": "TCFD 建议",
+        "url": "topic.html?standard=tcfd&id=tcfd-basics"
+      }
+    ]
+  }
+}

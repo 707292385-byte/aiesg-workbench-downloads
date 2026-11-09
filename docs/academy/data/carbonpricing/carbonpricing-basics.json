@@ -1,0 +1,169 @@
+{
+  "id": "carbonpricing-basics",
+  "title": "碳定价是什么",
+  "eyebrow": "碳定价基础 · 两种形式 · 全球版图",
+  "summary": "碳定价是对温室气体排放赋予货币价值的政策工具，主要有排放交易体系（ETS）与碳税两种形式。截至 2026 年，全球已有 55 个国家级辖区和 44 个次国家级辖区实施碳定价政策；欧盟 CBAM 自 2026 年起把碳价影响延伸到欧盟以外的企业。",
+  "tags": [
+    "碳定价",
+    "ETS",
+    "碳税"
+  ],
+  "group": "定位与基础",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "what",
+      "title": "它是什么：给排放定价",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "环境外部性定价是投资者评估企业的重点考量：在企业财务测算中对碳排放（或水资源使用）赋予货币价值，超越水电账单等直接成本，把内部与外部成本收益都算进去，引导战略决策与投资走向节约和效率。碳定价是其中最成熟的形式，也呼应 TCFD 的披露建议。",
+          "quote": {
+            "text": "This echoes recommendations published by the Financial Stability Board’s Task Force on Climate-related Financial Disclosures (TCFD). Carbon pricing is the most mature version of pricing of environmental externalities.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "对盈利的潜在影响",
+              "content": "有模型估算，若碳价升至 100 美元/吨，近半数全球上市公司盈利将变动超过 20%。",
+              "quote": {
+                "text": "almost half of listed global companies would face a rise or fall of more than 20% in earnings if carbon prices rose to $100 a tonne.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+              }
+            },
+            {
+              "title": "投资者关注的原因",
+              "content": "气候相关风险的重大后果多在未来显现且量级不确定；给碳排放定价帮助企业监测并调整战略与财务规划，投资者也要求更一致的披露。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-forms",
+      "title": "两种基本形式：ETS 与碳税",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "碳定价政策主要表现为两种形式，部分国家和地区两者并用：排放交易体系（ETS，也称总量控制与交易）是市场化的配额体系，参与者按排放水平买卖配额；碳税则对碳排放直接征费。"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "形式",
+              "机制",
+              "价格如何形成"
+            ],
+            [
+              "排放交易体系（ETS / 总量控制与交易）",
+              "设定排放总量并发放配额，低排放方出售富余配额，高排放方购买补足",
+              "由配额供需决定（市场化）"
+            ],
+            [
+              "碳税",
+              "对碳排放征费",
+              "由税率决定（行政确定）"
+            ]
+          ]
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "cards": [
+            {
+              "content": "排放交易体系的官方定义：以市场为基础的配额体系，参与者可按自身排放水平买卖一定数量的配额。",
+              "quote": {
+                "text": "An emissions trading scheme, also known as a ‘cap and trade’ system, is a market-based allowance system in which participants can buy and sell a set amount of allowances based on their emissions levels.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.1 Question 3.5"
+              }
+            },
+            {
+              "content": "碳税的官方定义：对碳排放征费。",
+              "quote": {
+                "text": "A carbon tax attaches a fee to carbon emissions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.1 Question 3.5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "全球版图与权威数据源",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "截至 2026 年，碳定价政策已存在于 55 个国家级辖区和 44 个次国家级辖区，覆盖 14.7 GtCO2e，约占全球温室气体排放的 28%（世界银行，2025）。",
+          "quote": {
+            "text": "As of 2026, carbon pricing policies exist in 55 national jurisdictions and 44 subnational jurisdictions. These initiatives cover 14.7 GtCO2e, representing 28% of global GHG emissions (World Bank, 2025).",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.1 Question 3.5"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "权威追踪源",
+              "content": "世界银行是全球碳定价机制的主要研究者和追踪者，其 Carbon Pricing Dashboard 提供现有与新兴碳定价法规的详细数据。",
+              "quote": {
+                "text": "As the leading researcher/tracker of global carbon pricing mechanisms, please see the World Bank’s Carbon Pricing Dashboard for more detailed information about existing and emerging carbon pricing regulations.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.1 Question 3.5"
+              }
+            },
+            {
+              "title": "企业披露入口",
+              "content": "CDP 问卷自 2013 年起设置碳定价专项问题，要求企业披露受碳价监管的敞口与风险管理策略；2025 年有超过 5900 家企业披露正在使用或计划两年内使用内部碳价。",
+              "quote": {
+                "text": "Since 2013, CDP’s Corporate Questionnaire has included questions dedicated to carbon pricing – requesting companies to disclose their exposure to regulations that put a price on carbon and the company’s risk management strategy against such regulations.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-ets",
+        "title": "ETS 与碳税：机制与制度示例",
+        "standard": "carbonpricing"
+      },
+      {
+        "id": "carbonpricing-disclosure",
+        "title": "企业怎么披露碳定价",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      },
+      {
+        "title": "CDP 是什么（CDP 体系）",
+        "url": "topic.html?standard=cdp&id=cdp-basics"
+      }
+    ]
+  }
+}

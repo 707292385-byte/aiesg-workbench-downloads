@@ -1,0 +1,196 @@
+{
+  "id": "carbonpricing-disclosure",
+  "title": "企业怎么披露碳定价",
+  "eyebrow": "CDP 问卷 · C3.5 与 C5.10 · CBAM 边界",
+  "summary": "CDP 问卷从两个方向采集碳定价数据：C3.5 系列披露企业受外部碳定价监管的情况与合规策略，C5.10 系列披露企业主动设定的内部碳价。欧盟 CBAM 自 2026 年起带来新的碳成本，但问卷尚未要求披露其影响。",
+  "tags": [
+    "C3.5",
+    "C5.10",
+    "CBAM"
+  ],
+  "group": "披露路径",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "framework",
+      "title": "两条披露线：被动监管与主动定价",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "CDP 问卷自 2013 年起设置碳定价专项问题，要求企业披露受碳价监管的敞口与风险管理策略；对基于其他理由使用内部碳价的企业，也留有披露空间。受强制碳定价监管的企业需在 3.5 节报告。",
+          "quote": {
+            "text": "Since 2013, CDP’s Corporate Questionnaire has included questions dedicated to carbon pricing – requesting companies to disclose their exposure to regulations that put a price on carbon and the company’s risk management strategy against such regulations.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "问题",
+              "披露内容",
+              "要点"
+            ],
+            [
+              "C3.5",
+              "运营或活动是否受碳定价体系监管（ETS、总量控制与交易或碳税）",
+              "同时覆盖当前监管与预期监管；选 Yes 后识别所适用的体系并补充敞口细节"
+            ],
+            [
+              "C3.5.1",
+              "选择适用的碳定价法规（ETS 和/或碳税）",
+              "清单来自世界银行 State and Trends of Carbon Pricing 及 Carbon Pricing Dashboard；不限于注册地，覆盖全球运营；找不到可用 Other 选项注明名称与所在地"
+            ],
+            [
+              "C3.5.2",
+              "各 ETS 的合规细节",
+              "Scope 1/2 排放覆盖比例、配额分配与购买量、设施所有权状态等；数据期间须与报告年重叠；所有者与运营者均适用，非全资设施也报排放与配额总数"
+            ],
+            [
+              "C3.5.3",
+              "各碳税的合规细节",
+              "排放覆盖比例、已付总成本等；税负承担方因制度而异"
+            ],
+            [
+              "C3.5.4",
+              "合规策略",
+              "减排策略、能效改造、购买配额和/或碳信用；说明长期合规与监管风险管理机制，使用内部碳价的在 C5.10.1 细化"
+            ],
+            [
+              "C5.10",
+              "是否对环境外部性使用内部价格",
+              "2024 年起扩展到任何环境外部性的内部定价（内部水价另见专门技术说明）"
+            ],
+            [
+              "C5.10.1",
+              "内部碳价细节",
+              "目标、机制类型、定价考虑因素、价格差异、范围覆盖、业务应用与监测评估"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external-points",
+      "title": "C3.5 系列的关键细节",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "C3.5 系列的考察点从判断监管状态开始，逐层落到具体体系与合规细节；投资者借此一致地跟踪企业当前与预期的碳价监管敞口并开始量化相关成本。CDP 也希望借此促使尚未受监管的企业思考未来敞口。",
+          "quote": {
+            "text": "This section has evolved to include whether companies are currently regulated by a carbon pricing system – including carbon markets or taxation – or whether they expect to be regulated in the future.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1. Carbon pricing systems"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "ETS 细节范围",
+              "content": "按前问所选的每个 ETS 报告合规细节：Scope 1/2 覆盖比例、配额分配与购买、设施所有权等。",
+              "quote": {
+                "text": "Companies are prompted to include details of their compliance in each emissions trading system selected in the previous question, such as the percentage of Scope 1 and Scope 2 emissions covered, allowances allocated and/or purchased, facilities ownership status, etc.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.3 Question 3.5.2"
+              }
+            },
+            {
+              "title": "数据期间",
+              "content": "填报数据的期间须与报告年重叠。",
+              "quote": {
+                "text": "Note that the period for which data is supplied should overlap with the reporting year.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.3 Question 3.5.2"
+              }
+            },
+            {
+              "title": "非全资设施",
+              "content": "即使企业并非全资拥有相关设施，也应给出排放与配额总数。",
+              "quote": {
+                "text": "Even if your company does not wholly own facilities, please give the total number of emissions and allowance.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.3 Question 3.5.2"
+              }
+            },
+            {
+              "title": "碳税细节与承担方",
+              "content": "按所选的每个碳税报告排放覆盖比例、已付总成本等；不同制度的征收对象不同，可能影响不同行业。",
+              "quote": {
+                "text": "While carbon taxes are generally intended to directly charge emitters for the cost of pollution, the policy application of this definition depends on a system-by-system basis and may affect sectors differently.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.4 Question 3.5.3"
+              }
+            },
+            {
+              "title": "合规策略选项",
+              "content": "合规选项包括减排策略、能效改造、购买配额和/或碳信用；受监管时间长的企业还应说明长期合规与监管风险管理机制。",
+              "quote": {
+                "text": "Some of the options for compliance include emissions reductions strategies, efficiency upgrades, and purchases of allowances and/or carbon credits.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.5 Question 3.5.4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbam-boundary",
+      "title": "CBAM：新成本来源，披露暂缺位",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "欧盟碳边境调节机制（CBAM）2026 年实施后，欧盟以外的企业向欧盟销售部分商品时也需承担与 EU ETS 对齐的碳价；随着更多 CBAM 出现，受影响企业会更多。这也强化了企业建立内部碳价、引导生产端低碳化以避免额外成本的理由。",
+          "quote": {
+            "text": "With the implementation of the European Union’s carbon border adjustment mechanism (CBAM) in 2026, even companies outside of the EU have a carbon price (aligned with the EU ETS) applied to some of their goods when sold to the EU.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 1,
+          "numbered": false,
+          "cards": [
+            {
+              "content": "披露边界：CDP 问卷 3.5 节目前只覆盖 ETS，尚未扩展到受 CBAM 影响的企业；是否披露 CBAM 影响由企业自行决定，该部分仍在评估中，未来可能纳入问卷。",
+              "quote": {
+                "text": "Although this section currently covers ETSs, it has yet to be expanded to cover companies affected by CBAMs. Disclosure of being affected by CBAMs is not currently requested by CDP. This is being reviewed and may be included in the future.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1. Carbon pricing systems"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-basics",
+        "title": "碳定价是什么",
+        "standard": "carbonpricing"
+      },
+      {
+        "id": "carbonpricing-internal",
+        "title": "内部碳定价：机制与设计",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      },
+      {
+        "title": "CDP 整合企业问卷",
+        "url": "topic.html?standard=cdp&id=cdp-questionnaire"
+      }
+    ]
+  }
+}

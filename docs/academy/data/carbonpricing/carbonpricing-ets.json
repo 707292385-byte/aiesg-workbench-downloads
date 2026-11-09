@@ -1,0 +1,147 @@
+{
+  "id": "carbonpricing-ets",
+  "title": "ETS 与碳税：机制与制度示例",
+  "eyebrow": "机制拆解 · 代表性制度",
+  "summary": "EU ETS 是当前规模最大、最全面的排放交易体系；加拿大 BC、日本与英国分别代表收入中性碳税、广泛覆盖碳税与碳价下限。看懂这几个代表制度，就能理解不同碳定价设计如何影响企业。",
+  "tags": [
+    "ETS",
+    "碳税",
+    "制度示例"
+  ],
+  "group": "定位与基础",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "ets-example",
+      "title": "排放交易体系示例：EU ETS",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "欧盟 ETS（2005 年建立）是当前规模最大、覆盖最全面的排放交易体系，覆盖电力、水泥等高耗能行业的中大型排放源，后续提案拟扩展到道路运输等行业。",
+          "quote": {
+            "text": "The European Union ETS (2005) is currently the largest and most comprehensive ETS in place.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.3 Question 3.5.2"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "配额如何分配",
+              "content": "早期按各国国家分配计划（NAP）向企业分配配额；2013 年起配额由欧盟委员会统筹协调。超排企业需向愿出售配额的企业购买。",
+              "quote": {
+                "text": "Since 2013, allowances have been centrally coordinated by the European Commission.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.3 Question 3.5.2"
+              }
+            },
+            {
+              "title": "对企业披露的启示",
+              "content": "在 CDP 问卷 C3.5.2 中，企业应报告获配与需购买的配额数量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tax-examples",
+      "title": "碳税示例：三种设计思路",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "碳税虽都指向给排放定价，但政策设计因制度而异，对不同行业影响不同：有的直接向生产者征税，有的把成本归于化石燃料的消费者（如公用事业），有的向大型企业等使用者征税。"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "加拿大 BC 碳税（2008）",
+              "content": "覆盖广泛行业，推动企业提升能源与成本效率；税收以其他减免或返还形式回流纳税人（收入中性），化石燃料生产者与进口商按月缴纳。",
+              "quote": {
+                "text": "The British Columbia Revenue-Neutral Carbon Tax (2008) applies to a broad range of sectors aiming to drive business towards more energy and cost efficient operations.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.4 Question 3.5.3"
+              }
+            },
+            {
+              "title": "日本气候变化对策税（2012）",
+              "content": "覆盖所有行业，含豁免在内仍覆盖全国约 70% 的温室气体排放；由化石燃料生产者隔月缴纳，收入投向可再生能源与节能措施。",
+              "quote": {
+                "text": "Japan’s Tax for Climate Change Mitigation (2012) applies to all sectors and even with some exemptions captures almost 70% of the country’s GHG emissions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.4 Question 3.5.3"
+              }
+            },
+            {
+              "title": "英国碳价下限（2013）",
+              "content": "为英国电力行业设定最低碳价，高于 UK ETS 下可能支付的水平；由配额价格加可变的碳价支持（CPS）费率构成。",
+              "quote": {
+                "text": "The UK’s Carbon Price Floor (2013) sets a price minimum carbon price for UK power generators, above what they may need to pay under the UK ETS.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 1.4 Question 3.5.3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design-takeaways",
+      "title": "制度差异对企业的含义",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "从这些制度可以看出三个关键差异点：谁承担缴纳义务（生产者、进口商还是消费者）、价格由市场还是税率决定、税收收入是否循环使用。企业评估自身敞口时，先看这三点。"
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "义务人",
+              "content": "同为碳税，BC 与日本向化石燃料生产者/进口商征收，成本沿供应链传导；判断自己是否在传导链上，比只看是否直接纳税更准确。"
+            },
+            {
+              "title": "价格形成",
+              "content": "ETS 价格随行就市，波动大；碳税税率确定，可预期性强。做内部碳价基准时应区别对待。"
+            },
+            {
+              "title": "收入循环",
+              "content": "BC 碳税收入返还纳税人，日本碳税收入投向可再生能源与节能——收入用途决定政策走向，也影响未来价格路径。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-basics",
+        "title": "碳定价是什么",
+        "standard": "carbonpricing"
+      },
+      {
+        "id": "carbonpricing-disclosure",
+        "title": "企业怎么披露碳定价",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      }
+    ]
+  }
+}

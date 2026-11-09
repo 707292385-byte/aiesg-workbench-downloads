@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-26T07:00:00.000Z",
+  "generatedAt": "2026-11-09",
   "standards": [
     {
       "id": "msci",
@@ -337,6 +337,20 @@
       "groups": 3,
       "topics": 6,
       "data": "data/iso26000.json"
+    },
+    {
+      "id": "carbonpricing",
+      "title": "碳定价机制与披露",
+      "titleEn": "Carbon Pricing: Mechanisms and Disclosure",
+      "eyebrow": "ETS 与碳税 · CDP 披露路径 · 内部碳定价",
+      "accent": "#44576d",
+      "description": "碳定价是对排放赋予货币价值的政策工具，分排放交易体系与碳税两种形式。本体系拆解其机制、全球版图、CDP 问卷披露路径与内部碳价设计方法。",
+      "issuer": "世界银行（全球版图数据）；CDP（披露指引）",
+      "version": "依据 CDP 技术说明 7.0 版（2026 年 4 月 20 日）",
+      "updated": "2026.11.09",
+      "groups": 4,
+      "topics": 6,
+      "data": "data/carbonpricing.json"
     }
   ]
 }

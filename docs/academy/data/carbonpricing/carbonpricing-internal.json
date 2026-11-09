@@ -1,0 +1,358 @@
+{
+  "id": "carbonpricing-internal",
+  "title": "内部碳定价：机制与设计",
+  "eyebrow": "内部碳价 · 四种机制 · C5.10 披露要点",
+  "summary": "内部碳定价是企业内部为温室气体排放设定的货币价值，用于引导决策。2025 年有超过 5900 家企业向 CDP 披露正在使用或计划两年内使用；C5.10.1 要披露目标、机制类型、定价依据、价格形态、范围覆盖、业务应用与监测评估。",
+  "tags": [
+    "内部碳价",
+    "影子价格",
+    "C5.10.1"
+  ],
+  "group": "内部碳定价",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "definition",
+      "title": "定义与增长轨迹",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "内部碳定价是企业内部为温室气体排放设定的货币价值，用于引导决策，帮助企业在低碳转型中评估和管理相关风险与机会。CDP 自 2013 年起代表投资者等数据使用方收集内部碳价数据。",
+          "quote": {
+            "text": "a monetary value on GHG emissions an organization uses internally to guide its decision-making process",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note），引 TCFD (2021)"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "使用规模（2025）",
+              "content": "超过 5900 家企业向 CDP 披露其正在使用内部碳价，或预计两年内使用。",
+              "quote": {
+                "text": "In 2025, over 5900 companies disclosed to CDP that they use an internal carbon price or anticipate doing so in the next two years.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+              }
+            },
+            {
+              "title": "增长轨迹",
+              "content": "从 2014 年的 150 家全球企业，增长到 2022 年超过 3600 家披露正在使用或计划两年内使用内部碳价。",
+              "quote": {
+                "text": "From 150 global companies in 2014, the number has grown to over 3600 companies in 2022 disclosing that they use an internal carbon price or are planning to do so within the next two years.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.1 Question 5.10"
+              }
+            },
+            {
+              "title": "增长动力",
+              "content": "各行业各地区稳步增长，主要受直接或间接给碳定价的法规发展，以及股东与客户对企业管理气候风险的压力推动。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objectives",
+      "title": "三类目标：管风险、找机会、促转型",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "企业常为内部碳价报告多重目标，并随内外部变化调整定价方式以保持有效。技术说明归纳出三类常见目的及对应成果。",
+          "quote": {
+            "text": "In many cases, companies report multiple objectives for their internal carbon price – particularly as internal and external developments occur that require a readjustment of the pricing approach to maximize its effectiveness.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.1 Objectives"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "目的",
+              "潜在目标与成果"
+            ],
+            [
+              "评估与管理碳相关风险的工具",
+              "评估风险敞口；为战略响应和资产投资提供依据，抵御监管风险（ETS、碳税或隐性碳定价政策），包括投资新技术或能效以降低成本；向股东展示风险管理"
+            ],
+            [
+              "识别碳相关机会的工具",
+              "发现价值链中降本与韧性投资机会；改变员工与供应商行为；发现新市场与收入机会；影响研发投资决策"
+            ],
+            [
+              "转型工具",
+              "使投资策略对齐 1.5°C 情景、企业对齐巴黎协定；加速减排并推动能效、可再生能源采购与低碳产品研发投资；产生收入再投资于低碳活动"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanisms",
+      "title": "四种机制类型",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "近年企业披露中形成了几种常见的内部碳定价机制类型，2022 年回复 CDP 问卷的企业中超过 60% 使用影子价格。",
+          "quote": {
+            "text": "Over 60% of companies that responded to the CDP questionnaire in 2022 utilize a shadow price – attaching a hypothetical cost of carbon to each ton of CO2e – as a tool to reveal hidden risks and opportunities throughout its operations and supply chain and to support strategic decision-making related to future capital investments.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.2 Types of internal carbon pricing mechanisms"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "影子价格 Shadow price",
+              "content": "对每吨 CO2e 赋予假想的碳成本，用于揭示运营与供应链中的隐性风险和机会，支持未来资本投资的战略决策。",
+              "quote": {
+                "text": "Over 60% of companies that responded to the CDP questionnaire in 2022 utilize a shadow price – attaching a hypothetical cost of carbon to each ton of CO2e – as a tool to reveal hidden risks and opportunities throughout its operations and supply chain and to support strategic decision-making related to future capital investments.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.2 Types of internal carbon pricing mechanisms"
+              }
+            },
+            {
+              "title": "内部收费 Internal fee",
+              "content": "更进一步：按排放向责任业务单元收费，收入常再投资于清洁技术等推动全公司低碳转型的活动。",
+              "quote": {
+                "text": "Internal fee mechanisms take this approach a step further by charging responsible business units for their carbon emissions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.2 Types of internal carbon pricing mechanisms"
+              }
+            },
+            {
+              "title": "内部交易 Internal trading",
+              "content": "再进一步：允许公司内部业务单元按各自排放交易分配的碳信用。",
+              "quote": {
+                "text": "Internal trading takes this model a step further, allowing the business units within a company to trade their allocated carbon credits based on respective emissions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.2 Types of internal carbon pricing mechanisms"
+              }
+            },
+            {
+              "title": "隐含价格 Implicit price",
+              "content": "有减排或可再生能源目标的企业，用减排/采购成本除以减排吨数计算隐含价格，用于量化实现气候目标所需的资本投入，常作为设定更战略性内部碳价的基准。",
+              "quote": {
+                "text": "Some companies with emissions reduction or renewable energy targets calculate an implicit price by dividing the cost of abatement/procurement by the tons of CO2e abated.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.2 Types of internal carbon pricing mechanisms"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factors-variance",
+      "title": "定价依据与价格形态",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "披露内部碳价时须说明定价所考虑的因素，帮助数据使用方判断企业是否纳入了实现气候目标所需的要素。技术说明列举的考虑因素包括：与科学指引对齐、与国际标准对齐、与碳税价格对齐、现行或待定立法、情景分析、气候影响的社会成本。",
+          "quote": {
+            "text": "When reporting an internal carbon price, it is important to disclose the factors considered in determining it. This helps data users understand whether the organization has taken into account the elements required to meet its climate-related objectives.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.3 Factors considered in the price"
+          }
+        },
+        {
+          "type": "standard",
+          "content_cn": "企业还应披露价格在时间与空间上的差异及其在决策中的应用范围。"
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "统一定价 Uniform",
+              "content": "单一价格，全公司适用，不因地域、业务单元或决策类型而异。",
+              "quote": {
+                "text": "Uniform pricing: a single price that is applied throughout the company independent of geography, business unit, or type of decision.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.4 Price variance"
+              }
+            },
+            {
+              "title": "差异化定价 Differentiated",
+              "content": "按地区、业务单元或决策类型变化的价格。",
+              "quote": {
+                "text": "Differentiated pricing: a price that varies by region, business unit, or type of decision.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.4 Price variance"
+              }
+            },
+            {
+              "title": "静态定价 Static",
+              "content": "随时间保持不变的价格。",
+              "quote": {
+                "text": "Static pricing: a price that is constant over time.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.4 Price variance"
+              }
+            },
+            {
+              "title": "演进定价 Evolutionary",
+              "content": "随时间发展变化的价格。",
+              "quote": {
+                "text": "Evolutionary pricing: a price that develops over time.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.4 Price variance"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope-application",
+      "title": "范围覆盖与业务应用",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "每家企业的排放画像与决策流程不同，两者共同决定各业务单元对价值链排放的影响程度。不同范围的排放对应不同类型的业务决策。",
+          "quote": {
+            "text": "These factors combined determine the degree of influence that individual business units have over GHG emissions spread throughout the value chain.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.5 GHG scope coverage"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "温室气体排放",
+              "相关决策示例"
+            ],
+            [
+              "范围一",
+              "投资与生产决策"
+            ],
+            [
+              "范围二",
+              "能源采购决策"
+            ],
+            [
+              "范围三（上游）",
+              "材料采购与供应链决策"
+            ],
+            [
+              "范围三（下游）",
+              "面向当前/未来市场的创新产品研发决策"
+            ]
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "内部碳价可嵌入多种业务决策环节；影响程度差异很大——从作为财务指标被动计入成本计算，到作为项目决策的通过门槛。",
+          "quote": {
+            "text": "Degrees of influence can range significantly – from including the internal carbon price in cost calculations as a passive indicator, to imposing it as a passing criterion in project decisions.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": true,
+          "cards": [
+            {
+              "content": "常见披露的应用环节：资本支出、运营、采购、产品与研发、薪酬决策。",
+              "quote": {
+                "text": "Commonly disclosed operational applications include capital expenditure decisions, operational decisions, procurement decisions, product and R&D decisions, and remuneration decisions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application"
+              }
+            },
+            {
+              "content": "DANONE：2016 年经对标研究与法规跟踪，将内部碳价定在相对较高的 35 欧元/吨，以内部化长期潜在碳成本。",
+              "quote": {
+                "text": "DANONE updated its internal price of carbon and decided to set it at a relatively high level, 35€/t to internalize potential future cost of carbon in long term.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application（DANONE 案例）"
+              }
+            },
+            {
+              "content": "Michelin：2016 年 4 月起在所有重大资本支出项目的投资回报分析中引入 50 欧元/吨的影子价格，引导投资转向低碳方案。",
+              "quote": {
+                "text": "Starting in April 2016, an internal shadow price set at 50€/ton was effectively introduced in ROI analyses for all projects requiring major capital expenditure, such as production capacity increases, boiler upgrades and logistics operations.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application（Michelin 案例）"
+              }
+            },
+            {
+              "content": "Saint-Gobain：双层价格——30 欧元/吨用于新建产线等重大投资，100 欧元/吨用于引导面向 2030 年以后的研发预算，并纳入集团风险管理策略。",
+              "quote": {
+                "text": "The Group uses two levels of prices. The first one, 30€ per ton, is applied to the most substantial investments such as the construction of a new plant or energy-related projects on existing plants.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application（Saint-Gobain 案例）"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": "监测与评估",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "最后要对定价方式对照其目标及对承诺与转型计划落地的贡献进行监测评估：作为风险管理工具的，是否揭示了业务中的重大风险；作为目标实现工具的，是否实际推动了投资转向能效与低碳项目。",
+          "quote": {
+            "text": "Finally, it is important to monitor and evaluate the pricing approach against its objectives and its contribution to the implementation of your company’s commitments and transition plan.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.7 Monitoring & evaluation"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "cards": [
+            {
+              "content": "如果内部碳价没有对企业产生任何影响，同样需要解释原因——当前机制是否存在具体挑战。",
+              "quote": {
+                "text": "If the internal carbon price has not impacted your business in any way, it is equally important to explain why – are there specific challenges associated with your current mechanism?",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.7 Monitoring & evaluation"
+              }
+            },
+            {
+              "content": "Saint-Gobain 的高价层（100 欧元/吨）专门用于引导长期研发预算，体现内部碳价与研发决策、风险管理策略的结合。",
+              "quote": {
+                "text": "The other internal price of carbon is much higher (100€ per ton) and is used to guide R&D budgets with a long-term orientation (further than 2030).",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 2.2.6 Business application（Saint-Gobain 案例）"
+              }
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "反思影响（或缺乏影响）之后，还应报告未来完善或演进内部碳定价方式的计划。"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-disclosure",
+        "title": "企业怎么披露碳定价",
+        "standard": "carbonpricing"
+      },
+      {
+        "id": "carbonpricing-practice",
+        "title": "4D 框架与全球行动",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      },
+      {
+        "title": "GHG Protocol 核算体系",
+        "url": "topic.html?standard=ghg&id=ghg-basics"
+      }
+    ]
+  }
+}

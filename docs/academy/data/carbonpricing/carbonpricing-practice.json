@@ -1,0 +1,169 @@
+{
+  "id": "carbonpricing-practice",
+  "title": "4D 框架与全球行动",
+  "eyebrow": "最佳实践 · CPLC · 全球契约",
+  "summary": "基于 Carbon Pricing Unlocked 研究合作发布的指南，用高度、宽度、深度、时间四个维度设计和校准内部碳定价；CPLC、联合国全球契约碳定价领导力准则与 Carbon Pricing Corridors 提供外部行动路径。",
+  "tags": [
+    "4D 框架",
+    "CPLC",
+    "最佳实践"
+  ],
+  "group": "实践与行动",
+  "status": "官方文件整理",
+  "officialUrl": "https://www.cdp.net/",
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "sections": [
+    {
+      "id": "four-dimensions",
+      "title": "4D 框架：四个维度组合出最佳实践",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "基于 Carbon Pricing Unlocked 研究合作，Ecofys（Navigant 旗下）、The Generation Foundation 与 CDP 发布了内部碳定价实践指南，提出 4D 框架。框架帮助企业对齐现有做法或从零建立最佳实践；最佳实践的内部碳定价必须有清晰目标，并在四个维度间找到最优组合。",
+          "quote": {
+            "text": "A best practice internal carbon pricing approach must have clear objectives and find the optimal combination of the four dimensions of internal carbon pricing.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 3.1 Four dimensions to design a best practice"
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "维度",
+              "参数",
+              "最佳实践方向"
+            ],
+            [
+              "高度 Height",
+              "企业在业务决策中使用的单位排放价格水平（如美元/吨 CO2）",
+              "提升到能够按内部碳价目标改变决策的价格"
+            ],
+            [
+              "宽度 Width",
+              "内部碳定价方法覆盖的价值链温室气体排放范围",
+              "扩大到覆盖整个价值链中所有可影响的排放热点"
+            ],
+            [
+              "深度 Depth",
+              "内部碳定价对企业及其价值链伙伴业务决策的影响程度",
+              "不断增强影响力，对业务决策产生实质性影响"
+            ],
+            [
+              "时间 Time",
+              "前三个维度随时间的发展",
+              "定期评估，使企业战略与低碳经济保持一致"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcfd-linkage",
+      "title": "指南文件与 TCFD 衔接",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "内部碳定价是 TCFD 建议的多维度工具，可帮助企业识别并应对低碳转型中的风险与机会；但其全部潜力在多数企业的日常决策流程中尚未充分落地，这正是 4D 指南要解决的问题。指南提供分步设计实施指引，另有面向董事会成员的专版帮助其选择最适合企业的方案。",
+          "quote": {
+            "text": "This echoes recommendations published by the Financial Stability Board’s Task Force on Climate-related Financial Disclosures (TCFD). Carbon pricing is the most mature version of pricing of environmental externalities.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice（About this technical note）"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 2,
+          "numbered": false,
+          "cards": [
+            {
+              "title": "How-To Guide",
+              "content": "How-To Guide to Corporate Internal Carbon Pricing: Four dimensions to best practice approaches（Ecofys、The Generation Foundation 与 CDP，2017）。"
+            },
+            {
+              "title": "Putting a price on carbon 系列",
+              "content": "CDP 出版的系列研究：将气候风险纳入业务规划（2017 年 10 月）、印度企业手册 2.0（2017 年 10 月）、全球企业内部碳定价现状（2021 年 4 月）。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "title": "全球行动倡议",
+      "learningLayer": "practical",
+      "blocks": [
+        {
+          "type": "standard",
+          "content_cn": "碳定价领导力联盟（CPLC）汇聚政府、企业与公民社会领袖，推动建立兼顾竞争力、就业、创新与实质减排的有效碳定价政策；该联盟在 2014 年联合国气候峰会上 74 个国家和超过 1000 家企业表态支持碳定价后成立，目前已有超过 320 个合作伙伴。",
+          "quote": {
+            "text": "The Coalition now consists of over 320 partners including governments, businesses, and civil society organizations—committed to promoting carbon pricing as a cost-effective policy tool for economic development and climate action.",
+            "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 4.1 Join the Coalition"
+          }
+        },
+        {
+          "type": "card_grid",
+          "cols": 3,
+          "numbered": true,
+          "cards": [
+            {
+              "title": "CPLC 成立背景",
+              "content": "2014 年联合国气候峰会上 74 国与超 1000 家企业表态支持碳定价，联盟由此成立。",
+              "quote": {
+                "text": "The CPLC formed in the wake of a groundswell of support for carbon pricing at the 2014 United Nations Climate Summit, where 74 countries and more than 1,000 companies expressed support for carbon pricing.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 4.1 Join the Coalition"
+              }
+            },
+            {
+              "title": "联合国全球契约碳定价领导力准则",
+              "content": "对承诺企业提出三项要求：设定足以实质影响投资决策、推动减排的内部碳价；通过考虑各国经济与政策环境的政策机制公开倡导碳定价；在公开企业报告中持续沟通进展。",
+              "quote": {
+                "text": "Set an internal carbon price high enough to materially affect investment decisions to drive down greenhouse gas emissions.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 4.2 Put a price on carbon"
+              }
+            },
+            {
+              "title": "Carbon Pricing Corridors",
+              "content": "2017 年由 CPLC、We Mean Business Coalition 与 CDP 发起的行业主导倡议，界定行业实现巴黎协定所需碳价区间；首期报告聚焦电力行业，后续扩展到化工行业。",
+              "quote": {
+                "text": "In 2017, the Carbon Pricing Leadership Coalition, We Mean Business Coalition, and CDP launched the Carbon Pricing Corridors: an industry-led initiative aimed at defining the carbon prices needed for industry to meet the Paris Agreement.",
+                "source": "CDP 技术说明 Carbon Pricing: CDP Disclosure Best Practice 4.3 Map the Corridor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "standard",
+          "content_cn": "对企业而言，参与这些倡议的意义在于：内部碳价不只是合规披露的数据点，也是对冲外部碳价上行（ETS 扩围、碳税加码、CBAM 延伸）的投资决策工具——这与 4D 框架中「高度」维度的最佳实践方向一致。"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "internal": [
+      {
+        "id": "carbonpricing-internal",
+        "title": "内部碳定价：机制与设计",
+        "standard": "carbonpricing"
+      }
+    ],
+    "external": [
+      {
+        "title": "世界银行 Carbon Pricing Dashboard",
+        "url": "https://carbonpricingdashboard.worldbank.org/"
+      },
+      {
+        "title": "CDP 官网",
+        "url": "https://www.cdp.net/"
+      },
+      {
+        "title": "TCFD 建议",
+        "url": "topic.html?standard=tcfd&id=tcfd-basics"
+      },
+      {
+        "title": "SBTi 科学碳目标",
+        "url": "topic.html?standard=sbti&id=sbti-basics"
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id": "greenfinance",
+  "title": "绿色金融产品与项目目录认定",
+  "titleEn": "Green Finance Products and the 2025 Green Finance Supported Projects Catalog",
+  "eyebrow": "绿色金融标准 · 项目认定 · 评估认证",
+  "accent": "#a26b1c",
+  "description": "以《绿色金融支持项目目录（2025年版）》为主线，覆盖绿色金融产品谱系、九大领域与减排标记、新旧目录衔接、绿色债券核心要素与品种规则、评估认证流程与存续期披露：目录怎么用、条目怎么认定、证据怎么取、认证怎么做。",
+  "issuer": "中国人民银行、金融监管总局、中国证监会；绿色债券标准委员会",
+  "version": "2025 年版目录（2025-10-01 施行）· 2026 年评议细则",
+  "updated": "2026.11.09",
+  "topics": 6,
+  "sourceNote": "依据《绿色金融支持项目目录（2025年版）》通知及附件（中国人民银行、金融监管总局、中国证监会印发，2025年6月27日）、绿标委《关于绿色债券适用〈绿色金融支持项目目录（2025年版）〉工作机制的通知》（绿标委发〔2025〕2号）、《中国绿色债券原则》（绿标委公告〔2022〕第1号）、《绿色债券评估认证行为指引（暂行）》、《绿色债券评估认证机构市场化评议操作细则（2026年）》、《绿色债券评估认证业务检查工作规程（试行）》、《绿色债券存续期信息披露指南》官方文本整理；全部为中文官方文本，条目认定以官方原文及各品种规则为准。",
+  "notice": "约束力边界：《绿色金融支持项目目录（2025年版）》统一适用于各类绿色金融产品，沪深北交易所上市及股票发行、新三板挂牌及股票发行业务暂不适用；《中国绿色债券原则》《绿色债券存续期信息披露指南》为供市场主体参考使用的自律规则；评估认证机构须经绿标委市场化评议方可执业。本套页面为基于官方文本的研究整理，非官方发布，条目认定以官方原文及品种规则为准。",
+  "goals": [
+    "说清绿色金融产品谱系与 2025 年版目录的适用边界",
+    "读懂 2025 年版目录的九大领域与 √、√√ 减排标记",
+    "掌握新旧目录衔接的六类情形与逐项目判断方法",
+    "对照绿色债券四项核心要素核查各品种规则",
+    "走通评估认证的市场化评议、检查与自查流程",
+    "按存续期披露指南落实环境效益与资金信息披露"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "确定适用规则",
+      "desc": "先定市场与品种（交易所公司债/ABS、银行间债务融资工具/ABN、金融债），再定目录版本与衔接情形。"
+    },
+    {
+      "step": "2",
+      "title": "对目录条目",
+      "desc": "按 2025 年版目录领域→大类→条目定位经济活动，核对条件、备注与行业代码，确认 √ 或 √√ 标记。"
+    },
+    {
+      "step": "3",
+      "title": "核技术条件与证据",
+      "desc": "按条目引用的技术标准逐项取证：能效等级、检测报告、证书范围与有效期、更严地方政策。"
+    },
+    {
+      "step": "4",
+      "title": "评估认证与披露",
+      "desc": "按四项核心要素完成评估认证与资金管理，按存续期披露指南持续披露环境效益。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "体系总览",
+      "items": [
+        {
+          "id": "greenfinance-basics",
+          "title": "制度框架与产品全景",
+          "eyebrow": "顶层制度 · 统一目录 · 产品谱系",
+          "summary": "从 2016 年顶层设计到 2025 年统一目录的制度脉络，以及绿色信贷、绿色债券、绿色 ABS、碳金融产品的全景。",
+          "tags": [
+            "顶层制度",
+            "统一目录",
+            "产品谱系"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://app.www.gov.cn/govdata/gov/202507/15/532790/article.html",
+          "detailFile": "data/greenfinance/greenfinance-basics.json"
+        },
+        {
+          "id": "greenfinance-catalog",
+          "title": "2025年版目录结构与适用",
+          "eyebrow": "九大领域 · 减排标记 · 附加要求",
+          "summary": "九大领域三级结构、√ 与 √√ 减排标记的读法、行业代码与引用技术标准的边界。",
+          "tags": [
+            "九大领域",
+            "√√标记",
+            "行业代码"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.gov.cn/lianbo/bumen/202507/P020250715355775055443.pdf",
+          "detailFile": "data/greenfinance/greenfinance-catalog.json"
+        }
+      ]
+    },
+    {
+      "title": "目录衔接与品种规则",
+      "items": [
+        {
+          "id": "greenfinance-transition",
+          "title": "新旧目录衔接与条目认定",
+          "eyebrow": "发布日与施行日 · 六类情形 · 逐项目判断",
+          "summary": "发布日、施行日与六类衔接情形；重点条目合并改名的判断方法与逐项目认定证据。",
+          "tags": [
+            "衔接机制",
+            "逐项目判断",
+            "认定证据"
+          ],
+          "status": "官方文件整理 + 研究整理",
+          "officialUrl": "https://www.nafmii.org.cn/ggtz/tz/202509/t20250930_323580.html",
+          "detailFile": "data/greenfinance/greenfinance-transition.json"
+        },
+        {
+          "id": "greenfinance-products",
+          "title": "绿色债券核心要素与品种规则",
+          "eyebrow": "四项核心要素 · 品种规则 · ABS 两类路径",
+          "summary": "四项核心要素、第三方评估认证的建议属性、各市场品种规则与绿色 ABS 两类认定路径。",
+          "tags": [
+            "四项核心要素",
+            "品种规则",
+            "ABS路径"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.nafmii.org.cn/ztbd/lszqbzwyh/tzgg/202208/P020220823662801433599.pdf",
+          "detailFile": "data/greenfinance/greenfinance-products.json"
+        }
+      ]
+    },
+    {
+      "title": "评估认证与信息披露",
+      "items": [
+        {
+          "id": "greenfinance-assessment",
+          "title": "评估认证与市场化评议流程",
+          "eyebrow": "行为指引 · 市场化评议 · 检查与自查",
+          "summary": "评估认证的定义与独立性硬性要求、市场化评议流程、检查与自查机制。",
+          "tags": [
+            "市场化评议",
+            "独立性",
+            "检查与自查"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.nafmii.org.cn/ggtz/gg/202603/t20260309_324913.html",
+          "detailFile": "data/greenfinance/greenfinance-assessment.json"
+        },
+        {
+          "id": "greenfinance-disclosure",
+          "title": "存续期披露与环境效益",
+          "eyebrow": "披露指南 · 环境效益字段 · 披露质量",
+          "summary": "存续期披露指南的定位与品种、披露时点与内容、环境效益统一字段与披露质量要点。",
+          "tags": [
+            "存续期披露",
+            "环境效益",
+            "报告模板"
+          ],
+          "status": "官方文件整理",
+          "officialUrl": "https://www.nafmii.org.cn/ztbd/lszqbzwyh/tzgg/202311/t20231129_316418.html",
+          "detailFile": "data/greenfinance/greenfinance-disclosure.json"
+        }
+      ]
+    }
+  ]
+}

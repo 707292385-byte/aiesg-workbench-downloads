@@ -1,0 +1,119 @@
+{
+  "id": "carbonpricing",
+  "title": "碳定价机制与披露",
+  "titleEn": "Carbon Pricing: Mechanisms and Disclosure",
+  "eyebrow": "ETS 与碳税 · CDP 披露路径 · 内部碳定价",
+  "accent": "#44576d",
+  "description": "碳定价是对排放赋予货币价值的政策工具，分排放交易体系与碳税两种形式。本体系拆解其机制、全球版图、CDP 问卷披露路径与内部碳价设计方法。",
+  "issuer": "世界银行（全球版图数据）；CDP（披露指引）",
+  "version": "依据 CDP 技术说明 7.0 版（2026 年 4 月 20 日）",
+  "updated": "2026.11.09",
+  "category": "disclosure",
+  "topics": 6,
+  "sourceNote": "本体系依据 CDP 官方技术说明 Carbon Pricing: CDP Disclosure Best Practice（7.0 版，2026 年 4 月 20 日）整理，全球版图数据引自该说明所引世界银行 State and Trends of Carbon Pricing（2025）；原件为英文，中文表述为通译参考，由 AI 翻译仅供参考。悬浮「原文」可查看对应官方原文。",
+  "notice": "约束力边界：ETS、碳税与 CBAM 是具法律强制力的政策工具；CDP 披露为自愿机制，不产生认证。本体系为学习整理，非 CDP 官方产品；全球版图数字引自世界银行 State and Trends of Carbon Pricing（2025），随年度更新，正式填报以 CDP 当期材料为准。",
+  "goals": [
+    "理解碳定价的两种基本形式与全球版图",
+    "看懂 ETS 与碳税的机制差异与代表制度",
+    "掌握 CDP 问卷碳定价披露要点（C3.5 与 C5.10）",
+    "辨析内部碳定价的四种机制类型",
+    "会用 4D 框架评估内部碳定价的成熟度",
+    "认清 CBAM 与 TCFD 对碳定价披露的影响"
+  ],
+  "process": [
+    {
+      "step": "1",
+      "title": "判断碳定价敞口",
+      "desc": "梳理运营所在辖区的 ETS、碳税与 CBAM 适用情况，判断当前与预期监管。"
+    },
+    {
+      "step": "2",
+      "title": "选定适用体系",
+      "desc": "在世界银行法规清单中选定适用的 ETS 与碳税，覆盖全球运营而非仅注册地。"
+    },
+    {
+      "step": "3",
+      "title": "披露监管细节",
+      "desc": "按 C3.5.2/3.5.3 报告排放覆盖比例、配额与税负，按 C3.5.4 说明合规策略。"
+    },
+    {
+      "step": "4",
+      "title": "评估内部碳价",
+      "desc": "确认目标、机制类型、定价依据、价格形态与范围覆盖，按 C5.10.1 披露。"
+    },
+    {
+      "step": "5",
+      "title": "用 4D 框架校准",
+      "desc": "从高度、宽度、深度、时间四个维度评估内部碳定价是否达到最佳实践。"
+    },
+    {
+      "step": "6",
+      "title": "监测与演进",
+      "desc": "对照目标监测实际影响，说明未生效的原因，并报告改进计划。"
+    }
+  ],
+  "groups": [
+    {
+      "title": "定位与基础",
+      "items": [
+        {
+          "id": "carbonpricing-basics",
+          "title": "碳定价是什么",
+          "titleEn": "What is Carbon Pricing",
+          "summary": "外部性定价、两种形式与 2026 全球版图。",
+          "detailFile": "data/carbonpricing/carbonpricing-basics.json"
+        },
+        {
+          "id": "carbonpricing-ets",
+          "title": "ETS 与碳税：机制与制度示例",
+          "titleEn": "ETS and Carbon Tax in Practice",
+          "summary": "EU ETS、BC 碳税、日本碳税与英国碳价下限。",
+          "detailFile": "data/carbonpricing/carbonpricing-ets.json"
+        }
+      ]
+    },
+    {
+      "title": "披露路径",
+      "items": [
+        {
+          "id": "carbonpricing-disclosure",
+          "title": "企业怎么披露碳定价",
+          "titleEn": "Disclosing Carbon Pricing via CDP",
+          "summary": "CDP 问卷 C3.5 与 C5.10 系列及 CBAM 披露边界。",
+          "detailFile": "data/carbonpricing/carbonpricing-disclosure.json"
+        }
+      ]
+    },
+    {
+      "title": "内部碳定价",
+      "items": [
+        {
+          "id": "carbonpricing-internal",
+          "title": "内部碳定价：机制与设计",
+          "titleEn": "Internal Carbon Price",
+          "summary": "定义、四种机制、定价依据、价格形态、范围与应用。",
+          "detailFile": "data/carbonpricing/carbonpricing-internal.json"
+        },
+        {
+          "id": "carbonpricing-practice",
+          "title": "4D 框架与全球行动",
+          "titleEn": "4D Framework and Global Action",
+          "summary": "高度、宽度、深度、时间；CPLC 与全球契约准则。",
+          "detailFile": "data/carbonpricing/carbonpricing-practice.json"
+        }
+      ]
+    },
+    {
+      "title": "衔接与边界",
+      "items": [
+        {
+          "id": "carbonpricing-linkage",
+          "title": "衔接与边界：碳定价在披露体系中的位置",
+          "titleEn": "Linkages and Boundaries",
+          "summary": "与 CDP、TCFD、SBTi、CBAM 的关系及约束力边界。",
+          "detailFile": "data/carbonpricing/carbonpricing-linkage.json"
+        }
+      ]
+    }
+  ]
+}
