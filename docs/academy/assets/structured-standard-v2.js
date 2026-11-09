@@ -19,7 +19,8 @@
     csddd: ['适用范围与时间表', '活动链边界', '风险识别与排序', '预防、减轻与补救', '申诉、监测与监督'],
     eubr: ['电池分类与责任主体', '安全、性能与循环设计', '碳足迹与再生材料', '标签、二维码与电池护照', '供应链尽职调查'],
     eudr: ['商品与产品范围', '零毁林、合法性与尽调', '信息、评估与风险减轻', '地理定位与尽调声明', '风险分类与监管检查'],
-    carbonpricing: ['环境外部性定价', 'ETS 与碳税两种形式', 'CDP 披露路径 C3.5 与 C5.10', '内部碳定价机制', '4D 最佳实践', '与 TCFD 及 CBAM 衔接']
+    carbonpricing: ['环境外部性定价', 'ETS 与碳税两种形式', 'CDP 披露路径 C3.5 与 C5.10', '内部碳定价机制', '4D 最佳实践', '与 TCFD 及 CBAM 衔接'],
+    greenfinance: ['统一项目目录', '九大领域与减排标记', '新旧衔接机制', '四项核心要素', '市场化评议', '存续期披露']
   };
   const labels = {
     ashare: { short: 'A股', type: '交易所披露规则', group: '披露主题' },
@@ -39,7 +40,8 @@
     csddd: { short: 'CSDDD', type: '欧盟企业可持续发展尽职调查指令', group: '尽调模块' },
     eubr: { short: 'EUBR', type: '欧盟电池及废电池法规', group: '合规模块' },
     eudr: { short: 'EUDR', type: '欧盟零毁林产品法规', group: '合规模块' },
-    carbonpricing: { short: '碳定价', type: '碳定价机制与披露', group: '知识模块' }
+    carbonpricing: { short: '碳定价', type: '碳定价机制与披露', group: '知识模块' },
+    greenfinance: { short: '绿色金融', type: '产品目录与评估认证', group: '知识模块' }
   };
   const clip = (value, limit = 105) => {
     const text = String(value || '').replace(/\s+/g, ' ').trim();

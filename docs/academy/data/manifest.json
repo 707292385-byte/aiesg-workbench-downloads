@@ -351,6 +351,20 @@
       "groups": 4,
       "topics": 6,
       "data": "data/carbonpricing.json"
+    },
+    {
+      "id": "greenfinance",
+      "title": "绿色金融产品与项目目录认定",
+      "titleEn": "Green Finance Products and the 2025 Green Finance Supported Projects Catalog",
+      "eyebrow": "绿色金融标准 · 项目认定 · 评估认证",
+      "accent": "#a26b1c",
+      "description": "以《绿色金融支持项目目录（2025年版）》为主线，覆盖绿色金融产品谱系、九大领域与减排标记、新旧目录衔接、绿色债券核心要素与品种规则、评估认证流程与存续期披露：目录怎么用、条目怎么认定、证据怎么取、认证怎么做。",
+      "issuer": "中国人民银行、金融监管总局、中国证监会；绿色债券标准委员会",
+      "version": "2025 年版目录（2025-10-01 施行）· 2026 年评议细则",
+      "updated": "2026.11.09",
+      "groups": 3,
+      "topics": 6,
+      "data": "data/greenfinance.json"
     }
   ]
 }

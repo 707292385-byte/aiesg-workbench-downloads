@@ -21,6 +21,7 @@ body[data-page=structured-standard]{margin:0;background:#f3f6f4;color:#17241f}
 .structured-standard-page[data-system=eubr]{--mp-green:#176f67;--hub-dark:#103f3b;--hub-mid:#176f67;--hub-light:#32938a;--hub-tint:#eaf6f4}
 .structured-standard-page[data-system=eudr]{--mp-green:#2f6d3a;--hub-dark:#173d20;--hub-mid:#2f6d3a;--hub-light:#57945f;--hub-tint:#edf6ee}
 .structured-standard-page[data-system=carbonpricing]{--mp-green:#44576d;--hub-dark:#2a3644;--hub-mid:#44576d;--hub-light:#6f88a5;--hub-tint:#f4f5f6}
+.structured-standard-page[data-system=greenfinance]{--mp-green:#a26b1c;--hub-dark:#644211;--hub-mid:#a26b1c;--hub-light:#de9d40;--hub-tint:#f9f6f1}
 .structured-standard-page .mh-hero{background:radial-gradient(circle at 84% 12%,rgba(255,255,255,.16),transparent 24%),linear-gradient(125deg,var(--hub-dark),var(--hub-mid) 62%,var(--hub-light))}
 .structured-standard-page .mp-brand>span{background:linear-gradient(145deg,var(--hub-mid),var(--hub-light))}
 .structured-standard-page .mp-hero-tags{margin-top:17px}
