@@ -249,3 +249,13 @@ details[open]>summary .st-caret{transform:rotate(-135deg) translateY(-2px);}
 }
 
 .kd-translation-note{margin:24px 0 0;padding-top:12px;border-top:1px solid #e1e9e4;color:#7b8e84;font-size:11px;line-height:1.6}
+
+/* greenfinance：内容卡统一普通样式，不按来源加彩边彩底 */
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-ai,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-authority,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-curated,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-mixed{border-left-width:0;background:#fff}
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-ai>header,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-authority>header,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-curated>header,
+.kd-page[data-system=greenfinance] .kd-content-card.kd-source-mixed>header{background:#fff;border-bottom-color:#e5e9e7}
